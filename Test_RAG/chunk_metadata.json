@@ -1,0 +1,230 @@
+[
+  {
+    "section": "Unknown Section",
+    "text": "Results were then refined to experimental papers written in English. On the 21st of August 2019, this search yielded 429 articles. We screened these articles retaining those in which animal DNA samples were actually collected, leading to 397 articles, and removed articles with insufficient methodological information to draw conclusions about the specific questions investigated. A total of 380 papers were retained in our final dataset (see list in Supplementary Table"
+  },
+  {
+    "section": "Unknown Section",
+    "text": "During the same time period and in the same fields as above, we estimated the total number of articles focusing on invertebrates versus vertebrates using the following commands:"
+  },
+  {
+    "section": "Unknown Section",
+    "text": "-(TS=(mammal) OR TS=(vertebrate) OR TS=(bird) OR TS=(amphibian) OR TS=(reptile) OR TS=(fish) NOT"
+  },
+  {
+    "section": "INTRODUCTION",
+    "text": "DNA data are becoming increasingly important in animal biology"
+  },
+  {
+    "section": "INTRODUCTION",
+    "text": "Methods of DNA collection were originally defined as 'non-invasive' if \"the source of the DNA is left behind by the animal and can be collected without having to catch or disturb the animal\""
+  },
+  {
+    "section": "INTRODUCTION",
+    "text": "These non-invasive DNA sampling procedures have been applied to study a wide range of animal taxa and answer various questions such as species identification, sexing, population genetics, description of the diet etc. To draw a comprehensive picture of the current use of these methods, we conducted a systematic review of the recent literature"
+  },
+  {
+    "section": "METHOD",
+    "text": "We conducted a keyword-based search on the Web Of Science core collection using the keywords DNA and non-invasive or DNA and noninvasive, as both spellings were originally proposed and are in common use"
+  },
+  {
+    "section": "METHOD",
+    "text": "(TS=((dna AND non-invasive) OR (dna AND noninvasive)) AND SU=(ecology OR zoology OR ornithology zoology OR ornithology OR ecology OR environmental sciences OR entomology OR fisheries OR behavioural science OR Biodiversity & Conservation) AND PY="
+  },
+  {
+    "section": "METHOD",
+    "text": "The results from these searches were used as non-exhaustive but comparable numeric estimates only, and were therefore not further curated. The abstract and the method section of each papers were carefully screened to check whether the methods used complied with the original definition proposed by Taberlet et al."
+  },
+  {
+    "section": "METHOD",
+    "text": "Statistical analyses were conducted with R(R Core Team, 2018) (version 3.6) and RStudio(RStudio, 2017) (version 1.2.1335). Packages used included stats, googleVis and bipartite. Statistical significance was set at 5%."
+  },
+  {
+    "section": "WHAT NON-INVASIVE DNA SAMPLING IS USED FOR",
+    "text": "Our systematic review captured 380 articles for which samples were collected from 96 different countries on all continents except mainland Antarctica (Fig"
+  },
+  {
+    "section": "WHAT NON-INVASIVE DNA SAMPLING IS USED FOR",
+    "text": "Among the studies captured in our review, 40% aimed at identifying organisms at the species level, for example to produce biodiversity inventories, or at the individual level"
+  },
+  {
+    "section": "WHAT NON-INVASIVE DNA SAMPLING IS USED FOR",
+    "text": "The type of samples collected varied widely and 30 different categories were recorded. However, a large number of the studies focused on faecal samples collected as eDNA (48%)"
+  },
+  {
+    "section": "WHAT NON-INVASIVE DNA SAMPLING IS USED FOR",
+    "text": "Overall, the substantial majority of sampling methods (71%), were based on the collection of eDNA, while DNA trapping was rarely used (10%). Other cases included studies using several different methods (11%) and few very specific cases"
+  },
+  {
+    "section": "DNA COLLECTION AND THE NON-INVASIVE MISNOMMER",
+    "text": "Subsequent to its original definition, the term non-invasive has often been misapplied in the literature"
+  },
+  {
+    "section": "DNA COLLECTION AND THE NON-INVASIVE MISNOMMER",
+    "text": "When the terminology for DNA sampling is misapplied as being non-invasive when it is not, readers unfamiliar with the scientific literature on DNA sampling (e.g. decision makers, conservation managers, and other end-users), may be misled in thinking that the described method can be applied without affecting the fitness nor behaviour of the target animals. Misnaming DNA sampling is also problematic for assessing impact on animals, identifying opportunities for refinement, and for judging the validity and quality of the data collected. Using more precise terminology could also help scientists realise that they may have been using invasive methods after all, and encourage them to consider reducing the impact of their sampling and/or search for truly non-invasive alternatives. The main issues exposed by our literature search are summarised in Box 1."
+  },
+  {
+    "section": "Box 1: THE SEVEN SINS OF NON-INVASIVE DNA SAMPLING Sin 1: Taxonomic bias",
+    "text": "One conspicuous result from our review was that only 18 studies (~6% of the reviewed papers) focused on invertebrates compared to 356 focusing on vertebrates"
+  },
+  {
+    "section": "Sin 2: Misclassification of faeces as non-invasive DNA samples",
+    "text": "The majority of the literature on non-invasive DNA sampling included the collection of faecal samples (62% of all studies reviewed here). Faecal collection is very prevalent in the field and assumed to be non-invasive by most authors. However, our analysis shows that 47% of the studies focusing solely on faecal sampling did not comply with the original definition of non-invasive DNA sampling. This included detection of animals and collection of faecal samples using aircraft (e.g."
+  },
+  {
+    "section": "Sin 3: Baiting DNA traps",
+    "text": "In most studies using a DNA trapping strategy (90%), researchers employed bait or lures to increase the yield of their traps. Very few studies used non-lured DNA traps, for example, barb wire placed at sites used by brown bears (Ursus arctos)"
+  },
+  {
+    "section": "Box 1: THE SEVEN SINS OF NON-INVASIVE DNA SAMPLING (continued) Sin 4: Combining invasive and non-invasive methods",
+    "text": "In a few examples the impact of the sampling strategy on animal behaviour is obvious from the article's title itself, for example when baited traps are mentioned (e.g."
+  },
+  {
+    "section": "Box 1: THE SEVEN SINS OF NON-INVASIVE DNA SAMPLING (continued) Sin 4: Combining invasive and non-invasive methods",
+    "text": "Another facet of this issue arises when tools (e.g. new primers, extraction protocols, DNA conservation methods) are developed specifically for analysing samples collected non-invasively but are actually tested only (or partly) on samples that were collected invasively (n=17) for example by capturing animals to perform the sampling (e.g."
+  },
+  {
+    "section": "Sin 5: A bird in the hand is no better than two in the bush",
+    "text": "Trapping and restraint of wild animals is recognised as a significant stressor that can result in distress, injury, and death (e.g."
+  },
+  {
+    "section": "BOX 1: THE SEVEN SINS OF NON-INVASIVE DNA SAMPLING (CONTINUED) Sin 6: All or nothing",
+    "text": "Only 42% of the reviewed studies fully met the criteria of the original definition of non-invasive DNA sampling. In most cases, however, authors tried to minimise the impact of sampling, but the nature of the definition proposed by Taberlet et al."
+  },
+  {
+    "section": "Sin 7: Equating a non-invasive procedure with non-invasive DNA sampling",
+    "text": "The lack of perceived stress or pain experienced by an animal is often used as a criterion to support the classification of a method as non-invasive. For example, du Toit et al."
+  },
+  {
+    "section": "INTRODUCING THE TERMS NON-DISRUPTIVE AND MINIMALLY DISRUPTIVE DNA SAMPLING",
+    "text": "In order to clarify some of the existing discrepancies exposed by our literature review, we propose the introduction of the term, 'non-disruptive DNA sampling'. This term emphasises the effects of the sampling method not on the physical integrity/structure, but on the fitness and behaviour of the organism from which the sample is obtained. We define 'non-disruptive DNA sampling' as obtaining DNA from an organism without affecting its fitness, or causing any behaviour or welfare impact that may last longer than the duration of the sampling (Table"
+  },
+  {
+    "section": "Impact of DNA sampling on behaviour, fitness and welfare",
+    "text": "Studies examining the effect of DNA sampling on behaviour, fitness and welfare are rare and their results are not always predictable. For example, the fitness consequences of DNA sampling methods, often measured using individual survival as a proxy for fitness (e.g."
+  },
+  {
+    "section": "Impact of DNA sampling on behaviour, fitness and welfare",
+    "text": "In particular cases, procedures to obtain DNA samples can also increase the fitness of animals. For example, supplementary feeding can have a direct positive impact on the fitness of birds"
+  },
+  {
+    "section": "Examples of non-disruptive or minimally disruptive DNA sampling",
+    "text": "Non-disruptive DNA sampling comprises all non-invasive DNA sampling sensu stricto i.e when the DNA is collected without the subjects being aware of the researcher's presence or experiencing any detrimental effects (as suggested in"
+  },
+  {
+    "section": "Examples of non-disruptive or minimally disruptive DNA sampling",
+    "text": "Examples of DNA trapping that are non-disruptive include remote plucking or hair trapping by means of unbaited hair snag traps"
+  },
+  {
+    "section": "Examples of non-disruptive or minimally disruptive DNA sampling",
+    "text": "Sampling methods that are non-disruptive have many benefits for conservation science, because they are unlikely to introduce bias or experimental effect or impact on animal welfare. However, they may be limited in their applicability. The main limitations associated with eDNA and DNA trapping include low DNA quantity and quality"
+  },
+  {
+    "section": "Examples of non-disruptive or minimally disruptive DNA sampling",
+    "text": "A shift in focus from sampling methods that aim at avoiding breaches to physical structures of an organism, to non-disruptive or minimally disruptive methods, (avoiding impact on behaviour, fitness or welfare), means in some cases the most appropriate method may be invasive but results in a lower impact on the animal. For example, invertebrate antenna clipping in the natural environment breaches a physical structure but may result in no effects on survival (e.g."
+  },
+  {
+    "section": "Examples of non-disruptive or minimally disruptive DNA sampling",
+    "text": "Similarly, remote dart biopsy or flipper notching of marine mammals are often a preferred choice over stressful captures for DNA sampling because they only cause short term effect (if any) on the behaviour of the animal"
+  },
+  {
+    "section": "WHEN IS NON-DISRUPTIVE DNA REQUIRED OR PREFERRED?",
+    "text": "The selection of a DNA sampling method is usually a compromise between minimising welfare and ethical costs, and obtaining a quality DNA sample. DNA sampling methods where the specimen is in hand generally results in fresher and better-quality DNA, despite the potentially higher impact on animal behaviour or welfare. While the welfare of all experimental animals should be considered, when the subject is endangered or afforded legal protections there may be additional welfare and/or ethical issues surrounding the use of invasive DNA sampling techniques"
+  },
+  {
+    "section": "WHEN IS NON-DISRUPTIVE DNA REQUIRED OR PREFERRED?",
+    "text": "The importance of considering non-disruptive DNA sampling also depends on the type of study undertaken. Below we describe experimental studies, field behavioural studies, and capture mark recapture (CMR) research, as three types of situations in which collection and use of non-disruptive DNA samples may be essential."
+  },
+  {
+    "section": "Laboratory-based experimentation",
+    "text": "Non-disruptive DNA sampling is necessary for species identification, sexing or genotyping of individuals prior to laboratory-based experimentation where fitness and/or behavioural traits are to be assessed. For example, many species of birds are monomorphic, and can only be sexed using molecular analysis"
+  },
+  {
+    "section": "Behavioural studies in the field",
+    "text": "The second major use of non-disruptive DNA sampling is when relatedness between individual subjects must be determined prior to a behavioural study conducted in the field. For example, social interactions in mammals are often linked to kinship and can be mediated by the physiological state of individuals"
+  },
+  {
+    "section": "Capture Mark Recapture",
+    "text": "The effects of DNA sampling on animal behaviour may also affect the results of studies that are not directly examining behaviour or fitness. The third case when non-disruptive DNA sampling is recommended is when doing Capture Mark Recapture (CMR) studies. CMR studies using DNA tagging are often conducted to estimate population size (e.g."
+  },
+  {
+    "section": "Capture Mark Recapture",
+    "text": "Such biases can be limited by the use of non-disruptive DNA sampling methods. Although eDNA has been used in CMR studies and is in most cases non-disruptive, it can have some limitations. The presence of mixed DNA samples and the lower quality of the collected DNA can lead to false positives where animals not captured previously are believed to be recaptured due to their DNA profile being indistinguishable from that of captured animals"
+  },
+  {
+    "section": "TAKE-HOME MESSAGES",
+    "text": "1. In practice, most papers using the phrase \"non-invasive DNA sampling\" only comply to the medical definition of the term non-invasive, which is broader than the original definition proposed by"
+  },
+  {
+    "section": "TAKE-HOME MESSAGES",
+    "text": "2. We propose the new terms, \"non-disruptive\" and \"minimally-disruptive\" DNA sampling, to more appropriately address the potential behaviour, welfare and/or fitness effects of DNA sampling methods, as opposed to physical integrity (invasiveness in the medical sense). We can envisage situations in which the research aims are not impacted by the sampling approach to obtain DNA. However, researchers have an ethical obligation to minimise the impacts on the animals. Therefore, whenever possible, non-disruptive or minimally disruptive DNA sampling methods should be selected, in particular prior to experimental or observational studies measuring fitness or behaviour, as well as studies using techniques such as CMR where fitness or behaviour may affect results."
+  },
+  {
+    "section": "TAKE-HOME MESSAGES",
+    "text": "3. It may in some cases be better to use a physically invasive method (e.g. remote biopsy) that is minimally disruptive rather than a method that does not involve puncturing the skin but causes severe stress and has long-lasting effects (e.g. stressful capture for saliva swabbing)."
+  },
+  {
+    "section": "TAKE-HOME MESSAGES",
+    "text": "4. More research is required to better understand the consequences of different live DNA sampling methods on behaviour, welfare and fitness in a variety of animal species and contexts. Table"
+  },
+  {
+    "section": "TAKE-HOME MESSAGES",
+    "text": "Term Definition"
+  },
+  {
+    "section": "DNA trapping",
+    "text": "Remotely obtaining DNA from one or more unknown individual organisms by taking a sample while they are present. This usually involves some sort of trap or device, which may or may not be disruptive."
+  },
+  {
+    "section": "eDNA sampling",
+    "text": "Obtaining trace DNA left behind by one or more unknown organisms, by sampling the environment when those organisms are no longer present at the point of sampling."
+  },
+  {
+    "section": "Minimally disruptive DNA sampling",
+    "text": "Obtaining DNA with minimised effects on the animal's fitness, behaviour and welfare. To a minimised extent, such method may affect the structural/physical integrity of the organism."
+  },
+  {
+    "section": "Minimally invasive DNA sampling",
+    "text": "Obtaining DNA with minimised effects on the animal's structural/physical integrity. To a minimised extent, such method may affect the behaviour and welfare of the organism."
+  },
+  {
+    "section": "Non-destructive DNA sampling",
+    "text": "Obtaining DNA from a known individual organism in such a way that the organism may be killed, but not destroyed, so that it can be preserved as a voucher specimen."
+  },
+  {
+    "section": "Non-destructive DNA sampling",
+    "text": "Non-disruptive DNA sampling Obtaining DNA without affecting the animal's fitness, behaviour and welfare."
+  },
+  {
+    "section": "Non-invasive DNA sampling sensu lato",
+    "text": "Obtaining DNA without affecting the physical integrity of the animal's through puncturing the skin or other entry into the body (derived from the medical definition of a non-invasive procedure)."
+  },
+  {
+    "section": "Non-invasive DNA sampling sensu stricto",
+    "text": "Obtaining DNA that was left behind by the animal and can be collected without having to catch or disturb the animal (from"
+  },
+  {
+    "section": "Acknowledgements",
+    "text": "The authors would like to thank Mehdi Mahjoob (http://mehdimahjoob.com), graphic designer, for his assistance with the preparation of Figure"
+  },
+  {
+    "section": "Data accessibility",
+    "text": "The list of publications reviewed and the raw data used for the analyses are available in Supplementary Table"
+  },
+  {
+    "section": "Supplementary material",
+    "text": "The R codes and raw data are available online (https://doi:10.6084/m9.figshare.8397224)"
+  },
+  {
+    "section": "Authors contribution",
+    "text": "Conceptualised the idea: MCL, SB, RHC ; recruited co-authors and organised literature review and writing workshops: MCL, SB ; conducted the systematic review: MCL, SB ; prepared the figures: SB ; drafted and revised the manuscript MCL, RHC, NA, AB, KD, AK, JR, VRS, RS, WB, SB."
+  },
+  {
+    "section": "Authors contribution",
+    "text": "The overall author percentage contributions are as follow: MCL 25 , RHC 10 , KD 8 , NA 5 , AB 5 , AK 5 , JR 5 , VRS 5 , RS 5 , BW 2 , SB 25 ."
+  },
+  {
+    "section": "Conflict of interest disclosure",
+    "text": "The authors declare that they have no financial conflict of interest with the content of this article."
+  }
+]
