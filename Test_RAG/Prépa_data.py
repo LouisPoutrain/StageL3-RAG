@@ -44,7 +44,7 @@ def save_chunk_metadata(chunks, path="chunk_metadata.json"):
 
 # --- Exécution complète ---
 if __name__ == "__main__":
-    file_path = "documents/LefortEtAl_JournalFormatted.grobid.tei.xml"
+    file_path = "documents/s11356-015-5754-2.grobid.tei.xml"
     chunks = extract_chunks_from_tei(file_path)
     embeddings, texts = create_embeddings(chunks)
     index = build_faiss_index(embeddings)

@@ -15,17 +15,25 @@ index = faiss.read_index("article_index.faiss")
 encoder = SentenceTransformer("all-MiniLM-L6-v2")
 
 # --- Initialiser le LLM local avec plus de contexte ---
-llm = Llama(model_path="models/mistral-7b-instruct-v0.1.Q4_K_M.gguf", n_ctx=4096)
+llm = Llama(model_path="models/mistral-7b-instruct-v0.1.Q2_K.gguf", n_ctx=4096)
 
 # --- Reformulation de la requête utilisateur ---
 def rewrite_query(question):
-    prompt = f"""Tu es un assistant spécialisé en reformulation de questions scientifiques. Reformule la question suivante en une phrase simple, explicite et précise, afin de faciliter la recherche d'extraits scientifiques pertinents.
+    prompt = f"""Tu es un assistant d'indexation scientifique. Ta tâche est de transformer une question en une phrase **descriptive et littérale**, en t'appuyant uniquement sur les mots-clés présents dans la question.
 
-Question originale : {question}
+Ta reformulation doit respecter ces règles :
+- Utilise uniquement les informations présentes dans la question (aucune interprétation, aucune inférence).
+- Ne change pas de sujet, ne généralise pas, ne complète pas la question.
+- Si certains mots sont ambigus, conserve-les tels quels.
 
+Le but est de produire une phrase simple, factuelle.
+
+Question : {question}
 Phrase reformulée :"""
-    result = llm(prompt, max_tokens=150, temperature=0.5)
+
+    result = llm(prompt, max_tokens=120, temperature=0.4)
     return result["choices"][0]["text"].strip()
+
 
 # --- Recherche contextuelle dans l’index FAISS ---
 def search_query(query, k=5):
@@ -51,7 +59,12 @@ def generate_answer_local(question, retrieved_chunks):
         for c in retrieved_chunks
     ])
 
-    prompt = f"""Tu es un assistant scientifique. Réponds clairement à la question suivante en utilisant uniquement les extraits ci-dessous.
+    prompt = f"""Tu es un assistant scientifique rigoureux.
+
+Réponds à la question suivante en t'appuyant **uniquement** sur les extraits de texte ci-dessous. Ta réponse doit être précise, factuelle et structurée. Si la réponse ne peut pas être déduite des extraits, indique-le explicitement.
+
+Définition de référence à utiliser :
+"Selon Taberlet et al. (1999), l'échantillonnage non-invasif est une méthode de collecte de matériel génétique d'un organisme sans recours à des techniques invasives comme l’anesthésie, la perforation de la peau, la destruction de tissus, ou tout acte susceptible d'altérer le comportement ou la survie de l’animal."
 
 Extraits :
 {context}
@@ -59,6 +72,7 @@ Extraits :
 Question : {question}
 
 Réponse :"""
+
     return safe_generate(prompt, llm, max_tokens=1024)
 
 # --- Pipeline RAG complet ---
@@ -66,7 +80,7 @@ if __name__ == "__main__":
     question = input("La question : ").strip()
 
     # Étape 1 : reformulation
-    print("\n🔧 Reformulation de la question...")
+    print("\n🔧 Reformulation de la question....")
     rewritten = rewrite_query(question)
     print("🔍 Phrase utilisée pour l'index :", rewritten)
 
