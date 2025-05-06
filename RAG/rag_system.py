@@ -5,6 +5,8 @@ Système RAG principal
 import os
 import json
 from typing import List, Dict, Any, Optional
+import pandas as pd
+import re
 
 from haystack.dataclasses import Document
 from haystack.document_stores.in_memory import InMemoryDocumentStore
@@ -169,31 +171,48 @@ class RAGSystem:
         
         return retrieved_docs
     
-    def build_context(self, documents: List[Document],max_length: int = 6000) -> str:
-        """
-        Construit le contexte à partir des documents récupérés
-        
-        Args:
-            documents: Liste des documents
-            
-        Returns:
-            Contexte concaténé
-        """
+    def build_context(self, documents: List[Document], max_length: int = 6000) -> str:
         context_parts = []
         total_length = 0
 
         for i, doc in enumerate(documents):
             content = doc.content.strip()
-            excerpt = f"EXTRAIT {i+1}:\n{content}"
-            if total_length + len(excerpt) > max_length:
+            excerpt_header = f"EXTRAIT {i+1}:\n"
+            available_length = max_length - total_length - len(excerpt_header)
+
+            if available_length <= 0:
                 break
+
+            # Si le contenu est plus court que la limite dispo, pas besoin de tronquer
+            if len(content) <= available_length:
+                trimmed_content = content
+            else:
+                # Essaye de couper à la dernière phrase complète
+                sentences = re.split(r'(?<=[.!?])\s+', content)
+                trimmed_content = ''
+                for sentence in sentences:
+                    if len(trimmed_content) + len(sentence) + 1 > available_length:
+                        break
+                    trimmed_content += sentence + ' '
+                trimmed_content = trimmed_content.strip()
+
+                # Si aucune phrase complète ne rentre, on coupe à la fin du dernier mot complet
+                if not trimmed_content:
+                    cutoff = content[:available_length]
+                    last_space = cutoff.rfind(' ')
+                    trimmed_content = cutoff[:last_space] if last_space != -1 else cutoff
+
+            excerpt = excerpt_header + trimmed_content
             context_parts.append(excerpt)
             total_length += len(excerpt)
-        print ("CONTEXTE ----------")
+
+            if total_length >= max_length:
+                break
+
+        print("CONTEXTE ----------")
         print("\n\n".join(context_parts))
 
         return "\n\n".join(context_parts)
-
     
     def _build_prompt(self, question: str, context: str, definition: str = "") -> str:
         """
@@ -216,88 +235,95 @@ class RAGSystem:
         5. Équivalence entre une procédure non invasive et un échantillonnage d'ADN non invasif : Utiliser la définition médicale ou vétérinaire d'une procédure non invasive (qui n'implique pas de perforation de la peau) pour classer l'échantillonnage d'ADN, sans tenir compte de l'impact comportemental ou du bien-être animal.
         """
 
-        return f"""Tu es un assistant scientifique expert dans l'analyse des méthodes d'échantillonnage d'ADN. Ta tâche est d'examiner attentivement les protocoles décrits dans les extraits ci-dessous et de déterminer s'ils contreviennent aux "Sept Péchés de l'Échantillonnage d'ADN Non-Invasif".
+        return f"""
+        Tu es un assistant scientifique expert dans l'analyse des méthodes d'échantillonnage d'ADN. Ta tâche est d'examiner les protocoles décrits dans les extraits ci-dessous et de déterminer s'ils contreviennent aux "Sept Péchés de l'Échantillonnage d'ADN Non-Invasif".
 
         ##################################################
         # DÉFINITIONS ET CONTEXTE
         ##################################################
 
+        Définition de l'échantillonnage non-invasif :
+            {definition}
+
         Définitions des Sept Péchés :
         {seven_sins_definitions}
 
-        Définition de l'échantillonnage non-invasif :
-        {definition}
+                 Important :
+            1. Toute action qui modifie le comportement de l'animal (fuite, appât, stress...) doit être considérée comme invasive.
+            2. Tout contact direct avec l'animal (manipulation, toucher, prélèvement de salive/sang/poils...) est TOUJOURS considéré comme invasif.
+            3. Toute capture, même momentanée, est TOUJOURS considérée comme invasive.
+            4. Un échantillonnage n'est non invasif QUE s'il est effectué sans aucun contact avec l'animal (ex: collecte de poils/plumes tombés naturellement, fèces trouvées dans l'environnement sans perturber l'animal).
+            5. Un prélèvement de fèces est considéré comme invasif si l'animal est perturbé (ex: en utilisant un aéronef pour les collecter, ou s'il s'agit d'une espèce qui marque son territoire avec ses fèces).
 
         ##################################################
         # CONTEXTE À ANALYSER
         ##################################################
 
-        Chaque extrait est précédé de 'EXTRAIT n:'. Analyse-les un par un.
-
         {context}
 
         ##################################################
-        # QUESTION
+        # INSTRUCTIONS D'ANALYSE
         ##################################################
 
-        {question}
+        1. Identifie UNIQUEMENT les protocoles d'échantillonnage d'ADN distincts mentionnés dans le texte.
+        2. Pour chaque protocole, analyse :
+        - La méthode d'obtention de l'ADN et la partie de l'animal concernée.
+        - La présence ou l'absence de manipulation, capture ou perturbation directe de l'animal.
+        - Les impacts potentiels sur le comportement ou le bien-être animal.
+        - Le niveau d'invasivité selon la définition fournie (Non invasif/Invasif).
+        - Les numéros des péchés transgressés.
+        - Si de nouveaux péchés sont identifiés, indique "Oui" ou "Non" et formule brièvement la justification.
+
+        3. Priorise les protocoles invasifs. Si un protocole non invasif est trouvé en premier, continue à chercher un protocole invasif.
+        4. Fournis un seul protocole par article. Si aucun protocole invasif n'est trouvé, affiche le protocole non invasif.
+        5. Analyse UNIQUEMENT les protocoles d'échantillonnage d'ADN. Ignore les autres méthodes (ex: PCR, séquençage, etc.).
 
         ##################################################
-        # INSTRUCTIONS D'ANALYSE PRÉCISES ET STRICTES
+        # FORMAT DE RÉPONSE
         ##################################################
 
-        Si aucun protocole clair n'est identifiable dans le contexte (pas de partie du corps utilisée, pas de méthode de prélèvement), NE FOURNIS AUCUNE ANALYSE. Indique simplement : "Aucun protocole identifiable".
+        Pour chaque protocole identifié, présente l'analyse dans ce format JSON, un protocole = un objet JSON :
 
-        Analyse chaque protocole d'échantillonnage d'ADN identifié dans le contexte. Ta réponse FINALE doit ABSOLUMENT et EXCLUSIVEMENT respecter le format indiqué ci-dessous. AUCUNE information supplémentaire, répétition ou reformulation ne sera tolérée. Sois EXTRÊMEMENT concis et précis dans ton analyse.
-
-        MÉTHODE D'ANALYSE (pour ton raisonnement interne) :
-        1. Identifie UNIQUEMENT les protocoles d'échantillonnage d'ADN DISTINCTS mentionnés dans le texte. Ne répète pas l'analyse pour des mentions similaires.
-        2. Pour CHAQUE protocole DISTINCT, analyse de manière ULTRA-CONCISE :
-        - La méthode d'obtention de l'ADN et la partie de l'animal concernée (en quelques mots).
-        - La présence ou l'absence de manipulation, capture ou perturbation DIRECTE de l'animal (Oui/Non et brève description).
-        - Les impacts potentiels sur le comportement ou le bien-être animal (très brièvement).
-        - Le niveau d'invasivité selon la définition fournie (Non invasif/Minimalement invasif/Invasif).
-        - Les numéros des péchés transgressés (uniquement les numéros).
-        - La justification DIRECTE et ULTRA-CONCISE de chaque péché transgressé, en lien STRICT avec sa définition (une phrase courte par péché).
-        - La proposition d'un NOUVEAU péché UNIQUEMENT si le protocole est clairement invasif et ne correspond à AUCUN des cinq péchés existants (formulation très brève du nouveau péché).
-        3. **Assure-toi que l' "EXTRAIT PERTINENT" que tu sélectionnes pour chaque protocole est le même dans les deux sections de ta réponse (Analyse Détaillée et Tableau Récapitulatif) et qu'il conserve la langue d'origine.**
+        ```json
+        {{
+            "protocole": "[Nom concis du protocole]",
+            "extrait_pertinent": ["Texte exact de chaque extrait utilisé, entre guillemets."],
+            "impacts_potentiels": "[Comportement, stress, douleur, si mentionné]",
+            "evaluation_invasivite": "[Non invasif / Invasif]",
+            "peches_identifies": ["1", "2", "7"],
+            "nouveaux_peches": "[Oui / Non – Si oui, formuler brièvement]"
+        }}
+        ```
 
         ##################################################
-        # FORMAT DE RÉPONSE OBLIGATOIRE ET UNIQUE
+        VÉRIFICATION DU JSON
+
         ##################################################
 
-        Ta réponse doit contenir STRICTEMENT les DEUX sections suivantes, dans cet ordre PRÉCIS :
+        Avant de soumettre ton JSON, vérifie :
 
-        1. ANALYSE DÉTAILLÉE PAR PROTOCOLE
+            Qu'il n'y a pas de clés dupliquées.
+            Que toutes les accolades et crochets sont bien fermés.
+            Que toutes les virgules sont correctement placées.
+            Que le JSON est parfaitement valide et pourrait être parsé sans erreur.
+            Que SI tu souhaite faire une liste, elle commence par [ et se termine par ].
 
-        Pour chaque protocole DISTINCT identifié, présente l'analyse EXACTEMENT dans ce format :
+        RÈGLES CRUCIALES POUR LE FORMAT JSON :
 
-        PROTOCOLE: [Nom concis du protocole]
-        EXTRAIT PERTINENT: "[Citation ASSEZ courte du texte clé EN LANGUE D'ORIGINE]"
-        DESCRIPTION: [Description ULTRA-CONCISE de la méthode]
-        MANIPULATION: [Oui/Non] - [Brève indication de la manipulation]
-        IMPACTS POTENTIELS: [Très brève indication des impacts]
-        ÉVALUATION D'INVASIVITÉ: [Non invasif/Minimalement invasif/Invasif]
-        JUSTIFICATION: [Justification ULTRA-CONCISE basée sur la définition]
-        PÉCHÉS IDENTIFIÉS: [Liste des numéros des péchés]
-        JUSTIFICATION DES PÉCHÉS: [Justification ULTRA-CONCISE pour chaque péché]
-        NOUVEAUX PÉCHÉS?: [Formulation ULTRA-CONCISE du nouveau péché si applicable]
+            Chaque clé doit apparaître UNE SEULE FOIS dans l'objet JSON.
+            Les noms de clés doivent utiliser des underscores simples (_).
+            Toute liste doit commencer par [ et se terminer par ].
+            L'objet justification_peches doit commencer par {{ et se terminer par }}.
+            Chaque élément dans un objet ou une liste doit être séparé par une virgule.
+            N'utilise pas d'accents dans les noms de clés.
+            Assure-toi que chaque valeur est du bon type : chaînes entre guillemets, listes entre crochets, objets entre accolades.
+            Assure-toi que le champ extrait_pertinent contient toujours une liste de chaînes, même s'il n'y a qu'un seul élément. 
 
-        2. SYNTHÈSE ET TABLEAU RÉCAPITULATIF
 
-        | Protocole                 | Extrait pertinent | Statut              | Péchés (N°) | Nouveaux péchés (si applicable) |
-        |---------------------------|---------------------------------|---------------------|-------------|---------------------------------|
-        | [Nom concis Protocole 1]  | "[Citation du texte EN LANGUE D'ORIGINE]"          | [Statut]            | [Numéros]   | [Nouveau péché concis]          |
-        | [Nom concis Protocole 2]  | "[Citation du texte EN LANGUE D'ORIGINE]"          | [Statut]            | [Numéros]   | [Nouveau péché concis]          |
-        | ...                       | ...                             | ...                 | ...         | ...                             |
+        IMPORTANT : 
+            JE VEUX QUE TU AFFICHES UNIQUEMENT LES PROTOCOLES D'ECHANTILLONNAGE d'ADN.
+            TU NE DOIS PAS ECRIRE PLUSIEURS FOIS LE MÊME PROTOCOLE.
 
-        CONTRAINTES ABSOLUES :
-        - RÉPONDS UNIQUEMENT dans ce format EXACT. AUCUN texte introductif, conclusif, explication supplémentaire, note personnelle ou reformulation ne sera toléré.
-        - LIMITE-TOI STRICTEMENT à ces DEUX sections dans l'ordre indiqué.
-        - NE PRÉSENTE AUCUNE répétition d'analyse pour des protocoles similaires. Analyse chaque protocole DISTINCT une seule fois.
-        - SOIS EXTRÊMEMENT CONCIS dans TOUTES les parties de ta réponse.
-        - RESPECTE À LA LETTRE les titres de champs fournis.
-        - Les extraits pertinents dans les DEUX sections doivent conserver la langue d'origine.
         """
 
     def generate_answer(self, question: str, context: str, definition: str = "") -> str:
@@ -356,81 +382,65 @@ class RAGSystem:
         return answer
 
 
-    def parse_response(self, response: str):
-        import re
+expected_keys = {
+    "protocole", "extrait_pertinent",
+    "impacts_potentiels", "evaluation_invasivite",
+    "peches_identifies", "nouveaux_peches"
+}
 
-        protocols = []
-        tableau = []
+def is_valid_entry(entry):
+    """Vérifie que toutes les clés attendues sont présentes dans l'entrée"""
+    return isinstance(entry, dict) and expected_keys.issubset(entry.keys())
 
-        print("Raw response to parse:", response)
+def extract_json_blocks(text):
+    """Extrait tous les blocs JSON entourés de balises ```json ... ```"""
+    matches = re.findall(r"```json(.*?)```", text, re.DOTALL)
+    return [m.strip() for m in matches]
 
-        # Parser les protocoles
-        protocol_pattern = r'PROTOCOLE:\s*(.*?)\s*EXTRAIT PERTINENT:\s*["\']?(.*?)["\']?[\s\S]*?ÉVALUATION D\'INVASIVITÉ:\s*(.*?)\s*JUSTIFICATION:[\s\S]*?PÉCHÉS IDENTIFIÉS:\s*(.*?)\s*JUSTIFICATION DES PÉCHÉS:[\s\S]*?NOUVEAUX PÉCHÉS\?:\s*(.*?)(?=\nPROTOCOLE:|### SYNTHÈSE ET TABLEAU RÉCAPITULATIF|$)'
-        protocol_blocks = re.findall(protocol_pattern, response, re.DOTALL)
+def safe_load_json(text):
+    """Charge un bloc JSON, filtre les objets malformés, conserve uniquement les clés attendues"""
+    try:
+        obj = json.loads(text)
+        result = []
 
-        print("Protocol blocks found:", protocol_blocks)
+        if isinstance(obj, dict):
+            if is_valid_entry(obj):
+                result.append({k: v for k, v in obj.items() if k in expected_keys})
 
-        for block in protocol_blocks:
-            nom = block[0].strip()
-            extrait = block[1].strip()
-            invasivite = block[2].strip()
-            peches_str = block[3].strip()
-            nouveaux_peches = block[4].strip()
+        elif isinstance(obj, list):
+            for entry in obj:
+                if is_valid_entry(entry):
+                    result.append({k: v for k, v in entry.items() if k in expected_keys})
 
-            print(f"Parsing protocol block: {nom}")
-            print(f"Extrait: {extrait}")
-            print(f"Invasivité: {invasivite}")
-            print(f"Péchés: {peches_str}")
-            print(f"Nouveaux péchés: {nouveaux_peches}")
+        return result
+    except json.JSONDecodeError:
+        return []
 
-            peches = [p.strip() for p in peches_str.split(',') if p.strip() and p.lower() != "aucun"]
-            nouveaux_peches = "" if nouveaux_peches.lower() in ["non", "aucun", "n/a"] else nouveaux_peches.strip()
+def parse_json(response_text, filename):
+    """Parse le texte de réponse en extrayant les blocs JSON valides"""
+    json_blocks = extract_json_blocks(response_text)
+    parsed_blocks = []
 
-            if nom and extrait:
-                protocols.append({
-                    'nom': nom,
-                    'extrait': extrait,
-                    'invasivite': invasivite,
-                    'peches': peches,
-                    'nouveaux_peches': nouveaux_peches
-                })
+    for block in json_blocks:
+        cleaned_jsons = safe_load_json(block)
+        parsed_blocks.extend(cleaned_jsons)
 
-        print("Parsed protocols:", protocols)
+    if not parsed_blocks:
+        return pd.DataFrame()
 
-        # Parser le tableau récapitulatif en ignorant l'entête et le séparateur)
-        tableau_pattern = r'\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|'
-        tableau_blocks = re.findall(tableau_pattern, response, re.DOTALL)
+    df = pd.DataFrame([
+        {
+            "Filename": filename,
+            "Protocole": item["protocole"],
+            "Extrait pertinent": item["extrait_pertinent"],
+            "Évaluation d'invasivité": item["evaluation_invasivite"],
+            "Péchés identifiés": item["peches_identifies"],
+            "Nouveaux péchés": item["nouveaux_peches"]
+        }
+        for item in parsed_blocks
+    ])
 
-        print("Tableau blocks found:", tableau_blocks)
-
-        header_skipped = False
-        separator_skipped = False
-
-        for block in tableau_blocks:
-            protocole = block[0].strip()
-            extrait = block[1].strip()
-            statut = block[2].strip()
-            peches_str = block[3].strip()
-            nouveaux_peches = block[4].strip()
-
-            if not header_skipped and protocole.lower() == "protocole":
-                header_skipped = True
-                continue
-            elif not separator_skipped and protocole.startswith("---"):
-                separator_skipped = True
-                continue
-            elif header_skipped and separator_skipped and protocole:
-                peches = [p.strip() for p in peches_str.split(',') if p.strip() and p.lower() != "aucun"]
-                tableau.append({
-                    'protocole': protocole,
-                    'extrait': extrait,
-                    'statut': statut,
-                    'peches': peches,
-                    'nouveaux_peches': nouveaux_peches.strip()
-                })
-
-        return {'protocols': protocols, 'tableau': tableau}
-
+    return df
 
     
 def print_markdown_table(tableau):
