@@ -9,6 +9,8 @@ from haystack.components.embedders import SentenceTransformersDocumentEmbedder
 from haystack.dataclasses import Document
 from components import HypotheticalDocumentEmbedder
 from UniversityLLMAdapter import UniversityLLMAdapter
+from haystack.components.writers import DocumentWriter
+
 
 
 def create_hyde_pipeline(api_key: str, api_url: str, embedder_model: str) -> Pipeline:
@@ -107,8 +109,7 @@ def create_indexing_pipeline(document_store, embedder_model: str) -> Pipeline:
     Returns:
         Pipeline Haystack pour l'indexation
     """
-    from haystack.components.writers import DocumentWriter
-    from haystack.components.embedders import SentenceTransformersDocumentEmbedder
+
     
     indexing_pipeline = Pipeline()
     indexing_pipeline.add_component("doc_embedder", 
