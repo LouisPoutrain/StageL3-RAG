@@ -7,6 +7,7 @@ import json
 from typing import List, Dict, Any, Optional
 import pandas as pd
 import re
+import numpy as np
 
 from haystack.dataclasses import Document
 from haystack.document_stores.in_memory import InMemoryDocumentStore
@@ -30,8 +31,8 @@ class RAGSystem:
         Initialise le système RAG avec tous ses composants
         
         Args:
-            api_key: Clé API pour le LLM (optionnel si défini dans l'environnement)
-            api_url: URL de l'API LLM (optionnel si défini dans l'environnement)
+            api_key: Clé API pour le LLM 
+            api_url: URL de l'API LLM 
         """
         self.api_key = api_key or os.environ.get("UNIVERSITY_LLM_API_KEY")
         self.api_url = api_url or os.environ.get("UNIVERSITY_LLM_API_URL")
@@ -66,9 +67,20 @@ class RAGSystem:
         self.llm_adapter = UniversityLLMAdapter(
             api_key=self.api_key,
             api_url=self.api_url,
-            max_tokens=1024,
+            max_tokens=8000,
             temperature=0.1
         )
+
+    def generate_answer_with_override(self, question: str, context: str, definition: str = "", prompt_override: str = None) -> str:
+        """
+        Génère une réponse à partir du contexte et de la question
+        """
+        if prompt_override:
+            prompt = prompt_override
+        else:
+            prompt = self._build_prompt(question, context, definition)
+
+        return self.llm_adapter.generate_answer(prompt)
 
     def index_from_json(self, json_path: str) -> int:
         """
@@ -171,12 +183,12 @@ class RAGSystem:
         
         return retrieved_docs
     
-    def build_context(self, documents: List[Document], max_length: int = 6000) -> str:
+    def build_context(self, documents: List[Document], max_length: int = 3000) -> str:
         context_parts = []
         total_length = 0
 
-        for i, doc in enumerate(documents):
-            content = doc.content.strip()
+        for i, doc in enumerate(documents): # itération sur les documents
+            content = doc.content.strip() 
             excerpt_header = f"EXTRAIT {i+1}:\n"
             available_length = max_length - total_length - len(excerpt_header)
 
@@ -209,9 +221,9 @@ class RAGSystem:
             if total_length >= max_length:
                 break
 
-        print("CONTEXTE ----------")
-        print("\n\n".join(context_parts))
-
+        print("DEBUT  CONTEXTE ----------")
+        print("\n\n".join(context_parts)[:200])
+        print("FIN  CONTEXTE ----------")
         return "\n\n".join(context_parts)
     
     def _build_prompt(self, question: str, context: str, definition: str = "") -> str:
@@ -253,7 +265,7 @@ class RAGSystem:
             2. Tout contact direct avec l'animal (manipulation, toucher, prélèvement de salive/sang/poils...) est TOUJOURS considéré comme invasif.
             3. Toute capture, même momentanée, est TOUJOURS considérée comme invasive.
             4. Un échantillonnage n'est non invasif QUE s'il est effectué sans aucun contact avec l'animal (ex: collecte de poils/plumes tombés naturellement, fèces trouvées dans l'environnement sans perturber l'animal).
-            5. Un prélèvement de fèces est considéré comme invasif si l'animal est perturbé (ex: en utilisant un aéronef pour les collecter, ou s'il s'agit d'une espèce qui marque son territoire avec ses fèces).
+            5. Un prélèvement de fèces est considéré comme invasif UNIQUEMENT si l'animal est perturbé (ex: en utilisant un aéronef pour les collecter, ou s'il s'agit d'une espèce qui marque son territoire avec ses fèces), sinon il est non invasif.
 
         ##################################################
         # CONTEXTE À ANALYSER
@@ -326,6 +338,7 @@ class RAGSystem:
 
         """
 
+
     def generate_answer(self, question: str, context: str, definition: str = "") -> str:
         """
         Génère une réponse à partir du contexte et de la question
@@ -341,6 +354,11 @@ class RAGSystem:
         prompt = self._build_prompt(question, context, definition)
 
         return self.llm_adapter.generate_answer(prompt)
+    
+
+
+
+
     
 
     def answer_question(self, question: str, definition: str = "", use_hyde: bool = True, top_k: int = 8) -> str:
@@ -380,6 +398,15 @@ class RAGSystem:
         answer = self.generate_answer(question, context, definition)
 
         return answer
+    
+
+    def embed_text(self, text: str) -> np.ndarray:
+        """
+        Retourne l'embedding d'un texte donné.
+        
+        """
+        result = self.text_embedder.run(text=text)
+        return np.array(result["embedding"])
 
 
 expected_keys = {
@@ -443,15 +470,3 @@ def parse_json(response_text, filename):
     return df
 
     
-def print_markdown_table(tableau):
-    if not tableau:
-        print("Aucun tableau récapitulatif trouvé.")
-        return
-
-    # Imprimer l'en-tête du tableau
-    print("| Protocole | Extrait | Statut | Péchés | Nouveaux Péchés |")
-    print("|-----------|---------|--------|--------|----------------|")
-
-    # Imprimer chaque ligne du tableau
-    for entry in tableau:
-        print(f"| {entry['protocole']} | {entry['extrait']} | {entry['statut']} | {entry['peches']} | {entry['nouveaux_peches']} |")
