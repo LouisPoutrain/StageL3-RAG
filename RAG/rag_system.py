@@ -67,7 +67,7 @@ class RAGSystem:
         self.llm_adapter = UniversityLLMAdapter(
             api_key=self.api_key,
             api_url=self.api_url,
-            max_tokens=8000,
+            max_tokens=10000,
             temperature=0.1
         )
 
@@ -248,24 +248,51 @@ class RAGSystem:
         """
 
         return f"""
-        Tu es un assistant scientifique expert dans l'analyse des méthodes d'échantillonnage d'ADN. Ta tâche est d'examiner les protocoles décrits dans les extraits ci-dessous et de déterminer s'ils contreviennent aux "Sept Péchés de l'Échantillonnage d'ADN Non-Invasif".
+        Tu es un assistant scientifique expert dans l'analyse des méthodes d'échantillonnage d'ADN. Ta tâche est d'examiner les protocoles décrits dans les extraits pour déterminer s'ils contreviennent aux "Sept Péchés de l'Échantillonnage d'ADN Non-Invasif".
+
+        Tu dois suivre strictement le format REACT (Reasoning and Acting) en séparant clairement chaque étape :
+
+        ## Thought: [Réflexion sur le protocole identifié]
+        ## Act: [Analyse détaillée du protocole]
+        ## Obs: [Citations exactes des extraits]
 
         ##################################################
         # DÉFINITIONS ET CONTEXTE
         ##################################################
 
         Définition de l'échantillonnage non-invasif :
-            {definition}
+        {definition}
 
-        Définitions des Sept Péchés :
+        definition des péchés :
         {seven_sins_definitions}
 
-                 Important :
-            1. Toute action qui modifie le comportement de l'animal (fuite, appât, stress...) doit être considérée comme invasive.
-            2. Tout contact direct avec l'animal (manipulation, toucher, prélèvement de salive/sang/poils...) est TOUJOURS considéré comme invasif.
-            3. Toute capture, même momentanée, est TOUJOURS considérée comme invasive.
-            4. Un échantillonnage n'est non invasif QUE s'il est effectué sans aucun contact avec l'animal (ex: collecte de poils/plumes tombés naturellement, fèces trouvées dans l'environnement sans perturber l'animal).
-            5. Un prélèvement de fèces est considéré comme invasif UNIQUEMENT si l'animal est perturbé (ex: en utilisant un aéronef pour les collecter, ou s'il s'agit d'une espèce qui marque son territoire avec ses fèces), sinon il est non invasif.
+        Important :
+        1. Toute action modifiant le comportement animal = invasive
+        2. Tout contact direct avec l'animal = TOUJOURS invasif
+        3. Toute capture = TOUJOURS invasive
+        4. Échantillonnage non invasif = UNIQUEMENT sans contact avec l'animal
+        5. Prélèvement de fèces = invasif SEULEMENT si perturbation de l'animal
+
+        ##################################################
+        # RÈGLES SUPPLÉMENTAIRES D'INTERPRÉTATION
+        ##################################################
+
+        1. **Radio-suivi** :
+        - Si l'animal est localisé grâce à un marquage radio **réalisé avant le protocole**, ce n'est **pas invasif**.
+        - Si le marquage est **effectué dans le cadre du protocole**, il est **invasif**.
+
+        2. **Prélèvement de fèces de mammifères** :
+        - Si **toutes les fèces** sont prélevées : **invasif** (marquage territorial).
+        - Si **seule une partie** est prélevée : **non invasif**.
+        - Si aucune précision n'est donnée (ex : "fèces collectées après le passage de l'animal") :
+            → `"evaluation_invasivite": "Inconnu"`
+        - Si le contexte de la collecte des fèces implique une perturbation de l'animal (e.g., utilisation d'aéronefs, capture de l'animal), même sans précision sur la quantité, alors :
+            → `"evaluation_invasivite": "Invasif"`
+
+        3. **Autres prélèvements (poils, salive, urine...)** :
+        - Si les informations sont **insuffisantes** (aucune mention de capture, de manipulation, etc.) :
+            → `"evaluation_invasivite": "présumé non invasif"`
+            avec justification adaptée.
 
         ##################################################
         # CONTEXTE À ANALYSER
@@ -274,67 +301,63 @@ class RAGSystem:
         {context}
 
         ##################################################
-        # INSTRUCTIONS D'ANALYSE
+        # INSTRUCTIONS D'ANALYSE — FORMAT REACT
         ##################################################
 
-        1. Identifie UNIQUEMENT les protocoles d'échantillonnage d'ADN distincts mentionnés dans le texte.
-        2. Pour chaque protocole, analyse :
-        - La méthode d'obtention de l'ADN et la partie de l'animal concernée.
-        - La présence ou l'absence de manipulation, capture ou perturbation directe de l'animal.
-        - Les impacts potentiels sur le comportement ou le bien-être animal.
-        - Le niveau d'invasivité selon la définition fournie (Non invasif/Invasif).
-        - Les numéros des péchés transgressés.
-        - Si de nouveaux péchés sont identifiés, indique "Oui" ou "Non" et formule brièvement la justification.
+        1. Identifie UNIQUEMENT les protocoles d'échantillonnage d'ADN distincts.
+        2. **Regroupe IMPÉRATIVEMENT TOUS les protocoles qui partagent des extraits similaires ou qui décrivent des méthodes d'échantillonnage essentiellement identiques, même s'ils sont mentionnés dans différentes parties du texte. Considère TOUTES les variations mineures (e.g., "poils" vs. "poils collectés dans la nature", "fèces" vs. "scat") comme faisant partie du même protocole général. Ne crée PAS de protocoles distincts pour ces variations. Si un échantillon est collecté à la fois en captivité et dans la nature, considère cela comme UN SEUL protocole et indique "mixte" pour l'échantillon. PRIORISE le regroupement au détriment de la séparation.**
+        3. Pour chaque protocole regroupé :
+        - **Thought** : réfléchis à ce que tu observes, identifie une action ou une méthode liée à l'échantillonnage.
+        - **Act** : Si pertinent, analyse :
+            - Méthode d'obtention de l'ADN et partie de l'animal concernée.
+            - Présence ou absence de manipulation, capture, ou perturbation.
+            - Impacts potentiels (stress, comportement, douleur).
+            - Invasivité : `"Non invasif"` / `"Invasif"` / `"Inconnu"` / `"présumé non invasif"`.
+            - Numéros des péchés concernés (si applicables).
+            - Nouveaux péchés : `"Oui"` ou `"Non"` + justification.
+        - **Obs** : Cite TOUS les extraits pertinents utilisés pour ton raisonnement (même s'il n'y en a qu'un seul, liste obligatoire).
 
-        3. Priorise les protocoles invasifs. Si un protocole non invasif est trouvé en premier, continue à chercher un protocole invasif.
-        4. Fournis un seul protocole par article. Si aucun protocole invasif n'est trouvé, affiche le protocole non invasif.
-        5. Analyse UNIQUEMENT les protocoles d'échantillonnage d'ADN. Ignore les autres méthodes (ex: PCR, séquençage, etc.).
+        4. Ne traite qu'un **seul protocole par article**, en suivant ces priorités :
+        - Si un protocole est clairement plus invasif que les autres, choisis celui-ci.
+        - Sinon, si plusieurs protocoles ont un niveau d'invasivité similaire, décris-les **TOUS** dans l'analyse du protocole unique.
+        - Si tous les protocoles sont non-invasifs ou présumés non-invasifs, choisis celui qui est décrit avec le plus de détails.
+        5. Ignore toute méthode ne concernant **pas** l'échantillonnage d'ADN (ex : PCR, séquençage...).
 
         ##################################################
         # FORMAT DE RÉPONSE
         ##################################################
 
-        Pour chaque protocole identifié, présente l'analyse dans ce format JSON, un protocole = un objet JSON :
+        Pour chaque protocole identifié, présente ton analyse en suivant strictement les étapes REACT (Thought, Act, Obs), puis fournis un JSON final selon ce format:
 
         ```json
         {{
-            "protocole": "[Nom concis du protocole]",
-            "extrait_pertinent": ["Texte exact de chaque extrait utilisé, entre guillemets."],
-            "impacts_potentiels": "[Comportement, stress, douleur, si mentionné]",
-            "evaluation_invasivite": "[Non invasif / Invasif]",
-            "peches_identifies": ["1", "2", "7"],
-            "nouveaux_peches": "[Oui / Non – Si oui, formuler brièvement]"
+        "protocole": "Nom concis du protocole",
+        "extrait_pertinent": ["Texte exact de l'extrait 1", "Texte exact de l'extrait 2"],
+        "echantillon": "Type d'échantillon (poils/sang/fèces/urine/salive/mixte)",
+        "impacts_potentiels": ["impact1", "impact2"],
+        "evaluation_invasivite": "Non invasif / Invasif / Inconnu / présumé non invasif",
+        "peches_identifies": ["1", "2", "5"],
+        "nouveaux_peches": "Oui / Non"
         }}
-        ```
-
         ##################################################
         VÉRIFICATION DU JSON
-
         ##################################################
+        Avant de soumettre ton JSON, vérifie STRICTEMENT:
 
-        Avant de soumettre ton JSON, vérifie :
-
-            Qu'il n'y a pas de clés dupliquées.
-            Que toutes les accolades et crochets sont bien fermés.
-            Que toutes les virgules sont correctement placées.
-            Que le JSON est parfaitement valide et pourrait être parsé sans erreur.
-            Que SI tu souhaite faire une liste, elle commence par [ et se termine par ].
+        Qu'il n'y a pas de clés dupliquées.
+        Que toutes les accolades et crochets sont bien fermés.
+        Que toutes les virgules sont correctement placées.
+        Que le JSON est parfaitement valide et pourrait être parsé sans erreur.
+        Que SI tu souhaites faire une liste, elle commence par [ et se termine par ].
 
         RÈGLES CRUCIALES POUR LE FORMAT JSON :
 
-            Chaque clé doit apparaître UNE SEULE FOIS dans l'objet JSON.
-            Les noms de clés doivent utiliser des underscores simples (_).
-            Toute liste doit commencer par [ et se terminer par ].
-            L'objet justification_peches doit commencer par {{ et se terminer par }}.
-            Chaque élément dans un objet ou une liste doit être séparé par une virgule.
-            N'utilise pas d'accents dans les noms de clés.
-            Assure-toi que chaque valeur est du bon type : chaînes entre guillemets, listes entre crochets, objets entre accolades.
-            Assure-toi que le champ extrait_pertinent contient toujours une liste de chaînes, même s'il n'y a qu'un seul élément. 
-
-
-        IMPORTANT : 
-            JE VEUX QUE TU AFFICHES UNIQUEMENT LES PROTOCOLES D'ECHANTILLONNAGE d'ADN.
-            TU NE DOIS PAS ECRIRE PLUSIEURS FOIS LE MÊME PROTOCOLE.
+        Chaque clé doit apparaître UNE SEULE FOIS dans l'objet JSON.
+        Les noms de clés doivent utiliser des underscores simples (_) et NE PAS contenir d'accents.
+        Toute liste doit commencer par [ et se terminer par ].
+        Chaque élément dans un objet ou une liste doit être séparé par une virgule.
+        Assure-toi que chaque valeur est du bon type : chaînes entre guillemets, listes entre crochets.
+        Assure-toi que le champ extrait_pertinent contient toujours une liste de chaînes, même s'il n'y a qu'un seul élément.
 
         """
 
@@ -400,17 +423,10 @@ class RAGSystem:
         return answer
     
 
-    def embed_text(self, text: str) -> np.ndarray:
-        """
-        Retourne l'embedding d'un texte donné.
-        
-        """
-        result = self.text_embedder.run(text=text)
-        return np.array(result["embedding"])
 
 
 expected_keys = {
-    "protocole", "extrait_pertinent",
+    "protocole", "extrait_pertinent", "echantillon",
     "impacts_potentiels", "evaluation_invasivite",
     "peches_identifies", "nouveaux_peches"
 }
@@ -459,6 +475,7 @@ def parse_json(response_text, filename):
         {
             "Filename": filename,
             "Protocole": item["protocole"],
+            "echantillon": item["echantillon"],
             "Extrait pertinent": item["extrait_pertinent"],
             "Évaluation d'invasivité": item["evaluation_invasivite"],
             "Péchés identifiés": item["peches_identifies"],
