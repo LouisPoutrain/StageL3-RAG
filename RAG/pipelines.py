@@ -114,7 +114,7 @@ def create_indexing_pipeline(document_store, embedder_model: str) -> Pipeline:
     indexing_pipeline = Pipeline()
     indexing_pipeline.add_component("doc_embedder", 
                                    SentenceTransformersDocumentEmbedder(model=embedder_model))
-    indexing_pipeline.add_component("writer", DocumentWriter(document_store=document_store))
+    indexing_pipeline.add_component("writer", DocumentWriter(document_store=document_store, policy="overwrite"))
     indexing_pipeline.connect("doc_embedder.documents", "writer.documents")
     
     return indexing_pipeline
