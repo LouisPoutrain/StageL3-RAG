@@ -8,8 +8,9 @@ from typing import List, Dict, Any, Optional
 import pandas as pd
 import re
 import numpy as np
+import gc
 
-from haystack.dataclasses import Document
+from haystack.dataclasses import Document, ChatMessage
 from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack.components.embedders import SentenceTransformersTextEmbedder
 from haystack.components.retrievers import InMemoryEmbeddingRetriever
@@ -18,7 +19,7 @@ from haystack.components.rankers import TransformersSimilarityRanker
 from haystack.components.preprocessors import DocumentSplitter
 
 from UniversityLLMAdapter import UniversityLLMAdapter
-from pipelines import create_hyde_pipeline, create_rag_pipeline, create_indexing_pipeline
+from pipelines import create_hyde_pipeline, create_rag_pipeline, create_indexing_pipeline, PROTOCOL_SCHEMA
 
 
 class RAGSystem:
@@ -39,25 +40,43 @@ class RAGSystem:
         
         if not self.api_key or not self.api_url:
             raise ValueError("API key and URL must be provided or set as environment variables")
+        
+        # Optimisation de l'utilisation de la mémoire
+        self._clean_memory()
             
         # Initialisation du store de documents
         self.document_store = InMemoryDocumentStore()
         
         # Initialisation des embedders 
-        self.embedder_model = "sentence-transformers/allenai-specter"
-        self.text_embedder = SentenceTransformersTextEmbedder(model=self.embedder_model)
-        self.text_embedder.warm_up()
+        # Utilisation d'un modèle d'embedding plus performant
+        self.embedder_model = "BAAI/bge-large-en-v1.5"
+        try:
+            self.text_embedder = SentenceTransformersTextEmbedder(model=self.embedder_model)
+            self.text_embedder.warm_up()
+        except Exception as e:
+            print(f"Avertissement lors de l'initialisation de l'embedder: {str(e)}")
+            # Fallback à un modèle plus léger si nécessaire
+            self.embedder_model = "sentence-transformers/all-MiniLM-L6-v2"
+            print(f"Utilisation du modèle d'embedding de fallback: {self.embedder_model}")
+            self.text_embedder = SentenceTransformersTextEmbedder(model=self.embedder_model)
+            self.text_embedder.warm_up()
         
         # Initialisation du retriever et du writer
         self.retriever = InMemoryEmbeddingRetriever(document_store=self.document_store)
         self.writer = DocumentWriter(document_store=self.document_store)
         
-        # Initialisation du reranker
-        self.reranker = TransformersSimilarityRanker(model="cross-encoder/ms-marco-MiniLM-L-6-v2")
-        self.reranker.warm_up()
+        # Initialisation et activation du reranker
+        try:
+            self.reranker = TransformersSimilarityRanker(model="cross-encoder/ms-marco-MiniLM-L-6-v2")
+            self.reranker.warm_up()
+        except Exception as e:
+            print(f"Erreur lors de l'initialisation du reranker: {str(e)}")
+            self.reranker = None
+            print("Le reranker a été désactivé pour économiser de la mémoire")
 
-        # Initialisation du splitter
-        self.splitter = DocumentSplitter(split_by="word", split_length=500, split_overlap=50)
+        # Amélioration du splitter pour une meilleure segmentation
+        # Augmentation de la taille du split et du chevauchement pour un meilleur contexte
+        self.splitter = DocumentSplitter(split_by="word", split_length=800, split_overlap=150)
 
         # Initialisation des pipelines
         self.hyde_pipeline = create_hyde_pipeline(self.api_key, self.api_url, self.embedder_model)
@@ -67,9 +86,29 @@ class RAGSystem:
         self.llm_adapter = UniversityLLMAdapter(
             api_key=self.api_key,
             api_url=self.api_url,
-            max_tokens=10000,
-            temperature=0.1
+            max_tokens=14000,
+            temperature=0
         )
+        
+        # Nettoyage final
+        self._clean_memory()
+
+    def _clean_memory(self):
+        """Nettoie la mémoire pour éviter les problèmes d'OOM"""
+        gc.collect()
+        
+        # Import de torch dans la portée locale pour éviter l'erreur UnboundLocalError
+        import torch
+        
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+            # Pour les systèmes macOS avec Apple Silicon
+            try:
+                import torch.mps
+                torch.mps.empty_cache()
+            except:
+                pass
 
     def generate_answer_with_override(self, question: str, context: str, definition: str = "", prompt_override: str = None) -> str:
         """
@@ -111,18 +150,50 @@ class RAGSystem:
         # Création de la pipeline d'indexation
         indexing_pipeline = create_indexing_pipeline(self.document_store, self.embedder_model)
         
-        # Exécution de la pipeline
-        indexing_pipeline.run({"doc_embedder": {"documents": documents}})
+        # Traitement par lots pour éviter les problèmes de mémoire
+        batch_size = 10  # Taille de lot réduite pour éviter les problèmes de mémoire
+        total_docs = len(documents)
+        
+        for i in range(0, total_docs, batch_size):
+            batch_end = min(i + batch_size, total_docs)
+            print(f"Traitement du lot {i//batch_size + 1}/{(total_docs + batch_size - 1)//batch_size} (documents {i+1}-{batch_end})")
+            
+            try:
+                # Exécution de la pipeline sur un lot
+                batch_docs = documents[i:batch_end]
+                indexing_pipeline.run({"doc_embedder": {"documents": batch_docs}})
+            except Exception as e:
+                print(f"Erreur lors de l'indexation du lot {i//batch_size + 1}: {str(e)}")
+                
+                # Si l'erreur est liée à la mémoire, réduire encore la taille du lot
+                if "out of memory" in str(e).lower():
+                    sub_batch_size = max(1, batch_size // 2)
+                    print(f"Tentative avec une taille de lot réduite: {sub_batch_size}")
+                    
+                    for j in range(i, batch_end, sub_batch_size):
+                        sub_batch_end = min(j + sub_batch_size, batch_end)
+                        sub_batch_docs = documents[j:sub_batch_end]
+                        
+                        try:
+                            indexing_pipeline.run({"doc_embedder": {"documents": sub_batch_docs}})
+                            print(f"  Sous-lot {j-i+1}-{sub_batch_end-i} traité avec succès")
+                        except Exception as sub_e:
+                            print(f"  Erreur sur le sous-lot: {str(sub_e)}")
+                            # En dernier recours, traiter un par un
+                            for k in range(j, sub_batch_end):
+                                try:
+                                    indexing_pipeline.run({"doc_embedder": {"documents": [documents[k]]}})
+                                    print(f"    Document {k+1} traité individuellement")
+                                except Exception as doc_e:
+                                    print(f"    Impossible d'indexer le document {k+1}: {str(doc_e)}")
 
         # Vérification des embeddings
         indexed_docs = self.document_store.filter_documents()
-        for doc in indexed_docs:
-            print(f"Document ID: {doc.id}, Embedding: {doc.embedding is not None}")
+        print(f"{len(indexed_docs)}/{len(documents)} documents indexés depuis {json_path}")
+        
+        return len(indexed_docs)
 
-        print(f"{len(documents)} documents indexés depuis {json_path}")
-        return len(documents)
-
-    def retrieve_with_hyde(self, question: str, top_k: int = 4) -> List[Document]:
+    def retrieve_with_hyde(self, question: str, top_k: int = 6) -> List[Document]:
         """
         Récupère les documents pertinents en utilisant HyDE
         
@@ -133,38 +204,53 @@ class RAGSystem:
         Returns:
             Liste des documents récupérés
         """
+        # Nettoyage préventif de la mémoire
+        self._clean_memory()
 
         print("debut de retrieve with hyde")
-        # Génération et embedding du document hypothétique avec HyDE
-        hyde_output = self.hyde_pipeline.run({
-            "prompt_builder": {"question": question},
-            "generator": {"n_generations": 3}  # Génère 3 documents hypothétiques
-        })
-        
-        # Log pour le debugging
-        print("Clés disponibles dans hyde_output:", list(hyde_output.keys()))
-        for key in hyde_output:
-            print(f"Structure de {key}:", list(hyde_output[key].keys()) if isinstance(hyde_output[key], dict) else "Non dictionnaire")
-        
-        # Récupération de l'embedding hypothétique moyen
-        hyp_embedding = hyde_output["hyde"]["hypothetical_embedding"]
-        
-        # Récupération des documents avec l'embedding hypothétique
-        retrieved_docs = self.retriever.run(
-            query_embedding=hyp_embedding, 
-            top_k=top_k,
-        )["documents"]
-        
-
-        # Affichage des documents hypothétiques générés
-        print("\nDocuments hypothétiques générés:")
-        if "generator" in hyde_output and "documents" in hyde_output["generator"]:
-            for i, doc in enumerate(hyde_output["generator"]["documents"]):
-                print(f"Document {i+1}: {doc.content[:100]}...")
-        
-        return retrieved_docs
+        try:
+            # Génération et embedding du document hypothétique avec HyDE
+            hyde_output = self.hyde_pipeline.run({
+                "prompt_builder": {"question": question},
+                "generator": {"n_generations": 2}  # Réduction du nombre pour éviter les problèmes de mémoire
+            })
+            
+            # Log pour le debugging
+            print("Clés disponibles dans hyde_output:", list(hyde_output.keys()))
+            
+            # Vérification de la présence des clés nécessaires
+            if "hyde" not in hyde_output or "hypothetical_embedding" not in hyde_output["hyde"]:
+                print("Erreur: Embedding hypothétique non trouvé dans la sortie HyDE")
+                # Fallback vers la méthode standard
+                return self.retrieve_standard(question, top_k)
+            
+            # Récupération de l'embedding hypothétique moyen
+            hyp_embedding = hyde_output["hyde"]["hypothetical_embedding"]
+            
+            # Nettoyage intermédiaire
+            self._clean_memory()
+            
+            # Récupération des documents avec l'embedding hypothétique
+            retrieved_docs = self.retriever.run(
+                query_embedding=hyp_embedding, 
+                top_k=top_k
+            )["documents"]
+            
+            # Affichage des documents hypothétiques générés
+            print("\nDocuments hypothétiques générés:")
+            if "generator" in hyde_output and "documents" in hyde_output["generator"]:
+                for i, doc in enumerate(hyde_output["generator"]["documents"]):
+                    print(f"Document {i+1}: {doc.content[:100]}...")
+            
+            return retrieved_docs
+            
+        except Exception as e:
+            print(f"Erreur lors de la récupération avec HyDE: {str(e)}")
+            print("Fallback vers la méthode de récupération standard")
+            self._clean_memory()
+            return self.retrieve_standard(question, top_k)
     
-    def retrieve_standard(self, question: str, top_k: int = 4) -> List[Document]:
+    def retrieve_standard(self, question: str, top_k: int = 6) -> List[Document]:
         """
         Récupère les documents pertinents avec la méthode standard
         
@@ -175,15 +261,31 @@ class RAGSystem:
         Returns:
             Liste des documents récupérés
         """
-        query_embedding = self.text_embedder.run(text=question)["embedding"]
-        retrieved_docs = self.retriever.run(
-            query_embedding=query_embedding, 
-            top_k=top_k
-        )["documents"]
-        
-        return retrieved_docs
+        try:
+            results = self.rag_pipeline.run(
+                data={
+                    "text_embedder": {"text": question}, 
+                    "retriever": {"top_k": top_k*2}
+                }
+            )
+            
+            if "splitter" in results and "documents" in results["splitter"]:
+                retrieved_docs = results["splitter"]["documents"]
+                return retrieved_docs[:top_k]  # Limiter aux top_k documents
+            else:
+                print("Avertissement: Aucun document récupéré par la méthode standard")
+                return []
+        except Exception as e:
+            print(f"Erreur lors de la récupération standard: {str(e)}")
+            # Fallback vers la méthode directe
+            query_embedding = self.text_embedder.run(text=question)["embedding"]
+            retrieved_docs = self.retriever.run(
+                query_embedding=query_embedding, 
+                top_k=top_k
+            )["documents"]
+            return retrieved_docs
     
-    def build_context(self, documents: List[Document], max_length: int = 3000) -> str:
+    def build_context(self, documents: List[Document], max_length: int = 4000) -> str:
         context_parts = []
         total_length = 0
 
@@ -248,50 +350,58 @@ class RAGSystem:
         """
 
         return f"""
-        Tu es un assistant scientifique expert dans l'analyse des méthodes d'échantillonnage d'ADN. Ta tâche est d'examiner les protocoles décrits dans les extraits pour déterminer s'ils contreviennent aux "Sept Péchés de l'Échantillonnage d'ADN Non-Invasif".
+        ### >>> INSTRUCTIONS POUR LE MODELE SEULEMENT <<<  
+        # NE PAS INTERPRÉTER CE QUI SUIT COMME UN EXTRAIT À ANALYSER.
+        # TU DOIS ATTENDRE LE CONTEXTE RÉEL DANS LA SECTION : CONTEXTE À ANALYSER
+        # TU NE DOIS TRAITER QUE LE TEXTE FOURNI DANS LA VARIABLE {{context}}
+        # IGNORE LE PRÉSENT PROMPT POUR L'ÉTAPE REACT.
+
+        Tu es un assistant scientifique expert dans l'analyse des méthodes d'échantillonnage d'ADN. Ta tâche est d'examiner les protocoles décrits dans les extraits pour déterminer s'ils contreviennent aux " Péchés de l'Échantillonnage d'ADN Non-Invasif".
+
+        Le but est de produire une analyse précise et un JSON valide pour chaque protocole d'échantillonnage d'ADN selon la structure demandée.
 
         Tu dois suivre strictement le format REACT (Reasoning and Acting) en séparant clairement chaque étape :
 
-        ## Thought: [Réflexion sur le protocole identifié]
-        ## Act: [Analyse détaillée du protocole]
-        ## Obs: [Citations exactes des extraits]
+        ## Thought: [Réflexion approfondie sur le protocole identifié]  
+        ## Act: [Analyse détaillée du protocole avec référence spécifique aux péchés]  
+        ## Obs: [Citations exactes des extraits avec numéros d'extraits correspondants]
 
         ##################################################
         # DÉFINITIONS ET CONTEXTE
         ##################################################
 
-        Définition de l'échantillonnage non-invasif :
+        Définition de l'échantillonnage non-invasif :  
         {definition}
 
-        definition des péchés :
+        Définitions des péchés :  
         {seven_sins_definitions}
 
-        Important :
-        1. Toute action modifiant le comportement animal = invasive
-        2. Tout contact direct avec l'animal = TOUJOURS invasif
-        3. Toute capture = TOUJOURS invasive
-        4. Échantillonnage non invasif = UNIQUEMENT sans contact avec l'animal
-        5. Prélèvement de fèces = invasif SEULEMENT si perturbation de l'animal
+        Important :  
+        1. Toute action modifiant le comportement animal = invasive  
+        2. Tout contact direct avec l'animal = TOUJOURS invasif  
+        3. Toute capture = TOUJOURS invasive  
+        4. Échantillonnage non invasif = UNIQUEMENT sans contact avec l'animal  
+        5. Prélèvement de fèces = invasif SEULEMENT si perturbation de l'animal ou du marquage territorial
 
         ##################################################
         # RÈGLES SUPPLÉMENTAIRES D'INTERPRÉTATION
         ##################################################
 
-        1. **Radio-suivi** :
-        - Si l'animal est localisé grâce à un marquage radio **réalisé avant le protocole**, ce n'est **pas invasif**.
+        1. Radio-suivi :  
+        - Si l'animal est localisé grâce à un marquage radio **réalisé avant le protocole**, ce n'est **pas invasif**.  
         - Si le marquage est **effectué dans le cadre du protocole**, il est **invasif**.
 
-        2. **Prélèvement de fèces de mammifères** :
-        - Si **toutes les fèces** sont prélevées : **invasif** (marquage territorial).
-        - Si **seule une partie** est prélevée : **non invasif**.
-        - Si aucune précision n'est donnée (ex : "fèces collectées après le passage de l'animal") :
-            → `"evaluation_invasivite": "Inconnu"`
-        - Si le contexte de la collecte des fèces implique une perturbation de l'animal (e.g., utilisation d'aéronefs, capture de l'animal), même sans précision sur la quantité, alors :
-            → `"evaluation_invasivite": "Invasif"`
+        2. Prélèvement de fèces de mammifères :  
+        - Si toutes les fèces sont prélevées : invasif (perturbation du marquage territorial).  
+        - Si seule une partie est prélevée : non invasif.  
+        - Si aucune précision n'est donnée (ex : "fèces collectées après le passage de l'animal") :  
+            ALORS "evaluation_invasivite": "présumé non invasif"  
+        - Si le contexte de la collecte des fèces implique une perturbation de l'animal (utilisation d'aéronefs, capture), alors :  
+            "evaluation_invasivite": "Invasif"
 
-        3. **Autres prélèvements (poils, salive, urine...)** :
-        - Si les informations sont **insuffisantes** (aucune mention de capture, de manipulation, etc.) :
-            → `"evaluation_invasivite": "présumé non invasif"`
+        3. **Autres prélèvements (poils, salive, urine...)** :  
+        - Si les informations sont insuffisantes (pas de mention de capture ou manipulation) :  
+            "evaluation_invasivite": "présumé non invasif"  
             avec justification adaptée.
 
         ##################################################
@@ -304,61 +414,67 @@ class RAGSystem:
         # INSTRUCTIONS D'ANALYSE — FORMAT REACT
         ##################################################
 
-        1. Identifie UNIQUEMENT les protocoles d'échantillonnage d'ADN distincts.
-        2. **Regroupe IMPÉRATIVEMENT TOUS les protocoles qui partagent des extraits similaires ou qui décrivent des méthodes d'échantillonnage essentiellement identiques, même s'ils sont mentionnés dans différentes parties du texte. Considère TOUTES les variations mineures (e.g., "poils" vs. "poils collectés dans la nature", "fèces" vs. "scat") comme faisant partie du même protocole général. Ne crée PAS de protocoles distincts pour ces variations. Si un échantillon est collecté à la fois en captivité et dans la nature, considère cela comme UN SEUL protocole et indique "mixte" pour l'échantillon. PRIORISE le regroupement au détriment de la séparation.**
-        3. Pour chaque protocole regroupé :
-        - **Thought** : réfléchis à ce que tu observes, identifie une action ou une méthode liée à l'échantillonnage.
-        - **Act** : Si pertinent, analyse :
-            - Méthode d'obtention de l'ADN et partie de l'animal concernée.
-            - Présence ou absence de manipulation, capture, ou perturbation.
-            - Impacts potentiels (stress, comportement, douleur).
-            - Invasivité : `"Non invasif"` / `"Invasif"` / `"Inconnu"` / `"présumé non invasif"`.
-            - Numéros des péchés concernés (si applicables).
-            - Nouveaux péchés : `"Oui"` ou `"Non"` + justification.
-        - **Obs** : Cite TOUS les extraits pertinents utilisés pour ton raisonnement (même s'il n'y en a qu'un seul, liste obligatoire).
+        1. Identifie avec précision chaque protocole d'échantillonnage d'ADN distinct.
+        2. Regroupe IMPÉRATIVEMENT TOUS les protocoles qui décrivent des méthodes d'échantillonnage similaires.
+        3. Pour chaque protocole, réalise une analyse en trois parties :
+        - Thought : formule une réflexion approfondie sur la méthode et ses implications
+        - Act : analyse rigoureusement la méthode, ses impacts sur l'animal, et identifie les péchés spécifiques
+        - Obs : cite EXACTEMENT les extraits pertinents avec leurs numéros d'extraits correspondants
 
-        4. Ne traite qu'un **seul protocole par article**, en suivant ces priorités :
-        - Si un protocole est clairement plus invasif que les autres, choisis celui-ci.
-        - Sinon, si plusieurs protocoles ont un niveau d'invasivité similaire, décris-les **TOUS** dans l'analyse du protocole unique.
-        - Si tous les protocoles sont non-invasifs ou présumés non-invasifs, choisis celui qui est décrit avec le plus de détails.
-        5. Ignore toute méthode ne concernant **pas** l'échantillonnage d'ADN (ex : PCR, séquençage...).
+        4. Ne traite qu'un SEUL protocole par article, selon les priorités décrites.
+
+        5. Ignore toute méthode ne concernant pas directement l'échantillonnage d'ADN (ex : PCR, séquençage, photographie, etc.).
 
         ##################################################
         # FORMAT DE RÉPONSE
         ##################################################
 
-        Pour chaque protocole identifié, présente ton analyse en suivant strictement les étapes REACT (Thought, Act, Obs), puis fournis un JSON final selon ce format:
-
         ```json
         {{
-        "protocole": "Nom concis du protocole",
-        "extrait_pertinent": ["Texte exact de l'extrait 1", "Texte exact de l'extrait 2"],
-        "echantillon": "Type d'échantillon (poils/sang/fèces/urine/salive/mixte)",
-        "impacts_potentiels": ["impact1", "impact2"],
-        "evaluation_invasivite": "Non invasif / Invasif / Inconnu / présumé non invasif",
-        "peches_identifies": ["1", "2", "5"],
-        "nouveaux_peches": "Oui / Non"
+            "protocole": "Nom concis du protocole",
+            "extrait_pertinent": ["Texte exact de l'extrait 1", "Texte exact de l'extrait 2"],
+            "echantillon": "Type précis d'échantillon (poils/sang/fèces/urine/salive/mixte)",
+            "impacts_potentiels": ["impact1", "impact2"],
+            "evaluation_invasivite": "Non invasif / Invasif / présumé non invasif",
+            "peches_identifies": ["1", "2", "5"]
         }}
+        ```
+
         ##################################################
         VÉRIFICATION DU JSON
         ##################################################
         Avant de soumettre ton JSON, vérifie STRICTEMENT:
 
-        Qu'il n'y a pas de clés dupliquées.
-        Que toutes les accolades et crochets sont bien fermés.
-        Que toutes les virgules sont correctement placées.
-        Que le JSON est parfaitement valide et pourrait être parsé sans erreur.
-        Que SI tu souhaites faire une liste, elle commence par [ et se termine par ].
+        - Absence de clés dupliquées
+        - Fermeture correcte des accolades et crochets
+        - Placement approprié des virgules
+        - Validité parfaite du format JSON
+        - Format correct des listes pour les champs "extrait_pertinent", "impacts_potentiels" et "peches_identifies"
 
-        RÈGLES CRUCIALES POUR LE FORMAT JSON :
+        IMPORTANT:
+        - Utiliser "evaluation_invasivite" (sans accent)
+        - Utiliser "echantillon" (sans accent)
+        - Utiliser "peches_identifies" (sans accent)
+        - Les extraits pertinents doivent toujours être une liste, même pour un seul élément
 
-        Chaque clé doit apparaître UNE SEULE FOIS dans l'objet JSON.
-        Les noms de clés doivent utiliser des underscores simples (_) et NE PAS contenir d'accents.
-        Toute liste doit commencer par [ et se terminer par ].
-        Chaque élément dans un objet ou une liste doit être séparé par une virgule.
-        Assure-toi que chaque valeur est du bon type : chaînes entre guillemets, listes entre crochets.
-        Assure-toi que le champ extrait_pertinent contient toujours une liste de chaînes, même s'il n'y a qu'un seul élément.
+        ### Exemple :
 
+        ## Thought: Le protocole indique que les fèces ont été prélevées en totalité à proximité du terrier.
+        ## Act: Le prélèvement complet des fèces perturbe le marquage territorial. Cette méthode, bien que passive, a un impact comportemental. Elle est donc considérée comme invasive. Péché 1 est applicable.
+        ## Obs: "Toutes les fèces ont été ramassées à la sortie du terrier."
+
+        ```json
+            {{
+            "protocole": "Prélèvement total de fèces au terrier",
+            "extrait_pertinent": ["Toutes les fèces ont été ramassées à la sortie du terrier."],
+            "echantillon": "fèces",
+            "impacts_potentiels": ["perturbation du marquage territorial"],
+            "evaluation_invasivite": "Invasif",
+            "peches_identifies": ["1"]
+            }}
+        ```
+
+        Donne uniquement le JSON bien formé, sans texte explicatif autour.
         """
 
 
@@ -384,51 +500,101 @@ class RAGSystem:
 
     
 
-    def answer_question(self, question: str, definition: str = "", use_hyde: bool = True, top_k: int = 8) -> str:
+    def answer_question(self, question: str, definition: str = "", use_hyde: bool = True, top_k: int = 8, max_retries: int = 3) -> str:
         """
-        Processus complet pour répondre à une question (sans reranker)
+        Processus complet pour répondre à une question avec validation JSON
+        
+        Args:
+            question: La question à traiter
+            definition: Définition optionnelle à inclure dans le prompt
+            use_hyde: Utiliser la méthode HyDE ou standard
+            top_k: Nombre de documents à récupérer
+            max_retries: Nombre maximum de tentatives en cas d'échec de validation
+            
+        Returns:
+            La réponse validée ou une erreur après max_retries tentatives
         """
-        if use_hyde:
-            print("--- Méthode avec HyDE ---")
-            retrieved_docs = self.retrieve_with_hyde(question=question, top_k=top_k)
-            print("\n--- DOCUMENTS RÉCUPÉRÉS (HYDE) ---")
-            for doc in retrieved_docs:
-                print(f"Contenu: {doc.content[:200]}...")
-            print("--- FIN DES DOCUMENTS RÉCUPÉRÉS (HYDE) ---\n")
+        # Nettoyage de la mémoire avant de commencer
+        self._clean_memory()
+        
+        for attempt in range(max_retries):
+            if use_hyde:
+                print("--- Méthode avec HyDE ---")
+                retrieved_docs = self.retrieve_with_hyde(question=question, top_k=top_k)
+                print("\n--- DOCUMENTS RÉCUPÉRÉS (HYDE) ---")
+                for doc in retrieved_docs:
+                    print(f"Contenu: {doc.content[:200]}...")
+                print("--- FIN DES DOCUMENTS RÉCUPÉRÉS (HYDE) ---\n")
+            else:
+                print("--- Méthode standard ---")
+                retrieved_docs = self.retrieve_standard(question=question, top_k=top_k)
+                print(f"\n--- DOCUMENTS RÉCUPÉRÉS (STANDARD) ---")
+                print(f"Nombre de documents récupérés: {len(retrieved_docs)}")
+                for doc in retrieved_docs:
+                    print(f"Contenu: {doc.content[:200]}...")
+                print("--- FIN DES DOCUMENTS RÉCUPÉRÉS (STANDARD) ---\n")
 
-        else:
-            print("--- Méthode standard ---")
-            results = self.rag_pipeline.run(data={"text_embedder": {"text": question}, "retriever": {"top_k": top_k}})
-            print(f"\n--- RÉSULTATS DE RAG PIPELINE (STANDARD) ---")
-            print(results)
-            print("--- FIN DES RÉSULTATS DE RAG PIPELINE (STANDARD) ---\n")
-            chunked_docs = results["splitter"]["documents"] # Les documents sont déjà chunkés ici
-            print(f"Chunks récupérés avec la méthode standard: {len(chunked_docs)}")
-            retrieved_docs = chunked_docs # Pour que le reste de la fonction fonctionne sans modification
+            # Nettoyage intermédiaire
+            self._clean_memory()
 
-        # Affichage des documents récupérés (qui sont maintenant les chunks pour la méthode standard)
-        print("\n--- DOCUMENTS RÉCUPÉRÉS (OU CHUNKS) ---")
-        for i, doc in enumerate(retrieved_docs):
-            print(f"\nDocument/Chunk {i+1}:")
-            print(f"Score: {doc.score if hasattr(doc, 'score') else 'N/A'}")
-
-            print(f"Contenu: {doc.content[:100]}...") #  aperçu
-
-        # Construction du contexte
-        context = self.build_context(retrieved_docs) 
-
-        # Génération de la réponse
-        answer = self.generate_answer(question, context, definition)
-
-        return answer
-    
+            # Construction du contexte
+            context = self.build_context(retrieved_docs)
+            
+            # Génération de la réponse
+            answer = self.generate_answer(question, context, definition)
+            
+            # Validation du JSON
+            try:
+                # Extraction des blocs JSON
+                json_blocks = extract_json_blocks(answer)
+                if not json_blocks:
+                    print(f"Tentative {attempt + 1}/{max_retries}: Aucun bloc JSON trouvé")
+                    continue
+                    
+                # Validation de chaque bloc JSON
+                for block in json_blocks:
+                    try:
+                        json_obj = json.loads(block)
+                        # Vérification des champs requis
+                        if all(key in json_obj for key in ["protocole", "extrait_pertinent", "echantillon", 
+                                                         "impacts_potentiels", "evaluation_invasivite", 
+                                                         "peches_identifies"]):
+                            # Vérification des types
+                            if (isinstance(json_obj["extrait_pertinent"], list) and 
+                                isinstance(json_obj["impacts_potentiels"], list) and 
+                                isinstance(json_obj["peches_identifies"], list) and
+                                json_obj["evaluation_invasivite"] in ["Non invasif", "Invasif", "présumé non invasif"]):
+                                self._clean_memory()  # Nettoyage final avant de retourner la réponse
+                                return answer
+                    except json.JSONDecodeError:
+                        continue
+                        
+                print(f"Tentative {attempt + 1}/{max_retries}: JSON invalide")
+                
+            except Exception as e:
+                print(f"Tentative {attempt + 1}/{max_retries}: Erreur de validation - {str(e)}")
+                
+            if attempt < max_retries - 1:
+                print("Nouvelle tentative avec un prompt modifié...")
+                # Nettoyage avant la nouvelle tentative
+                self._clean_memory()
+                # Modification du prompt pour être plus strict sur le format
+                answer = self.generate_answer_with_override(
+                    question, 
+                    context, 
+                    definition,
+                    prompt_override=self._build_prompt(question, context, definition) + "\nIMPORTANT: Assurez-vous que le JSON est parfaitement valide et respecte le schéma suivant:\n" + json.dumps(PROTOCOL_SCHEMA, indent=2)
+                )
+        
+        self._clean_memory()  # Nettoyage final
+        return "Erreur: Impossible de générer une réponse valide après plusieurs tentatives"
 
 
 
 expected_keys = {
     "protocole", "extrait_pertinent", "echantillon",
     "impacts_potentiels", "evaluation_invasivite",
-    "peches_identifies", "nouveaux_peches"
+    "peches_identifies"
 }
 
 def is_valid_entry(entry):
@@ -476,10 +642,10 @@ def parse_json(response_text, filename):
             "Filename": filename,
             "Protocole": item["protocole"],
             "echantillon": item["echantillon"],
+            "Impacts potentiels": item["impacts_potentiels"],
             "Extrait pertinent": item["extrait_pertinent"],
             "Évaluation d'invasivité": item["evaluation_invasivite"],
-            "Péchés identifiés": item["peches_identifies"],
-            "Nouveaux péchés": item["nouveaux_peches"]
+            "Péchés identifiés": item["peches_identifies"]
         }
         for item in parsed_blocks
     ])
