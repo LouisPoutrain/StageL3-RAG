@@ -51,7 +51,7 @@ class RAGSystem:
    
         
         # Initialisation des embedders 
-        self.embedder_model = "BAAI/bge-large-en-v1.5"
+        self.embedder_model = "sentence-transformers/allenai-specter"  #BAAI/bge-large-en-v1.5
         embedding_dim = 1024
         try:
             self.document_store = InMemoryDocumentStore(embedding_similarity_function="cosine")
@@ -60,7 +60,7 @@ class RAGSystem:
             self.text_embedder.warm_up()
         except Exception as e:
             print(f"Avertissement lors de l'initialisation de l'embedder: {str(e)}")
-            # Fallback à un modèle plus léger si nécessaire
+            # Un modèle plus léger si nécessaire
             self.embedder_model = "sentence-transformers/all-MiniLM-L6-v2"
             print(f"Utilisation du modèle d'embedding de fallback: {self.embedder_model}")
             self.text_embedder = SentenceTransformersTextEmbedder(model=self.embedder_model)
@@ -70,12 +70,12 @@ class RAGSystem:
             self.document_store = InMemoryDocumentStore(embedding_similarity_function="cosine")
         
         # Initialisation du retriever et du writer
-        self.retriever = InMemoryEmbeddingRetriever(document_store=self.document_store, show_progress=False)
-        self.writer = DocumentWriter(document_store=self.document_store, show_progress=False)
+        self.retriever = InMemoryEmbeddingRetriever(document_store=self.document_store)
+        self.writer = DocumentWriter(document_store=self.document_store)
         
 
         # Splitter pour la segmentation des documents
-        self.splitter = DocumentSplitter(split_by="word", split_length=800, split_overlap=150)
+        self.splitter = DocumentSplitter(split_by="word", split_length=400, split_overlap=60)
 
         # Initialisation des pipelines
         self.hyde_pipeline = create_hyde_pipeline(self.api_key, self.api_url, self.embedder_model)
@@ -85,7 +85,7 @@ class RAGSystem:
         self.llm_adapter = UniversityLLMAdapter(
             api_key=self.api_key,
             api_url=self.api_url,
-            max_tokens=16000,
+            max_tokens=20000,
             temperature=0
         )
         
@@ -180,7 +180,7 @@ class RAGSystem:
             print(traceback.format_exc())
             return 0
 
-    def retrieve_with_hyde(self, question: str, top_k: int = 4) -> List[Document]:
+    def retrieve_with_hyde(self, question: str, top_k: int = 6) -> List[Document]:
         """
         Récupère les documents pertinents en utilisant HyDE avec un seuil dynamique
         
@@ -330,135 +330,149 @@ class RAGSystem:
 
 
         return f"""
-    ### Analyse des protocoles d'échantillonnage d'ADN avec méthode ReAct
 
-    Tu es un expert en analyse de protocoles d'échantillonnage d'ADN. Ta mission est d'analyser les protocoles décrits dans les extraits fournis pour déterminer s'ils sont invasifs et quels "péchés d'échantillonnage" ils commettent.
+        Tu es un expert en analyse de protocoles d'échantillonnage d'ADN. Ta mission est d'analyser les protocoles décrits dans les extraits fournis pour déterminer s'ils sont invasifs et quels "péchés d'échantillonnage" ils commettent.
+        Définitions
 
-    ## Définitions
+        Échantillonnage d'ADN non-invasif:
 
-    Échantillonnage d'ADN non-invasif:
-    {definition}
+        {definition}
 
-    Les sept péchés de l'échantillonnage d'ADN:
-    {seven_sins_definitions}
+        Les sept péchés de l'échantillonnage d'ADN:
 
-    ## Critères d'invasivité
+        {seven_sins_definitions}
+        Critères d'invasivité
 
-    Un protocole est invasif si au moins UN des critères suivants est rempli:
-    - Contact direct avec l'animal vivant
-    - Capture ou manipulation de l'animal
-    - Modification du comportement naturel
-    - Perturbation significative de l'habitat
-    - Utilisation d'appâts ou leurres modifiant le comportement
+        Un protocole est invasif si au moins UN des critères suivants est rempli:
 
-    Un protocole est non-invasif UNIQUEMENT si TOUS ces critères sont remplis:
-    - Aucun contact avec l'animal vivant
-    - Aucune perturbation du comportement naturel
-    - Utilisation d'échantillons déjà abandonnés naturellement
-    - Aucune modification de l'habitat ou du territoire
+            Contact direct avec l'animal vivant
+            Capture ou manipulation de l'animal
+            Modification du comportement naturel
+            Perturbation significative de l'habitat
+            Utilisation d'appâts ou leurres modifiant le comportement
 
-    Cas particuliers CRITIQUES:
-    - Radio-suivi: Non invasif si marquage antérieur, invasif si marquage dans le protocole
-    - Fèces de mammifères: Invasif si collecte totale/quantité importante/non précisée (perturbation marquage territorial)
-    - ANIMAUX MORTS: TOUJOURS NON INVASIF si mort naturelle sans intervention humaine (aucun contact possible avec animal vivant)
-    - Échantillons post-mortem: Prélèvements sur cadavres = NON INVASIF par définition (animal déjà mort)
-    - Nécropsies: Si l'animal est mort naturellement, tous les prélèvements sont NON INVASIFS
+        Un protocole est non-invasif UNIQUEMENT si TOUS ces critères sont remplis:
 
-    ## Extraits à analyser
+            Aucun contact avec l'animal vivant
+            Aucune perturbation du comportement naturel
+            Utilisation d'échantillons déjà abandonnés naturellement
+            Aucune modification de l'habitat ou du territoire
 
-    {context}
+        Cas particuliers CRITIQUES:
 
+            Radio-suivi: Non invasif si marquage antérieur, invasif si marquage dans le protocole
+            Fèces de mammifères: Invasif si collecte totale/quantité importante/non précisée (perturbation marquage territorial)
+            ANIMAUX MORTS: TOUJOURS NON INVASIF si mort naturelle sans intervention humaine (aucun contact possible avec animal vivant)
+            Échantillons post-mortem: Prélèvements sur cadavres = NON INVASIF par définition (animal déjà mort)
+            Nécropsies: Si l'animal est mort naturellement, tous les prélèvements sont NON INVASIFS
 
-    SI extrait NE contient PAS de description explicite d’une méthode de collecte ou de traitement d’un échantillon
-    ALORS rejeter le chunk comme "non exploitable"
+        Extraits à analyser
 
+        {context}
 
-    ## Processus d'analyse avec ReAct
+        SI extrait NE contient PAS de description explicite d'une méthode de collecte ou de traitement d'un échantillon
 
-    Pour chaque protocole d'échantillonnage distinct mentionné dans les extraits:
+        ALORS rejeter le chunk comme "non exploitable"
+        Processus d'analyse avec ReAct
 
-    1. Identifier clairement le protocole distinct dans les extraits
-    2. Appliquer la méthode ReAct:
-    - Thought: [Réflexion approfondie sur le protocole identifié]
-    - Act: [Analyse détaillée du protocole avec référence spécifique aux péchés]
-    - Obs: [Citations exactes des extraits avec numéros d'extraits correspondants]
-    3. Structurer l'analyse finale au format JSON
+        Pour chaque protocole d'échantillonnage distinct mentionné dans les extraits:
 
+            Identifier clairement le protocole distinct dans les extraits
+            Appliquer la méthode ReAct:
 
-    ## Erreurs fréquentes à ÉVITER ABSOLUMENT
+            Thought: [Réflexion approfondie sur le protocole identifié]
+            Act: [Analyse détaillée du protocole avec référence spécifique aux péchés]
+            Obs: [Citations exactes des extraits avec numéros d'extraits correspondants]
 
-    ATTENTION - Règles d'évaluation critiques:
+            Structurer l'analyse finale au format JSON
 
-   1. ANIMAUX MORTS 
+        SI tu ne trouves pas de protocole dans les extraits, tu dois renvoyer un tableau vide.
+        Erreurs fréquentes à ÉVITER ABSOLUMENT
 
-    1 . Non invasif si mort naturelle;
-        Cadavres, nécropsies, organes (ex. intestins) : non invasif
-        Aucun contact avec animal vivant, aucune modification de comportement
+        ATTENTION - Règles d'évaluation critiques:
 
-    2. Impacts à indiquer;
-        Écrire : "Aucun impact – animal déjà décédé"
-        Ne pas écrire : "Contact direct", "Modification du comportement", etc.
+            ANIMAUX MORTS
 
-    3. Cas invasifs:
-        Animal tué pour l’étude = invasif
-        Mort causée par l’humain (ex. chasse, pollution, capture) = invasif
+            Non invasif si mort naturelle;
+            Cadavres, nécropsies, organes (ex. intestins) : non invasif
+            Aucun contact avec animal vivant, aucune modification de comportement
 
-    4. Péchés:
+            Cas invasifs:
+
+        Animal tué pour l'étude = invasif
+        Mort causée par l'humain (ex. chasse, pollution, capture) = invasif
+
+            Péchés:
+
         Aucun péché si mort naturelle
-        Péché si mort liée à une intervention humaine ou provoquée par l’étude
+        Péché si mort liée à une intervention humaine ou provoquée par l'étude
 
-    2. Regroupement des protocoles:
-    - NE PAS créer 3 protocoles différents si c'est le même type de prélèvement
-    - Exemple: "fèces pré-mortem", "fèces post-mortem", "fèces nécropsie" = UN SEUL protocole "Collecte de fèces"
+            Regroupement des protocoles:
 
-    3. Péchés sur les fèces pour les mammifères : 
-    - Si l'animal est un mammifère, il est invasif si la collecte est totale ou non précisée.
-    - En revanche si seulement une partie des fèces est prélevée, il est non invasif.
+            NE PAS créer 3 protocoles différents si c'est le même type de prélèvement
+            Exemple: "fèces pré-mortem", "fèces post-mortem", "fèces nécropsie" = UN SEUL protocole "Collecte de fèces"
 
-    ## Règles importantes pour l'analyse
-    - REGROUPE les protocoles identiques ou similaires (même type d'échantillon, même méthode)
-    - Citer les extraits exacts dans la langue originale avec assez de précision pour retrouver l'extrait dans le texte
-    - N'inventer JAMAIS de protocoles non mentionnés dans les extraits
-    - Ignore toute méthode ne concernant pas directement l'échantillonnage d'ADN (ex : PCR, séquençage, photographie, etc.).
-    - RAPPEL: Échantillons post-mortem = NON INVASIF par défaut
+            Péchés sur les fèces pour les mammifères :
 
-    Important : Pour chaque protocole, effectue mentalement la méthode ReAct (Thought, Act, Obs) afin de bien analyser le protocole.  
-    Mais dans ta réponse finale, n'affiche pas ces étapes.  
-    Affiche uniquement le tableau JSON final complet demandé, sans aucun autre texte ni raisonnement intermédiaire.
+            Si l'animal est un mammifère, il est invasif si la collecte est totale ou non précisée.
+            En revanche si seulement une partie des fèces est prélevée, il est non invasif.
 
+        Règles importantes pour l'analyse
 
-    ## Structure du JSON final
+            REGROUPE les protocoles identiques ou similaires (même type d'échantillon, même méthode)
+            Citer les extraits exacts dans la langue originale avec assez de précision pour retrouver l'extrait dans le texte
+            N'inventer JAMAIS de protocoles non mentionnés dans les extraits
+            Ignore toute méthode ne concernant pas directement l'échantillonnage d'ADN (ex : PCR, séquençage, photographie, etc.).
+            RAPPEL: Échantillons post-mortem = NON INVASIF par défaut
 
-    Fournir un tableau JSON contenant tous les protocoles identifiés:
+        Important : Pour chaque protocole, effectue mentalement la méthode ReAct (Thought, Act, Obs) afin de bien analyser le protocole.
 
-    ```json
-    [
-    {{
-        "protocole": "Nom précis et descriptif du protocole",
-        "extrait_pertinent": ["Citation exacte de l'extrait"],
-        "echantillon": "Type d'échantillon prélevé",
-        "impacts_potentiels": ["Impact 1", "Impact 2"],
-        "evaluation_invasivite": "Invasif" ou "Non invasif",
-        "peches_identifies": ["1", "2", "5"]
-    }}
-    ]
-    ```
+        Mais dans ta réponse finale, n'affiche pas ces étapes.
 
-    ## Instructions finales
+        Affiche uniquement le tableau JSON final complet demandé, sans aucun autre texte ni raisonnement intermédiaire.
 
-    Ta réponse DOIT contenir:
-    1. Uniquement le tableau JSON final complet
+        Attention si le protocole d'échantillonnage d'ADN est la collecte de fèces chez les mammifères et qu'il est dit qu'ils prélèvent une partie des fèces, il est non invasif.
 
-    Le JSON final DOIT:
-    - Être strictement valide (parsable sans erreur)
-    - Contenir tous les protocoles identifiés
-    - Utiliser les clés sans accents: "evaluation_invasivite", "echantillon", "peches_identifies"
+        Ne jamais supposer qu'un animal est mort s'il n'est pas explicitement mentionné comme mort dans l'extrait.
 
-    Limites strictes:
-    - Utiliser UNIQUEMENT les informations des extraits fournis
-    
+        Ne pas créer de protocole à partir d'un extrait s'il ne décrit pas explicitement une méthode de collecte d'échantillon.
 
-    """
+        Autrement dit, ignorer tout extrait qui ne fournit aucune information sur le type d'échantillon, la manière dont il a été collecté, ou les conditions de cette collecte (ex. : simple mention d'une approbation éthique ou d'un résultat sans protocole = à ignorer)
+        Structure du JSON final
+
+        Fournir un tableau JSON contenant tous les protocoles identifiés:
+
+        ```json
+        [
+        {{
+            "protocole": "Nom précis et descriptif du protocole",
+            "extrait_pertinent": ["Citation exacte de l'extrait"],
+            "echantillon": "Type d'échantillon prélevé",
+            "impacts_potentiels": ["Impact 1", "Impact 2"],
+            "evaluation_invasivite": "Invasif" ou "Non invasif",
+            "peches_identifies": ["1", "2", "5"]
+        }}
+        ]
+        ```
+
+        Instructions finales
+
+        Ta réponse DOIT contenir:
+
+            Uniquement le tableau JSON final complet
+            Toutes les citations dans "extrait_pertinent" DOIVENT être copiées exactement depuis le texte original. Ne jamais traduire ni reformuler. Les citations doivent rester dans la langue d'origine des extraits
+
+        Le JSON final DOIT:
+
+            Être strictement valide (parsable sans erreur)
+            Contenir tous les protocoles identifiés
+            Utiliser les clés sans accents: "evaluation_invasivite", "echantillon", "peches_identifies"
+
+        Limites strictes:
+
+            Utiliser UNIQUEMENT les informations des extraits fournis
+            La citation exacte doit avoir assez de contexte pour comprendre le protocole
+        """
 
     def generate_answer(self, question: str, context: str, definition: str = "") -> str:
         """
@@ -543,7 +557,7 @@ class RAGSystem:
                 promptStrict = """
             ## Validation stricte requise
 
-            - Si tu n’es pas certain de pouvoir produire un JSON conforme, NE DONNE AUCUNE RÉPONSE.
+            - Si tu n'es pas certain de pouvoir produire un JSON conforme, NE DONNE AUCUNE RÉPONSE.
             - Le tableau JSON final **doit être parfaitement parsable** (aucune erreur de syntaxe, guillemets fermés, virgules bien placées, etc.).
             - Chaque champ doit correspondre **exactement** aux types suivants :
             - `protocole`: string
@@ -554,8 +568,8 @@ class RAGSystem:
             - `peches_identifies`: array of strings représentant les numéros des péchés identifiés
 
             - Ne fournis **aucune autre sortie** après le tableau JSON.
-            - N’ajoute **aucun commentaire, balise Markdown, ou explication** après le JSON final.
-            - Le JSON doit être isolé, sans texte avant ou après (sauf l’analyse ReAct).
+            - N'ajoute **aucun commentaire, balise Markdown, ou explication** après le JSON final.
+            - Le JSON doit être isolé, sans texte avant ou après (sauf l'analyse ReAct).
 
             """
                 prompt = self._build_prompt(question, context, definition) + promptStrict
@@ -618,6 +632,7 @@ class RAGSystem:
         for i, chunk in enumerate(chunks):
             prompt = self._build_prompt(question, chunk, definition)
             reponse = self.llm_adapter.generate_answer(prompt)
+            print(f"Chunks {i+1} : {chunk}")
             print(f"Réponse {i+1} : {reponse}")
             analyses.append(reponse)
         return analyses
@@ -627,41 +642,67 @@ class RAGSystem:
         Fusionne les analyses en un seul bloc JSON
         """
         prompt_fusion = """
-        Tu es un expert en analyse de protocoles d'échantillonnage d'ADN.
-        Ta tâche :
-        - Garde uniquement les protocoles explicitement mentionnés et décrits dans les analyses fournis.
-        - Ne génère ni n’invente aucun protocole ou information qui ne figure pas dans les analyses.
-        - Si deux protocoles décrivent manifestement la même procédure avec des formulations très proches dans les extraits_pertinent, fusionne-les quand même, en gardant toutes les variantes d’extrait.        - Fusionne également les protocoles clairement similaires d’après les analyses, en conservant toutes les citations exactes.
-        - Regroupe les variantes clairement indiquées comme équivalentes (exemple : tous les prélèvements de fèces).
-        - Filtre pour ne garder que les protocoles liés à l’échantillonnage d’ADN (exclut ARN, séquençage, analyses biochimiques non liées au prélèvement d’échantillons d’ADN).
-        - Ne supprime aucune information essentielle, mais évite les répétitions inutiles.
-        - Respecte strictement ce format JSON, ne renvoie rien d’autre :
+        Tu es un expert en protocoles d'échantillonnage d'ADN en biologie de la conservation.
 
-        Tu dois te baser uniquement sur les analyses fournis.
-        
-        Génère un SEUL tableau JSON final, strictement conforme au format suivant :
-         ```json
-            [
+        Ta tâche : fusionner et structurer des descriptions de protocoles d'échantillonnage d'ADN à partir d'analyses textuelles, **sans jamais inventer** d'information. Tu dois te baser uniquement sur les analyses fournies ci-dessous.
+
+        ## Étapes à suivre (ReAct implicite) :
+
+        1. **Filtrage**
+        - Garde uniquement les protocoles liés à l'échantillonnage d'ADN (exclure ARN, séquençage, analyses biochimiques non liées au prélèvement).
+        - Ignore tout ce qui ne décrit pas explicitement une procédure d'échantillonnage.
+
+        2. **Fusion**
+        - Si deux protocoles ont :
+            - des noms de protocole qui décrivent clairement la même procédure même si formulés différemment
+            - OU exactement le même échantillon ET les mêmes impacts
+            - ET des extraits qui décrivent clairement la même procédure même si formulés différemment
+            - Considère comme équivalents les extraits qui décrivent exactement le même protocole (même outil, même geste, même but), même si certains extraits sont plus détaillés que d'autres.
+            - Ne te base pas uniquement sur la formulation littérale : si un extrait est un résumé fidèle d'un autre, fusionner.
+        ALORS fusionner. Sinon, conserver séparés.
+        - Conserve **toutes les variantes d'extraits** associées.
+        - Regroupe les cas mentionnés comme équivalents (ex. « prélèvements de fèces » groupés ou individuels).
+        -Important : si l'extrait ne précise pas explicitement si l'animal est vivant ou mort, tu dois considérer que cette information est inconnue. Ne déduis jamais qu'un animal est mort simplement parce que cela n'est pas dit.
+
+        3. **Évaluation**
+        - Uniformise les noms d'échantillons très proches. Exemples :
+        - "ADN d'estomac" et "contenu stomacal" ALORS regroupe sous : `"Contenu stomacal"`
+        - "ADN fécal" et "fèces" et "excréments" ALORS regroupe sous : `"Fèces"`
+        - "ADN salivaire", "salive", etc. ALORS regroupe sous : `"Salive"`
+
+        4. **Résolution de conflits**
+        - Si un protocole est appliqué **sur des animaux déjà morts de cause naturelle, collision routière ou chasse tierce**, alors :
+        - Les **impacts doivent être considérés comme nuls** (l'animal ne subit pas de stress ou de capture).
+        - L'évaluation de l'invasivité doit être : `"Non invasif"`.
+        - Les péchés doivent être : `[]`.
+        - Ne jamais dupliquer un protocole à cause d'une contradiction sur l'impact si l'extrait indique clairement que l'animal est déjà mort.
+
+        5. **Format de sortie**
+        - Génère un **seul tableau JSON**, strictement conforme au format suivant.  
+        - Ne produis **aucun texte avant ou après** le JSON.
+
+        ```json
+        [
             {{
                 "protocole": "Nom précis et descriptif du protocole",
-                "extrait_pertinent": ["Citation exacte de l'extrait"],
-                "echantillon": "Type d'échantillon prélevé",
-                "impacts_potentiels": ["Impact 1", "Impact 2"],
-                "evaluation_invasivite": "Invasif" ou "Non invasif",
-                "peches_identifies": ["1", "2", "5"]
-            }},
-            {{
-                "protocole": "Nom précis et descriptif du protocole",
-                "extrait_pertinent": ["Citation exacte de l'extrait"],
+                "extrait_pertinent": ["Citation exacte de l'extrait 1", "Citation exacte 2"],
                 "echantillon": "Type d'échantillon prélevé",
                 "impacts_potentiels": ["Impact 1", "Impact 2"],
                 "evaluation_invasivite": "Invasif" ou "Non invasif",
                 "peches_identifies": ["1", "2", "5"]
             }}
-            ]
-            ```
+        ]
+        ```
         N'ajoute aucun texte avant ou après le JSON.
         Ne génère aucun protocole, nom ou info qui ne soit pas explicitement mentionné dans les extraits.
+
+        ATTENTION — Règles strictes anti-hallucination :
+
+        - Tu n'as PAS le droit d'inférer une information absente, même si elle semble logique.
+        - Tu ne peux PAS supposer que deux extraits sont équivalents si leur contenu diffère légèrement.
+        - Tu NE PEUX PAS modifier l'évaluation d'invasivité sauf si un des extraits le justifie explicitement.
+        - Si deux protocoles ont des évaluations contradictoires (Invasif / Non invasif), NE PAS fusionner.
+        Ne créez jamais de nouveau protocole ou extrait
         Voici les analyses à fusionner :
         {analyses}
         """.format(analyses="\n\n".join(analyses))
@@ -677,7 +718,7 @@ class RAGSystem:
                 promptStrict = """
                 ## Validation stricte requise
 
-                - Si tu n’es pas certain de pouvoir produire un JSON conforme, NE DONNE AUCUNE RÉPONSE.
+                - Si tu n'es pas certain de pouvoir produire un JSON conforme, NE DONNE AUCUNE RÉPONSE.
                 - Le tableau JSON final **doit être parfaitement parsable** (aucune erreur de syntaxe, guillemets fermés, virgules bien placées, etc.).
                 - Chaque champ doit correspondre **exactement** aux types suivants :
                 - `protocole`: string
@@ -687,9 +728,6 @@ class RAGSystem:
                 - `evaluation_invasivite`: string 
                 - `peches_identifies`: array of strings représentant les numéros des péchés identifiés
 
-                - Ne fournis **aucune autre sortie** après le tableau JSON.
-                - N’ajoute **aucun commentaire, balise Markdown, ou explication** après le JSON final.
-                - Le JSON doit être isolé, sans texte avant ou après (sauf l’analyse ReAct).
                 """
                 prompt_fusion += promptStrict
         return "Erreur: Impossible de générer un JSON valide après plusieurs tentatives"
@@ -760,3 +798,240 @@ def parse_json(response_text, filename):
     return df
 
 
+
+# Revoie la réponse sans les balises <think> et ce qui est entre elles
+def filter_response_think(response: str) -> str:
+    """
+    Renvoie la réponse sans les balises <think>
+    """
+    return re.sub(r'<think>.*?</think>', '', response, flags=re.DOTALL) 
+
+
+class RefineRAGSystem(RAGSystem):
+    """
+    Système RAG avec méthode de raffinement en trois niveaux
+    """
+    
+    def __init__(self, api_key=None, api_url=None):
+        super().__init__(api_key, api_url)
+        
+    def build_protocol_detection_prompt(self, chunk: str) -> str:
+        """
+        Construit le prompt pour le premier niveau de raffinement
+        qui détecte si le chunk contient un protocole d'échantillonnage ADN
+        """
+        return f"""
+        Tu es un expert en analyse de protocoles d'échantillonnage d'ADN.
+
+        Ta tâche est de déterminer si l'extrait suivant contient une description de protocole d'échantillonnage d'ADN.
+
+        Un protocole d'échantillonnage d'ADN doit décrire :
+        - Le type d'échantillon prélevé (fèces, sang, poils, tissus, carcasses, estomac, etc.)
+        - La méthode de collecte (par exemple, utilisation de kits de prélèvement, collecte manuelle, piégeage, etc.)
+        - Le contexte de la collecte (par exemple, environnement naturel, laboratoire, piégeage récreatif, etc.)
+        - Les outils ou équipements utilisés pour la collecte (par exemple, tubes stériles, gants, sacs en plastique, etc.)
+        - Les conditions de stockage des échantillons (par exemple, température, durée, etc.)
+        - Les méthodes de traitement des échantillons (par exemple, extraction d'ADN, concentration, etc.)
+
+        Exemples de descriptions de protocoles :
+        - "Des échantillons de sang ont été prélevés."
+        - "Les échantillons de fèces ont été collectés."
+        - "Les poils ont été prélevés."
+        - "Blow sampling of three adult, clinically healthy aquarium belugas"
+        - "Carcasses were collected as a result of recreational trapping, nuisance removal, and as opportunistic roadkill."
+        - "Scat samples were collected."
+        - "The 10mL stomach subsample was then thawed completely and further sub-sampled by removing 400μL with a wide-bore pipette tip."
+        - "From the 86 otter stomachs sampled, 75 (87%) contained at least one identifiable prey item."
+
+        Si l'extrait contient un ou plusieurs protocoles, renvoie-les au format JSON suivant :
+        ```json
+        {{
+            "contient_protocole": true,
+            "extraits_pertinents": ["Citation exacte de l'extrait 1 décrivant le protocole", "Citation exacte de l'extrait 2 décrivant le protocole"]
+        }}
+        ```
+
+        Si l'extrait ne contient pas de protocole, renvoie :
+        ```json
+        {{
+            "contient_protocole": false,
+            "extraits_pertinents": []
+        }}
+        ```
+
+        Tu dois Uniquement renvoyer le JSON, aucune autre explication, aucun commentaire, aucune phrase.
+
+        Extrait à analyser :
+        {chunk}
+        """
+
+
+
+
+        
+    def build_invasivity_analysis_prompt(self, protocol: str, definition: str) -> str:
+        """
+        Construit le prompt pour le deuxième niveau de raffinement
+        qui analyse l'invasivité du protocole
+        """
+        return f"""
+        Tu es un expert en analyse de protocoles d'échantillonnage d'ADN.
+
+        Ta tâche est d'analyser le protocole suivant pour déterminer s'il est invasif selon la définition donnée.
+
+        Définition de l'échantillonnage non-invasif :
+        {definition}
+
+        Critères d'invasivité :
+        Un protocole est invasif si au moins UN des critères suivants est rempli:
+        - Contact direct avec l'animal vivant
+        - Capture ou manipulation de l'animal
+        - Modification du comportement naturel
+        - Perturbation significative de l'habitat
+        - Utilisation d'appâts ou leurres modifiant le comportement
+
+        Un protocole est non-invasif UNIQUEMENT si TOUS ces critères sont remplis:
+        - Aucun contact avec l'animal vivant
+        - Aucune perturbation du comportement naturel
+        - Utilisation d'échantillons déjà abandonnés naturellement
+        - Aucune modification de l'habitat ou du territoire
+
+        Processus d'analyse avec ReAct :
+
+        1. **Réflexion (Thought)** :
+        - Identifier les éléments clés du protocole.
+        - Comparer ces éléments avec les critères d'invasivité.
+
+        2. **Action (Act)** :
+        - Évaluer chaque critère d'invasivité en fonction des éléments identifiés.
+        - Déterminer si le protocole est invasif ou non.
+
+        3. **Observation (Obs)** :
+        - Citer les extraits pertinents du protocole qui justifient l'évaluation.
+        - Identifier les impacts potentiels et les péchés d'échantillonnage.
+
+        Protocole à analyser :
+        {protocol}
+
+        Renvoie ton analyse au format JSON suivant :
+        ```json
+        {{
+            "extraits_pertinents": ["Citation exacte de l'extrait 1 décrivant le protocole", "Citation exacte de l'extrait 2 décrivant le protocole"],
+            "evaluation_invasivite": "Invasif" ou "Non invasif",
+            "impacts_potentiels": ["Impact 1", "Impact 2"],
+            "peches_identifies": ["1", "2", "3", "4", "5"]
+        }}
+        ```
+
+        Tu dois Uniquement renvoyer le JSON, aucune autre explication, aucun commentaire, aucune phrase.
+        """
+
+
+    
+    def build_fusion_prompt(self, analyses: List[Dict]) -> str:
+        """
+        Construit le prompt pour le troisième niveau de raffinement
+        qui fusionne les analyses en un tableau JSON final
+        """
+        return f"""
+        Tu es un expert en protocoles d'échantillonnage d'ADN.
+
+        Ta tâche est de fusionner les analyses suivantes en un tableau JSON final.
+
+        Processus de fusion avec ReAct :
+
+        1. **Filtrage (Filtering)** :
+        - Garde uniquement les protocoles liés à l'échantillonnage d'ADN.
+        - Ignore tout ce qui ne décrit pas explicitement une procédure d'échantillonnage.
+
+        2. **Fusion (Fusion)** :
+        - Si deux protocoles décrivent la même procédure, les fusionner.
+        - Conserver tous les extraits pertinents.
+        - Uniformiser les noms d'échantillons similaires.
+        - Ne pas inventer d'informations.
+
+        3. **Évaluation (Evaluation)** :
+        - Uniformise les noms d'échantillons très proches.
+        - Résoudre les conflits en fonction des règles strictes.
+
+        4. **Résolution de conflits (Conflict Resolution)** :
+        - Si un protocole est appliqué sur des animaux déjà morts de cause naturelle, les impacts doivent être considérés comme nuls.
+        - L'évaluation de l'invasivité doit être "Non invasif".
+        - Les péchés doivent être une liste vide.
+
+        5. **Format de sortie (Output Format)** :
+        - Génère un seul tableau JSON, strictement conforme au format suivant.
+        - Ne produis aucun texte avant ou après le JSON.
+
+        Règles de fusion :
+        1. Si deux protocoles décrivent la même procédure, les fusionner.
+        2. Conserver tous les extraits pertinents.
+        3. Uniformiser les noms d'échantillons similaires.
+        4. Ne pas inventer d'informations.
+        5. Retire les protocoles inconnus avec aucune citation.
+
+        Analyses à fusionner :
+        {analyses}
+
+        Renvoie le résultat au format JSON suivant :
+        ```json
+        [
+            {{
+                "protocole": "Nom précis du protocole",
+                "extrait_pertinent": ["Citation 1", "Citation 2"],
+                "echantillon": "Type d'échantillon",
+                "impacts_potentiels": ["Impact 1", "Impact 2"],
+                "evaluation_invasivite": "Invasif" ou "Non invasif",
+                "peches_identifies": ["1", "2", "3", "4", "5"]
+            }}
+        ]
+        ```
+
+        Tu dois Uniquement renvoyer le JSON, aucune autre explication, aucun commentaire, aucune phrase.
+        """
+
+    
+    def refine_analysis(self, question: str, definition: str = "", top_k: int = 4) -> str:
+        """
+        Applique la méthode de raffinement en trois niveaux
+        """
+        # Récupération des chunks pertinents
+        documents = self.retrieve_with_hyde(question, top_k)
+        chunks = [doc.content for doc in documents]
+        print(f"Documents récupérés : {len(chunks)}")
+
+        #  Détection des protocoles
+        protocols = []
+        for chunk in chunks:
+            prompt = self.build_protocol_detection_prompt(chunk)
+            response = self.llm_adapter.generate_answer(prompt)
+            print(f"Chunk : {chunk}")
+            print(f"Réponse du modèle : {response}")
+            protocols.append(response)
+
+        if not protocols:
+            print("Aucun protocole détecté.")
+            return "[]"
+
+        print(f"Protocoles détectés : {len(protocols)}")
+
+        #  Analyse de l'invasivité
+        analyses = []
+        for protocol in protocols:
+            prompt = self.build_invasivity_analysis_prompt(protocol, definition)
+            response = self.llm_adapter.generate_answer(prompt)
+            print(f"Réponse du modèle : {response}")
+            analyses.append(response)
+
+        if not analyses:
+            print("Aucune analyse générée.")
+            return "[]"
+
+        print(f"Analyses générées : {len(analyses)}")
+
+        #  Fusion des analyses
+        prompt = self.build_fusion_prompt(analyses)
+        final_response = self.llm_adapter.generate_answer(prompt)
+        print(f"Réponse finale : {final_response}")
+
+        return final_response
