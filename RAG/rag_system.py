@@ -22,6 +22,76 @@ from UniversityLLMAdapter import UniversityLLMAdapter
 from pipelines import create_hyde_pipeline, create_rag_pipeline, create_indexing_pipeline, PROTOCOL_SCHEMA
 from components import DynamicThresholdAdapter
 
+expected_keys = {
+    "protocole", "extrait_pertinent", "echantillon",
+    "impacts_potentiels", "evaluation_invasivite",
+    "peches_identifies", "taux_de_confiance", "justification_invasivite"
+}
+
+expected_keys_invasive = {
+    "annonce_invasivite", "justification_annonce_invasivite"
+}
+
+def is_valid_entry(entry):
+    """Vérifie que toutes les clés attendues sont présentes dans l'entrée"""
+    return isinstance(entry, dict) and (expected_keys.issubset(entry.keys()) or expected_keys_invasive.issubset(entry.keys()))
+
+def extract_json_blocks(text):
+    """Extrait tous les blocs JSON entourés de balises ```json ... ```"""
+    matches = re.findall(r"```json(.*?)```", text, re.DOTALL)
+    return [m.strip() for m in matches]
+
+def safe_load_json(text):
+    """Charge un bloc JSON, filtre les objets malformés, conserve uniquement les clés attendues"""
+    try:
+        obj = json.loads(text)
+        result = []
+
+        if isinstance(obj, dict):
+            if is_valid_entry(obj):
+                result.append({k: v for k, v in obj.items() if k in expected_keys or k in expected_keys_invasive})
+
+        elif isinstance(obj, list):
+            for entry in obj:
+                if is_valid_entry(entry):
+                    result.append({k: v for k, v in entry.items() if k in expected_keys or k in expected_keys_invasive})
+
+        return result
+    except json.JSONDecodeError as e:
+        print(f"Erreur de décodage JSON : {str(e)}")
+        return []
+
+def parse_json(response_text, filename, invasive_detection: bool = False):
+    """Parse le texte de réponse en extrayant les blocs JSON valides"""
+    json_blocks = extract_json_blocks(response_text)
+    parsed_blocks = []
+
+    for block in json_blocks:
+        cleaned_jsons = safe_load_json(block)
+        parsed_blocks.extend(cleaned_jsons)
+
+    if invasive_detection:
+        return cleaned_jsons
+
+    if not parsed_blocks:
+        return pd.DataFrame()
+
+    df = pd.DataFrame([
+        {
+            "Filename": filename,
+            "Protocole": item["protocole"],
+            "echantillon": item["echantillon"],
+            "Impacts potentiels": item["impacts_potentiels"],
+            "Extrait pertinent": item["extrait_pertinent"],
+            "Évaluation d'invasivité": item["evaluation_invasivite"],
+            "Justification d'invasivité": item.get("justification_invasivite", ""),
+            "Péchés identifiés": item["peches_identifies"],
+            "Taux de confiance": item.get("taux_de_confiance", 0),
+        }
+        for item in parsed_blocks
+    ])
+
+    return df
 
 class RAGSystem:
     """
@@ -78,7 +148,8 @@ class RAGSystem:
         self.splitter = DocumentSplitter(split_by="word", split_length=400, split_overlap=60)
 
         # Initialisation des pipelines
-        self.hyde_pipeline = create_hyde_pipeline(self.api_key, self.api_url, self.embedder_model)
+        self.hyde_pipeline = create_hyde_pipeline(self.api_key, self.api_url, self.embedder_model, invasive_detection=False)
+        self.hyde_pipeline_invasive_detection = create_hyde_pipeline(self.api_key, self.api_url, self.embedder_model, invasive_detection=True)
         self.rag_pipeline = create_rag_pipeline(self.text_embedder, self.retriever, self.splitter)
         
         # Création de l'adaptateur LLM pour la génération de réponses
@@ -180,23 +251,31 @@ class RAGSystem:
             print(traceback.format_exc())
             return 0
 
-    def retrieve_with_hyde(self, question: str, top_k: int = 6) -> List[Document]:
+    def retrieve_with_hyde(self, question: str, top_k: int = 6, invasive_detection: bool = False, title: str = "") -> List[Document]:
         """
         Récupère les documents pertinents en utilisant HyDE avec un seuil dynamique
         
         Args:
-            question: La question de l'utilisateur
+            question: La que
+            stion de l'utilisateur
             top_k: Nombre maximum de documents à récupérer
+            invasive_detection: True si on veut détecter les protocoles invasifs, False sinon
             
         Returns:
             Liste des documents récupérés filtrés par le seuil dynamique
         """
         # Générer le document hypothétique avec HyDE
-        hyde_output = self.hyde_pipeline.run({
-            "prompt_builder": {"question": question},
+        if invasive_detection:
+            hyde_output = self.hyde_pipeline_invasive_detection.run({
+                "prompt_builder": {"question": question, "title": title},
+                "generator": {"n_generations": 3}
+            })
+        else:
+            hyde_output = self.hyde_pipeline.run({
+            "prompt_builder": {"question": question, "title": title},
             "generator": {"n_generations": 3}
         })
-        
+                    
         # Récupérer l'embedding hypothétique moyen
         hyp_embedding = hyde_output["hyde"]["hypothetical_embedding"]
         
@@ -493,11 +572,11 @@ class RAGSystem:
         for attempt in range(max_retries):
             if use_hyde:
                 print("--- Méthode avec HyDE ---")
-                retrieved_docs = self.retrieve_with_hyde(question=question, top_k=top_k)
-                print("\n--- DOCUMENTS RÉCUPÉRÉS (HYDE) ---")
+                retrieved_docs = self.retrieve_with_hyde(question=question, top_k=top_k, invasive_detection=False)
+                print("\n=== Documents hypothétiques générés ===")
                 for doc in retrieved_docs:
-                    print(f"Contenu: {doc.content[:500]}...")
-                print("--- FIN DES DOCUMENTS RÉCUPÉRÉS (HYDE) ---\n")
+                    print(doc.content)
+                print("\n--- FIN DES DOCUMENTS RÉCUPÉRÉS (HYDE) ---\n")
             else:
                 print("--- Méthode standard ---")
                 retrieved_docs = self.retrieve_standard(question=question, top_k=top_k)
@@ -624,9 +703,10 @@ class RAGSystem:
             print(f"[VALIDATE_JSON] Erreur inattendue: {e}")
             return False
     
+
         
     def analyse_par_chunk(self, question: str, definition: str = "", top_k: int = 4) -> str:
-        documents = self.retrieve_with_hyde(question, top_k)
+        documents = self.retrieve_with_hyde(question, top_k, invasive_detection=False)
         chunks = [doc.content for doc in documents]
         analyses = []
         for i, chunk in enumerate(chunks):
@@ -735,78 +815,6 @@ class RAGSystem:
 
 
 
-expected_keys = {
-    "protocole", "extrait_pertinent", "echantillon",
-    "impacts_potentiels", "evaluation_invasivite",
-    "peches_identifies"
-}
-
-
-def is_valid_entry(entry):
-    """Vérifie que toutes les clés attendues sont présentes dans l'entrée"""
-    return isinstance(entry, dict) and expected_keys.issubset(entry.keys())
-
-def extract_json_blocks(text):
-    """Extrait tous les blocs JSON entourés de balises ```json ... ```"""
-    matches = re.findall(r"```json(.*?)```", text, re.DOTALL)
-    return [m.strip() for m in matches]
-
-def safe_load_json(text):
-    """Charge un bloc JSON, filtre les objets malformés, conserve uniquement les clés attendues"""
-    try:
-        obj = json.loads(text)
-        result = []
-
-        if isinstance(obj, dict):
-            if is_valid_entry(obj):
-                result.append({k: v for k, v in obj.items() if k in expected_keys})
-
-        elif isinstance(obj, list):
-            for entry in obj:
-                if is_valid_entry(entry):
-                    result.append({k: v for k, v in entry.items() if k in expected_keys})
-
-        return result
-    except json.JSONDecodeError:
-        return []
-
-def parse_json(response_text, filename):
-    """Parse le texte de réponse en extrayant les blocs JSON valides"""
-    json_blocks = extract_json_blocks(response_text)
-    parsed_blocks = []
-
-    for block in json_blocks:
-        cleaned_jsons = safe_load_json(block)
-        parsed_blocks.extend(cleaned_jsons)
-
-    if not parsed_blocks:
-        return pd.DataFrame()
-
-    df = pd.DataFrame([
-        {
-            "Filename": filename,
-            "Protocole": item["protocole"],
-            "echantillon": item["echantillon"],
-            "Impacts potentiels": item["impacts_potentiels"],
-            "Extrait pertinent": item["extrait_pertinent"],
-            "Évaluation d'invasivité": item["evaluation_invasivite"],
-            "Péchés identifiés": item["peches_identifies"]
-        }
-        for item in parsed_blocks
-    ])
-
-    return df
-
-
-
-# Revoie la réponse sans les balises <think> et ce qui est entre elles
-def filter_response_think(response: str) -> str:
-    """
-    Renvoie la réponse sans les balises <think>
-    """
-    return re.sub(r'<think>.*?</think>', '', response, flags=re.DOTALL) 
-
-
 class RefineRAGSystem(RAGSystem):
     """
     Système RAG avec méthode de raffinement en trois niveaux
@@ -814,58 +822,75 @@ class RefineRAGSystem(RAGSystem):
     
     def __init__(self, api_key=None, api_url=None):
         super().__init__(api_key, api_url)
-        
+
     def build_protocol_detection_prompt(self, chunk: str) -> str:
         """
         Construit le prompt pour le premier niveau de raffinement
         qui détecte si le chunk contient un protocole d'échantillonnage ADN
         """
         return f"""
-        Tu es un expert en analyse de protocoles d'échantillonnage d'ADN.
+       Tu es un expert en protocoles d'échantillonnage d'ADN.
 
-        Ta tâche est de déterminer si l'extrait suivant contient une description de protocole d'échantillonnage d'ADN.
+        Ta mission est d'analyser l'extrait ci-dessous et de :
 
-        Un protocole d'échantillonnage d'ADN doit décrire :
-        - Le type d'échantillon prélevé (fèces, sang, poils, tissus, carcasses, estomac, etc.)
-        - La méthode de collecte (par exemple, utilisation de kits de prélèvement, collecte manuelle, piégeage, etc.)
-        - Le contexte de la collecte (par exemple, environnement naturel, laboratoire, piégeage récreatif, etc.)
-        - Les outils ou équipements utilisés pour la collecte (par exemple, tubes stériles, gants, sacs en plastique, etc.)
-        - Les conditions de stockage des échantillons (par exemple, température, durée, etc.)
-        - Les méthodes de traitement des échantillons (par exemple, extraction d'ADN, concentration, etc.)
+        1. Identifier s'il contient une ou plusieurs descriptions de **collecte ou de traitement** d'échantillons biologiques (sang, poils, fèces, urine, tissus, etc.).
+        - Une description peut être explicite ("des poils ont été prélevés") ou implicite ("les otaries ont été capturées et échantillonnées").
+        - Les informations sur la manipulation, le stockage, la subsampling, ou l'extraction sont également valides.
+        - La collecte de fèces, même sans capture directe, est considérée comme un protocole d'échantillonnage.
 
-        Exemples de descriptions de protocoles :
-        - "Des échantillons de sang ont été prélevés."
-        - "Les échantillons de fèces ont été collectés."
-        - "Les poils ont été prélevés."
-        - "Blow sampling of three adult, clinically healthy aquarium belugas"
-        - "Carcasses were collected as a result of recreational trapping, nuisance removal, and as opportunistic roadkill."
-        - "Scat samples were collected."
-        - "The 10mL stomach subsample was then thawed completely and further sub-sampled by removing 400μL with a wide-bore pipette tip."
-        - "From the 86 otter stomachs sampled, 75 (87%) contained at least one identifiable prey item."
+        2. Si un ou plusieurs protocoles sont détectés, renvoyer **uniquement** ce JSON :
+        ```json{{
+        "contient_protocole": true,
+        "extrait_pertinent": [
+            "Citation exacte 1 du protocole",
+            "Citation exacte 2 (s'il y en a un autre)",
+            ...
+        ]
+        }}```
 
-        Si l'extrait contient un ou plusieurs protocoles, renvoie-les au format JSON suivant :
-        ```json
+        Si aucun protocole n'est détecté dans l'extrait, renvoyer uniquement :
+
         {{
-            "contient_protocole": true,
-            "extraits_pertinents": ["Citation exacte de l'extrait 1 décrivant le protocole", "Citation exacte de l'extrait 2 décrivant le protocole"]
+        "contient_protocole": false
         }}
-        ```
 
-        Si l'extrait ne contient pas de protocole, renvoie :
-        ```json
-        {{
-            "contient_protocole": false,
-            "extraits_pertinents": []
-        }}
-        ```
-
-        Tu dois Uniquement renvoyer le JSON, aucune autre explication, aucun commentaire, aucune phrase.
+        Tu dois raisonner en interne comme un expert : repérer les verbes ou actions typiques, réfléchir à l'objectif de chaque phrase, mais ne jamais afficher tes pensées. Seule la réponse JSON doit apparaître.
+        Attention à bien extraire toutes les citations pertinentes, même si elles sont dans des phrases différentes. Attention à bien extraire les citations qui décrivent le protocole, pas leur conservation...
+        De plus, quand tu extrais les citations, tu dois les extraire dans leur intégralité ou suffisamment pour comprendre le protocole.
 
         Extrait à analyser :
         {chunk}
+
         """
 
+    def build_fusion_extrait_prompt(self, extracted_chunks: List[str]) -> str:
+        """
+        Construit le prompt pour fusionner les extraits similaires (même protocole) dans un seul json afin de faire qu'une analyse par protocoles.
+        """
+        return f"""
+        Tu es un expert en analyse de protocoles scientifiques dans le domaine de l'échantillonnage d'ADN.
+        On te fournit un ensemble d'extraits pertinents provenant d'un même document scientifique.
+        Ta tâche est de regrouper les extraits qui décrivent le même protocole d'échantillonnage ADN.
+        Deux extraits sont considérés comme décrivant le même protocole s'ils partagent une méthode identique ou très similaire de collecte, traitement ou usage d'échantillons (ex. : collecte de fèces sans contact, frottis buccal après capture, poils récupérés dans un piège non appâté, etc.).
 
+        Pour chaque groupe de protocoles similaires que tu identifies, fournis un objet JSON structuré de cette façon :
+
+        {{
+        "contient_protocole": true,
+        "extrait_pertinent": [
+            "Citation exacte 1 du protocole",
+            "Citation exacte 2",
+            ...
+        ]
+        }}
+
+        Si un extrait ne correspond à aucun protocole identifiable, ignore-le.
+
+        Fournis un JSON par protocole identifié, même si un protocole n'est cité qu'une seule fois.
+        Tu dois uniquement renvoyer le JSON, aucune autre explication, aucun commentaire, aucune phrase.
+
+        Extrait à analyser :
+        {extracted_chunks}"""
 
 
         
@@ -874,6 +899,15 @@ class RefineRAGSystem(RAGSystem):
         Construit le prompt pour le deuxième niveau de raffinement
         qui analyse l'invasivité du protocole
         """
+        seven_sins_definitions = """
+        Voici les définitions des Péchés de l'Échantillonnage d'ADN Non-Invasif :
+        1. Mauvaise classification des fèces comme échantillons d'ADN non invasifs : Considérer automatiquement la collecte de fèces comme non invasive sans tenir compte du contexte de la collecte (par exemple, capture de l'animal pour obtenir les fèces, utilisation d'aéronefs pouvant stresser les animaux, impact sur le marquage territorial).
+        2. Appâtage des pièges à ADN : Utiliser des appâts ou des leurres pour augmenter le rendement des pièges à ADN, ce qui modifie le comportement naturel des animaux et ne correspond pas à une méthode entièrement non invasive.
+        3. Un oiseau dans la main vaut mieux que deux dans la nature (Capture ou manipulation d'animaux) : Capturer et/ou manipuler des animaux sauvages pour obtenir des échantillons d'ADN, ce qui cause du stress et potentiellement des blessures, contrairement à la définition de l'échantillonnage non invasif.
+        4. Tout ou rien (Manque de reconnaissance des approches minimalement invasives) : Ne pas reconnaître ou utiliser le terme "minimalement invasif" pour des méthodes qui réduisent l'impact sur l'animal, car la définition stricte de "non invasif" ne laisse pas de place au milieu.
+        5. Équivalence entre une procédure non invasive et un échantillonnage d'ADN non invasif : Utiliser la définition médicale ou vétérinaire d'une procédure non invasive (qui n'implique pas de perforation de la peau) pour classer l'échantillonnage d'ADN, sans tenir compte de l'impact comportemental ou du bien-être animal.
+        """
+
         return f"""
         Tu es un expert en analyse de protocoles d'échantillonnage d'ADN.
 
@@ -882,33 +916,66 @@ class RefineRAGSystem(RAGSystem):
         Définition de l'échantillonnage non-invasif :
         {definition}
 
+        Définition des péchés de l'échantillonnage d'ADN :
+        {seven_sins_definitions}
+
         Critères d'invasivité :
         Un protocole est invasif si au moins UN des critères suivants est rempli:
         - Contact direct avec l'animal vivant
-        - Capture ou manipulation de l'animal
+        - Capture ou manipulation de l'animal vivant
         - Modification du comportement naturel
         - Perturbation significative de l'habitat
         - Utilisation d'appâts ou leurres modifiant le comportement
+        
 
         Un protocole est non-invasif UNIQUEMENT si TOUS ces critères sont remplis:
         - Aucun contact avec l'animal vivant
         - Aucune perturbation du comportement naturel
         - Utilisation d'échantillons déjà abandonnés naturellement
         - Aucune modification de l'habitat ou du territoire
+        
+        Cas particuliers de non invasivité:
+        - Manipulation d'animaux morts naturellement.
+        - Si la collecte est faite après le départ de l'animal sans capture ou manipulation.
+        - Si des données existantes sont ajoutées à des échantillons déjà existants et que celle si sont invasifs, et que l'ajout n'est pas invasif, alors le protocole est non invasif.
 
         Processus d'analyse avec ReAct :
 
-        1. **Réflexion (Thought)** :
+        1. Réflexion (Thought) :
         - Identifier les éléments clés du protocole.
         - Comparer ces éléments avec les critères d'invasivité.
 
-        2. **Action (Act)** :
+        2. Action (Act) :
         - Évaluer chaque critère d'invasivité en fonction des éléments identifiés.
         - Déterminer si le protocole est invasif ou non.
+        - Donne un taux de confiance entre 0 et 100, basé sur :
+            - La présence explicite d'éléments correspondant aux critères d'invasivité ou de non-invasivité ;
+            - La cohérence logique entre le protocole, la définition, et l'évaluation ;
+            - La clarté et l'exhaustivité du protocole fourni.
 
-        3. **Observation (Obs)** :
-        - Citer les extraits pertinents du protocole qui justifient l'évaluation.
+
+        3. Observation (Obs) :
+        - Citer les extraits pertinents du protocole qui justifient l'évaluation, attention, il faut assez de contexte pour justifier l'évaluation.
         - Identifier les impacts potentiels et les péchés d'échantillonnage.
+
+        Règle stricte et prioritaire :
+
+        - Toute collecte de fèces chez des mammifères est présumée non invasive, à condition qu'elle soit ponctuelle, non exhaustive, et sans perturbation directe.
+        - MAIS si le protocole indique une collecte systématique, en grande quantité, régulière, ou totale des fèces dans une zone donnée, alors cela constitue une perturbation du marquage territorial, comportement naturel essentiel chez de nombreux mammifères.
+        - Dans ce cas, même sans contact direct avec l'animal, cela doit être classé comme invasif au regard de la modification du comportement naturel.
+        - Cette règle s'applique même si les auteurs ne mentionnent pas explicitement le marquage territorial : si l'échantillonnage concerne les fèces de mammifères et qu'il est total/systématique, l'invasivité doit être retenue par principe de précaution.
+        - Si le protocole concerne uniquement une observation de l'animal, sans aucune interaction avec lui ni perturbation de son environnement, alors il est non invasif.
+
+        Cas typique :
+        - "Nous avons collecté toutes les fèces rencontrées sur les transects chaque semaine" ALORS Invasif (perturbation du marquage territorial)
+
+
+        Échelle du taux de confiance :
+        - 0–40 : Incertitude forte, données ambiguës ou absentes.
+        - 41–70 : Données partielles, raisonnement plausible mais incomplet.
+        - 71–90 : Données suffisantes, réponse fiable.
+        - 91–100 : Données complètes et explicites, réponse très fiable.
+
 
         Protocole à analyser :
         {protocol}
@@ -916,14 +983,20 @@ class RefineRAGSystem(RAGSystem):
         Renvoie ton analyse au format JSON suivant :
         ```json
         {{
-            "extraits_pertinents": ["Citation exacte de l'extrait 1 décrivant le protocole", "Citation exacte de l'extrait 2 décrivant le protocole"],
+            "extrait_pertinent": ["Citation exacte de l'extrait 1 décrivant le protocole", "Citation exacte de l'extrait 2 décrivant le protocole"],
+            "echantillon": "Type d'échantillon",
             "evaluation_invasivite": "Invasif" ou "Non invasif",
+            "justification_invasivite": "Justification détaillée de l'évaluation d'invasivité basée sur les critères",
             "impacts_potentiels": ["Impact 1", "Impact 2"],
-            "peches_identifies": ["1", "2", "3", "4", "5"]
+            "peches_identifies": ["1", "2", "5"],
+            "taux_de_confiance": "Taux de confiance en ton analyse entre 0 et 100"
         }}
         ```
 
         Tu dois Uniquement renvoyer le JSON, aucune autre explication, aucun commentaire, aucune phrase.
+        Tu dois uniquement te baser sur les protocoles à analyser, si il n'y en a pas, renvoie rien pour ce protocole et passe au suivant.
+        Tu dois analyser tous les protocoles, même si il y en a plusieurs.
+        Si aucun extrait n'est fourni, renvoie rien pour ce protocole et passe au suivant.
         """
 
 
@@ -938,11 +1011,24 @@ class RefineRAGSystem(RAGSystem):
 
         Ta tâche est de fusionner les analyses suivantes en un tableau JSON final.
 
+        Règles de fusion :
+        1. Si deux protocoles décrivent la même procédure (c'est-à-dire même méthode de collecte, même espèce, même type d'échantillon, mêmes conditions de terrain), même si le texte varie légèrement, les fusionner.
+        2. Conserver tous les extraits pertinents.
+        3. Uniformiser les noms d'échantillons similaires.
+        4. Ne pas inventer d'informations.
+        5. Retire les protocoles inconnus avec aucune citation.
+        6. Conserver l'évaluation d'invasivité la plus stricte (Invasif > Non invasif).
+        # 7. Pour le taux de confiance :
+        #    - Si les analyses ont des scores NLI, utiliser la moyenne pondérée des scores NLI et des taux de confiance initiaux
+        #    - Si les extraits sont contradictoires ou imprécis, prendre le score le plus bas
+        #    - Sinon, prendre la moyenne des scores disponibles
+
         Processus de fusion avec ReAct :
 
         1. **Filtrage (Filtering)** :
         - Garde uniquement les protocoles liés à l'échantillonnage d'ADN.
         - Ignore tout ce qui ne décrit pas explicitement une procédure d'échantillonnage.
+        - Un protocole doit mentionner la collecte ou l'analyse de matériel biologique contenant de l'ADN.
 
         2. **Fusion (Fusion)** :
         - Si deux protocoles décrivent la même procédure, les fusionner.
@@ -958,17 +1044,15 @@ class RefineRAGSystem(RAGSystem):
         - Si un protocole est appliqué sur des animaux déjà morts de cause naturelle, les impacts doivent être considérés comme nuls.
         - L'évaluation de l'invasivité doit être "Non invasif".
         - Les péchés doivent être une liste vide.
+        - Conserver l'évaluation d'invasivité la plus stricte (Invasif > Non invasif).
+        - Cette règle est impérative sauf si un extrait directement contradictoire et explicite permet d'inférer une réduction claire de l'impact.
+        - Si l'évaluation d'invasivité est "Invasif" à cause d'une collecte supposée systématique, mais que d'autres extraits indiquent une collecte partielle, non systématique ou respectueuse du marquage, alors l'évaluation peut être corrigée en "Non invasif", et le péché retiré.
 
-        5. **Format de sortie (Output Format)** :
+        5. Format de sortie (Output Format) :
         - Génère un seul tableau JSON, strictement conforme au format suivant.
         - Ne produis aucun texte avant ou après le JSON.
 
-        Règles de fusion :
-        1. Si deux protocoles décrivent la même procédure, les fusionner.
-        2. Conserver tous les extraits pertinents.
-        3. Uniformiser les noms d'échantillons similaires.
-        4. Ne pas inventer d'informations.
-        5. Retire les protocoles inconnus avec aucune citation.
+        6. Le champ protocole doit indiquer la méthode ou l'espèce ciblée.
 
         Analyses à fusionner :
         {analyses}
@@ -982,7 +1066,10 @@ class RefineRAGSystem(RAGSystem):
                 "echantillon": "Type d'échantillon",
                 "impacts_potentiels": ["Impact 1", "Impact 2"],
                 "evaluation_invasivite": "Invasif" ou "Non invasif",
-                "peches_identifies": ["1", "2", "3", "4", "5"]
+                "peches_identifies": ["1", "2", "3", "4", "5"],
+                "taux_de_confiance": "Taux de confiance en ton analyse entre 0 et 100",
+                "justification_invasivite": "Justification détaillée"
+
             }}
         ]
         ```
@@ -991,12 +1078,12 @@ class RefineRAGSystem(RAGSystem):
         """
 
     
-    def refine_analysis(self, question: str, definition: str = "", top_k: int = 4) -> str:
+    def refine_analysis(self, question: str, definition: str = "", top_k: int = 4, title: str = "") -> str:
         """
         Applique la méthode de raffinement en trois niveaux
         """
         # Récupération des chunks pertinents
-        documents = self.retrieve_with_hyde(question, top_k)
+        documents = self.retrieve_with_hyde(question, top_k,title=title)
         chunks = [doc.content for doc in documents]
         print(f"Documents récupérés : {len(chunks)}")
 
@@ -1014,7 +1101,7 @@ class RefineRAGSystem(RAGSystem):
             return "[]"
 
         print(f"Protocoles détectés : {len(protocols)}")
-
+ 
         #  Analyse de l'invasivité
         analyses = []
         for protocol in protocols:
@@ -1035,3 +1122,75 @@ class RefineRAGSystem(RAGSystem):
         print(f"Réponse finale : {final_response}")
 
         return final_response
+
+
+
+
+class RAGNonInvasiveDetection(RAGSystem):
+    def __init__(self, api_key=None, api_url=None):
+        super().__init__(api_key, api_url)
+
+    def build_prompt(self, Chunks : List[str], protocole : str, title : str):
+        """
+        Build the prompt for the RAG system.
+        """
+        prompt = f"""
+        Voici un extrait d'article scientifique :
+
+        \"\"\"{Chunks}\"\"\"
+
+        Le protocole suivant a été détecté comme étant invasif par une analyse externe :
+        {protocole}
+
+        Ta tâche est de déterminer si l'auteur de l'article affirme que ce protocole est non invasif, de manière explicite ou implicite, dans ce passage.
+
+        Voici le titre de l'article :
+        "{title}"
+
+        Procède étape par étape :
+
+        1. Analyse le titre : contient-il une déclaration globale de non-invasivité ? Si oui, réponds "Oui" d'office.
+        2. Analyse si le titre mentionne le protocole détecté comme invasif. Si ce protocole est présenté dans le titre comme non invasif, réponds aussi "Oui" d'office.
+        3. Cherche dans le corps de l'article :
+        - Y a-t-il une phrase indiquant explicitement que le protocole en question est non invasif ? Si oui, réponds "Oui".
+        - Si une autre méthode est dite non invasive, mais ce n'est **pas celle détectée comme invasive**, ce n'est pas suffisant.
+        4. Si aucune déclaration claire ou implicite n'est trouvée, réponds "Non".
+        5. Si le passage est trop vague ou ne permet pas de trancher, réponds "Manque d'informations".
+
+        Tu dois répondre uniquement par le JSON suivant :
+        ```json
+        {{
+            "annonce_invasivite": "Oui" ou "Non" ou "Manque d'informations",
+            "justification_annonce_invasivite": "Justification courte, avec citation si utile (souvent utile pour la justification)"
+        }}
+        ```
+
+        Ne donne aucune explication hors du JSON, aucune phrase d'introduction ou de conclusion.
+        """
+        return prompt
+    
+    def detect_non_invasive_level(self, Chunks: List[str], protocole: str, title: str):
+        """
+        Detect the non invasive level of the protocol.
+        """
+        if not Chunks:
+            return "Aucun extrait disponible pour l'analyse"
+        
+        try:
+            prompt = self.build_prompt(Chunks, protocole, title)
+            response = self.llm_adapter.generate_answer(prompt)
+            #print(f"Réponse du modèle : {response}")
+            return response
+        except Exception as e:
+            print(f"Erreur lors de la détection du niveau non invasif : {str(e)}")
+            return f"Erreur lors de l'analyse : {str(e)}"
+    
+    def answer_question(self, question : str, protocole : str = "", top_k : int = 8, title : str = "") -> str:
+        """
+        Answer the question.
+        """
+        documents = self.retrieve_with_hyde(question, top_k, invasive_detection=True, title=title)
+
+        chunks = [doc.content for doc in documents]
+        return self.detect_non_invasive_level(chunks, protocole, title)
+
