@@ -5,23 +5,47 @@ import pandas as pd
 from rag_system import RAGSystem, RefineRAGSystem, parse_json, RAGNonInvasiveDetection
 from tqdm import tqdm
 from concurrent.futures import ProcessPoolExecutor, as_completed
-import gc
-import logging
 from time import time
 import json
+from dotenv import load_dotenv
+import nltk
+
+DATAFRAME_COLUMNS = [
+    'Filename', 'Protocole', 'echantillon', 'Impacts potentiels', 'Extrait pertinent', 
+    'Évaluation d\'invasivité', 'Justification d\'invasivité', 'Péchés identifiés', 'Taux de confiance', 
+    'annonce_invasivite', 'justification_annonce_invasivite'
+]
 
 def process_file(api_key, api_url, json_path, definition, question, method, top_k, output_dir):
-    """Traite un fichier JSON unique"""
+    """
+    Traite un unique fichier JSON pour en extraire les protocoles, les évaluer
+    et analyser leur présentation.
+
+    Args:
+        api_key (str): Clé d'API pour le service LLM.
+        api_url (str): URL de l'API LLM.
+        json_path (str): Chemin vers le fichier JSON à traiter.
+        definition (str): Définition de l'invasivité à utiliser.
+        question (str): Question à poser au RAG pour l'extraction de protocole.
+        method (str): Méthode d'analyse à utiliser ('refine', 'both', ...).  (Obselete)
+        top_k (int): Nombre de documents pertinents à récupérer.
+        output_dir (str): Répertoire où sauvegarder les logs.
+
+    Returns:
+        tuple: Un tuple contenant:
+            - df_result (pd.DataFrame): DataFrame avec les résultats de l'analyse.
+            - impacts_energy (list): Liste des impacts énergétiques de l'analyse principale.
+            - impacts_co2 (list): Liste des impacts CO2 de l'analyse principale.
+            - impacts_energy_non_invasive (list): Liste des impacts énergétiques de l'analyse d'invasivité.
+            - impacts_co2_non_invasive (list): Liste des impacts CO2 de l'analyse d'invasivité.
+    """
     base_name = os.path.splitext(os.path.basename(json_path))[0]
     log_path = os.path.join(output_dir, f"{base_name}.txt")
 
-    df_result = pd.DataFrame(columns=[
-        'Filename', 'Protocole', 'echantillon', 'Impacts potentiels', 'Extrait pertinent', 
-        'Évaluation d\'invasivité', 'Justification d\'invasivité', 'Péchés identifiés', 'Taux de confiance', 
-        'annonce_invasivite', 'justification_annonce_invasivite'
-    ])
+    df_result = pd.DataFrame(columns=DATAFRAME_COLUMNS)
 
     with open(log_path, "w", encoding="utf-8") as f:
+        # Redirection de la sortie standard (print) vers un fichier de log propre à chaque fichier traité.
         original_stdout = sys.stdout
         sys.stdout = f
 
@@ -29,61 +53,48 @@ def process_file(api_key, api_url, json_path, definition, question, method, top_
             print(f"Traitement du fichier : {json_path}")
             start_time = time()
             
-            # Utilisation de RefineRAGSystem au lieu de RAGSystem
-            rag_system = RefineRAGSystem(api_key=api_key, api_url=api_url)
-            rag_system.index_from_json(json_path)
-            rag_system_non_invasive_detection = RAGNonInvasiveDetection(api_key=api_key, api_url=api_url)
+            rag_system = RefineRAGSystem(api_key=api_key, api_url=api_url) 
+            rag_system.index_from_json(json_path) # Indexation des documents
+            rag_system_non_invasive_detection = RAGNonInvasiveDetection(api_key=api_key, api_url=api_url) # Pour l'analyse sur l'annonce de l'invasivité
 
             if method in ["refine", "both"]:
                 print("\n--- Méthode avec Refine ---")
-                refine_answer = rag_system.refine_analysis(question, definition, top_k=top_k, title=base_name)
+                refine_answer = rag_system.refine_analysis(question, definition, top_k=top_k, title=base_name) # Lancement de l'analyse via la méthode Refine
                 
                 json_final = refine_answer
                 resultats = parse_json(json_final, base_name)
                 
                 if not resultats.empty:
-                    print("\n=== Résultats de l'analyse ===")
-                    for idx, row in resultats.iterrows():
-                        print(f"\nProtocole {idx + 1}:")
-                        print(f"Nom: {row['Protocole']}")
-                        print(f"Échantillon: {row['echantillon']}")
-                        print(f"Évaluation: {row['Évaluation d\'invasivité']}")
-                        print(f"Justification: {row['Justification d\'invasivité']}")
-                        print(f"Taux de confiance: {row['Taux de confiance']}%")
-                        
-                        print("\nImpacts potentiels:")
-                        for impact in row['Impacts potentiels']:
-                            print(f"- {impact}")
-                        print("\nPéchés identifiés:")
-                        for peche in row['Péchés identifiés']:
-                            print(f"- Péché #{peche}")
-                        print("\nExtraits pertinents:")
-                        for extrait in row['Extrait pertinent']:
-                            print(f"- {extrait}")
-                        print("-" * 50)
                     
                     print("\n--- Méthode avec Refine et detect_non_invasive_level ---")
-                    # Pour chaque protocole dans les résultats
+                    # Pour chaque protocole dans les résultats, on récupère les infos utiles pour la suite
                     for idx, row in resultats.iterrows():
                         protocole = {
                             "nom": row["Protocole"],
                             "description": row["Extrait pertinent"],
                             "evaluation": row["Évaluation d'invasivité"]
                         }
-                        if protocole['evaluation'] == 'Invasif':
+
+                        # Partie pour l'analyse sur l'anonce de l'invasivité lorsqu'un protocole est detecté comme invasif
+                        if protocole['evaluation'] == 'Invasif' or protocole['evaluation'] == 'Invasif - Territory marking':
                             try:
+                                # Pour les protocoles jugés invasifs, une seconde analyse est lancée pour vérifier
+                                # si l'article présente lui-même le protocole comme "non invasif".
                                 invasive_json_path = os.path.join("output_invasive_detection", f"{base_name}.json")
                                 # On indexe le fichier
                                 rag_system_non_invasive_detection.index_from_json(invasive_json_path)
-                                # récupère le titre de l'article dans le fichier json si il y'a une section title
+                                # Le titre de l'article est important pour la technique HyDE (Hypothetical Document Embeddings)
                                 title = base_name
+                                # Charge le fichier JSON contenant les chunks pour l'annonce de l'invasivité (pas le même que pour la détéctions des protocoles car contient plus de sections (Intro, abstract...))
                                 with open(invasive_json_path, "r", encoding="utf-8") as f:
                                     invasive_data = json.load(f)
                                 for section in invasive_data:
+                                    # récupère le titre dans la section titre du JSON (pour le fournir à HyDE)
                                     if section["section"] == "title":
                                         title = section["text"]
                                         break
                                 
+                                # Une question spécifique est formulée pour évaluer comment le protocole est présenté dans l'article.
                                 question = f"{protocole['nom'].capitalize()} constitue-t-il une méthode non invasive ou minimalement invasive pour l'obtention d'échantillons génétiques chez les animaux étudiés ?"
                                 non_invasive_level = rag_system_non_invasive_detection.answer_question(
                                     question=question,
@@ -94,7 +105,7 @@ def process_file(api_key, api_url, json_path, definition, question, method, top_
                                 
                                 print(f"\nAnalyse du niveau non invasif pour le protocole {protocole['nom']}:")
                                 print(non_invasive_level)
-                                non_invasive_level = parse_json(non_invasive_level, base_name, invasive_detection=True)
+                                non_invasive_level = parse_json(non_invasive_level, base_name, invasive_detection=True) # Récupère le JSON extrait de la réponse du LLM
                                 print(f"non_invasive_level: {non_invasive_level}")
 
                                 # Insérer les données dans le DataFrame
@@ -118,64 +129,52 @@ def process_file(api_key, api_url, json_path, definition, question, method, top_
                     print(f"\nTraitement terminé avec succès pour le fichier : {json_path}")
                 else:
                     print(f"\nAucun résultat généré pour le fichier : {json_path}")
-            
-            if method in ["standard", "both"]:
-                print("\n--- Méthode standard ---")
-                standard_answer = rag_system.answer_question(question, definition, use_hyde=False, top_k=top_k)
-                print("\nRéponse standard:")
-                print(standard_answer)
-                
-                json_final = rag_system.fusionne_analyses([standard_answer])
-                resultats = parse_json(json_final, base_name)
-                
-                if not resultats.empty:
-                    print("\n=== Résultats de l'analyse standard ===")
-                    for idx, row in resultats.iterrows():
-                        print(f"\nProtocole {idx + 1}:")
-                        print(f"Nom: {row['Protocole']}")
-                        print(f"Échantillon: {row['echantillon']}")
-                        print(f"Évaluation: {row['Évaluation d\'invasivité']}")
-                        print(f"Justification: {row['Justification d\'invasivité']}")
-                        print(f"Taux de confiance: {row['Taux de confiance']}%")
-                        
-                        print("\nImpacts potentiels:")
-                        for impact in row['Impacts potentiels']:
-                            print(f"- {impact}")
-                        print("\nPéchés identifiés:")
-                        for peche in row['Péchés identifiés']:
-                            print(f"- Péché #{peche}")
-                        print("\nExtraits pertinents:")
-                        for extrait in row['Extrait pertinent']:
-                            print(f"- {extrait}")
-                        print("-" * 50)
-                    
-                    # Vérification et nettoyage des DataFrames avant la concaténation
-                    if df_result.empty:
-                        df_result = resultats.copy()
-                    else:
-                        # S'assurer que les types de colonnes sont compatibles
-                        for col in df_result.columns:
-                            if col in resultats.columns:
-                                df_result[col] = df_result[col].astype(resultats[col].dtype)
-                        df_result = pd.concat([df_result, resultats], ignore_index=True)
-                    print(f"\nTraitement terminé avec succès pour le fichier : {json_path}")
-                else:
-                    print(f"\nAucun résultat généré pour le fichier : {json_path}")
 
         except Exception as e:
             print(f"Erreur lors du traitement du fichier {json_path}: {str(e)}")
             import traceback
             print(traceback.format_exc())
         finally:
+            # Retour à la sortie original
             sys.stdout = original_stdout
             print(f"Traitement terminé avec succès pour : {os.path.basename(json_path)} en {time() - start_time:.2f} secondes")
 
-    return df_result
+    return df_result, rag_system.impacts_energy, rag_system.impacts_co2, rag_system_non_invasive_detection.impacts_energy, rag_system_non_invasive_detection.impacts_co2
 
+# Wrapper pour passer plusieurs arguments à process_file via ProcessPoolExecutor.
 def process_file_wrapper(args):
+    """
+    Wrapper pour la fonction `process_file`.
+
+    Cette fonction est nécessaire pour utiliser `ProcessPoolExecutor.submit` qui
+    ne peut passer qu'un seul argument à la fonction cible. Elle prend un tuple
+    d'arguments et le dépaquette pour appeler `process_file`.
+
+    Args:
+        args (tuple): Un tuple contenant tous les arguments pour `process_file`.
+
+    Returns:
+        Le résultat de l'appel à `process_file`.
+    """
     return process_file(*args)
 
 def main():
+    """
+    Fonction principale du script.
+
+    Parse les arguments de la ligne de commande, prépare les tâches pour chaque
+    fichier JSON à analyser, et lance le traitement en parallèle.
+    Agrège ensuite les résultats et les sauvegarde dans un fichier CSV.
+    """
+    # Charge les variables d'environnement à partir d'un fichier .env.
+    load_dotenv()
+    
+    # S'assure que les packages NLTK nécessaires sont téléchargés une seule fois.
+    try:
+        nltk.data.find('tokenizers/punkt')
+    except nltk.downloader.DownloadError:
+        nltk.download('punkt')
+    
     parser = argparse.ArgumentParser(description="Système RAG pour l'analyse de documents scientifiques")
     parser.add_argument("--api_key", help="Clé API pour le LLM")
     parser.add_argument("--api_url", help="URL de l'API LLM")
@@ -184,24 +183,33 @@ def main():
     parser.add_argument("--question", default="Dans l'article, peux-tu me donner tous les protocoles d'échantillonnage d'ADN et s'ils sont considérés comme invasifs ou non selon la définition de Taberlet ?")
     parser.add_argument("--method", choices=["refine", "standard", "both", "detect_non_invasive_level"], default="refine")
     parser.add_argument("--top_k", type=int, default=8)
-    parser.add_argument("--output_dir", default="Résultats")
-    parser.add_argument("--input_dir", default="output")
+    parser.add_argument("--output_dir", default="Résultats") # Dossier pour retrouver les résultats
+    parser.add_argument("--input_dir", default="output") # Dossier où les fichiers JSON sont stockés
     parser.add_argument("--batch_size", type=int, default=4)
     parser.add_argument("--max_workers", type=int, default=4)
     
     args = parser.parse_args()
 
-    api_key = args.api_key or "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE0NWYwMDBhLTVhMDYtNDAxMS1hZTkzLWYwYTk5MzMzNWYzZCJ9.xVQJVIgjlzUyZmhp8yIblh4WlcF6Ya88sLUSGtF_Jt4"
-    api_url = args.api_url or "http://gpu1.pedagogie.sandbox.univ-tours.fr:32800/api/chat/completions"
+    # Récupération de la clé API et de l'URL depuis les arguments ou les variables d'environnement.
+    api_key = args.api_key or os.getenv("LLM_API_KEY")
+    api_url = args.api_url or os.getenv("LLM_API_URL", "http://gpu1.pedagogie.sandbox.univ-tours.fr:32800/api/chat/completions")
+
+    if not api_key:
+        # Si la clé API n'est pas trouvée, le programme s'arrête avec un message d'erreur.
+        print("Erreur : La clé API n'est pas fournie.", file=sys.stderr)
+        print("Veuillez la passer avec --api_key ou définir la variable d'environnement LLM_API_KEY.", file=sys.stderr)
+        sys.exit(1)
 
     os.makedirs(args.output_dir, exist_ok=True)
     json_files = [f for f in os.listdir(args.input_dir) if f.endswith(".json")]
     
-    df_total = pd.DataFrame(columns=[
-        'Filename', 'Protocole', 'echantillon', 'Impacts potentiels', 'Extrait pertinent',
-        'Évaluation d\'invasivité', 'Justification d\'invasivité', 'Péchés identifiés', 'Taux de confiance', 
-        'annonce_invasivite', 'justification_annonce_invasivite'
-    ])
+    df_total = pd.DataFrame(columns=DATAFRAME_COLUMNS)
+
+    # Variables pour suivre les impacts totaux
+    total_energy = []
+    total_co2 = []
+    total_energy_non_invasive = []
+    total_co2_non_invasive = []
 
     # Création des tâches par lots
     tasks = []
@@ -222,37 +230,53 @@ def main():
 
     print(f"Type de la clé dans tasks : {type(tasks[0][0])}")
 
+    results_list = []
+    # Utilisation de ProcessPoolExecutor pour traiter les fichiers en parallèle.
+    # Chaque fichier est traité dans un processus distinct
     with ProcessPoolExecutor(max_workers=args.max_workers) as executor:
         futures = [executor.submit(process_file_wrapper, task) for task in tasks]
 
         for future in tqdm(as_completed(futures), total=len(futures), desc="Fichiers traités"):
             try:
-                df_result = future.result()
-                # Vérification et nettoyage des DataFrames avant la concaténation
-                if df_total.empty:
-                    df_total = df_result.copy()
-                else:
-                    # S'assurer que les types de colonnes sont compatibles
-                    for col in df_total.columns:
-                        if col in df_result.columns:
-                            df_total[col] = df_total[col].astype(df_result[col].dtype)
-                    df_total = pd.concat([df_total, df_result], ignore_index=True)
+                df_result, impacts_energy, impacts_co2, impacts_energy_non_invasive, impacts_co2_non_invasive = future.result()
+                if not df_result.empty:
+                    results_list.append(df_result)
 
-                # Sauvegarde intermédiaire après chaque fichier traité
-                df_total.to_csv(os.path.join(args.output_dir, "Protocoles_intermediaire.csv"), index=False)
+                # Ajouter les impacts aux totaux
+                total_energy.extend(impacts_energy)
+                total_co2.extend(impacts_co2)
+                total_energy_non_invasive.extend(impacts_energy_non_invasive)
+                total_co2_non_invasive.extend(impacts_co2_non_invasive)
+
+                # Sauvegarde intermédiaire des résultats cumulés.
+                if results_list:
+                    pd.concat(results_list, ignore_index=True).to_csv(os.path.join(args.output_dir, "Protocoles_intermediaire.csv"), index=False)
 
             except Exception as e:
                 print(f"Erreur dans un traitement parallèle : {e}")
+
+    if results_list:
+        df_total = pd.concat(results_list, ignore_index=True)
 
     # Sauvegarde finale
     if not df_total.empty:
         df_total.to_csv(os.path.join(args.output_dir, "Protocoles.csv"), index=False)
         print("Traitement terminé. Résultats sauvegardés dans 'Protocoles.csv'.")
+        
+        # Afficher les impacts totaux
+        total_energy_all = sum(total_energy) + sum(total_energy_non_invasive)
+        total_co2_all = sum(total_co2) + sum(total_co2_non_invasive)
+        print(f"\n🌱 Énergie totale consommée : {total_energy_all:.4f} kWh")
+        print(f"🌍 CO₂ total émis : {total_co2_all:.2f} g")
+        
+        return df_total
     else:
         print("Attention: Aucun résultat n'a été généré.")
+        return None
 
 if __name__ == "__main__":
     main()
+
 
 
  
