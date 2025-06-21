@@ -16,11 +16,41 @@ from haystack.components.retrievers.in_memory import InMemoryEmbeddingRetriever
 from haystack.components.writers import DocumentWriter
 from haystack.components.rankers import TransformersSimilarityRanker
 from haystack.components.preprocessors import DocumentSplitter
-import tqdm
-
+import nltk
+nltk.download("punkt")
+from nltk.tokenize import sent_tokenize
 from UniversityLLMAdapter import UniversityLLMAdapter
 from pipelines import create_hyde_pipeline, create_rag_pipeline, create_indexing_pipeline, PROTOCOL_SCHEMA
 from components import DynamicThresholdAdapter
+
+
+
+def chunk_text(text, max_length=1000, overlap=200):
+    """
+    Découpe un texte en chunks de phrases ne dépassant pas max_length caractères,
+    avec un chevauchement de 'overlap' caractères entre chaque chunk.
+    """
+    sentences = sent_tokenize(text)
+    chunks = []
+    current_chunk = ""
+
+    for sentence in sentences:
+        if len(current_chunk) + len(sentence) + 1 <= max_length:
+            current_chunk += " " + sentence
+        else:
+            chunks.append(current_chunk.strip())
+            # Appliquer le chevauchement
+            if overlap > 0:
+                # Prendre les derniers 'overlap' caractères du chunk précédent
+                overlap_start = max(0, len(current_chunk) - overlap)
+                current_chunk = current_chunk[overlap_start:] + " " + sentence
+            else:
+                current_chunk = sentence
+    if current_chunk:
+        chunks.append(current_chunk.strip())
+
+    return chunks
+
 
 expected_keys = {
     "protocole", "extrait_pertinent", "echantillon",
@@ -62,20 +92,29 @@ def safe_load_json(text):
         return []
 
 def parse_json(response_text, filename, invasive_detection: bool = False):
-    """Parse le texte de réponse en extrayant les blocs JSON valides"""
+    """Parse le texte de réponse en extrayant les blocs JSON valides, même sans balises ```json```"""
     json_blocks = extract_json_blocks(response_text)
     parsed_blocks = []
 
+    # 1. Essayer avec les balises ```json
     for block in json_blocks:
         cleaned_jsons = safe_load_json(block)
         parsed_blocks.extend(cleaned_jsons)
 
-    if invasive_detection:
-        return cleaned_jsons
+    # 2. Fallback : si aucun bloc trouvé ou valide, essayer tout le texte
+    if not parsed_blocks:
+        cleaned_jsons = safe_load_json(response_text)
+        parsed_blocks.extend(cleaned_jsons)
 
+    # 3. Retour pour mode invasif
+    if invasive_detection:
+        return cleaned_jsons 
+
+    # 4. Si rien à parser
     if not parsed_blocks:
         return pd.DataFrame()
 
+    # 5. Conversion DataFrame
     df = pd.DataFrame([
         {
             "Filename": filename,
@@ -93,6 +132,7 @@ def parse_json(response_text, filename, invasive_detection: bool = False):
 
     return df
 
+
 class RAGSystem:
     """
     Système RAG complet avec pipelines HyDE et standard
@@ -109,6 +149,9 @@ class RAGSystem:
         self.api_key = api_key or os.environ.get("UNIVERSITY_LLM_API_KEY")
         self.api_url = api_url or os.environ.get("UNIVERSITY_LLM_API_URL")
 
+        # Variables pour suivre les impacts
+        self.impacts_energy = []
+        self.impacts_co2 = []
         
         if not self.api_key or not self.api_url:
             raise ValueError("API key and URL must be provided or set as environment variables")
@@ -193,11 +236,14 @@ class RAGSystem:
         else:
             prompt = self._build_prompt(question, context, definition)
 
-        return self.llm_adapter.generate_answer(prompt)
+        response, impact = self.llm_adapter.generate_answer_with_impact(prompt)
+        self.impacts_energy.append(impact["energy_kwh"])
+        self.impacts_co2.append(impact["co2_g"])
+        return response
 
     def index_from_json(self, json_path: str) -> int:
         """
-        Indexe des documents à partir d'un fichier JSON avec optimisation des lots
+        Indexe des documents à partir d'un fichier JSON avec optimisation de lots
         """
         try:
             with open(json_path, "r", encoding="utf-8") as f:
@@ -205,11 +251,11 @@ class RAGSystem:
 
             documents = []
             for i, entry in enumerate(data):
-                document = Document(
-                    id=f"doc_{i}",
-                    content=entry.get("text", "")[:3000]
-                )
-                documents.append(document)
+                chunks = chunk_text(entry.get("text", ""), max_length=4000)
+                for j, chunk in enumerate(chunks):
+                    doc_id = f"doc_{i}_{j}"
+                    document = Document(id=doc_id, content=chunk)
+                    documents.append(document)            
 
             # Création de la pipeline d'indexation
             indexing_pipeline = create_indexing_pipeline(self.document_store, self.embedder_model)
@@ -280,7 +326,7 @@ class RAGSystem:
         hyp_embedding = hyde_output["hyde"]["hypothetical_embedding"]
         
         # Récupérer plus de documents que nécessaire pour avoir une meilleure distribution
-        initial_k = min(top_k * 2, 8)  
+        initial_k = min(top_k * 2, 10)  
         retrieval_output = self.retriever.run(
             query_embedding=hyp_embedding,
             top_k=initial_k,
@@ -296,7 +342,7 @@ class RAGSystem:
         print(f"Score moyen initial: {np.mean(scores):.4f}")
         
         # Appliquer le filtrage dynamique
-        threshold_adapter = DynamicThresholdAdapter(min_threshold=0.3, percentile=60)
+        threshold_adapter = DynamicThresholdAdapter(min_threshold=0.3, percentile=50)
         filtered_output = threshold_adapter.run(
             documents=retrieval_output["documents"],
             scores=scores
@@ -557,10 +603,11 @@ class RAGSystem:
         """
         Génère une réponse à partir du contexte et de la question
         """
-
-        
         prompt = self._build_prompt(question, context, definition)
-        return self.llm_adapter.generate_answer(prompt)
+        response, impact = self.llm_adapter.generate_answer_with_impact(prompt)
+        self.impacts_energy.append(impact["energy_kwh"])
+        self.impacts_co2.append(impact["co2_g"])
+        return response
 
 
     def answer_question(self, question: str, definition: str = "", use_hyde: bool = True, top_k: int = 8, max_retries: int = 2) -> str:
@@ -589,7 +636,9 @@ class RAGSystem:
             context = self.build_context(retrieved_docs)
             
             prompt = self._build_prompt(question, context, definition) 
-            answer = self.llm_adapter.generate_answer(prompt)
+            answer, impact = self.llm_adapter.generate_answer_with_impact(prompt)
+            self.impacts_energy.append(impact["energy_kwh"])
+            self.impacts_co2.append(impact["co2_g"])
             print(f"Réponse générée: {answer}")
                         
             # Validation du JSON
@@ -652,7 +701,9 @@ class RAGSystem:
 
             """
                 prompt = self._build_prompt(question, context, definition) + promptStrict
-                answer = self.llm_adapter.generate_answer(prompt)
+                answer, impact = self.llm_adapter.generate_answer_with_impact(prompt)
+                self.impacts_energy.append(impact["energy_kwh"])
+                self.impacts_co2.append(impact["co2_g"])
                 print("Nouvelle tentative avec un prompt modifié...")
 
                 
@@ -711,13 +762,15 @@ class RAGSystem:
         analyses = []
         for i, chunk in enumerate(chunks):
             prompt = self._build_prompt(question, chunk, definition)
-            reponse = self.llm_adapter.generate_answer(prompt)
+            reponse, impact = self.llm_adapter.generate_answer_with_impact(prompt)
+            self.impacts_energy.append(impact["energy_kwh"])
+            self.impacts_co2.append(impact["co2_g"])
             print(f"Chunks {i+1} : {chunk}")
             print(f"Réponse {i+1} : {reponse}")
             analyses.append(reponse)
         return analyses
     
-    def fusionne_analyses(self, analyses: List[str],max_retries: int = 2) -> str:
+    def fusionne_analyses(self, analyses: List[str], max_retries: int = 2) -> str:
         """
         Fusionne les analyses en un seul bloc JSON
         """
@@ -783,12 +836,14 @@ class RAGSystem:
         - Tu NE PEUX PAS modifier l'évaluation d'invasivité sauf si un des extraits le justifie explicitement.
         - Si deux protocoles ont des évaluations contradictoires (Invasif / Non invasif), NE PAS fusionner.
         Ne créez jamais de nouveau protocole ou extrait
-        Voici les analyses à fusionner :
+        Voici les analyses à fusionner :
         {analyses}
         """.format(analyses="\n\n".join(analyses))
 
         for attempt in range(max_retries):
-            answer = self.llm_adapter.generate_answer(prompt_fusion)
+            answer, impact = self.llm_adapter.generate_answer_with_impact(prompt_fusion)
+            self.impacts_energy.append(impact["energy_kwh"])
+            self.impacts_co2.append(impact["co2_g"])
             print(f"Réponse fusionnée {attempt+1} : {answer}")
             if self.validate_json(answer):
                 return answer
@@ -871,9 +926,21 @@ class RefineRAGSystem(RAGSystem):
         Tu es un expert en analyse de protocoles scientifiques dans le domaine de l'échantillonnage d'ADN.
         On te fournit un ensemble d'extraits pertinents provenant d'un même document scientifique.
         Ta tâche est de regrouper les extraits qui décrivent le même protocole d'échantillonnage ADN.
-        Deux extraits sont considérés comme décrivant le même protocole s'ils partagent une méthode identique ou très similaire de collecte, traitement ou usage d'échantillons (ex. : collecte de fèces sans contact, frottis buccal après capture, poils récupérés dans un piège non appâté, etc.).
 
-        Pour chaque groupe de protocoles similaires que tu identifies, fournis un objet JSON structuré de cette façon :
+        Règles de fusion des extraits :
+
+        1. Critères de fusion simple :
+           - Regrouper tous les extraits qui parlent du même type de prélèvement
+           - Exemples :
+             * Si un extrait parle de prélèvement de fèces, regrouper avec tous les autres extraits qui parlent de fèces
+             * Si un extrait parle de prélèvement d'eau, regrouper avec tous les autres extraits qui parlent d'eau
+             * Si un extrait parle de prélèvement de poils, regrouper avec tous les autres extraits qui parlent de poils
+
+        2. Gestion des extraits :
+           - Conserver uniquement les extraits les plus détaillés et informatifs
+           - Éliminer les extraits redondants ou moins informatifs
+           - Si deux extraits sont similaires mais l'un est plus détaillé, garder le plus détaillé
+           - Si deux extraits sont similaires mais décrivent des variantes importantes, garder les deux
 
         {{
         "contient_protocole": true,
@@ -884,16 +951,21 @@ class RefineRAGSystem(RAGSystem):
         ]
         }}
 
-        Si un extrait ne correspond à aucun protocole identifiable, ignore-le.
-
-        Fournis un JSON par protocole identifié, même si un protocole n'est cité qu'une seule fois.
-        Tu dois uniquement renvoyer le JSON, aucune autre explication, aucun commentaire, aucune phrase.
+        3. Règles anti-hallucination :
+           - Ne pas inventer d'informations
+           - Ne pas modifier le sens des extraits
+           - Ne pas fusionner des extraits qui décrivent des protocoles différents
+           - Ne pas ajouter de détails non présents dans les extraits
 
         Extrait à analyser :
-        {extracted_chunks}"""
+        {extracted_chunks}
+
+        Tu dois uniquement renvoyer le JSON, aucune autre explication, aucun commentaire, aucune phrase.
+        Un JSON par protocole fusionné.
+        """
 
 
-        
+    
     def build_invasivity_analysis_prompt(self, protocol: str, definition: str) -> str:
         """
         Construit le prompt pour le deuxième niveau de raffinement
@@ -939,42 +1011,73 @@ class RefineRAGSystem(RAGSystem):
         - Si la collecte est faite après le départ de l'animal sans capture ou manipulation.
         - Si des données existantes sont ajoutées à des échantillons déjà existants et que celle si sont invasifs, et que l'ajout n'est pas invasif, alors le protocole est non invasif.
 
+        Règles spécifiques par type d'échantillon et espèce
+        Fèces de mammifères :
+        Non invasif : Collecte ponctuelle, opportuniste, partielle (< 50% des fèces observées)
+        Invasif - Territory marking : Collecte systématique, exhaustive, régulière sur même territoire
+        Indicateurs d'invasivité : "toutes les fèces", "collecte hebdomadaire/quotidienne", "sur l'ensemble du transect", "nettoyage complet"
+
+        Autres échantillons par taxon :
+        Oiseaux : Plumes naturellement perdues (non invasif) vs plumes arrachées (invasif)
+        Reptiles/Amphibiens : Mues naturelles (non invasif) vs manipulation pour prélèvement (invasif)
+        Poissons : Écailles perdues naturellement (non invasif) vs capture pour prélèvement (invasif)
+        Invertébrés : Exuvies naturelles (non invasif) vs capture (invasif)
+
+        ADN environnemental (eDNA) :
+        Non invasif : Prélèvement d'eau, sédiments, sol sans perturbation
+        Invasif : Prélèvement nécessitant perturbation d'habitat, drainage, excavation
+
         Processus d'analyse avec ReAct :
 
-        1. Réflexion (Thought) :
-        - Identifier les éléments clés du protocole.
-        - Comparer ces éléments avec les critères d'invasivité.
+                1. Réflexion (Thought) :
+                Identifier le taxon étudié (mammifère, oiseau, etc.)
+                Identifier le type d'échantillon (fèces, plumes, ADNe, etc.)
+                Rechercher les mots-clés d'invasivité : "capture", "manipulation", "toutes", "systématique", "exhaustif", ...
+                Rechercher les mots-clés de non-invasivité : "naturellement", "opportuniste", "ponctuel", "abandonné", ...
+                Évaluer la fréquence et l'intensité de l'échantillonnage
 
-        2. Action (Act) :
-        - Évaluer chaque critère d'invasivité en fonction des éléments identifiés.
-        - Déterminer si le protocole est invasif ou non.
-        - Donne un taux de confiance entre 0 et 100, basé sur :
-            - La présence explicite d'éléments correspondant aux critères d'invasivité ou de non-invasivité ;
-            - La cohérence logique entre le protocole, la définition, et l'évaluation ;
-            - La clarté et l'exhaustivité du protocole fourni.
+                Attention : des termes comme "systématique", "quotidien", "exhaustif" n’indiquent une invasivité que s’ils concernent un type d’échantillon pouvant affecter le comportement ou le territoire. Par exemple, une collecte systématique de plumes abandonnées peut rester non invasive si elle n'entraîne ni perturbation ni manipulation.
 
+                2. Action (Act) :
+                Appliquer les règles spécifiques au taxon et type d'échantillon
+                Évaluer chaque critère d'invasivité
+                Déterminer le niveau de certitude basé sur :
 
-        3. Observation (Obs) :
-        - Citer les extraits pertinents du protocole qui justifient l'évaluation, attention, il faut assez de contexte pour justifier l'évaluation.
-        - Identifier les impacts potentiels et les péchés d'échantillonnage.
-
-        Règle stricte et prioritaire :
-
-        - Toute collecte de fèces chez des mammifères est présumée non invasive, à condition qu'elle soit ponctuelle, non exhaustive, et sans perturbation directe.
-        - MAIS si le protocole indique une collecte systématique, en grande quantité, régulière, ou totale des fèces dans une zone donnée, alors cela constitue une perturbation du marquage territorial, comportement naturel essentiel chez de nombreux mammifères.
-        - Dans ce cas, même sans contact direct avec l'animal, cela doit être classé comme invasif au regard de la modification du comportement naturel.
-        - Cette règle s'applique même si les auteurs ne mentionnent pas explicitement le marquage territorial : si l'échantillonnage concerne les fèces de mammifères et qu'il est total/systématique, l'invasivité doit être retenue par principe de précaution.
-        - Si le protocole concerne uniquement une observation de l'animal, sans aucune interaction avec lui ni perturbation de son environnement, alors il est non invasif.
-
-        Cas typique :
-        - "Nous avons collecté toutes les fèces rencontrées sur les transects chaque semaine" ALORS Invasif (perturbation du marquage territorial)
+                Explicite (90-100%) : Méthodologie détaillée, termes clairs
+                Implicite fort (70-89%) : Éléments permettant déduction solide
+                Implicite faible (50-69%) : Éléments partiels, interprétation nécessaire
+                Ambigu (30-49%) : Informations contradictoires ou insuffisantes
+                Absence (0-29%) : Pas d'information sur la méthodologie
 
 
-        Échelle du taux de confiance :
-        - 0–40 : Incertitude forte, données ambiguës ou absentes.
-        - 41–70 : Données partielles, raisonnement plausible mais incomplet.
-        - 71–90 : Données suffisantes, réponse fiable.
-        - 91–100 : Données complètes et explicites, réponse très fiable.
+                3. Observation (Obs) :
+                Citer les extraits avec contexte suffisant (phrase complète + contexte)
+                Identifier les signaux d'alarme ou de validation
+                Noter les informations manquantes critiques
+
+            Signaux d'alarme pour l'invasivité (à contextualiser):
+
+            Fréquence : "quotidien", "hebdomadaire", "systématique", "régulier"
+            Exhaustivité : "toutes", "ensemble", "complet", "total"
+            Manipulation : "capture", "manipulation", "contention", "anesthésie"
+            Perturbation : "piégeage", "appât", "leurre", "dérangement"
+
+            La fréquence et l'exhaustivité concerne uniquement le prélèvement de fèces chez les mamifères
+
+            Signaux de non-invasivité :
+
+            "Naturellement perdues/abandonnées"
+            "Opportuniste", "ponctuel"
+            "Après départ de l'animal"
+            "Échantillons trouvés"
+
+        Cas ambigus - Règles de décision :
+
+        Information manquante critique → Taux de confiance < 50%
+        Contradiction dans le texte → Retenir l'interprétation la plus conservative (invasif)
+        Protocole mixte → Classifier selon l'élément le plus invasif
+        Espèce non-mammifère + fèces → Appliquer les règles générales (pas de règle territoriale spécifique)
+
 
 
         Protocole à analyser :
@@ -983,20 +1086,24 @@ class RefineRAGSystem(RAGSystem):
         Renvoie ton analyse au format JSON suivant :
         ```json
         {{
-            "extrait_pertinent": ["Citation exacte de l'extrait 1 décrivant le protocole", "Citation exacte de l'extrait 2 décrivant le protocole"],
-            "echantillon": "Type d'échantillon",
-            "evaluation_invasivite": "Invasif" ou "Non invasif",
-            "justification_invasivite": "Justification détaillée de l'évaluation d'invasivité basée sur les critères",
-            "impacts_potentiels": ["Impact 1", "Impact 2"],
-            "peches_identifies": ["1", "2", "5"],
-            "taux_de_confiance": "Taux de confiance en ton analyse entre 0 et 100"
+        "extrait_pertinent": ["Citation exacte avec contexte suffisant 1", "Citation exacte avec contexte suffisant 2"],
+        "taxon_identifie": "Mammifère/Oiseau/Reptile/Poisson/Invertébré/Mixte/Non précisé",
+        "echantillon": "Type d'échantillon précis",
+        "mots_cles_invasivite": ["mot-clé 1", "mot-clé 2"],
+        "mots_cles_non_invasivite": ["mot-clé 1", "mot-clé 2"],
+        "evaluation_invasivite": "Invasif", "Non invasif" ou "Invasif - Territory marking",
+        "justification_invasivite": "Justification détaillée basée sur les critères et règles spécifiques au taxon",
+        "signaux_alarme": ["Signal d'alarme 1", "Signal d'alarme 2"],
+        "impacts_potentiels": ["Impact 1", "Impact 2"],
+        "peches_identifies": ["1", "2", "5"],
+        "informations_manquantes": ["Information critique manquante 1"],
+        "taux_de_confiance": "Taux entre 0 et 100 avec justification du niveau"
         }}
         ```
 
-        Tu dois Uniquement renvoyer le JSON, aucune autre explication, aucun commentaire, aucune phrase.
-        Tu dois uniquement te baser sur les protocoles à analyser, si il n'y en a pas, renvoie rien pour ce protocole et passe au suivant.
-        Tu dois analyser tous les protocoles, même si il y en a plusieurs.
-        Si aucun extrait n'est fourni, renvoie rien pour ce protocole et passe au suivant.
+        Tu dois Uniquement renvoyer le JSON, aucune autre explication.
+        Tu dois analyser tous les protocoles fournis.
+        Si aucun protocole n'est fourni, ne renvoie rien.
         """
 
 
@@ -1018,29 +1125,26 @@ class RefineRAGSystem(RAGSystem):
         4. Ne pas inventer d'informations.
         5. Retire les protocoles inconnus avec aucune citation.
         6. Conserver l'évaluation d'invasivité la plus stricte (Invasif > Non invasif).
-        # 7. Pour le taux de confiance :
-        #    - Si les analyses ont des scores NLI, utiliser la moyenne pondérée des scores NLI et des taux de confiance initiaux
-        #    - Si les extraits sont contradictoires ou imprécis, prendre le score le plus bas
-        #    - Sinon, prendre la moyenne des scores disponibles
+
 
         Processus de fusion avec ReAct :
 
-        1. **Filtrage (Filtering)** :
+        1. Filtrage (Filtering) :
         - Garde uniquement les protocoles liés à l'échantillonnage d'ADN.
         - Ignore tout ce qui ne décrit pas explicitement une procédure d'échantillonnage.
         - Un protocole doit mentionner la collecte ou l'analyse de matériel biologique contenant de l'ADN.
 
-        2. **Fusion (Fusion)** :
+        2. Fusion (Fusion) :
         - Si deux protocoles décrivent la même procédure, les fusionner.
         - Conserver tous les extraits pertinents.
         - Uniformiser les noms d'échantillons similaires.
         - Ne pas inventer d'informations.
 
-        3. **Évaluation (Evaluation)** :
+        3. Évaluation (Evaluation) :
         - Uniformise les noms d'échantillons très proches.
         - Résoudre les conflits en fonction des règles strictes.
 
-        4. **Résolution de conflits (Conflict Resolution)** :
+        4. Résolution de conflits (Conflict Resolution) :
         - Si un protocole est appliqué sur des animaux déjà morts de cause naturelle, les impacts doivent être considérés comme nuls.
         - L'évaluation de l'invasivité doit être "Non invasif".
         - Les péchés doivent être une liste vide.
@@ -1062,19 +1166,24 @@ class RefineRAGSystem(RAGSystem):
         [
             {{
                 "protocole": "Nom précis du protocole",
-                "extrait_pertinent": ["Citation 1", "Citation 2"],
-                "echantillon": "Type d'échantillon",
-                "impacts_potentiels": ["Impact 1", "Impact 2"],
+                "extrait_pertinent": ["Citation exacte avec contexte suffisant 1", "Citation exacte avec contexte suffisant 2"],
+                "taxon_identifie": "Mammifère/Oiseau/Reptile/Poisson/Invertébré/Mixte/Non précisé",
+                "echantillon": "Type d'échantillon précis",
+                "mots_cles_invasivite": ["mot-clé 1", "mot-clé 2"],
+                "mots_cles_non_invasivite": ["mot-clé 1", "mot-clé 2"],
                 "evaluation_invasivite": "Invasif" ou "Non invasif",
-                "peches_identifies": ["1", "2", "3", "4", "5"],
-                "taux_de_confiance": "Taux de confiance en ton analyse entre 0 et 100",
-                "justification_invasivite": "Justification détaillée"
-
+                "justification_invasivite": "Justification détaillée basée sur les critères et règles spécifiques au taxon",
+                "signaux_alarme": ["Signal d'alarme 1", "Signal d'alarme 2"],
+                "impacts_potentiels": ["Impact 1", "Impact 2"],
+                "peches_identifies": ["1", "2", "5"],
+                "informations_manquantes": ["Information critique manquante 1"],
+                "taux_de_confiance": "Taux entre 0 et 100 avec justification du niveau"
             }}
         ]
         ```
 
         Tu dois Uniquement renvoyer le JSON, aucune autre explication, aucun commentaire, aucune phrase.
+        Attention, l'apostrophe ne s'échappe pas en JSON, pas besoin de mettre de backslash devant.
         """
 
     
@@ -1083,7 +1192,7 @@ class RefineRAGSystem(RAGSystem):
         Applique la méthode de raffinement en trois niveaux
         """
         # Récupération des chunks pertinents
-        documents = self.retrieve_with_hyde(question, top_k,title=title)
+        documents = self.retrieve_with_hyde(question, top_k, title=title)
         chunks = [doc.content for doc in documents]
         print(f"Documents récupérés : {len(chunks)}")
 
@@ -1091,7 +1200,9 @@ class RefineRAGSystem(RAGSystem):
         protocols = []
         for chunk in chunks:
             prompt = self.build_protocol_detection_prompt(chunk)
-            response = self.llm_adapter.generate_answer(prompt)
+            response, impact = self.llm_adapter.generate_answer_with_impact(prompt)
+            self.impacts_energy.append(impact["energy_kwh"])
+            self.impacts_co2.append(impact["co2_g"])
             print(f"Chunk : {chunk}")
             print(f"Réponse du modèle : {response}")
             protocols.append(response)
@@ -1101,12 +1212,46 @@ class RefineRAGSystem(RAGSystem):
             return "[]"
 
         print(f"Protocoles détectés : {len(protocols)}")
+
+        # Fusion des extraits similaires
+        fusion_prompt = self.build_fusion_extrait_prompt(protocols)
+        fused_protocols_response, impact = self.llm_adapter.generate_answer_with_impact(fusion_prompt)
+        self.impacts_energy.append(impact["energy_kwh"])
+        self.impacts_co2.append(impact["co2_g"])
+        print(f"Protocoles fusionnés : {fused_protocols_response}")
+
+        # Parsing des protocoles fusionnés
+        fused_protocols = []
+        try:
+            # Extraction des blocs JSON
+            json_blocks = extract_json_blocks(fused_protocols_response)
+            for block in json_blocks:
+                try:
+                    protocol = json.loads(block)
+                    if protocol.get("contient_protocole", False):
+                        fused_protocols.append(protocol)
+                except json.JSONDecodeError:
+                    continue
+        except Exception as e:
+            print(f"Erreur lors du parsing des protocoles fusionnés : {str(e)}")
+            fused_protocols = protocols  # Fallback sur les protocoles originaux en cas d'erreur
+
+        print(f"Nombre de protocoles après fusion : {len(fused_protocols)}")
  
         #  Analyse de l'invasivité
         analyses = []
-        for protocol in protocols:
-            prompt = self.build_invasivity_analysis_prompt(protocol, definition)
-            response = self.llm_adapter.generate_answer(prompt)
+        for protocol in fused_protocols:
+            # Vérifier que le protocole contient des extraits pertinents
+            if not protocol.get("extrait_pertinent"):
+                continue
+                
+            protocol_text = "\n".join(protocol["extrait_pertinent"])
+            
+            prompt = self.build_invasivity_analysis_prompt(protocol_text, definition)
+            response, impact = self.llm_adapter.generate_answer_with_impact(prompt)
+            self.impacts_energy.append(impact["energy_kwh"])
+            self.impacts_co2.append(impact["co2_g"])
+            print(f"Analyse du protocole avec les extraits : {protocol_text}")
             print(f"Réponse du modèle : {response}")
             analyses.append(response)
 
@@ -1118,7 +1263,9 @@ class RefineRAGSystem(RAGSystem):
 
         #  Fusion des analyses
         prompt = self.build_fusion_prompt(analyses)
-        final_response = self.llm_adapter.generate_answer(prompt)
+        final_response, impact = self.llm_adapter.generate_answer_with_impact(prompt)
+        self.impacts_energy.append(impact["energy_kwh"])
+        self.impacts_co2.append(impact["co2_g"])
         print(f"Réponse finale : {final_response}")
 
         return final_response
@@ -1153,7 +1300,7 @@ class RAGNonInvasiveDetection(RAGSystem):
         2. Analyse si le titre mentionne le protocole détecté comme invasif. Si ce protocole est présenté dans le titre comme non invasif, réponds aussi "Oui" d'office.
         3. Cherche dans le corps de l'article :
         - Y a-t-il une phrase indiquant explicitement que le protocole en question est non invasif ? Si oui, réponds "Oui".
-        - Si une autre méthode est dite non invasive, mais ce n'est **pas celle détectée comme invasive**, ce n'est pas suffisant.
+        - Si une autre méthode est dite non invasive, mais ce n'est **pas celle détectée comme invasive, ce n'est pas suffisant.
         4. Si aucune déclaration claire ou implicite n'est trouvée, réponds "Non".
         5. Si le passage est trop vague ou ne permet pas de trancher, réponds "Manque d'informations".
 
@@ -1164,22 +1311,31 @@ class RAGNonInvasiveDetection(RAGSystem):
             "justification_annonce_invasivite": "Justification courte, avec citation si utile (souvent utile pour la justification)"
         }}
         ```
+        Si tu ne peux pas fournir une réponse, réponds "Pas de réponse".
 
         Ne donne aucune explication hors du JSON, aucune phrase d'introduction ou de conclusion.
+        les clés doivent être strictement : annonce_invasivite et justification_annonce_invasivite
         """
         return prompt
     
-    def detect_non_invasive_level(self, Chunks: List[str], protocole: str, title: str):
+    def detect_non_invasive_level(self, Chunks: List[str], protocole: str, title: str, impacts_energy: List[float] = None, impacts_co2: List[float] = None):
         """
         Detect the non invasive level of the protocol.
         """
+        if impacts_energy is None:
+            impacts_energy = []
+        if impacts_co2 is None:
+            impacts_co2 = []
+            
         if not Chunks:
             return "Aucun extrait disponible pour l'analyse"
         
         try:
             prompt = self.build_prompt(Chunks, protocole, title)
-            response = self.llm_adapter.generate_answer(prompt)
-            #print(f"Réponse du modèle : {response}")
+            print(f"Prompt : {prompt}")
+            response, impact = self.llm_adapter.generate_answer_with_impact(prompt)
+            impacts_energy.append(impact["energy_kwh"])
+            impacts_co2.append(impact["co2_g"])
             return response
         except Exception as e:
             print(f"Erreur lors de la détection du niveau non invasif : {str(e)}")
