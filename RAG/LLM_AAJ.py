@@ -45,7 +45,7 @@ scores_titre = [c["score"] for c in correspondances]
 df_resultats_matched.reset_index(drop=True, inplace=True)
 df_verite_matched.reset_index(drop=True, inplace=True)
 
-print(f"✅ Appariement terminé : {len(df_resultats_matched)} lignes avec score ≥ 75")
+print(f"Appariement terminé : {len(df_resultats_matched)} lignes avec score ≥ 75")
 
 import sys
 import os
@@ -123,7 +123,7 @@ total_co2 = sum(impacts_co2)
 # === Enregistrement de l'impact dans un fichier texte ===
 def enregistrer_impact(nom_script, energie_kwh, co2_g, chemin="impact_llm.txt"):
     ligne = (
-        f"📁 Script exécuté : {nom_script}\n"
+        f" Script exécuté : {nom_script}\n"
         f"  - Énergie totale consommée : {energie_kwh:.4f} kWh\n"
         f"  - CO₂ total émis : {co2_g:.2f} g\n"
         "--------------------------------------\n"
@@ -137,4 +137,4 @@ nom_du_script = os.path.basename(__file__) if '__file__' in globals() else "Scri
 # Appel à la fonction d'enregistrement
 enregistrer_impact(nom_du_script, total_energy, total_co2)
 
-print("✅ Comparaison LLM terminée (seulement les scores ≥ 75).")
+print(" Comparaison LLM terminée (seulement les scores ≥ 75).")
