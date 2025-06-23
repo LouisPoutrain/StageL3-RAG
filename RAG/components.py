@@ -9,6 +9,7 @@ from haystack import component
 from haystack.dataclasses import Document
 
 from llama_cpp import Llama
+from typing import Dict, List, Tuple
 
 
 @component
@@ -21,55 +22,46 @@ class HypotheticalDocumentEmbedder:
     def run(self, documents: List[Document]):
         # Collecte des embeddings des documents hypothétiques
         stacked_embeddings = array([doc.embedding for doc in documents])
-        # Calcul de l'embedding moyen
+        # Calcul l'embedding moyen
         avg_embeddings = mean(stacked_embeddings, axis=0)
-        # Mise en forme du vecteur HyDE
+        # Puis on met forme le vecteur 
         hyde_vector = avg_embeddings.reshape((1, len(avg_embeddings)))
         return {"hypothetical_embedding": hyde_vector[0].tolist()}
 
-
 @component
-class LlamaOutputAdapter:
+class DynamicThresholdAdapter:
     """
-    Composant qui utilise un modèle Llama local pour générer des réponses 
-    et les convertir en documents Haystack.
+    Composant qui ajuste dynamiquement le seuil de similarité cosinus
+    en fonction de la distribution des scores, sauf si peu de documents.
     """
-    def __init__(self, model_path, max_tokens=4096, temperature=0.1):
-        self.model_path = model_path
-        self.max_tokens = max_tokens
-        self.temperature = temperature
+    def __init__(self, min_threshold: float = 0.3, percentile: float = 75, min_docs: int = 5):
+        self.min_threshold = min_threshold
+        self.percentile = percentile
+        self.min_docs = min_docs  
+
+    @component.output_types(filtered_documents=List[Document])
+    def run(self, documents: List[Document], scores: List[float]):
+        if not documents or not scores:
+            return {"filtered_documents": []}
+
+        if len(documents) < self.min_docs:
+            # Si peu de documents, on garde tout
+            return {"filtered_documents": documents}
+
+        # Calcul du seuil dynamique
+        dynamic_threshold = max(
+            self.min_threshold,
+            np.percentile(scores, self.percentile)
+        )
+
+        # Filtrage des documents
+        filtered_docs = [
+            doc for doc, score in zip(documents, scores)
+            if score >= dynamic_threshold
+        ]
+
+        return {"filtered_documents": filtered_docs}
     
-    @component.output_types(documents=List[Document])
-    def run(self, prompt: str, n_generations: int = 3):
-        """
-        Génère n_generations réponses avec Llama et les convertit en documents
-        
-        Args:
-            prompt: Le prompt à envoyer au modèle
-            n_generations: Nombre de documents à générer
-            
-        Returns:
-            Liste des documents générés
-        """
-        try:
-            llm = Llama(model_path=self.model_path, n_ctx=6096)
-            documents = []
-            
-            for _ in range(n_generations):
-                response = llm(
-                    prompt,
-                    max_tokens=self.max_tokens,
-                    temperature=self.temperature,
-                    repeat_penalty=1.2,
-                    top_k=40,
-                    top_p=0.95
-                )
-                text = response["choices"][0]["text"]
-                documents.append(Document(content=text))
-            
-            return {"documents": documents}
-        except Exception as e:
-            return {"documents": [Document(content=f"Erreur: {str(e)}")]}
-        finally:
-            if 'llm' in locals():
-                llm.close()
+
+
+
