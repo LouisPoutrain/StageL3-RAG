@@ -22,7 +22,7 @@ def save_chunks_to_txt_file(chunks, output_path):
         for title, text in chunks:
             f.write(f"[SECTION] {title}\n{text}\n\n")
 
-def process_chunking_txt_file(input_txt_path):
+def process_chunking_txt_file(input_txt_path, output_dir):
     with open(input_txt_path, "r", encoding="utf-8") as f:
         content = f.read()
 
@@ -38,10 +38,14 @@ def process_chunking_txt_file(input_txt_path):
         chunks = extract_chunks_from_txt(file_content)
 
         # Construire le nom de sortie
-        output_filename = f"{filename}.txt"
+        output_filename = f"{output_dir}/{filename}.txt"
         save_chunks_to_txt_file(chunks, output_filename)
         print(f"Fichier généré : {output_filename}")
 
 if __name__ == "__main__":
-    input_path = "chunking.txt"
-    process_chunking_txt_file(input_path)
+    input_path = "Chunks/chunking.txt"
+    input_path_invasive_detection = "Chunks/chunking_invasive_detection.txt"
+    output_dir = "ChunksDivise"
+    output_dir_invasive_detection = "ChunksDivise_invasive_detection"
+    process_chunking_txt_file(input_path, output_dir)
+    process_chunking_txt_file(input_path_invasive_detection, output_dir_invasive_detection)
