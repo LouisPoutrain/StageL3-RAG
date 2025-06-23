@@ -2,7 +2,6 @@ import os
 import re
 import json
 import numpy as np
-import faiss
 from sentence_transformers import SentenceTransformer
 
 # --- 1. Parser le fichier texte et extraire les chunks ---
@@ -33,12 +32,6 @@ def create_embeddings(chunks, model):
     embeddings = model.encode(texts, show_progress_bar=True)
     return embeddings, texts
 
-# --- 3. Créer et stocker un index FAISS ---
-def build_faiss_index(embeddings):
-    dimension = embeddings[0].shape[0]
-    index = faiss.IndexFlatL2(dimension)
-    index.add(np.array(embeddings))
-    return index
 
 # --- 4. Sauvegarder les métadonnées des chunks ---
 def save_chunk_metadata(chunks, path):
@@ -53,17 +46,14 @@ def process_txt_file(file_path, output_dir, model):
         print(f"⚠️ Aucun chunk trouvé dans {file_path}")
         return
 
-    embeddings, texts = create_embeddings(chunks, model)
-    index = build_faiss_index(embeddings)
 
     # Sauvegarde
-    faiss.write_index(index, os.path.join(output_dir, f"{base_name}.faiss"))
     save_chunk_metadata(chunks, os.path.join(output_dir, f"{base_name}.json"))
     print(f"✅ Traitement terminé pour : {base_name}")
 
 # --- 6. Exécution complète sur un dossier ---
 if __name__ == "__main__":
-    input_dir = "./Chunks"       # Dossier contenant les .txt
+    input_dir = "./ChunksDivise"       # Dossier contenant les .txt
     output_dir = "./output"         # Dossier de sortie pour .faiss et .json
 
     os.makedirs(output_dir, exist_ok=True)
@@ -73,5 +63,17 @@ if __name__ == "__main__":
         if filename.endswith(".txt"):
             file_path = os.path.join(input_dir, filename)
             process_txt_file(file_path, output_dir, model)
+
+    print("🎯 Tous les fichiers ont été traités.")
+
+    input_dir_invasive_detection = "./ChunksDivise_invasive_detection"
+    output_dir_invasive_detection = "./output_invasive_detection"
+
+    os.makedirs(output_dir_invasive_detection, exist_ok=True)
+
+    for filename in os.listdir(input_dir_invasive_detection):
+        if filename.endswith(".txt"):
+            file_path = os.path.join(input_dir_invasive_detection, filename)
+            process_txt_file(file_path, output_dir_invasive_detection, model)  
 
     print("🎯 Tous les fichiers ont été traités.")
