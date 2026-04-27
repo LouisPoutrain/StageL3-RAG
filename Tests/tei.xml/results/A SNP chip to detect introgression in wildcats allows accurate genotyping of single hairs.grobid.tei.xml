@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A SNP chip to detect introgression in wildcats allows accurate genotyping of single hairs</title>
+				<funder ref="#_rSFDxea">
+					<orgName type="full">Zürcher Tierschutz</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Service des forêts, de la faune et de la nature du canton de Vaud</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Service de la Faune et de la Pêche de l&apos;État de Genève</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Lotterie+Sport-Toto-Fonds Solothurn</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-03-04">4 March 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Beatrice</forename><surname>Nussberger</surname></persName>
+							<email>beatrice.nussberger@ieu.uzh.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Evolutionary Biology and Environmental Studies</orgName>
+								<orgName type="institution">University of Zurich</orgName>
+								<address>
+									<addrLine>Winterthurerstrasse 190</addrLine>
+									<postCode>8057</postCode>
+									<settlement>Zurich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Wandeler</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Evolutionary Biology and Environmental Studies</orgName>
+								<orgName type="institution">University of Zurich</orgName>
+								<address>
+									<addrLine>Winterthurerstrasse 190</addrLine>
+									<postCode>8057</postCode>
+									<settlement>Zurich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Evolutionary Biology and Environmental Studies</orgName>
+								<orgName type="institution">University of Zurich</orgName>
+								<address>
+									<addrLine>Winterthurerstrasse 190</addrLine>
+									<postCode>8057</postCode>
+									<settlement>Zurich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Glauco</forename><surname>Camenisch</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Evolutionary Biology and Environmental Studies</orgName>
+								<orgName type="institution">University of Zurich</orgName>
+								<address>
+									<addrLine>Winterthurerstrasse 190</addrLine>
+									<postCode>8057</postCode>
+									<settlement>Zurich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Evolutionary Biology and Environmental Studies</orgName>
+								<orgName type="institution">University of Zurich</orgName>
+								<address>
+									<addrLine>Winterthurerstrasse 190</addrLine>
+									<postCode>8057</postCode>
+									<settlement>Zurich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A SNP chip to detect introgression in wildcats allows accurate genotyping of single hairs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-03-04">4 March 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">23E819E56162F3AC99EE5D8B5D68C2BF</idno>
+					<idno type="DOI">10.1007/s10344-014-0806-3</idno>
+					<note type="submission">Received: 26 April 2013 / Revised: 9 January 2014 / Accepted: 19 February 2014 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-15T14:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Hair</term>
+					<term>Non-invasive DNA sampling</term>
+					<term>SNP genotyping</term>
+					<term>Conservation genetics</term>
+					<term>Introgression</term>
+					<term>Felis silvestris</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Genotyping non-invasively collected samples is challenging. Nevertheless, genetic monitoring of elusive species like the European wildcat (Felis silvestris silvestris) mainly relies on such samples. Wildcats are likely threatened through introgression with domestic cats (F. silvestris catus).</p><p>To determine introgression based on single cat hairs, we developed a 96.96 Fluidigm single nucleotide polymorphism (SNP) genotyping array chip. To estimate the accuracy of this method, we compared genotypes of 17 cats called with both Sanger sequencing and Fluidigm. When Sanger sequencing genotypes were considered as a reference, the genotyping error rate with Fluidigm was 0.9 %. We subsequently compared 16 hair samples to tissue samples of the same individual. When the tissue samples were used as a reference, the genotyping error rate in hair samples was 1.6 %. This low error rate allowed reliable recognition of individuals and correct assessment of introgression levels. Thus, the genotyping method presented in this paper is suitable for non-invasively collected samples. It will help conservationists to monitor the introgression rate in wildcat populations based on noninvasive hair sampling and subsequently to conduct effective conservation measures.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The limited quality and quantity of nuclear DNA extracted from non-invasively collected samples, like single hairs <ref type="bibr" target="#b29">(Vigilant 1999;</ref><ref type="bibr" target="#b3">Bengtsson et al. 2011)</ref>, is a challenge for accurate genotyping <ref type="bibr" target="#b7">(Gagneux et al. 1997;</ref><ref type="bibr" target="#b8">Goossens et al. 1998)</ref>. Current methods rely on pooling hairs from the same individual to have sufficient DNA for accurate genotyping. In addition, genotyping is repeated to assess error rates <ref type="bibr" target="#b25">(Taberlet et al. 1997;</ref><ref type="bibr" target="#b8">Goossens et al. 1998</ref>). However, these approaches are usually not applicable to hairs collected on hair traps. Pooling hairs from lure sticks can lead to erroneous genotyping when hairs belong to different individuals. In addition, single hair samples often yield too little DNA for accurate genotyping. Nevertheless, conservation and population genetic studies often rely on non-invasively collected samples, because it is an efficient way to sample elusive species <ref type="bibr" target="#b28">(Valière et al. 2003;</ref><ref type="bibr" target="#b23">Schwartz et al. 2004;</ref><ref type="bibr" target="#b9">Henry and Russello 2011;</ref><ref type="bibr" target="#b11">Heurich et al. 2012;</ref><ref type="bibr" target="#b1">Barbosa et al. 2013)</ref>. For instance, non-invasive hair sampling using lure stick traps has been put forward as a useful way to survey European wildcats (Felis silvestris silvestris; <ref type="bibr" target="#b12">Kéry et al. 2011;</ref><ref type="bibr" target="#b24">Steyer et al. 2013)</ref>.</p><p>Introgression with domestic cats (F. silvestris catus) is thought to be a threat to European wildcat <ref type="bibr" target="#b4">(Daniels et al. 2001;</ref><ref type="bibr" target="#b18">Oliveira et al. 2008;</ref><ref type="bibr" target="#b20">Randi 2008;</ref><ref type="bibr" target="#b5">Driscoll and Nowell 2010)</ref>, which could lead to its genetic extinction <ref type="bibr" target="#b21">(Rhymer and Simberloff 1996)</ref>. Thus, it is crucial to monitor and better understand the process of introgression in wildcat populations. However, the microsatellite markers used so far to monitor wildcats based on hairs do not recognize introgression sufficiently, since they are highly polymorphic and designed to detect population structure or to recognize individuals <ref type="bibr" target="#b10">(Hertwig et al. 2009;</ref><ref type="bibr" target="#b22">Say et al. 2012)</ref>. Further, single nucleotide polymorphism (SNP) markers developed to recognize introgression have been genotyped with Sanger Sequencing so far, thus relying on DNA samples of high quality and</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Communicated by C. Gortázar</head><p>Electronic supplementary material The online version of this article (doi:10.1007/s10344-014-0806-3) contains supplementary material, which is available to authorized users. quantity <ref type="bibr" target="#b16">(Nussberger et al. 2013</ref>). These markers have not yet been adapted to DNA samples of low quality and quantity, like single hair samples.</p><p>In the present study, we provide a method that tackles these challenges to assess the introgression rates in wildcats based on non-invasive hair sampling using lure stick traps. We investigated (I) whether genotyping by application of a newly designed 96.96 Fluidigm SNP chip containing the previously mentioned SNP markers <ref type="bibr" target="#b16">(Nussberger et al. 2013</ref>) is reliably reflecting genotypes generated with Sanger sequencing and (II) whether this chip yields reliable genotypes even in samples of low DNA quality and quantity, such as single hairs. Moreover, this chip represents a new set of SNP genotyping assays for high-throughput genotyping of European wildcats and domestic cats that enables the identification of individuals and the assessment of individual introgression levels from single hair samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head><p>Cat samples were provided by the Centre for Fish and Wildlife Health in Berne, gamekeepers and private collections <ref type="bibr" target="#b16">(Nussberger et al. 2013</ref>). Blood and tissue (muscle, liver, spleen) samples were stored at -20 °C until used and extracted using the DNeasy Blood &amp; Tissue Kit (Qiagen), following the manufacturer's protocol. Hair samples were plucked from known specimens and stored dry at room temperature for 15 to 53 months prior to DNA extraction. DNA was extracted with the Sample-to-SNP-kit (Applied Biosystems) using the following modified protocol. We checked every hair under the microscope for the presence of a root, placed each hair root singly into a 0.2-ml PCR tube, added 9 μl lysis solution and placed the tube in a thermocycler at 75 °C for 10 min and 95 °C for 4 min. Finally, we added 9 μl stabilization solution.</p><p>We quantified the cat-specific DNA amount available for genotyping in 16 singly extracted hairs (four single hairs from four individuals) using quantitative real-time PCR on a StepOnePlus instrument (Applied Biosystems). PCR contained 2 μl DNA, 10 μl FastStart Universal SYBR Green Master (ROX) 2× (Roche Applied Science), 6.64 μl molecular grade water, 0.16 μl BSA and 0.6 μl forward and 0.6 μl reverse cat-specific primer of 10 μM (F: ACGCACAACGTC TTGGAAC; R: TGGCCTTTTTAAGGATCACC, on conserved region of c-Myc proto-oncogene). Initial incubation was set to 10 min at 95 °C, followed by 50 cycles of 95 °C for 15 s and 60 °C for 1 min. Melt curve stage was 95 °C for 15 s, 60 °C for 1 min (step and hold +0.3 °C) and 95 °C for 15 s. Quadruple sets of four standards containing 10 ng/μl, 1 ng/μl, 100 pg/μl and 10 pg/μl domestic cat DNA, respectively, as well as one blank were amplified with the DNA samples of unknown quantity. We quantified the samples with StepOne Software v2.2 (Applied Biosystems).</p><p>To distinguish individuals and to assess introgression levels, we developed 96 Fluidigm SNPtype™ Assays for SNP genotyping (Fluidigm, San Francisco, USA). The set of assays contains nuclear SNP markers <ref type="bibr" target="#b16">(Nussberger et al. 2013)</ref> as well as mitochondrial DNA (mtDNA) markers described by <ref type="bibr" target="#b6">Driscoll et al. (2007)</ref>; 75 nuclear markers with a F ST value (genetic differentiation index) between wildcats and domestic cats ranging from 0.6 to 1 are for introgression level diagnosis, 11 nuclear markers with F ST values &lt;0.5 and four mtDNA markers to distinguish individuals, four diagnostic mtDNA markers for maternal lineage assessment and two diagnostic Y-linked markers for sex determination and paternal lineage assessment. Assay primers and sequences used to order them are shown in Online Resource 1. All assay primers were designed by Fluidigm.</p><p>Fluidigm SNP genotyping is an analogue to the Amplifluor Genotyping System (for details, see <ref type="bibr" target="#b15">Morin and McCarthy 2007)</ref>. In the first step, two pre-amplification primers [locusspecific primer (LSP) and specific target amplification (STA) primer] amplify the target region containing the SNP to be genotyped. Secondly, an additional PCR amplifies a portion of that target SNP region, using the LSP and two fluorescently labeled allele-specific primers ASP1 and ASP2, which are internal primers containing either the first or the second allele, respectively. Finally, the SNP genotype is then determined by measuring the fluorescence intensity of both alleles. All 96 SNPs are pre-amplified simultaneously in one multiplex PCR, for each sample separately, on a Veriti Thermal Cycler (Applied Biosystems), with the following conditions: hold at 95 °C for 15 min, 14 cycles at 95 °C for 15 s and 60 °C for 4 min. The second PCR is performed on a Fluidigm 96.96 Dynamic Array (SNP chip), where the reactions occur in separate nano-wells for each SNP and sample combination, allowing simultaneous genotyping of 96 samples at 96 SNP loci. This PCR is performed on a BioMark HD System (Fluidigm), with the following PCR cycling conditions: 50 °C for 2 min, 70 °C for 30 min, 25 °C for 10 min and 95 °C for 5 min, followed by four touchdown cycles (95 °C for 15 s, from 64 °C to 61 °C for 45 s, 72 °C for 15 s) and 34 additional cycles (95 °C for 15 s, 60 °C for 45 s, 72 °C for 15 s). The PCR ends with 1 cycle at 20 °C for 10 s (for details, see Fluidigm genotyping user guide).</p><p>We genotyped blood and tissue samples of 20 cats following the manufacturer's SNP genotyping protocol (see Fluidigm genotyping user guide). For hair samples, we modified the protocol as follows. In the pre-amplification step, we used 2 or 4 μl genomic DNA extraction solution to increase the total number of DNA copies in the reaction above an a priori threshold of 50 pg DNA per reaction. DNA was preamplified using 4 μl Qiagen Master Mix 2×, 0.8 μl specific target amplification primer pool and 1.2 μl molecular grade water. The pre-amplification PCR product was diluted in 1:10. The number of additional cycles in the second PCR protocol was increased from 34 to 46 (Online Resource 2). We included eight references (two domestic cats, two wildcats, twice on one first-generation hybrid and twice on one backcrossed wildcat) and eight no template controls (NTCs, for fluorescence plot normalization) in each chip. Genotypes of the reference individuals were known from previous genotyping based on Sanger sequencing <ref type="bibr" target="#b16">(Nussberger et al. 2013</ref>). Fluorescence plots for each SNP were provided by Fluidigm SNP genotyping analysis software. All plots were checked visually and corrected for errors such as NTC with fluorescence values &gt;0.1 or clusters which did not make sense in accordance to our reference samples. Except for the reference samples, we were naive to the true genotype of the samples during manual correction of the automatically generated calls. Three out of the 75 diagnostic nuclear markers (Fst01_SNP033, Fst03_SNP149 and Fst33_SNP152) were excluded for further analysis, because their fluorescence plot were ambiguous.</p><p>We tested the accuracy of our SNP genotyping assays by comparing loci genotyped by Sanger sequencing in a previous study <ref type="bibr" target="#b16">(Nussberger et al. 2013)</ref> and by Fluidigm for 17 blood or tissue samples. We calculated the genotyping error rate as the number of mismatches between Sanger genotype and Fluidigm genotype, divided by the total number of diploid markers genotyped with both methods. To estimate the rate of allelic dropout and false alleles <ref type="bibr" target="#b19">(Pompanon et al. 2005)</ref>, we assumed that the genotyping based on Sanger sequencing <ref type="bibr" target="#b16">(Nussberger et al. 2013)</ref> showed the true genotype of an individual.</p><p>We genotyped four cats from which we had blood or tissue (high-quality) samples as well as hair (low-quality) samples to test whether our SNP assays yield reliable genotypes for lowquality DNA samples. We analysed independently four hairs from each of the four individuals. For two individuals, we further duplicated these four low-quality samples from the DNA extraction onwards, thus generating 24 hair genotypes. We compared genotypes of high-and low-quality samples, both generated using the 96 Fluidigm SNPtype™ Assays as previously defined. We calculated the error rate in the genotypes from low-quality samples using the genotype of the high-quality sample as reference (genotypes are shown in Online Resource 3). Here, we defined the error rate as the number of loci with mismatches between the high-and lowquality sample genotypes divided by the total number of diploid loci genotyped. The proportion of false alleles was estimated as the number of homozygous loci in the reference genotype which were called as heterozygote in the hair genotype divided by the number of homozygote loci in the reference genotype. The proportion of allelic dropout was estimated as the number of heterozygous loci in the reference genotype which were called as homozygote in the hair genotype divided by the number of heterozygote loci in the reference genotype.</p><p>Finally, we checked whether the errors in the 24 hair genotypes affect the assessment of identity and introgression levels. We used Gimlet <ref type="bibr" target="#b26">(Valière 2002)</ref> to recognize individuals. Here, we considered an individual as recognized when at least 95 % of all examined SNP genotypes of two samples were identical. We assessed individual introgression level based on 72 diagnostic nuclear SNP markers and using Bayesian model-based clustering by computing posterior probabilities for six different hybrid classes (two parental hybrids of first and second generation and two backcrosses) in NewHybrids <ref type="bibr" target="#b0">(Anderson and Thompson 2002)</ref>. We checked whether the hybrid class attributed to each of the hair genotypes were consistent within individuals. As a further control, we checked whether the hair genotypes of one individual lead to the same hybrid class as the tissue genotype.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head><p>Here, we presented a SNP genotyping method which is reliable even in samples of low quantity and quality, since genotyping error rates in single hair samples were low and did alter neither identity nor introgression level assessment. However, a minimal amount of genomic DNA of about 200 pg is recommended. We believe that this genotyping method is applicable to detect introgression in wildcats, based on non-invasive samples.</p><p>Four out of 17 individual Fluidigm genotypes based on high-quality (tissue) samples contained errors when compared to Sanger genotypes (Table <ref type="table" target="#tab_0">1 (a)</ref>). The genotyping error rate per locus estimated from comparisons between Sanger and Fluidigm was 0.9 %. Further, SNP genotypes were consistent between the four hair samples and the reference sample for all four individuals analysed (Table <ref type="table" target="#tab_0">1 (b)</ref>). Overall, genotyping error rate per locus was 1.6 %. Non-called loci were the most commonly observed error type. In the 16 hair genotypes having at least 200 pg DNA in STA pre-amplification, the overall error rate was 0.7 %, allelic dropout was not observed, false alleles occurred in 0.1 % of all homozygous SNP callings and non-called loci occurred in 0.6 % of all SNP loci. The here-observed error rates are somewhat below most error rates estimated in studies using non-invasive sampling summarized by <ref type="bibr" target="#b27">Valière et al. (2007)</ref>, where allelic dropout ranges between 0 and 31.3 % and false allele between 0 and 4 %, even though DNA was extracted from more than one hair in most of the studies. The low error rate observed in our study could partly be due to the use of biallelic and almost diagnostic SNP markers instead of polymorphic microsatellite markers. All the studies referred in <ref type="bibr" target="#b27">Valière et al. (2007)</ref> used polymorphic microsatellites. Moreover, the SNP assays we used here are substantially shorter (between 52 and 116 bp, mean=82 bp) than average microsatellites fragments of around 150 bp and   The percentage of allelic dropout was calculated using the total number of heterozygote loci and the percentage of false alleles using the total number of homozygote loci Nr. loci total number of reference loci, Het total number of heterozygote loci, Nr. error sum of occurrences of allelic dropout, false alleles and non-called loci, AD allelic dropout, FA false allele, NC non-called loci, %Nr. error percentage of Nr. errors, %AD percentage of allelic dropout, %FA percentage of false alleles, %NC percentage of NC, ID identity assessments group, Hyb. Cat. hybrid genealogical class based on NewHybrids analysis, Wc wildcat, BxW backcross into wildcat, Dc domestic cat therefore are less sensitive to genotyping errors in highly fragmented DNA.</p><p>Our data show that, if samples contain over 200 pg DNA, SNP genotyping error rates are negligible. Therefore, repeats of samples &gt;200 pg DNA are theoretically no longer needed. However, we would still recommend repeating a small part of the samples for quality control. In addition, our threshold value of 200 pg is an empiric value relative to our real-time PCR (RT-PCR) standards and therefore should not be generalized. In fact, using different RT-PCR standards may yield slightly different threshold values. Thus, we recommend performing a short pilot study to find out the reliability threshold value for each new set of standards. This pilot study should genotype-as we did here-single hairs as well as high concentration samples from the same individuals.</p><p>The quantification of input DNA through RT-PCR is a crucial step, since in some cases, also samples with very small DNA input amounts (&lt;200 pg) lead to an apparently complete genotype. However, these genotypes may contain many false alleles. Such highly heterozygous genotypes might be misinterpreted as hybrids, if they are not excluded through the previous quantification step. For example, <ref type="bibr" target="#b14">Morin et al. (2001)</ref> demonstrated that PCR failures drastically increased below 100 pg in orang-utan hair and faecal samples. Thus, it is crucial to accurately quantify the DNA available in a sample prior to genotyping in order to anticipate genotype quality <ref type="bibr" target="#b14">(Morin et al. 2001;</ref><ref type="bibr" target="#b2">Beja-Pereira et al. 2009)</ref>.</p><p>The high number of SNP markers and the low genotyping error rates in hair samples allow an accurate assessment of identity and introgression level. Gimlet attributed all except one hair sample to the correct individual out of the four genotyped individuals (Online Resource 4). Sample HK87_1, with 73 pg of genomic DNA in the STA, had only 92 % percent of identical loci with the other three hair genotypes from this individual and was thus considered as not correctly identified. The four DNA extractions from single hairs of the same individual always led to the same hybrid category as the reference genotype with a minimum posterior probability &gt;0.99, even in the samples with the highest number of observed errors (Online Resource 5). The high accuracy of the introgression level assessment presented here was previously demonstrated <ref type="bibr" target="#b16">(Nussberger et al. 2013</ref>) and mainly relies on numerous independently inherited diagnostic SNP markers with a strong differentiation in allele frequencies between wildcats and domestic cats. Thus, the introgression level in wildcat populations can now be assessed without invasive sampling and with more statistical power than shown in previous studies <ref type="bibr" target="#b18">(Oliveira et al. 2008;</ref><ref type="bibr" target="#b10">Hertwig et al. 2009;</ref><ref type="bibr" target="#b22">Say et al. 2012</ref>). This represents a major improvement in conservation of the European wildcat, since representative DNA sampling from this elusive species relies mostly on non-invasive sampling.</p><p>An additional challenge when dealing with non-invasive sampling is the accurate identification of the studied species. For example, <ref type="bibr" target="#b13">Monterroso et al. (2013)</ref> showed that the accuracy of wildcat scat identification was low (11.5 %) when based on the morphology of scat alone. Thus, it is worth to include genetic identification in non-invasive studies <ref type="bibr" target="#b17">(Oliveira et al. 2010)</ref>. With the method presented here, identification of the species F. silvestris ssp. is assured by the use of cat-specific primers already in the first DNA quantification step (quantitative real-time PCR). A preliminary test (data not shown) showed that the application of these primers to high-quality blood or tissue samples (20 ng/μl) of human (Homo sapiens), squirrel (Sciurus vulgaris), stone marten (Martes foina), pine marten (Martes martes), European badger (Meles meles), brown hare (Lepus europaeus), raccoon dog (Nyctereutes procyonoides), European lynx (Lynx lynx) and red fox (Vulpes vulpes) did not yield any PCR product exceeding a concentration of 2 pg/μl. Thus, we concluded that hair samples from other species other than F. silvestris are effectively eliminated prior to the following SNP assay, which consequently gets more efficient and cost-effective.</p><p>In conclusion, the presented method allows simultaneous genotyping of 96 SNP markers in 96 samples even with DNA of low quality and quantity. This protocol is suitable for noninvasively collected hair samples and can further be applied to other low-quality DNA samples, such as faeces or historical specimens. The SNP chip presented here will help conservationists to monitor the introgression rate in wildcat populations based on non-invasive sampling and thus to better understand the process of hybridization.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Genotyping errors in cats (Felis silvestris) with Fluidigm SNPtype Assays when evaluating Fluidigm genotypes with Sanger sequencing genotypes as a reference and hair sample genotypes with tissue sample genotypes as a reference. DNA input quantity for specific target amplification is given in picograms (&gt;10 ng if not indicated) Comparison Names DNA input Nr. loci Het Nr. error AD FA NC %Nr. error %AD %FA %NC ID Hyb. Cat.</figDesc><table><row><cell>a. Fluidigm versus</cell></row><row><cell>Sanger (all tissues)</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Eur J Wildl Res (2014) 60:405-410  </p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments We thank <rs type="person">Prof. L. F. Keller</rs> (<rs type="affiliation">IEBES, University of Zurich</rs>) for the supervision of this work as well as <rs type="person">A. Minder</rs> and <rs type="person">T. Torossi</rs> (<rs type="affiliation">Genetic Diversity Center of ETH Zurich</rs>) for their technical support. We are grateful to the people providing cat samples: <rs type="person">M.-P. Ryser</rs> and <rs type="person">M. Weber</rs> (<rs type="affiliation">Centre for Fish and Wildlife Health, Berne</rs>), <rs type="person">L. Tschanz</rs>, <rs type="person">F. Dupré</rs>, <rs type="person">M. Struch</rs>, <rs type="person">D. Peier</rs>, <rs type="person">P. Flückiger</rs>, <rs type="person">M. Hartmann</rs>, <rs type="person">A. Seletto</rs>, <rs type="person">P. Ecoffey</rs>, <rs type="person">F. Maeder</rs>, <rs type="person">D. Zopfi</rs>, <rs type="person">J.-C. Schaller</rs> and <rs type="person">J.-P. Monnerat</rs>. This work was funded by <rs type="funder">Lotterie+Sport-Toto-Fonds Solothurn</rs>, <rs type="funder">Zürcher Tierschutz</rs>, <rs type="programName">University Research Priority Program</rs>, <rs type="funder">Service des forêts, de la faune et de la nature du canton de Vaud</rs>, <rs type="funder">Service de la Faune et de la Pêche de l'État de Genève</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_rSFDxea">
+					<orgName type="program" subtype="full">University Research Priority Program</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A model-based method for identifying species hybrids using multilocus genetic data</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="page" from="1217" to="1229" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Genetic identification of Iberian rodent species using both mitochondrial and nuclear loci: application to noninvasive sampling</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barbosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pauperio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Searle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="43" to="56" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Advancing ecological understandings through technological transformations in noninvasive genetics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beja-Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1279" to="1301" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">DNA from keratinous tissue. Part I: hair and nail</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Bengtsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Olsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Bertelsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Willerslev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tobin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mtp</forename><surname>Gilbert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Anat-Anat Anz</title>
+		<imprint>
+			<biblScope unit="volume">194</biblScope>
+			<biblScope unit="page" from="17" to="25" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Ecology and genetics of wild-living cats in the north-east of Scotland and the implications for the conservation of the wildcat</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Daniels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Beaumont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Balharry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Barratt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Ecol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="146" to="161" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Felis silvestris</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Driscoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nowell</surname></persName>
+		</author>
+		<ptr target="www.iucnredlist.org" />
+	</analytic>
+	<monogr>
+		<title level="m">IUCN 2011. IUCN Red List of Threatened Species</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Version 2011.2.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The Near Eastern origin of cat domestication</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Driscoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Menotti-Raymond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Roca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hupe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Geffen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Harley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delibes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pontier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Kitchener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">317</biblScope>
+			<biblScope unit="page" from="519" to="523" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Microsatellite scoring errors associated with noninvasive genotyping based on nuclear DNA amplified from shed hair</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gagneux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Woodruff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="861" to="868" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Plucked hair samples as a source of DNA: reliability of dinucleotide microsatellite genotyping</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1237" to="1241" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Obtaining high-quality DNA from elusive small mammals using low-tech hair snares</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Russello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="429" to="435" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Regionally high rates of hybridization and introgression in German wildcat populations (Felis silvestris, Carnivora, Felidae)</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Hertwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schweizer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stepanow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jungnickel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">R</forename><surname>Bohle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Fischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Zool Syst Evol Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="283" to="297" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Comparison of the effectivity of different snare types for collecting and retaining hair from Eurasian lynx (Lynx lynx)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heurich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="579" to="587" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Use of spatial capture-recapture modeling and DNA data to estimate densities of elusive animals</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kéry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stoeckle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Biol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="356" to="364" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Factors affecting the (in)accuracy of mammalian mesocarnivore scat identification in South-western Europe</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Monterroso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ferreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Godinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Zool</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page" from="243" to="250" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Quantitative polymerase chain reaction analysis of DNA from noninvasive samples for accurate microsatellite genotyping of wild chimpanzees (Pan troglodytes verus)</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Chambers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1835" to="1844" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Highly accurate SNP genotyping from historical and low-quality samples</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mccarthy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="937" to="946" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Development of SNP markers identifying European wildcats, domestic cats, and their admixed progeny</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nussberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Greminger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Grossen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wandeler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="447" to="460" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Species identification using a small nuclear gene fragment: application to sympatric wild carnivores from South-western Europe</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Godinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1023" to="1032" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Hybridization versus conservation: are domestic cats threatening the genetic integrity of wildcats (Felis silvestris silvestris) in Iberian Peninsula? Phil Trans R</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Godinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randi</forename><forename type="middle">E</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Soc B-Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="page" from="2953" to="2961" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Genotyping errors: causes, consequences and solutions</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bonin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Genet</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="847" to="859" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Detecting hybridization between wild species and their domesticated relatives</title>
+		<author>
+			<persName><forename type="first">Randi</forename><forename type="middle">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="285" to="293" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Extinction by hybridization and introgression</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Rhymer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Simberloff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Ecol Syst</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="83" to="109" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Distribution and spatial genetic structure of European wildcat in France</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Say</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Devillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Léger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pontier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ruette</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim Conserv</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="18" to="27" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Hybridization between Canada lynx and bobcats: genetic results and management implications</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Lindquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Claar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Loch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Ruggiero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="349" to="355" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Hair trapping with valerian-treated lure sticks as a tool for genetic wildcat monitoring in low-density habitats</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Steyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rhs</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Haase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nowak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="39" to="46" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic tracking of the endangered Pyrenean brown bear population</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Camarra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Uhres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hanotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Duboispaganon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bouvet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="869" to="876" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">GIMLET: a computer program for analysing genetic individual identification data</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valière</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="377" to="379" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Importance of a pilot study for non-invasive genetic sampling: genotyping errors and population size estimation in red deer</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bonenfant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Toigo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Gaillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Klein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="69" to="78" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Long-distance wolf recolonization of France and Switzerland inferred from non-invasive genetic sampling over a period of 10 years</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fumagalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gielly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miquel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lequette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Poulle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Arlettaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim Conserv</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="83" to="92" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">An evaluation of techniques for the extraction and amplification of DNA from naturally shed hairs</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">380</biblScope>
+			<biblScope unit="page" from="1329" to="1331" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

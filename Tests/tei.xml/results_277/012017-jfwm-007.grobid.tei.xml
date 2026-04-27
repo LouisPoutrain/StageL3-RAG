@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Identification of Southeastern Bat Species Using Noninvasive Genetic Sampling of Individual Guano Pellets</title>
+				<funder>
+					<orgName type="full">National Park Service White</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2017-12">December 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Veronica</forename><forename type="middle">A</forename><surname>Brown</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Emma</forename><forename type="middle">V</forename><surname>Willcox</surname></persName>
+							<email>ewillcox@utk.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">Kirstin</forename><forename type="middle">E</forename><surname>Fagan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Riley</forename><forename type="middle">F</forename><surname>Bernard</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Biology</orgName>
+								<orgName type="institution">University of Tennessee</orgName>
+								<address>
+									<addrLine>402 Hesler Biology Building</addrLine>
+									<postCode>37996</postCode>
+									<settlement>Knoxville</settlement>
+									<region>Tennessee</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Forestry, Wildlife and Fisheries</orgName>
+								<orgName type="institution">University of Tennessee</orgName>
+								<address>
+									<addrLine>274 Ellington Plant Science Building</addrLine>
+									<postCode>37996</postCode>
+									<settlement>Knoxville</settlement>
+									<region>Tennessee</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Ecosystem Science and Management</orgName>
+								<orgName type="institution">Pennsylvania State University</orgName>
+								<address>
+									<postCode>16802</postCode>
+									<settlement>University Park</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Identification of Southeastern Bat Species Using Noninvasive Genetic Sampling of Individual Guano Pellets</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2017-12">December 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">ED0D734E67F576D5E401CDC5ABBB2E6D</idno>
+					<idno type="DOI">10.3996/012017-JFWM-007</idno>
+					<note type="submission">Received: January 30, 2017; Accepted: September 25, 2017;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>bats</term>
+					<term>DNA</term>
+					<term>guano</term>
+					<term>identification</term>
+					<term>Sanger sequencing</term>
+					<term>white-nose syndrome</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The impact of white-nose syndrome on North American bat populations may limit the effectiveness of traditional monitoring methods, including roost surveys, mist netting, and acoustic monitoring, and, in turn, determination of bat species occurrence. Genetic markers from deoxyribonucleic acid (DNA) extracted from feces (i.e., guano pellets) may provide an effective alternative method for assessing occurrence. We used an existing genetic marker from the 16S ribosomal subunit, mitochondrial DNA, to create a DNA sequence database for the 16 species of bats known to occur in Tennessee. We used our database to identify bat species from DNA extracted from 68 guano pellets collected from accumulations found in buildings of Great Smoky Mountains National Park from May to August 2015. No bats were directly observed at 19 roost buildings (55.9% of all identified roost buildings), where genetic analysis of guano was the only method available to determine species occurrence. Two of the species we detected roosting in buildings using DNA from guano, the little brown myotis Myotis lucifugus and northern long-eared myotis M. septentrionalis, are of special concern as a result of declines from white-nose syndrome. There are no records of the northern long-eared myotis roosting in Great Smoky Mountains National Park buildings, and no records of the little brown myotis roosting in buildings since white-nose syndrome became established in Great Smoky Mountains National Park. Our findings emphasize the utility of these genetic techniques for detecting bat species when visual or acoustic methods may be compromised by species rarity, elusive behavior, or similarities in species morphology and call characteristics.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Since its discovery in Howe's Cave, New York, United States in February 2006, white-nose syndrome (WNS), a disease caused by the fungal pathogen Pseudogymnoascus destructans, has killed in excess of 6 million cavehibernating bats (U.S. Fish and Wildlife Service [USFWS] 2012) and resulted in devastating declines in bat populations across eastern North America. The disease is currently known to affect nine bat species (USFWS 2017, U.S. Geological Survey [USGS] 2017). Of these, the tri-colored bat Perimyotis subflavus, Indiana myotis Myotis sodalis, little brown myotis M. lucifugus, and northern long-eared myotis M. septentrionalis have experienced the greatest rates of mortality, the latter three being at risk of regional extinction <ref type="bibr" target="#b13">(Frick et al. 2010;</ref><ref type="bibr" target="#b19">Langwig et al. 2012)</ref>. As a result of population declines, it is anticipated there will be dramatic shifts in temporal and spatial niche partitioning and significant restructuring of bat communities <ref type="bibr" target="#b16">(Jachowski et al. 2014)</ref>.</p><p>In order to monitor changes in bat population status and community structure as a result of WNS and implement appropriate management and conservation strategies, wildlife managers have an increasing need to determine bat species occurrence. Mist netting and roost surveys have traditionally been used to determine occurrence, but the effectiveness of these methods may be limited by WNS-related population declines. White-nose syndrome has resulted in lower bat densities and, in turn, lower capture rates, such that mist netting may no longer be a feasible method for monitoring several WNS-imperiled species <ref type="bibr" target="#b12">(Ford et al. 2011;</ref><ref type="bibr" target="#b8">Coleman et al. 2014;</ref><ref type="bibr" target="#b23">Niver et al. 2014</ref>). Roost surveys have traditionally been used to monitor 14 of the 47 bat species known to occur in the United States (U.S) because these species roost in large numbers in relatively accessible locations <ref type="bibr" target="#b15">(Harvey et al. 2011</ref>). However, WNS-related declines have made such surveys more difficult. Other species that roost in small numbers or cryptic locations in caves, trees, or buildings are more difficult to observe and monitor using this method <ref type="bibr" target="#b5">(Caceres and Barclay 2000;</ref><ref type="bibr" target="#b28">Tuttle 2003;</ref><ref type="bibr" target="#b18">Kunz et al. 2009;</ref><ref type="bibr" target="#b22">Meretsky et al. 2010;</ref><ref type="bibr" target="#b15">Harvey et al. 2011;</ref><ref type="bibr" target="#b27">Turner et al. 2011)</ref>.</p><p>Ultrasonic acoustic detectors have become a common bat-monitoring tool, and the bat calls recorded by these detectors can be used to determine species occurrence <ref type="bibr" target="#b34">(Weller 2007;</ref><ref type="bibr" target="#b10">Dzal et al. 2011;</ref><ref type="bibr" target="#b12">Ford et al. 2011;</ref><ref type="bibr" target="#b1">Bernard and McCracken 2017)</ref>. However, call classification and species determination is often limited by the quality of recorded calls <ref type="bibr" target="#b2">(Betts 1998;</ref><ref type="bibr" target="#b21">Loeb and Waldrop 2008)</ref>. Further, a number of species in the southeastern United States, including members of the WNS-imperiled genus Myotis <ref type="bibr" target="#b13">(Frick et al. 2010;</ref><ref type="bibr" target="#b19">Langwig et al. 2012)</ref>, share similar call characteristics <ref type="bibr" target="#b3">(Britzke et al. 2011;</ref><ref type="bibr" target="#b17">Kaiser and O'Keefe 2015)</ref>. These similarities can lead to species misclassification and, as a result, difficulty determining species occurrence <ref type="bibr" target="#b9">(Cox et al. 2016)</ref>.</p><p>When bat species are rare, elusive, or share similar morphological or call characteristics, species identification using genetic markers from fecal material (i.e., guano) found in or around roost locations (i.e., caves, trees, and buildings) may provide an alternative indicator of occurrence <ref type="bibr" target="#b25">(Patrick et al. 2016;</ref><ref type="bibr" target="#b32">Walker et al. 2016;</ref><ref type="bibr" target="#b37">Zinck et al. 2004</ref>) identified two genetic markers from 16S ribosomal subunit, mitochondrial deoxyribonucleic acid (mtDNA), for bat species identification using fecal DNA and applied this marker to DNA extracted from guano of bats found in the northwestern United States. Only 5 of the 14 species sequenced by <ref type="bibr" target="#b37">Zinck et al. (2004)</ref> are found in the southeastern United States: Rafinesque's big-eared bat Corynorhinus townsendii, big brown bat Eptesicus fuscus, silver-haired bat Lasionycteris noctivagans, hoary bat Lasiurus cinereus, and little brown myotis.</p><p>In Great Smoky Mountains National Park (GRSM), located along the border of eastern Tennessee and western North Carolina, WNS was confirmed in 2010 <ref type="bibr" target="#b7">(Carr et al. 2014</ref>) and recent studies have since documented declines in numerous bat species <ref type="bibr" target="#b6">(Carpenter et al. 2016;</ref><ref type="bibr" target="#b24">O'Keefe et al. 2016)</ref>. Following these declines, managers wanted to know what bat species were present in GRSM buildings in order to permit appropriate management and conservation efforts. In surveys of buildings conducted during the summer of 2015 <ref type="bibr" target="#b11">(Fagan et al. 2017)</ref>, researchers observed roosting big brown bat, eastern small-footed myotis M. leibii, and Rafinesque's big-eared bat. In other buildings, however, guano was the only indication of roosting bats.</p><p>Our objectives were to 1) apply the genetic marker from the 16S ribosomal subunit, mtDNA <ref type="bibr" target="#b37">(Zinck et al. 2004)</ref>, to DNA extracted from tissue and guano samples from the 16 species of bats known to occur in Tennessee, United States <ref type="bibr" target="#b15">(Harvey et al. 2011)</ref>; 2) use this marker to create a reference database containing DNA sequences of these species; and 3) use the reference database to identify bat species from DNA extracted from guano samples collected in buildings of GRSM.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>We used DNA extracted from tissue and guano samples to create a DNA sequence database for the 16 species of bats known to occur in Tennessee (Table <ref type="table" target="#tab_0">1</ref>). All samples were collected from bats captured or found dead as part of other studies conducted from 2010 to 2016. For all samples, species determination was confirmed by at least two researchers experienced in bat identification. Guano samples consisted of 1-5 pellets collected from live-captured bats. Tissue samples varied from 2-to 3-mm wing biopsies from live individuals, to larger pieces of wing or tail membrane from recently dead individuals. We obtained tissue samples from other researchers to use as DNA controls for Townsend's big eared bat Corynorhinus townsendii, Seminole bat Lasiurus seminolus, and southeastern myotis M. austroriparius, which are rarely captured in Tennessee (Table <ref type="table" target="#tab_0">1</ref>). We were unable to obtain guano samples from these species. We stored tissue samples in either silica gel desiccant (4-10 mesh; Fisher Scientific, Pittsburgh, PA; <ref type="bibr" target="#b33">Wasser et al. 1997)</ref> or 20% dimethyl sulfoxide <ref type="bibr" target="#b36">(Worthington and Barratt 1996)</ref> and guano samples in silica gel desiccant <ref type="bibr" target="#b4">(Brown et al. 2015)</ref>. We froze all samples at À208C within 48 h of collection.</p><p>All capture and handling protocols were approved by the University of Tennessee Institutional Animal Care and Use Committee (IACUC 2026-0515) and followed the guidelines issued by the American Society of Mammalogists <ref type="bibr" target="#b26">(Sikes et al. 2016</ref>). Capture, handling, and sample collection were authorized under scientific collection permits from the USFWS (TE35313B-2), National Park Service (GRSM-2015-SCI-1228), and Tennessee Wildlife Resources Agency (TWRA-3716 and TWRA-3742). Samples provided by other researchers were also collected as part of appropriately approved and permitted activities.</p><p>We extracted DNA from tissue samples using DNeasy Blood and Tissue Kits (Qiagen, Germantown, MD), with overnight incubation in proteinase K, and from guano samples using PowerSoil DNA Isolation Kits (Mo Bio Laboratories, Carlsbad, CA). We amplified DNA from both tissue and guano by polymerase chain reaction (PCR) using the Mysp 1 and 2 primers from the 16S ribosomal subunit <ref type="bibr" target="#b37">(Zinck et al. 2004</ref>). The 25-lL reactions consisted of 13 PCR gold buffer, 2.5 mM MgCl2, 0.8 mM dNTP blend, 0.125 U AmpliTaq Gold (Applied Biosystems, Foster City, CA), 5 lg BSA (Sigma-Aldrich, St. Louis, MO), 5 lM of each primer (i.e., Mysp 1 and Mysp 2; Integrated DNA Technologies, Coralville, IA), and 5 lL of fecal DNA or 2.5 lL of genomic DNA. Cycling parameters for PCR involved denaturation at 958C for 10 min, followed by 35 cycles at 958C for 30 s, annealing for 30 s, and 728C for 30 s, followed by a final elongation step of 10 min at 728C. We first amplified samples with an annealing temperature of 558C. We reamplified at 488C any samples that did not amplify or amplified weakly. We confirmed positive PCR results on a 2% agarose gel and purified with ExoSap-It (USB Corporation, Cleveland, OH), before sequencing bidirectionally via Sanger sequencing on an Applied Biosystems 3730 (Applied Biosystems) at the University of Tennessee Genomics Core. We aligned and compared sequences using Sequencher v5.0.1 software (GeneCodes, Ann Arbor, MI) to create a reference database with which to compare unknown sequences. We analyzed sequences in DnaSP (v5; Librado and Rozas 2009) to determine intraspecific nucleotide diversity (P I ), as well as nucleotide diversity within genera, when applicable. We used the reference database to identify bat species from DNA extracted from guano samples collected as part of a study examining roost selection by bats in GRSM <ref type="bibr" target="#b11">(Fagan et al. 2017)</ref>. To assess bat occurrence in buildings, researchers at the University of Tennessee surveyed 140 buildings in Tennessee and North Carolina three times between 15 May and 14 August 2015, with approximately 1 mo between sampling periods. Researchers cleared buildings of pre-existing guano prior to the beginning of the first sampling period, except when large accumulations made complete removal infeasible. In the case of accumulations that were infeasible to remove entirely, researchers cleared an area of approximately 500 cm 2 . Therefore, all accumulations encountered during the study period were no more than 1 mo old. Researchers encountered 90 guano accumulations in 37 buildings throughout the study period, and collected samples of 1-5 guano pellets from each accumulation. Researchers stored all samples in silica gel desiccant, placed them in a cooler immediately following collection, and froze them at À208C within 48 h. We extracted and sequenced DNA from one individual pellet from each sample using the methods described above. We compared the resulting DNA sequences to our reference database in Sequencher v5.0.1 in order to infer bat species occurrence in GRSM buildings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>To create the reference database, we sequenced DNA from 62 tissue samples and guano samples from 37 captured bats, representing all 16 species of bat known to occur in Tennessee. We amplified DNA from all 16 species of bats included in this study using one set of primers with one of two PCR cycling conditions (Table <ref type="table" target="#tab_0">1</ref>). We distinguished DNA sequences to species, including all six Myotis species known to occur in the state (Data S1, Supplemental Material). The DNA sequences ranged in length from approximately 175 to 185 base pairs, with gray myotis M. grisescens producing a sequence approximately 10 base pairs longer than all other species (Table <ref type="table" target="#tab_0">1</ref>). Intraspecific nucleotide diversity ranged from 0.00535 to 0.01724, while diversity between species within each genus ranged from 0.05172 to 0.20455 (Table <ref type="table">2</ref>). Gray myotis had the highest minimum intrageneric nucleotide diversity, owing to a unique insert region.</p><p>Of the 90 DNA samples extracted from individual guano pellets from accumulations in GRSM buildings, 68 (75.6% of samples) amplified successfully. These DNA samples represented 34 of the 37 buildings where guano samples were collected. Guano accumulations were the only indicator of bat occurrence at 19 of these buildings (55.9%). Some of the fecal samples from which DNA was extracted could have been from rodents, potentially explaining the unamplified samples. We identified the DNA extracted from the 68 pellets that were successfully amplified and sequenced to five bat species: big brown bat (31 pellets), eastern small-footed myotis (20 pellets), little brown myotis (11 pellets), Rafinesque's big-eared bat (5 pellets), and northern long-eared myotis (1 pellet). Detection of little brown myotis and northern long-eared myotis in GRSM buildings was only possible through genetic analysis of DNA extracted from guano because these species were not observed in buildings. Through this guano analysis, we also found three buildings were used by more than one species. At two buildings where Rafinesque's big-eared bat roost sites were confirmed visually, we identified additional big brown bat roosts using DNA from collected guano. One building, where no bats were observed, contained roosts used by both eastern small-footed myotis and northern long-eared myotis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>We applied the genetic marker from the 16S ribosomal subunit, mtDNA <ref type="bibr" target="#b37">(Zinck et al. 2004)</ref>, to DNA extracted from bat tissue and guano to create a reference database for the 16 species of bats known to occur in Tennessee <ref type="bibr" target="#b15">(Harvey et al. 2011)</ref>. <ref type="bibr" target="#b37">Zinck et al. (2004)</ref> required two markers spanning different parts of the 16S gene to distinguish between two sets of species pairs in their study area (i.e., Myotis californicus from M. ciliolabrum, and M. thysanodes from M. evotis). These species are not found in the southeastern United States. On account of the sequence variation of the species in our study area, we required only one marker to distinguish between species.</p><p>In light of population declines as a result of WNS <ref type="bibr" target="#b13">(Frick et al. 2010)</ref>, reliance upon visual and acoustic detection of bats may limit the effectiveness of monitoring and research efforts. Using our 16S DNA sequence database for the 16 species of bats found in Tennessee, we inferred species occurrence at 34 of 39 roost buildings identified by researchers in GRSM. Bats were not observed at 19 (55.9%) of these buildings, and therefore analysis of DNA extracted from guano was the only option for species identification. We not only identified single-species roosts from guano, but also multiplespecies roosts. Had bats been visually detected, identification of multiple species may have been difficult because of slight morphological differences between species observed at a distance <ref type="bibr" target="#b15">(Harvey et al. 2011)</ref>. Therefore, genetic identification using DNA extracted from guano may still have been needed.</p><p>The little brown myotis and northern long-eared myotis, two species identified through our case study, are of special concern as a result of declines from WNS <ref type="bibr" target="#b13">(Frick et al. 2010;</ref><ref type="bibr" target="#b19">Langwig et al. 2012</ref>). These species were not observed roosting in buildings during surveys in 2015 or 2016 <ref type="bibr" target="#b11">(Fagan et al. 2017)</ref>. The little brown myotis, identified in this study through the analysis of 11 guano pellets, was commonly captured and documented roosting in buildings before WNS was documented in GRSM <ref type="bibr" target="#b14">(Harvey 1987</ref>; E.R. Britzke, U.S. Army Engineer Research and Development Center, unpublished data). In contrast, there were no records of the northern longeared myotis, identified in this study through analysis of a single guano pellet, roosting in GRSM buildings prior to 2015. By confirming the occurrence of these species in certain buildings, GRSM managers are able to make informed management decisions that balance building maintenance and accessibility with bat conservation and management. These results have important applications for studies monitoring species that are cryptic or infrequently encountered, as with many species of conservation need.</p><p>The two markers identified by <ref type="bibr" target="#b37">Zinck et al. (2004)</ref> were recently applied to DNA from mixed guano samples collected in Canada and the northern United States using microarray technology, allowing for the genetic identification of 34 bat species <ref type="bibr" target="#b25">(Patrick et al. 2016)</ref>. The sequences we present, along with those determined by <ref type="bibr" target="#b25">Patrick et al. (2016)</ref> and <ref type="bibr" target="#b37">Zinck et al. (2004)</ref>, create a large 16S mtDNA sequence database that has broad application for bat-related research. This database and the genetic analysis techniques we employed will be useful to identify bat species in areas where, as a result of WNSrelated declines or the cryptic nature of many bat species, roost surveys, mist netting, or acoustic monitoring are ineffective. In addition, these methods may be applied when species identification is limited by biologist inexperience or similarities in bat morphology and call characteristics.</p><p>Table <ref type="table">2</ref>. Species name, haplotype designation (H), number of individuals (N I ), haplotype frequency (H F ), number of intraspecific segregating sites, intraspecific nucleotide diversity (P I ), and minimum intrageneric nucleotide diversity (P I ) for the 16S ribosomal subunit gene, mtDNA sequences for the 16 species of bat collected and processed between 2010 and 2016 and known to occur in Tennessee. For the intraspecific P I , N/A indicates a lack of diversity due to only one sequence produced for that species. For the intrageneric P I , N/A indicates no species were sequenced in the same genus for comparison.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Tissue and Guano samples used in the development of a deoxyribonucleic acid (DNA) database for 16 species of bats known to occur in Tennessee. DNA sequences were drawn from the 16s ribosomal subunit gene, mtDNA. All guano and tissue samples were collected and processed between 2010 and 2016. PCR, Polymerase Chain Reaction.</figDesc><table><row><cell></cell><cell>No. of</cell><cell></cell><cell>No. of</cell><cell>Guano</cell><cell></cell><cell></cell><cell>Optimal</cell></row><row><cell></cell><cell>tissue</cell><cell>Tissue collection</cell><cell>guano</cell><cell>collection</cell><cell>No. of</cell><cell></cell><cell>PCR annealing</cell></row><row><cell>Bat species</cell><cell>samples</cell><cell>locations</cell><cell>samples a</cell><cell>locations</cell><cell cols="2">haplotypes b Accession numbers</cell><cell>temperature (8C) c</cell></row><row><cell>Rafinesque's big eared-bat</cell><cell>5</cell><cell>North Carolina,</cell><cell>3</cell><cell>North Carolina</cell><cell>2</cell><cell>KY352914-KY352915</cell><cell>48</cell></row><row><cell>Corynorhinus rafinesquii</cell><cell></cell><cell>Tennessee</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Townsend's big-eared bat</cell><cell>3</cell><cell>West Virginia</cell><cell>0</cell><cell>N/A</cell><cell>1</cell><cell>KY352916</cell><cell>48</cell></row><row><cell>Corynorhinus townsendii d</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Big brown bat</cell><cell>5</cell><cell>Tennessee</cell><cell>3</cell><cell>Tennessee</cell><cell>3</cell><cell>KY352917-KY352919</cell><cell>55 or 48</cell></row><row><cell>Eptesicus fuscus</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Silver-haired bat</cell><cell>4</cell><cell>Tennessee, Texas</cell><cell>3</cell><cell>Tennessee</cell><cell>1</cell><cell>KY352929</cell><cell>48</cell></row><row><cell>Lasionycteris noctivagans e</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Eastern red bat</cell><cell>5</cell><cell>Tennessee</cell><cell>3</cell><cell>Tennessee</cell><cell>7</cell><cell>KY352920-KY352926</cell><cell>48</cell></row><row><cell>Lasiurus borealis</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Hoary bat</cell><cell>1</cell><cell>Tennessee</cell><cell>1</cell><cell>Tennessee</cell><cell>2</cell><cell>KY352927-KY352928</cell><cell>48</cell></row><row><cell>Lasiurus cinereus</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Seminole bat</cell><cell>2</cell><cell>Georgia, Florida</cell><cell>0</cell><cell>N/A</cell><cell>2</cell><cell>KY352930-KY352931</cell><cell>48</cell></row><row><cell>Lasiurus seminolus d</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Southeastern myotis</cell><cell>4</cell><cell>Florida</cell><cell>0</cell><cell>N/A</cell><cell>1</cell><cell>KY352932</cell><cell>55</cell></row><row><cell>Myotis austroriparius d</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Gray myotis</cell><cell>5</cell><cell>Tennessee</cell><cell>3</cell><cell>Tennessee</cell><cell>3</cell><cell>KY352933-KY352935</cell><cell>55</cell></row><row><cell>Myotis grisescens</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Eastern small-footed myotis</cell><cell>3</cell><cell>Tennessee</cell><cell>3</cell><cell>Tennessee</cell><cell>2</cell><cell>KY352936-KY352937</cell><cell>55</cell></row><row><cell>Myotis leibii</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Little brown myotis</cell><cell>4</cell><cell>Tennessee, New York</cell><cell>3</cell><cell>Tennessee</cell><cell>3</cell><cell>KY352938-KY352940</cell><cell>55</cell></row><row><cell>Myotis lucifugus e</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Northern long-eared bat</cell><cell>5</cell><cell>Tennessee, Indiana</cell><cell>3</cell><cell>Tennessee</cell><cell>2</cell><cell>KY352941-KY352942</cell><cell>55</cell></row><row><cell>Myotis septentrionalis e</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Indiana myotis</cell><cell>3</cell><cell>Tennessee</cell><cell>3</cell><cell>Tennessee</cell><cell>1</cell><cell>KY352943</cell><cell>55</cell></row><row><cell>Myotis sodalis</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Evening bat</cell><cell>5</cell><cell>Tennessee, Texas</cell><cell>3</cell><cell>Tennessee</cell><cell>4</cell><cell>KY352944-KY352947</cell><cell>48</cell></row><row><cell>Nycticeius humeralis e</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Tri-colored bat</cell><cell>5</cell><cell>Tennessee</cell><cell>3</cell><cell>Tennessee</cell><cell>3</cell><cell>KY352948-KY352950</cell><cell>55</cell></row><row><cell>Perimyotis subflavus</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Brazillian free-tailed bat</cell><cell>5</cell><cell>Tennessee</cell><cell>3</cell><cell>Texas</cell><cell>4</cell><cell>KY352951-KY352954</cell><cell>55</cell></row><row><cell>Tadarida brasiliensis e</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p>a Samples consisted of 1-5 pellets. b Includes DNA from both tissue and guano samples. c Temperature used in the annealing step of the PCR. d All samples contributed by other researchers because of the rarity of the species in Tennessee. e Some samples contributed by other researchers to increase our sample sizes.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Journal of Fish and Wildlife Management | www.fwspubs.org December 2017 | Volume 8 | Issue 2 | 632 Downloaded from http://meridian.allenpress.com/jfwm/article-pdf/8/2/632/2338055/012017-jfwm-007.pdf by University of Tours user on 05 June 2025</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Journal of Fish and Wildlife Management | www.fwspubs.org December 2017 | Volume 8 | Issue 2 | 633 Downloaded from http://meridian.allenpress.com/jfwm/article-pdf/8/2/632/2338055/012017-jfwm-007.pdf by University of Tours user on 05 June 2025</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Journal of Fish and Wildlife Management | www.fwspubs.org December 2017 | Volume 8 | Issue 2 | 634 Downloaded from http://meridian.allenpress.com/jfwm/article-pdf/8/2/632/2338055/012017-jfwm-007.pdf by University of Tours user on 05 June 2025</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Journal of Fish and Wildlife Management www.fwspubs.org December 2017 | Volume 8 | Issue 2 | 635 Downloaded from http://meridian.allenpress.com/jfwm/article-pdf/8/2/632/2338055/012017-jfwm-007.pdf by University of Tours user on 05 June 2025</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>Journal of Fish and Wildlife Management | www.fwspubs.org December 2017 | Volume 8 | Issue 2 | 636 Downloaded from http://meridian.allenpress.com/jfwm/article-pdf/8/2/632/2338055/012017-jfwm-007.pdf by University of Tours user on 05 June 2025</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>Journal of Fish and Wildlife Management | www.fwspubs.org December 2017 | Volume 8 | Issue 2 | 637 Downloaded from http://meridian.allenpress.com/jfwm/article-pdf/8/2/632/2338055/012017-jfwm-007.pdf by University of Tours user on 05 June 2025</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6"><p>Journal of Fish and Wildlife Management | www.fwspubs.org December 2017 | Volume 8 | Issue 2 | 638 Downloaded from http://meridian.allenpress.com/jfwm/article-pdf/8/2/632/2338055/012017-jfwm-007.pdf by University of Tours user on 05 June 2025</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_7"><p>Journal of Fish and Wildlife Management | www.fwspubs.org December 2017 | Volume 8 | Issue 2 | 639 Downloaded from http://meridian.allenpress.com/jfwm/article-pdf/8/2/632/2338055/012017-jfwm-007.pdf by University of Tours user on 05 June 2025</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We thank everyone who provided DNA samples, including <rs type="person">Tim Divoll</rs>, <rs type="person">Maarten Vonhof</rs>, <rs type="person">Amy Russell</rs>, <rs type="person">Jennifer Krauel</rs>, and <rs type="person">Grace Carpenter</rs>. We also thank <rs type="person">Gary McCracken</rs>, <rs type="affiliation">Department of Ecology and Evolutionary Biology at the University of Tennessee</rs>, for the use of his genetics lab and the Journal reviewers and the Associate Editor who handled reviews of our paper. Funding for the project was provided by a <rs type="funder">National Park Service White</rs>-nose syndrome Grant.</p><p>Any use of trade, product, website, or firm names in this publication is for descriptive purposes only and does not imply endorsement by the <rs type="institution">U.S. Government</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplemental Material</head><p>Please note: The Journal of Fish and Wildlife Management is not responsible for the content or functionality of any supplemental material. Queries should be directed to the corresponding author for the article.</p><p>Data S1. The mitochondrial 16S ribosomal subunit sequences produced in the development of a DNA database for 16 species of bats known to occur in Tennessee, in fasta format. Samples are labeled with their Genbank Accession numbers, as well as scientific name followed by a letter indicating different sequences within each species. All samples were collected and processed between 2010 and 2016.</p><p>Found  Found at DOI: <ref type="url" target="http://dx.doi.org/10.3996/012017-">http://dx.doi.org/10.3996/012017-</ref>JFWM-007.S5; also available at <ref type="url" target="https://www">https://www</ref>. whitenosesyndrome.org/sites/default/files/files/wns_ mortality_2012_nr_final_0.pdf (109 KB PDF).</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="middle">U S</forename><surname>S5</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Fish</surname></persName>
+		</author>
+		<idno type="DOI">10.3996/012017-JFWM-007.S6</idno>
+		<ptr target="https://www.usgs.gov/news/alabama-survey-finds-first-southeastern-bat-white-nose-syndrome(335KBPDF" />
+		<title level="m">Alabama survey finds first southeastern bat with whitenose syndrome</title>
+		<meeting><address><addrLine>Arlington, Virginia; Fort Collins, Colorado</addrLine></address></meeting>
+		<imprint>
+			<publisher>U.S. Geological Survey. News Release</publisher>
+			<date type="published" when="2017-06-01">2017. July 21, 2017. 2017. June 1, 2017</date>
+		</imprint>
+	</monogr>
+	<note>Bats affected by WNS</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Winter behavior of bats and the progression of white-nose syndrome in the Southeastern United States</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Mccracken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1487" to="1496" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Effect of inter-individual variations in echolocation calls on identification of big-brown and silver-haired bats</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Betts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="1003" to="1010" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Acoustic identification of bats in the Eastern United States: a comparison of parametric and nonparametric methods</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Britzke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Duchamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Swihart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Robbins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="660" to="667" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Crop pests eaten by bats in organic pecan orchards</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Braun De Torrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Mccracken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crop Protection</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="66" to="71" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Myotis septentrionalis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Caceres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rmr</forename><surname>Barclay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammalian Species</title>
+		<imprint>
+			<biblScope unit="volume">634</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Status and roost selection of male tri-colored bats in the Great Smoky Mountains National Park</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Willcox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Stiver</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bat Research News</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="39" to="108" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Unusual bat behavior during winter in Great Smoky Mountains National Park</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Stiver</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Southeastern Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="18" to="N21" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Effect of passive acoustic sampling methodology on detecting bats after declines from white nose syndrome</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Coleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Ford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Dobony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Britzke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Ecology and the Natural Environment</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="56" to="64" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Bat response to prescribed fire and overstory thinning in hardwood forest on the Cumberland Plateau, Tennessee</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Willcox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Keyser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vander</forename><surname>Yacht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Forest Ecology and Management</title>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="page" from="221" to="231" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Going, going, gone: the impact of white-nose syndrome on the summer activity of the little brown bat (Myotis lucifugus)</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dzal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Mcguire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Veselka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Fenton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biology Letters</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="392" to="394" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Roost selection by bats in buildings, Great Smoky Mountains National Park</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Fagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Willcox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Stiver</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>In press</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Patterns of acoustical activity of bats prior to and following white-nose syndrome</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Ford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Britzke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Dobony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rodrigue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Fish and Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="125" to="134" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">An emerging disease causes regional population collapse of a common North American bat species</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Frick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Hicks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Langwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Butchowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Kunz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">329</biblScope>
+			<biblScope unit="page" from="679" to="682" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Bat utilization of historic structures in the Cataloochee Historic Zone and of Mines in the Sugar Fork and Eagle Creek Watersheds, Great Smoky Mountains National Park</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Harvey</surname></persName>
+		</author>
+		<idno type="DOI">10.3996/012017-JFWM-007.S2</idno>
+		<ptr target="http://dx.doi.org/10.3996/012017-JFWM-007.S2" />
+	</analytic>
+	<monogr>
+		<title level="j">Report to National Park Service, Great Smoky Mountains National Park (see Supplemental Material, Reference S</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Harvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Altenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Best</surname></persName>
+		</author>
+		<title level="m">Bats of the United States and Canada</title>
+		<meeting><address><addrLine>Baltimore, Maryland</addrLine></address></meeting>
+		<imprint>
+			<publisher>The John Hopkins University Press</publisher>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Disease and community structure: white-nose syndrome alters spatial and temporal niche partitioning in sympatric bat species</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Jachowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Dobony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Coleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Ford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Britzke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rodrigue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diversity and Distributions</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1002" to="1015" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Factors affecting acoustic detection and site occupancy of Indiana bats near a known maternity colony</title>
+		<author>
+			<persName><forename type="first">Zde</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Keefe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="344" to="360" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Methods for assessing colony size, population size, and relative abundance of bats</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Betke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">I</forename><surname>Hristov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vonhof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ecological and behavioral methods for the study of bats</title>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Kunz</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Parsons</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Baltimore, Maryland</addrLine></address></meeting>
+		<imprint>
+			<publisher>The John Hopkins University Press</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="133" to="157" />
+		</imprint>
+	</monogr>
+	<note>2nd edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Sociality, density-dependence, and microclimates determine the persistence of populations suffering from a novel fungal disease, white-nose syndrome</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Langwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Frick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Bried</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Hicks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Kilpatrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology Letters</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1050" to="1057" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">DnaSP v5: a software for comprehensive analysis of DNA polymorphism data</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Librado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rozas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1451" to="1452" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Bat activity in relation to fire and fire surrogate treatments in southern pine stands</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Loeb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Waldrop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Forest Ecology and Management</title>
+		<imprint>
+			<biblScope unit="volume">255</biblScope>
+			<biblScope unit="page" from="3185" to="3192" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Digital photography improves consistency and accuracy of bat counts in hibernacula</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Meretsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Brack</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Clawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Currie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Hemberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Herzog</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Hicks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Kath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Macgregor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Good</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="166" to="173" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Methods to evaluate and develop minimum recommended summer survey effort for Indiana bats: white paper</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Niver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Ford</surname></persName>
+		</author>
+		<idno type="DOI">10.3996/012017-JFWM-007.S3</idno>
+		<ptr target="https://www.fws.gov/Midwest/endangered/mammals/inba/surveys/pdf/WhitePaperIBatSurveyEffort13Jan2014.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">U.S. Fish and Wildlife Service White Paper (</title>
+		<imprint>
+			<date type="published" when="2014-01">2014. January 2017</date>
+		</imprint>
+	</monogr>
+	<note>see Supplemental Material, Reference S2</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">White-nose syndrome extirpated one-quarter of the bat species in Great Smoky Mountains National Park</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>O'keefe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Pettit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Loeb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bat Research News</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="39" to="108" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Non-invasive bat species identification from mixed-species samples using a microarray</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Patrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Just</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Vonhof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetic Resources</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="139" to="149" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Guidelines of the American Society of Mammalogists for the use of wild mammals in research and education</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sikes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Bryan</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Byman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Danielson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eggleston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Gannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Gannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Hale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jesmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Odell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Timm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Trewhitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Willoughby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="663" to="688" />
+			<date type="published" when="2016">2016. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A five-year assessment of mortality and geographic spread of white-nose syndrome in North American bats and a look to the future</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Reeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jth</forename><surname>Coleman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bat Research News</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="13" to="27" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Estimating population size of hibernating bats in caves and mines</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Tuttle</surname></persName>
+		</author>
+		<idno type="DOI">10.3996/012017-JFWM-007.S4</idno>
+		<idno>USGS/BRD/ITR-2003-0003</idno>
+		<ptr target="https://www.fort.usgs.gov/publication/21329" />
+	</analytic>
+	<monogr>
+		<title level="m">Monitoring trends in bat populations of the United States and Territories: problems and prospects</title>
+		<editor>
+			<persName><forename type="first">O'</forename><surname>Shea</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Bogan</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename></persName>
+		</editor>
+		<meeting><address><addrLine>Fort Collins, Colorado</addrLine></address></meeting>
+		<imprint>
+			<publisher>U.S. Geological Survey, Biological Resources Discipline</publisher>
+			<date type="published" when="2003-01">2003. January 2017</date>
+			<biblScope unit="page" from="31" to="39" />
+		</imprint>
+		<respStmt>
+			<orgName>Information and Technology</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Report</note>
+	<note>see Supplemental Material, Reference S3</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">North America bat death toll exceeds 5.5 million from whitenose syndrome</title>
+		<idno type="DOI">10.3996/012017-JFWM-007.S5</idno>
+		<ptr target="https://www.whitenosesyndrome.org/sites/default/files/files/wns_mortality_2012_nr_final_0.pdf" />
+		<imprint>
+			<date type="published" when="2012-01-17">2012. January 17, 2012. January 2017</date>
+			<publisher>U.S. Fish and Wildlife Service. News Release</publisher>
+			<pubPlace>Arlington, Virginia</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Supplemental Material, Reference S4</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Bats affected by WNS</title>
+		<idno type="DOI">10.3996/012017-JFWM-007.S6</idno>
+		<ptr target="https://www.whitenosesyndrome.org/about/bats-affected-wns" />
+		<imprint>
+			<date type="published" when="2017-07-21">2017. July 21, 2017. July 2017</date>
+			<publisher>U.S. Fish and Wildlife Service. Whitenosesyndrome.org</publisher>
+			<pubPlace>Arlington, Virginia</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Supplemental Material, Reference S5</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Alabama survey finds first southeastern bat with white-nose syndrome</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename><surname>Survey</surname></persName>
+		</author>
+		<idno type="DOI">10.3996/012017-JFWM-007.S7</idno>
+		<ptr target="https://www.usgs.gov/news/alabama-survey-finds-first-southeastern-bat-white-nose-syndrome" />
+		<imprint>
+			<date type="published" when="2017-06-01">2017. June 1, 2017. July 2017</date>
+			<publisher>U.S. Geological Survey. News Release</publisher>
+			<pubPlace>Fort Collins, Colorado</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Supplemental Material, Reference S6</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Species from feces: Order-wide identification of Chiroptera from guano and other n o n -i n v a s i v e g e n e t i c s a m p l e s</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chd</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Sobek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Chambers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">P L o S O N E</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">162342</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Techniques for application of faecal DNA methods to field studies of Ursids</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Wasser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Houston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Koehler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Cadd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Fain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1091" to="1097" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Assessing population status of bats in forests: challenges and opportunities</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Weller</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page" from="263" to="291" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lacki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kurta</surname></persName>
+		</author>
+		<title level="m">Bats in forests: conservation and management</title>
+		<meeting><address><addrLine>Baltimore, Maryland</addrLine></address></meeting>
+		<imprint>
+			<publisher>The Johns Hopkins University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A non-lethal method of tissue sampling for genetic studies of chiropterans</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Worthington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Barratt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bat Research News</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1" to="3" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Primers for identification and polymorphism assessment of vespertilionid bats in the Pacific Northwest</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Zinck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Duffield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Ormsbee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="239" to="242" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

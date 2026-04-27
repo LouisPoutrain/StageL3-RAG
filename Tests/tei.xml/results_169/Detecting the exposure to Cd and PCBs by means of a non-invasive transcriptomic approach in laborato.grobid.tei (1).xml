@@ -1,0 +1,1848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Detecting the exposure to Cd and PCBs by means of a non-invasive transcriptomic approach in laboratory and wild contaminated European eels (Anguilla anguilla)</title>
+				<funder ref="#_VPsYjEB">
+					<orgName type="full">Agence Nationale de la Recherche of France</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Regional Council of Aquitaine</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">University of Bordeaux (France)</orgName>
+				</funder>
+				<funder ref="#_uGMujqJ">
+					<orgName type="full">Natural Sciences and Engineering Research Council of Canada</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Université Laval (Québec, Canada)</orgName>
+				</funder>
+				<funder ref="#_sW6Mxwf #_2AUfQvW">
+					<orgName type="full">Agence Nationale de la Recherche</orgName>
+					<orgName type="abbreviated">ANR</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2015-11-14">14 November 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Lucie</forename><surname>Baillon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR EPOC CNRS 5805</orgName>
+								<orgName type="institution">Univ. Bordeaux</orgName>
+								<address>
+									<postCode>F-33400</postCode>
+									<settlement>Talence</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">UMR 5805</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>EPOC</addrLine>
+									<postCode>F-33400</postCode>
+									<settlement>Talence</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Fabien</forename><surname>Pierron</surname></persName>
+							<email>fabienpierronf.pierron@epoc.u-bordeaux1.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR EPOC CNRS 5805</orgName>
+								<orgName type="institution">Univ. Bordeaux</orgName>
+								<address>
+									<postCode>F-33400</postCode>
+									<settlement>Talence</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">UMR 5805</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>EPOC</addrLine>
+									<postCode>F-33400</postCode>
+									<settlement>Talence</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jennifer</forename><surname>Oses</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR EPOC CNRS 5805</orgName>
+								<orgName type="institution">Univ. Bordeaux</orgName>
+								<address>
+									<postCode>F-33400</postCode>
+									<settlement>Talence</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">UMR 5805</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>EPOC</addrLine>
+									<postCode>F-33400</postCode>
+									<settlement>Talence</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pauline</forename><surname>Pannetier</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Centre Eau Terre Environnement</orgName>
+								<orgName type="institution">Institut National de la Recherche Scientifique</orgName>
+								<address>
+									<addrLine>490 de la Couronne</addrLine>
+									<postCode>G1K 9A9</postCode>
+									<settlement>Québec</settlement>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eric</forename><surname>Normandeau</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Département de biologie</orgName>
+								<orgName type="department" key="dep2">Institut de Biologie Intégrative et des Systèmes (IBIS)</orgName>
+								<orgName type="institution">Université Laval</orgName>
+								<address>
+									<postCode>G1V 0A6</postCode>
+									<settlement>Québec</settlement>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Patrice</forename><surname>Couture</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Centre Eau Terre Environnement</orgName>
+								<orgName type="institution">Institut National de la Recherche Scientifique</orgName>
+								<address>
+									<addrLine>490 de la Couronne</addrLine>
+									<postCode>G1K 9A9</postCode>
+									<settlement>Québec</settlement>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pierre</forename><surname>Labadie</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR EPOC CNRS 5805</orgName>
+								<orgName type="institution">Univ. Bordeaux</orgName>
+								<address>
+									<postCode>F-33400</postCode>
+									<settlement>Talence</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">UMR 5805</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>EPOC</addrLine>
+									<postCode>F-33400</postCode>
+									<settlement>Talence</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hélène</forename><surname>Budzinski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR EPOC CNRS 5805</orgName>
+								<orgName type="institution">Univ. Bordeaux</orgName>
+								<address>
+									<postCode>F-33400</postCode>
+									<settlement>Talence</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">UMR 5805</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>EPOC</addrLine>
+									<postCode>F-33400</postCode>
+									<settlement>Talence</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Patrick</forename><surname>Lambert</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="laboratory">Irtsea</orgName>
+								<orgName type="institution">UR EABX</orgName>
+								<address>
+									<addrLine>50 avenue de Verdun-Gazinet</addrLine>
+									<postCode>33612</postCode>
+									<settlement>Cestas</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Louis</forename><surname>Bernatchez</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Département de biologie</orgName>
+								<orgName type="department" key="dep2">Institut de Biologie Intégrative et des Systèmes (IBIS)</orgName>
+								<orgName type="institution">Université Laval</orgName>
+								<address>
+									<postCode>G1V 0A6</postCode>
+									<settlement>Québec</settlement>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Magalie</forename><surname>Baudrimont</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR EPOC CNRS 5805</orgName>
+								<orgName type="institution">Univ. Bordeaux</orgName>
+								<address>
+									<postCode>F-33400</postCode>
+									<settlement>Talence</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">UMR 5805</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>EPOC</addrLine>
+									<postCode>F-33400</postCode>
+									<settlement>Talence</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Detecting the exposure to Cd and PCBs by means of a non-invasive transcriptomic approach in laboratory and wild contaminated European eels (Anguilla anguilla)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2015-11-14">14 November 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B0E0484CEBFFCE4B76ED3EC5BB75CF55</idno>
+					<idno type="DOI">10.1007/s11356-015-5754-2</idno>
+					<note type="submission">Received: 10 July 2015 / Accepted: 3 November 2015 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>cDNA microarray</term>
+					<term>Multi-pollutant</term>
+					<term>European eel</term>
+					<term>Transcriptomics</term>
+					<term>Non-invasive sampling</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Detecting and separating specific effects of contaminants in a multi-stress field context remain a major challenge in ecotoxicology. In this context, the aim of this study was to assess the usefulness of a non-invasive transcriptomic method, by means of a complementary DNA (cDNA) microarray comprising 1000 candidate genes, on caudal fin clips. Fin gene transcription patterns of European eels (Anguilla anguilla) exposed in the laboratory to cadmium (Cd) or a polychlorobiphenyl (PCBs) mixture but also of wild eels from three sampling sites with differing contamination levels were compared to test whether fin clips may be used to detect and discriminate the exposure to these contaminants. Also, transcriptomic profiles from the liver and caudal fin of eels experimentally exposed to Cd were compared to assess the detection sensitivity of the fin transcriptomic response. A similar number of genes were differentially transcribed in the fin and liver in response to Cd exposure, highlighting the detection sensitivity of fin clips.</p><p>Moreover, distinct fin transcription profiles were observed in response to Cd or PCB exposure. Finally, the transcription profiles of eels from the most contaminated site clustered with those from laboratory-exposed fish. This study thus highlights the applicability and usefulness of performing gene transcription assays on non-invasive tissue sampling in order to detect the in situ exposure to Cd and PCBs in fish.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Aquatic ecosystems are complex and dynamic entities which structure, composition, and function change on a daily and seasonal basis in response to variations in natural factors. In addition, ecosystems are increasingly subjected to anthropogenic disturbances such as global climate change or contaminants <ref type="bibr">(Thrush et al. 2009</ref>). The goal of ecotoxicology is to assess and predict the impact of contaminants on organisms, populations, and ecosystems. A huge challenge for ecotoxicologists is thus to distinguish the effects triggered by contaminants from those triggered by natural factors. It is even more difficult to detect and assess the contribution of individual contaminants in a multi-pollutant field context <ref type="bibr" target="#b12">(Denslow et al. 2007;</ref><ref type="bibr" target="#b8">Chapman et al. 2011;</ref><ref type="bibr" target="#b30">Milan et al. 2013;</ref><ref type="bibr" target="#b4">Banni et al. 2011)</ref>.</p><p>In this context, particular emphasis was placed in recent years on the potential use of transcriptomics in ecotoxicology. By allowing wide-ranging approaches, transcriptomic investigations could potentially allow to discover new mechanisms of toxicity and separate the in situ effects triggered by maninduced stressors versus natural factors <ref type="bibr" target="#b12">(Denslow et al. 2007</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Responsible editor: Philippe Garrigues</head><p>Electronic supplementary material The online version of this article (doi:10.1007/s11356-015-5754-2) contains supplementary material, which is available to authorized users. Indeed, past studies indicated that model ecotoxicological organisms experimentally exposed to contaminants produce a distinctive pattern of gene transcription for each contaminant <ref type="bibr" target="#b12">(Denslow et al. 2007;</ref><ref type="bibr">Poynton et al. 2008a, b)</ref>.</p><p>European eels (Anguilla anguilla) are catadromous fish species with a complex life cycle including marine (sexual maturation, spawning, and larval phase) and continental (feeding and growth) environments. Historically abundant and widespread in Europe, the population of European eels has suffered a sharp decline <ref type="bibr" target="#b22">(Haro et al. 2000;</ref><ref type="bibr">Wirth and Bernatchez 2003;</ref><ref type="bibr" target="#b17">Geeraerts and Belpaire 2010)</ref>. The European species is currently considered as critically endangered of extinction by the International Union for Conservation of Nature. Among hypotheses advanced to explain these declines, the possible contribution of pollution has received considerable attention in recent years. The unusual life cycle of European eels makes them particularly vulnerable to pollution <ref type="bibr" target="#b5">(Belpaire and Goemans 2007;</ref><ref type="bibr" target="#b17">Geeraerts and Belpaire 2010)</ref>. For these reasons, European eels could be considered as a sentinel species in ecotoxicology and as a model to explore recent hypotheses for which human activities have led to a tremendous decrease in aquatic biodiversity in the last century <ref type="bibr" target="#b5">(Belpaire and Goemans 2007)</ref>.</p><p>In a previous study <ref type="bibr">(Baillon et al. 2015a)</ref>, we used RNA-Seq technology on both the liver of European and American (Anguilla rostrata) eels. The main objective of that previous study was to discover without any a priori statistically confident Bcandidate genes' that are more likely related to contaminant exposure than to natural stressors. Other studies were carried out on wild European eels <ref type="bibr" target="#b42">(Pujolar et al. 2012</ref><ref type="bibr" target="#b43">(Pujolar et al. , 2013))</ref>. During these studies, the hepatic transcriptome of eels from a clean site was compared with the hepatic transcriptome of eels from polluted sites by means of a DNA microarray. The results showed significant changes in the transcription level of genes involved in detoxification, in the fight against oxidative stress and in the general stress response (e.g., metallothioneins and heat shock proteins). These studies highlighted the potential of transcriptomic investigations in an ecotoxicological context. However, studies carried out on the liver are invasive and involve the sacrifice of animals. Due to the critically endangered status of the European eel species, the objective of this study was to test whether the caudal fin may be used to detect in situ exposure to contaminants by means of a 1000 candidate-gene microarray <ref type="bibr">(Baillon et al. 2015b)</ref>, developed from our previous RNA-Seq study.</p><p>Actually, teleost fish fin can regenerate within a few weeks after amputation <ref type="bibr" target="#b45">(Santamaría and Becerra 1991;</ref><ref type="bibr" target="#b39">Poss et al. 2003;</ref><ref type="bibr" target="#b46">Schebesta et al. 2006)</ref>, and the use and development of non-invasive methods in ecotoxicology appear to be highly relevant, especially for endangered species. Veldhoen and colleagues ( <ref type="formula">2013</ref>) have already raised the potential of the caudal fin in ecotoxicological studies. In their study, rainbow trouts were experimentally exposed to cadmium (Cd) during 96 h and the transcription level of genes encoding for the metallothionein isoforms A and B, catalase, and aryl hydrocarbon receptor was analyzed by means of quantitative PCR analysis. Since significant changes in gene transcription levels were observed in their study, it appears interesting to further explore these findings and to investigate a wider and deeper transcriptomic response of the fin in animals exposed for longer periods in the laboratory as well as in wild animals, to test whether the fin may be used to detect the effects of contaminants on the transcriptome of wild contaminated fish.</p><p>In the present study, wild immature European yellow eels were captured along the Garonne-Gironde fluvio-estuary system (France) known to be polluted by Cd and polychlorobiphenyls (PCBs) notably <ref type="bibr" target="#b14">(Durrieu et al. 2005;</ref><ref type="bibr">Tapie et al. 2011)</ref>. In addition, control individuals were captured in a clean site (Certes). For controlled laboratory exposures, eels were taken from the clean site (Certes) and were exposed during 45 days either to Cd or to a mixture of PCBs in order to mimic field exposure conditions. In order to assess the detection sensitivity of the fin, the transcription profiles from the caudal fin and liver of experimentally Cd-contaminated fish were compared. The liver was selected due to its wide range of functions, including metal detoxification and energy metabolism but also because (i) it represents an organ extensively studied in toxicology and (ii) it is a main site of Cd bioaccumulation and toxicity in fish <ref type="bibr" target="#b21">(Gül et al. 2004;</ref><ref type="bibr" target="#b20">Gonzalez et al. 2006;</ref><ref type="bibr">van Dyk et al. 2007</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wild eel sample collection</head><p>Immature yellow eels (A. Anguilla) were collected in two contaminated sites along the Gironde aquatic system (Garonne: 44°43″51″N 0°28′05″O and Gironde estuary: 45°12′07″N 0°43′35″O) and in the Arcachon Bay, considered as a clean environment (Certes: 44°41′18″N 1°1′39″W). Temperature reached 21.4, 21.3, and 21.9 °C and salinity was 0.13, 7.78, and 19.9 ‰ for Garonne, Gironde, and Certes, respectively.</p><p>All fish were collected between May 24 and June 24, 2011, using a trawl or a fyke net. All immature female yellow eels were size selected to minimize potential allometric bias (Table <ref type="table" target="#tab_0">1</ref>). The stage of eels was assessed by measuring the ocular index <ref type="bibr" target="#b33">(Pankhurst 1982)</ref>. This index reached 4. <ref type="bibr">3±0.41 (mean±SE,</ref><ref type="bibr">n=10)</ref>. For each sampling site, a total of five fish were collected and used for subsequent analyses. Live fish were held in a portable water basin filled with aerated water from the sampling site until they were weighed, measured, and sacrificed as soon as possible by decapitation. Samples for gene transcription analyses were stored in RNA later at -20 °C until needed. For both organic and metal analyses, samples were stored at -80 °C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental design for laboratory exposures</head><p>All procedures used in this experiment were approved by the Aquitaine fish-birds ethics committee. Thirty-two immature yellow eels, averaging 37 cm in length and 70 g in weight (36.9±2.5 cm and 70.4±2.4 g, respectively, mean±SE, n=32, Table <ref type="table" target="#tab_0">1</ref>) were captured in Certes in May 2012. The animals were transferred to the laboratory (Marine Biology Station of Arcachon) and kept in running aerated brackish water (salinity 5 ‰, natural seawater dilution with aerated tap water) thermostated at 23 °C over a 1-month acclimation period, prior to experimentation. During this period, fish were fed every day with blue mussels, and no lethality was observed.</p><p>Laboratory exposures were performed in a flow-through system consisting of four separate 215-L experimental units (EU). One EU was used per experimental condition. Each tank was supplied with brackish water (salinity 5‰) by four water flow meters and contained eight organisms per tank. In order to maintain similar and constant physic-chemical conditions among the EUs, the four EUs were supplied with brackish water providing from a single reserve. Contaminant exposure was initiated after 1 month of adaptation to the experimental conditions. During the experiment (45 days), eels were fed every 2 days ad libitum (7.5 % wet weight of food per wet weight of fish per day) with artificial food (fresh fish flesh mixed with oil (1.3 %) and agar-agar (0.8 %)). For PCBs, the trophic route is known to be the major contamination route in fish <ref type="bibr" target="#b26">(Loizeau and Menesguen 1993)</ref>. In addition, in order to be close to in situ conditions, PCBs concentrations used in our experiments were based on the levels found in the prey of eels inhabiting the Gironde estuary <ref type="bibr">(Tapie et al. 2011)</ref>. For PCBs exposure, this food was enriched with pyralene to reach concentrations of 50 ng g -1 dry weight (dw) and 300 ng g -1 dw. The pyralene solution consisted of a mixture of <ref type="bibr">PCB 28,</ref><ref type="bibr">52,</ref><ref type="bibr">101,</ref><ref type="bibr">118,</ref><ref type="bibr">138,</ref><ref type="bibr">153,</ref><ref type="bibr">and 180</ref>, the seven priority PCBs (US-EPA). For Cd exposure, animals were exposed to dissolved metal at a nominal concentration of 4 μg L -1 . Metal exposure was initiated by adding Cd as CdCl 2 from a stock solution in water. To maintain constant Cd contamination over time, contaminated tanks were fitted with a peristaltic pump which added Cd at the desired concentration. Due to technical limitations, the contamination level of Cd used in our experiment was higher than the concentration of dissolved Cd determined in the Gironde estuary (Cd∼0.1 μg L -1 ; <ref type="bibr" target="#b28">Masson et al. 2006)</ref>. Then, the average Cd concentrations were 0.09±0.01 μg L -1 and 4.00±0.18 μg L -1 (mean±SE, n=12) in control and contaminated tanks, respectively. Control animals were maintained in uncontaminated brackish water and fed with uncontaminated artificial food. During the exposure, the unconsumed food was removed every morning, dried, and weighed. For each EU, the dry weight of unconsumed food was subtracted from the total dry weight of given food to determine the percentage of food consumed, i.e., the food intake rate. Results are expressed as mean±SE (n=22). At the end of the exposure period, five eels per EU were removed and dissected. The total length and weight of eels were recorded for each fish in order to determine the Fulton condition factor (K= weight/length 3 ) and the hepato-somatic index (HSI=(liver weight/total weight) × 100). The liver was dissected and weighted. Samples of the liver and caudal fin were immediately fixed in RNA later solution and stored at -20 °C until needed for analyses. For both organic and metal analyses, samples were stored at -80 °C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA extraction, labeling and cDNA hybridization</head><p>All procedures were carried out as previously described in <ref type="bibr">Baillon et al. (2015b)</ref>. Total RNA was extracted from the caudal fin and liver of the 20 experimental fish (5 individuals per condition, 5 uncontaminated (controls), 5 contaminated by PCBs at 50 ng g -1 and 300 ng g -1 , and 5 contaminated by Cd at 4 μg L -1 ) and a total of 15 wild fish from Certes, Gironde, and Garonne sampling sites (5 specimen per sampling site). RNAs were extracted from 15-25 mg of tissue using the SV total RNA isolation system (Promega) with minor modifications. Then, we used an indirect complementary DNA (cDNA) labeling method. In order to normalize microarray data, we used a common reference design. The reference was composed by pooling total RNA from the liver of 30 wild eels from the clean site; i.e., Certes (15 fish collected in 2011 and 15 in 2012). This reference was combined in equal amounts with each sample before hybridization on the microarray slide (15 h at 55 °C). A total of 40 microarrays were used as follows: 5 microarrays for the control condition, 10 for the Cd condition (5 for the fin and 5 for the liver), 5 for each PCB condition (i.e., 50 ng g -1 and 300 ng g -1 ), and 5 for each sampling site (i.e., Certes, Gironde, and Garonne). Each sample was hybridized once on cDNA microarray. Data acquisition was carried out by means of the Innoscan 710 microarray scanner (Innopsys) using Mapix software. More details on sample preparation and microarray processing are available in NCBI/Gene Expression Omnibus (GEO) under the accession number GPL19017.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metal and organic concentration analyses</head><p>For the laboratory Cd exposure, analyses were performed on water and liver samples following the procedures described by <ref type="bibr">Pierron et al. (2007a)</ref>. The detection limit was 0.1 μg L -1 Cd (0.018 μg g -1 of dry weight tissue). Metal concentrations in the liver were expressed as microgram per grams of dry weight tissue (dw). For Cd analyses in wild yellow eels, analyses were performed as follow. Liver samples were freeze-dried in PFA vials (Savillex) and kept in these vials during the whole digestion process. Samples were digested overnight at room temperature in pure trace metal grade nitric acid (HNO 3 ). The following day, sample digestion was completed by autoclave for 2 h at 15 PSI. Samples were then diluted in Milli-Q water to obtain a final concentration of 10 % HNO 3 . Metal concentrations were measured by inductively coupled plasma mass spectrometry (ICP-MS; Thermo Scientific XSeries 2). Blanks and standards (TORT-2 and DOLT-4, National Research Council Canada) were submitted to the same digestion protocol as liver samples to monitor the efficiency of the procedure. Recovery rate (expressed as % of certified values) was 102.9± 1.2 %.</p><p>Analysis of the seven indicator PCBs (CB28 (+50), CB52, CB101, CB118, CB138, CB153, and CB180), for wild and experimental animals, were performed on muscle samples following the procedures described by <ref type="bibr">Tapie et al. (2008</ref><ref type="bibr">Tapie et al. ( , 2011))</ref>. PCB analyses were carried out on an HP 5890 series II gas chromatograph from Hewlett-Packard (Avondale, CA, USA) coupled to a 63 Ni electron capture detector (ECD). A capillary column HP5-MS (Agilent Technologies, Massy, France) was used (30 m×0.25 mm×0.25 μm). For PCBs, LoQs were comprised between 0.2 ng g -1 dw and 2 ng g -1 dw. Results are presented as the sum of the seven PCB concentrations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data acquisition and analysis</head><p>Concerning contaminant analyses and morphometric data, comparisons among fish groups were performed by analysis of variance (ANOVA), after checking assumptions of normality and homoscedasticity of the error terms. The least square deviation test (LSD) was used to determine whether means between pairs of samples were significantly different from one another. When assumptions were not met, we used the nonparametric Kruskal-Wallis test. Computations were performed using the statistical software Sigma Stat.</p><p>Concerning microarrays, the filtering of raw data was done for both green and red channels. The median foreground (F635median and F532median) and median background (B635median and B532median) were used. If the ratio Fmedian/Bmedian was lower than 1.5, data were removed from the analysis. In addition, data from bad replicate spots (three spots for each probe) were excluded from the data set. For each spot, the background was removed of the foreground and the mean of triplicates was then calculated. Finally, both green and red channels were used for data normalization. Normalization and statistical analysis were done by using the BRB-arrayTools version 4.4.0 software package (<ref type="url" target="http://linus.nci.nih.gov/BRB-ArrayTools.html">http://linus. nci.nih.gov/BRB-ArrayTools.html</ref>). Each array was mediannormalized over entire arrays, and genes were excluded if 50 % of values were missing in the complete set of arrays (microarray data have been deposited on the NCBI/Gene Expression Omnibus (GEO) platform under accession number GSE62954. In order to detect differences in transcription profiles among the conditions, data were analyzed by means of the class comparison test available in the BRB software which is similar to the statistical analysis of microarrays (SAM) method but provides greater probabilistic control of the false discovery rate. In addition, cluster analyses were conducted on normalized microarray data to search for natural groupings in the profiles. For clustering analyses, an average linkage hierarchical clustering was done with centered correlation using all arrays. Cluster significance and robustness of the dendrogram were examined by the method of <ref type="bibr" target="#b29">Mcshane et al. (2002)</ref> based on 1000 permutations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conditions and level of contamination</head><p>Morphometric measurements and condition indices of eels from the field and laboratory as well as food intake rates of laboratory eels are presented in Table <ref type="table" target="#tab_0">1</ref>. Wild eels (Certes, Gironde, and Garonne) and eels exposed to the PCB low condition (contaminated food at 50 ng g -1 ) presented a significant higher condition factor than controls, Cd-exposed eels or eels exposed to the PCB high condition (contaminated food at 300 ng g -1 ). In addition, the lowest HSI was observed for the eels exposed to the highest PCB exposure condition (300 ng g -1 ), whereas the highest value was observed for eels from Certes (i.e., the cleanest site). We must add that wild eels were significantly larger than laboratory-exposed eels. Only eels exposed to the low PCB condition did not show significant difference in terms of weight with eels from Garonne (i.e., the smallest individuals among wild eels). Concerning experimental exposures, a significant bioaccumulation of Cd was observed after 45 days of exposure to dissolved Cd at 4 μg L -1 . Eels experimentally exposed to Cd presented a significantly higher hepatic concentration of Cd than controls (Fig. <ref type="figure">1a</ref>). Surprisingly, even if eels fed with PCB-contaminated food at 50 ng g -1 were fed with a food six times less contaminated than eels fed with PCB-contaminated food at 300 ng g -1 , the concentration of PCBs in the muscle of fish exposed to the lowest concentration was significantly 2.5 times higher than in eels exposed to the highest concentration of exposure (Fig. <ref type="figure">1b</ref>). To clarify the discussion, throughout the manuscript, experimental conditions were named accordingly to the concentrations of PCBs determined in the animals. Then, PCB_170 refers to animals that were fed with a food contaminated in PCBs at a nominal concentration of at 50 ng g -1 and PCB_69 to animals that were fed with a food contaminated at 300 ng g -1 . The higher bioaccumulation observed in fish fed with the lowest contaminated food could be explained by the low food intake rate of animals exposed to PCB_69 (Table <ref type="table" target="#tab_0">1</ref>). Indeed, for the PCB_69 condition, eels ate significantly less food in comparison to controls and fish of the PCB_170 condition (Table <ref type="table" target="#tab_0">1</ref>). As PCB contamination was carried out by the trophic route, it likely explains, at least in part, the low level of PCBs in eels exposed to the highest contamination pressure. Nevertheless, our results agree with studies carried out on zebrafish where exposure to low levels of orally administrated PCBs was associated with no or, even, significant positive effects on fish growth and HSI, whereas high levels of exposure were on the contrary associated with negative impacts on these indices <ref type="bibr" target="#b23">(Hashmi et al. 2015;</ref><ref type="bibr" target="#b32">Örn et al. 1998</ref>). However, the food intake rate was not followed during these studies. Our results suggest that these effects could be explained, at least in part, to food aversion at high PCB concentrations. Finally, the amount of PCBs was twice as high in fish exposed to PCB_170 in comparison to controls. We must note that despite no significant difference was observed between controls and fish exposed to PCB_170 (Fig. <ref type="figure">1B</ref>) when all data are considered (i.e., both experimental and field data), this difference was highly significant (ANOVA, LSD, P=0.003617) when laboratory conditions are analyzed apart, i.e., when data from wild Fig. <ref type="figure">1</ref> Mean hepatic Cd (μg g -1 dw) (a) and muscle PCBs (ng g -1 dw, sum of the seven indicator PCBs) (b) concentrations in controls, in fish experimentally exposed to dissolved Cd at 4 μg L -1 (Cd_4) or to PCBscontaminated food at two concentrations (PCB_170, PCB_ 69 for 50 ng g -1 and 300 ng g -1 , respectively) and in wild animals (Certes, Garonne, Gironde). Results are expressed as mean± SE (n=5). Means designated with different letters are significantly different (LSD test, P&lt;0.05) animals were removed from the analysis. Eels the PCBs_170 condition were significantly more contaminated in comparison to controls.</p><p>Concerning in situ investigations, wild eels from Gironde were significantly more contaminated by Cd than fish from Certes and Garonne (Fig. <ref type="figure">1A</ref>). For PCBs, fish from Garonne and Gironde appeared to be significantly more contaminated than fish from Certes (Fig. <ref type="figure">1B</ref>), confirming that Certes was a good reference site in terms of contamination. However, we observed a high variability in PCB concentrations in eels from Garonne with contamination levels ranging from 56 to 5342 ng g -1 with a median value reaching 952 ng g -1 (mean=1587 ng g -1 ). For comparison, contamination levels in eels from Gironde ranged from 1454 to 2052 ng g -1 with a median value reaching 1611 ng g -1 (mean=1641 ng g -1 ).</p><p>The comparisons among contamination levels of wild and laboratory eels showed that Certes and control eels presented similar values for both Cd and PCBs. This is in agreement to the fact that control eels were initially sampled in the Certes site. For Cd, wild eels from Garonne and the experimental Cd_4 condition did not differ significantly. However, wild fish from Gironde showed significantly higher contamination levels in both Cd and PCBs in comparison to fish from the experimental exposure conditions. The fact that the concentrations in PCBs and Cd in eels experimentally exposed during 45 days to PCBs and Cd were significantly lower than in wild eels tends to show that a 45-day period of experimental exposure was not sufficient to mimic several years of in situ chronic exposure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fin transcriptomic responses</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fin transcriptomic response to experimental Cd and PCB exposures</head><p>Firstly, in order to assess the detection sensitivity of the caudal fin, we investigated if the transcriptomic response of this tissue in response to Cd exposure could be comparable to that one developed by the liver. We thus compared the transcriptomic profiles of the liver and fin of fish experimentally exposed to Cd. First, statistical analyses were carried out to identify genes that were differentially transcribed in the two organs between the five controls and the five animals exposed to Cd contamination. Seventy-two genes and 77 genes were differentially transcribed (described in SI in table <ref type="table" target="#tab_0">S1</ref> and<ref type="table">S2</ref>) in the caudal fin and the liver, respectively. Thus, the number of genes that were differentially transcribed in response to Cd exposure was equivalent in the two tissues, highlighting the detection sensitivity of the caudal fin in detecting the exposure to Cd. As in the vast majority of cases when the transcriptomic responses of different tissues are compared, the most of the genes affected by Cd were different between the two tissues and only 16 genes were shared between the two lists of differentially transcribed genes. In addition, only nine genes were affected in the same direction (up-or downregulation) in the two tissues.</p><p>Considering the sensibility of the caudal fin to detect Cd exposure, we then tested if caudal fin clips could be used to detect specifically a recent exposure to a particular contaminant. In this aim, statistical analyses were carried out to identify the genes that were differentially transcribed in the fin among experimental exposure conditions, i.e., Cd_4, PCB_69 and PCB_170, and controls. The Venn diagram (Fig. <ref type="figure">2</ref>) presents the overlap of differentially transcribed genes for the three experimental conditions. The differentially transcribed genes were distributed as follows: 40 genes were only affected by Cd, 75 by PCB_170, and 11 by PCB_69. The corresponding gene lists for Cd_4, PCB_170, and PCB_69 are described in the supplementary material (Table <ref type="table" target="#tab_0">S1, S3,</ref> and<ref type="table">S4</ref>). The transcription level of several genes was modified by two conditions. Specifically, 21 genes were significantly affected in both Cd_4 and PCB_170 conditions, 5 genes were significantly affected by both Cd_4 and PCB_69, and 4 genes were significantly affected by both PCB_170 and PCB_69. The transcription level of only six genes was affected by all three experimental conditions.</p><p>Thus, most of the differentially transcribed genes were different from one experimental condition to another. The number of genes differentially transcribed in response to PCB exposure was higher in fish from the PCB_170 condition in comparison to fish of the PCB_69 condition, i.e., the response Fig. <ref type="figure">2</ref> Venn diagram presenting the number of differentially transcribed genes among fish experimentally exposed to PCB_170 (food at 50 ng g -1 ), PCB_69 (food at 300 ng g -1 ), and Cd_4 (dissolved metal at 4 μg L -1 ). Intersection regions correspond to differentially transcribed genes that were common among the experiments was higher in fish exposed to the lower of exposure. As evoked this can be explained by the fact that eels exposed to the PCB_69 condition were significantly less contaminated than fish of the PCB_170 condition. The mechanisms by which contaminants can affect the fin transcriptome remain to be elucidated. We must note that in the particular case of Cd, in addition to internal redistribution, a direct effect of the metal on the caudal fin cannot be ruled out as the contamination was carried out by the direct route (i.e., dissolved metal in water).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison of the transcriptomic profiles obtained from the fin of wild-and laboratory-exposed fish</head><p>As the caudal fin seemed to show a great potential to detect and discriminate exposure to contaminants during experimental investigations, it was interesting to test whether the fin can be used to detect and separate the specific effects of contaminants on the transcriptome of wild animals. After performing microarray hybridizations, a hierarchical clustering was performed with data obtained from both experimental and wild eels to assess the similarities and dissimilarities among the transcription profiles. First, the dendrogram generated from this analysis (Fig. <ref type="figure">3</ref>) was divided into four clusters with reproducibility indices for the four groups reaching 0.808, 0.964, 1, and 0.671, respectively (R-index=0.876 and D-index=2.57), which indicates reasonably robust clusters <ref type="bibr">(Mc Shane et al. 2002)</ref>. The first cluster included only laboratory conditions; three control fish, four PCB_69, and one eel of the Cd_4 condition. The second one included eels from Certes and Garonne and one fish from PCB_69 condition. The third one included all eels of the PCB_170 condition and all eels from Gironde. The fourth one included four fish experimentally exposed to Cd (Cd_4) and two control organisms (Fig. <ref type="figure">3</ref>). Even if four animals were not clustered within their respective condition (one Cd_4, two controls, and one PCB_69), the transcription profiles of the caudal fin seemed to be able to discriminate fish from each in situ and laboratory condition.</p><p>Concerning controls, they were not grouped together but associated with PCB_69 (cluster 1) and animals from Cd_4 condition (cluster 4). Thus, a higher variation was observed among control individuals in comparison to the animals from the other conditions. As described by <ref type="bibr" target="#b13">Devin et al. (2014)</ref>, sublethal exposure to contaminant can lead to a decrease in interindividual variability and to a canalization of the response to the most efficient one in animals presenting a high phenotypic variability. European eel is indeed a panmictic species that exhibits extreme inter-individual phenotypic variance among teleost fish <ref type="bibr" target="#b44">(Pujolar et al. 2014</ref>). In addition, the fact that controls were associated with fish from the PCB_69 condition in the cluster 1 could be explained by the amount of PCB accumulated in the muscle of fish from the PCB_69 condition (discussed earlier). Concentrations of PCBs in these fish were closed to controls and then PCB_69 and control fish showed some similar transcriptomic patterns (only 26 genes were differentially transcribed between controls and PCB_69, Fig. <ref type="figure">3</ref> and Table <ref type="table">S4</ref>). Concerning the transcriptomic profile differences observed between controls and wild animals from Certes (clusters 1 and 2), although all of these animals came from the Certes site, they were not grouped together. This could be explained by experimental conditions. For example, animals were Fig. <ref type="figure">3</ref> Hierarchical clustering of fin transcriptomic profiles of controls (Ctl), fish experimentally exposed to dissolved Cd at 4 μg L -1 (Cd_4) or PCBs-contaminated food at two concentrations (PCB_170, PCB_69 for 50 ng g -1 and 300 ng g -1 , respectively), and wild eels (Certes, Garonne, Gironde). Clustering was performed using the entire set of genes using the BRB Array tool software and based on means of average linkage clustering and centered correlation maintained in the laboratory at a lower salinity (5 versus 19.9 ‰ in the site) and were fed ad libitum. the confinement of wild animals in EU may have certainly an impact on the transcriptome of animals <ref type="bibr" target="#b7">(Calduch-Giner et al. 2010;</ref><ref type="bibr">Terova et al. 2011;</ref><ref type="bibr" target="#b25">Liu et al. 2014)</ref>.</p><p>Regarding the fact that fish from Gironde clustered with fish experimentally exposed to PCB_170 (cluster 3) suggests that the fin transcriptomic response offers the possibility to predict the presence of a specific toxicant in a field sample. However, it must be noted that whereas fish from Garonne were highly contaminated by PCBs, their transcription profiles did not cluster with fish experimentally exposed to PCBs_170 or Gironde. As mentioned earlier, this could be due, at least in part, to the fact that a high variability was observed in the PCB contamination levels of fish from Garonne. In addition, we must note that fish from Garonne were more closely associated with fish from Certes. This could be explained by their low levels of Cd contamination in comparison to fish from Gironde. Indeed, a lower but significant relationship was observed between fish from Gironde and fish experimentally exposed to Cd (clusters 3 and 4). Here, it is noteworthy that the PCB concentrations used in our experiments were based on the levels found in the prey of eels inhabiting the Gironde estuary <ref type="bibr">(Tapie et al. 2011)</ref>. In contrast, due to technical limitations, the contamination level of Cd used in our experiment appears to be quite high in comparison to the concentration determined in the Gironde estuary (Cd∼0.1 μg L -1 ; <ref type="bibr" target="#b28">Masson et al. 2006</ref>). In addition, a previous study showed that Cd contamination by food also plays a nonnegligible role in the Cd contamination of wild eels inhabiting the Garonne-Gironde continuum <ref type="bibr" target="#b36">(Pierron et al. 2008)</ref>. This could partly explain why the responses obtained in fish from Gironde clustered with those obtained in fish experimentally exposed to PCB_170 (i.e., cluster 3) and to a lesser extent with fish exposed to Cd_4 (i.e., cluster 4).</p><p>In order to deepen these results, the genes that were commonly affected in fish from Gironde (i.e., the most contaminated site) and in fish experimentally exposed to PCB_170 or Cd_4 were identified. To do this, genes that were differentially transcribed between fish from Gironde and control animals were identified. A total of 93 genes were found (Table <ref type="table">S5</ref>). These genes were compared to those that were differentially transcribed between controls and fish exposed to Cd_4 or PCB_170. The differentially transcribed genes were distributed as follows: 19 genes were commonly affected in Cd and Gironde, 37 in PCB_170 and Gironde (Table <ref type="table">S6</ref> and<ref type="table">S7</ref>), and 9 were commonly affected in all three conditions. When only the genes that were affected in the same direction (i.e., up-or downregulation) between the conditions were considered, the distribution was as follows: 9 genes were commonly affected in Cd and Gironde, 25 in PCB_170 and Gironde, and 6 were commonly affected in all three conditions. Among the 19 genes that were commonly and specifically affected in Gironde and PCB_170 (i.e., not by Cd), 6 genes (plxna3, irch3, foxa1-a, mafb, sh3gl3, and bcor) encode for proteins involved in development and, for most of them, in nervous system development. The genes plxNA3 and lrch3 are involved in nervous system development <ref type="bibr" target="#b10">(Cheng et al. 2001;</ref><ref type="bibr" target="#b9">Chen et al. 2006)</ref> and were upregulated (Table <ref type="table">S7</ref>). In contrast, the genes bcor and sh3gl3 that are also involved in nervous system development <ref type="bibr">(Wamstad and Bardwell 2007)</ref> were downregulated. Such results are in accordance with the wellknown neurotoxicity and developmental effects of PCBs <ref type="bibr" target="#b16">(Faroon et al. 2000;</ref><ref type="bibr" target="#b6">Berg et al. 2011)</ref>. Concerning the gene sh3gl3, this gene encodes for a protein that is colocalized with microtubules in the cell and has a role in transport along or as part of the structure of microtubules <ref type="bibr" target="#b24">(Hughes et al. 2004</ref>). Interestingly, two other genes involved in microtubule dynamics were also affected. The gene katnal1 encodes for a protein involves in microtubule severing/degradation <ref type="bibr" target="#b18">(Ghosh et al. 2012</ref>) and was upregulated. The gene kif21a codes for a microtubule-dependent motor protein involved in the transport of cellular components along axonal and dendritic microtubules <ref type="bibr" target="#b27">(Marszalek et al. 1999)</ref>. This gene was downregulated. The upregulation of a gene involved in microtubule degradation may be in accordance with the downregulation of genes involved in the transport along microtubules. Such results are also in accordance with results obtained in mice exposed to low levels of PCBs. PCB exposure triggered changes in the transcription levels of genes involved in microtubule cytoskeleton organization. In addition, this was associated with microtubule reorganization in the brain of PCB-contaminated mice <ref type="bibr" target="#b15">(Elnar et al. 2015)</ref>.</p><p>Only three genes were commonly and specifically affected in the same direction in fish from Gironde and Cd_4 condition. First, the tpm3 gene was downregulated. This gene codes for protein that is involved in stabilizing cytoskeleton actin filaments in non-muscle cells <ref type="bibr" target="#b1">(Armstrong et al. 2007</ref>). Cd exposure is indeed known to disrupt the integrity of the cytoskeleton by acting on actin filaments (Gómez-Mendikute and Cajaraville 2003; <ref type="bibr" target="#b0">Apostolova et al. 2006;</ref><ref type="bibr">Williams et al. 2006)</ref>. The two other genes were upregulated. The gene rras2 encodes a protein that transduces growth inhibitory signals across the cell membrane. Such a result is in accordance with our previous work <ref type="bibr">(Baillon et al. 2015a)</ref>. Genes involved in cell cycle arrest or in the inhibition of cell proliferation were upregulated in the liver of wild Cd-contaminated yellow eels. Finally, the gene slc39a6 codes for a zinc influx ion transmembrane transporter. Many studies have already shown that Cd exposure disrupts zinc homeostasis by increasing the transcription level of zinc transporters and zinc accumulation in the cell <ref type="bibr">(Noel et al. 2006;</ref><ref type="bibr" target="#b11">Chouchene et al. 2011;</ref><ref type="bibr" target="#b47">Tang et al. 2013)</ref>.</p><p>Finally, we also investigated the genes that were commonly affected by Cd, PCB-170, and Gironde, and six genes were found. Among these genes, the gene eed was upregulated. This gene encodes a member of the polycomb-group (PcG) protein family that is a component of the PRC2/EED-EZH2 complex. This complex methylates lysine residues of histones H3, leading to transcriptional repression of the target gene.</p><p>complex also serves as a recruiting platform DNA methyltranferases, linking two repression mechanisms <ref type="bibr">(Viré et al. 2006)</ref>. It is noteworthy that exposure to dissolved Cd at 4 μg L -1 was previously found to trigger a significant increase in the global DNA methylation level in the liver of eels <ref type="bibr" target="#b38">(Pierron et al. 2014)</ref>. The upregulated gene amacr encodes for a protein that is involved in fatty acid β-oxidation <ref type="bibr">(Wanders 2004)</ref>. This is in agreement with a previous study carried out on yellow eels exposed to dissolved Cd at 5 μg L -1 . Cd-contaminated eels showed a lower efficiency of lipid storage compared to controls. This effect was explained by an increased utilization of lipid reserves in Cdcontaminated eels <ref type="bibr">(Pierron et al. 2007a</ref>). Finally, among the downregulated genes, the mt-nd5 gene encodes for a subunit of the complex I of the respiratory chain. In a previous genome-wide transcriptome analysis carried out on wild premigrating European eels contaminated by PCBs, organochlorine pesticides (OCPs) and brominated flame retardants (BFRs) <ref type="bibr" target="#b42">Pujolar et al. (2012</ref><ref type="bibr" target="#b43">Pujolar et al. ( , 2013))</ref>, also reported a downregulation of the mt-nd5 gene in the liver of fish inhabiting highly polluted sites <ref type="bibr" target="#b42">(Pujolar et al. 2012</ref><ref type="bibr" target="#b43">(Pujolar et al. , 2013))</ref>. Moreover, a downregulation of the mt-nd5 gene was also reported in the gills of glass eels experimentally exposed to dissolved Cd as well as in gonads of female silver eels pre-exposed to Cd <ref type="bibr">(Pierron et al. 2007b</ref><ref type="bibr" target="#b37">(Pierron et al. , 2009))</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>The comparison between the transcriptomic profiles of the liver and caudal fin revealed a similar sensitivity to detect an exposure to Cd (a similar number of genes was affected). Moreover, exposure-dependent transcript abundance profiles were detected in the caudal fin of both laboratory and wild contaminated fish, supporting the potential of microarrays and caudal fin clips as a non-lethal method to detect and predict the presence of a specific contaminant. However, while the transcriptomic response of the fin successfully detected the presence of contaminants in wild fish inhabiting the most contaminated site (Gironde), this was less clear for fish inhabiting the intermediate site (Garonne). Finally, the genes commonly affected between laboratory-exposed animals and wild highly contaminated eels appeared to be in accordance with literature, reinforcing the fact that the caudal fin could be a pertinent tissue to achieve toxicology studies, particularly in the context of endangered species. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Tapie N,Budzinski H, Le Ménach K (2008)  Fast and efficient extraction methods for the analysis of polychlorinated biphenyls and polybrominated diphenyl ethers in biological matrices. Anal Chem 391:2169-2177 Tapie N, Menach K, S, Elie P, Devier MH, Budzinski H (2011) PBDE and PCB contamination of eels from the Gironde estuary: from glass eels to silver eels. Chemosphere 83:175-185 Terova G, Cattaneo AG, Preziosa E, Bernardini G, Saroglia M (2011) Impact of acute stress on antimicrobial polypeptides mRNA copy number in several tissues of marine sea bass (Dicentrarchus labrax). BMC Immunol 12(1):69 Thrush SF, Hewitt JE, Dayton PK, Coco G, Lohrer AM, Norkko A (2009) Forecasting the limits of resilience: integrating empirical research with theory. P Roy Soc Lond B Bio 276(1671):3209-3217 van Dyk JC, Pieterse GM, van Vuren JHJ (2007) Histological changes in the liver of Oreochromis mossambicus (Cichlidae) after exposure to cadmium and zinc. Ecotoxicol Environ Saf 66:432-440 Veldhoen N, Stevenson MR, Skirrow RC, Rieberger KJ, van Aggelen G, Meays CL, Helbing CC (2013) Minimally invasive transcriptome profiling in salmon: detection of biological response in rainbow trout caudal fin following exposure to environmental chemical contaminants. Aquat Toxicol 142(143):239-247 Viré E, Brenner C, Deplus R, Blanchon L, Fraga M, Didelot C, Morey L, Van Eynde A, Vanderwinden JM, Bollen M, Esteller M, Di Corce L, de Launoit Y, Fuks F (2006) The Polycomb group protein EZH2 directly controls DNA methylation. Nature 439:871-874 Wamstad JA, Bardwell VJ (2007) Characterization of Bcor expression in mouse development. Gene Expr Patterns 7(5):550-557 Wanders RJA (2004) Peroxisomes, lipid metabolism, and peroxisomal disorders. Mol Genet Metab 83(1-2):16-27 Williams TD, Diab AM, George SG, Godfrey RE, Sabine V, Conesa A, Minchin SD, Watts PC, Chipman JK (2006) Development of the GENIPOL European flounder (Platichthys flesus) microarray and determination of temporal transcriptional responses to cadmium at low dose. Environ Sci Technol 40:6479-6488 Wirth T, Bernatchez L (2003) Decline of North Atlantic eels: a fatal synergy? Proc R Soc B Biol Sci 270(1516):681-688</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,231.99,377.12,312.41,333.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="6,306.71,430.64,237.06,231.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="7,51.08,455.93,493.13,214.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Morphometric measures (mean±SE, n=5)  of eels from the field (Certes, Garonne, and Gironde) and laboratory Food intake rate of controls and fish experimentally exposed to Cd (Cd_4) or to PCB-contaminated food at two concentrations (PCB_170, PCB_69 for 50 ng g -1 and 300 ng g -1 , respectively) are expressed as mean percentage±SE (n=22 per condition). Means designated with different letters are significantly different (LSD and Kruskal-Wallis tests, P&lt;0.05)</figDesc><table><row><cell>Laboratory</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Environ Sci Pollut Res (2016) 23:5431-5441   </p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments We wish to acknowledge the contributions of our support staff, without whom this study could not have been completed. First, we would like to thank <rs type="person">Pr. Richard Simon</rs> for his help in microarray analyses with BRB array tools. Thanks also to <rs type="person">Patrick Girard</rs> for his veterinary expertise. This work was supported by the <rs type="funder">Regional Council of Aquitaine</rs>, the <rs type="funder">Agence Nationale de la Recherche of France</rs> (<rs type="grantNumber">ANR</rs> <rs type="funder">Immorteel</rs> <rs type="grantNumber">ANR-10-INTB-1704</rs>), and a strategic project grant of the <rs type="funder">Natural Sciences and Engineering Research Council of Canada</rs> to <rs type="person">Patrice Couture</rs> and <rs type="person">Louis Bernatchez</rs>. This work was also supported by the <rs type="programName">Investments for the future Program</rs>, within the <rs type="funder">Cluster of Excellence COTE</rs> (<rs type="grantNumber">ANR-10-LABX-45</rs>). <rs type="person">Lucie Baillon</rs> was supported by a collaborative doctoral fellowship between the <rs type="funder">University of Bordeaux (France)</rs> and <rs type="funder">Université Laval (Québec, Canada)</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_VPsYjEB">
+					<idno type="grant-number">ANR</idno>
+				</org>
+				<org type="funding" xml:id="_sW6Mxwf">
+					<idno type="grant-number">ANR-10-INTB-1704</idno>
+				</org>
+				<org type="funding" xml:id="_uGMujqJ">
+					<orgName type="program" subtype="full">Investments for the future Program</orgName>
+				</org>
+				<org type="funding" xml:id="_2AUfQvW">
+					<idno type="grant-number">ANR-10-LABX-45</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Compliance with ethical standards</head><p>Ethical approval All procedures used in this experiment were approved by the Aquitaine fish-birds ethics committee.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Involvement of gelsolin in cadmium-induced disruption of the mesangial cell cytoskeleton</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Apostolova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Christova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Templeton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Toxicol Sci</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="465" to="474" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">TPM3-ALK expression induces changes in cytoskeleton organisation and confers higher metastatic capacities than other ALK fusion proteins</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lamant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hieblot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Delsol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Touriol</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Cancer</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="640" to="646" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Transcriptome profile analysis reveals specific signatures of pollutants in Atlantic eels</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Baillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pierron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Coudret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Normandeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Peluhet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Labadie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Budzinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Durrieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sarraco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Elie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Couture</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baudrimont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bernatchez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecotoxicology</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="71" to="84" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>a</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Gonadal transcriptome analysis of wild contaminated female European eels during artificial gonad maturation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Baillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Oses</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pierron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bureau</forename><surname>Du Colombier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Caron</forename><forename type="middle">A</forename><surname>Normandeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Couture</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Labadie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Budzinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dufour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bernatchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Baudrimont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemosphere</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="303" to="309" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Gene expression rhythms in the mussel Mytilus galloprovincialis (Lam.) across an annual cycle</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Banni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Negri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mignone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Boussetta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Viarengo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dondero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">18904</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Eels: contaminant cocktails pinpointing environmental contamination</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Belpaire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Goemans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ICES J Mar Sci</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1423" to="1436" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Brain proteome alterations of Atlantic cod (Gadus morhua) exposed to PCB 153</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Berg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Puntervoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klungsøyr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goksøyr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquat Toxicol</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="206" to="217" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Use of microarray technology to assess the time course of liver stress response after confinement exposure in gilthead sea bream (Sparus aurata L)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Calduch-Giner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Davey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saera-Vila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Houeix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Talbot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Prunet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Cairns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pérez-Sánchez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="page" from="11" to="193" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The transcriptomic responses of the eastern oyster, Crassostrea virginica, to environmental conditions</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mancia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Beal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Veloso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rathburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Holland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Warr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Didinato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Sokolova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Wirth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Duffy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sanger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1431" to="1449" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">AMIGO and friends: an emerging family of brain-enriched, neuronal growth modulating, type I transmembrane proteins with leucine-rich repeats (LRR) and cell adhesion molecule motifs</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aulia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Tang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Res Rev</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="265" to="274" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Plexin-A3 mediates semaphorin signaling and regulates the development of hippocampal axonal projections</title>
+		<author>
+			<persName><forename type="first">H-J</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bagri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yaron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Pleasure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tessier-Lavigne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="249" to="263" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Cadmium-induced ovarian pathophysiology is mediated by change in gene pattern of zinc transporters in zebrafish (Danio</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chouchene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Banni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kerkeni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Saïd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Messaoudi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="172" to="179" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Fish &apos;n&apos; chips: the use of microarrays for aquatic toxicology</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Denslow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Garcia-Reyero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Barber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biosyst</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="172" to="177" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Variation in variance means more than mean variations: what does variability tell us about population health status?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Devin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Giamberini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pain-Devin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Int</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="282" to="287" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Contamination by heavy metals (Cd, Zn, Cu, and Hg) of eight fish species in the Gironde estuary (France)</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Durrieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maury</forename><forename type="middle">-</forename><surname>Brachet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Girardin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Estuaries</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="581" to="591" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Lactational exposure to low levels of the six indicator non-dioxin-like polychlorinated biphenyls induces DNA damage and repression of neuronal activity, in juvenile male mice</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Elnar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Desor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Soulimani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nemos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Toxicology</title>
+		<imprint>
+			<biblScope unit="volume">328</biblScope>
+			<biblScope unit="page" from="57" to="65" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Effects of polychlorinated biphenyls on the nervous system</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Faroon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><surname>De Rosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Toxicol Ind Health</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">7-8</biblScope>
+			<biblScope unit="page" from="305" to="333" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The effects of contaminants in European eel: a review</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Geeraerts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Belpaire</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecotoxicology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="239" to="266" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Models, regulations, and functions of microtubule severing by katanin</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dasgupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISRN Molecular Biology Article ID</title>
+		<imprint>
+			<biblScope unit="page">596289</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Comparative effects of cadmium, copper, paraquat and benzo[a]pyrene on the actin cytoskeleton and production of reactive oxygen species (ROS) in mussel haemocytes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gómez-Mendikute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Cajaraville</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Toxicol In Vitro</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">5-6</biblScope>
+			<biblScope unit="page" from="539" to="546" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Comparative effects of direct cadmium contamination on gene expression in gills, liver, skeletal muscles and brain of the zebrafish (Danio rerio)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baudrimont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Boudou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Bourdineaud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioMetals</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="225" to="235" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Pollution correlated modifications of liver antioxidant systems and histopathology of fish (Cyprinidae) living in Seyhan Dam Lake, Turkey</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gül</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Belge-Kurutas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yıldıza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Doran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Int</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="605" to="609" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Population decline of the American eel: implications for research and management</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Richkus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Whalen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hoar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Busch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fisheries</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="7" to="16" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Hormetic responses of food-supplied PCB 31 to Zebrafish (Danio Rerio) growth</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Z</forename><surname>Hashmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Naveedullah</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Doseresponse</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Endophilin A3 forms filamentous structures that colocalise with microtubules but not with actin filaments</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Errington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fricker-Gates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="182" to="192" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">RNA-seq analysis of early hepatic response to handling and confinement stress in rainbow trout</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Palti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Cleveland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Rexroad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plos one</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">88492</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A steady-state model of PCB accumulation in dab food web</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Loizeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Menesguen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oceanol Acta</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">5-6</biblScope>
+			<biblScope unit="page" from="633" to="640" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Novel dendritic kinesin sorting identified by different process targeting of two related kinesins: KIF21A and KIF21B</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Marszalek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Weiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Farlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lsb</forename><surname>Goldstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JCB</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="469" to="479" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Geochemical signals and source contributions to heavy metal (Cd, Zn, Pb, Cu) fluxes into the Gironde estuary via its major tributaries</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Masson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Blanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schäfer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Tot Environ</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page" from="133" to="146" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Methods for assessing reproducibility patterns observed in analyses of microarray data</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Mcshane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Radmacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Freidlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Simon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1462" to="1469" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Exploring the effects of seasonality and chemical pollution on the hepatopancreas transcriptome of the Manila clam</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Milan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ferraresso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ciofi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chelazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ferrari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Patarnello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bargelloni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2157" to="2172" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Cadmium accumulation and interactions with zinc, copper, and manganese, analysed by ICP-MS in a long-term Caco-2 TC7 cell model</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Noël</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huynh-Delerme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Guérin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Frémy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kolf-Clauw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometals</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="473" to="481" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The impact on reproduction of an orally administered mixture of selected PCBs in Zebrafish (Danio rerio)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Örn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Andersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Förlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tysklind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Norrgren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Environ Contam Toxicol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="52" to="57" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Relation of visual change to the onset of sexual maturation in the European eel Anguilla anguilla (L.)</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Pankhurst</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Fish Biol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="279" to="296" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">a) Impairment of lipid storage by cadmium in the European eel (Anguilla anguilla)</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pierron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baudrimont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bossy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Bourdineaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brèthes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Elie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Massabuau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquat Toxicol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="304" to="311" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Common pattern of gene expression in response to hypoxia or cadmium in the gills of the European glass eel (Anguilla anguilla)</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pierron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baudrimont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Bourdineaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Elie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-C</forename><surname>Massabuau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3005" to="3011" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Cadmium uptake by the European eel: trophic transfer in field and experimental investigations</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pierron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baudrimont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lucia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Durrieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-C</forename><surname>Massabuau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Elie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecotox Environ Safe</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="10" to="19" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Ovarian gene transcription and effect of cadmium pre-exposure during artificial sexual maturation of the European eel (Anguilla anguilla)</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pierron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baudrimont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dufour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Elie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bossy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lucia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-C</forename><surname>Massabuau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioMetals</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="985" to="994" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Effect of lowdose cadmium exposure on DNA methylation in the endangered European eel</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pierron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Baillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gotreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gonzalez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="797" to="803" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Tales of regeneration in zebrafish</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Poss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Keating</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nechiporuk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Dynam</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="page" from="202" to="210" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Gene expression profiling in Daphnia magna part I: concentration-dependent profiles provide support for the no observed transcriptional effect level</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Poynton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Loguinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Varshavky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Perkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Vulpe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="6250" to="6256" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Gene expression profiling in Daphnia magna. part II: validation of a copper specific gene expression signature with effluent from two copper mines in California</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Poynton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zuzow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Loguinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Perkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Vulpe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="6257" to="6263" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Surviving in a toxic world: transcriptomics and gene expression profiling in response to environmental pollution in the critically endangered European eel</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pujolar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iam</forename><surname>Marino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Massimo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Coppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Maes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Capoccioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eleonora</forename><surname>Ciccotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lieven</forename><surname>Bervoets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Covaci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Belpaire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cramb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Patarnello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bargelloni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bortoluzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zane</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">507</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Detecting genome-wide gene transcription profiles associated with high pollution burden in the critically endangered European eel</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pujolar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Milan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iam</forename><surname>Marino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Capoccioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ciccotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Belpaire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Covaci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Malarvannan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Patarnello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bargelloni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Maes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquat Toxicol</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="issue">133</biblScope>
+			<biblScope unit="page" from="157" to="164" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Genome-wide single-generation signatures of local selection in the panmictic European eel</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pujolar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Als</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Frydenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Munch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jónsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Jian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Maes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bernatchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Hansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2514" to="2528" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Tail fin regeneration in teleosts: cellextracellular matrix interaction in blastemal differentiation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Santamaría</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Becerra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Anat</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="page" from="9" to="21" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Transcriptional profiling of caudal fin regeneration in zebrafish</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schebesta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Lien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">B</forename><surname>Engel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Keating</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci World J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="38" to="54" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Comparison of cytotoxicity and expression of metal regulatory genes in zebrafish (Danio rerio) liver cells exposed to cadmium sulfate, zinc sulfate and quantum dots</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Allagadda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chibli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Nadeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Mayer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metallomics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1411" to="1422" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

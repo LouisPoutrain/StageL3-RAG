@@ -1,0 +1,2037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Population Ecology</title>
+				<funder>
+					<orgName type="full">Humboldt State University Office of Research and Graduate Studies</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Eureka Rotary Club</orgName>
+				</funder>
+				<funder ref="#_QPsVNtB">
+					<orgName type="full">Marin Rod and Gun Club</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Humboldt State University Sponsored Programs Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Richard J. Guadagno Memorial Scholarship</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2013-09-19">19 September 2013</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Kristin</forename><forename type="middle">E</forename><surname>Brzeski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Wildlife</orgName>
+								<orgName type="institution">Humboldt State University</orgName>
+								<address>
+									<postCode>95521</postCode>
+									<settlement>Arcata</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Micaela</forename><surname>Szykman Gunther</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Wildlife</orgName>
+								<orgName type="institution">Humboldt State University</orgName>
+								<address>
+									<postCode>95521</postCode>
+									<settlement>Arcata</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jeffrey</forename><forename type="middle">M</forename><surname>Black</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Wildlife</orgName>
+								<orgName type="institution">Humboldt State University</orgName>
+								<address>
+									<postCode>95521</postCode>
+									<settlement>Arcata</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Population Ecology</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2013-09-19">19 September 2013</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B1FA9951DE8722DC9618D2AC90D98458</idno>
+					<idno type="DOI">10.1002/jwmg.610</idno>
+					<note type="submission">Received: 6 July 2012; Accepted: 17 June 2013</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-27T13:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>abundance estimate</term>
+					<term>citizen science</term>
+					<term>Humboldt Bay</term>
+					<term>Lontra canadensis</term>
+					<term>mark-recapture</term>
+					<term>noninvasive sampling</term>
+					<term>river otter</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The decline in river otter (Lontra canadensis) populations during the late nineteenth and early twentieth centuries throughout North America has led to protective status and strict harvest regulations. Despite sustained interest in protecting river otters, relatively few contemporary studies have evaluated the current status of populations, especially in California. An effective way to estimate river otter population sizes and facilitate monitoring is with noninvasive genetic methods. Our objective was to establish baseline demographic information for an understudied river otter population in northern California by estimating river otter abundance using noninvasive genetic sampling, supplemented with data obtained from an observation-based citizen science project focusing on river otters. We extracted DNA from scat and genotyped samples at 6 microsatellite loci. We used Program MARK to build mark-recapture models to estimate river otter abundance and pooled visual observations from a citizen science project maintained in Humboldt County, California to supplement population estimates with information regarding pups and group size. Between 41 and 44 river otters were in the study area based on noninvasive genetic samples, and group sizes ranged 1-7 or 2-12 based on observational and genetic data, respectively. The Humboldt Bay region had a high density of river otters (0.93 otters/km) as compared to other coastal systems; resource attributes of Humboldt Bay could contribute to this difference. Results reported herein demonstrate methods appropriate for establishing baseline river otter demographics.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Historically, river otter populations in North America and beyond have suffered dramatic declines due to habitat degradation and persecution <ref type="bibr" target="#b58">(Polechla 1990</ref><ref type="bibr" target="#b43">, Larivie ´re and Walton 1998</ref><ref type="bibr" target="#b40">, Kruuk 2006)</ref>. Precipitous declines resulted in protective legislation strictly regulating North American river otter (Lontra canadensis) harvest and led to reintroduction programs throughout the United States <ref type="bibr" target="#b61">(Raesly 2001)</ref>. However, in some state and provincial jurisdictions, managers have little recent information with which to assess population trends and evaluate the success of earlier protections <ref type="bibr" target="#b61">(Raesly 2001</ref><ref type="bibr" target="#b46">, Melquist et al. 2003)</ref>. Wildlife managers require accurate census estimates to determine the current status of river otter populations because management goals are articulated in terms of population abundance <ref type="bibr" target="#b42">(Lancia et al. 2005)</ref>. Reliable abundance estimates can also help identify factors that limit population growth when analyzed in association with other data, such as survival rates or habitat use <ref type="bibr" target="#b48">(Monson et al. 2011</ref><ref type="bibr" target="#b27">, Guertin et al. 2012)</ref>. This is particularly important for river otters because they suffer more from environmental degradation than other mammals because they move between terrestrial and aquatic land-scapes, increasing their exposure to water pollutants and environmental contaminants <ref type="bibr" target="#b13">(Bowyer et al. 2003)</ref>. However, due to the elusive nature and semi-aquatic lifestyle of river otters, monitoring population demographics of this species is difficult <ref type="bibr" target="#b46">(Melquist et al. 2003)</ref>.</p><p>Frequently used monitoring and census techniques for river otter involve indirect counts of presence, such as track and scat surveys <ref type="bibr" target="#b75">(Sulkava et al. 2008</ref><ref type="bibr" target="#b35">, Jeffress et al. 2011</ref><ref type="bibr" target="#b74">, Stevens et al. 2011</ref><ref type="bibr" target="#b18">, Crowley et al. 2012</ref>), which provide useful information regarding aspects of demography. When these methods are applied to population estimates, however, individual identification is not possible, which reduces accuracy <ref type="bibr" target="#b0">(Arrendal et al. 2007</ref><ref type="bibr" target="#b22">, Gallant et al. 2007)</ref>. Radiotelemetry studies provide valuable demographic data as well but only on a limited number of individuals, as trapping river otters is difficult and recapture events rare, reducing their utility for population estimates <ref type="bibr" target="#b68">(Serfass et al. 1996</ref><ref type="bibr" target="#b7">, Blundell et al. 1999</ref>). An alternative method for estimating population abundance is noninvasive genetic sampling in which scat is used to establish individual identification via molecular genotyping and applied in a mark-recapture model framework <ref type="bibr" target="#b76">(Taberlet and Luikart 1999)</ref>. Noninvasive genetic techniques are especially appropriate for evaluating river otter abundance because otters regularly deposit scat and other obvious markings (intestinal mucus referred to as jellies) that may be used as genetic samples at latrines <ref type="bibr" target="#b68">(Serfass et al. 1996</ref><ref type="bibr" target="#b73">, Stevens and Serfass 2008</ref><ref type="bibr" target="#b54">, Oldham and Black 2009)</ref>, as demonstrated by a number of studies <ref type="bibr" target="#b30">(Hansen and Jacobsen 1999</ref><ref type="bibr" target="#b20">, Dallas et al. 2003</ref><ref type="bibr" target="#b34">, Hung et al. 2004</ref><ref type="bibr" target="#b59">, Polechla et al. 2004</ref><ref type="bibr" target="#b49">, Mowry et al. 2011</ref><ref type="bibr" target="#b27">, Guertin et al. 2012)</ref>. A region where evaluating river otter abundance is warranted is coastal northern California, where since 2000, a citizen science project that records river otter observations has demonstrated long-term persistence of river otters throughout the region <ref type="bibr" target="#b6">(Black 2009</ref>, also see <ref type="bibr" target="#b70">Shannon 2012</ref>). An assessment of the first 5 years of the project provided evidence of reproduction and semi-annual changes in group size <ref type="bibr" target="#b6">(Black 2009)</ref>. However, the observational nature of the data and lack of rigorous volunteer training was not conducive to estimating population size, and past efforts to quantify California's river otter populations relied on relatively few sightings, making it difficult to assess status, trends, or population size <ref type="bibr" target="#b37">(Kirk 1975</ref><ref type="bibr" target="#b24">, Gould 1977</ref><ref type="bibr" target="#b67">, Schempf and White 1977)</ref>. A more rigorous noninvasive genetic study would establish baseline population estimates for evaluating river otter conservation status in the region. However, current noninvasive genetic techniques cannot reliably provide age structure (although see <ref type="bibr" target="#b56">Pauli et al. 2011)</ref> and are limited in their ability to assess reproductive rates and group sizes. Combining noninvasive genetic population estimates with observational data from the citizen science project could provide a more complete picture of river otter demographics in northern California. For example, group size may vary depending on river otter social structure, so observational data can contribute additional information on sociality. We used noninvasive genetic mark-recapture modeling methodologies to determine river otter abundance and observational data from a citizen science project to supplement demographic data. These estimates established baseline otter population abundance and structure, which can be compared to other similar systems to elucidate ecologically relevant factors that influence river otter abundance, a necessary first step in designing future management plans for a sentinel wetland species such as the river otter.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STUDY AREA</head><p>Humboldt Bay is California's second largest coastal estuary (62.4 km 2 ; <ref type="bibr" target="#b2">Barnhart et al. 1992)</ref>, and within California, the abundance and diversity of coastal organisms is greater only in San Francisco Bay <ref type="bibr" target="#b15">(Chamberlain and Barnhart 1993)</ref>. The northern tip of the study area was approximately 145 km south of the Oregon-California border and ranged in latitude from 4181 0 33.538N to 40841 0 26.258N. Humboldt Bay supports a vast number of fish and bird species, the preferred diet of Humboldt County river otters <ref type="bibr" target="#b57">(Penland and</ref><ref type="bibr">Black 2009, Cosby 2013)</ref>. Several crab species (Cancer spp.) and over 30 fish species have been detected in the Bay <ref type="bibr" target="#b15">(Chamberlain and Barnhart 1993)</ref>, and Pacific salmon (Oncorhynchu spp.) and steelhead (Oncorhynchus mykiss) spawn in the coastal rivers <ref type="bibr" target="#b52">(Nehlsen et al. 1991</ref>). The region is also a major wintering and stopover site for thousands of migratory shorebirds along the Pacific flyway <ref type="bibr" target="#b16">(Colwell 1994)</ref>, and more than 200 wetland bird species regularly feed, rest, or nest around the Bay throughout the year. The Humboldt Bay region's monthly mean air temperature varied by only 5.28C, with lows in January (8.58C) and highs in August (13.78C; <ref type="bibr" target="#b2">Barnhart et al. 1992)</ref>. Precipitation was highest from late October to early May, averaging 97.8 cm annually <ref type="bibr" target="#b2">(Barnhart et al. 1992)</ref>.</p><p>The study area covered approximately 45 km of linear coastal habitat. We chose latrine collection sites to encompass all major watersheds with consistent river otter activity around the Bay. River otter groups ranging in size from 1 to 9 individuals and breeding activity have been documented at each site <ref type="bibr" target="#b6">(Black 2009)</ref>. Each site had 4-6 latrines and included, from north to south, Little River estuary, Mad River estuary, Arcata Marsh, Mad River Slough, Freshwater Creek, Woodley Island, Elk River estuary, King Salmon Marina, and the Humboldt Bay National Wildlife Refuge complex (Fig. <ref type="figure" target="#fig_0">1</ref>). These sites encompassed a myriad of wetlands differing in salinities: brackish estuaries and marshes, freshwater sloughs, fresh water creeks, and salt marshes. Vegetation varied by habitat but was generally a combination of salt water and brackish plants such as saltgrass (Distichlis spicata), salt rush (Juncus lesueurii), and tufted hairgrass (Deschiampsia cespitosa; <ref type="bibr" target="#b2">Barnhart et al. 1992)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS Noninvasive Field Sampling</head><p>Trained biologists collected scat samples from latrine sites 2 consecutive mornings each week during the dry season, from 18 May to 31 October 2008. We established the sampling period as part of a larger study evaluating river otter ecology in Humboldt Bay; we only used scat samples collected from August and September in mark-recapture models to adhere to closed-population assumptions associated with abundance estimates <ref type="bibr" target="#b55">(Otis et al. 1978)</ref>. August to September was a reasonable timeframe to assume a closed population given river otter longevity (15 yr in the wild), pups are born in early spring, and dispersal generally begins in October <ref type="bibr" target="#b32">(Harris and Ogan 1997)</ref>. Using 2 months of mark-recapture data also provided the ability to evaluate sampling duration and accuracy of abundance estimates by comparing model results based on 2 months of sampling to the total genotypes detected from an exhaustive 5-month sampling regime. We pooled sampling occasions and recorded a single detection for the week if multiple detections of an individual occurred during 2 consecutive days. We ranked all scat and jelly samples with freshness scores determined visually by moistness and odor: new (&lt;24 hr), old (&gt;24 hr), and recorded the primary diet content of each scat at time of collection. We placed collected scat and jellies into sterile 50-ml centrifuge tubes with sterile tongue depressors and stored them at À208C until DNA extraction <ref type="bibr" target="#b0">(Arrendal et al. 2007</ref><ref type="bibr" target="#b41">, Lampa et al. 2008)</ref>.</p><p>Various factors have been found to influence genotyping success and subsequent capture probabilities in other noninvasive studies including daily time of collection, weather conditions, diet, and sample type and age <ref type="bibr" target="#b51">(Murphy et al. 2003</ref><ref type="bibr" target="#b53">, Nsubuga et al. 2004</ref><ref type="bibr" target="#b28">, Hajkova et al. 2006)</ref>. Daily time of collection was consistent throughout sampling and the Pacific Northwest is a temperate region with comparatively little temporal variation in temperature, so these factors should not have significantly influenced genotyping success. We used contingency tables to assess if diet, sample type (scat or jelly), and sample age (new or old) influenced genotyping success in this study. We determined prey type through visual inspection of scat; we did not include samples with unidentifiable content in diet analyses since they were not informative in discerning if prey type influenced genotyping success.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microsatellite Genotyping</head><p>We extracted DNA from scat and jelly samples using QIAmp 1 DNA Stool Mini Kit (Qiagen, Inc., Valencia, CA) per manufacturer's instructions or with a standard phenol-chloroform extraction protocol <ref type="bibr" target="#b1">(Ausubel et al. 2003)</ref>, and executed negative controls in all extractions and polymerase chain reactions (PCR) to detect any possible contamination. We genotyped river otters at 6 microsatellite loci (Lut453, Lut733, Rio08, Lut701, Rio18, and Lut604; <ref type="bibr" target="#b19">Dallas and Piertney 1998;</ref><ref type="bibr" target="#b3">Beheler et al. 2004</ref><ref type="bibr" target="#b4">Beheler et al. , 2005) )</ref> in 10-mL reaction volumes: 2 mL genomic DNA, 10Â PCR Gold Buffer, 1 unit Amplitaq Gold, 1.5 mM MgCl 2 , 400 mM dNTPs, 0.15 mM reverse and forward M13-tailed primers, 0.30 mM unlabeled forward primer, 0.7 mM licor M13 labeled primer, and 0.3 mM bovine serum albumin (BSA). Thermal cycling temperatures and times followed published conditions (see above) except for Rio08 and Rio18, which we modified to 40 cycles to increase amplification. We read products using an LI-COR DNA 4300 Analyzer Gene Readir (LI-COR Biosciences, Lincoln, NE), and used GENE PROFILER (Scanalytics, Inc., Rockville, MD) imaging software to estimate allele sizes; only 1 person scored gels to maintain consistency. We determined river otter sex using PCR/RLFP (restriction length fragment polymorphism) analysis of the zinkfinger protein gene (ZFX/ZFY). This method has been successful in sex-typing Eurasian otters (Lutra lutra) and recently North American river otters <ref type="bibr" target="#b50">(Mucci and</ref><ref type="bibr">Randi 2007, Mowry et al. 2011)</ref>. It is more robust in eliminating genotyping errors associated with degraded DNA since it yields visible fragments for both sexes, unlike the commonly used SRY marker, which only yields 1 male band making it more sensitive to allelic dropout <ref type="bibr" target="#b72">(Statham et al. 2007</ref>). We conducted PCRs in 10-mL reaction volumes: 2 mL genomic DNA, 10Â PCR Gold Buffer, 1 unit Amplitaq Gold, 1.5 mM MgCl 2 , 400 mM dNTPs, 0.15 mM forward and reverse primers, and 0.3 mM BSA. We digested PCR product using restriction enzyme Taq a I at the following volumes: 10 mL PCR product, 5 units Taq a I, 2 mL Buffer E, 0.2 mL BSA, and 7.3 mL ddH 2 O (New England Biolabs, Ipswich, MA), and incubated the digestion at 658C for 3 hours followed by 808C for 20 minutes. We visualized products on a 2% agarose gel, run at 85 V for 3 hours, stained with ethidium bromide, and photographed. We used a comparative multi-tube PCR approach to create consensual microsatellite genotypes <ref type="bibr" target="#b21">(Frantz et al. 2003</ref><ref type="bibr" target="#b31">, Hansen et al. 2007</ref>). We determined genotypes by at least 2 positive PCR reactions for heterozygotes and 3 for homozygotes. We differentiated identical multilocus genotypes using <ref type="bibr">GIMLET (Valie `re 2002)</ref>, and also confirmed sex-typing using the multi-tube approach. We manually grouped incomplete multilocus genotypes (&lt;5 confirmed loci) based on the most informative loci genotyped, sex, and collection location, similar to methods used by <ref type="bibr" target="#b21">Frantz et al. (2003)</ref>. We calculated genotyping errors due to allelic dropout and false allele rates following <ref type="bibr" target="#b14">Broquet and Petit (2004)</ref>. Allelic dropout occurred when 1 allele of a heterozygous individual did not amplify during a PCR, which resulted in a recordable allele. False alleles were defined as a PCR-generated allele artifact that was a result of replication slippage. We calculated allelic dropout and false allele weighted averages of all loci as an indication of overall data quality. We calculated probability of identity (P ID ) to evaluate the power of the marker set to identify individuals. P ID is the probability that 2 individuals drawn at random from a population will have the same genotype at multiple loci <ref type="bibr" target="#b78">(Valie `re 2002)</ref>. We used program GIMLET (Valie `re 2002) to calculate P IDunbiased (P ID corrected for small sample size) and P (ID)sib (P ID among a population of siblings). In general, more loci improve P ID but also introduce genotyping error, especially with poor quality DNA, as obtained from scat <ref type="bibr" target="#b79">(Waits and Leberg 2000)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abundance Estimates</head><p>We ran closed population models in Program MARK to estimate population size. Heterogeneity in capture probability among individuals can be difficult to evaluate in noninvasive sampling studies and can bias population estimates <ref type="bibr">(Otis et al. 1978, Lukacs and</ref><ref type="bibr" target="#b44">Burnham 2005)</ref>. The shadow effect, where 2 individuals have genotypes indistinguishable from each other, can also attribute to population estimate biases; <ref type="bibr" target="#b47">Mills et al. (2000)</ref> demonstrated that modeling capture heterogeneity can decrease bias associated with shadow genotypes. We formulated 5 models to account for shadow effect, unequal detection probabilities, and time variation in capture probabilities. We included a behavioral response model with unequal encounter and recapture probabilities since a behavioral response could be an indication of heterogeneity. We ranked models using Akaike's Information Criterion corrected for small sample sizes (AIC c ). A relatively extended sampling regime for closed population models (i.e., longer than a few days or weeks) was necessary to capture temporal variation and accurately model detection probability. Given this, we examined Pradel models <ref type="bibr" target="#b60">(Pradel 1996)</ref> to evaluate demographic and geographic population closure similar to methods in <ref type="bibr" target="#b33">Harris et al. (2010)</ref>. By systematically constraining or relaxing survival and recruitment terms in Pradel models, we were able to simulate open and closed population scenarios and rank subsequent models to evaluate if a closed system best fit the data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Citizen Science Data Collection</head><p>The citizen science project coordinator (J. M. Black) solicited river otter observations in Humboldt and Del Norte counties since 2000 by yearly advertisement of the project and record requests by providing e-mail, postal addresses, and a website where information could be obtained and submitted <ref type="bibr" target="#b6">(Black 2009)</ref>. Observations reported herein were only from the greater Humboldt Bay study region recorded from January to December 2008 to correspond to the same year as the noninvasive genetic sampling. We invited regional wildlife and fisheries students and professionals to participate in distribution of information and collection and collation of observations. We placed signs at public access points to water bodies and replaced them as needed, and sent e-mail reminders to network participants each year. We asked citizen volunteers to record date, time, location, and number of river otter adults and pups. We provided no official training for volunteers and they had little direct contact with the project manager as they submitted observations online or via e-mail. However, to ascertain submitted observations were reliable, the project coordinator visited each location to confirm habitat characteristics were consistent with river otter activity, responded via e-mail to most submitted observations, requested additional information if volunteer information was unclear, and identified volunteers as scientist or naturalist; wildlife, fish, or biology student; or layperson. We requested additional information including habitat features, tracks, slides, scat, dens, prey items, general behavior, and social interactions and used this as a means to confirm river otter behavior as opposed to other animals; we removed observational records if they did not clearly reflect river otter behavior. Several species in California could be confused for river otters including beaver (Castor canadensis), muskrat (Ondatra zibethicus), and harbor seal (Phoca vitulina), but only harbor seals were regularly detected in and around Humboldt Bay <ref type="bibr" target="#b2">(Barnhart et al. 1992</ref><ref type="bibr" target="#b62">, Reid 2006)</ref>, thus making the likelihood of misidentifying other aquatic mammals as river otters rare. We determined group size by the total number of animals reported in an observation and classified pups according to size relative to adults: 0.25, 0.50, or 0.75. We assessed pup records using information about their body size and date of observation (see <ref type="bibr" target="#b6">Black 2009</ref> for details). The observational dataset was comprised of sightings that were clustered in 9 discrete areas encompassing water bodies or sections of water bodies that corresponded to sites in this study. We separated clusters by gaps where no sightings occurred; distance between adjacent gaps ranged from 3 km to 11 km. Although gaps were small compared to reported distances that river otters move <ref type="bibr" target="#b63">(Reid et al. 1994)</ref>, we assumed river otter groups in these discrete areas were comprised of different individuals for the purpose of generating group size, which was based on the maximum number of otters observed in each of the 9 areas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>From 18 May to 31 October 2008, we collected 362 river otter scats, 83 jellies, and 45 mixed scat-jelly samples from the 9 collections sites. Among the 490 collections, we successfully genotyped 124 (25%) samples. Primary prey types identified in scat were fish (from bones and scales), crab (carapace, legs), invertebrate (chitinous exoskeletons), bird (feathers), mixed (more than 1 prey type identified), and unidentifiable scat content. Prey type did not influence genotyping success of scat (Fisher's exact test, P ¼ 0.74). Genotyping success rate of jellies (52%) was almost 3 times greater than successful scat (18%); mixed scat-jelly samples were intermediate in genotyping success (36%; x 2 2 ¼ 43.99, P &lt; 0.001). Fresh scat samples had a significantly greater genotyping success rate (28%) than older samples (13%; x 2 1 ¼ 7.13, P ¼ 0.008). All 6 microsatellite loci were polymorphic; the number of alleles ranged from 2 to 4. Allelic dropout rates ranged from 22.6% to 32.5%, with a weighted average over all 6 loci of 28.6%. False alleles occurred in 22 of 2,200 PCR reactions and ranged from 0.6% to 1.5% among loci. When evaluated for all 6 microsatellites, P ID and P (ID)sib were 3.7 Â 10 À4 and 2.6 Â 10 À2 , respectively. All loci met Hardy-Weinberg equilibrium assumptions; observed heterozygosity ranged 0.36-0.69 and expected heterozygosity ranged 0.44-0.65 (Table <ref type="table">1</ref>).</p><p>Among the 124 scat samples genotyped, we identified 40 unique microsatellite genotypes. Furthermore, 2 individuals were identical at all 6 loci but differed in sex typing, providing a minimum count of 41 river otters. Of these 41 individuals, 22 were males, 16 females, and 3 were of unknown sex (Table <ref type="table" target="#tab_0">2</ref>). The number of subsequent detections ranged from 0 to 12 (mean ¼ 3.0 AE 0.39 [SE]) and we found no difference in number of subsequent detections between males (mean ¼ 3.3 AE 0.65) and females (mean ¼ 2.7 AE 0.38; t 37 ¼ 0.83, P ¼ 0.42). Overall density, using minimum genotypes detected (41) over 45 km of coastline was 0.93 river otters/km. We detected new genotypes every month of the extensive 5-month sampling regime except October, the last month of sampling (Fig. <ref type="figure">2</ref>). Eight individuals were detected at more than 1 sampling location, of which 7 were male and 1 was female. All other individuals were detected only within 1 sampling site. Since most individuals were detected only within 1 location, we estimated crude linear home range estimates based on average distance between neighboring sites; this was approximately 7 km. Few samples were found at Freshwater Creek (n ¼ 4) and King Salmon Marina (n ¼ 2), none of which yielded viable DNA for genotyping; every other site had multiple individual detections, although individuals sampled at Woodley Island were all more often detected at Elk River (Table <ref type="table" target="#tab_0">2</ref>). Eight individuals were identified only by jelly samples and 16 detected only from scat; 17 river otters were detected through both jelly and scat samples.</p><p>The truncated mark-recapture dataset based on genotypes detected in August and September yielded 29 genotypes. The top closed population model held encounter probability and recapture probabilities equal but varied by time (Table <ref type="table" target="#tab_2">3</ref>). The 95% confidence intervals around the top model's abundance estimate was 30-44 individuals, with N equal to 33 (Table <ref type="table" target="#tab_2">3</ref>). Encounter probability estimates (p) and associated standard errors were reasonably small and varied widely between capture occasions (p ranged 0.06-0.39, SE ranged 0.04-0.09). The top model encompassed the minimum number of genotypes (41) detected from the extensive 5-month sampling period and reported more than the number of genotypes detected in the 2 months alone. Heterogeneity models, included here because they have been shown to limit error in noninvasive population estimate studies <ref type="bibr" target="#b71">(Solberg et al. 2006</ref><ref type="bibr" target="#b66">, Ruell et al. 2009)</ref>, were the lowest ranking models in our analysis. This may have been because of strong temporal differences in capture probabilities, masking individual heterogeneity within capture histories. The top-fitting Pradel model simulated a closed system indicating demographic closure was met (Table <ref type="table">4</ref>). We cataloged 107 river otter sightings in the citizen science database within the Humboldt Bay study area from January to December 2008 from 51 volunteer observers. We discarded 2 records as they were likely not river otters.</p><p>Table <ref type="table">1</ref>. The number of alleles, observed heterozygosity (H O ), expected heterozygosity (H E ), tests for conformance to Hardy-Weinberg equilibrium (P), probability of identity (P ID ), sibling probability of identity (P (ID)sibs ), allelic dropout rates (ADO), and false allele rates (FA) at 6 microsatellite loci for river otters in the Humboldt Bay region, California, USA, from 18 May to 31 October 2008.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Locus</head><p>No Reported group sizes ranged from 1 to 7 river otters (mean ¼ 2.0 AE 1.3 [SD]), and pups were observed at 4 of the 9 sites, with 8 pups observed in total (Table <ref type="table" target="#tab_0">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>We estimated between 41 and 44 river otters in the study area based on minimum genotypes detected and the top markrecapture model's upper 95% confidence interval. Markrecapture estimates from a 2-month sampling regime based on 29 genotypes encompassed the total number of genotypes detected during the rigorous 5-month study, suggesting the top model accurately estimated river otter abundance. Future studies focused on abundance could sample for several summer months to provide sufficient data for population estimates. Given the lack of new genotype detections in October, most river otters in the Humboldt Bay area were sampled before the end of the study. This may have been because of the ease of sampling at latrines, which serve as sites for olfactory communication integral in social interactions of river otters and are therefore frequently visited and marked by local individuals <ref type="bibr" target="#b38">(Kruuk 1992</ref><ref type="bibr" target="#b46">, Melquist et al. 2003</ref><ref type="bibr" target="#b65">, Rostain et al. 2004</ref><ref type="bibr" target="#b54">, Oldham and Black 2009)</ref>. The 25% genotyping success reported herein was similar to other published otter fecal DNA studies (20%, <ref type="bibr" target="#b20">Dallas et al. 2003;</ref><ref type="bibr">24%, Kalz et al. 2006;</ref><ref type="bibr">12.3%, Guertin et al. 2010;</ref><ref type="bibr">24%, Mowry et al. 2011)</ref>. Overall genotyping error rates were also comparable to other noninvasive genetic studies and considered acceptable for individual identification <ref type="bibr" target="#b14">(Broquet and Petit 2004</ref>), although we were only able to differentiate between 2 genetically similar individuals with sex-typing alone. We considered this a less costly mistake than adding ghost individuals due to genotyping error associated with processing additional microsatellite loci <ref type="bibr">(Mills et al. 2000, Waits and</ref><ref type="bibr" target="#b79">Leberg 2000)</ref>. Because we found agreement between genotypes detected and mark-recapture estimates, as well as followed strict adherence to a multi-tube approach, we do not believe shadow or extraneous genotypes were common in our data.</p><p>Recently, <ref type="bibr" target="#b49">Mowry et al. (2011)</ref> reported in a study conducted in south-central Missouri, USA, that older river otter scat had greater genotyping success than new scat and that although jellies genotyped better than scat, they only added 2 additional genotypes and were perhaps not as useful as scat when monitoring river otters. Interestingly, our results were not in concordance with some of their findings. We Table <ref type="table">4</ref>. Pradel models with varying parameter constraints to simulate geographic and demographic closure scenarios for river otters detected via noninvasive genetics from August to September 2008, in the Humboldt Bay region, California, USA. Model rankings based on corrected Akaike's Information Criterion (AIC c ), AIC c weight (w i ), and number of parameters (K). Fully closed models were constrained by fixing the survival term (w) to 1 (no death or emigration) and the recruitment term (f) to zero (no births or immigration).  found that fresh scat samples genotyped significantly better than older samples and jelly samples contributed a substantial number of new genotypes (approx. 20% of total detected).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model</head><p>Although environmental conditions could contribute to the observed differences between Missouri and northern California, in general our results highlight the variability of noninvasive genetics where factors influencing genotyping success may change not only by species but among or within populations <ref type="bibr" target="#b5">(Beja-Pereira et al. 2009)</ref>. Given this, we suggest testing river otter scat and jellies of all ages to determine the most efficient samples to target within a population of interest.</p><p>The Humboldt Bay river otter density estimate of 0.93 river otter/km was high compared to other coastal studies (0.28-0.60 river otter/km in Alaska, <ref type="bibr" target="#b77">Testa et al. 1994;</ref><ref type="bibr">0.26-0.46</ref> river otter/km in Alaska, <ref type="bibr" target="#b13">Bowyer et al. 2003</ref>; 0.37-0.63 river otter/km in British Columbia, Guertin 2009); however, the methodologies of <ref type="bibr" target="#b77">Testa et al. (1994)</ref> and <ref type="bibr" target="#b13">Bowyer et al. (2003)</ref> were different than those of the present study. Reported otter densities in inland systems were also much lower (0.17-0.37 river otter/km, <ref type="bibr" target="#b45">Melquist and Hornocker 1983;</ref><ref type="bibr">0.069-0.511 river otter/km, Mowry et al. 2011)</ref>, likely a result of narrow riparian habitats typical of inland systems compared to wider coastal systems. This is similar to what <ref type="bibr" target="#b39">Kruuk (1995)</ref> describes for the Eurasian otter, where densities were higher at coastal compared to inland riparian habitats. Two factors may have contributed to high river otter density in Humboldt Bay. First, the abundance of river otter prey in the Humboldt Bay region <ref type="bibr" target="#b57">(Penland and</ref><ref type="bibr">Black 2009, Cosby 2013</ref>) may create an environment conducive to supporting a large river otter population. <ref type="bibr" target="#b8">Blundell et al. (2000)</ref> found river otters maintained smaller home ranges in resource rich marine environments compared to freshwater habitats with fewer or less dense prey. If this is a general trend, we would expect a higher density of river otters in the Bay compared to adjacent inland river otter populations, reflective of differences in food availability between coastal and riparian systems (sensu <ref type="bibr" target="#b39">Kruuk 1995)</ref>. Second, because we were unable to discriminate juveniles from adults via noninvasive genetic methods our estimates included some juveniles that would inevitably disperse out of the area; census estimates of only resident adults may have been lower.</p><p>Citizen volunteer observations provided evidence that river otters successfully bred in the Humboldt Bay area, although reproduction may vary among sites given pups were observed at only 4 of 9 sites (also see <ref type="bibr" target="#b6">Black 2009)</ref>. Describing how reproductive performance varies could be instructive in evaluating river otter habitats, such as comparing habitat attributes of Arcata Marsh, a restored coastal marsh where litters have been reported consistently (although not in 2008), to Elk River estuary, the mouth of a watershed surrounded by harvested forests, agriculture, and residential areas where litters were reported infrequently <ref type="bibr" target="#b6">(Black 2009)</ref>. Citizen volunteer observations also contributed supplemental data for regions where noninvasive genetic sampling was not as informative. Such was the case with Freshwater Creek and King Salmon Marina where citizen volunteers observed 1 and 3 otters, respectively, but we were unable to generate genotypes from scat samples collected at these sites. Pairing noninvasive genetic analyses with citizen volunteer programs produced a more informed picture of river otter demography, which provides useful information as feedback for public participants.</p><p>Noninvasive genetic data indicate Humboldt Bay river otters may live in social groups as multiple individuals were detected repeatedly within the same geographical area; observational data corroborate these findings as groups of river otters were observed together multiple times within sites. River otter sociality has been reported to range from solitary individuals to social groups as large as 9 <ref type="bibr" target="#b69">(Shannon 1989</ref><ref type="bibr" target="#b64">, Rock et al. 1994</ref><ref type="bibr" target="#b10">, Blundell et al. 2002</ref><ref type="bibr" target="#b6">, Black 2009</ref>). Observed group size ranged 1-7 river otters in our study area based on direct observations and 2-12 individuals based on total number of genotypes detected at sites over the 5-month sampling period. In our study area, large group sizes have been anecdotally observed to be comprised of female-female social units including a matriarchal female, older helper daughters, and young of the year <ref type="bibr" target="#b69">(Shannon 1989</ref><ref type="bibr" target="#b70">(Shannon , 2012))</ref>; alternatively, they could be comprised of males related to the resident female and unrelated males from adjacent families <ref type="bibr">(Melquist and</ref><ref type="bibr">Hornocker 1983, Rock et al. 1994)</ref>. In coastal Alaska, social otters tended to have smaller home ranges than solitary otters, potentially because group living allowed for greater foraging efficiency <ref type="bibr" target="#b10">(Blundell et al. 2002)</ref>. Linear home ranges of coastal river otters have a large degree of spatial variation, but average (linear) home ranges for female and male coastal river otters range between 8-20 km and 21-45 km, respectively <ref type="bibr" target="#b12">(Bowyer et al. 1995</ref><ref type="bibr" target="#b9">, Blundell et al. 2001)</ref>. Crude home range estimates in Humboldt Bay averaged roughly 7 km, placing Humboldt river otter ranges on the smaller end of the spectrum, consistent with social living and dense food resources, as found in Alaska <ref type="bibr" target="#b8">(Blundell et al. 2000)</ref>. In our study, 7 of the 8 river otters detected at multiple locations were males, possibly reflecting larger male home ranges or alternative social strategies exhibited between the sexes <ref type="bibr" target="#b11">(Blundell et al. 2004</ref><ref type="bibr" target="#b23">, Gorman et al. 2006)</ref>. We also observed a male sex bias where 57.9% of river otters of known sex were male. Reports of male-biased river otter populations are common and the bias may be due to larger male home ranges, male biased birth rates, or behavioral differences between the sexes resulting in greater male detection rates <ref type="bibr" target="#b29">(Hamilton and Eadie 1964</ref><ref type="bibr" target="#b45">, Melquist and Hornocker 1983</ref><ref type="bibr" target="#b49">, Mowry et al. 2011)</ref>. Further investigation of genetic relatedness may provide insights into the social behavior and structure of Humboldt Bay river otter groups and contribute to our understanding of river otter space utilization and intraspecific tolerances.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MANAGEMENT IMPLICATIONS</head><p>Overall, methods and results reported herein demonstrate the usefulness of noninvasive genetic surveys for estimating population abundance of river otters. Both scat and jellies provided a substantial number of new genotypes and newer samples amplified better than old samples. Based on the differences between these results and other river otter fecal studies, we would suggest a pilot project to identify the most informative samples for a specific region. Population estimates derived from just 2 months of data encompassed the total number of genotypes detected from 5 months of sampling, indicating future studies could collect sufficient data for accurate population estimates in a much shorter sampling period. The inclusion of citizen science data provided information on pups and group size in the Humboldt Bay region, data not available through genetic analyses. Prior to these efforts, no rigorous demographic study of river otters had been conducted in northern California. Assessing how river otter abundance and density change over time will inform managers about the health of an apparently productive coastal system. We recommend these methods and models to others interested in examining populations of river otters for management of wetland ecosystems in a changing world.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Focal latrine sites sampled noninvasively for river otter scat from 18 May to 31 October 2008, Humboldt Bay, California, USA.</figDesc><graphic coords="3,53.06,53.18,228.46,315.33" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 2 .</head><label>2</label><figDesc>The weighted mean, which is the ratio of observed ADO or FA over all loci to the number of heterozygous genotypes. Total number of scat and jelly samples collected, river otters genotyped via scat or jelly, and number of males (M), females (F), and unknown sex (U) river otters detected in 9 areas within the Humboldt Bay region, California, USA, from 18 May to 31 October 2008. We derived river otters and pups observed, as well as mean and maximum observed groups' sizes from the citizen science project's recorded observations from January to December 2008.</figDesc><table><row><cell></cell><cell>. of alleles</cell><cell>H O</cell><cell>H E</cell><cell>P</cell><cell>P ID</cell><cell>P (ID)sibs</cell><cell>ADO (%)</cell><cell>FA (%)</cell></row><row><cell>Lut453</cell><cell>4</cell><cell>0.692</cell><cell>0.651</cell><cell>0.675</cell><cell>0.19</cell><cell>0.47</cell><cell>30.9</cell><cell>1.0</cell></row><row><cell>Lut733</cell><cell>3</cell><cell>0.650</cell><cell>0.587</cell><cell>0.683</cell><cell>0.24</cell><cell>0.52</cell><cell>28.2</cell><cell>1.2</cell></row><row><cell>Rio08</cell><cell>3</cell><cell>0.485</cell><cell>0.606</cell><cell>0.150</cell><cell>0.22</cell><cell>0.50</cell><cell>32.5</cell><cell>1.5</cell></row><row><cell>Lut701</cell><cell>4</cell><cell>0.541</cell><cell>0.537</cell><cell>0.480</cell><cell>0.26</cell><cell>0.55</cell><cell>29.8</cell><cell>1.1</cell></row><row><cell>Rio18</cell><cell>3</cell><cell>0.487</cell><cell>0.444</cell><cell>0.565</cell><cell>0.35</cell><cell>0.62</cell><cell>22.6</cell><cell>0.6</cell></row><row><cell>Lut604 Mean Probability</cell><cell>2 3.17</cell><cell>0.361 0.536</cell><cell>0.453 0.546</cell><cell>0.222 0.462</cell><cell>0.40 0.0004 b</cell><cell>0.62 0.026 b</cell><cell>24.1 28.6 a</cell><cell>0.7 1.0 a</cell></row><row><cell>a</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p><p>b </p>Probability value for all 6 loci. a Abbreviated site name Humboldt Bay National Wildlife Refuge (HBNWR). b Individuals more often detected at Elk River site then Woodley Island site.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Abundance estimate model rankings based on corrected Akaike's Information Criterion (AIC c ), AIC c weight (w i ), and number of parameters (K), as well as corresponding population estimates (N), standard error (SE), and 95% confidence intervals (CI) for river otters in the Humboldt Bay region, California, USA, August-September 2008. N ¼ abundance parameter, p ¼ capture probability, c ¼ recapture probability, t ¼ temporal variation, (.) ¼ constant, p ¼ heterogeneity model, a ¼ heterogeneity period 1, b ¼ heterogeneity period 2. Number of river otter scat and jelly samples collected, number of individuals successfully genotyped, and newly detected genotypes in the Humboldt Bay region, California, USA, from 18 May to 31 October 2008.</figDesc><table><row><cell>Model a</cell><cell>Description</cell><cell>DAIC c</cell><cell>w i</cell><cell>K</cell><cell>N</cell><cell>SE</cell><cell>95% CI</cell></row><row><cell>{(N,p(t) ¼ c(t))}</cell><cell>Time varying p</cell><cell>0.00</cell><cell>0.85</cell><cell>10</cell><cell>33.4</cell><cell>3.1</cell><cell>30.3-44.1</cell></row><row><cell>{(N,p(.),c(.))}</cell><cell>Behavioral response</cell><cell>4.37</cell><cell>0.10</cell><cell>3</cell><cell>61.3</cell><cell>46.5</cell><cell>33.0-286.6</cell></row><row><cell>{(N,p(.) ¼ c(.))}</cell><cell>Constant p</cell><cell>6.36</cell><cell>0.04</cell><cell>2</cell><cell>34.1</cell><cell>3.4</cell><cell>30.6-45.5</cell></row><row><cell>{(N,p,p a (.) ¼ c a (.),p b (.) ¼ c b (.))}</cell><cell>Heterogeneous p</cell><cell>8.40</cell><cell>0.01</cell><cell>3</cell><cell>34.2</cell><cell>3.4</cell><cell>30.6-45.6</cell></row><row><cell>{(N,p,p a (t) ¼ c a (t),p b (t) ¼ c b (t))}</cell><cell>Heterogeneous time varying p</cell><cell>10.85</cell><cell>0.00</cell><cell>20</cell><cell>32.1</cell><cell>2.8</cell><cell>29.7-42.9</cell></row></table><note><p>a</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>The Journal of Wildlife Management 77(8) 19372817, 2013, 8, Downloaded from https://wildlife.onlinelibrary.wiley.com/doi/10.1002/jwmg.610 by Portail BibCNRS INEE, Wiley Online Library on [25/05/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>19372817, 2013, 8, Downloaded from https://wildlife.onlinelibrary.wiley.com/doi/10.1002/jwmg.610 by Portail BibCNRS INEE, Wiley Online Library on [25/05/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>Special thanks to <rs type="person">A. Baker</rs> for laboratory assistance, <rs type="person">J. Zalewski</rs> for assistance with river otter scat and jelly collection, and 2 anonymous reviewers for valuable comments and suggestions. Funding for this project was provided by <rs type="funder">Humboldt State University Sponsored Programs Foundation</rs>, <rs type="funder">Humboldt State University Office of Research and Graduate Studies</rs>, the <rs type="funder">Eureka Rotary Club</rs>, the <rs type="funder">Richard J. Guadagno Memorial Scholarship</rs>, the <rs type="funder">Marin Rod and Gun Club</rs>, as well as the <rs type="grantName">Stanley Harris Scholarship</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_QPsVNtB">
+					<orgName type="grant-name">Stanley Harris Scholarship</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Reliability of noninvasive genetic census of otters compared to field censuses</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arrendal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bjorklund</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1097" to="1107" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Ausubel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kingston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Seidman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Struhl</surname></persName>
+		</author>
+		<title level="m">Short protocols in molecular biology</title>
+		<meeting><address><addrLine>Hoboken, New Jersey, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley and Sons, Inc</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note>Fifth edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The ecology of Humboldt Bay, California an estuarine profile</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Barnhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Pequegnat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">U.S. Fish and Wildlife Service Biological Report</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">121</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Development of polymorphic microsatellite loci for North American river otters (Lontra canadensis) and amplification in related Mustelids</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Beheler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Fike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Murfitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">E</forename><surname>Rhodes</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Serfass</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="56" to="58" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Ten new polymorphic loci for North American river otters (Lontra canadensis) and their utility in related Mustelids</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Beheler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Fike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dharmarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">E</forename><surname>Rhodes</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Serfass</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="602" to="604" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Advancing ecological understanding through technological transformations in noninvasive genetics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beja-Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1279" to="1301" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">River otter monitoring by citizen science volunteers in northern California: social groups and litter size</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Black</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Northwestern Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="130" to="135" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Capturing river otters: a comparison of Hancock and leg-hold traps</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Blundell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ben-David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Bowyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Duffy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="184" to="192" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Effects of food resources on spacing behavior of river otters: does forage abundance control home-range size?</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Blundell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Bowyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ben-David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Jewett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotelemetry</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="325" to="333" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Linear home ranges: effects of smoothing, sample size, and autocorrelation on kernel estimates</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Blundell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A K</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Debevec</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Monographs</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="469" to="489" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Sociality in river otters; cooperative foraging or reproductive strategies</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Blundell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ben-David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Bowyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="134" to="141" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Kinship and sociality in coastal river otters: are they related?</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Blundell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ben-David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Groves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Bowyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Geffen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Ecology</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="705" to="714" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Habitat selection and home ranges of river otters in a marine environment: effect of the Exxon Valdez oil spill</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Bowyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Testa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Faro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Effects of the Exxon Valdez oil spill on river otters: injury and recovery of a sentinel species</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Bowyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Blundell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ben-David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Jewett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Duffy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Monographs</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="1" to="53" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Quantifying genotyping errors in noninvasive population genetics</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Broquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Petit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3601" to="3608" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Early use by fish of a mitigation salt marsh, Humboldt Bay, California</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Barnhart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Estuaries</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="769" to="783" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Shorebirds of Humboldt Bay, California: abundance estimates and conservation implications</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Colwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Western Birds</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="137" to="145" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cosby</surname></persName>
+		</author>
+		<title level="m">Variation in diet and activity of river otters (Lontra canadensis) by season and aquatic community</title>
+		<meeting><address><addrLine>Arcata, California, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+		<respStmt>
+			<orgName>Humboldt State University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Spatial and behavioral scales of habitat selection and activity by river otters at latrine sites</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Crowley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hodder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="170" to="182" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Microsatellite primers for the Eurasian otter</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Dallas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Piertney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1248" to="1251" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Similar estimates of population genetic composition and sex ratio derived from carcasses and faeces of Eurasian otter Lutra lutra</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Dallas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Coxon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sykes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R F</forename><surname>Chanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Carss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Bacon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Piertney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Racey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="275" to="282" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Reliable microsatellite genotyping of the Eurasian badger (Meles meles) using faecal DNA</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Frantz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Carpenter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1649" to="1661" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Unveiling the limitations of scat surveys to monitor social species: a case study on river otters</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gallant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vasseur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Be</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="258" to="265" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Space use and sociality of river otters (Lontra canadensis) in Minnesota</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Gorman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Erb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="740" to="747" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Gould</surname><genName>Jr</genName></persName>
+		</author>
+		<title level="m">California Fish and Game Nongame Division</title>
+		<meeting><address><addrLine>Sacramento, California, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note>Status of the river otter in California</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Guertin</surname></persName>
+		</author>
+		<title level="m">Assessment of contaminant exposure, diet, and population metrics of river otters (Lontra canadensis) along the coast of southern Vancouver Island</title>
+		<meeting><address><addrLine>Burnaby British Columbia, Canada</addrLine></address></meeting>
+		<imprint>
+			<publisher>Simon Fraser University</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Fecal genotyping and contaminant analyses reveal individual river otter exposure to localized persistent contaminants</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Guertin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Harestad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ben-David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Drouillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Elliott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Toxicology and Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="275" to="284" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Fecal genotyping reveals demographic variation in river otters inhabiting a contaminated environment</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Guertin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ben-David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Harestad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Elliott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1540" to="1550" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Factors affecting success of PCR amplification of microsatellite loci from otter faeces</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hajkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zemanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bryja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hajek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Roche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tkadlec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="559" to="562" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Reproduction in the otter, Lutra canadensis</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Hamilton</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Eadie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="242" to="252" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Identification of mustelid species: otter (Lutra lutra), American mink (Mustela vison), and polecat (Mustela putorius) by analysis of DNA from faecal samples</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jacobsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">247</biblScope>
+			<biblScope unit="page" from="177" to="181" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Effects of genotyping protocols on success and errors in identifying individual river otters (Lontra canadensis) from their faeces</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ben-David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Mcdonald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="282" to="289" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Mesocarnivores of northern California biology, management, and survey techniques</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Ogan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<publisher>The Wildlife Society, California North Coast Chapter</publisher>
+			<pubPlace>Arcata, California; , Arcata, California, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Humboldt State University</orgName>
+		</respStmt>
+	</monogr>
+	<note>workshop manual. 12-15 August</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Argali abundance in the Afghan Pamir using capture-recapture modeling from fecal DNA</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Winnie</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Amish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beja-Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Va ˆnia Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="668" to="677" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Faecal DNA typing to determine the abundance and spatial organization of otters (Lutra lutra) along two stream systems in Kinmen</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Conservation</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="301" to="311" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Factors affecting detectability of river otters during sign surveys</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Jeffress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Paukert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Sandercock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Gipson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="144" to="150" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Structure of an otter (Lutra lutra) population in Germany-results of DNA and hormone analysis from faecal samples</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kalz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jewgenow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fickel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammalian Biology</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="321" to="335" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kirk</surname></persName>
+		</author>
+		<title level="m">River otter survey progress report</title>
+		<meeting><address><addrLine>Sacramento, California, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>California Department of Fish and Game Nongame Wildlife Investigations</publisher>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Scent marking in otters (Lutra lutra): signaling the use of resources</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kruuk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Ecology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="133" to="140" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kruuk</surname></persName>
+		</author>
+		<title level="m">Wild otters: predation and population</title>
+		<meeting><address><addrLine>Oxford, United Kingdom</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kruuk</surname></persName>
+		</author>
+		<title level="m">Otters: ecology, behavior and conservation</title>
+		<meeting><address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">An optimized approach to increase DNA amplification success of otter faeces</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lampa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gruber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Henle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hoehn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="201" to="210" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Estimating the numbers of animals in wildlife populations</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Lancia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Techniques for wildlife investigations and management</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Braun</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Bethesda, Maryland, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>The Wildlife Society</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="106" to="146" />
+		</imprint>
+	</monogr>
+	<note>Sixth edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Mammalian species, Lontra canadensis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Larivie ´re</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Walton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Society of Mammalogists</title>
+		<imprint>
+			<biblScope unit="volume">587</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Review of capture-recapture methods applicable to noninvasive genetic sampling</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Lukacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="3909" to="3919" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Ecology of river otters in west central Idaho</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Melquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Hornocker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Monograph</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="1" to="60" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">River otter (Lontra canadensis)</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Melquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Polechla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Toweill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Wild mammals of North America: biology, management, and conservation</title>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Feldhamer</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Thompson</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Chapman</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Baltimore, Maryland, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Johns Hopkins University Press</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="708" to="734" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Estimating animal abundance using noninvasive DNA sampling: promise and pitfalls</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Citta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Lair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Tallmon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="283" to="294" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Could residual oil from the Exxon Valdez spill create a long-term population &quot;sink&quot; for sea otters in Alaska?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Monson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Doak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Ballachey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bodkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="2917" to="2932" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">River otter population size estimation using noninvasive latrine surveys</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Mowry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Gompper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beringer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Eggert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1625" to="1636" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Sex identification of Eurasian otter (Lutra lutra) noninvasive DNA samples using ZFX/ZFY sequences</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Randi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1479" to="1482" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The influence of diet on faecal DNA amplification and sex identification in brown bear (Ursus arctos)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2261" to="2265" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Pacific salmon at the crossroads: stocks at risk from California, Oregon, Idaho, and Washington</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Nehlsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Lichatowich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fisheries</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Factors affecting the amount of genomic DNA extracted from ape faeces and the identification of an improved sample storage method</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Nsubuga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Robbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Roeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="2089" to="2094" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Experimental tests of latrine use and communication by river otters</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Oldham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Black</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Northwestern Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="207" to="211" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Statistical inference from capture data on closed populations</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Otis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Monographs</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="1" to="135" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">DNA-based approach to aging martens (Martes americana and M. caurina)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Pauli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Whiteman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Marcot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mcclean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ben-David</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="500" to="510" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Seasonal variation in river otter diet in coastal northern California</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Penland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Black</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Northwestern Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="233" to="237" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Action plan for North American otters</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Polechla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Otters: an action plan for their conservation</title>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Foster-Turley</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Macdonald</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Mason</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Gland, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>International Union for the Conservation of Nature and Natural Resources</publisher>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="page" from="74" to="79" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">First physical evidence of the Nearctic river otter (Lontra canadensis) collected in New Mexico, USA, since 1953</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Polechla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Dragoo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IUCN Otter Specialist Group Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="70" to="75" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Utilization of capture-mark-recapture for the study of recruitment and population growth rate</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pradel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="703" to="709" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Progress and status of river otter reintroduction projects in the United States</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Raesly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="856" to="862" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Reid</surname></persName>
+		</author>
+		<title level="m">Mammals of North America: Peterson field guide series</title>
+		<meeting><address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Houghton Mifflin Company</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>Fourth edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Spacing, movements, and habitat selection of the river otter in boreal Alberta</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Code</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C H</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Herrero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1314" to="1324" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Degree of association and use of a helper by coastal river otters, Lutra canadensis, in Prince William Sound, Alaska</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Rock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Rock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Bowyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Faro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Field-Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="367" to="369" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Why do river otters scent-mark? An experimental test of several hypotheses</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Rostain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ben-David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Groves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Randall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Behaviour</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="703" to="711" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Estimating bobcat population sizes and densities in a fragmented urban landscape using noninvasive capture-recapture sampling</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Ruell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P D</forename><surname>Riley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Douglas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Pollinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Crooks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="129" to="135" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Schempf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>White</surname></persName>
+		</author>
+		<title level="m">Status of six furbearer populations in the mountains of northern California</title>
+		<meeting><address><addrLine>San Francisco, California, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1977">1977</date>
+			<biblScope unit="volume">5</biblScope>
+		</imprint>
+	</monogr>
+	<note>USDA Forest Service, California Region</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Considerations for capturing, handling, and translocating river otters</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Serfass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Swimley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Rymon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Hayden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="25" to="31" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Social organization and behavioral ontogeny of otters (Lutra canadensis) in a coastal habitat in northern California</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Shannon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IUCN Otter Specialist Group</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="8" to="13" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Shannon</surname></persName>
+		</author>
+		<ptr target="&lt;http://otters.net/pg1.html&gt;" />
+		<title level="m">An otter family album</title>
+		<imprint>
+			<date type="published" when="2012-06-04">2012. 4 Jun 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">An evaluation of field and noninvasive genetic methods to estimate brown bear (Ursus arctos) population size</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Solberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellermain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Drageset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Swenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="158" to="168" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Molecular sex identification of five mustelid species</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Statham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'reilly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zoological Studies</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="600" to="608" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Visitation patterns and behavior of Nearctic river otters (Lontra canadensis) at latrines</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Serfass</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Northeastern Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">The influence of habitat quality on the detection of river otter (Lontra canadensis) latrines near bridges</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Just</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Cordes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Serfass</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Midland Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="page" from="435" to="445" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Source and sink dynamics of density-dependent otter (Lutra lutra) populations in rivers of central Finland</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Sulkava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">O</forename><surname>Sulkava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Sulkava</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oecologia</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="579" to="588" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Non-invasive genetic sampling and individual identification</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Journal of the Linnean Society</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="41" to="55" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Estimating populations of marine river otters in Prince William Sound Alaska, using radiotracer implants</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Testa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Hollerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Bowyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Faro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1021" to="1032" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">GIMLET: a computer program for analyzing genetic individual identification data</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valie `re</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Biases associated with population estimation using molecular tagging</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Leberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Conservation</title>
+		<editor>
+			<persName><forename type="first">John</forename><surname>Daigle</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="191" to="199" />
+			<date type="published" when="2000">2000</date>
+			<publisher>Associate Editor</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

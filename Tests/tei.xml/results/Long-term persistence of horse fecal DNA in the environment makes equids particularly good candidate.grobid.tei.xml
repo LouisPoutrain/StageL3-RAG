@@ -1,0 +1,2087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Novel microsatellites and investigation of faecal DNA as a noninvasive population monitoring tool for the banded hare-wallaby (Lagostrophus fasciatus)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-02-08">8 February 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Saul</forename><surname>Cowen</surname></persName>
+							<email>saul.cowen@dbca.wa.gov.au</email>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Smith</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Shelley</forename><surname>Mcarthur</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kelly</forename><surname>Rayner</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chantelle</forename><surname>Jackson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Georgina</forename><surname>Anderson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kym</forename><surname>Ottewell</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Janine</forename><surname>Deakin</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Biodiversity, Conservation and Attractions</orgName>
+								<orgName type="department" key="dep2">Biodiversity and Conservation Science</orgName>
+								<address>
+									<addrLine>Locked Bag 104</addrLine>
+									<postCode>6983</postCode>
+									<settlement>Bentley</settlement>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Biodiversity</orgName>
+								<orgName type="department" key="dep2">Conservation and Attractions Animal Ethics</orgName>
+								<orgName type="institution">Australian Wildlife Conservancy</orgName>
+								<address>
+									<addrLine>Subiaco East</addrLine>
+									<postBox>PO Box 8070</postBox>
+									<postCode>6008</postCode>
+									<settlement>Perth</settlement>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">D Environmental and Conservation Sciences</orgName>
+								<orgName type="institution">Murdoch University</orgName>
+								<address>
+									<addrLine>90 South Street</addrLine>
+									<postCode>6150</postCode>
+									<settlement>Murdoch</settlement>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Novel microsatellites and investigation of faecal DNA as a noninvasive population monitoring tool for the banded hare-wallaby (Lagostrophus fasciatus)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-02-08">8 February 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E5543A49BB1939FFEEC33E28C3392549</idno>
+					<idno type="DOI">10.1071/ZO21015</idno>
+					<note type="submission">Received: 7 May 2021 Accepted: 16 December 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-15T16:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>conservation</term>
+					<term>faeces</term>
+					<term>hare-wallaby</term>
+					<term>Lagostrophus</term>
+					<term>minimally invasive</term>
+					<term>molecular genetics</term>
+					<term>monitoring</term>
+					<term>threatened species</term>
+					<term>wildlife management. Ethical approval</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>For full list of</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>When it comes to managing threatened species, population size is a fundamental metric <ref type="bibr" target="#b64">(Williams et al. 2002;</ref><ref type="bibr" target="#b30">Lindenmayer et al. 2012)</ref>. Appropriate monitoring methods will vary according to the ecology and behaviour of the target species, as well as consideration of detection and cost-efficiencies <ref type="bibr" target="#b25">(Garden et al. 2007)</ref>. By monitoring the size of a population, conservation managers can assess the species' status relative to specific targets and management goals. Popular and robust methods of obtaining population estimates are capture-recapture models <ref type="bibr" target="#b40">(Nichols 1992;</ref><ref type="bibr" target="#b9">Chao 2001;</ref><ref type="bibr" target="#b22">Efford and Fewster 2013)</ref>. These methods rely on the ability to identify individual animals in a population across survey periods, after physical or non-physical (i.e. photographs from camera traps) capture <ref type="bibr" target="#b28">(Jones et al. 1996;</ref><ref type="bibr" target="#b9">Chao 2001)</ref>. For example, in Australia, livecapture surveys have been an effective method of monitoring a suite of taxa, including reptiles, frogs and small and medium-sized mammals and are identified as such in survey guidelines for threatened taxa drawn up by the Australian government <ref type="bibr">(DEWHA 2010;</ref><ref type="bibr">DSEWPaC 2011a</ref><ref type="bibr">DSEWPaC , 2011b))</ref>. However, some species may not be readily lured to live-capture or remote camera traps and live-capture can sometimes pose serious risk to captured animals <ref type="bibr" target="#b12">(Cole et al. 1994;</ref><ref type="bibr" target="#b58">Soulsbury et al. 2020)</ref>.</p><p>Whilst camera traps may offer a practical, non-invasive alternative for some taxa (De Bondi et al. 2010), they have inherent limitations <ref type="bibr" target="#b1">(Ballard et al. 2014;</ref><ref type="bibr" target="#b33">Meek et al. 2015)</ref> and may not be appropriate for obtaining estimates of population size or density due to the inability to identify individual animals. Sticky hair-tubes or other capture devices (e.g. barbed wire on scratching trees <ref type="bibr" target="#b38">(Mowat and Strobeck 2000)</ref>) represent another form of minimally-invasive monitoring that can be used to gather information on presence/ absence <ref type="bibr" target="#b37">(Mortelliti and Boitani 2008)</ref> or occupancy <ref type="bibr" target="#b47">(Pocock and Bell 2011)</ref>. These methods also have the advantage that DNA analysis of sampled hair can provide individual identification for capture-recapture analysis <ref type="bibr" target="#b38">(Mowat and Strobeck 2000;</ref><ref type="bibr" target="#b56">Sloane et al. 2000;</ref><ref type="bibr" target="#b2">Banks et al. 2003)</ref>. However, to obtain sufficient samples for analysis, they still rely on animals responding to a lure or positioning of devices to exploit predictable animal behaviours <ref type="bibr" target="#b53">(Ruibal et al. 2010;</ref><ref type="bibr" target="#b11">Chiron et al. 2018</ref>) such as the use of scratching trees <ref type="bibr" target="#b38">(Mowat and Strobeck 2000)</ref> or when entering or exiting burrows <ref type="bibr" target="#b2">(Banks et al. 2003)</ref>.</p><p>Faecal DNA analysis is a non-invasive sampling approach that holds promise for species that do not respond to lures and for which other non-invasive (e.g. hair) sampling is unsuitable. Faecal DNA, i.e. DNA derived from epithelial cells on the surface of faecal pellets (scats) excreted by the target species <ref type="bibr" target="#b62">(Waits and Paetkau 2005)</ref>, can be of sufficient quality and quantity to be used to identify individuals, representing a non-invasive form of capture-recapture survey <ref type="bibr" target="#b35">(Mills et al. 2000;</ref><ref type="bibr" target="#b32">Lukacs and Burnham 2005)</ref>. This method has already been used successfully for a range of mammal species <ref type="bibr" target="#b45">(Piggott et al. 2006;</ref><ref type="bibr" target="#b26">Goode et al. 2014;</ref><ref type="bibr" target="#b24">Fuller et al. 2016;</ref><ref type="bibr" target="#b36">Morin et al. 2016;</ref><ref type="bibr" target="#b67">Woodruff et al. 2016;</ref><ref type="bibr" target="#b21">Dziminski et al. 2021</ref>).</p><p>An important consideration for incorporating faecal DNA genotyping into a monitoring program is the rate at which the DNA degrades in the environment <ref type="bibr" target="#b44">(Piggott 2004;</ref><ref type="bibr" target="#b41">Panasci, Ballard et al. 2011;</ref><ref type="bibr" target="#b66">Woodruff et al. 2015;</ref><ref type="bibr" target="#b7">Carpenter and Dziminski 2017)</ref>. Environmental variables such as moisture <ref type="bibr" target="#b27">(Harestad and Bunnell 1987;</ref><ref type="bibr" target="#b39">Murphy et al. 2007;</ref><ref type="bibr" target="#b5">Brinkman et al. 2010)</ref>, ultraviolet light (UV) <ref type="bibr" target="#b49">(Ravanat et al. 2001</ref>) and temperature <ref type="bibr" target="#b39">(Murphy et al. 2007;</ref><ref type="bibr" target="#b15">DeMay et al. 2013)</ref> are known to influence the rate of degradation of faecal DNA. <ref type="bibr" target="#b29">King et al. (2018)</ref> found that arid climates may be advantageous for the preservation of faecal DNA in the environment, notwithstanding the high UV exposure and temperatures these areas may receive. The use of faecal DNA is also prone to genotyping errors, such as allelic dropout or identification of false alleles, that may become more frequent with increasing DNA degradation. Allelic dropout is where only one allele of a heterozygous individual is obtained ('false homozygote'), whereas false alleles are when an artefact of amplification is incorrectly assigned as an allele leading to a 'false heterozygote'. Allelic dropout may occur if only one allele is aliquoted from a sample for polymerase chain reaction (PCR); false alleles result from low rates of amplification of the target locus, which makes it difficult to differentiate from artefactual amplification <ref type="bibr" target="#b48">(Pompanon et al. 2005)</ref>. In addition to genotyping errors, amplification failure may occur when quantities of nuclear DNA containing the target loci are simply too low or fragmented. Each of these errors can result from low or highly fragmented quantities of DNA <ref type="bibr" target="#b60">(Taberlet et al. 1999)</ref>, which may occur with prolonged exposure to environmental variables. Furthermore, genotyping errors can lead to false individual assignments that can severely bias capturerecapture and population estimates <ref type="bibr" target="#b60">(Taberlet et al. 1999;</ref><ref type="bibr" target="#b68">Wright et al. 2009)</ref>.</p><p>The banded hare-wallaby (Lagostrophus fasciatus) is a small species of macropodiform marsupial. While related to true kangaroos, the banded hare-wallaby is placed in the monotypic subfamily Lagostrophinae. The species is listed as Vulnerable under international <ref type="bibr" target="#b6">(Burbidge and Woinarski 2016)</ref> and Australian criteria (Department of the Environment 2019). Since this species became extinct on the Australian mainland, the only natural populations remain on Bernier and Dorre Islands on the west coast of Western Australia (WA). Due to its currently restricted distribution, the species has been the subject of several reintroduction attempts <ref type="bibr" target="#b63">(White et al. 2020)</ref>, most recently to Dirk Hartog Island National Park (DHI) and a feral predator-proof fenced area at Mount (Mt) Gibson Wildlife Sanctuary (Australian Wildlife Conservancy 2018a; <ref type="bibr" target="#b13">Cowen et al. 2018)</ref>.</p><p>Banded hare-wallabies are considered to be 'trap-shy', i.e. not readily trapped using conventional live-capture methods <ref type="bibr" target="#b51">(Richards et al. 2001;</ref><ref type="bibr" target="#b65">Woinarski et al. 2014)</ref>. Passive techniques such as camera traps have not yet proved an effective monitoring method both in recently translocated and well-established populations (Australian Wildlife Conservancy 2018b; <ref type="bibr" target="#b13">Cowen et al. 2018)</ref>. Monitoring of the populations on Bernier and Dorre Islands has involved distance sampling analysis from observations during spotlight surveys conducted on foot along transects <ref type="bibr" target="#b10">(Chapman et al. 2015)</ref>. However, this method relies on a minimum number of observations which may not always be achievable and is highly labour-intensive. As such, a non-invasive method of estimating abundance using genetic analysis of DNA extracted from scats could be a highly useful monitoring tool for this species.</p><p>Here, we undertook a pilot study to investigate the feasibility of using DNA derived from banded hare-wallaby faecal pellets to monitor population abundance and density. Such studies are recommended for developing an effective monitoring methodology using these techniques <ref type="bibr" target="#b62">(Waits and Paetkau 2005;</ref><ref type="bibr" target="#b61">Valière et al. 2006;</ref><ref type="bibr" target="#b31">Luikart et al. 2010)</ref>.</p><p>The aims of this study were: (1) develop an array of shorttandem repeat (microsatellite) markers for use in assigning individual genotypes in banded hare-wallabies; (2) evaluate the rate of degradation of DNA on the surface of banded hare-wallaby scats over time, by assessing rates of amplification success and genotyping error; and (3) assess the effect of solar exposure on the rate of degradation of DNA.</p><p>In order to achieve the latter two aims, we replicated a faecal exposure experiment in two target environments into www.publish.csiro.au/zo Australian Journal of Zoology which banded hare-wallabies have been translocated (Dirk Hartog Island, Mt Gibson Wildlife Sanctuary) and that differ primarily in ambient moisture/humidity. To genotype individuals, we developed a novel, species-specific set of microsatellite markers for the banded hare-wallaby. The specificity of the markers is critical since rufous harewallabies (Lagorchestes hirsutus) have also been translocated to Dirk Hartog Island and their faecal pellets are similar in size and shape to banded hare-wallabies.</p><p>We predicted that increased DNA fragmentation, increased genotyping error rates and decreased likelihood of successful amplification by PCR would result from increased time in the environment. We also predicted that the humid coastal environment of Dirk Hartog Island would result in more rapid DNA degradation than the mainland Mt Gibson site which is ≥250 km from the coast. Other environmental variables (e.g. mean solar exposure) were predicted to be similar at both locations, but we expected to see high rates of amplification failure and genotyping errors in samples with higher levels of solar exposure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study sites</head><p>Dirk Hartog Island National Park (DHI) is in the Shire of Shark Bay, 750 km NNW of Perth, and is managed by the WA Department of Biodiversity, Conservation and Attractions. The island lies at the western edge of the Shark Bay UNESCO World Heritage Area (Fig. <ref type="figure" target="#fig_1">1</ref>) with an approximate location of -26°S, 113°E. The climate is semi-arid with a mean annual rainfall of 200-300 mm (winter dominant), a mean maximum temperature of 27-30°C and an average daily solar exposure of 21-24 MJ/m 2 (Bureau of Meteorology 2021). Due to its proximity to the Indian Ocean, the island is relatively humid and can experience heavy dews.</p><p>Mt Gibson Wildlife Sanctuary is located in the Shire of Yalgoo, ≥250 km from the Indian Ocean at an approximate location of -29°S, 117°E (Fig. <ref type="figure" target="#fig_1">1</ref>). The sanctuary is managed by the not-for-profit organisation, the Australian Wildlife Conservancy <ref type="bibr" target="#b57">(Smith et al. 2020)</ref>. The climate is semi-arid with an average rainfall of 322 mm (winter dominant) but with substantial inter-annual variation. The property experiences a mean maximum temperature of 30°C and an average daily solar exposure of 21-24 MJ/m 2 (Bureau of Meteorology 2021).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Specimen collection</head><p>Scat collections were made during the translocation of banded hare-wallabies from Bernier and Dorre Islands (Fig. <ref type="figure" target="#fig_1">1</ref>) to DHI on 16 September 2018 and from Bernier Island and Faure Island Wildlife Sanctuary to Mt Gibson on 18, 19 and 27 October 2018. Fresh scat samples were collected from cotton handling bags used to hold wallabies during the translocation and as such were obtained from known individuals. Pellets were handled with sterile latex gloves or sterilised tweezers, which were replaced/sterilised between sample collections to avoid cross-contamination between individual animals. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In-situ degradation trial</head><p>As per <ref type="bibr" target="#b7">Carpenter and Dziminski (2017)</ref>, pellets were placed on 5 cm × 5 cm ceramic dishes on clean, dry sand. Dishes were kept in three individual enclosures 30 cm (W) × 70 cm (L) × 30 cm (H) made from 3 mm wire-mesh. Each enclosure was covered with two 17 mm pieces of UV transmitting 'Plexiglas' (Evonik Industries, Essen, Germany) in an 'A' formation. This material ensured protection of pellet treatments from excessive precipitation and wind which could render the experiment null, without excluding UV rays. Enclosures were placed either in full sun, semishade or full shade, to simulate different solar exposure environments. The full sampling schedule is outlined diagrammatically in Supplementary Fig. <ref type="figure" target="#fig_1">S1</ref>.</p><p>For DHI, samples from three individuals per site were selected for the trial based on a sufficient number of intact pellets for a control (0 days exposure) and six different exposure times: 1, 7, 14, 21, 30 and 60 days. Two pellets per individual per treatment were used, so a total of 42 pellets per individual were required.</p><p>For Mt Gibson, samples from four individuals were selected for the trial based on a sufficient number of intact pellets for six different exposure times: 1, 7, 14, 21, 30 and 60 days. Two pellets per individual per treatment were used, so a total of 36 pellets per individual were required.</p><p>On the completion of each exposure period, pellets were transferred to 50 mL vials with silica gel beads filling the bottom third of the tube and a ball of cotton wool separating scats from the gel beads. These were frozen at -20°C until they could be transported from the field to the laboratory for DNA extraction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ex-situ degradation trial</head><p>Samples were collected from a further three animals from DHI to investigate the rate of DNA degradation in storage. Again, two pellets were used per sample with one pair acting as a control (stored at room temperature) and two being stored immediately after sampling at -20°C and -80°C for 90 days prior to extraction. Pellets were collected, handled and transferred as above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Meteorological data</head><p>Temperature data were obtained from the weather station at DHI and the nearest weather station to Mt Gibson (Paynes Find), although the DHI station had a hardware malfunction 43 days into the trial and failed to record after this date. Midday shade temperature (°C) was used as a proxy for maximum temperature each day. Measurements for solar exposure (as a proxy for UV) and relative humidity (RH) were obtained through the Bureau of Meteorology (BOM) (<ref type="url" target="http://www.bom.gov.au">http://www.bom.gov.au</ref>) from the nearest weather stations recording this information. For DHI, this was Steep Point for solar exposure and Denham for relative humidity (Fig. <ref type="figure" target="#fig_1">1</ref>). For Mt Gibson, all climatic data were obtained from the Paynes Find BOM weather station. Single-station climate data do not account for any potential micro-site variation but were still useful for comparing broader climatic variation between DHI and Mt Gibson.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microsatellite development Tissue DNA extraction</head><p>Genomic DNA was extracted from an ear biopsy sample from a single individual (DEC02715) for microsatellite library development using a standard 'salting out' procedure <ref type="bibr" target="#b59">(Sunnucks and Hales 1996)</ref> modified with the addition of 3 μL of 10 mg/mL ribonuclease (RNase) to the TNES extraction buffer. Genomic DNA was also extracted from additional L. fasciatus and L. hirsutus ear biopsy samples for microsatellite screening.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microsatellite library and screening</head><p>Library preparation and partial sequencing using the Illumina MiSeq platform was undertaken through a commercial service at the Monash University Malaysia Genome Facility. QDD software <ref type="bibr" target="#b34">(Meglécz et al. 2010</ref>) was used to identify novel microsatellite sequences from the short-read data and undertake primer design using default parameters. Microsatellite loci identified by QDD were further filtered to include only loci with pure microsatellite repeats, target length greater than seven repeat units and excluding (AT) repeats, with 48 microsatellite primer pairs chosen for further screening. To confirm microsatellite loci were specific to L. fasciatus, we screened primer pairs across tissue samples from three L. fasciatus individuals and three individuals of the co-occurring L. hirsutus. After further screening on a panel of eight L. fasciatus samples (representing two samples each from four populations) to assess amplification across populations, ease of scoring and reliability, successful microsatellite primers were fluorescently labelled using ABI dyes (FAM, NED, VIC and PET; Applied Biosystems, Waltham, MA, USA) and arranged in multiplexes for PCR amplification. To determine if potential amplification failures in future field-based surveys would be caused by erroneous use of rufous hare-wallaby scat (as opposed to a systemic failure of reagents or equipment), we also sought to develop a primer-set that amplified both rufous and banded hare-wallaby DNA to be used as a positive control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scat DNA extraction, amplification and fragment analysis</head><p>All scat DNA extractions were undertaken at the end of the experiment, with field collected samples stored at -20°C until this time. To maximise the amount of DNA from epithelial cells of the target species, banded hare-wallaby scats were prepared for DNA extraction by scraping the outer surface of each pellet with a razor blade before proceeding to DNA extraction. DNA was extracted using the Qiagen QIAamp Fast DNA Stool Mini Kit (Qiagen Inc, Germany) following the manufacturer's instructions with two modifications: a second centrifugation and transferal step following the addition of InhibitEX buffer to the scraped faecal material was included to ensure no carryover of insoluble material to the subsequent steps and DNA was eluted from the spin column at the final step using 100 μL ATE Buffer. Due to the potential for DNA from dietary items to be co-extracted with our target species DNA, we were unable to specifically quantify changes in target species DNA with time.</p><p>Faecal DNA samples were PCR amplified using the Qiagen Multiplex PCR Plus kit (Qiagen Inc). Each multiplex reaction contained 4 μL Qiagen mastermix, 1 μL primer mastermix and 4 μL DNA and were run on an Eppendorf Mastercycler (Eppendorf, Germany) using cycling conditions recommended by the manufacturer with an annealing temperature of 60°C, with 35 cycles. 2 μL of PCR product was mixed with 10 μL highly deionised (Hi-Di) formamide for fragment analysis. Fragment analysis was conducted on an Applied Biosystems 3100 capillary sequencer using a commercial service (State Agricultural Biotechnology Centre, Western Australia) and GENEMAPPER 4.0 software (Applied Biosystems, Foster City, CA) was used to score microsatellite alleles with reference to an internal size standard (LIZ500, Applied Biosystems). Three replicate PCRs were performed for each DNA sample to assess genotyping errors. To assess genotyping error rates for scats, we used the control samples (0 days exposure) as the reference genotypes, and these were also replicated three times to obtain a consensus, although the genotypes obtained were consistent for all replicates, validating their use as reference genotypes.</p><p>Probability of identity, i.e. the estimated probability that two samples from different individuals will have identical genotypes with the given marker array, was calculated in GenAlEx 6.503 <ref type="bibr" target="#b42">(Peakall and Smouse 2006;</ref><ref type="bibr" target="#b43">Peakall and Smouse 2012)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genotyping error and amplification failure calculation</head><p>Errors were categorised either as genotyping errors (allelic dropout or false alleles) or amplification failure. Error rates were quantified by calculating the total number of each type across all eight loci for each of the three PCR replicates against the genotype obtained from the control samples. This was done for each of the three solar exposure treatment types individually. Mean and s.d. of each error type were calculated across the three replicate scat genotypes. For comparison of solar exposure treatments, we combined all three types of error to obtain a total error estimate, since any error would render a replicate unusable for subsequent analysis at that locus. This was done by calculating the percentage of amplifications with any errors across all three replicates for all individuals combined but for separate treatments. To assess the relative importance of overall solar exposure treatment and length of exposure on amplification rate, a repeated measures mixed-model ANOVA was used in R (R Development Core Team 2019) with the package nlme <ref type="bibr" target="#b46">(Pinheiro et al. 2020)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microsatellite panel development</head><p>Of the 48 microsatellite primer pairs tested, eight failed to amplify with DNA from either L. fasciatus or L. hirsutus, 26 amplified in both species and 14 amplified only in L. fasciatus with four of these monomorphic. Upon further testing, we selected six L. fasciatus-specific microsatellite markers and two that amplified in both L. fasciatus and L. hirsutus to serve as identification controls (one per multiplex). Details of the eight loci and multiplex information are in Table <ref type="table" target="#tab_0">1</ref>. Across the seven individuals from which scats were collected in this study a total of 36 alleles were detected ranging from two to seven alleles per locus. Probability of identity values by locus ranged from 6.9 × 10 -1 to 7.5 × 10 -2 . Overall, the probability of identity for all loci was 2.0 × 10 -6 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Climatic data</head><p>Midday shade temperature (°C) readings were initially higher for DHI than Mt Gibson but by Day 35, readings were roughly equivalent and readings for Mt Gibson continued to increase after the DHI weather-station malfunctioned on Day 43 (Supplementary Fig. <ref type="figure" target="#fig_3">S2</ref>). Relative humidity (RH) was generally higher for DHI (x ¯ = 72.36, s.e. 1.60) than Mt Gibson (x ¯ = 39.34, s.e. 2.37) across the period of the trial (Fig. <ref type="figure" target="#fig_3">S2</ref>). There was a notable spike in RH around Days 26 and 60 at Mt Gibson but generally values remained below 50%, the former coinciding with a 52 mm rainfall event. At DHI, RH was consistently between 60 and 90% except for 3 days when it fell to around 40%. Solar exposure was consistently higher for Mt Gibson than DHI across the period of the trial (Fig. <ref type="figure" target="#fig_3">S2</ref>) but Mt Gibson showed larger fluctuations, falling to c.11 MJ/m 2 around Days 24 and 25 (coinciding with heavy rainfall and the associated spike in RH; Fig. <ref type="figure" target="#fig_3">S2</ref>). In contrast solar exposure for DHI was more consistent with no obvious troughs or peaks, except for around Day 56 when values fell from c. 27 to c. 17 MJ/m 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genotyping error and amplification failure rates</head><p>Across all replicates and loci, a total of 1872 sample genotypes were analysed for DHI and 3408 were analysed for Mt Gibson. Overall, errors were marginally more frequent at Mt Gibson,  The number of alleles per locus was calculated from the seven individuals included in this study.</p><p>A Primers amplify in both L. fasciatus and co-occurring (DHI only) Lagorchestes hirsutus. with 33% of all samples at this site reporting some type of error, compared to 29% for DHI. The most frequent errors were amplification failures, which accounted for 62% and 87% of all errors for DHI and Mt Gibson respectively. Allelic dropout frequency was highest on DHI where it accounted for 33% of all errors, compared to Mt Gibson where it accounted for just 11%. False alleles were less frequent at both sites, accounting for 4% and 2% of errors at DHI and Mt Gibson respectively.</p><p>Error rates for specific loci appeared to be random, with few clear patterns emerging for either DHI or Mt Gibson sample replicates for allelic dropout or false alleles. Allelic dropout was evenly distributed between 0 and 1.5% of all replicates at seven loci for DHI and between 0 and 1% at five loci for Mt Gibson (Supplementary Fig. <ref type="figure">S3</ref>). False alleles were identified at six loci for DHI, of which three also had false alleles identified for Mt Gibson. The rate of amplification failure for locus BHW33 was the highest of any error at any locus [23.9% at DHI and 67% for Mt Gibson (Fig. <ref type="figure">S3</ref>)] and significantly higher than most other loci at both sites (P &lt; 0.05, Kruskal-Wallis test). Locus BHW24 also had relatively high amplification failure rates (19% for DHI and 33% for Mt Gibson) but these were comparable to other loci at each site.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Error rates with exposure time</head><p>Successful amplification rates decreased with increasing exposure time, from means of 98.1% and 94.1% for DHI and Mt Gibson respectively at Day 1 to 49.1% and 44.4% by Day 28/30 (Table <ref type="table">2</ref>). However, while mean amplification rates continued to decrease to 60 days at Mt Gibson (30.1%), the mean rate increased at DHI to 73.1%. The pattern for genotyping errors was less apparent (Table <ref type="table">2</ref>). False alleles were not recorded before Day 7 and remained uncommon. Values at DHI were consistently between 1.4 and 1.9%, while means at Mt Gibson increased from 0.3% at 7 days to 1.8% at Day 60. Allelic dropout rates again increased over exposure time at both sites, although values peaked much higher at DHI at 47.2% on Day 30, compared to a peak of 17.2% on Day 60 at Mt Gibson. Control values for all three metrics at Day 0 (DHI only) were close to identical to the Day 1 treatment (Table <ref type="table">2</ref>). Amplification rates were high after storage at room temperature, -20°C and -80°C for 90 days, with values of 82.5%, 100% and 94.4% respectively. Genotyping errors for all ex-situ storage treatments were correspondingly low.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Error rates with treatment</head><p>Combined (total) error rates generally increased with increasing time in all three solar exposure treatments for both sites (Fig. <ref type="figure" target="#fig_3">2</ref>). Error rates were highest in the sun treatment and lowest in the shade treatment for every exposure time, with the exception of Day 14 at Mt Gibson, where the sun treatment samples had lower error rates than both the part-shade and shade treatments. Error rates in the shade treatment were almost universally the lowest of the three treatments. As previously discussed, error rates for DHI were actually lower at 60 days than at 28 days and this was consistent for all three treatments.</p><p>The error bars in Fig. <ref type="figure" target="#fig_3">2</ref> indicate a high degree of variation between individuals within treatments, except genotyping error rates at Mt Gibson which were consistently low. Variation between individuals was highest for the sun treatment for DHI but the shade treatment at Mt Gibson displayed more variation, particularly after 14 days exposure. Results of the repeated-measures mixed-model Table <ref type="table">2</ref>. Mean amplification failure and rates of two types of genotyping errors (false alleles, allelic dropout) with increasing exposure time of banded hare-wallaby faecal pellets.  ANOVA (Table <ref type="table" target="#tab_2">3</ref>) showed that, at DHI, there was a significant difference (P &lt; 0.001) in amplification failure resulting from treatment types. At Mt Gibson, this effect was highly significant (P &lt; 0.0001), but similarly, time of exposure was also highly significant (P &lt; 0.0001). The interaction between treatment and time was also significant at Mt Gibson, but less so (P &lt; 0.05).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Capture-recapture approaches to estimating population size using non-invasive sampling methods, such as individual genotypes obtained from faecal DNA, have been used for estimating abundance in a range of mammals <ref type="bibr" target="#b32">(Lukacs and Burnham 2005)</ref>, including some Australian species such as the greater bilby (Macrotis lagotis) <ref type="bibr" target="#b20">(Dziminski and Carpenter 2018</ref>) and brush-tailed rock-wallaby (Petrogale penicillata) <ref type="bibr" target="#b45">(Piggott et al. 2006)</ref>. Some studies that have engaged the use of faecal DNA in a capture-recapture modelling framework have obtained improved population estimates <ref type="bibr" target="#b26">(Goode et al. 2014;</ref><ref type="bibr" target="#b24">Fuller et al. 2016;</ref><ref type="bibr" target="#b67">Woodruff et al. 2016)</ref> and found them superior to traditional live-capture approaches <ref type="bibr" target="#b52">(Rodgers and Janečka 2013;</ref><ref type="bibr" target="#b54">Sabino-Marques et al. 2018;</ref><ref type="bibr" target="#b21">Dziminski et al. 2021)</ref>. Pilot studies to quantify the rate of degradation of DNA (through genotyping and amplification error rates) in environmental conditions are recommended for developing robust survey methodologies <ref type="bibr" target="#b60">(Taberlet et al. 1999;</ref><ref type="bibr" target="#b61">Valière et al. 2006;</ref><ref type="bibr" target="#b31">Luikart et al. 2010)</ref>.</p><p>To undertake such a pilot study for L. fasciatus, we developed an array of eight novel, polymorphic microsatellite markers, which were successfully used to genotype individuals from faecal DNA and may be more broadly useful in population monitoring of other sites in addition to those included here. Markers were arrayed in two PCR multiplexes to enable rapid and cost-effective genotyping. Additionally, six markers were designed to be speciesspecific for banded hare-wallaby and two were included to amplify both banded and rufous hare-wallaby. While not directly relevant to this trial, this is a useful development for future use in the field to identify when amplification failure of species-specific markers is caused by mistaken sampling of the latter species, rather than poor quality DNA. The markers used in this trial were able to discriminate between individual genotypes (with a low probability of identity for all loci in combination), despite the relatively small number of individual animals (three to four) used in this study.</p><p>We undertook in-situ trials to quantify genotyping error and amplification failure rates in banded hare-wallaby faecal DNA samples when exposed to ambient conditions at two locations where this species has been translocated, and ex-situ trials to assess the effect of long-term storage of pellets. We also sought to evaluate the use of faecal DNA as a population monitoring tool, as previous sampling approaches for the banded hare-wallaby have proved difficult (livecapture; <ref type="bibr" target="#b51">Richards et al. 2001)</ref> or have been time-and labourintensive (e.g. distance sampling; <ref type="bibr" target="#b10">Chapman et al. 2015)</ref>. While this study was limited in terms of our ability to discriminate the specific effects of various interacting variables at different locations, it provided useful insight into the feasibility of using faecal DNA to discriminate individual genotypes in this species at locations where active monitoring is required.</p><p>Amplification failure was particularly high in one locus (BHW33) at both trial sites, indicating this marker is more prone to failure than the others in the array and replacement with an alternative marker that is more reliable may be worthwhile. Given the rapid increase in accessibility of genomic markers in recent years, the development of single-nucleotide polymorphism (SNP) markers to replace or complement the current microsatellite array may be worth investigating if faecal DNA monitoring is to be adopted as a formal monitoring tool. SNPs are less prone to false alleles or allelic dropout and are consequently less ambiguous, can be used for high-throughput genotyping <ref type="bibr" target="#b23">(Fabbri et al. 2012;</ref><ref type="bibr" target="#b8">Carroll et al. 2018)</ref> and have been used successfully in faecal DNA studies <ref type="bibr" target="#b3">(Blåhed, et al. 2019;</ref><ref type="bibr" target="#b4">Bourgeois et al. 2019)</ref>. While SNP markers may incur higher developmental costs, these may be offset in the long term by providing a more efficient method of obtaining individual genotypes.</p><p>Regardless of genetic methodology, our in-situ exposure trials indicated that DNA can be successfully extracted and amplified from banded hare-wallaby faecal pellets at least 60 days after deposition. However, genotyping quality declined rapidly after 14 days exposure with a high degree of variation in error rates between individuals evident. Although we were unable to discriminate target species DNA from dietary items in our DNA eluates, we found that DNA concentration typically declined below detectable limits (~1 ng/μL) after 14 days (data not shown) which likely contributed to the increasing variation in genotyping quality beyond this time point.</p><p>Despite high s.d. across treatment types, three replicates per sample was sufficient to ensure a mean successful amplification rate of &gt;50%. Amplification success in the 90-day ex-situ trial was high and comparable to results from 1-day duration samples, showing the reduction in amplification rates in the treatments was mainly due to exposure to environmental variables and not solely time since deposition. It also provides confidence that faecal pellets can be stored for at least a short period of time if laboratory analyses cannot be undertaken immediately.</p><p>Error rates were most strongly influenced by the type of exposure treatment, with error rates for shade and part-shade treatment generally lower than for the full-sun treatment. Duration of exposure was also significant for the Mt Gibson trial but was not significant for DHI, and amplification success was actually higher at 60 days at this site than at 21 and 30 days. Potentially this could relate to uncontrolled factors (e.g. bacteria) that may inhibit amplification decreasing with exposure duration, although this is purely speculative. These results highlight the unpredictability of rates of DNA degradation and how unknown and uncontrolled factors may play a role. After amplification failure, the most common genotyping error was allelic dropout, which corresponds with previous findings in similar studies <ref type="bibr" target="#b44">(Piggott 2004;</ref><ref type="bibr" target="#b7">Carpenter and Dziminski 2017</ref>). However, this rate was consistently lower at Mt Gibson than DHI across the duration of the study. Since allelic dropout rates will tend to increase with declining DNA quantities <ref type="bibr" target="#b36">(Morin et al. 2016)</ref>, this possibly indicates that DNA quantities and quality generally remained higher for longer in the Mt Gibson study than for DHI. Genotyping errors (particularly allelic dropout) can be problematic for capture-recapture studies <ref type="bibr" target="#b60">(Taberlet et al. 1999)</ref>, but this can be partially mitigated through the use of appropriately robust modelling methods that allow for genotype uncertainty <ref type="bibr" target="#b68">(Wright et al. 2009)</ref>.</p><p>The reason for the variation between locations is not clear but could relate to differences in ambient environmental conditions. As per our predictions, relative humidity was higher at DHI and, for the first half of the trial at least, it was generally warmer on DHI as well. However, solar exposure was proportionally higher at Mt Gibson, which was not expected. We suggest that, while higher temperature and moisture may influence the overall decline in DNA quantity on DHI [as observed by <ref type="bibr" target="#b29">King et al. (2018)</ref>], by Day 60, the effect of increased solar exposure at Mt Gibson may ultimately have resulted in lower rates of amplification success at this site. Both DHI and Mt Gibson receive most of their annual rainfall in winter (Bureau of Meteorology 2021), so early summer may be the optimal period for faecal DNA monitoring, when moisture levels are decreasing but before temperatures and solar exposure peak in mid-to late-summer <ref type="bibr" target="#b15">(DeMay et al. 2013)</ref>.</p><p>In an operational monitoring context, the discrimination of fresh scats from those that have received more environmental exposure would be useful to avoid collecting samples that may not be usable for subsequent analyses or could reduce their accuracy. The appearance of faecal pellets may be influenced by other factors such as diet and individual variation, making it hard to develop standardised collection criteria. Here, we observed that freshly deposited scats (less than 7 days old) retained a glossy surface that was gradually lost with increased exposure duration. This feature of freshly deposited pellets may assist with their identification as such and should be further tested.</p><p>In summary, this trial found that sampling of faecal DNA shows promise for population monitoring of banded hare-wallabies, although improvements to the methodology could be made. Even though a small number of individuals were used in this study, the eight microsatellite markers developed were able to successfully discriminate individual genotypes. Quantifying the effect of exposure duration on genotyping error and amplification failure rates is key to developing a robust survey design and we found that error rates did increase with duration of exposure, but this was highly variable amongst individuals and locations. Treatment type was found to have a large influence on amplification success with shade and part-shade treatments having lower error rates than full-sun treatments. As banded hare-wallabies show a preference for shady dense Acacia-shrubland communities <ref type="bibr" target="#b55">(Short et al. 1992</ref><ref type="bibr" target="#b55">(Short et al. , 1998) )</ref> this may help to facilitate amplification success. Continued refinement of this method should include undertaking trials on scats collected from the wild and the identification of SNP loci which may increase the discriminatory power of the current array of microsatellite markers.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Top left, example of habitat on Dirk Hartog Island (credit: S. Cowen/DBCA); Bottom left, example of habitat at Mt Gibson (credit: G. Anderson/AWC); Map of study sites and reference locations in Midwest region of Western Australia.</figDesc><graphic coords="3,111.88,458.39,371.56,226.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Mean amplification failure and genotyping error rates over time for DNA extracted from banded hare-wallaby faecal pellets from exposure experiments at Dirk Hartog Island and Mt Gibson. (Genotyping error rate refers to combined rates of allelic dropout and false alleles); NB points and error bars are 'jittered' around the true value on the x axis for clarity).</figDesc><graphic coords="6,74.38,347.24,438.27,321.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Details of primer sequences and locus characteristics for novel microsatellites developed for Lagostrophus fasciatus.</figDesc><table><row><cell>Locus name</cell><cell>Primer sequence (3 0 -5 0 )</cell><cell>Repeat motif</cell><cell>Size range (bp)</cell><cell>Dye</cell><cell>Multiplex</cell><cell>No. alleles</cell></row><row><cell>BHW01</cell><cell>(F) ACAGACCCACAAGAGTTCCC</cell><cell>AC</cell><cell>85-93</cell><cell>FAM</cell><cell>1</cell><cell>5</cell></row><row><cell></cell><cell>(R) CCTGGTCTTGGGTGTCCCTA</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>BHW22</cell><cell>(F) GGTCACAGGATCCCAGATGC</cell><cell>AC</cell><cell>192-198</cell><cell>PET</cell><cell>1</cell><cell>4</cell></row><row><cell></cell><cell>(R) AACCATGGACGAAGCCACAT</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>BHW33 A</cell><cell>(F) TGGGAAGACTGGGTAGCTGA</cell><cell>ATC</cell><cell>208-217</cell><cell>NED</cell><cell>1</cell><cell>2</cell></row><row><cell></cell><cell>(R) GGCCAGCCTGGATGAAAGAT</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>BHW36</cell><cell>(F) CCCAGGAGGCATGTGCTAAT</cell><cell>AC</cell><cell>223-237</cell><cell>FAM</cell><cell>1</cell><cell>6</cell></row><row><cell></cell><cell>(R) CCTGACAGCCAACATCCTCC</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>BHW07</cell><cell>(F) GACACAGAGTGACCCAGGAC</cell><cell>AC</cell><cell>118-126</cell><cell>FAM</cell><cell>2</cell><cell>4</cell></row><row><cell></cell><cell>(R) GCCACGCACATGAAAGAGTG</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>BHW14 A</cell><cell>(F) GACCACCAGGCTTTGTACCA</cell><cell>AGG</cell><cell>142-145</cell><cell>PET</cell><cell>2</cell><cell>2</cell></row><row><cell></cell><cell>(R) TGGGATGTGGTTTGGCAGAG</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>BHW19</cell><cell>(F) TTCAGGCTTTACCCTCAGGC</cell><cell>AGC</cell><cell>165-183</cell><cell>VIC</cell><cell>2</cell><cell>6</cell></row><row><cell></cell><cell>(R) TGGCTGCTACTATTCCTGCC</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>BHW24</cell><cell>(F) GCTGTAGAGGCGACCTGAAA</cell><cell>AC</cell><cell>194-212</cell><cell>NED</cell><cell>2</cell><cell>7</cell></row><row><cell></cell><cell>(R) GGGTCTCCTGACTGCCTCT</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Results of repeated-measures mixed model ANOVA of the effect of solar exposure treatment (sun, part-shade, shade) and time of exposure on genotyping error rate of DNA extracted from banded hare-wallaby faecal pellets.</figDesc><table><row><cell></cell><cell></cell><cell>Dirk Hartog Island</cell><cell></cell><cell></cell><cell>Mt Gibson</cell><cell></cell></row><row><cell></cell><cell>χ 2</cell><cell>d.f.</cell><cell>P</cell><cell>χ 2</cell><cell>d.f.</cell><cell>P</cell></row><row><cell>Treatment</cell><cell>16.0739</cell><cell>2</cell><cell>0.0003**</cell><cell>24.8607</cell><cell>2</cell><cell>&lt;0.0001***</cell></row><row><cell>Time</cell><cell>2.1987</cell><cell>1</cell><cell>0.1381</cell><cell>80.7832</cell><cell>1</cell><cell>&lt;0.0001***</cell></row><row><cell>Treatment × time</cell><cell>0.5440</cell><cell>2</cell><cell>0.7619</cell><cell>9.0714</cell><cell>2</cell><cell>0.0107*</cell></row><row><cell cols="2">*P ≤ 0.05; **P ≤ 0.001; ***P ≤ 0.0001.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>d.f., degrees of freedom.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements. The authors acknowledge the <rs type="institution">Malgana and Badimaya</rs> peoples as the Traditional Owners of the land in the Shark Bay (Gutharraguda) and Mt Gibson regions respectively. The authors would like to thank <rs type="person">Fiona Carpenter</rs> for her advice on design and material requirements for this study. We also thank those involved in set-up and running of the DNA degradation trials on <rs type="person">Dirk Hartog Island</rs> (<rs type="person">Aline Gibson Vega</rs>, <rs type="person">Gary Pekel</rs>, <rs type="person">Colleen Sims</rs> and <rs type="person">Lucie Scheelen</rs>) and <rs type="person">Mt Gibson</rs> (<rs type="person">Adele Thomasz</rs>, <rs type="person">Carly Moir</rs>, <rs type="person">Georgia Volck</rs>, <rs type="person">Raquel Parker</rs>, <rs type="person">Rebecca O'Rourke</rs>). Argosee Greenhouse Technology supported this study by supplying Plexiglas at a significant discount.</p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data availability. The data that support this study will be shared upon reasonable request to the corresponding author.</p><p>Conflicts of interest. The authors declare no conflicts of interest.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary material</head><p>Supplementary material is available online. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m">Movement and Habitat use of Banded Hare-wallabies Posttranslocation: Faure Island (2013) and Mt Gibson</title>
+		<meeting><address><addrLine>Perth, Australia; Perth, Australia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Australian Wildlife Conservancy</publisher>
+			<date type="published" when="2017">2018. 2017. 2018. May 2018</date>
+		</imprint>
+	</monogr>
+	<note>Mt Gibson Mammal Translocation Summary</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Camera traps, sand plots and known events: what do camera traps miss? In &apos;Camera Trapping: Wildlife Management and Research</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Meek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Doak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pjs</forename><surname>Fleming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sparkes</surname></persName>
+		</author>
+		<editor>PM P Fleming, P Banks, G Ballard, A Claridge, J Sanderson, D Swann</editor>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>CSIRO Publishing</publisher>
+			<biblScope unit="page" from="189" to="202" />
+			<pubPlace>Melbourne, Vic; Australia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Demographic monitoring of an entire species (the northern hairynosed wombat, Lasiorhinus krefftii) by genetic analysis of noninvasively collected material</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Banks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Hoyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Horsup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sunnucks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S1367943003003135</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Conservation</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="101" to="107" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Noninvasive population assessment of moose (Alces alces) by SNP genotyping of fecal pellets</title>
+		<author>
+			<persName><forename type="first">I-M</forename><surname>Blåhed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ericsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Spong</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10344-019-1337-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">96</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Improving cost-efficiency of faecal genotyping: new tools for elephant species</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bourgeois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kaden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Senn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bunnefeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Jeffery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Akomo-Okoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ogden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mcewing</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0210811</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">210811</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Effects of time and rainfall on PCR success using DNA extracted from deer fecal pellets</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Brinkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Person</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Hundertmark</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-009-9928-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1547" to="1552" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Lagostrophus fasciatus. The IUCN Red List of Threatened Species 2016</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Burbidge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Woinarski</surname></persName>
+		</author>
+		<idno type="DOI">10.2305/IUCN.UK.2016-1.RLTS.T11171A21955969.en</idno>
+		<ptr target="http://www.bom.gov.au/jsp/ncc/climate_averages/climate-classifications" />
+	</analytic>
+	<monogr>
+		<title level="m">Climate classification maps</title>
+		<imprint>
+			<publisher>Bureau of Meteorology</publisher>
+			<date type="published" when="2016">2016. 2021. February 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Breaking down scats: degradation of DNA from greater bilby (Macrotis lagotis) faecal pellets</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Dziminski</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/AM16030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="197" to="204" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Genetic and genomic monitoring with minimally invasive sampling methods</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Carroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Dewoody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Leroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Strand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/eva.12600</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Evolutionary Applications</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1094" to="1119" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">An overview of closed capture-recapture models</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chao</surname></persName>
+		</author>
+		<idno type="DOI">10.1198/108571101750524670</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Agricultural, Biological, and Environmental Statistics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="158" to="175" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sims</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Reinhold</surname></persName>
+		</author>
+		<title level="m">Assessment of mammal populations on Bernier and Dorre Island 2006-2013</title>
+		<meeting><address><addrLine>Perth, Australia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Department of Parks and Wildlife</publisher>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Validation of hair tubes for small mammal population studies</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chiron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chargé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Julliard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roguet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jacob</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jmammal/gyx178</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="478" to="485" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Capture myopathy in Lagorchestes hirsutus (Marsupialia: Macropodidae)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Cole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Langford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Gibson</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/AM94020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="137" to="138" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cowen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rayner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sims</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Morris</surname></persName>
+		</author>
+		<title level="m">Dirk Hartog Island National Park Ecological Restoration Project: stage onetrial hare-wallaby translocations and monitoring</title>
+		<meeting><address><addrLine>Perth, Australia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Conservation and Attractions</publisher>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Biodiversity</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A comparison of the effectiveness of camera trapping and live trapping for sampling terrestrial small-mammal communities</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Bondi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+		<idno type="DOI">10.1071/WR10046</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="456" to="465" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Evaluating DNA degradation rates in faecal pellets of the endangered pygmy rabbit</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Demay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Eidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rachlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1755-0998.12104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="654" to="662" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Lagostrophus fasciatus fasciatus in species profile and threats database</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Commonwealth Department of the Environment</publisher>
+			<pubPlace>Canberra, Australia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Survey guidelines for Australia&apos;s threatened frogs: guidelines for detecting frogs listed as threatened under the Environment Protection and Biodiversity Conservation Act 1999</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>Department of the Environment, Water, Heritage and the Arts</publisher>
+			<pubPlace>Canberra, Australia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m">Survey guidelines for Australia&apos;s threatened mammals: guidelines for detecting mammals listed as threatened under the Environment Protection and Biodiversity Conservation Act 1999</title>
+		<meeting><address><addrLine>Canberra, Australia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Department of Sustainability, Environment, Water, Population and Communities</publisher>
+			<date type="published" when="2011">2011a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m">Survey guidelines for Australia&apos;s threatened reptiles: guidelines for detecting reptiles listed as threatened under the Environment Protection and Biodiversity Conservation Act 1999</title>
+		<meeting><address><addrLine>Canberra, Australia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Department of Sustainability, Environment, Water, Population and Communities</publisher>
+			<date type="published" when="2011">2011b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The conservation and management of the bilby (Macrotis lagotis) in the Pilbara</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Dziminski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Carpenter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Annual Report 2017-18</title>
+		<meeting><address><addrLine>Attractions, Perth, Australia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Department of Biodiversity, Conservation</publisher>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Monitoring the abundance of wild and reintroduced bilby populations</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Dziminski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Morris</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jwmg.21981</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="240" to="253" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Estimating population size by spatially explicit capture-recapture</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Fewster</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1600-0706.2012.20440.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="918" to="928" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Comparison of single nucleotide polymorphisms and microsatellites in non-invasive genetic monitoring of a wolf population</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fabbri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Caniglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Thomsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Krag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pertoldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Loeschcke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randi</forename><forename type="middle">E</forename></persName>
+		</author>
+		<idno type="DOI">10.2298/ABS1201321F</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Archives of Biological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="321" to="335" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Estimating population density and connectivity of American mink using spatial capture-recapture</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Sutherland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Hare</surname></persName>
+		</author>
+		<idno type="DOI">10.1890/15-0315</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1125" to="1135" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Using multiple survey methods to detect terrestrial reptiles and mammals: what are the most successful and cost-efficient combinations</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Garden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Mcalpine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Possingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/WR06111</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="218" to="227" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Capture-recapture of white-tailed deer using DNA from fecal pellet groups</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Goode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Beaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Van Manen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Harper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Basinger</surname></persName>
+		</author>
+		<idno type="DOI">10.2981/wlb.00050</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Biology</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="270" to="278" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Persistence of black-tailed deer fecal pellets in coastal habitats</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Harestad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Bunnell</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/3801624</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="33" to="37" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Measuring and Monitoring Biological Diversity: Standard Methods for Mammals</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Mcshea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Conroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Kunz</surname></persName>
+		</author>
+		<editor>DE Wilson, FR Cole, JD Nichols, R Rudran, MS Foster</editor>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<publisher>Smithsonian Institution Press</publisher>
+			<biblScope unit="page" from="115" to="156" />
+			<pubPlace>Washington, DC, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Capturing mammals</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Long-term persistence of horse fecal DNA in the environment makes equids particularly good candidates for noninvasive sampling</title>
+		<author>
+			<persName><forename type="first">Srb</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Schoenecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Fike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Oyler-Mccance</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ece3.3956</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="4053" to="4064" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Improving biodiversity monitoring</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Lindenmayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gibbons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bourke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burgman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Dickman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ferrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fitzsimons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Freudenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Garnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Groves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hobbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Kingsford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Legge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Lowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mclean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Montambault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Possingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Radford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Smallbone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Varcoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vardon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wardle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Woinarski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zerger</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1442-9993.2011.02314.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Austral Ecology</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="285" to="294" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Estimation of census and effective population sizes: the increasing usefulness of DNA-based approaches</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ryman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Tallmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Allendorf</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-010-0050-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="355" to="373" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Review of capture-recapture methods applicable to noninvasive genetic sampling</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Lukacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2005.02717.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="3909" to="3919" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The pitfalls of wildlife camera trapping as a survey tool in Australia</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Meek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G-A</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pjs</forename><surname>Fleming</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/AM14023</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="13" to="22" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">QDD: a user-friendly program to select microsatellite markers and design primers from large sequencing projects</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Meglécz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Costedoat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Dubut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gilles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Malausa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-F</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btp670</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="403" to="404" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Estimating animal abundance using noninvasive DNA sampling: promise and pitfalls</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Citta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Lair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Tallmon</surname></persName>
+		</author>
+		<idno type="DOI">10.1890/1051-0761(2000)010[0283:EAAUND]2.0.CO;2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="283" to="294" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Monitoring coyote population dynamics with fecal DNA and spatial capture-recapture</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jwmg.21080</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="824" to="836" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Inferring red squirrel (Sciurus vulgaris) absence with hair tubes surveys: a sampling protocol</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mortelliti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10344-007-0135-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="353" to="356" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Estimating population size of grizzly bears using hair capture, DNA profiling, and mark-recapture analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/3802989</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="183" to="193" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The impact of time and field conditions on brown bear (Ursus arctos) faecal DNA amplification</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-006-9264-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1219" to="1224" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Capture-recapture models</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1311650</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioScience</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="94" to="102" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Evaluation of fecal DNA preservation techniques and effects of sample age and diet on genotyping success</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Panasci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Breck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Densmore</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Wester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jwmg.221</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1616" to="1624" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">GENALEX 6: genetic analysis in Excel. Population genetic software for teaching and research</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1471-8286.2005.01155.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="288" to="295" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">GenAlEx 6.5: genetic analysis in Excel. Population genetic software for teaching and researchan update</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/bts460</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="2537" to="2539" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Effect of sample age and season of collection on the reliability of microsatellite genotyping of faecal DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/WR03096</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="485" to="493" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Estimating population size of endangered brush-tailed rock-wallaby (Petrogale penicillata) colonies using faecal DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Banks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Banffy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2005.02783.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="81" to="91" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">nlme: linear and nonlinear mixed effects models</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pinheiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Debroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Team</surname></persName>
+		</author>
+		<ptr target="https://CRAN.R-project.org/package=nlme" />
+	</analytic>
+	<monogr>
+		<title level="j">R package version</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="148" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Hair tubes for estimating site occupancy and activity-density of Sorex minutus</title>
+		<author>
+			<persName><forename type="first">Mjo</forename><surname>Pocock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Bell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mambio.2011.02.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mammalian Biology</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="445" to="450" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Genotyping errors: causes, consequences and solutions</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bonin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrg1707</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Genetics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="847" to="859" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Direct and indirect effects of UV radiation on DNA and its components</title>
+		<author>
+			<persName><forename type="first">J-L</forename><surname>Ravanat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Douki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cadet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1011-1344(01)00206-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Photochemistry and Photobiology B: Biology</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="88" to="102" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">R: A language and environment for statistical computing</title>
+		<author>
+			<orgName type="collaboration">R Development Core Team</orgName>
+		</author>
+		<ptr target="https://www.R-project.org/" />
+	</analytic>
+	<monogr>
+		<title level="m">R Foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The biology of banded (Lagostrophus fasciatus) and rufous (Lagorchestes hirsutus) hare-wallabies (Diprotodontia: Macropodidae) on Dorre and Bernier Islands, Western Australia</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Short</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rit</forename><surname>Prince</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Friend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Courtenay</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/WR99109</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="311" to="322" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Applications and techniques for noninvasive faecal genetics research in felid conservation</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Rodgers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Janečka</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10344-012-0675-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Advancement to hair-sampling surveys of a medium-sized mammal: DNA-based individual identification and population estimation of a rare Australian marsupial, the spotted-tailed quoll (Dasyurus maculatus)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruibal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Claridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Firestone</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/WR09087</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="27" to="38" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Combining genetic non-invasive sampling with spatially explicit capture-recapture models for density estimation of a patchily distributed small mammal</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sabino-Marques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Paupério</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barbosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Encarnação</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Alpizar-Jara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Searle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Beja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pita</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10344-018-1206-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">44</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The fluctuating abundance of endangered mammals on Bernier and Dorre Islands, Western Australiaconservation implications</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Short</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bradshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Giles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rit</forename><surname>Prince</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Majors</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1071/AM97053</idno>
+		<idno>doi:10.1071/AM97053</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="53" to="61" />
+			<date type="published" when="1992">1992. 1998</date>
+		</imprint>
+	</monogr>
+	<note>Australian Mammalogy</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Highly reliable genetic identification of individual northern hairynosed wombats from single remotely collected hairs: a feasible censusing method</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sloane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sunnucks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Alpers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Beheregaray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-294x.2000.00993.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1233" to="1240" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Conserving the endangered woylie (Bettongia penicillata ogilbyi): establishing a semi-arid population within a fenced safe haven</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Volck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Moir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thomasz</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/emr.12402</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Management &amp; Restoration</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="108" to="114" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">The welfare and ethics of research involving wild animals: a primer</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Soulsbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Braithwaite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Cotter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Elwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fisher</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/2041-210X.13435</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1164" to="1181" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Numerous transposed sequences of mitochondrial cytochrome oxidase I-II in aphids of the genus Sitobion (Hemiptera: Aphididae)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sunnucks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Hales</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/oxfordjournals.molbev.a025612</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Biology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="510" to="524" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling: look before you leap</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0169-5347(99)01637-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology &amp; Evolution</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="323" to="327" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Importance of a pilot study for non-invasive genetic sampling: genotyping errors and population size estimation in red deer</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bonenfant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Toïgo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-M</forename><surname>Gaillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Klein</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-006-9149-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="69" to="78" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling tools for wildlife biologists: a review of applications and recommendations for accurate data collection</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<idno type="DOI">10.2193/0022-541X(2005)69[1419:NGSTFW]2.0.CO;2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Genetic consequences of multiple translocations of the banded hare-wallaby in Western Australia</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ottewell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pbs</forename><surname>Spencer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Short</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sims</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Mitchell</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/d12120448</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diversity</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">Analysis and Management of Animal Populations</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Conroy</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Academic Press</publisher>
+			<pubPlace>San Diego, CA, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title level="m" type="main">The Action Plan for Australian Mammals 2012</title>
+		<author>
+			<persName><forename type="first">Jcz</forename><surname>Woinarski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Burbidge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Harrison</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>CSIRO Publishing</publisher>
+			<pubPlace>Melbourne, Vic; Australia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Evaluating the interaction of faecal pellet deposition rates and DNA degradation rates to optimize sampling design for DNA-based mark-recapture analysis of Sonoran pronghorn</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Woodruff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1755-0998.12362</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="843" to="854" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Estimating Sonoran pronghorn abundance and survival with fecal DNA and capture-recapture methods</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Woodruff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Lukacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Christianson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/cobi.12710</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1102" to="1111" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Incorporating genotype uncertainty into mark-recapture-type models for estimating abundance using DNA samples</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Schofield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Frantz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Byrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Gleeson</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1541-0420.2008.01165.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="833" to="840" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

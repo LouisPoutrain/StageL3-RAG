@@ -1,0 +1,1535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Tools and Technology</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-06-04">4 June 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Antoinette</forename><forename type="middle">J</forename><surname>Piaggio</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dyan</forename><forename type="middle">J</forename><surname>Straughan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Melissa</forename><forename type="middle">A</forename><surname>Neubaum</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Paul</forename><forename type="middle">R</forename><surname>Krausman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Warren</forename><forename type="middle">B</forename><surname>Ballard</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><forename type="middle">L</forename><surname>Bergman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Stewart</forename><forename type="middle">W</forename><surname>Breck</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Agriculture</orgName>
+								<address>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Animal and Plant Health Inspection Service</orgName>
+								<orgName type="department" key="dep2">Wildlife Services</orgName>
+								<orgName type="institution">National Wildlife Research Center</orgName>
+								<address>
+									<postCode>80521</postCode>
+									<settlement>Fort Collins</settlement>
+									<region>CO</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">CHIP A. CARIAPPA</orgName>
+								<orgName type="department" key="dep2">Department of Natural Resources Management</orgName>
+								<orgName type="institution">Texas Tech University</orgName>
+								<address>
+									<postCode>79409-2125</postCode>
+									<settlement>Lubbock</settlement>
+									<region>TX</region>
+									<country>USA United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Fish and Wildlife Service</orgName>
+								<orgName type="institution">National Forensics Laboratory</orgName>
+								<address>
+									<postCode>97520</postCode>
+									<settlement>Ashland</settlement>
+									<region>OR</region>
+									<country>USA United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Agriculture</orgName>
+								<orgName type="department" key="dep2">Animal and Plant Health Inspection Service</orgName>
+								<orgName type="department" key="dep3">Wildlife Services</orgName>
+								<orgName type="institution">National Wildlife Research Center</orgName>
+								<address>
+									<addrLine>Fort Collins</addrLine>
+									<postCode>80521</postCode>
+									<region>CO</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">MARGARET DWIRE</orgName>
+								<orgName type="institution">Fish and Wildlife Service</orgName>
+								<address>
+									<postCode>87113</postCode>
+									<settlement>Albuquerque</settlement>
+									<region>NM</region>
+									<country>United States USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">Boone and Crockett Program in Wildlife Conservation</orgName>
+								<orgName type="institution">University of Montana</orgName>
+								<address>
+									<postCode>59812</postCode>
+									<settlement>Missoula</settlement>
+									<region>MT</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Natural Resources Management</orgName>
+								<orgName type="institution">Texas Tech University</orgName>
+								<address>
+									<postCode>79409-2125</postCode>
+									<settlement>Lubbock</settlement>
+									<region>TX</region>
+									<country>USA United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="department" key="dep1">Department of Agriculture</orgName>
+								<orgName type="department" key="dep2">Animal and Plant Health Inspection Service</orgName>
+								<orgName type="institution">Wildlife Services</orgName>
+								<address>
+									<postCode>85021</postCode>
+									<settlement>Phoenix</settlement>
+									<region>AZ</region>
+									<country>USA United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">Department of Agriculture</orgName>
+								<orgName type="department" key="dep2">Animal and Plant Health Inspection Service</orgName>
+								<orgName type="department" key="dep3">Wildlife Services</orgName>
+								<orgName type="institution">National Wildlife Research Center</orgName>
+								<address>
+									<addrLine>4101 LaPorte Avenue</addrLine>
+									<postCode>80521 80521</postCode>
+									<settlement>Fort Collins Fort Collins</settlement>
+									<region>CO CO</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Tools and Technology</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-06-04">4 June 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">87F1542CC80F6004B8C1AD0C4C37C71E</idno>
+					<idno type="DOI">10.1002/wsb.659</idno>
+					<note type="submission">Received: 23 January 2015; Accepted: 21 December 2015</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>alleles</term>
+					<term>Arizona</term>
+					<term>Blue Range Wolf Recovery Area</term>
+					<term>Canis lupus baileyi</term>
+					<term>fecal noninvasive DNA</term>
+					<term>mark-recapture</term>
+					<term>Mexican wolf</term>
+					<term>microsatellites</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Monitoring wolf abundance is important for recovery efforts of Mexican wolves (Canis lupus baileyi) in the Blue Range Wolf Recovery Area in Arizona and New Mexico, USA. Although radiotelemetry has been a reliable method, collaring and tracking wolves in an expanding population will be prohibitively expensive and alternative methods to estimate abundance will become necessary. We applied 10 canid microsatellite loci to 235 Mexican wolf samples, 48 coyote (C. latrans) samples, and 14 domestic dog (C. lupus familiaris) samples to identify alleles that provide reliable separation of these species. We then evaluated an approach for prescreening, noninvasively collected DNA obtained from fecal samples to identify Mexican wolves. We generated complete genotypes for only those samples identified as probable Mexican wolves. We used these genotypes to estimate mark-recapture population estimates of Mexican wolves and compared these to known numbers of wolves in the study area. We collected fecal samples during 3 sampling periods in 2007-2008 and used Huggins-type mark-recapture models to estimate Mexican wolf abundance. We were able to generate abundance estimates with 95% confidence for 2 of 3 sampling periods. We estimated abundance to be 10 (95% CI ¼ 6-34) during one sampling period when the known abundance was 10 and we estimated abundance to be 9 (95% CI ¼ 6-30) during the other sampling period when the known abundance was 10. The application of this noninvasive method to estimate Mexican wolf abundance provides an alternative monitoring tool that could be useful for long-term monitoring of this and other recovering populations.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The Mexican gray wolf (Canis lupus baileyi) is the most genetically distinct <ref type="bibr" target="#b53">(Wayne et al. 1992</ref><ref type="bibr" target="#b8">, Garcia-Moreno et al. 1996</ref><ref type="bibr" target="#b2">, Chambers et al. 2012</ref><ref type="bibr">), smallest (Bogan and Mehlhop 1983)</ref>, and most endangered <ref type="bibr" target="#b9">(Ginsberg and Macdonald 1990</ref>) subspecies of gray wolf in North America. Historically, its range extended across much of Mexico; and southern New Mexico, the Trans-Pecos of Texas, and southeastern and central Arizona in the United States <ref type="bibr" target="#b56">(Young and</ref><ref type="bibr">Goldman 1944, Brown 1983)</ref>. Sustained efforts to eradicate wolves and habitat alterations led to its extirpation from the wild in the United States and Mexico by the 1980s <ref type="bibr" target="#b0">(Brown 1983</ref>, United States Department of the Interior, Fish and Wildlife Service [USFWS] 1996, <ref type="bibr" target="#b11">Hedrick and Fredrickson 2010)</ref>.</p><p>In 1976, under provisions of the Endangered Species Act, the Mexican wolf was listed as endangered <ref type="bibr" target="#b28">(Parsons 1998)</ref>. Subsequently, in 1998, the USFWS initiated releases of captive-bred Mexican wolves into the Blue Range Wolf Recovery Area (BRWRA) that included all of the Apache National Forest in southeastern Arizona and the Gila National Forest in southwestern New Mexico <ref type="bibr" target="#b28">(Parsons 1998</ref><ref type="bibr">, USFWS 1998)</ref>. Since then, individuals and family groups of Mexican wolves have been intermittently released or translocated into this portion of their historical range and many have begun to breed in the wild (Mexican Wolf Blue Range Adaptive Management Oversight Committee and Interagency Field Team <ref type="bibr">[AMOC]</ref> 2005, USFWS 2013).</p><p>Monitoring the population status of Mexican wolves in the United States is a critical component of the recovery process and will likely remain an important priority for the foreseeable future (U.S. Department of the Interior, Fish and Wildlife Service 2013). A variety of techniques are used to monitor wolf populations, including howling and track surveys <ref type="bibr" target="#b10">(Harrington and Mech 1982</ref><ref type="bibr" target="#b4">, Crête and Messier 1987</ref><ref type="bibr" target="#b7">, Fuller and Sampson 1988</ref><ref type="bibr">, Ballard et al. 1995)</ref>, radiotelemetry <ref type="bibr">(Ballard et al. 1987)</ref>, and visual observations; each of these has their unique benefits and challenges. Radiotelemetry, observation, and track and howling surveys have been the primary tools used for Mexican wolf monitoring (USFWS 2013). These methods have been satisfactory for monitoring the Mexican wolf population in the BRWRA to date. However, as the population grows, the time-consuming nature of radiotelemetry, invasiveness of capture and handling required for collaring, and the prohibitive expense of tracking more wolves will limit the usefulness of these approaches. Therefore, alternative methods to monitor Mexican wolf populations are needed.</p><p>Contemporary molecular approaches have made it possible for biologists to identify individuals by obtaining and amplifying DNA from noninvasively collected samples <ref type="bibr" target="#b42">(Taberlet et al. 1999</ref><ref type="bibr" target="#b36">, Schwartz et al. 2007</ref>) including feces, hair, or saliva <ref type="bibr" target="#b55">(Woods et al. 1999</ref><ref type="bibr" target="#b16">, Lucchini et al. 2002</ref><ref type="bibr" target="#b51">, Waits and Paetkau 2005</ref><ref type="bibr">, Bohling and Waits 2011</ref><ref type="bibr" target="#b24">, Nichols et al. 2012)</ref>. Noninvasive genotyping of individuals from fecal DNA has been used successfully to generate mark-recapture population estimates of various North American wild canids, including gray wolves, in recovery areas <ref type="bibr" target="#b3">(Creel et al. 2003</ref><ref type="bibr" target="#b18">, Marucco et al. 2012</ref><ref type="bibr" target="#b38">, Stansbury et al. 2014)</ref>, endangered red wolves (Canis rufus; <ref type="bibr" target="#b13">Knapp et al. 2009)</ref>, and coyotes (C. latrans; <ref type="bibr" target="#b14">Kohn et al. 1999</ref><ref type="bibr" target="#b31">, Prugh et al. 2005)</ref>. A potential limitation of effectively using noninvasive DNA data in a mark-recapture statistical framework for the endangered Mexican wolf is their known low genetic diversity; only 7 captive-bred individuals were used as founders of the current wild population <ref type="bibr" target="#b11">(Hedrick and Fredrickson 2010)</ref>. Therefore, finding suitable markers to reliably distinguish individuals in the BRWRA population and distinguishing Mexican wolves from dogs and coyotes is critical for successful noninvasive, mark-recapture, population estimation. Thus, our study had 2 objectives: 1) to compare samples of known Mexican wolves, coyotes, and dogs to identify canid microsatellites with unique alleles for Mexican wolves and sufficient variability to distinguish closely related individuals and 2) to evaluate the feasibility of generating population estimates of endangered Mexican wolves using noninvasive DNA (fecal samples) combined with mark-recapture methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STUDY AREA</head><p>Within the roughly 17,750 km 2 BRWRA, we demarcated 2,500 km 2 in the Apache-Sitgreaves National Forest in Arizona (Fig. <ref type="figure" target="#fig_0">1</ref>) to conduct the study. The Fort Apache Indian Reservation formed one border of the study area to the west; U.S. Highway 191 to the east; State Highway 261, County Road 118, and U.S. Forest Service Road 65, to the north; and the Mogollon Rim was the southern border. An extensive network of U.S. Forest Service roads existed within the study area (Fig. <ref type="figure" target="#fig_0">1</ref>). Four Mexican wolf packs (Paradise, Hawk's Nest, Bluestem, and Rim) occupied the area during the study.</p><p>Within the study area, the major types of vegetation included ponderosa pine (Pinus ponderosa), aspen (Populus tremuloides), fir (Abies spp.) juniper (Juniperus spp.), piñon pine (Pinus cembroides), mesquite (Prosopis spp.), oaks (Quercus spp.), and several varieties of grasses and forbs <ref type="bibr" target="#b32">(Reed 2003)</ref>. Potential prey for Mexican wolves in the BRWRA included elk (Cervus canadensis), white-tailed deer (Odocoileus virginianus), and mule deer (O. hemionus). To a lesser extent, pronghorn (Antilocapra americana), bighorn sheep (Ovis canadensis), and collared peccary (Pecari tajacu) were also present <ref type="bibr">(USFWS 1996)</ref>. Other large predators in the BRWRA included coyotes, mountain lions (Puma concolor), and American black bears (Ursus americanus; USFWS 1996). Domestic dogs (Canis lupus familiaris), including feral individuals, also were present.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>We identified Mexican wolf fecal samples by detecting the presence or absence of a suite of alleles we characterized as unique to Mexican wolves. To characterize Mexican wolf allelic diversity, the USFWS National Forensic Laboratory (NFL) generated genotypes from tissue and blood samples from 235 Mexican wolves (including 12 confirmed by aerial radiotelemetry by USFWS to have been in our study area and 2 not collared but identified in our study area). To compare this allelic diversity to other canids whose fecal samples might be confused with Mexican wolves, the NFL also genotyped 48 coyotes from BRWRA, and 14 domestic dogs. The NFL genotyped all samples using 10 canid-specific microsatellite loci developed and characterized from the dog genome <ref type="bibr" target="#b25">(Ostrander et al. 1993</ref><ref type="bibr" target="#b6">, Francisco et al. 1996)</ref>. The NFL used 5 panels, using the PCR conditions described by <ref type="bibr" target="#b5">Fain et al. (2010)</ref> and the following primer concentrations for the loci used in this study: Panel 1: CXX.204 (0.83 mM), CXX.140 (0.04 mM); Panel 2: CXX.123 (0.33 mM), CXX.225 (0.83 mM), FH2096(0.063 mM); Panel 3: CXX.172 (0.1 mM), CXX.250 (0.05 mM); Panel 4: FH2001 (0.17 mM), FH2137 (0.083 mM); Panel 5: FH2010 (0.04 mM). The NFL binned, evaluated, and scored alleles using genemapper v. 4.0 (Applied Biosystems [ABI], Foster City, CA, USA). The NFL assessed allele frequencies using the program GenAlEx (see below). Loci with allelic frequencies found to be unique to Mexican wolves (e.g., not found in sampled dogs or coyotes) were identified. We included these loci in a panel used as a prescreen protocol for all fecal samples (see Panel A below) to identify and eliminate nontarget fecal samples.</p><p>To collect Mexican wolf fecal samples, we established 8 60-km transects on U.S. Forest Service roads because wolves travel along existing roads, trails, and waterways and often deposit feces along these pathways <ref type="bibr" target="#b21">(Mech 1970)</ref>. Transects were navigable by 4-wheel-drive, high-clearance vehicles. After initially clearing transects of fecal material, teams of 2 volunteers in vehicles driven at speeds not exceeding 20 km/hr surveyed and collected all potential canid fecal samples from each transect during 3 sampling periods <ref type="bibr">(Sep 2007</ref><ref type="bibr">, Nov 2007</ref><ref type="bibr">, and May 2008)</ref>. During each sampling period, we surveyed transects 5 times (every 5 days) and recorded Global Positioning System coordinates for all sample collection points. During September 2007, we stored 2-g pieces of fecal samples in vacuum-sealed 25-mL vials with 4 g of silica/g of feces <ref type="bibr" target="#b52">(Wasser et al. 1997)</ref>. Filter paper barriers separated fecal samples from silica dust. Within 2 days of receiving the samples, we performed fecal scraping <ref type="bibr" target="#b14">(Kohn et al. 1999</ref><ref type="bibr" target="#b31">, Prugh et al. 2005)</ref> to procure epithelial cells of the predator species rather than any prey DNA. We adapted the storage protocol for fecal samples for the remaining 2 sampling periods <ref type="bibr">(Nov 2007 and</ref><ref type="bibr">May 2008)</ref> because of poor results from storing fecal material in silica beads (see Results). During these collection periods, we stored 2-g samples of fecal scrapings (performed in the field) in 2.0-mL microcentrifuge tubes containing a DET buffer in a 1:4 volume-sample-to-solution ratio <ref type="bibr" target="#b37">(Seutin et al. 1991</ref><ref type="bibr" target="#b31">, Prugh et al. 2005)</ref>. Field personnel stored all samples in freezers until they shipped them to the National Wildlife Research Center (NWRC) laboratory and DNA was extracted promptly after samples arrived. We extracted DNA from fecal samples following the protocol for DNA isolation from human stool using QIAamp DNA Stool Minikits (Qiagen, Valencia, CA, USA). We conducted all DNA extractions in a room that was free of canid DNA, polymerase chain reaction (PCR) products, and separate from the laboratory where PCRs and post-PCR processing was conducted. We used positive and negative controls with all extractions and PCRs and a single individual (MAN) performed all genotypic scoring to ensure consistency. We developed and tested our laboratory techniques for fecal species identification and scoring at the NWRC by obtaining fecal and blood samples from 8 captive Mexican wolves at the Sevilleta National Wildlife Refuge, La Joya, New Mexico. Fecal samples were collected from the refuge in vacuum-sealed 25-mL vials with 4 g of silica/g of feces <ref type="bibr" target="#b52">(Wasser et al. 1997</ref>) to act as a desiccant. We used filter paper barriers to prevent silica dust from embedding itself on the surface of the fecal samples. We extracted DNA from blood samples using a Qiagen DNeasy Blood and Tissue Kit (Qiagen). Further, for validation of consistency of results and alleles binned at the NFL and NWRC, we tested 16 Mexican wolf DNA extractions from tissue samples in both laboratories. All fecal genotyping was conducted at the NWRC. The NWRC amplified 10 loci using 3 panels in 11.0-12.0-mL reactions. Panel A contained the markers CXX.172 and CXX.204, which have private alleles unique to Mexican wolves (see Results). Locus FH2010 <ref type="bibr" target="#b25">(Ostrander et al. 1993</ref><ref type="bibr" target="#b6">, Francisco et al. 1996)</ref> was also in Panel A, and does not have alleles unique to Mexican wolves but amplified well in fecal samples with good-quality DNA and therefore, served to test fecal sample quality. Panel A was used as a prescreen, where all samples were tested along with a negative control and 2 positive controls (DNA from Mexican wolf blood and Mexican wolf fecal samples from Sevilleta National Wildlife Refuge). If the positive controls amplified well and the negative control was negative, then any sample that failed at all 3 markers was considered low-quantity or low-quality DNA and discarded. If at least one locus amplified for a sample and it was judged to be a Mexican wolf or inconclusive then Panel B was run. If at least one locus amplified in Panel B and those alleles or a combination of alleles suggested Mexican wolf (see Results) or was inconclusive, then Panel A was run 2 more times, Panel B run 2 more times, and Panel C run 3 times (see Supporting Information for detailed protocol) following the multiple tubes approach <ref type="bibr" target="#b41">(Taberlet et al. 1996)</ref> to identify and account for alleles missed through allelic dropout or added as false alleles. The prescreen approach was used to minimize the cost of processing hundreds of fecal samples where only a small proportion were likely to be Mexican wolf.</p><p>Panel B contained the markers CXX.123, CXX.225, and CXX.250 <ref type="bibr" target="#b25">(Ostrander et al. 1993)</ref>. Panel C contained the markers FH2001, FH2096, FH2137, and CXX.140 <ref type="bibr" target="#b25">(Ostrander et al. 1993</ref><ref type="bibr" target="#b6">, Francisco et al. 1996)</ref>. Panels A and B were 12.0-mL reactions and Panel C was an 11-mL reaction. Panel A used 3.2-mL 5Â buffer C (Invitrogen, Carlsbad, CA, USA), 0.42 mM dNTP (Invitrogen), 0.17 mg bovine serum albumin (BSA), primers (CXX.172 0.25 mM, FH2010 0.67 mM, CXX.204 0.16 mM), 0.8 units of Taq (Promega, Madison, WI, USA), and ddH2O to total volume of 10 mL. Panel B used 3.0 mL 5Â buffer C (Invitrogen), 0.42mM dNTP (Invitrogen), 0.17 mg BSA, primers (CXX.123 0.25 mM, CXX.225 0.25 mM, CXX250 0.16 mM), 0.8 units of Taq (Promega), and ddH2O to bring total volume to 10 mL. Panel C used 1.0 mL ABI 10Â buffer, 0.84 mM dNTP (Invitrogen), 2.27 mM MgCl 2 (ABI), 0.17 mg BSA, primers (FH2001 0.03 mM, FH2096 0.02 mM, FH2137 0.03 mM, and CXX.140 0.02 mM), 0.2 mL AmpliTaq (ABI), and ddH2O to bring total volume to 9 mL. We added 2 mL of DNA template to the mix for each panel. The PCR amplification profile for Panels A and B was an initial denaturation at 948 C for 4 min, followed by 30 cycles of denaturing at 948 C for 15 s, annealing at 588 C for 15 s, and extension at 728 C for 30 s, with a final extension period of 30 min at 608 C. The PCR amplification profile for Panel C was initial denaturation at 958 C for 10 min, followed by 52 cycles of denaturing at 948 C for 30 s, annealing at 558 C for 30 s, and extension at 728 C for 45 s, with a final extension period of 7 min at 728 C. We mixed PCR products with GeneScan 400HD ROX Size Standard (ABI) and visualized all fragments on an ABI 3130 genetic analyzer following standard protocols. Alleles per locus were binned and scored using genemapper v. 4.0 (ABI). We used the program GenAlEx to 1) compare allelic frequencies between Mexican wolves, coyotes, and dogs; 2) estimate the probability of identity between individuals and siblings (P ID and P IDsib ; Peakall and Smouse 2006) from Mexican wolf fecal genotypes with all 10 markers; 3) detect initial occurrence and reoccurrences of fecal genotypes; and 4) identify matches between genotypes from our fecal collection and of Mexican wolves that were known to exist within our study area during our study period. We calculated the probability of identity for all individuals (P ID ) and between potential siblings (P IDsib ) to confirm whether or not we had enough power to distinguish individuals, including closely related ones with the markers we were using <ref type="bibr">(Waits and</ref><ref type="bibr">Leberg 2000, Waits et al. 2001)</ref>. We used only the final genotypes identified as Mexican wolf from our fecal samples for this analysis. Individual Mexican wolves had been captured, collared, tracked, sampled, and genotyped as part of the USFWS monitoring program. This program was ongoing during our study. We compared genotypes of Mexican wolves known to be on the ground in our study area during our study period to fecal genotypes we obtained to see how many known individuals we captured in our noninvasive sampling effort. We used the program Microchecker to check for null alleles and scoring errors in our fecal genotypes <ref type="bibr" target="#b48">(Van Oosterhout et al. 2004</ref>). We performed analyses of the data (our fecal genotypes, Mexican wolf genotypes from blood and tissue samples from individuals known to be in our study area during our study period, coyotes, and dogs) in STRUCTURE with a burn-in of 100,000 and 500,000 total iterations to assess genetic clusters. Our model was run assuming admixture and correlated allele frequencies because we considered this was a conservative approach that would maximize evidence of admixture if it existed. We tested for K ¼ 1-6 and tested each K 5 times. This analysis was performed to assess the ability of our chosen markers to reliably distinguish Mexican wolves from coyotes in the study area from dogs. We generated encounter histories for each genotype and used these histories in conjunction with 14 Huggins-type robust design mark-recapture models to estimate abundance <ref type="bibr" target="#b30">(Pollock 1982</ref><ref type="bibr" target="#b12">, Huggins 1989</ref>). We estimated survival (S) between primary sampling periods for all models. We estimated probability of emigration (g 00 ) for some models (indicated by G) and fixed the parameter at 0 for other models (indicated by G ¼ 0). We estimated initial capture probabilities as constants (indicated by p[.]) and as varying across primary capture periods but not across secondary capture periods (indicated by p[t]). Some wolves were likely to have a greater capture probability than others because of the location of particular packs relative to our study area boundary. We attempted to model capture heterogeneity by recording the average distance to the edge of the study area from the location at which a genotype was found and used this individual covariate to explain the variation in capture rates between genotypes. Our choice of Huggins-type models to model our data was dictated by our attempt to use individual covariates to explain capture heterogeneity (indicated by p[Distance]). We estimated recapture probabilities in a similar manner (indicated by c[.], c[t], and c [Distance]). We derived the population estimate ( N ) for each primary sampling period with Program MARK <ref type="bibr" target="#b54">(White and Burnham 1999)</ref>. We removed all models with model weight (w i ) &lt; 0.01 from the candidate set and used model averaging to generate point estimates and confidence intervals of Mexican wolf abundance. We incorporated model uncertainty for our model-averaged estimates as outlined by <ref type="bibr" target="#b1">Buckland et al. (1997)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Using genotypes from 235 Mexican wolves, 48 coyotes, and 14 dogs in combination with our fecal genotypes, we identified unique Mexican wolf alleles or combinations of alleles (Table <ref type="table" target="#tab_0">1</ref>). Two loci (Panel A: CXX.172 and CXX.204) had diagnostic alleles for Mexican wolves when compared with coyotes from the area and domestic dogs. All other loci had alleles that were not unique to Mexican wolves, but some allele combinations across loci were diagnostic of a Mexican wolf (Table <ref type="table" target="#tab_0">1</ref>; Supporting Information). We collected 103, 282, and 194 fecal samples during September 2007, November 2007, and May 2008, respectively. The Panel A prescreen was run on 579 samples, only 66 samples were tested for Panel B's first replicate, and 24 samples were tested for all remaining panel replicates (Supporting Information; Table <ref type="table" target="#tab_0">1</ref>). To utilize only the most reliable genotypes, our criteria for final analysis were that a sample was genotyped at all 10 loci (N ¼ 15) and was categorized conclusively as a Mexican wolf (N ¼ 13). No fecal samples from September met our criteria because none produced complete genotypes. Therefore, for subsequent results we will not refer to this sampling period. Thus, November 2007 is the first sampling period and May 2008 will be the second sampling period. We identified 6 fecal samples from the November collection period and 7 fecal samples from May as Mexican wolf. Overall, there were 8 unique fecal genotypes identified throughout the study. One genotype was encountered 3 times-once during the first sampling period, and twice during the second one. Three genotypes were encountered twice-one was encountered in each period, one was encountered twice during the first sampling period, and one was encountered twice during the second sampling period. Four genotypes were only encountered once-2 during the first and 2 during the second primary session. Therefore, during each sampling period, we identified 5 unique genotypes (2 genotypes were found in both periods). As expected, allelic diversity was low among fecal genotypes with 1 fixed locus and 1-4 alleles/loci. Yet, the estimated P ID (1.4E À 04) and P IDsib (1.6E À 02) at 10 loci for the fecal Mexican wolf genotypes were lower than the generally accepted guidelines for genetic mark-recapture studies <ref type="bibr" target="#b50">(Waits et al. 2001)</ref>.</p><p>There were 12 wolves from 4 packs (Paradise, Hawk's Nest, Bluestem, and Rim) detected in the study area based on Interagency Field Team aerial radiotelemetry across the sampling periods. There were 2 more individuals that were not collared that were later determined to have been in the area during one or both study periods. When we examined matches of the fecal genotypes to genotypes from known individuals (total N ¼ 14), we found matches to 5 individuals (36% of wolves in area) from 3 packs (Hawk's Nest, Bluestem, and Rim). Of these 5 individuals, we detected 3 of them twice (see above) and 2 of them a single time both in the second sampling period. Further, we had 3 fecal genotypes that identified as Mexican wolves but did not match to any individuals detected on the ground through Interagency Field Team capture efforts. One of these fecal genotypes was detected 3 times (see above) across both sampling periods and the other 2 were detected only once; both in the first sampling period. The known abundance of Mexican wolves in our study area during our November sampling period was 10 and during May it was 10 (USFWS 2008) so for each sampling period we identified 50% of the wolves known to be in our study area. No null alleles were detected.</p><p>The analyses of genetic clusters using STRUCTURE found that K ¼ 3 had the same probability as K ¼ 4 (Fig. <ref type="figure">2</ref>). However, K ¼ 3 had less variance; and when the clusters at K ¼ 4 were observed, each individual coyote was divided evenly between 2 clusters (Fig. <ref type="figure">2</ref>). Therefore K ¼ 3 was the most biologically meaningful answer. When assignment to clusters for each individual across all 5 runs of K ¼ 3 was averaged, Mexican wolves (including our fecal genotypes and 14 Mexican wolves from BRWRA) assigned to a single cluster (0.993) with a standard deviation (SD) of 0.009; coyotes on average assigned to a single cluster (0.971) with SD of 0.041; and dogs assigned to a single cluster (0.951) with SD of 0.061. Therefore, each species formed its own genetic cluster and our fecal genotypes all clustered with Mexican wolves. STRUCTURE results show that the private alleles detected in Mexican wolves drive much of the Mexican wolf cluster assignment.</p><p>Our robust design models contained only 2 primary collection periods where 8 unique Mexican wolf genotypes were encountered. Of the 14 original models (Table <ref type="table">2</ref>), we retained the top 8, each with a w i &gt; 0.01, and discarded the remaining 6 from our candidate set. The estimates of abundance derived from each model varied between 5.1 and 13.1 for November and between 5.7 and 9.9 for the May collections (Table <ref type="table" target="#tab_2">3</ref>). Our model-averaged abundance estimate was 10 (95% CI ¼ 6-34) during November. Our model-averaged abundance estimate was 9 (95% CI ¼ 6-30) during May. All final estimates were rounded up to the next greatest integer. Distance from the site of collection of a genotype to the edge of the study area did not improve the modeling of initial or recapture probabilities even though we Figure <ref type="figure">2</ref>. Graph of results from STRUCTURE (K ¼ 1-6). Log-likelihood values LnP(D) and the number of clusters tested, including the variance of values across each of 5 independent runs. This analysis tested the genetic clusters formed by fecal genotypes presumed to be Mexican wolf, genotypes from tissue or blood of Mexican wolves known to be in the study area (Blue Range Wolf Recovery Area, AZ, USA) during the study, coyotes from the Blue Range Wolf Recovery Area, and domestic dogs (collected via road transects during 2007 and 2008). K ¼ 3 was the best result and all our fecal genotypes fell into a genetic cluster with known Mexican wolves, while coyotes formed a second cluster, and dogs formed the third cluster.</p><p>Table <ref type="table">2</ref>. Model support for Huggins-type robust mark-recapture models used to estimate Mexican wolf abundance in the Blue Range Wolf Recovery Area in Arizona, USA. Data are fecal genotypes generated from samples collected within the study area during 2 sampling periods in 2007 and 2008. We used Akaike Information Criterion corrected for small sample size (AIC c ) to rank models and present associated model weights (w i ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model a</head><p>Parameters estimated a S indicates that the survival parameter was estimated; G ¼ 0 indicates that the g 00 (probablility of emigration) parameter was fixed at 0, and G indicates that the g 00 parameter was estimated; P[.] or c <ref type="bibr">[.]</ref> indicates that the initial capture or recapture probabilities were modeled as constants, p[t] or c[t] indicates that they varied across primary capture periods but not across secondary capture periods, and p[Distance] or c[Distance] indicates that they were modeled as a function of the average distance from the site of collection of a genotype to the edge of the study area.</p><formula xml:id="formula_0">AIC c DAIC c w i {S, G ¼ 0, p[.] ¼ c[.]} 2 61.5 0.0 0.49 {S, G ¼ 0, p[.], c[.]} 3 63.3 1.9 0.20 {S, G ¼ 0, p[t] ¼ c[t]} 3 64.6 3.1 0.10 {S, G, p[.] ¼ c[.]} 3 64.9 3.5 0.09 {S, G ¼ 0, p[t], c[.]} 4 66.6 5.2 0.04 {S, G ¼ 0, p[.], c[t]} 4 66.9 5.4 0.03 {S, G, p[.], c[.]} 4 67.7 6.1 0.02 {S, G, p[t] ¼ c[t]} 4 68.9 7.5 0.01 {S, G ¼ 0, p[Distance] ¼ c[Distance]} 2 70.1 8.6 0.01 {S, G ¼ 0, p[t], c[t]}<label>5</label></formula><p>found the suggestion of a relationship between the number of times an individual was captured and distance to edge of the study area (Table <ref type="table" target="#tab_3">4</ref>). We conducted a Poisson regression of the data and the parameter estimates were not statistically significant, primarily because of small sample size (Table <ref type="table" target="#tab_3">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Our primary objective was to evaluate the utility of using noninvasive fecal DNA genotypes of Mexican wolves combined with mark-recapture methods to generate population estimates. Our results indicated that such techniques could be a viable alternative for monitoring Mexican wolf populations. Another objective was to compare samples of known Mexican wolves, coyotes, and dogs to identify canid microsatellites with unique alleles for Mexican wolves. Our genetic methodology proved effective for distinguishing Mexican wolf scat from dogs and coyotes in the BRWRA and during 2 sampling occasions we were able to identify 5 of 14 individual Mexican wolves known to be members of 3 different packs and 3 previously undetected wolves occurring in the study area during both our sampling periods.</p><p>Although the low numbers of wolves we detected and recaptured resulted in wide confidence intervals, our estimates of abundance corresponded with the known number of wolves in the study area. Intensive capture and surveillance efforts of Mexican wolves did not detect 3 individuals identified from fecal genotypes. This is not unexpected because traditional mark-recapture methods can miss elusive animals including juveniles. We detected each of these individuals initially during the November 2007 sampling effort, so these could be young of the year not yet captured and collared. Alternatively, there could have been uncollared adult wolves in the area. We believe that our lack of success in generating complete genotypes from September samples was due to the inefficacy of the preservation technique we used during that collection period. We were able to generate complete genotypes for subsequent collections after we implemented a different preservation technique. If we had been able to successfully amplify samples from the September 2007 period at all 10 loci, our population estimates may have been more precise and accurate. Regardless, this study demonstrated that our approach could prove useful for monitoring Mexican wolves; however, we suggest a number of changes to the sampling design that could increase the number of Mexican wolf detections.</p><p>Our sampling protocol called for surveys of transects every 5 days, but studies (published after we conducted our study) have reported that wild canid fecal samples degrade significantly and provide less robust genotypes after 1-3 days <ref type="bibr" target="#b35">(Santini et al. 2007</ref><ref type="bibr" target="#b27">, Panasci 2009)</ref>. Ideally, before the implementation of another attempt at fecal collection, an initial study would be conducted to examine Mexican wolf fecal deposition and degradation rates, along with estimates of field and lab costs to allow quantitative evaluation of the ideal temporal sample collection that balances all these issues as has been done for coyotes and foxes in Utah, USA <ref type="bibr" target="#b15">(Lonsinger et al. 2015)</ref>. Our sampling protocol also called for the collection of all suspected canid feces detected along transects because field methods to distinguish between feces deposited by Mexican wolves and coyotes based on fecal size are unreliable <ref type="bibr" target="#b33">(Reed et al. 2004</ref>). Consequently, we collected and prescreened numerous fecal samples that were deposited  <ref type="bibr" target="#b34">Rinkevich (2012)</ref> used detection dogs to conduct a similar study to ours in another portion of the BRWRA in 2008 and 2009. Using dogs she collected 558 fecal samples, 265 of which amplified and produced DNA sequence data. Of these, 197 sequences were carnivore and 21 of those were Mexican wolf (her population size estimate was 19), while 111 were coyote. The study concluded that the dogs found a large number of nontarget scats and a low number of wolf scats in the study. We believe further investigation into whether detection dogs can be useful is warranted and should be done in conjunction with a cost-benefit analysis that compares our methodology with that using detection dogs and mark-recapture through radiotelemetry.</p><p>Our candidate models only contained the g 00 parameter (which is the probability of being off the study area and unavailable for capture during period i, given that the animal was not present during the previous period and given that it survived) and not g 0 (which is the probability of being off the study area and unavailable for capture during period i, given that the animal was present during the previous period and given that it survived). This is because estimation of both these parameters requires !3 primary sampling sessions, whereas we only had 2 primary sampling sessions as a result of the unavailability of data from our September sampling effort. We expected heterogeneity in capture rates between individual wolves and therefore used Huggins-type models <ref type="bibr" target="#b12">(Huggins 1989</ref>) to account for this heterogeneity. Two of the 4 wolf packs in our study had territories that were completely contained within our study area, while the other 2 packs occupied territory outside the study area. Thus, we tried to model individual heterogeneity by recording the average distance to the edge of the study area from the location at which a sample was collected. However, our hypothesis that individual capture rates might vary depending on the location of pack territories was not sustained by model selection methods. It is likely that our model selection methods strongly penalized the use of additional parameters because of the dearth of usable data; with more data, this may be an effective way of modeling individual capture heterogeneity.</p><p>Erroneous addition or omission of new individuals occur when genotypes are incorrectly determined because of PCR replicate error, error from degraded DNA, human error in scoring, or lack of robust loci <ref type="bibr" target="#b42">(Taberlet et al. 1999, Waits and</ref><ref type="bibr" target="#b49">Leberg 2000)</ref>. Even miniscule errors can lead to significant positive bias in the estimation of population size <ref type="bibr" target="#b42">(Taberlet et al. 1999</ref><ref type="bibr" target="#b49">, Waits and Leberg 2000</ref><ref type="bibr" target="#b17">, Lukacs and Burnham 2005</ref><ref type="bibr" target="#b51">, Waits and Paetkau 2005)</ref>. Further, unique animals might appear as a single genotype when loci that are not robust enough to distinguish closely related individuals are applied <ref type="bibr" target="#b42">(Taberlet et al. 1999;</ref><ref type="bibr" target="#b49">Waits and Leberg 2000;</ref><ref type="bibr">McKelvey and Schwartz 2004a, b)</ref>. This artificially increases the recapture rate and results in the underestimation of abundance <ref type="bibr" target="#b23">(Mills et al. 2000)</ref>. Thus, one of our objectives was to identify microsatellites that were robust (i.e., not error prone) and variable enough to allow discrimination of closely related individuals even though this population is inbred (lacks allelic diversity).</p><p>The estimated P ID and P IDsib for the genotypes we collected were sufficiently low for us to conclude that we effectively distinguished closely related individuals. We did not attempt to estimate genotyping error either statistically or within the framework of mark-recapture modeling because of the extremely limited number of Mexican wolf genotypes detected. However, it is our belief that we avoided significant genotyping errors by following suggestions of <ref type="bibr" target="#b26">Paetkau (2003)</ref>, who argued that genotyping errors are reduced to negligible levels or completely eliminated by using careful laboratory protocol, experienced observers, reliable microsatellite loci, and by rejecting samples of poor quality, which was accomplished through our prescreening protocol (Supporting Information). We have demonstrated that noninvasive DNA collection paired with mark-recapture analysis is an effective tool for monitoring Mexican wolves, which is consistent with <ref type="bibr" target="#b39">Stenglein et al. (2010</ref><ref type="bibr" target="#b40">Stenglein et al. ( , 2011) )</ref> and <ref type="bibr" target="#b18">Marucco et al. (2012)</ref> who conducted noninvasive fecal DNA studies of other wolf species. By genotyping captured Mexican wolves, we have identified a suite of alleles that differentiate Mexican wolves from coyotes and domestic dogs. Therefore, we are confident that the method presented herein is effective for identifying Mexican wolf species from fecal samples. This information will help future researchers perform species identification from noninvasive samples. Our technique provides managers a way to identify and monitor uncollared wolves that may be missed by traditional surveys. Our technique can also be used to estimate temporary emigration and survival. However, managers will have to sample more intensively than we did to tighten the confidence intervals on estimates of abundance or on other parameters that may be biologically pertinent. More intense sampling efforts should include increasing the number of 1) transects, 2) surveys during a collection period, and 3) collection periods during the year <ref type="bibr" target="#b18">(Marucco et al. 2012)</ref>. Optimization of sampling design could be achieved through another study assessing Mexican wolf fecal deposition and degradation rates <ref type="bibr" target="#b15">(Lonsinger et al. 2015)</ref>. Sampling can and should be conducted on an ongoing basis and in an adaptive manner until the desired tightness in confidence intervals is achieved. Such efforts will likely lead to the more efficient use of scarce resources and effective monitoring of this endangered species.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Boundaries of the Blue Range Wolf Recovery Area with the road transects in Arizona, USA, used for collecting canid fecal samples (e.g., Mexican wolf) during 2007 and 2008. The study area of approximately 2,500 km 2 was bounded by the Fort Apache Indian Reservation on the west; the Mogollon Rim on the south; U.S. Highway 191 on the east; and State Highway 261, County Road 118, and U.S. Forest Service Road 65 on the north.</figDesc><graphic coords="2,123.59,439.03,348.23,266.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="6,123.59,53.18,348.23,222.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Loci and alleles that were used to identify Mexican wolves from fecal genotypes. The diagnostic alleles, or combination of alleles, were identified from genotyping 235 Mexican wolves, 49 coyotes, and 14 dogs from canid scats collected via road transects conducted during 2007 and 2008 in the Blue Range Wolf Recovery Area in Arizona, USA. "Inconclusive" means that these alleles can be found in Mexican wolves but are also found in coyotes and dogs. Panels B and C inconclusive alleles serve as confirmatory alleles when Panel A alleles point to a potential Mexican wolf species identification.</figDesc><table><row><cell></cell><cell>Locus</cell><cell>Locus</cell><cell>Locus</cell><cell></cell></row><row><cell>Panel A</cell><cell>CXX.172</cell><cell>CXX.204</cell><cell>FH2010</cell><cell></cell></row><row><cell>Mexican wolf</cell><cell>158</cell><cell>215</cell><cell></cell><cell></cell></row><row><cell>Inconclusive</cell><cell>157 a</cell><cell>217 209</cell><cell>232</cell><cell></cell></row><row><cell></cell><cell></cell><cell>211</cell><cell>236</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>240</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>244</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>248</cell><cell></cell></row><row><cell>Panel B</cell><cell>Locus</cell><cell>Locus</cell><cell>Locus</cell><cell></cell></row><row><cell></cell><cell>CXX.123</cell><cell>CXX.225</cell><cell>CXX.250</cell><cell></cell></row><row><cell>Mexican wolf</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Inconclusive</cell><cell>152 158</cell><cell>167 169 b</cell><cell>140 144</cell><cell></cell></row><row><cell>Panel C</cell><cell>Locus</cell><cell>Locus</cell><cell>Locus</cell><cell>Locus</cell></row><row><cell></cell><cell>FH 2001</cell><cell>CXX.140</cell><cell>FH2096</cell><cell>FH2137</cell></row><row><cell>Mexican wolf</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Inconclusive</cell><cell>150</cell><cell>137</cell><cell>104</cell><cell>166</cell></row><row><cell></cell><cell>154</cell><cell>145</cell><cell>108</cell><cell>168</cell></row><row><cell></cell><cell>158</cell><cell>151</cell><cell></cell><cell>174</cell></row></table><note><p><p><p>a Allele 157 from locus CXX.172 is very common in Mexican wolves (&gt;90%) but is also reported in the literature in coyotes (&lt;3%; allele 152;</p><ref type="bibr" target="#b5">Fain et al. 2010</ref></p>), but it has not been seen in coyotes from the Blue Range Wolf Recovery Area. b Allele 169 from locus CXX.225 is the most common allele in Mexican wolves (&gt;90%), so although it is found in other canid species (from our samples ¼ 11% dogs and 45% coyotes), it can serve as a diagnostic when other alleles suggest a Mexican wolf identification.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>True abundance and abundance estimates ( b N ) as well as estimates of survival (S), emigration (G), capture probability (p), and recapture probability (c) of the top 8 Huggins-type robust mark-recapture models used to estimate abundance of Mexican wolves from fecal genotypes collected in a study area within the Blue Range Wolf Recovery Area in Arizona, USA, during 2 sampling periods in 2007 and 2008. S indicates that the survival parameter was estimated; G ¼ 0 indicates that the g 00 (probability of emigration) parameter was fixed at 0, and G indicates that the g 00 parameter was estimated; p[.] or c[.]  indicates that the initial capture or recapture probabilities were modeled as constants, and p[t] or c[t] indicate that they varied across primary capture periods but not across secondary capture periods.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell cols="2">Nov 2007</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>May 2008</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">(True N ¼ 10)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">(True N ¼ 10)</cell><cell></cell><cell></cell></row><row><cell>Model a</cell><cell>b N</cell><cell>SE</cell><cell>S</cell><cell>G</cell><cell>p</cell><cell>c</cell><cell>b N</cell><cell>SE</cell><cell>S</cell><cell>G</cell><cell>p</cell><cell>c</cell></row><row><cell>{S, G ¼ 0, p[.] ¼ c[.]}</cell><cell>9.9</cell><cell>4.8</cell><cell>0.95</cell><cell>0.00</cell><cell>0.13</cell><cell>0.13</cell><cell>9.9</cell><cell>4.8</cell><cell>0.95</cell><cell>0.00</cell><cell>0.13</cell><cell>0.13</cell></row><row><cell>{S, G ¼ 0, p[.], c[.]}</cell><cell>5.7</cell><cell>1.3</cell><cell>0.85</cell><cell>0.00</cell><cell>0.35</cell><cell>0.11</cell><cell>5.7</cell><cell>1.3</cell><cell>0.85</cell><cell>0.00</cell><cell>0.35</cell><cell>0.11</cell></row><row><cell>{S, G ¼ 0, p[t] ¼ c[t]}</cell><cell>13.1</cell><cell>10.9</cell><cell>0.92</cell><cell>0.00</cell><cell>0.09</cell><cell>0.09</cell><cell>8.3</cell><cell>4.1</cell><cell>0.92</cell><cell>0.00</cell><cell>0.17</cell><cell>0.17</cell></row><row><cell>{S, G, p[.] ¼ c[.]}</cell><cell>9.9</cell><cell>4.8</cell><cell>0.99</cell><cell>0.19</cell><cell>0.13</cell><cell>0.13</cell><cell>9.9</cell><cell>4.8</cell><cell>0.99</cell><cell>0.19</cell><cell>0.13</cell><cell>0.13</cell></row><row><cell>{S, G ¼ 0, p[t], c[.]}</cell><cell>5.1</cell><cell>0.48</cell><cell>0.91</cell><cell>0.00</cell><cell>0.52</cell><cell>0.11</cell><cell>7.8</cell><cell>7.5</cell><cell>0.91</cell><cell>0.00</cell><cell>0.18</cell><cell>0.11</cell></row><row><cell>{S, G ¼ 0, p[.], c[t]}</cell><cell>5.7</cell><cell>1.26</cell><cell>0.85</cell><cell>0.00</cell><cell>0.35</cell><cell>0.06</cell><cell>5.7</cell><cell>1.3</cell><cell>0.85</cell><cell>0.00</cell><cell>0.35</cell><cell>0.17</cell></row><row><cell>{S, G, p[.], c[.]}</cell><cell>5.7</cell><cell>1.26</cell><cell>0.87</cell><cell>0.08</cell><cell>0.35</cell><cell>0.11</cell><cell>5.7</cell><cell>1.3</cell><cell>0.87</cell><cell>0.08</cell><cell>0.35</cell><cell>0.11</cell></row><row><cell>{S, G, p[t] ¼ c[t]}</cell><cell>13.1</cell><cell>10.8</cell><cell>0.92</cell><cell>0.00</cell><cell>0.09</cell><cell>0.09</cell><cell>8.3</cell><cell>4.0</cell><cell>0.92</cell><cell>0.00</cell><cell>0.17</cell><cell>0.17</cell></row></table><note><p>a</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Evidence of a potential relationship between capture frequency of individual genotypes of Mexican wolves and the average distance from the site of collection of a fecal genotype to the edge of a study area within the Blue Range Wolf Recovery Area in Arizona, USA, generated from samples collected during 2 sampling periods in 2007 and 2008.</figDesc><table><row><cell></cell><cell></cell><cell>Average</cell></row><row><cell>Genotype</cell><cell>No. times</cell><cell>distance</cell></row><row><cell>label</cell><cell>encountered</cell><cell>to edge (km)</cell></row><row><cell>A</cell><cell>3</cell><cell>14.2</cell></row><row><cell>B</cell><cell>2</cell><cell>11.9</cell></row><row><cell>C</cell><cell>2</cell><cell>9.7</cell></row><row><cell>D</cell><cell>2</cell><cell>10.6</cell></row><row><cell>E</cell><cell>1</cell><cell>4.2</cell></row><row><cell>F</cell><cell>1</cell><cell>3.8</cell></row><row><cell>G</cell><cell>1</cell><cell>5.1</cell></row><row><cell>H</cell><cell>1</cell><cell>0.1</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>23285540, 2016, 2, Downloaded from https://wildlife.onlinelibrary.wiley.com/doi/10.1002/wsb.659 by Portail BibCNRS INEE, Wiley Online Library on [05/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Piaggio et al. Noninvasive Estimation of Mexican Wolf Abundance</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We are grateful to <rs type="person">J. Oakleaf</rs>, <rs type="person">S. Fain</rs>, and the late <rs type="person">J. Morgart</rs> of the <rs type="affiliation">U.S. Fish and Wildlife Service</rs> for their cooperation, their ideas, and for the use of facilities and data made available to us. We are also grateful to <rs type="person">C. Carillo</rs> of <rs type="affiliation">U.S. Department of Agriculture/Wildlife Services</rs> for his expert logistical support. He made sure that no task was delayed or</p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>went unfinished because we lacked a piece of equipment or personnel. We thank J. Fischer for assisting with Geographic Information System and developing Figure <ref type="figure">1</ref> of the study area. Private citizens (too numerous to mention individually) volunteered hundreds of hours of their free time to help with this project. We thank them for their contributions. This project was funded by the Arizona Game and Fish Department, New Mexico Department of Game and Fish, U.S. Department of Agriculture/Animal and Plant Health Inspection Service/Wildlife Services, California Wolf Center, Dr. Donald and Sammie Bricker Foundation, and Texas Tech University. The findings and conclusions in this article are those of the author(s) and do not necessarily represent the views of the U.S. Fish and Wildlife Service. We thank the anonymous reviewers and associate editors that contributed to refining this article. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LITERATURE CITED</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional supporting information may be found in the online version of this article at the publisher's web-site. Supporting information includes a detailed document on the laboratory work flow for identifying Mexican wolves from fecal samples and a Genalex output of allelic frequencies between Mexican wolf blood and tissue samples of wolves on the ground in our study area during the time of our sampling, our fecal samples, coyotes, and dogs. Supporting Information Table <ref type="table">1</ref> shows the total number of PCR runs, failures, Mexican wolves, other canid species, and inconclusives that were identified at each step of the work flow.</p><p>Table <ref type="table">S1</ref>. Number of PCRS performed for each panel, including the number of PCRs/samples that failed to amplify at each marker in the panel, the number identified as Mexican wolf and/or inconclusive. n/a, not applicable.</p><p>Supporting Word File. Work flow for Mexican wolf samples.</p><p>Supporting Excel File. Genalex output of allelic frequencies between Mexican wolf blood and tissue samples of wolves on the ground in our study area during the time of our sampling, our fecal samples, coyotes, and dogs.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<title level="m">The wolf in the Southwest: the making of an endangered species</title>
+		<meeting><address><addrLine>Tucson, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>The University of Arizona Press</publisher>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Model selection: an integral part of inference</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Buckland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Augustin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="603" to="618" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">An account of the taxonomy of North American wolves from morphological and genetic analyses</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Chambers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Fain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fazio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Amaral</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">North American Fauna</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1" to="67" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Population size estimation in Yellowstone wolves with error-prone non-invasive microsatellite genotypes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Creel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Spong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rotella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zeigle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Joe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2003" to="2009" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Evaluation of indices of gray wolf, Canis lupus, density in hardwood-conifer forests of southwestern Quebec</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Crête</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Messier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Field-Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="147" to="152" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Genetic outcomes of wolf recovery in the western Great Lakes states</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Fain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Straughan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1747" to="1765" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A class of highly polymorphic tetranucleotide repeats for canine genetic mapping</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Francisco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Langston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Mellersh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Neal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Ostrander</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammalian Genome</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="359" to="362" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Evaluation of a simulated howling survey for wolves</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Sampson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="60" to="63" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Relationships and genetic purity of the endangered Mexican wolf based on analysis of microsatellite loci</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Garcia-Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Matocq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Geffen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="376" to="389" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Ginsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Macdonald</surname></persName>
+		</author>
+		<title level="m">Foxes, wolves, jackals and dogs: an action plan for the conservation of canids</title>
+		<meeting><address><addrLine>Gland, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>World Conservation Union</publisher>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">An analysis of howling response parameters useful for wolf pack censusing</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Harrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Mech</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="686" to="693" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Genetic rescue guidelines with examples from Mexican wolves and Florida panther</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Hedrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fredrickson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="615" to="626" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">On the statistical analysis of capture experiments</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Huggins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrika</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="133" to="140" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Incorporating genotyping error into non-invasive DNA-based mark-recapture population estimates</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Knapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="598" to="604" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Estimating population size by genotyping faeces</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>York</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Kamradt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Haught</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Sauvajot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the Royal Society of London. Series B, Biological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">266</biblScope>
+			<biblScope unit="page" from="657" to="663" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Balancing sample accumulation and DNA degradation rates to optimize noninvasive genetic sampling of sympatric carnivores</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Lonsinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Dempsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Kluever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="831" to="842" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Non-invasive molecular tracking of colonizing wolf (Canis lupus) packs in the western Italian Alps</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lucchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fabbri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marucco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ricci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Randi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="857" to="868" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Estimating population size from DNA-based closed capture-recapture data incorporating genotyping error</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Lukacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="396" to="403" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Evaluating the efficacy of non-invasive genetic methods and estimating wolf survival during a ten-year period</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marucco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Vucetich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Vucetich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1611" to="1622" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Genetic errors associated with population estimation using non-invasive molecular tagging: problems and new solutions</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz ; A</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="439" to="448" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Providing reliable and accurate genetic capture-mark-recapture estimates in a cost-effective way</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="453" to="456" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Mech</surname></persName>
+		</author>
+		<title level="m">The wolf: the ecology and behavior of an endangered species</title>
+		<meeting><address><addrLine>Garden City, New Jersey, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Natural History Press</publisher>
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<author>
+			<persName><forename type="first">Mexican</forename><surname>Wolf</surname></persName>
+		</author>
+		<title level="m">Mexican wolf Blue Range reintroduction project 5-year review</title>
+		<meeting><address><addrLine>Albuquerque, New Mexico, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>U.S. Fish and Wildlife Service Region</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+	<note type="report_type">Unpublished Report</note>
+	<note>Blue Range Adaptive Management Oversight Committee</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Estimating animal abundance using non-invasive DNA sampling: promise and pitfalls</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Citta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Lair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Tallmon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="283" to="294" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Browsed twig environmental DNA: diagnostic PCR to identify ungulate species</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>K€ Onigssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dannel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Spong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="983" to="989" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Identification and characterization of dinucleotide repeat (CA)n markers for genetic mapping in dog</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Ostrander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Sprague</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genomics</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="207" to="213" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">An empirical exploration of data quality in DNA-based population inventories</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1375" to="1387" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Panasci</surname></persName>
+		</author>
+		<title level="m">An evaluation of fecal DNA preservation techniques and effects of sample age and diet on genotyping success</title>
+		<meeting><address><addrLine>Lubbock, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+		<respStmt>
+			<orgName>Texas Tech University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Green fire&quot; returns to the Southwest: reintroduction of the Mexican wolf</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Parsons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="799" to="807" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">GENALEX 6, genetic analysis in Excel: population genetic software for teaching and research</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="288" to="295" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A capture-recapture design robust to unequal probability of capture</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pollock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="752" to="757" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Monitoring coyote population dynamics by genotyping faeces</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Prugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Ritland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Arthur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Krebs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1585" to="1596" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Reed</surname></persName>
+		</author>
+		<title level="m">Diets of free-ranging Mexican gray wolves in Arizona and New Mexico</title>
+		<meeting><address><addrLine>Lubbock, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+		<respStmt>
+			<orgName>Texas Tech University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Differentiating Mexican gray wolf and coyote fecal samples using DNA analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="685" to="692" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Rinkevich</surname></persName>
+		</author>
+		<title level="m">An assessment of abundance, diet, and cultural significance of Mexican gray wolves in Arizona</title>
+		<meeting><address><addrLine>Tucson, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Arizona</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Dissertation</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Ageing and environmental factors affect PCR success in wolf (Canis lupus) excremental DNA samples</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Santini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lucchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fabri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Randi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="955" to="961" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Genetic monitoring as a promising tool for conservation and management</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="25" to="33" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Preservation of avian blood and tissue samples for DNA analyses</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Seutin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Boag</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="82" to="90" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A long-term population monitoring approach for a wide-ranging carnivore: noninvasive genetic sampling of gray wolf rendezvous sites in Idaho, USA</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Stansbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Ausband</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Mack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Pennell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1040" to="1049" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Efficient, noninvasive genetic sampling for monitoring reintroduced wolves</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Stenglein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Ausband</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Mack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="1050" to="1058" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Estimating gray wolf pack size and family relationships using noninvasive genetic sampling at rendezvous sites</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Stenglein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Ausband</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Mack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="784" to="795" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Reliable genotyping of samples with very low DNA quantities using PCR</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Questiau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Manceau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Escaravage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bouvet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="3189" to="3194" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Non-invasive genetic sampling: look before you leap</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology &amp; Evolution</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="323" to="327" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Proposed rule. Endangered and threatened wildlife and plants; removing the gray wolf (Canis lupus) from the list of endangered and threatened wildlife and maintaining protections for the Mexican wolf (Canis lupus baileyi) by listing it as endangered. Code of Federal Register 50, Part 17</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Federal Register</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">114</biblScope>
+			<biblScope unit="page" from="35664" to="35719" />
+			<date type="published" when="2013">2013</date>
+			<publisher>Fish and Wildlife Service</publisher>
+		</imprint>
+	</monogr>
+	<note>Department of the Interior</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m">Reintroduction of the Mexican wolf within its historic range in the southwestern United States: final environmental impact statement</title>
+		<meeting><address><addrLine>Albuquerque, New Mexico, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>United States Fish and Wildlife Service</publisher>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Establishment of a nonessential experimental population of the Mexican gray wolf in Arizona and New Mexico</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename><surname>Fish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wildlife</forename><surname>Service</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Federal Register</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="1752" to="1772" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<ptr target="http://www.fws.gov/southwest/es/mexicanwolf/documents.cfm" />
+		<title level="m">Mexican wolf recovery program: progress report 11</title>
+		<imprint>
+			<publisher>USFWS</publisher>
+			<date type="published" when="2008-04-01">2008. 1 Apr 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<ptr target="http://www.fws.gov/southwest/es/mexicanwolf/documents.cfm" />
+		<title level="m">Mexican wolf recovery program: progress report 16</title>
+		<imprint>
+			<publisher>USFWS</publisher>
+			<date type="published" when="2012">2013. 1 Apr 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Mico-checker: software for identifying and correcting genotyping errors in microsatellite data</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Van Oosterhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P M</forename><surname>Wills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shipley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="535" to="538" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Biases associated with population estimation using molecular tagging</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Leberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Conservation</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="191" to="199" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Estimating the probability of identity among genotypes in natural populations: cautions and guidelines</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="249" to="256" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling tools for wildlife biologists: a review of applications and recommendations for accurate data collection</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Techniques for application of faecal DNA methods to field studies of ursids</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Wasser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Houston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Koehler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Cadd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Fain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1091" to="1097" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Mitochondrial DNA variability of the gray wolf: genetic consequences of population decline and habitat fragmentation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lehman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Allard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Honeycutt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="559" to="569" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Program MARK: survival estimation from populations of marked animals</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bird Study Supplement</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="120" to="138" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Genetic tagging of free-ranging black and brown bears</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="616" to="627" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">The wolves of North America</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Goldman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1944">1944</date>
+			<publisher>Blanchong</publisher>
+			<pubPlace>Washington, D.C., USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

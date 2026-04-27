@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Conflicting management policies for the Arabian wolf Canis lupus arabs in the Negev Desert: is this justified</title>
+				<funder>
+					<orgName type="full">Israel Nature and Parks Authority</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Orly</forename><surname>Cohen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Adi</forename><surname>Barocas</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Eli</forename><surname>Geffen</surname></persName>
+							<email>geffene@post.tau.ac.il</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Zoology</orgName>
+								<orgName type="institution">Tel Aviv University</orgName>
+								<address>
+									<postCode>69978</postCode>
+									<settlement>Tel Aviv</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Program in Ecology</orgName>
+								<orgName type="department" key="dep2">Department of Zoology and Physiology</orgName>
+								<orgName type="institution">University of Wyoming</orgName>
+								<address>
+									<settlement>Laramie</settlement>
+									<region>Wyoming</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Conflicting management policies for the Arabian wolf Canis lupus arabs in the Negev Desert: is this justified</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EF2CE9CD77C07E743337DB85F4F33AF5</idno>
+					<idno type="DOI">10.1017/S0030605311001797</idno>
+					<note type="submission">Received 3 August 2011. Revision requested 25 November 2011. Accepted 6 December 2011.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:21+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Carnivore removal</term>
+					<term>Israel</term>
+					<term>Middle East</term>
+					<term>noninvasive sampling</term>
+					<term>population size</term>
+					<term>population subdivision</term>
+					<term>scatology</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Conservation plans may conflict when both predator and prey in the same ecological system are threatened species. In this study we present a problematic case of conflicting conservation policies involving the Arabian wolf Canis lupus arabs and two species of gazelles (Gazella gazella acaciae and Gazella dorcas), all of which are threatened in Israel. By studying genetic subdivision using faecal DNA we evaluated the policy of treating the Arabian wolves in the Negev Desert as two separate populations. We analysed 95 wolf faecal samples from 12 feeding sites c. 20 km apart. Network analysis and Bayesian clustering were used for separating populations. Mark-recapture design, rarefaction and an urn model were applied to estimate wolf population size. We found that wolves in the central and southern Negev cannot be genetically separated, and their density is similar in both regions. Our results provide a better baseline for a unified management of wolves in the Negev. We call for the consideration of other factors influencing gazelle population size before adopting drastic measures such as wolf removal.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>A great deal of effort goes into protecting threatened and/or important species. In some cases several threatened species can be protected under the same programme. Nevertheless, when these threatened species include both predator and prey in the same ecological system there may be potential conflict of management plans. This is illustrated by examples from the Channel Islands off the Californian coast. These islands were previously densely populated by the island fox Urocyon littoralis. The arrival and spread of the golden eagle Aquila chrysaetos to these islands in the 1980s, facilitated by the availability of the previously introduced feral pig Sus scrofa as prey, led to a drastic decline in fox numbers <ref type="bibr" target="#b35">(Roemer et al., 2002)</ref>, to the point that breeding programmes were established to save the fox from extinction. The dilemma was: should the golden eagle, which is a protected species, be removed to save another protected species, the island fox? To mitigate the decline in fox numbers, golden eagles were translocated, and feral pigs eradicated from the islands <ref type="bibr" target="#b4">(Courchamp et al., 2003)</ref>. A similar case in these Channel Islands is that of the threatened San Clemente loggerhead shrike Lanius ludovicianus mearnsi, which is predated by the island fox; a control programme was established to save the shrike <ref type="bibr" target="#b36">(Roemer &amp; Wayne, 2003)</ref>.</p><p>Predator removal is commonly practised by wildlife managers. A recent review suggested that predator removal increased hatching and fledging success and breeding populations of birds <ref type="bibr" target="#b43">(Smith et al., 2010)</ref>. Predation by wolf Canis lupus, puma Puma concolor and coyote Canis latrans may be a significant mortality factor for medium or large ungulates (e.g. deer, caribou Rangofer tarandus, moose Alces alces) in some areas under certain conditions (reviewed in <ref type="bibr" target="#b1">Ballard et al., 2001)</ref>. A predator removal programme may not affect prey populations that are near carrying capacity but may significantly increase ungulate populations that are substantially below carrying capacity. Thus results of predator removal practice are confounded by numerous factors and only through intensive studies can predation be identified as a major limiting factor <ref type="bibr" target="#b1">(Ballard et al., 2001)</ref>. <ref type="bibr" target="#b48">Wasser et al. (2011)</ref> studied the effect of predator removal on caribou populations and concluded that management should prioritize the control of human activities before implementation of more extreme actions such as removal of wolves. In other words, resource selection and its physiological consequences can significantly influence predatorprey interactions, and should be considered in management programmes that aim to manipulate complex ecosystems.</p><p>In this study we present a problematic case of conflicting conservation policies involving several threatened species. A small isolated population (20-30 individuals) of the mountain gazelle Gazella gazella acaciae inhabits a 6 km 2 acacia forest near Yotvata in the southern Arava <ref type="bibr">Valley, Israel (Yom-Tov &amp; Ilani, 1987;</ref><ref type="bibr" target="#b6">Dolev &amp; Perevolotsky, 2004)</ref>. A recent genetic survey of gazelles in the Middle East showed that this isolated population is genetically different from the mountain gazelle Gazella gazella gazella in northern Israel but similar to G. gazella from northern Saudi Arabia <ref type="bibr" target="#b52">(Wronski et al., 2010)</ref>. This Critically Endangered G. g. acaciae population has been in decline since the 1960s, presumably because of low calf survival, low genetic diversity, anthropogenic effects and climate change <ref type="bibr" target="#b53">(Yom-Tov &amp; Ilani, 1987;</ref><ref type="bibr" target="#b6">Dolev &amp; Perevolotsky, 2004;</ref><ref type="bibr">IUCN, 2008a)</ref>. The congeneric dorcas gazelle Gazella dorcas is a more common species in the Negev but at a regional scale it is categorized as Vulnerable <ref type="bibr" target="#b6">(Dolev &amp; Perevolotsky, 2004;</ref><ref type="bibr">IUCN, 2008b)</ref> because of intensive motorized hunting and habitat degradation caused by overgrazing and droughts <ref type="bibr" target="#b22">(Mallon &amp; Kingswood, 2001)</ref>. The law in Israel protects both gazelle species and poaching in the south of Israel is rare. The main alleged cause for the decline of both the mountain and dorcas gazelles in the Negev is predation by the Arabian wolf Canis lupus arabs and the caracal Caracal caracal, a hypothesis based on anecdotal data <ref type="bibr" target="#b40">(Shalmon, 2003</ref><ref type="bibr" target="#b41">(Shalmon, , 2006))</ref>. The mountain and dorcas gazelles differ in their laying-up period, which is longer in the mountain gazelle, suggesting greater vulnerability of mountain gazelle fawns to predation <ref type="bibr" target="#b26">(Mendelssohn et al., 1995;</ref><ref type="bibr" target="#b54">Yom-Tov et al., 1995)</ref>. In response to the decline in gazelle populations in the southern Negev the Israel Nature and Parks Authority (INPA; the government agency that manages all natural resources in Israel) instigated a wolf removal programme that eliminated 37 individuals from the area during 2005-2008. By mid 2006 the isolated and small population of the mountain gazelle was completely fenced and the wolf removal programme was terminated in early 2008.</p><p>Although C. lupus is categorized as Least Concern on the IUCN Red List <ref type="bibr" target="#b23">(Mech &amp; Boitani, 2010)</ref>, the Arabian subspecies is threatened regionally and is vulnerable locally <ref type="bibr" target="#b6">(Dolev &amp; Perevolotsky, 2004;</ref><ref type="bibr" target="#b42">Sillero-Zubiri et al., 2004)</ref> because of systematic shooting and trapping <ref type="bibr" target="#b24">(Mendelssohn, 1983;</ref><ref type="bibr" target="#b5">Cunningham &amp; Wronski, 2010)</ref>. In Israel the Arabian wolf is fully protected by law and is not persecuted except for specific management actions. Although <ref type="bibr" target="#b14">Hefner &amp; Geffen (1999)</ref> have studied some behavioural aspects of this subspecies, no reliable demographic data are available. <ref type="bibr" target="#b14">Hefner &amp; Geffen (1999)</ref> documented the dispersal of individuals over 50-150 km, suggesting a continuous admixture between wolves in the southern and central Negev and the likelihood that the wolves in the Negev Desert comprise a single population.</p><p>Israel is divided into four INPA districts that are relatively independent of each other but controlled by a single directing body. The 13,000 km 2 Negev Desert, which covers more than half of Israel, is divided into two INPA districts (Fig. <ref type="figure" target="#fig_0">1</ref>). During 2005-2008 these two districts had different management policies for wolves. The Eilat district culled wolves by trapping or shooting (B. <ref type="bibr">Shalmon, pers. comm.)</ref> and tightly controlled the access of carnivores to rubbish pits, although wolves may still have fed from garbage containers inside settlements and army camps. The South district, on the other hand, did not cull wolves and did not control access of wolves to local rubbish pits. Consequently, while the Eilat district attempted to reduce the wolf population to a minimum, the management exercised by the South district counteracted this. The above actions taken by INPA raise a question: how can a single population be managed by two contradictory policies? To address this issue we studied the genetic population structure and estimated population size using faecal DNA. Specifically, we examined whether the wolf population in the two INPA districts has similar densities and genetic composition. The findings of our study offer a new and reliable baseline for modification of the current INPA management policy for the Arabian wolf in the Negev Desert. Furthermore, our results can shed light on the effects of different management policies on the population genetics of a threatened species.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study area</head><p>The central and southern Negev is a rocky desert, a mixture of mountains, washes, and depressions. The 160 km Arava Valley, an elongated depression of the Rift Valley, borders the Negev in the east. Elevation in the mountainous regions is 400-1,000 m, falling to 50-150 m at the bottom of the Rift. The climate is hot and arid, with an annual rainfall of 50-100 mm, falling during the winter months of November-March <ref type="bibr" target="#b9">(Evenari et al., 1982)</ref>. There are two cities, Eilat (population 50,000) at the northern tip of the Red Sea, and Mitzpe Ramon (population 6,000) in the Negev highlands. All other settlements are agricultural communities (10 in the Eilat district and eight in the South district), mostly in the Rift Valley.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample collection</head><p>To sample wolf scats equally over the central and southern Negev Desert we established a grid of 12 feeding sites c. 20 km apart. Five feeding sites were established in the Eilat district (sampling an area of c. 2,129 km 2 ) and seven in the South district (sampling an area of c. 2,910 km 2 ; Fig. <ref type="figure" target="#fig_0">1</ref>). In setting out this grid of feeding sites we also considered vehicle accessibility and other entry restrictions. Mean home range size of Arabian wolves in the Negev Desert is 34.6 ± SD 19.5 km 2 and mean daily travel distance is 13.7 ± SD 6.7 km (maximum recorded distance travelled in a day is 42 km; <ref type="bibr" target="#b14">Hefner &amp; Geffen, 1999)</ref>. Considering this mean daily travel distance all wolves in this area could probably reach at least one of the feeding sites on a daily basis. Once a month INPA rangers placed a cow calf carcass at each feeding site and scanned the site for scats 1 week later. Each calf carcass was secured to prevent removal by predators. The meat provided at each feeding site was insufficient to support local wolves but provided an incentive for resident wolves to inspect the site on a regular basis and defecate nearby. Because it is difficult to find wolf scats by random searches, except around garbage dumps, this system facilitated the sampling of individuals that are not associated with human habitation on a regular basis. Scats found on the routes leading to the feeding sites were also collected. Each scat was placed in a paper bag and the location and date of collection recorded. In this hot, arid environment, scats become dry a few hours after defecation and storage in paper bags keeps them dry and protected from condensation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genetic analysis</head><p>We extracted DNA from faecal samples using the protocol in <ref type="bibr" target="#b34">Reed et al. (1997)</ref>. Diagnostic mtDNA segments were used to confirm wolf DNA. We used 10 polymorphic wolf microsatellites to identify individuals. Details of the molecular procedures are outlined in Supplementary Information 1.</p><p>We used two population genetic approaches to examine whether a spatial correspondence exists between genetic and spatial grouping (i.e. INPA districts) of wolves. Details of the relatedness network analysis are provided in Supplementary Information 1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bayesian clustering</head><p>To assign individuals to populations we used STRUCTURE 2.3.1 <ref type="bibr" target="#b32">(Pritchard et al., 2000)</ref>, which uses multi-locus genotypes (X) to infer population structure. The Bayesian model assumes K populations that have different allele frequencies within a set of independent loci. We applied the admixture ancestry model once with the independent allele frequency model and once with the correlated model. The number of populations (K) was modified from 1 to 10. For each value of K 10 independent simulations were run for each of the two allele frequency models. Each simulation had a burn-in period of 500,000 iterations followed by a sampling of 500,000 iterations. The likelihood of K (i.e. Ln Pr(X|K)) and ΔK <ref type="bibr" target="#b8">(Evanno et al., 2005)</ref> were used to infer the more likely number of populations. This algorithm also calculates a membership coefficient (Q) for each individual in each population. We used the highest Q value to assign each individual to a population.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Population size estimation</head><p>We used three different approaches to estimate the wolf population size in the Negev: rarefaction curves, capturemark-recapture, and a simple urn model called Capwire.</p><p>Rarefaction curve In this technique the data are plotted as the number of unique multi-locus genotypes (i.e. individuals) as a function of sample size (number of scats analysed) and then fitted to a curve. The asymptote of the curve provides an estimate of the population size. Three fitting equations have been employed in similar previous studies: y 5 ax/(b+x) <ref type="bibr" target="#b19">(Kohn et al., 1999)</ref>, y 5 a(1-e -bx ) <ref type="bibr" target="#b7">(Eggert et al., 2003)</ref> and y 5 a-a(1-1/a) x , which was developed by D. Chessel <ref type="bibr" target="#b11">(Frantz &amp; Roper, 2006)</ref>. In all equations a is the asymptote, b determines the rate of decrease of the slope, x is the number of scats sampled, and y is the number of unique genotypes. We used GIMLET to generate rarefaction curves <ref type="bibr" target="#b45">(Valiere, 2002)</ref>. Because the order in which DNA samples are added has an influence on the shape of the curve ( <ref type="bibr" target="#b19">Kohn et al., 1999)</ref> we used R 2.10.1 <ref type="bibr" target="#b15">(Ihaka &amp; Gentleman, 1996)</ref> to randomize (1,000 iterations) the order of the DNA samples and projected the asymptote for each of these randomizations using each of the three equations. The median of all 1,000 iterations of the asymptote was taken as an estimate of the population size <ref type="bibr" target="#b11">(Frantz &amp; Roper, 2006)</ref>.</p><p>The 95% confidence interval (CI) corresponds to the 0.025 and 0.975 percentiles.</p><p>Capture-mark-recapture (CMR) model The study design (i.e. sampling at the feeding stations at monthly intervals) allowed us to easily adapt the genetic data to the CMR model. Identical multi-locus genotypes were considered to originate from the same individual and a history of captures and recaptures was assembled for each genotype. We divided the study period into 20 monthly sampling sessions.</p><p>If the same genotype was sampled more than once in the same month we considered only one capture for that month.</p><p>Analysis was performed with an open population model, using the POPAN module in MARK <ref type="bibr" target="#b50">(White &amp; Burnham, 1999)</ref>. We used a set of four possible models: fully time dependent ( pt,φt,bt) where p represents the probability of capture, φ represents the probability of an animal surviving between occasions and b is probability of entrance; constant catchability ( p•,φt,bt); constant survival rate ( pt,φ•,bt); and constant catchability and survival rate ( p•,φ•,bt). We performed a goodness-of-fit using the RELEASE suite <ref type="bibr" target="#b3">(Cooch &amp; White 2007)</ref> to confirm that the most general sub-model adequately fitted the data. MARK uses AIC c (Akaike's information criterion corrected for small sample size) for model selection.</p><p>Capture with replacement In non-invasive sampling individuals may be 'captured' several times within one sampling session. When using classical CMR models such multiple captures must be pooled, as an animal should not be captured more than once in one session. This potentially wastes data. Capwire <ref type="bibr" target="#b28">(Miller et al., 2005)</ref> uses a method developed to accommodate this type of data and is based on a simple urn model. There are two capture models: the even capture probability model (ECM) in which every individual is equally likely to be captured in each sampling session with a probability of 1/population size, and the two innate rates model (TIRM), which is more realistic, in which there are two types of individuals with different probabilities of capture. The software performs a likelihood-ratio test to determine which model is more suitable for the given data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample collection and microsatellite genotype</head><p>Over a period of 20 months from May 2007 to December 2008 a total of 334 faecal samples were collected and an additional three tissue samples were taken from wolves that had been shot by INPA rangers. Most scats (82%) were collected after the wolf control programme was terminated. Mitochondrial DNA for species identification was successfully amplified in 230 (69%) of the faecal samples, of which 95 were identified as wolf DNA, 93 were of red foxes Vulpes vulpes, 12 of dogs Canis lupus familiaris, nine of golden jackals Canis aureus and two of striped hyaenas Hyaena hyaena. In 5% of the samples that were identified, mtDNA of the prey (Ovis aries, Capra hircus, Bos taurus) rather than the predator was amplified.</p><p>Of the 98 wolf DNA samples (i.e. 95 faecal samples plus three tissue samples) we obtained a complete or nearly complete multi-locus genotype for 76 samples. The mean rate of allelic dropout was 0.068 and mean rate of false alleles was 0.113 for all replicates at all microsatellite loci. The probability of two individuals possessing identical genotypes (PI) was 1.40 × 10 -10 for a randomly mated population and 1.635 × 10 -4 for siblings. Error rates and PI values of each locus were calculated using GIMLET (Table <ref type="table" target="#tab_0">1</ref>, Supplementary Information 1). We identified 52 unique haplotypes of which 12 were sampled more than once, with a mean of 1.46 samples per individual. The maximum resample rate was six (n52).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Population structure</head><p>We used the Bayesian model in the programme STRUCTURE. The highest Ln Pr(X|K ) and ΔK were observed for K53, indicating three genetic subpopulations <ref type="bibr">(Figs 2 &amp; 3a)</ref>. This result was consistent for both correlated and independent allele frequency models. Most sampled individuals were easily assigned to a cluster as their estimated membership coefficient (Q) was . 0.7 for a specific population. However, three individuals (15, 7, and 11) could not be assigned because their Q values were &lt; 0.7 (Fig. <ref type="figure" target="#fig_3">3a</ref>).</p><p>The distribution of two of the genetic populations (C3 and C1; Fig. <ref type="figure" target="#fig_3">3b</ref>) did not show any clear spatial separation between INPA districts. In Eilat district six individuals were of the C1 cluster and 10 of the C3 cluster, and in the South district 10 individuals were of the C1 cluster and eight of the C3 cluster (Fig. <ref type="figure" target="#fig_3">3b</ref>). However, a third population (C2; Fig. <ref type="figure" target="#fig_3">3b</ref>) had most individuals (n 5 13) in the South district and only one individual in the Eilat district. Thus, the division between districts was significantly dependent on genetic clustering (χ 2 2 5 8.114, P 5 0.0172) because of the uneven distribution of the C2 cluster members between districts (Fig. <ref type="figure" target="#fig_3">3b</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Population size estimation</head><p>The Kohn rarefaction equation gave the highest population estimate, of 176.8 wolves (95% CI 120.8-491.4), followed by that of Eggert with an estimate of 102.1 (95% CI 74.4-256.2), and Chessel with the lowest estimate of 86.2 wolves (95% CI 72.1-105.3; Table <ref type="table" target="#tab_1">2</ref>). The TIRM model of Capwire (L(TIRM) -L(ECM)522.48) gave an estimate of 142 wolves (95% CI 89-179). For the CMR model the goodness-of-fit test confirmed that the most general sub-model adequately fitted the data (χ 2 11 5 3.447, P 5 0.983). The constant catchability and constant survival rate model ranked highest by AICc and gave an estimate of 173.4 wolves (95% CI 85.6-261.1; Table <ref type="table">3</ref>).</p><p>A separate population estimation for each district showed that although the number of wolves in the Eilat district was considerably lower than in the South district, the density of wolves was similar in both districts based on the rarefaction estimates but higher in the South district based on the CMR and Capwire estimates (Table <ref type="table" target="#tab_1">2</ref>). CMR models showed that the lowest AIC c value was obtained by the constant catchability model for the South district and the constant catchability and survival rate model for the Eilat district (Table <ref type="table">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Our results show that the wolf populations in the two INPA districts had a similar genetic composition. The Bayesian model in STRUCTURE identified three genetic subpopulations: two distributed across both districts, and one mostly in the South district (Fig. <ref type="figure" target="#fig_3">3</ref>). However about half of the individuals of the latter population were found near the south-eastern corner of the South district, at the border between the districts. Additional sampling would probably reveal their presence in the north-eastern corner of the Eilat district. Furthermore, network analysis of relatedness shows that individuals of both communities are present in both INPA districts in approximately equal proportions (Supplementary Fig. <ref type="figure" target="#fig_0">S1</ref>). Taken together, the evidence for considering the wolves in the two districts as separate, distinct populations is weak. Overall, our data suggest that all the wolves in the Negev Desert comprise a single population, which should therefore be managed as a single conservation unit. This view is supported by the extensive dispersal distance of Arabian wolves in the Negev <ref type="bibr" target="#b14">(Hefner &amp; Geffen, 1999)</ref>, implying that no isolation exists between wolf populations living throughout this region.</p><p>In these contradictory management approaches between the two INPA districts priority has been given to gazelles over wolves. This situation could have been avoided through a more balanced ecosystem approach that considers the ecological role of both species. The Arabian wolf is currently the top predator in this system, and the gazelle (mostly G. dorcas) is one of the largest native ungulates together with the Nubian ibex Capra ibex nubiana, onager Equus hemionus and Arabian oryx Oryx leucoryx. The latter two species were recently reintroduced into the Negev Desert. Both wolves and gazelles have key ecological roles in the Negev ecosystem <ref type="bibr" target="#b25">(Mendelssohn &amp; Yom-Tov, 1999)</ref>.</p><p>Does the Arabian wolf exert a significant impact on the gazelle population? This issue has never been systematically studied in the Negev Desert. Our findings indicate that the number of wolves in the southern Negev (i.e. Eilat district) is c. 30-50, whereas 60-100 inhabit the central Negev (i.e. South district). Both gazelle species have been counted annually in the Negev Desert since the 1970s. The mountain   <ref type="bibr" target="#b53">&amp; Ilani, 1987;</ref><ref type="bibr" target="#b6">Dolev &amp; Perevolotsky, 2004)</ref>. Thus, the significance of mountain gazelle to the overall Negev ecosystem is negligible. However, the dorcas gazelle is widespread in the Negev, with densities reaching 5 km -2 in areas where many acacias are present and 0.1 km -2 in areas without acacias <ref type="bibr" target="#b0">(Baharav, 1980)</ref>. Based on total counts the population size of the dorcas gazelle in the Negev during 1980-1985 was estimated at 1,000-1,300 <ref type="bibr" target="#b53">(Yom-Tov &amp; Ilani, 1987;</ref><ref type="bibr" target="#b22">Mallon &amp; Kingswood, 2001)</ref>. are no comparable annual data on wolf numbers to support the claim that these fluctuations are related to predation.</p><p>Nor is reliable data on predation of fawn or adult mountain and dorcas gazelle species available for the Negev population. Analysis of 777 wolf scats from the southern Negev <ref type="bibr" target="#b39">(Shalmon, 1986)</ref> revealed that the major dietary components of Arabian wolves are cow carrion (found in 62.5% of scats), fruit and vegetation (51.4% of scats) and human garbage (37.2% of scats). The frequency of indigenous prey, including gazelles, in the scats was only 6.3%. In North America <ref type="bibr" target="#b27">Messier et al. (1995)</ref> showed that the number of wolves per area is linearly related to the density of deer-sized prey. In these populations, wolves consumed mainly large ungulates (northern Minnesota, <ref type="bibr" target="#b20">Kunkel &amp; Mech, 1994;</ref><ref type="bibr">Isle Royale National Park, Vucetich et al., 2002;</ref><ref type="bibr">Yellowstone National Park, Wright et al., 2006)</ref> In contrast, the Arabian wolves in the Negev seem to be dependent on human-related waste and domestic livestock and seldom rely on natural prey.</p><p>The implications of our results are that a major change in wolf management in both INPA districts is required. Firstly, Arabian wolves should not be culled without a robust corresponding study on the effects of such action. The Arabian wolf is a threatened species, living in an arid zone with limited resources <ref type="bibr" target="#b6">(Dolev &amp; Perevolotsky, 2004;</ref><ref type="bibr" target="#b42">Sillero-Zubiri et al., 2004)</ref>. Its population fluctuates similarly to other species dwelling in this region, and may reach critical low levels. Furthermore, culling is indiscriminate and could thus inadvertently eliminate a distinct genotype and thereby reduce the evolutionary potential for survival of this population. Secondly, we suggest that reducing access to human-related waste and domestic livestock could adjust the wolf population size to this arid environment's natural carrying capacity by forcing the wolf population to feed more on natural prey. Thirdly, the effect of droughts and habitat modification by human activity on the dorcas gazelle population in the Negev should be systematically investigated before further culling of predators is carried out. At present, both districts are modifying their management policies with respect to wolves. Wolf culling has been terminated, and new programmes are being developed for limiting the access of carnivores to human waste and agriculture surplus. We have also developed a study on wolf resource utilization, using GPS collars, to understand the dependency of wolves on human resources. Finally, we call for more detailed study on the population dynamics of gazelles in the Negev, especially in relation to effects of global warming, before instigating any further predator control programmes in this region.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG. 1</head><label>1</label><figDesc>FIG. 1 Distribution of the 12 feeding sites (black triangles) used for collecting wolf Canis lupus arabs scats in the Negev Desert (see text for details). White circles denote locations where scats were collected. Kernel densities of 90, 50 and 10% for wolf scats are denoted. A single smoothing parameter of h510 km was used in all kernel contours. The heavy dashed line indicates the boundary between the south and Eilat INPA districts.</figDesc><graphic coords="3,61.73,62.53,228.49,380.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>FIG. 2 Number of subpopulations inferred by STRUCTURE. (a) Mean Ln Pr(X|K) over 10 runs for each K value. (b) ∆K for each K value, where ∆K5m|L(K+1)-2L(K )+L(K-1)|/s[L(K)]. Both Ln Pr(X|K) and ∆K were calculated for the correlated and independent models.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>gazelle population is restricted to a single locality in Eilat district and has numbered c. &lt; 40 since 1978 (Yom-Tov</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIG. 3</head><label>3</label><figDesc>FIG. 3 Assignment of haplotypes by the STRUCTURE Bayesian algorithm. (a) Probability of belonging to each of three clusters (K53) is denoted by shading (as in (b)). (b) Spatial distribution of haplotypes, assigned to the cluster with the highest probability. Empty circles are haplotypes that could not be assigned to a cluster. The frequency of each cluster (C1, C2, C3) in each of the districts is indicated by a bar chart. The heavy dashed line indicates the boundary between INPA districts.</figDesc><graphic coords="6,106.97,77.22,55.10,466.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1</head><label>1</label><figDesc>The number of alleles, observed (H obs ) and expected (H exp ) heterozygosity, and the rate of allelic dropout and false alleles for each of the 10 loci used in this study.</figDesc><table><row><cell></cell><cell>No. of</cell><cell></cell><cell></cell><cell>Allelic</cell><cell>False</cell></row><row><cell>Locus</cell><cell>alleles</cell><cell>H obs</cell><cell>H exp</cell><cell>dropout</cell><cell>alleles</cell></row><row><cell>CXX618</cell><cell>7</cell><cell>0.80</cell><cell>0.72</cell><cell>0.040</cell><cell>0.018</cell></row><row><cell>FH2137</cell><cell>14</cell><cell>0.87</cell><cell>0.84</cell><cell>0.062</cell><cell>0.174</cell></row><row><cell>FH2010</cell><cell>6</cell><cell>0.62</cell><cell>0.55</cell><cell>0.073</cell><cell>0.259</cell></row><row><cell>FH2175</cell><cell>9</cell><cell>0.76</cell><cell>0.73</cell><cell>0.068</cell><cell>0.066</cell></row><row><cell>CXX733</cell><cell>9</cell><cell>0.79</cell><cell>0.75</cell><cell>0.157</cell><cell>0.017</cell></row><row><cell>FH2079</cell><cell>7</cell><cell>0.67</cell><cell>0.68</cell><cell>0.128</cell><cell>0.164</cell></row><row><cell>CXX140</cell><cell>7</cell><cell>0.75</cell><cell>0.79</cell><cell>0.041</cell><cell>0.092</cell></row><row><cell>CXX250</cell><cell>5</cell><cell>0.93</cell><cell>0.76</cell><cell>0.025</cell><cell>0.123</cell></row><row><cell>CXX251</cell><cell>6</cell><cell>0.58</cell><cell>0.63</cell><cell>0.031</cell><cell>0.146</cell></row><row><cell>CXX758</cell><cell>7</cell><cell>0.55</cell><cell>0.74</cell><cell>0.049</cell><cell>0.073</cell></row><row><cell>Mean</cell><cell>7.7</cell><cell>0.73</cell><cell>0.72</cell><cell>0.068</cell><cell>0.113</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 2</head><label>2</label><figDesc>Mean population size and mean density of the Arabian wolf Canis lupus arabs in the Negev Desert, and in the South and Eilat INPA districts separately (Fig.1), based on five estimation methods (see text for details). Mean population size (95% CI) 173.4 (85.7-261.1) 142.0 (89.0-179.0)86.2 (72.1-105.3) 102.1 (74.4-256.2) 176.8 (120.8-491.4) Selection of MARK models (see text for details) for the Negev Desert population and INPA South and Eilat district populations separately.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell>Rarefaction</cell><cell></cell><cell></cell></row><row><cell>Area</cell><cell>MARK</cell><cell>Capwire</cell><cell>Chessel</cell><cell>Eggert</cell><cell cols="2">Kohn</cell></row><row><cell>Negev Desert</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Density (100 km -2 )</cell><cell>3.4</cell><cell>2.8</cell><cell>1.7</cell><cell>2.0</cell><cell></cell><cell>3.5</cell></row><row><cell>South district</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">Mean population size (95% CI) 98.9 (10.7-187.1) 86.0 (46.0-116.0) 44.5 (36.1-57.3)</cell><cell cols="3">60.6 (38.1-363.7) 106.0 (60.5-916.0)</cell></row><row><cell>Density (100 km -2 )</cell><cell>3.4</cell><cell>3.0</cell><cell>1.5</cell><cell>2.1</cell><cell></cell><cell>3.6</cell></row><row><cell>Eilat district</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Mean population size (95% CI) 47.6 (19.3-76.0)</cell><cell cols="2">33.0 (23.0-52.0) 33.3 (25.8-44.1)</cell><cell cols="2">33.1 (24.4-97.9)</cell><cell>55.4 (37.8-194.6)</cell></row><row><cell>Density (100 km -2 )</cell><cell>2.2</cell><cell>1.6</cell><cell>1.6</cell><cell>1.6</cell><cell></cell><cell>2.6</cell></row><row><cell>TABLE 3 Model</cell><cell></cell><cell>Parameters</cell><cell>AIC c 1</cell><cell>∆AIC c 2</cell><cell cols="2">WAIC 3</cell><cell>L model 4</cell></row><row><cell>Negev Desert</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Constant catchability &amp; survival rate ( p•,φ•,bt)</cell><cell>22</cell><cell>249.6</cell><cell>0.0</cell><cell>1.00</cell><cell>1.0</cell></row><row><cell>Constant catchability ( p•,φt,bt)</cell><cell></cell><cell>40</cell><cell>377.3</cell><cell>127.7</cell><cell>0.00</cell><cell>0.0</cell></row><row><cell>Constant survival rate ( pt,φ•,bt)</cell><cell></cell><cell>41</cell><cell>389.3</cell><cell>139.7</cell><cell>0.00</cell><cell>0.0</cell></row><row><cell cols="2">Time dependent model ( pt,φt,bt)</cell><cell>57</cell><cell>1,094.7</cell><cell>845.1</cell><cell>0.00</cell><cell>0.0</cell></row><row><cell>South district</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Constant catchability &amp; survival rate ( p•,φ•,bt)</cell><cell>13</cell><cell>132.9</cell><cell>16.4</cell><cell>0.00</cell><cell>0.0</cell></row><row><cell>Constant catchability ( p•,φt,bt)</cell><cell></cell><cell>14</cell><cell>116.5</cell><cell>0.0</cell><cell>0.91</cell><cell>1.0</cell></row><row><cell cols="2">Time dependent model ( pt,φt,bt)</cell><cell>16</cell><cell>121.1</cell><cell>4.6</cell><cell>0.09</cell><cell>0.1</cell></row><row><cell>Constant survival rate ( pt,φ•,bt)</cell><cell></cell><cell>26</cell><cell>314.6</cell><cell>198.1</cell><cell>0.00</cell><cell>0.0</cell></row><row><cell>Eilat district</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Constant catchability &amp; survival rate ( p•,φ•,bt)</cell><cell>10</cell><cell>151.9</cell><cell>0.0</cell><cell>1.00</cell><cell>1.0</cell></row><row><cell>Constant catchability ( p•,φt,bt)</cell><cell></cell><cell>14</cell><cell>164.5</cell><cell>12.6</cell><cell>0.00</cell><cell>0.0</cell></row><row><cell>Constant survival rate ( pt,φ•,bt)</cell><cell></cell><cell>19</cell><cell>216.1</cell><cell>64.2</cell><cell>0.00</cell><cell>0.0</cell></row><row><cell cols="2">Time dependent model ( pt,φ•,bt)</cell><cell>21</cell><cell>261.9</cell><cell>111.0</cell><cell>0.00</cell><cell>0.0</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2013 Fauna &amp; Flora International, Oryx, 47(2), 228-236 https://doi.org/10.1017/S0030605311001797 Published online by Cambridge University Press</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_1"><p>AIC value corrected for small sample sizes</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_2"><p>Difference in AIC c between the focal and the best model</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_3"><p>AIC weight</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_4"><p>Model likelihood</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We would like to thank <rs type="person">Shirley Bar-David</rs>, <rs type="person">Naomi Paz</rs>, <rs type="person">Uri Roll</rs>, <rs type="person">Benny Shalmon</rs> and <rs type="person">Yoram Yom-Tov</rs> for constructive comments, and <rs type="person">Nimrod Ben-Aharon</rs>, <rs type="person">Mark Catz</rs>, <rs type="person">Ben Drori</rs>, <rs type="person">Gil Evron</rs>, <rs type="person">Ariela Gotlieb</rs>, <rs type="person">Reuven Hefner</rs>, <rs type="person">Yoram Hemo</rs>, <rs type="person">Tzoor Magen</rs> and <rs type="person">Enav Vidan</rs> for maintaining the feeding sites and assisting in the collection of scats. The <rs type="funder">Israel Nature and Parks Authority</rs> provided logistic and financial support.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Habitat utilization of the dorcas gazelle in a desert saline area</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baharav</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Arid Environments</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="161" to="167" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Deer-predator relationships: a review of recent North American studies with emphasis on mule and black-tailed deer</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Keegan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Vos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="99" to="115" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Historical and ecological determinants of genetic structure in arctic canids</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Carmichael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krizan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Nagy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fuglei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dumond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="3466" to="3483" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Program MARK. A gentle introduction</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Cooch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<ptr target="Http://www.phidot.org/software/mark/docs/book" />
+	</analytic>
+	<monogr>
+		<title level="m">Analysis of data from marked individuals</title>
+		<imprint>
+			<date type="published" when="2001">2001. 2007. January 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Mammal invaders on islands: impact, control and control impact</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Courchamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Chapuis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pascal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Reviews</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="347" to="383" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Arabian wolf distribution update from Saudi Arabia</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wronski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canid News</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">The Red Book: Vertebrates in Israel. Israel Nature and Parks Authority and The Society for the Protection of Nature in Israel</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dolev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Perevolotsky</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<publisher>Gefen Books</publisher>
+			<pubPlace>New York, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Estimating population sizes for elusive animals: the forest elephants of Kakum National Park, Ghana</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Eggert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Eggert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Woodruff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1389" to="1402" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Detecting the number of clusters of individuals using the software STRUCTURE: a simulation study</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Evanno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Regnaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goudet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="2611" to="2620" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Evenari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tadmor</surname></persName>
+		</author>
+		<title level="m">The Negev: The Challenge of a Desert</title>
+		<meeting><address><addrLine>Cambridge, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Harvard University Press</publisher>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A class of highly polymorphic tetranucleotide repeats for canine genetic mapping</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Francisco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Langston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Mellersh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Neal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Ostrander</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammalian Genome</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="359" to="362" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Simulations to assess the performance of different rarefaction methods in estimating population size using small datasets</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Frantz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Roper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="315" to="318" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A set of measures of centrality based on betweenness</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Freeman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sociometry</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="35" to="41" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Community structure in social and biological networks</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Girvan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E J</forename><surname>Newman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="7821" to="7826" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Group size and home range of the Arabian wolf (Canis lupus) in southern Israel</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hefner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Geffen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="611" to="619" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">R: a language for data analysis and graphics</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ihaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gentleman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computational and Graphical Statistics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="299" to="314" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Gazella gazella</title>
+		<ptr target="Http://www.iucnredlist.org" />
+	</analytic>
+	<monogr>
+		<title level="m">The IUCN Red List of Threatened Species</title>
+		<imprint>
+			<publisher>IUCN SSC ANTELOPE SPECIALIST GROUP</publisher>
+			<date type="published" when="2008">2008. 2012. January 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Gazella dorcas</title>
+		<ptr target="Http://www.iucnredlist.org" />
+	</analytic>
+	<monogr>
+		<title level="m">The IUCN Red List of Threatened Species</title>
+		<imprint>
+			<publisher>IUCN SSC ANTELOPE SPECIALIST GROUP</publisher>
+			<date type="published" when="2008">2008. 2012. January 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">ML-RELATE: a computer program for maximum likelihood estimation of relatedness and relationship</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Kalinowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Taper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="576" to="579" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Estimating population size by genotyping faeces</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>York</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Kamradt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Haugt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Sauvajot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the Royal Society of London Series B Biological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">266</biblScope>
+			<biblScope unit="page" from="657" to="663" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Wolf and bear predation on white-tailed deer fawns in north-eastern Minnesota</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Kunkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Mech</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1557" to="1565" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Noninvasive molecular tracking of colonizing wolf (Canis lupus) packs in the western Italian Alps</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lucchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fabbri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marucco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ricci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Randi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="857" to="868" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Mallon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Kingswood</surname></persName>
+		</author>
+		<title level="m">Antelopes. Part 4: North Africa, the Middle East, and Asia. Global Survey and Regional Action Plans. Species Survival Commission Antelope Specialist Group</title>
+		<meeting><address><addrLine>Switzerland, and Cambridge, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>IUCN, Gland</publisher>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Canis lupus. In The IUCN Red List of Threatened Species v</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Mech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+		<ptr target="Http://www.iucnredlist.org" />
+		<imprint>
+			<date type="published" when="2010">2010. 2012. January 2013</date>
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Status of the wolf in the Middle East</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mendelssohn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Zoologica Fennica</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="279" to="280" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Mammalia of Israel</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mendelssohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yom-Tov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">The Israel Academy of Sciences and Humanities</title>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<pubPlace>Jerusalem, Israel</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Gazella gazella</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mendelssohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yom-Tov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Groves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammalian Species</title>
+		<imprint>
+			<biblScope unit="volume">490</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">On the functional and numerical responses of wolves to changing prey density</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Messier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Carbyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Fritts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Seip</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ecology and Conservation of Wolves in a Changing World</title>
+		<editor>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Carbyn</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Fritts</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Seip</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Edmonton, Canada</addrLine></address></meeting>
+		<imprint>
+			<publisher>Canadian Circumpolar Institute</publisher>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="page" from="187" to="197" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A new method for estimating the size of small populations from genetic markrecapture data</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Joyce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1991" to="2005" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Finding and evaluating community structure in networks</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E J</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Girvan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review E</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page">26113</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">One hundred and one new simple sequence repeat-based markers for the canine genome</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Ostrander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Mapa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammalian Genome</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="192" to="195" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Identification and characterization of dinucleotide repeat (CA) n markers for genetic mapping in dog</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Ostrander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Sprague</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genomics</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="207" to="213" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Inference of population structure using multilocus genotype data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Pritchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stephens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Donnelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="945" to="959" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Detecting rare introgression of domestic dog genes into wild wolf (Canis lupus) populations by Bayesian admixture analyses of microsatellite variation</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Randi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lucchini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="31" to="45" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Molecular scatology: the use of molecular genetic analysis to assign species, sex and individual identity to seal faeces</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tollit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Amos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="225" to="234" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Golden eagles, feral pigs, and insular carnivores: how exotic species turn native predators into prey</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Roemer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Donlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Courchamp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="791" to="796" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Conservation in conflict: the tale of two endangered species</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Roemer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1251" to="1260" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Network analysis identifies weak and strong links in a metapopulation system</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Rozenfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Arnaud-Haond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hernandez-Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Eguiluz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Serrao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Duarte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="18824" to="18829" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">An empirical approach for reliable microsatellite genotyping of wolf DNA from multiple noninvasive sources</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scandura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Capitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Iacolina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="813" to="823" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Wolves in the southern Arava</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shalmon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Re&apos;em</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="60" to="74" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Wolves versus mountain gazelles: a proposal for culling wolves in the area between Samar and Yotvata</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shalmon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<publisher>The Israel Nature and Parks Authority</publisher>
+			<pubPlace>Jerusalem, Israel</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Unpublished Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shalmon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Wolves in the Arava Valley: carrying capacity and population size</title>
+		<title level="s">The Israel Nature and Parks Authority</title>
+		<meeting><address><addrLine>Jerusalem, Israel</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>Unpublished Report. in Hebrew</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sillero-Zubiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Macdonald</surname></persName>
+		</author>
+		<title level="m">Canids: Foxes, Wolves, Jackals and Dogs: Status Survey and Conservation Action Plan</title>
+		<meeting><address><addrLine>Cambridge, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>IUCN</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Effectiveness of predator removal for enhancing bird populations</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Pullin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Sutherland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="820" to="829" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Reliable genotyping of samples with very low DNA quantities using PCR</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Questiau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Manceau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Escaravage</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="3189" to="3194" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">GIMLET: a computer program for analysing genetic individual identification data</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valiere</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="377" to="379" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Mitochondrial DNA phylogeography and population history of the grey wolf Canis lupus</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Amorim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Leonard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Posada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Castroviejo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Petrucci-Fonseca</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2089" to="2103" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The effect of prey and predator densities on wolf predation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Vucetich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Schaefer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="3003" to="3013" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The influences of wolf predation, habitat loss, and human activity on caribou and moose in the Alberta oil sands</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Wasser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Keim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Taper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Lele</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Ecology and the Environment</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="546" to="551" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Molecular systematics of the Canidae</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Geffen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Girman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Koepfli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Marshall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Systematic Biology</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="622" to="653" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Program MARK: survival estimation from populations of marked animals</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bird Study</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="120" to="139" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Selection of northern Yellowstone elk by gray wolves and hunters</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">O</forename><surname>Lemke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1070" to="1078" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Two reciprocally monophyletic mtDNA lineages elucidate the taxonomic status of mountain gazelles (Gazella gazella)</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wronski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Winney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Hundertmark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Blacket</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Systematics and Biodiversity</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="119" to="129" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">The numerical status of Gazella dorcas and Gazella gazella in the Southern Negev Desert, Israel</title>
+		<author>
+			<persName><forename type="first">Yom-Tov</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ilani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="245" to="253" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Gazella dorcas</title>
+		<author>
+			<persName><forename type="first">Yom-Tov</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mendelssohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Groves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammalian Species</title>
+		<imprint>
+			<biblScope unit="volume">491</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">N is interested in applying molecular approaches to ecological and conservation-related problems. A D I B A R O C A S is a behavioural ecologist interested in the effects of social integration and complexity on survival. He is also interested in conservation and management of carnivores</title>
+		<author>
+			<persName><surname>Biographical Sketches O R L Y C O H E</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">E L I G E F F E N has broad, global interests in behaviour, genetics and conservation of canids</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

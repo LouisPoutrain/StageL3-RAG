@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Pine marten (Martes martes) abundance in an insular mountainous region using non-invasive techniques</title>
+				<funder>
+					<orgName type="full">Peoples Trust for Endangered Species and the Northern Ireland Environment Agency</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Forest Service of Northern Ireland</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-12-25">25 December 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Declan</forename><forename type="middle">T</forename><surname>O'mahony</surname></persName>
+							<email>declan.o&apos;mahony@afbini.gov.uk</email>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Turner</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Catherine</forename><surname>O'reilly</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Gortázar</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Agri-Food and Biosciences Institute</orgName>
+								<address>
+									<addrLine>18A Newforge Lane</addrLine>
+									<postCode>BT9 5PX</postCode>
+									<settlement>Belfast</settlement>
+									<country>Northern Ireland United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Waterford Institute of Technology</orgName>
+								<address>
+									<settlement>Cork Road Waterford</settlement>
+									<country>Republic of Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Pine marten (Martes martes) abundance in an insular mountainous region using non-invasive techniques</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-12-25">25 December 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">78CF586384A554442D316CC2B9BA2FB0</idno>
+					<idno type="DOI">10.1007/s10344-014-0878-0</idno>
+					<note type="submission">Received: 17 June 2014 / Revised: 30 October 2014 / Accepted: 10 November 2014 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:34+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Martes martes</term>
+					<term>Non-invasive</term>
+					<term>Abundance</term>
+					<term>Capture-mark-recapture</term>
+					<term>SECR</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Despite their often high conservation status and international obligations to undertake regular population surveillance, the status of pine marten (Martes martes) in many countries remains poorly understood. We conducted a noninvasive survey to determine the abundance of pine marten in forested habitat located within a 360 km 2 mountainous region of Northern Ireland. We deployed 126 hair tubes between June and November during which 4 sampling sessions occurred, each lasting approximately 10 days. Hair samples were collected and analysed using genetic techniques to confirm species identity, sex and provide individual identity profiles. Genotyping success rates increased with the number of hairs in a sample and were significantly greater with sample sizes of ≥10 hairs (χ 2 =15.1, df 1, P&lt;0.005). Abundance estimates for the adult breeding population were 23 individuals (95 % CI 15-31). Sex ratio data were 61 % male and 39 % female, suggesting that 14 males and 9 females were present in the breeding population. The total population abundance of pine marten, including breeding adults and annual juvenile recruitment, was estimated at 32 (95 % CI 31-35). Mean pine marten density was 0.53 per km 2 of forest habitat and was within the range of densities found for the species in Europe. A breeding population in the low 20's was considered small, and further research is needed on factors that may impact on the population including habitat management, connectivity and mortality. Non-invasive surveys provided conservation relevant data within a relatively short temporal period.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The requirement to determine the conservation status of a species is often driven by government agency mandates to assess populations through various regulatory mechanisms and it can be challenging, particularly in relation to methodology and logistic constraints <ref type="bibr" target="#b48">(Witmer 2005)</ref>. Basic parameters of interest can include animal abundance, density, distribution and response(s) to specific management interventions. For medium-sized carnivores such as pine marten (Martes martes) that can be rare, elusive and have fragmented distributions, estimating abundance can be difficult. Traditionally, abundance estimates for members of the genus Martes have been assessed using basic indices per unit length of transect or unit area based on scats or tracks <ref type="bibr" target="#b18">(Lockie 1964;</ref><ref type="bibr" target="#b16">Kurki et al. 1998;</ref><ref type="bibr" target="#b0">Baines et al. 2004;</ref><ref type="bibr" target="#b2">Birks et al. 2005)</ref>; historical trend data derived from hunting/trapping records <ref type="bibr" target="#b11">(Helldin 2000)</ref>; and live-trapping <ref type="bibr" target="#b25">(Miller et al. 1955;</ref><ref type="bibr" target="#b5">Chapin et al. 1998)</ref>. Generally, capture rates and probabilities can be low leading to problematic population estimation <ref type="bibr" target="#b34">(Otis et al. 1978;</ref><ref type="bibr" target="#b47">White et al. 1982)</ref>.</p><p>More recently, wildlife abundance estimation has been advanced by the development of non-invasive, DNA-based survey techniques. DNA is extracted from remotely collected samples and tested using microsatellite analysis to identify individuals <ref type="bibr" target="#b29">(Mowat and Strobeck 2000)</ref>. Non-invasive survey methods are increasingly being applied to pine marten populations <ref type="bibr" target="#b1">(Balestrieri et al. 2010;</ref><ref type="bibr" target="#b30">Mullins et al. 2010;</ref><ref type="bibr" target="#b41">Ruiz-González et al. 2013;</ref><ref type="bibr" target="#b43">Sheehy et al. 2014)</ref>. Primarily, these studies involve obtaining hair or scat samples, creating 'capture histories' for individuals based on microsatellite analysis and then applying a range of statistical techniques based primarily on capture-mark-recapture concepts <ref type="bibr" target="#b38">(Poole et al. 2001;</ref><ref type="bibr" target="#b3">Boulanger et al. 2004;</ref><ref type="bibr" target="#b9">Frantz et al. 2004)</ref>. This framework has recently been extended to the use of camera traps to estimate pine marten population density <ref type="bibr" target="#b23">(Manzo et al. 2012)</ref>.</p><p>Whilst non-invasive techniques offer exciting opportunities for wildlife studies in terms of costs, logistics and reduced disturbance to populations of interest, they are not a panacea having potential drawbacks that include shadow effects and genotyping errors that could cause negative bias in estimation <ref type="bibr" target="#b27">(Mills et al. 2000;</ref><ref type="bibr" target="#b17">Lampa et al. 2013)</ref>. There are also issues related to sampling design, study area delineation and accounting for the ecology of the target species <ref type="bibr" target="#b19">(Lukacs and Burnham 2005;</ref><ref type="bibr" target="#b13">Kelly et al. 2012)</ref>. Despite these potential drawbacks, non-invasive genetic sampling techniques offer an increasingly cost effective monitoring strategy for wildlife populations as they can provide a range of data on animal distribution, individual identity, population parameters, landscape genetics and occupancy, which are of paramount importance for conservation management <ref type="bibr" target="#b30">(Mullins et al. 2010;</ref><ref type="bibr" target="#b46">Wasserman et al. 2010;</ref><ref type="bibr" target="#b35">Pauli et al. 2011;</ref><ref type="bibr" target="#b32">O'Mahony et al. 2012)</ref>.</p><p>Hair samples, in particular, may offer an especially valuable tool for abundance estimation in non-invasive surveys as they typically yield higher quality DNA <ref type="bibr" target="#b13">(Kelly et al. 2012</ref>) than other sources. Hair sampling devices can be placed to optimise survey design and can be used by inexperienced surveyors. Samples can be fresh and hair samples are simple to handle in terms of health and safety. This is not always the case with scats that are often opportunistically obtained, although recent advances in molecular techniques in relation to scats make them an increasingly valuable resource for species management <ref type="bibr" target="#b41">(Ruiz-González et al. 2013)</ref>.</p><p>After major reductions in range and distribution during the nineteenth and twentieth centuries (O'Sullivan 1983), over recent decades pine marten distribution has been increasing in Ireland in response to increased afforestation rates and reduced persecution <ref type="bibr" target="#b32">(O'Mahony et al. 2012)</ref>.</p><p>Preliminary population abundance estimates for Ireland in the period 2005-2007 suggest an overall breeding population of approximately 3,000 individuals (O' <ref type="bibr">Mahony et al. 2012)</ref>.</p><p>Pine marten are a species of high conservation interest in Ireland and receive full statutory protection at all times of the year. The population is in a phase of natural range expansion and may face increasing human-wildlife conflict scenarios into the future, however, in the historical context, current pine marten distribution remains diminished <ref type="bibr" target="#b32">(O'Mahony et al. 2012)</ref>. Whilst data on pine marten density is available from much of Europe (see <ref type="bibr" target="#b49">Zalewski and Jędrzejewski 2006)</ref>, apart from a few recent studies <ref type="bibr" target="#b30">(Mullins et al. 2010;</ref><ref type="bibr" target="#b43">Sheehy et al. 2014)</ref>, there is generally a lack of Irish data on pine marten abundance at a local and regional level, which is an important knowledge gap in terms of species management.</p><p>In the current study, we used non-invasive genetic sampling techniques coupled with abundance estimation statistics to provide estimates of the population size and density of pine marten in commercial forest plantations in a mountainous region of Northern Ireland. We also provide data on average movement distances of pine marten between inter-session centres of activity. To our knowledge, this study represents the largest scale deployment of non-invasive hair snagging devices to estimate pine marten abundance across the species entire geographic range.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study area</head><p>The Mourne Mountains are located in the southeast of Northern Ireland (Fig. <ref type="figure" target="#fig_0">1</ref>). The study area was approximately 360 km 2 in size with altitude ranging from 0 to 852 m. The region has a largely temperate climate with average annual rainfall from 1,300 to 2,000 mm and temperature ranges from 0 to 25 °C.</p><p>Forest habitat (3,350 ha) occurred in several discrete management units that ranged in size from 56 to 1,325 ha (Fig. <ref type="figure" target="#fig_0">1</ref>). The majority of forest land cover was either owned or managed by the Forest Service of Northern Ireland with conifer (1,800 ha), mixed conifer (500 ha) and mixed conifer/ broadleaf (150 ha) stands occupying the largest land area (approximately 72 % of forest area). There were also significant areas of open moorland habitat within forests (approximately 900 ha; 26 % of area), which was also the main habitat available between forest units. This consisted mainly of tussock grasses (Molinia spp), some heather (Calluna spp.) and rushes (Juncus spp.). There was little habitat connectivity between forest management units as hedgerows were rare; stone walls were the only linear boundary feature, where such features existed.</p><p>It was known that pine marten occurred in the Mourne Mountains and that the population was located approximately 35 km from pine marten core area <ref type="bibr" target="#b32">(O'Mahony et al. 2012)</ref>. The species was thought to have been extirpated in the Mournes by 1870, but individuals were live-trapped in the late 1950s <ref type="bibr" target="#b40">(Rogers 1959</ref>) suggesting a possible mid-twentieth century re-colonisation event(s), although it could represent a relict population.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Non-invasive surveys</head><p>We deployed hair tubes, which consisted of 110 mm width drainpipe cut into 400 mm sections, throughout forest habitat in a systematic grid pattern (Fig. <ref type="figure" target="#fig_0">1</ref>). Hair tubes were secured to trees at breast height at approximate spacing intervals of 500 m. This distance represented the approximate average home-range diameter of pine marten in Irish conifer forests (O'Mahony 2014). Two sticky patches were attached to the bottom of each hair tube to allow sample collection and the bait was placed internally, approximately 100 mm above patches. In total, 126 hair tubes were deployed throughout the duration of the study, an approximate density of 1 tube per 26 ha of forest habitat.</p><p>Hair tubes were deployed continuously between June and November 2011, during which four sampling sessions occurred, with each session 4-6 weeks apart (Table <ref type="table" target="#tab_0">1</ref>). During each sampling session, tubes were baited with chicken and checked approximately 10 days later, with all patches removed and stored at -30 °C until subsequent DNA analysis of hairs. Between sampling sessions hair tubes were left in situ without bait.</p><p>Hair tubes were potentially available for use by multiple individuals during sampling sessions as tubes did not have a closing mechanism after first use. In the current study, mixed genotypes were not found (see the 'Results' section) indicating that multiple individuals did not enter tubes. Multiple entries by different individuals have not been reported from other studies that have used the same, or similar, sampling device as in the current study (e.g. <ref type="bibr" target="#b30">Mullins et al. 2010;</ref><ref type="bibr" target="#b43">Sheehy et al. 2014)</ref>. Observations from camera traps show that pine marten do not re-enter tubes once bait has been removed indicating a possible behavioural response that may act as a proxy for a tube closure mechanism.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA analysis</head><p>Genomic DNA was isolated from hair samples using the ZR Genomic DNA™-Tissue MicroPrep (D3041) kit (ZYMO Research, CA, USA) using the protocol for hair DNA extraction (D3040). Real-time quantitative polymerase chain reaction (qPCR) assays for species and sex identification were carried out as described in <ref type="bibr" target="#b30">Mullins et al. (2010)</ref>. Two PCR replicates were carried out for molecular sexing <ref type="bibr">(Lynch and Brown 2006)</ref>. Females were identified through the amplification of ZFX only, while a signal both ZFX and ZFY probes indicated male DNA was amplified. The ZFX allele, therefore, acted as an internal amplification control for the assay. Samples were selected for genotyping based on the results of the qPCR sex-typing assay with samples with a ZFX cycle threshold (C T ) value &lt;34 selected for genotyping.</p><p>Microsatellite analysis to identify individual pine marten was carried out using 9 microsatellite markers. These were: Gg7; Ggu234; Ma2; Ma8; Mel1; Mer041; Mvi1341, Mvi1354 and Mvis075 (see <ref type="bibr" target="#b30">Mullins et al. 2010)</ref>. Each sample was analysed in duplicate and only samples giving identical results in the replicates were scored. PCR reactions were carried out in two multiplex reactions. Multiplex 1 contained Gg7, Mer041, Mvi1341, Mvi1354 and Mvis075 primers and Multiplex 2 contained Ggu234, Ma2, Ma8 and Mel1 primers. Each PCR reaction contained 5 μl GoTaq Hotstart master mix (Promega Inc.), 1 μl multiplex primer mix (200 nM each primer) and 4 μl DNA extract. The PCR protocol was 95 °C initial denaturation for 5 min, followed by 40 cycles of 94 °C for 30 s, 58 °C for 1 min and 72 °C for 30 s, with a final extension time of 30 min at 72 °C. Fragment analysis was carried out on an ABI PRISM 310 genetic analyser under standard run conditions with 4 % polyacrylamide. Alleles were scored against a GS500 LIZ™ size standard using GeneMapper software version 3.7 (Applied Biosystems). Genotype data were analysed for probability of identity (PI and PIsibs), observed (H o ) and expected (H e ) heterozygosity and allele frequencies using GENALEX version 6 <ref type="bibr" target="#b36">(Peakall and Smouse 2006)</ref>. As only identical replicate genotypes were accepted no false alleles or allele drop-out were observed.</p><p>Microsatellite genotyping success rates were assessed for hair sample sizes between 1-5, 6-9 and ≥10. Genotyping success rates for individual samples that had ≤9 hairs and ≥10 hairs were analysed using a chi-square analysis (with Yates correction factor) test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abundance and density estimation</head><p>Dependent on the estimation method used, data were used to determine either (a) a pine marten breeding population estimate (data from sampling sessions 1 and 2, i.e. June to August) and/or (b) a post-breeding population estimate (data from sampling sessions 3 and 4, i.e. September to November), which included juvenile recruitment that year. Juveniles would have been unlikely to be detected in hair tubes during June-August as they tend to remain close to natal den sites <ref type="bibr" target="#b12">(Helldin and Lindström 1995)</ref>. Minimum number alive (MNA) estimates were calculated for the breeding and postbreeding pine marten population and represented the minimum and cumulative number of unique individuals known to be alive in each sampling period. MNA estimates were also used to identify forests where breeding was likely to have occurred as inferred by the presence of males and females within forest units during June-August sampling sessions. MNA estimates are particularly useful for rare and cryptic species in determining if multiple individuals are present within an area <ref type="bibr" target="#b14">(Kendall and McKelvey 2008)</ref>.</p><p>Capture-mark-recapture analysis was undertaken on microsatellite derived individual pine marten identity data obtained from non-invasive surveys, using CAPWIRE <ref type="bibr" target="#b26">(Miller et al. 2005</ref>) and Chapman's modified Lincoln-Petersen estimator <ref type="bibr" target="#b6">(Chapman 1951)</ref>. CAPWIRE allowed for sampling with replacement, which is approximated in DNA-based mark recapture studies as animals can visit multiple locations within a survey session <ref type="bibr" target="#b26">(Miller et al. 2005)</ref>. A likelihood-ratio test between two competing models (even capture model or two innate rates model) of capture frequency was used to choose the most appropriate model for abundance estimation. Confidence intervals were estimated using a parametric bootstrap procedure. This analysis was based on grouping all data into a single sampling session as each individual sampling session and sampling period (i.e. breeding and post-breeding) had relatively low counts of individual pine marten (≤20), which can lead to inaccurate estimates that have high confidence intervals <ref type="bibr" target="#b26">(Miller et al. 2005)</ref>. Therefore, to avoid biased estimates of low precision, CAPWIRE was applied to all multisession data only and produced a total abundance estimate combining adult and juvenile individuals identified during the study period. The Chapman modification of the Lincoln-Petersen estimator is a two-sample closed population model and was applied to provide breeding and post-breeding population estimates of the pine marten population, with 95 % confidence intervals. The assumption of population closure was likely met given the short temporal period between sampling sessions for breeding and post-breeding estimates (i.e.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4-5 weeks).</head><p>To estimate pine marten density a maximum likelihood approach using a spatially explicit capture-recapture (SECR) model, which incorporate animal capture location information to develop individual centre of activities, was implemented in DENSITY 4.4 <ref type="bibr" target="#b8">(Efford 2004</ref>). For SECR analysis, the detector type chosen was 'proximity' to allow for multiple individuals to be captured at the same location; a Poisson distribution of home range centres was specified; and probability density functions were modelled using half-normal and hazard detection functions with a constant model for capture probability (g0) and spatial scale parameter (σ). Overall model selection was based on the lowest Akaike Information Criterion value, corrected for small samples sizes (AIC c ). A habitat mask that included only forested habitat within the study area was used with a specified buffer width of 1,000 m (approximately two home range centres (σ); from O'Mahony 2014). Data from each sampling session were used to produce within session density estimates, and an overall mean density estimate across all sessions was also determined. Density was expressed as number of pine marten per km 2 of forest habitat.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Individual movement analysis</head><p>Average individual pine marten movement distances were calculated between consecutive pairs of sampling sessions (i.e. 1-2, 2-3 and 3-4), hereafter, termed inter-session. This analysis only included individuals that were 'recaptured' during at least two inter-session periods (n=11). A mean centre of activity (i.e. point location) was determined for each individual pine marten within each sampling session, using the mean centre of spatial locations of hair tubes visited by the same individual determined in ArcMap 10 (ESRI Systems, USA).</p><p>Inter-session straight line movement distances for individual pine marten were calculated using ArcMap 10. Inter-session movement distance analysis provided preliminary data on the minimum distance travelled over the time elapsed between sampling sessions and was used to assess home-range stability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>In total, 228 hair samples were obtained from hair tubes of which 96 % were identified as pine marten using qPCR (Table <ref type="table" target="#tab_0">1</ref>). Other species that visited tubes were either rat (Rattus norvegicus) or domestic dog (Canis familiaris). The percentage of hair tubes with hair present increased over the duration of the study (Fig. <ref type="figure" target="#fig_1">2</ref>). Based on C T values a total of 123 hair samples were analysed, with 110 giving full genotypes at the 9 microsatellite markers (success rate 48.2 %). All 9 microsatellite loci were polymorphic with a maximum of 4 alleles (Gg7). The PI using all nine loci was PI=1.0×10 -4 and PIsibs=0.012. Only one loci, Mer041, showed a significant deviation from Hardy-Weinberg expectations (P=0.033) although this may not be significant due to the small sample size. Genotyping success rates increased from 26.7, 42.1 and 63.5 %, respectively, for hair sample sizes of 1-5, 6-9 and ≥10 hairs. Significantly more genotype data were determined from hair samples with ≥10 hairs (χ 2 =15.1, df 1, P&lt;0.005).</p><p>Minimum number alive estimates for the breeding population were 18 unique individuals (11 male and 7 female) and for post-breeding were 13 unique animals (6 male and 7 female), with a cumulative of 31 individual genotypes identified throughout the study (Fig. <ref type="figure">3</ref>). The maximum number of detections for an individual pine marten across all sampling sessions was 18, whereas 10 individuals were detected only once during the survey period. Data from sampling session 1 and 2 indicated that breeding may have occurred in 3 of the larger (&gt;500 ha) forest units (Castlewellan, Rostrevor and Tollymore; see Fig. <ref type="figure" target="#fig_0">1</ref>) only. Automatic model selection in CAPWIRE selected the TIRM model to estimate a total population abundance estimate of 32 (95 % CI 31-35) pine marten within the study area. The Lincoln-Petersen model was used to estimate the breeding and post-breeding population, which were 23 (95 % CI 15-31) and 29 individuals (95 % CI 22-37), respectively. Applying sex ratio data to Lincoln-Petersen estimates for the breeding population indicated that there were 14 males (61 and 9 females (39 %) present. Pine marten mean density estimates across sampling session ranged from 0.40 to 0.70 marten per km 2 of forest habitat, with a mean density of 0.53 (Table <ref type="table" target="#tab_1">2</ref>). Inter-session movement distances by individual pine marten ranged from 0 to 6,324 m (mean=881±303 m), with mean inter-session movement distances across all individuals between sampling sessions less than 1,100 m.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>We deployed a systematic non-invasive survey to a previously unstudied population of pine marten and obtained data that suggested the population had a low abundance, low density and that there were short-range movements between pine marten inter-session centre of activities, indicating general home range stability. As all available forest habitats within the study area were sampled, the research functioned as a population census and indicated that a small breeding population of 23 pine marten existed, with concordance across estimation methods, of which only 9 may have been female. Preliminary data also suggested that breeding may only have occurred within 3 forest units within the study area. Small and isolated populations are more susceptible to stochastic events <ref type="bibr" target="#b42">(Shaffer 1981)</ref> and genetic considerations such as inbreeding that could lead to local extinction events. The available evidence suggests that the pine marten population in the study area relied on a very small number of breeding individuals, particularly females.</p><p>Breeding pine marten density estimates have been reviewed throughout eastern and northern Europe and can range from 0.01 to 1.75 per km 2 with strong biogeographic limiting factors found to be winter severity and prey availability <ref type="bibr" target="#b49">(Zalewski and Jędrzejewski 2006)</ref>. Pine marten density estimates obtained from live-trapping and non-invasive studies vary from 0.36 to 0.76 per km 2 in Poland <ref type="bibr" target="#b49">(Zalewski and Jędrzejewski 2006)</ref>, 0.46 to 4.42 per km 2 in Ireland <ref type="bibr">(Lynch et al. 2006;</ref><ref type="bibr" target="#b30">Mullins et al. 2010;</ref><ref type="bibr" target="#b31">O'Mahony 2014;</ref><ref type="bibr" target="#b43">Sheehy et al. 2014</ref>) and 0.34 per km 2 in Italy <ref type="bibr" target="#b23">(Manzo et al. 2012</ref>). Although differences in methodological and data analysis procedures constrain comparisons between studies, there is clear variation across even small geographic scales that could be influenced by habitat type, prey availability and levels of fragmentation.</p><p>In the current study, pine marten density was at the lower scale of that which has been previously reported for Ireland. However, this study took place at the largest geographical scale, in primarily commercial conifer forests encompassing a complete census of all available forest units within the landscape. Other Irish studies have focussed on either a single site <ref type="bibr">(Lynch et al. 2006)</ref> or several relatively small sites (60 to 250 ha) consisting of deciduous or mixed conifer habitat, within much more highly fragmented landscapes than the current study <ref type="bibr" target="#b30">(Mullins et al. 2010;</ref><ref type="bibr" target="#b43">Sheehy et al. 2014</ref>). The highest densities reported in Ireland have been achieved in deciduous woodland <ref type="bibr" target="#b43">(Sheehy et al. 2014)</ref>, which is a very rare habitat due to previous deforestation events. In such deciduous woodlands, pine marten can reach high densities and occupy small home ranges <ref type="bibr" target="#b49">(Zalewski and Jędrzejewski 2006)</ref>, which can be exacerbated in fragmented habitat <ref type="bibr" target="#b24">(Mergey et al. 2011;</ref><ref type="bibr" target="#b4">Caryl et al. 2012)</ref>.</p><p>Additionally, in deciduous habitat, pine marten have a wide dietary niche breadth <ref type="bibr" target="#b21">(Lynch and McCann 2007)</ref>. A mixture of differences in habitat types, spatial scales of investigation, food resource availability, density estimation methods and Ireland's lack of seasonality, including mild winters <ref type="bibr" target="#b43">(Sheehy et al. 2014)</ref>, may influence the wide variation in estimated densities. Our estimates may be more representative of the range of densities pine marten can achieve in multi-scale commercial conifer plantations, which are the dominant habitat resources for the species throughout Ireland.</p><p>Within the study region, density estimates were derived only for forest land cover. There was little habitat connectivity in terms of hedgerows or riparian woodland between forest units, with open moorland habitat only available. As the habitat outside forest was more similar to inhospitable matrices (i.e. moorland) suggested by <ref type="bibr" target="#b4">Caryl et al. (2012)</ref>, rather than the fragmented yet highly connected habitats in <ref type="bibr" target="#b24">Mergey et al. (2011)</ref>, density estimates were unlikely to have been biased.</p><p>Implementing research and monitoring programmes for pine marten is a priority for the species across their range to address acknowledged gaps in the management of the species <ref type="bibr" target="#b39">(Proulx et al. 2005)</ref>. Non-invasive methodologies may provide a cost effect mechanism through which data can be obtained on species. In the current study, there was a clear increase in the number of tubes with hair samples as the study progressed. This could have been related to several factors including pine marten showing a positive response to tubes as a food reward was offered (an equivalent of individuals that become 'trap happy' in live-capture studies), increased marten abundance through juvenile recruitment over the study period or it could have reflected natural changes in the behaviour and ). terms of the deployment of the method, a relatively large number of hair samples in the current study did not provide individual identity information due to poor quality DNA, with larger samples of ≥10 hairs yielding improved results. In similar studies carried out on carnivores, genotyping success rates using hair samples can vary from 45.5 to 76.6 % <ref type="bibr" target="#b28">(Mowat and Paetkau 2002;</ref><ref type="bibr" target="#b1">Balestrieri et al. 2010;</ref><ref type="bibr" target="#b15">Kopatz et al. 2012;</ref><ref type="bibr" target="#b7">Davoli et al. 2013;</ref><ref type="bibr" target="#b43">Sheehy et al. 2014)</ref>, which are generally higher than for scats (43 to 56 %; <ref type="bibr" target="#b10">Frantz et al. 2006;</ref><ref type="bibr" target="#b45">Vergara et al. 2014)</ref>. Hair sample DNA quality can be influenced by many factors including moisture, UV radiation, temperature and age <ref type="bibr" target="#b37">(Piggott 2004)</ref>. Practically, in terms of designing noninvasive sampling devices, all of these potential threats to DNA quality should be addressed and snagging mechanisms should preferentially collect large samples. The PIsib value (0.012) was found to be slightly above the recommended &lt;0.01 threshold necessary to prevent the shadow effect. In future studies, the loci number used should be increased to potentially avoid the presence of different individuals with the same multilocus genotype. In the current study, a 10-day interval between tube placement and sampling collection was necessary in logistical terms. This could have led to some degradation of DNA and also provided for unsuitable weather conditions that may have affected the effectiveness of the sticky patches in collecting samples. Hair samples should preferentially be collected within short intervals, but not so short that they could impact on hair capture success rates <ref type="bibr" target="#b28">(Mowat and Paetkau 2002)</ref>.</p><p>Within a relatively short period of time, the current study has provided conservation relevant data on this elusive carnivore from a landscape that included difficult survey terrain. The method has potential as a national surveillance technique in that not only does it provide basic data on presence but also key demographic and population structure data that is critical for conservation management. Given that our study indicated low population abundance for pine marten in the Mourne Mountains, it is important to consider local management issues that may impact on the population. These include road traffic collisions, habitat fragmentation, population connectivity, potential illegal persecution and forest management. Perhaps of the most immediate interest is forest management as recent forest disease outbreaks (Phytophthora ramorum and Phytophthora lateralis) have led to an increase in clear felling rates, along with normal commercial harvesting operations. Forest disease management strategies may influence habitat quality, abundance and viability of red squirrel populations <ref type="bibr" target="#b44">(Shuttleworth et al. 2012</ref>) and such concerns are equally relevant to forest dwelling species such as pine marten.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Location of study area, extent of forest habitat available (inset) and location of individual hair tubes (n=126) in the Mourne Mountain region of Northern Ireland</figDesc><graphic coords="3,51.02,53.86,493.59,373.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Percentage of hair tubes that returned hair samples during each sampling session of the study. Total sample size of hair tubes n=126</figDesc><graphic coords="5,306.20,53.86,238.02,152.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc></figDesc><table><row><cell>Summary of survey</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>period during each sampling</cell><cell>Sampling session</cell><cell>Start date-end date</cell><cell>Number of hair</cell><cell>Pine marten</cell></row><row><cell>session and hair capture results</cell><cell>number</cell><cell></cell><cell>samples collected</cell><cell>detections no./(%)</cell></row><row><cell>from 126 hair tubes deployed</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>within study area</cell><cell>1</cell><cell>01/06/11 to 23/06/11</cell><cell>33</cell><cell>27 (82)</cell></row><row><cell></cell><cell>2</cell><cell>25/07/11 to 10/08/11</cell><cell>38</cell><cell>36 (95)</cell></row><row><cell></cell><cell>3</cell><cell>07/09/11 to 29/09/11</cell><cell>74</cell><cell>74 (100)</cell></row><row><cell></cell><cell>4</cell><cell>27/10/11 to 17/11/11</cell><cell>83</cell><cell>83 (100)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc></figDesc><table><row><cell>Pine marten</cell><cell></cell><cell></cell><cell></cell></row><row><cell>density estimates per</cell><cell>Sampling</cell><cell>Density</cell><cell>95 % CI</cell></row><row><cell>km 2 , including 95 %</cell><cell>session</cell><cell>estimate</cell><cell></cell></row><row><cell>confidence intervals</cell><cell>number</cell><cell></cell><cell></cell></row><row><cell>(CI), for each sampling</cell><cell></cell><cell></cell><cell></cell></row><row><cell>session (n=4) and all</cell><cell>1</cell><cell>0 . 5 6</cell><cell>0 . 2 9 -1.10</cell></row><row><cell>session data (All) within</cell><cell>2</cell><cell>0 . 3 7</cell><cell>0 . 1 4 -0.77</cell></row><row><cell>the Mourne Mountains</cell><cell>3</cell><cell>0 . 6 1</cell><cell>0 . 3 8 -0.97</cell></row><row><cell></cell><cell>4</cell><cell>0 . 4 8</cell><cell>0 . 2 8 -0.78</cell></row><row><cell></cell><cell>All</cell><cell>0.53</cell><cell>0.40-0.70</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Eur J Wildl Res (2015) 61:103-110   </p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments This study was funded by a grant from the <rs type="funder">Peoples Trust for Endangered Species and the Northern Ireland Environment Agency</rs>. The <rs type="funder">Forest Service of Northern Ireland</rs> provided considerable logistical support to the project including a permit to work in their forests. <rs type="person">Graham Cherry</rs> (<rs type="affiliation">AFBI</rs>) undertook substantial field work for the project and his contribution is gratefully acknowledged. Two anonymous referees improved the manuscript and their contribution is acknowledged.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Capercaillie breeding success in relation to forest habitat and predator abundance</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dugan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Ecol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="59" to="71" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Efficacy of passive hair-traps for the genetic sampling of a low-density badger population</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balestrieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Remonti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Frantz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Capelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zenato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Dettori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Guidali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Prigioni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hystrix</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="137" to="146" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Are Scat Surveys a Reliable Method for Assessing Distribution and Population Status of Pine Martens?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Birks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Messenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Braithwaite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Davison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brookes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strachan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Martens and fishers (Martes) in human-altered environments</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Harrison</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Fuller</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Proulx</surname></persName>
+		</editor>
+		<meeting><address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="235" to="252" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Monitoring of grizzly bear population trends and demography using DNA mark-recapture methods in the Owikeno Lake area of British Columbia</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boulanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Himmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Swan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Zool</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="1267" to="1277" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Martens in the matrix: the importance of nonforested habitats for forest carnivores in fragmented landscapes</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Caryl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Quine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mammal</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="464" to="474" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Influence of landscape pattern on habitat use by American marten in an industrial forest</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Chapin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Katnik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1327" to="1337" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Some properties of the hypergeometric distribution with applications to zoological sample censuses</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Chapman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Univ Calif Publ Stat</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="131" to="160" />
+			<date type="published" when="1951">1951</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Hair snaring and molecular genetic identification for reconstructing the spatial structure of Eurasian lynx populations</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Davoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kowalczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randi</forename><forename type="middle">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm Biol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="118" to="126" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Density estimation in live-trapping studies</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Efford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="598" to="610" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Estimating population size by genotyping remotely plucked hair: the Eurasian badger</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Frantz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schaul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Roper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Ecol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="985" to="995" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Faecal DNA typing as a tool for investigating territorial behaviour of badgers (Meles meles)</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Frantz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Roper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="138" to="141" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Population trends and harvest management of pine marten Martes martes in Scandinavia</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Helldin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="111" to="120" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Late winter social activity in pine marten (Martes martes)-false heat or dispersal?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Helldin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Lindström</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Zool Fenn</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="145" to="149" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Noninvasive sampling for carnivores</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Betsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wultsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Mills</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Carnivore ecology and conservation: a handbook of techniques</title>
+		<editor>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Powell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="47" to="69" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Hair collection</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Noninvasive survey methods for carnivores</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Long</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Mackay</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Ray</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Washington DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>Island Press</publisher>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="page" from="141" to="182" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Connectivity and population subdivision at the fringe of a large brown bear (Ursus arctos) population in North Western Europe</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kopatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Eiken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruokonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Esparza-Salas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schregel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kojola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Wartiainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aspholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wikan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rykov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Makarova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Polikarpova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tirronen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Danilov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aspi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="681" to="692" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Abundances of red fox and pine marten in relation to composition of boreal forest landscapes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kurki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nikula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Helle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Linden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Anim Ecol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="874" to="886" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">How to overcome genotyping errors in non-invasive genetic markrecapture population size estimation-a review of available methods illustrated by a case study</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lampa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Henle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Klenke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hoehn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gruber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wild Manag</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1490" to="1511" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Distribution and fluctuations of the pine marten, Martes martes (L.), in Scotland</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lockie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Anim Ecol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="349" to="356" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Review of capture-recapture methods applicable to noninvasive genetic sampling</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Lukacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="3909" to="3919" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Molecular sexing of pine marten (Martes martes): how many replicates</title>
+		<author>
+			<persName><forename type="first">Á</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="631" to="633" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The diet of the pine marten (Martes martes) in Killarney National Park</title>
+		<author>
+			<persName><forename type="first">Á</forename><forename type="middle">B</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mccann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Environ</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="67" to="76" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Fur snagging as a method of evaluating the presence and abundance of a small carnivore, the pine marten (Martes martes)</title>
+		<author>
+			<persName><forename type="first">Á</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rochford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Zool</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page" from="330" to="339" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Estimation of population density of European pine marten in central Italy using camera trapping</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Manzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bartolommei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Rowcliffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cozzolino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Theriol</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="165" to="172" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Effect of forest fragmentation on space-use patterns in the European pine marten (Martes martes)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mergey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helder</forename><surname>Roeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mammal</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="328" to="335" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Live-trapping marten in British Columbia</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ritcey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Edwards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Murrelet</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="1955">1955</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A new method for estimating the size of small populations from genetic mark-recapture data</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Joyce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1991" to="2005" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Estimating animal abundance using noninvasive DNA sampling: promise and pitfalls</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Citta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Lair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Tallmon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol Appl</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="283" to="294" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Estimating marten Martes americana population size using hair capture and genetic tagging</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="201" to="209" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Estimating population size of grizzly bears using hair capture, DNA profiling, and mark-recapture analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wild Manag</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="183" to="193" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Remotely plucked hair genotyping: a reliable and non-invasive method for censusing pine marten (Martes martes, L. 1758) populations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mullins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Statham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Roche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="443" to="453" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Socio-spatial ecology of pine marten (Martes martes) in conifer forests, Ireland</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>O'mahony</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Theriol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="251" to="256" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Pine marten (Martes martes) distribution and abundance in Ireland: a cross-jurisdictional analysis using non-invasive genetic survey techniques</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>O'mahony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm Biol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="351" to="357" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The distribution of the Pine marten (Martes martes) in the Republic of Ireland</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>O'sullivan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm Rev</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="39" to="44" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Statistical inference from capture data on closed animal populations</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Otis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Monogr</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="1" to="135" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">DNA-based approach to aging martens (Martes americana and M. caurina)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Pauli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Whiteman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Marcot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mcclean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ben-David</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mammal</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="500" to="510" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">GENALEX 6: genetic analysis in Excel. Population genetic software for teaching and research</title>
+		<author>
+			<persName><forename type="first">Rod</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="288" to="295" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Effect of sample age and season of collection on the reliability of microsatellite genotyping of faecal DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="485" to="493" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">DNA-based population estimate for grizzly bears Ursus arctos in northeastern British Columbia, Canada</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Poole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Fear</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="105" to="115" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">World Distribution and Status of the Genus Martes in 2000</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Proulx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Aubry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jds</forename><surname>Birks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Buskirk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fortin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Frost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Krohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Monakhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Payer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saeki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Santos-Reis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Weir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zielinski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Martens and fishers (Martes) in human-altered environments</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Harrison</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Fuller</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Proulx</surname></persName>
+		</editor>
+		<meeting><address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="21" to="76" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Pine marten, Martes martes (L.) in Co. Down woods</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rogers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ir Nat J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">42</biblScope>
+			<date type="published" when="1959">1959</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Non-invasive genetic sampling of sympatric marten species (Martes martes and Martes foina): assessing species and individual identification success rates on faecal DNA genotyping</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruiz-González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Madeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randi</forename><forename type="middle">E</forename><surname>Urra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gómez-Moliner</forename><surname>Bj</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="371" to="386" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Minimum population sizes for species conservation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Shaffer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioscience</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="131" to="134" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A noninvasive approach to determining pine marten abundance and predation</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sheehy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'meara</forename><surname>Db</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Smart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lawton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="223" to="236" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Integrating red squirrel (Sciurus vulgaris) habitat requirements with the management of pathogenic tree disease in commercial forests in the UK</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Shuttleworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pww</forename><surname>Lurz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Geddes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Browne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">For Ecol Manag</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="167" to="175" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Individual identification and distribution assessment of otters (Lutra lutra) through non-invasive genetic sampling: recovery of an endangered species in the Basque Country (Northern Spain)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vergara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruiz-González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">López</forename><surname>De Luzuriaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gómez-Moliner</forename><surname>Bj</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm Biol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="259" to="267" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Spatial scaling and multi-model inference in landscape genetics: Martes americana in northern Idaho</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Wasserman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Cushman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">O</forename><surname>Wallin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Landsc Ecol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1601" to="1612" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Capturerecapture and removal methods for sampling closed populations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Otis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Los Alamos Natl Lab</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="230" />
+			<date type="published" when="1982">1982</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Wildlife population monitoring: some practical considerations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Witmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="259" to="263" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Spatial organisation and dynamics of the pine marten Martes martes population in Białowieza Forest (E Poland) compared with other European woodlands</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zalewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jędrzejewski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecography</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="31" to="43" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

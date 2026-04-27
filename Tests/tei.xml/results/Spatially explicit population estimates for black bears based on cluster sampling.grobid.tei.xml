@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6EBB5DB2C8E96FA41B565ED05D4597D5</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-15T16:43+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>American black bears (Ursus americanus) were extirpated from the Cumberland Plateau in Tennessee and Kentucky in the late 19th to early 20th centuries due to habitat loss and overexploitation. Eastridge and Clark (2001) experimentally translocated 14 female black bears from Great Smoky Mountains National Park to Big South Fork National River and Recreation Area (BSF) from 1996 to 1997. In 2010-2012, a population estimate based on DNA extracted from hair samples collected at barbed wire hair traps revealed that the population had expanded to 190 individuals in Tennessee and 38 in Kentucky. The population was thought to have expanded its range in the Cumberland Plateau, so an updated estimate of bear density and abundance was needed across a wider spatial extent to direct future management. I used spatially explicit capture-recapture (SECR) to estimate bear density and abundance within and surrounding BSF in northern Tennessee and southern Kentucky. Barbed-wire sampling stations (i.e., hair traps) were constructed in a 3-× 3-trap layout per cluster with 2 km between hair traps within a cluster and 16 km between cluster centers. I used DNA from hair samples obtained from hair traps to identify individual bears and establish genetic capture histories. I utilized spatial covariates to model inhomogeneous densities within the study area.</p><p>Population abundance estimates across the 36,035-km 2 study area were 436.2 males (95% CI = 234.1-812.5) and 450.9 females (95% CI = 295.0-689.1) for a total of 887.1 (95% CI 607.5-1,295.3) bears, excluding cubs. Average density v estimates were 0.012 (95% CI = 0.007-0.023) male bears/km 2 and 0.013 (95% CI = 0.008-0.020) female bears/km 2 , totaling 0.025 (95% CI = 0.017-0.037) bears/km 2 . The mean annual growth rate was 20.4% since 1998. Based on my population estimates, growth rates, and harvest reports, harvest rates in Kentucky averaged 4.2% from 2013 to 2019 ranging from 1.8% to 6.1% annually.</p><p>In Tennessee, harvest rates from 2014 to 2019 averaged 12.2% ranging from 4.8% to 23.5%. Kentucky has seen greater population growth than Tennessee (31.1% and 15.0%, respectively), possibly due to more restrictive harvest regulations and availability of contiguous forested federal lands. vi</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>also like to express my gratitude to Jessica Braunstein for inviting me to come work with her as a technician on her Master of Science degree study, and for her seemingly endless help along the way. Thanks to Jake Humm for the many lessons on 'secr' and 'ArcMap', even from across the country while taking the next step in pursuing his own career. I am grateful to Dr. Joe Clark for offering me this opportunity to work under him for a Master's degree; little did he know that I had said on multiple occasions that there was not a snowball's chance I would ever go to graduate school unless it was under his guidance. Furthermore, I had stated that he would have to call and offer me the opportunity. I would like to thank the Kentucky Department of Fish and Wildlife Resources and Tennessee Wildlife Resources Agency for funding this work. Thanks also go to the National Park Service, U.S. Forest Service, and the U.S. Geological Survey for assisting with data collection and field support. Thank you to the countless landowners, public and private, for allowing access to their properties during the field season. Finally, I am indebted to the wonderful folks at Wildlife Genetics International for performing the genotyping in a timely fashion, even in the midst of a worldwide pandemic.         <ref type="bibr">2000)</ref>. To assess the feasibility of reintroducing bears to BSF, researchers performed habitat suitability studies and concluded that habitat conditions were adequate for sustaining a black bear population <ref type="bibr" target="#b53">(van Manen 1990</ref><ref type="bibr" target="#b54">, van Manen and Pelton 1997</ref><ref type="bibr">). In 1996</ref><ref type="bibr" target="#b54">and 1997</ref><ref type="bibr" target="#b12">, Eastridge and Clark (2001)</ref> experimentally reintroduced black bears into BSF from Great Smoky Mountains National Park.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LIST OF TABLES</head><p>Homing by bears is a significant issue when releasing bears into a new area because they can travel hundreds of kilometers back to their original home ranges <ref type="bibr" target="#b0">(Beeman and Pelton 1976</ref><ref type="bibr" target="#b33">, McArthur 1981</ref><ref type="bibr" target="#b41">, Rogers 1988</ref><ref type="bibr" target="#b28">, Landriault et al. 2006)</ref>. To mitigate against this homing instinct, <ref type="bibr" target="#b12">Eastridge and Clark (2001)</ref> evaluated 2 methods used to reintroduce these bears: summer release using acclimation pens and winter release of pre-parturient and post-parturient females into dens. Winter-released post-parturient bears displayed the most restricted movements and highest survival rates following release. Of the 14 adult bears and cubs reintroduced to BSF, 3 adult founders left BSF and an additional 4 died, but reproduction was documented in 1999 <ref type="bibr" target="#b11">(Eastridge 2000)</ref>. Adult female survival was estimated at 0.66 (SE = 0.12; <ref type="bibr" target="#b12">Eastridge and Clark 2001)</ref>, which according to <ref type="bibr" target="#b20">Gusset's (2009)</ref> definition constitutes a short-term success. About 18 bears (4 subadult females, 6 subadult males, and 8 adult females resided in and adjacent to BSF in 1998 (J. Clark, U.S. Geological Survey, unpublished data), and <ref type="bibr" target="#b12">Eastridge and Clark (2001)</ref> estimated that the BSF bear population had a 24% chance of extinction without additional augmentation.</p><p>Many carnivore reintroduction failures are attributed to poor planning, small founder size, and absence of post-release monitoring <ref type="bibr" target="#b22">(Hayward and Somers 2009</ref><ref type="bibr" target="#b55">, Weise et al. 2014</ref><ref type="bibr" target="#b45">, Seddon 2015)</ref>. In Kentucky in 2010, Murphy (2011) performed a follow-up study of the reintroduced bears at BSF by collecting DNA from hair samples obtained via 126 barbed wire enclosures (i.e., hair traps). He then used those data to estimate the population size of bears in and immediately adjacent to <ref type="bibr">BSF (i.e., McCreary County, Kentucky)</ref>. In 2012, TWRA conducted a similar study in and adjacent to the Tennessee portion of BSF in Scott, Fentress, Morgan, and Pickett counties. Bear population estimates in Kentucky and Tennessee were 38 (95% CI = 31-66) and 190 (95% CI = 170-219), respectively, and growth rates were high, averaging 18.3% annually <ref type="bibr" target="#b37">(Murphy et al. 2015)</ref> based on the Tennessee estimates alone. <ref type="bibr" target="#b37">Murphy et al. (2015)</ref> found that genetic diversity in the BSF bear population was not significantly reduced and suggested that the rapidly growing population and overlapping generations improved retention of genetic diversity and helped mitigate potentially deleterious genetic effects following the reintroduction.</p><p>Moreover, genetic data revealed that the bear population at BSF showed little ingress from neighboring bear populations, suggesting that bears at BSF were overwhelmingly the product of the reintroduction effort <ref type="bibr" target="#b21">(Hast 2010)</ref>.</p><p>While these studies provided valuable insight into the status of black bears in BSF, there were some shortcomings. First, the Kentucky and Tennessee studies were executed during different years using slightly different methods.</p><p>Trap densities and coverage differed, and the studies did not take place concurrently, so bear populations in Kentucky and Tennessee had to be separately estimated. Also, these studies were focused on BSF with limited trap coverage in areas further from the park (Figure <ref type="figure">1</ref>, all tables and figures are located in the appendices). Finally, the estimates were not spatially explicit, so the extent of the population and heterogeneous densities could not be estimated.</p><p>Early performance of a reintroduced population may not be indicative of overall population viability over time, as these populations typically go through 3 stages: establishment, growth, and regulation <ref type="bibr" target="#b44">(Sarrazin 2007)</ref>. Now past the establishment phase and into the growth and regulation phases, officials need an updated estimate of the BSF bear population to continue to monitor population trajectory. Wildlife managers are not only interested in biological carrying capacity but also the wildlife acceptance capacity of the people that live in the home ranges of these bears <ref type="bibr" target="#b9">(Decker and Purdy 1988)</ref>.</p><p>Black bear management in around BSF falls under 3 different jurisdictions: KDFWR, TWRA, and NPS. The NPS manages bears within the borders of BSF in both Kentucky and Tennessee but KDFWR and TWRA manage bears outside the park in their respective states. Bear hunting seasons were opened in the counties surrounding BSF (there is no bear hunting within the National Park, Figure <ref type="figure" target="#fig_1">2</ref>) in Kentucky in 2013 and Tennessee in 2014. Since the establishment of regulated hunting, 64 and 195 bears have been harvested in Kentucky and Tennessee, respectively, in the hunting zones adjacent to BSF (Table <ref type="table" target="#tab_0">1</ref>). However, no updated population estimate was available for estimating harvest rates. Consequently, managers needed better information on the extent of bear range and how densities spatially varied to better manage black bears for human acceptance, recreational harvest, and wildlife viewing opportunities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Objectives and Hypotheses</head><p>My study objectives were to utilize spatially explicit capture-recapture to test the hypotheses that:</p><p>1. The bear population continues to grow, 2. The bear population is centered at BSF and continues to expand its range, 3. Spatial covariates help refine heterogeneous bear densities at BSF, and 4. Bear hunting in Kentucky and Tennessee is sustainable at the most recent levels.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STUDY AREA</head><p>Bear managers in Kentucky and Tennessee were asked to submit maps of where they were interested in estimating bear abundance and what was considered as primary and secondary range in each respective state. The intention of having primary and secondary study areas was to have high sampling intensity in areas of greater density (i.e., primary) while still providing some information on population expansion in areas where densities were lower (i.e., secondary). I refer to these collective areas plus a 24-km buffer around all trap locations as the BSF Study Area.</p><p>Our primary study area encompassed 14,911 km 2 along the southern Kentucky and northern Tennessee borders including and surrounding the 507km 2 BSF (Figure <ref type="figure" target="#fig_2">3</ref>). This area was characterized by a mosaic of forested areas, developed land, and agriculture made up of predominantly upland hardwood communities. With variable elevation ranging from 150 to 1070 m, steep slopes and nearly horizontal ridge tops are common within BSF but fade into rolling foothills of the Cumberland Plateau farther from the park boundaries. Mild, cool winters and hot, humid summers were common for this region. Average annual precipitation was 133 cm and average annual temperature was 13°C <ref type="bibr" target="#b46">(Shaw and Wofford 2003)</ref>. Public lands made up 55.5% (8,266 km 2 ) of the study area, of which 2,322 km 2 was state-managed in the form of wildlife management areas and state parks, and 5,944 km 2 was federally managed as national parks and national forests. My research was conducted in Bell, Clinton, Jackson, Knox, Laurel, Lincoln, McCreary, Pulaski, Rockcastle, Russel, Wayne, and Whitley counties in Kentucky and Anderson, Blount, Campbell, Claiborne, Clay, Cumberland, Grainger, Fentress, Morgan, Jefferson, Knox, Overton, Pickett, Putnam, Roane, Scott, Union, Van Buren, and White counties in Tennessee.</p><p>Officials at TWRA were interested in estimating bear abundance and density in both primary and secondary areas, whereas Kentucky was interested in just the primary study area. The secondary area in Tennessee spanned roughly 8,750 km 2 immediately adjacent to the southern, eastern, and western boundaries of the primary study area in Tennessee. Officials with the agency collected DNA samples from hair traps constructed and analyzed identically with my study except that the sampling took place in 2018 and trap clusters were 24 km apart on center to reduce the number of hair traps in the secondary area. I added those captures to the primary data set and analyzed the pooled data.</p><p>Including the 24-km buffer around primary and secondary hair trap locations, the BSF Study Area was 36,035 km 2 in size.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hair Snare Design and Construction</head><p>DNA extraction from passive collection of hair samples has been an effective tool for estimation of bear population size <ref type="bibr" target="#b58">(Woods et al. 1999</ref><ref type="bibr" target="#b35">, Mowat and Strobeck 2000</ref><ref type="bibr" target="#b3">, Boersen et al. 2003)</ref>. Initial studies using DNA extraction from hair samples utilized traditional capture-recapture methods <ref type="bibr" target="#b37">(Murphy et al. 2015)</ref>. However, estimating density or even the spatial extent of the population is problematic because the area effectively sampled by the traps is difficult to estimate <ref type="bibr" target="#b43">(Royle et al 2014)</ref>. Spatially explicit capture-recapture (SECR) methods for estimating density have since been developed which combine the individual capture histories with spatial distribution of captures to directly infer density without the need for defining an effective trapping area <ref type="bibr" target="#b5">(Borchers and Efford 2008</ref>).</p><p>In the past, the expense of creating a trapping array for studies over large (landscape-level) extents has been prohibitive <ref type="bibr" target="#b48">(Settlage et al. 2008</ref>). However, spatially explicit models are robust to gaps in detector spacing allowing for cluster sampling of large study areas <ref type="bibr" target="#b49">(Sollmann et al. 2012</ref><ref type="bibr" target="#b14">, Efford and Fewster 2013</ref><ref type="bibr" target="#b50">, Sun et al. 2014</ref><ref type="bibr" target="#b8">, Clark 2019)</ref>. Animal densities can vary with land use, land cover, management jurisdiction, and topographic variations. The use of SECR allows for utilization of covariates to model inhomogeneous density across the interstitial space between trap clusters, thus providing a more refined density estimate. SECR has successfully been used with cluster sampling to estimate black bear populations and densities in recent years <ref type="bibr" target="#b57">(Wilton et al. 2014</ref><ref type="bibr" target="#b24">, Humm et al. 2017</ref><ref type="bibr" target="#b25">, Humm and Clark 2020)</ref>. <ref type="bibr" target="#b8">Clark (2019)</ref> conducted simulations to assess the configuration of traps and clusters on precision and bias of density estimates. The sampling design consisting of a 3-x 3-cluster of traps with 2,000 m between traps, 16,000 m between cluster centers, and checked for 6 consecutive weeks (occasions) performed well and has been used in recent studies of other black bear populations <ref type="bibr" target="#b24">(Humm et al. 2017, Humm and</ref><ref type="bibr" target="#b25">Clark 2020)</ref>. I utilized this hair snare cluster configuration in the primary sampling area and, I projected proposed trap sites onto a GIS map layer provided by wildlife managers as possible black bear range (Figure <ref type="figure" target="#fig_3">4</ref>). I obtained permission to construct hair snare sites and collect data throughout the field season on public land from the National Park Service, U.S. Forest Service, and numerous state parks. For private lands, I first identified landowners using county tax data associated with each site and sent a postcard to the address on file. The postcard briefly explained the nature of the study, what I proposed to do, the time frame, and requested return of the postage paid postcard indicating if permission was granted. If postcards were unsuccessful, I followed up with phone calls, and if that was also unsuccessful, we went door-todoor to request permission. I directed field personnel to locate a suitable site with properly spaced trees as close to the proposed location as possible. If a suitable hair trap site could not be located because of property access, geographic obstacles, or human development, we selected another site within 500 m. I adjusted the location of traps within clusters if necessary, so that at least 5 traps per cluster could be constructed, as per <ref type="bibr" target="#b25">Humm et al. (2020)</ref>. The same hair-trap configuration was used in the secondary area by TWRA, except that trap clusters were 24 km apart on center to reduce the number of traps in areas where bear densities were expected to be lower.</p><p>Each hair snare consisted of 2 strands of 15.5-gage, high tensile barbed wire with (4 prongs per barb with spacing of 12.7 cm between barbs [Goucho ® , Bekaert Corporation, Marietta, GA, USA]). We wrapped the wire tightly around 3-6 trees creating a roughly 25-m 2 enclosure <ref type="bibr" target="#b58">(Woods et al. 1999)</ref>. We placed the wire strands 35-40 and 65-70 cm above the ground. Where the terrain was inconsistent (e.g., small ditches, mounds) we excavated, backfilled, or blocked low or high areas with vegetation and woody debris <ref type="bibr" target="#b30">(Laufenberg et al. 2016</ref><ref type="bibr" target="#b24">, Humm et al. 2017</ref><ref type="bibr" target="#b25">, Humm and Clark 2020)</ref>. We suspended bakery sweets in the center of the enclosure from a line about 2 m in height except for the sites within the national park boundary, where we used sardines. From the same line, we also suspended strips of cloth soaked in a concentrated flavoring used in drinks and candies (Mother Murphy's Laboratories, Inc., Greensboro, NC, USA) as a scent attractant. We marked any hair snares constructed on public lands with flagging tape and a warning sign to prevent people from inadvertently stumbling into the barbed wire. Each site was labeled with its own numeric code to ensure proper labeling on sample forms (Supplement 1).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample Collection and Genetic Analysis</head><p>Technicians, TWRA, KDFWR, and NPS personnel, and I collected hair samples once per week for 6 consecutive weeks from June 2019 to August 2019 in the primary sampling area and from June 2018 to August 2018 in the secondary area. All hair on a single barb was considered a sample. We examined each barb along each strand of wire for hair samples and used forceps to collect the hair sample. We placed the sample into a coin envelope which was labeled with site identifier, top or bottom strand, barb number, week of sampling, and date. We sterilized forceps and all barbs with a flame after sample collection to avoid cross contamination of genetic material.</p><p>I sent all collected hair samples to Wildlife Genetics international (WGI; Nelson, British Columbia, Canada) for genotyping. Before genotyping, WGI personnel first conducted visual assessment of the samples discarding any that obviously did not come from a bear and those that did not contain guard hairs or &gt;5 underfur hairs. We used a set of 8 microsatellites (G10B, G10H, G10J, G10P, G10M, G10L, MU23, and a ZFX/ZFY sex marker), many of which were used in previous projects from the region <ref type="bibr" target="#b21">(Hast 2010</ref><ref type="bibr" target="#b36">, Murphy 2011</ref><ref type="bibr" target="#b37">, Murphy et al. 2015)</ref>.</p><p>A different set of microsatellites were used to genotype the secondary samples (G1A, G1D, G10H, G10J, G10L, G10M, MU50, MU59 and a sex marker ZFX/ZFY) because this effort was part of a larger project <ref type="bibr" target="#b25">(Humm et al. 2020)</ref>.</p><p>Four loci (G10H, G10J, G10L, and G10M) were common between the 2 analyses. Genotyping consisted of a first pass, cleanup, and error-check, as detailed by <ref type="bibr" target="#b40">Paetkau and Strobeck (1994)</ref> and <ref type="bibr" target="#b39">Paetkau (2003)</ref>. WGI technicians first purified the DNA using QIAGEN DNeasy Blood and Tissue kits under the tissue protocol. WGI discarded samples that had low confidence scores at &gt;3 markers on the first run of amplification. Samples that had incomplete genotypes after the first pass, but that had not been culled (i.e. those with high-confidence data for 4-7 markers), went through at least 1 round of reanalysis to resolve incomplete genotypes for some markers. The error-check consisted of an evaluation of pairs of genotypes that were similar and could have arisen through genotyping error <ref type="bibr" target="#b39">(Paetkau 2003)</ref>. Errors produce genotypes that match at all but 1 or, more rarely, all but 2 markers, so the error-check protocol essentially prevents the identification of false individuals <ref type="bibr" target="#b26">(Kendall et al. 2009)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Population Analysis</head><p>Recently developed spatially explicit capture-recapture (SECR) methods for estimating density (D) hold an advantage over traditional mark-recapture <ref type="bibr" target="#b13">(Efford 2004</ref>). The traditional method tends to overestimate density if the assumption of a closed population is violated due to individuals along the periphery of the study area moving in and out of the effective trapping area. This results in low-biased capture probabilities and high-biased estimated abundance <ref type="bibr">(Boulanger and McLellan 2001)</ref>. However, SECR incorporates the spatial distribution of captures and capture histories of individuals into maximum likelihood-based models <ref type="bibr" target="#b5">(Borchers and Efford 2008)</ref>. I separately estimated male and female densities because home range size, detection rates, and trap heterogeneity often differ by sex in bears. As a polygamous species, bear harvest and growth models are often exclusively based on female demographics <ref type="bibr" target="#b25">(Humm et al. 2020)</ref>. However, as this is a reintroduced population that may be rapidly growing, male density and abundance estimates are useful for estimating expansion because male bears typically disperse farther and at higher rates than females. Although the secondary study area was sampled in 2018, 1 year prior to the primary study area, I pooled all primary and secondary study area data across years assuming that population densities would not substantially change from 2018 to 2019 and that there would be no captures of individual bears in &gt;1 trap cluster in different years or zones. This enabled me to maximize statistical power by jointly estimating g0 and σ across both sampling periods.</p><p>To estimate density, I created a discretized mask based on a 1,000-m resolution or mesh size (i.e., 30-m pixel values within a 1,000-x 1,000-m window were reduced to 1 central point with attributes of the surrounding cells) and a 24,000-m buffer around the traps. I assigned landscape covariates based on the National Landcover Dataset (NLCD, <ref type="bibr" target="#b59">Yang et al. 2018)</ref>. I grouped some of the land cover types into categories to reduce the number of covariates and to expedite the modeling process. First, I grouped crops into attractive (Attract_cr) versus non-attractive crops (Noattractc) to bears. I defined attractive crops as those that are eaten by bears during the sampling period (i.e. corn, sorghum, and peanuts); all others were considered non-attractive (i.e. soybeans, tobacco, and cotton). My expectation was that bear densities would be higher in areas associated with attractive crops. I grouped open water, woody wetlands, and emergent herbaceous wetlands into a water layer. My hypothesis was that bear densities would be higher near water. I grouped developed, open space; developed, low intensity; developed, medium intensity; and developed, high intensity into a development layer (developed_). My prediction was that bear densities would be lower in developed areas. Bear densities are usually higher in forests, so I combined deciduous forest, evergreen forest, and mixed forest into a forest layer (forest_cov). Evergreen forest areas were few and immediately adjacent to mixed forest areas; therefore, I combined evergreen forests with mixed forest to create a mixed forest layer (mixed_for_). For the development, forest, deciduous forest, mixed forest, water, and attractive crop data layers, I performed a focal mean calculation in ArcMap 10.6 (ESRI, Redlands, CA, USA) using a 1,000-x 1,000-m moving window on the map layer to produce average percent coverage layers (i.e. Avg_Dev, Avg_For, Avg_Dec_Fo, Avg_Mix_Fo, Avg_water, and AvgAtrCrop). I performed a Euclidean distance calculation on the attractive crop, water, development, and the BSF layers to produce 'distance to' covariates. I scaled those covariates using the scale function in R which subtracted the mean of the vector from the covariate value then divided by the standard deviation (e.g., (Dist_Dev-mean)/SD). This scaling was done to facilitate convergence of the maximum likelihood estimator in 'secr'. I followed model building procedures based on <ref type="bibr" target="#b60">Zhang (2016)</ref>. I first performed a correlation analysis to eliminate 1 of any pair of environmental covariates on D with correlation coefficients &gt;0.7. I then evaluated the remaining covariates singly holding the base detection rate (g0) and the home-range scaling parameter (σ) constant (g0~1, σ~1). I used Akaike's Information Criterion adjusted for small sample size (AICc, Burnham and Anderson 1998) to assess whether effects were supported and used 95% confidence intervals of the covariate effects (i.e., β values) to determine if the slopes included 0 (i.e., no effect). I considered models to be supported if the AICc value was within 2.0 AICc of the top model <ref type="bibr" target="#b2">(Burnham and Anderson 1998)</ref>. After I identified the individual covariates on D that were supported, I combined biologically reasonable covariates into additive models and assessed these models with effects on detection parameters. I considered covariates to be biologically reasonable if the combination of the covariates would feasibly influence black bear density and were not redundant (despite correlation coefficients &lt;0.7). For example, Avg_For + Avg_Mix_For in an additive model would be redundant whereas Avg_For + Scale_Dist_Dev would be biologically reasonable. I evaluated whether g0 or σ were affected by a site-specific behavioral response (bk) and by a 2-factor finite mixture model of individual capture heterogeneity (h2, Pledger 2000). Once density estimates were obtained, I estimated abundance (N) by summing the estimated densities for all mask points within a respective jurisdiction. My estimates do not include cubs of the year, as supported by <ref type="bibr" target="#b30">Laufenberg et al. (2016)</ref> who utilized long-term live capture coupled with hair sample data to conclude cubs were not captured using the same barbed-wire configuration.</p><p>To estimate population growth rate, I used the growth rate equation Nt = Noλ t to estimate λ (the finite annual growth rate) based on 18 bears residing in BSF in 1998 (N0), Nt being my abundance estimate, and t being the elapsed time (years) between Nt and N0 (t = 21). I used the delta method to estimate SEs for combined estimates by sex with the R package 'emdbook' <ref type="bibr" target="#b4">(Bolker 2020)</ref>. I used model averaging to estimate real and beta parameters if &gt;1 model was supported <ref type="bibr" target="#b51">(Symonds and Moussalli 2011)</ref>, and constructed asymmetric 95% CIs for N based on <ref type="bibr" target="#b56">Williams et al. (2002)</ref>. <ref type="bibr">I used Program CERVUS (version 3.0.3;</ref><ref type="bibr">Kalinowski et al. 2007</ref>) to estimate mean expected heterozygosity. I used the chi-square test with Bonferroni correction in CERVUS to test for deviance from Hardy Weinberg equilibrium for each locus for bears in the BSF Study Area. I estimated genetic diversity as expected heterozygosity, which I compared to the estimate in <ref type="bibr" target="#b37">Murphy et al. (2015)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Technicians, agency personnel, and I constructed 440 (217 in Tennessee and 223 in Kentucky) of the proposed 492 hair snares in May-June 2019 arranged in 59 clusters of 4-9 traps/cluster. We collected 2,018 hair samples during the 6-week sampling period from mid-June to the end of July in 2019. Hair samples were collected from 213 (48.4%) hair snares but only 100 (22.7%) sites provided samples that met our minimum standards for analysis (i.e., guard hairs or &gt;5 underfur hairs and passed visual inspection to be bear hair). The 138 hair traps sampled by TWRA in 2018 produced only 2 detections of bears.</p><p>Of the 2,018 samples sent to WGI, 516 (26%) lacked suitable material for analysis and 392 (19%) did not pass visual inspection for species identification.</p><p>Of the remaining samples (1,110), 4 contained hair from &gt;1 bear, 294 (15%) failed genotyping. The remaining 812 (40%) hair samples were analyzed at WGI using the microsatellites G10B, G10H, G10J, G10P, G10M, G10L, MU23, and a ZFX/ZFY sex marker for individual identification. All individuals were successfully genotyped at 8 microsatellites with no missing loci. The 812 samples were assigned to 169 individual bears (74F:95M; Table <ref type="table" target="#tab_1">2</ref>), 2 of which were previously genotyped from the 2012 TWRA data set used in <ref type="bibr" target="#b37">Murphy et al. (2015)</ref>. The TWRA hair snares produced only 2 individual male captures. Although only 4 loci were common to both data sets, the genotypes differed at 3 of the 4 loci so I considered those to be unique individuals. I incorporated those 2 capture events in the secondary area into my analysis.</p><p>For males, 2 models were supported based on AICc scores (Table <ref type="table">3</ref>). In both models, individual heterogeneity modeled as a 2-class finite mixture (h2) and site-specific behavioral response (bk) were supported as additive terms for g0. For σ however, the top model supported individual heterogeneity (h2) whereas the second-ranked model supported both individual heterogeneity (h2) and a site-specific behavioral response (bk). I averaged those 2 models and the result supported a negative association between density and distance to BSF (Scale_dist_BISO; β = -0.894, 95% CI = -1.263--0.525) and a positive association between density and percent forest (Avg_For; β =9.124, 95% CI = 0.595-17.653). Effects of distance to development were marginal as the 95% CI included zero after model averaging (Scale_Dist_Dev; β = 0.092, 95%CI = -0.161-0.345).</p><p>Females were similar in that 2 models were supported based on AICc scores (Table <ref type="table">4</ref>). Again, in both models, individual heterogeneity modeled as a 2class finite mixture (h2) and site-specific behavioral response (bk) were supported as additive terms for g0. For σ however, the top model supported individual heterogeneity (h2) and site-specific behavioral response (bk), whereas the second supported only individual heterogeneity (h2). The same covariate associations were supported for females (Scale_dist_BISO, β = -1.534, 95% CI = -2.048--1.019; <ref type="bibr">Avg_For,</ref><ref type="bibr">β = 11.117,</ref>), but with a stronger relationship with Scale_Dist_Dev, β = 0.236, 95% CI = 0.053-0.420), than for males.</p><p>Excluding cubs of the year, model averaged mean abundance (expected N) was 436.2 (95% CI = 234.1-812.5) males (0.012 males/km 2 [95% CI = 0.007-0.023]) and 450.9 (95% CI = 295.0-689.1) females (0.013 females/km 2 [95% CI = 0.008-0.020]) in the 36,035-km 2 BSF Study Area (including the 24,000-m buffer around the traps). The total number of bears estimated on my study area was 887.1 (95% CI = 607.5-1,295.3) bears of both sexes (0.025 bears/km 2 [95% CI = 0.017-0.037]). I estimated 58.4 males (95% CI = 32.1-106.5) and 106.6 females (95% CI = 67.2-169.1) within the BSF boundary. Kentucky's estimated population in the study area was 336.0 bears (170.2M, 95% CI = 89.1-325.3; 165.7F, 95% CI = 106.8-257.2) when BSF was included and 297.8 (156.4M, 95% CI = 80.9-302.4; 141.3F, 95% CI = 89.7-222.8) excluding bears within BSF. The number of bears in the Cumberland Plateau in Tennessee was 541.8 (256.6M, 95% CI = 144.7-487.8; 285.2F, 95% CI = 187.5-433.8) including bears in BSF and 423.9 (221.0M, 95% CI = 118.0-413.9; 202.9F, 95% CI = 129.9-317.1) excluding bears found within BSF (Table <ref type="table" target="#tab_4">5</ref>). Based on an estimated 18 bears in the population in 1998, the average annual growth rate of the reintroduced population was 20.4%. Bear densities tended to be higher within and adjacent to BSF and in forested areas farther from development. Male density ranged up to 0.28 males/km 2 (Figure <ref type="figure" target="#fig_5">6</ref>), whereas the maximum female density was 1.35 females/km 2 (Figure <ref type="figure" target="#fig_6">7</ref>). Male densities were higher in areas distant to BSF than female densities. Genetic diversity as indicated by expected heterozygosity was 0.745.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>My mean density estimates were lower than those for many other bear density estimates in the Southeast (Table <ref type="table" target="#tab_5">6</ref>). However, many of the other studies were performed in relatively small study areas where well-established bear populations were present. <ref type="bibr" target="#b24">Humm et al. (2017)</ref> and <ref type="bibr" target="#b25">Humm and Clark (2020)</ref> utilized similar methods to those that I used and similarly sampled much larger study areas intentionally including areas where density and occupancy were expected to be low, and their estimates are more similar to my estimates than those using non-spatial methods, which tend to overestimate density <ref type="bibr" target="#b18">(Gerber et al. 2012</ref>). The highest densities I estimated were closely associated with the original release sites from <ref type="bibr" target="#b12">Eastridge and Clark (2001)</ref>, particularly for females.</p><p>The highest estimated bear densities for males were lower than for females but densities of males were higher in more areas more distant from BSF, resulting from the assumed dispersal of males across the landscape. This finding is supported by black bear ecology whereby males have a higher propensity to disperse than do females, whereas females typically do not disperse as widely and frequently share a portion of their mother's home range <ref type="bibr" target="#b42">(Rogers 1987)</ref>. <ref type="bibr" target="#b37">Murphy et al. (2015)</ref> estimated an average annual mean population growth rate for the Tennessee population of 18.3% (95% CI = 17.4-19.5) in BSF from 1998 to 2012. My average annual growth rate estimate from 1998 to 2019 was 20.4%, which suggests that the high rate of growth for this reintroduced population has continued. This rate of population growth is high but within what is biologically feasible for black bears <ref type="bibr" target="#b1">(Bunnell and Tait 1981)</ref>. <ref type="bibr" target="#b19">Griffith et al (1989)</ref> suggested that ample habitat quantity and quality were crucial to reintroduction success, even more so than founder size or supplementation. Availability of large contiguous tracts of forested lands with high hard mast productivity could be one of the most crucial factors for the sustained growth of this reintroduced population. A habitat suitability study by <ref type="bibr" target="#b54">van Manen and Pelton (1997)</ref> predicted nearly half of all hard mast producing trees would obtain peak production age within 10 years. This is likely why percent forest (Avg_For) was highly informative in the top models for males and females. My estimate of genetic diversity (HE = 0.745) was higher than that which <ref type="bibr" target="#b37">Murphy et al. (2015)</ref>   <ref type="table" target="#tab_0">1</ref>). Numerous studies have found male-biased vulnerability to harvest for American black bears <ref type="bibr" target="#b34">(McIlroy 1972</ref><ref type="bibr" target="#b15">, Fraser et al. 1982</ref><ref type="bibr" target="#b27">, Kohlmann et al. 1999</ref><ref type="bibr" target="#b32">, Malcolm and Van Deelen 2010)</ref>. Based on my population estimates, growth rates, and harvest reports, harvest rates in Kentucky from 2013 to 2019 averaged 4.8%, ranging from 2.1% to 6.9% annually. In Tennessee, harvest rates from 2014 to 2019 averaged 12.5% ranging from 4.9% to 24.4% (Table1).</p><p>Overall, the percentage of females in the harvest in Tennessee has been higher (39.7%) than in Kentucky (24.6%).</p><p>Officials in Kentucky utilized a quota system to limit female bear harvest.</p><p>Once the set quota of females was harvested, the bear hunting season in Kentucky was halted. Tennessee officials, in contrast, had pre-established hunting seasons, with no quotas on number of females taken by hunters. The bear population growth rate of bears in Tennessee and Kentucky since the <ref type="bibr" target="#b37">Murphy et al. (2015)</ref> estimates were 15.0% and 31.1%, respectively. The difference in growth rates is likely attributable to the differing management strategies implemented shortly after that study. The more liberal hunting regulations in Tennessee may have slowed population growth, whereas Kentucky has seen extremely high growth, possibly because of more conservative harvest regulations and the availability of contiguous forest lands of Daniel Boone National Forest. These high growth rates in Kentucky may be above what is thought to be biologically achievable for the species, so it is possible that the <ref type="bibr" target="#b37">Murphy et al. (2015)</ref> population estimate was biased low, likely because of the restricted sampling extent and because the widely spaced trap layout used during that study resulted in areas between traps that were not sufficiently sampled.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS AND MANAGEMENT IMPLICATIONS</head><p>My results indicate positive population growth at rates similar to those reported by <ref type="bibr" target="#b37">Murphy et al. (2015)</ref>, which suggests that vital rates have not yet begun to decline due to density effects. Population estimates alone are not necessarily augury of population health; therefore, I suggest a continued assessment of abundance over time should be conducted. This population of black bears has been studied several times since its reintroduction and continued monitoring will be invaluable for future management in Tennessee and Kentucky and illustrates the growth potential for this species in high quality habitat with few competitors. Further, more detailed landscape covariates would further refine the density estimates and better inform wildlife agencies as to what management strategies are most advantageous. Utilization of spatially explicit capturerecapture methods using DNA samples offers opportunities to be integrated with other data types to be used to estimate other informative parameters such as survival and fecundity <ref type="bibr" target="#b43">(Royle et al. 2014, Chandler and</ref><ref type="bibr" target="#b7">Clark 2014)</ref>. Previous genetic studies have showed retention of genetic diversity and my estimates of expected heterozygosity remain high; however, continued monitoring of genetic diversity and assessment of immigration for the BSF population should continue to be evaluated at BSF <ref type="bibr" target="#b21">(Hast 2010</ref><ref type="bibr" target="#b36">, Murphy 2011</ref><ref type="bibr" target="#b37">, Murphy et al. 2015</ref><ref type="bibr" target="#b38">, Murphy 2016)</ref>. Comparison of harvest rates and growth rates between Tennessee and Kentucky indicate that this population can withstand harvest and still have positive growth. If an agency's goal is to maintain a high population growth rate and range expansion of black bears, conservative regulations like those in Kentucky are beneficial. The population is still primarily centered around the original release sites within BSF from the 1996-1997 reintroduction by <ref type="bibr" target="#b12">Eastridge and Clark (2001)</ref>. This suggests that BSF will continue to act as a source population for harvest outside of the park; therefore, current harvest rates are not likely to reduce the population to the point of no recovery.         </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Figure 1. Locations of 233 black bear hair traps and 106 visited hair traps where</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Bear Hunt Zones in Tennessee and Kentucky, Big South Fork Study</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Map of primary and secondary black bear hair snare study areas on the</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Proposed 492 black bear hair snare locations, Big South Fork Study</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Locations of 578 black bear hair snares constructed, Big South Fork</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Density of males (bears/km 2 ) excluding cubs, Big South Fork Study</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Density of females (bears/km 2 ) excluding cubs, Big South Fork Study</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>After the hair samples were genotyped to identify individuals, I created individual capture histories (Supplement 2) for use in spatially explicit estimation methods incorporated into the R-based (R Core Team 2020) software package 'secr'. Package 'secr' works by estimating home range parameters and activity centers based on captures of individual animals at different traps and recapture rates across the 6-week sampling period. Based on where and the number of occasions in which an animal was detected, the activity center of detected animals can be estimated along with a scaling parameter (σ) that relates to home range. Based on the frequency by which individual animals were detected, detection probabilities can be estimated based on a half-normal detection function (g(d) = g0exp(-d 2 /2σ 2 )), where g is probability of detection, g0 is the probability of detection if the trap was placed at the activity center, d represents the distance from a hair snare to an animal's activity center, and σ is a spatial scaling parameter determining the rate of decrease in detection rate with d. One of the advantages of SECR methods is that animals can have varying detection rates based on the location of their activity centers. Animals with activity centers near hair traps have a higher probability of being captured than those with activity centers distant to traps, based on the detection function. That also means that some animals may have low or even zero probabilities of detection; this enables sampling based on clusters of hair traps, with large areas with no hair traps. Inference in the non-sampled areas is based on the assumption that the clusters are deployed in bear habitats and non-habitats in proportion to their availability. Environmental covariates can then be used to model inhomogeneous density.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>estimated (HE = 0.729) for the BSF population. Regulated bear hunting seasons within my study area were initiated in Kentucky and Tennessee in 2013 and 2014, respectively, with no bear hunting in BSF. From 2013 to 2019, hunters in Kentucky killed 61 (46M:15F, 75.4% males) bears (8.7 bears/yr) in Bell, Knox, McCreary, Pulaski, Wayne, and Whitley counties. From 2014 to 2019, hunters in Tennessee harvested 195 (121M:74F, 62.1% males) bears (32.5 bears/yr) in Cumberland (North of I-40), Fentress, Morgan, Pickett (East of Hwy 111), and Scott (West of Hwy 27) counties (Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Bear Hunt Zones in Tennessee and Kentucky, Big South Fork Study Area,</figDesc><graphic coords="56,83.88,72.00,444.25,574.91" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Map of primary and secondary black bear hair snare study areas on the</figDesc><graphic coords="57,108.75,72.00,393.90,509.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 4 .Figure 5 .</head><label>45</label><figDesc>Figure 4. Proposed 492 black bear hair snare locations, Big South Fork Study Area,</figDesc><graphic coords="58,90.50,72.00,430.97,530.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Density of males (bears/km 2 ) excluding cubs, Big South Fork Study Area,</figDesc><graphic coords="60,98.18,72.00,415.65,537.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Density of females (bears/km 2 ) excluding cubs, Big South Fork Study Area,</figDesc><graphic coords="61,101.00,72.00,414.49,536.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Black bear harvest and harvest rates in Kentucky and Tennessee within the Big South Fork Study Area, 2018-2019.................................................</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Capture summaries for female and male bears in the Big South Fork</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 1 .</head><label>1</label><figDesc>Black bear harvest and harvest rates in Kentucky and Tennessee within the Big South Fork Study Area, 2018-2019.</figDesc><table><row><cell></cell><cell></cell><cell>Total</cell><cell></cell><cell></cell><cell></cell><cell>Harvest</cell></row><row><cell cols="2">State Year</cell><cell>harvest</cell><cell cols="3">Male Female % female</cell><cell>rates</cell><cell>Estimated N 1</cell></row><row><cell>TN</cell><cell>2014</cell><cell>14</cell><cell>9</cell><cell>5</cell><cell>35.7%</cell><cell>8.2%</cell></row><row><cell>TN</cell><cell>2015</cell><cell>48</cell><cell>25</cell><cell>23</cell><cell>47.9%</cell><cell>23.5%</cell></row><row><cell>TN</cell><cell>2016</cell><cell>34</cell><cell>27</cell><cell>7</cell><cell>20.6%</cell><cell>13.9%</cell></row><row><cell>TN</cell><cell>2017</cell><cell>14</cell><cell>12</cell><cell>2</cell><cell>14.3%</cell><cell>4.8%</cell></row><row><cell>TN</cell><cell>2018</cell><cell>61</cell><cell>32</cell><cell>29</cell><cell>47.5%</cell><cell>17.3%</cell></row><row><cell>TN</cell><cell>2019</cell><cell>24</cell><cell>16</cell><cell>8</cell><cell>33.3%</cell><cell>5.7%</cell></row><row><cell cols="2">TN 2014-19</cell><cell>195</cell><cell>121</cell><cell>74</cell><cell>38.0%</cell><cell>12.2%*</cell><cell>--</cell></row><row><cell>KY</cell><cell>2013</cell><cell>2</cell><cell>2</cell><cell>0</cell><cell>0.0%</cell><cell>1.8%</cell></row><row><cell>KY</cell><cell>2014</cell><cell>7</cell><cell>6</cell><cell>1</cell><cell>14.3%</cell><cell>5.2%</cell></row><row><cell>KY</cell><cell>2015</cell><cell>9</cell><cell>7</cell><cell>2</cell><cell>22.2%</cell><cell>5.6%</cell></row><row><cell>KY</cell><cell>2016</cell><cell>9</cell><cell>6</cell><cell>3</cell><cell>33.3%</cell><cell>4.6%</cell></row><row><cell>KY</cell><cell>2017</cell><cell>6</cell><cell>6</cell><cell>0</cell><cell>0.0%</cell><cell>2.6%</cell></row><row><cell>KY</cell><cell>2018</cell><cell>17</cell><cell>12</cell><cell>5</cell><cell>29.4%</cell><cell>6.1%</cell></row><row><cell>KY</cell><cell>2019</cell><cell>11</cell><cell>7</cell><cell>4</cell><cell>36.4%</cell><cell>3.3%</cell></row><row><cell cols="2">KY 2013-19</cell><cell>61</cell><cell>46</cell><cell>15</cell><cell>24.6%</cell><cell>4.2%*</cell><cell>--</cell></row><row><cell cols="8">* Values with asterisks indicate average harvest rate across all years since respective hunting</cell></row><row><cell cols="2">seasons began.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="8">1 Estimated N was derived from applying the estimated annual growth rate backward from the</cell></row><row><cell cols="3">2019 population estimate.</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 2 .</head><label>2</label><figDesc>Capture summaries for female and male bears in the Big South Fork</figDesc><table><row><cell>Study Area, 2018-2019.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">Female Capture Summary</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Occasion (sample collection period)</cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>5</cell><cell>Total</cell></row><row><cell>n (no. individuals detected)</cell><cell>15</cell><cell>23</cell><cell>24</cell><cell>22</cell><cell>26</cell><cell>134</cell></row><row><cell>u (no. individuals unmarked)</cell><cell>15</cell><cell>19</cell><cell>14</cell><cell>9</cell><cell>9</cell><cell>74</cell></row><row><cell>f (no. time captured)</cell><cell>42</cell><cell>18</cell><cell>5</cell><cell>5</cell><cell>3</cell><cell>74</cell></row><row><cell>M(t+1) (no. marked and released)</cell><cell>15</cell><cell>34</cell><cell>48</cell><cell>57</cell><cell>66</cell><cell>74</cell></row><row><cell>Losses</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell></row><row><cell>Detections</cell><cell>16</cell><cell>24</cell><cell>27</cell><cell>25</cell><cell>35</cell><cell>155</cell></row><row><cell>Detectors visited</cell><cell>14</cell><cell>22</cell><cell>21</cell><cell>18</cell><cell>29</cell><cell>129</cell></row><row><cell>Detectors used</cell><cell cols="5">578 579 579 579 579</cell><cell>3473</cell></row><row><cell cols="4">Male Capture Summary</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Occasion (sample collection period)</cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>5</cell><cell>Total</cell></row><row><cell>n (no. individuals detected)</cell><cell>19</cell><cell>23</cell><cell>27</cell><cell>27</cell><cell>31</cell><cell>157</cell></row><row><cell>u (no. individuals unmarked)</cell><cell>19</cell><cell>18</cell><cell>18</cell><cell>13</cell><cell>14</cell><cell>96</cell></row><row><cell>f (no. time captured)</cell><cell>63</cell><cell>17</cell><cell>9</cell><cell>4</cell><cell>1</cell><cell>96</cell></row><row><cell>M(t+1) (no. marked and released)</cell><cell>19</cell><cell>37</cell><cell cols="2">55 668</cell><cell>82</cell><cell>96</cell></row><row><cell>Losses</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell></row><row><cell>Detections</cell><cell>20</cell><cell>28</cell><cell>29</cell><cell>28</cell><cell>38</cell><cell>177</cell></row><row><cell>Detectors visited</cell><cell>20</cell><cell>22</cell><cell>23</cell><cell>24</cell><cell>32</cell><cell>153</cell></row><row><cell>Detectors used</cell><cell cols="5">578 579 579 579 579</cell><cell>3473</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5 .</head><label>5</label><figDesc>Estimates of black bear abundances excluding cubs, Big South Fork Study Area, 2019.</figDesc><table><row><cell></cell><cell>Males</cell><cell>Females</cell><cell>Total</cell></row><row><cell>BSF 1</cell><cell>58.4 (32.1-106.5)</cell><cell>106.6 (67.2-169.1)</cell><cell>165.1 (30.5-892.0)</cell></row><row><cell>KY including BSF</cell><cell>170.2 (89.1-325.3)</cell><cell>165.7 (106.8-257.2)</cell><cell>336.0 (129.9-896.0)</cell></row><row><cell>KY not including BSF</cell><cell>156.4 (80.9-302.4)</cell><cell>141.4 (89.7-222.8)</cell><cell>297.8 (103.5-856.7)</cell></row><row><cell>TN including BSF</cell><cell>265.6 (144.7-487.8)</cell><cell>285.2 (187.5-433.8)</cell><cell>550.8 (302.0-1004.7)</cell></row><row><cell cols="2">TN not including BSF 221.0 (118.0-413.9)</cell><cell>202.9 (129.9-317.1)</cell><cell>423.9 (196.4-914.7)</cell></row><row><cell cols="2">1 Big South Fork National River and Recreation Area</cell><cell></cell><cell></cell></row><row><cell cols="2">95% confidence interval are in parenthesis</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 6 .</head><label>6</label><figDesc>Estimated densities of black bears in the southeastern US.</figDesc><table><row><cell>Location</cell><cell>Bears/km 2</cell><cell>Reference</cell></row><row><cell>Eglin, FL</cell><cell>0.025</cell><cell>Humm (2017)</cell></row><row><cell>Big South Fork KY &amp; TN</cell><cell>0.03</cell><cell>Murphy (2011)</cell></row><row><cell>Carvers Bay, SC</cell><cell>0.04</cell><cell>Drewry (2010)</cell></row><row><cell>Eglin, FL</cell><cell>0.041</cell><cell>Simek et al. (2005)</cell></row><row><cell>Apalachicola, FL</cell><cell>0.082</cell><cell>Humm (2017)</cell></row><row><cell>Southern Appalachian Bear Study SC</cell><cell cols="2">0.118, 0.002* Humm &amp; Clark (2020)</cell></row><row><cell>Southern Appalachian Bear Study TN</cell><cell cols="2">0.119, 0.017* Humm &amp; Clark (2020)</cell></row><row><cell>Southern Appalachian Bear Study GA</cell><cell cols="2">0.121, 0.011* Humm &amp; Clark (2020)</cell></row><row><cell>Osceola, FL</cell><cell>0.127</cell><cell>Humm (2017)</cell></row><row><cell>Ocala/St. Johns, FL</cell><cell>0.127</cell><cell>Humm (2017)</cell></row><row><cell>Southern Appalachian Bear Study</cell><cell></cell><cell></cell></row><row><cell>(GA, NC, SC, TN)</cell><cell>0.13</cell><cell>Humm &amp; Clark (2020)</cell></row><row><cell>Big Cypress, FL</cell><cell>0.132</cell><cell>Humm (2017)</cell></row><row><cell>Big Cypress, FL</cell><cell>0.131</cell><cell>Simek et al. (2005)</cell></row><row><cell>Osceola, FL</cell><cell>0.14</cell><cell>Simek et al. (2005)</cell></row><row><cell>Southern Appalachian Bear Study NC</cell><cell cols="2">0.141, 0.026* Humm &amp; Clark (2020)</cell></row><row><cell>Upper Atchafalaya River Basin, LA</cell><cell>0.15-0.18</cell><cell>Lowe (2011)</cell></row><row><cell>White River National Wildlife Refuge,</cell><cell></cell><cell></cell></row><row><cell>AR</cell><cell>0.22-0.25</cell><cell>Clark et al. (2010)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 6</head><label>6</label><figDesc>Continued.   </figDesc><table /></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNOWLEDGEMENTS</head><p>First, I would like to thank my loving wife for enduring yet another move to further my career and for being supportive throughout this long journey. I would</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Appendix C: Supplementary Data </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Homing of black bears in the Great Smoky Mountains National Park</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Beeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Pelton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Conference on Bear Research and Management</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="87" to="95" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Population dynamics of bearsimplications</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Bunnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E N</forename><surname>Tait</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Dynamics of large mammal populations</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Fowler</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Wiley and Sons</publisher>
+			<date type="published" when="1981">1981</date>
+			<biblScope unit="page" from="75" to="98" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Model selection and inference: an information-theoretic approach</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Anderson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<publisher>Spring-Verlag</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Estimating black bear population density and genetic diversity at Tensas River, Louisiana using microsatellite DNA markers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Boersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="197" to="207" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">emdbook: ecological models and data in R. R package version 1</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Bolker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Spatially explicit maximum likelihood methods for capture-recapture studies</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Borchers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="377" to="385" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Sampling design and bias in DNA-based capture-mark-recapture population and density estimates of grizzly bears</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boulanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="457" to="469" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Spatially explicit integrated population models</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Chandler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1351" to="1360" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Comparing clustered sampling designs for spatially explicit estimation of population density</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Population Ecology</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="93" to="101" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Toward a concept of wildlife acceptance capacity in wildlife management</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Decker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Purdy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="53" to="57" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Drewry</surname></persName>
+		</author>
+		<title level="m">Population abundance and genetic structure of black bears in coastal South Carolina</title>
+		<meeting><address><addrLine>Knoxville, Tennessee, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Tennessee</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Experimental repatriation of black bears to the Big South Fork area of Kentucky and Tennessee</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eastridge</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<pubPlace>Knoxville, Tennessee, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Tennessee</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Evaluation of 2 soft-release techniques to reintroduce black bears</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eastridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1163" to="1174" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Density estimation in live-trapping studies</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="598" to="610" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Estimating population size by spatially explicit capture-recapture</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Fewster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="918" to="928" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Estimation of harvest rate of black bears from age and sex data</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Kolenosky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Strathearn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="53" to="57" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Monitoring effects of harvest on black bear populations in North America: a review and evaluation of techniques</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Garshelis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eastern Workshop on Black Bear Research and Management</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="120" to="144" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Minnesota status report</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Garshelis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eastern Workshop on Black Bear Research and Management</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="26" to="30" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Evaluating the potential biases in carnivore capture-recapture studies associated with the use of lure and varying density estimation techniques using photographic sampling data of the Malagasy civet</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Gerber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Karpanty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Population Ecology</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="43" to="54" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Translocation as a species conservation tool: status and strategy</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Griffith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Reed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">245</biblScope>
+			<biblScope unit="page" from="477" to="480" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A framework for evaluating reintroduction success in carnivores: lessons from African wild dogs</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gusset</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Reintroduction of top-order predators</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Hayward</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Somers</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Hoboken, New Jersey, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Blackwell Publishing</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="307" to="320" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hast</surname></persName>
+		</author>
+		<title level="m">Genetic diversity, structure, and recolonization patterns of Kentucky black bears</title>
+		<meeting><address><addrLine>Lexington, Kentucky, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Kentucky</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Reintroduction of top-order predators</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Hayward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Somers</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>John Wiley and Sons Ltd</publisher>
+			<pubPlace>Oxford, UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Hooker</surname></persName>
+		</author>
+		<title level="m">Estimating population parameters of the Louisiana black bear in the Tensas River Basin, Louisiana, using robust design capture-markrecapture</title>
+		<meeting><address><addrLine>Knoxville, Tennessee, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Tennessee</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Spatially explicit population estimates for black bears based on cluster sampling</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Humm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mccown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Scheick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="1187" to="1201" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Humm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+		<title level="m">Abundance and density of black bears in the southern Appalachian highlands of Georgia, North Carolina, South Carolina, and Tennessee. Final report to Georgia Department of Natural Resources</title>
+		<meeting><address><addrLine>Knoxville, Tennessee, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+		<respStmt>
+			<orgName>North Carolina Wildlife Resources Commission, South Carolina Department of Natural Resources, and Tennessee Wildlife Resources Agency, U.S. Geological Survey, Northern Rocky Mountain Science Center, University of Tennessee</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Demography and genetic structure of a recovering grizzly bear population</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Boulanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Macleod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="3" to="17" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Effects of collection method on sex and age composition of black bear (Ursus americanus) harvest in Oregon</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Kohlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Trainer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Northwest Science</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="34" to="38" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Long-range homing by an adult female black bear, Ursus americanus</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Landriault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hamr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Mallory</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Field-Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="57" to="60" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Effects of sampling conditions on DNA-based estimates of American black bear abundance</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Laufenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Van Manen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1010" to="1020" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Demographic rates and population viability of black bears in Louisiana</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Laufenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Hooker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Lowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>O'connell-Goode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Troxler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Chandler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Monographs</title>
+		<imprint>
+			<biblScope unit="volume">194</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Lowe</surname></persName>
+		</author>
+		<title level="m">Estimating population parameters of the Louisiana black bear in the Upper Atchafalaya River Basin</title>
+		<meeting><address><addrLine>Knoxville, Tennessee, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Tennessee</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Effects of habitat and hunting framework on American black bear harvest structure in Wisconsin</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Malcolm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Van Deelen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="14" to="22" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Factors contributing to effectiveness of black bear transplants</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Mcarthur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="102" to="110" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Effects of hunting on black bears in Prince William Sound</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Mcilroy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="828" to="837" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Estimating population size of grizzly bears using hair capture, DNA profiling, and mark-recapture analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="183" to="193" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Murphy</surname></persName>
+		</author>
+		<title level="m">Status of a reintroduced black bear population in the Big South Fork area of Kentucky</title>
+		<meeting><address><addrLine>Lexington, Kentucky, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Kentucky</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Rapid growth and genetic diversity retention in an isolated reintroduced black bear population in the central Appalachians</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Augustine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Hast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gibbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Strunk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dobey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="807" to="818" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Murphy</surname></persName>
+		</author>
+		<title level="m">Ecology of two reintroduced black bear populations in the central Appalachians</title>
+		<meeting><address><addrLine>Lexington, Kentucky, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Kentucky</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Dissertation</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">An empirical exploration of data quality in DNA-based population inventories</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1375" to="1387" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Microsatellite analysis of genetic variation in black bear populations</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="489" to="495" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Homing tendencies of large mammals: a review</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Rogers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Translocation of large mammals</title>
+		<editor>
+			<persName><forename type="first">L</forename><surname>Nielsen</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Brown</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Milwaukee, Wisconsin, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wisconsin Humane Society, Inc</publisher>
+			<date type="published" when="1988">1988</date>
+			<biblScope unit="page" from="76" to="92" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Factors influencing dispersal in the black bear</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Rogers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mammalian dispersal datterns: the effects of social structure on population genetics</title>
+		<editor>
+			<persName><forename type="first">B</forename></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Diane</forename><surname>Chepko-Sade</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Zuleyma</forename><surname>Tang Halpin</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Chicago, Illinois, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="1987">1987</date>
+			<biblScope unit="page" from="75" to="84" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Spatial capturerecapture</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Chandler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>Academic Press</publisher>
+			<pubPlace>Amsterdam, The Netherlands</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Introductory remarks: a demographic frame for reintroduction</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sarrazin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecoscience</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Using the IUCN red list criteria to assess reintroduction success</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Seddon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Conservation</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="407" to="408" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Woody plants of Big South Fork National River and Recreation Area, Tennessee and Kentucky and floristic comparison of selected southern Appalachian woody floras</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Wofford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Castanea</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="119" to="134" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Statewide assessment of road impacts on bears in six study areas in Florida from May 2001</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Simek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Jonker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Scheick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Endries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Eason</surname></persName>
+		</author>
+		<idno>BC-972</idno>
+		<imprint>
+			<date type="published" when="2003">2005. September 2003</date>
+			<publisher>Department of Transportation and Florida Fish and Wildlife Conservation Commission</publisher>
+			<pubPlace>Tallahassee, Florida, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Final Report Contract</note>
+	<note>completed for the Florida</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Challenges of DNA-based mark-recapture studies of American black bears</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Settlage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Van Manen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1035" to="1042" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">How does spatial study design influence density estimates from spatial capture-recapture models?</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Belant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLos ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">34575</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Trap configuration and spacing influences parameter estimates in spatial capture-recapture models</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLos ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">88025</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">A brief guide to model selection, multimodel inference and model averaging in behavioural ecology using Akaike&apos;s information criterion</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R E</forename><surname>Symonds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moussalli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Ecology and Sociobiology</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="13" to="21" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">History and current status of the black bear in Kentucky</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Unger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Larkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Augustine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dobey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Guthrie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Plaxico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Maehr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Northeastern Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="289" to="308" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">A feasibility study for the potential reintroduction of black bears into the Big South Fork Area of Kentucky and Tennessee</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Van Manen</surname></persName>
+		</author>
+		<idno>No. 91-3</idno>
+		<imprint>
+			<date type="published" when="1990">1990</date>
+			<publisher>Tennessee Wildlife Resources Agency</publisher>
+			<pubPlace>Nashville, Tennessee, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">TWRA Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Procedures to enhance the success of a black bear reintroduction program</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Van Manen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Pelton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ninth International Conference on Bear Research and Management</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="67" to="78" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Financial costs of large carnivore translocationsaccounting for conservation</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Weise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Stratford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Van Vuuren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">105042</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Conroy</surname></persName>
+		</author>
+		<title level="m">Analysis and management of animal populations</title>
+		<meeting><address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Trap array configuration influences estimates and precision of black bear density and abundance</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Puckett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beringer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Eggert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Belant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">111257</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Genetic tagging free-ranging black and brown bears</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="616" to="627" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">A new generation of the United States National Land Cover Database: requirements, research priorities, design, and implementation strategies</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Danielson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Homer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Case</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Costello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dewitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Funk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Grannemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rigge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISPRS Journal of Photogrammetry and Remote Sensing</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="108" to="123" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Model building strategy for logistic regression: purposeful selection</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno>2 35.93272 -84.870 692173.8 2019 1.3 35.93022 -84.848 694183.3 2019 1.5 35.91655 -84.875 691706.6 2019 1.6 35.90833 -84.855 693522.3 2019 2.1 36.09662 -85.050 675527.6 2019 2.2 36.08837 -85.029 677440.2 2019 2.3 36.08757 -85.006 679516.8 2019 2.4 36.07821 -85.058 674868.8 2019 2.5 36.07317 -85.033 677103.1 2019 2.6 36.07152 -85.012 679015.7 2019 2.7 36.05955 -85.053 675382.7 2019 2.8 36.06003 -85.033 677139.8 2019 3.1 36.07571 -84.874 691466.9 2019 3.2 36.08033 -84.852 693429.1 2019 3.3 36.07443 -84.828 695607.4 2019 3.4 36.06259 -84.880 690974.8 2019 3.5 36.05983 -84.857 692968.9 2019 3.6 36.05636 -84.828 695669.9 2019 3.7 36.04459 -84.874 691478.6 2019 3.8 36.04232 -84.856 693102.1 2019 3.9 36.04172 -84.839 694682.4 2019 4.1 36.05860 -84.700 707154.5 2019 4.2 36.05527 -84.672 709645.8 2019 4.3 36.05501 -84.654 711313.6 2019 4.4 36.04061 -84.699 707326.8 2019 4.5 36.04196 -84.676 709328.5 2019 4.6 36.03949 -84.652 711492.1 2019 4.7 36.02590 -84.698 707458.7 2019 4.8 36.02025 -84.680 709061.0 2019 4.9 36.01837 -84.657 711147.1 2019 5.1 36.04533 -84.519 723472.2 2019 5.2 36.03989 -84.492 725957.0 2019 5.3 36.04005 -84.475 727450.7 2019 5.4 36</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Translational Medicine</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">111</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Year Site_ID Latitude Longitude Easting Northing 2019 1.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

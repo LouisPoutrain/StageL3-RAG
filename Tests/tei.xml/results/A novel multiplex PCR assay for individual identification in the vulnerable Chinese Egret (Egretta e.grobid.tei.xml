@@ -1,0 +1,2125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A novel method to optimise the utility of underused moulted plumulaceous feather samples for genetic analysis in bird conservation</title>
+				<funder>
+					<orgName type="full">University of Chester</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Catherine</forename><surname>Peters</surname></persName>
+							<email>c.peters@chester.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">Biological Sciences Department</orgName>
+								<orgName type="institution" key="instit1">Affiliations</orgName>
+								<orgName type="institution" key="instit2">University of Chester</orgName>
+								<address>
+									<addrLine>Parkgate Road</addrLine>
+									<postCode>CH1 4BJ</postCode>
+									<region>Chester</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Howard</forename><surname>Nelson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Biological Sciences Department</orgName>
+								<orgName type="institution" key="instit1">Affiliations</orgName>
+								<orgName type="institution" key="instit2">University of Chester</orgName>
+								<address>
+									<addrLine>Parkgate Road</addrLine>
+									<postCode>CH1 4BJ</postCode>
+									<region>Chester</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bonnie</forename><surname>Rusk</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Biological Sciences Department</orgName>
+								<orgName type="institution" key="instit1">Affiliations</orgName>
+								<orgName type="institution" key="instit2">University of Chester</orgName>
+								<address>
+									<addrLine>Parkgate Road</addrLine>
+									<postCode>CH1 4BJ</postCode>
+									<region>Chester</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anna</forename><surname>Muir</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Biological Sciences Department</orgName>
+								<orgName type="institution" key="instit1">Affiliations</orgName>
+								<orgName type="institution" key="instit2">University of Chester</orgName>
+								<address>
+									<addrLine>Parkgate Road</addrLine>
+									<postCode>CH1 4BJ</postCode>
+									<region>Chester</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A novel method to optimise the utility of underused moulted plumulaceous feather samples for genetic analysis in bird conservation</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E426BA0A1F57DB6ACBBD6E20DC0A16B3</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-15T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Non-invasive sampling</term>
+					<term>feather samples</term>
+					<term>Polymerase Chain Reaction (PCR)</term>
+					<term>primerless PCR</term>
+					<term>mtDNA</term>
+					<term>small amplicon strategy</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Non-invasive sampling methods are increasingly being used in conservation research as they reduce or eliminate the stress and disturbance resulting from invasive sampling of blood or tissue. Here we present a protocol optimised for obtaining usable genetic material from moulted plumulaceous feather samples. The combination of simple alterations to a 'user-developed' method, comprised of increased incubation time and modification of temperature and volume of DNA elution buffer, are outlined to increase DNA yield and significantly increase DNA concentration (W = 81, p &lt;0.01, Cohens's d= 0.89). We also demonstrate that the use of a primerless Polymerase Chain Reaction (PCR) technique increases DNA quality and amplification success when used prior to PCR reactions targeting avian mitochondrial DNA (mtDNA). A small amplicon strategy proved effective for mtDNA amplification using PCR, targeting three overlapping 314-359bp regions of the cytochrome oxidase I barcoding region which, when combined, aligned with target-species reference sequences. We provide evidence that samples collected non-invasively in the field and kept in non-optimal conditions for DNA extraction can be used effectively to sequence a 650bp region of mtDNA for genetic analysis.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Working with cryptic, rare or elusive species can make obtaining invasive samples such as tissue or blood logistically difficult <ref type="bibr" target="#b50">(Mills et al. 2000;</ref><ref type="bibr" target="#b35">Horváth et al. 2005)</ref>. Moreover, for endangered and sensitive species, it can be difficult to obtain permits for more intrusive sampling methods, which in some cases are considered unethical <ref type="bibr" target="#b71">(Segelbacher 2002)</ref>. In these cases, biological samples such as feathers, hair, buccal cells, faecal matter and shed skin can be collected in the field with minimal disturbance to the study species <ref type="bibr" target="#b50">(Mills et al. 2000;</ref><ref type="bibr" target="#b9">Bohmann et al. 2014</ref>). However, some types of non-invasive sample collection such as buccal swabbing and hair plucking still require trapping and handling of the animal <ref type="bibr" target="#b14">(Broquet et al. 2006;</ref><ref type="bibr" target="#b20">Dai et al. 2015)</ref>, and these methods have the potential to cause stress and affect the behaviour of an individual, even if such effects are short term <ref type="bibr" target="#b14">(Broquet et al. 2006;</ref><ref type="bibr" target="#b66">Rudnick et al. 2009;</ref><ref type="bibr" target="#b20">Dai et al. 2015)</ref>. Highly non-invasive sample collection of material such as moulted feathers, shed skin, faecal samples or environmental DNA (eDNA), which can be collected opportunistically in the field, can eliminate the need to interact with the study species <ref type="bibr" target="#b5">(Bayard De Volo et al. 2008;</ref><ref type="bibr" target="#b9">Bohmann et al. 2014)</ref>. This is advantageous, particularly for research on sensitive species and ecosystems, as it minimises the level of disturbance to the wildlife and prioritises the welfare of individuals being investigated <ref type="bibr" target="#b20">(Dai et al. 2015)</ref>.</p><p>Despite the advantages of using highly non-invasive sampling methods, it is often difficult to identify the biological material collected to species-level without genetic analysis <ref type="bibr" target="#b50">(Mills et al. 2000;</ref><ref type="bibr" target="#b66">Rudnick et al. 2009)</ref>. This is a particular problem for samples such as feathers, hair and faecal matter that can often come from a variety of species sharing the same habitat with similar somatic features <ref type="bibr" target="#b83">(Waits and Paetkau 2005;</ref><ref type="bibr" target="#b18">Coghlan et al. 2012;</ref><ref type="bibr" target="#b1">Ahlers et al. 2017)</ref>. Sample type also has an impact upon the likelihood of successful DNA extraction, for example, large primary, secondary and tail feathers are preferable for obtaining usable genetic material compared to smaller plumulaceous feathers <ref type="bibr" target="#b24">(Dove 2000;</ref><ref type="bibr" target="#b81">Vili et al. 2013)</ref>. Larger feathers are embedded deeper in the body of the bird and so are more likely to retain DNA containing biological material such as epithelial cells <ref type="bibr" target="#b72">(Seki 2006;</ref><ref type="bibr" target="#b27">Gebhardt and Waits 2008)</ref>. Primary feathers in particular can contain the umbilicus blood clot in the shaft of the quill which is a by-product of feather development and, if present, provides a plentiful source of DNA <ref type="bibr" target="#b71">(Segelbacher 2002;</ref><ref type="bibr" target="#b81">Vili et al. 2013)</ref>. However, opportunistic sample collection methods often remove the ability to select for sample type <ref type="bibr" target="#b14">(Broquet et al. 2006)</ref>.</p><p>Furthermore, there is often no indication of how long the sample has been in the field and thus exposed to a variety of environmental conditions before collection <ref type="bibr" target="#b34">(Hogan et al. 2008;</ref><ref type="bibr" target="#b81">Vili et al. 2013)</ref>. Hot and humid environments provide non-optimal conditions for biological samples intended for genetic investigation <ref type="bibr" target="#b47">(McNally et al. 1989;</ref><ref type="bibr" target="#b31">Hanson and Ballantyne 2005)</ref> as this can lead to a higher prevalence of decomposing microorganisms such as fungi, mould spores and keratin-degrading microorganisms, which can damage the DNA <ref type="bibr" target="#b69">(Sangali and Brandelli 2000;</ref><ref type="bibr" target="#b81">Vili et al. 2013)</ref>. The increased likelihood of degraded DNA in such samples reduces and often prevents the selection of non-invasively collected samples for use in genetic analyses <ref type="bibr" target="#b81">(Vili et al. 2013)</ref>. Therefore, an improved method is needed to increase the biological value of low quality samples which have been kept in non-optimal conditions; particularly for endangered or elusive species for which invasive sampling methods are not possible <ref type="bibr" target="#b14">(Broquet et al. 2006;</ref><ref type="bibr" target="#b34">Hogan et al. 2008;</ref><ref type="bibr" target="#b60">Presti et al. 2013)</ref>.</p><p>In this study we focused on the utility of non-invasively collected feather samples of the critically endangered Grenada dove (Leptotila wellsi). We provide a three-step process to allow successful extraction and amplification of mitochondrial DNA (mtDNA) from plumulaceous feather samples. Firstly, we describe improvements to a user-developed protocol for DNA extraction that increases DNA yield, followed by primerless PCR to improve quality, along with a small amplicon strategy that enabled effective mtDNA amplification using PCR, targeting three overlapping regions of the cytochrome oxidase I barcoding region.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS AND RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STUDY SPECIES AND SAMPLE COLLECTION</head><p>The Grenada dove is a critically endangered columbid, endemic to the island of Grenada <ref type="bibr" target="#b65">(Rosenberg and Korsmo 2001;</ref><ref type="bibr">BirdLife International 2019)</ref> with a population size of 160±30 individuals <ref type="bibr" target="#b63">(Rivera-Milán et al. 2015)</ref>. Habitat loss and degradation means that this species exists in small fragmented populations <ref type="bibr" target="#b65">(Rosenberg and Korsmo 2001;</ref><ref type="bibr" target="#b67">Rusk 2008;</ref><ref type="bibr" target="#b63">Rivera-Milán et al. 2015)</ref>. It is threatened by predation from a number of mammalian species as well as habitat destruction from natural damaging events such as hurricanes <ref type="bibr" target="#b10">(Bolton et al. 2016</ref>). Low encounter rates and cryptic behaviour make surveying this species particularly difficult, requiring intensive monitoring that may cause disturbance <ref type="bibr" target="#b63">(Rivera-Milán et al. 2015;</ref><ref type="bibr" target="#b10">Bolton et al. 2016;</ref><ref type="bibr" target="#b68">Rusk 2017)</ref>. Therefore, non-invasive sampling methods are required to obtain samples for genetic analysis with minimal disruption to this endangered species.</p><p>Feather samples used for this study were obtained non-invasively, as moulted feathers, and collected opportunistically from known occupied dove territory: Mount Hartman estate and Perseverance, Grenada <ref type="bibr" target="#b67">(Rusk 2008</ref><ref type="bibr" target="#b68">(Rusk , 2017))</ref>. Habitat consists of both dry and mixed broadleaf evergreen-deciduous second-growth forests <ref type="bibr" target="#b68">(Rusk, 2017)</ref>. This tropical dry forest habitat has a minimum temperature of 22°C and temperatures that can reach up to 32°C, with a maximum rain fall of 259mm in the rainy season and a minimum of 67mm in the dry season <ref type="bibr" target="#b49">(Meteostat 2018;</ref><ref type="bibr" target="#b54">Nelson et al. 2018)</ref>. Due to the opportunistic nature of the sample collection, the feathers used in this study spent an unknown amount of time in the litter bed of this hot and humid environment before collection. Samples were stored in sample bags at 4°C until transportation by airmail to the UK in June 2018. On arrival in the UK, the samples were cleaned with 70% ethanol and stored at -20°C. The sample set (n= 160) used in this study was comprised of 152 plumulaceous (Figure <ref type="figure">1</ref>), three secondary and three primary feathers, as well as two egg shells recovered from the forest floor.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA EXTRACTION</head><p>The commercially available QIAGEN DNeasy® Blood and Tissue kit was used to conduct DNA extraction. Extractions were carried out as per the 'User-Developed Protocol: Purification of total DNA from nails, hair, or feathers using the DNeasy® Blood &amp; Tissue Kit' <ref type="bibr">(QIAGEN Inc., Crawley)</ref> with the following alterations to incubation time and temperature and volume of DNA elution buffer.</p><p>Feather samples were cut into 1cm pieces directly into a sterile 1.5ml microcentrifuge tube containing the lysis buffers using sterile scissors tp increase surface area <ref type="bibr" target="#b60">(Presti et al. 2013)</ref>. The incubation step was increased to 48 hours in order to achieve complete sample lysis on samples that are particularly difficult to digest <ref type="bibr" target="#b16">(Bush et al. 2005;</ref><ref type="bibr" target="#b5">Bayard De Volo et al. 2008)</ref> release DNA from the silica membrane. This process is improved when the DNA and silica are exposed to higher temperatures <ref type="bibr" target="#b15">(Bruns et al. 2007;</ref><ref type="bibr" target="#b89">Zhou and Ling 2011;</ref><ref type="bibr" target="#b30">Haddad et al. 2017</ref>). We used an elution volume of 100µl in a two-step process, giving a final volume of 200µl which was subsequently stored at -20°C. Although using half the recommended volume of elution buffer decreases the DNA yield, the aim was to increase the final concentration of DNA as it is well documented that a higher concentration of starting DNA in PCR reactions improves the likelihood of successful DNA amplification <ref type="bibr" target="#b42">(Kishore et al. 2006;</ref><ref type="bibr" target="#b64">Rohland and Hofreiter 2007;</ref><ref type="bibr" target="#b28">Graziano et al. 2013)</ref>.</p><p>In order to assess whether the alterations to the protocol had optimised DNA concentration following extraction, we compared the concentration of DNA from samples extracted using the standard manufacturer's protocol and the protocol we have outlined above. DNA concentrations for samples extracted using the standard protocol were obtained from a feather set that arrived in the laboratory in 2016 (n=50). We used a number generator to randomly select 20 plumulaceous feather samples from the feather set obtained in 2016 and extracted using the standard protocol and from the feather set obtained in 2018 and extracted using the optimised extraction method. The DNA concentration of each sample was quantified using the Invitrogen™ Qubit™ 3.0 Fluorometer, which has a DNA detection range of 0.50 -600ng/ml, using dsDNA High sensitivity settings following the manufacturer's protocol (Table <ref type="table" target="#tab_2">1</ref>). A Shapiro Wilk test <ref type="bibr" target="#b73">(Shapiro and Francia 1972)</ref> indicated that the data were not normally distributed (p&lt;0.05) therefore a Wilcox test <ref type="bibr" target="#b88">(Wilcox 2008)</ref> to compare the difference in DNA extracted when using the standard protocol and the optimised protocol outlined in this study. All analyses were performed in R (R Core Team 2013).The results of the test showed that samples that underwent the optimised protocol had a significantly higher extracted DNA concentration than the standard protocol (W = 81, p-value &lt; 0.01, Cohens's d= 0.89). Samples that were lower than the detection range of the Invitrogen™ Qubit™ 3.0 Fluorometer were assigned the value 0.49ng/ml. Table <ref type="table" target="#tab_2">1</ref> shows that 30% of the samples extracted using the standard protocol were of too low concentration to evaluate. In comparison, only 5% of the samples that were extracted using the optimised protocol had a concentration below the range of the Invitrogen™ Qubit™ 3.0</p><p>Fluorometer. Therefore, both DNA extraction success rate and DNA concentration were increased by the optimised protocol.</p><p>To test that target DNA, rather than that of subsidiary material, had been extracted and to ascertain the potential presence of PCR inhibitors, which are common when using non-invasively collected samples <ref type="bibr" target="#b83">(Waits and Paetkau 2005;</ref><ref type="bibr" target="#b82">von Thaden et al. 2017)</ref>, avian cytochrome b (cyt b), was amplified. We designed primers using Primer3 <ref type="bibr" target="#b43">(Koressaar and Remm 2007;</ref><ref type="bibr" target="#b80">Untergasser et al. 2012)</ref> based on a cytochrome b sequence from the white-tipped dove (Leptotila verreauxi), whose whole mitochondrial genome is available on GenBank, accession number: NC_015190.1 <ref type="bibr" target="#b57">(Pacheco et al. 2011</ref>). The Primer3 output for the designed primers is provided in in Online Resource 1. This species was chosen as it has been suggested, based on the ecology of the species, that it is closely related to the Grenada dove <ref type="bibr" target="#b8">(Blockstein and Hardy 1989)</ref>, although molecular phylogenetic analysis has not yet been carried out for the Grenada dove. The primers were designed to include a 200-250bp region of the cyt b gene, with a length of around 20 bases long, a GC content of around 50% and melting temperatures that are no more than 5 degrees apart <ref type="bibr" target="#b22">(Dieffenbach et al. 1993;</ref><ref type="bibr" target="#b53">Naqib et al. 2019</ref>). The chosen primers targeted a 203bp region of cytochrome b gene: CYTB_2 Forward: 5'-CTGCCTACTAACCCAGATCCT-3' and CYTB_2 Reverse: 5'-AGGAGCCGTAGTAGAGTCCT-3'.  <ref type="table" target="#tab_3">2</ref>) thus confirming target DNA rather than subsidiary material had been amplified.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PRIMERLESS PCR</head><p>Primerless PCR, also known as 'DNA shuffling' or 'sexual PCR', exposes the DNA template to Taq DNA polymerase, dNTPs and a heating and cooling cycle which serves to denature the sample into smaller fragments which then anneal to each other <ref type="bibr" target="#b76">(Stemmer 1994;</ref><ref type="bibr" target="#b48">Melnikov and Youngman 1999;</ref><ref type="bibr" target="#b13">Brakmann and Schwienhorst 2004;</ref><ref type="bibr" target="#b78">Suenaga et al. 2005;</ref><ref type="bibr" target="#b3">An et al. 2011)</ref>. This is known as selfpriming and functions to repair DNA damage such as nicks, fragmentation, abasic sites and blocked 3'-ends in degraded DNA samples that may inhibit amplification <ref type="bibr">(Diegoli, Farr, Cromartie, Coble, &amp; Bille, 2012)</ref>.</p><p>Primerless PCR reactions were conducted using illustra™ PuReTaq Ready-To-Go™ PCR Beads with a final volume of 25µl including 5µl of DNA template. Samples were subjected to a PCR cycle with the cycling parameters: initial denaturation at 95°C for 5 minutes, 10 cycles of 95°C for 30 seconds, 55°C for 30 seconds, 72°C for 60 seconds, 35 cycles of 95°C for 30 seconds, 50°C for 30 seconds, 72°C for 60 seconds and a final extension at 72°C for 5 minutes. A negative control was also </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SMALL AMPLICON STRATEGY</head><p>The third step we adopted was a small amplicon strategy to successfully amplify and sequence three small overlapping amplicons, which were combined to construct a longer and more informative section of the gene. Small amplicons have an increased likelihood of amplification <ref type="bibr" target="#b14">(Broquet et al. 2006;</ref><ref type="bibr" target="#b25">Fischer et al. 2016;</ref><ref type="bibr" target="#b21">Debode et al. 2017</ref>) thus we targeted 200-250bp amplicons <ref type="bibr" target="#b64">(Rohland &amp; Hofreiter, 2007;</ref><ref type="bibr" target="#b77">Stiller et al., 2009)</ref>. We performed primered PCR on our samples, following inclusion of the primerless PCR step, along with a primerless negative control and a standard negative control, using the following overlapping primer sets, which are known to amplify</p><p>Columbiforme COI barcoding region: AWCF1 and AWCintR2 (C1; 328bp), AWCintF2 and AWCintR4 (C2; 314bp), AWCintF4 and AWCR6 (C3; 350bp) <ref type="bibr" target="#b58">(Patel et al. 2010</ref>). The PCR reaction was subjected to the same cycling parameters as used in the primerless PCR stage: initial denaturation at 95°C for 5 minutes, 10 cycles of 95°C for 30 seconds, 55°C for 30 seconds, 72°C for 60 seconds, 35 cycles of 95°C for 30 seconds, 50°C for 30 seconds, 72°C for 60 seconds and a final extension at 72°C for 5 minutes. PCR products were separated and visualised using agarose-gel electrophoresis.</p><p>All three primer sets successfully amplified DNA from our non-invasively collected samples (Figure <ref type="figure" target="#fig_3">4</ref>). Samples were purified using the QIAquick PCR Purification as per the manufacturer's protocol (QIAGEN Inc., Crawley). Samples were then prepared for sequencing using the Mix2Seq Kit (Eurofins Genomics, Luxembourg) according to the manufacturer's instructions and submitted to Eurofins Genomics, where they were sequenced using Sanger sequencing methods.</p><p>Sequence data for the three overlapping regions were reconstructed to create an approximately 650bp sequence (Figure <ref type="figure" target="#fig_4">5A</ref>). Firstly, consensus sequences were obtained for each amplicon by aligning the forward and reverse sequence data in NCBI Basic Local Alignment Search Tool (BLAST®) <ref type="bibr" target="#b41">(Johnson et al., 2008)</ref> and were used in all further reconstructions and alignments.</p><p>Obtaining consensus sequence is particularly important when using primerless PCR as random fragmentation and self-priming can introduce artificial recombinants or base errors but this can be counteracted by using consensus sequence <ref type="bibr" target="#b85">(Weber et al., 2000)</ref>. To assemble the longer combined sequence, each of the small amplicons were aligned using a global alignment algorithm with Emboss Explorer merger tool (Figure <ref type="figure" target="#fig_4">5B</ref>). A heuristic approach is used to select the base with the best local sequence quality score in the case of any mismatches <ref type="bibr" target="#b6">(Bell and Kramvis 2013)</ref>. Highly degraded DNA can produce poor read length or low quality base calls in the sequence data, particularly at the ends of the trace producing "messy" end sequences <ref type="bibr" target="#b6">(Bell and Kramvis 2013)</ref>. Therefore, most probably due to the highly degraded nature of the samples used in this study, some base inconsistencies were recognised. In these cases the Emboss Merger local quality score, along with the electropherogram obtained from Eurofins for each sequence (Figure <ref type="figure" target="#fig_4">5C</ref>), were assessed and the base with the highest quality score as per both the emboss and Eurofins sequence quality assessment was selected <ref type="bibr" target="#b6">(Bell and Kramvis 2013)</ref>. Due to the non-invasive sample collection method used for these samples, along with the inability to identify the species from the morphological features of the feather alone, each sequence was run in NCBI's Basic Local Alignment Search Tool (BLAST®) to predict species identification <ref type="bibr" target="#b41">(Johnson et al. 2008)</ref>. This search indicated that the sample, presented in Figure <ref type="figure" target="#fig_4">5</ref>, was from the Caribbean columbid, white-crowned pigeon (Patagioenas leucocephala), with a BLAST total score of 989 and a query coverage of 91% to Genbank sequence JJQ175689.1 <ref type="bibr" target="#b70">(Schindel et al. 2011)</ref>. Combined sequence data obtained from the three small amplicons were aligned with the corresponding COI barcoding region sequence data from a known L. wellsi specimen (unpublished data -Genbank reference sequence not yet available for this species) and P. leucocephala (accession number JQ175689.1) <ref type="bibr" target="#b70">(Schindel et al. 2011)</ref> to confirm the expected nitrogenous base positions <ref type="bibr" target="#b41">(Johnson et al., 2008)</ref>, which is particularly important given the possibility of potential base errors introduced by primerless PCR <ref type="bibr" target="#b85">(Weber et al., 2000)</ref>. Target-species was confirmed for the 650bp length of the COI barcoding region from non-invasively collected plumulaceous feather samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>The methods outlined in this study: an optimised user-developed DNA extraction protocol, use of a primerless PCR technique, and a small amplicon PCR strategy, facilitated the attainment of target-species mtDNA sequence data of 650bp in length from non-invasively collected plumulaceous feather samples. Problems arising due to poor quality of DNA extracted from non-invasively collected samples can often dissuade researchers from proceeding with genetic analysis, causing the potential of such samples to go unrecognised <ref type="bibr" target="#b35">(Horváth et al. 2005;</ref><ref type="bibr" target="#b75">Speller et al. 2011)</ref>. This can also lead to a preference in invasive as opposed to non-invasive sample collection methods due to the higher confidence in invasive sample quality <ref type="bibr">(Johnson and Clayton 2000a;</ref><ref type="bibr" target="#b32">Harvey et al. 2006)</ref>. The methods we have outlined allow such samples, which previously may have been discounted for genetic analysis, to be successfully used to obtain informative sequence data.</p><p>It is widely documented that feather type influences the success and yield of DNA extraction from feather samples <ref type="bibr" target="#b5">(Bayard De Volo et al. 2008;</ref><ref type="bibr" target="#b34">Hogan et al. 2008)</ref>. Primary feathers are widely used as a recourse for genetic monitoring of wild bird populations, as they often contain a blood clot located in the superior umbilicus of the feather shaft <ref type="bibr" target="#b35">(Horváth et al. 2005)</ref>. Along with assessing the genetic variation within populations <ref type="bibr" target="#b55">(Nichols et al. 2001</ref>), feather samples have been used to investigate phylogeny and biogeography <ref type="bibr">(Johnson and Clayton 2000b)</ref>, and to understand the impact of anthropological processes on genetic structure and gene flow <ref type="bibr" target="#b26">(Fourcade et al. 2016</ref>) of bird species.</p><p>However, a study on molecular sexing and microsatellite genotyping of hyacinth macaw (Anodorhynchus hyacinthinus) found that despite using larger moulted feathers (with a size greater than 20cm) than in this study, feathers that spent more than seven days in the field and were of poor physical quality, had a low success rate in yielding sufficient DNA for genetic analysis <ref type="bibr" target="#b60">(Presti et al. 2013)</ref>. Nevertheless, we have demonstrated that plumulaceous feathers that are found in the field do not necessarily need to be excluded from sample sets as they can still be utilised to yield informative data.</p><p>The use of primerless PCR increased the amplification success in subsequent PCR reactions for samples that had proven difficult to amplify. Bands from samples exposed to primerless PCR were visually clearer and brighter, which suggests a higher quality of DNA <ref type="bibr" target="#b37">(Hughes-Stamm et al. 2011;</ref><ref type="bibr" target="#b38">Jacobs et al. 2013;</ref><ref type="bibr" target="#b44">Lucena-Aguilar et al. 2016)</ref>. Primerless PCR has been used in studies of ancient DNA, including that of <ref type="bibr" target="#b85">Weber et al. (2000)</ref>, who increased the successful amplification of ancient DNA from bone samples when investigating the population bottleneck of the northern elephant seal <ref type="bibr" target="#b85">(Weber et al. 2000)</ref>. The same technique was adopted using museum samples from the African horseshoe bat (Rhinolophus darlingi) to investigate the phenotypic convergence of its evolutionary history <ref type="bibr" target="#b38">(Jacobs et al. 2013)</ref>. Both studies reported that primerless PCR improved the recovery of DNA from ancient samples but did not comment on differences in DNA quality post primerless PCR <ref type="bibr" target="#b86">(Weber 2004;</ref><ref type="bibr" target="#b38">Jacobs et al. 2013)</ref>. To the best of our knowledge, our study is the first to demonstrate the utility of primerless PCR to increase DNA quality for degraded non-invasive feather samples and demonstrates that this technique can be applied to a variety of non-invasive samples collected in the field.</p><p>Although the primerless PCR technique recovers the quality of DNA obtained from the degraded samples this process does not completely repair damaged DNA, particularly when the DNA damage is highly fragmented, which is a common problem with samples kept in non-optimal conditions <ref type="bibr" target="#b23">(Diegoli et al. 2012)</ref>. The varying quality of sequence data at ends of the trace producing "messy" end sequences is a particular problem for overlapping regions resulting in base inconsistencies <ref type="bibr">(Stiller, Knapp, Stenzel, Hofreiter, &amp; Meyer, 2009)</ref>. However, this is not specific to the techniques we describe here and is prevalent in many genetics datasets, though it is not widely documented <ref type="bibr" target="#b74">(Sobel et al. 2002;</ref><ref type="bibr" target="#b29">Hackett and Broadfoot 2003;</ref><ref type="bibr" target="#b11">Bonin et al. 2004)</ref>. Sequencing error can lead to misidentification of individuals, misinterpretations and erroneous conclusions to be drawn from genetic analysis of relatedness and population structure <ref type="bibr" target="#b34">(Hogan et al. 2008)</ref>. Sequencing error can occur at any stage when obtaining genetic information but there are a number of actions that can be taken to minimise these errors <ref type="bibr" target="#b11">(Bonin et al. 2004</ref>). The following have been adopted in this study and are proposed for future studies to limit the risk of sequencing error following primerless PCR: 1) the amplification of small amplicons because genotyping error correlates with amplicon size <ref type="bibr" target="#b81">(Vili et al. 2013)</ref>; 2) the inclusion of negative controls <ref type="bibr" target="#b83">(Waits and Paetkau 2005;</ref><ref type="bibr" target="#b2">Alda et al. 2007;</ref><ref type="bibr" target="#b12">Boonseub et al. 2012)</ref>; 3) sequence quality assurance by using only forward and reverse consensus sequences with further analysis and inspection of electropherogram scoring levels; and 4) cross-reading and aligning sequence data with reference samples <ref type="bibr" target="#b85">(Weber et al. 2000;</ref><ref type="bibr" target="#b11">Bonin et al. 2004</ref>). For downsteam analyses, it is also recommended to include a sequencing error rate when using genetic data for population and phylogenetic analyses <ref type="bibr" target="#b11">(Bonin et al. 2004</ref>).</p><p>We have outlined methods that achieve successful extraction and amplification of an informative length of mtDNA from non-invasively collected plumulaceous feather samples. The analysis of mtDNA has many practical applications in conservation including species identification as well as presence/absence detection. The high mutation rate of mtDNA in comparison to nDNA allows the identification of Evolutionarily Significant Units (ESUs), giving an insight into the phylogenetics of a species <ref type="bibr" target="#b19">(Cronin 1993;</ref><ref type="bibr" target="#b84">Wan et al. 2004;</ref><ref type="bibr">Gupta and Bhardwaj 2013)</ref>. Data pertaining to phylogenetics have multiple conservation implications including evolutionary divergence and speciation, along with phylogeography and rates of change relating to morphology and behaviour of a species <ref type="bibr" target="#b36">(Huang et al. 2009</ref>). Determining the point at which speciation occurs or defining a species as genetically distinct -known as the phylogenetic species concept -is particularly useful for resolving taxonomic uncertainties, outlining wildlife legislation, and in identifying conservation priorities <ref type="bibr" target="#b33">(Hazevoet 1996;</ref><ref type="bibr" target="#b84">Wan et al. 2004;</ref><ref type="bibr" target="#b59">Pellens and Grandcolas 2016;</ref><ref type="bibr" target="#b17">Chen et al. 2018</ref>). Analysis of mtDNA can be used to make long-term species conservation action plans from an evolutionary perspective <ref type="bibr" target="#b56">(Nielsen et al. 2017</ref>) and to inform short-term demographic management of populations through identification of population change and connectivity therefore providing information on the effects of habitat fragmentation <ref type="bibr" target="#b19">(Cronin 1993;</ref><ref type="bibr" target="#b51">Moritz 1994;</ref><ref type="bibr" target="#b52">Nabholz et al. 2009</ref>). Therefore, our improved methods of extraction and amplification of mtDNA from non-invasively collected, low quality feather samples, have the potential to extend the applicability of molecular analyses in studies aimed at the conservation of endangered bird species, for which it is typically difficult to obtain high quality samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>In conclusion, the optimised user-developed DNA extraction protocol, along with the use of the primerless PCR technique, and a small amplicon PCR strategy, are sufficient to enable DNA extraction and mtDNA amplification from moulted plumulaceous feathers collected non-invasively and opportunistically in the field. This not only provides evidence in support of using non-invasive sampling methods for genetic analyses, in particular when applied to endangered species, but also highlights the utility of biological material kept in non-optimal conditions, may previously have been discounted <ref type="bibr" target="#b62">(Rawlence et al. 2009;</ref><ref type="bibr" target="#b81">Vili et al. 2013)</ref>. Data collected in this manner is informative for species identification, presence/absence detection, population structure and phylogenetic analyses of rare and elusive species <ref type="bibr" target="#b11">(Bonin et al. 2004;</ref><ref type="bibr" target="#b46">Marucco et al. 2011;</ref><ref type="bibr" target="#b0">Adam et al. 2014</ref>), all of which are key questions in conservation research.     </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>generated at this stage by exposing 25µl of PCR reaction mix and no DNA template to the same PCR cycle to ensure no contamination or false amplification occurred during the primerless PCR process.In order to investigate the efficacy of the primerless PCR process, low quality and quantity samples, as identified by lack of gel band presence, brightness and/or clarity following optimised DNA extraction and amplification<ref type="bibr" target="#b38">(Jacobs et al. 2013;</ref><ref type="bibr" target="#b79">Thiel et al. 2014)</ref> of the 203bp region of cytochrome b gene outlined above, were chosen. Samples consisted of: 10 plumulaceous feathers, one secondary feather, and one egg shell. Each sample was used as a substrate for the amplification of the barcoding region of the cytochrome oxidase I (COI) gene using primer set AWCF1 and AWCintR2 (C1; 328bp)<ref type="bibr" target="#b58">(Patel et al. 2010)</ref>, as described in the Small Amplicon Strategy section below, with and without a prior primerless PCR stage. A standardised dilution factor was used to ensure the same amount of DNA template was used in each primered PCR reaction. Following amplification, the samples were visualised on the UV transilluminator as a comparison for effective amplification with and without exposure to primerless PCR. 'This can be seen for feather samples in Figure2and the egg shell sample in Figure3, which show that more bands were present and were more defined after the addition of the primerless PCR step. Nine of the twelve samples failed to amplify without the addition of primerless PCR but successfully amplified and presented clear bands when exposed to primerless PCR. For example, sample 69 (Figure2) shows a brighter and more defined band is present after under-going the primerless PCR process. The increased prevalence of bands and the improved clarity, brightness and definition of the present bands after primerless PCR indicates the improved quality of DNA after exposure to this process.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Gel image showing the amplification of non-invasively collected plumulaceous feather</figDesc><graphic coords="29,72.48,97.03,279.00,302.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Gel image showing the amplification of a non-invasively collected egg shell sample using</figDesc><graphic coords="30,72.48,97.03,210.00,205.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Gel image showing successful amplification of the three small amplicons using primer sets</figDesc><graphic coords="31,53.58,135.88,493.11,208.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 :</head><label>5</label><figDesc>Fig. 5: Sequence data from sample M79. A. The 650bp sequence obtained for sample M79 aligned</figDesc><graphic coords="32,72.48,72.48,467.95,422.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Chicargo) with a final volume of 25µl containing ~ 2.5 units of recombinant PuReTaq DNA polymerase, 200µM of dNTP's in 10mM Tris-HCl, 50 mM KCl and 1.5 mM MgCl 2 stabilizers, BSA and reaction buffer, 5µl of DNA template and a negative control using sterile H 2 O.</figDesc><table><row><cell>PCR was conducted on a TECHNE TC-3000 thermocycler (Bibby Scientific Ltd; Stone) using the</cell></row><row><cell>following conditions optimised for this primer set: initial denaturation at 95°C for 5 minutes, 45</cell></row><row><cell>cycles of 95°C for 30 seconds, 48°C for 30 seconds, 72°C for 60 seconds and a final extension at</cell></row><row><cell>72°C for 5 minutes. PCR products were separated by electrophoresis (Westermeier 2005) on a 2%</cell></row><row><cell>(Mardis and McCombie 2017) agarose gel (Thermo Fisher Scientific, Waltham) and visualised using</cell></row><row><cell>a BioRad Gel Doc™ EZ Imager and Image lab 4.0 software (Bio-Rad Laboratories, 2017). DNA</cell></row></table><note><p><p><p>To prevent contamination of samples, PCR was conducted in a PCR hood where tube racks, pipettes and tubes were exposed to UV light for 20 minutes prior to setting up the reaction</p><ref type="bibr" target="#b5">(Bayard De Volo et al. 2008)</ref></p>. PCR was conducted using illustra™ PuReTaq Ready-To-Go™ PCR Beads (GE HEALTHCARE; extraction using the optimised method resulted in a visible band on the gel at the 203bp target region of avian cyt b for 154 out of 158 (97.5%) of the feathers being used in this study (Table</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 1 :</head><label>1</label><figDesc>Concentration of DNA (ng/ml) from samples extracted using the standard QIAGEN user 609 developed DNA extraction protocol and samples extracted using the optimised extraction protocol.</figDesc><table><row><cell>610</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Standard Protocol</cell><cell cols="2">Optimised Protocol</cell><cell>611</cell></row><row><cell cols="3">2016 Samples DNA Conc. (ng/ml) 2018 Samples</cell><cell cols="2">612 DNA Conc. (ng/ml)</cell></row><row><cell>P2</cell><cell>&lt;0.50*</cell><cell>M31</cell><cell>7.45</cell><cell></cell></row><row><cell>P4</cell><cell>26.9</cell><cell>M40</cell><cell>10.8</cell><cell>613</cell></row><row><cell>P5</cell><cell>&lt;0.50</cell><cell>M44</cell><cell>1.13</cell><cell></cell></row><row><cell>P7</cell><cell>13.0</cell><cell>M46</cell><cell>5.18</cell><cell></cell></row><row><cell>P8</cell><cell>&lt;0.50*</cell><cell>M63</cell><cell>3.60</cell><cell></cell></row><row><cell>P12</cell><cell>&lt;0.50*</cell><cell>M68</cell><cell>4.60</cell><cell></cell></row><row><cell>M1</cell><cell>6.09</cell><cell>M83</cell><cell>1.76</cell><cell></cell></row><row><cell>M2</cell><cell>1.28</cell><cell>M95</cell><cell>217.67</cell><cell></cell></row><row><cell>M5</cell><cell>0.56</cell><cell>M100</cell><cell>58.17</cell><cell></cell></row><row><cell>M8</cell><cell>0.81</cell><cell>M108</cell><cell>1.33</cell><cell></cell></row><row><cell>M18</cell><cell>0.82</cell><cell>M114</cell><cell>50.7</cell><cell></cell></row><row><cell>M19</cell><cell>7.92</cell><cell>M115</cell><cell>4.64</cell><cell></cell></row><row><cell>M22</cell><cell>1.74</cell><cell>M118</cell><cell>&lt;0.50*</cell><cell></cell></row><row><cell>M23</cell><cell>1.35</cell><cell>P37</cell><cell>32.1</cell><cell></cell></row><row><cell>M28</cell><cell>15.9</cell><cell>P38</cell><cell>307.33</cell><cell></cell></row><row><cell>F3</cell><cell>1.32</cell><cell>P39</cell><cell>4.50</cell><cell></cell></row><row><cell>F4</cell><cell>1.23</cell><cell>P45</cell><cell>45.43</cell><cell></cell></row><row><cell>F5</cell><cell>0.51</cell><cell>P49</cell><cell>34.13</cell><cell></cell></row><row><cell>F6</cell><cell>&lt;0.50*</cell><cell>P69</cell><cell>2.23</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 2 :</head><label>2</label><figDesc>Number of successful and failed amplifications of a 203bp target region of avian cytochrome b gene, recorded by feather type, following DNA extraction using our optimised technique (prior to including the primerless PCR step). Amplification was considered successful if a visible band was present on a 2% agarose gel for the target region. Examples of the plumulaceous feathers used in this investigation. 632 29</figDesc><table><row><cell>Feather type</cell><cell>Number of</cell><cell>Number of successful</cell><cell>Number of failed</cell></row><row><cell></cell><cell>feathers</cell><cell>amplifications</cell><cell>amplifications</cell></row><row><cell>Secondary</cell><cell>3</cell><cell>2 (66.7%)</cell><cell>1 (33.3%)</cell></row><row><cell>Primary</cell><cell>3</cell><cell>3 (100%)</cell><cell>0 (0%)</cell></row><row><cell cols="2">Plumulaceous 152</cell><cell>149 (98%)</cell><cell>3(2%)</cell></row><row><cell>Total</cell><cell>158</cell><cell>154 (97.5%)</cell><cell>4 (2.5%)</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>We would like to thank the <rs type="institution">Forest and National Parks Department of the Government of Grenada</rs>, in particular <rs type="person">Anthony Jeremiah</rs> and <rs type="person">Doland Francis</rs>, along with the <rs type="institution">Grenada Dove Conservation Programme</rs> for providing us with the samples. I would like to thank <rs type="person">David Appleton</rs>, <rs type="person">Laura Hough</rs>, <rs type="person">Rebecca Chawner</rs>, <rs type="person">Alice McCourt</rs> and other biological sciences students for their assistance in the field. I would also like to thank <rs type="person">Achaz von Hardenberg</rs> and <rs type="person">Matt Geary</rs> for their useful discussions about this manuscript. This work was funded by the <rs type="funder">University of Chester</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Who is who? Non-invasive methods to individually sex and mark altricial chicks</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Adam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scharff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Honarmand</surname></persName>
+		</author>
+		<idno type="DOI">10.3791/51429</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Vis Exp</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">ForCyt&quot; DNA database of wildlife species</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ahlers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Creecy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Frankham</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.fsigss.2017.09.195</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">An Improved Method Of Extracting Degraded DNA Samples From Birds And Other Species</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Alda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Doadrio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ardeola</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="331" to="334" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">QuikChange shuffling: a convenient and robust method for sitedirected mutagenesis and random recombination of homologous genes</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.NBT.2011.03.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">N Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="320" to="325" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Studies on aquatic invertebrates View project Microhabitat based community structure of freshwater macroinvertebrates View project</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Beshkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ibrahimi</surname></persName>
+		</author>
+		<idno type="DOI">10.18348/opzool.2018.1.33</idno>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">An Improved Extraction Method To Increase Dna Yield From Molted Feathers</title>
+		<author>
+			<persName><forename type="first">Bayard</forename><surname>De Volo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Douglas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Antolin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename></persName>
+		</author>
+		<idno type="DOI">10.1525/cond.2008.8586</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Condor</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="762" to="766" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Fragment merger: an online tool to merge overlapping long sequence fragments</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kramvis</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/v5030824</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Viruses</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="824" to="833" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<ptr target="http://datazone.birdlife.org/species/factsheet/grenada-dove-leptotila-wellsi" />
+		<title level="m">Grenada Dove (Leptotila wellsi) -BirdLife species factsheet</title>
+		<imprint>
+			<publisher>BirdLife International</publisher>
+			<date type="published" when="2019-03-29">2019. 29 Mar 2019</date>
+		</imprint>
+	</monogr>
+	<note>IUCN Red List birds</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The Grenada Dove (Leptotila wellsi) Is a Distinct Species</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Blockstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Hardy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Auk</title>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Environmental DNA for wildlife biology and biodiversity monitoring</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bohmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mtp</forename><surname>Gilbert</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.TREE.2014.04.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="358" to="367" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Population constraints on the Grenada Dove Leptotila wellsi : preliminary findings and proposals from south-west Grenada</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Bolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Van Oosterhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Collar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Bell</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0959270915000064</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bird Conserv Int © BirdLife Int</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="205" to="213" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">How to track and assess genotyping errors in population genetics studies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bonin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bronken</forename><surname>Eidesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2004.02346.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3261" to="3273" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Identification of Protected Avian Species Using a Single Feather Barb</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boonseub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Linacre</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1556-4029.2012.02206.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Forensic Sci</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1574" to="1577" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Evolutionary methods in biotechnology : clever tricks for directed evolution</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brakmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schwienhorst</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<publisher>Wiley-VCH</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Noninvasive population genetics: a review of sample source, diet, fragment length and microsatellite motif effects on amplification success and genotyping error rates</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Broquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ménard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Petit</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-006-9146-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="249" to="260" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Fundamentals of molecular diagnostics</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Bruns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Ashwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Burtis</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>Saunders Elsevier</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A comparison of sample types varying in invasiveness for use in DNA sex determination in an endangered population of greater Sage-Grouse (Centrocercus uropihasianus)</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Bush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Vinsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Aldridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Paszkowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-005-9040-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="867" to="870" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">An effective method for identification of three mussel species and their hybrids based on SNPs</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12686-018-1051-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet Resour</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Egg forensics: An appraisal of DNA sequencing to assist in species identification of illegally smuggled eggs</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Coghlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Parkinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.fsigen.2011.06.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Forensic Sci Int Genet</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="268" to="273" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">In My Experience: Mitochondrial DNA in Wildlife Taxonomy and Conservation Biology: Cautionary Notes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Cronin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Soc. Bull</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="339" to="348" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Noninvasive and nondestructive sampling for avian microsatellite genotyping: a case study on the vulnerable Chinese Egret (Egretta eulophotes)</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fang</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40657-015-0034-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Avian Res</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The influence of amplicon length on real-time PCR results</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Debode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">É</forename><surname>Janssen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol Agron Soc Env</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="3" to="11" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">General Concepts for PCR Primer Design</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Dieffenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tmj</forename><surname>Lowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Dveksler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res S</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">S37</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">An optimized protocol for forensic application of the PreCR TM Repair Mix to multiplex STR amplification of UV-damaged DNA</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Diegoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Farr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cromartie</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.FSIGEN.2011.09.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Forensic Sci Int Genet</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="498" to="503" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A Descriptive and Phylogenetic Analysis of Plumulaceous Feather Characters in Charadriiformes</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Dove</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/40166844</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ornithol Monogr</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="163" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Custom DNA Sequencing Eurofins Genomics (2018) DNA Sequencing Troubleshooting Guide Successful DNA Sequencing Read</title>
+		<author>
+			<persName><forename type="first">Eurofins</forename><surname>Genomics</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Renevey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Thür</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0159274</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2016">2017. 2016</date>
+		</imprint>
+	</monogr>
+	<note>Efficacy Assessment of Nucleic Acid Decontamination Reagents Used in Molecular Diagnostic Laboratories</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Corncrake conservation genetics at a European scale: The impact of biogeographical and anthropological processes</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fourcade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Keišs</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biocon.2016.04.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Conserv</title>
+		<imprint>
+			<biblScope unit="volume">198</biblScope>
+			<biblScope unit="page" from="210" to="219" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">High error rates for avian molecular sex identification primer sets applied to molted feathers</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Gebhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1557-9263.2008.00175.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J F Ornithol</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Effect of Elution Volume on DNA Recovery and Quality using Norgen&apos;s Blood Genomic DNA Isolation Micro Kit Gupta A, Bhardwaj A (2013) Mitochondrial DNA-a Tool for Phylogenetic and Biodiversity Search in Equines</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Graziano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>El-Mogy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Haj-Ahmad</surname></persName>
+		</author>
+		<idno type="DOI">10.4172/2332-2543.S1-006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biodivers Endanger Species</title>
+		<imprint>
+			<biblScope unit="volume">01</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Effects of genotyping errors, missing values and segregation distortion in molecular marker data on the construction of linkage maps</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Hackett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Broadfoot</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/sj.hdy.6800173</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Heredity (Edinb)</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="33" to="38" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">DNA-magnetic Particle Binding Analysis by Dynamic and Electrophoretic Light Scattering</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Haddad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dostalova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kudr</surname></persName>
+		</author>
+		<idno type="DOI">10.3791/56815</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Vis Exp</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Whole genome amplification strategy for forensic genetic analysis using single or few cell equivalents of genomic DNA</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ballantyne</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.AB.2005.08.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal Biochem</title>
+		<imprint>
+			<biblScope unit="volume">346</biblScope>
+			<biblScope unit="page" from="246" to="257" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A comparison of plucked feathers versus blood samples as DNA sources for molecular sexing</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Harvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Bonter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Stenzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Lovette</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1557-9263.2006.00033.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J F Ornithol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="136" to="140" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Conservation and species lists: taxonomic neglect promotes the extinction of endemic birds, as exemplified by taxa from eastern Atlantic islands</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Hazevoet</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0959270900003063</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bird Conserv Int</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="181" to="196" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Optimizing the use of shed feathers for genetic analysis</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Hogan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Burridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Norman</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1471-8286.2007.02044.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">An overlooked DNA source for non-invasive genetic analysis in birds</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Horváth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Martínez-Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Negro</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.0908-8857.2005.03370.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Avian Biol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="84" to="88" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Phylogenetic relationships of four endemic genera of the Phasianidae in China based on mitochondrial DNA control-region genes</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xiao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ympev.2009.07.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Phylogenet Evol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="378" to="383" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Assessment of DNA degradation and the genotyping success of highly degraded samples</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hughes-Stamm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Ashton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Daal</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00414-010-0455-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Legal Med</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Phenotypic Convergence in Genetically Distinct Lineages of a Rhinolophus Species Complex (Mammalia, Chiroptera)</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Babiker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bastian</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0082614</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">82614</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">A Molecular Phylogeny Of The Dove Genus Zenaida : Mitochondrial And Nuclear Dna Sequences</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Clayton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Condor</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="864" to="870" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Nuclear and Mitochondrial Genes Contain Similar Phylogenetic Signal for Pigeons and Doves (Aves: Columbiformes)</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Clayton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Phylogenet Evol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="141" to="151" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">NCBI BLAST: a better web interface</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zaretskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Raytselis</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkn201</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="5" to="W9" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Optimization of DNA Extraction from Low-Yield and Degraded Samples Using the BioRobot EZ1 and BioRobot M48</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kishore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reef</forename><surname>Hardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1556-4029.2006.00204.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Forensic Sci</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1055" to="1061" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Enhancements and modifications of primer design program Primer3</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koressaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Remm</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btm091</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1289" to="1291" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">DNA Source Selection for Downstream Applications Based on DNA Quality Indicators Analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lucena-Aguilar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Sánchez-López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Barberán-Aceituno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Biopreservation and Biobanking</title>
+		<imprint>
+			<publisher>Mary Ann Liebert Inc</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="264" to="270" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Agarose Gel Size Selection for DNA Sequencing Libraries</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mardis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Mccombie</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/pdb</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Protoc</title>
+		<imprint>
+			<date type="published" when="2017">2017. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Bridging the gaps between non-invasive genetic sampling and population parameter estimation</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marucco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Pletscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10344-010-0477-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Evaluation of Deoxyribonucleic Acid (DNA) Isolated from Human Bloodstains Exposed to Ultraviolet Light, Heat, Humidity, and Soil Contamination</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mcnally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Shaler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baird</surname></persName>
+		</author>
+		<idno type="DOI">10.1520/JFS12741J</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Forensic Sci</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">12741</biblScope>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Random mutagenesis by recombinational capture of PCR products in Bacillus subtilis and Acinetobacter calcoaceticus</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Melnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Youngman</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/27.4.1056</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1056" to="1062" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<author>
+			<persName><surname>Meteostat</surname></persName>
+		</author>
+		<ptr target="https://www.meteostat.net/climate/gouyave" />
+		<title level="m">Climate Gouyave, Grenada -Monthly Weather Averages | meteostat</title>
+		<imprint>
+			<date type="published" when="2018-04-14">2018. 14 Apr 2018</date>
+		</imprint>
+	</monogr>
+	<note>meteostat.net</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Estimating Animal Abundance Using Noninvasive Dna Sampling: Promise And Pitfalls</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Citta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Lair</surname></persName>
+		</author>
+		<idno type="DOI">10.1890/1051-0761(2000)010[0283:EAAUND]2.0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol Appl</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="283" to="294" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Applications of mitochondrial DNA analysis in conservation: a critical review</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Moritz</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.1994.tb00080.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="401" to="411" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The erratic mitochondrial clock: variations of mutation rate, not population size, affect mtDNA diversity across birds and mammals</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nabholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Glémin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Galtier</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2148-9-54</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Evol Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">54</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">PCR effects of melting temperature adjustment of individual primers in degenerate primer pools</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Naqib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kunstman</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.6570</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">6570</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A call to action for climate change research on Caribbean dry forests</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Devenish-Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Rusk</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10113-018-1334-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Reg Environ Chang</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1337" to="1342" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Sustaining genetic variation in a small population : evidence from the Mauritius kestrel</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Groombridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="593" to="602" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Multispecies genetic objectives in spatial conservation planning</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Beger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Henriques</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/cobi.12875Nucleics</idno>
+	</analytic>
+	<monogr>
+		<title level="m">DNA Sequencing Troubleshooting Guide</title>
+		<imprint>
+			<date type="published" when="2017">2017. 2018</date>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="872" to="882" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Evolution of Modern Birds Revealed by Mitogenomics: Timing the Radiation and Origin of Major Orders</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Pacheco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">U</forename><surname>Battistuzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lentino</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/msr014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1927" to="1942" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Conserved primers for DNA barcoding historical and modern samples from New Zealand and Antarctic birds</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Waugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Millar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Lambert</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1755-0998.2009.02793.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="431" to="438" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Phylogenetics and Conservation Biology: Drawing a Path into the Diversity of Life</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pellens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Grandcolas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Biodiversity Conservation and Phylogenetic Systematics</title>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="1" to="15" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Non-invasive genetic sampling for molecular sexing and microsatellite genotyping of hyacinth macaw (Anodorhynchus hyacinthinus)</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Presti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ptz</forename><surname>Antas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genet Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="129" to="133" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<monogr>
+		<title level="m" type="main">R: A language and environment for statistical computing</title>
+		<author>
+			<persName><forename type="first">Team</forename><surname>Core</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">DNA content and distribution in ancient feathers and potential to reconstruct the plumage of extinct avian taxa</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Rawlence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cooper</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2009.0755</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="3395" to="3402" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Distance sampling survey and abundance estimation of the critically endangered Grenada Dove (Leptotila wellsi)</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Rivera-Milán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bertuol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Simal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Rusk</surname></persName>
+		</author>
+		<idno type="DOI">10.1650/CONDOR-14-131</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Source: The Condor</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="87" to="93" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Ancient DNA extraction from bones and teeth</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rohland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hofreiter</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nprot.2007.247</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Protoc</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1756" to="1762" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Local participation, international politics, and the environment: The World Bank and the Grenada Dove</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Korsmo</surname></persName>
+		</author>
+		<idno>doi: 10.1006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Environ Manage</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="283" to="300" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+		<title level="m" type="main">Handbook of Nature Conservation Genetic Analyses Of Noninvasively Collected Feathers Can Provide New Insights Into Avian Demography And Behavior</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rudnick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Katzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Dewoody</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>Nova Science Publishers, Inc</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Important Bird Areas in the Caribbean: Grenada</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Rusk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Birdlife International Conservation Series</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Long-term population monitoring of the Critically Endangered Grenada Dove (Leptotila wellsi) on Grenada, West Indies</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Rusk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Caribb Ornithol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="49" to="56" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Feather keratin hydrolysis by a Vibrio sp. strain kr2</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sangali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brandelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-2672.2000.01173.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="735" to="743" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">DNA barcodes of bird species in the national museum of natural history, smithsonian institution</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Schindel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Stoeckle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Milensky</surname></persName>
+		</author>
+		<idno type="DOI">10.3897/zookeys.152.2473</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Zookeys</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">92</biblScope>
+			<date type="published" when="2011">2011</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic analysis in birds: testing reliability of feather samples</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Segelbacher</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1471-8286.2002.00180.x-i2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="367" to="369" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Application of molted feathers as noninvasive samples to studies on the genetic structure of pigeons (Aves: Columbidae)</title>
+		<author>
+			<persName><forename type="first">S-I</forename><surname>Seki</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10310-005-0194-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J For Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="125" to="129" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">An approximate analysis of variance test for normality</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Francia</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01621459.1972.10481232</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Stat Assoc</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="215" to="216" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Detection and Integration of Genotyping Errors in Statistical Genetics</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sobel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Papp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lange</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/338920</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Hum Genet</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="496" to="508" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Feather barbs as a good source of mtDNA for bird species identification in forensic wildlife investigations</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Speller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Nicholas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/2041-2223-2-16</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Investig Genet</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">16</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">DNA shuffling by random fragmentation and reassembly: in vitro recombination for molecular evolution</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Stemmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Direct multiplex sequencing (DMPS)-a novel method for targeted high-throughput sequencing of ancient and highly degraded DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Knapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Stenzel</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gr.095760.109</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1843" to="1848" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">DNA Shuffling</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Suenaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Furukawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Evolutionary Methods in Biotechnology</title>
+		<meeting><address><addrLine>Weinheim, FRG</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley-VCH Verlag GmbH &amp; Co. KGaA</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="13" to="24" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Functional activity of plasmid dna after entry into the atmosphere of earth investigated by a new biomarker stability assay for ballistic spaceflight experiments</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Thiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tauber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schütte</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0112979</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Primer3-new capabilities and interfaces</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Untergasser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cutcutache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koressaar</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gks596</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page">e115</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Factors affecting DNA quality in feathers used for noninvasive sampling</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nemesházi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kovács</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10336-013-0932-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Ornithol</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="page" from="587" to="595" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Assessing SNP genotyping of noninvasively collected wildlife samples using microfluidic arrays</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Von Thaden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cocchiararo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jarausch</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-10647-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">10768</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Noninvasive Genetic Sampling Tools For Wildlife Biologists: A Review Of Applications And Recommendations For Accurate Data Collection</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<idno type="DOI">10.2193/0022-541X(2005)69[1419:NGSTFW]2.0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wildl Manage</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Review Which genetic marker for which conservation genetics issue?</title>
+		<author>
+			<persName><forename type="first">Q-H</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fujihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S-G</forename><surname>Fang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/elps.200305922</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electrophoresis</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="2165" to="2176" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">An empirical genetic assessment of the severity of the northern elephant seal population bottleneck</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Garza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lehman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0960-9822(00)00759-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1287" to="1290" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Genetic Consequences of a Severe Population Bottleneck in the Guadalupe Fur Seal (Arctocephalus townsendi)</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Weber</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jhered/esh018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Hered</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="144" to="153" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<monogr>
+		<title level="m" type="main">Electrophoresis in practice : a guide to methods and applications of DNA and protein separations</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Westermeier</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<publisher>John Wiley &amp; Sons</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Adjusting for Unequal Variances When Comparing Means in One-Way and Two-Way Fixed Effects ANOVA Models</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Wilcox</surname></persName>
+		</author>
+		<idno type="DOI">10.3102/10769986014003269</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Educ Stat</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="269" to="278" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<monogr>
+		<title level="m" type="main">DNA binding and DNA extraction: methods, applications, and limitations</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ling</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>Nova Science Publishers</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

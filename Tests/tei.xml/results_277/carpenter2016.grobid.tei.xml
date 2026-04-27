@@ -1,0 +1,1774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Breaking down scats: degradation of DNA from greater bilby (Macrotis lagotis) faecal pellets</title>
+				<funder>
+					<orgName type="full">Fortescue Metals Group and Millennium Minerals</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-11-21">21 November 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Fiona</forename><forename type="middle">M</forename><surname>Carpenter</surname></persName>
+							<email>fiona.carpenter@dpaw.wa.gov.au</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">A Science and Conservation Division</orgName>
+								<orgName type="department" key="dep2">Department of Parks and Wildlife</orgName>
+								<orgName type="institution">Woodvale Wildlife Research Centre</orgName>
+								<address>
+									<addrLine>Locked Bag 104 Bentley Delivery Centre</addrLine>
+									<postCode>6983</postCode>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><forename type="middle">A</forename><surname>Dziminski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">A Science and Conservation Division</orgName>
+								<orgName type="department" key="dep2">Department of Parks and Wildlife</orgName>
+								<orgName type="institution">Woodvale Wildlife Research Centre</orgName>
+								<address>
+									<addrLine>Locked Bag 104 Bentley Delivery Centre</addrLine>
+									<postCode>6983</postCode>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Breaking down scats: degradation of DNA from greater bilby (Macrotis lagotis) faecal pellets</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-11-21">21 November 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7D0A19E0B27153C539060FD96A0481B8</idno>
+					<idno type="DOI">10.1071/AM16030</idno>
+					<note type="submission">Received 4 July 2016, accepted 4 October 2016,</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>arid-dwelling marsupial</term>
+					<term>barcoding</term>
+					<term>elusive</term>
+					<term>fauna conservation</term>
+					<term>genetic sampling</term>
+					<term>individual identification</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Isolating DNA from scats (faeces) of threatened species is a valuable, non-invasive method for identifying individuals. To establish whether genotyping of greater bilby (Macrotis lagotis) individuals from faecal pellets collected in the field can be useful for population monitoring, an understanding of the DNA degradation rates is necessary. To determine the relationship between time and degradation of bilby faecal DNA, and assess whether a two-step elution process during extraction results in better-quality DNA, faecal pellets were collected from captive individuals, maintained under seminatural conditions, then harvested at known periods. DNA was amplified from faecal pellets with a 99% success rate and error rates of less than 5% up to 14 days after deposition. The amplification rate decreases, and the rate of allelic dropout increases with time, but DNA can still be amplified at rates above 60% and error rates below 15% at 90-180 days. We found that a second elution step was unnecessary, with more DNA amplified over a longer period using the first eluate. Viable DNA exists on bilby faecal pellets for a long period after deposition, which is useful for obtaining genetic samples for population monitoring programs and studies on population genetics.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Utilising scats (faecal pellets) as opposed to sourcing tissue or blood for DNA samples has the benefit of reducing direct impacts to species being studied <ref type="bibr" target="#b33">(Murphy et al. 2000;</ref><ref type="bibr">Piggott and Taylor 2003b;</ref><ref type="bibr" target="#b59">Vynne et al. 2012;</ref><ref type="bibr" target="#b42">Ramón-Laca et al. 2015)</ref>. This is particularly useful in the case of threatened or rare species, of which many may be vulnerable to disturbance (e.g. <ref type="bibr" target="#b41">Puechmaille and Petit 2007;</ref><ref type="bibr" target="#b5">Baldwin et al. 2010)</ref>. Isolation of DNA from faeces has been successfully undertaken for several threatened species across a variety of environments, from snow leopards (Panthera uncia) in the alpine regions of Nepal <ref type="bibr" target="#b25">(Karmacharya et al. 2011)</ref>, to mountain gorillas (Gorilla beringei beringei) in the forests of Uganda <ref type="bibr" target="#b35">(Nsubuga et al. 2004)</ref>, and African elephants (Loxodonta africana africana) in savannah grasslands <ref type="bibr" target="#b4">(Archie et al. 2003)</ref>. Although it is now a well established method for identifying individuals <ref type="bibr" target="#b16">(Ernest et al. 2000;</ref><ref type="bibr" target="#b2">Adams and Waits 2006;</ref><ref type="bibr">Brinkman et al. 2010a;</ref><ref type="bibr" target="#b43">Rodgers and Jane cka 2013)</ref>, few studies have incorporated faecal DNA as a component of ongoing monitoring programs compared with direct sampling techniques, mainly due to the limitations associated with obtaining DNA from non-invasive samples <ref type="bibr" target="#b60">(Waits and Paetkau 2005;</ref><ref type="bibr" target="#b47">Schwartz et al. 2007)</ref>. More recently researchers have developed an increased awareness of the need to understand and evaluate the specific degradation rates of the faecal DNA of the target species to ensure the quality of genotyping approaches <ref type="bibr" target="#b37">(Piggott 2004;</ref><ref type="bibr" target="#b9">Brinkman et al. 2010b;</ref><ref type="bibr" target="#b36">Panasci et al. 2011;</ref><ref type="bibr" target="#b14">DeMay et al. 2013;</ref><ref type="bibr" target="#b63">Woodruff et al. 2015)</ref>.</p><p>Time has been found to have a significant effect on the amplification rates of faecal DNA. <ref type="bibr" target="#b34">Murphy et al. (2007)</ref> analysed the effects of time on the degradation of DNA from brown bear (Ursus arctos) faeces and found that genotyping errors increased over time across different environmental conditions. Sample age, particularly 1-3 days since deposition, reduced the ability to amplify DNA. <ref type="bibr" target="#b46">Santini et al. (2007)</ref> also found faecal DNA from wolves (Canis lupus) to degrade quickly with a significant difference in the rate of amplification after just three days. <ref type="bibr" target="#b36">Panasci et al. (2011)</ref> found an increase in amplification failure and errors with time and recommended that coyote faeces of less than five days since deposition are preferable for DNA extraction. However, they were also able to successfully amplify DNA from some samples after this time. <ref type="bibr" target="#b63">Woodruff et al. (2015)</ref> studied faecal DNA degradation from the Sonoran pronghorn (Antilocapra americana sonoriensis) and also found genotyping reliability to decrease over time, with the most significant drop in amplification (decrease of 61%) occurring between 7 and 14 days since deposition. <ref type="bibr" target="#b37">Piggott (2004)</ref> studied the impacts of time on faecal DNA of European red foxes (Vulpes vulpes) and brushtailed rock wallabies (Petrogale penicillata) in Australia. For both species, she found that age since deposition resulted in a decline in amplification rates and an increase in genotyping error rates. No amplification was obtained from samples 180 days since deposition and the highest-quality DNA and reliable genotyping was obtained from samples up to seven days from deposition.</p><p>DNA has been successfully extracted from faecal pellets of many threatened marsupial species in Australia (e.g. <ref type="bibr" target="#b3">Alacs et al. 2003;</ref><ref type="bibr" target="#b40">Piggott et al. 2006;</ref><ref type="bibr" target="#b61">Walker et al. 2009;</ref><ref type="bibr" target="#b45">Ruibal et al. 2009;</ref><ref type="bibr" target="#b50">Smith et al. 2009;</ref><ref type="bibr" target="#b62">Wedrowicz et al. 2013)</ref>. One of these species, the greater bilby (Macrotis lagotis) is a burrowing marsupial that was once widespread across most of mainland Australia <ref type="bibr" target="#b28">(Marlow 1958;</ref><ref type="bibr" target="#b51">Southgate 1990;</ref><ref type="bibr" target="#b17">Friend 1990;</ref><ref type="bibr" target="#b23">Gordon et al. 1990;</ref><ref type="bibr" target="#b24">Johnson and Southgate 1990;</ref><ref type="bibr" target="#b0">Abbott 2001</ref><ref type="bibr" target="#b1">Abbott , 2008;;</ref><ref type="bibr" target="#b7">Bradley et al. 2015)</ref> but now is found in only 20% of its former range <ref type="bibr" target="#b51">(Southgate 1990)</ref>. A better understanding of bilby density, abundance and population distribution is critical in determining appropriate strategies for the conservation and management of this species, with this being noted as a key research priority and knowledge gap for the bilby particularly in Western Australia <ref type="bibr" target="#b7">(Bradley et al. 2015;</ref><ref type="bibr" target="#b13">Cramer et al. 2016)</ref>.</p><p>The bilby is a cryptic, trap-shy and wide-ranging species (McGregor and Moseby 2014), which makes the implementation of traditional and direct fauna monitoring techniques, including capture-mark-recapture methods through trapping, very difficult for this species due to the intensity, time and high level of resources that would be required <ref type="bibr" target="#b56">(Southgate et al. 1995;</ref><ref type="bibr" target="#b26">Lollback et al. 2015)</ref>. Non-invasive methods to monitor fauna species that use evidence of the target species, such as tracks, burrows, dens, pellets and scats, are becoming increasingly preferred methods, particularly for species that are highly dispersed or elusive <ref type="bibr">(Piggott and Taylor 2003a)</ref>, including the bilby <ref type="bibr" target="#b57">(Southgate et al. 2005;</ref><ref type="bibr" target="#b55">Southgate and Moseby 2008;</ref><ref type="bibr" target="#b12">Burrows et al. 2012;</ref><ref type="bibr" target="#b26">Lollback et al. 2015)</ref>. Bilby faecal pellets are easily identified in the field as they have a distinct physical appearance and can often be observed amongst other bilby signs, particularly at diggings <ref type="bibr" target="#b57">(Southgate et al. 2005)</ref>. They are also easy to collect and store, involving reduced resources and effort than would otherwise be required for trapping, and can provide an alternative source of information for monitoring <ref type="bibr" target="#b52">(Southgate 2005;</ref><ref type="bibr" target="#b26">Lollback et al. 2015)</ref>.</p><p>Previous success of DNA extraction from greater bilby faecal pellets provides a reliable and efficient non-invasive method for identifying bilby individuals <ref type="bibr" target="#b50">(Smith et al. 2009)</ref>, and may therefore be useful in gaining an understanding of population size and density.</p><p>The degradation of DNA from bilby faecal pellets, however, has not yet been explored. The need to understand faecal DNA degradation rates when using this as a source for identifying individuals in a species monitoring program was raised by <ref type="bibr" target="#b37">Piggott (2004)</ref>, particularly with species such as the bilby, where populations are often remote and individuals are at low densities, making it difficult to source fresh samples regularly.</p><p>Studies on faecal samples from both herbivorous and carnivorous species have shown that the age of the faecal sample contributes significantly to the ability to extract and amplify DNA, with fresh samples resulting in more reliable amplification with fewer genotyping errors than found with older samples <ref type="bibr" target="#b27">(Lucchini et al. 2002;</ref><ref type="bibr" target="#b37">Piggott 2004;</ref><ref type="bibr" target="#b46">Santini et al. 2007;</ref><ref type="bibr" target="#b36">Panasci et al. 2011)</ref>. Therefore, it is useful to know, particularly for monitoring or for obtaining DNA for other genetic studies, up to what age samples still yield DNA and what the quality of DNA is at a particular age.</p><p>DNA extracted from faecal matter includes DNA from mixed sources and/or low levels of target DNA <ref type="bibr" target="#b58">(Taberlet et al. 1996;</ref><ref type="bibr" target="#b31">Morin et al. 2001)</ref>. A common problem is the ability to obtain enough high-quality DNA for reliable genotyping, as opposed to tissue or blood samples that have significantly more target DNA and fewer inhibitors <ref type="bibr">(Piggott and Taylor 2003a)</ref>. A technique that is sometimes used to maximise the quantity of DNA available for PCR is performing a second elution phase at the end of the DNA extraction process, which allows for the elution of any retained DNA in the silica membrane of a spin column without diluting the first eluate <ref type="bibr">(QIAGEN 2006)</ref>. Despite having reduced DNA quantities remaining within the second eluate, it is considered that the amount of potential inhibitors remaining for a second elution is also reduced, therefore allowing for cleaner and better-quality DNA. With inhibition being a potential cause of genotyping failure <ref type="bibr" target="#b42">(Ramón-Laca et al. 2015)</ref> using such a technique may improve the amplification rate for DNA extracted from bilby scats and may reduce the genotyping errors observed.</p><p>In order to establish whether DNA from faecal pellets can be used for reliable monitoring of bilbies, an understanding of the degradation of the DNA is required. The aims of this study were to examine the relationship between DNA degradation from bilby faecal pellets over time, and to determine whether the twostep elution protocol improves the amplification rate of DNA extracted from bilby faecal pellets. We expected that the rate of amplification of DNA would decline over time and the rate of genotyping errors, both false alleles and allelic dropouts, would increase over time as the DNA degrades. We also predicted that DNA amplified using a second eluate would increase the rate of amplification and decrease the rate of genotyping errors by providing higher-quality DNA through a reduction in potential inhibitors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Faecal pellet collection and experimental design</head><p>Faecal pellets were collected from three captive male bilbies housed individually at Kanyana Wildlife Rehabilitation Centre in Lesmurdie, Western Australia. Over a 20-day period in January and February 2015, 63 samples were collected within 24 h of deposition. Captive individuals were used in this study in order to obtain an accurate deposition time, and to eliminate the possibility of additional environmental factors and varying diet amongst individuals to influence the rate of DNA degradation, all of which would be impossible to control for if faecal pellets were collected from a wild population.</p><p>Each pellet was placed on dry, prewashed sand in a 5 cm Â 5 cm square labelled ceramic dish and transported to the Department of Parks and Wildlife, Wildlife Research Centre at Woodvale, Western Australia. Samples were placed in a position allocated at random in an enclosure measuring 90 cm (W) Â 90 cm (L) Â 45 cm (H), constructed from 3-mm wire. The enclosure was covered by a sheet of 0.5-cm clear Perspex and secured onto a wooden pallet which was 15 cm off the ground. The enclosure was placed in the field on a concrete slab in a semishaded area with surrounding trees. The enclosure was used to prevent animals (e.g. foxes, crows) disturbing the pellets. The enclosure was kept on the pallet off the ground to prevent flooding of the dishes in case of rain. The Perspex prevented rain directly falling on the experiment whilst allowing normal air flow and sunlight. It allowed us to control potential rainfall impacting the scats and prematurely terminating the experiment and kept the effects of rainfall constant across the experimental period.</p><p>On each sampling day at Kanyana, three faecal pellets from each of the three individuals were collected and all samples were assigned to a single treatment period. Collection of faecal samples continued until a total of 21 pellets per individual were collected. The seven treatments covered the time periods in days <ref type="bibr">(1, 7, 14, 21, 30, 90 and 180)</ref> of the duration between initial pellet collection from Kanyana and the harvesting of the pellets from Woodvale and immediate DNA extraction. The experiment was performed primarily over the summer months in order to best simulate the northern Western Australian conditions experienced within bilby habitat. The temperature conditions recorded in the Perth metropolitan area over the treatment period ranged from 0.8 C to 40.0 C with a relative humidity from 21% up to 99% (Bureau of Meteorology 2015).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extraction</head><p>Extractions were undertaken using the QIAGEN QIAamp Fast DNA Stool MiniKit with modifications that included a wash of the faecal pellets <ref type="bibr">(Piggott and Taylor 2003a)</ref>, the use of Poly-A carrier RNA and an extended incubation period for DNA elution <ref type="bibr" target="#b31">(Morin et al. 2001)</ref>. The wash of epithelial cells from each pellet was performed with 1.5 mL to 5 mL of SLP buffer (see <ref type="bibr" target="#b15">Deuter et al. 1995</ref> for SLP buffer) followed by a 10-min incubation at 70 C <ref type="bibr">(Piggott and Taylor 2003a)</ref>. Carrier RNA was included in the process <ref type="bibr" target="#b44">(Roeder et al. 2004</ref>) after the second incubation step to assist in the retention of the small quantities of target DNA within the membrane of the spin column, therefore enhancing the recovery of the DNA <ref type="bibr" target="#b48">(Shaw et al. 2009;</ref><ref type="bibr">QIAGEN 2014)</ref>. A two-step elution process was undertaken at the end of the extraction protocol. Elutions were performed using 50 mL of buffer ATE left to incubate at room temperature for 20 min and then spun in the centrifuge for 2 min in order to elute the DNA from the spin column. DNA was then pipetted into a labelled 1.5-mL microcentrifuge tube and the spin column placed back into the same collection tube for the second elution step. A second 50 mL of buffer ATE was then added to the spin column and left to incubate for a further 20 min before eluting the DNA, which was then pipetted into another labelled 1.5-mL microcentrifuge tube. DNA samples were stored in a À20 C freezer until PCR.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PCR amplification and fragment analysis</head><p>PCR amplification was undertaken using three bilby-specific polymorphic microsatellite markers <ref type="bibr" target="#b32">(Moritz et al. 1997;</ref><ref type="bibr" target="#b50">Smith et al. 2009</ref>) (refer to Table <ref type="table" target="#tab_0">1</ref>) amplified in a single multiplex. Three PCR replicates using the Qiagen Multiplex PCR Plus Kit were used for each scat sample. PCRs were carried out using the same Eppendorf Thermal Cycler for every PCR. For each PCR replicate, 2 mL of DNA was used in a 12.5-mL reaction with PCR cycling and annealing conditions as per the protocol recommended by the manufacturer for the multiplex kit. A modified extension period of 30 s per cycle was used <ref type="bibr" target="#b49">(Smith and Hughes 2008)</ref>, rather than the manufacturer's recommendation of 90 s.</p><p>Plates containing PCR products were stored in a À20 C freezer until being prepared for fragment analysis. PCR product was analysed on an ABI3730XL Sequencer and sized using Genescan LIZ 500 size standard (Applied Biosystems).</p><p>Scoring of alleles was undertaken using GeneMapper Software 5.0. Results were reviewed manually in order to ensure correct scoring of alleles and to confirm genotyping errors, both the presence of false alleles and allelic dropouts. The Day 1 treatment period samples were used as references to establish genotyping errors, as these produced identical results across all faecal pellets and PCR replicates for each individual. Allelic dropouts were recorded as per the definition and protocol employed by <ref type="bibr" target="#b10">Broquet and Petit (2004)</ref>, where one allele from an individual that exhibited heterozygosity at a locus in the reference genotype was not observed in the replicate sample (either extraction or PCR) for that individual. An allele was considered a false allele where DNA amplification was successful but an allele was observed that was inconsistent with the reference genotypes <ref type="bibr" target="#b6">(Bonin et al. 2004;</ref><ref type="bibr" target="#b10">Broquet and Petit 2004;</ref><ref type="bibr" target="#b60">Waits and Paetkau 2005)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>Repeated-measures mixed-model ANOVA was used to compare the effects of elution and time on the amplification, false allele and allelic dropout rates. The first repeated-measures factor, elution, consisted of two levels, Elution 1 and 2. The second repeated-measures factor was time, and consisted of seven periods when scats were harvested: 1, 7, 14, 21, 30, 90 and 180 days. Individual animals were included in the model as a random, blocking factor, though we neither report the statistics of this factor nor the interaction of this factor with elution or CTA CAA GTC TGA TAA TTC CAG GC <ref type="bibr" target="#b32">Moritz et al. (1997)</ref> time. The Greenhouse-Geisser Epsilon (GG-P) was used because it is a more conservative adjustment of the F ratio. All proportions were arcsine-transformed <ref type="bibr" target="#b64">(Zar 1999</ref>) into degrees before analyses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>DNA amplification was successful across all three loci (B22, B41 and B55), providing consistent results for all three individuals for the first two treatment periods (Days 1 and 7) across Elution 1 (Appendix 1). Although these genotypes were obtained from faecal DNA rather than tissue or blood, the fact that genotypes were 100% consistent across all extraction and PCR replicates for these first two treatments indicates that these results could be reliably used as genotyping references for which subsequent results could be adequately compared to assess amplification success and determine genotyping errors. Time had a significant effect on the amplification rates of bilby faecal DNA (Table <ref type="table" target="#tab_1">2</ref>: P &lt; 0.001; GG-P &lt; 0.001). As time progressed for both Elutions 1 and 2, the ability to amplify DNA from bilby scats decreased, although at no point did it achieve consistent non-amplification over the 180 days of this experiment (Fig. <ref type="figure" target="#fig_0">1</ref>). There was also a significant difference in the rate of amplification between the two elution steps (Table <ref type="table" target="#tab_1">2</ref>: P &lt; 0.001; GG-P &lt; 0.001). A higher proportion of samples were successfully genotyped from Elution 1 than from Elution 2 (Fig. <ref type="figure" target="#fig_0">1</ref>). The interaction between time and elution was also significant (Table <ref type="table" target="#tab_1">2</ref>: P &lt; 0.001; GG-P = 0.002). The amplification rate of DNA from the second eluate decreased with time at a higher rate from the 14-day treatment period than the DNA from the first eluate (Fig. <ref type="figure" target="#fig_1">1a</ref>). There were no significant main effects or interaction of time and elution on the proportion of false alleles recorded within individual genotypes (Table <ref type="table" target="#tab_1">2</ref>).</p><p>Time had a significant effect on the rate of allelic dropout (Table <ref type="table" target="#tab_1">2</ref>: P &lt; 0.001; GG-P = 0.015), with the proportion of allelic dropouts increasing over time (Fig. <ref type="figure" target="#fig_0">1</ref>). There was a significant effect of elution on allelic dropout (Table <ref type="table" target="#tab_1">2</ref>: P = 0.006; GG-P = 0.006). There were more allelic dropouts observed from DNA in the second eluate than using DNA from a single elution step (Fig. <ref type="figure" target="#fig_0">1</ref>). There was no significant interaction of time and elution on allelic dropout (Table <ref type="table" target="#tab_1">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>This study set out to determine how age since deposition affects the amplification of DNA from bilby scats. Our study showed that amplification rate decreases and allelic dropout rate increases in DNA extracted from bilby scats as time since deposition increases. We also found that a two-step elution process, contrary to our initial hypothesis, does not increase amplification rates or decrease error rates in DNA extracted from bilby scats.</p><p>Despite the decrease in amplification rate over time, even at 90 and 180 days since deposition, we were able to successfully amplify DNA from faecal pellets and clearly identify the three individuals used in this study, with the rate only dropping as low as 63% for Elution 1 (at 90 days) and 21% for Elution 2 (at 180 days) (Fig. <ref type="figure" target="#fig_1">1a</ref>). Our results show that there is potential to identify bilby individuals that were in a particular area up to the six-month time frame. For extracting DNA from bilby scats, from both a time and cost-effectiveness perspective, the optimal timeframe for scat collection would be within two weeks from deposition, with ~99% amplification success for one elution step being achieved and low rates (&lt;5%) of genotyping error (Fig. <ref type="figure" target="#fig_0">1</ref>).  As with other faecal DNA and microsatellite studies <ref type="bibr" target="#b27">(Lucchini et al. 2002;</ref><ref type="bibr" target="#b37">Piggott 2004;</ref><ref type="bibr" target="#b30">Miller et al. 2010)</ref>, allelic dropout was the most common genotyping error associated with this experiment. This is consistent with previous findings by <ref type="bibr" target="#b31">Morin et al. (2001)</ref> whereby allelic dropouts are more prevalent when the original quantity of template DNA is low, which appears to be the case in relation to our amplification rate results: as amplification rates decrease, due to the reduction in DNA quantity and quality over time, the rate of allelic dropout increases.</p><p>The low rate of false alleles observed in this study is likely to be a result of the low presence of false alleles across the experiment generally, with non-amplification being more likely than the production of false alleles. Where false alleles were observed these were generally sporadic <ref type="bibr" target="#b31">(Morin et al. 2001)</ref>, only present in single samples and not often reproduced across scat samples from the same individual or PCRs.</p><p>The premise that a two-step elution process would produce higher-quality DNA due to fewer inhibitors in the second elution phase was not upheld in this study. The ability to amplify DNA from Elution 2 samples showed that DNA was still in the spin column after the first elution, particularly for the first two time treatments, however Elution 1 samples provided greater than 60% amplification throughout the experimental period (Fig. <ref type="figure" target="#fig_1">1a</ref>) and exhibited a lower allelic dropout rate than the second eluate (Fig. <ref type="figure" target="#fig_1">1b</ref>). The amplification rates of the second round of eluted DNA decreased at a much quicker rate from the 14-day treatment period compared with the first eluate (Fig. <ref type="figure" target="#fig_1">1a</ref>). It is also reasonable to expect that this may be the case because a reduction in available epithelial cells from which to obtain DNA from the samples over time could also mean that there will inevitably be less DNA for the second elution phase, too low to result in successful DNA amplification and subsequent genotyping. The consequence of using Elution 2 to determine genotypes is that the rate of amplification decreased significantly quicker than that for Elution 1 over the same period, therefore should pellets be collected that are more than a week old the likelihood of non-amplification and the risk of genotyping errors being observed will increase. Based on these results it is not considered worthwhile performing a twostep elution method as part of the DNA extraction protocol for bilby scats and it would be more cost-effective and efficient to complete more PCR replicates using just one elution. Additional methods that may also improve the success and efficiency of DNA extraction and PCR processes, that were not tested as part of this experiment, include combining eluates to increase the amount of total DNA in the final sample and utilising quantitative PCR to better understand the quantity of DNA before further fragment analyses.</p><p>Several factors such as rainfall and the diet of individuals are likely to impact DNA preservation on faecal pellets or may result in different inhibition in the amplification of bilby DNA. Rainfall has been identified as being a prominent factor in the decay rates of scat DNA <ref type="bibr" target="#b37">(Piggott 2004;</ref><ref type="bibr" target="#b9">Brinkman et al. 2010b)</ref>. In our study we controlled for the effects of rainfall by using a clear Perspex roof over our experimental treatments. This ensured that the effects of rainfall events were constant across the time treatments and prevented a catastrophic rain event prematurely terminating the experiment but allowed natural sunlight and UV penetration. In the field, the rate of DNA decay may well increase after rainfall events and result in more rapid overall decay, with spikes in decay rate rather than the more evenly decreasing relationship observed in this study. Therefore, the occurrence of rain should be considered before sampling bilby scats in the field for DNA extraction.</p><p>The diet of the captive bilbies used in this study consisted of mealworms, seed, dog biscuits, fruit and vegetables. The diet of wild bilbies includes lepidopteran larvae, termites, ants, grasshoppers, spiders and beetles, seed, bulbs (Cyperus bulbosus) and fungi <ref type="bibr" target="#b11">(Burbidge et al. 1988;</ref><ref type="bibr" target="#b18">Gibson 2001;</ref><ref type="bibr" target="#b54">Southgate and Carthew 2006)</ref>. Differences in diet may lead to differences in decay rates of faecal DNA, particularly if the diet affects the moisture content within the pellets. DNA from faecal pellets containing more moisture may decay at a higher rate, similar to that due to increased moisture caused by rainfall <ref type="bibr" target="#b37">(Piggott 2004;</ref><ref type="bibr" target="#b9">Brinkman et al. 2010b)</ref>. Since the captive animals used in this study were all fed the same diet, this variation was controlled for in our design. Overall, however, since water conservation is a priority for bilbies, and as such very little water is lost through excretion of faeces and urine <ref type="bibr">(Gibson and Hume 2000a</ref><ref type="bibr">, 2000b</ref><ref type="bibr" target="#b37">, 2004;</ref><ref type="bibr" target="#b22">Gibson et al. 2002)</ref>, the inherent dryness of bilby faecal pellets likely contributes to the long viability of the faecal DNA.</p><p>The environment in which bilby faecal pellets are deposited may also influence the ability to obtain viable DNA from them. Bilby faecal pellets can be found either in the open but more often than not around foraging sites as well as buried within the spoil of diggings or burrows. The faecal pellets collected from the captive individuals in this experiment were found in both situations, either on top of the sand in the enclosure or buried within it whilst the individual had been foraging. It is possible that the act of burying the scats could have an effect on the number of epithelial cells retained on the scats to be able to be washed off for DNA extraction. In contrast, faecal pellets from wild populations that are located in the open are exposed to wind and direct UV radiation, which buried pellets are not, and the DNA may therefore degrade more rapidly as a result of this.</p><p>In addition to the factors mentioned above, for wild bilby populations, seasonal changes both in diet, as a result of resource availability <ref type="bibr" target="#b18">(Gibson 2001)</ref>, and the external environmental conditions <ref type="bibr" target="#b37">(Piggott 2004</ref>) such as humidity, rainfall, temperature, UV radiation and ash content if collected from recently burnt habitat, may also influence the ability to extract bilby DNA and successfully genotype individuals. The order in which the selected faecal pellet was deposited may also influence the amount of DNA on the pellet <ref type="bibr" target="#b61">(Walker et al. 2009)</ref>, highlighting the need for multiple or repeat extractions where an initial extraction may not have been successful.</p><p>Incorporating genetics as a component of an overall conservation and management strategy for bilbies not only allows for the identification of individuals and the potential for monitoring populations, it may also assist in gaining a better understanding of the movement of individuals across the landscape and survivorship over time (if an individual is identified through faecal DNA at different locations or on multiple monitoring trips). It could also be used in further population genetics studies <ref type="bibr" target="#b53">(Southgate and Adams 1994;</ref><ref type="bibr" target="#b32">Moritz et al. 1997</ref>), including assessment of population fragmentation across the Pilbara and Kimberley regions of Western Australia and across Australia as a whole.</p><p>This study found that, under seminatural conditions, viable DNA exists on bilby faecal pellets for a long period and can be amplified with a 99% success rate and low error rates up to 14 days after deposition. The amplification rate decreases, and allelic dropout rates increase, gradually with time, but DNA can still be successfully amplified at rates above 80% and error rates below 11% at 30 days, and amplification rates above 60% and error rates below 15% at 90-180 days. We found that a second elution step was unnecessary. DNA was more successfully amplified using the first eluate with fewer allelic dropouts and a decreased rate of decline in amplification rates. This means that DNA can be successfully amplified from bilby faecal pellets for a long period after deposition, which can be useful for obtaining genetic samples for population monitoring programs and studies on population genetics. Treatment (days) Amplification 1 1.00 ± 0 1.00 ± 0 1.00 ± 0 1 1.00 ± 0 0.89 ± 0.19 0.96 ± 0.06 7 1.00 ± 0 1.00 ± 0 1.00 ± 0 7 1.00 ± 0 1.00 ± 0 0.85 ± 0.13 14 1.00 ± 0 1.00 ± 0 0.96 ± 0.06 14 1.00 ± 0 0. False alleles 1 0 ± 0 0 ± 0 0 ± 0 1 0 ± 0 0 ± 0 0 ± 0 7 0 ± 0 0 ± 0 0 ± 0 7 0 ± 0 0.04 ± 0.06 0 ± 0 14 0 ± 0 0.04 ± 0.06 0.04 ± 0.07 14 0 ± 0 0.11 ± 0.10 0.04 ± 0.07 21 0 ± 0 0.38 ± 0.54 0.04 ± 0.06 21 0.13 ± 0.23 0 ± 0 0.08 ± 0.14 30 0 ± 0 0 ± 0 0.08 ± 0.14 30 0 ± 0 0.17 ± 0.29 0.05 ± 0.08 90 0 ± 0 0 ± 0 0.33 ± 0.45 90 0 ± 0 0 ± 0 0 ± 0 180 0.04 ± 0.06 0.15 ± 0.13 0.13 ± 0.13 180 0 ± 0 0 ± 0 0 ± 0 Allelic dropouts 1 0 ± 0 0 ± 0 0 ± 0 1 0 ± 0 0.10 ± 0.09 0.03 ± 0.06 7 0 ± 0 0 ± 0 0 ± 0 7 0 ± 0 0.03 ± 0.05 0.17 ± 0.15 14 0 ± 0 0.06 ± 0.10 0.10 ± 0.17 14 0 ± 0 0.19 ± 0.17 0.28 ± 0.19 21 0 ± 0 0.13 ± 0.22 0.09 ± 0.10 21 0.26 ± 0.21 0.33 ± 0.29 0.23 ± 0.25 30 0 ± 0 0.14 ± 0.17 0.19 ± 0.12 30 0.03 ± 0.06 0.29 ± 0.26 0.23 ± 0.25 90 0 ± 0 0.25 ± 0.25 0.21 ± 0.19 90 0.17 ± 0.29 0 ± 0 0.17 ± 0.29 180 0.03 ± 0.05 0.19 ± 0.13 0.17 ± 0.14 180 0.33 ± 0.14 0.50 ± 0 0.33 ± 0.29</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. (a) The mean proportions of samples that amplified from DNA extracted using Elution 1 (&amp;) and Elution 2 (&amp;), and (b) the mean proportion of false alleles from DNA extracted using Elution 1 (~) and Elution 2 (~), and the mean proportion of missing alleles from DNA extracted using Elution 1 ( * ) and Elution 2 (*), over time for three microsatellite loci on faecal DNA from greater bilbies (M. lagotis) (n = 63).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Appendix 1 .</head><label>1</label><figDesc>The average proportions and standard deviations of DNA amplifications and genotyping errors (false alleles and allelic dropouts) for greater bilby (M. lagotis) faecal pellets for three individuals across three extraction and PCR replicates</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 . Primers used to amplify microsatellite loci for Macrotis lagotis individuals within multiplex PCR</head><label>1</label><figDesc></figDesc><table><row><cell>Locus</cell><cell>Primers</cell><cell>Primer sequence (5 0 ! 3 0 )</cell><cell>Fluorescent labelled</cell><cell>Reference</cell></row><row><cell></cell><cell></cell><cell></cell><cell>marker (G5 Filter Set)</cell><cell></cell></row><row><cell>B22</cell><cell>BIL22A</cell><cell>GGT ATG AGG AAT TAG AAT TAC AGG</cell><cell>VIC</cell><cell>Moritz et al. (1997)</cell></row><row><cell></cell><cell>BIL22B</cell><cell>CGG TAT TAA ATG GGC TAT GGA GT</cell><cell></cell><cell>Moritz et al. (1997)</cell></row><row><cell>B41</cell><cell>BIL41intF</cell><cell>TGA CTT TCT TTT GCT ACA ACA ACC</cell><cell>PET</cell><cell>Smith et al. (2009)</cell></row><row><cell></cell><cell>BIL41B</cell><cell>GGA AAA GTT TTT AGC CTA ATA GTG G</cell><cell></cell><cell>Moritz et al. (1997)</cell></row><row><cell>B55</cell><cell>BIL55A</cell><cell>GCA CCA ACC TAT CCT CTT CAT TC</cell><cell>6-FAM</cell><cell>Moritz et al. (1997)</cell></row><row><cell></cell><cell>BIL55B</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 . Repeated-measures ANOVA of the effect of elution and time on the amplification, false allele and allelic dropout rates for faecal DNA from greater bilbies (M. lagotis)</head><label>2</label><figDesc></figDesc><table><row><cell cols="6">GG-P is the Greenhouse-Geisser Epsilon P value</cell><cell></cell></row><row><cell>Source</cell><cell>s.s.</cell><cell>d.f.</cell><cell>m.s.</cell><cell>F</cell><cell>P</cell><cell>GG-P</cell></row><row><cell>Amplification rate</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Elution</cell><cell>17983.19</cell><cell cols="5">1 17983.19 533.09 &lt;0.001 &lt;0.001</cell></row><row><cell>Residual</cell><cell>202.40</cell><cell>6</cell><cell>33.73</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Time</cell><cell>35984.76</cell><cell>6</cell><cell cols="4">5997.46 15.31 &lt;0.001 &lt;0.001</cell></row><row><cell cols="2">Elution Â Time 5124.43</cell><cell>6</cell><cell>854.07</cell><cell cols="2">6.43 &lt;0.001</cell><cell>0.002</cell></row><row><cell>Residual</cell><cell cols="2">4784.13 36</cell><cell>132.89</cell><cell></cell><cell></cell><cell></cell></row><row><cell>False allele rate</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Elution</cell><cell>287.72</cell><cell>1</cell><cell>287.72</cell><cell>3.43</cell><cell>0.113</cell><cell>0.113</cell></row><row><cell>Residual</cell><cell>502.72</cell><cell>6</cell><cell>83.79</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Time</cell><cell>1488.84</cell><cell>6</cell><cell>248.14</cell><cell>1.84</cell><cell>0.120</cell><cell>0.193</cell></row><row><cell cols="2">Elution Â Time 1386.15</cell><cell>6</cell><cell>231.03</cell><cell>1.16</cell><cell>0.348</cell><cell>0.348</cell></row><row><cell>Residual</cell><cell cols="2">7158.53 36</cell><cell>198.85</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Allelic dropout rate</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Elution</cell><cell>2570.31</cell><cell>1</cell><cell cols="2">2570.31 17.42</cell><cell>0.006</cell><cell>0.006</cell></row><row><cell>Residual</cell><cell>885.12</cell><cell>6</cell><cell>147.52</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Time</cell><cell>7497.66</cell><cell>6</cell><cell>1249.61</cell><cell cols="2">5.45 &lt;0.001</cell><cell>0.015</cell></row><row><cell cols="2">Elution Â Time 1960.78</cell><cell>6</cell><cell>326.80</cell><cell>1.65</cell><cell>0.162</cell><cell>0.216</cell></row><row><cell>Residual</cell><cell cols="2">7125.94 36</cell><cell>197.94</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Australian Mammalogy F. M. Carpenter and M. A. Dziminski</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Degradation of DNA from bilby faecal pelletsAustralian Mammalogy</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This study would not have been possible without the support of <rs type="person">Karen Cavanough</rs> and other staff and volunteers at the <rs type="institution">Kanyana Wildlife Rehabilitation Centre, Lesmurdie, Western Australia</rs>. We thank them for their access and assistance. <rs type="person">Kym Ottewell</rs> provided helpful comments on the manuscript. This research was supported through offset funding received from <rs type="funder">Fortescue Metals Group and Millennium Minerals</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The bilby, Macrotis lagotis (Marsupialia: Peramelidae) in south-western Australia: original range limits, subsequent decline and presumed regional extinction</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Abbott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Records of the Western Australian Museum</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="271" to="305" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Historical perspectives of the ecology of some conspicuous vertebrate species in south-west Western Australia</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Abbott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Science Western Australia Journal</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="214" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">An efficient method for screening faecal DNA genotypes and detecting new individuals and hybrids in the red wolf (Canis rufus) experimental population area</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-006-9154-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="123" to="131" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Identifying the presence of quokkas (Setonix brachyurus) and other macropods using cytochrome b analyses from faeces</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Alpers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>De Tores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B S</forename><surname>Spencer</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/WR01109</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="41" to="47" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Characterization of tetranucleotide microsatellite loci in the African savannah elephant (Loxodonta africana africana)</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Archie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Moss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Alberts</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1471-8286.2003.00412.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="244" to="246" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Non-invasive genetic sampling of faecal material and hair from the grey-headed flying-fox (Pteropus poliocephalus)</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Baldwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hoggard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Snoyman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Stow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/AM09015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="56" to="61" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">How to track and assess genotyping errors in population genetics studies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bonin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Eidesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brochmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2004.02346.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3261" to="3273" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Greater Bilby Conservation Summit and Interim Conservation Plan: an initiative of the Save the Bilby Fund</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lundie-Jenkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Copley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Paltridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dziminski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Southgate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kemp</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015. 2015</date>
+			<pubPlace>Apple Valley, MN</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>IUCN SSC Conservation Breeding Specialist Group</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Individual identification of Sitka black-tailed deer (Odocoileus hemionus sitkensis) using DNA from fecal pellets</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Brinkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Person</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Colson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Hundertmark</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12686-010-9176-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics Resources</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="115" to="118" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effects of time and rainfall on PCR success using DNA extracted from deer fecal pellets</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Brinkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Person</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Hundertmark</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-009-9928-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1547" to="1552" />
+			<date type="published" when="2010">2010b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Quantifying genotyping errors in noninvasive population genetics</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Broquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Petit</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2004.02352.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3601" to="3608" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Aboriginal knowledge of the mammals of the central deserts of Australia</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Burbidge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Southgate</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/WR9880009</idno>
+		<ptr target="http://www.bom.gov.au/" />
+	</analytic>
+	<monogr>
+		<title level="j">Australian Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="9" to="39" />
+			<date type="published" when="1988">1988. 2015. December 2015</date>
+			<publisher>Australian Government, Bureau of Meteorology</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Searching for signs of bilby (Macrotis lagotis) activity in central Western Australia using observers on horseback</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Burrows</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dunlop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Burrows</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Royal Society of Western Australia</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="167" to="170" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A conceptual framework for habitat use and research priorities for the greater bilby (Macrotis lagotis) in the north of Western Australia</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Cramer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Dziminski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Southgate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Leeuwen</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/AM16009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Mammalogy</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Evaluating DNA degradation rates in faecal pellets of the endangered pygmy rabbit</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Demay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Eidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rachlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1755-0998.12104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="654" to="662" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A method for preparation of fecal DNA suitable for PCR</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Deuter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pietsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Müller</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/23.18.3800</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="3800" to="3801" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Molecular tracking of mountain lions in the Yosemite Valley region in California: genetic analysis using microsatellites and faecal DNA</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Ernest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C T</forename><surname>Penedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Syvanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Boyce</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-294x.2000.00890.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="433" to="441" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Status of bandicoots in Western Australia. In &apos;Bandicoots and Bilbies</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Friend</surname></persName>
+		</author>
+		<editor>J. H. Seebeck, P. R. Brown, R. L. Wallis, and C. M. Kemper</editor>
+		<imprint>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="page" from="73" to="84" />
+			<pubPlace>Surrey Beatty; Sydney</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Seasonal changes in the diet, food availability and food preference of the greater bilby (Macrotis lagotis) in south-western Queensland</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Gibson</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/WR00003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="121" to="134" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Digestive performance and digesta passage in the omnivorous greater bilby, Macrotis lagotis (Marsupialia: Peramelidae)</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Hume</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s003600000123</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Comparative Physiology. B, Biochemical, Systemic, and Environmental Physiology</title>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="page" from="457" to="467" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Seasonal field energetics and water influx rates of the greater bilby (Macrotis lagotis)</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Hume</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/ZO00004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="225" to="239" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Aspects of the ecophysiology and the dietary strategy of the greater bilby Macrotis lagotis: a review</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hume</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/AM04179</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="179" to="183" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Ecophysiology and nutritional niche of the bilby (Macrotis lagotis), an omnivorous marsupial from inland Australia: a review</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Hume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Mcrae</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1095-6433(02)00204-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comparative Biochemistry and Physiology. Part A, Molecular &amp; Integrative Physiology</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="843" to="847" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Status of bandicoots in Queensland. In &apos;Bandicoots and Bilbies</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Atherton</surname></persName>
+		</author>
+		<editor>J. H. Seebeck, P. R. Brown, R. L. Wallis, and C. M. Kemper</editor>
+		<imprint>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="page" from="37" to="42" />
+			<pubPlace>Surrey Beatty; Sydney</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Present and former status of bandicoots in the Northern Territory</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Southgate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bandicoots and Bilbies</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Seebeck</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Brown</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Wallis</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Kemper</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Surrey Beatty; Sydney</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="page" from="85" to="92" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic population survey of snow leopards (Panthera uncia) in Kangchenjunga conservation area, Shey Phoksundo National Park and surrounding buffer zones of Nepal</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Karmacharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thapa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dhakal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Janecka</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1756-0500-4-516</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Research Notes</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">516</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Estimating the abundance of the bilby (Macrotis lagotis): a vulnerable, uncommon, nocturnal marsupial</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Lollback</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mebberson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Shuker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-M</forename><surname>Hero</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/AM14024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="75" to="85" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Noninvasive molecular tracking of colonizing wolf (Canis lupus) packs in the western Italian Alps</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lucchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fabbri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marucco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ricci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randi</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-294X.2002.01489.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="857" to="868" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A survey of the marsupials of New South Wales</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Marlow</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/CWR9580071</idno>
+	</analytic>
+	<monogr>
+		<title level="j">CSIRO Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="71" to="114" />
+			<date type="published" when="1958">1958</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Improved technique for capturing the greater bilby (Macrotis lagotis) using burrow cage traps</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Mcgregor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Moseby</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/AM14011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="259" to="260" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The genetic mating system, male reproductive success and lack of selection on male traits in the greater bilby</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D B</forename><surname>Eldridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Marlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Herbert</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/ZO09092</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="113" to="120" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Quantitative polymerase chain reaction analysis of DNA from noninvasive samples for accurate microsatellite genotyping of wild chimpanzees (Pan troglodytes verus)</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Chambers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.0962-1083.2001.01308.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1835" to="1844" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Genetic population structure of the greater bilby Macrotis lagotis, a marsupial in decline</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Moritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heideman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Geffen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcrae</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-294X.1997.00268.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="925" to="936" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Quantitative evaluation of fecal drying methods for brown bear DNA analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="951" to="957" />
+			<date type="published" when="1973">2000. 1973-2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The impact of time and field conditions on brown bear (Ursus arctos) faecal DNA amplification</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-006-9264-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1219" to="1224" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Factors affecting the amount of genomic DNA extracted from ape faeces and the identification of an improved sample storage method</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Nsubuga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Robbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Roeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2004.02207.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="2089" to="2094" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Evaluation of fecal DNA preservation techniques and effects of sample age and diet on genotyping success</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Panasci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Breck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Densmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Wester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jwmg.221</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1616" to="1624" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Effect of sample age and season of collection on the reliability of microsatellite genotyping of faecal DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/WR03096</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="485" to="493" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Extensive evaluation of faecal preservation and DNA extraction methods in Australian native and introduced species</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/ZO03012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="341" to="355" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Remote collection of animal DNA and its application in conservation management and understanding the population biology of rare and cryptic species</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/WR02077</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Estimating population size of endangered brush-tailed rock-wallaby (Petrogale penicillata) colonies using faecal DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Banks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Banffy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2005.02783.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="81" to="91" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Empirical evaluation of noninvasive capture-mark-recapture estimation of population size based on a single sampling session: non-invasive capture-mark-recapture</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Puechmaille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Petit</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2664.2007.01321.x</idno>
+		<ptr target="https://www.qiagen.com/au/resources/resourcedetail?id=085e6418-1ec0-45f2-89eb-62705f86f963&amp;lang=en" />
+	</analytic>
+	<monogr>
+		<title level="m">DNeasy ® Blood &amp; Tissue Handbook</title>
+		<imprint>
+			<publisher>QIAGEN</publisher>
+			<date type="published" when="2006-03-17">2007. 2006. 17 March 2016. 2014. 26 April 2016</date>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="843" to="852" />
+		</imprint>
+	</monogr>
+	<note>QIAamp DNA Micro Handbook</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A simple and effective method for obtaining mammal DNA from faeces</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ramón-Laca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Soriano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gleeson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Godoy</surname></persName>
+		</author>
+		<idno type="DOI">10.2981/wlb.00096</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Biology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="195" to="203" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Applications and techniques for non-invasive faecal genetics research in felid conservation</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Rodgers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/s10344-012-0675-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A novel method for collection and preservation of faeces for genetic studies</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Roeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">I</forename><surname>Archer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Poinar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1471-8286.2004.00737.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="761" to="764" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Fieldbased evaluation of scat DNA methods to estimate population abundance of the spotted-tailed quoll (Dasyurus maculatus), a rare Australian marsupial</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruibal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Claridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Firestone</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/WR09086</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="721" to="736" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Ageing and environmental factors affect PCR success in wolf (Canis lupus) excremental DNA samples</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Santini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lucchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fabbri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randi</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1471-8286.2007.01829.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="955" to="961" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Genetic monitoring as a promising tool for conservation and management</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tree.2006.08.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology &amp; Evolution</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="25" to="33" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The use of carrier RNA to enhance DNA extraction from microfluidic-based silica monoliths. Fundamental and Applied Analytical Science. A Special Issue In Honour of Alan Townshend</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Docker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Dyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greenman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Greenway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Haswell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aca.2009.03.038</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FAAS</title>
+		<imprint>
+			<biblScope unit="volume">652</biblScope>
+			<biblScope unit="page" from="231" to="233" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Microsatellite and mitochondrial DNA variation defines island genetic reservoirs for reintroductions of an endangered Australian marsupial, Perameles bougainville</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hughes</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-007-9368-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="547" to="557" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Faecal DNA analysis enables genetic monitoring of the species recovery program for an arid-dwelling marsupial</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcrae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hughes</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/ZO09035</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="139" to="148" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Distribution and abundance of the greater bilby Macrotis lagotis Reid (Marsupialia: Peramelidae). In &apos;Bandicoots and Bilbies</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Southgate</surname></persName>
+		</author>
+		<editor>J. H. Seebeck, P. R. Brown, R. L. Wallis, and C. M. Kemper</editor>
+		<imprint>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="page" from="303" to="309" />
+			<pubPlace>Surrey Beatty; Sydney</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Age classes of the greater bilby (Macrotis lagotis) based on track and faecal pellet size</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Southgate</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/WR03088</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="625" to="630" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Genetic variation in the greater bilby (Macrotis lagotis)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Southgate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Adams</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/PC930046</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pacific Conservation Biology</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="46" to="52" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Diet of the bilby (Macrotis lagotis) in relation to substrate, fire and rainfall characteristics in the Tanami Desert</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Southgate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Carthew</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/WR05079</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="507" to="519" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Track-based monitoring for the deserts and rangelands of Australia</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Southgate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Moseby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Unpublished report for the Threatened Species Network at WWF-Australia</title>
+		<meeting><address><addrLine>South Australia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Envisage Environmental Services Ecological Horizons</publisher>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Trapping techniques and a pen design for the greater bilby Macrotis lagotis</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Southgate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcrae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Atherton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="101" to="104" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">An evaluation of transect, plot and aerial survey techniques to monitor the spatial pattern and status of the bilby (Macrotis lagotis) in the Tanami Desert</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Southgate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Paltridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Masters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nano</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/WR03087</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="43" to="52" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Reliable genotyping of samples with very low DNA quantities using PCR</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Questiau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Manceau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Escaravage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bouvet</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/24.16.3189</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="3189" to="3194" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Factors influencing degradation of DNA and hormones in maned wolf scat</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vynne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">K</forename><surname>Breuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Wasser</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1469-1795.2011.00503.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Conservation</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="184" to="194" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling tools for wildlife biologists: a review of applications and recommendations for accurate data collection</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<idno type="DOI">10.2193/0022-541X(2005)69[1419:NGSTFW]2.0.CO;2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Leader of the pack: faecal pellet deposition order impacts PCR amplification in wombats</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Horsup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1755-0998.2009.02582.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="720" to="724" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Reliable genotyping of the koala (Phascolarctos cinereus) using DNA isolated from a single faecal pellet</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wedrowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Karsa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mosse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Hogan</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1755-0998.12101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="634" to="641" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Evaluating the interaction of faecal pellet deposition rates and DNA degradation rates to optimize sampling design for DNA-based mark-recapture analysis of Sonoran pronghorn</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Woodruff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1755-0998.12362</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="843" to="854" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">Biostatistical Analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Zar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<publisher>Prentice Hall</publisher>
+			<pubPlace>Upper Saddle River, NJ</pubPlace>
+		</imprint>
+	</monogr>
+	<note>4th edn</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

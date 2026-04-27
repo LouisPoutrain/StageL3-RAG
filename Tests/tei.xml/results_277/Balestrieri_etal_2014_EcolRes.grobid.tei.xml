@@ -1,0 +1,2408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+				<funder ref="#_VZmWXkz">
+					<orgName type="full">Aritz Ruiz-Gonza´lez</orgName>
+				</funder>
+				<funder ref="#_DjrYbX9">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_uypvXdA #_UzT42Db">
+					<orgName type="full">Basque Government</orgName>
+				</funder>
+				<funder ref="#_SEBH3BZ">
+					<orgName type="full">Dept. of Education, Universities and Research of the Basque Government</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Alessandro</forename><surname>Balestrieri</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Luigi</forename><surname>Remonti</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Aritz</forename><surname>Ruiz-Gonza´lez</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michele</forename><surname>Zenato</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Andrea</forename><surname>Gazzola</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Maria</forename><surname>Vergara</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ettore</forename><forename type="middle">E</forename><surname>Dettori</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nicola</forename><surname>Saino</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Enrica</forename><surname>Capelli</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Benjamı´n</forename><forename type="middle">J</forename><surname>Go´mez-Moliner</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Franca</forename><surname>Guidali</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Claudio</forename><surname>Prigioni</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ae</forename><forename type="middle">N</forename><surname>Saino</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ae</forename><forename type="middle">F</forename><surname>Guidali</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ae</forename><forename type="middle">M</forename><surname>Zenato</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ae</forename><forename type="middle">A</forename><surname>Gazzola</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ae</forename><forename type="middle">E E</forename><surname>Dettori</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ae</forename><forename type="middle">E</forename><surname>Capelli</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ae</forename><forename type="middle">C</forename><surname>Prigioni</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ae</forename><forename type="middle">M</forename><surname>Vergara</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ae</forename><forename type="middle">B J</forename><surname>Go´mez-Moliner</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biosciences</orgName>
+								<orgName type="institution">University of Milan</orgName>
+								<address>
+									<addrLine>Via Celoria 26</addrLine>
+									<postCode>20133</postCode>
+									<settlement>Milan</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Earth and Environmental Sciences</orgName>
+								<orgName type="institution">University of Pavia</orgName>
+								<address>
+									<addrLine>Via Taramelli 22</addrLine>
+									<postCode>27100</postCode>
+									<settlement>Pavia</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Zoology and Animal Cell Biology</orgName>
+								<orgName type="laboratory">Systematics</orgName>
+								<orgName type="institution">University of the Basque Country (UPV/EHU)</orgName>
+								<address>
+									<addrLine>C/Paseo de la Universidad 7</addrLine>
+									<postCode>01006</postCode>
+									<settlement>Vitoria-Gasteiz</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Lascaray Research Center</orgName>
+								<orgName type="laboratory">Biogeography and Population Dynamics Research Group</orgName>
+								<orgName type="institution">University of the Basque Country (UPV/EHU)</orgName>
+								<address>
+									<addrLine>Avda. Miguel de Unamuno 3</addrLine>
+									<postCode>01006</postCode>
+									<settlement>Vitoria-Gasteiz</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="laboratory">Conservation Genetics Laboratory</orgName>
+								<orgName type="institution">National Institute for Environmental Protection and Research (ISPRA)</orgName>
+								<address>
+									<addrLine>Via CaF ornacetta 9</addrLine>
+									<postCode>40064</postCode>
+									<settlement>Ozzano dell&apos;Emilia</settlement>
+									<region>BO</region>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EE6595FB02C5F45DB45E53A63AE3AE12</idno>
+					<idno type="DOI">10.1007/s11284-014-1220-8</idno>
+					<note type="submission">Received: 16 June 2014 / Accepted: 17 November 2014</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Non-invasive genetic sampling AE Detectability AE Faecal DNA AE Stone marten AE Northern Italy</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The location of pine marten records in northern Italy suggests that main rivers may play the role of natural corridors favouring this species' colonisation of cultivated lowlands. We assessed the distribution and habitat use by the pine marten on a 35 km long stretch of the River Ticino. Surveys were carried out between October 2011 and June 2012 along linear transects in a 2 • 2 km grid. Using the variation in marking intensity as an indicator of habitat use, habitat selection was assessed at two landscape levels-at transect-scale by the v 2 test with Bonferroni's confidence intervals for the proportion of use, and at grid-scale by multiple linear regression. By a polymerase chain reaction-restriction fragment length polymorphism method, 91 faecal samples were assigned to the pine marten. Faeces were mainly located in wooded areas, while fields were avoided. At the grid-scale of analysis, marking intensity was positively related to the mean area of wooded patches and negatively to their mean perimeter-area ratio. This suggests that pine marten relative abundance may partially depend on the degree of fragmentation and structure of residual woods. The survey protocol allowed to assess the probability of detection. Occupancy models outlined that heterogeneity in detection probability may arise as a result of variation in marking intensity, i.e. the number of marking individuals. Our results suggest that the availability of both woodland corridors and wood patches are major factors shaping pine marten distribution in intensively cultivated plains and that non-invasive genetic surveys are a cost-effective method for future studies at a broader scale.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>In the Mediterranean region, human population growth, agricultural intensification and the consequent loss of natural habitat have led to a general decline of biodiversity in both plain and coastal areas <ref type="bibr" target="#b50">(Matson et al. 1997;</ref><ref type="bibr" target="#b8">Benton et al. 2003;</ref><ref type="bibr" target="#b43">Lepers et al. 2005)</ref>. Plains show the lowest species richness, with the exception of some small wet areas and residual riparian woods, which support a more diverse fauna than surrounding habitats (e.g. <ref type="bibr" target="#b88">Warkentin et al. 1995;</ref><ref type="bibr" target="#b7">Bentley and Catterall 1997;</ref><ref type="bibr" target="#b32">Hilty and Merenlender 2004)</ref>.</p><p>A major biological effect of habitat fragmentation caused by anthropogenic modification is the decline of species that need large areas of connected natural habitats to meet their ecological requirements <ref type="bibr" target="#b5">(Beier 1993;</ref><ref type="bibr" target="#b57">Mortelliti et al. 2010)</ref>. Mammal distribution is particularly affected by the increased isolation and reduction in area of habitat patches <ref type="bibr" target="#b9">(Bright 1993;</ref><ref type="bibr" target="#b87">Waldron et al. 2006</ref>) and habitat fragmentation is considered a major cause of the decline of forest-dwelling species <ref type="bibr" target="#b74">(Reed 2004)</ref>.</p><p>The pine marten (Martes martes) has been long considered a forest-specialist and its generalized decline has been imputed to the combined effects of large individual home ranges and deforestation <ref type="bibr" target="#b11">(Buskirk 1992;</ref><ref type="bibr" target="#b12">Buskirk and Zielinski 2003)</ref>. Nonetheless, recent studies have shown that the pine marten can colonise agricultural landscapes with highly fragmented woods <ref type="bibr" target="#b1">(Balestrieri et al. 2010;</ref><ref type="bibr" target="#b53">Mergey et al. 2011;</ref><ref type="bibr" target="#b15">Caryl et al. 2012)</ref>, suggesting that, as already observed in Mediterranean Italy <ref type="bibr" target="#b20">(De Marinis and Masseti 1993)</ref>, it is not such a strict forest-dweller as previously believed (see <ref type="bibr" target="#b86">Virgo´s et al. 2012)</ref>.</p><p>In Italy, the pine marten occurs sympatrically with the closely related stone marten (Martes foina) in mountainous areas, while in plain areas only the stone marten has been reported <ref type="bibr">(Genovesi and De Marinis 2003a, b)</ref>. Currently, the pine marten is colonising the western sector of the intensively cultivated Po plain (N Italy), where it probably went extinct at the end of the 1960s <ref type="bibr" target="#b49">(Mantovani 2010)</ref>, and pine marten expansion seems to coincide with the contraction of the stone marten range <ref type="bibr" target="#b75">(Remonti et al. 2012)</ref>.</p><p>The pattern of pine marten expansion seems to suggest that water systems may play the role of natural corridors favouring the dispersal of the pine marten from subalpine areas and the colonization of agricultural lowland (Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>Riparian zones are important for maintaining landscape connectivity <ref type="bibr" target="#b59">(Naiman et al. 1993;</ref><ref type="bibr" target="#b85">Taylor et al. 1993</ref>) and biological connections for wildlife <ref type="bibr" target="#b17">(Clerici and Vogt 2013)</ref>. The use by dispersing mammals of both natural and man-made linkages has been reported for several species (see <ref type="bibr" target="#b6">Bennett 2003</ref> for a comprehensive review). Corridors can assist the range expansion of both scarcely and highly mobile mammals, from meadow vole Microtus pennsylvanicus <ref type="bibr" target="#b28">(Getz et al. 1978</ref>) to mink Neovison vison, which, following its introduction, has spread in Great Britain through river corridors <ref type="bibr" target="#b30">(Harris and Woollard 1990)</ref>.</p><p>As in most European lowlands <ref type="bibr" target="#b18">(Coles et al. 1989;</ref><ref type="bibr" target="#b6">Bennett 2003)</ref>, in northern Italy main rivers form linear habitats covered with remnant riparian vegetation, crossing clearly distinct, heavily disturbed farmland and urban areas. Lowland woods cover only 1,750 km 2 , of which about 70 % are located in the western and central plain of the River Po <ref type="bibr" target="#b14">(Camerano et al. 2010)</ref> as small residual fragments (mean area 4.5 ha; <ref type="bibr" target="#b42">Lassini et al. 2007)</ref>. The plain of the River Ticino includes the largest and best conserved riparian woods of northern Italy and represents the less altered river corridor of the western basin of the River Po, a critical European region from a conservation perspective <ref type="bibr" target="#b17">(Clerici and Vogt 2013)</ref>.</p><p>Records of road-killed pine marten suggested that the valley of the River Ticino may represent a suitable dispersal route for the pine marten <ref type="bibr" target="#b1">(Balestrieri et al. 2010)</ref>. Accordingly, since 2005 a stable pine marten population has dwelt in a small agricultural area, 5 km to the west of the River Ticino, about 20 km upstream its confluence in the River Po <ref type="bibr" target="#b75">(Remonti et al. 2012)</ref>. Thus, we aimed to draw the actual distribution of both pine and stone marten in the downstream, 35 km long section of the River Ticino valley and assess the pattern of pine marten habitat use in a fragmented landscape. To account for martens elusiveness and the difficulty of distinguishing its tracks from those of other medium-sizes carnivores, we applied a non-invasive genetic sampling method based on mtDNA extracted from faecal samples <ref type="bibr" target="#b79">(Ruiz-Gonza´lez et al. 2008)</ref>.</p><p>As the survey protocol involved repeated surveys, we also modelled the effects of both habitat variables and marking intensity on the probability of pine marten detection, in order to evaluate the cost-effectiveness of the survey method a major factor to consider in the design of occupancy surveys for carnivore mammals <ref type="bibr" target="#b83">(Slauson et al. 2009;</ref><ref type="bibr" target="#b44">Long et al. 2011)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study area</head><p>The Italian stretch of the River Ticino flows southwards from the southern edge of Lake Maggiore to the median course of the River Po, forming a 110 km long and, on average, 7 km wide valley.</p><p>The valley is partly protected by two Regional Parks: the Park of the Ticino Valley (Lombardy), covering 906.4 km 2 and the Natural Park of the Ticino Valley (Piedmont), 62.5 km 2 .</p><p>The river crosses an intensively cultivated and urbanized plain, where mesophilous-Fraxino-carpinion-and hygrophilous-Alno-Ulmion, Alnion glutinosoincanae, Salicion albae-woods are still widespread inside the weave of meanders, streams, canals and oxbow lakes which characterise the downstream stretch of the river. On the whole, water-bodies cover an area of about 48 km 2 , while wet woods account for 87 km 2 <ref type="bibr" target="#b68">(Prigioni 1995)</ref>.</p><p>Pine marten monitoring focused on the lower part of the valley, from the towns of Vigevano and Abbiategrasso (Milan, Lombardy) in the north to Gropello Cairoli village (Pavia, Lombardy) in the south (Fig. <ref type="figure" target="#fig_1">2</ref>). This ca. 35 km long stretch of the river has a mean annual discharge of about 300 m 3 s À1 and a catchment area of more than 7,000 km 2 . Mean percent riparian vegetation cover, as assessed in a 100 m large belt on both river banks for seven 5 km long river stretches, is 47.8 % (min-max: 12-86 %; <ref type="bibr" target="#b69">Prigioni and Balestrieri 2011)</ref>.</p><p>The climate is temperate, mean annual values being 13 °C for air temperature and ca. 700 mm for rainfall.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Collection and genetic identification of faecal samples</head><p>Surveys were carried out within a 2 • 2 km grid (Fig. <ref type="figure" target="#fig_1">2</ref>), superimposed on the kilometric grid of digitalized, 1:10,000 Regional Technical Maps. Grid size was chosen as to broadly correspond to pine marten mean home range in Tuscany (370 ha; Del Fante 2012).</p><p>Sampling was conducted between October 2011 and June 2012 along linear transects drawn along wood/field margins, paths and country roads to cover both open and forested habitats. Transects were surveyed 1-3 times each (mean ± SD = 2.44 ± 0.87).</p><p>A portion (ca. 1 cm) of each ''marten-like'' faeces (i.e. &lt;10 mm large and then suspected to belong to the pine marten; for more details on faeces identification, see <ref type="bibr" target="#b75">Remonti et al. 2012</ref>) was picked up using sticks stored in autoclaved tubes containing ethanol 96 % and frozen at À20 °C until processed <ref type="bibr" target="#b79">(Ruiz-Gonza´lez et al. 2008)</ref>.</p><p>Bi-monthly variation in marking intensity was checked by comparing the observed number of faecal samples to that expected based on the overall transect length covered during each period (N = 4).</p><p>DNA was isolated using the QIAamp DNA Stool Mini Kit (Qiagen) according to the manufacturer's instructions. The specific identification of faecal samples was accomplished by a polymerase chain reactionrestriction fragment length polymorphism (PCR-RFLP) method, according to <ref type="bibr" target="#b79">Ruiz-Gonza´lez et al. (2008)</ref>. Two primers amplify the mtDNA from Martes martes, M. foina and four Mustela species, of which only the European polecat Mustela putorius had been previously reported for our study area, whilst red fox (Vulpes vul-  <ref type="bibr">(1988-2012; grey dots)</ref> in the western and central River Po plain (a) <ref type="bibr" target="#b1">(Balestrieri et al. 2010;</ref><ref type="bibr" target="#b49">Mantovani 2010</ref>) and with respect to northern Italy (b). Main rivers and lakes are shown in dark grey, while the light grey line is the 300 m a.s.l. contour line, which broadly marks the upper limit of the plain pes) faeces, which can be easily mistaken for those of martens <ref type="bibr" target="#b19">(Davison et al. 2002)</ref>, render no amplicons. The simultaneous digestion of amplified mtDNA by two restriction enzymes (RsaI and HaeIII), generates different restriction patterns for each mustelid species (i.e. DNA fragments differing in both number and length), allowing the unambiguous identification of faecal samples (see <ref type="bibr" target="#b79">Ruiz-Gonza´lez et al. 2008</ref> for further details).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Habitat use</head><p>Based on CORINE Land-Cover maps, satellite images and ground surveys, a land-cover, digitalized, 1:10,000 map was produced by a Geographic Information System (QGis Ò ).</p><p>Habitat selection was assessed by a use-availability design <ref type="bibr" target="#b24">(Garshelis 2000)</ref> at two landscape levels, using faeces relative distribution as an indicator of habitat use.</p><p>Faecal counts have been widely used for assessing the abundance and habitat preferences of many mammal species <ref type="bibr" target="#b70">(Putman 1984;</ref><ref type="bibr" target="#b37">Kohn and Wayne 1997;</ref><ref type="bibr" target="#b27">Gese 2001)</ref>. Their reliability has been long debated (e.g. <ref type="bibr" target="#b39">Kruuk et al. 1986;</ref><ref type="bibr" target="#b54">Messenger and Birks 2000)</ref>, the interpretation of survey results involving several assumptions about marking activity and dropping identification <ref type="bibr" target="#b82">(Sadlier et al. 2004</ref>). Nonetheless, faecal counts have been recently reported to be effective estimators of both relative abundance and habitat use by other carnivores <ref type="bibr" target="#b16">(Clavero et al. 2006;</ref><ref type="bibr" target="#b29">Guter et al. 2008;</ref><ref type="bibr" target="#b41">Lanszki et al. 2008;</ref><ref type="bibr" target="#b76">Rosalino et al. 2008;</ref><ref type="bibr" target="#b0">Balestrieri et al. 2009;</ref><ref type="bibr" target="#b35">Kauhala and Salonen 2012)</ref>.</p><p>To assess habitat use at transect-scale, faecal samples were georeferenced and assigned to a habitat type. Three main habitat types were considered: woods, poplar plantations and cultivated fields (mainly maize and rice). Samples located within a 5-m wide strip on each side of the border between two different habitat types were assigned to both habitats with a 0.5 score. The Chi squared (v 2 ) test was performed to test for the goodness of fit of used habitat to available habitat types <ref type="bibr" target="#b89">(White and Garrott 1990)</ref>. Expected frequencies were calculated based on the overall transect length covered for each habitat. To determine whether a habitat was selected or avoided Bonferroni's confidence intervals for the proportion of use of each habitat were checked:</p><formula xml:id="formula_0">P i À z a=2k : ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi P i ð1 À P i Þ N r \P i \P i þ z a=2k : ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi P i ð1 À P i Þ N r ;</formula><p>where: P i is the proportion of use of the ith habitat, N is sample size, z is the percentage point of the standard normal distribution corresponding to an upper tail probability of a/2 k, a is the level of significance and k is the number of habitat types <ref type="bibr" target="#b60">(Neu et al. 1974;</ref><ref type="bibr" target="#b13">Byers et al. 1984)</ref>.</p><p>To assess habitat use at grid scale, the following variables of potential importance to pine marten distribution were measured for each square: a. W: percentage of woods, b. U: percentage of urbanised areas, c. C: percentage of cereal crops, d. P: percentage of poplar plantations, e. H: Shannon's index of habitat diversity, f. minDr: minimum distance from the River Ticino (with minDr = 0 for all grid squares including a river stretch), g. MWA: mean area of wooded patches, as to account for the degree of fragmentation of pine marten potentially preferred habitat, h. MPAR: mean perimeter-area ratio of wooded patches, representing their compactness.</p><p>The influence of the measured variables on pine marten marking intensity, (MI = number of genetically identified faeces found in each grid square/total transect length per square) was tested by means of a multiple linear regression, using two different approaches.</p><p>First, we used a stepwise (forward selection) method to identify which variables were related to pine marten marking intensity (SPSS 12.0.1; SPSS, Chicago, IL, USA). Deviation from normality of the residual distribution was tested by Shapiro-Wilk's test.</p><p>Then we performed a linear multiple regression for each subset of uncorrelated (Pearson's test, p &gt; 0.05) explanatory variables, entering all independent variables simultaneously. The obtained models were ranked by second order Akaike Information Criterion (AICc; Sugiura 1978), selecting those showing DAICc values &lt;2 (DAICc = AICc i À min AICc, where min AICc is the AIC value of the 1st-ranked model; <ref type="bibr" target="#b10">Burnham and Anderson 2002;</ref><ref type="bibr" target="#b65">Posada and Buckley 2004;</ref><ref type="bibr" target="#b51">Mazerolle 2006)</ref>. The analysis was performed by the software SAM 4.0-Spatial Analysis in Macroecology <ref type="bibr" target="#b72">(Rangel et al. 2010)</ref>.</p><p>Before the analyses, all variables were tested for normality. To achieve normality, U and MPAR were rank transformed, C was square-root transformed, while MWA, P and the length of linear transects were log(x + 1) transformed. Being a frequency of occurrences, MI was log(x + 1) transformed and modelled as a linear function of independent variables <ref type="bibr" target="#b71">(Quinn and Keough 2002)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Detection probability</head><p>The influence of habitat variables on pine marten probability of site occupancy (W) and detection probability (p) was analysed by the likelihood-based method for modelling occupancy data proposed by <ref type="bibr" target="#b47">MacKenzie et al. (2002)</ref>. This modelling is analogous to traditional capture-recapture methods, but uses the proportion of sites occupied by the target species as a state variable (rather than individuals). The goal is to assess W knowing the species is not always detected, even when present. As the method requires multiple surveys in a demographically closed system (i.e. closed to changes of the occupancy state during the sampling interval; <ref type="bibr">Mac-Kenzie et al. 2003)</ref>, in a sub-sample of 17 grid squares 1 transect (mean length: 3.6 ± 1.38 km) was surveyed three times between November 2011 and April 2012 (i.e. they were suspended before the time the cubs-of-the-year are supposed to start to scent mark; <ref type="bibr">Genovesi and De Marinis 2003b</ref>), as to compile replicate observations into a sequence of 1's (detections) and 0's (non-detections). As grid size was almost equal to the size of home ranges and each home range was not occupied by more than two individuals of same-sex because of territorial behavior <ref type="bibr" target="#b4">(Balharry 1993)</ref>, we could assume detections at different sites to be independent.</p><p>As an example, the likelihood for site i with history 010 would be:</p><formula xml:id="formula_1">W i 1 À p i;1 À Á p i;2 1 À p i;3 À Á ;</formula><p>with W i : probability of site i occupancy; and p i,n : detection probability for each visit. Assuming independence of sites, the product of all terms (one for each site) constructed in this manner creates the model <ref type="bibr">(Mac-Kenzie et al. 2002)</ref>. W may be some function of site characteristics and p may vary with certain variables; using a logistic model this information can be introduced to the model as, respectively, site-and surveycovariates, <ref type="bibr" target="#b47">(MacKenzie et al. 2002)</ref>.</p><p>Analyses were run by the software PRESENCE <ref type="bibr" target="#b33">(Hines 2006</ref>), using single-season models. As pine marten presence was expected to depend on wood availability and connectivity <ref type="bibr" target="#b90">(Zalewski and Jedrzejewski 2006)</ref>, 10 habitat covariates were measured: the length of the transect (L), the percent length of the transect covered by wood (W t ), the overall area of the wood patch crossed by each transect (W a ), wood patch perimeter (W p ), the minimum distance between the wood patch covered by the transect and the nearest &gt;2 km 2 large wood patch (D nw ), the mean distance between each transect and the river (D r ), the percent cover of woods (W), urban areas (U) and crops (C) into each grid square; the mean distance between each transect and the nearest urban area (D u ) was considered as an index of human disturbance. To avoid multicollinearity, Spearman's correlation (with a = 0.01) test was used to check for any relationship between the covariates. Five covariates (L, W a , D nw , %W t and W) were then selected for modelling.</p><p>Variation in marking intensity has been reported as a potential cause of heterogeneity in detection probabilities <ref type="bibr">(Balestrieri et al. 2011a</ref>). As any non-invasive genetic survey for Martes species is a two-step process-the collection of ''marten-like'' faeces in the field and their later identification by genetic analyses in the laboratory, we included as a survey covariate the abundance of ''marten-like'' faeces (FA = number of ''marten-like'' faeces per km), recording each survey as either 0 or 1 according to the results of genetic analyses.</p><p>Before the analyses, all covariates were standardised by the Z transformation <ref type="bibr" target="#b22">(Donovan and Hines 2007</ref>). Models were first ranked according to Akaike Information Criteria values, excluding those showing delta values ‡2 <ref type="bibr" target="#b10">(Burnham and Anderson 2002)</ref>. The goodness of fit of the models was then assessed by Mackenzie and Bailey's test using 1,000 simulated bootstrap detection histories (MacKenzie and Bailey 2004). To assess fit, the test use a Chi square approach, while the c-hat statistic is used for adjusting the standard errors for the model parameters (c-hat &gt;1 indicates a lack of fit).</p><p>Naı¨ve probabilities (sensu MacKenzie et al. 2003) were calculated as the number of transects or sites positive for pine marten over the total number of transects or sites surveyed.</p><p>The minimum number of surveys required to statistically establish the occurrence of the pine marten was assessed by the probability model: N min = log (a)/log (1 À p), where a = 0.05 sets the confidence level <ref type="bibr" target="#b52">(McArdle 1990;</ref><ref type="bibr" target="#b73">Reed 1996)</ref>. To account for modelling results, mean p was calculated for three classes of faeces abundance-FA &lt; 0.5 (N = 5), 0.51 &lt; FA &lt; 1 (N = 6), FA &gt; 1.1 (N = 6)-using top model estimates.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Overall 160 ''marten-like'' faecal samples were collected inside 21 of the 2 • 2 km large sampling squares (84 km 2 ; Fig. <ref type="figure" target="#fig_1">2</ref>), on a total length of 273.9 km of transects (mean transect length ± SD = 3.33 ± 1.45 km, min-max = 1.1-8.0 km), corresponding to 1.9 faeces/ km 2 and 0.58 faeces/km, respectively. No time-related variation in marking intensity was recorded (v 2 = 3.81, d.f. = 3, p = 0.28).</p><p>DNA was extracted from 123 (76.9 %) faecal samples, out of which 91 were assigned by our PCR-RFLP method to the pine marten and nine to the stone marten, corresponding to an overall species identification of 81.3 % of analysed samples.</p><p>The pine marten occurred in all surveyed squares, averaging 4.3 ± 3.15 samples per square (min-max = 1-10; Fig. <ref type="figure" target="#fig_1">2</ref>), while stone marten samples were found in only two squares. Grid squares overlapping the river showed 30-50 % of woodland, while inside neighbouring squares the percentage of woodland decreased down to 0.9 % (Table <ref type="table" target="#tab_1">3</ref>).</p><p>Most pine marten faecal samples (78.8 %) were collected inside or at the margins of woods, whilst 16 (17.6 %) were found in poplar plantations or crops. Along surveyed transects, faeces were not distributed according to habitat availability (v 2 = 15.6, d.f. = 5, p &lt; 0.001), being mainly sited in wooded areas, whilst fields were avoided (Fig. <ref type="figure" target="#fig_2">3</ref>).</p><p>At the grid-level of analysis, the stepwise regression of the index MI on the habitat variables yielded a significant model (R 2 = 0.28, F = 7.49, d.f. = 20, p = 0.013), which included only the mean area of wooded patches (MWA), positively related to pine marten marking intensity (b = 0.57). Shapiro-Wilk's test shoved a normal distribution of residuals (W = 0.93, p = 0.11). The AICc selected three models (Table <ref type="table" target="#tab_0">1</ref>). The best model included the mean area of wooded patches (MWA), positively related to pine marten marking intensity, while the second model included the mean perimeter-area ratio of wooded pat-ches, negatively related to marking intensity (b = À0.46; Fig. <ref type="figure">4</ref>).</p><p>On the first sampling occasion, the pine marten was genetically ascertained for 15 out of the 17 sampling squares which were surveyed three times (Table <ref type="table" target="#tab_3">4</ref>). One new site was identified during the second survey and an additional one in the third survey. On average, 80.4 % of squares yielded genetically identified pine marten samples from a single survey.</p><p>Two occupancy models showed to be supported by the data (DAIC scores &lt;2; Table <ref type="table" target="#tab_2">2</ref>). The 2nd-ranked model was the one which best fitted the occupancy framework (MacKenzie and Bailey's test: v 2 = 0.031, p = 0.18; c-hat = 0.26). Both models supported the inclusion of only FA as a covariate, positively related to the probability of detection. According to the best model, pine marten detection probability was similar in the first and third surveys (p ± SE = 0.88 ± 0.034 and 0.80 ± 0.012, respectively) and decreased in the second one (p ± SE = 0.71 ± 0.041). These values almost coincided with naı¨ve probabilities (0.88, 0.82 and 0.7, respectively), as so as for the probability of site occupancy (W = 1 for both raw data and top model) (Tables 3, 4).</p><p>According to the probability model, the minimum number of surveys needed to ascertain pine marten occurrence is 3.9 (CI = 3.0-5.2) where FA &lt; 0.5 and 1.67 (1.66-1.69) where 0.51 &lt; FA &lt; 1, while only one survey is needed where, on average, more than one ''marten-like'' faecal sample is found per kilometre of transect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Although in the last two decades of the 20 th century sampling in plain areas was probably biased towards the stone marten, indirect signs of presence having been assigned to this species due to its well-known anthropophilia <ref type="bibr" target="#b81">(Sacchi and Meriggi 1995;</ref><ref type="bibr" target="#b40">Lanszki 2003;</ref><ref type="bibr" target="#b31">Herr</ref>   As supported by the exponential increase in road-kill reports <ref type="bibr" target="#b1">(Balestrieri et al. 2010)</ref>, the spreading of the pine marten in the valley may have occurred during the last 15 years. This rapid expansion stresses the role of riparian woods as a suitable corridor for pine marten colonisation of a landscape largely dominated by agriculture and artificial land-cover. Unfortunately, information about the status of the pine marten in Italy is insufficient to determine the causes of pine marten expansion, although, on the Alps, increased forest cover may have favoured the growth of pine marten populations <ref type="bibr" target="#b61">(O'Mahony et al. 2012)</ref>, as occurred for other forest species (e.g. <ref type="bibr" target="#b34">Jepsen et al. 2004</ref>).</p><p>In our study area, the distribution of pine marten samples confirmed its preference for woodlands. Although signs were found not only in large woods but also in small, isolated wood plots and on wooded slopes and canal banks surrounded by agricultural land, the relation between marking intensity and mean wood size and perimeter-area ratio suggests that pine marten relative abundance depends on the structure and degree of fragmentation of residual woods (see also <ref type="bibr" target="#b63">Pereboom et al. 2008)</ref>.</p><p>Neither marking intensity nor occupancy rates decreased with the distance of the sampling transects from the river. As the main aim of the study was to assess pine marten distribution and habitat use along a potential river corridor, transect distance from the river never exceeded 5 km. Thus, our survey-scale may have been inadequate to detect the effect of this habitat variable.</p><p>Our results are consistent with those obtained by radiotelemetry in rural areas of France <ref type="bibr" target="#b63">(Pereboom et al. 2008)</ref> and Scotland <ref type="bibr" target="#b15">(Caryl et al. 2012)</ref>, suggesting that the pine marten is more generalist in terms of habitat preferences than previously reported <ref type="bibr" target="#b86">(Virgo´s et al. 2012)</ref>. Such ecological generalization should increase the likelihood that individuals will find suitable resources in a new area <ref type="bibr" target="#b55">(Mettke-Hofmann et al. 2002;</ref><ref type="bibr" target="#b23">Echeverrı´a et al. 2006;</ref><ref type="bibr" target="#b56">Moritz et al. 2008;</ref><ref type="bibr">Poyry et al. 2009)</ref>, including man-altered habitats <ref type="bibr" target="#b58">(Musiani et al. 2003</ref>). Accordingly, diet analyses suggested that in agricultural habitats the pine marten can cope with the reduced availability of small mammals by relying on introduced Eastern cottontail Sylvilagus floridanus <ref type="bibr">(Balestrieri et al. 2011b</ref>).</p><p>The aims and spatial scale of occupancy surveys drive the choice of survey protocols. For large scales, the need to maximise the cost-effectiveness of the surveys may lead to lower the chance of detecting the target species <ref type="bibr" target="#b83">(Slauson et al. 2009)</ref>. By the non-invasive genetic method adopted, species identification was obtained for a rather high percentage of faecal samples with respect to other available approaches (e.g. 58 %, <ref type="bibr" target="#b45">Lucentini et al. 2007;</ref><ref type="bibr">53.4 %, Pilot et al. 2006)</ref>, confirming the results of previous studies carried out by the same method <ref type="bibr" target="#b77">(Rosellini et al. 2008;</ref><ref type="bibr" target="#b79">Ruiz-Gonza´lez et al. 2008</ref><ref type="bibr">, 2013;</ref><ref type="bibr" target="#b1">Balestrieri et al. 2010</ref><ref type="bibr">Balestrieri et al. , 2011b))</ref>. Although sample size was small, multiple surveys allowed us to point out that, as previously reported for the Eurasian otter Lutra lutra <ref type="bibr">(Balestrieri et al. 2011a)</ref>, heterogeneity in detection probability and hence the effort (i.e. the minimum number of surveys) needed to ascertain the presence of the target species may arise as a result of variation in the number of marking individuals (see also <ref type="bibr" target="#b36">Ke´ry 2002;</ref><ref type="bibr">Balestrieri et al. 2011a, b)</ref>, which should be accounted for by occupancy models <ref type="bibr" target="#b78">(Royle and Nichols 2003)</ref>.</p><p>Variation in p over the three surveys suggests that it may partially depend on covariates different from those tested, such as rain or cloud cover, which can affect the ability of surveyors to detect faecal samples <ref type="bibr" target="#b62">(Olson et al. 2011)</ref>. We suggest that future survey protocols have to involve multiple surveys, adjusting the overall effort per sample unit on the basis of the number of ''marten-like'' faeces recorded per km of transect.</p><p>In regions exposed to intense anthropogenic pressure, riparian areas are severely threatened, in spite of their crucial role for landscape connectivity <ref type="bibr" target="#b17">(Clerici and Vogt 2013)</ref>. Although further studies are needed to assess the actual pine marten distribution in the lowlands of northern Italy, on the basis of our results we can hypothesise the availability of both woodland corridors and wood patches spread in the crop matrix to be major factors shaping the distribution of this marten species in the Po-Venetian plain. The PCR-RFLP method adopted in this study, if combined with the search for faecal samples by trained surveyors (see also <ref type="bibr" target="#b80">Ruiz-Gonza´lez et al. 2013)</ref>, represents a cost-effective tool for future investigations on pine marten distribution at a broader scale. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig.1Distribution of pine marten road kill records(1988-2012; grey dots)  in the western and central River Po plain (a)<ref type="bibr" target="#b1">(Balestrieri et al. 2010;</ref><ref type="bibr" target="#b49">Mantovani 2010</ref>) and with respect to northern Italy (b). Main rivers and lakes are shown in dark grey, while the light grey line is the 300 m a.s.l. contour line, which broadly marks the upper limit of the plain</figDesc><graphic coords="4,181.55,46.77,365.76,199.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Genotyped faecal samples into 21, 2 • 2 km grid squares surveyed in the valley of the River Ticino (a), and location of the study area in Italy (b)</figDesc><graphic coords="4,206.97,262.73,340.32,260.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 Habitat selection by pine marten as assessed at transectscale by the comparison of the observed (''use'') and expected (''availability'') frequencies (p) of faecal samples (statistical significance according to Bonferroni's confidence intervals; *p &lt; 0.01, **p &lt; 0.001)</figDesc><graphic coords="7,53.87,46.77,232.56,149.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Models resulting from linear multiple regressions of pine marten marking intensity MI, ranked according to the Akaike Information Criterion (AICc)</figDesc><table><row><cell>Explanatory variables</cell><cell>R 2</cell><cell>AICc</cell><cell>DAICc</cell><cell>AICc</cell></row><row><cell>included in the model</cell><cell></cell><cell></cell><cell></cell><cell>weight</cell></row><row><cell>MWA</cell><cell>0.282</cell><cell>À52.166</cell><cell>0.000</cell><cell>0.14</cell></row><row><cell>MPAR</cell><cell>0.226</cell><cell>À50.573</cell><cell>1.5935</cell><cell>0.07</cell></row></table><note><p>MWA mean area of wooded patches, MPAR mean perimeter-area ratio of wooded patches, P percent cover of poplar plantations, DAICc delta AICc, see ''Methods'' section et al. 2009), our results draw a quite different picture, with the pine marten as the most widespread Martes species on the River Ticino (in terms of the number of both genotyped samples-91 versus 9-, and positive squares-21 versus 2).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 3</head><label>3</label><figDesc>Habitat variables of potential importance to pine marten distribution, total length of surveyed linear transects and pine marten marking intensity (MI) in 21, 2 • 2 km wide grid squares</figDesc><table><row><cell>Grid square</cell><cell>W</cell><cell>U</cell><cell>P</cell><cell>C</cell><cell>H</cell><cell>minDr</cell><cell>MWA (km 2 )</cell><cell>MPAR</cell><cell>TL</cell><cell>MI</cell></row><row><cell></cell><cell>(%)</cell><cell>(%)</cell><cell>(%)</cell><cell>(%)</cell><cell></cell><cell>(km)</cell><cell></cell><cell></cell><cell>(km)</cell><cell></cell></row><row><cell>1</cell><cell>17.7</cell><cell>1.7</cell><cell>1.0</cell><cell>79.5</cell><cell>0.29</cell><cell>4.61</cell><cell>0.70</cell><cell>0.009</cell><cell>7.92</cell><cell>0.76</cell></row><row><cell>2</cell><cell>8.9</cell><cell>6.8</cell><cell>2.7</cell><cell>81.6</cell><cell>1.24</cell><cell>3.96</cell><cell>0.06</cell><cell>0.031</cell><cell>4.19</cell><cell>0.24</cell></row><row><cell>3</cell><cell>13.5</cell><cell>7.9</cell><cell>9.1</cell><cell>69.3</cell><cell>1.57</cell><cell>3.05</cell><cell>0.13</cell><cell>0.032</cell><cell>6.77</cell><cell>0.15</cell></row><row><cell>4</cell><cell>11.0</cell><cell>0.7</cell><cell>6.7</cell><cell>81.3</cell><cell>1.18</cell><cell>1.97</cell><cell>0.11</cell><cell>0.027</cell><cell>9.34</cell><cell>0.43</cell></row><row><cell>5</cell><cell>5.8</cell><cell>1.5</cell><cell>5.5</cell><cell>86.5</cell><cell>1.22</cell><cell>3.22</cell><cell>0.05</cell><cell>0.094</cell><cell>15.27</cell><cell>0.07</cell></row><row><cell>6</cell><cell>0.9</cell><cell>0.5</cell><cell>9.7</cell><cell>88.8</cell><cell>0.71</cell><cell>1.64</cell><cell>0.01</cell><cell>0.062</cell><cell>10.07</cell><cell>0.10</cell></row><row><cell>7</cell><cell>13.8</cell><cell>1.7</cell><cell>22.0</cell><cell>62.1</cell><cell>1.72</cell><cell>2.88</cell><cell>0.11</cell><cell>0.036</cell><cell>11.64</cell><cell>0.34</cell></row><row><cell>8</cell><cell>3.9</cell><cell>0.8</cell><cell>12.7</cell><cell>82.4</cell><cell>1.17</cell><cell>0.89</cell><cell>0.07</cell><cell>0.038</cell><cell>7.48</cell><cell>0.53</cell></row><row><cell>9</cell><cell>42.2</cell><cell>0.3</cell><cell>7.4</cell><cell>42.7</cell><cell>1.96</cell><cell>0.00</cell><cell>0.51</cell><cell>0.021</cell><cell>37.93</cell><cell>0.21</cell></row><row><cell>10</cell><cell>52.5</cell><cell>1.6</cell><cell>0.0</cell><cell>36.7</cell><cell>1.81</cell><cell>0.00</cell><cell>0.70</cell><cell>0.024</cell><cell>8.96</cell><cell>1.01</cell></row><row><cell>11</cell><cell>22.1</cell><cell>5.0</cell><cell>21.4</cell><cell>51.4</cell><cell>1.88</cell><cell>1.16</cell><cell>0.10</cell><cell>0.031</cell><cell>13.37</cell><cell>0.52</cell></row><row><cell>12</cell><cell>54.4</cell><cell>0.8</cell><cell>18.4</cell><cell>26.4</cell><cell>1.67</cell><cell>0.41</cell><cell>1.09</cell><cell>0.024</cell><cell>29.78</cell><cell>0.34</cell></row><row><cell>13</cell><cell>47.5</cell><cell>0.1</cell><cell>16.8</cell><cell>21.5</cell><cell>2.53</cell><cell>0.00</cell><cell>0.33</cell><cell>0.034</cell><cell>15.02</cell><cell>0.60</cell></row><row><cell>14</cell><cell>53.7</cell><cell>0.0</cell><cell>15.9</cell><cell>28.2</cell><cell>2.29</cell><cell>0.00</cell><cell>0.19</cell><cell>0.046</cell><cell>23.04</cell><cell>0.30</cell></row><row><cell>15</cell><cell>26.2</cell><cell>22.2</cell><cell>23.0</cell><cell>20.7</cell><cell>2.87</cell><cell>0.00</cell><cell>0.17</cell><cell>0.021</cell><cell>6.30</cell><cell>0.48</cell></row><row><cell>16</cell><cell>57.8</cell><cell>0.0</cell><cell>17.7</cell><cell>8.5</cell><cell>2.22</cell><cell>0.00</cell><cell>0.22</cell><cell>0.098</cell><cell>26.31</cell><cell>0.27</cell></row><row><cell>17</cell><cell>12.3</cell><cell>0.7</cell><cell>15.6</cell><cell>70.3</cell><cell>1.44</cell><cell>0.19</cell><cell>0.10</cell><cell>0.030</cell><cell>9.73</cell><cell>0.21</cell></row><row><cell>18</cell><cell>20.6</cell><cell>1.7</cell><cell>0.0</cell><cell>68.6</cell><cell>1.99</cell><cell>0.00</cell><cell>0.08</cell><cell>0.031</cell><cell>6.55</cell><cell>0.15</cell></row><row><cell>19</cell><cell>36.5</cell><cell>1.2</cell><cell>5.9</cell><cell>31.7</cell><cell>2.73</cell><cell>0.00</cell><cell>0.10</cell><cell>0.048</cell><cell>11.45</cell><cell>0.09</cell></row><row><cell>20</cell><cell>30.0</cell><cell>18.4</cell><cell>5.4</cell><cell>29.1</cell><cell>2.49</cell><cell>0.00</cell><cell>0.28</cell><cell>0.034</cell><cell>3.16</cell><cell>0.32</cell></row><row><cell>21</cell><cell>59.3</cell><cell>0.0</cell><cell>2.7</cell><cell>35.1</cell><cell>1.23</cell><cell>0.00</cell><cell>2.21</cell><cell>0.007</cell><cell>9.61</cell><cell>0.42</cell></row><row><cell cols="11">W, U, P, C: percent cover of woods, urban areas, poplar plantations and crops, respectively, into each grid square; H: Shannon's index;</cell></row><row><cell cols="11">minDr: minimum distance to the river; MWA: mean area of wooded patches; MPAR: mean perimeter-area ratio of wooded patches; TL: transect length; MI: marking intensity, expressed as number of faeces km À1 ; see ''Methods'' section</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>Top occupancy models obtained by PRESENCE<ref type="bibr" target="#b33">(Hines 2006</ref>) and ranked according to Akaike Information Criteria (AIC) : detection probability during each survey; int: intercept; W: probability of site occupancy; FA: marten-like faeces km À1 ; DAICc: delta AICc, see ''Methods'' section</figDesc><table><row><cell>Model</cell><cell>AIC</cell><cell>DAIC</cell><cell>AIC weight</cell><cell>Model likelihood</cell><cell>À2Log (likelihood)</cell></row><row><cell>W(.), p(int) p(FA)</cell><cell>14.49</cell><cell>0.00</cell><cell>0.3353</cell><cell>10,000</cell><cell>8.49</cell></row><row><cell>W(.), p(int) p 1 (FA) p 2 (FA) p 3 (FA)</cell><cell>14.79</cell><cell>0.30</cell><cell>0.2886</cell><cell>0.8607</cell><cell>4.79</cell></row><row><cell>p 1,2,3</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>Detection histories and survey-and site-covariates for each sampling station L: length, km; Wa: wood area, km 2 ; Wp: wood perimeter, km; Dr: distance to the river, km; Dnw: minimum distance between wood patches, km; Du: mean distance to urban areas, km; Wt: percent length of wood covered by each transect; W, U, C: percent cover of woods, urban areas and crops, respectively, into each grid square; see the ''Methods'' for details)</figDesc><table><row><cell cols="4">Site Detection history</cell><cell cols="3">FA (marten like faeces km À1 )</cell><cell>L</cell><cell>Wa</cell><cell>Wp</cell><cell cols="3">Mean Dr Dnw Du</cell><cell>Wt</cell><cell>W</cell><cell>U</cell><cell>C</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>S 1</cell><cell>S 2</cell><cell>S 3</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1</cell><cell>0</cell><cell>0</cell><cell>1</cell><cell>0.00</cell><cell>0.00</cell><cell>0.25</cell><cell>4.0</cell><cell>0.60</cell><cell>1.70</cell><cell>4.63</cell><cell>2.80</cell><cell>1.23</cell><cell>10.75</cell><cell>6.13</cell><cell>1.63</cell><cell>91.54</cell></row><row><cell>2</cell><cell>0</cell><cell>1</cell><cell>1</cell><cell>0.00</cell><cell>0.23</cell><cell>0.69</cell><cell>4.34</cell><cell>2.29</cell><cell cols="2">20.56 0.41</cell><cell>0.05</cell><cell>2.50</cell><cell cols="3">74.10 28.50 17.53</cell><cell>37.80</cell></row><row><cell>3</cell><cell>1</cell><cell>0</cell><cell>0</cell><cell>0.53</cell><cell>0.00</cell><cell>0.00</cell><cell>3.74</cell><cell>6.96</cell><cell cols="2">62.47 0.62</cell><cell>0.05</cell><cell>3.45</cell><cell cols="2">82.20 54.38</cell><cell>0.80</cell><cell>44.77</cell></row><row><cell>4</cell><cell>1</cell><cell>0</cell><cell>0</cell><cell>0.72</cell><cell>0.00</cell><cell>0.00</cell><cell>2.77</cell><cell>0.60</cell><cell>1.70</cell><cell>5.05</cell><cell>3.60</cell><cell>0.34</cell><cell>37.10</cell><cell>6.13</cell><cell>1.63</cell><cell>91.54</cell></row><row><cell>5</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>0.12</cell><cell>0.62</cell><cell>0.25</cell><cell>8.01</cell><cell>6.96</cell><cell cols="2">62.47 0.56</cell><cell>0.05</cell><cell>0.99</cell><cell cols="2">41.10 38.47</cell><cell>0.30</cell><cell>54.42</cell></row><row><cell>6</cell><cell>1</cell><cell>0</cell><cell>1</cell><cell>0.88</cell><cell>0.00</cell><cell>0.88</cell><cell>2.26</cell><cell>0.05</cell><cell>1.90</cell><cell>3.71</cell><cell>0.43</cell><cell>2.28</cell><cell cols="2">39.10 13.60</cell><cell>1.65</cell><cell>84.33</cell></row><row><cell>7</cell><cell>1</cell><cell>0</cell><cell>1</cell><cell>1.34</cell><cell>0.00</cell><cell>0.69</cell><cell>3.72</cell><cell>0.06</cell><cell cols="2">17.58 3.03</cell><cell>2.40</cell><cell>1.20</cell><cell>13.70</cell><cell>0.92</cell><cell>0.52</cell><cell>98.50</cell></row><row><cell>8</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>0.25</cell><cell>1.31</cell><cell>0.65</cell><cell>3.06</cell><cell>2.29</cell><cell cols="2">20.56 0.49</cell><cell>0.05</cell><cell>3.39</cell><cell cols="2">92.00 48.93</cell><cell>0.00</cell><cell>37.54</cell></row><row><cell>9</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>0.97</cell><cell>0.38</cell><cell>1.12</cell><cell>4.13</cell><cell>6.96</cell><cell cols="2">62.47 2.23</cell><cell>0.05</cell><cell>1.99</cell><cell cols="2">53.40 54.38</cell><cell>0.80</cell><cell>44.77</cell></row><row><cell>10</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>0.62</cell><cell>1.40</cell><cell>0.83</cell><cell>4.80</cell><cell>2.29</cell><cell cols="2">20.56 0.55</cell><cell>0.05</cell><cell>2.20</cell><cell cols="2">63.20 52.82</cell><cell>0.00</cell><cell>44.95</cell></row><row><cell>11</cell><cell>1</cell><cell>1</cell><cell>0</cell><cell>0.61</cell><cell>2.46</cell><cell>0.00</cell><cell>1.63</cell><cell>6.96</cell><cell cols="2">62.47 2.18</cell><cell>0.05</cell><cell>2.34</cell><cell>53.30</cell><cell>3.72</cell><cell>0.75</cell><cell>95.28</cell></row><row><cell>12</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>1.99</cell><cell>0.66</cell><cell>0.66</cell><cell>3.01</cell><cell>0.60</cell><cell>2.90</cell><cell>5.34</cell><cell>4.50</cell><cell>1.02</cell><cell cols="2">58.70 17.74</cell><cell>1.72</cell><cell>80.53</cell></row><row><cell>13</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>0.29</cell><cell>0.61</cell><cell>2.45</cell><cell>3.26</cell><cell>1.20</cell><cell>8.12</cell><cell>1.48</cell><cell>0.25</cell><cell>1.20</cell><cell cols="2">98.20 52.82</cell><cell>0.00</cell><cell>44.95</cell></row><row><cell>14</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>1.03</cell><cell>0.54</cell><cell>2.15</cell><cell>2.93</cell><cell>0.27</cell><cell>3.96</cell><cell>2.94</cell><cell>0.03</cell><cell>0.61</cell><cell cols="2">32.30 23.02</cell><cell>5.17</cell><cell>71.67</cell></row><row><cell>15</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>1.39</cell><cell>2.71</cell><cell>1.16</cell><cell>2.58</cell><cell>6.96</cell><cell cols="2">62.47 0.60</cell><cell>0.05</cell><cell>2.39</cell><cell cols="2">79.10 40.88</cell><cell>0.09</cell><cell>46.90</cell></row><row><cell>16</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>0.56</cell><cell>3.61</cell><cell>2.72</cell><cell>3.57</cell><cell>2.84</cell><cell cols="2">10.82 0.42</cell><cell>0.75</cell><cell>1.33</cell><cell cols="2">68.60 52.48</cell><cell>1.59</cell><cell>36.73</cell></row><row><cell>17</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>2.87</cell><cell>1.91</cell><cell>1.59</cell><cell>3.54</cell><cell>0.99</cell><cell cols="2">15.22 0.25</cell><cell>0.04</cell><cell>2.18</cell><cell cols="2">95.00 12.34</cell><cell>0.69</cell><cell>85.86</cell></row><row><cell>Mean</cell><cell></cell><cell></cell><cell></cell><cell>0.83</cell><cell>0.98</cell><cell>0.95</cell><cell>3.61</cell><cell>2.88</cell><cell cols="2">25.76 2.03</cell><cell>0.89</cell><cell>1.80</cell><cell cols="2">58.34 29.84</cell><cell>2.05</cell><cell>64.24</cell></row><row><cell>SD</cell><cell></cell><cell></cell><cell></cell><cell>0.75</cell><cell>1.09</cell><cell>0.84</cell><cell>1.38</cell><cell>2.84</cell><cell cols="2">25.32 1.79</cell><cell>1.46</cell><cell>0.90</cell><cell cols="2">26.86 20.53</cell><cell>4.17</cell><cell>23.57</cell></row><row><cell cols="2">(S: survey;</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments This study has been partially supported by the <rs type="funder">Basque Government</rs> through the <rs type="programName">Research group on ''Systematics, Biogeography and Population Dynamics''</rs> (Ref. <rs type="grantNumber">IT317-10</rs>; <rs type="grantNumber">IT575-13</rs>). <rs type="funder">Aritz Ruiz-Gonza´lez</rs> (Ref: <rs type="grantNumber">DKR-2</rs>,<rs type="grantNumber">012-64</rs>) and <rs type="person">Maria Vergara</rs> (Ref: <rs type="grantNumber">RBFI-2</rs>,012-446) were supported by a post-doctoral and PhD fellowships awarded by the <rs type="funder">Dept. of Education, Universities and Research of the Basque Government</rs>. We thank <rs type="person">Pietro Tirozzi</rs> and <rs type="person">Andrea Serioli</rs>, who helped with sample collection in the field for their degree theses. <rs type="person">Lesley C. Wright</rs> kindly revised the paper for English language use. The comments of two anonymous reviewers helped to improve the final version of the manuscript.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_uypvXdA">
+					<idno type="grant-number">IT317-10</idno>
+					<orgName type="program" subtype="full">Research group on &apos;&apos;Systematics, Biogeography and Population Dynamics&apos;&apos;</orgName>
+				</org>
+				<org type="funding" xml:id="_UzT42Db">
+					<idno type="grant-number">IT575-13</idno>
+				</org>
+				<org type="funding" xml:id="_VZmWXkz">
+					<idno type="grant-number">DKR-2</idno>
+				</org>
+				<org type="funding" xml:id="_DjrYbX9">
+					<idno type="grant-number">012-64</idno>
+				</org>
+				<org type="funding" xml:id="_SEBH3BZ">
+					<idno type="grant-number">RBFI-2</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Habitat selection in a low-density badger Meles meles population: a comparison of radio-tracking and latrine surveys</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balestrieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Remonti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Prigioni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Range expansion of the pine marten (Martes martes) in an agricultural landscape matrix (NW Italy)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balestrieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Remonti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruiz-Gonza´lez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Go´mez-Moliner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vergara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Prigioni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm Biol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="412" to="419" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Detectability of the Eurasian otter by standard surveys: an approach using marking intensity to estimate false negative rates</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balestrieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Remonti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Prigioni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Naturwissenschaften</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="23" to="31" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Food habits of genetically identified pine marten (Martes martes) expanding in agricultural lowlands (NW Italy)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balestrieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Remonti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruiz-Gonza´lez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vergara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Capelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Go´mez-Moliner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Prigioni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Theriol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="199" to="207" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Social organization in martens: an inflexible system?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Balharry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Symp Zool Soc Lond</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="321" to="345" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Determining minimum habitat areas and habitat corridors for cougars</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Beier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="94" to="108" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Linkages in the landscape: the role of corridors and connectivity in wildlife conservation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Bennett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IUCN, Gland</title>
+		<imprint>
+			<biblScope unit="page">254</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The use of bushland, corridors, and linear remnants by birds in southeastern Queensland, Australia</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bentley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Catterall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1173" to="1189" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Farmland biodiversity: is habitat heterogeneity the key?</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Benton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Vickery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="182" to="188" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Habitat fragmentation: problems and predictions for British Mammals</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Bright</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammal Rev</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="101" to="111" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Model selection and inference-a practical information-theoretic approach</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Springer</publisher>
+			<biblScope unit="page">488</biblScope>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd edn</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Conserving circumboreal forests for martens and fishers</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Buskirk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="318" to="320" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Small and mid-sized carnivores</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Buskirk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mammalian community dynamics: management and conservation in the coniferous forests of western North America</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Zabel</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Anthony</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="207" to="249" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Clarification of a technique for analysis of utilization-availability data</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Byers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Steinhorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Krausman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wildl Manag</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1050" to="1053" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">I boschi planiziali: conoscenza, conservazione e valorizzazione</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Camerano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Grieco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Terzuolo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>Blu edizioni</publisher>
+			<biblScope unit="page">167</biblScope>
+			<pubPlace>Torino</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Martens in the matrix: the importance of nonforested habitats for forest carnivores in fragmented landscapes</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Caryl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Quine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mamm</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="464" to="474" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Seasonal use of coastal resources by otters: comparing sandy and rocky stretches</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Clavero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Prenda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delibes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Estuar Coast Shelf Sci</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="387" to="394" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Ranking European regions as providers of structural riparian corridors for conservation and management purposes</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Clerici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vogt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Appl Earth Obs</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="477" to="583" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">River wildlife data bases and their value for sensitive environmental management</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Coles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Southey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Forbes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Clough</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Regul Rivers</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="179" to="189" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">On the origin of faeces: morphological versus molecular methods for surveying rare carnivores from their scats</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Davison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jds</forename><surname>Birks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Brookes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Braithwaite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Messenger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Zool Lond</title>
+		<imprint>
+			<biblScope unit="volume">257</biblScope>
+			<biblScope unit="page" from="141" to="143" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Pine marten Martes martes on the island of Elba</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Marinis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Masseti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Carniv Conserv</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Comportamento spaziale della martora (Martes martes) in ambiente appenninico</title>
+		<author>
+			<persName><forename type="first">Del</forename><surname>Fante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Earth and Environmental Sciences, Pavia University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Dissertation</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Donovan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hines</surname></persName>
+		</author>
+		<ptr target="http://www.uvm.edu/envnr/vtcfwru/spreadsheets/occupancy/occupancy.htm" />
+		<title level="m">Exercises in occupancy modeling and estimation</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Experimental analysis of novelty responses in a bird assemblage inhabiting a suburban marsh</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Echeverrı´a</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Vassallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Isacch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Zool</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="974" to="980" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Delusions in habitat evaluation: measuring use, selection, and importance</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Garshelis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Research techniques in animal ecology: controversies and consequences</title>
+		<editor>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Fuller</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Columbia University Press</publisher>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="page" from="111" to="164" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Martes foina</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Genovesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Marinis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Fauna d&apos;Italia Mammalia III, Carnivora-Artiodactyla</title>
+		<editor>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Lovari</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Vigna</forename><surname>Taglianti</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename></persName>
+		</editor>
+		<meeting><address><addrLine>Calderini, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="117" to="128" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Martes martes</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Genovesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Marinis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Fauna d&apos;Italia. Mammalia III, Carnivora-Artiodactyla</title>
+		<editor>
+			<persName><forename type="first">Ed</forename><surname>Calderini</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="106" to="117" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Monitoring of terrestrial carnivore populations</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Carnivore conservation</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Gittleman</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Funk</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Macdonald</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Ithaca</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="372" to="396" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Interstates roadsides as dispersal routes for Microtus pennsylvanicus</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Getz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Cole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Gates</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mammal</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="208" to="212" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Using videotaping to validate the use of spraints as an index of Eurasian otter (Lutra lutra) activity</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dolev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Saltz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kronfeld-Schor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol Indic</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="462" to="465" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The dispersal of mammals in agricultural habitats in Britain</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Woollard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Species Dispersal In Agricultural Habitats</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Howard</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Rgh</forename><surname>Bunce</surname></persName>
+		</editor>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Belhaven Press</publisher>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="page" from="159" to="188" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Socio-spatial organization of urban stone martens</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Herr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Roper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Zool Lond</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="54" to="62" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Use of riparian corridors and vineyards by mammalian predators in Northern California</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hilty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Merenlender</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="126" to="135" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hines</surname></persName>
+		</author>
+		<ptr target="http://www.mbr-pwrc.usgs.gov/software.html" />
+		<title level="m">PRESENCE2-software to estimate patch occupancy and related parameters</title>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">USGS-PWRC</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Modelling roe deer (Capreolus capreolus) in a gradient of forest fragmentation: behavioural plasticity and choice of cover</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">U</forename><surname>Jepsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Topping</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Zool</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="1528" to="1541" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Does a non-invasive method-latrine surveys-reveal habitat preferences of raccoon dogs and badgers?</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kauhala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Salonen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm Biol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="264" to="270" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Inferring the absence of a species-a case study of snakes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ke´ry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wildl Manage</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="330" to="338" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Facts from feces revisited</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="223" to="227" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Ecological methodology</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Krebs</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<publisher>Harper and Row</publisher>
+			<biblScope unit="page">654</biblScope>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The use of spraints to survey populations of otters Lutra lutra</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kruuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jwh</forename><surname>Conroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Glimmerveen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Ouwerkerk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Conserv</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="187" to="194" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Feeding habits of stone martens in a Hungarian village and its surroundings</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lanszki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Folia Zool</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="367" to="377" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Relative spraint density and genetic structure of otter (Lutra lutra) along the Drava River in Hungary</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lanszki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hidas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Szentes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Re´vay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Lehoczky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Weiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm Biol</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="40" to="47" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A green vision for the renewal of the Lombardy landscape</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lassini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Monzani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pileri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Europe&apos;s living landscapes. Essays on exploring our identity in the countryside, Landscape Europe/KNNV</title>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Pedroli</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Van Doorn</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">De</forename><surname>Blust</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Paracchini</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Wascher</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Bunce</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">F</forename></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page" from="83" to="100" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A synthesis of information on rapid landcover change for the period 1981-2000</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lepers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Lambin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Janetos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Defries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Achard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ramankutty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Scholes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioscience</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="115" to="124" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Predicting carnivore occurrence with noninvasive surveys and occupancy modeling</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Donovan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mackay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Buzas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Landsc Ecol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="327" to="340" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">A PCR-RFLP method on faecal samples to distinguish Martes martes, Martes foina, Mustela putorius and Vulpes vulpes</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lucentini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vercillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Palomba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Panara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ragni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="757" to="759" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Assessing fit of site occupancy models</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bailey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Agric Biol Ecol St</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="300" to="318" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Estimating site occupancy rates when detection probabilities are less than one</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Lachman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Droege</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Langtimm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="2248" to="2255" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Estimating site occupancy, colonization and local extinction probabilities when a species is not detected with certainty</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Knutson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Franklin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="2200" to="2207" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Recenti segnalazioni della martora, Martes martes, in provincia di Cremona</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mantovani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pianura</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="95" to="107" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Agricultural intensification and ecosystem properties</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Matson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Parton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Power</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Swift</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="504" to="509" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Improving data analysis in herpetology: using Akaike&apos;s information criterion (AIC) to assess the strength of biological hypotheses</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mazerolle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amphibia Reptilia</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="169" to="180" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">When are rare species not there?</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Mcardle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="276" to="277" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Effect of forest fragmentation on space-use patterns in the European pine marten (Martes martes)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mergey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Helder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-J</forename><surname>Roeder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mammal</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="328" to="335" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">(ed) Management and conservation aspects of small carnivore: human interactions</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Messenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jds</forename><surname>Birks</surname></persName>
+		</author>
+		<editor>Griffiths HI</editor>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Backhuys Publishers</publisher>
+			<biblScope unit="page" from="217" to="230" />
+			<pubPlace>Leiden</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Monitoring the very rare: pine marten populations in England and Wales</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The significance of ecological factors for exploration and neophobia in parrots</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mettke-Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Winkler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Leisler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ethology</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="249" to="272" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Impact of a century of climate change on smallmammal communities in Yosemite National Park, USA</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Moritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Patton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Conroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Parra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Beissinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="page" from="261" to="264" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Experimental design and taxonomic scope of fragmentation studies on European mammals: current status and future priorities</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mortelliti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Amori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Capizzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rondinini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammal Rev</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="125" to="154" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Wolf depredation trends and the use of fladry barriers to protect livestock in Western North America</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Musiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mamo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Callaghan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Gates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mattei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Visalberghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Breck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Volpi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1538" to="1547" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">The role of riparian corridors in maintaining regional biodiversity</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Naiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>De´camps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pollock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol Appl</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="209" to="212" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">A technique for analysis of utilization-availability data</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Neu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Byers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Peek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Boy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wildl Manag</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="541" to="545" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Pine marten (Martes martes) distribution and abundance in Ireland: a cross-jurisdictional analysis using non-invasive genetic survey techniques</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>O'mahony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm Biol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="51" to="357" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Detection probabilities of two introduced frogs in Hawaii: implications for assessing non-native species distributions</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Beard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Koons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Pitt</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10530-011-0125-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Invasions</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Movement patterns, habitat selection, and corridor use of a typical woodland-dweller species, the European pine marten (Martes martes), in fragmented landscape</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pereboom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mergey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Villerette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Helder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Gerard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lodet</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Zool</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="983" to="991" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">A method of genetic identification of pine marten (Martes martes) and stone marten (Martes foina) and its application to faecal samples</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pilot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gralak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goszczyn´ski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Posłuszny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Zool Lond</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="140" to="147" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Model selection and model averaging in Phylogenetics: advantages of akaike information criterion and bayesian approaches over likelihood ratio tests</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Posada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Buckley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst Biol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="793" to="808" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>P}</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Species traits explain recent range shifts of Finnish butterflies</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Oyry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Luoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Heikkinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuussaari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Saarinen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob Change Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="732" to="743" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Guidelines for the feasibility study of reintroduction of the otter Lutra lutra in Italy: the project of the Ticino Valley (north-western Italy)</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Prigioni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc II It Symp on Carnivores Hystrix (ns)</title>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Prigioni</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="225" to="264" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Piano di monitoraggio dei Vertebrati terrestri di interesse comunitario in Lombardia: lontra Lutra lutra</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Prigioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balestrieri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Universita`di Pavia, Dipartimento di Biologia Animale</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Facts from faeces</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Putman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammal Rev</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="9" to="97" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title level="m" type="main">Experimental design and data analysis for biologists</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Keough</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">SAM: a comprehensive application for spatial analysis in macroecology</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Rangel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jaf</forename><surname>Diniz-Filho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Bini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecography</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Using statistical probability to increase confidence of inferring species extinction</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Reed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1283" to="1285" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Extinction risk in fragmented habitats</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Reed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim Conserv</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="181" to="191" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Intraguild dietary overlap and its possible relationship to the coexistence of mesocarnivores in intensive agricultural habitats</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Remonti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balestrieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruiz-Gonza´lez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Go´mez-Moliner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Capelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Prigioni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Popul Ecol</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="521" to="532" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Eurasian badger habitat selection in Mediterranean environments: does scale really matter?</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Rosalino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Beier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Santos</forename><forename type="middle">-</forename><surname>Reis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm Biol</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="189" to="198" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Monitoring the small-scale distribution of sympatric European pine martens (Martes martes) and stone martens (Martes foina): a multievidence approach using faecal DNA analysis and cameratraps</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rosellini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Osorio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruiz-Gonza´lez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pineiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Barja</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="434" to="440" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Estimating abundance from repeated presence-absence data or point counts</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="777" to="790" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">A non-invasive genetic method to identify the sympatric mustelids pine marten (Martes martes) and stone marten (Martes foina): preliminary distribution survey on the northern Iberian peninsula</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruiz-Gonza´lez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rubines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Berdio´n</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Go ´mez-Moliner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="253" to="261" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Non invasive genetic sampling of sympatric marten species (Martes martes and Martes foina): assessing species and individual identification success rates on faecal DNA genotyping</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruiz-Gonza´lez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Madeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randi</forename><forename type="middle">E</forename><surname>Urra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Go´mez-Moliner</forename><surname>Bj</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="371" to="386" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Habitat requirements of the stone marten (Martes foina) on the Tyrrhenian slopes of the northern Apennines</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Sacchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meriggi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc III Symp on Carnivores Hystrix (ns)</title>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Prigioni</surname></persName>
+		</editor>
+		<meeting>III Symp on Carnivores Hystrix (ns)</meeting>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="99" to="104" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Methods of monitoring foxes Vulpes vulpes and badgers Meles meles: are field signs the answer?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Sadlier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Webbon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammal Rev</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="75" to="98" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Estimating detection probabilities for fishers using non-invasive methods and implications for survey protocols</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Slauson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baldwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">U.S. Fish and Wildlife Service</title>
+		<imprint>
+			<biblScope unit="page">68</biblScope>
+			<date type="published" when="2009">2009</date>
+			<publisher>Yreka Field Office and the Fisher Science Team</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Further analysis of the data by Akaike&apos;s information criterion and the finite corrections</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sugiura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comm Statist Theory Methods A</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="13" to="26" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Connectivity is a vital element of landscape structure</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fahrig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Henein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Merriam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="571" to="573" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Habitat ecology of genus Martes in Europe: a review of the evidences</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Virgo´s</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zalewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Rosalino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mergey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Biology and conservation of marten, sables, and fisher: a new synthesis</title>
+		<editor>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Aubry</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Raphael</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Proulx</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Buskirk</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cornell University Press</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="255" to="266" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Habitat specificity and home-range size as attributes of species vulnerability to extinction: a case study using sympatric rattlesnakes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Waldron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Welch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Dorcas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Lanham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kalinowsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim Conserv</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="414" to="420" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Songbird use of gallery woodlands in recently cleared and older settled landscapes of the Selva Lacandona, Chiapas, Mexico</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Warkentin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Greenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Ortiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1095" to="1106" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<monogr>
+		<title level="m" type="main">Analysis of wildlife radio-tracking data</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Garrott</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990">1990</date>
+			<publisher>Academic Press</publisher>
+			<biblScope unit="page">386</biblScope>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Spatial organisation and dynamics of the pine marten Martes martes population in Bialowieza Forest (E Poland) compared with other European woodlands</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zalewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jedrzejewski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecography</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="31" to="43" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Genetic Analysis of the Endangered Gray Bat Species (Myotis grisescens)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Genetic Analysis of the Endangered Gray Bat Species (Myotis grisescens)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9F7D07941A06606EB46767F4D666C021</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-15T14:29+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This study attempts to analyze the genetics using specific haplotype sequences of the endangered gray bat to determine genetic events that have happened in the past as well as determining how the species population has changed over time. We were able to conduct a Tajima's D test to investigate whether a potential bottleneck has occurred. A linear regression of the genetic vs. geographical distance was produced to investigate the patterns of haplotype distribution. The species past distribution was compared to the current distribution using known collected specimens. A map of future predictions was constructed using present and future climate layers to understand how the species distribution might fluctuate in the future. We found that a genetic bottleneck likely occurred in the past and that although there has been a decline in population in the past, the population is predicted to expand in the future.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction:</head><p>The gray bat (Myotis grisescens) is a species that lives primarily throughout the southeastern areas of North America. The gray bat can live above or below ground in caves or forests. The threats to their current habitat include mining and quarrying, dams and water management, disturbances from recreational activities, and pollution (<ref type="url" target="https://www.iucnredlist.org/">https://www.iucnredlist.org/</ref>). All of these jeopardize their current habitat and could explain why the species is currently considered endangered federally by the United States Fish and Wildlife (<ref type="url" target="https://www.fws.gov">https://www.fws.gov</ref>). It is important to recognize and conduct research on endangered species, such as this one, to prevent further decline and extinction. By conducting research on such species, we can try to identify patterns and causes for why they become endangered to try to conserve them before it is too late.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gray Bat (Myotis grisescens) Species Distribution</head><p>Figure <ref type="figure">1</ref>: The figure shows the current and past distribution of the endangered gray bat (Myotis grisescens). The darker blue dots are specimens that were collected before the 1950s. The lighter blue are specimens that were collected after the 1950s-present.</p><p>Genetics is important to study in understanding species extinction and evolution. The analysis of genetic sequences of individuals in a population can tell us more about the recent events that have occurred in that population. This type of research, for example, can tell us more about how closely related species are, whether speciation events have occurred, or if species have gone through recent fluctuations in diversity. These fluctuations might be due to occurrences such as bottleneck events or founder effects.</p><p>Bottleneck effects can occur when a species, through some outside force, has a severe decrease in population size which can affect the distribution of alleles in a population. Founder effects are when a subset of a population is transported to a different location where they then found a new colony of that species which through generations differentiate into a new species due to the long geographical distance. Both usually result in an immediate loss of genetic diversity. This loss of diversity may lead some species to become endangered or even extinct due to the loss of certain adaptations among these new individuals (<ref type="url" target="https://evolution.berkeley.edu/">https://evolution.berkeley.edu/</ref>). Speciation occurs when populations become separated from each other for long enough that when they are reintroduced to each other, they no longer can successfully mate and produce offspring. This separation can be due to physical distance or landscape barriers or can be due to some other factors such as the accumulation of behavioral or morphological differences in the different populations.</p><p>There are various ways to analyze genetic diversity of species. Biologists can do a variety of tests to compare diversity in and between populations. Tajima's test can help identify if a population has gone through a recent bottleneck <ref type="bibr">(Durvasula)</ref>. A positive value indicates that a species is going through a bottleneck currently. A negative value means that a species has gone through a genetic bottleneck and more recently gained genetic diversity. Comparisons can also be done using genome sequences from populations to study the diversity between those populations. This type of analysis can be useful when comparing the genetic distance to the actual geographic distance. It can tell much about how distantly related these subpopulations are and potentially give insight on whether speciation is occurring.</p><p>In this study we aimed to explore the genetic diversity of the endangered gray bat (Myotis grisescens). We are attempting to determine whether this species has recently had a fluctuation in genetic diversity, and whether this might be due to an event such as a bottleneck. If this is true, we are hoping to investigate when this has occurred. We also want to determine the current species distribution and predict the future distribution of the gray bat species based on environmental patterns.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods:</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Collection</head><p>The specimens used were found in GenBank (<ref type="url" target="https://www.ncbi.nlm.nih.gov/genbank/">https://www.ncbi.nlm.nih.gov/genbank/</ref>) using the search term "Myotis grisescens" and extracted from the original article Genetic structure among hibernacula of the endangered gray bat (Myotis grisescens). The data was then rearranged to a new data set that could be used for the purposes of our analysis. The original data was arranged in distributions of numbered haplotype genetic sequences in subsets of species populations across the United States with specific UTM coordinates. The note pad application, a blank text editor, was then used to rearrange the haplotypes into a list of specific genetic sequences of each individual bat. This text could then be extracted as a FASTA file that could be further evaluated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Analysis</head><p>DNA sequence data were analyzed to produce average genetic distances between the subpopulations of the specimens collected and to conduct a Tajima's D test using Mega software (<ref type="url" target="https://www.megasoftware.net/">https://www.megasoftware.net/</ref>). The original coordinates were in the UTM format and were then converted to latitude and longitude coordinates using a UTM coordinate conversion (<ref type="url" target="https://www.engineeringtoolbox.com/utm-latitude-longitude-d_1370.html">https://www.engineeringtoolbox.com/utm-latitude-longitude-d_1370.html</ref>). The geographic distances between locations of the caves in kilometers were also calculated from the longitude and latitude of the location of the specimens collected using ACME mapper (<ref type="url" target="http://mapper.acme.com/">http://mapper.acme.com/</ref>). For some specimens, the locations could have belonged to one of two different caves and for these the latitude and longitude was determined by taking the halfway point between the two caves. A linear regression was then run to determine the correlation between the genetic and geographic distances using Microsoft Excel. The location of all known specimens with localities was extracted from Vert Net (<ref type="url" target="http://vertnet.org/">http://vertnet.org/</ref>) using the search term "Myotis grisescens". The current species distribution was then constructed using QGIS (<ref type="url" target="https://www.qgis.org/en/site/">https://www.qgis.org/en/site/</ref>) and grouped into specimens existing before and after the 1950s. A future niche model was constructed using climate layers in Maxent (<ref type="url" target="https://www.gbif.org/tool/81279/maxent">https://www.gbif.org/tool/81279/maxent</ref>). The 19 climate layers contained bioclimatic variables downloaded from WorldClim (worldclim.org) and two maps were constructed with the current and future climate projections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>:</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data collection</head><p>The data from the Genetic structure among hibernacula of the endangered gray bat (Myotis grisescens) article recovered a total of 258 genetic sequence specimens for the haplotype being observed. The localities as well as the size of each sample is listed in the chart below.</p><p>Table <ref type="table">1</ref>: The above table shows the exact latitude and longitude of each of the 10 caves where the samples were collected. The total number of specimens collected from each location is also listed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Analysis</head><p>A scatterplot was produced to show the relationship between genetic and geographic distances between the caves where the specimens were collected from.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genetic vs. Geographical Distance</head><p>The Tajima's D test recovered a test statistic of -1.213.</p><p>A map of current and future distributions based of climate layers is shown below. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion:</head><p>The Tajima's D test statistic that come back from the analysis was negative. This is indicative of a species that has gone through a bottleneck in the past and then more recently gained genetic diversity which upholds the original hypothesis being evaluated in this study. Our results showed a positive relationship between genetic distance and geographic distance. The mean geographical distance explained 10.39% of the variation in the genetic distances of the gray bat species. Although there was no significance found between the two variables, it still shows a positive relationship between the two. This result was expected as more distantly collected specimens would also be more likely to show increasing diversity since the distance serves as a physical barrier between the subpopulations. This is because as the distances between the individual populations increases, they are crossbreeding less between these caves and are more likely to accumulate more adaptations that are only present in that specific location. This is how speciation often occurs between populations due to the physical barrier of being too far away. Although the correlation was not very strong, this might mean that there is a reason the specific haplotypes are conserved throughout the species. It could be that these specific haplotypes are conserved throughout the population due to increasing an individual's fitness. This would be due to directional selection from the ability of these bats to produce more offspring which increases the proportion of these haplotypes in the total population. It is also interesting to note that there are a few points that are much more genetically different than one would expect based on geographic distance. It could be that these populations, although they are not too far away, are currently going through the process of speciation.</p><p>Figure <ref type="figure">1</ref> shows a decline in species area when comparing specimens collected before and after the 1950s. The distribution shows an extinction of gray bats from the southern United States and a greater percentage of the population centralized in the Eastern United States. This could be due to the destruction of pre-existing habitats that likely caused the loss in genetic variance that has been identified. When looking at the niche model due to climate change, there was a very different pattern. The habitat with the addition of future climate layers predicted a much more extensive spread of the species possible habitats. This increase in potential niche is likely due to the temperature increasing so much that the gray bats can live in areas that are more northern than they could in the past. This also gives hope for the the gray bat because if they can live at higher latitudes it might be possible that they can spread and increase population size which could bring it out of being endangered in the near future. Of course, the habitat niche models do not account for the past decrease in diversity so it is likely that other factors will be presented that could limit the population growth. The niche models also only take into consideration climate patterns. Considering bats need caves or forests to inhabit they will not be able to live in as many places as the future distribution predicts. Although this limits the application of the map, it is still a good predictor of what localities the gray bat will be able to expand in the future.</p><p>The data that we collected in this study was from the article Genetic structure among hibernacula of the endangered gray bat (Myotis grisescens). Although it was modified for use in this study, the results that we collected only further aid in studying the genetics of the endangered gray bat. The authors in the previous study focused more on the differences in diversity between the bat hibernacula which we supplemented here by doing a comparison of geographic distance vs. genetic distance. Although in this study, we took more of a total population approach to look at the diversity of the species in comparison to environmental changes to draw our conclusions.</p><p>The greatest difficulties in this study were due to the availability of current genetic research on the gray bat species. There is currently not a lot of research that has been done on this particular species, likely due to the fact that it is an endangered species and therefore the population to sample from is not that big. Although these results are still valid and important because they are able to show trends in the genetics of the gray bat that are currently seen in caves throughout the eastern United States and are likely upheld across the entire population. The other shortfall of the study is the fact that the climate change niche data is only a prediction. If we are seeing trends in species diversity increase, this might be able to overcome the loss of habitat as we had predicted. This would be interesting to investigate in the future to see if the trend we saw was upheld. Other studies might look at investigating the fitness of the individuals with the haplotypes described in this study. That research could aid in the explanation for why the correlation was not as strong as expected.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: The figure presents a scatter plot with a trendline of geographic vs genetic distances (S= 0.00003, N=28, P=0.095).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: The figure depicts present and future niche climate maps. The present map was constructed using current climate layers. The future map was constructed by projecting future predicted climate layers onto the present climate layers to make a prediction for future niche distribution.</figDesc><graphic coords="6,143.90,119.50,314.80,264.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="2,154.30,450.89,297.35,220.90" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Nonetheless</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>our results ultimately confirmed our hypothesis and generally aided in the purpose of investigating the genetics of the endangered gray bat species. There is evidence of a past bottleneck as we had hypothesized which gives an explanation for why the species may be endangered. Although, it also gave insight into how the population is beginning to increase diversity. As long as this trend continues, the gray bat may be able to survive and escape extinction in the future. Works Cited</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Gray bat (Myotis grisescens)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Durham</surname></persName>
+		</author>
+		<ptr target="https://www2.illinois.gov/dnr/outreach/kidsconservation/Pages/ArchiveAug2019.aspx" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>Photograph</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Myotis grisescens. The IUCN Red List of Threatened Species 2018</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Solari</surname></persName>
+		</author>
+		<idno type="DOI">10.2305/IUCN.UK.2018-2.RLTS.T14132A22051652</idno>
+		<idno>T14132A22051652</idno>
+		<ptr target="https://dx.doi.org/10.2305/IUCN.UK.2018-2.RLTS.T14132A22051652" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<ptr target="https://www.fws.gov/frankfort/EndangeredSpecies.html" />
+		<title level="m">Endangered Species</title>
+		<imprint>
+			<publisher>U.S. Fish and Wildlife Services</publisher>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<ptr target="https://evolution.berkeley.edu/evolibrary/article/bottlenecks_01" />
+		<title level="m">Bottlenecks and founder effects</title>
+		<imprint>
+			<publisher>University of California Museum of Paleontology</publisher>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>Understanding Evolution</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Durvasula</surname></persName>
+		</author>
+		<ptr target="https://www.ncbi.nlm.nih.gov/genbank/" />
+		<title level="m">Interpreting Tajima&apos;s D. Wordpress</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Genetic structure among hibernacula of the endangered gray bat (Myotis grisescens)</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lindsay</surname></persName>
+		</author>
+		<ptr target="https://www.megasoftware.net/" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Evolutionary Genetics Analysis</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="293" to="306" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>Acta Chiropterologica. Computer software</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<ptr target="http://mapper.acme.com/" />
+		<title level="m">UTM to Latitude and Longitude Converter</title>
+		<imprint>
+			<publisher>Engineering ToolBox</publisher>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Vertnet [Computer Software</title>
+		<ptr target="https://www.qgis.org/en/site/" />
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>National Science Foundation</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

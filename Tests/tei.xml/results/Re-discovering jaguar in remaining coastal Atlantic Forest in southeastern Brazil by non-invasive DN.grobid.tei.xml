@@ -1,0 +1,2837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Large-scale assessment of genetic diversity and population connectivity of Amazonian jaguars (Panthera onca) provides a baseline for their conservation and monitoring in fragmented landscapes</title>
+				<funder>
+					<orgName type="full">EE</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">CNPq/Brazil</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Coordenação de Aperfeiçoamento de Pessoal de Nivel Superior -Brasil (CAPES)</orgName>
+				</funder>
+				<funder ref="#_6SnBvhP">
+					<orgName type="full">CNPq</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>31 January 2020 0006</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Gustavo</forename><surname>Lorenzana</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Laboratório de Biologia Genômica e Molecular</orgName>
+								<orgName type="department" key="dep2">Escola de Ciências da Saúde e da Vida</orgName>
+								<orgName type="institution">PUCRS</orgName>
+								<address>
+									<settlement>Porto Alegre</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Laura</forename><surname>Heidtmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Laboratório de Biologia Genômica e Molecular</orgName>
+								<orgName type="department" key="dep2">Escola de Ciências da Saúde e da Vida</orgName>
+								<orgName type="institution">PUCRS</orgName>
+								<address>
+									<settlement>Porto Alegre</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Taiana</forename><surname>Haag</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Laboratório de Biologia Genômica e Molecular</orgName>
+								<orgName type="department" key="dep2">Escola de Ciências da Saúde e da Vida</orgName>
+								<orgName type="institution">PUCRS</orgName>
+								<address>
+									<settlement>Porto Alegre</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Emiliano</forename><surname>Ramalho</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Instituto de Desenvolvimento Sustentável Mamirauá</orgName>
+								<address>
+									<settlement>Tefé</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Instituto Pró-Carnívoros</orgName>
+								<address>
+									<settlement>Atibaia</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Guilherme</forename><surname>Dias</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Departamento de Genética</orgName>
+								<orgName type="laboratory">Laboratório de Evolução e Genética Animal_LEGAL</orgName>
+								<orgName type="institution">Universidade Federal do Amazonas</orgName>
+								<address>
+									<settlement>Manaus Amazonas</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution" key="instit1">Centro Universitário de Goiatuba</orgName>
+								<orgName type="institution" key="instit2">UniCerrado</orgName>
+								<address>
+									<settlement>Goiatuba</settlement>
+									<region>Goiás</region>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tomas</forename><surname>Hrbek</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Departamento de Genética</orgName>
+								<orgName type="laboratory">Laboratório de Evolução e Genética Animal_LEGAL</orgName>
+								<orgName type="institution">Universidade Federal do Amazonas</orgName>
+								<address>
+									<settlement>Manaus Amazonas</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Izeni</forename><surname>Farias</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Departamento de Genética</orgName>
+								<orgName type="laboratory">Laboratório de Evolução e Genética Animal_LEGAL</orgName>
+								<orgName type="institution">Universidade Federal do Amazonas</orgName>
+								<address>
+									<settlement>Manaus Amazonas</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Eduardo</forename><surname>Eizirik</surname></persName>
+							<email>eduardo.eizirik@pucrs.br</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Laboratório de Biologia Genômica e Molecular</orgName>
+								<orgName type="department" key="dep2">Escola de Ciências da Saúde e da Vida</orgName>
+								<orgName type="institution">PUCRS</orgName>
+								<address>
+									<settlement>Porto Alegre</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Instituto Pró-Carnívoros</orgName>
+								<address>
+									<settlement>Atibaia</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Centro Regional del Bajío</orgName>
+								<orgName type="institution">INCT -EECBio</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">Escola de Ciências da Saúde e da Vida</orgName>
+								<orgName type="laboratory">Laboratório de Biologia Genômica e Molecular</orgName>
+								<orgName type="institution">Instituto de Ecología A.C</orgName>
+								<address>
+									<settlement>Pátzcuaro</settlement>
+									<country key="MX">Mexico</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="institution">PUCRS</orgName>
+								<address>
+									<settlement>Porto Alegre</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Large-scale assessment of genetic diversity and population connectivity of Amazonian jaguars (Panthera onca) provides a baseline for their conservation and monitoring in fragmented landscapes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">31 January 2020 0006</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">50F8FBE826A11B0FA00DABFB26774BDC</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-15T16:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Amazon Neotropical Habitat fragmentation Population structure Felidae Carnivora</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Jaguar population genetics has so far not been investigated on a broad scale in the Amazon rainforest, which constitutes the largest remaining block of continuous habitat for the species. Given its size, it serves not only as a stronghold but also as a reference for jaguar conservation genetics, against which fragmented landscapes can be compared. We assessed genetic diversity and population structure of Amazonian jaguars using 11 microsatellite loci and performed comparative analyses incorporating available data from two other South American biomes (Pantanal and Atlantic Forest) in which the species has faced different amounts of habitat loss and fragmentation. Using the largest genetic data set assembled to date for jaguars (n = 190), we observed that all diversity indices were consistently higher for the Amazonian population, with no genetic subdivision detected in that region, indicating large-scale connectivity across &gt; 3000 km. In contrast, we corroborate the inference of anthropic-driven genetic structure and bottlenecks for two Atlantic Forest populations. Our results indicate that the Amazon is a critically important stronghold for jaguars, comprising a highly diverse, panmictic population that allows a glimpse into the patterns of genetic connectivity that characterized this species prior to human intervention. In contrast, the Atlantic Forest populations jointly still retain considerable levels of genetic diversity, but this is currently partitioned among isolated fragments that are increasingly subjected to heavy anthropic disturbance. These results have important implications for jaguar conservation planning, highlighting the critical condition of Atlantic Forest populations and providing a genetic baseline to which they can be compared.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Tropical ecosystems harbour a large proportion of global biological diversity, reaching &gt; 50% of the world's terrestrial biodiversity <ref type="bibr" target="#b28">(Gardner et al., 2010)</ref>. Increasing human activities on those regions are exerting pressure on the biota, reducing local abundance and causing defaunation, driving thousands of species to extinction even before they are discovered <ref type="bibr" target="#b16">(Dirzo et al., 2014)</ref>. Habitat loss and fragmentation are two of the main threats to species survival, especially for large carnivores <ref type="bibr" target="#b12">(Costa et al., 2005;</ref><ref type="bibr" target="#b13">Crooks, 2002)</ref>, such as the jaguar (Panthera onca). This felid is the top predator of the Neotropics, and given its keystone role, constitutes an umbrella and flagship species for biodiversity conservation <ref type="bibr" target="#b85">(Thornton et al., 2016)</ref>. Globally, it is considered 'Near Threatened' by the IUCN <ref type="bibr" target="#b6">(Caso et al., 2008)</ref>, but it is categorized as Endangered or Vulnerable in most national red lists across its distribution (e.g. <ref type="bibr" target="#b2">Aprile et al., 2012;</ref><ref type="bibr">ESA, 1973;</ref><ref type="bibr" target="#b67">Rodríguez-Mahecha et al., 2006;</ref><ref type="bibr">SEMARNAT, 2010)</ref>.</p><p>In Brazil, jaguars currently occur in five out of six major biomes, and their populations are subjected to different threats on a regional basis, making them more vulnerable in some areas than others <ref type="bibr" target="#b57">(Nijhawan, 2012;</ref><ref type="bibr" target="#b78">Sollmann et al., 2008)</ref>. It is 'Critically Endangered' in the Atlantic Forest due to a drastic population reduction during the last three <ref type="url" target="https://doi.org/10.1016/j.biocon.2020.108417">https://doi.org/10.1016/j.biocon.2020.108417</ref> Received 24 June 2019; Received in revised form 11 November 2019; Accepted 7 January 2020 decades <ref type="bibr" target="#b5">(Beisiegel et al., 2012)</ref>, as this biome is severely imperilled by habitat loss and fragmentation <ref type="bibr" target="#b81">(Tabarelli et al., 2005)</ref>. In contrast, the Amazon and the Pantanal, given their extent, habitat suitability and comparatively lower levels of fragmentation, are regarded as the two main strongholds for the jaguar, both nationally and globally, although its status is 'Vulnerable' in both of these biomes <ref type="bibr" target="#b8">(Cavalcanti et al., 2012;</ref><ref type="bibr" target="#b15">de Oliveira et al., 2012)</ref>.</p><p>The Brazilian portion of the Amazon covers nearly 3.5 million km 2 , and it is assumed that jaguars occupy most of this area <ref type="bibr" target="#b15">(de Oliveira et al., 2012)</ref>. For this reason, this biome is regarded as the most important block of continuous habitat for jaguars, harbouring one of the largest populations of the species, with good perspectives for long-term persistence. Nevertheless, jaguars in this biome are threatened by illegal hunting, and the so-called "arc of deforestation" is advancing on the eastern and southern portions of the region, already representing a loss of 18% of the originally forested area <ref type="bibr" target="#b15">(de Oliveira et al., 2012)</ref>. Likewise, the Pantanal is one of the largest wetlands in the world, encompassing 140,000 km 2 (85% of which remain conserved), with jaguars occupying between 88,000 and 125,000 km 2 <ref type="bibr" target="#b8">(Cavalcanti et al., 2012)</ref>. In the Pantanal, retaliatory hunting of jaguars that prey on cattle is the main threat to the species' survival. Interestingly, ecotourism focused on jaguars in this region is currently fifty times more profitable than cattle ranching <ref type="bibr" target="#b86">(Tortato et al., 2017)</ref>, which has helped to alleviate the hunting pressure. In sharp contrast, the Atlantic Forest is a biodiversity hotspot with a high degree of endemism <ref type="bibr" target="#b56">(Myers et al., 2000)</ref>, whose primary cover has been decimated in the last four decades, declining from 1.3 million to 150,000 km 2 <ref type="bibr" target="#b65">(Ribeiro et al., 2009)</ref>. Currently, jaguars occupy &lt; 50% of this area, persisting in small, isolated fragments in which jaguars also suffer from prey depletion and illegal hunting <ref type="bibr" target="#b5">(Beisiegel et al., 2012;</ref><ref type="bibr" target="#b58">Paviolo et al., 2016)</ref>.</p><p>As a large mammalian carnivore, jaguars have high mobility and, as a result, could potentially attain high levels of dispersal and gene flow across the landscape <ref type="bibr" target="#b70">(Row et al., 2012;</ref><ref type="bibr" target="#b82">Tammeleht et al., 2010)</ref>. However, relatively few molecular studies with jaguars have been published to date. Jaguars have shown moderate to high levels of genetic diversity <ref type="bibr" target="#b21">(Eizirik et al., 2001;</ref><ref type="bibr" target="#b68">Roques et al., 2016;</ref><ref type="bibr" target="#b71">Ruiz-Garcia et al., 2006;</ref><ref type="bibr">Wultsch et al., 2016a)</ref>, without evidence of strong population structure across their range, possibly due to a recent population expansion and high connectivity on broad spatial scales. Major geographical barriers such as the Amazon River and perhaps the Darien strait were suggested as having restricted historical gene flow among four incompletely isolated phylogeographic groups: southern South America, northern South America, Central America and Mexico-Guatemala <ref type="bibr" target="#b21">(Eizirik et al., 2001)</ref>. However, the authors of that study stressed the need for further sampling that could reveal a finer pattern of subdivision or isolation by distance on a regional level.</p><p>In-depth analyses of regional jaguar populations in Brazil initially revealed that a recently fragmented area of the inner Atlantic Forest showed evidence of drift-induced population differentiation and loss of allelic richness, driven by anthropogenic habitat loss and isolation <ref type="bibr" target="#b33">(Haag et al., 2010)</ref>. The problem is so severe that one of the sampled populations ("Porto Primavera") was extirpated due to the flooding of a hydroelectric dam before that study was published. <ref type="bibr" target="#b87">Valdez et al. (2015)</ref> further analysed these subpopulations in conjunction with jaguars sampled at four sites within the southern Pantanal and found that the latter region forms a single genetic cluster with higher genetic diversity than each of the Atlantic forest demes. Subsequently, <ref type="bibr" target="#b80">Srbek-Araujo et al. (2018)</ref> analysed an isolated population from the coastal Atlantic Forest and demonstrated that it also bears signs of anthropogenic loss of diversity, at a rate that may be even higher than that of the inland fragments.</p><p>Any genetic study is sensitive to the geographic scale considered in the analysis, potential gaps in sampling, and numbers of markers and their information content <ref type="bibr" target="#b63">(Radespiel and Bruford, 2014)</ref>. Furthermore, ancient demographic processes left genetic imprints in edge-populations (vs. core-populations) that are analogous to signals detected in shrinking populations subject to contemporaneous anthropic-driven drift <ref type="bibr" target="#b75">(Slatkin and Excoffier, 2012)</ref>, potentially hindering the disentanglement of the underlying process. For instance, jaguars have shown a marked population structure altogether but a weak signal of isolation by distance across Central America, which increased when Mexican (edge-) populations were included in the analysis <ref type="bibr">(Wultsch et al., 2016a</ref><ref type="bibr" target="#b93">(Wultsch et al., , 2016b))</ref>. Similarly, comparing 11 microsatellite loci typed in jaguars from Brazil and Mexico, <ref type="bibr" target="#b68">Roques et al. (2016)</ref> found a marked genetic structure, with samples from Brazil forming three genetic clusters, corresponding to the Amazon/Cerrado, the Pantanal, and the Caatinga. Genetic differentiation was not only related to geographic distance, but also to the intensity of drift, as the isolated population from the Caatinga showed low allelic richness and reduced gene flow relative to the other areas within Brazil. This is a likely consequence of a recent (within the last 20 to 30 years) demographic reduction, which may reflect the Caatinga region contemporary habitat deterioration. Jaguars sampled in the Amazon rainforest showed high levels of genetic diversity and panmixia across considerable distances, while the genetic diversity was lower towards the limits of the species' range (Mexico, Caatinga and Pantanal). However, <ref type="bibr" target="#b68">Roques et al. (2016)</ref> did not survey the Amazon as a whole, as their geographic sampling of this vast region was restricted to a north-south transect covering only the central portion of the biome, leaving large sampling gaps in the eastern and western Amazon. In addition, that study did not include comparisons with Atlantic Forest populations, which have been found to be severely impacted by recent fragmentation <ref type="bibr" target="#b33">(Haag et al., 2010;</ref><ref type="bibr" target="#b80">Srbek-Araujo et al., 2018)</ref>.</p><p>In this context, the aim of this study was to survey the jaguar's genetic variability and population structure across the Amazon, and to perform comparative analyses of this data set jointly with those reported previously for Atlantic Forest <ref type="bibr" target="#b33">(Haag et al., 2010;</ref><ref type="bibr" target="#b80">Srbek-Araujo et al., 2018)</ref> and southern Pantanal <ref type="bibr" target="#b87">(Valdez et al., 2015)</ref> populations. In particular, we aimed to employ standardized molecular markers to assess the hypothesis that jaguars in the large, continuous Amazon rainforest show greater levels of genetic diversity and population size and connectivity than in the highly fragmented Atlantic Forest. We included the Pantanal biome as a control for high-quality habitat availability, as this later region currently harbours roughly the same extension as the sum of Atlantic Forest remnant fragments. This result would further corroborate our previous inference that the population structure observed in the Atlantic Forest is anthropogenic <ref type="bibr" target="#b33">(Haag et al., 2010;</ref><ref type="bibr" target="#b80">Srbek-Araujo et al., 2018)</ref>, and stress the importance of generating baseline data for jaguar genetics and ecology in a habitat that still retains large-scale continuity.</p><p>The specific aims of this study were as follows:</p><p>1. To contribute data on jaguar population structure and genetic diversity in the Amazon region, which currently represents its main stronghold for global conservation, but is still understudied due to its vastness and inaccessibility. 2. To compare these results with those previously published for two different biomes, the Pantanal and the Atlantic Forest, which are subjected to different intensities of anthropogenic disturbance. 3. To summarize the amounts of genetic diversity and population structure in these populations, characterizing their spatial distribution within and among biomes. 4. To provide baseline data for assessment of jaguar vulnerability to genetic erosion in its core range, as well as in other areas, which should be relevant in the context of current and projected scenarios of habitat degradation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Sampling protocol</head><p>We obtained samples of biological material from 73 Amazonian jaguars, including blood samples from animals captured for field ecology studies or kept in captivity, and pelt/hair samples from material confiscated by local environmental authorities or collected during wildlife surveys within indigenous and other riverine human communities (Supporting information Table <ref type="table" target="#tab_0">S1</ref>). Field-captured animals were covered by capture permit 11095-8, issued by SISBIO/ICMBio, Brazil.</p><p>The overall Amazonian sample included three sub-regions: upper Amazon (n = 46), northeastern Amazon (n = 18) and southeastern Amazon (n = 9). The vast extent of the sampled area, calculated by convex hulls polygons in QGIS v.2.8, roughly encompassed 1.2 million, 400,000 and 95,000 km 2 in each of these sub-regions, respectively (Fig. <ref type="figure">1</ref>). Blood samples were preserved with EDTA, followed by mixing with an equal volume of the buffer TES (100 μM Tris, 100 μM EDTA, 2% SDS). Pelts, tissues, and hairs were preserved in 96% ethanol. Faecal samples were stored in sterile vials containing silica gel at a ratio of 4 g silica: 1 g stool <ref type="bibr" target="#b91">(Wasser et al., 1997)</ref>. All samples were stored at -20 °C prior to DNA extraction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Data collection and dataset construction</head><p>We performed DNA extractions from Amazonian samples using the commercial kits Puregene DNA Purification Kit (GENTRA), ChargeSwitch Forensic DNA Purification Kit (INVITROGEN), or QIAamp DNA Stool Mini Kit (QIAGEN), following the manufacturers' instructions. In the case of faecal samples, species-level identification was confirmed using the approach reported by <ref type="bibr" target="#b32">Haag et al. (2009)</ref>. We used all DNA extracts to genotype 13 microsatellite loci, one with a dinucleotide repeat (FCA742), two with trinucleotide repeats (F146 and F98), and ten with tetranucleotide repeats (FCA741, FCA740, FCA723, FCA453, FCA441, FCA391, F124, F85, F53, and F42). We scored microsatellite alleles using a MegaBACE 1000 automated sequencer and the ET-ROX 550 size standard, and then analysed them with the accompanying GENETIC PROFILER software v.2.2, as described by <ref type="bibr" target="#b33">Haag et al. (2010)</ref>.</p><p>To allow comparisons on a broader scale, we jointly analysed these Amazonian data with genotypic matrices generated by <ref type="bibr" target="#b33">Haag et al. (2010) and</ref><ref type="bibr" target="#b80">Srbek-Araujo et al. (2018)</ref> for the Atlantic Forest (n = 59, and n = 11, respectively), as well as <ref type="bibr" target="#b87">Valdez et al. (2015)</ref> for the Pantanal (n = 52). These studies used the same loci, and their data are available on the Dryad digital repository (<ref type="url" target="https://doi.org/10.5061/dryad.1884/1">https://doi.org/10.5061/ dryad.1884/1</ref>; <ref type="url" target="https://doi.org/10.5061/dryad.371c6">https://doi.org/10.5061/dryad.371c6</ref>). Genotyping for all these previous studies and for the present one was performed with the same protocols and equipment, including replicated control samples to allow identical binning of microsatellite alleles.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Genotyping quality control</head><p>All datasets were screened for genotyping errors and missing data using the StrataG package v.2.0.2 <ref type="bibr" target="#b3">(Archer et al., 2016)</ref>. First, we identified samples with missing loci using a threshold equal to 0.69, i.e. Fig. <ref type="figure">1</ref>. Study area in South America. Points represent the sampling locations for genotyped jaguars. The Amazon basin was surveyed in three sub-regions: upper Amazon (n = 46), northeastern Amazon (n = 18), and southeastern Amazon (n = 9), with an estimated sampled area, calculated with convex hulls polygons, roughly encompassing 1.2 million, 400,000 and 95,000 km 2 , for each region, respectively. As for the Pantanal (n = 52), the estimated total area covered was ca. 5000 km 2 , while for the Atlantic Forest (n = 59 for inner and n = 11 for coastal areas) it was approximately 110,000 km 2 .</p><p>only individuals genotyped for at least nine out of 13 (69%) loci were included in the analysis. We then assessed the percentage of missing samples per locus, using a cut-off value of 0.20. We removed loci below this threshold from the analysis. For the novel Amazon dataset, we also checked for duplicate genotypes, using an identity threshold of 1.0. We assessed departures from Hardy-Weinberg Equilibrium (HWE) proportions, using the exact test of <ref type="bibr" target="#b31">Guo and Thompson (1992)</ref> for heterozygote deficit, as well as linkage disequilibrium between loci in GEN-EPOP v.1.0.5 <ref type="bibr" target="#b69">(Rousset, 2008)</ref>. For both tests, we estimated P-values by the Markov chain method with 10,000 dememorization steps, 200 batches and 5000 iterations per batch. For some downstream analysis (i.e. effective population size estimation, see below), we previously tested for the presence of closely related individuals (parent-offspring, and full-siblings) using the software ML-RELATE v.1 <ref type="bibr" target="#b45">(Kalinowski et al., 2006)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Genetic diversity and population structure</head><p>We calculated standard diversity and differentiation indices with Adegenet v.2.1.1 <ref type="bibr" target="#b42">(Jombart, 2008)</ref> and diveRsity v.1.9.90 <ref type="bibr" target="#b47">(Keenan et al., 2013)</ref> packages in R, and GenAIEx v.6.503 in EXCEL <ref type="bibr" target="#b59">(Peakall and Smouse, 2012)</ref>. We also calculated allelic richness by rarefaction using HP-RARE v.1 <ref type="bibr" target="#b44">(Kalinowski, 2005)</ref>. We assessed population structure with F-statistics computed in GenAlEx, including pairwise standardized measures (G st ), which are better suited for hypervariable markers such as microsatellite loci than F st indices <ref type="bibr" target="#b35">(Hedrick, 2005)</ref>, using 1000 permutations to estimate P-values.</p><p>In addition, we used Bayesian clustering in STRUCTURE v.2.3.4 <ref type="bibr" target="#b61">(Pritchard et al., 2000)</ref> parallelized with StrAuto v1.0 <ref type="bibr" target="#b11">(Chhatre and Emerson, 2017)</ref> to reduce running time. The optimal value of k was defined using the Puechmaille method (Puechmaille, 2016) calculated on the STRUCTURE SELECTOR webserver <ref type="bibr" target="#b50">(Li and Liu, 2018)</ref>, based on 20 replicates per k, with 2 6 burn-in steps and 2 6 additional Markov Chain Monte Carlo (MCMC) sampled generations per run. Many studies have based the choice of optimal k using the Evanno approach <ref type="bibr" target="#b39">(Janes et al., 2017)</ref>. However, it has been shown <ref type="bibr" target="#b29">(Gilbert et al., 2012)</ref> that this works well only for datasets that harbour at least two genetic clusters; therefore, it does not perform well when the population shows no structure (i.e. k = 1). Moreover, the Puechmaille method has shown a better performance than Evanno's technique in cases of uneven sampling <ref type="bibr" target="#b62">(Puechmaille, 2016)</ref>, as is the case in the present study. The genetic clusters for the best value of k were visualized in geographic space through the interpolation of the admixture coefficients onto a South America raster map, using the R script provided by <ref type="bibr" target="#b40">Jay et al. (2012)</ref>, as a companion to the spatially explicit Bayesian clustering approach TESS v.2.3 <ref type="bibr" target="#b10">(Chen et al., 2007)</ref>. For this, the 20 replicate runs of STRUCTURE generated with the optimal k value were merged with CLUMMP v.1.1.2 <ref type="bibr" target="#b37">(Jakobsson and Rosenberg, 2007)</ref> using the greedy algorithm and 10,000 repeat configurations, in order to generate a single admixture matrix (Q-matrix) as input for TESS. Finally, we also ran STRUCTURE with the LOCPRIOR option, using the putative population origin of each sample as a prior (Supporting information Appendix S1). Isolation by distance (IBD) patterns were assessed within and among biomes using individual-based pairwise Mantel tests <ref type="bibr" target="#b53">(Mantel, 1967)</ref>, comparing genotypic (proportion of shared alleles) and geographic matrices with the distance-based module and the correlogram module in GenAIEx.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Effective population size and contemporary bottlenecks</head><p>We estimated the contemporary effective population size (N e ) for each of the inferred populations using the programs SPEED-NE v.2.3 <ref type="bibr" target="#b34">(Hamilton et al., 2018)</ref>, NeESTIMATOR v.2.1 <ref type="bibr" target="#b18">(Do et al., 2014), and</ref><ref type="bibr">LDNE v.1.31 (Waples and</ref><ref type="bibr" target="#b89">Do, 2008)</ref>, incorporating two values for the minor allele frequency (MAF, 0 and 0.01), and discarding seven closely related individuals detected by the relatedness analysis (Supporting information Appendix S1). Finally, we searched for signals of drastic contemporary population reductions with the software BOTTLENECK v.1.2.02 <ref type="bibr" target="#b60">(Piry et al., 1999)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Dataset features</head><p>For the joint data set, using the 0.69 threshold of genotyped loci, we discarded three individuals that did not meet this criterion. After checking for exact duplicate genotypes, one additional individual was removed from the Amazon dataset (likely deriving from tube mislabelling during sample collection or processing), as well as another one showing an excess of homozygous genotypes. Two out the 13 loci showed &gt; 20% of missing genotypes: F124 (n = 48; 24.7% missing) and FCA741 (n = 41.5; 21.4% missing), and we removed them from further analyses, for a final dataset of 190 individuals reliably genotyped at 11 loci. Before estimating effective population size, we removed seven individuals from the Amazon dataset that potentially could downwardly bias the estimates, which were part of two parentoffspring pairs, three full-sibling pairs, and one full-sibling triplet (Supporting information Appendix S1).</p><p>The Amazon population showed no significant deviations from HWE (P &gt; 0.05), except for the loci FCA740, FCA391 and F98, which presented a heterozygote deficit. For the Atlantic Forest dataset, two loci (FCA723, FCA441) showed signs of a heterozygote deficit. The linkage disequilibrium test did not detect any significant non-random associations between pairwise locus comparisons. Since there was no consistent trend of the same loci showing departures from equilibrium, and to maximize information content, we kept the full dataset for all the analyses described below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Genetic diversity</head><p>Overall, Amazon jaguars showed considerably high levels of genetic variability across most of the loci (Table <ref type="table" target="#tab_0">1</ref>), with most of the estimates being higher than those of the Atlantic Forest and the Pantanal (Table <ref type="table">2</ref>). Confidence intervals for the estimates of allelic richness (Ar) per locus did not overlap among the three biomes, indicating significantly higher diversity in the Amazon than in the Atlantic Forest, which was significantly more diverse than the Pantanal. Expected heterozygosity followed the same pattern, but observed heterozygosity showed the opposite trend, with lower values in the Amazon (Table <ref type="table">2</ref>). Total and private alleles ranged from 10.2 and 2.7 for the Amazon, to 6.5 and 0.40 for the Pantanal (Table <ref type="table">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Population structure</head><p>F-statistics among major populations were quite low, with F st values ranging from 0.037 to 0.052, although their confidence intervals did not overlap zero, indicating modest but significant differentiation among biomes (Table <ref type="table" target="#tab_1">3</ref>). G st values were higher, and followed the same trend, indicating that the highest levels of differentiation were observed between the Atlantic Forest and the Pantanal, and the lowest ones between the Pantanal and the Amazon.</p><p>Differences in allelic frequencies determined with STRUCTURE led to the identification of four major population clusters, one corresponding to the Amazon, the second one representing the Pantanal, and the third and fourth ones dividing the Atlantic Forest into two spatial domains (Fig. <ref type="figure" target="#fig_1">2</ref>). One of them grouped the Green Corridor (the southern block of the Upper Parana Atlantic Forest [UPAF]) with the coastal Vale population, on opposite sides of the surveyed region, while the other group assembled individuals from a central area, comprising the small fragments of the northern block on the UPAF (Porto Primavera, Ivinhema and Morro do Diabo).</p><p>Extensive admixture was observed among the three biomes, and the Amazon cluster included a few individuals with a large proportion of ancestry coming from the Pantanal and the Atlantic Forest (Fig. <ref type="figure" target="#fig_1">2a</ref>). In the next hierarchical level of structure, neither the Amazon nor the Pantanal showed further subdivision (k = 1 each), whereas the Atlantic forest showed a marked structure into five genetic clusters (Supporting information Appendix S1).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Isolation by distance</head><p>We did not find significant patterns of isolation by distance (IBD) within and among the biomes (Fig. <ref type="figure" target="#fig_2">3</ref>). However, Mantel tests of the proportion of shared alleles vs. geographic distance indicated a slight inverse relationship for all the biomes except the Amazon. This pattern was clearer for the Atlantic Forest (Spearman R = -0.475; Fig. <ref type="figure" target="#fig_2">3c</ref>), followed by the three biomes assessed jointly (R = -0.222; Fig. <ref type="figure" target="#fig_2">3d</ref>) and the Pantanal by itself (R = -0.178, Fig. <ref type="figure" target="#fig_2">3b</ref>). The R-value for the Amazon was nearly null (R = 0.034, Fig. <ref type="figure" target="#fig_2">3a</ref>), although the spatial correlogram indicated that this small signal of IBD derives from a negative correlation between genetic similarity and geographic distance observed up to a distance of 400 km (Fig. <ref type="figure" target="#fig_3">4</ref>). Within this range, the negative correlation is significantly different from the null expectation (of no correlation) up to a distance of 150 km between sampling points.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Effective population size and bottlenecks</head><p>Estimates of contemporary effective population size based on linkage disequilibrium were lowest for the Atlantic Forest and highest for the Amazon, ranging from 20 to 887 individuals, respectively (Table <ref type="table" target="#tab_2">4</ref>). Using these figures and assuming that N e represents on average ca. one-tenth of the census size (N c ) for a given population <ref type="bibr" target="#b26">(Frankham, 1995)</ref>, we estimate that N c point estimates range from 1152 to 8877 individuals in the Amazon; 499 to 812 in the southern Pantanal, and 169 to 262 in the Atlantic Forest (Table <ref type="table" target="#tab_2">4</ref>). We did not detect signals of recent bottlenecks for the Amazon and Pantanal populations. However, when we performed the analysis on the four separate clusters of the Atlantic Forest, the Morro do Diabo and Ivinhema demes appeared bottlenecked.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">General patterns</head><p>Genetic diversity studies constitute a pillar in the field of conservation biology, although their practical application has often not been fully achieved so far <ref type="bibr" target="#b14">(de la et al., 2018;</ref><ref type="bibr" target="#b36">Hoban et al., 2013;</ref><ref type="bibr" target="#b66">Rivers et al., 2014)</ref>. As a contribution to fill this gap, we analysed the most broadly distributed set of genetic samples for Amazonian jaguars surveyed to date, and directly compared it with two other biomes, potentially serving as a baseline for the assessment of jaguar population genetics across the species' range. As a result, we highlight the following features. The Amazonian jaguar population showed (1) moderate to high levels of microsatellite diversity, for example as assessed by allelic richness; (2) large-scale connectivity with signals of panmixia across thousands of kilometres, both south, north and across the Amazon River; (3) relatively large effective population size (but see caveats below), with no signals of recent bottlenecks. The Pantanal population displayed (4) lower genetic diversity but a relatively large effective population size derived from only a small surveyed portion of the available habitat in that area (see discussion below). In contrast, for the Atlantic Forest population we corroborated previous findings identifying (5) intermediate levels of diversity, with a marked structure   The high diversity and long-distance connectivity observed in the Amazon highlight the importance of this region as the most extensive stronghold for this species. It is noteworthy that genetic variability comparisons with the Pantanal population are constrained by the relatively restricted geographic area surveyed by <ref type="bibr" target="#b87">Valdez et al. (2015)</ref>, but in the case of the Atlantic Forest, our comparison was useful to confirm the effects of habitat loss and fragmentation in that biome <ref type="bibr" target="#b33">(Haag et al., 2010;</ref><ref type="bibr" target="#b80">Srbek-Araujo et al., 2018)</ref>. Currently, the lack of genetic studies on jaguars using historical samples from museum collections, such as those performed in other big cat species (e.g. <ref type="bibr" target="#b19">Dures et al., 2019;</ref><ref type="bibr" target="#b55">Mondol et al., 2013)</ref>, justifies the use of the Amazon population as a baseline.</p><p>The rationale for this approach is that the Amazon region may represent a proxy for historic genetic variation in this species, assuming that it is likely to still retain most its original levels of diversity, in contrast to other areas which have undergone large-scale habitat degradation.</p><p>Accordingly, the level of genetic differentiation among jaguar populations sampled in these three biomes supports the view that this species has historically attained high levels of gene flow on a broad geographic scale <ref type="bibr" target="#b21">(Eizirik et al., 2001)</ref>. This pattern can be explained by the high dispersal potential of jaguars, favoured by high quality, continuous habitat, which in turn allowed gene flow across the Neotropics. These inferred high levels of connectivity contrast with observations of stronger population differentiation based on mtDNA markers (e.g. <ref type="bibr" target="#b21">Eizirik et al., 2001)</ref>, and support the view that this species exhibits a male-biased dispersal pattern, as has been described for other big cats (e.g. <ref type="bibr" target="#b24">Fattebert et al., 2015;</ref><ref type="bibr" target="#b30">Gour et al., 2013;</ref><ref type="bibr" target="#b76">Smith, 1993)</ref>. Similar instances of higher variability and less structured populations towards the centre of the species range had been documented elsewhere for jaguars <ref type="bibr" target="#b68">(Roques et al., 2016)</ref> and other large mammalian carnivores such as tigers in Nepal <ref type="bibr" target="#b83">(Thapa et al., 2018)</ref>, leopards in South Africa <ref type="bibr" target="#b54">(McManus et al., 2015)</ref>, black bears in Florida <ref type="bibr" target="#b17">(Dixon et al., 2007)</ref>, and wolverines in Montana <ref type="bibr" target="#b9">(Cegelski et al., 2003)</ref>. In all of these instances, habitat fragmentation was the underlying factor causing differentiation at peripheral populations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">High diversity in the Amazon and genetic drift in the Atlantic Forest</head><p>With the sole exceptions of observed heterozygosity (H o ) and inbreeding coefficient (F is ), summary statistics indicated that the Amazon rainforest sustains one of the most diverse jaguar populations in South America, as inferred from its comparison to the Atlantic Forest and the Pantanal populations (Table <ref type="table">2</ref>). It is expected that this pattern holds range-wide since previous studies have shown lower variability levels in other peripheral biomes not assessed in this study, such as the Caatinga in Brazil, Mesoamerican forests, and subtropical Mexico <ref type="bibr" target="#b68">(Roques et al., 2016;</ref><ref type="bibr">Wultsch et al., 2016a</ref><ref type="bibr" target="#b93">Wultsch et al., , 2016b))</ref>. This assertion is supported by the levels of diversity reported by <ref type="bibr" target="#b68">Roques et al. (2016)</ref> for the Amazon [H e (0.805) and H o (0.848)], which were higher than those of other populations, except for the central-range Cerrado biome. Gene diversity level was similar to the value documented in this study [H e (0.76)], although direct comparisons are hampered by the fact that different loci were employed in each assessment. Likewise, our diversity estimates are higher than those reported for the tropical rainforest in Belize (H e = 0.57; H o = 0.57) by <ref type="bibr" target="#b93">Wultsch et al. (2016b)</ref>, but again the set of loci is different, precluding a more direct comparison. The higher F is and lower H o values are the result of several closely related individuals, consistent in two parent-offspring dyads, three full-sibling dyads, and one full-sibling triad detected in the Amazon population (Supporting information Appendix S1).</p><p>An interesting observation was that the Atlantic forest as a whole still retain genetic diversity levels similar to those in the Pantanal, but the most isolated subpopulation (Morro do Diabo) showed even lower values (H o = 0.55; H e = 0.50; <ref type="bibr" target="#b33">Haag et al., 2010)</ref> than those documented for Belize. It is remarkable that the heavily fragmented Atlantic Forest demes retain, altogether, rather high levels of diversity, likely representing a large portion of their historic variability share. However, jaguars in this highly fragmented region are under a metapopulational dynamic, where each remaining population is subject to genetic stochastic effects <ref type="bibr" target="#b17">(Dixon et al., 2007)</ref>, losing its variability by drift and even being at risk of local extirpation <ref type="bibr" target="#b41">(Jędrzejewski et al., 2017;</ref><ref type="bibr" target="#b84">Thatte al., 2018)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">High connectivity in the Amazon</head><p>All the metrics were consistent in showing large-scale demographic connectivity encompassing thousands of kilometres across the Amazon basin. As a result, we infer that the lack of population subdivision in this vast region implies far-reaching amounts of gene flow throughout the landscape. A significant signal of IBD was detected from 0 to 150 km, and this pattern is expected as the individuals are more closely related in shorter distances, with genetic relatedness gradually fading away <ref type="bibr" target="#b94">(Zanin et al., 2016)</ref>. The extent of the genetic neighbourhood, where genetic correlation is negatively associated with distance, was estimated to lie between 300 and 400 km (Fig. <ref type="figure" target="#fig_3">4</ref>). This seems biologically reasonable in terms of the high vagility and social organization of jaguars (i.e. one male overlapping the home range of three or more females), especially in a continuous, productive habitat such as the Amazon. Similar results were reported for tigers in the Sundarbans <ref type="bibr" target="#b4">(Aziz et al., 2018)</ref>.</p><p>Our results could represent one of the few possible snapshots of large-scale jaguar population connectivity before severe human intervention, illustrating the occurrence of historical panmixia throughout the tropical forested biomes across the species' range, from the Atlantic Forest in southeastern South America to the Mayan forest in Mesoamerica. Local discontinuities may occur in areas such as the Pantanal, perhaps driven by adaptive differentiation in ecological and/ or behavioural traits <ref type="bibr">(Figueiró et al., unpublished)</ref>, but much of the interruption of long-range gene flow observed in recent studies is likely to have been exacerbated by human-driven drift. In this sense, <ref type="bibr">Wultsch et al. (2016a)</ref> found signals of interruption of panmixia in northern Central America, between the Mayan forest, which is the largest tract of Neotropical rainforest outside of the Amazon, and the Honduran population, probably due to a drastic habitat loss between these two regions. In this context, it is extremely important to maintain the connectivity in the Amazon, as large-scale deforestation is advancing in the southern limits of the biome. Projections indicate that by 2050, the Amazon will lose 40% of its area, and the protected areas network will not be sufficient to fully protect its biodiversity <ref type="bibr" target="#b77">(Soares-Filho et al., 2006)</ref>, as deforestation, poaching, and illegal fishing and mining continue as the main threats <ref type="bibr" target="#b46">(Kauano et al., 2017)</ref>. Reversing this trend and maintaining large-scale connectivity across this biome will be critical not only for jaguars <ref type="bibr" target="#b74">(Silveira et al., 2014)</ref> but also for many other components of Amazonian biodiversity <ref type="bibr" target="#b49">(Lees and Peres, 2008)</ref>.</p><p>In spite of their high vagility, jaguars may be more vulnerable than other species to human-induced fragmentation. For example, <ref type="bibr" target="#b25">Figueiredo et al. (2015)</ref> identified no genetic structure between ocelots (Leopardus pardalis) sampled at Morro do Diabo and the Green Corridor, contrasting with the pattern observed in jaguars, suggesting that the latter are more sensitive to genetic erosion driven by anthropic disturbance. A likely explanation is that ocelots possess larger effective population sizes (due to smaller body size and higher density) in the same area, thus taking longer to show the effects of genetic drift. An additional possibility is that ocelots are more capable of navigating through the human-dominated matrix <ref type="bibr" target="#b95">(Zimbres et al., 2018)</ref>, maintaining gene flow across fragments in a way that jaguars no longer can. A similar trend was reported for ocelots, pumas, and jaguars in Belize <ref type="bibr" target="#b93">(Wultsch et al., 2016b)</ref>, as ecological and behavioural differences among these species could determine the potential and effective amounts of gene flow among populations. However, this pattern also seems to be dependent on the time elapsed since habitat perturbation and its intensity, as well as habitat productivity. Ocelots occurring in southern Texas, on the northern limit of their range, where two subpopulations occur in small blocks of semiarid habitat isolated from each other by approximately 30 km of cropland matrix, show small N e (&lt; 14) and high differentiation (F st = 0.163; <ref type="bibr" target="#b38">Janečka et al., 2011)</ref>. In general, top predators are very sensitive to habitat perturbation <ref type="bibr" target="#b20">(Dutta et al., 2012)</ref>, but this sensitivity can be attenuated by differences in ecosystem productivity <ref type="bibr" target="#b41">(Jędrzejewski et al., 2017)</ref> and their natural recolonization capability <ref type="bibr" target="#b52">(Malaney et al., 2018)</ref>.  (1) -Parametric.</p><p>(2) -Jackknife on samples (individuals).</p><p>(3) -Jackknife on loci. MAF -Minor allele frequency. Inf -Infinity. a NeEstimator v2.1 <ref type="bibr" target="#b18">(Do et al., 2014)</ref>. b LDNe v.1.31 <ref type="bibr" target="#b89">(Waples and Do, 2008</ref> This situation also raises the question about restoring connectivity of landscapes subjected to heavy anthropic perturbation, such as the Atlantic Forest <ref type="bibr" target="#b65">(Ribeiro et al., 2009;</ref><ref type="bibr" target="#b74">Silveira et al., 2014)</ref>, and constitutes a warning about the negative effects of fragmentation that could occur in less disturbed regions such as the Pantanal, whose extent is much smaller than that of the Amazon. For example, the coastal Vale population still retains some of the shared diversity present in the inner portion of the Atlantic Forest (i.e. Green Corridor), likely represented by ancestral alleles. However, its size and degree of isolation make it almost impossible to maintain gene flow with other coastal subpopulations persisting in that biome, such as that described by <ref type="bibr" target="#b79">Souza et al. (2017)</ref>, or in nearby biomes such as the Cerrado and Caatinga. This strengthens the previous evidence indicating that the marked change in allele frequencies in the inland populations of that biome has caused a genetic differentiation that reflects its contemporary, fast degradation <ref type="bibr" target="#b33">(Haag et al., 2010;</ref><ref type="bibr" target="#b87">Valdez et al., 2015)</ref>. In fact, the magnitude of the deforestation rates in the Atlantic Forest implies that very few jaguar demes are left in that biome <ref type="bibr" target="#b58">(Paviolo et al., 2016)</ref> other than those surveyed by <ref type="bibr" target="#b33">Haag et al. (2010)</ref>, <ref type="bibr" target="#b79">Souza et al. (2017), and</ref><ref type="bibr" target="#b80">Srbek-Araujo et al. (2018)</ref>, and has already propitiated defaunation and cascade effects across the region <ref type="bibr" target="#b43">(Jorge et al., 2013)</ref>. Thus, management actions such as restoring connectivity through riparian and mountainous corridors are urgently needed <ref type="bibr" target="#b7">(Castilho et al., 2015)</ref>, using spatially-explicit approaches on gene flow <ref type="bibr" target="#b64">(Reddy et al., 2017)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Effective population size</head><p>N e bears major relevance for conservation biology and thus deserves careful examination and cross-validation before being applied in any practical context. We recognize that its estimation requires the fulfilment of several assumptions, namely closed populations, loci sampled at random, no population subdivision and non-overlapping generations <ref type="bibr" target="#b51">(Luikart et al., 2010)</ref>. We consider that our analyses have complied with these assumptions except for non-overlapping generations and population closure, as we were constrained by a relatively small overall sample over a huge area, which is typical for an elusive, wide-ranging carnivore such as the jaguar. In addition, our sample was slightly skewed towards males (see Table <ref type="table" target="#tab_0">S1</ref>), which could potentially influence N e estimates. Hence, we highlight the following caveats. On the one hand, given the vast extension of the Amazon rainforest and the fact that our sampling was still sparse in some areas, it is possible that the point estimate for the effective population size we calculated for this region represents an underestimate. This issue has been identified when calculating N e using linkage disequilibrium estimators <ref type="bibr" target="#b88">(Wang, 2005;</ref><ref type="bibr" target="#b90">Waples and Do, 2010)</ref>, as this method has a better performance when population size is small, as is the case for the Atlantic Forest in our assessment. Also, our inference that the Amazon population approaches panmixia indicates that our sample may be sufficiently representative of the biome as a whole to allow an inference of its overall effective size. On the other hand, we stress that, for management purposes, caution is needed to avoid over-optimism based on our estimates, which exhibited a large variance. Such over-optimism could hamper ongoing and future conservation actions, and thus we advocate the use of Ne and Nc (census size) figures on the lower end of our estimates (or more specifically, the SPEED-NE approximation) for the Amazon and the Pantanal populations. In that way, one would reduce the risks associated with potential biases induced by factors such as panmixia violations, skewed sex ratios, or initial DNA sample quality, which could cause estimates being higher than the true N e <ref type="bibr" target="#b51">(Luikart et al., 2010)</ref>. Further studies using high throughput sequencing techniques and hundreds or thousands of genomic markers (SNPs) in a large set of individuals per population should help improve the precision and robustness of such estimates.</p><p>It is interesting to note that estimates of Amazonian jaguar census size based on other lines of evidence, such as hunting records (e.g. <ref type="bibr" target="#b1">Antunes et al., 2016)</ref>, may suggest the existence of a larger population in this region, relative to our extrapolation based on the effective size. One possible factor leading to this potential difference is the fact the effective size is very sensitive to demographic fluctuations over time <ref type="bibr" target="#b26">(Frankham, 1995)</ref>, and strongly influenced by previous periods of low population numbers. Additional research using complementary approaches will be required to reconcile these different estimates and lead to an integrated assessment of jaguar population size in the region.</p><p>In any event, our current estimate demonstrates that the Amazon sustains a much larger effective population than the other two assessed biomes, at least twice the size of the southern Pantanal's and almost eight times larger than the Atlantic Forest's. Such differences are driven by the available area in each biome, along with historical factors (such as past demographic fluctuations) and current anthropogenic disturbances. Despite the massive expanse of the Amazon basin, it is currently losing primary cover, which can lead to jaguar demographic reductions and local extirpations as the agrarian frontier continues encroaching on the rainforest. As for the Pantanal and the Atlantic Forest biomes, primary habitat currently extends over roughly equivalent areas (~100,000 km 2 ), although in the former case it constitutes a single, continuous block, while in the latter the remaining area is fragmented into thousands of small patches. Up to 80% of those patches are smaller than half a square kilometre <ref type="bibr" target="#b65">(Ribeiro et al., 2009)</ref>, which is too small to sustain even a single jaguar individual, partially explaining the very low N e (17-26) estimates for that biome. Indeed, those figures put Atlantic Forest jaguars (even when treating the biome as a single unit) below the N e = 50 threshold proposed by <ref type="bibr" target="#b27">Franklin and Frankham (1998)</ref> to avoid short-term risks due to inbreeding <ref type="bibr" target="#b72">(Rutledge et al., 2017)</ref>. Given the evidence for strong human-induced isolation among remnant Atlantic Forest populations, local effective sizes are actually much lower <ref type="bibr" target="#b33">(Haag et al., 2010;</ref><ref type="bibr" target="#b80">Srbek-Araujo et al., 2018)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5.">Concluding remarks</head><p>On the basis of the results presented here, and the need to further refine these inferences, we recommend that continuous molecular surveys (including genome-wide approaches) be performed throughout the jaguar range, addressing demographic as well as adaptive questions, and providing updated information on the genetic health of natural populations. This would help to rapidly detect changes that can further compromise the persistence of jaguars throughout their distribution, enabling improved management actions in the context of long-term conservation strategies that integrate multiple spatial scales.</p><p>We conclude by stressing the importance of maintaining connectivity regionally and across the species' range to ensure that gene flow persists within and across biomes, including those that still represent large strongholds for the species, such as the Amazon rainforest. To achieve this goal, it is critical to monitor the loss of genetic diversity driven by human-induced fragmentation and population isolation and to actively restore gene flow in some cases. In this context, it is noteworthy that rampant habitat loss is currently taking place in the southeastern Amazon across the "arc of deforestation", which represents an imminent threat (or perhaps already a reality) of gene flow interruption with adjacent biomes such as the Cerrado, Caatinga and Pantanal. Recent trends of increased deforestation and weakened enforcement of environmental protection in this region are alarming, and have been the focus of intense concern by the scientific community (e.g. <ref type="bibr" target="#b0">Abessa et al., 2019;</ref><ref type="bibr" target="#b48">Kehoe et al., 2019)</ref>. The situation in the Atlantic Forest is even more worrisome, as evidence has accumulated demonstrating that drastic habitat fragmentation takes only a few decades to induce negative effects (both genetic and demographic) on wildlife species such as jaguars. Urgent action is needed to avoid that the Amazon rainforest follows a similar path of environmental degradation in the next few decades, which could lead to disastrous effects on a global scale.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>due to strong signals of anthropic-driven drift, and recent bottlenecks in two of their demes.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Jaguar population structure in three South American biomes. The inference of genetic clusters (k) was based on the Puechmaille method using correlated allele frequencies. (a) Vertical bars represent each individual jaguar, and the colour of the bar shows the percentage of membership (Q) to the distinct clusters. (b) Spatially-explicit interpolation of admixture coefficients. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)</figDesc><graphic coords="6,72.62,57.03,449.97,493.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Regional isolation-by-distance patterns in South American jaguars. Isolation-by-distance was assessed by plotting the pairwise proportion of shared alleles calculated in GenAlEx, versus pairwise Euclidean distances (km) across the (a) Amazon, (b) Pantanal, (c) Atlantic Forest and (d) the three populations altogether.</figDesc><graphic coords="7,49.04,57.03,228.19,471.57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Correlogram showing spatial autocorrelation for Amazon jaguars. The genetic correlation coefficient (r) is plotted as a function of geographic distance across defined spatial distance classes (100 km). Dashed red lines represent upper (U) and lower (L) bounds of the null hypothesis of no spatial structure based on 10,000 random permutations. Error bars represent 95% confidence intervals for r estimates, based on 1000 bootstrap replications. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="3,69.96,57.03,455.49,364.03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Genetic diversity at 11 loci microsatellite in three populations of jaguars in South America. N number of individuals genotyped, A number of alleles, A r allelic richness, N p private alleles, H e expected heterozygosity, H o observed heterozygosity.</figDesc><table><row><cell></cell><cell cols="3">Amazon (n = 71)</cell><cell></cell><cell></cell><cell></cell><cell cols="3">Atlantic Forest (n = 68)</cell><cell></cell><cell></cell><cell></cell><cell cols="3">Pantanal (n = 51)</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">(This study)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="4">(Haag et al., 2010; Srbek-Araujo et al., 2018)</cell><cell></cell><cell></cell><cell cols="3">(Valdez et al., 2015)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Locus</cell><cell>N</cell><cell>A</cell><cell>A r</cell><cell>N p</cell><cell>H e</cell><cell>H o</cell><cell>N</cell><cell>A</cell><cell>A r</cell><cell>N p</cell><cell>H e</cell><cell>H o</cell><cell>N</cell><cell>A</cell><cell>A r</cell><cell>N p</cell><cell>H e</cell><cell>H o</cell></row><row><cell>FCA742</cell><cell>67</cell><cell>26</cell><cell>23.5</cell><cell>8.6</cell><cell>0.93</cell><cell>0.78</cell><cell>65</cell><cell>14</cell><cell>14.3</cell><cell>0.5</cell><cell>0.88</cell><cell>0.83</cell><cell>50</cell><cell>13</cell><cell>12.8</cell><cell>0.1</cell><cell>0.86</cell><cell>0.90</cell></row><row><cell>FCA723</cell><cell>66</cell><cell>9</cell><cell>7.8</cell><cell>2.1</cell><cell>0.63</cell><cell>0.52</cell><cell>66</cell><cell>7</cell><cell>6.7</cell><cell>1.0</cell><cell>0.67</cell><cell>0.48</cell><cell>48</cell><cell>7</cell><cell>6.9</cell><cell>1.9</cell><cell>0.63</cell><cell>0.67</cell></row><row><cell>FCA740</cell><cell>68</cell><cell>6</cell><cell>5.7</cell><cell>0.7</cell><cell>0.77</cell><cell>0.72</cell><cell>64</cell><cell>5</cell><cell>4.7</cell><cell>0</cell><cell>0.71</cell><cell>0.72</cell><cell>50</cell><cell>5</cell><cell>5.0</cell><cell>0</cell><cell>0.69</cell><cell>0.58</cell></row><row><cell>FCA441</cell><cell>69</cell><cell>8</cell><cell>7.9</cell><cell>1.9</cell><cell>0.80</cell><cell>0.75</cell><cell>68</cell><cell>6</cell><cell>6.0</cell><cell>0</cell><cell>0.74</cell><cell>0.59</cell><cell>48</cell><cell>7</cell><cell>6.9</cell><cell>1.0</cell><cell>0.62</cell><cell>0.52</cell></row><row><cell>FCA391</cell><cell>66</cell><cell>8</cell><cell>7.9</cell><cell>0</cell><cell>0.85</cell><cell>0.79</cell><cell>66</cell><cell>8</cell><cell>7.9</cell><cell>0.1</cell><cell>0.76</cell><cell>0.80</cell><cell>51</cell><cell>6</cell><cell>6.0</cell><cell>0</cell><cell>0.76</cell><cell>0.86</cell></row><row><cell>F98</cell><cell>71</cell><cell>5</cell><cell>4.6</cell><cell>1.6</cell><cell>0.80</cell><cell>0.69</cell><cell>67</cell><cell>4</cell><cell>4.0</cell><cell>1.0</cell><cell>0.55</cell><cell>0.60</cell><cell>50</cell><cell>3</cell><cell>3.0</cell><cell>0</cell><cell>0.66</cell><cell>0.66</cell></row><row><cell>F53</cell><cell>64</cell><cell>16</cell><cell>14.6</cell><cell>4.4</cell><cell>0.86</cell><cell>0.70</cell><cell>66</cell><cell>12</cell><cell>11.4</cell><cell>1.1</cell><cell>0.85</cell><cell>0.86</cell><cell>48</cell><cell>6</cell><cell>6.0</cell><cell>0</cell><cell>0.77</cell><cell>0.79</cell></row><row><cell>F146</cell><cell>62</cell><cell>8</cell><cell>7.2</cell><cell>2.7</cell><cell>0.42</cell><cell>0.35</cell><cell>68</cell><cell>5</cell><cell>4.7</cell><cell>0</cell><cell>0.59</cell><cell>0.54</cell><cell>48</cell><cell>3</cell><cell>3.0</cell><cell>0</cell><cell>0.30</cell><cell>0.23</cell></row><row><cell>F85</cell><cell>65</cell><cell>13</cell><cell>12.3</cell><cell>2.8</cell><cell>0.78</cell><cell>0.63</cell><cell>62</cell><cell>12</cell><cell>11.8</cell><cell>2.4</cell><cell>0.80</cell><cell>0.77</cell><cell>48</cell><cell>9</cell><cell>8.9</cell><cell>1.0</cell><cell>0.78</cell><cell>0.82</cell></row><row><cell>F42</cell><cell>65</cell><cell>13</cell><cell>12.4</cell><cell>2.5</cell><cell>0.88</cell><cell>0.72</cell><cell>58</cell><cell>9</cell><cell>8.9</cell><cell>0</cell><cell>0.77</cell><cell>0.69</cell><cell>48</cell><cell>7</cell><cell>7.9</cell><cell>0</cell><cell>0.84</cell><cell>0.85</cell></row><row><cell>FCA453</cell><cell>62</cell><cell>9</cell><cell>8.5</cell><cell>2.7</cell><cell>0.73</cell><cell>0.65</cell><cell>62</cell><cell>6</cell><cell>5.7</cell><cell>0.7</cell><cell>0.71</cell><cell>0.63</cell><cell>46</cell><cell>6</cell><cell>6.0</cell><cell>0</cell><cell>0.76</cell><cell>0.80</cell></row></table><note><p><p>p ), allelic richness (A r ), rarefied allelic richness (A f ), observed heterozygosity (H o ), expected heterozygosity (H e ), inbreeding coefficient (F is ), confidence interval 95% (CI), standard error (SE).</p>a Allelic richness rarefied to 92 gene copies (N = 46).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 3</head><label>3</label><figDesc>Fixation indices reflecting jaguar population differentiation in three South American biomes. Values above the diagonal are F st Nei, with G st Hed in parentheses; values below the diagonal are 95% confidence intervals for F st .</figDesc><table><row><cell>Population</cell><cell>Amazon</cell><cell>Pantanal</cell><cell>Atlantic Forest</cell></row><row><cell>Amazon</cell><cell>-</cell><cell>0.037 (0.124)</cell><cell>0.041 (0.149)</cell></row><row><cell>Pantanal</cell><cell>0.025-0.055</cell><cell>-</cell><cell>0.052 (0.164)</cell></row><row><cell>Atlantic Forest</cell><cell>0.032-0.064</cell><cell>0.045-0.097</cell><cell>-</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 4</head><label>4</label><figDesc>Contemporary effective population size (N e ) of jaguars estimated for three South American biomes (AM: Amazon; PA: Pantanal; AF: Atlantic Forest) based on linkage disequilibrium at 11 microsatellite loci, and extrapolated census size (N c ) based on the N e point estimates.</figDesc><table><row><cell>Population</cell><cell>Estimates</cell><cell></cell><cell>NeEstimator a</cell><cell></cell><cell>LDNe b</cell><cell></cell><cell></cell><cell>SPEED-NE c</cell><cell></cell><cell>N c d</cell></row><row><cell>(Sample size)</cell><cell></cell><cell></cell><cell>MAF 0+</cell><cell>MAF 0.01</cell><cell>MAF 0+</cell><cell>MAF 0.01</cell><cell></cell><cell>MAF 0+</cell><cell>MAF 0.01</cell><cell>(Range)</cell></row><row><cell>AM</cell><cell>Point estimate</cell><cell>N e</cell><cell>115.2</cell><cell>724.4</cell><cell>119.2</cell><cell>887.7</cell><cell></cell><cell>278.9</cell><cell>278</cell><cell>1152</cell><cell>8877</cell></row><row><cell>(n = 64)</cell><cell>95% CIs</cell><cell>(1)</cell><cell>87.3-164.1</cell><cell>241.4-inf</cell><cell>89.6-172.2</cell><cell>257.4-inf</cell><cell>(3)</cell><cell>116.4-inf</cell><cell>116.3-inf</cell><cell></cell></row><row><cell></cell><cell></cell><cell>(2)</cell><cell>43.2-inf</cell><cell>133.9-inf</cell><cell>62.2-499.3</cell><cell>183.6-inf</cell><cell>(2)</cell><cell>192.9-503.8</cell><cell>192.4-500.8</cell><cell></cell></row><row><cell>PA</cell><cell>Point estimate</cell><cell>N e</cell><cell>79.8</cell><cell>79.8</cell><cell>81.2</cell><cell>81.2</cell><cell></cell><cell>49.9</cell><cell>50.5</cell><cell>499</cell><cell>812</cell></row><row><cell>(n = 51)</cell><cell>95% CIs</cell><cell>(1)</cell><cell>53.3-141.4</cell><cell>53.3-141.4</cell><cell>54.0-145.6</cell><cell>54.0-145.6</cell><cell>(3)</cell><cell>43.3-58.9</cell><cell>43.8-59.6</cell><cell></cell></row><row><cell></cell><cell></cell><cell>(2)</cell><cell>41.8-291.4</cell><cell>41.8-291.4</cell><cell>48.4-189.0</cell><cell>48.4-189.0</cell><cell>(2)</cell><cell>44.1-57.5</cell><cell>44.5-58.3</cell><cell></cell></row><row><cell>AF</cell><cell>Point estimate</cell><cell>N e</cell><cell>26.1</cell><cell>20.4</cell><cell>26.2</cell><cell>20.5</cell><cell></cell><cell>16.9</cell><cell>16.9</cell><cell>169</cell><cell>262</cell></row><row><cell>(n = 68)</cell><cell>95% CIs</cell><cell>(1)</cell><cell>22.6-30.3</cell><cell>17.8-23.5</cell><cell>22.7-30.4</cell><cell>17.8-23.6</cell><cell>(3)</cell><cell>14.3-20.73</cell><cell>14.3-20.73</cell><cell></cell></row><row><cell></cell><cell></cell><cell>(2)</cell><cell>17.2-41.6</cell><cell>13.8-30.9</cell><cell>22.7-30.4</cell><cell>17.9-23.5</cell><cell>(2)</cell><cell>15.8-18.2</cell><cell>15.8-18.2</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>GL, LH and <rs type="funder">EE</rs> acknowledge <rs type="funder">CNPq/Brazil</rs> for financial support. This study was financed in part by the <rs type="funder">Coordenação de Aperfeiçoamento de Pessoal de Nivel Superior -Brasil (CAPES)</rs> -Finance Code 001. We thank <rs type="institution">Centro de Instrução de Guerra na Selva (CIGS)</rs> and <rs type="institution">IBAMA-Manaus</rs> for providing access to biological material from the animals present in these institutions. We also thank <rs type="person">Benoit de Thoisy</rs>, <rs type="person">Gervásio S. Carvalho</rs>, <rs type="person">Tania Sanaiotti</rs>, <rs type="person">Gislene Vilara</rs>, <rs type="person">Maria da Conceição Santos</rs>, <rs type="person">Julia Verba</rs>, <rs type="person">Waleska Gravena</rs> and <rs type="person">Valéria Machado</rs> for contributing samples collected during the course of their fieldwork. EE, <rs type="person">T. Hrbek</rs> and IPF were supported by a <rs type="funder">CNPq</rs> <rs type="grantName">Research Productivity Scholarship</rs> (PQ) during the course of this study.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_6SnBvhP">
+					<orgName type="grant-name">Research Productivity Scholarship</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data accessibility statement</head><p>Part of the data used in this paper has been published previously <ref type="bibr" target="#b33">(Haag et al., 2010;</ref><ref type="bibr" target="#b87">Valdez et al., 2015;</ref><ref type="bibr" target="#b80">Srbek-Araujo et al., 2018)</ref>. Two of these previous data sets have been deposited in the Dryad digital repository (<ref type="url" target="https://doi.org/10.5061/dryad.1884/1">https://doi.org/10.5061/dryad.1884/1</ref>; <ref type="url" target="https://doi.org/10.5061/dryad.371c6">https://doi.org/ 10.5061/dryad.371c6</ref>). The third previous data set <ref type="bibr" target="#b80">(Srbek-Araujo et al., 2018)</ref> and the novel data reported here have been deposited in the Mendeley Data Repository (DOI: doi:10.17632/gdf5fj7f2s.1; DOI: 10.17632/nwdm9f9rrj.2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary data</head><p>Supplementary data to this article can be found online at <ref type="url" target="https://doi.org/10.1016/j.biocon.2020.108417">https:// doi.org/10.1016/j.biocon.2020.108417</ref>.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The systematic dismantling of Brazilian environmental laws risks losses on all fronts</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Abessa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Famá</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Buruaem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Ecology &amp; Evolution</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="510" to="511" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Empty forest or empty rivers? A century of commercial hunting in Amazonia</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Antunes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Fewster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Venticinque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Peres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Levi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rohe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Shepard</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">1600936</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Familia Felidae</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Aprile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cuyckens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>De Angelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Di Bitetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lucherini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Muzzachiodi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Soler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Libro rojo de mamíferos amenazados de la Argentina. Sociedad Argentina para el Estudio de los Mamíferos (SAREM)</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Ojeda</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">V</forename><surname>Chillo</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Diaz Isenrath</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Mendoza</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="92" to="101" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">strataG: an R package for manipulating, summarizing and analyzing population genetic data</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">I</forename><surname>Archer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Schneiders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="5" to="11" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Do rivers influence fine-scale population genetic structure of tigers in the Sundarbans?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Aziz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tollington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Islam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Groombridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1137" to="1151" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The jaguar in the Atlantic Forest</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beisiegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Moraes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cat News Spec</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="14" to="18" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Panthera onca. In: The IUCN Red List of threatened species 2008: e.T15953A5327466</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lopez-Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Payan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eizirik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>De Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Leite-Pitman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Valderrama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008-10-15">2008. 15 October 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Evaluating landscape connectivity for Puma concolor and Panthera onca among Atlantic forest protected areas</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Castilho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Hackbart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Pivello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Santos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Manag</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1377" to="1389" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The status of the jaguar in the Pantanal</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M C</forename><surname>Cavalcanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C C</forename><surname>Azevedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Tomás</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L P</forename><surname>Boulhosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jr</forename><forename type="middle">P G</forename><surname>Crawshaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cat News Spec</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="29" to="34" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Assessing population structure and gene flow in Montana wolverines (Gulo gulo) using assignment-based approaches</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Cegelski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2907" to="2918" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Bayesian clustering algorithms ascertaining spatial population structure: a new computer program and a comparison study</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Durand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Forbes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>François</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Notes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="747" to="756" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">StrAuto: automation and parallelization of STRUCTURE analysis</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Chhatre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Emerson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">192</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Mammal conservation in Brazil</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L R</forename><surname>Leite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mendes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Ditchfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="672" to="679" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Relative sensitivities of mammalian carnivores to habitat fragmentation</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Crooks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Biol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="488" to="502" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The jaguar&apos;s spots are darker than they appear: assessing the global conservation status of the jaguar Panthera onca</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>De La Torre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>González-Maya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zarza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ceballos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Medellín</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oryx</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="300" to="315" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Red List assessment of the jaguar in Brazilian Amazonia</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>De Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Ramalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>De Paula</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cat News Spec</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="8" to="13" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Defaunation in the Anthropocene</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dirzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Galetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ceballos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J B</forename><surname>Isaac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Collen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page" from="401" to="406" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Genetic consequences of habitat fragmentation and loss: the case of the Florida black bear (Ursus americanus floridanus)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Oli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Wooten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Eason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Mccown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Cunningham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="455" to="464" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">NeEstimator v2: re-implementation of software for the estimation of contemporary effective population size (Ne) from genetic data</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Do</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Peel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Macbeth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Tillett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Ovenden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="209" to="214" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A century of decline: loss of genetic diversity in a southern African lion-conservation stronghold</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Dures</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carbone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Loveridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Maude</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Midlane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Aschenborn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gottelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Divers. Distrib</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="870" to="879" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Fine-scale population genetic structure in a wide-ranging carnivore, the leopard (Panthera pardus fusca) in central India</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dutta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Maldonado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Panwar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seidensticker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Divers. Distrib</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="760" to="771" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Phylogeography, population history and conservation genetics of jaguars (Panthera onca, Mammalia, Felidae)</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eizirik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Menotti-Raymond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Crawshaw</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>O'brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="65" to="79" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m">Endangered Species Act (ESA)</title>
+		<imprint>
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">U.S.C. Sections</title>
+		<imprint>
+			<biblScope unit="page" from="1531" to="1544" />
+			<date type="published" when="1973-12-28">December 28, 1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Density-dependent natal dispersal patterns in a leopard population recovering from over-harvest</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fattebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Balme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dickerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Slotow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hunter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">122355</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Lack of population genetic structuring in ocelots (Leopardus pardalis) in a fragmented landscape</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Figueiredo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cervini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eizirik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Azevedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cullen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Galetti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diversity</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="295" to="306" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Effective population size/adult population size ratios in wildlife: a review</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Frankham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genet. Res</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="95" to="107" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">How large must populations be to retain evolutionary potential?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Franklin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Frankham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="69" to="73" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A multi-region assessment of tropical forest biodiversity in a human-modified world</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Sodhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Peres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="2293" to="2300" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Recommendations for utilizing and reporting population genetic analyses: the reproducibility of genetic clustering using the program STRUCTURE</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Andrew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Bock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Franklin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Kane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Vines</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="4925" to="4930" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Philopatry and dispersal patterns in tiger (Panthera tigris)</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Gour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bhagavatula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bhavanishankar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shivaji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">66956</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Performing the exact test of Hardy-Weinberg proportion for multiple alleles</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="361" to="372" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Development and testing of an optimized method for DNA-based identification of jaguar (Panthera onca) and puma (Puma concolor) faecal samples for use in ecological and genetic studies</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Haag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>De Angelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Srbek-Araujo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Sana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Morato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Salzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eizirik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetica</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="505" to="512" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The effect of habitat fragmentation on the genetic structure of a top predator: loss of diversity and high differentiation among remnant populations of Atlantic Forest jaguars (Panthera onca)</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Haag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Morato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cullen</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Crawshaw</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eizirik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="4906" to="4921" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">SPEED-NE: software to simulate and estimate genetic effective population size (N e ) from linkage disequilibrium observed in single samples</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tartakovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Battocletti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="714" to="728" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A standardized genetic differentiation measure</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hedrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evolution</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="1633" to="1638" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Bringing genetic diversity to the forefront of conservation policy and management</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Hoban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hauffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Perez-Espona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Arntzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bertorelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bryja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet. Resour</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="593" to="598" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">CLUMPP: a cluster matching and permutation program for dealing with label switching and multimodality in analysis of population structure</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jakobsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Rosenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1801" to="1806" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Reduced genetic diversity and isolation of remnant ocelot populations occupying a severely fragmented landscape in southern Texas</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Janečka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Tewes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Laack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Grassman</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Haines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Honeycutt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="608" to="619" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The K=2 conundrum</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Janes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Dupuis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Malenfant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Gorrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Cullingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Andrew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="3594" to="3602" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Forecasting changes in population genetic structure of alpine plants in response to global warming</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Manel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Alvarez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Y</forename><surname>Durand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Thuiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Holderegger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>François</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="2354" to="2368" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Predicting carnivore distribution and extirpation rate based on human impacts and productivity factors; assessment of the state of jaguar (Panthera onca) in Venezuela</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jędrzejewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">O</forename><surname>Boede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abarca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sánchez-Mercado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Ferrer-Paris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lampo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">206</biblScope>
+			<biblScope unit="page" from="132" to="142" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">adegenet: a R package for the multivariate analysis of genetic markers</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jombart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1403" to="1405" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Mammal defaunation as surrogate of trophic cascades in a biodiversity hotspot</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L S</forename><surname>Jorge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Galetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M P</forename><surname>Ferraz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">163</biblScope>
+			<biblScope unit="page" from="49" to="57" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">HP-Rare: a computer program for performing rarefaction on measures of allelic diversity</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Kalinowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Notes</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="187" to="189" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">ML-Relate: a computer program for maximum likelihood estimation of relatedness and relationship</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Kalinowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Taper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Notes</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="576" to="579" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Illegal use of natural resources in federal protected areas of the Brazilian Amazon</title>
+		<author>
+			<persName><forename type="first">É</forename><surname>Kauano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Michalski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">3902</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">diveRsity: an R package for the estimation and exploration of population genetics parameters and their associated errors</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Keenan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcginnity</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Cross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Crozier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Prodöhl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="782" to="788" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Make EU trade with Brazil sustainable</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kehoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Reis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Virah-Sawmy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balmford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kuemmerle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page">341</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>604 signatories</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Conservation value of remnant riparian forest corridors of varying quality for Amazonian birds and mammals</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Peres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Biol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="439" to="449" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">StructureSelector: a web based software to select and visualize the optimal number of clusters using multiple methods</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">X</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="176" to="177" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Estimation of census and effective population sizes: the increasing usefulness of DNA-based approaches</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ryman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Tallmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Allendorf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="355" to="373" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Natural rewilding of the Great Basin: genetic consequences of recolonization by black bears (Ursus americanus)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Malaney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Lackey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Beckmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Matocq</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Divers. Distrib</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="168" to="178" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">The detection of disease clustering and a generalized regression approach</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mantel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="209" to="220" />
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Gene flow and population structure of a solitary top carnivore in a humandominated landscape</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Mcmanus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Dalton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kotze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Smuts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dickman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Keith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="335" to="344" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Demographic loss, genetic structure and the conservation implications for Indian tigers</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mondol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Ramakrishnan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="issue">1762</biblScope>
+			<biblScope unit="page">20130496</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Biodiversity hotspots for conservation priorities</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Mittermeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Mittermeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A B</forename><surname>De Fonseca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">403</biblScope>
+			<biblScope unit="page" from="853" to="858" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Conservation units, priority areas and dispersal corridors for jaguars in Brazil</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nijhawan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cat News Spec</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="43" to="47" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">A biodiversity hotspot losing its top predator: The challenge of jaguar conservation in the Atlantic Forest of South America</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paviolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>De Angelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Ferraz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Morato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pardo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Srbek-Araujo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Azevedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">37147</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">GenAIEx 6.5: genetic analysis in Excel. Population genetic software for teaching and research-an update</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Smouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">2537</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">BOTTLENECK: a computer program for detecting recent reductions in the effective population size using allele frequency data</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Piry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Cornuet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Hered</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="502" to="503" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Inference of population structure using multilocus genotype data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Pritchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stephens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Donnelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="945" to="959" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The program STRUCTURE does not reliably recover the correct population structure when sampling is uneven: subsampling and new estimators alleviate the problem</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Puechmaille</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="608" to="627" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Fragmentation genetics of rainforest animals: insights from recent studies</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Radespiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="245" to="260" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Tiger abundance and gene flow in Central India are driven by disparate combinations of topography and land cover</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Cushman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Srivastava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shivaji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Divers. Distrib</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="863" to="874" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">The Brazilian Atlantic Forest: how much is left, and how is the remaining forest distributed? Implications for conservation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Metzger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Martensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Ponzoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Hirota</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="1141" to="1153" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Do species conservation assessments capture genetic diversity?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Rivers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Brummitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Lughadha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Meagher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Ecology and Conservation</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="81" to="87" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Rodríguez-Mahecha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alberico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Trujillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jorgenson</surname></persName>
+		</author>
+		<title level="m">Libro rojo de los mamíferos de Colombia</title>
+		<meeting><address><addrLine>Bogotá</addrLine></address></meeting>
+		<imprint>
+			<publisher>Conservación Internacional Colombia</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Effects of habitat deterioration on the population genetics and conservation of the jaguar</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jácomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tôrres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chávez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Palomares</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="125" to="139" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">genepop&apos;007: a complete re-implementation of the genepop software for Windows and Linux</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rousset</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="103" to="106" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Dispersal promotes high gene flow among Canada lynx populations across mainland North America</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Row</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gomez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Koen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bowman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1259" to="1268" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">DNA microsatellite characterization of the jaguar (Panthera onca) in Colombia</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruiz-Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Payán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Murillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Alvarez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genes &amp; Genetic Systems</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="115" to="127" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Patchy distribution and low effective population size raise concern for an at-risk top predator</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Rutledge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Desy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Fryxell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Middel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Patterson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Divers. Distrib</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="79" to="89" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title/>
+		<idno>NOM-059-SEMARNAT-2010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diario Oficial de la Federación (DOF)</title>
+		<imprint>
+			<publisher>Norma Oficial Mexicana</publisher>
+			<pubPlace>México</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">The potential for large-scale wildlife corridors between protected areas in Brazil using the jaguar as a model species</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Jácomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Diniz Filho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Tôrres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Landsc. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1213" to="1223" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Serial founder effects during range expansion: a spatial analog of genetic drift</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Slatkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Excoffier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="171" to="181" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">The role of dispersal in structuring the Chitwan tiger population</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L D</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behaviour</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="165" to="195" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Modelling conservation in the Amazon basin</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Soares-Filho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Nepstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Curran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Cerqueira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schlesinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">440</biblScope>
+			<biblScope unit="page">520</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Jaguar conservation in Brazil: the role of protected areas</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Tôrres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Silveira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cat News Spec</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="15" to="20" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Re-discovering jaguar in remaining coastal Atlantic Forest in southeastern Brazil by non-invasive DNA analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S M D C</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Saranholi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Crawshaw</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Paviolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Rampim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sartorello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Galetti</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biota Neotropica</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">20170358</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Worrisome isolation: noninvasive genetic analyses shed light on the critical status of a remnant jaguar population</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Srbek-Araujo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Haag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Chiarello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Salzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eizirik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mammal</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="397" to="407" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Challenges and opportunities for biodiversity conservation in the Brazilian Atlantic Forest</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tabarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Pinto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hirota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bedê</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="695" to="700" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Genetic structure in large, continuous mammal populations: the example of brown bears in northwestern Eurasia</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tammeleht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Remm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Korsten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Davison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tumanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saveljev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Saarma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="5359" to="5370" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Assessment of genetic diversity, population structure, and gene flow of tigers (Panthera tigris tigris) across Nepal&apos;s Terai Arc Landscape</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thapa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Manandhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bista</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shakya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dhakal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Karmacharya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">193495</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Maintaining tiger connectivity and minimizing extinction into the next century: insights from landscape genetics and spatially-explicit simulations</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thatte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vaidyanathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Landguth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Ramakrishnan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">218</biblScope>
+			<biblScope unit="page" from="181" to="191" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Assessing the umbrella value of a range-wide conservation network for jaguars (Panthera onca)</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Thornton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zeller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rondinini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Crooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Burdett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Quigley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1112" to="1124" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">The numbers of the beast: valuation of jaguar (Panthera onca) tourism and cattle depredation in the Brazilian Pantanal</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Tortato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Izzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hoogesteijn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Peres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Ecology and Conservation</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="106" to="114" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Population genetics of jaguars (Panthera onca) in the Brazilian Pantanal: molecular evidence for demographic connectivity on a regional scale</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Valdez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Haag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Azevedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Cavalcanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Salzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eizirik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Hered</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="503" to="511" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Estimation of effective population sizes from data on genetic markers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Transactions of the Royal Society B: Biological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">360</biblScope>
+			<biblScope unit="page" from="1395" to="1409" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">LDNE: a program for estimating effective population size from data on linkage disequilibrium</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Do</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="753" to="756" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Linkage disequilibrium estimates of contemporary N e using highly variable genetic markers: a largely untapped resource for applied conservation and evolution</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Do</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evol. Appl</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="244" to="262" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Techniques for application of faecal DNA methods to field studies of Ursids</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Wasser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Houston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Koehler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Cadd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Fain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1091" to="1097" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Genetic diversity and population structure of Mesoamerican jaguars (Panthera onca): implications for conservation and management</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wultsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caragiulo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dias-Freedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Quigley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rabinowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Amato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">162377</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">A comparative analysis of genetic diversity and structure in jaguars (Panthera onca), pumas (Puma concolor), and ocelots (Leopardus pardalis) in fragmented landscapes of a critical Mesoamerican linkage zone</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wultsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">151043</biblScope>
+			<date type="published" when="2016">2016b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Gene flow and genetic structure of the puma and jaguar in Mexico</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Adrados</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chávez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Palomares</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="461" to="469" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Thresholds of riparian forest use by terrestrial mammals in a fragmented Amazonian deforestation frontier</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zimbres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Peres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Penido</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Machado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biodivers. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="2815" to="2836" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

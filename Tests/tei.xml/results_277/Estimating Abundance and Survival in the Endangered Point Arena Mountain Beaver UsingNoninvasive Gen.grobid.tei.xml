@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Estimating Abundance and Survival in the Endangered Point Arena Mountain Beaver Using Noninvasive Genetic Methods</title>
+				<funder>
+					<orgName type="full">Pacific Southwest Research Station, USDA Forest Service</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">California Department of Fish and Game</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Olympia Field Station, USDA, APHIS</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">William</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+							<email>bzielinski@fs.fed.us</email>
+						</author>
+						<author>
+							<persName><forename type="first">Fredrick</forename><forename type="middle">V</forename><surname>Schlexer</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">Luke</forename><surname>George</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kristine</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Wildlife</orgName>
+								<orgName type="institution" key="instit1">USDA Forest Service</orgName>
+								<orgName type="institution" key="instit2">Pacific Southwest Research Station</orgName>
+								<address>
+									<postCode>95521</postCode>
+									<settlement>Arcata</settlement>
+									<region>California</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Humboldt State University</orgName>
+								<address>
+									<postCode>95521</postCode>
+									<settlement>Arcata</settlement>
+									<region>California</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">USDA Forest Service</orgName>
+								<orgName type="institution" key="instit2">Rocky Mountain Research Station</orgName>
+								<address>
+									<postCode>59801</postCode>
+									<settlement>Missoula</settlement>
+									<region>Montana</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Estimating Abundance and Survival in the Endangered Point Arena Mountain Beaver Using Noninvasive Genetic Methods</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FBD97117A03684B3525347AFC192BDF9</idno>
+					<note type="submission">Received 1 November 2012 Accepted for publication 12 January 2012</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Point Arena mountain beaver</term>
+					<term>Aplodontia rufa nigra</term>
+					<term>California</term>
+					<term>abundance</term>
+					<term>demography</term>
+					<term>survival</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The Point Arena mountain beaver (Aplodontia rufa nigra) is federally listed as an endangered subspecies that is restricted to a small geographic range in coastal Mendocino County, California. Management of this imperiled taxon requires accurate information on its demography and vital rates. We developed noninvasive survey methods, using hair snares to sample DNA and to estimate abundance and survival at two sites, Kinney Beach and Alder Creek, within Manchester State Park. We extracted DNA and genotyped 371 hair samples resulting in the identification of a total of 54 individuals during annual sampling from 2006-2009. Estimated population numbers were small, ranging from 9-18 individuals at Kinney Beach and 14-18 individuals at Alder Creek. Neither location demonstrated a trend in abundance over the 4-year sample period. There was weak support (evidence ratio 2.15) for higher apparent survival probabilities at Alder Creek (0.75) than Kinney Beach (0.59) and no support for time or site effects on recruitment. Recruitment ranged from 0.25 to 0.46 and was highest during the same interval (2007)(2008)) at both locations. The time series of estimates from 2006-2009 does not suggest that abundance at either study site is declining; while reassuring, concern still remains due to low total numbers at this, one of the few protected sites for this endangered subspecies.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The Point Arena mountain beaver (Aplodontia rufa nigra; hereafter PAMB) (Figure <ref type="figure" target="#fig_0">1</ref>) is one of seven recognized subspecies <ref type="bibr" target="#b13">(Hall 1981</ref>) within the monotypic genus <ref type="bibr" target="#b42">(Taylor 1918)</ref>. It occupies a small, isolated, 85-km 2 geographic range occurring only in coastal Mendocino County, California <ref type="bibr" target="#b39">(Steele and Litman 1998)</ref>. The PAMB was listed as endangered under the US Endangered Species Act due to threats posed by land conversion and human disturbance combined with its highly restricted distribution (USDI <ref type="bibr" target="#b43">Fish and Wildlife Service 1991</ref>). Yet despite its endangered status there is little known about its ecology, demographics, or population status (i.e., <ref type="bibr" target="#b6">Camp 1918</ref><ref type="bibr" target="#b9">, Fitts 1996</ref><ref type="bibr" target="#b3">, Billig and Douglas 2007</ref><ref type="bibr" target="#b52">, Zielinski et al. 2010)</ref>, thus making conservation and recovery efforts more challenging.</p><p>Mountain beavers are semi-fossorial and herbivorous. They excavate burrow systems that include a network of tunnels along with chambers used specifically for denning, feeding, and storage of food, fecal pellets, and refuse <ref type="bibr" target="#b46">(Voth 1968</ref>). Northwest <ref type="bibr">Science, Vol. 87, No. 2, 2013 Mountain Beaver Abundance and Survival</ref> Dens are in the home burrow area <ref type="bibr" target="#b15">(Hubbard 1922)</ref> and are roughly circular chambers filled with dry vegetation formed into a nest <ref type="bibr" target="#b6">(Camp 1918</ref><ref type="bibr" target="#b19">, Martin 1971)</ref>. Mountain beavers typically occur in forest openings where the soil is moist and shrubs and herbaceous vegetation is dense <ref type="bibr" target="#b8">(Feldhamer et al. 2003)</ref>. PAMBs occur in these environments in the eastern portion of their range <ref type="bibr" target="#b3">(Billig and Douglas 2007)</ref>, but in the western portion they also commonly occur in non-forest environments of coastal shrub and herbaceous cover types <ref type="bibr" target="#b39">(Steele and Litman 1998)</ref> where structurally complex vegetation is limited <ref type="bibr">(Zielinski and</ref><ref type="bibr">Mazurek 2006, Zielinski et al. 2010)</ref>.</p><p>There has been a relatively long history of surveys and management plans pertaining to PAMBs within Manchester State Park (e.g., <ref type="bibr" target="#b10">Fitts et al. 2002)</ref> each one establishing the need for more scientific information on abundance and survival to assist in recovery. The development of new tools for conducting noninvasive genetic studies on PAMB population ecology <ref type="bibr" target="#b32">(Pilgrim et al. 2006</ref>) has made it possible to design and implement a noninvasive field method with the potential to estimate abundance, survival, and movement patterns (e.g., <ref type="bibr" target="#b34">Schwartz and Monfort 2008)</ref>. Thus our goal was to use non-invasive genetic surveys to estimate the abundance of PAMBs over multiple time intervals to assess if the abundance was increasing, stable, or decreasing <ref type="bibr" target="#b35">(Schwartz et al. 2007</ref>). We present the results of four years of genetic monitoring to estimate PAMB abundance, recruitment and survival rates at several locations in Manchester State Park, Mendocino County, California.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study Area</head><p>This study was conducted in Manchester State Park (the Park), Mendocino County, California. The Park is located on an alluvial plain formed by the Garcia River where the topography is comprised of low hills formed by stabilized sand dunes and coastal terraces. The research study was conducted in the central and northern portion of the Park (Figure <ref type="figure" target="#fig_1">2</ref>) where the vegetation is coastal scrub with limited surface water. The climate is Mediterranean maritime, with relatively cool summers (average July maximum is 18.4 °C and minimum is 9.9 °C). Winters are wet with only occasional freezing temperatures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sampling Design and Hair Collection</head><p>Other researchers have collected hair from burrowdwelling species by taking advantage of the close contact between an animal and its burrow substrate ( <ref type="bibr" target="#b37">Sloane et al. 2000</ref><ref type="bibr" target="#b47">, Walker et al. 2006</ref>). We improved upon this method by developing wire-brush hair snares inserted in the burrow wall (Figure <ref type="figure" target="#fig_2">3</ref>). Preliminary tests indicated that an optimal snare design consisted of two brushes and a piece of apple for bait <ref type="bibr" target="#b51">(Zielinski and Mazurek 2006)</ref>.</p><p>We selected the Kinney Beach (Kinney) and Alder Creek (Alder) areas of the Park as study sites (Figure <ref type="figure" target="#fig_1">2</ref>) because our previous work showed these areas to be the only Park locations with perceived densities high enough to precisely estimate abundance. Our surveys of other portions of the Park did not reveal other areas with contiguous burrow systems that were &gt; 0.25 ha. Furthermore, genetic data suggest that these sites appear to be poorly connected to other burrow areas outside the Park <ref type="bibr" target="#b53">(Zielinski et al. 2012)</ref>.</p><p>To thoroughly sample occupied areas at each study site we established a GPS-referenced, rectilinear grid of reference stakes, spaced every 15 m and oriented along the long axis of the available habitat (as understood from earlier work; <ref type="bibr" target="#b51">Zielinski and Mazurek, 2006)</ref>. Given that the average home range size is 1369 m 2 (W. <ref type="bibr">Zielinski, unpublished data)</ref> this spacing exceeds the recommended density for abundance estimation <ref type="bibr" target="#b49">(White et al. 1982)</ref>. The grid extended on each side of the long axis until we could no longer detect burrows (Figure <ref type="figure" target="#fig_3">4</ref>). Around each stake we searched for up to four burrow entrances that showed signs of recent activity (e.g., fresh dirt fans outside the entrance, well-trodden runways, and green vegetation pulled into the burrow). We marked burrow openings with small wire flags and placed two opposing hair snares in the interior burrow walls, usually 10-15 cm inside the entrance. Although each stake could reference up to a maximum of four burrows with snares, the actual number of snares installed near each stake depended on the number of burrow entrances available in the 7.5m radius around it. Our goal was to estimate and monitor abundance in each area, which meant that we increased the size of our grid in a sampling season if it was evident that the occupied area had increased in size compared to the previous year. Therefore, prior to setting the snares each year, we walked the perimeter of each study site to search for burrows to determine whether the grid needed to be extended into newly occupied areas on the margin. These field reconnaissance activities led to modest increases in the number of grid cells surveyed from one year to the next (Figure <ref type="figure" target="#fig_3">4</ref>). We never eliminated any grid cells, even if they appeared to be unoccupied; however, we did not place snares at grid points where there no longer appeared to be recent burrowing activity.</p><p>The time interval between checking the snares varied during the beginning of the first year of sampling, to reconcile the need to avoid long periods when hair samples were left in the field with the need to leave the snares in place long enough for animals to move through their burrows. In the first year only <ref type="bibr">(2006)</ref>, and only at Kinney, we surveyed in spring and began by checking snares 24-36 h after deployment, resulting in a poor success rate (9.7%; 12 hair samples collected from 124 burrows). We immediately extended the visit interval to three weeks and obtained a 44.0% success rate. However, we reduced the visit interval to 7-14 days for the next three visits because we did not want the DNA in our samples to degrade due to moisture. Each year thereafter, at both Kinney and Alder, we checked snares every 7 -10 days (Table <ref type="table" target="#tab_0">1</ref>). Thus, snares at both locations were typically set out within a two-day period and then checked three times, typically between U-shaped landscape stake to which a gun-cleaning brush was wired. A small piece of apple placed between the snares (not pictured), was also a part of the set.</p><p>September and November each year (Table <ref type="table" target="#tab_0">1</ref>).</p><p>Variations in start dates were typically due to a combination of weather and availability of field personnel. The work was conducted according to the guidelines developed by the American Society of Mammalogists for research on live animals <ref type="bibr" target="#b11">(Gannon et al. 2007</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hair Sample Sorting and Morphological Analysis</head><p>A hair sample represents the hairs pooled from both snares at a single burrow, collected during a single sampling interval. The number of hairs ranged from one to hundreds, but was typically &gt; 10. All samples were labeled in the field and placed in a silica gel indicator desiccant (Sorbead Orange or Blue to Pink, eCompressedair, Tulsa, OK) within 24h of collection, then stored in a cool, dark, airtight container. Because species other than mountain beavers use their burrows, we attempted to exclude hair from non-target species prior to laboratory analysis. Using a stereo dissecting microscope, we removed all hairs from both brushes in a single sample, discarded any extraneous vegetation or soil, and then examined the hairs for gross morphological characteristics. Using an identification key based on hair morphology <ref type="bibr" target="#b51">(Zielinski and Mazurek 2006)</ref> we determined which hairs were most likely to be from mountain beaver and subjected only these hair samples to DNA analysis. When a hair sample included more than 10 hairs, we selected 10 hairs with the most obvious and intact follicle; when there were &lt; 10 hairs we extracted DNA from them all. In each case the hair was pooled for a single DNA extraction. In doing so, we assumed that the hairs from each pair of snares were deposited by a single individual. This was A.</p><p>B. Sex determination was performed using the zinc-finger region of the X and Y-chromosomes amplifying with general mammalian primers <ref type="bibr">(García-Muro et al. 1997</ref>) and a sex specific test developed for mountain beavers <ref type="bibr" target="#b33">(Pilgrim et al. 2012)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genotype Error Checking</head><p>We detected genotyping errors using multiple approaches. First, each sample was amplified three times at each locus using a multi-tube PCR approach <ref type="bibr" target="#b41">(Taberlet et al. 1996)</ref> and scored by two independent observers. Samples that failed completely, or were inconsistent between the three amplifications, were re-extracted and re-amplified. If no additional hairs remained for re-extraction we only re-amplified all loci that failed or provided inconsistencies. Samples were culled from analysis (and considered to "fail to amplify") if after the second round of reanalysis they failed or provided inconsistent results at &gt; four loci.</p><p>Next, we conducted the EB test and the DCH test <ref type="bibr">(McKelvey and Schwartz, 2004a,b)</ref> using program <ref type="bibr">DROPOUT (McKelvey and Schwartz 2005)</ref>. Samples that only differed by one or two loci (the EB test) were re-checked for accuracy and re-amplified <ref type="bibr" target="#b36">(Schwartz et al. 2006</ref>). This process was continued until the DCH test identified no additional errors. Third, every confirmed genetic result was then spatially plotted in ArcMap (ESRI, Redlands, CA) to ensure the results were in the same study area and within about 150 m (a distance that represents the diameter of most of the home ranges; Zielinski, unpublished data) of other locations with the same genotype (similar to <ref type="bibr" target="#b38">Smith et al. 2006</ref><ref type="bibr" target="#b20">, Marucco et al. 2009</ref>). The few individuals that differed at less than 2 loci but were within about 150 m were reanalyzed. Last, we used microchecker <ref type="bibr" target="#b45">(van Oosterhout et al. 2004</ref>) to catch any additional genotyping errors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Estimating Abundance and Survival</head><p>Abundance, survival, and recruitment were estimated using a Pradel robust design model with Huggins closed captures in program MARK <ref type="bibr" target="#b48">(White and Burnham 1999)</ref>. We considered capture occurred when an individual was identified from DNA in snared hair. Robust models assume closure between secondary capture periods but allow individuals to enter and leave a population (i.e., open populations), between primary capture periods. In our case, the primary capture periods were years <ref type="bibr">2006, 2007, 2008, and 2009</ref>, and secondary capture periods were the three consecutive weekly capture occasions that occurred during the fall of each year. By using closed population estimators for abundance and open estimators for apparent survival (and a combination of these for recruitment), capture heterogeneity can be examined and, if necessary, included in the analysis. Each hair sample that was reliably genotyped was considered a capture or recapture, and we created a capture history for each individual for each primary and secondary capture period. To obtain unbiased estimates of recruitment, it generally is necessary to maintain stable study area boundaries over time <ref type="bibr" target="#b28">(Nichols et al. 2000)</ref>. However, in our case the aggregation of burrows that we sampled was isolated and the increase in the size of the study area reflected observed changes in burrow occupancy around the edges of the original study area.</p><p>Models were developed first by examining various approaches to modeling capture probability and then considering plausible models of survival and recruitment. We considered five approaches to modeling capture probabilities: variation across years (i.e., primary capture periods [t]), variation by site (i.e., Alder or Kinney), constant capture probability (.), two mixture heterogeneity (2), and two mixture heterogeneity by site (2*site). Two mixture heterogeneity refers to the possibility that there are two classes of individuals within the sampled group of animals, each with distinct capture probabilities. The two mixture heterogeneity model performed better than the other models of capture probability; the only model that performed nearly as well was the time varying capture probability model. Most studies that use noninvasive methods to identify individuals have found heterogeneity in capture probabilities <ref type="bibr" target="#b25">(Mills et al. 2000</ref><ref type="bibr" target="#b16">, Kendall et al. 2009)</ref>. As there are difficulties associated with combining estimates from heterogeneity models with other model types, we only considered models with heterogeneity in capture probabilities when modeling survival and recruitment. Because of the limited sample size, we only considered models with &lt; 10 parameters. In our initial analyses, models of apparent survival and recruitment included all combinations of time, site, and constant effects for both parameters. However, survival estimates were problematical (close to 1.0 with extremely large standard errors for the last interval) for all models that included time variation in survival and, therefore, those models were dropped from the model set. This resulted in a total of six models that were considered. Models were compared using Akaike's Information Criteria corrected for small sample size (AIC c ) <ref type="bibr" target="#b5">(Burnham and Anderson 2002)</ref>. Model averaging was used to account for model selection. Confidence intervals on N were computed using unconditional estimates of variance and adjusted for M t+1, the number of distinct animals captured. This constrains the lower confidence interval to be no lower than M t+1 <ref type="bibr">(Williams et al. 2001:304)</ref>.</p><p>Density estimates were calculated for the purpose of comparing densities in our study area with those reported for mountain beavers elsewhere. We estimated density by dividing the area of each site by the number of individuals estimated to occur there each fall. The size of each area was calculated by adding a 7.5-m buffer to the grid points at the perimeter of the grid: a distance equivalent to half the distance between grid points <ref type="bibr" target="#b7">(Dice 1938)</ref>. Variance estimates for density were computed using the delta method: var (Density) = (1/Area) 2 (var N).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sampling</head><p>Sampling from 2006-2009 resulted in the collection of 1453 total samples, 698 and 755 from Alder and Kinney, respectively (Table <ref type="table" target="#tab_0">1</ref>). A total of 371 of these samples (25.5%) provided useful PAMB DNA for genotyping, resulting in the identification of 24 and 30 unique individuals in Alder and Kinney, respectively. We used an average of 5.52 (SD = 3.49) hairs per extraction. Samples that successfully amplified used an average of 6.6 (SD = 3.2) hairs, while those that failed used 5.0 (SD = 3.5) hairs. The low success rate could be partially explained by the fact that some samples collected were not PAMB hair (i.e., hair from the Mountain Beaver Abundance and Survival brush rabbit (Sylvilagus bachmanii) minute pieces of vegetation or clothing fibers). However, a total of 32.5% and 25.7% of known PAMB samples from Alder and Kinney respectively failed to amplify sufficiently or had inadequate DNA to be genotyped (see Table <ref type="table" target="#tab_0">1</ref> for rates per year).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Descriptive Population Genetic Analyses</head><p>Our microsatellite analysis produced 25 alleles at Alder and 35 alleles at the Kinney site (range 1-3 per locus). The sample of animals from Alder had an average observed and expected heterozygosity of 0.323 (SE = 0.073) and 0.291 (SE = 0.060), respectively. Animals from Kinney had an average observed and expected heterozygosity of 0.490 (SE = 0.034), and 0.500 (SE = 0.036), respectively. F IS was -0.095 at Alder and 0.004 at Kinney. The negative F IS is consistent with general trends observed across mammals due to social structure <ref type="bibr" target="#b40">(Storz 1999)</ref>. These 13 microsatellites provided a probability of identity of 3.44 x 10 -8 and probability of identity for siblings of 4.15 x 10 -4 (Paetkau and Strobeck 1994), when we include all samples in our database, independent of the effects of genetic structure. Considering only those samples from each location the probability of identity for Alder was 3.84 x 10 -4 and the probability of identity for Kinney was 3.21 x 10 -7 . We found no evidence for gametic disequilibrium at the Alder site and the non-random association between alleles at locus A1 and C3, A12 and B8, and A104 and D101 at the Kinney site after Bonferroni corrections. Additional population genetic summary statistics, particularly in regard to substructure, can be found in <ref type="bibr" target="#b53">Zielinski et al. (2012)</ref>.</p><p>There was no evidence of preferential amplification of small alleles at any locus or evidence for large allele dropout. Sex ratios were relatively even at both Kinney and Alder (Table <ref type="table" target="#tab_0">1</ref>) and no individual was detected at both sites.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Modeling Abundance, Survival And Recruitment</head><p>No single model received strong support so models were averaged to generate parameter estimates (Table <ref type="table" target="#tab_1">2</ref>). Survival varied by site, but not time, in the top three models with parameter estimates of 0.75 for Kinney and 0.59 for Alder (Table <ref type="table" target="#tab_2">3</ref>). However, due to high model selection uncertainty, the support for a difference in survival between the sites was weak (i.e., the evidence ratio between the probability of the top model that included a site effect on survival (0.287) and the equivalent model without a site effect (0.133) was 2.51; Table <ref type="table" target="#tab_1">2</ref>). Recruitment varied by time in the top model but the AIC c value was almost identical for the second model with constant recruitment. Recruitment varied by site in the third model (Table <ref type="table" target="#tab_1">2</ref>). 1 Models names follow <ref type="bibr" target="#b17">Lebreton et al. (1992)</ref>, f varied by site (site), time (t), or was constant (.). Survival estimates were problematical for models that included phi(t) so they were dropped from the model set. A two mixture heterogeneity model was used for capture probabilities. 2 Akaike's Information Criteria corrected for small sample size.</p><p>3 Difference in AIC c from top model. 4 Model weight.</p><p>5 Number of parameters in model. 6 Model deviance Model-averaged parameter estimates of survival were higher at Alder than Kinney, for all years, but confidence intervals overlapped. Recruitment was highest at both sites during the same interval <ref type="bibr">(2007)</ref><ref type="bibr">(2008)</ref>, but the confidence intervals were large and broadly overlapped (Table <ref type="table" target="#tab_2">3</ref>). The mixture parameter and associated capture probabilities indicated that most of the individuals (57.2%; 1-Pi; Table <ref type="table" target="#tab_2">3</ref>) had a high capture probability (0.78); a sizeable minority (42.8%) had a substantially lower capture probability (0.22) (Table <ref type="table" target="#tab_2">3</ref>).</p><p>Point estimates of abundances were low with modest year-to-year variation (14-18 individuals at Alder and 9-18 individuals at Kinney) (Figure <ref type="figure" target="#fig_4">5</ref>). The confidence intervals around each estimate were such that neither site exhibited a significant trend in estimated abundance over the 4-year period (Figure <ref type="figure" target="#fig_4">5</ref>).</p><p>Densities (animals/ha) were substantially higher at Alder than at Kinney, with a mean (SE) of 14.18 (0.75) compared to 5.90 (0.68), respectively (Table <ref type="table" target="#tab_3">4</ref>). The distribution of animals at each site varied within each study area (Figure <ref type="figure" target="#fig_3">4</ref>). Animals were fairly evenly distributed across the Alder site (Figure <ref type="figure" target="#fig_3">4A</ref>). Most of the occupancy at Kinney was The same approach was used when estimating p in all models (heterogeneity in capture probabilities with two mixtures, no variation by time or location), hence there was only one estimate for p and Pi. Phi is survival from the year in the parentheses to the next year; f is recruitment from the previous year to the year listed in the parentheses. centered on a north-south oriented area (Figure <ref type="figure" target="#fig_3">4B</ref>), but during the course of our sampling over the years the northern portion of the grid became vacant. There appeared to be increased use of the southeast portion of the Kinney site near where a campground was recently removed, which was the reason that we expanded the grid slightly in the last two years.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Although we sampled the largest areas occupied by mountain beavers in the Park, our best estimates were fewer than 20 individuals at each site during each of the four years of this study. The low abundance estimates are a concern because the Kinney and Alder sites occupy a small proportion of the Park area (~4 ha of 600 ha; 0.67%) and because the Park is one of only a few protected areas within the range of the PAMB. We are also concerned because the estimate at Kinney may have decreased to a low of nine individuals in 2007. The Kinney site was included as a control in a previous five-year study to monitor burrow distribution on a nearby (&lt;500m) site. From 1992-1997, approximately 10 years prior to our work, the authors of that study believed that Kinney enjoyed an increase in burrow activity and presumably abundance <ref type="bibr" target="#b29">(Northen and Fitts 1998)</ref>.</p><p>We do not know how many individuals occurred at the Kinney site during this earlier period, but it appears that the site has been occupied since at least 1989 <ref type="bibr" target="#b39">(Steele and Litman 1998)</ref>. This low abundance estimate is consistent with an extremely small effective population size estimate (from a linkage disequilibrium estimator) of 7.7 for Kinney Beach <ref type="bibr" target="#b53">(Zielinski et al. 2012)</ref>. Effective population sizes of this magnitude are of concern as genetic drift will be strong limiting the ability of the population to adapt to future change <ref type="bibr" target="#b14">(Hare et al. 2011)</ref>.</p><p>Several metrics point to a more secure status for the PAMBs at Alder than at Kinney. Despite a similar range in estimates of abundance, PAMBs were three times as dense at Alder as at Kinney. Effective population size estimates at Alder were also greater, although not by much (11.7; <ref type="bibr" target="#b53">Zielinski et al. 2012)</ref>. The Alder site hosts a rich native forb community that provides a diversity of foods and den materials and is comprised of loamy soils that may be more conducive to burrowing than the sandy soils at Kinney. Although there is no obvious water throughout most of the site (like Kinney), the northern margin of the Alder site includes a small wetland. This collection of favorable conditions may be responsible for the fact that the Alder site has likely been occupied for at least 100 years <ref type="bibr">(Camp 1918, USDI Fish and</ref><ref type="bibr">Wildlife Service 2009)</ref>.</p><p>The limited sample size precluded identifying strong effects on survival and recruitment. There was weak support for higher survival at Alder and no evidence for effects of either time or site on recruitment. Although the model averaged estimates suggested a substantial increase in recruitment during the 2007-2008 interval at both sites the standard errors of all the estimates of recruitment were large and the 95% confidence intervals were broadly overlapping. The estimates suggest that recruitment is sufficient to replace losses due to mortality over the short term but the low abundances at both sites makes them vulnerable to stochastic effects on demographic parameters. The densities reported here, for both the Kinney (mean = 5.90/ha) and Alder (mean = 14.18/ha) sites, were much higher than previously reported for mountain beavers almost everywhere else. Densities vary within study area and year, but have ranged from 0.49/ha <ref type="bibr" target="#b2">(Arjo et al. 2007)</ref>, to 3.4/ha <ref type="bibr" target="#b27">(Neal and Borrecco 1981)</ref>, to 7.6/ha <ref type="bibr" target="#b18">(Lovejoy and Black 1979)</ref> to 14.0/ha <ref type="bibr" target="#b26">(Morris et al. 1995)</ref>. <ref type="bibr" target="#b46">Voth (1968)</ref> removed 21 animals in a 2 ha area (i.e., 10.5 individuals/ha) but estimated that he had failed to capture as many as 63 additional animals (i.e., a density of 42 individuals/ha). Excluding the latter estimate, which is suspect because removal of individuals may have led to immigration, our densities at Alder are the highest reported. This is particularly surprising given that we estimated abundance in the fall when densities are typically much lower than they are in the spring and summer <ref type="bibr" target="#b46">(Voth 1968</ref>). Similarly, our annual survival rates, particularly at Alder (mean = 0.75), exceeded previous reports (i.e., 0.64, <ref type="bibr" target="#b18">Lovejoy and Black [1979]</ref>; 0.36-0.57, <ref type="bibr" target="#b2">Arjo et al. [2007]</ref>). Thus, the values for density and survival in our study areas suggest a more healthy status for the PAMBs in each area than do the estimates of abundance.</p><p>Our sampling protocol achieved relatively high capture probabilities, but we experienced relatively low success at amplifying PAMB DNA from hair samples. Some of this occurred because some hairs were from species other than PAMB and did not amplify using our PAMB-specific primers. Nonetheless, there is room for improvement in collecting better quality samples from the field and in extracting useful DNA (e.g., improving number of hairs snared, checking snares more frequently, extracting DNA from more than 10 hairs per snare sample). The low amplification rates probably did not affect our abundance and survival estimates because our method placed multiple snares within every likely home range, leading to relatively high capture probabilities each year. The majority of animals were captured with a probability of 0.78 for each capture occasion; the remainder were captured with a probability of 0.22. Thus, the probability of capturing an individual during an entire 3-week primary capture session ranged from 0.99 (1-[1-0.78] 3 = 0.99) to 0.52 (1-[1-0.22] 3 = 0.52). Finally, the role of relatedness among individuals should be explored further, because a companion study <ref type="bibr" target="#b53">(Zielinski et al. 2012</ref>) revealed relatively high levels of inbreeding that may be due to the structure typically found in social mammals <ref type="bibr" target="#b40">(Storz 1999)</ref>.</p><p>Our modeling results also pointed to some issues that may require additional attention in the future. For example, when we compared models of capture probability, the most parsimonious model included capture heterogeneity, which is not uncommon in mark-recapture estimates that employ non-invasive methods <ref type="bibr" target="#b16">(Kendall et al. 2009;</ref><ref type="bibr" target="#b21">Marucco et al. 2010)</ref>. We revealed two groups of animals in respect to capture probabilities: those with high probabilities (0.78) and those with low probabilities (0.22). This may be due to unequal distribution of hair snares within home ranges, with one group that had many snares and another group that had fewer snares within their ranges. Identifying approaches that minimize heterogeneity in capture probabilities would increase precision of our mark-recapture estimates.</p><p>Despite the small numbers at each location, the time series of estimates from 2006-2009 does not suggest that abundance at either site is declining. Although this is reassuring, when numbers are this low any significant annual variation can increase vulnerability to genetic and demographic stochasticity, increasing the risk of extirpation. Annual genetic monitoring, at least for some period, would help determine the proportion of recruits that are born at each location, versus those that arrive as immigrants.</p><p>Our information from the Kinney and Alder sites is necessary, but far from sufficient to determine the status of the subspecies. For example, we have no knowledge of the proportion of the geographic range that is occupied or the density of burrow areas where PAMBs occur outside the Park. New information on range-wide distribution should be collected. It would provide perspective when it comes to deciding what actions should be taken should abundance decline in the Park. If, for example, PAMBs are well distributed across their range, and the animals in the Park represent only a minority of occupied locations, then perhaps surveillance of the Park sites can be less frequent and less comprehensive. However, if Alder and Kinney represent one of only a few significant occupied sites within the entire range, then their status is one that may call for close, perhaps annual, monitoring.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. A Point Arena mountain beaver (Aplodontia rufa nigra) captured in southern Mendocino County, California.</figDesc><graphic coords="1,293.87,407.93,192.24,144.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Map of the putative Point Arena mountain beaver (Aplodontia rufa nigra) range (dashed gray line) in southern Mendocino County, California. Protected public lands are shown as gray polygons, with Manchester State Park outlined in black and the study areas (Alder Creek and Kinney Beach) identified. East-west stream systems are shown as thin black lines, and the town (Point Arena) is shown as a black square.</figDesc><graphic coords="2,265.91,76.85,200.26,361.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Hair snare set used to collect hair from Point Arena mountain beavers (Aplodontia rufa nigra) from 2006-2009 in Mendocino County, California. It includes two snares, each comprised of a smallU-shaped landscape stake to which a gun-cleaning brush was wired. A small piece of apple placed between the snares (not pictured), was also a part of the set.</figDesc><graphic coords="3,76.91,77.93,194.30,152.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. (left) The sampling grids and distribution of Point Arena mountain beavers (Aplodontia rufa nigra) at Alder Creek (A) and Kinney Beach (B), in Mendocino County, California from 2006-2009. Size of circle represents the number of individuals verified at the grid point times the number of years (i.e., individual-years). Small gray circles represent no individuals captured, small black circles represent 1-2 individual-years, medium black circles represent 3-4 individual-years, and large black circles &gt; 5 or more individual-years. Black outlined grid cells were added in 2008 and 2009 due to expanded burrow activity in these areas.</figDesc><graphic coords="4,53.99,98.33,196.64,174.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Model averaged estimates of Point Arena mountain beaver (Aplodontia rufa nigra) at Alder Creek and Kinney Beach study sites, in Manchester State Park, Mendocino County, California from 2006-2009. Error bars are unconditional 95% confidence intervals adjusted for minimum number alive, following Williams et al. (2001).</figDesc><graphic coords="9,127.07,390.77,310.03,225.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1</head><label>1</label><figDesc>by the failure to observe three alleles at any locus, which would have been an indication of a mixed sample. The variability of our sample and the large number of markers we used would have made this observation likely if snare samples included hair from multiple individuals. DNA was extracted within two months of sample collection in the field.</figDesc><table><row><cell></cell><cell>Sex</cell><cell>ratio g</cell><cell></cell><cell>7:4:1</cell><cell>5:5:1</cell><cell>5:4:2</cell><cell>7:6:1</cell><cell></cell><cell>5:5:4</cell><cell>3:4:0</cell><cell>5:6:1</cell><cell>5:8:0</cell><cell></cell></row><row><cell>No. of</cell><cell>individuals</cell><cell>identified f</cell><cell></cell><cell>12</cell><cell>11</cell><cell>11</cell><cell>14</cell><cell></cell><cell>14</cell><cell>7</cell><cell>12</cell><cell>13</cell><cell></cell></row><row><cell></cell><cell>Success</cell><cell>rate e</cell><cell></cell><cell>40.2%</cell><cell>23.4%</cell><cell>27.0%</cell><cell>28.5%</cell><cell></cell><cell>20.5%</cell><cell>21.0%</cell><cell>24.6%</cell><cell>21.9%</cell><cell></cell></row><row><cell></cell><cell>No. that Amplification</cell><cell>rate d amplified</cell><cell></cell><cell>47.4% 74</cell><cell>25.4% 29</cell><cell>27.0% 40</cell><cell>30.2% 62</cell><cell></cell><cell>24.9% 43</cell><cell>24.3% 25</cell><cell>29.6% 42</cell><cell>24.0% 56</cell><cell>371</cell></row><row><cell>No. that</cell><cell>did not</cell><cell>amplify c</cell><cell></cell><cell>82</cell><cell>85</cell><cell>108</cell><cell>143</cell><cell></cell><cell>130</cell><cell>78</cell><cell>100</cell><cell>177</cell><cell>903</cell></row><row><cell>No. of</cell><cell>samples</cell><cell>analyzed b</cell><cell></cell><cell>156</cell><cell>114</cell><cell>148</cell><cell>205</cell><cell></cell><cell>173</cell><cell>103</cell><cell>142</cell><cell>233</cell><cell>1274</cell></row><row><cell>No. of</cell><cell>samples</cell><cell>collected</cell><cell></cell><cell>184</cell><cell>124</cell><cell>173</cell><cell>217</cell><cell></cell><cell>210</cell><cell>119</cell><cell>171</cell><cell>255</cell><cell>1453</cell></row><row><cell>No. of</cell><cell>burrows</cell><cell>sampled a</cell><cell></cell><cell>88</cell><cell>88</cell><cell>104</cell><cell>103</cell><cell></cell><cell>149</cell><cell>129</cell><cell>127</cell><cell>138</cell><cell>926</cell></row><row><cell>No.</cell><cell>of</cell><cell>visits</cell><cell></cell><cell>3</cell><cell>3</cell><cell>3</cell><cell>3</cell><cell></cell><cell>3</cell><cell>3</cell><cell>3</cell><cell>3</cell><cell></cell></row><row><cell></cell><cell>Duration</cell><cell>(days)</cell><cell></cell><cell>34</cell><cell>21</cell><cell>21</cell><cell>23</cell><cell></cell><cell>31</cell><cell>21</cell><cell>21</cell><cell>22</cell><cell></cell></row><row><cell>Sampling</cell><cell>____dates____</cell><cell>From To</cell><cell></cell><cell>25 Aug 29 Sep</cell><cell>28 Nov 19 Dec</cell><cell>17 Sep 8 Oct</cell><cell>30 Sep 23 Oct</cell><cell></cell><cell>10 Apr 11 May</cell><cell>28 Aug 19 Sep</cell><cell>16 Sep 7 Oct</cell><cell>1 Oct 23 Oct</cell><cell></cell></row><row><cell>Monitoring</cell><cell>site and</cell><cell>year</cell><cell>Alder Creek</cell><cell>2006</cell><cell>2007</cell><cell>2008</cell><cell>2009</cell><cell>Kinney Beach</cell><cell>2006</cell><cell>2007</cell><cell>2008</cell><cell>2009</cell><cell>Totals</cell></row></table><note><p><p><p><p>. Sampling periods and summary of Point Arena mountain beaver (Aplodontia rufa nigra) samples collected and analyzed at the Alder Creek and Kinney Beach sites each in Manchester Beach State Park, Mendocino County, California, 2006-2009. a Two hair snares were placed in each burrow entrance. b Number of samples collected less samples that: (1) were determined to be non-mountain beaver upon examination under a dissecting microscope, (2) contained no hair or only vegetation upon examination at the laboratory, and/or (3) contained natural or synthetic strands of material determined not to be hair. c Samples which, after DNA extraction, did not contain enough quality DNA to obtain individual identification and/or sex or had adequate DNA but did not produce any amplicons. d Number of samples with individual identification / number of samples analyzed. e Number of samples with individual identification / number of samples collected. f Total number of individuals detected per year. g Males:Females:Unknown.</p>supported o C horizontally in tubes on a rocker such that the entire length of the hair is bathed in the ATL buffer). All hair samples were first screened with three microsatellite loci that only amplify in mountain beavers and fail to amplify in other species (A12, A104, C3;</p><ref type="bibr" target="#b32">Pilgrim et al. 2006)</ref></p>. In this manner we saved time and money by not having to perform a species identification test first, and we were able to exclude mountain beaver hair samples that did not contain high quality DNA.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 2 .</head><label>2</label><figDesc>Comparison of models of mark-recapture data from Point Arena mountain beavers (Aplodontia rufa nigra) collected using non-invasive methods at the Kinney Beach and Alder Creek sites in Manchester State Park, MendocinoCounty,  California, 2006-2009. Model fit evaluated using Akaike's Information Criterion, corrected for small samples (AIC</figDesc><table><row><cell>Model 1</cell><cell>AIC c 2</cell><cell>ΔAIC c 3</cell><cell>w i</cell><cell>4</cell><cell>K 5</cell><cell>Dev. 6</cell></row><row><cell>Phi(site) f(t) pi(2) p(.)</cell><cell>605.224</cell><cell>0</cell><cell cols="2">0.287</cell><cell>8</cell><cell>588.442</cell></row><row><cell>Phi(site) f(.) pi(2) p(.)</cell><cell>605.279</cell><cell>0.055</cell><cell cols="2">0.279</cell><cell>6</cell><cell>592.827</cell></row><row><cell>Phi(site) f(site) pi(2) p(.)</cell><cell>606.742</cell><cell>1.517</cell><cell cols="2">0.134</cell><cell>7</cell><cell>592.136</cell></row><row><cell>Phi(.) f(t) pi(2) p(.)</cell><cell>606.760</cell><cell>1.536</cell><cell cols="2">0.133</cell><cell>7</cell><cell>592.154</cell></row><row><cell>Phi(.) f(.) pi(2) p(.)</cell><cell>606.920</cell><cell>1.696</cell><cell cols="2">0.123</cell><cell>5</cell><cell>596.600</cell></row><row><cell>Phi(.) f(site) pi(2) p(.)</cell><cell>608.999</cell><cell>3.775</cell><cell cols="2">0.039</cell><cell>6</cell><cell>596.548</cell></row></table><note><p><p>c</p>). Parameters included apparent survival (Phi), recruitment (f), initial capture probability (p), and mixture (pi).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE 3</head><label>3</label><figDesc></figDesc><table><row><cell cols="5">. Model-averaged parameter estimates of survival</cell></row><row><cell cols="5">probabilities (Phi), per capita recruitment (f),</cell></row><row><cell cols="5">capture probabilities (p), unconditional standard</cell></row><row><cell cols="5">errors (SE), and lower (LCL) and upper (UCL)</cell></row><row><cell cols="5">95% confidence intervals of Point Arena mountain</cell></row><row><cell cols="5">beavers (Aplodontia rufa nigra), Manchester State</cell></row><row><cell cols="5">Park, Mendocino County, California (2006-2009).</cell></row><row><cell cols="5">All models were run using the Robust Design</cell></row><row><cell cols="5">Pradel Recruitment Huggins' Closed Captures</cell></row><row><cell cols="5">with Heterogeneity data type in program MARK.</cell></row><row><cell>Parameter 1</cell><cell>Estimate</cell><cell>SE</cell><cell>LCL</cell><cell>UCL</cell></row><row><cell>Phi (Alder Creek)</cell><cell>0.749</cell><cell cols="3">0.089 0.542 0.883</cell></row><row><cell>Phi (Kinney Beach)</cell><cell>0.594</cell><cell cols="3">0.096 0.402 0.762</cell></row><row><cell>f (Alder Creek 2007)</cell><cell>0.232</cell><cell cols="3">0.138 0.062 0.580</cell></row><row><cell>f (Alder Creek 2008)</cell><cell>0.443</cell><cell cols="3">0.229 0.114 0.831</cell></row><row><cell>f (Alder Creek 2009)</cell><cell>0.255</cell><cell cols="3">0.116 0.094 0.532</cell></row><row><cell cols="2">f (Kinney Beach 2007) 0.249</cell><cell cols="3">0.149 0.065 0.612</cell></row><row><cell cols="2">f (Kinney Beach 2008) 0.461</cell><cell cols="3">0.220 0.131 0.829</cell></row><row><cell cols="2">f (Kinney Beach 2009) 0.273</cell><cell cols="3">0.125 0.098 0.564</cell></row><row><cell>Pi</cell><cell>0.428</cell><cell cols="3">0.124 0.216 0.669</cell></row><row><cell>p1</cell><cell>0.223</cell><cell cols="3">0.126 0.065 0.543</cell></row><row><cell>p2</cell><cell>0.782</cell><cell cols="3">0.069 0.619 0.888</cell></row><row><cell>1</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>TABLE 4 .</head><label>4</label><figDesc>Point Arena mountain beaver (Aplodontia rufa nigra) density estimates, based on point estimates for N (abundance) for Alder and Kinney sites,</figDesc><table><row><cell cols="4">Manchester State Park, Mendocino County,</cell></row><row><cell cols="3">California, 2006-2009.</cell><cell></cell></row><row><cell></cell><cell>Area (ha)</cell><cell>N</cell><cell>Density (N/ha)</cell></row><row><cell>Alder Creek</cell><cell></cell><cell></cell><cell></cell></row><row><cell>2006</cell><cell>1.05</cell><cell>15.2</cell><cell>14.48</cell></row><row><cell>2007</cell><cell>1.05</cell><cell>14.0</cell><cell>13.33</cell></row><row><cell>2008</cell><cell>1.10</cell><cell>14.0</cell><cell>12.73</cell></row><row><cell>2009</cell><cell>1.10</cell><cell>17.8</cell><cell>16.18</cell></row><row><cell>Mean</cell><cell></cell><cell>15.2</cell><cell>14.18</cell></row><row><cell>SE</cell><cell></cell><cell>0.77</cell><cell>0.75</cell></row><row><cell>Kinney Beach</cell><cell></cell><cell></cell><cell></cell></row><row><cell>2006</cell><cell>2.37</cell><cell>17.8</cell><cell>7.51</cell></row><row><cell>2007</cell><cell>2.37</cell><cell>8.9</cell><cell>3.76</cell></row><row><cell>2008</cell><cell>2.57</cell><cell>15.2</cell><cell>5.91</cell></row><row><cell>2009</cell><cell>2.57</cell><cell>16.5</cell><cell>6.42</cell></row><row><cell>Mean</cell><cell></cell><cell>14.6</cell><cell>5.90</cell></row><row><cell>SE</cell><cell></cell><cell>1.71</cell><cell>0.68</cell></row><row><cell>Grand Mean</cell><cell></cell><cell></cell><cell>10.04</cell></row><row><cell>SE</cell><cell></cell><cell></cell><cell>2.33</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We gratefully acknowledge the financial support of the <rs type="institution">Arcata office of the US Fish and Wildlife Service</rs>, their permits for conducting this work, and the assistance of <rs type="person">Robin Hamlin</rs> and <rs type="person">John Hunter</rs>. The <rs type="funder">Pacific Southwest Research Station, USDA Forest Service</rs>, also contributed financial support for this study and the <rs type="funder">California Department of Fish and Game</rs> provided support and permits. <rs type="person">Renee Pasquinelli</rs> (<rs type="affiliation">California Department of Parks and Recreation</rs>) provided administrative support. We acknowledge the dedicated field assistance of <rs type="person">Angela Liebenberg</rs> (<rs type="affiliation">California Department of Parks and Recreation</rs>), <rs type="person">Robert Douglas</rs> (<rs type="affiliation">Mendocino Redwood Company</rs>), <rs type="person">Nina A. Nahvi</rs>, and <rs type="person">Skylar C. Giordano. Kaytee Redfern</rs> helped sort hairs in the laboratory and <rs type="person">Janet Werren</rs> assisted with development of the figures. Live trapping was supported by the loan of traps from <rs type="person">Wendy Arjo</rs> of the <rs type="funder">Olympia Field Station, USDA, APHIS</rs>. We thank <rs type="person">John Hunter</rs> for editorial comments on an earlier version of this report and the editors and two anonymous reviewers and the editor for their comments that improved the paper.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Literature Cited</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<idno>USC 1531-1544</idno>
+		<ptr target="http://www.nmfs.noaa.gov/pr/laws/esa/text.htm" />
+		<title level="m">Endangered Species Act (ESA) of 1973</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Mountain beaver home ranges, habitat use, and population dynamics in Washington</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Arjo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Huenefeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Nolte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="328" to="337" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Habitat characteristics and spatial extent of burrow systems of Point Arena mountain beavers on managed timberlands</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Billig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Douglas</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m">Proceedings of the Redwood Region Forest Science Symposium: What Does the Future Hold? USDA Forest Service General Technical Report PSW-194</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Standiford</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Giusti</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Y</forename><surname>Valachovic</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Furniss</surname></persName>
+		</editor>
+		<meeting>the Redwood Region Forest Science Symposium: What Does the Future Hold? USDA Forest Service General Technical Report PSW-194<address><addrLine>Albany, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Pacific Southwest Research Station</publisher>
+			<biblScope unit="page" from="491" to="492" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Model Selection and Multi-model Inference: A Practical Information-theoretic Approach</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Springer-Verlag</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Excavations of burrows of the rodent Aplodontia, with observations on the habits of the animal</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Camp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">University of California Publications in Zoology</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="517" to="536" />
+			<date type="published" when="1918">1918</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Some census methods for mammals</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Dice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="119" to="130" />
+			<date type="published" when="1938">1938</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Mountain beaver (Aplodontia rufa)</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Feldhamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rochelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Rushton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Wild Mammals of North America: Biology, Management, and Conservation</title>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Feldhamer</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Thompson</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Chapman</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Baltimore</addrLine></address></meeting>
+		<imprint>
+			<publisher>Johns Hopkins University Press</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="179" to="187" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Observations on use of two non-native plants by the Point Arena Mountain beaver</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Fitts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">California Fish and Game</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="59" to="60" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Monitoring of the Point Arena mountain beaver at Manchester State Park</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Fitts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Flowers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Northen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994">2002. 1994. 2002</date>
+			<pubPlace>, Mendocino</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Unpublished report on file at California Department of Parks and Recreation, Mendocino District</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Guidelines of the American Society of Mammalogists for the use of wild mammals in research</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Gannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Sikes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="809" to="823" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>and the Animal Care and Use Committee of the American Society of Mammalogists</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Sex specific PCR/RFLPs in the canine ZFY/ ZFX loci</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Garcia-Muro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Azna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rodellar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zaragoza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Genetics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="150" to="158" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Mammals of North America</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Hall</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981">1981</date>
+			<publisher>John Wiley and Sons</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Understanding and estimating effective population size for practical application in marine species management</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Hare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Nunney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Ruzzante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ruegg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Palstra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="438" to="449" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Some data upon the rodent Aplodontia</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Hubbard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Murrelet</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="14" to="18" />
+			<date type="published" when="1922">1922</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Demography and genetic structure of a recovering grizzly bear population</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boulanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Macleod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="3" to="17" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Modeling survival and testing biological hypotheses using marked animals: a unified approach with case studies</title>
+		<author>
+			<persName><forename type="first">J.-D</forename><surname>Lebreton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clobert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Monographs</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="67" to="118" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Population analysis of the mountain beaver, Aplodontia rufa pacifica, in western Oregon</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Lovejoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Black</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Northwest Science</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="82" to="89" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Movements and activities of the mountain beaver (Aplodontia rufa)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="717" to="723" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Wolf survival and population trend using non-invasive capture-recapture techniques in the Western Alps</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marucco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Pletscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-D</forename><surname>Lebreton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Ecology</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1003" to="1010" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Bridging the gaps between noninvasive genetic sampling and population parameter estimation</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marucco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Pletscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Genetic errors associated with population estimation using non-invasive molecular tagging: problems and new solutions</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz ; A</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="439" to="448" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Providing reliable and accurate genetic capture-mark-recapture estimates in a cost-effective way</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="453" to="456" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">DROPOUT: a program to identify problem loci and samples for noninvasive genetic sampling in a capture-markrecapture framework</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="716" to="718" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Estimating animal abundance using noninvasive DNA sampling: promise and pitfalls</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Citta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Lair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Tallmon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="283" to="294" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The influence of proximity to humans on population density and home range size of mountain beaver (Aplodontia rufa)</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Champ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Annual Conference of the Society for Northwestern Vertebrate Biology</title>
+		<imprint>
+			<date type="published" when="1995-03">1995. March 1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Distribution and relationship of mountain beaver to openings in sapling stands</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">D</forename><surname>Neal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Borrecco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Northwest Science</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="79" to="86" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Estimation of contributions to population growth: a reverse-time capture-recapture approach</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-D</forename><surname>Lebreton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pradel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="3362" to="3376" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Northen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Fitts</surname></persName>
+		</author>
+		<title level="m">Monitoring of the Point Arena mountain beaver for MCI Telecommunications Corporations</title>
+		<meeting><address><addrLine>Sacramento, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>U.S. Fish and Wildlife Service</publisher>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+		<respStmt>
+			<orgName>Sacramento Field Office</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Year Five Report</note>
+	<note>Unpublished report submitted to</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Microsatellite analysis of genetic variation in black bear populations</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="489" to="495" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Development of 10 polymorphic microsatellite loci isolated from mountain beaver, Aplodontia rufa rufa (Rafinesque)</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Piaggio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Neubaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yueh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Ritland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Perkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="323" to="325" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Development and characterization of microsatellite markers in the Point Arena mountain beaver Aplodontia rufa nigra</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mazurek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">V</forename><surname>Schlexer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="800" to="802" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Development of a method for determining sex for a primitive rodent, the Point Arena mountain beaver (Aplodontia rufa nigra)</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">V</forename><surname>Schlexer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics Resources</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="975" to="977" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Genetic and endocrine tools for carnivore surveys</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Monfort</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Noninvasive Survey Methods for North American Carnivores</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Long</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Mackay</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Ray</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Washington, D.C</addrLine></address></meeting>
+		<imprint>
+			<publisher>Island Press</publisher>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="page" from="238" to="262" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Genetic monitoring as a promising tool for conservation and management</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="25" to="33" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Detecting genotyping errors and describing American black bear movements in northern Idaho</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Cushman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hayden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Engkjer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="138" to="148" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Highly reliable genetic identification of individual hairy-nosed wombats from single remotely collected hairs: a feasible censusing method</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sloane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sunnucks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Alpers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beheregaray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1233" to="1240" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Assessing reliability of microsatellite genotypes from kit fox faecal samples using genetic and GIS analysis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ralls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hurt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Maldonado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="387" to="406" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Steele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Litman</surname></persName>
+		</author>
+		<ptr target="http://www.fws.gov/arcata/es/mammals/mtnBeaver/docu-ments/1998%20Recovery%20Plan%20for%20the%20Point%20Arena%20Mountain%20Beaver.pdf" />
+		<title level="m">Point Arena mountain beaver Aplodontia rufa nigra (Rafinesque) recovery plan</title>
+		<meeting><address><addrLine>Portland, OR</addrLine></address></meeting>
+		<imprint>
+			<publisher>USDI Fish and Wildlife Service</publisher>
+			<date type="published" when="1998-11-01">1998. 1 November 2012</date>
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Genetic consequences of mammalian social structure</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Storz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="553" to="569" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Reliable genotyping of samples with very low DNA quantities using PCR</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Questiau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Manceau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Escaravage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bouvet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acid Research</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="3189" to="3194" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Revision of the rodent genus Aplodontia</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">University of California Publications in Zoology</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="435" to="504" />
+			<date type="published" when="1918">1918</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Endangered and threatened wildlife and plants; Point Arena mountain beaver (Aplodontia rufa nigra) determined to be endangered</title>
+		<author>
+			<persName><forename type="first">Usdi</forename><surname>Fish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wildlife</forename><surname>Service</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Federal Register</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="64716" to="64723" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m">Point Arena mountain beaver (Aplodontia rufa nigra) 5-year review: summary and evaluation</title>
+		<meeting><address><addrLine>Arcata, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>United States Fish and Wildlife Service, Arcata Fish and Wildlife Office</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>Unpublished report on file</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">MICRO-CHECKER: software Mountain Beaver Abundance and Survival for identifying and correcting genotyping errors in microsatellite data</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Van Oosterhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P M</forename><surname>Wills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shipley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="535" to="538" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Voth</surname></persName>
+		</author>
+		<title level="m">Food habitats of the Pacific mountain beaver, Aplodontia rufa pacifica</title>
+		<meeting><address><addrLine>Corvallis</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1968">1968</date>
+		</imprint>
+		<respStmt>
+			<orgName>Oregon State University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.D. Dissertation</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Genotyping of &quot;captured&quot; hairs reveals burrow-use and ranging behavior of southern hairy-nosed wombats</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sunnucks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="690" to="699" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Program MARK: survival estimation from populations of marked animals</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bird Study</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="120" to="138" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Capture-recapture and removal methods for sampling closed populations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Otis</surname></persName>
+		</author>
+		<idno>LA- 8787</idno>
+		<ptr target="http://www.auburn.edu/~grandjb/wildpop/readings/white_1982_ch1.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">Los Alamos National Laboratory Publication</title>
+		<meeting><address><addrLine>Los Alamos, NM</addrLine></address></meeting>
+		<imprint>
+			<publisher>-NERP</publisher>
+			<date type="published" when="1982-11-01">1982. 1 November 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Conroy</surname></persName>
+		</author>
+		<title level="m">Analysis and Management of Animal Populations</title>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mazurek</surname></persName>
+		</author>
+		<title level="m">The reproductive ecology and home range of the Point Arena mountain beaver (Aplodontia rufa nigra)</title>
+		<meeting><address><addrLine>Arcata, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Arcata Fish and Wildlife Office</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>Unpublished report on file</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Habitat characteristics at den sites of the Point Arena mountain beaver (Aplodontia rufa nigra)</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hamlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Slauson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mazurek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Northwest Science</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="119" to="130" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Small geographic range but not panmictic: how forests structure the endangered Point Arena mountain beaver (Aplodontia rufa nigra)</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">V</forename><surname>Schlexer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Parks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-012-0387-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

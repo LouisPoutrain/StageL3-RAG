@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Novel real-time PCR species identification assays for British and Irish bats and their application to a non-invasive survey of bat roosts in Ireland</title>
+				<funder ref="#_QwDQ5Yz">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_EVhRTNc">
+					<orgName type="full">European Regional Development Fund</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Mammals In a Sustainable Environment</orgName>
+					<orgName type="abbreviated">MISE</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Harrington</surname></persName>
+							<email>andrewpharrington16@gmail.com</email>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>O'meara</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><surname>Aughney</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">K</forename><surname>Mcaney</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><surname>Schofield</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Collins</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><surname>Deenen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>O'reilly</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Harrington</forename><surname>Ap</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Eco-Innovation Research Centre</orgName>
+								<orgName type="department" key="dep2">Department of Science</orgName>
+								<orgName type="laboratory">Molecular Ecology Research Group</orgName>
+								<orgName type="institution">Waterford Institute of Technology</orgName>
+								<address>
+									<addrLine>Cork Road</addrLine>
+									<settlement>Waterford</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Meara</forename><surname>O'</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Db</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Eco-Innovation Research Centre</orgName>
+								<orgName type="department" key="dep2">Department of Science</orgName>
+								<orgName type="laboratory">Molecular Ecology Research Group</orgName>
+								<orgName type="institution">Waterford Institute of Technology</orgName>
+								<address>
+									<addrLine>Cork Road</addrLine>
+									<settlement>Waterford</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Drumheel</orgName>
+								<orgName type="institution" key="instit1">Bat Conservation Ireland</orgName>
+								<orgName type="institution" key="instit2">Ulex House</orgName>
+								<orgName type="institution" key="instit3">Lisduff</orgName>
+								<address>
+									<region>Virginia Co. Cavan</region>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Donaghpatrick</orgName>
+								<orgName type="institution">The Vincent Wildlife Trust</orgName>
+								<address>
+									<addrLine>Headford</addrLine>
+									<region>Co. Galway</region>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">O</forename><forename type="middle">'</forename><surname>Reilly</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Eco-Innovation Research Centre</orgName>
+								<orgName type="department" key="dep2">Department of Science</orgName>
+								<orgName type="laboratory">Molecular Ecology Research Group</orgName>
+								<orgName type="institution">Waterford Institute of Technology</orgName>
+								<address>
+									<addrLine>Cork Road</addrLine>
+									<settlement>Waterford</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Drumheel</orgName>
+								<orgName type="institution" key="instit1">Bat Conservation Ireland</orgName>
+								<orgName type="institution" key="instit2">Ulex House</orgName>
+								<orgName type="institution" key="instit3">Lisduff</orgName>
+								<address>
+									<region>Virginia Co. Cavan</region>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">The Vincent Wildlife Trust</orgName>
+								<address>
+									<addrLine>3 &amp; 4 Bronsil Courtyard Eastnor</addrLine>
+									<postCode>HR8 1EP</postCode>
+									<settlement>Ledbury</settlement>
+									<region>Herefordshire</region>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">Kildare Bat Group</orgName>
+								<address>
+									<addrLine>9 Rochford Park</addrLine>
+									<settlement>Kilcock</settlement>
+									<region>Co. Kildare</region>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Novel real-time PCR species identification assays for British and Irish bats and their application to a non-invasive survey of bat roosts in Ireland</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BDD4503B6BBD728A773C7607AB065551</idno>
+					<idno type="DOI">10.1016/j.mambio.2019.10.005</idno>
+					<note type="submission">Received Date: 24 June 2019 Accepted Date: 18 October 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-16T08:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Non-invasive genetics</term>
+					<term>Conservation</term>
+					<term>Bats</term>
+					<term>Roost</term>
+					<term>Detection</term>
+					<term>Real-time PCR</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Detection and monitoring of extant bat populations are crucial for conservation success.</p><p>Non-invasive genetic analysis of bat droppings collected at roosts could be very useful in this respect as a rapid, cost-efficient monitoring tool. We developed species-specific real-time PCR assays for 18 British and Irish bat species to enable non-invasive, large-scale distribution monitoring, which were then applied to a field survey in Ireland. One hundred and sixty-four DNA samples were collected from 95 bat roosts, of which 73% of samples were identified to species, and the resident bat species were identified at 89% of roosts. However, identification success varied between roost types, ranging from 22% for underground sites to 92% for bat boxes. This panel of DNA tests will be especially useful in cases where roosts contain multiple species, where the number of bats present is small, or bats are otherwise J o u r n a l P r e -p r o o f difficult to directly observe. The methodology could be applied to the surveillance of proposed development sites, post development mitigation measures, distribution surveys, bat box schemes and the evaluation of agri-environmental bat box schemes.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Non-invasive genetics has become a commonly used tool in ecological studies of mammal species in recent decades, being used for a wide range of purposes, such as investigating population genetics, social structure and mating behaviour, species identification, and dietary analysis <ref type="bibr" target="#b52">(O'Reilly et al., 2008;</ref><ref type="bibr" target="#b5">Beja-Pereira et al., 2009;</ref><ref type="bibr" target="#b48">O'Meara et al., 2018)</ref>. This tool has shown itself to be especially useful in monitoring and identification of species which may be difficult to survey by other means due to reasons such as a species' rarity, where a species' behaviour makes it difficult to observe directly, or the occurrence of cryptic species which are morphologically very similar (e.g. <ref type="bibr" target="#b30">Kanuch et al., 2007;</ref><ref type="bibr" target="#b51">O'Neill et al., 2013;</ref><ref type="bibr" target="#b56">Puechmaille and Teeling, 2014)</ref>. At a time when the natural environment is coming under increasing pressure from human activities, efforts are being made to improve and expand monitoring efforts to inform conservation and management measures for species <ref type="bibr" target="#b16">(Dufresnes et al. 2019)</ref>. In this context, the ability to identify species from non-invasive samples such as faeces offers a powerful tool allowing researchers to remotely monitor individual species and assess their distribution <ref type="bibr" target="#b46">(O'Mahony et al. 2017)</ref>, or to assess the range of species of a particular taxon inhabiting a region or habitat of interest <ref type="bibr" target="#b47">(O'Mahony et al. 2015)</ref>.</p><p>Dietary studies have also made use of non-invasive genetics such as the identification of invasive species through the diet of a carnivore <ref type="bibr" target="#b49">(O'Meara et al. 2014)</ref>. Since the advent of DNA metabarcoding, the technique has been used to identify diverse prey groups such as those present in the bat diet <ref type="bibr" target="#b60">(Russo et al. 2018)</ref>, and more recently, via non-invasively collected droppings from bat roosts <ref type="bibr" target="#b66">(Tournayre et al. 2019)</ref>. However, in the case of <ref type="bibr" target="#b66">Tournayre et al (2019)</ref>, the authors relied on the DNA metabarcoding techniques and host amplification of the bat to identify the species of origin. In any study that relies on the use of non-invasive genetics, the first step should always involve a simple and specific method of species identification, to not only verify the presence of the intended species of interest, but J o u r n a l P r e -p r o o f to ensure that the DNA present is of good enough quality for further genetic analysis <ref type="bibr" target="#b40">(Monterroso et al., 2019)</ref>.</p><p>Bats make up a significant proportion of Europe's mammalian fauna, with over 50 species currently known <ref type="bibr" target="#b13">(Dietz et al., 2009)</ref>. However, new species are still being described <ref type="bibr" target="#b29">(Juste et al., 2018)</ref>, and the roosting ecology and distribution of some species are still poorly understood. European bat species are protected internationally under the Agreement on the Conservation of Populations of European Bats (EUROBATS) and the EU Habitats Directive, as well as under national wildlife legislation in individual countries, in recognition of the range of conservation threats which bats face across the continent and their importance in the provision of ecosystem services. One of the most serious which they face is the destruction, damage or disturbance of their roosting sites due to human activities, and the protection of roosting sites has been recognised as being of key importance to the conservation of European bat species <ref type="bibr" target="#b13">(Dietz et al., 2009;</ref><ref type="bibr" target="#b34">Marnell &amp; Presetnik, 2010;</ref><ref type="bibr" target="#b65">Stone et al., 2013)</ref>.</p><p>In Europe, bats roost in a variety of natural sites such as caves and trees, and manmade sites including bridges, castles, churches, houses, blocks of flats, barns and stables <ref type="bibr" target="#b62">(Sargent, 1995;</ref><ref type="bibr" target="#b57">Roche, 1998;</ref><ref type="bibr" target="#b21">Glover and Altringham, 2008;</ref><ref type="bibr" target="#b34">Marnell and Presetnik, 2010)</ref>. The loss of roost sites is caused by habitat fragmentation, the loss of trees in woodland and linear habitats, and the destruction and development of old buildings and structures used by bats for roosting, especially during vulnerable maternity and hibernation periods. The installation of bat boxes as a mitigation measure for development where bat roosts may be destroyed is often recommended <ref type="bibr" target="#b38">(Mitchell-Jones, 2004;</ref><ref type="bibr">Collins, 2016;</ref><ref type="bibr" target="#b65">Stone et al., 2013)</ref>. More recently, bat box schemes have also gained popularity as a means to improve the availability of roosting sites for bats, but also as a means to provide useful bat monitoring data <ref type="bibr" target="#b37">(McAney and Hanniffy, 2015)</ref>, and agri-environment schemes in some countries also encourage the installation of bat boxes as part of additional biodiversity measures <ref type="bibr">(Bat Conservation Ireland, 2015)</ref>.</p><p>Non-invasive genetics has the potential to provide important data for the conservation of European bat species, in particular in its application to species identification. In this respect it has the potential to greatly improve distribution data for species, both regionally and across Europe, and for providing greater insights into the roost preferences of individual J o u r n a l P r e -p r o o f species. In some jurisdictions, where planned developments are predicted to disturb or destroy bat roosts, bat surveys are required to ascertain whether bats are present, and as part of this process DNA analysis is suggested as a suitable method to detect and differentiate bat droppings from their droppings <ref type="bibr">(Collins, 2016)</ref>, as the correct identification of the species present in a roost is important for developing an informed species-specific mitigation plan. DNA analysis is the only accurate way of identifying bat species from droppings, and in many cases is a cost-effective approach to the presence/absence monitoring toolkit. Finally, mitigation measures and biodiversity enhancement actions in agri-environment schemes such as bat box installation require systematic and reliable methods to monitor and evaluate their impact. The use of DNA methods as an accurate and cost-effective monitoring method may be a useful tool for such schemes.</p><p>Although bats are an important part of Europe's mammal fauna, the development of DNA techniques suitable for systematic and high-throughput surveillance using non-invasive genetics has somewhat lagged behind that of other mammal species, and genetic studies of bats have largely focused on phylogeography and the identification of new cryptic species.</p><p>Bat roost surveys primarily rely on daytime visual inspection and night-time bat detector surveys to identify the bat species present. However, bat droppings are commonly found during bat roost surveys and provide a ready source of DNA samples which may be collected without disturbing the bats present <ref type="bibr" target="#b55">(Puechmaille et al., 2007;</ref><ref type="bibr" target="#b8">Boston et al., 2011;</ref><ref type="bibr" target="#b9">Boston et al., 2012)</ref>. As different bat species may co-exist within the same roost site, the ability to detect more than one species by amplifying a single sample containing DNA from several bat faecal pellets would be advantageous compared to testing a single pellet at a time e.g. the detection of target DNA from a DNA sample containing DNA from different species <ref type="bibr" target="#b49">(O'Meara et al., 2014)</ref>. If several faecal pellets were included per DNA extract, it would increase the chances of identifying cases where multiple bat species are present in a single roost, without the increase of cost which would be incurred if several single-pellet DNA extracts from a particular roost site were to be tested. A further advantage to using DNAbased identification methods is its ability to distinguish between cryptic bat species, which can be very difficult to tell apart via either morphological examination in the hand, or through analysis of calls using bat detectors <ref type="bibr" target="#b58">(Roche et al., 2014)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>J o u r n a l P r e -p r o o f</head><p>Conventional PCR-based species identification assays are available for some of the bat species known to be resident in Europe <ref type="bibr" target="#b30">(Kanuch et al., 2007;</ref><ref type="bibr" target="#b8">Boston et al., 2011;</ref><ref type="bibr" target="#b23">Hamilton et al., 2015)</ref>. <ref type="bibr" target="#b30">Kanuch et al. (2007)</ref> designed species-specific PCR primers to specifically amplify either Pipistrellus pipistrellus or P. pygmaeus (two morphologically similar species) via PCR and gel electrophoresis. The method developed by <ref type="bibr" target="#b8">Boston et al. (2011)</ref> to identify cryptic Myotis species involved the use of three different primer pairs used to amplify species-specific PCR products. In both <ref type="bibr" target="#b30">Kanuch et al. (2007)</ref> and <ref type="bibr" target="#b8">Boston et al. (2011)</ref> the primers were shown to amplify DNA extracted from tissue and fresh faecal samples, but due to the size of the PCR products in <ref type="bibr">Boston et al. (2011) (750 -980 bp)</ref>, older or slightly degraded bat droppings may not yield sufficient DNA for such an approach. <ref type="bibr" target="#b23">Hamilton et al. (2015)</ref> designed species-specific PCR primers to specifically amplify between 138 and 382 bp of the mitochondrial DNA of 15 of the bat species resident in Great Britain with the addition of fluorescently labelled primer facilitating similar sized PCR products to be sized and differentiated on a DNA sequencer <ref type="bibr" target="#b23">(Hamilton et al., 2015)</ref>. However, the method did not include all British bat species and was only tested on a very small number of tissue samples from each species, and only included three droppings from a single species, Myotis nattereri. While it is possible that with further optimisation and testing that the methodology can be applied to DNA extracted from droppings from all species, this process may be cumbersome for labs that outsource their DNA sequencing.</p><p>Real-time PCR offers significant advantages over the previous methods employed to identify bats including its high sensitivity to the very small quantities of DNA found in non-invasively collected samples and the lack of post-PCR processing <ref type="bibr" target="#b51">(O'Neill et al., 2013)</ref>. This makes the technique highly efficient and also reduces the risk of cross-contamination, a pertinent issue in non-invasive genetics <ref type="bibr" target="#b5">(Beja-Pereira et al., 2009)</ref>. Real-time PCR has been used in numerous non-invasive genetics studies of other mammal species resident in Europe, including pine marten, Martes martes <ref type="bibr">(O'Reilly et al., 2007;</ref><ref type="bibr" target="#b43">Mullins et al., 2010;</ref><ref type="bibr" target="#b49">Sheehy et al., 2014;</ref><ref type="bibr" target="#b47">O'Mahony et al., 2015;</ref><ref type="bibr" target="#b12">Croose et al., 2016;</ref><ref type="bibr" target="#b46">O'Mahony et al., 2017;</ref><ref type="bibr" target="#b63">Sheehy et al., 2018)</ref>; otter, Lutra lutra <ref type="bibr" target="#b51">(O'Neill et al., 2013;</ref><ref type="bibr" target="#b68">White et al., 2013)</ref>; red squirrel, Sciurus vulgaris <ref type="bibr" target="#b50">(O'Meara et al., 2012;</ref><ref type="bibr" target="#b48">O'Meara et al., 2018)</ref>; small mammals <ref type="bibr" target="#b42">(Moran et al., 2008)</ref> and the detection of small mammal DNA from predator faecal samples <ref type="bibr" target="#b49">(O'Meara et al., 2014;</ref><ref type="bibr" target="#b49">Sheehy et al., 2014)</ref>. More recently, real-time PCR has been applied to environmental or J o u r n a l P r e -p r o o f eDNA studies and is being used to detect minute quantities of target DNA from environmental sources such as water <ref type="bibr" target="#b22">(Goldberg et al., 2016;</ref><ref type="bibr" target="#b24">Harper et al., 2019)</ref>.</p><p>The aim of this study was to develop a full set of species-specific real-time PCR assays for the identification of the 18 resident bat species of Britain, Barbastella barbastellus, Eptesicus serotinus, Myotis alcathoe, M. bechsteinii, M. brandtii, M. daubentonii, M. myotis, M. mystacinus, M. nattereri, Nyctalus leisleri, N. noctula, Pipistrellus nathusii, P. pipistrellus, P. pygmaeus, Plecotus auritus, Pl. austriacus, Rhinolophus ferrumequinum and R. hipposideros. A subset of those species is present in Ireland, including nine resident species (Myotis daubentonii, M. mystacinus, M. nattereri, Nyctalus leisleri, Pipistrellus nathusii, P. pipistrellus, P. pygmaeus, Plecotus auritus, and Rhinolophus hipposideros) and two vagrant species, M. brandtii and R. ferrumequinum <ref type="bibr" target="#b58">(Roche et al., 2014)</ref>. We subsequently applied the assays to droppings collected at potential bat roost sites (churches, underground sites, bat boxes and other sites e.g. houses and bridges) surveyed in Ireland to demonstrate their application to identify which species were present at different roosts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head><p>A collection of reference DNA samples was assembled for all 18 bat species which were to be included in this study. In total 81 samples were obtained, including both tissue and dropping samples (Table <ref type="table">1</ref>), all of which were stored at -20°C. Tissue samples were obtained from dead bats which were found in the field in County Waterford, Ireland or were obtained from the collections of other licensed bat surveyors and researchers. Droppings for use as reference samples were obtained from two sources. The majority were from a collection of bat droppings which had been DNA sequenced at Waterford Institute of Technology (WIT) on a commercial basis to identify the species of origin, using unpublished primers targeting the mitochondrial DNA cytochrome b (cytb) gene. Additionally, some droppings were collected directly from bats which had been trapped and identified in the hand by experienced and licenced bat workers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA Extraction</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>J o u r n a l P r e -p r o o f</head><p>For tissue samples, a small section (approx. 5 mm diameter) of wing tissue was cut off from each bat being sampled with scissors and tweezers, which were dipped in alcohol and flamed between samples to prevent cross-contamination. The tissue DNA was then extracted using the ZR Genomic DNA TM Tissue MicroPrep (Zymo Research) according to the Solid Tissue protocol, with Zymo-Spin TM II columns (Zymo research).</p><p>Once extracted, the tissue DNA sample concentrations were measured using a Thermo Scientific Nanodrop TM 1000 Spectrophotometer. Tissue DNA concentration measurements allowed for the accurate dilution of working samples and the creation of serial dilutions for the measurement of standard curves for each species-specific primer pair to assess their efficiency.</p><p>For bat faecal pellet samples, a single bat faecal pellet was transferred to 500 μl of Stool Transport and Recovery (STAR) Buffer <ref type="bibr">(Roche)</ref>, vortexed to mix and allowed to stand at room temperature for ≥ 30 min. The sample was then centrifuged at 1000 x g for 60 s and 150 μl of supernatant was removed for DNA isolation as per the Solid Tissue protocol as above. All DNA extracts were stored at -20°C until required.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Primer Design</head><p>Due to its interspecific variability the mitochondrial DNA cytochrome b (cytb) gene has been commonly used in phylogeographic studies of mammal species, including numerous European bat species <ref type="bibr" target="#b59">(Ruedi and Mayer, 2001;</ref><ref type="bibr" target="#b27">Ibáñez et al., 2006;</ref><ref type="bibr">García-Mudarra et al., 2007;</ref><ref type="bibr">Hulva et al., 2007;</ref><ref type="bibr" target="#b28">Juste et al., 2013)</ref>, and has contributed to the identification of several cryptic species <ref type="bibr" target="#b3">(Barratt et al., 1997;</ref><ref type="bibr" target="#b6">Benda et al., 2004;</ref><ref type="bibr" target="#b29">Juste et al., 2018)</ref>. This gene was selected as the target for real-time PCR primers for this study as sequences were available for all of the species of interest on the GenBank (NCBI) database <ref type="bibr" target="#b10">(Clark et al., 2016)</ref>, making direct comparison between all 18 species more straightforward. Cytb gene sequences used in this study for primer design are listed in supplementary material S1.</p><p>These sequences were aligned in MEGA 6.0 using the Clustal W algorithm. Species-specific sites were identified by eye and targeted as potentially useful regions for primer design.</p><p>Real-time PCR primers were designed using Primer Express v2.0 (Applied Biosystems).</p><p>Primer sets were designed to target species-specific nucleotide polymorphisms at the 3' J o u r n a l P r e -p r o o f ends of both primers. The design parameters used included a melting temperature of between 58°C and 60°C, primer length of between 20 and 30 bp, a GC content of between 45% and 55% and the production of an amplicon between 70 and 100 bp long to increase the likelihood of amplifying degraded or low quantity and quality DNA typically found in faecal samples. Primer sets were checked using BLAST searches to ensure that they were specific to the target species <ref type="bibr" target="#b0">(Altschul et al., 1997)</ref>. The newly designed primers <ref type="table">(Table 2)</ref> were ordered from Eurofins (Germany) in a lyophilised state and were re-suspended in molecular grade water to a stock concentration of 100 pmol/μl and then diluted to a working concentration of 5 pmol/μl (5 μM) containing both the forward and reverse primers for use in the real-time PCR reactions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Primer Specificity</head><p>To ensure that each primer set was species-specific, the primers were used to test the reference material of known species. Samples were tested by creating a mixture of 5 μl of Faststart Universal SYBR Green Master (ROX) (Roche), 0.4 μl of each primer mix, with 1 μl of DNA template, and H2O to a total volume of 10 μl per well. DNA samples extracted from tissue were diluted to a standard 4ng/μl for this purpose. Negative controls contained molecular grade H2O instead of DNA. As it was not possible to accurately measure the quantity of target DNA in faecal samples (due to the presence of bacterial and prey DNA), and target DNA quantity was likely to be far lower in any case, these samples were not further altered after DNA extraction.</p><p>The samples to be tested were loaded into a MicroAmp Optical 96-well reaction plate (Applied Biosystems) and sealed with MicroAmp Optical Adhesive Film (Applied Biosystems).</p><p>The PCR reaction was carried out using an Applied Biosystems 7300 Real-Time PCR System with a default profile of 2 min at 50°C, 10 min at 95°C, followed by 40 cycles of 15 s at 95°C and 60 s at 60°C. During this process, fluorescence is measured and recorded at the end of each cycle. Positive amplification in a particular reaction is detected by its fluorescence rising above the background level and passing the "cycle threshold", from which it is assigned a Ct value is indicated by the increase of a reaction's fluorescence above the background level and passing the "cycle threshold" (Ct). The point at which a reaction's fluorescence passes the Ct (the Ct value) can also be used as a relative measure of the J o u r n a l P r e -p r o o f concentration of target DNA within the sample, with a lower Ct value indicating a higher concentration of DNA. A final dissociation step of 15s at 95°C, 30s at 60°C and 15s at 95°C was used for melt curve analysis to confirm specific amplification. During this step, the temperature of the PCR plate is gradually increased and the decrease in SYBR Green fluorescence measured as the PCR product melts (i.e. the double-stranded DNA dissociates).</p><p>A dissociation curve is produced which identifies the melting temperature of the target amplicon.</p><p>All primer sets were tested to examine their specificity using the reference samples, which were divided into three sets: tissue samples, droppings of known species and droppings from known species roosts. For each reference sample set, each sample was tested using all primer sets. The lowest resulting Ct value for each sample was used to assign a species identification result, and this was cross-referenced with the known species of each sample to check if the correct species had amplified. Positive amplification with a cycle threshold value higher than 30 was disregarded, as such late amplification was highly likely to be due to non-specific amplification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Primer Sensitivity and Amplification Efficiency</head><p>To test the amplification efficiency and sensitivity of the primers, serial dilutions of tissue DNA (1 -1 X 10 -6 ) were amplified for each species where possible, using the same real-time PCR method as above. All tissue DNA extracts were diluted to a standard 4 ng/μl. The Ct values which resulted from testing of serial dilutions were used to create a standard curve, plotting Ct values against the logarithm of DNA concentration. The standard curve was used to estimate the R 2 , showing the sensitivity of the primers, and the gradient of the curve, which gives a measure of the amplification efficiency of the primers. The efficiency of the primers was then calculated via the slope of the line using the following formula Efficiency = -1+10 (-1/slope) . Slopes between -3.1 and -3.6 that provide a reaction efficiency of between 90 and 110% are considered efficient.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Field Survey of Bat Roosts</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study Area and Sample Collection</head><p>Potential bat roost sites across County Waterford were surveyed from 2011-2014. Roost surveys consisted of a thorough search of the site for signs of the presence of bats.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>J o u r n a l P r e -p r o o f</head><p>Indicators of the presence of bats included bat droppings, urine stains, prey remains (usually moth or butterfly wings), bat carcasses, and in some cases live bats were found. Signs of the presence of bats, or a lack thereof, for each site surveyed were noted, and any live bats which could be identified were also recorded. Droppings, where available, were collected from each site for DNA testing later.</p><p>In this study, 103 church buildings within County Waterford (almost all either Roman Catholic or Church of Ireland denominations) were considered for surveying. Permission to survey each church was sought from the clergy responsible for each of the churches, and surveys were conducted in 73 buildings. An additional five church ruins were also surveyed.</p><p>Samples for DNA analysis were collected in a total of 42 buildings.</p><p>In addition, a total of nine underground sites in County Waterford were selected for surveying, including seven natural limestone caves, a disused railway tunnel and a mill race tunnel located beneath the ruin of a 19th-Century saw mill. The sites were surveyed in February-March of 2013 and 2014 to investigate the possibility of use by bats as hibernation sites. Samples were collected at six sites.</p><p>During the course of these surveys, signs of bat occupation were found in a number of "other" sites of varying types, which included bridges, houses, farm buildings, garages, disused schools and gate lodges. Samples were collected at 10 of these sites.</p><p>Eighteen Schwegler 2F woodcrete bat boxes were erected on trees in pairs at two separate sites in County Waterford in September 2013. Twelve boxes were placed in an area of mixed river-side woodland immediately to the north of the town of Lismore, and six were placed along treelines and in mixed woodland around the edges of the village of Cheekpoint. After being erected, these were checked in May and September 2014 to look for signs of bat occupation and droppings from four were collected for DNA analysis.</p><p>To increase the total number of samples from unknown roosts available for real-time PCR testing, several sets of bat dropping samples were donated by bat surveyors carrying out similar surveys in three counties outside of Waterford, in Galway, Kildare and Wexford.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>J o u r n a l P r e -p r o o f</head><p>Samples collected as part of church bat surveys in counties Kildare and Wexford were obtained (n = 13), as well as samples from two bat box schemes located in Kildare and Galway (n = 14) (all consisting of Schwegler 2F woodcrete bat boxes). A small number of samples from "other" roosts from all three counties were also obtained (n = 6).</p><p>Overall, samples were obtained from a total of 95 sites, including 55 churches, six underground sites, 18 bat boxes and 16 other sites (Fig. <ref type="figure" target="#fig_1">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA Testing of Field Samples</head><p>Where bat faecal samples were collected, DNA was extracted and tested as above. The majority of DNA extracts were from a single bat dropping from a sample. However, a subset of samples was selected to extract DNA using several bat droppings from the same site. In some cases this was unavoidable, as with samples collected from bat boxes where bat droppings had often degraded into a powdery mass such that it was difficult to select a single dropping. In samples where multiple droppings had been collected and it was thought possible that several bat species could co-exist at the same roost site, DNA was extracted from two to four bat droppings simultaneously, using the same protocol as for singledropping DNA extractions. Where possible, droppings for DNA extraction were selected to pick out a variety of sizes and shapes when obvious differences between droppings were seen, potentially indicating different species of origin <ref type="bibr" target="#b64">(Stebbings et al., 2007)</ref>.</p><p>Once extracted, the DNA samples were tested using the set of real-time PCR primers for all bat species recorded in Ireland, i.e. P. pipistrellus, P. pygmaeus, P. nathusii, N. leisleri, P. auritus, M. daubentonii, M. nattereri, M. mystacinus, M. brandtii, R. hipposideros, and R.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ferrumequinum.</head><p>After testing for bat species had been carried out, DNA samples which remained unidentified were also tested for non-target species to examine whether misidentification of bat droppings during sample collection may have occurred. Samples were tested for the Irish small mammal species most likely to be present in the areas surveyed: wood mouse (Apodemus sylvaticus), pygmy shrew (Sorex minutus), bank vole (Myodes glareolus), and brown rat (Rattus norvegicus). Real-time PCR primers designed for these species by <ref type="bibr" target="#b42">Moran et al. (2008)</ref> and <ref type="bibr" target="#b41">Moran (2009)</ref> were used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>J o u r n a l P r e -p r o o f</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Primer Design</head><p>All reference DNA samples were correctly identified to species based on the lowest Ct value for the real-time PCR assays with which they were tested. In addition, no instances of crossspecies amplification were observed, although late amplification occurred for some samples, but these could easily be dismissed due to high Ct values in comparison to the target species. The results of testing of reference tissue and faecal DNA samples are included in supplementary material S2. The sensitivity of the primers was tested by amplifying ten-fold dilution series of bat tissue DNA, from which standard curves were plotted (supplementary material S3). Standard curves were plotted for ten of the species in this study for which tissue DNA was available: M. bechsteinii, M. daubentonii, M. mystacinus, M. nattereri, N. leisleri, P. nathusii, P. pipistrellus, P. pygmaeus, P. auritus, and R. hipposideros. Standard curves could not be plotted for the remaining species as only faecal DNA was available, for which the target DNA cannot be accurately measured due to the presence of DNA from prey insects, gut bacteria, etc. The quantity of tissue DNA available for Myotis myotis was insufficient for the creation of a standard dilution series.</p><p>Using the standard curves, the R 2 value and the slope of the curve for each primer set were calculated. All of the primer sets had R 2 values of 0.99-1.00. Using the value of the slope of the standard curve, the percent efficiency of each primer set was calculated. Nine of the ten primer sets fell within the range of 90-110% efficiency, which is considered to be acceptable by Applied Biosystems. The exception was the primer set designed for P. nathusii, with an efficiency of 74.7%. While not ideal, the primer set was considered to be amply capable of detecting P. nathusii samples for this study, but future studies using this primer set may consider redesigning it to improve its efficiency.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Roost Site Surveys</head><p>A total of 164 DNA extractions were made from samples collected at 95 sites (Figure <ref type="figure" target="#fig_1">1</ref>;</p><p>Table <ref type="table">3</ref>). When the DNA samples collected were tested using the real-time PCR primers for Irish bat species, 121 samples out of a total of 164 (74%), were identified as having J o u r n a l P r e -p r o o f originated from bat species. Only 22% of samples from underground sites were identified to species, compared to 79-92% of samples identified to species from the other site types (Table <ref type="table">3</ref>). Due to the collection of multiple samples from each site, it was possible to identify bat species present at 89% of roosts. Results of real-time PCR testing of field samples are shown in supplementary material S4.</p><p>Forty-three samples which could not be identified to species using the bat real-time PCR primers were tested for non-target small mammal species. Of these, only one yielded a positive result for wood mouse, Apodemus sylvaticus. This indicated that non-identification of samples was more likely to be as a result of DNA not being of sufficient quality due to degradation, rather than the collection of faecal samples of non-target species.</p><p>Each occurrence of a bat species at a particular site was classed as a separate roost. In total, 108 roosts were identified at the 85 sites where the bat species present were identified, based on analysis of faecal DNA samples collected. The majority of sites contained a single species, at 76% (n = 65), 20% of sites (n = 17) were found to be inhabited by two bat species, and 4% (n = 3) contained three bat species.</p><p>Seven bat species were identified in the roosts surveyed: P. pipistrellus, P. pygmaeus, P. auritus, M. daubentonii, M. nattereri, M. mystacinus and N. leisleri. The three most commonly encountered species overall were P. pipistrellus, P. pygmaeus and P. auritus, making up 77% of the total number of roosts recorded. Distinct patterns of species occupancy were apparent in the different roost types (Fig. <ref type="figure">2</ref>). Roosts in church buildings were dominated by P. pygmaeus, P. pipistrellus, and P. auritus, although all seven bat species were detected. Underground sites contained exclusively M. nattereri and P. auritus. Bat boxes were dominated by P. pygmaeus and N. leisleri, although P. pipistrellus and P. auritus were also found. Six species (P. pipistrellus, P. pygmaeus, P. auritus, M. nattereri, M. mystacinus and M. daubentonii) were found in the other roost sites, with no species being predominant. In roosts found to contain multiple species, the combination of co-existing species varied according to the site type. In church roosts, combinations of P. pipistrellus, P. pygmaeus or P. auritus was the most commonly observed pattern of multi-species occupancy, while in bat boxes combinations of N. leisleri with either P. pipistrellus or P. pygmaeus was the pattern most often seen (Table <ref type="table">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>J o u r n a l P r e -p r o o f</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>It is important to monitor trends in bat populations as they play crucial roles in the functioning of ecosystems, and changes in their populations are related to the impacts of climate change, changes in land use, loss of habitat and urbanisation. Consequently, bats have been described as "bioindicators", representing a proxy to the understanding of overall environmental health and how that changes over time <ref type="bibr" target="#b61">(Russo and Jones 2015)</ref>. Such indicators require long-term surveillance strategies, but bats represent a challenge, particularly bats that are dispersed across large geographic areas, cryptic species that are difficult to accurately identify, and are present as part of a multispecies assemblage <ref type="bibr" target="#b39">(Meyer 2015)</ref>. The non-invasive genetic monitoring of bat roosts offers a highly complementary addition to the currently available surveillance techniques that include acoustic detection, emergence counts and direct observation either through trapping and handling or the counting of bats within their roosts.</p><p>The real-time PCR assays developed in this study successfully identified the species of origin of the 81 reference samples used, and all were found to be species-specific. These assays were also successfully applied to a non-invasive survey of bat roosts across Ireland using faecal DNA samples. These assays represent the first complete set of species-identification primers for the entire resident bat fauna of a region of Europe, and have the potential to be used for similar surveys in the British Isles and across Europe where these bat species also occur, particularly for the monitoring of bats as part of proposed development <ref type="bibr">(Collins, 2016)</ref>, or for identification of samples prior to DNA metabarcoding studies. In the future, with the design of additional primer sets for species not included in this study, this set of assays could be expanded to cover the entire European bat fauna, further enhancing its usefulness for other bat researchers.</p><p>However, for researchers aiming to use the current set of assays for studies of bats outside of north-western Europe, some potential issues should be borne in mind. Slightly differing haplotypes may exist in other populations of the bat species examined in this study, requiring a slight redesign of primer sequences, although subspecies distinctions in some areas may require more extensive redesign. Primer redesign may also need to be considered to avoid cross-species reactivity between those included in this study and closely related species present in other parts of Europe, such as those in the speciose genus Myotis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>J o u r n a l P r e -p r o o f</head><p>Most importantly, some closely related species which co-exist in parts of Europe may be difficult to distinguish from each other using these assays. While there was little difficulty in finding species-specific regions in sequences from the majority of species included in this study, it was not possible to design primers capable of distinguishing E. serotinus from E. nilssonii and M. myotis from M. blythii, as both species pairs have very similar or identical mtDNA haplotypes in at least parts of their ranges in Europe due to past introgression events <ref type="bibr" target="#b35">(Mayer and von Helversen, 2001;</ref><ref type="bibr" target="#b7">Berthier et al., 2006;</ref><ref type="bibr" target="#b1">Artyushin et al., 2009)</ref>. In areas where these species pairs co-exist, a nuclear marker would be required in addition to the mtDNA assay used in this study to differentiate between them.</p><p>In the field survey undertaken in this study, the varying success rate of sample identification from different roost types highlighted the impact that environmental conditions can have on the preservation of DNA in non-invasively collected samples. Although environmental conditions were not always uniform between sites within each roost type, all of the underground sites were consistently cool and damp, and the faecal samples from these sites showed a far lower rate of identification success than samples from other site types. This observation matches the findings of several studies which have correlated poor DNA amplification rates in non-invasively collected faecal samples from several mammal species with the occurrence of cool and wet weather conditions at the time of sample collection <ref type="bibr" target="#b18">(Farrell et al., 2000;</ref><ref type="bibr">Piggott and Taylor, 2004;</ref><ref type="bibr" target="#b44">Murphy et al., 2007)</ref>. Where environmental conditions are unfavourable for DNA preservation, such as in underground sites, researchers wishing to employ non-invasive sampling of bat populations may need to collect faecal samples at short, regular intervals, instead of simply collecting any samples which are found during a single visit as was the case in this study. In contrast to the underground sites, bat boxes provided excellent quality DNA samples (92% of samples identified), and this is likely due to the design of the bat boxes which aim to provide a dry and insulated environment for the bats. The length of time between the deposition of droppings and their collection has also been shown to impact the quality of extracted DNA for other mammal species <ref type="bibr" target="#b44">(Murphy et al., 2007)</ref>. There was no means of determining the age of bat droppings collected in this study, but other authors have used simple floor coverings such as newspaper inside roosts to allow the collection of bat droppings of known age <ref type="bibr" target="#b55">(Puechmaille et al., 2007)</ref>. The high overall rate of success of sample identification shows that for the majority of roost types, J o u r n a l P r e -p r o o f non-invasive sampling can provide a high quality source of DNA from bat species. However, different sampling strategies may be required for varying roost types in order to maximise the DNA quality of non-invasive samples.</p><p>During the field study, a large number of new roost records were discovered for seven Irish bat species across four counties, providing additional distribution data for these species. The bat species encountered varied between the three main roost types surveyed (churches, underground sites and bat boxes), with the patterns seen in this study matching the known preferences of these species. Church roosts were mainly occupied by Pipistrellus pipistrellus, P. pygmaeus and Plecotus auritus, which were also found to be the main species present in other surveys of church roosts in England and Ireland <ref type="bibr" target="#b62">(Sargent, 1995;</ref><ref type="bibr" target="#b57">Roche, 1998)</ref>. This study confirms the importance of churches as bat roosts in Ireland <ref type="bibr" target="#b34">(Marnell and Presetnik, 2010)</ref>, particularly for the conservation of P. auritus <ref type="bibr" target="#b33">(Lundy et al., 2011)</ref>.</p><p>In underground sites, only P. auritus and Myotis nattereri were encountered, both of which are known to commonly use such sites as hibernation roosts and swarming sites, along with other Myotis species <ref type="bibr" target="#b21">(Glover &amp; Altringham, 2008;</ref><ref type="bibr" target="#b13">Dietz et al., 2009)</ref>. Irish bats do not migrate to large hibernation sites similar to those typically found in continental Europe <ref type="bibr" target="#b67">(Van der Meij et al., 2015)</ref>, and where bats have been found hibernating in Ireland, their numbers tend to be very low. In general, very little is known about the selection of hibernation sites of Irish bats, but they are known to use caves present in karst landscapes, disused mine shafts, ice houses, cellars and lime kilns <ref type="bibr" target="#b36">(McAney, 1999)</ref>. In order to protect hibernation sites, particularly of Irish bats where so little is known, greater monitoring and identification of such sites is required. By using non-invasive genetics, while yielding poor DNA relative to other locations surveyed in this study, it was possible to identify species present at some sites suggesting that this method may be useful for such purposes.</p><p>Pipistrellus pipistrellus, P. pygmaeus and Nyctalus leisleri were predominant in the bat box roosts. The same pattern was observed by <ref type="bibr" target="#b54">Poulton (2006)</ref> in an analysis of a large dataset of records of bat box inspections from across the British Isles, with 74% of bat records accounted for by these three species. <ref type="bibr" target="#b58">Roche et al. (2014)</ref> listed six bat species that have been recorded using bat boxes in Ireland (Plecotus auritus, Pipistrellus pipistrellus, P. pygmaeus, Nyctalus leisleri, Myotis nattereri and M. daubentonii), with N. leisleri and P. pygmaeus being the most commonly recorded species in this roost type. However, they J o u r n a l P r e -p r o o f noted that there were very few records of P. pipistrellus in bat boxes in Ireland, which could be due to the difficulty of distinguishing this species from P. pygmaeus from bat droppings alone or without handling pipistrelles, and thus P. pipistrellus roosts in bat boxes may be under-recorded. The results from this study support this, as P. pipistrellus was found to the third most commonly identified species in bat boxes. Bat box schemes are becoming increasingly common in Britain and Ireland particularly amongst community groups, and are also being used in agri-environmental schemes such as GLAS (Green, Low-Carbon, Agri-Environment Scheme). GLAS is an agri-environment scheme that is part of the Rural Development Programme Farmers are paid to place up to 15 bat boxes on their farm as part of the scheme. The results from this study have shown that excellent quality DNA can be found in bat boxes (92% species identification success), and the techniques used could be a useful method to monitor the impact of the scheme.</p><p>This study found that occupancy of roosts by multiple bat species is relatively common, with 24% of sites found to contain more than one species. The occupation of roosts by two or more bat species is a known phenomenon, with over ten different species recorded to coexist at some large underground sites in Europe such as Na Turoldu cave in the Czech Republic <ref type="bibr" target="#b19">(Gaisler and Chytil, 2002)</ref> and the Nietoperek bat reserve in Poland <ref type="bibr" target="#b31">(Kokurewicz et al., 2016)</ref>. However, there appears to be little empirical data on the incidence of multispecies occupancy of bat roosts in the wider landscape available for comparison with this study. In a summer survey of caves in south-eastern Spain protected under the Natura 2000 network for six bat species, <ref type="bibr" target="#b32">Lisón et al. (2013)</ref> found that 50% of sites contained two or more of the bat species of interest. Perhaps more directly comparable to this study, <ref type="bibr" target="#b57">Roche (1998)</ref> found that 15% of summer bat roosts in a survey of churches in several counties in the east of Ireland contained two or more bat species, but no note was made of the species which co-existed with each other. Given that Roche's (1998) study was based on visual and bat detector surveys of churches and DNA testing was not carried out on bat droppings found, the proportion of multi-species roosts in this study was probably an underestimate.</p><p>The incidence of multi-species roosts warrants further investigation, since in the heavily anthropogenic environments that exist in much of Europe which may have limited roosting opportunities for bats, the protection of such sites may be of special importance for bat conservation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>J o u r n a l P r e -p r o o f</head><p>Seven M. mystacinus roosts (all in Waterford) and six M. nattereri roosts (one in Kildare and the remainder in Waterford) were discovered during this survey, none of which had previously been recorded. This is a substantial increase in the number of known locations for these species in Waterford, as only two roosts for both species were previously known <ref type="bibr" target="#b58">(Roche et al., 2014)</ref>. This is also significant nationally, as only 41 M. mystacinus roosts and 66 M. nattereri roosts have been previously recorded in Ireland as a whole <ref type="bibr" target="#b58">(Roche et al. 2014)</ref>. As these species are thought to be under-recorded in Ireland, non-invasive genetic surveys of potential roost sites in areas of favourable habitat for these species could provide more data on their distribution in Ireland.</p><p>While seven of the resident bat species in Ireland were detected in this study, the other two known resident species, R. hipposideros and P. nathusii, were not encountered, which may be explained by two factors. Both species are rare in Ireland, with estimated populations of 12,700 for R. hipposideros and 5,000 for P. nathusii (NPWS, 2019). In addition, both of these species' ranges in Ireland are limited. The lesser horseshoe bat only occurs in a narrow area along the western coast of Ireland <ref type="bibr" target="#b58">(Roche et al., 2014;</ref><ref type="bibr">NPWS, 2019)</ref>, and only one site included in this study (in Co. Galway) coincided with this species' known range. Although P. nathusii is more widespread across Ireland, records of this species are highly localised to areas of suitable habitat, and within the counties included in this study there are very few bat detector records and no known roosts <ref type="bibr" target="#b58">(Roche et al., 2014;</ref><ref type="bibr">NPWS, 2019)</ref>. The lack of occurrences of M. brandtii and R. ferrumequinum in this study was expected as these species are thought to only occur as vagrants in Ireland, with very few records <ref type="bibr" target="#b58">(Roche et al., 2014)</ref>.</p><p>The high sensitivity of the real-time PCR assays to the small quantities of DNA makes them especially well-suited to identifying samples from non-invasively collected samples. In addition, as well as confirming the species of origin, the Ct values obtained can provide an assessment of the relative quantity and quality of target DNA in a sample. This approach was used in other non-invasive genetic studies where the highest quality samples as measured by the Ct values of a real-time PCR species identification assay were selected for sex typing and genotyping analysis <ref type="bibr" target="#b51">(O'Neill et al., 2013;</ref><ref type="bibr" target="#b49">Sheehy et al., 2014;</ref><ref type="bibr" target="#b46">O'Mahony et al., 2017;</ref><ref type="bibr" target="#b48">O'Meara et al., 2018)</ref>. Studies assessing levels of genetic diversity are particularly important for bats as they are sensitive to the impacts of genetic erosion due to habitat J o u r n a l P r e -p r o o f change, and such studies should be integrated into any long-term biomonitoring and surveillance programme <ref type="bibr" target="#b39">(Meyer, 2015)</ref>. In addition, this technique would be very useful for prior to undertaking DNA metabarcoding studies to not only ensure the target species is being identified, but also to assess the quality of the DNA present. This would mean that authors could avoid the use of DNA metabarcoding for species identification <ref type="bibr" target="#b66">(Tournayre et al., 2019)</ref>.</p><p>The methodology developed and applied in this study provides an innovative non-invasive approach to not only generate data for distributional and longitudinal studies of bats, but can also be applied to the detection of bat species at roosts where development is proposed <ref type="bibr">(Collins, 2016)</ref>. Similarly, the methodology has useful applications for bat box schemes that may be monitored by citizen scientists <ref type="bibr">(Barlow et al., 2016)</ref> and for the evaluation of impact of bat box installation for payment based agri-environment schemes <ref type="bibr" target="#b17">(Elliott, 2018)</ref>.   </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figures</head><label></label><figDesc>Figures</figDesc><graphic coords="32,109.56,157.20,451.20,253.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 J</head><label>1</label><figDesc>Figure 1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Figure 2</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This research was carried out by the <rs type="funder">Mammals In a Sustainable Environment (MISE)</rs> Project funded by the <rs type="funder">European Regional Development Fund</rs> under the <rs type="programName">Ireland Wales Programme 2007-2013</rs> (<rs type="programName">INTERREG IVA</rs>). The authors wish to thank the <rs type="institution">MISE team</rs>, volunteers who helped to carry out survey work, and landowners who allowed access to roost sites. We would also particularly like to <rs type="person">Conor Kelleher</rs> of <rs type="affiliation">Cork County Bat Group</rs> for advice on roost site surveys, and <rs type="person">Sam Dyer</rs> for assistance during field work. We would also like to <rs type="person">Dr. Frank Zachos</rs> and two anonymous reviewers for their helpful comments on the manuscript.</p></div>
+<div><head>B</head><p>J o u r n a l P r e -p r o o f</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_EVhRTNc">
+					<orgName type="program" subtype="full">Ireland Wales Programme 2007-2013</orgName>
+				</org>
+				<org type="funding" xml:id="_QwDQ5Yz">
+					<orgName type="program" subtype="full">INTERREG IVA</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>List of Figures</head><p>J o u r n a l P r e -p r o o f Tables <ref type="table">Table 1   Table 1:</ref>  J o u r n a l P r e -p r o o f    </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Gapped BLAST and PSI-BLAST: a new generation of protein database search programs</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Altschul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Madden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Schaffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lipman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="3389" to="3402" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Mitochondrial DNA relationships among North Palaearctic Eptesicus (Vespertilionidae, Chiroptera) and past hybridization between Common Serotine and Northern Bat</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Artyushin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Bannikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Lebedev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Kruskop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zootaxa</title>
+		<imprint>
+			<biblScope unit="volume">2262</biblScope>
+			<biblScope unit="page" from="40" to="52" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Citizen science reveals trends in bat populations: The National Bat Monitoring Programme in Great Britain</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Barlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Briggs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Haysom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hutson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Lechiara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Racey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Langton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bio. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="14" to="26" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">DNA answers the call of pipistrelle bat species</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Barratt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Deaville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Burland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Racey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">379</biblScope>
+			<biblScope unit="page" from="138" to="139" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Bats and bat boxes: Guidance notes for Agrienvironmental schemes</title>
+		<ptr target="www.batconservationireland.org" />
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<publisher>Bat Conservation Ireland</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Advancing ecological understandings through technological transformations in noninvasive genetics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beja-Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Res</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1279" to="1301" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Systematic status of African populations of Pipistrellus pipistrellus complex (Chiroptera: Vespertilionidae), with a description of a new species from Cyrenaica, Libya</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Benda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hulva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gaisler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Chiropterol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="193" to="217" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Recurrent replacement of mtDNA and cryptic hybridization between two sibling bat species Myotis myotis and Myotis blythii</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Berthier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Excoffier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruedi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="3101" to="3109" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A rapid PCR-based assay for identification of cryptic Myotis spp. (M. mystacinus, M. brandtii and M. alcathoe)</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S M</forename><surname>Boston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hanrahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Puechmaille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Buckley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Lundy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Prodöhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">I</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Teeling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet. Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="557" to="563" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Empirical assessment of non-invasive J o u r n a l P r e -p r o o f population genetics in bats: comparison of DNA quality from faecal and tissue samples</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S M</forename><surname>Boston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Puechmaille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Buckley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Lundy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">W</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Prodöhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Teeling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Chiropterol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="45" to="52" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Karsch-Mizrachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lipman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ostell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Sayers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">GenBank. Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="67" to="D72" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m">Bat Surveys for Professional Ecologists -Good Practice Guidelines (3 rd Edition)</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Collins</surname></persName>
+		</editor>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>The Bat Conservation Trust</publisher>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Sample diversity adds value to non-invasive genetic assessment of a pine marten (Martes martes) population in Galloway Forest, southwest Scotland</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Croose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Birks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Macleod</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm. Res</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="131" to="139" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Bats of Britain, Europe and Northwest Africa</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dietz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Von Helversen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nill</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Black</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Publishers Ltd</publisher>
+			<pubPlace>London, U</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Two decades of non-invasive genetic monitoring of the grey wolves recolonizing the Alps support very little dog introgression</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dufresnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Remollino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stoffel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Manz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-M</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fumagalli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep. UK</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">148</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Design of agri-environmental schemes evidence from the monitoring and evaluation of GLAS in Ireland</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Elliott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Seminar of the European Association of Agricultural Economists</title>
+		<imprint>
+			<date type="published" when="2018-08-30">2018. August 30 -31</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Dietary separation of sympatric carnivores identified by molecular analysis of scats</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Farrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Roman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Sunquist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1583" to="1590" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Mark-recapture results and changes in bat abundance at the cave of Na Turoldu, Czech Republic</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gaisler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chytil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Folia Zool</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The Straits of Gibraltar: barrier or bridge to Ibero-Moroccan bat diversity?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>García-Mudarra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ibáñez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Juste</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. J. Linn. Soc</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="434" to="450" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Cave selection and use by swarming bat species</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Glover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Altringham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="1493" to="1504" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Critical considerations for the application of environmental DNA methods to detect aquatic species</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Goldberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Deiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Klymus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Thomsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Cornman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Met. in Ecol. and Evol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1299" to="1307" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A rapid PCR-based test for identification of fifteen British bat species</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">U</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Basiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>De-Bastos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mathews</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conser. Genet. Res</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="651" to="657" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Development and application of environmental DNA surveillance for the threatened crucian carp (Carassius carassius)</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>J O U R N A L P R E -P R O O F Harper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Lawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">L</forename><surname>Handley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Freshwater Biol</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="93" to="107" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Mammals of the British Isles: Handbook</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yalden</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>The Mammal Society</publisher>
+			<pubPlace>Southampton, U</pubPlace>
+		</imprint>
+	</monogr>
+	<note>4 th Ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The Iberian contribution to cryptic diversity in European bats</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ibáñez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>García-Mudarra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stadelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Juste</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Chiropterol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="277" to="297" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Phylogeny and systematics of Old World serotine bats (genus Eptesicus, Vespertilionidae, Chiroptera): an integrative approach</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Juste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Benda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>García-Mudarra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ibáñez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zool. Scr</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="441" to="457" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Two new cryptic bat species within the Myotis nattereri species complex (Vespertilionidae, Chiroptera) from the western palaearctic</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Juste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Puechmaille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Salicini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ibáñez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Chiropterol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="285" to="300" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A rapid PCR-based test for species identification of two cryptic bats, Pipistrellus pipistrellus and P. pygmaeus, and its application on museum and dropping samples</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kanuch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hajkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Rehak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bryja</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Chiropterol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="277" to="282" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Bats increase the number of cultivable airborne fungi in the &quot;Nietoperek&quot; bat reserve in western Poland</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kokurewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ogórek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Pusz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Matkowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microb. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="36" to="48" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Effectiveness of the Natura 2000 network for the conservation of cave-dwelling bats in the Mediterranean region</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lisón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Palazón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Calvo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="528" to="537" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Landscape conservation for Irish bats and species specific roosting characteristics</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Lundy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Aughney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">I</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Roche</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>Bat Conservation Ireland</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Protection of overground roosts for bats (particularly roosts in buildings of cultural heritage importance)</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Presetnik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">EUROBATS Publication Series</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">57</biblScope>
+			<date type="published" when="2010">2010</date>
+			<pubPlace>Bonn, Germany</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>UNEP / EUROBATS Secretariat</orgName>
+		</respStmt>
+	</monogr>
+	<note>English version</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Cryptic diversityin European bats</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Von Helversen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. Lond. B</title>
+		<imprint>
+			<biblScope unit="volume">268</biblScope>
+			<biblScope unit="page" from="1825" to="1832" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Mines as roosting sites for bats: their potential and protection</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mcaney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Environ</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="63" to="65" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">The Vincent Wildlife Trust&apos;s Irish Bat Box Schemes</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>J O U R N A L P R E -P R O O F Mcaney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hanniffy</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<publisher>The Vincent Wildlife Trust</publisher>
+			<biblScope unit="page">56</biblScope>
+			<pubPlace>Donaghpatrick, Headford, Ireland</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mitchell-Jones</surname></persName>
+		</author>
+		<title level="m">Bat Mitigation Guidelines</title>
+		<meeting><address><addrLine>Peterborough, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>English Nature</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Methodological challenges in bat monitoring population-and assembly-level changes for anthropogenic impact assessment</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F J</forename><surname>Meyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm. Biol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="159" to="169" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Feeding ecological knowledge: the underutilised power of faecal DNA approaches for carnivore diet analysis</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Monterroso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Godinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ferreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Mills</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mam. Rev</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="97" to="112" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Non-invasive genetic identification of small mammals and investigating multiple paternity in the European hedgehog</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moran</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<pubPlace>Ireland</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Waterford Institute of Technology</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Unpublished PhD thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Non-invasive genetic identification of small mammal species using real-time polymerase chain reaction</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Res</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1267" to="1269" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Remotely plucked hair genotyping: a reliable and non-invasive method for censusing pine marten (Martes martes, L. 1758) populations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mullins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Statham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Roche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Wildlife Res</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="443" to="453" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The impact of time and field conditions on brown bear (Ursus arctos) faecal DNA amplification</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1219" to="1224" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">The status of EU protected habitats and species in Ireland</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Species</publisher>
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+	</monogr>
+	<note>Unpublished NPWS report</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Non-invasively determined multi-site variation in pine marten Martes martes density, a recovering carnivore in Europe</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>O'mahony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Power</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hanniffy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'reilly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page">48</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Pine marten (Martes martes) abundance in an insular mountainous region using non-invasive techniques</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>O'mahony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'reilly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="103" to="110" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Retracing the history and planning the future of the red J o u r n a l P r e -p r o o f squirrel (Sciurus vulgaris) in Ireland using non-invasive genetics</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>O'meara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Mcdevitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>O'neill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Harrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Desmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lawton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rubalcava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sheehy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Sleeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Tosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Waters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'reilly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm. Res</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="173" to="184" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Non-invasive multispecies monitoring: real-time PCR detection of small mammal and squirrel prey DNA in pine marten (Martes martes) scats</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>O'meara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sheehy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>O'mahony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Harrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Denman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lawton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Macpherson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'reilly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Theriol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="111" to="117" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Taqman assays for species identification of the red squirrel (Sciurus vulgaris) and the grey squirrel (Sciurus carolinensis)</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>O'meara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Coffey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet. Res</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="603" to="604" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Development of novel real-time Taqman PCR assays for the species and sex identification of otter (Lutra lutra) and their application to noninvasive genetic monitoring</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>O'neill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>O'meara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Chadwick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Coffey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="877" to="883" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Efficient species identification of pine marten (Martes martes) and red fox (Vulpes vulpes) scats using a 5′ nuclease real-time PCR assay</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Statham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mullins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>O'mahony</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="735" to="738" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Extensive evaluation of faecal preservation and DNA extraction methods in Australian native and introduced species</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aust. J. Zool</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="341" to="355" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">An analysis of the usage of batboxes in England, Wales and Ireland for the Vincent Wildlife Trust</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Poulton</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>Unpublished Report for the Vincent Wildlife Trust</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Good DNA from bat droppings</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Puechmaille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mathy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Petit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Chiropterol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="269" to="276" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Non-invasive genetics can help find rare species: a case study with Rhinolophus mehelyi and R. euryale (Rhinolophidae: Chiroptera) in Western Europe</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Puechmaille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Teeling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammalia</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="251" to="255" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">A survey for bat roosts in Church of Ireland churches</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Roche</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Report for the Heritage Council</title>
+		<meeting><address><addrLine>Kilkenny, Ireland</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Irish Bats in the 21 st Century</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Roche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Aughney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lundy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marnell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Bat Conservation Ireland. J o u r n a l P r e -p r o o f</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Molecular systematics of the genus Myotis (Vespertilionidae) suggests deterministic ecomorphological convergences</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mayer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Phylogenet. Evol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="436" to="448" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Novel perspectives on bat insectivory highlight the value of this ecosystem service in farmland: Research frontiers and management implications</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bosso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ancilotto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Agr. Ecosyst. Environ</title>
+		<imprint>
+			<biblScope unit="volume">266</biblScope>
+			<biblScope unit="page" from="31" to="38" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Bats as bioindicators: an introduction</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm. Biol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="157" to="158" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Population crash in an invasive species following the recovery of a native predator: the case of the American grey squirrel and the European pine marten in Ireland</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sargent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biodivers. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="753" to="774" />
+			<date type="published" when="1995">1995. 2014</date>
+			<pubPlace>London; Lawton C</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Bats in churches project. The Bat Conservation Trust</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">The enemy of my enemy is my friend: native pine marten recovery reverses the decline of the red squirrel by suppressing grey squirrel populations</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sheehy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sutherland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lambin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page">20172603</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">Which Bat is it? The Mammal Society</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Stebbings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Yalden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Herman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<pubPlace>London, UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Mitigating the effect of development on bats in England with derogation licensing</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Biol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1324" to="1334" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">In silico and empirical evaluation of twelve COI &amp; 16S metabarcoding primer sets for insectivorous diet analyses</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Tournayre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leuchtmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Filippi-Codaccioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Trillat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Piry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pontier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Charbonnel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Galan</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/742874</idno>
+		<ptr target="https://doi.org/10.1101/742874" />
+	</analytic>
+	<monogr>
+		<title level="j">BioRxiv</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Return of the bats? A prototype indicator of trends in European bat populations in underground hibernacula</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Der Meij</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Van Strien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Haysom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dekker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Russ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Biala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Bihari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Langton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kurali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Limpens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meschede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Petersons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Presetnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Prüger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Reiter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schorcht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Uhrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vintulis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm. Biol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="170" to="177" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">A non-invasive genetic survey of otters (Lutra lutra) in an urban environment: a pilot study with citizen scientists</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>O'neill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>O'meara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Harrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Weyman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Sleeman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IUCN Otter Specialist Group Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

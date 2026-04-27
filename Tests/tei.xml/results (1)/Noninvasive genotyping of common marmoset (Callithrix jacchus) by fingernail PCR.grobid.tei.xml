@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Noninvasive genotyping of common marmoset (Callithrix jacchus) by fingernail PCR</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2015-03-25">25 March 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Shuji</forename><surname>Takabayashi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Experimental Animals Institute</orgName>
+								<orgName type="institution">Hamamatsu University School of Medicine</orgName>
+								<address>
+									<addrLine>1-20-1 Handayama Higashi-ku</addrLine>
+									<postCode>431-3192</postCode>
+									<settlement>Hamamatsu</settlement>
+									<region>Shizuoka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hideki</forename><surname>Katoh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Experimental Animals Institute</orgName>
+								<orgName type="institution">Hamamatsu University School of Medicine</orgName>
+								<address>
+									<addrLine>1-20-1 Handayama Higashi-ku</addrLine>
+									<postCode>431-3192</postCode>
+									<settlement>Hamamatsu</settlement>
+									<region>Shizuoka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Noninvasive genotyping of common marmoset (Callithrix jacchus) by fingernail PCR</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2015-03-25">25 March 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E93085DD69BF992E39BE1F331EE777EE</idno>
+					<idno type="DOI">10.1007/s10329-015-0466-2</idno>
+					<note type="submission">Received: 23 September 2014 / Accepted: 14 March 2015 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Common marmoset</term>
+					<term>Fingernail DNA</term>
+					<term>QF-PCR</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The common marmoset (Callithrix jacchus) is a New World primate that is a useful model for medical studies. In this study, we report a convenient, reliable, and noninvasive procedure to genotype a living common marmoset by using fingernails. This method was used to successfully genotype DNA by restriction fragment length polymorphism (RFLP) PCR without prior purification, by using the KOD FX PCR enzyme kit. Additionally, there is no sample contamination from hematopoietic chimera derived from fused placenta in utero. We compared chimeric levels between various tissues in females with male littermates using quantitative fluorescent (QF)-PCR to prepare a reliable DNA source for genetic analyses, such as genotyping, gene mapping, or genomic sequencing. The chimerism detected appeared to be restricted to lymphatic tissues, such as bone marrow, thymus, spleen, lymph nodes and blood cells. As a result, DNA from fingernails with the quick is the best DNA source for genetic research in living marmosets.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The common marmoset monkey (Callithrix jacchus), a New World primate species native to Brazil, has increasingly been used as a laboratory primate, especially for reproductive biology, regenerative medicine, and biomedical research <ref type="bibr" target="#b6">(Mansfield 2003)</ref>. Because of their small body size (300-400 g in adults), rapid sexual maturation (about 18 months), high fertility potential, and ease of handling, they have many advantages as experimental animals over Old World species, such as rhesus and cynomolgus monkeys. A transgenic common marmoset developed by germline transmission has been established through lentiviral vector-mediated gene transfer <ref type="bibr" target="#b8">(Sasaki et al. 2009</ref>) and induced pluripotent stem (iPS) cells have been generated in the common marmoset from fetal liver cells, via a retrovirus-mediated route <ref type="bibr" target="#b13">(Tomioka et al. 2010</ref>). This species is attracting attention as a useful experimental primate model that can be genetically modified, and C. jacchus was chosen as the first New World monkey genome to be sequenced. Consequently, whole genome information on the common marmoset is available from the Ensemble database <ref type="bibr" target="#b2">(Flicek et al. 2010;</ref><ref type="bibr" target="#b14">Worley et al. 2014)</ref>. We have used this database to develop microsatellite markers for parental and individual identification of common marmosets <ref type="bibr" target="#b5">(Katoh et al. 2009</ref>). Thus, the need for genetic analyses of the marmosets is rapidly growing with these new developments.</p><p>The DNA template for a genetic analysis by PCR is normally prepared either from blood, ear, or tail in live mice, or from liver, kidney or tail in sacrificed or dead mice. In marmosets, the biggest problem with a genetic analysis is that genetic chimerism occurs between siblings in utero <ref type="bibr" target="#b1">(Benirschke et al. 1962)</ref>. The exchange of hematopoietic cells in utero between siblings takes place through placental chorionic fusion during early development <ref type="bibr" target="#b1">(Benirschke et al. 1962</ref>). As a result, almost all fraternal twins are hematopoietic chimeras <ref type="bibr" target="#b1">(Benirschke et al. 1962;</ref><ref type="bibr" target="#b7">Ross et al. 2007;</ref><ref type="bibr" target="#b10">Sweeney et al. 2012)</ref>. Consequently, marmoset blood DNA cannot be used for genotyping. In addition, DNA sampling from the living marmoset's tail, ear, and skin should be avoided owing to ethical and animal welfare issues. Recently, human fingernail DNA has been reported to be ideal in forensic medicine for identifying DNA <ref type="bibr" target="#b12">(Tie and Uchigasaki 2014)</ref>. A fingernail can be collected easily in marmosets. Therefore, we identified the best marmoset tissues as DNA sources for genetic analyses, such as genotyping, gene mapping, linkage analysis, and genomic sequencing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Animals</head><p>We used three live female marmosets (#1-3), one live male marmoset (#4) and four dead female marmosets (#5-8). Six of the females (#1, #3, and #5-8) were born with male littermates. The #2 female was a singleton with no possibility of hematopoietic chimerism. The #4 male was a male-male twin; no female co-twin was used as a control. The live marmosets were housed alone in individual cages in this study. The marmosets were originally derived from CLEA Japan (Tokyo, Japan). They were reared in our facility at Hamamatsu University School of Medicine under controlled conditions: the environment was kept on a 12-h light/dark cycle and was held at 24-26 °C and 50-60 % humidity. Water and marmoset pellets (CLEA Japan) were available ad libitum. This study was approved by the Hamamatsu University School of Medicine Animal Care and Use Committee.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA preparation</head><p>Samples including peripheral blood, ear biopsy punches, and fingernail tissue were collected from living marmosets (#1-4). Peripheral blood samples (100 ll) were taken from the femoral vein without sedation using a heparinized syringe. Ear punch biopsy specimens were obtained from the auricle under ketamine anesthesia using a KN-293 ear puncher (2.0 mm diameter: Natsume Seisakusho, Tokyo, Japan). We collected two types of fingernails, namely with and without the quick. Approximately 2-or 1.5-mm fingernail fragments were clipped from the finger claw without sedation (Figs. <ref type="figure" target="#fig_0">1,</ref><ref type="figure">4a,</ref><ref type="figure">b</ref>). The fingernails were wiped with ethanol-impregnated cotton, and large debris (typically food debris) was removed with forceps. The samples were stored on ice (4 °C) until extraction of DNA as soon as possible. The crude DNA solution was extracted from each sample using the alkaline lysis method according to the manual. Briefly, a drop of blood (20 ll) and a piece of ear or fingernail were dipped in a 100 ll aliquot of 50 mM NaOH and boiled at 95 °C for 10 min. Then, 10 ll 1 M Tris-HCl (pH 8.0) was added and mixed. This crude DNA extracted solution was used as the DNA source (Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>Next, we gathered various tissues from dead female marmosets (#5-8), which included those that had descended from ectoderm (ear auricle, fingernail, skin, and brain), endoderm (liver, lung, pancreas, and thymus), and mesoderm (blood, spleen, kidney, heart, biceps femoris muscle, bone marrow, mesenteric lymph node, and ovary). These tissues were thoroughly washed in PBS to eliminate extraneous blood prior to DNA extraction. The samples were stored at -20 °C until the DNA extraction using the proteinase K/phenol chloroform method <ref type="bibr" target="#b5">(Katoh et al. 2009</ref>). The genomic DNA was dissolved to 50 ng/ll in 100 mM TE for use as the PCR template.</p><formula xml:id="formula_0">M M 4 # 3 # 2 # 1 # Nail DNA Ear DNA #1 #2 #3 #4 #1 #2 #3 #4 M Blood DNA</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PCR-RFLP</head><p>PCR-RFLP of the ZFX/ZFY loci was performed as described in our previous study <ref type="bibr" target="#b11">(Takabayashi and Katoh 2011)</ref>. The PCR mixture was modified from the mixture produced by following the KOD FX polymerase experimental manual (Toyobo, Osaka, Japan). Briefly, PCR reactions were performed in a total volume of 20 ll, containing 1 ll template DNA solution, KOD buffer, 0.4 mM dNTP, 0.25 lM primers, and 1 U KOD FX polymerase.</p><p>The PCR was performed using a thermal cycler, under the following conditions: 94 °C for 2 min, followed by 35 cycles at 98 °C for 10 s, 57 °C for 30 s, and 68 °C for 40 s, and ending with a single extension at 68 °C for 3 min. The resulting PCR products were digested with the restriction enzyme MseI.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quantitative fluorescent (QF)-PCR analysis</head><p>The QF-PCR assay uses fluorescent labeled primers of ZFX/ZFY loci. The ZF forward primer is labeled with 6-carboxy-fluorescein, which is a fluorescent dye. This PCR reaction is similar to that used for PCR-RFLP: 1 ll of PCR products was mixed with 9 ll formamide (Applied Biosystems, Foster City, CA, USA) and 0.1 ll Gene Scan-500 LIZ size standard (Applied Biosystems). The mixture was denatured at 95 °C for 5 min and then cooled on ice.</p><p>The mixture was electrophoresed on an ABI3100 Genetic Analyzer (Applied Biosystems), and sizing of the products was performed using Peak Scanner software (Applied Biosystems). The ZFX/Y gene in the X and Y chromosomes appeared as 483-and 471-bp fragments, respectively <ref type="bibr" target="#b11">(Takabayashi and Katoh 2011)</ref>. The relative fluorescence intensity (RFI) of ZFY was compared with the fluorescence intensity (FI) of ZFX, which was set to1. RFI was calculated as the ratio of FI of ZFY to FI of ZFX. Estimates of the average and SD of the ZFY-RFI values were made from two measurements in four females to confirm reproducibility.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The results of the PCR-RFLP from live marmoset samples are shown in Fig. <ref type="figure" target="#fig_0">1b</ref>. Our previous study showed that the MseI digested band patterns were a single 483-bp fragment in the female compared with three fragments of 483, 252 and 219 bp in the male. In fingernail DNA, the band pattern was just as we expected and consequently all female DNAs had only a single 483-bp fragment. However, in blood DNA, we clearly identified the three fragments similar to the male banding pattern in two (#1 and #3) of the three females (Fig. <ref type="figure" target="#fig_0">1b</ref>). Similarly, in ear DNA, we tentatively identified two fragments that appeared to be derived from the brother DNA in two (#1 and #3) of the three females (Fig. <ref type="figure" target="#fig_0">1b</ref>).</p><p>We tried various tissues from four dead females to identify the most suitable tissues and those unaffected by hematopoietic chimerism for use as a DNA source. First, we confirmed the chimeric levels by PCR-RFLP based on the presence or absence of ZFY (252-and 219-bp fragments). In all female samples (four out of four), lymphatic tissue DNA including bone marrow, thymus, spleen, and lymph node exhibited the ZFY band (Fig. <ref type="figure">2</ref>).</p><p>We compared the FI of the X chromosome marker (ZFX) with that of the Y chromosome marker (ZFY) by QF-PCR to detect the chimeric levels in more detail. In males, the ratio of FI of ZFX to that of ZFY was about 1:1 and the RFI was 1.12 ± 0.02 (Fig. <ref type="figure">3a</ref>). In a female singleton, only the ZFX fluorescence peak was observed, whereas the ZFY fluorescence peak was undetectable; thus, the RFI was 0 (Fig. <ref type="figure">3b</ref>). We estimated the chimeric rate for various tissues in females with male littermates using the RFI. DNA from the with a quick showed a very low chimeric rate according to the RFI (0.08 ± 0.02) (Figs. <ref type="figure">3c,</ref><ref type="figure">4c</ref>). Surprisingly, the DNA from fingernails without a quick had no ZFY fluorescence peak (RFI = 0) (Fig. <ref type="figure">4d</ref>). In contrast, Fig. <ref type="figure">3c</ref> shows that the RFIs from blood and lymphatic tissues, including bone marrow, thymus, spleen, and lymph node were all higher than 0.5: blood = 0.53 ± 0.16; bone marrow = 0.67 ± 0.13; thymus = 0.77 ± 0.07; spleen = 0.62 ± 0.12 and lymph node = 0.57 ± 0.04. The RFI of the ovary was the lowest (RFI = 0.02 ± 0.02), and the brain had the second lowest chimerism levels (RFI = 0.04 ± 0.06) of any tissue. Some of the DNA samples from the brain, muscle, and heart (myocardium) showed no ZFY fluorescence peak (RFI = 0).  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Many studies have reported genetic chimerism in Callitrichidae <ref type="bibr" target="#b1">(Benirschke et al. 1962;</ref><ref type="bibr" target="#b3">Gengozian et al. 1964;</ref><ref type="bibr" target="#b7">Ross et al. 2007;</ref><ref type="bibr" target="#b10">Sweeney et al. 2012)</ref>. Hematopoietic chimerism in was first reported by karyotype studies, where a Y-chromosome was detected in a female with a male co-twin <ref type="bibr" target="#b1">(Benirschke et al. 1962)</ref>. <ref type="bibr" target="#b7">Ross et al. (2007)</ref> showed that chimerism in marmoset (Callithrix kuhlii) twins is not limited to hematopoietic tissues because they detected chimerism in many somatic tissues and even in the germ line using microsatellite DNA markers <ref type="bibr" target="#b7">(Ross et al. 2007</ref>). However, a quantitative PCR analysis <ref type="bibr" target="#b10">(Sweeney et al. 2012)</ref> indicated that chimerism in callitrichids is found only in the hematopoietic cell lineages, such as blood, bone marrow, and spleen. Although <ref type="bibr" target="#b10">Sweeney et al. (2012)</ref> detected chimerism in many other somatic tissues, they concluded that it resulted from blood contamination or lymphocytic infiltration. In this study, we detected chimerism in the marmoset using PCR-RFLP and QF-PCR amplification of the ZFX/ZFY loci. QF-PCR can determine the quantity of PCR product with precision and is a simple and economical approach because only a single pair of primers is required. Our results show that the chimeric levels were high in blood and lymphatic tissues but were low in the ovary and other somatic tissues. These results are consistent with those of a study by <ref type="bibr" target="#b10">Sweeney et al. (2012)</ref>. To summarize, the chimerism detected in many tissues other than lymphatic tissues probably resulted from blood contamination, lymphocytic infiltration, or blood contained in capillary vessels.</p><p>In this study, we aimed to identify the best DNA sources from marmoset tissues to identify individual animals and conduct further genetic analyses. The hair root is a good PCR specimen in other wild animals. Unfortunately, the marmoset's body hair is thin and feathery, which raises the risk of cross-contamination when handling many specimens. Genotyping of experimental animals, such as mice, is routinely carried out using tail or ear biopsies or by collecting blood samples <ref type="bibr" target="#b0">(Arras et al. 2007;</ref><ref type="bibr" target="#b9">Schneider and Wolf 2005)</ref>. However, these invasive methods are likely to cause discomfort and pain to marmosets; thus, the tissues described above are not suitable as DNA sources in terms of avoiding the problems resulting from hematopoietic chimerism and ethical concerns. Conversely, our results show that the DNA chimeric level in marmoset fingernails with the quick was very low (RFI = 0.08 ± 0.02) and contamination by fraternal DNA was not detected in the DNA from a fingernail without the quick. A simple fingernail clip generated sufficient DNA for about 100 PCR reactions. Although care should be taken not to cut the marmoset's claw too short, nail clipping is a noninvasive and easy procedure that allows the remaining nail to regrow. Therefore, the fingernail is an optimal DNA source that is not contaminated by hematopoietic chimeric cells. Furthermore, several simplified protocols and kits have been developed to perform PCR amplification without DNA extraction to save time and expense in purifying template DNA. In conclusion, fingernails appear to be the best DNA source in living marmosets.</p><p>However, the DNA yield obtained from nail clippings is too low for use in linkage, mutation analyses, and nextgeneration sequencing. Preparing a large quantity of highquality DNA from various fresh and frozen tissues will help in marmoset genetics studies. Liver, kidney, and tail tissues are commonly used as DNA sources in sacrificed or dead mice <ref type="bibr" target="#b4">(Hofstetter et al. 1997)</ref>. <ref type="bibr" target="#b10">Sweeney et al. (2012)</ref> reported that only hematopoietic cell lineages are chimeric and that the chimerism detected in other tissues probably results from infiltration of blood or lymphocytic cells <ref type="bibr" target="#b10">(Sweeney et al. 2012)</ref>. Consequently, lymphatic tissues, blood-containing tissues, and inflammatory tissues are not suitable for DNA sampling to identify individual animals. Alternatively, brain tissue is suited for DNA extraction from the dead marmoset, if sufficient care is taken to avoid blood contamination.</p><p>We emphasize the usefulness of brain and fingernail DNA for genetic analyses. In general, identifying the best tissue as a DNA source in marmosets greatly benefits their future study.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Chimerism in live marmoset tissues. a A simple method to extract DNA from a marmoset fingernail. Please refer to the materials and methods section for more details. b RFLP analysis of the ZFX/ ZFY PCR products. #1 and #3; DNA of female marmoset with male</figDesc><graphic coords="2,228.94,593.66,137.54,73.09" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 Fig. 4</head><label>34</label><figDesc>Fig. 3 Chimerism levels by QF-PCR. a Male DNA (#4) has ZFY and ZFX peaks. The peak ratio was about 1:1. b Singleton female DNA (#2) has only a ZFX peak. c The ZFY locus positive rate across various tissues from four females and a rating of the tissues as DNA sources</figDesc><graphic coords="4,203.41,195.14,85.72,56.20" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Primates (2015) 56:235-240   </p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Primates (2015) 56:235-240  </p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments We thank <rs type="person">Kazuo Tanaka</rs> for outstanding technical assistance.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Should laboratory mice be anaesthetized for tail biopsy?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rettich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Seifert</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ka ¨sermann</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hp</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ru ¨licke T</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lab. Anim</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="30" to="45" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Marrow chimerism in marmosets</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Benirschke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Brownhill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="513" to="515" />
+			<date type="published" when="1962">1962</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Ensembl&apos;s 10th year</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Flicek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Aken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ballester</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="D557" to="D562" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Hematologic and cytogenetic evidence for hematopoietic chimerism in the marmoset, Tamarinus nigricollis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gengozian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Batson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Eide</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cytogenetics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="384" to="393" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Genomic DNA from mice: a comparison of recovery methods and tissue sources</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Hofstetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Mayeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Guscar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Nurnberger</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Lahiri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Mol Med</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="197" to="202" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Development of microsatellite DNA markers and their chromosome assignment in the common marmoset</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Katoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Takabayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Itoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Primatol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="912" to="918" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Marmoset models commonly used in biomedical research</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mansfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comp Med</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="383" to="392" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Germ-line chimerism and paternal care in marmosets (Callithrix kuhlii)</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>French</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">´g</forename><surname>Ortı</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="6278" to="6282" />
+			<date type="published" when="2007">2007</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Generation of transgenic non-human primates with germline transmission</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Suemizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shimada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hanazawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oiwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kamioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tomioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sotomaru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hirakawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Eto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shiozawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ito</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yagihashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Miyoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tanioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tamaoki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Habu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Okano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">459</biblScope>
+			<biblScope unit="page" from="523" to="527" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Genotyping of transgenic mice: old principles and recent developments</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wolf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal Biochem</title>
+		<imprint>
+			<biblScope unit="volume">344</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Quantitative molecular assessment of chimerism across tissues in marmosets and tamarins</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Sweeney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Curran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Westmoreland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Mansfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Vallender</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genom</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">98</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Sex identification using the ZFX and ZFY genes in common marmosets (Callithrix jacchus)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Takabayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Katoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Anim</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="417" to="420" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Detection of short tandem repeat polymorphisms from human nails using direct polymerase chain reaction method</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Uchigasaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electrophoresis</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="3188" to="3192" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Generating induced pluripotent stem cells from common marmoset (Callithrix jacchus) fetal liver cells using defined factors, including Lin28</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tomioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shimada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Okada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Igarashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oiwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Iwasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aoki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shiozawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shinohara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Suemizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Okano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Cells</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="959" to="969" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The common marmoset genome provides insight into primate biology and evolution</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Worley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Locke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Muzny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Genet</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="850" to="857" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

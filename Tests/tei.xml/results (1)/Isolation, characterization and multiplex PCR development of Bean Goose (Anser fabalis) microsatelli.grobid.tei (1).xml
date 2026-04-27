@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Isolation, characterization and multiplex PCR development of Bean Goose (Anser fabalis) microsatellite loci</title>
+				<funder ref="#_DFJ3VKh #_tN9aChv #_ZVS35SH #_m4E46q5 #_Eu867jM #_spJtAnM #_6sc2bHn">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_2VYYSSg">
+					<orgName type="full">Norwegian Environment Agency</orgName>
+				</funder>
+				<funder ref="#_Rb44bHj">
+					<orgName type="full">Norwegian Animal Research Authority</orgName>
+				</funder>
+				<funder ref="#_w6gScXF">
+					<orgName type="full">County administration in Nord-Trøndelag</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2015-12-08">8 December 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Oddmund</forename><surname>Kleven</surname></persName>
+							<email>oddmund.kleven@nina.no</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Norwegian Institute for Nature Research (NINA)</orgName>
+								<address>
+									<postCode>7485</postCode>
+									<settlement>Trondheim</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rolf</forename><forename type="middle">T</forename><surname>Kroglund</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Nord-Trøndelag University College</orgName>
+								<address>
+									<postCode>7729</postCode>
+									<settlement>Steinkjer</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jan</forename><forename type="middle">E</forename><surname>Østnes</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Nord-Trøndelag University College</orgName>
+								<address>
+									<postCode>7729</postCode>
+									<settlement>Steinkjer</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Wink</surname></persName>
+						</author>
+						<title level="a" type="main">Isolation, characterization and multiplex PCR development of Bean Goose (Anser fabalis) microsatellite loci</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2015-12-08">8 December 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4D7C0AAAF62E3161E0108BBC8A58AF79</idno>
+					<idno type="DOI">10.1007/s10336-015-1309-z</idno>
+					<note type="submission">Received: 7 September 2015 / Revised: 9 October 2015 / Accepted: 10 November 2015 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Anser fabalis</term>
+					<term>Microsatellite loci</term>
+					<term>Multiplex PCR</term>
+					<term>Non-invasive genetic monitoring Zusammenfassung Isolierung, Charakterisierung und Entwicklung einer Multiplex</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>DNA from non-invasively collected samples may be used to identify individuals for monitoring birds.</p><p>Here we describe 36 novel microsatellite loci from Bean Goose (Anser fabalis) identified using a next-generation sequencing approach. From 34 variable loci, we selected 12 tetranucleotide loci with short amplicon sizes, combined these into two multiplex PCR sets, and included a sextyping marker. In 31 Bean Geese from a population in central Norway, we found 4-10 alleles per locus and observed heterozygosity ranging from 0.58 to 0.87. The combined probability of identity for the 12 loci was 6.5 9 10 -13 . These novel microsatellite loci and their multiplex PCR assays will be useful for genetic analyses of the Bean Goose, including typing of non-invasive samples such as molted feathers. Cross-species application of the two multiplex PCR assays revealed that all 12 loci amplified successfully in four other Anser species.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The global population appears to be decreasing, and the Bean Goose is currently listed as vulnerable on the Norwegian Red List <ref type="bibr" target="#b3">(Henriksen and Hilmo 2015)</ref>. As the Bean Goose is very shy and difficult to observe during the breeding season, DNA analyses of non-invasively collected molted feathers may be a valuable complement to traditional field-based approaches for counting and tracking Bean Geese. In this study we applied high-throughput sequencing to identify novel Bean Goose microsatellites. To facilitate genetic monitoring based on non-invasive sampling of molted feathers, we targeted microsatellite loci with short (\250 bp) amplicons, as amplification success and allele-dropout are affected by amplicon size when genotyping DNA from non-invasively collected samples <ref type="bibr" target="#b0">(Broquet et al. 2007</ref>). Furthermore, we developed two multiplex PCR assays for 12 loci and evaluated these assays in a Taiga Bean Goose (A. fabalis fabalis) population in central Norway. Finally, these two assays were applied to test for cross-species amplification success in four other Anser species.</p><p>Samples collected in central and northern Norway from seven Bean Geese were sent as blood stored in lysis buffer and DNA (extracted from feathers) eluted in tris-EDTA buffer to Ecogenics GmbH (Balgach, Switzerland) to produce an enriched microsatellite library and to test for polymorphism. In brief, size-selected fragments from genomic DNA were enriched for simple sequence repeat (SSR) content using magnetic streptavidin beads and biotin-labeled CT and GT repeat oligonucleotides. The SSRenriched library was analysed on a MiSeq platform (Illumina, Inc., San Diego, CA, USA) using the Nano 29250 v2 format. After assembly, 5307 contigs or singlets contained a microsatellite insert with a tetra-or a trinucleotide of at least six repeat units or a dinucleotide of at least ten repeat units. Suitable primer design was possible in 2305 microsatellite candidates, of which 36 were tested for polymorphism. These 36 loci were selected because they yielded amplicons of fewer than 250 base pairs, which facilitates analysis of non-invasively collected samples. Selection was then performed based on genetic variation, single-PCR performance, and peak interpretation, and multiplex PCR was developed through tests of different combinations of markers and adjustments of primer concentrations for the final subsets. Microsatellite loci were PCR-amplified with fluorescent-labeled forward primers. Single PCRs were performed in a final volume of 10 lL, with a protocol consisting of 95 °C for 15 min, 35 cycles of 95 °C for 30 s, 57 °C for 45 s, 72 °C for 45 s, and a final extension step of 72 °C for 30 min. Multiplexing was performed with a Multiplex PCR Plus Kit (QIAGEN, Hilden, Germany), following the manufacturer's protocol but using an 8.4-lL reaction volume. PCR products (0.8 lL) were mixed with GeneScan 500 LIZ (Applied Biosystems, Foster City, CA, USA) size standard (0.14 lL) and Hi-Di formamide (6.16 lL). Alleles were separated using capillary electrophoresis on an ABI 3130xl Genetic Analyzer and sizes assigned using GeneMapper software (Applied Biosystems).</p><p>For genotyping, we used sample types relevant for genetic monitoring and conservation genetics, i.e. blood from two individuals, plucked feathers from two individuals, and molted feathers from 27 individuals, all collected in the years 1990-2014 in central Norway. Cross-species amplification of the markers was tested by including samples (blood or tissue) from four other Anser species. Genomic DNA was extracted from blood using a manual commercial kit (QIAGEN DNeasy Blood &amp; Tissue Kit), following the manufacturer's protocol. DNA from feathers and tissue was extracted using an automated system (Maxwell Ò 16 Research Instrument; Promega Corp., Madison, WI, USA) and the Maxwell 16 tissue DNA purification kit, following the manufacturer's protocol.</p><p>The mean number of alleles, observed and expected heterozygosities, deviation from Hardy-Weinberg equilibrium, and linkage disequilibrium were estimated using Arlequin version 3.5.1.2 <ref type="bibr" target="#b2">(Excoffier and Lischer 2010)</ref>. A Bonferroni correction for multiple statistical tests <ref type="bibr" target="#b8">(Rice 1989</ref>) was applied to linkage disequilibrium p values. Nullallele frequencies were estimated with Micro-Checker ver. 2.2.3 <ref type="bibr" target="#b13">(van Oosterhout et al. 2004)</ref>, and the probability of identity was calculated using GenAlEx 6.501 <ref type="bibr" target="#b6">(Peakall and Smouse 2012)</ref>.</p><p>PCR analysis of three to seven individuals was conducted for the 36 microsatellite loci, and allelic variation was detected in 34 of those (Table <ref type="table" target="#tab_0">1</ref>). Scoring both PCR performance and allele interpretation (results not shown), we selected 12 loci for multiplex PCR development. The two final multiplex PCR assays were typed in 31 presumably unrelated Bean Geese [17 females and 14 males; sex determined with the Z-002A marker <ref type="bibr" target="#b1">(Dawson 2007)</ref>]. The  <ref type="table" target="#tab_2">2</ref>). Heterozygotes were present in both sexes for all loci, indicating that none are sex-linked. The mean expected heterozygosity was 0.75 (range 0.54-0.85) and mean observed heterozygosity was 0.74 (range 0.58-0.87; Table <ref type="table" target="#tab_0">1</ref>). After correcting for multiple tests, no pairs of loci displayed significant linkage disequilibrium. There was no indication of null-alleles in any locus, but one locus (Afa18) deviated significantly from Hardy-Weinberg equilibrium (Table <ref type="table" target="#tab_2">2</ref>). The combined probability of identity for the 12 loci was 6.5 9 10 -13 . Cross-species application of the two multiplex PCR assays revealed that all 12 loci amplified successfully in four other Anser species and all loci were polymorphic in the Greater White-fronted Goose (A. albifrons), Lesser White-fronted Goose (A. erythropus), and Pink-footed Goose (A. brachyrhynchus), while three loci were monomorphic in the Greylag Goose (A. anser; Table <ref type="table">3</ref>). The lower proportion of polymorphic loci in the Greylag Goose is in line with previous studies showing that microsatellite performance decreases with genetic distance (e.g. <ref type="bibr" target="#b7">Primmer et al. 1996)</ref>, as the Greylag Goose is most distantly related to the Bean Goose among the four Anser species tested <ref type="bibr" target="#b10">(Ruokonen et al. 2000)</ref>. In conclusion, these novel microsatellite loci and their multiplex PCR assays will be useful for family analysis, genetic monitoring, and population genetic analyses of the Bean Goose, as well as for other Anser species.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Characterization of 36 novel Bean Goose (Anser fabalis) microsatellite loci</figDesc><table><row><cell>Locus Primer sequences (5 0 -3 0 )</cell><cell>Primer</cell><cell>Repeat</cell><cell>n A Expected</cell><cell>Observed allele</cell><cell>GenBank</cell></row><row><cell></cell><cell>T m (°C)</cell><cell>motif</cell><cell>allele size (bp)</cell><cell>size range (bp)</cell><cell>no.</cell></row><row><cell>Afa01 F: TAAAGAGCAGAACGCAACAG</cell><cell>57.1</cell><cell cols="2">(TATC) 12 7 4 236</cell><cell>225-238</cell><cell>KT698169</cell></row><row><cell>R: TAATGGCAACTGTCCAAGGC</cell><cell>59.2</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa02 F: CGAATCACGAGGCACAAGAG</cell><cell>59.7</cell><cell cols="2">(TATC) 11 5 6 209</cell><cell>196-216</cell><cell>KT698170</cell></row><row><cell>R: TCCATTTGTAGGTGAGAAAATATGC</cell><cell>58.4</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa03 F: AAGCCTTCCTTCATGTGAGC</cell><cell>58.9</cell><cell cols="2">(AAAC) 10 7 3 199</cell><cell>184-195</cell><cell>KT698171</cell></row><row><cell>R: AGACAGTGAGATGCCCAGTC</cell><cell>59.9</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa04 F: AAAAGGCCCTGGGACCATAG</cell><cell>60.2</cell><cell cols="2">(ATCT) 12 7 4 244</cell><cell>239-255</cell><cell>KT698172</cell></row><row><cell>R: AGGAAACCTGAAATGACACGG</cell><cell>59.3</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa05 F: GCATTTAGAGAACGGATACAGGG</cell><cell>59.7</cell><cell cols="2">(TATC) 11 7 4 192</cell><cell>177-198</cell><cell>KT698173</cell></row><row><cell>R: TGCCATGCAGAATAGAAAGGC</cell><cell>59.7</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa06 F: CTGTCCATGAGTGGTAAGCC</cell><cell>58.7</cell><cell cols="2">(AAAC) 7 6 2 215</cell><cell>203-211</cell><cell>KT698174</cell></row><row><cell>R: AGAACTGACTGTTGTGCATGTC</cell><cell>59.9</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa07 F: TCCTGTGCTGGATGGACAAC</cell><cell>60.7</cell><cell cols="2">(AAAC) 8 7 2 225</cell><cell>218-222</cell><cell>KT698175</cell></row><row><cell>R: GGCATACAGGTCTGAGGAGG</cell><cell>60.0</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa08 F: TGTCCTCTAAAGCAACACCTG</cell><cell>58.9</cell><cell>(AAT) 7</cell><cell>7 2 199</cell><cell>188-194</cell><cell>KT698176</cell></row><row><cell>R: ACTACCTGAGGCACTTGTTTTC</cell><cell>59.3</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa09 F: TGGTAGATAAATACACTTGTGGC</cell><cell>57.1</cell><cell cols="2">(AAAC) 10 5 3 220</cell><cell>207-215</cell><cell>KT698177</cell></row><row><cell>R: GCTCTGGGTTTAGAGTTTCGTC</cell><cell>59.8</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Afa10 F: ACTTTGTAGCAATAATGAAACTACGC 59.5</cell><cell cols="2">(AAAG) 19 5 4 224</cell><cell>217-229</cell><cell>KT698178</cell></row><row><cell>R: GCTCCCCTTCCCATAGTCG</cell><cell>60.0</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa11 F: TTGAACGGTGATTGTGGCAG</cell><cell>59.8</cell><cell>(TTGT) 7</cell><cell>7 2 215</cell><cell>207-215</cell><cell>KT698179</cell></row><row><cell>R: AGGCTGTTCGTACATTCAAGAC</cell><cell>59.4</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa12 F: TTCTGTTACAAACGGCTGGC</cell><cell>59.8</cell><cell cols="2">(ACAA) 7 7 2 249</cell><cell>245-249</cell><cell>KT698180</cell></row><row><cell>R: TGTTTTATTGGACCTTCCCCC</cell><cell>58.6</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa13 F: TCTTATCTCCAAACAAGCTGGG</cell><cell>58.8</cell><cell cols="2">(TATC) 11 7 5 220</cell><cell>206-226</cell><cell>KT698181</cell></row><row><cell>R: GGTAGGAGGTGCTATAGGCG</cell><cell>59.9</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa14 F: TTTCTGGGTTACCTGAAGCG</cell><cell>58.6</cell><cell>(AAT) 7</cell><cell>7 1 238</cell><cell>237</cell><cell>KT698182</cell></row><row><cell>R: AGAGTACACCTCATGCTCTG</cell><cell>57.1</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa15 F: CATGTCAACAGATAGGCCTGC</cell><cell>59.8</cell><cell>(TCTT) 7</cell><cell>7 3 128</cell><cell>225-242</cell><cell>KT698183</cell></row><row><cell>R: CCCAACGAAGTGCTGAATGG</cell><cell>60.2</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa16 F: TTCCCAGGTGTGCTTACTAC</cell><cell>57.6</cell><cell cols="2">(AAAC) 8 7 1 245</cell><cell>241</cell><cell>KT698184</cell></row><row><cell>R: GCAGGACCCTGTTCCTTTTAC</cell><cell>59.6</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa17 F: CAAATCAGGCCCACACTGAC</cell><cell>59.9</cell><cell cols="2">(ATAG) 12 7 6 247</cell><cell>220-248</cell><cell>KT698185</cell></row><row><cell>R: TGCCCTCTTCATCCTTAGCG</cell><cell>60.3</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa18 F: ACCCTCTATACCCTCTGGGC</cell><cell>60.6</cell><cell>(TCTA) 8</cell><cell>7 5 187</cell><cell>178-198</cell><cell>KT698186</cell></row><row><cell>R: TCCTCAGTCATTTCTTTAACACAC</cell><cell>57.9</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Afa19 F: AGAAACCCAAATTTTTATGTTGTTGTC 58.9</cell><cell>(TTTG) 7</cell><cell>7 2 175</cell><cell>173-177</cell><cell>KT698187</cell></row><row><cell>R: GCTACTGCCCATTTCCACAG</cell><cell>59.7</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa20 F: AAGCGATCCTTCCTCTCCAC</cell><cell>59.9</cell><cell cols="2">(TCTA) 16 7 5 188</cell><cell>187-203</cell><cell>KT698188</cell></row><row><cell>R: ACAGGGAGTCTGAGATAGTCAAG</cell><cell>59.5</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa21 F: AGTTGGAGGACTAAGGACACG</cell><cell>59.9</cell><cell cols="2">(AAAC) 8 7 2 151</cell><cell>139-147</cell><cell>KT698189</cell></row><row><cell>R: GACCTCCAGCAAAATGGACAG</cell><cell>59.9</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa22 F: GGTCACAGGTTCTAGCTTTCC</cell><cell>59.1</cell><cell cols="2">(GATA) 10 7 5 207</cell><cell>185-221</cell><cell>KT698190</cell></row><row><cell>R: TTGGCTAAGGTAGGTGAGGG</cell><cell>59.2</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa23 F: GTGTCTGATGCACAGTAGCC</cell><cell>59.4</cell><cell>(TATC) 7</cell><cell>7 3 208</cell><cell>205-226</cell><cell>KT698191</cell></row><row><cell>R: TGTCCTTGGTCTCAGTAGCAC</cell><cell>60.2</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>Multiplex microsatellite genotyping and sexing of the Bean Goose (Anser fabalis)</figDesc><table><row><cell>Locus</cell><cell>MP set</cell><cell>Fluoro-label</cell><cell>Final primer</cell><cell>Repeat</cell><cell>n</cell><cell>A</cell><cell>Allele size</cell><cell>H O</cell><cell>H E</cell><cell>P HWE</cell><cell>F NULL</cell></row><row><cell></cell><cell></cell><cell></cell><cell>concentration (lM)</cell><cell>type</cell><cell></cell><cell></cell><cell>range (bp)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Afa05</cell><cell>A</cell><cell>6FAM</cell><cell>0.20</cell><cell>Tetra</cell><cell>31</cell><cell>6</cell><cell>176-180</cell><cell>0.74</cell><cell>0.77</cell><cell>0.81</cell><cell>0.01</cell></row><row><cell>Afa13</cell><cell>A</cell><cell>NED</cell><cell>0.08</cell><cell>Tetra</cell><cell>31</cell><cell>7</cell><cell>207-231</cell><cell>0.74</cell><cell>0.82</cell><cell>0.08</cell><cell>0.04</cell></row><row><cell>Afa15</cell><cell>A</cell><cell>6FAM</cell><cell>0.12</cell><cell>Tetra</cell><cell>31</cell><cell>7</cell><cell>227-251</cell><cell>0.74</cell><cell>0.72</cell><cell>0.52</cell><cell>-0.02</cell></row><row><cell>Afa25</cell><cell>A</cell><cell>PET</cell><cell>0.12</cell><cell>Tetra</cell><cell>31</cell><cell>7</cell><cell>220-248</cell><cell>0.84</cell><cell>0.82</cell><cell>0.25</cell><cell>-0.02</cell></row><row><cell>Afa30</cell><cell>A</cell><cell>NED</cell><cell>0.08</cell><cell>Tetra</cell><cell>31</cell><cell>10</cell><cell>116-180</cell><cell>0.87</cell><cell>0.84</cell><cell>0.60</cell><cell>-0.03</cell></row><row><cell>Afa33</cell><cell>A</cell><cell>6FAM</cell><cell>0.06</cell><cell>Tetra</cell><cell>31</cell><cell>4</cell><cell>91-103</cell><cell>0.58</cell><cell>0.58</cell><cell>0.74</cell><cell>0.00</cell></row><row><cell>Afa34</cell><cell>A</cell><cell>VIC</cell><cell>0.04</cell><cell>Tetra</cell><cell>31</cell><cell>5</cell><cell>209-229</cell><cell>0.71</cell><cell>0.73</cell><cell>0.85</cell><cell>0.00</cell></row><row><cell>Afa02</cell><cell>B</cell><cell>NED</cell><cell>0.08</cell><cell>Tetra</cell><cell>31</cell><cell>9</cell><cell>190-234</cell><cell>0.77</cell><cell>0.83</cell><cell>0.22</cell><cell>0.03</cell></row><row><cell>Afa17</cell><cell>B</cell><cell>6FAM</cell><cell>0.12</cell><cell>Tetra</cell><cell>31</cell><cell>9</cell><cell>217-261</cell><cell>0.84</cell><cell>0.85</cell><cell>0.26</cell><cell>0.00</cell></row><row><cell>Afa18</cell><cell>B</cell><cell>PET</cell><cell>0.12</cell><cell>Tetra</cell><cell>31</cell><cell>9</cell><cell>183-227</cell><cell>0.62</cell><cell>0.73</cell><cell>0.04</cell><cell>0.06</cell></row><row><cell>Afa19</cell><cell>B</cell><cell>6FAM</cell><cell>0.12</cell><cell>Tetra</cell><cell>31</cell><cell>4</cell><cell>171-183</cell><cell>0.58</cell><cell>0.54</cell><cell>0.71</cell><cell>-0.03</cell></row><row><cell>Afa35</cell><cell>B</cell><cell>VIC</cell><cell>0.06</cell><cell>Tetra</cell><cell>31</cell><cell>9</cell><cell>136-192</cell><cell>0.81</cell><cell>0.79</cell><cell>0.53</cell><cell>-0.02</cell></row><row><cell>Z-002A</cell><cell>B</cell><cell>HEX</cell><cell>0.08</cell><cell>n/a</cell><cell>14M</cell><cell>1</cell><cell>221</cell><cell>0</cell><cell>0</cell><cell>n/a</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>17F</cell><cell>2</cell><cell>209-221</cell><cell>1</cell><cell>1</cell><cell>n/a</cell><cell></cell></row><row><cell cols="12">Number of individuals genotyped (n); number of different alleles observed (A); observed heterozygosity (H O ); expected heterozygosity (H E );</cell></row><row><cell cols="12">probability of deviation from Hardy-Weinberg equilibrium (P HWE ); estimated frequency of null-alleles according to the Brookfield 1 method</cell></row><row><cell cols="12">implemented in Micro-Checker (van Oosterhout et al. 2004) (F NULL ); Z-002A (Dawson 2007) were used to determine the sex of the individuals;</cell></row><row><cell cols="3">M male, F female; n/a not applicable</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>J Ornithol (2016) 157:641-646   </p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments We are grateful to <rs type="person">Svein Karlsen</rs> and <rs type="person">Øyvind Spjøtvoll</rs> for providing A. f. fabalis shed feathers, and the <rs type="institution">Natural History Museum in Oslo</rs> for providing samples from A. albifrons (<rs type="grantNumber">NHMO-BI-26959/1-B</rs> and <rs type="grantNumber">NHMO-BI-35338/1-B</rs>), A. erythropus (<rs type="grantNumber">NHMO-BI-18687/1-B</rs>, <rs type="grantNumber">NHMO-BI-18688/1-B</rs> and <rs type="grantNumber">NHMO-BI-18689/1-B</rs>) and A. f. fabalis (<rs type="grantNumber">NHMO-BI-26976/1-B</rs> and <rs type="grantNumber">NHMO-BI-26977/1-B</rs>). We thank <rs type="person">Deborah A. Dawson</rs> for kindly providing the sex-typing markers. Financial support was received from the <rs type="funder">County administration in Nord-Trøndelag</rs> and the <rs type="funder">Norwegian Environment Agency</rs>. Permissions for Bean Goose catching and tissue sampling were approved by the <rs type="funder">Norwegian Animal Research Authority</rs> (NARA, <rs type="grantNumber">ID 1775</rs> and ref. <rs type="grantNumber">2011/64833</rs>) and the <rs type="funder">Norwegian Environment Agency</rs> (ref. <rs type="grantNumber">2012/1756</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_DFJ3VKh">
+					<idno type="grant-number">NHMO-BI-26959/1-B</idno>
+				</org>
+				<org type="funding" xml:id="_tN9aChv">
+					<idno type="grant-number">NHMO-BI-35338/1-B</idno>
+				</org>
+				<org type="funding" xml:id="_ZVS35SH">
+					<idno type="grant-number">NHMO-BI-18687/1-B</idno>
+				</org>
+				<org type="funding" xml:id="_m4E46q5">
+					<idno type="grant-number">NHMO-BI-18688/1-B</idno>
+				</org>
+				<org type="funding" xml:id="_Eu867jM">
+					<idno type="grant-number">NHMO-BI-18689/1-B</idno>
+				</org>
+				<org type="funding" xml:id="_spJtAnM">
+					<idno type="grant-number">NHMO-BI-26976/1-B</idno>
+				</org>
+				<org type="funding" xml:id="_w6gScXF">
+					<idno type="grant-number">NHMO-BI-26977/1-B</idno>
+				</org>
+				<org type="funding" xml:id="_Rb44bHj">
+					<idno type="grant-number">ID 1775</idno>
+				</org>
+				<org type="funding" xml:id="_2VYYSSg">
+					<idno type="grant-number">2011/64833</idno>
+				</org>
+				<org type="funding" xml:id="_6sc2bHn">
+					<idno type="grant-number">2012/1756</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Noninvasive population genetics: a review of sample source, diet, fragment length and microsatellite motif effects on amplification success and genotyping error rates</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Broquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Me ´nard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Petit</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-006-9146-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="249" to="260" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Genomic analysis of passerine birds using conserved microsatellite loci</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Dawson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<pubPlace>Sheffield, UK</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Arlequin suite ver 3.5: a new series of programs to perform population genetics analyses under Linux and Windows</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Excoffier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hel</forename><surname>Lischer</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1755-0998.2010.02847.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Res</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="564" to="567" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The 2015 Norwegian red list for species. Norwegian Biodiversity Information Centre, Norway Horva ´th MB</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Henriksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O ;</forename><surname>Hilmo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Negro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kalma ´r</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Godoy</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.0908-8857.2005.03370.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Avian Biol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="84" to="88" />
+			<date type="published" when="2005">2015. 2005</date>
+		</imprint>
+	</monogr>
+	<note>An overlooked DNA source for non-invasive genetic analysis in birds</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Field surveys of Capercaillie (Tetrao urogallus) in the Swiss Alps underestimated local abundance of the species as revealed by genetic analyses of non-invasive samples</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jacob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Debrunner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gugerli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bollmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-008-9794-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="33" to="44" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Goose populations of the Western Palearctic. A review of status and distribution</title>
+	</analytic>
+	<monogr>
+		<title level="m">Wetlands International Publication</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Madsen</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Cracknell</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Fox</surname></persName>
+		</editor>
+		<meeting><address><addrLine>The Netherlands; Denmark</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="volume">48</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Wetland International, Wageningen ; National Environmental Research Institute, Ro ¨nde</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">GenAlEx 6.5: genetic analysis in Excel. Population genetic software for teaching and research-an update</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/bts460</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="2537" to="2539" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A wide-range survey of cross-species microsatellite amplification in birds</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Primmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Møller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ellegren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="365" to="378" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Analyzing tables of statistical tests</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Rice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evolution</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="223" to="225" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Using naturally shed feathers for individual identification, genetic parentage analyses, and population monitoring in an endangered Eastern Imperial Eagle (Aquila heliaca) population from Kazakhstan</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rudnick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Katzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Bragin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">E</forename><surname>Rhodes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Dewoody</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2005.02641.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2959" to="2967" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Close relatedness between mitochondrial DNA from seven Anser goose species</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruokonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lumme</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1420-9101.2000.00184.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Evol Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="532" to="540" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Genetic monitoring as a promising tool for conservation and management</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tree.2006.08.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="33" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic analysis in birds: testing reliability of feather samples</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Segelbacher</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1471-8286.2002.00180.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="367" to="369" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">MICRO-CHECKER: software for identifying and correcting genotyping errors in microsatellite data</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Van Oosterhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dpm</forename><surname>Wills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shipley</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1471-8286.2004.00684.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="535" to="538" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

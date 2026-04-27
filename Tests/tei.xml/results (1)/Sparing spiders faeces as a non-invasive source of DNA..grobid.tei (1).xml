@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Sparing spiders: faeces as a non-invasive source of DNA</title>
+				<funder>
+					<orgName type="full">Mountain Agriculture Research Unit of the University of Innsbruck</orgName>
+				</funder>
+				<funder ref="#_B9WhGSc">
+					<orgName type="full">Alpine Research Centre Obergurgl</orgName>
+				</funder>
+				<funder ref="#_c42YtXk">
+					<orgName type="full">Austrian Science Fund</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Daniela</forename><surname>Sint</surname></persName>
+							<email>daniela.sint@uibk.ac.at</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Ecology</orgName>
+								<orgName type="institution">University of Innsbruck</orgName>
+								<address>
+									<addrLine>Technikerstraße 25</addrLine>
+									<postCode>6020</postCode>
+									<settlement>Innsbruck</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Isabella</forename><surname>Thurner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Ecology</orgName>
+								<orgName type="institution">University of Innsbruck</orgName>
+								<address>
+									<addrLine>Technikerstraße 25</addrLine>
+									<postCode>6020</postCode>
+									<settlement>Innsbruck</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ruediger</forename><surname>Kaufmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Ecology</orgName>
+								<orgName type="institution">University of Innsbruck</orgName>
+								<address>
+									<addrLine>Technikerstraße 25</addrLine>
+									<postCode>6020</postCode>
+									<settlement>Innsbruck</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Traugott</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Ecology</orgName>
+								<orgName type="institution">University of Innsbruck</orgName>
+								<address>
+									<addrLine>Technikerstraße 25</addrLine>
+									<postCode>6020</postCode>
+									<settlement>Innsbruck</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Sparing spiders: faeces as a non-invasive source of DNA</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">127179F297D9FCF3AA7319CA8D7D1A58</idno>
+					<idno type="DOI">10.1186/s12983-015-0096-y</idno>
+					<note type="submission">Received: 24 October 2014 Accepted: 21 January 2015</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:21+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Lycosidae</term>
+					<term>Molecular species identification</term>
+					<term>Molecular prey detection</term>
+					<term>Multiplex PCR</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Introduction: Spiders are important arthropod predators in many terrestrial ecosystems, and molecular tools have boosted our ability to investigate this taxon, which can be difficult to study with conventional methods. Nonetheless, it has typically been necessary to kill spiders to obtain their DNA for molecular applications, especially when studying their diet. Results: We successfully tested the novel approach of employing spider faeces as a non-invasive source of DNA for species identification and diet analysis. Although the overall concentration of DNA in the samples was very low, consumer DNA, suitable for species identification, was amplified from 84% of the faecal pellets collected from lycosid spiders. Moreover, the most important prey types detected in the gut content of the lycosids were also amplified from the faecal samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>The ability to amplify DNA from spider faeces with specific and general primers suggests that this sample type can be used for diagnostic PCR and sequence-based species and prey identification such as DNA barcoding and next generation sequencing, respectively. These findings demonstrate that faeces provide a non-invasive alternative to full-body DNA extracts for molecular studies on spiders when killing or injuring the animal is not an option.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Spiders are a diverse invertebrate group with more than 37,000 described species <ref type="bibr" target="#b0">[1]</ref>; they inhabit almost all terrestrial ecosystems, where they are important arthropod predators <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. Identifying spiders based on their morphological traits can be challenging (especially in the case of juveniles and females), but DNA-based identification can simplify this task <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>. Similarly, as spiders are liquid feeders, morphological identification of prey remains is of limited use in studying their feeding ecology. Again, molecular tools significantly improved the diet analysis of spiders: solid prey remains (e.g. from webs) are no longer needed to analyse what has been consumed <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref>. The flip side of the coin is that both molecular identification and prey detection usually requires killing the animals to dissect their gut or using the whole animal for DNA extraction. For species identification, it is at minimum necessary to injure the spider when inducing autotomy of legs <ref type="bibr" target="#b9">[10]</ref>. This is because, with few exceptions, only juveniles will moult and be able to replace missing limbs <ref type="bibr" target="#b1">[2]</ref>. This renders these techniques unsuitable for situations in which spider identity and/or prey need to be determined noninvasively, e.g. when investigating threatened species or to identify spiders for subsequent ethological studies. Different types of non-invasively collected samples have been successfully used for molecular analysis, but most of these assays have been developed for vertebrates, which more readily provide suitable sample types such as hairs, feathers, saliva, regurgitates, shed skin, and faeces <ref type="bibr" target="#b10">[11]</ref>. Less work has been conducted on invertebrates: slugs were identified based on body swabs <ref type="bibr" target="#b11">[12]</ref>, highquality prey DNA was retrieved from carabid regurgitates <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref>, and DNA was successfully analysed from faeces of lobsters <ref type="bibr" target="#b14">[15]</ref>, millipedes <ref type="bibr" target="#b15">[16]</ref>, and beetle larvae <ref type="bibr" target="#b16">[17]</ref>. In spiders, the complete exuviae of large tarantulas provided enough DNA for molecular species identification <ref type="bibr" target="#b17">[18]</ref>, but mature spiders usually do not moult <ref type="bibr" target="#b1">[2]</ref>, making it is impossible to obtain this sample type from adult individuals. Even if an individual will continue moulting, it might be necessary to keep that spider for a lengthier time until the skin is shed. Spiders do not provide regurgitates or mucus, which proved to be a useful source of DNA in other invertebrates. Faeces may provide a valuable source for non-invasively collected DNA samples, but the suitability of spider faeces for molecular analysis has never been tested.</p><p>Here we explore whether spider faeces enable noninvasive species identification and diet analysis. Fieldcollected wolf spiders (Lycosidae) and the corresponding faecal material produced upon collection were used to compare the success in molecular prey detection and species identification between the two sample types (full-body DNA extract and faecal sample) using a series of multiplex PCR assays. This effort included the application of two newly developed PCR systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>In all 189 full-body DNA extracts of wolf spiders, DNA of Pardosa spp. was detected at genus and at species level using the multiplex PCR systems IPC <ref type="bibr" target="#b18">[19]</ref> (detects intraguild predation and collembolan DNA) and DUP (duplex PCR system detecting DNA of P. nigra and P. saturatior), respectively. A total of 185 faecal samples (98%) contained amplifiable DNA: these were compared to the respective full-body DNA extracts regarding their suitability for molecular analysis.</p><p>Overall the detection of lycosid DNA was possible in 84% of the 185 faecal samples: 73% of the faecal samples tested positive at genus level (IPC assay) and 72% scored positive at species level for DNA of P. saturatior or P. nigra (DUP assay). In 95% of the 130 cases in which both the faecal and full-body sample could be assigned to one of the two Pardosa species, the identification was congruent between the two sample types. In five out of the six divergent samples, DNA of both Pardosa species was found in the full-body DNA extract (see below).</p><p>In 22 of the full-body samples and in one faecal sample, DNA of both Pardosa species was detected by DUP. This indicates predation among the two species. In all but two of these samples, one of the two amplicons showed at least double the signal strength compared to the other one (mean signal ratio strong : weak was 17:1). This enabled differentiating the consumer (strong signal) from the prey (weak signal). Taking this differentiation into account, 99% of the lycosids could be identified from the full-body DNA extracts as P. nigra (146 individuals) and P. saturatior (37 individuals).</p><p>When testing the full-body extracts for prey DNA using the LIN (PCR system detecting DNA of five linyphiid species) and IPC assays, nine non-Pardosa prey taxa were detected: DNA of collembolans and the linyphiid Erigone tirolensis were amplified in 123 and 56 samples, respectively. This was significantly more often than the many other prey tested for (Figure <ref type="figure" target="#fig_0">1</ref>). The number of individuals where at least one prey type was detected was significantly higher in the full-body (79%) compared to faecal samples (39%; χ 2 = 61.32, p &lt; 0.001). Overall, only three non-Pardosa prey taxa could be detected in the faecal samples, whereby DNA of collembolans was detected most frequently (38%) and two faecal samples each tested positive for DNA of E. tirolensis and Oreonebria castanea (Figure <ref type="figure" target="#fig_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>This study demonstrates that spider faeces can be used for both species identification and prey detection, which enables a non-invasive examination of spiders. Although mainly genus-and species-specific primers were applied in this study to identify the consumer and its prey, DNA from spider faeces was also successfully amplified with general primers which are commonly used for DNA barcoding species and for sequence-based prey identification (Additional file 1; <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b20">21]</ref>). This demonstrates that the suite of molecular techniques that can be employed to analyse DNA from spider faeces is not limited to highly-specific diagnostic PCR assays, but that other molecular methods for species and/or prey identification such as DNA barcoding approaches and next generation sequencing could potentially be applicable to this non-invasively derived sample type.</p><p>The ability to molecularly identify the consumer and the food from the same sample is important in ecological studies. We found that faeces were especially useful for species identification: consumer DNA was amplified from 84% of the samples. This percentage ranges on the higher end of the scale for the presence of consumer DNA in non-invasive samples reported from other animals (e.g. <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref>). Molecularly differentiating full-body DNA extracts between P. nigra and P. saturatior by the newly-developed duplex PCR system, which was optimized to amplify both species with approximately the same efficacy, enabled us to identify whether DNA of P. nigra or P. saturatior dominated the sample <ref type="bibr" target="#b18">[19]</ref>. As full-body DNA extracts contain consumer DNA in large excess over prey DNA <ref type="bibr" target="#b24">[25]</ref>, we could identify predator and prey also in samples where both types of DNA were present. The few discrepancies in species identification between fullbody and faecal samples probably reflect the absence of consumer DNA in the faeces, i.e. only the DNA of the consumed wolf spider was present and misidentified as indicating the consumer. This interpretation is supported by the fact that in five out of six questionable samples, DNA of both Pardosa species was present in the full-body DNA extracts. In one wolf spider, DNA of P. nigra and P. saturatior was even present in both sample types, but the identification of the predator and prey, based on amplicon strength, was not congruent (the difference was clear for the full-body DNA extract, but in the faeces the prey gave a slightly stronger signal). Nevertheless, this ability to identify a spider based on its faeces is an encouraging result for further investigations, as for example when living spiders need to be identified for field or laboratory studies.</p><p>Although prey DNA detection success was significantly lower in faeces than in full-body samples, the most common prey items were also detected in the non-invasive samples. The reduced ability to detect prey DNA in faeces is probably due to the high efficiency with which spiders digest their food <ref type="bibr" target="#b1">[2]</ref>. This yields a very low DNA content in the faecal samples, which was &lt;1 ng/μl in the current study (see Additional file 1). Nonetheless, using spider faeces as a source of dietary information is useful to get a general idea of the spider diet in situations where the whole spider cannot be killed to obtain a full-body DNA extract to perform molecular gut content analysis. Such situations arise, for example, when prey choice needs to be examined in rare and/or protected spiders, in habitats such as in national parks where killing animals is prohibited, or when the impact of lethal sampling on the studied system needs to be minimized.</p><p>We expected spider faeces to have a DNA content comparable to beetle regurgitates, typically containing between 1 and 10 ng ds DNA/μl <ref type="bibr" target="#b25">[26]</ref>, and which are well suited to track the beetle's diet <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref>. In the present faecal samples, however, the observed DNA content was much lower (&lt;1 ng ds DNA/μl). We therefore suggest optimizing the DNA extraction process to increase the DNA concentration and, consequently, the robustness to detect and identify prey DNA. One strategy to achieve a higher DNA concentration would be to reduce the volume of buffer when eluting (silica-based extraction protocols) or resolving (e.g. CTAB protocols) the DNA at the end of the DNA extraction process. A concentrating step following DNA extraction could also be performed. Another approach to increase the concentration of prey DNA in faecal samples would be to pool several faecal pellets of one individual into one sample for DNA extraction.</p><p>Our work indicates that obtaining a reasonable number of faecal samples is straightforward because more than 50% of the captured lycosid spiders defecated within a few hours upon collection. The number of faecal pellets that can be gathered after spider collection might be increased even further by feeding the animals, as many species defecate stored excrements when provided with fresh prey <ref type="bibr" target="#b1">[2]</ref>. Prey DNA can be tracked in spiders for extended times post-feeding <ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref>: for example, cricket DNA could be detected in full-body DNA extracts of Pardosa spp. for a minimum of 84 h after a single meal <ref type="bibr" target="#b29">[30]</ref>. It is likely that, along with small amounts of predator DNA, also prey DNA is continuously excreted during these long digestion times. While a single faecal pellet might not contain enough DNA to enable successful detection of prey and/or consumer DNA, the amount contained in several pellets might be sufficient. For prey detection it is important that the spider is not fed during the timespan in which faeces are collected to avoid mixing laboratory-and field-consumed prey. Alternatively, if feeding the spider is desired to enhance faecal production (see above), the spider can be fed with prey which does not occur in the habitat the spider was collected from. These strategies, together with the application of highly sensitive PCR assays or a next generation sequencing approach <ref type="bibr" target="#b30">[31]</ref> where the sequence information of individual molecules is readmight further improve the molecular information that can be obtained from spider faeces beyond the possibilities reported in this study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Pardosa nigra and P. saturatior (Araneae: Lycosidae) were collected by dry pitfall-trapping between 8 and 23 July 2010 in three neighbouring glacier forelands (Gaisbergtal, Rotmoostal, Langtal) in Tyrol, Austria. Spiders were placed individually in 2 ml reaction tubes, transported to a field station in a cool box, and frozen at -24 °C. In case defecation occurred during transport, the spider was transferred into a clean tube freezing, and lysis-buffer was added to the tube containing the faeces. In total, 189 faecal pellets were obtained from 347 sampled spiders. For details on sample processing and DNA extraction see Additional file 1.</p><p>Two new multiplex PCR systems (DUP, LIN) were developed (see Additional file 1) and, together with an already existing multiplex PCR system (IPC, <ref type="bibr" target="#b18">[19]</ref>), used to screen the DNA extracts of the spiders and their faecal samples for consumer-and prey-DNA. First, the duplex PCR system (DUP, Figure <ref type="figure" target="#fig_1">2</ref>) was applied to molecularly identify the samples as either P. nigra or P. saturatior. Second, all samples were screened for DNA of potential prey taxa common in the three glacier forelands using the LIN and IPC multiplex PCR systems: the LIN system (Figure <ref type="figure" target="#fig_1">2</ref>) enables tracking of predation on five linyphiid spider species commonly occurring in the glacier forelands <ref type="bibr" target="#b5">[6]</ref>, while the IPC system detects predation on four species of carabid beetles (Nebria germari, N. jockischii, N. rufescens, Oreonebria castanea), the glacier harvestman Mitopus glacialis, and collembolans (IPC, <ref type="bibr" target="#b18">[19]</ref>). Additionally, IPC amplifies DNA of Pardosa spp. as an internal positive control. PCR products were separated, visualized, and scored on QIAxcel (Qiagen, Hilden, Germany), an automatic capillary electrophoresis system.</p><p>To compare the detection frequencies of the different targets, 9999 bootstrap resamples were drawn with replacement from the observed data using the software TIBCO Spotfire S+ 8.1. Non-overlapping 95% tilting confidence intervals were used as a conservative estimation of significant differences. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1 Detection frequencies of consumer-and prey-DNA. Detection frequencies of lycosid and prey DNA in DNA extracts of full-body and faecal samples of lycosid spiders collected in three glacier forelands using three diagnostic multiplex PCR assays. Targeted DNA: Pardosa spp. at genus level (Pard), P. nigra (P.nig), P. saturatior (P.sat), Collembola (Coll), glacier harvestman Mitopus glacialis (M.gla), carabid beetles [Nebria germari (N.ger), N. jockischii (N.joc), Oreonebria castanea (O.cas)], and linyphiid spiders [Agyneta nigripes (A.nig), Diplocephalus helleri (D.hel), Entelecara media (E.med), Erigone tirolensis (E.tir)]. DNA of the linyphiid Janetschekia monodon and of the carabid N. rufescens were not detected. Error bars represent 95% tilting confidence intervals from 9999 bootstrap resamples; non-overlapping confidence intervals are interpreted as significant differences.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2</head><label>2</label><figDesc>Figure 2 Gel image of the newly developed multiplex PCR systems. QIAxcel gel image of PCR products generated with the multiplex PCR system LIN and the duplex PCR system DUP. LIN: Diplocephalus helleri (D.h.; 151 bp), Erigone tirolensis (E.t.; 186 bp), Janetschekia monodon (J.m.; 240 bp), Agyneta nigripes (A.n.; 264 bp), Entelecara media (E.m.; 298 bp), artificial mixes containing 300 and 200 double stranded (ds) templates per target, respectively. DUP: Pardosa nigra (P.n.; 118 bp), Pardosa saturatior (P.s.; 202 bp), artificial mixes containing 3750 and 375 ds templates per target species, respectively. An internal marker is run alongside each sample (15 and 3000 bp), and the scale on the left and right side enables an estimation of fragment length. At higher template DNA concentrations, D.h. and J.m. may produce an additional amplicon of ~390 and ~400 bp, respectively.</figDesc><graphic coords="4,127.28,496.23,340.76,168.27" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We thank <rs type="person">L. Raso</rs>, who supported this study substantially but forwent co-authorship. This work was funded by the <rs type="funder">Austrian Science Fund</rs> (<rs type="projectName">FWF</rs>; "<rs type="projectName">Invertebrate food webs in recently deglaciated alpine areas</rs>", <rs type="grantNumber">P20859-B17</rs>), the "<rs type="programName">Aktion D. Swarovski KG 2013</rs>", the <rs type="funder">Alpine Research Centre Obergurgl</rs>, and the <rs type="funder">Mountain Agriculture Research Unit of the University of Innsbruck</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_c42YtXk">
+					<orgName type="project" subtype="full">FWF</orgName>
+				</org>
+				<org type="funded-project" xml:id="_B9WhGSc">
+					<idno type="grant-number">P20859-B17</idno>
+					<orgName type="project" subtype="full">Invertebrate food webs in recently deglaciated alpine areas</orgName>
+					<orgName type="program" subtype="full">Aktion D. Swarovski KG 2013</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional file</head><p>Additional file 1: Details on sample processing and multiplex PCR systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare that they have no competing interests. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">How many Arachnida and Myriapoda are there world-wide and in Amazonia? Stud Neotrop</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Adis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Harvey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fauna Environ</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="139" to="141" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Foelix</surname></persName>
+		</author>
+		<title level="m">Biologie der Spinnen</title>
+		<meeting><address><addrLine>Stuttgart</addrLine></address></meeting>
+		<imprint>
+			<publisher>Thieme Verlag</publisher>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note>2nd ed</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Wise</surname></persName>
+		</author>
+		<title level="m">Spiders in ecological webs</title>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">What a wonderful web they weave: spiders, nutrient capture and early ecosystem development in the high Arctic -some counter-intuitive ideas on cummunity assembly</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Hodkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Coulson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="349" to="352" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Identifying spiders through DNA barcodes</title>
+		<author>
+			<persName><forename type="first">Rdh</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pdn</forename><surname>Hebert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Zool</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="481" to="491" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Molecular identification of adult and juvenile linyphiid and theridiid spiders in Alpine glacier foreland communities</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Raso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rief</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kaufmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Traugott</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0101755</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Pollen beetles are consumed by ground-and foliage-dwelling spiders in winter oilseed rape</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Öberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cassel-Lundhagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ekbom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entomol Exp Appl</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="256" to="262" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Generalist predators disrupt parasitoid aphid control by direct and coincidental intraguild predation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Traugott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Raso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Woc</forename><surname>Symondson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull Entomol Res</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="239" to="247" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Comparing rates of springtail predation by web-building spiders using Bayesian inference</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Welch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Schofield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Harwood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="3814" to="3825" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The utility of molecular markers from non-lethal DNA samples of the CITES II protected &quot;tarantula&quot; Brachypelma vagans (Araneae, Theraphosidae)</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Longhorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nicholas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chuter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Vogler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Arachnol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="278" to="292" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling tools for wildlife biologists: A review of applications and recommendations for accurate data collection</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wildl Manage</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">DNA sampling from body swabs of terrestrial slugs (Gastropoda: Pulmonata): a simple and non-invasive method for molecular genetics approaches</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Morinha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Travassos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Magalhaes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Cabral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bastos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Molluscan Stud</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="99" to="101" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">DNA-based analysis of regurgitates: a noninvasive approach to examine the diet of invertebrate consumers</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Waldner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Traugott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="669" to="675" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Intraguild predation in pioneer predator communities of alpine glacier forelands</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Raso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Plangg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Recheis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brunner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="3744" to="3754" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A molecular approach to identify prey of the southern rock lobster</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Redd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Frusher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull Entomol Res</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="233" to="238" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Molecular identification of detritivorous soil invertebrates from their faecal pellets</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seeber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rief</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guh</forename><surname>Seeber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Traugott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Soil Biol Biochem</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="1263" to="1267" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Noninvasive molecular methods to identify live scarab larvae: an example of sympatric pest and nonpest species in New Zealand</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Lefort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Worner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Armstrong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="389" to="395" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Species Identification of Tarantulas using Exuviae for International Wildlife Law Enforcement</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="497" to="502" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Advances in multiplex PCR: balancing primer efficiencies and improving detection success</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Raso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Traugott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="898" to="905" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">DNA primers for amplification of mitochondrial cytochrome c oxidase subunit I from diverse metazoan invertebrates</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Folmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hoeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vrijenhoek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Mar Biol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="294" to="299" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Evolution, weighting, and phylogenetic utility of mitochondrial gene-sequences and a compilation of conserved polymerase chain-reaction primers</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Frati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beckenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Crespi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Flook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Entomol Soc Am</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="651" to="701" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Feasibility of Non-Invasive Molecular Method for Sexing of Parrots</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bosnjak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stevanov-Pavlovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vucicevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stevanovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Simeunovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Resanovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pak J Zool</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="715" to="720" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Extraction of high-quality host DNA from feces and regurgitated seeds: a useful tool for vertebrate ecological studies</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Marrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fregel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Cabrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nogales</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="147" to="151" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Sex identification of wolf (Canis lupus) using non-invasive samples</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sastre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Francino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lampreave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Bologov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>López-Martín</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sánchez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="555" to="558" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A pragmatic approach to the analysis of diets of generalist predators: the use of next-generation sequencing with no blocking probes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Piñol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">San</forename><surname>Andrés</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clare</forename><forename type="middle">El</forename><surname>Mir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Symondson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Woc</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="18" to="26" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Group-specific multiplex PCR detection systems for the identification of flying insect prey</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Raso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Niederklapfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kaufmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Traugott</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0115501</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Factors affecting detectability of prey DNA in the gut contents of invertebrate predators: a polymerase chain reaction-based method</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hosseini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Keller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entomol Exp Appl</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="194" to="202" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Using group-specific PCR to detect predation of mayflies (Ephemeroptera) by wolf spiders (Lycosidae) at a mercury-contaminated site</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Northam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Allison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Cristol</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Science of the total environment</title>
+		<imprint>
+			<biblScope unit="volume">416</biblScope>
+			<biblScope unit="page" from="225" to="231" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Molecular analysis of predation on parasitized hosts</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Traugott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Woc</forename><surname>Symondson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull Entomol Res</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="223" to="231" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Optimizing methods for PCR-based analysis of predation</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Raso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kaufmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Traugott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="795" to="801" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Who is eating what: diet assessment using next generation sequencing</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Woc</forename><surname>Symondson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1931" to="1950" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

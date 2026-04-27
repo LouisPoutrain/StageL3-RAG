@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Molecular sex identification of red panda (Ailurus fulgens) suitable for noninvasive genetic studies</title>
+				<funder>
+					<orgName type="full">Central Zoo Authority, Government of India</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2015-05-16">16 May 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Arun</forename><surname>Kumar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">CSIR-Centre for Cellular and Molecular Biology</orgName>
+								<address>
+									<addrLine>Uppal Road</addrLine>
+									<postCode>500 007</postCode>
+									<settlement>Hyderabad</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bhupen</forename><surname>Roka</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Padmaja Naidu Himalayan Zoological Park</orgName>
+								<address>
+									<postCode>734101</postCode>
+									<settlement>Darjeeling</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Upashna</forename><surname>Rai</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Padmaja Naidu Himalayan Zoological Park</orgName>
+								<address>
+									<postCode>734101</postCode>
+									<settlement>Darjeeling</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><forename type="middle">Anuradha</forename><surname>Reddy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">CSIR-Centre for Cellular and Molecular Biology</orgName>
+								<address>
+									<addrLine>Uppal Road</addrLine>
+									<postCode>500 007</postCode>
+									<settlement>Hyderabad</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Molecular sex identification of red panda (Ailurus fulgens) suitable for noninvasive genetic studies</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2015-05-16">16 May 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">24028B5F5CCF37062943B2956C707979</idno>
+					<idno type="DOI">10.1007/s10344-015-0928-2</idno>
+					<note type="submission">Received: 2 December 2014 / Revised: 7 May 2015 / Accepted: 10 May 2015 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:29+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Red panda</term>
+					<term>Sex identification</term>
+					<term>Amelogenin</term>
+					<term>DNA</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Molecular sexing of wild animals is feasible with differential amplification of X-and Y-homologous regions of various genes. We present a simple and robust technique for sex identification of red panda suitable for noninvasive studies based on sex-specific fragment size polymorphism in amelogenin (AMEL) gene. Sequence analysis of AMELX and AMELY revealed an 18-bp deletion in Y fragment which was used to differentially amplify 217 bp of X and 199 bp of Y fragments. The designed primer pair is very sensitive and exhibits polymerase chain reaction (PCR) success rates of 89 and 78 % at 0.1 and 0.01 ng template DNA concentrations, respectively. Further, we amplified poor quality faecal DNA with 94 % success rate and average dropout rate of 15.6 %. In silico analysis shows that these primers can also be used to identify sex of a sympatric species, giant panda.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Noninvasive genetics has led to remarkable changes in population studies of endangered species <ref type="bibr" target="#b1">(Beja-Pereira et al. 2009</ref>). This approach is especially useful in generating large-scale molecular data on elusive species without handling or even seeing them, from shed samples like hair, skin, feathers and faeces <ref type="bibr" target="#b1">(Beja-Pereira et al. 2009;</ref><ref type="bibr" target="#b17">Reddy et al. 2012)</ref>. Major challenges of working with such samples are low quality and quantity of DNA, genotyping errors and low amplification success rates <ref type="bibr" target="#b20">(Taberlet et al. 1996)</ref>. These issues are effectively addressed in studies which identify and quantify target DNA <ref type="bibr" target="#b13">(Morin et al. 2001)</ref>, use multi-tube method <ref type="bibr" target="#b20">(Taberlet et al. 1996)</ref> and use multiplex DNA amplification <ref type="bibr" target="#b0">(Arandjelovic et al. 2009)</ref>, making noninvasive DNA analysis a robust method for assessing population parameters of wild animals.</p><p>Sex identification and sex ratio assessment provide crucial data on population dynamics of wild animals <ref type="bibr" target="#b26">(Xu et al. 2010)</ref>. Sex can be assessed by karyotyping, presence of Y-antigen, Xlinked enzymes and polymerase chain reaction (PCR), of which PCR is a reliable, accurate and sensitive technique <ref type="bibr" target="#b4">(Fernández Feijóo et al. 2010)</ref>. PCR-based identification can be achieved by amplifying Y-specific SRY gene <ref type="bibr" target="#b24">(Woods et al. 1999)</ref>; however, an amplification failure can result in a false inference of a male as a female <ref type="bibr" target="#b2">(Bidon et al. 2013)</ref>. Internal mitochondrial controls can be used to address this problem <ref type="bibr" target="#b10">(Kamimura et al. 1997)</ref>, but there exists an inherent risk of preferential amplification, as mitochondrial sequences occur in higher copy numbers than Y-chromosome sequences <ref type="bibr" target="#b3">(Durnin et al. 2006)</ref>. Therefore, the most preferred technique is differential amplification of alleles located on homologous regions of sex chromosomes <ref type="bibr" target="#b26">(Xu et al. 2010)</ref>, such as zinc finger locus (ZnF) and amelogenin gene (AMEL) <ref type="bibr" target="#b15">(Pilgrim et al. 2005)</ref>. Length polymorphisms in AMEL and ZnF have been used in molecular sexing of free ranging animals like Communicated by M. Scandura Electronic supplementary material The online version of this article (doi:10.1007/s10344-015-0928-2) contains supplementary material, which is available to authorized users.</p><p>Japanese black bear (Ursus thibetanus japonicus) <ref type="bibr" target="#b27">(Yamamoto et al. 2002)</ref>, felids <ref type="bibr" target="#b15">(Pilgrim et al. 2005)</ref>, giant panda (Ailuropoda melanoleuca) <ref type="bibr" target="#b25">(Xu et al. 2007</ref><ref type="bibr" target="#b26">(Xu et al. , 2010) )</ref> and ursids <ref type="bibr" target="#b14">(Pagès et al. 2008)</ref>. Amplification-refractory mutation system (ARMS) is also used to differentially amplify X-and Ychromosomal regions <ref type="bibr" target="#b12">(Li et al. 2011)</ref>.</p><p>Red panda (Ailurus fulgens) is a specialized carnivore that primarily feeds on bamboo and is distributed widely in the Himalaya and Hengduan mountains <ref type="bibr" target="#b11">(Li et al. 2005;</ref><ref type="bibr" target="#b8">Hu et al. 2011;</ref><ref type="bibr" target="#b23">Wei et al. 2015)</ref>. This endangered species is extremely difficult to monitor in the wild because of its elusive, wary and nocturnal behavior <ref type="bibr" target="#b6">(Hodgson et al. 1847;</ref><ref type="bibr" target="#b9">Johnson et al. 1988;</ref><ref type="bibr" target="#b7">Holst 1989;</ref><ref type="bibr" target="#b19">Stevenson et al. 1989;</ref><ref type="bibr" target="#b8">Guo et al. 2011)</ref>. Red panda is sympatric to giant panda, another important conservation flagship species, across large parts of its range. Despite being an important species, information on red panda from India is scanty mainly due to difficulty in studying this elusive and solitary animal, which dwells in mountainous ranges with dense forest cover. In addition to determining occupancy and population numbers of red panda, it is also crucial to determine sex ratio to understand its population dynamics, dispersal patterns and behavior <ref type="bibr" target="#b3">(Durnin et al. 2006)</ref>.</p><p>Here, we describe a simple and robust molecular sexing method based on sex-specific length polymorphism of amelogenin (AMEL) gene in red panda. We also test the efficiency of our primers for amplification at picogram concentrations of template DNA suitable for noninvasively collected samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample collection and DNA extraction</head><p>Fresh faecal samples were collected from 15 red pandas housed at Padmaja Naidu Himalayan Zoological Park, Darjeeling, in sterile bottles with 90 % ethanol. Blood samples of seven red pandas were collected in EDTA-coated vacutainer tubes. All samples were transported to the laboratory within a month and stored at -20 °C until extraction. DNA was isolated from blood by phenol-chloroform method <ref type="bibr" target="#b18">(Sambrook et al. 1989</ref>) and from outer layer of faecal samples with QIAamp DNA stool mini kit (Qiagen).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Marker development and PCR analysis</head><p>Exon-5 of amelogenin gene of red panda was partially amplified as described by <ref type="bibr" target="#b27">Yamamoto et al. (2002)</ref>. AMELX fragment from females and AMELX and AMELY fragments from males were run on agarose gel, purified using QIAquick gel extraction kit (Qiagen) and sequenced by Big dye terminator cycle sequencing in ABI 3730 DNA Analyzer (Applied Biosystems). Sequences were analysed and edited with CodonCode Aligner v4.2 (GenBank accession numbers-KM017653 for AMELX and KM017654 for AMELY). These sequences were aligned and analysed for sequence polymorphism with MEGA v5.0 <ref type="bibr" target="#b21">(Tamura et al. 2011</ref>) and ClustalW2 Online tool from EBI (<ref type="url" target="http://www.ebi.ac.uk/Tools/msa/clustalw2/">http://www.ebi.ac.uk/Tools/msa/ clustalw2/</ref>). Internal primer pair (RP-AmlF 5′-ACACTCCA TGACTCCAACCC-3′ and RP-AmlR 5′-CTGTATGGGGAA CATCGGAG-3′) was designed flanking the polymorphic region in AMELX and AMELY with Primer3 Plus <ref type="bibr" target="#b22">(Untergasser et al. 2007</ref>) and was used to amplify 199 and 217 bp of AMELY and AMELX, respectively, with the following PCR conditions: initial denaturation at 95 °C for 10 min, followed by 40 cycles of 95 °C for 20 s, 54 °C for 30 s, 72 °C for 30 s, and final extension at 72 °C for 10 min. PCR reaction mixture (15 μl) included 10 ng of template DNA, 1X Ex-Taq Buffer (Takara), 200 μM of each dNTP, 1.5 μg of BSA, 1.5 μM each of forward and reverse primer and 1 U of Ex-Taq polymerase (Takara). Since red panda is a specialized carnivore which feeds mainly on bamboo, contamination of faecal DNA with prey DNA is uncertain or possibly insignificant. However, as giant panda is often seen in sympatry with red panda, our primers were also tested for in silico PCR (Yu and Zhang 2011) of partial amelogenin sequences of giant panda (GenBank accession numbers EF635972, EF635973).  Blood genomic DNA of six red pandas males and three females) was serially diluted at 1:10 ratio from 10 to 0.001 ng/μl concentration and amplified with labeled RP-Aml primers in triplicates. In addition to agarose gel electrophoresis, PCR products were also electrophoresed in ABI 3730 DNA Analyzer (Applied Biosystems) with an internal LIZ size standard (Applied Biosystems). Alleles were scored with GeneMapper v3.2 software. Primers were finally tested for their ability to amplify DNA from faecal samples of 15 captive red pandas (ten males and five females).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head><p>We describe a PCR method suitable for DNA-based sex identification of red panda from poor quality samples like faeces. Only one paper so far describes sex identification of red panda using ARMS PCR to detect sequence differences in X-and Yhomologous regions of zinc finger locus (ZnF) <ref type="bibr" target="#b12">(Li et al. 2011</ref>). However, ARMS technique suffers an innate risk of preferential amplification of one amplicon over the other and is not suitable for molecular sexing <ref type="bibr" target="#b26">(Xu et al. 2010)</ref>. It is also our personal experience that ARMS technique requires pure genomic DNA like that obtained from blood and tissue, and is not suitable for noninvasive samples like faeces (present study, data not shown) and feathers <ref type="bibr" target="#b16">(Reddy et al. 2007)</ref>. It is simpler to use a single primer pair to detect length polymorphisms in X-and Yhomologous loci. Further, contrary to findings by <ref type="bibr" target="#b12">Li et al. (2011)</ref>, we obtained length polymorphism in homologous sequences of amelogenin (AMEL) gene in red panda (Fig. <ref type="figure" target="#fig_0">S1</ref>).</p><p>Approximately 430 bp of AMELX and 410 bp of AMELY were amplified and sequenced in red panda using the primers described by <ref type="bibr" target="#b27">Yamamoto et al. (2002)</ref>. Sequence alignment showed 18 and 63-bp deletions in AMELY of red panda and giant panda respectively (Fig. <ref type="figure" target="#fig_0">S1</ref>). Based on the length polymorphism between homologous amplicons, a new primer pair (RP-AmlF and RP-AmlR) was designed to amplify 217 and 199 bp of AMELX and AMELY, respectively, in red panda samples. Male samples produced amplicons of two sizes (199 and 217 bp), while female samples produced a single amplicon of 217 bp (Fig. <ref type="figure" target="#fig_0">1a,</ref><ref type="figure">b</ref>). The same primer pair, when tested in silico, amplified 214 and 151 bp of AMELX and AMELY, respectively, in giant panda (Fig. <ref type="figure" target="#fig_0">S1</ref>). This is advantageous as short PCR fragments (&lt;250 bp) facilitate analysis of degraded DNA <ref type="bibr" target="#b2">(Bidon et al. 2013)</ref>. The diagnostic AMELY amplicon is smaller than AMELX amplicon, thereby avoiding misclassification of low quality male samples as females, as longer amplicons are more prone to amplification failure <ref type="bibr" target="#b2">(Bidon et al. 2013)</ref>. Size difference of 18 bp between AMELX and AMELY amplicons can be clearly resolved on 2.5 % agarose gel. However, in case of degraded DNA, amplicon sizes can also be determined by automated capillary electrophoresis.</p><p>Our primer pair is sensitive and could amplify template DNA concentrations of 0.1 ng with 89 % success and 0.01 ng with 78 % success when tested on blood samples (Table <ref type="table" target="#tab_0">1</ref>, Fig. <ref type="figure">S2</ref>). Dropout rate was higher for AMELX than the diagnostic AMELY amplicon, thereby confirming preferential amplification of the smaller Y fragment than the larger homologous X fragment. Dropout rate was also used to calculate the number of repetitions needed to obtain results with 99.99 % certainty for the homozygous (female) samples (Table <ref type="table" target="#tab_0">1</ref>). Sensitivity of these primers on low quality faecal DNA from 15 red pandas was good (Fig. <ref type="figure">S3</ref>), and we obtained 94.2 % PCR success with 15.6 % dropout rate in ten heterozygous (male) samples. Four PCR replications were needed to obtain results with 99.99 % certainty with faecal DNA samples.</p><p>Our newly developed PCR protocol was successfully applied to the captive red panda population in Padmaja Naidu Himalayan Zoological Park, and will facilitate sex identification of newborn animals in captivity. This technique can also be used to establish sex ratio of wild populations through analysis of noninvasive samples.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Agarose gel (a) and automated (b) electropherograms of amelogenin locus in female (217 bp), and male (199 and 217 bp) red pandas. M 100-bp size marker, N negative control, ♀ female, ♂ male</figDesc><graphic coords="2,306.71,53.86,237.06,169.91" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Number of PCR replicates needed for different concentrations of blood DNA to obtain homozygous genotypes with 99.9 % certainty</figDesc><table><row><cell>Concentration</cell><cell>PCR success (%)</cell><cell>Drop rate</cell><cell>Replicates</cell></row><row><cell>(ng/μl)</cell><cell></cell><cell>(%)</cell><cell>needed</cell></row><row><cell>10</cell><cell>100</cell><cell>0</cell><cell>2</cell></row><row><cell>1</cell><cell>1 0 0</cell><cell>0</cell><cell>2</cell></row><row><cell>0.1</cell><cell>88.89</cell><cell>14.29</cell><cell>4</cell></row><row><cell>0.01</cell><cell>77.78</cell><cell>25</cell><cell>4</cell></row><row><cell>0.001</cell><cell>22.22</cell><cell>0</cell><cell>4</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments We gratefully acknowledge <rs type="person">Mr. Alankar Jha</rs>, Director of <rs type="affiliation">Padmaja Naidu Himalayan Zoological Park, Darjeeling, India</rs>, and <rs type="person">Dr S. Shivaji</rs> for taking a keen interest and supporting this work.</p><p>Funding This study was funded by the <rs type="funder">Central Zoo Authority, Government of India</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>The authors declare that they have no competing interest.</p><p>Ethical approval Blood samples used in this study were acquired from the Padmaja Naidu Himalayan Zoological Park, Darjeeling, India, following the Padmaja Naidu Himalayan Zoological Park and Central Zoo Authority, Government of India, ethical guidelines and procedures. No animals were killed or captured as a result of this study.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Two-step multiplex polymerase chain reaction improves the speed and accuracy of genotyping using DNA from noninvasive and museum samples</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arandjelovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Guschanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Thalmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Siedel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Res</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="28" to="36" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Advancing ecological understandings through technological transformations in noninvasive genetics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beja-Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Res</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1279" to="1301" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A sensitive and specific multiplex PCR approach for sex identification of ursine and tremarctine bears suitable for non-invasive samples</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bidon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Frosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Eiken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Kutschera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Hagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Aarnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Fain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Janke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hailer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="362" to="368" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A reliable genetic technique for sex determination of giant panda (Ailuropoda melanoleuca) from non-invasively collected hair samples</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Durnin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Palsbøll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Ryder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Mccullough</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="715" to="720" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Rodent Amelogenin in Akodon azarae and Lagostomus maximus</title>
+		<author>
+			<persName><forename type="first">Fernández</forename><surname>Feijóo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Dejean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Gómez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Espinosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BAG J Basic App Genet</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="27" to="32" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Genotyping faeces of red pandas (Ailurus fulgens): implications for population estimation</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Wild Res</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1231" to="1235" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">On the cat-foot subplantigrades of the sub-Himalayas</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Hodgson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Asiatic Soc</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">1113</biblScope>
+			<date type="published" when="1847">1847</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">The activity patterns of the red pandas at Copenhagen Zoo: a preliminary report</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Holst</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<publisher>SPB Academic Publishing</publisher>
+			<pubPlace>The Hague, The Netherlands</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Genetic structuring and recent demographic history of red pandas (Ailurus fulgens) inferred from microsatellite and mitochondrial DNA</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="2662" to="2675" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Comparative behavior of red and giant pandas in the Wolong Reserve, China</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Schaller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mammal</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page">552</biblScope>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Determination of bovine fetal sex by PCR using fetal fluid aspirated by transvaginal ultrasound-guided amniocentesis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kamimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nishiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ookutsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hamana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Theriogenology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1563" to="1569" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Mitochondrial phylogeography and subspecific variation in the red panda (Ailurus fulgens): implications for conservation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Tamate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Funk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Phyl Evol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="78" to="89" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">An ARMS-based technique for sex determination of red panda (Ailurus fulgens)</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="400" to="403" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Quantitative polymerase chain reaction analysis of DNA from noninvasive samples for accurate microsatellite genotyping of wild chimpanzees (Pan troglodytes verus)</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Chambers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1835" to="1844" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A system for sex determination from degraded DNA: a useful tool for palaeogenetics and conservation genetics of ursids</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pagès</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Maudet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hänni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="897" to="907" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Felid sex identification based on noninvasive genetic samples</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Riddle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="60" to="61" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A rapid, non-invasive, PCR-based method for identification of sex of the endangered Old World vultures (white-backed and long-billed vultures)implications for captive breeding programmes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Prakash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shivaji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Sci</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="659" to="662" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Improved methods of carnivore faecal sample preservation, DNA extraction and quantification for accurate genotyping of wild tigers</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bhavanishankar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bhagavatula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Harika</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Mahla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shivaji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">46732</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Molecular cloning</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sambrook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fritsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maniatis</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<publisher>Cold Spring Harbor Laboratory Press</publisher>
+			<pubPlace>Cold Spring Harbor, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Red pandas at the Edinburgh Zoo</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stevenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Arness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hanning</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<publisher>SPB Academic Publishing</publisher>
+			<pubPlace>The Hague, The Netherlands</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Reliable genotyping of samples with very low DNA quantities using PCR</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Questiau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Manceau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Escaravage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bouvet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="3189" to="3194" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">MEGA5: molecular evolutionary genetics analysis using maximum likelihood, evolutionary distance, and maximum parsimony methods</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stecher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Primer3Plus, an enhanced web interface to Primer3</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Untergasser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nijveen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bisseling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Geurts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jam</forename><surname>Leunissen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="W71" to="W74" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Giant pandas are not an evolutionary cul-de-sac: evidence from multidisciplinary research</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="4" to="12" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Genetic tagging of free-ranging black and brown bears</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wild Soc Bull</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="616" to="627" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A reliable, noninvasive PCR method for giant panda (Ailuropoda melanoleuca) sex identification</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="739" to="741" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Zinc-finger intron 7: a new locus for sex identification of giant panda (Ailuropoda melanoleuca)</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zoo Biol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="526" to="531" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Sex identification of Japanese black bear, Ursus thibetanus japonicus, by PCR based on amelogenin gene</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tsubota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Komatsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Katayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Murase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kudo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vet Med Sci</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="505" to="508" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">In silico PCR analysis</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">silico tools for gene discovery</title>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Yu</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Hinchcliffe</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Humana Press</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="91" to="107" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Examining the use of fecal pellet morphometry to differentiate age classes in Sonoran pronghorn</title>
+				<funder>
+					<orgName type="full">U.S. Army Research Laboratory</orgName>
+				</funder>
+				<funder ref="#_vQfTKRS">
+					<orgName type="full">U.S. Army Research Office</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Susannah</forename><forename type="middle">P</forename><surname>Woodruff</surname></persName>
+							<email>susannahwoodruff@gmail.com</email>
+						</author>
+						<author>
+							<persName><forename type="first">Timothy</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lisette</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Dept of Fish and Wildlife Sciences</orgName>
+								<orgName type="institution">Univ. of Idaho</orgName>
+								<address>
+									<postCode>83844-1136</postCode>
+									<settlement>Moscow</settlement>
+									<region>ID</region>
+									<country>USA. -</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Dept of Statistical Science</orgName>
+								<orgName type="institution">Univ. of Idaho</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<region>ID</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Examining the use of fecal pellet morphometry to differentiate age classes in Sonoran pronghorn</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">14260E1CA86626120ACD5F6481D3601B</idno>
+					<idno type="DOI">10.2981/wlb.00209</idno>
+					<note type="submission">Accepted 20 March 2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-15T15:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>academic institutions, research libraries</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Wildlife managers require knowledge of population demographics, yet for low-density, wide-ranging species procuring demographic information is challenging. While accurate abundance estimates can be costly and difficult to obtain, recruitment and survival trends can be used as an alternative indicator of a population's trajectory. Physical capture has been the traditional practice for obtaining these demographic parameters, yet capture-related stress can lead to reduced levels of fitness, impaired locomotion, or even mortality for some species. Thus, noninvasive sampling methods may provide an alternative to physical capture. Population monitoring of endangered Sonoran pronghorn Antilocapra americana sonoriensis is critical for assessing the success of recovery efforts, and monitoring annual survival and recruitment by age class would provide information on the trajectory of population growth. We measured noninvasively collected Sonoran pronghorn fecal pellets collected post-fawning in Arizona, USA and matched to known age animals using fecal DNA genotyping to determine the feasibility of distinguishing age class by pellet dimensions. Based on cross-validation with logistic regression predictive models, we estimated a 98% probability of correct classification of fawn versus yearling and fawn versus adult using pellet width as a single explanatory variable. We could not, however, distinguish between yearling and adult. We additionally evaluated our ability to classify age class of fecal pellets by visual assessment only, and this approach was unreliable. Thus, we recommend measuring pellets for more accurate age classification. This measurement method is simple, relatively inexpensive, and shows potential for use in wild populations of pronghorn to discriminate fawns from other age classes. When combined with individual identification using fecal DNA, this approach could provide better knowledge of recruitment and age-specific survival for this and other species.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A comprehensive understanding of population demographic metrics, such as abundance, survival and recruitment, is important for managing wildlife species, yet these parameter estimates are often expensive and difficult to obtain. Alternatively, in large mammals, managers often monitor trends in recruitment and survival as an indicator of a population's trajectory <ref type="bibr" target="#b24">(Peek 2003</ref><ref type="bibr" target="#b17">, DeCesare et al. 2012)</ref>. In some cases, trends may be more easily obtained, particularly for lowdensity, wide-ranging species which are inherently difficult to monitor due to low detection rates. However, recruitment can be difficult to document in some species as juveniles quickly become the same size as adults, and visual assessment of age is often incorrect <ref type="bibr" target="#b33">(Smith 1988</ref><ref type="bibr" target="#b49">, Garel et al. 2006)</ref>. Survival among age classes varies broadly, and thus knowledge of age structure is essential to accurately assess population demographics. It is widely accepted that for ungulates, adults generally have higher survival rates and elasticity than juveniles, and adult females typically have higher survival rates than adult males <ref type="bibr" target="#b47">(Gaillard et al. 1998</ref><ref type="bibr" target="#b48">(Gaillard et al. , 2000))</ref>. However, due to high variability, juvenile survival typically has a greater impact on population dynamics <ref type="bibr" target="#b47">(Gaillard et al. 1998</ref><ref type="bibr" target="#b48">, 2000</ref><ref type="bibr" target="#b25">, Raithel et al. 2007</ref><ref type="bibr" target="#b50">, Harris et al. 2008)</ref>. Thus for endangered populations, estimates of juvenile survival are often a strong indicator of population health and viability and a valuable metric for managers.</p><p>Sonoran pronghorn exist exclusively in the Sonoran Desert of southern Arizona and northern Mexico and are federally listed under the Endangered Species Act (USFWS 1998) and as "most endangered" under CITES Appendix 1 <ref type="bibr" target="#b51">(Hoffmann et al. 2008)</ref>. While believed to number in the thousands in the 1800s <ref type="bibr" target="#b21">(O'Gara and Yoakum 2004)</ref>, the population declined from 250 animals in 1991 to fewer than 50 individuals in 2003 in the United States (US) range (USFWS 2015) purportedly due to drought, habitat loss and fragmentation due to fencing and human activity along the US-Mexico border <ref type="bibr">(USFWS 1998</ref><ref type="bibr" target="#b21">, O'Gara and Yoakum 2004</ref><ref type="bibr" target="#b43">, Wilson et al. 2010)</ref>. Subsequently, a 2.56-km 2 captive breeding pen was established on the Cabeza Prieta National Wildlife Refuge (CPNWR) to facilitate recovery efforts, and captive individuals are released annually into the wild <ref type="bibr" target="#b22">(Otte 2006)</ref>. In summer 2013, there were approximately 100 captive individuals in the pen. Population estimates for the wild population are derived from a biennial aerial count, and the population size in 2014 was estimated at 202 individuals (95% CI: 171-334; USFWS 2015). The aerial survey does not provide recruitment estimates as only a proportion of individuals are observed during the survey are classified to sex or age class due to the potential for disturbance caused by the aircraft needing to fly low to accurately perform these classifications (J. J. Hervert, Arizona Game and Fish <ref type="bibr">Dept, pers. comm.)</ref>. Survival is also not estimated.</p><p>Assigning age through traditional methods (e.g. examining tooth wear or tooth replacement) to an individual to track it throughout its lifetime usually involves capture and handling which can be expensive, dangerous and potentially injurious or lethal to the animal <ref type="bibr" target="#b65">(Murray and Fuller 2000</ref><ref type="bibr" target="#b3">, Arnemo et al. 2006</ref><ref type="bibr" target="#b34">, Solberg et al. 2006)</ref>. Pronghorn are especially sensitive to stress and mortality from capture <ref type="bibr" target="#b59">(Kreeger et al. 2002)</ref>, and myopathy is not an uncommon consequence during capture and handling <ref type="bibr" target="#b13">(Chalmers and</ref><ref type="bibr">Barrett 1977, Bright and</ref><ref type="bibr">Hervert 2005, Yoakum et</ref>   <ref type="bibr">1987)</ref>. A combination of length and width distinguished age classes in Manipur brow-antlered deer Cervus eldi eldi <ref type="bibr" target="#b55">(Khan and Goyal 1993)</ref> and Svalbard reindeer Rangifer tarandus platyrhynchus <ref type="bibr" target="#b63">(Morden et al. 2011)</ref>. Pellet weight also corresponded to body weight in moose <ref type="bibr" target="#b61">(MacCracken and Van Ballenberghe 1987)</ref> and Manipur brow-antlered deer <ref type="bibr" target="#b55">(Khan and Goyal 1993)</ref>. <ref type="bibr" target="#b10">Bubenik (1982)</ref> additionally found sex-specific differences in pellet shape in elk Cervus elaphus. <ref type="bibr" target="#b5">Ball (2010)</ref> and <ref type="bibr" target="#b63">Morden et al. (2011)</ref> suggest combining aging by measurements with fecal DNA for estimating demographic parameters in ungulate species.</p><p>The use of noninvasively obtained DNA samples (e.g. feces, hair, saliva) as a tool for measuring population parameters has become common in mammal populations. Methods such as fecal DNA microsatellite analysis have proven to be a useful tool for estimating demographic parameters, such as abundance, survival or sex ratio <ref type="bibr" target="#b40">(Waits and Paetkau 2005</ref><ref type="bibr" target="#b30">, Schwartz et al. 2007</ref><ref type="bibr" target="#b6">, Beja-Pereira et al. 2009</ref><ref type="bibr" target="#b16">, De Barba et al. 2010)</ref>. One weakness of this method, however, is the difficulty to age individuals with noninvasive genetic samples, yet understanding the age structure of a population is central to understanding age-specific survival and recruitment. The ability to distinguish age classes greatly improves the applicability of noninvasive genetic sampling and thus would be especially useful in a monitoring program designed to measure key demographic parameters such as population size, survival rates and recruitment. Here, we examine the use of fecal pellet dimensions of endangered Sonoran pronghorn Antilocapra americana sonoriensis to distinguish between fawns, yearlings and adults.</p><p>Our specific objectives were to determine if pellet size (either single measurement, e.g. length, or a combination of measurements, e.g. length  width) and shape could be used to distinguish age class and to test our ability to determine age class by visual assessment of pellet size and morphology in the field. We expected adult pellets would be larger than yearling and fawn and yearling pellets would be larger than fawn. We also predicted we would be able to assign coarse age class (i.e. fawn 1 year or non-fawn   1 year) in the field based on visual assessment of size and morphology.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study area</head><p>The Sonoran Desert has average high temperatures of over 38°C in summer and is one of the hottest and driest regions of North America <ref type="bibr">(INRMP 2003)</ref>. From June to October, temperatures can exceed 32°C for more than 100 consecutive days on CPNWR <ref type="bibr">(USFWS 2002)</ref>. Average annual precipitation on the CPNWR ranges from 20 cm in the east to 7.5 cm in the west falling in monsoons during July-August and December-January <ref type="bibr">(USFWS 2002)</ref>. April to June is the dry season.</p><p>In May and June of 2012-2014, we collected pronghorn fecal pellets in the captive pen and from wild individuals at 12 developed watering holes (hereafter drinkers) and nine sites not associated with drinkers on Organ Pipe National Monument (ORPI), CPNWR, and the adjacent Barry M. Goldwater Range (BMGR) in southwest Arizona, USA (Fig. <ref type="figure" target="#fig_0">1</ref>). The 2.56 km 2 captive pen holds two separate populations which total ∼100 free ranging individuals (USFWS 2015), and the wild population in the US  <ref type="bibr">2015)</ref>. Arizona Game and Fish Department (AZGFD) and US Fish and Wildlife Service (USFWS) personnel provide alfalfa at feed stations both in the wild and the pen. Conditions in the pen are kept as natural as possible and portions of the pen are irrigated to encourage growth of natural forage. Fawning starts in the pen in mid-February and most fawns are born in March and April <ref type="bibr" target="#b42">(Wilson et al. 2008)</ref>. Wild pronghorn are fed alfalfa weekly during the dry months at six of the 12 drinkers outside the pen. Feeding and watering typically begin in April or May and continue through October or November depending on annual rainfall amounts (J. Atkinson, U.S. Fish and Wildlife Service, pers. comm.). In the wild, fawns are typically born between February and June with one birth reported as early as January in 2013 <ref type="bibr" target="#b9">(Bright and</ref><ref type="bibr">Hervert 2005, USFWS 2015)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample collection</head><p>Each December, annual capture operations are conducted in the captive pen by AZGFD and USFWS, during which individuals are captured, radio-collared, and a blood sample is collected. Fawns captured in the pen are ear-tagged, and radio-collared if recaptured in subsequent captures. Young of the year are easily identified (e.g. size, horn development) and classified as fawn (0-11 months), and individuals captured as fawns in the previous year are known yearlings (12-23 months). However, not all fawns are caught during annual capture operations and consequently, an individual may not be handled until it is  1 year old and is potentially misclassified as to actual age. Thus, all captured animals of unknown age are classified as adults. Some captured (captive) individuals are subsequently released into the wild, at a ratio of approximately two males to one female (USFWS 2015). To obtain DNA, blood samples were collected from 58 captured individuals in December 2012 and 2013 when feasible (i.e. if health and safety of the animal was not at risk due to stress) (USFWS 2015). These samples provided a genotype of an individual of known age class for later matching to genotypes obtained from fecal pellets collected in the pen or in the wild.</p><p>In May 2012 in the captive pen, we collected five fecal pellets (per <ref type="bibr" target="#b63">Morden et al. 2011</ref>) less than 24 h old from each of 185 fecal pellet piles in three pellet size groups defined visually as small, medium, and large. Size refers to the pellet, not size of pile, and all pellets from a pile were given the same size classification. While we recognize our size classification is subjective, we wanted to ensure collection of all age and sex classes, and this size classification was used only to structure collection and was not part of the analyses. To ensure collection of samples less than 24 h old, we cleared pellets from the area around feed stations in the captive pen on the day prior to collection. We collected fresh pellets as our pilot studies indicated low nuclear DNA (used for individual identification) PCR success rates (2-28%) by day 14 and 0% by day 60 <ref type="bibr">(Woodruff et al. 2015, Woodruff unpubl.)</ref>. We excluded piles that appeared to be from more than one at 63°C decreasing 0.5°C each cycle, and a 60 s extension at 72°C, followed by 34 cycles of a 30 s denaturation at 94°C a 90 s annealing step at 53°C, and a 60 s extension at 72°C. The cycle finished with a 30 min final extension at 60°C. We initially screened all samples with two PCR replicates to assess sample quality, and samples failing to amplify at  5 loci were dropped from additional genotyping to remove low quality, error-prone samples from the dataset. To obtain a consensus genotype, three to eight PCR replicates were performed per sample. Consensus genotypes were based on multiple runs of a sample as follows: 1) for homozygotes, the allele was present at least three times, and 2) for heterozygotes, we had to see each allele at least two times. We repeated this testing and evaluating process until we obtained a consensus genotype at a minimum of seven loci to meet the matching criteria of  0.01 probability of identity siblings (P(ID)sibs) <ref type="bibr" target="#b41">(Waits et al. 2001)</ref>. Consensus genotypes were determined in Microsoft Access <ref type="bibr" target="#b31">(Skrbinsek 2010)</ref>, and matching and P(ID)sibs analysis was conducted in GenAlEx 6.5 <ref type="bibr" target="#b23">(Peakall and Smouse 2006)</ref>. Within the captive pen, fecal pellet genotypes were first matched to other fecal pellet genotypes. Then, unique genotypes were matched to genotypes of blood samples for individuals of known age. In the wild population, fecal pellet genotypes were matched to other fecal pellet genotypes, and individuals redetected in year two were then known to be  1 year old (non-fawn).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pellet dimension measurements</head><p>Using digital calipers we measured (mm) maximum length (L), maximum width (W), and calculated length-to-width ratio (L/W), and approximate volume (V: 4/3p (L/2)(W/2) 2 ; volume of an ellipsoid -the approximate shape of pellets), where W is used for width and diameter, of each of the five pellets per sample from the captive pen within two hours of sample collection. We calculated the mean measurements of the five pellets to represent the sample. From wild individuals, we attempted to measure five pellets from at least one pellet group from each individual (confirmed by DNA analysis). However, we did not always have enough pellets postextraction for measuring, and thus not all individuals had a measured sample. Samples with fewer than two pellets were discarded and we excluded broken, split, or partial pellets as recommend by <ref type="bibr" target="#b66">Zahratka and Buskirk (2007)</ref>. To evaluate the effect of time and desiccation on the measurements, we re-measured 16 samples after seven days of exposure to local field conditions and reran the calculations. Mean daily high temperature was 37.3°C (range: 33.6-40.7°C), and there was no precipitation during this 7-day period.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>We conducted all statistical analyses using R ver. 3.1.2 (&lt; www.r-project.org &gt;). We used t-tests with an alpha of 0.05 to examine differences in pellet measurements between captive and wild individuals and between measured (fresh) and re-measured (7-day old) samples. We used logistic regression to distinguish between age classes. Using logistic regression (brglm function, R package brglm; Kosmidis 2013), we evaluated the predictive accuracy of models using individual based on pellet shape, color and size to minimize the potential for wasted effort in the laboratory, as these are likely mixed samples. We placed pellets in paper coin envelopes and stored them at room temperature in a plastic ziploc bag with ∼ 250 ml of silica desiccant to minimize DNA degradation prior to analysis <ref type="bibr" target="#b35">(Soto-Calderon et al. 2009</ref><ref type="bibr" target="#b19">, DeMay et al. 2013)</ref>. To determine the age of the individual from which the fecal sample was collected, we matched 7-16 locus microsatellite genotypes of fecal samples to the blood samples.</p><p>Due to high rates of capture myopathy, only limited capture and radio-collaring of wild Sonoran pronghorn occurs, and the majority of marked animals in the wild are captive released individuals (USFWS 2015). To test our ability to assign age class, fawn or non-fawn ( 1 year old), in the wild population, we measured pellet samples collected from wild pronghorn in May and June of both 2013 and 2014 as part of a larger mark-recapture study (or detection-redetection since there is no physical capture; <ref type="bibr" target="#b68">Woodruff et al. 2016)</ref>. We visited drinkers when pronghorn had left the area and collected fecal pellets surrounding feed stations and drinkers. At least six pellets from each sample were collected, and stored as described above. We collected six pellets per sample to ensure we had a sufficient number of pellets to perform two DNA extractions <ref type="bibr" target="#b67">(Woodruff et al. 2015)</ref>. Samples were initially field-classified as fawn or non-fawn based on visual assessment of size and morphology. We had two sources of known age wild individuals: 1) genotypes of known age individuals released from the captive pen obtained from blood samples, which consisted of two known adults captive released in 2012 and sampled (i.e. through fecal pellets) in the wild in 2013, and 2) 15 individuals redetected in 2014 (thus, known non-fawn) from fecal pellet genetic analysis in 2013.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extraction and genotyping</head><p>DNA extraction of blood samples was conducted using a Qiagen DNeasy blood and tissue kit (n  10) or by overnight lysis with ProteinaseK (10 mg ml -1 ) at 55°C, followed by a modified protocol (n  48) based upon the standard phenol/chloroform extraction and isopropanol/sodium acetate precipitation <ref type="bibr" target="#b28">(Sambrook et al. 1989</ref>). We used Phase Lock gel tubes (5-Prime) to aid in the separation between organic and aqueous phases and resuspended the DNA in Low TE (10 mM Tris-pH 8.0, 0.01 mM EDTA). Fecal pellet DNA was extracted using the QIAamp DNA Stool Mini Kit following methods described in <ref type="bibr" target="#b0">Adams et al. (2011)</ref> and <ref type="bibr" target="#b67">Woodruff et al. (2015)</ref>. For individual ID, ten nuclear DNA (nDNA) microsatellite loci ranging in size from 90-278 base pairs and one sex ID locus were amplified in a single multiplex reaction <ref type="bibr" target="#b60">(Lou 1998</ref><ref type="bibr" target="#b12">, Carling et al. 2003</ref><ref type="bibr" target="#b64">, Munguia-Vega et al. 2013</ref>). The 7 ml PCR reaction contained 1  Qiagen Master Mix, 0.5  Qiagen Q-Solution, 1.71 mM Anam97, 0.04 mM Anam50, 0.07 mM Anam82, 0.01 mM Anam79, 0.86 mM Aam13, 0.43 mM Aam11, 0.14 mM ADCYC, 0.26 mM Aam10, 0.04 mM Aam1, 0.04 mM Aam2, 0.29 mM KY (sex ID), and 1.5 ml DNA extract. The PCR profile included an initial denaturation of 95°C for 15 min, followed by a touchdown of 20 cycles with a 30 s denaturation at 94°C, 90 s annealing step</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pellet size and age class</head><p>For both captive and wild, length, width and volume of yearling and adult (or non-fawn) pellets were greater than fawns, but length-width ratio was larger for fawns, indicating fawn pellets were rounder than either yearling or adult pellets (Fig. <ref type="figure" target="#fig_1">2</ref>, Table <ref type="table" target="#tab_3">3a</ref>). Probability of correct age class classification for captive fawn versus yearling using a single variable was 0.98 for width only and was the best AIC c ranked model (Table <ref type="table" target="#tab_4">4a</ref>). Other single variable models and combinations of  2 explanatory variables performed similarly with predictive probability ranging from 0.91 to 0.98 and delta AIC c s (difference in AIC c compared to the lowest AIC c ) from 1.66 to 7.16. Length as a single explanatory variable was the worst ranked model with probability of correct classification of 0.77 and delta AIC c value of 7.16. The null model (i.e. the model with no explanatory variables) had probability of correct classification of 0.32 (i.e. if we each measurement (e.g. length, volume) as a single predictor variable, as well as models using all possible combinations of the predictor variables (e.g. length and volume). Predictive accuracy was estimated using randomized five-fold crossvalidation with the cvFit function from the R package cvTools <ref type="bibr" target="#b1">(Alfons 2012)</ref> with 100 replications, and models were also ranked using Akaike's information criterion corrected for small sample size (AIC c ). To avoid infinite parameter estimates due to complete or quasi-complete separation, the model parameters were estimated bias-reduced maximum likelihood <ref type="bibr">(Firth 1993, Kosmidis and</ref><ref type="bibr" target="#b58">Firth 2009)</ref>. Probability of correct classification was compared to a null model (i.e. no explanatory variables) where the predictive accuracy depends only on the base rate of classes in the population (e.g. if 60% of the population are adults, then prediction accuracy would be 60% if every sample were called adult).</p><p>For age class, cross validation analyses indicated that it was not possible to reliably distinguish between yearlings and adults based on pellet morphology significantly better than using the base rate (probability  0.69-0.72; null model probability  0.67), so our age class analysis focused on separate analyses distinguishing fawn from yearling and fawn from adult. We used only known age captive individuals and known age captive released wild individuals for age class analysis (i.e. excluded wild individuals of unknown age). Finally, we combined yearlings and adults into a single age class (non-fawn) and tested the accuracy of our visual fieldclassification of wild samples by age class, i.e. fawn or nonfawn. We used the fitted model developed from known age individuals (captive fawns and captive and wild non-fawns) to predict age class of wild samples. We used models with single explanatory variables of width and volume because these were two of the best AIC c ranked models for predicting age class. In cases where the model-predicted age class differed in multiple samples from the same individual (i.e. one predicted adult, one predicted fawn), we ran an additional model (length  length-width ratio).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>We collected 185 pellet groups from 58 small, 69 medium and 58 large (visual classification) fecal pellet piles from the captive pen (Supplementary material Appendix 1 Fig. <ref type="figure" target="#fig_0">A1</ref>). From these, we confirmed consensus genotypes for 176 which were matched and found to represent 67 individuals or approximately 85% of the pronghorn in the pen in 2012 (USFWS 2015). During physical capture of captive animals, we obtained 58 blood samples over two years from known age individuals. We genotyped and matched 33 of the blood samples (four adults, 17 yearlings, 12 fawns) to 87 fecal samples (Table <ref type="table" target="#tab_2">2</ref>). The remaining 98 pellet piles were not matched to known age individuals and were not included in our analyses. All samples collected in the captive pen were measured, and the number of samples per individual averaged 2.8 (range 1-8). From the wild, we measured 258 samples across years. We did not find significant differences between measurements of fresh pellets and pellets re-measured (n  16) after seven days (p  0.05).  those of captive non-fawns (Fig. <ref type="figure" target="#fig_2">3</ref>). Mean length-width pellet ratio, however, was consistent for non-fawn captive (1.59) and wild (1.68) individuals. Pellet length, width and volume were significantly different between captive and wild non-fawns (Table <ref type="table" target="#tab_3">3b</ref>). For fawns, only pellet width was significantly different between captive and wild individuals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Prediction of age class from wild pellet samples</head><p>In 2014, we redetected 15 individuals (n  39 samples), thus known to be non-fawn ( 1 year old). All samples from redetected individuals were correctly model-predicted as non-fawn in either the width only or volume only model (Table <ref type="table" target="#tab_5">5</ref>, Supplementary material Appendix 1 Table <ref type="table" target="#tab_1">A1</ref>).</p><p>Ten unique individuals (a total of 16 samples) had conflicting model-predicted (width only and volume only models) age class (i.e. one model predicted non-fawn, one predicted fawn). There was no consistency in which model (e.g. width only) predicted fawn or non-fawn in these cases. For eight of these individuals, we measured multiple samples, guess fawn, we will be right 32% of the time because 32% of our samples were fawn).</p><p>The best AIC c ranked model for captive fawn versus adult again included pellet width only with probability of correct age class classification of 0.98 (Table <ref type="table" target="#tab_4">4b</ref>). The volume only model and combinations of  2 explanatory variables performed similarly with predictive probability ranging from 0.93 to 0.97 and delta AIC c s from 1.46 to 8.41. Length and length-width ratio as single explanatory variables were the worst ranked models with probability of correct classification of 0.85 and 0.77 and delta AIC c values of 17.77 and 26.65, respectively. The null model (i.e. the model with no explanatory variables) had probability of correct classification of 0.50 (i.e. 50% of pellet samples were adult and 50% were fawn).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Captive versus wild measurements of pellets</head><p>Mean length, width and volume of wild non-fawn pellets ( 1 year as evidenced by redetection) were smaller than In 2013, only one sample that was visually field-classified as non-fawn (n  119) was model-predicted as fawn, whereas three samples visually field-classified as fawn were subsequently model-predicted as non-fawn (Table <ref type="table" target="#tab_5">5</ref>, Supplementary material Appendix 1 Table <ref type="table" target="#tab_1">A1</ref>). Similarly, in 2014, 98% (n  62) of samples visually field-classified as non-fawn were model-predicted as non-fawn, but only 33% (n  22) of samples field-classified as fawn were model-predicted fawn. Nearly all samples (46 of 49 in the years combined) incorrectly visually field-classified as fawn were male.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Understanding age-specific survival rates is critical to management and identifying long-term trends in population growth, particularly in endangered species, yet documenting age-specific survival relies on knowing age structure. We successfully demonstrated the ability to distinguish fawns from yearlings or adults using morphometric pellet measurements of Sonoran pronghorn. While we did not have enough predictive power to separate yearlings and adults, an understanding of recruitment rates and fawn survival is important in determining the trajectory of the population. This measurement method provides a reliable way to document fawns, and the use of fecal DNA for individual identification further strengthens the method's utility as individuals can be tracked over multiple years of sampling.</p><p>and we took the majority model-predicted classification (i.e. four model-predicted as non-fawn, two model-predicted as fawn, we called it non-fawn). The two other individuals were single detections (i.e. we had only one sample) for which we ran an additional fitted model (length  lengthwidth ratio) and used the age class that was predicted twice (i.e. volume and width models both predicted fawn, and length  length-width ratio predicted adult, we called the individual fawn).</p><p>Correct visual field-classification by age class varied considerably between years. In 2013, we measured 128 samples from 76% (n  72 individuals) of the total wild individuals we detected (i.e. detected their genotype) (Table <ref type="table" target="#tab_2">2</ref>). Ninety-six percent of visual field-based classifications matched the model predictions (Supplementary material Appendix 1 Table <ref type="table" target="#tab_1">A1</ref>). In 2014, we measured 130 samples from 64 individuals, and 65% of samples were correctly field-classified by visual observation (i.e. matched the model prediction).   <ref type="bibr" target="#b61">Van Ballenberghe (1987)</ref> where correct classification was similar for males and females. In 2014, two redetected individuals made up 24% (n  11) of the samples incorrectly field-classified as fawn. One of these individuals was fieldclassified and model predicted as fawn in 2013 and would putatively be a yearling in 2014 perhaps providing explanation for the misclassification. The other individual was detected at a site with supplemental feed and field-classified and model predicted as non-fawn in 2013. However, in 2014 this individual was redetected at a site with no supplemental feed and was field-classified as fawn in all samples, but model-predicted as adult in 64% (n  7) of samples.</p><p>While based on only a single individual, this strengthens the idea that fed individuals produce larger pellets <ref type="bibr" target="#b52">(Hummel et al. 2008)</ref>. We recognize the weaknesses of our visual assessment method, including the skill level and subjectivity of observers, but we felt it was valuable to test the method. With in-depth training of observers (as seen in 2013), the accuracy of this method could be improved.</p><p>In turn, we recommend measuring pellets when trying to determine age class to increase accuracy. We also note that developing a model based on measurements from wild pronghorn would strengthen predictive power. However, we posit that when obtaining samples from wild individuals is not feasible, samples from captive animals provide a reasonable surrogate <ref type="bibr" target="#b14">(Chapman 2004)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Management implications</head><p>In species that are highly sensitive to capture and disturbance, like Sonoran pronghorn, noninvasive genetic sampling methods are an appealing alternative approach for obtaining critical demographic data. Managers of Sonoran pronghorn do not have current sex and age-based survival estimates because these data cannot be obtained with the current aerial survey approach used for population estimation</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pellet size and age class</head><p>Our visual classification of pellets of captive pronghorn by size (small, medium, large) was a mechanism to facilitate collection of all age and sex classes and was not used in the analysis, but our results indicate this was an appropriate collection method for obtaining a range of age classes for our analyses. As expected, pellet size was larger for yearlings and adults than for fawns. The probability of correctly assigning age class models was similar for fawns and yearlings and fawns and adults and performed notably better than the null models (null probability 0.32 and 0.50, respectively). On the other hand, both <ref type="bibr" target="#b63">Morden et al. (2011)</ref> and MacCracken and Van Ballenberghe (1987) found higher rates of correct model classification for adults compared to juveniles. Contrary to other studies <ref type="bibr" target="#b18">(Delibes-Mattos et al. 2009</ref><ref type="bibr" target="#b63">, Morden et al. 2011)</ref>, our cross-validation analysis showed that single measure models assigned age class with roughly the same accuracy as models with multiple variables. Our small sample size (n  4) for adults is perhaps the reason we could not distinguish between adults and yearlings. Collecting and measuring fecal pellets from additional known adults would potentially allow for this distinction. Some variables were correlated as would be expected given that two variables (length-width ratio and volume) are calculated using combinations of the other variables, and length and width also tend to be correlated. Thus, it is not surprising that models with additional variables generally did not substantially outperform the width-only model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Captive versus wild</head><p>Similar to other research, our results suggest that the most accurate predictive models are built from samples collected from the target population (MacCracken and Van Ballenberghe 1987, <ref type="bibr" target="#b14">Chapman 2004</ref><ref type="bibr" target="#b63">, Morden et al. 2011)</ref>. Differences in diet (e.g. seasonal variation, captive versus wild) can affect size of fecal output <ref type="bibr" target="#b11">(Campos-Arceiz et al. 2008</ref><ref type="bibr" target="#b63">, Morden et al. 2011</ref>) and defecation rate <ref type="bibr" target="#b27">(Rogers 1987</ref><ref type="bibr" target="#b62">, Mayle et al. 1996</ref><ref type="bibr" target="#b14">, Chapman 2004</ref><ref type="bibr" target="#b45">, Ferretti et al. 2014)</ref> with both reduced <ref type="bibr" target="#b54">(Irby 1981</ref><ref type="bibr" target="#b4">, Asa et al. 1985</ref><ref type="bibr" target="#b27">, Rogers 1987</ref><ref type="bibr" target="#b56">, Kitchen and Martin 1996</ref><ref type="bibr" target="#b14">, Chapman 2004</ref>) and increased defecation rates in captive individuals <ref type="bibr">(Smith 1964, Dinerstein and</ref><ref type="bibr" target="#b20">Dublin 1982)</ref>. <ref type="bibr">Brashares and Arcese (1999a, b)</ref> suggest dominant male oribi Ourebia ourebi restrict defecation volume and occurrence in order to increase the frequency of territory marking events. Consequently, there could be differences in defecation rate, and potentially pellet size, between captive and wild individuals, as well as fed and unfed individuals in the wild. However, we believe that our approach to develop predictive models using captive individuals was justified and effective for multiple reasons. First, in our study system, any future fecal DNA sampling will be conducted at drinkers, nearly 50% of which also provide supplemental feed. Additionally, as conditions in the pen are semi-natural, captive pronghorn also feed on natural forage year-round due to irrigated forage plots. Second, we were able to test our methods on 15 wild animals known to be non-fawn. All were correctly identified as non-fawn by the model-prediction. Third, length-width ratios between captive and wild animals were not significantly different and (USFWS 2015). Because we measured samples collected in May and June and relatively soon after fawning, we do not know at what age fawn samples are no longer distinguishable from adults. Thus, it would be beneficial to collect and measure samples several times throughout the year to determine at what age fawns can no longer be reliably distinguished by pellet size. Also, as recruitment for ungulates is typically estimated when young are ∼6-9 months of age <ref type="bibr">(DeCesare et al. 2012, Christianson and</ref><ref type="bibr" target="#b15">Creel 2014)</ref>, alternative timing of pellet collection might be preferable. However, fecal pellet DNA sampling for population monitoring (i.e. sufficient sample size) is likely feasible only during the months when pronghorn are congregating at watering holes (April-June) due to the hot, dry conditions <ref type="bibr" target="#b68">(Woodruff et al. 2016)</ref>. Accuracy of age classification could potentially be improved by developing separate models for sites with and without supplemental feed, as our limited data (not shown) indicates pellets from individuals at sites with supplemental feed are larger. We also note that while seven days of weathering did not alter the pellet measurements, results could differ if pellets are older than seven days. Additional pilot studies are needed to evaluate this. However, other research shows older Sonoran pronghorn pellets have lower DNA amplification success rates, and if the objective is to use these measurement methods in conjunction with individual identification from fecal DNA, pellets older than seven days will be of little use <ref type="bibr" target="#b67">(Woodruff et al. 2015)</ref>.</p><p>While we could not determine sex using morphological methods (data not shown), sex is easily ascertained using genetic methods, and our method shows strong potential for use in wild populations of pronghorn to distinguish fawns from yearlings or adults. The ability to distinguish age structure using fecal pellet measurements greatly improves the applicability of fecal pellet collection and has significant implications for management of the Sonoran pronghorn population. We recommend analyzing pellets using both single width and volume variable models and running the combined model (length  length-width ratio) if the width and volume models disagree. A long-term monitoring scheme combining pellet measurements with individual identification using DNA would allow the identification of fawns that would remain known age individuals for the remainder of the monitoring years. This would provide a powerful tool for documenting the population's age and sex structure, annual recruitment, and age-specific annual survival rates. As research has shown, distinguishing age classes is possible in other ungulate species, and as the use of noninvasive genetic methods increases in ungulates, these methods could potentially be applied to other species.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Map depicting Sonoran pronghorn fecal sampling locations (drinkers and non-drinkers) in 2013 and 2014 on Barry M. Goldwater Range (BMGR), Cabeza Prieta National Wildlife Refuge (CPNWR), and Organ Pipe National Monument (ORPI), southern Arizona, USA. Each star represents general locations of multiple sampling areas.</figDesc><graphic coords="4,75.51,45.52,449.78,270.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Scatterplot of fecal pellet measurements of captive and wild Sonoran pronghorn collected May and June 2013 on the Cabeza Prieta National Wildlife Refuge, Arizona, USA. Captive individuals are known age and wild individuals are as predicted by models. The dotted lines represent contours of constant lengthwidth ratio, with points in the upper left representing pellets that are relatively long and narrow, while lower right points represent pellets that are relatively short and wide.</figDesc><graphic coords="6,311.48,408.31,224.44,232.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Box plots showing mean measurements of Sonoran pronghorn fecal pellets collected in May and June 2012-2014 in Arizona, USA, from captive and wild fawn (F) and non-fawn (NF) for length, width, length-width ratio (LW), and volume. The box signifies the upper and lower quartiles and the median is represented by the thick black line. Black dots represent outliers.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>al. 2013); thus, alternative methods, such as noninvasive sampling methods are appealing. Morphological measurements of feces (i.e. pellets, bolus) have been used to determine age class in a variety of ungulate species (Table 1). Most studies required use of multiple measurements for successful age classification. Success rates varied from 75-100% depending on age class, measurement, and study species. Pellet volume distinguished sex and age class of moose Alces alces (MacCracken and Van Ballenberghe</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Summary of ungulate studies using fecal pellet measurements to distinguish between age classes.</figDesc><table><row><cell>Species</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>Total number of pellet samples measured in both the captive and wild Sonoran pronghorn populations in summer 2013 and 2014, Arizona, USA. Captive samples are known age class from individual ID genotype matching. Wild individuals classified as adult are non-fawn (i.e. yearlings and adults) and were field (visual) classified.</figDesc><table><row><cell></cell><cell></cell><cell>Captive</cell><cell>Wild</cell><cell></cell></row><row><cell>Age class</cell><cell>Male</cell><cell>Female</cell><cell>Male</cell><cell>Female</cell></row><row><cell>Fawn</cell><cell>14</cell><cell>7</cell><cell>67</cell><cell>16</cell></row><row><cell>Yearling</cell><cell>40</cell><cell>5</cell><cell>-</cell><cell>-</cell></row><row><cell>Adult</cell><cell>12</cell><cell>9</cell><cell>113</cell><cell>62</cell></row><row><cell>Total:</cell><cell>66</cell><cell>21</cell><cell>180</cell><cell>78</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>(a) Descriptive statistics and associated standard errors (SE) of fecal pellets from captive and wild Sonoran pronghorn collected May and June 2012-2014, Arizona, USA. Wild non-fawn individuals include only redetected individuals, and wild fawns were determined using model predictions. (b) p-values from t-tests comparing differences in fecal pellet measurements between captive and wild Sonoran pronghorn.</figDesc><table><row><cell>(a)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Age class (sample size)</cell><cell>Length (SE)</cell><cell>Width (SE)</cell><cell>LW a ratio (SE)</cell><cell>Volume b (SE)</cell></row><row><cell>Captive adult (21)</cell><cell>14.00 (0.32)</cell><cell>8.30 (0.28)</cell><cell>1.71 (0.05)</cell><cell>518.87 (44.98)</cell></row><row><cell>Captive yearling (45)</cell><cell>12.48 (0.24)</cell><cell>8.21 (0.14)</cell><cell>1.55 (0.03)</cell><cell>454.05 (26.67)</cell></row><row><cell>Wild non-fawn (64)</cell><cell>11.98 (1.63)</cell><cell>7.36 (1.22)</cell><cell>1.68 (0.43)</cell><cell>346.70 (189.56)</cell></row><row><cell>Captive fawn (21)</cell><cell>10.97 (0.22)</cell><cell>4.98 (0.13)</cell><cell>2.19 (0.05)</cell><cell>161.87 (8.35)</cell></row><row><cell>Wild fawn (11)</cell><cell>10.44 (0.18)</cell><cell>4.78 (0.16)</cell><cell>2.26 (0.07)</cell><cell>163.60 (6.50)</cell></row><row><cell>(b)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Captive/wild non-fawn</cell><cell>0.03 *</cell><cell>0.005 *</cell><cell>0.18</cell><cell>1.19  10 -7*</cell></row><row><cell>Captive/wild fawn c</cell><cell>0.10</cell><cell>0.02 *</cell><cell>0.09</cell><cell>0.99</cell></row><row><cell>a Length-width ratio.</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">b Volume  V: 4/3p (L/2)(W/2) 2 ; volume of an ellipsoid.</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 4 .</head><label>4</label><figDesc>Results of the logistic regression models evaluating the influence of pellet measurements on the ability to distinguish (a) captive Sonoran pronghorn fawn versus yearling and (b) fawn versus adult. AIC c values and standard errors are approximate due to some pseudoreplication from two or more pellet samples from the same animal. Only models with delta AIC c  2 are shown. Pellets were collected in the captive pen on the Cabeza Prieta National Wildlife Refuge, Arizona, USA in May and June 2013 and 2014. We included single dimension measurements as well as all combinations of measurements.</figDesc><table><row><cell>(a)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>b (SE)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Intercept</cell><cell>Length a</cell><cell>Width b</cell><cell>LW Ratio c</cell><cell>Volume d</cell><cell>CVP e</cell><cell>AIC c f</cell></row><row><cell>20.48 (6.05)</cell><cell>-</cell><cell>-3.12 (0.87)</cell><cell>-</cell><cell>-</cell><cell>0.98</cell><cell>12.07</cell></row><row><cell>-13.59 (10.82)</cell><cell>-0.99 (0.52)</cell><cell>-</cell><cell>13.96 (4.83)</cell><cell>-</cell><cell>0.97</cell><cell>13.73</cell></row><row><cell>12.63 (6.34)</cell><cell>0.93 (0.86)</cell><cell>-3.60 (1.21)</cell><cell>-</cell><cell>-</cell><cell>0.97</cell><cell>13.75</cell></row><row><cell>12.59 (11.20)</cell><cell>-</cell><cell>-</cell><cell>-9.28 (5.50)</cell><cell>-0.02 (0.01)</cell><cell>0.97</cell><cell>13.78</cell></row><row><cell>0.71 (15.81)</cell><cell>-</cell><cell>-1.88 (0.96)</cell><cell>6.36 (6.00)</cell><cell>-</cell><cell>0.97</cell><cell>13.78</cell></row><row><cell>2.50 (10.55)</cell><cell>-</cell><cell>-6.34 (2.13)</cell><cell>-</cell><cell>0.32 (0.01)</cell><cell>0.98</cell><cell>13.94</cell></row><row><cell>(b)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>19.18 (6.10)</cell><cell>-</cell><cell>-2.91 (0.90)</cell><cell>-</cell><cell>-</cell><cell>0.98</cell><cell>11.93</cell></row><row><cell>7.45 (2.26)</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-0.03 (0.01)</cell><cell>0.95</cell><cell>13.39</cell></row></table><note><p>a Length of pellet measured from tip to tip. b Pellet width at widest part of pellet. c Length-width ratio. d Volume  V: 4/3p (L/2)(W/2) 2 ; volume of an ellipsoid. e Cross-validation probability is the probability of the model correctly assigning age class to a sample. f Akaike's information criterion corrected for small sample size.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 5 .</head><label>5</label><figDesc>Comparison of visual field classification and measurement prediction for pellet samples collected for wild pronghorn in 2013 and 2014, Arizona, USA.indicated that pellet size changed consistently across measurements from captive to wild. Fourth, our results illustrate significant differences in pellet size between fawn and nonfawn in both the captive and wild populations, with wild fawn having the smallest measurements and thus having a lower chance of being misclassified as non-fawn compared to captive animals.</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Measurement prediction</cell></row><row><cell cols="4">Field classification No. measured No. non-fawn (%) No. fawn (%)</cell></row><row><cell>Adult</cell><cell>122</cell><cell>119 (98)</cell><cell>3 (2)</cell></row><row><cell>Fawn</cell><cell>64</cell><cell>46 (72)</cell><cell>18 (28)</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded From: https://bioone.org/journals/Wildlife-Biology on 18 Sep 2021 Terms of Use: https://bioone.org/terms-of-use</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements -We thank AZ Game and <rs type="institution">Fish Department, CPNWR</rs>, and <rs type="institution">University of Arizona</rs> personnel for assistance with sample collection. We especially want to thank <rs type="person">D. Christianson</rs> and his lab for measuring samples. We also thank the <rs type="institution">University of Idaho Laboratory for Ecological, Evolutionary and Conservation Genetics</rs> and the <rs type="institution">Waits lab group</rs> for providing comments on the manuscript. Funding -This material is based upon work supported by, or in part by, the <rs type="funder">U.S. Army Research Laboratory</rs> and the <rs type="funder">U.S. Army Research Office</rs> under contract/grant number <rs type="grantNumber">RC-201205</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_vQfTKRS">
+					<idno type="grant-number">RC-201205</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Permits -All samples collected in this work are in accordance with methods approved by the Univ. of Idaho Institutional Animal Care and Use Committee (permit no. 2013-79).</p><p>Supplementary material (Appendix wlb-00209 at &lt; www. wildlifebiology.org/appendix/wlb-00209 &gt;). Appendix 1.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Rapid species identification of pygmy rabbits (Brachylagus idahoensis) from faecal pellet DNA</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Adams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="808" to="812" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">cvTools: cross-validation tools for regression models</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alfons</surname></persName>
+		</author>
+		<ptr target="http://CRAN.R-project.org/package=cvTools" />
+	</analytic>
+	<monogr>
+		<title level="m">R package ver. 0</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Morphological variability and identification of deer pellets in central Spain</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Alvarez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Folia Zool</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="25" to="37" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Risk of capture-related mortality in large free-ranging mammals: experiences from Scandinavia</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arnemo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="109" to="113" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The use of urine, faeces and anal gland secretions in scent-marking by a captive wolf (Canis lupus) pack</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Asa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim. Behav</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1034" to="1036" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Faecal pellet size can be used to differentiate age-classes in caribou: implications for non-invasive genetic studies</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ball</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet. Res</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="239" to="241" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Advancing ecological understandings through technological transformations in noninvasive genetics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beja-Pereira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Res</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1279" to="1301" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">a. Scent marking in a territorial African antelope. I. The maintenance of borders between male oribi</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Brashares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Arcese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim. Behav</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Scent marking in a territorial African antelope. II. The economics of marking with faeces</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Brashares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Arcese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim. Behav</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="11" to="17" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Adult and fawn mortality of Sonoran pronghorn</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Hervert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Soc. Bull</title>
+		<imprint>
+			<biblScope unit="volume">331</biblScope>
+			<biblScope unit="page" from="43" to="50" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Physiology</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Bubenik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Elk of North America: ecology and management</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Thomas</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Toweill</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Stackpole Books</publisher>
+			<date type="published" when="1982">1982</date>
+			<biblScope unit="page" from="125" to="179" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Behavior rather than diet mediates seasonal differences in seed dispersal by Asian elephants</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Campos-Arceiz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="2684" to="2691" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">DNA microsatellites of pronghorn (Antilocapra americana)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Carling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Notes</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="10" to="11" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Capture myopathy in pronghorns in Alberta, Canada</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Chalmers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Barrett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Vet. Med. Ass</title>
+		<imprint>
+			<biblScope unit="volume">1719</biblScope>
+			<biblScope unit="page" from="918" to="923" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Fecal pellets of Reeves&apos; muntjac, Muntiacus reevesi: defecation rate, decomposition period, size and weight</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Chapman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="141" to="145" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Ecosystem scale declines in elk recruitment and population growth with wolf colonization: a before-after-control-impact approach</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Christianson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Creel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">102330</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Comparing opportunistic and systematic collection methods for noninvasive genetic monitoring of a small translocated brown bear population</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Barba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="172" to="181" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Estimating ungulate recruitment and growth rates using age ratios</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Decesare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="144" to="153" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Can adult and juvenile European rabbits be differentiated by their pellet sizes?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delibes-Mattos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Oecol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="250" to="252" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Evaluating DNA degradation rates in faecal pellets of the endangered pygmy rabbit</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Demay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="654" to="662" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Daily defecation rate of captive axis deer</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dinerstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Dublin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ecology: controversies and consequences</title>
+		<imprint>
+			<publisher>Columbia Univ. Press</publisher>
+			<date type="published" when="1982">1982</date>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="15" to="64" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>O'gara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Yoakum</surname></persName>
+		</author>
+		<title level="m">Pronghorn ecology and management</title>
+		<imprint>
+			<publisher>Univ. Press of Colorado</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Partners save the Sonoran pronghorn</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Otte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Endangered Species Bull</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="22" to="23" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">GENALEX 6: genetic analysis in Excel. Population genetic software for teaching and research</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Notes</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="288" to="295" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Wapiti (Cervus elaphus)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Peek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Wild mammals of North America: biology, management and conservation</title>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Feldhamer</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Johns Hopkins Univ. Press</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="877" to="887" />
+		</imprint>
+	</monogr>
+	<note>2nd ed</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Impact of spatial and temporal variation in juvenile survival on the growth of elk populations</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Raithel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="795" to="803" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Growth in the Sumatran elephant (Elephas maximus sumatranus) and age estimation based on dung diameter</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Reilly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Zool</title>
+		<imprint>
+			<biblScope unit="volume">258</biblScope>
+			<biblScope unit="page" from="205" to="213" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Seasonal changes in defecation rates of freeranging white-tailed deer</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Rogers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="330" to="333" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Molecular cloning: a laboratory manual</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sambrook</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<publisher>Cold Spring Harbor Laboratory Press</publisher>
+		</imprint>
+	</monogr>
+	<note>4th ed</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Pellet morphometry as a tool to distinguish age and sex in the mule deer</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sanchez-Rojas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zoo Biol</title>
+		<imprint>
+			<biblScope unit="volume">232</biblScope>
+			<biblScope unit="page" from="139" to="146" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Genetic monitoring as a promising tool for conservation and management</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="25" to="33" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Skrbinsek</surname></persName>
+		</author>
+		<title level="m">mSatBase v 0</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page">51</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Univ. of Ljubljana</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Defecation rates of mule deer</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="435" to="444" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Criteria for determining age and sex of American mountain goats in the field</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mammal</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="395" to="402" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">An evaluation of field and non-invasive genetic methods to estimate brown bear (Ursus arctos) population size</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Solberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="158" to="168" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Effects of storage type and time on DNA amplification success in tropical ungulate faeces</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Soto-Calderon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Res</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="471" to="479" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Age classes of the greater bilby (Macrotis lagotis) based on track and faecal pellet size</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Southgate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="625" to="630" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tyson</surname></persName>
+		</author>
+		<title level="m">WCS -Indonesia Program Sumatran Elephant Project: six-month report</title>
+		<imprint>
+			<date type="published" when="2002-01">2002. January. June, 2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<ptr target="www.fws.gov/southwest/refuges/arizona/cabeza.html" />
+		<title level="m">Cabeza Prieta National Wildlife Refuge</title>
+		<meeting><address><addrLine>Ajo, Arizona</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012-07">July 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<author>
+			<persName><surname>Usfws</surname></persName>
+		</author>
+		<title level="m">Draft recovery plan for the Sonoran pronghorn (Antilocapra americana sonoriensis)</title>
+		<imprint>
+			<publisher>US Fish and Wildl. Serv. Southwest Region</publisher>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>2nd revision. -</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">New noninvasive genetic sampling tools for wildlife biologists: a review of applications and recommendations for accurate data collection</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Estimating the probability of identity among genotypes in natural populations: cautions and guidelines</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="249" to="256" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Behavior and timing of life-history events in a semi-captive population of the Sonoran pronghorn (Antilocapra americana sonoriensis)</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Southwest. Nat</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="389" to="393" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Recovery efforts for Sonoran pronghorn in the United States</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Southwestern desert resources</title>
+		<editor>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Halvorson</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Univ. of Arizona Press</publisher>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="283" to="292" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Biology and population dynamics of white-tailed deer in northwestern Mexico</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ezcurra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gallina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Deer biology, habitat requirements and management in western North America</title>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Pfolliott</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Gallina</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Inst. de Ecologia</publisher>
+			<date type="published" when="1981">1981</date>
+			<biblScope unit="page" from="77" to="108" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Temporal and spatial patterns of defecation in wild boar</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ferretti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Soc. Bull</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="65" to="69" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Bias reduction of maximum likelihood estimates</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Firth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrika</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="27" to="38" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Population dynamics of large herbivores: variable recruitment with constant adult survival</title>
+		<author>
+			<persName><forename type="first">J.-M</forename><surname>Gaillard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="58" to="63" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Temporal variation in fitness components and dynamics of large herbivores</title>
+		<author>
+			<persName><forename type="first">J.-M</forename><surname>Gaillard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Ecol. Syst</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="367" to="393" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Errors in age determination of mouflon in the field</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wild. Soc. Bull</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="300" to="306" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Inference about ungulate population dynamics derived from age ratios</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="795" to="803" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Antilocapra americana. The IUCN Red List of threatened species</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<ptr target="www.iucnredlist.org" />
+		<imprint>
+			<date type="published" when="2008">2008. 2014. 13 April 2015</date>
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Differences in fecal particle size between free-ranging and captive individuals of two browser species</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hummel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zoo Biol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="70" to="77" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m">Final environmental impact statement for Barry M. Goldwater Range: volume I</title>
+		<imprint>
+			<publisher>INRMP (Integrated Natural Resources Management Plan</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+		<respStmt>
+			<orgName>US Dept of the Air Force, US Dept of the Navy, US Dept of the Interior, and Arizona Game and Fish Dept</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Variation in defecation rates of pronghorn relative to habitat and activity level</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Irby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Range Manage</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="278" to="279" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Fecal pellet measurements of Manipur brow-antlered deer with respect to sex and age classes</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Goyal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zoo Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="561" to="565" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">The effects of cage size and complexity on the behaviour of captive common marmosets (Callithrix jacchus jacchus)</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Kitchen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lab. Anim</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="317" to="326" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kosmidis</surname></persName>
+		</author>
+		<ptr target="www.ucl.ac.uk/∼ucakiko/software.html" />
+		<title level="m">brglm: Bias reduction in binomial-response generalized linear models</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Bias reduction in exponential family nonlinear models</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kosmidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Firth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrika</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="793" to="804" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Kreeger</surname></persName>
+		</author>
+		<title level="m">Handbook of wildlife chemical immobilization</title>
+		<imprint>
+			<publisher>-Wildlife Pharmaceuticals</publisher>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lou</surname></persName>
+		</author>
+		<title level="m">Genetic variation of pronghorn (Antilocapra americana) populations in North America</title>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+		<respStmt>
+			<orgName>Texas A &amp; M Univ</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Age-and sex-related differences in fecal pellet dimensions of moose</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Maccracken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Van Ballenberghe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="360" to="364" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Fallow deer (Dama dama) defecation rate and its use in determining population size</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Mayle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Suppl. Rich. Biol. Selvaggina</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="63" to="67" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Use of fecal pellet size to differentiate age classes in female Svalbard reindeer</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J C</forename><surname>Morden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="441" to="448" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">New microsatellite loci isolated via next-generation sequencing for two endangered pronghorn from the Sonoran Desert</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Munguia-Vega</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet. Res</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="125" to="127" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">A critical review of the effects of marking on the biology of vertebrates</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Fuller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">and Wildl. Agencies Pronghorn Workshop and New Mexico Dept of Game and Fish</title>
+		<editor>
+			<persName><forename type="first">W</forename><surname>Ass</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Fish</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2000">2000. 2013</date>
+			<biblScope unit="page" from="1" to="172" />
+		</imprint>
+	</monogr>
+	<note>Research techniques in animal Yoakum</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Is size of fecal pellets a reliable indicator of species of leporids in the Southern Rocky Mountains?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Zahratka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Buskirk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="2081" to="2083" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Evaluating the interaction of fecal pellet deposition rates and DNA degradation rates to optimize sampling design for DNA-based mark-recapture analysis of Sonoran pronghorn</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Woodruff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="843" to="854" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Estimating Sonoran pronghorn abundance and survival with fecal DNA and capture-recapture methods</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Woodruff</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/cobi.12710</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Biol</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

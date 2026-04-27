@@ -1,0 +1,2039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Evaluating the Efficiency of DNA Metabarcoding to Analyze the Diet of Hippocampus Guttulatus (Teleostea: Syngnathidae)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-09-22">22 September 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Tamara</forename><surname>Lazic</surname></persName>
+							<email>tamara.lazic@uniba.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Bari</orgName>
+								<address>
+									<postCode>70125</postCode>
+									<settlement>Bari</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cataldo</forename><surname>Pierri</surname></persName>
+							<email>cataldo.pierri@uniba.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Bari</orgName>
+								<address>
+									<postCode>70125</postCode>
+									<settlement>Bari</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Giuseppe</forename><surname>Corriero</surname></persName>
+							<email>giuseppe.corriero@uniba.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Bari</orgName>
+								<address>
+									<postCode>70125</postCode>
+									<settlement>Bari</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bachir</forename><surname>Balech</surname></persName>
+							<email>b.balech@ibiom.cnr.it</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Institute of Biomembrane</orgName>
+								<orgName type="department" key="dep2">Bioenergetics and Molecular Biotechnology (IBIOM)</orgName>
+								<orgName type="laboratory">National Council</orgName>
+								<orgName type="institution">of Research (CNR)</orgName>
+								<address>
+									<postCode>70121</postCode>
+									<settlement>Bari</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Frine</forename><surname>Cardone</surname></persName>
+							<email>frine.cardone@szn.it</email>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Integrated Marine Ecology</orgName>
+								<address>
+									<addrLine>Zoological Station Anton Dohrn</addrLine>
+									<postCode>80127</postCode>
+									<settlement>Naples</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michele</forename><surname>Deflorio</surname></persName>
+							<email>michele.deflorio@uniba.it</email>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Veterinary Medicine</orgName>
+								<orgName type="institution">University of Bari</orgName>
+								<address>
+									<postCode>70125</postCode>
+									<settlement>Bari</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bruno</forename><surname>Fosso</surname></persName>
+							<email>b.fosso@ibiom.cnr.it</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Institute of Biomembrane</orgName>
+								<orgName type="department" key="dep2">Bioenergetics and Molecular Biotechnology (IBIOM)</orgName>
+								<orgName type="laboratory">National Council</orgName>
+								<orgName type="institution">of Research (CNR)</orgName>
+								<address>
+									<postCode>70121</postCode>
+									<settlement>Bari</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Carmela</forename><surname>Gissi</surname></persName>
+							<email>carmela.gissi@uniba.it</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Institute of Biomembrane</orgName>
+								<orgName type="department" key="dep2">Bioenergetics and Molecular Biotechnology (IBIOM)</orgName>
+								<orgName type="laboratory">National Council</orgName>
+								<orgName type="institution">of Research (CNR)</orgName>
+								<address>
+									<postCode>70121</postCode>
+									<settlement>Bari</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Biosciences, Biotechnology and Biopharmaceutics</orgName>
+								<orgName type="institution">University of Bari</orgName>
+								<address>
+									<postCode>70125</postCode>
+									<settlement>Bari</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marinella</forename><surname>Marzano</surname></persName>
+							<email>m.marzano@ibiom.cnr.it</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Institute of Biomembrane</orgName>
+								<orgName type="department" key="dep2">Bioenergetics and Molecular Biotechnology (IBIOM)</orgName>
+								<orgName type="laboratory">National Council</orgName>
+								<orgName type="institution">of Research (CNR)</orgName>
+								<address>
+									<postCode>70121</postCode>
+									<settlement>Bari</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Francesco</forename><forename type="middle">Nonnis</forename><surname>Marzano</surname></persName>
+							<email>francesco.nonnismarzano@unipr.it</email>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Chemistry, Life Sciences and Environmental Sustainability</orgName>
+								<orgName type="institution">University of Parma</orgName>
+								<address>
+									<postCode>43121</postCode>
+									<settlement>Parma</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Graziano Pesole</surname></persName>
+							<email>graziano.pesole@uniba.it</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Institute of Biomembrane</orgName>
+								<orgName type="department" key="dep2">Bioenergetics and Molecular Biotechnology (IBIOM)</orgName>
+								<orgName type="laboratory">National Council</orgName>
+								<orgName type="institution">of Research (CNR)</orgName>
+								<address>
+									<postCode>70121</postCode>
+									<settlement>Bari</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Biosciences, Biotechnology and Biopharmaceutics</orgName>
+								<orgName type="institution">University of Bari</orgName>
+								<address>
+									<postCode>70125</postCode>
+									<settlement>Bari</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Monica</forename><surname>Santamaria</surname></persName>
+							<email>m.santamaria@ibiom.cnr.it</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Institute of Biomembrane</orgName>
+								<orgName type="department" key="dep2">Bioenergetics and Molecular Biotechnology (IBIOM)</orgName>
+								<orgName type="laboratory">National Council</orgName>
+								<orgName type="institution">of Research (CNR)</orgName>
+								<address>
+									<postCode>70121</postCode>
+									<settlement>Bari</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michele</forename><surname>Gristina</surname></persName>
+							<email>michele.gristina@cnr.it</email>
+							<affiliation key="aff6">
+								<orgName type="department">Institute of Anthropic Impacts and Sustainability in Marine Environment (IAS)</orgName>
+								<orgName type="laboratory">National Council</orgName>
+								<orgName type="institution">of Research (CNR)</orgName>
+								<address>
+									<postCode>90100</postCode>
+									<settlement>Palermo</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Evaluating the Efficiency of DNA Metabarcoding to Analyze the Diet of Hippocampus Guttulatus (Teleostea: Syngnathidae)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-09-22">22 September 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">13FF5E4CE58E50E614950679838A0A57</idno>
+					<idno type="DOI">10.3390/life11100998</idno>
+					<note type="submission">Received: 31 August 2021 Accepted: 21 September 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-15T14:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>seahorses</term>
+					<term>Hippocampus guttulatus</term>
+					<term>diet</term>
+					<term>DNA metabarcoding</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Seahorses are considered a flagship species for conservation efforts and due to their conservation status, improving knowledge on their dietary composition while applying a noninvasive approach, could be useful. Using Hippocampus guttulatus as a case study, the present study represents pioneering research into investigating the diet of seahorses by NGS-based DNA metabarcoding of fecal samples. The study developed and tested the protocol for fecal DNA metabarcoding during the feeding trials where captive seahorses were fed on a diet of known composition; the process was subsequently applied on fecal samples collected from wild individuals. The analysis of samples collected during the feeding trials indicated the reliability of the applied molecular approach by allowing the characterization of the effectively ingested prey. In the field study, among detected prey species, results revealed that the majority of the seahorse samples contained taxa such as Amphipoda, Decapoda, Isopoda, and Calanoida, while less common prey taxa were Gastropoda and Polyplacophora. As only a small amount of starting fecal material is needed and the sampling procedure is neither invasive nor lethal. The present study indicates DNA metabarcoding as useful for investigating seahorse diet and could help define management and conservation actions.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The knowledge of a species' dietary composition is a keystone to understanding the way it exploits the environment and to designing effective management and conservation plans <ref type="bibr" target="#b0">[1]</ref>. Indeed, development of the accurate methods to study the diet is an active area of research and attracts growing interest in conservation studies <ref type="bibr" target="#b1">[2]</ref>.</p><p>Dietary composition is traditionally determined through visual recognition of morphological features in samples of stomach, gut, or fecal contents using macro-and microscopic methods <ref type="bibr" target="#b2">[3]</ref>. While useful, such identifications rely on considerable taxonomic expertise to classify portions of undigested prey <ref type="bibr" target="#b3">[4]</ref>. Some potential prey species, such as crustaceans, could be morphologically similar to one another <ref type="bibr" target="#b4">[5]</ref>, making the process taxonomically challenging <ref type="bibr" target="#b5">[6]</ref>. Furthermore, soft-bodied taxa, such as nematodes and polychaetes, digest in a short period of time (1-3 h) leaving no visual remains <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>. As such, traditional analysis of fecal samples can result in a considerable information loss and poor resolution of determining taxa, while sometimes requiring the sacrifice of animals <ref type="bibr" target="#b8">[9]</ref>.</p><p>In recent years, remarkable progress has been made towards developing accurate, non-invasive, and cost-efficient alternatives. As a result, DNA amplicon-based analyses of fecal samples, also referred as fecal DNA metabarcoding, has been adopted and become a valuable tool for ecological research <ref type="bibr" target="#b9">[10]</ref>. Based on Next Generation Sequencing (NGS), it allows the analysis of taxon-specific variants of standardized genomic regions, i.e., DNA barcodes, which are amplified from DNA mixtures by universal PCR primers. This approach, therefore, virtually enables the identification of all organisms contained in a sample <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b10">11]</ref>. Although it cannot provide information on prey size or life cycle stage nor it is immune to prey taxa retention due to differential digestion and gut transition times, DNA metabarcoding perpetuates non-invasiveness, offers high taxonomic resolution, and has high sensitivity towards soft, highly degraded, and rare prey species <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref>. Since its inception, DNA metabarcoding has been successfully applied in dietary studies of many species, including fish, and provided encouraging results <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16]</ref>.</p><p>Seahorses (Hippocampus spp.) are small predatory fish, considered a "flagship" species for conservation efforts <ref type="bibr" target="#b16">[17]</ref>. In the past decades, severe decline of many seahorse populations caused numerous concerns and led to the inclusion of all seahorse species, including the long-snouted seahorse Hippocampus guttulatus, on the International Union for Conservation of Nature (IUCN) Red List of Threatened Species <ref type="bibr" target="#b17">[18]</ref> and in Appendix II of the Convention on International Trade in Endangered Species of Wild Fauna and Flora <ref type="bibr" target="#b18">[19]</ref>.</p><p>Seahorses usually practice a "sit-and-wait" predation strategy when they wait for prey from a hidden position and then launch a rapid surprise attack <ref type="bibr" target="#b19">[20]</ref>. By employing morphological examination of gut or stomach contents, through stomach flushing or by biochemical means, studies on their diet have shown that seahorses feed mainly on smallsized crustaceans, such as Amphipoda, Decapoda, and Anomura <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref>. A recent study based on morphological examination of stomach contents revealed the presence of only a few soft-bodied prey items, such as nematodes <ref type="bibr" target="#b19">[20]</ref>. Indeed, traditional diet methods tend to underestimate the frequency of occurrence of prey items with totally digested body parts, such as soft-bodied arthropods <ref type="bibr" target="#b23">[24]</ref>, while these methods tend to more easily detect hard-bodied groups <ref type="bibr" target="#b24">[25]</ref>. Although it has been shown that the prey's DNA is recoverable from seahorse feces <ref type="bibr" target="#b14">[15]</ref>, there have been no published studies demonstrating the use of highly sensitive and non-invasive molecular techniques to evaluate the entire spectrum of seahorses' dietary items despite the sensitive conservation status.</p><p>Using H. guttulatus as a case study, the purpose of this research was to validate the potential of DNA metabarcoding approach to globally identify prey fecal content while developing an effective and reliable protocol that could be further applied in wild populations. Importantly, as H. guttulatus is considered a Near Threatened (NT) species in both the Mediterranean Sea and along the Italian coast <ref type="bibr" target="#b17">[18]</ref>, it is of value to develop a non-lethal and non-invasive method to study the species diet. By maximizing prey detectability and identifying optimal designs for field studies, it has been shown that feeding trials with captive animals and known diets are crucial <ref type="bibr" target="#b25">[26]</ref>. Therefore, the present study included feeding trials under controlled laboratory conditions in which captive seahorses were fed on a diet of known composition and the developed protocol was subsequently applied on fecal samples collected from wild individuals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Material and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Feeding Trials</head><p>Feeding trials were performed with four non-reproductive H. guttulatus female specimens collected by diving at Taranto Mar Piccolo (Ionian Sea 40°28′ N, 17°16′ W; for more details see <ref type="bibr" target="#b26">[27]</ref>). Specimens were transported to the facilities of agricultural society ''Ittica Caldoli S.r.L.'' and maintained in individual 30 L aquaria. Seawater inside the aquaria was filtered through 0.2 μm pore-size polycarbonate filters. The seawater temperature was maintained at 18 ± 0.5°C, salinity at 36 ± 1‰, pH at 8.0 ± 0.2, and the photoperiod was adapted to the natural day cycle. Three prey items (Gammarus aequicauda, Palaemon elegans and Perinereis aibuhitensi) were collected at Taranto Mar Piccolo in an area where seahorses are present and were fed with Artemia metanauplii and Nannochloropsis oceanica. The fourth prey item, adult Artemia franciscana, was cultured in the laboratory and fed with N. oceanica. All prey species were taxonomically identified under the microscope. Before the beginning of the experiment and between successive feeds with different prey species, seahorses were starved for 24 h to ensure an empty gut <ref type="bibr" target="#b14">[15]</ref>. Seahorses were fed simultaneously on a single prey species added daily (at 09:00 am) at a single dose ad libitum, according to the following sequence: G. aequicauda at day 1, A. franciscana at day 3, P. elegans at day 5, and P. aibuhitensis at day 7. Uneaten prey was removed from the aquarium the day after experimental feeding (at 09:00 am). The feces (n = 10; three from the diet with A. franciscana, three from P. elegans, two from G. aequicauda, and two from P. aibuhitensis) produced in aquaria were immediately collected by syphoning. Samples of prey species and feces were preserved in 96% ethanol and stored at -20°C for subsequent molecular analysis. At the end of the trials, all animals were released to the original capture site in perfect health conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Field Study</head><p>In the field study, thirteen adult non-reproductive seahorses were captured by diving at Taranto Mar Piccolo at the same site as seahorses used in feeding trials. Animals were collected in two habitats: (1) Corallina elongata on vertical artificial substrates at 0.3-0.6 m of depth (n = 7) and ( <ref type="formula">2</ref>) Cladophora prolifera at 6 m of depth (n = 6). Seahorses were individually placed in small aerated 2L tanks filled with surrounding water filtered through 0.2 μm pore-size polycarbonate filters. Nine fecal samples produced (three from seahorses found in C. prolifera and six in C. elongata) were collected by syphoning. After the fecal collection, all individuals were immediately released in a range of a maximum of 2 m from the capture spot. Fecal samples were preserved in 96% ethanol and stored at -20 °C for further examination. To exclude host contamination, skin filament tissue of H. guttulatus was sampled using skin filament clipping technique <ref type="bibr" target="#b27">[28]</ref> and stored at the same conditions as fecal samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">DNA Extraction</head><p>Total genomic DNA was extracted from fecal (50 mg), prey, and skin filament samples using FastDNA SPIN kit for soil (BIO 101, Carlsbad, Canada) following the manufacturer's instructions. Cell lysis was achieved by bead beating in FastPrep Instrument (BIO 101) at speed 6 for 40 s. Qualitative and quantitative DNA assessment was carried out using PicoGreen ® dsDNA quantitation assay (Invitrogen, Carlsbad, California) and agarose gel (1%) electrophoresis. DNA extraction blanks (sterile distilled water) were prepared and processed together with the samples to exclude any contamination related to the extraction reagents and procedure. DNA extracts were stored at -20 °C prior to amplification by PCR.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Cox1 Library Preparation and Sequencing</head><p>DNA metabarcoding approach was applied to the extracted DNA to identify eukaryotic diversity of fecal samples collected during both feeding trials and field study.</p><p>The mitochondrial Cox1 gene was chosen as a molecular target because it: (i) represents one of the preferred loci for "universal" barcoding in Eukaryotes <ref type="bibr" target="#b28">[29]</ref>, (ii) has high resolution power due to its high variability between species <ref type="bibr" target="#b29">[30]</ref>, and (iii) has been already successfully used in previous dietary studies on fish <ref type="bibr" target="#b30">[31,</ref><ref type="bibr" target="#b31">32]</ref>.</p><p>Amplicon libraries were prepared from 0.5 ng of extracted DNA. The adopted strategy is described in detail in <ref type="bibr" target="#b32">[33]</ref>.</p><p>The adopted primer pair was mlCOIintF_NextFor and dgHCO2198_NextRev (Next_For: 5′-TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG-3′, and Next_Rev: 5′GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG-3′) <ref type="bibr" target="#b31">[32]</ref>, designed to contain (from 5′ to 3′ ends) transposon Nextera sequences (Nextera DNA sample preparation guide, Illumina). RNase/Dnase-free Molecular Biology Grade water (Ambion) was used as a negative control of PCR amplification. Equimolar quantities of the purified amplicons were pooled and subjected to 2×250 bp paired-end sequencing on the Illumina MiSeq platform. To increase genetic diversity of the sequenced samples, as required by the MiSeq platform, a phage PhiX genomic DNA library was added to the mix and co-sequenced <ref type="bibr" target="#b33">[34]</ref>.</p><p>Simultaneously, DNA extracted from four preys and skin filament of H. guttulatus was amplified using primer pair mlCOIintF and dgHCO2198 <ref type="bibr" target="#b31">[32]</ref>. The amplification was performed using Phusion ® High-Fidelity DNA polymerase (Thermo Fisher Scientific, Inc., New England Biolabs) in the Mastercycler Thermal Cycler (Eppendorf, Hamburg, Germany). Each reaction mixture contained 0.5 ng of extracted DNA, 5X Buffer HF, 10 mM dNTPs, 10 μM of each primer, and 1U Phusion DNA Polymerase in a final volume of 50 μL. The cycling parameters for PCR were standardized as follows: initial denaturation at 98 °C for 30 s, followed by 15 cycles of denaturation at 98 °C for 10 s, annealing at 54 °C for 30 s, extension at 72 °C for 15 s, and subsequently 20 cycles of denaturation at 98 °C for 10 s, annealing at 45 °C for 30 s, extension at 72 °C for 15 s, with the final extension step of 7 min at 72 °C. All PCRs were performed in the presence of a negative control (Rnase/Dnase-free Molecular Biology Grade water, Ambion). PCR products were visualized on 1.3% agarose gel and purified using AMPure XP Beads (Agencourt Bioscience Corporation, Beverly, Massachusetts) at a concentration of 0.8× vol/vol. PCR products were subjected to Sanger DNA sequencing by Eurofins Genomics (www.eurofinsgenomics.com (accessed on 1 September 2021)).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Taxonomic Analyses</head><p>The quality of raw Cox1 sequence data was checked using FastQC (Available online: <ref type="url" target="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/">http://www.bioinformatics.babraham.ac.uk/projects/fastqc/</ref> (accessed on 1 September 2021)) and multiQC <ref type="bibr" target="#b34">[35]</ref>. Illumina adapters and PCR primers were removed from raw reads using cutadapt <ref type="bibr" target="#b35">[36]</ref>. Retained PE reads were denoised into ASVs (Amplicon Sequence Variants) <ref type="bibr" target="#b36">[37]</ref> by applying DADA2 (version 1.10.1) <ref type="bibr" target="#b37">[38]</ref>. ASVs were taxonomically annotated using a modified version of BioMaS (Bioinformatic analysis of Metagenomic amplicons) pipeline <ref type="bibr" target="#b38">[39]</ref> working on MetaCOXI and MIDORI <ref type="bibr" target="#b39">[40]</ref> as reference databases. Dynamic sequence similarity threshold was adopted to improve the ASVs classification accuracy (species at 97%, genus at 95%, family at 93%, class at 91%, order at 88%, and phylum at 78%) as in Lotus pipeline <ref type="bibr" target="#b40">[41]</ref>. In particular, the taxonomic classification to a specific rank (e.g., family) was accepted exclusively if the matches obtained against the reference collection reached the imposed threshold. For example, taxonomic classification to the family rank was accepted only if the supporting matches reached at least 93% of similarity. Contaminant ASVs were identified using decontam <ref type="bibr" target="#b41">[42]</ref> and aligned against H. guttulatus Cox1 sequence, human genome, and the release 138 of SILVA database <ref type="bibr" target="#b42">[43]</ref> allowing the removal of noise. Unassigned ASVs were finally aligned against non-redundant blast nt collection (ftp.ncbi.nlm.nih.gov/blast/documents/blastdb.html) using blast <ref type="bibr" target="#b43">[44]</ref>. All ASV sequences partially mapping on different reference sequences were labelled as chimeric and removed from subsequent analysis. Retained sequences were taxonomically annotated using TANGO <ref type="bibr" target="#b44">[45,</ref><ref type="bibr" target="#b45">46]</ref> and the same similarity percentage thresholds described above.</p><p>Finally, unclassified ASVs were aligned against the non-redundant protein nr collection (ftp.ncbi.nlm.nih.gov/blast/documents/blastdb.html) using blastx option of DIAMOND tool <ref type="bibr" target="#b46">[47]</ref> and taxonomically classified with TANGO. R packages phyloseq (1.26.1) <ref type="bibr" target="#b47">[48]</ref> and vegan (2.5.6) <ref type="bibr" target="#b48">[49]</ref> were used to measure alpha and beta diversity. For this purpose, ASVs counts were initially filtered to remove low abundance sequences (total relative frequencies &lt;10 -5 ) and normalized by rarefaction (depth values settled to 123,000). Shannon and Simpson indexes were used as measures of alpha diversity (i.e., intra-sample diversity), while Bray-Curtis dissimilarity matrix was used to measure beta diversity (i.e., inter-sample diversity). Statistical differences in alpha diversity indexes were measured by Wilcoxon (W) tests. PERMANOVA (Permutational Multivariate analysis of variance) was measured to infer the contribution of explanatory variables in beta diversity data partitioning by applying 999 permutations. The contribution of individual species to the overall Bray-Curtis dissimilarity was achieved by SIMPER analysis with 999 permutations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Overall Sequencing Results</head><p>Libraries of dual indexed amplicons of 420 bp were successfully sequenced on the MiSeq platform using 2 × 250 bp paired-end (PE) sequencing strategy. Approximately 7.6 million PE reads (mean 401,702 ± 67,992 S.D.) were generated in two different sequencing runs. After noise and contaminant removal, 99.7% of the produced PE reads were retained (Figure <ref type="figure" target="#fig_0">S1</ref>), resulting in a total of 552 ASVs.</p><p>According to the ecological metrics, data were normalized by rarefaction to 123,000 sequences. One sample from the wild specimen was discarded as it contained less sequences <ref type="bibr" target="#b14">(15,</ref><ref type="bibr">706)</ref> than the imposed rarefaction depth and was dominated by H. guttulatus Cox1 gene sequences.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Feeding Trials</head><p>The designed experimental protocol successfully detected all four prey items fed to the captive seahorses. A total of 241 ASVs were retained after contaminant and noise filtering and were taxonomically classified at least at kingdom level.</p><p>In the three fecal samples of animals fed on A. franciscana, the most represented species were N. oceanica and A. franciscana (Table <ref type="table" target="#tab_0">1</ref>). In the two samples of animals fed on G. aequicauda, the most represented taxon was Gammarus sp. but none of the assigned AVSs was classified at species level, except N. oceanica (Table <ref type="table" target="#tab_1">2</ref>). In the two fecal samples of animals fed on P. aibuhitensis, the most represented species were N. oceanica and P. aibuhitensis. The most abundant genus was Urodasys (Table <ref type="table" target="#tab_2">3</ref>). In the three fecal samples collected from seahorses fed on P. elegans, the most abundant species were P. elegans, Ophryotrocha labronica and N. oceanica. Alpheus bellulus was also observed (Table <ref type="table" target="#tab_3">4</ref>). Shannon and Inverted Simpson Indices (Figure <ref type="figure" target="#fig_0">1</ref>) indicated a high variability in aquarium samples (0.85 ÷ 2.95, IQR = 1.47 and 0.48 ÷ 0.92, and IQR = 0.26). Beta diversity (Figure <ref type="figure" target="#fig_1">2</ref>) indicated sample clustering according to the applied diet. According to the PERMANOVA model, the seahorse diet explains 67% of the observed variability (permutational p-value = 0.002).  The SIMPER analysis allowed us to identify the ASVs that significantly (999 permutations) contributed to the observed dissimilarities among seahorses fed with different prey (Table <ref type="table" target="#tab_0">S1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Field Study</head><p>A total of 282 ASVs were retained in samples after contaminant and noise filtering. All ASVs were taxonomically classified at least at the kingdom level.</p><p>Four classes (Malacostraca, Hexanauplia, Gastropoda, and Polyplacophora) were observed, representing six orders (Amphipoda, Calanoida, Isopoda, Decapoda, Neogastropoda, and Chitonida), and six families (Gammaridae, Acartiidae, Munnidae, Alpheidae, Muricidae, and Pseudodiaptomidae). At the genus level, several taxa were observed: Munna (Arthropoda, 16.5% ± 32.5%, in six out of nine samples), Athanas (Arthropoda, 14.29% ± 28.4%, in six samples), Gammarus (Arthropoda, 7.16% ± 21.46%, in four samples), Paracartia (Arthropoda, 10.93% ± 22.97%, in six samples), and Urosalpinx (Mollusca, 5.97% ± 17.8%, in three samples). At the species level, Munna japonica (Arthropoda, 16.5% ± 32.4%, in six samples out of nine), Athanas nitescens (Arthropoda 14.3% ± 28.4%, in six samples), Paracartia grani (Arthropoda 10.9% ± 23%, in two samples), and Urosalpinx cinerea (Mollusca 5.96% ± 17.9%, in two samples) were observed. The abundance of unassigned sequences at species level ranged between 10.32% and 99.81% (mean relative abundance 50.9 ± 40.79%).</p><p>Measured Shannon and Simpson indices (Figure <ref type="figure" target="#fig_2">3</ref>) showed similar values in five samples out of eight (1.48 ÷ 2.66, IQR = 0.26 and 0.72 ÷ 0.89, and IQR = 0.07). Beta diversity (Figure <ref type="figure" target="#fig_3">4</ref>), measured by Bray-Curtis dissimilarity metrics and plotted using nMDS (non-metric Multi-Dimensional Scaling), indicated that the samples were mostly grouped according to the habitat from which seahorses were sampled. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>The present study represents pioneering research in investigating the diet of seahorses by NGS-based DNA metabarcoding while demonstrating that the applied approach is useful to provide information on their diet. Importantly, it proved to be efficient in obtaining dietary information with minimal disturbance for individuals. In the field study, among detected prey species, results revealed that the majority of the seahorse samples contained crustacean taxa such as Amphipoda, Decapoda, Isopoda, and Calanoida. The less common prey taxa were Gastropoda and Polyplacophora with only one detection across nine samples.</p><p>Observation of crustaceans as dominant prey is in congruence with previous studies, based on conventional morphological identification methods <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref>, although from a taxonomic point of view, the present results were more accurate and consistent in terms of the identified taxa. Despite the small number of feces analyzed (n = 9), the DNA metabarcoding approach corroborates and provides additional resolution to results from these studies. Dietary habits of wild long-snouted seahorses, assessed by DNA metabarcoding, encompassed several species that have, to our knowledge, not been identified previously as potential seahorse preys, namely Munna japonica, Athanas nitescens, Paracartia grani grani, and Urosalpinx cinerea. Moreover, the great majority of prey taxa were identified at the species level, while previous work at Taranto Mar Piccolo only provided identification at the order or family level <ref type="bibr" target="#b19">[20]</ref>. The appearance of non-native species in the seahorse diet is particularly interesting. Seahorses seem to show an adaptive capacity in lagoons in which the presence of non-native species is the norm rather than the exception. P. grani grani is, indeed, a non-native species for the Italian seas. According to the literature, Munna japonica and U. cinerea have never been recorded along the Italian coast, and thus, should be considered as non-native. However, although both species were detected by DNA metabarcoding, their identification as non-native species requires more in-depth studies.</p><p>Feeding trials with captive animals and known diets allow the approach to be trialed while identifying optimal design for field studies <ref type="bibr" target="#b1">[2]</ref> since prey DNA detectability can be influenced by different biological and technical factors that could considerably affect the diet inference from fecal DNA analysis <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b49">50]</ref>. For example, the detection of prey DNA in fecal samples has been shown to depend on consumer and prey combinations <ref type="bibr" target="#b49">[50]</ref>, differential digestion of soft-bodied and hard-bodied prey, variable gut transition times for different prey components and prey types <ref type="bibr" target="#b13">[14]</ref>, and choice of target sequence <ref type="bibr" target="#b50">[51]</ref>.</p><p>Chitinous exoskeleton of crustaceans is more likely to be retained in guts <ref type="bibr" target="#b51">[52]</ref> in comparison to prey containing fewer hard parts, possibly because enzymatic attack is delayed when such structures are present in the guts <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b52">53]</ref>. In seahorses, as in many other fish species, digestion and gut transition times are variable and dependent on many factors <ref type="bibr" target="#b14">[15]</ref>. In general, seahorses have a relatively fast gut passage time <ref type="bibr" target="#b53">[54,</ref><ref type="bibr" target="#b54">55]</ref>, hence gut contents can presumably provide information on only recently eaten prey. In the feeding trials, Gammarus sp. was detected in feces up to three days after feeding, indicating that the DNA metabarcoding permits the identification of prey eaten over several days. Furthermore, this method is sensitive for detecting secondary predation as observed, for example, in samples of seahorses fed on wild P. aibuhitensis in which genera Urodasys and Alpheus were also detected, in accordance with previous studies highlighting reliability of DNA-based methods for detecting indirect predation <ref type="bibr" target="#b55">[56]</ref>.</p><p>The DNA metabarcoding approach used here has several advantages in comparison with traditional methods. It is time and cost effective, while allowing the assessment of dietary composition of many individuals simultaneously, thus implying that the approach could be used to conduct analysis on large scales. Furthermore, this approach does not require strong taxonomic skills to identify the prey taxa, although the opinion of an expert taxonomist is crucial in these studies. However, it strongly depends on the reference databases, whose level of completeness represents one of the most critical issues in DNA-based diet analyses. Although building an exhaustive reference database on benthic invertebrates seems challenging due to their high diversity and hard taxonomic work, representative databases should be obtained at least at the family level to limit misidentifications or unrecognized sequences. Another possible limitation of this approach is related to the accuracy of the identification of the used barcode. Mitochondrial cox1 is a standard region used in animal DNA barcoding <ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref>. This marker has several advantages: its variation usually allows species-level discrimination and can be PCR amplified from most animals <ref type="bibr" target="#b59">[60]</ref>. However, it has been acknowledged that primer binding sites within this protein-coding gene are not highly conserved <ref type="bibr" target="#b59">[60]</ref>, and indeed, many COI primers have highly variable amplification success even among members of the same group <ref type="bibr" target="#b60">[61]</ref>. Consequently, some efforts must be made to increase the resolution power by using more than one primer pair to improve the amplification success.</p><p>In the present paper, the primary objective was to develop, test, and provide a protocol for DNA metabarcoding of fecal samples to study the diet of H. guttulatus, but valid for any other seahorse species. Any comprehensive characterization of the diet will require a larger sample size and year-round sampling.</p><p>Despite associated biological and technical challenges, the applied approach has many potential applications. Although it involves the capture and minimal handling, DNA metabarcoding allows for studying the diet using non-invasive sampling and does not require the sacrifice of animals, which is fundamental for sensitive species such as H. guttulatus. Comprehensive knowledge on the dietary composition of such species is an important step to plan conservation initiatives for local populations since shifts in diet could indicate the presence or absence of competitors, predators, or anthropogenic modifications of habitats. Additionally, the gained data may be also used to assess the composition of local communities, and the comparison of samples collected in different seasons may provide information not only on the diet variability, but also on community changes along the year. The small diversity of taxa exploited by the long-snouted seahorses between habitats supports the notion that this species is a specialist feeder <ref type="bibr" target="#b19">[20]</ref>. Especially having in mind recently reported sharp decline of seahorse density at Taranto Mar Piccolo <ref type="bibr" target="#b61">[62]</ref>; the use of taxa specific primers, coupled with a greater number of samples will allow the method to address significant ecological questions and could help at preserving this emblematic species.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Shannon(A) and Simpson(B) indices of aquarium samples.</figDesc><graphic coords="7,78.96,207.42,437.28,464.82" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. nMDS plot based on the Bray-Curtis dissimilarity matrix of aquarium samples.</figDesc><graphic coords="8,102.72,216.72,389.76,125.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Shannon (A) and Simpson(B) indices of field samples.</figDesc><graphic coords="9,166.08,224.76,307.92,267.00" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. nMDS plot based on the Bray-Curtis dissimilarity matrix of field samples.</figDesc><graphic coords="10,106.08,228.48,383.04,137.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Species observed in samples of seahorses fed on Artemia franciscana.</figDesc><table><row><cell>Taxa</cell><cell>FT1-AR</cell><cell>FT2-AR</cell><cell>FT3-AR</cell><cell>Mean</cell><cell>ST. DEV</cell></row><row><cell>Nannochloropsis oceanica</cell><cell>93.17%</cell><cell>88.93%</cell><cell>83.32%</cell><cell>88.47%</cell><cell>4.94%</cell></row><row><cell>Artemia franciscana</cell><cell>6.51%</cell><cell>7.65%</cell><cell>16.65%</cell><cell>10.27%</cell><cell>5.55%</cell></row><row><cell>Unassigned</cell><cell>0.23%</cell><cell>3.39%</cell><cell>0.02%</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Species observed in samples of seahorses fed on Gammarus aequicauda.</figDesc><table><row><cell>Taxa</cell><cell>FT2-ANF</cell><cell>FT3-ANF</cell><cell>MEDIA</cell><cell>ST. DEV</cell></row><row><cell>Nannochloropsis oceanica</cell><cell>0.18%</cell><cell>21.4%</cell><cell>10.8%</cell><cell>14.9%</cell></row><row><cell>Gammarus sp.</cell><cell>98.4%</cell><cell>78.4%</cell><cell>88.4%</cell><cell>14.13%</cell></row><row><cell>Unassigned</cell><cell>1.44%</cell><cell>0.20%</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Species observed in samples of seahorses fed on Perinereis aibuhitensis.</figDesc><table><row><cell>Taxa</cell><cell>FT2-PL</cell><cell>FT4-PL</cell><cell>Mean</cell><cell>ST. DEV</cell></row><row><cell>Nannochloropsis oceanica</cell><cell>0.01%</cell><cell>20.77%</cell><cell>10.39%</cell><cell>14.68%</cell></row><row><cell>Perinereis aibuhitensis</cell><cell>0.22%</cell><cell>14.44%</cell><cell>7.33%</cell><cell>10.05%</cell></row><row><cell>Urodasys sp.</cell><cell>33.70%</cell><cell>23.1%</cell><cell>28.4%</cell><cell>7.5%</cell></row><row><cell>Alpheus sp.</cell><cell>0.37%</cell><cell>1.99%</cell><cell>1.18%</cell><cell>1.14%</cell></row><row><cell>Unassigned</cell><cell>64.52%</cell><cell>39.29%</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Species observed in samples of seahorses fed on Palaemon elegans.</figDesc><table><row><cell>Taxa</cell><cell>FT2-PA</cell><cell>FT3-PA</cell><cell>FT4-PA</cell><cell>Mean</cell><cell>ST. DEV</cell></row><row><cell>Nannochloropsis oceanica</cell><cell>8.79%</cell><cell>22.85%</cell><cell>8.88%</cell><cell>13.51%</cell><cell>8.09%</cell></row><row><cell>Ophryotrocha labronica</cell><cell>67.91%</cell><cell>7.57%</cell><cell>0</cell><cell>25.16%</cell><cell>37.22%</cell></row><row><cell>Palaemon elegans</cell><cell>13.14%</cell><cell>44.98%</cell><cell>30.86%</cell><cell>29.66%</cell><cell>15.95%</cell></row><row><cell>Alpheus bellulus</cell><cell>0</cell><cell>4.6%</cell><cell>0</cell><cell>1.53%</cell><cell>2.65%</cell></row><row><cell>Unassigned</cell><cell>1.00%</cell><cell>14.85%</cell><cell>6.18%</cell><cell>7.34%</cell><cell>6.99%</cell></row></table></figure>
+		</body>
+		<back>
+
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Funding: This research received no external funding.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Institutional Review Board Statement:</head><p>The study was accomplished with the accordance of the permit to carry out scientific activities of study, research, and experimentation (art. 2 D.P.R. 1639/1968). During all activities, no damaging, sacrificing, or experimenting was performed on animals, and no organs or tissues were sampled.</p><p>Informed Consent Statement: Not applicable.</p></div>
+			</div>
+
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data Availability Statement: Not applicable.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials:</head><p>The following are available online at www.mdpi.com/article/10.3390/life11100998/s1, Figure <ref type="figure">S1</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Ecological effectiveness: Conservation goals for interactive species</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Soule</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Estes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Berger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martinez Del Rio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1238" to="1250" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Food from faeces: Evaluating the efficacy of scat DNA metabarcoding in dietary analyses</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Thuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Furlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Broekhuis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kamau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Gleeson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">228950</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">DNA metabarcoding in diet studies: Unveiling ecological aspects in aquatic and terrestrial ecosystems</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>De Sousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Xavier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. DNA</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="199" to="214" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Advances in molecular ecology: Tracking trophic links through predator-prey foodwebs</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Sheppard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Harwood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Funct. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="751" to="762" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">DNA barcodes for marine biodiversity: Moving fast forward?</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Radulovici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Archambault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dufresne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diversity</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="450" to="472" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">DNA metabarcoding for diet analysis and biodiversity: A case study using the endangered Australian sea lion (Neophoca cinerea)</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Osterrieder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Coghlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Grealy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">M</forename><surname>Stat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bejder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bunce</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="5435" to="5453" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Benthic harpacticoids as a food source for fish</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alheit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Scheibel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Biol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="141" to="147" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Detecting selective digestion of meiobenthic prey by juvenile spot Leiostomus xanthurus (Pisces) using immunoassays</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Scholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Feller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="59" to="67" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Evaluating metabarcoding to analyse diet composition of species foraging in anthropogenic landscapes using Ion Torrent and Illumina sequencing</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Forin-Wiart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Poulle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Piry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Cosson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Larose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Galan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1709</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Next-generation sequencing technologies for environmental DNA research</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shokralla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Spall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hajibabaei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1794" to="1805" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A pragmatic approach to the analysis of diets of generalist predators: The use of next-generation sequencing with no blocking probes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Piñol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>San Andrés</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Clare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">O C</forename><surname>Symondson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="18" to="26" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Using DNA metabarcoding to investigate diet and niche partitioning in the native European otter (Lutra lutra) and invasive American mink (Neovison vison)</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Harper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Donnelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hampshire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Breithaupt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hänfling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metabarcoding Metagenom</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">56087</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Fish as predators and prey: DNA-based assessment of their role in food webs</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Traugott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Thalinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wallinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sint</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Fish. Biol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="367" to="382" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Diet tracing in ecology: Method comparison and selection</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Clare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hayden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Brett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kratina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="278" to="291" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Analysis of the diet of the long-snouted seahorse Hippocampus guttulatus by 18SrDNA amplification of prey in faeces</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Corse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Valladares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Planas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chamorro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pintado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquac. Nutr</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="528" to="540" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Utilizing stomach content and faecal DNA analysis techniques to assess the feeding behaviour of largemouth bass Micropterus salmoides and bluegill Lepomis macrochirus</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Taguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Miura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Krueger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sugiura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Fish. Biol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="1271" to="1288" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The effectiveness of seahorses and pipefish (Pisces: Syngnathidae) as a flagship group to evaluate the conservation value of estuarine seagrass beds</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Shokri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gladstone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jelbart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquat. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="588" to="595" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<ptr target="http://www.iucnredlist.org" />
+		<title level="m">The IUCN Red List of Threatened Species</title>
+		<imprint>
+			<publisher>IUCN</publisher>
+			<date type="published" when="2021-09-20">2021. 20 September 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Conservation and management of seahorses and other Syngnathidae</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C J</forename><surname>Vincent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Koldewey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Fish. Biol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1681" to="1724" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Trophic flexibility and prey selection of the wild long-snouted seahorse Hippocampus guttulatus Cuvier, 1829 in three coastal habitats</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ape</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Corriero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mirto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pierri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lazic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gristina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Estuar. Coast. Shelf Sci</title>
+		<imprint>
+			<biblScope unit="volume">224</biblScope>
+			<biblScope unit="page" from="1" to="e10" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Diet composition of the seahorses, Hippocampus guttulatus Cuvier, 1829 and Hippocampus hippocampus (L., 1758) (teleostei, syngnathidae) in the Aegean Sea</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Kitsos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tzomos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Anagnostopoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Koukouras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Fish. Biol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1259" to="1267" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Gut contents of two European seahorses Hippocampus hippocampus and Hippocampus guttulatus in the Aegean Sea, coasts of Turkey. Pakistan</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gurkan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Taskavak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Sever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akalin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Zool</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1197" to="1201" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Nutrient Incorporation in First Feeding Seahorses Evidenced by Stable Carbon Isotopes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Valladares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Planas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animals</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">470</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Divergence thresholds and divergent biodiversity estimates: Can metabarcoding reliably describe zooplankton communities?</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Chain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Crease</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Macisaac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Cristescu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="2234" to="2251" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Questioning the proverb &apos;more haste, less speed&apos;: Classic versus metabarcoding approaches for the diet study of a remote island endemic gecko</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Pinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A S</forename><surname>Aguiar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jardim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rebelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vasconcelos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">8084</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Who is eating what: Diet assessment using next generation sequencing</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">O</forename><surname>Symondson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1931" to="1950" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Abundance, distribution and habitat preference of Hippocampus guttulatus and Hippocampus hippocampus in a semi-enclosed central Mediterranean marine area</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gristina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cardone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Carlucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Castellano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Passarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Corriero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="57" to="66" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Skin filament recovery after clipping in Hippocampus guttulatus: Behavioural and histological aspects</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gristina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bertrandino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cardone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mentino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Corriero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Scillitani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquat. Biol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="149" to="157" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The problems and promise of DNA barcodes for species diagnosis of primate biomaterials</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Lorenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hanner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Trans. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">360</biblScope>
+			<biblScope unit="page" from="1869" to="1877" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Biological identifications through DNA barcodes</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D N</forename><surname>Hebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cywinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>De Waard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page" from="313" to="321" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Use of DNA metabarcoding for stomach content analysis in the invasive lionfish Pterois volitans in Puerto Rico</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Harms-Tuohy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Schizas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Appeldoorn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Ecol. Prog. Ser</title>
+		<imprint>
+			<biblScope unit="volume">558</biblScope>
+			<biblScope unit="page" from="181" to="191" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A new versatile primer set targeting a short fragment of the mitochondrial COI region for metabarcoding metazoan diversity: Application for characterizing coral reef fish gut contents</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Agudelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ranwez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Boehm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Machida</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Zool</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">34</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The influence of invasive jellyfish blooms on the aquatic microbiome in a coastal lagoon (Varano, SE Italy) detected by an Illumina-based deep sequencing strategy</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Manzari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fosso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Annese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Caprioli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>D'erchia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gissi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Intranuovo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Picardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Santamaria</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Invasions</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="923" to="940" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Development of a dual-index sequencing strategy and curation pipeline for analyzing amplicon sequence data on the MiSeq Illumina sequencing platform</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Kozich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Westcott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Baxter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Highlander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Schloss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="5112" to="5120" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Summarize analysis results for multiple tools and samples in a single report</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ewels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Magnusson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lundin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kaller</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Multiqc</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="3047" to="3048" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Cutadapt removes adapter sequences from high-throughput sequencing reads</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBnet.J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="10" to="12" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Exact sequence variants should replace operational taxonomic units in marker-gene data analysis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Mcmurdie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Holmes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="2639" to="2643" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">DADA2: High-resolution sample inference from Illumina amplicon data</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Mcmurdie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Holmes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">581</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A modular pipeline for Bioinformatic analysis of Metagenomic AmpliconS</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fosso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Santamaria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Alonso-Alemany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Valiente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Donvito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Monaco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Notarangelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pesole</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Biomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">203</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">MIDORI server: A webserver for taxonomic assignment of unknown meta-zoan mitochondrial-encoded sequences using a curated database</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Machida</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="3753" to="3754" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">LotuS: An efficient and user-friendly OTU processing pipeline</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hildebrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tadeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Voigt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bork</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Raes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">30</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Simple statistical identification and removal of contaminant sequences in marker-gene and metagenomics data</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Relman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Callahan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">226</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARB</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pruesse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Quast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Knittel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peplies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">O</forename><surname>Glöckner</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="7188" to="7196" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Using the Basic Local Alignment Search Tool (BLAST)</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Mount</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Protoc</title>
+		<imprint>
+			<biblScope unit="page">17</biblScope>
+			<date type="published" when="2007">2007. 2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Further steps in TANGO: Improved taxonomic assignment in metagenomics</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Alonso-Alemany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barré</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Beretta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bonizzoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nikolski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Valiente</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="17" to="23" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Unbiased Taxonomic Annotation of Metagenomic Samples</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fosso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pesole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rosselló</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Valiente</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Biol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="348" to="360" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Fast and sensitive protein alignment using DIAMOND</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Buchfink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Huson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="59" to="60" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">phyloseq: An R package for reproducible interactive analysis and graphics of microbiome census data</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Mcmurdie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Holmes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">61217</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Oksanen</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Vegan</surname></persName>
+		</author>
+		<ptr target="https://CRAN.R-project.org/package=vegan" />
+		<title level="m">An introduction to ordination</title>
+		<imprint>
+			<date type="published" when="2021-08-01">1 August 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">K Scrutinizing key steps for reliable metabarcoding of environmental samples</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alberdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Aizpurua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T P</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bohmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="134" to="147" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Detection of predation using qPCR: Effect of prey quantity, elapsed time, chaser diet, and sample preservation on detectable quantity of prey DNA</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lundgren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Insect Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">12</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Diet studies of seabirds: A review and recommendations</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C J</forename><surname>Camphuysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Anker-Nilssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Chardine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Furness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Garthe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hüppop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Leopold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Montevecchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Veit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ICES J. Mar. Sci</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="1675" to="1691" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Gastric evacuation of three food types in the black and yellow rockfish Sebastes chrysomelas (Jordan and Gilbert)</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Hopkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Larson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Fish. Biol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="673" to="681" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Further description of the development of the digestive organs in Atlantic halibut (Hippoglossus hippoglossus) larvae, with notes on differential absorption of copepod and Artemia prey</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Luizi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Shields</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Bromage</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquaculture</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="page" from="101" to="116" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">The physiology of digestion in fish larvae</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Govoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Boehlert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Watanabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Biol. Fishes</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="59" to="77" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Detection of secondary predation by PCR analyses of the gut contents of invertebrate generalist predators</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Sheppard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Sunderland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fenlon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Skervin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">O C</forename><surname>Symondson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="4461" to="4468" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Validation and Development of COI Metabarcoding Primers for Freshwater Macroinvertebrate Bioassessment</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Elbrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Leese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Metabarcoding a diverse arthropod mock community</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W A</forename><surname>Braukmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Ivanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W J</forename><surname>Prosser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Elbrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Steinke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ratnasingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Waard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Sones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Zakharov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Hebert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="711" to="727" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Zooplankton diversity analysis through single-gene sequencing of a community sample</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Machida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hashiguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nishida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nishida</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genom</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">438</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">DNA metabarcoding and the cytochrome c oxidase subunit I marker: Not a perfect match</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coissac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">20140562</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Species Identification in Malaise Trap Samples by DNA Barcoding Based on NGS Technologies and a Scoring Matrix</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Morinière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cancian De Araujo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hausmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Balke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hendrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Doczal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fartman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Arvidsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Haszprunar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">155497</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Density Decline in a Mediterranean Seahorse Population: Natural Fluctuations or New Emerging Threats? Front</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pierri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cardone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Corriero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lazic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Quattrocchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Alabiso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gristina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1177</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

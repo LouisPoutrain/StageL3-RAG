@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Brushtail possum non-invasive monitoring Optimisation of a microsatellite panel for the individual identification of brushtail possums using low template DNA</title>
+				<funder>
+					<orgName type="full">Animal Health Board (now TBfree New Zealand)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Faculty of Agriculture and Life Sciences at Lincoln University</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-11-21">21 November 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Juan</forename><forename type="middle">F</forename><surname>Dueñas</surname></persName>
+							<email>jduenas@yachaytech.edu.ec</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Ecology</orgName>
+								<orgName type="department" key="dep2">Faculty of Agricultural and Life Sciences</orgName>
+								<orgName type="institution">Lincoln University</orgName>
+								<address>
+									<postBox>PO Box 84</postBox>
+									<postCode>7647</postCode>
+									<settlement>Lincoln</settlement>
+									<country key="NZ">New Zealand</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><surname>Cruickshank</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Ecology</orgName>
+								<orgName type="department" key="dep2">Faculty of Agricultural and Life Sciences</orgName>
+								<orgName type="institution">Lincoln University</orgName>
+								<address>
+									<postBox>PO Box 84</postBox>
+									<postCode>7647</postCode>
+									<settlement>Lincoln</settlement>
+									<country key="NZ">New Zealand</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">James</forename><surname>Ross</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Ecology</orgName>
+								<orgName type="department" key="dep2">Faculty of Agricultural and Life Sciences</orgName>
+								<orgName type="institution">Lincoln University</orgName>
+								<address>
+									<postBox>PO Box 84</postBox>
+									<postCode>7647</postCode>
+									<settlement>Lincoln</settlement>
+									<country key="NZ">New Zealand</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Brushtail possum non-invasive monitoring Optimisation of a microsatellite panel for the individual identification of brushtail possums using low template DNA</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-11-21">21 November 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CCF295EB2472165E64C1CE55941C9729</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>invasive species</term>
+					<term>population genetics</term>
+					<term>saliva</term>
+					<term>Trichosurus vulpecula</term>
+					<term>wildlife management</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The Australian brushtail possum Trichosurus vulpecula is a pervasive marsupial pest of New Zealand. Impacting on the native flora and fauna and the nation's livestock industry as a vector of bovine tuberculosis, T. vulpecula is a priority for control and eventual eradication. Possum control at present relies on conventional trapping and poisoning methods. Efficient allocation of control depends on accurate quantification of abundance, which could be achieved with the implementation of non-invasive sampling schemes. We evaluated the use of salivary DNA retrieved remotely as a source of DNA for microsatellite amplification. A panel of six loci were optimised using tissue samples from possums from three locations in the Canterbury Region, South Island, New Zealand. Optimised loci were then assembled into a multiplex PCR assay. Microsatellite diversity patterns revealed moderate to high polymorphism and heterozygosity, and a sufficiently low overall probability of identity adjusted for siblings (PI sib = 3.0 × 10 -3 ) to ensure a robust identification of individual possums based on their multi-locus genotype. While dilution of DNA extracted from tissue did not affect the results, the use of DNA from saliva significantly decreased the performance of the microsatellite amplification system. Altogether these results indicate that locus characteristics (i.e. amplicon size) and DNA quality are crucial factors affecting the sensitivity and reliability of this method.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The implementation of advanced monitoring methods for improved pest management of the Australian brushtail possum Trichosurus vulpecula is of particular importance for New Zealand. As a vector of bovine tuberculosis T. vulpecula constitutes a significant threat to the country's livestock industry <ref type="bibr" target="#b26">(Montague &amp; Warburton 2000)</ref>. As an introduced species, a series of negative interactions of T. vulpecula with New Zealand indigenous biota have been documented <ref type="bibr" target="#b6">(Cowan 1992;</ref><ref type="bibr" target="#b7">Cowan &amp; Clout 2000)</ref>. In response to these issues, extensive control operations are commonly undertaken in New Zealand rural areas (O'Reilly-Wapstra &amp; Cowan 2010), primarily by aerial delivery of sodium fluoroacetate (1080) or ground-based deployment of toxic baits and traps. Once control operations take place, it is necessary to determine their effectiveness in order to guide subsequent control efforts and evaluate the work of private contractors <ref type="bibr" target="#b54">(Warburton 2000)</ref>. This requires a monitoring method that accurately estimates population size, or an index of abundance before and after control. In order to estimate abundance, the National Pest Control Agencies (NPCA) currently uses the residual trap catch-index (RTCI) <ref type="bibr" target="#b55">(Warburton et al. 2004</ref>). The RTCI is a standardised index of abundance based on the number of possums captured in leg-hold traps, and is statistically robust. However, the RTCI suffers from several logistical and analytical limitations <ref type="bibr" target="#b10">(Forsyth et al. 2005)</ref>. Despite these limitations, equally robust and more cost effective methods for estimating possum abundance are currently unavailable for widespread adoption (but see <ref type="bibr" target="#b41">Ruffell et al. 2015)</ref>.</p><p>A possible alternative to the RTCI as a possum monitoring standard makes use of interference devices such as wax tags, and is under development by the NPCA (National Possum Control Agencies 2010). A wax tag is a small wax block attached to a plastic visual lure. When compared with leg-hold traps these devices are more effective at detecting possums while the indices of abundance derived from wax tags (i.e. tag station index and the bite-mark index) are consistent with RTCI <ref type="bibr" target="#b50">(Thomas et al. 2003;</ref><ref type="bibr" target="#b30">Ogilvie et al. 2006</ref>). However, the accuracy of the indices derived from interference devices has also been questioned on several grounds: (1) wax tags appear to lose sensitivity in detecting population size changes when possum populations are either extremely large or small <ref type="bibr" target="#b55">(Warburton et al. 2004;</ref><ref type="bibr" target="#b28">Morgan et al. 2007)</ref>, and (2) the use of lures to attract possums has been shown to trigger a behavioural response known as contagion. Contagion occurs when an individual actively seeks and bites several different interference devices on a given sampling occasion, which if unnoticed will bias the bite-mark index estimate <ref type="bibr" target="#b54">(Warburton 2000)</ref>.</p><p>In an attempt to further develop the capacities of interference devices, <ref type="bibr" target="#b52">Vargas et al. (2009)</ref> were able to amplify the barcoding region of the mitochondrial cytochrome oxidase sub-unit I (CO-I) gene from DNA found in traces of saliva collected using wax tags. A challenging limitation in using saliva from interference devices is that the DNA retrieved can often be of low quantity (&lt; 20 ng/µL; sensu <ref type="bibr" target="#b29">Morin et al. 2010</ref>) and/or quality (i.e. degraded DNA consisting of short fragments), yet this remains a promising option given that preliminary studies have established major logistical constraints on obtaining possum DNA from hair follicles and faeces <ref type="bibr" target="#b11">(Gleeson et al. 2003;</ref><ref type="bibr" target="#b28">Morgan et al. 2007</ref>; but see <ref type="bibr" target="#b37">Ramón-Laca &amp; Gleeson 2014)</ref>.</p><p>The ability to collect salivary DNA presents a new opportunity to test the potential of wax tags to improve allocation of possum control operations. When DNA of sufficient quantity and quality can be retrieved in order to conduct reliable genotyping assays, the census population size (Nc) can be directly determined. To achieve this goal, three major issues were addressed via a detailed pilot study. First, using a set of microsatellites developed in other studies, it was necessary to select the most informative markers to constitute a microsatellite panel with the capacity to identify individual possums. Parallel to this objective, microsatellites were multiplexed to reduce processing cost, while the reproducibility and reliability of the method was also assessed. Finally, a quality control system was implemented to monitor genotyping error.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study area and DNA collection</head><p>All tissue samples were collected in the Canterbury Region of the South Island of New Zealand between June and July 2011 (Fig. <ref type="figure" target="#fig_0">1</ref>). Ear tissue was collected from 37 dead possums captured in three areas across Canterbury: Banks Peninsula (n = 9), Lewis Pass (n = 9) and Hororata (n = 19). Twenty of the possums were male, 14 female, and 3 pouch-young of undetermined sex. Two samples of approximately 10 mm of skin and cartilage per individual were preserved independently in 1.5-ml tubes containing 1 ml of 99% EtOH.</p><p>During April 2012, a total of 24 wax tags were presented to captive possums kept in individual pens at the Centre for Wildlife Management and Conservation at Lincoln University. The captive possums were captured in the Canterbury Region between March and April 2012. The tags were left in the pens overnight and retrieved and taken to the laboratory the following morning. Tissue samples were not available for these possums because they were sacrificed as part of toxic-bait experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA isolation and preparation</head><p>Genomic DNA was isolated from possum tissue and saliva at the Molecular Ecology Laboratory at Lincoln University. DNA from ear-tissue was extracted using a DNeasy Blood &amp; Tissue Kit (QIAGEN), following the manufacturer's instructions. In order to standardise DNA concentration, 100-µl aliquots from a subset of the DNA extracts (27 out of 37) were obtained and measured using a NanoDrop ND-1000 spectrophotometer (NanoDrop Technologies, Inc., Wilmington, Delaware). The minimum DNA concentration measured was 22.61 ng/µl, so extracts were diluted with volumes of Buffer AE (QIAGEN) into samples containing approximately 22.61 ng/µl of DNA each.</p><p>Extraction of DNA from bitten wax tags followed the QIAGEN protocol for blood and cultured cells implemented by <ref type="bibr" target="#b52">Vargas et al. (2009)</ref>, with slight modifications. Teeth markings on the wax blocks were excised using a surgical blade. The resulting pieces of wax, coated with saliva, were stored in sterile 15-ml screw-cap tubes. Phosphate-buffered saline (14 ml, pH 7.4) was added to each tube and centrifuged at 1500 g for 10 min. The supernatant and the wax were then discarded. The remaining 200 µl were transferred to a 1.5-µl micro centrifuge tube. The remainder of the extraction protocol followed the manufacturer's instructions except that samples were eluted twice in 50 µl of Buffer AE, ultimately yielding 100-µl solutions.</p><p>DNA from samples of bitten wax tags was not quantified because the samples were assumed to be contaminated with exogenous DNA (e.g. bacterial). However, these samples were screened for the presence of DNA by amplifying a fragment of undetermined length at the barcoding region of the mitochondrial cytochrome oxydase sub-unit I gene (CO-I). Amplicons were not further sequenced, since the aim was not to identify the taxon. All PCRs were performed in 10-µl reactions with a MultiGene TC9600-G Thermal Cycler (Labnet International, Inc., Edison, New Jersey) using an i-StarTaq kit (iNtRON). The thermocycler profile was the following: denaturation at 94°C for 2 min, then 33 cycles of denaturation at 94°C for 30 s, annealing at 45°C for 30 s and extension at 72°C for 1.30 min, followed by a final extension time at 72°C for 5 min. Reactions contained 1 µL of template, 2 mM of MgCl 2 , 0.2 mM of each dNTP, 0.5 µM of primers MLepF1 <ref type="bibr" target="#b14">(Hajibabaei et al. 2006</ref>) and HCO2198 <ref type="bibr" target="#b9">(Folmer et al. 1994)</ref>, and 0.4 U of polymerase.</p><p>Polymerase chain reaction (PCR) products were visualised by electrophoresis on 1.5% agarose gels. Samples with positive bands were then used as templates for microsatellite amplification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microsatellite panel optimisation</head><p>A panel of eight microsatellite loci were selected from the literature (Table <ref type="table">1</ref>). The 5′ end of the forward primers was labelled with a fluorescent dye (6-FAM, VIC, NED or PET; Applied Biosystems). Initial amplification was performed following protocols in <ref type="bibr" target="#b47">Taylor &amp; Cooper (1998)</ref> and <ref type="bibr" target="#b52">Vargas et al. (2009)</ref>, followed by empirical adjustment of MgCl 2 concentration, thermocycler profile and primer concentration.</p><p>Thirty-seven tissue extracts were amplified in 10-µl standard reactions (hereafter referred to as singleplex), using the i-StarTaq kit (iNtRON). Reactions contained ≈ 56.5 ng of DNA, 0.2-0.75 µM of forward and reverse primer solution, 2-3 mM of MgCl 2 , 0.25 mM of each dNTP, and 0.4 U of polymerase. A minimum of two samples per surveyed region were randomly selected for blind replication of PCR reactions. The number of blind replicates represented approximately 20% (n = 8) of the total dataset.</p><p>Positive singleplex reactions were screened on 1.5% agarose gels. Capillary electrophoresis was carried out using an ABI PRISM ® 3130xl sequencer (Applied Biosystems) with GeneScan™ 500 LIZ ® Size Standard (Applied Biosystems). Fragments were visualised in a Peak Scanner™ v1.0 (Applied Biosystems) and results were then exported into the program Microsatelight <ref type="bibr" target="#b32">(Palero et al. 2011)</ref>, where binning and scoring was performed. Binning was undertaken using the AlleloBin <ref type="bibr">(Prasanth et al. unpubl. ICRISAT report 2006)</ref> sub-routine. Finally, allele scoring was completed by visually inspecting all electropherograms and comparing these observations with results from the automated scoring routine.</p><p>Six primer-pair sets (Tv19, Tv27, Tv53, Tv58, Tv5.64 and TvM1) were then combined into two 100-µl solutions (i.e. one of forward primers and one of reverse primers). The same concentration in which a readable product was generated in singleplex reactions was used to build primer solutions. Multiplex Manager v.1.0 <ref type="bibr" target="#b17">(Holleley &amp; Geerts 2009)</ref> and empirical tests were performed to account for possible cross-reactivity of different primer pairs (data not shown). The combined primer solutions were used to amplify equalised DNA extracts in 10-µl reactions, using a Multiplex PCR Kit (QIAGEN). The reactions contained 56.5 ng of DNA, 1× of Multiplex PCR Kit master mix, 0.5 µl of RNase-free water, and 0.2-0.75 µM of each forward and reverse primer in the primer solution (see Table <ref type="table">1</ref> for the final concentration of each primer). The thermocycler profile was the following: denaturation at 95°C for 15 min, then 25 cycles of denaturation at 94°C for 30 s, annealing temperature (57.8°C) for 90 s and extension at 72°C for 90 s, followed by a final extension time at 72°C for 10 min. PCR products were visualised with capillary electrophoresis and alleles were scored as described for the microsatellite panel optimisation.</p><p>To minimise contamination of samples, a series of protocol guidelines were implemented. Master-mix solutions were prepared under a UV-treated hood, stock solutions were stored as aliquots to prevent contamination of reagents, negative Table <ref type="table">1</ref> Characteristics of the eight loci selected to genotype possums.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>__________________________________________________________________________________________________________________________________________________________________</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Locus</head><p>Sequence 5'-3' Size range a Ta (ºC) Pc Source b Locus Tv16 was excluded from the panel due to difficulties with PCR optimisation and its linkage to locus Tv27. controls were included in each round of experiments to detect cross-contamination, and PCRs and extractions were performed on different days.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evaluation of optimised protocol using low template DNA</head><p>Equalised DNA extracts obtained from possum tissue were subjected to a 1:6 dilution in Buffer AE. Using a NanoDrop ND-1000, diluted extracts were measured twice to provide an approximate range of their final concentration. These extracts, as well as genomic DNA obtained from bitten wax tags, were amplified using the Multiplex PCR protocol. The volume of reactions was increased to 12 µl, containing on average 10.4 ng of DNA, 1× Multiplex PCR Kit master mix, 0,5 µl of RNase-free water, and 0.2-0.75 µM of each forward and reverse primer in the primer solution. The number of PCR cycles in the thermocycler profile was increased to 40. PCRs were performed in duplicate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis Genetic diversity and the panel's ability to discriminate individuals</head><p>The number of alleles per locus, number of private alleles, observed (H o ) and expected heterozygosity (H e ) were estimated for each locus across sampling localities, using Genalex <ref type="bibr" target="#b33">(Peakall &amp; Smouse 2006)</ref>. To detect departures from Hardy-Weinberg (HW) expectations, an HW exact probability test was performed <ref type="bibr" target="#b13">(Guo &amp; Thompson 1992;</ref><ref type="bibr" target="#b56">Weir 1996)</ref> in Genepop v.4.1.1 <ref type="bibr" target="#b40">(Rousset 2008</ref>). Wright's F statistics were estimated by implementing the analysis of variance framework defined in <ref type="bibr" target="#b57">Weir &amp; Cockerham (1984)</ref> and <ref type="bibr" target="#b56">Weir (1996)</ref>, also in Genepop.</p><p>To determine if F st among localities significantly differed from zero, an exact test of population differentiation (100 000 Markov chain steps; <ref type="bibr" target="#b12">Goudet et al. 1996)</ref> was performed using the program Arlequin <ref type="bibr" target="#b8">(Excoffier &amp; Lischer 2010)</ref>.</p><p>As some of the T. vulpecula individuals collected for this study were likely to be related, the panel's discriminatory power was estimated using the probability of identity adjusted for siblings (PI sib ). PI sib accounts for potential underestimation of PI and was estimated by the formulas given in <ref type="bibr" target="#b46">Taberlet &amp; Luikart (1999)</ref> and <ref type="bibr" target="#b53">Waits et al. (2001)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genotyping error characterisation and monitoring</head><p>Genotyping error parameters in the singleplex PCR dataset were estimated by comparing the multi-locus genotype of blindly replicated samples with their corresponding multilocus genotype in the original dataset (n = 8). Multi-locus genotypes resulting from multiplex PCR were cross-referenced with their corresponding genotypes obtained with singleplex reactions (n = 27). As a result of this comparison, a consensus genotype was produced in which alleles were recorded only if they were observed in both the singleplex product and the multiplex product <ref type="bibr" target="#b35">(Pompanon et al. 2005)</ref>. The two-allele rule was adopted assuming that DNA obtained from tissue was of sufficient quality and quantity as to preclude the occurrence of allelic drop-out. Genotypes generated from the diluted extracts were compared with the consensus genotypes. A pair-wise comparison was performed between replicates of profiles obtained from wax tags (n = 10 pairwise comparisons between positive replicates). To avoid complications resulting from differences of automated binning routines, only raw allele-size estimates were used for comparison.</p><p>To assess which putative causes better explained the errors detected, discrepancies resulting from multi-locus genotype comparisons were categorised into two groups: (1) stochastic errors, which included allelic drop-out and false alleles; and</p><p>(2) systematic errors, which covered scoring, contamination and sample confusion errors. Stochastic errors were accounted for according to the equations defined in <ref type="bibr" target="#b3">Broquet &amp; Petit (2004)</ref>. Because of budgetary constraints, salivary samples could only be genotyped twice. Therefore, it was not possible to associate each error observed with a probable cause. The overall genotyping error was estimated according to the equations formulated by <ref type="bibr" target="#b35">Pompanon et al. (2005)</ref>.</p><p>To assess the compatibility of homozygote excess with the presence of null alleles, tests implemented by the program Microchecker <ref type="bibr" target="#b51">(van Oosterhout et al. 2004</ref>) were applied to data from the localities that showed significant departures from HW equilibrium.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reproducibility of results</head><p>The effect of implementing a multiplex PCR assay on the reproducibility of results was assessed. The mean and standard deviation of the difference between size estimates was estimated per locus. Allele size estimates obtained from singleplex and mutliplex approaches for the same individual were then plotted against allele size categories, assuming these represent the true size of each allele. The relationship between measurements was fitted with linear regression. Instances of sample confusion, contamination, allelic drop-out, and false alleles were excluded from the analysis.</p><p>Differences in size estimates between products of single versus multiplex amplifications for each locus were detected by analysis of covariance. A 95% confidence interval of linear regression parameters (i.e. slope and intercept) was estimated for each locus to assess whether the relationship between covariables had changed. The effect of replacing the amplification strategy (e.g. singleplex replaced by multiplex) on the mean error rate per locus was analysed by a generalised linear model with a binomial error distribution and logit link function. A binomial error distribution was used as the sample sizes were unbalanced and non-normally distributed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of reduced DNA quantity or quality on amplification success and frequency of error</head><p>Estimates of mean error rate per locus were classified into three different template DNA classes: (1) DNA of good quantity and quality (i.e. undiluted ear-tissue extracts); (2) DNA of lower quantity and good quality (i.e. diluted ear-tissue extracts); and (3) DNA of low quantity and quality (i.e. salivary DNA retrieved from wax tags). The effect of template DNA quantity or quality on the mean error rate per locus was analysed using a generalised linear model with a binomial error distribution and logit link function.</p><p>Sensitivity of the protocol to changes in the quantity and quality of template DNA was estimated by determining amplification success. The ratio of the number of positive and partially positive reactions to the total number of reactions attempted was estimated per locus. A positive reaction was defined as the observation of one allele per locus in at least four or more loci per sample. A partially positive reaction was defined if a minimum of one allele per locus was observed in fewer than four loci per sample.</p><p>The amplification success ratios thus obtained were then ranked by the length of the locus amplicon. Two categories were considered: loci producing amplicons &lt; 200 base pairs and loci producing amplicons ≥ 200 base pairs. The interaction of amplicon length and template DNA class and its effect on locus amplification success were analysed with a generalised linear model using a binomial error distribution and logit link function.</p><p>When generalised linear models indicated significant differences, pair-wise comparisons of the mean values were undertaken using Fisher's restricted LSD test at a = 0.05.</p><p>All the analyses were conducted in R (R Development Core Team 2011) as implemented in the program RKWard <ref type="bibr" target="#b39">(Rödiger et al. 2012)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protocol optimisation</head><p>Tissue samples yielded variable, but relatively high, DNA concentrations (median = 57.22 ng/μl, range: 22.61-168.00 ng/μl). Singleplex PCR conditions were successfully optimised for seven out of eight microsatellite primer pairs. Locus Tv16 generated electropherograms that were difficult to interpret and could not be optimised. Because of this difficulty, and given that locus Tv16 was previously reported to be linked to locus Tv27 <ref type="bibr" target="#b49">(Taylor et al. 2004)</ref>, it was excluded from the panel. The automated binning routine performed well for all markers, as revealed in the low magnitudes of normalised variance estimates <ref type="bibr" target="#b19">(Idury &amp; Cardon 1997;</ref><ref type="bibr">data not shown)</ref>.</p><p>Overall, the remaining loci in the panel showed moderate levels of allelic diversity (mean ± SE: 5.57 ± 0.5) and H o (0.64 ± 0.06). The only exception was locus Tv54, which showed low diversity across localities (Table <ref type="table" target="#tab_0">2</ref>). Loci in two of the sampled localities showed significant departures from HW equilibrium (Hororata χ 2 = 33.98; d.f. = 14; P = 0.0021, and Lewis Pass χ 2 = 23.11; d.f. = 12; P = 0.026). When these results were partitioned in locus/locality combinations, 6 out of 21 combinations showed significant departures from HW expectations (Table <ref type="table" target="#tab_0">2</ref>). However, after the sequential Bonferroni correction <ref type="bibr" target="#b18">(Holm 1979)</ref>, only locus Tv58 in Hororata continued to exhibit a significant departure (P = 0.019).</p><p>There was little partitioning of genetic diversity among localities (multi-locus F st = 0.03). The exact test of population differentiation showed that F st did not differ significantly from zero (P = 0.179). However, a detailed locus-by-locus analysis of F st parameters revealed moderate levels of genetic structure for locus Tv19 (Table <ref type="table" target="#tab_0">2</ref>).</p><p>The PI sib estimated for all localities was 3.0 × 10 -3 . As an expected consequence of its low allelic diversity, exclusion of locus Tv54 from the panel did not affect the magnitude of PI sib significantly (3.9 × 10 -3 ). This indicates that a panel of six loci is able to provide sufficient information to identify individual possums on the basis of their multi-locus genotype.</p><p>The PI sib value estimated here is below the cut-off that could cause the shadow effect (≥ 0.01; <ref type="bibr" target="#b25">Mills et al. 2000)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genotyping error</head><p>Variations in protocol methodology did not increase the incidence of genotyping error. Neither the implementation of a multiplex assay (χ 2 = 0.65, d.f. = 1, P = 0.42) nor the reduction of template concentration (χ 2 = 2.66, d.f. = 1, P = 0.1) had any significant effect on the mean error rate per locus. However, the use of DNA retrieved from saliva as the template for microsatellite amplification did produce a significant increase in mean error rate per locus (χ 2 = 16.26, d.f. = 2, P &lt; 0.001) (Fig. <ref type="figure" target="#fig_3">2</ref>).</p><p>The degree to which each error type affected the generation of genotypes varied according to the protocol implemented. Table <ref type="table" target="#tab_1">3</ref> reports the incidence of stochastic and overall genotyping error found using four different protocols.</p><p>In singleplex PCR reactions, the average mean error rate per locus (e l ) was 4.76% yielding an overall high observed error rate per multi-locus genotype (e obs ) (33.33%), while in multiplex PCR reactions (using the undiluted templates) the average e l was 7% and the e obs dropped to 25%. When diluted DNA was used as the template for multiplex reactions, e l increased to 10%. Notably, as the observed discrepancies were concentrated in just 15 of these samples, the e obs only increased to 30%.</p><p>Genotyping error in singleplex amplifications was associated in equal measure with both stochastic and systematic causes. In contrast, when multiplex PCR was implemented, the incidence of allelic drop-out remained unaltered but the rate of false alleles increased by 5%. Visual inspection of the profiles generated with multiplex PCR confirmed that the majority of these discrepancies were due to stuttering peaks that were mistakenly scored as true alleles. Diluted DNA samples were more affected by allelic drop-out than false alleles. Allele mobility shifts were detected, but only affected locus Tv19. Finally, seven instances of contamination were detected.</p><p>No loci from Hororata or Lewis Pass showed evidence of the presence of null alleles according to Microchecker tests. Banks Peninsula data were not tested with Microchecker.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reproducibility of results</head><p>Capillary electrophoresis produced different allele-size estimates for fragments amplified by singleplex and multiplex PCR. Locus Tv53 showed the largest mean difference between estimates (mean, range: 0.95, -2.05 to 1.45) followed by loci Tv58 and TvM1 (0.68, -1.42 to 0.75; 0.11, -0.44 to 0.30, respectively). The largest difference observed between size estimates for a particular allele was 5.75 base pairs at locus Tv19, although the mean difference was small (0.06, -5.75 to 5.58). We attribute the large difference observed to a mobility shift, possibly originated by the submission of that particular sample to a different sequencer. Cross-platform differences in the chemical conditions of capillary electrophoresis could be the cause of the observed large difference, as has been suggested in the literature (e.g. <ref type="bibr" target="#b27">Moran et al. 2006)</ref>. Loci Tv27 and Tv5.64 size estimates were more consistent regardless of the amplification method (0.07, -0.37 to 0.35; 0.02, -0.98 to 0.96, respectively). There were significant covariate effects across all loci and a significant treatment effect at three loci (Tv53, Tv58 and TvM1). While a significant covariate effect simply suggests a single regression line regardless of the factor level, the significant treatment effect (i.e. singleplex vs multiplex) indicated that the y-intercepts of the linear regressions for the above-mentioned three loci are different (Fig. <ref type="figure" target="#fig_4">3</ref>). Intercept differences confirm that size estimates obtained from different amplification regimes were indeed different. However, examination of the y-intercept confidence intervals of regression lines at loci Tv53, Tv58 and TvM1 overlap, suggesting the relationship with the covariate is still approximately 1:1 and the amplification method is not important.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evaluation of protocol using low template DNA</head><p>Diluted DNA concentration was low and differed slightly on both measuring occasions (median, range: 2.61 ng/μl, 0.36-5.2 ng/μl; 2.62 ng/μl, 0.28-5.7 ng/μl, respectively); however, the difference was not significant (t = -0.69, P = 0.49). Use of low-template-DNA concentration and quality affected the sensitivity of the multiplex protocol. Of the 27 diluted extracts, 26 (96, 29%) consistently showed positive peaks for four or more loci. The only sample failing to show positive peaks for all loci had a DNA concentration of ≈ 1.93 ng/µl. We attribute reaction failure to low target DNA concentration during PCR set-up, possibly due to inadequate sample homogenisation. Amplification success varied among loci, with loci Tv53 and Tv19 the most affected by reaction failure (Table <ref type="table" target="#tab_1">3</ref>). In contrast, of the 24 salivary samples, only 18 (74.9%) were positive for the CO-I DNA mini-barcoding region. When these 18 samples were used as template DNA for multiplex reactions, only 10 (55.5%) generated positive profiles. The remaining 8 (44.4%) generated partially positive genotypes.</p><p>Amplification success of DNA extracted from salivary samples was statistically lower than that of diluted DNA (χ 2 = 5.68, d.f. = 1, P = 0.01). Similarly, amplification success of alleles &gt;200 base pairs was significantly lower than alleles &lt;200 base pairs. The post hoc comparison of means indicated that the interaction between amplicon length and template DNA class was highly significant for samples retrieved from wax tags (χ 2 = 31.9, d.f. = 3, P &lt; 0.001).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The development of methodologies that allow accurate monitoring of shifts in population size provides additional tools to manage and eradicate pests. The combination of DNA genotyping technology with the ability to retrieve DNA noninvasively promises to overcome the limitations of traditional monitoring methods, particularly when targeted species are elusive. Our results indicate that it is possible to implement an efficient, reproducible, and reliable microsatellite amplification system capable of identifying individual possums. However, the sensitivity and reliability of the methodology are compromised when template DNA is not of sufficient quantity and quality. The reduced amplification success and increased incidence of genotyping errors observed here could be related to factors such as the presence of exogenous DNA <ref type="bibr" target="#b15">(Herráez &amp; Stoneking 2008)</ref>, PCR inhibitors <ref type="bibr" target="#b0">(Alaeddini 2012)</ref>, or the inability of interference devices to collect enough DNA to override the deleterious effects of these other factors.</p><p>The patterns of genetic diversity observed are in agreement with <ref type="bibr" target="#b49">Taylor et al. (2004)</ref> who concluded that the introduction of possums to the South Island occurred repeatedly and was supplemented by subsequent introductions of mixed stocks. Gene flow between otherwise isolated populations could have also contributed to reduce the genetic structure of the studied populations. Possums in their native range, and in captivity, exhibit territorial and social behaviour that is compatible with assortative mating <ref type="bibr" target="#b45">(Stow et al. 2006;</ref><ref type="bibr" target="#b5">Clinchy et al. 2004</ref>). Assuming this is the default behaviour, possum populations would eventually show signs of structuring and inbreeding. However, previous studies on the mating system of possums in New Zealand suggests that reproduction occurs randomly <ref type="bibr" target="#b48">(Taylor et al. 2000;</ref><ref type="bibr" target="#b42">Sarre et al. 2000)</ref>, and that home range and mobility expansion can occur following population control <ref type="bibr" target="#b20">(Ji et al. 2001;</ref><ref type="bibr" target="#b1">Blackie et al. 2011)</ref>.</p><p>Moderate levels of genetic diversity confirm that a panel of six microsatellite loci has sufficient statistical power to allow identification of individual possums. The PI sib estimated in this study guarantees that at least 250 possums in a given population can be identified by their multi-locus genotype, even if some of these are full siblings. If one considers the greater genetic diversity known in populations in the North Island <ref type="bibr" target="#b49">(Taylor et al. 2004</ref>) then this protocol allows monitoring of possum populations at least across New Zealand's main islands. Despite demonstrating the statistical reliability of this panel, it is anticipated that the inclusion of additional loci will be required in order to allow gender identification (e.g. Ramón-Laca &amp; Gleeson 2014) and extend the monitoring capacity to areas with very high possum densities.</p><p>The incidence of stochastic and systematic genotyping error remained relatively constant despite changes during protocol development. Significant increases in e l and e obs were observed only when the concentration and quality of the template DNA was reduced. These observations were expected and suggest that the incidence of genotyping error cannot be attributed to improvements in the amplification protocol (e.g. multiplexing). Although the rates of genotyping error observed for tissue samples were high, these rates fall into the range reported by similar studies <ref type="bibr" target="#b2">(Bonin et al. 2004;</ref><ref type="bibr" target="#b16">Hoffman &amp; Amos 2005;</ref><ref type="bibr" target="#b44">Soulsbury et al. 2007)</ref>. While an increase in the occurrence of false alleles with the multiplex protocol was observed, we suspect that this was due to the high concentration of template DNA used. The low incidence of false alleles when the template DNA concentration was reduced supports this interpretation. Nonetheless, since the panel developed here was constituted mainly of microsatellites with dinucleotide repeats, it is possible that the occurrence of false alleles is related to inherent characteristics of these loci <ref type="bibr" target="#b4">(Broquet et al. 2007)</ref>. Altogether these observations suggest an optimal concentration of template DNA is required to mitigate the occurrence of stochastic genotyping error. We observed that high-template-DNA concentrations can increase the occurrence of false alleles, while a decrease in DNA quantity can increase the incidence of allelic drop-out. The existence of an optimal DNA concentration threshold for microsatellite amplification systems has been confirmed in studies of both wildlife and humans <ref type="bibr" target="#b22">(Kline et al. 2005;</ref><ref type="bibr" target="#b24">MacDonald et al. 2011)</ref>. The optimal concentration for this system is yet to be determined.</p><p>Wax tags showed a limited capacity for providing DNA of sufficient quantity and quality to allow reliable genotyping. Studies that have obtained DNA by buccal swabbing of free-ranging animals have obtained concentrations of DNA comparable with those of tissue samples <ref type="bibr" target="#b58">(Yannic et al. 2011;</ref><ref type="bibr" target="#b36">Prunier et al. 2012)</ref>. It is clear from this evidence that salivary DNA can yield a large enough quantity of DNA when collected appropriately. The low amplification success of fragments ≥200 base pairs that was observed when salivary DNA was used as the template suggests DNA degradation was occurring. Suboptimal preservation and extraction methods, as well as individual variation, could have exacerbated the degradation of DNA present in our salivary samples <ref type="bibr" target="#b34">(Piggott 2004)</ref>. The presence of PCR inhibitors, and/or large amounts of exogenous DNA (e.g. bacterial DNA), may have also been a factor inhibiting amplification. Low DNA quantity might be exacerbating the problems of poor DNA quality. From a separate batch of samples deployed in the field (Hororata and Banks Peninsula) we estimated that wax tags yield very low quantities of total DNA (median, range: 0.93 ng/µl, 0.1-9.22 ng/µl, n = 30). We excluded these samples from the analysis since we suspected wax tags were bitten by more than one individual and showed clear signs of interaction with non-target species (i.e. rats). Nonetheless, we present these data to illustrate the point that wax tags have a DNA yield comparable with hair follicles <ref type="bibr" target="#b4">(Broquet et al. 2007</ref>). Accordingly, the implementation of a more sensitive screening method (e.g. quantitative PCR; <ref type="bibr" target="#b29">Morin et al. 2010)</ref> is advised. This new screening method will enable us to determine the actual concentration of DNA that possum saliva yields under a range of different conditions.</p><p>The robustness, efficiency, and reproducibility of the protocol developed here is encouraging, yet this pilot study is still incomplete. We have not yet addressed different collection and preservation strategies, the number of replicate PCRs required to obtain a reliable multi-locus genotype, or the impacts of the estimated error rates on demographic estimation. Since implementation of the multiplex protocol was estimated to reduce costs by 92.3% (data not shown), replicating PCRs would not impose a substantial increase in genotyping costs. However, analytical approaches, such as the maximum likelihood method for error estimation <ref type="bibr" target="#b21">(Johnson &amp; Haydon 2007)</ref>, can avoid the need for extensive replication and should be considered.</p><p>Although these issues demand attention, we feel that it is first necessary to improve the current salivary DNA collection methods before this can become a suitable alternative or supplement to field-based monitoring methodologies. We have shown that despite substantial calibration of laboratory protocols, interference devices such as wax tags perform poorly as DNA collection devices. Consequently, we recommend the design of an improved saliva collection device that allows interaction with only a single individual and minimises DNA degradation while collecting enough DNA to conduct reliable genotyping assays.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Geographic origin of samples collected in this study: BP is Banks Peninsula, Ho is Hororata, LP is Lewis Pass.</figDesc><graphic coords="3,30.52,484.05,393.36,324.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>a</head><label></label><figDesc>Allele size range is expressed in base pairs, Ta represents the optimal annealing temperature and Pc represents the final primer concentration expressed in moles per litre of solute (M).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>sib = 7.9 × 10 -3 , Hororata PI sib = 3.4 × 10 -3 and Lewis Pass PI sib = 3.3 × 10 -3 b Sample size (n), number of alleles (A), number of private alleles (PA), observed (H o ) and expected (H e ) heterozygosity, inbreeding coefficient (F is ), the HW exact probability test P-values (HW P), and the probability of identity adjusted for siblings (PI sib ) for every locus. The population structure coefficient (F st ) is also included.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Increase in mean error rate per locus (e l ) according to the quantity and quality of template DNA used. Letter 'b' indicates significant differences between means according to Fisher's LSD test (α = 0.05).</figDesc><graphic coords="7,83.54,88.53,427.06,271.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Linear r e g r e s s i o n models of allelesize estimates of products generated by singleplex and m u l t i p l e x P C R approaches versus d i s c r e t e a l l e l e categories.</figDesc><graphic coords="8,41.38,96.97,410.46,423.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 2</head><label>2</label><figDesc>Genetic diversity of the six loci successfully amplified with singleplex PCR for the genotyping of Trichosurus vulpecula samples obtained in Canterbury Region.</figDesc><table><row><cell cols="7">__________________________________________________________________________________________________________________________________________________________________</cell></row><row><cell></cell><cell>Banks Peninsula a</cell><cell></cell><cell>Hororata a</cell><cell></cell><cell>Lewis Pass a</cell><cell></cell></row><row><cell cols="7">HW P __________________________________________________________________________________________________________________________________________________________________ HW HW Locus b n A PA H o H e F is PI sib n A PA H o H e F is P PI sib n A PA H o H e Fis P PI sib F st</cell></row><row><cell>Tv19</cell><cell>9 4 0 0.78 0.64 -0.80 0.01 0.48 19 5</cell><cell>0</cell><cell>0.79 0.67</cell><cell>-0.04 0.01</cell><cell cols="2">0.46 9 6 1 0.78 0.80 0.34 0.01 0.37 0.11</cell></row><row><cell>Tv27</cell><cell cols="2">9 6 0 0.67 0.77 -0.21 0.31 0.39 19 10 2</cell><cell>0.79 0.80</cell><cell>0.12 0.28</cell><cell cols="2">0.37 9 9 1 0.89 0.85 0.22 0.16 0.34 0.04</cell></row><row><cell>Tv53</cell><cell>9 7 0 0.89 0.80 0.17 0.54 0.37 19 8</cell><cell>0</cell><cell>0.79 0.75</cell><cell>-0.14 0.39</cell><cell cols="2">0.40 9 6 0 0.56 0.80 0.23 0.01 0.37 0.03</cell></row><row><cell>Tv54</cell><cell>9 2 0 0.11 0.10 -0.14 1.00 0.90 19 3</cell><cell>1</cell><cell>0.58 0.43</cell><cell>-0.26 0.72</cell><cell>0.64 9 1 0 0.00 0.00 0.00</cell><cell>--1.00 0.07</cell></row><row><cell>Tv58</cell><cell>9 4 0 0.22 0.38 0.42 0.03 0.66 19 8</cell><cell>2</cell><cell>0.42 0.66</cell><cell>0.45 0.00</cell><cell cols="2">0.46 9 8 3 0.67 0.66 0.02 0.65 0.45 -0.04</cell></row><row><cell cols="2">Tv5.64 9 4 1 0.44 0.60 -0.33 0.78 0.51 19 4</cell><cell>0</cell><cell>0.79 0.67</cell><cell>0.16 0.47</cell><cell cols="2">0.46 9 4 0 0.78 0.70 -0.20 1.00 0.44 0.00</cell></row><row><cell>TvM1</cell><cell>9 5 0 0.89 0.77 -0.12 1.00 0.39 18 7</cell><cell>0</cell><cell>0.83 0.78</cell><cell>0.06 0.83</cell><cell cols="2">0.38 9 6 1 0.78 0.80 -0.03 0.79 0.37 0.00</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 3</head><label>3</label><figDesc>Summary of genotyping error metrics estimated during protocol optimisation.Refers to multiplex PCR performed with diluted tissue extracts.</figDesc><table><row><cell cols="9">__________________________________________________________________________________________________________________________________________________________________</cell></row><row><cell cols="9">Tv19 __________________________________________________________________________________________________________________________________________________________________ Tv27 Tv53 Tv54 Tv58 Tv5.64 TvM1 Average</cell></row><row><cell>Singleplex</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Amplication success</cell><cell>1.00</cell><cell>1.00</cell><cell>1.00</cell><cell>1.00</cell><cell>1.00</cell><cell>1.00</cell><cell>1.00</cell><cell>1.00</cell></row><row><cell>per locus allele drop-out rate</cell><cell>0.00</cell><cell>0.17</cell><cell>0.00</cell><cell>0.00</cell><cell>0.20</cell><cell>0.00</cell><cell>0.00</cell><cell>0.05</cell></row><row><cell>per locus false allele rate</cell><cell>0.00</cell><cell>0.00</cell><cell>0.06</cell><cell>0.06</cell><cell>0.00</cell><cell>0.00</cell><cell>0.00</cell><cell>0.02</cell></row><row><cell>mean error rate per locus</cell><cell>0.00</cell><cell>0.08</cell><cell>0.08</cell><cell>0.08</cell><cell>0.08</cell><cell>0.00</cell><cell>0.00</cell><cell>0.05</cell></row><row><cell>Multiplex</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Amplication success</cell><cell>1.00</cell><cell>1.00</cell><cell>1.00</cell><cell>-</cell><cell>1.00</cell><cell>1.00</cell><cell>1.00</cell><cell>1.00</cell></row><row><cell>per locus allele drop-out rate</cell><cell>0.00</cell><cell>0.09</cell><cell>0.11</cell><cell>-</cell><cell>0.13</cell><cell>0.00</cell><cell>0.00</cell><cell>0.05</cell></row><row><cell>per locus false allele rate</cell><cell>0.00</cell><cell>0.04</cell><cell>0.06</cell><cell>-</cell><cell>0.02</cell><cell>0.04</cell><cell>0.04</cell><cell>0.07</cell></row><row><cell>mean error rate per locus</cell><cell>0.08</cell><cell>0.08</cell><cell>0.10</cell><cell>-</cell><cell>0.04</cell><cell>0.04</cell><cell>0.04</cell><cell>0.07</cell></row><row><cell>Multiplex (diluted) a</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Amplication success</cell><cell>0.86</cell><cell>0.93</cell><cell>0.83</cell><cell>-</cell><cell>0.97</cell><cell>0.93</cell><cell>0.93</cell><cell>0.91</cell></row><row><cell>per locus allele drop-out rate</cell><cell>0.09</cell><cell>0.13</cell><cell>0.16</cell><cell>-</cell><cell>0.38</cell><cell>0.00</cell><cell>0.11</cell><cell>0.10</cell></row><row><cell>per locus false allele rate</cell><cell>0.00</cell><cell>0.00</cell><cell>0.03</cell><cell>-</cell><cell>0.00</cell><cell>0.00</cell><cell>0.00</cell><cell>0.01</cell></row><row><cell>mean error rate per locus</cell><cell>0.12</cell><cell>0.10</cell><cell>0.20</cell><cell>-</cell><cell>0.08</cell><cell>0.04</cell><cell>0.08</cell><cell>0.10</cell></row><row><cell>Multiplex PCR (wax tag) b</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Amplication success</cell><cell>0.78</cell><cell>0.89</cell><cell>0.44</cell><cell>-</cell><cell>0.94</cell><cell>0.83</cell><cell>0.50</cell><cell>0.73</cell></row><row><cell cols="9">mean error rate per locus __________________________________________________________________________________________________________________________________________________________________ 0.25 0.25 0.25 -0.05 0.20 0.25 0.21</cell></row><row><cell>a</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p><p>b</p>Refers to multiplex PCR performed with DNA retrieved from saliva.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We would like to express our gratitude to several individuals. To <rs type="person">Marie Hale</rs> and <rs type="person">Ferran Palero</rs> for assistance in data analysis. To <rs type="person">Brent Barrett</rs>, <rs type="person">Tim Kelly</rs>, <rs type="person">Matt Kavermann</rs>, <rs type="person">Shona Sam</rs>, <rs type="person">Lee Shapiro</rs> and <rs type="person">Tim Sjöberg</rs> for their assistance in sample collection. To <rs type="person">Norma Merric</rs> and <rs type="person">Candice Barclay</rs> for their assistance with laboratory equipment. To <rs type="person">Jagoba Malumbres-Olarte</rs>, <rs type="person">Emily Fountain</rs> and <rs type="person">Ben Wisemen</rs> for assistance in laboratory procedures. To <rs type="person">Annabel Clouston</rs> and <rs type="person">Chloe MacClaren</rs> for proofreading this manuscript. To the anonymous reviewers whose suggestions greatly improved the quality of this manuscript. This research was supported with funds from the <rs type="funder">Faculty of Agriculture and Life Sciences at Lincoln University</rs> and the <rs type="funder">Animal Health Board (now TBfree New Zealand)</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Forensic implications of PCR inhibition-A review</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Alaeddini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Forensic Science International: Genetics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="297" to="305" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Maternal influence on philopatry and space use by juvenile brushtail possums (Trichosurus vulpecula)</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Blackie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Clout</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Animal Ecology</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="477" to="483" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">How to track and assess genotyping errors in population genetics studies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bonin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Eidesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brochmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3261" to="3273" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Quantifying genotyping errors in noninvasive population genetics</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Broquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Petit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3601" to="3608" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Noninvasive population genetics: a review of sample source, diet, fragment length and microsatellite motif effects on amplification success and genotyping error rates</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Broquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ménard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Petit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="249" to="260" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Body size, age and paternity in common brushtail possums (Trichosurus vulpecula)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Clinchy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Zanette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Jarman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="195" to="202" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The eradication of introduced Australian brushtail possums, Trichosurus vulpecula, from Kapiti Island, a New Zealand nature reserve</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Cowan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="217" to="226" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">The brushtail possum: biology, impact and management of an introduced marsupial</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Cowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Clout</surname></persName>
+		</author>
+		<editor>Montague TL</editor>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Lincoln, Manaaki Whenua Press</publisher>
+			<biblScope unit="page" from="24" to="34" />
+		</imprint>
+	</monogr>
+	<note>Possums on the move: activity patterns, home ranges and dispersal</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Arlequin suite ver 3.5: a new series of programs to perform population genetics analyses under Linux and Windows</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Excoffier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hel</forename><surname>Lischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="564" to="567" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">DNA primers for amplification of mitochondrial cytochrome c oxidase subunit I from diverse metazoan invertebrates</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Folmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hoeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vrijenhoek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Marine Biology and Biotechnology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="294" to="299" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Nonlinearity and seasonal bias in an index of brushtail possum abundance</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Forsyth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Link</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nugent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Warburton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="976" to="984" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Monitoring vertebrate pests by using their DNA</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gleeson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Byrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Howitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nugent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Kararehe Kino Vertebrate Pest Research</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="13" to="15" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Testing differentiation in diploid populations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goudet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raymond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>De Meeüs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rousset</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="1933" to="1940" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Performing the exact test of Hardy-Weinberg proportion for multiples alleles</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="361" to="372" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">DNA barcodes distinguish species of tropical Lepidoptera</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hajibabaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Janzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hallwachs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pdn</forename><surname>Hebert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences (USA)</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="968" to="971" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">High fractions of exogenous DNA in human buccal samples reduce the quality of largescale genotyping</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Herráez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stoneking</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Analytical Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">383</biblScope>
+			<biblScope unit="page" from="329" to="331" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Microsatellite genotyping errors: detection approaches, common sources and consequences for paternal exclusion</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amos</forename><forename type="middle">W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="599" to="612" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Multiplex Manager 1.0: a crossplatform computer program that plans and optimizes multiplex PCR</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Holleley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Geerts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechniques</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="511" to="517" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A simple sequentially rejective multiple test procedure</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Holm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian Journal of Statistics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="65" to="70" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A simple method for automated allele binning in microsatellite markers</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Idury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Cardon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Research</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1104" to="1109" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Sex-biased dispersal and a density-independent mating system in the Australian brushtail possum, as revealed by minisatellite DNA profiling</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Sarre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aitken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rks</forename><surname>Hankin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Clout</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1527" to="1537" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Maximum-likelihood estimation of allelic dropout and false allele error rates from microsatellite genotypes in the absence of reference data</title>
+		<author>
+			<persName><forename type="first">Pcd</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Haydon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="827" to="842" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Results from the NIST 2004 DNA Quantitation Study</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Kline</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Duewer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Redman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Butler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Forensic Sciences</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="571" to="578" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A major histocompatibility (MHC) microsatellite locus in brushtail possums (Trichosurus vulpecula)</title>
+		<author>
+			<persName><forename type="first">Mkp</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Hickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Cowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Online Journal of Veterinary Research</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="139" to="141" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Determining microsatellite genotyping reliability and mutation detection ability: an approach using small-pool PCR from sperm DNA</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Sarre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Fitzsimmons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aitken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Genetics and Genomics</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Estimating animal abundance using noninvasive DNA sampling: promises and pitfalls</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Citta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Lair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Tallmon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="283" to="294" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Non-toxic techniques for possum control</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Montague</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Warburton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The brushtail possum: biology, impact and management of an introduced marsupial</title>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Montague</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Lincoln. Manaaki Whenua Press</publisher>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="page" from="164" to="174" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Standardising multi-laboratory microsatellite data in Pacific salmon: an historical view of the future</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Teel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Lahood</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Drakej</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kalinowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology of Freshwater Fish</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="597" to="605" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Are some possums untrappable, unpoisonable, and therefore unmonitorable?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nugent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gleeson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rlj</forename><surname>Howitt</surname></persName>
+		</author>
+		<ptr target="http://www.tbfree.org.nz/" />
+	</analytic>
+	<monogr>
+		<title level="m">Landcare Research Contract Report LC0607/143 for the Animal Health Board (R-10623</title>
+		<meeting><address><addrLine>Wellington, New Zealand</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Applied conservation genetics and the need for quality control and reporting of genetic data used in fisheries and wildlife management</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Martien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">I</forename><surname>Archer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cipriano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Steel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Heredity</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Improving techniques for the WaxTag ® possum (Trichosurus vulpecula) monitoring index</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Ogilvie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Paterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New Zealand Plant Protection</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="28" to="33" />
+			<date type="published" when="2006">2010. 2006</date>
+			<publisher>Wellington, National Possum Control Agencies</publisher>
+		</imprint>
+	</monogr>
+	<note>Possum population monitoring using the WaxTag ® method</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Native plant/herbivore interactions as determinants of the ecological and evolutionary effects of invasive mammalian herbivores: the case of the common brushtail possum</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>O'reilly-Wapstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cowan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Invasions</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="373" to="387" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">MICROSATELIGHT-pipeline to expedite microsatellite analysis</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Palero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>González-Candelas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pascual</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Heredity</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="247" to="249" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">genalex 6: genetic analysis in Excel. Population genetic software for teaching and research</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="288" to="295" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Effect of sample age and season of collection on the reliability of microsatellite genotyping of faecal DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="485" to="493" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Genotyping errors: causes, consequences and solutions</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bonin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Genetics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="847" to="859" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Skin swabbing as a new efficient DNA sampling technique in amphibians, and 14 new microsatellite markers in the alpine newt (Ichthyosaura alpestris)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Prunier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kaufmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Grolet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Picard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Joly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="524" to="531" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Use of forensic genetics to detect a potential incursion of the brushtail possum onto Great Barrier Island</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ramón-Laca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gleeson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New Zealand Journal of Ecology</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="152" to="155" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">R: a language and environment for statistical computing</title>
+		<author>
+			<orgName type="collaboration">R Development Core Team</orgName>
+		</author>
+		<ptr target="http:www.r-project.org/" />
+	</analytic>
+	<monogr>
+		<title level="m">R Foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">RKWard: A comprehensive graphical user interface and integrated development environment for statistical analysis with R</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rödiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Friedrichsmeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kapat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Michalke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Statistical Software</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1" to="34" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">genepop&apos;007: a complete re-implementation of the genepop software for Windows and Linux</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rousset</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="103" to="106" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Efficacy of chew-trackcard indices of rat and possum abundance across widely varying pest densities New Zealand</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruffell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Innes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Didham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Ecology</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Molecular ecology and biological control: the mating system of a marsupial pest</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Sarre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Aitken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Clout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ji</forename><forename type="middle">W</forename><surname>Robins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="723" to="733" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Trichosurus vulpecula microsatellite Tv5.64 sequence, direct submission to GenBank</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Sarre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Aitken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cowan</surname></persName>
+		</author>
+		<ptr target="http://www.ncbi.nlm.nih.gov/nuccore/300488325" />
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>bovine tuberculosis by brushtail possums in New Zealand</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Allelic drop-out from a high-quality DNA source</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Soulsbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Iossa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="733" to="738" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Genetic structure infers generally high philopatry and male-biased dispersal of brushtail possums (Trichosurus vulpecula) in urban Australia</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Stow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Minarovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eymann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Webley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="409" to="415" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Non-invasive genetic sampling and individual identification</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Journal of the Linnean Society</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="41" to="55" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Microsatellite markers for the Phalangerid marsupial, the common brushtail possum (Trichosurus vulpecula)</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1780" to="1782" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Genetic analysis of the mating system of the common brushtail possum (Trichosurus vulpecula) in New Zealand farmland</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Cowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Fricke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="869" to="879" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">High microsatellite diversity and differential structuring among populations of the introduced common brushtail possum, Trichosurus vulpecula, in New Zealand</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Cowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Fricke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Geddes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetical Research</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="101" to="111" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Comparison of trap-catch and bait interference methods for estimating possum densities</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Maddigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Sessions</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New Zealand Plant Protection</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="81" to="85" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">micro-checker: software for identifying and correcting genotyping errors in microsatellite data</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Van Oosterhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dpm</forename><surname>Wills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shipley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="535" to="538" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Noninvasive recovery and detection of possum Trichosurus vulpecula DNA from bitten bait interference devices (WaxTags)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Vargas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Cruickshank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Holyoake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Ogilvie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Paterson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="505" to="515" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Estimating the probability of identity among genotypes in natural populations: cautions and guidelines</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="249" to="256" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">The brushtail possum: biology, impact and management of an introduced marsupial</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Warburton</surname></persName>
+		</author>
+		<editor>Montague TL ed</editor>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Lincoln, Manaaki Whenua Press</publisher>
+			<biblScope unit="page" from="132" to="142" />
+		</imprint>
+	</monogr>
+	<note>Monitoring possum populations</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Evaluation of two relative-abundance indices to monitor brushtail possums in New Zealand</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Warburton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coleman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="397" to="401" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Genetic data analysis II: methods for discrete population genetic data</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Weir</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<publisher>Sinauer</publisher>
+			<biblScope unit="page">445</biblScope>
+			<pubPlace>Sunderland, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Estimating F-statistics for the analysis of population structure</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Weir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Cockerham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evolution</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1358" to="1370" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Description of microsatellite markers and genotyping performances using feathers and buccal swabs for the Ivory gull (Pagophila eburnea)</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yannic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sermier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aebischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Gavrilo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gilg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miljeteig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sabard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Strøm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pouivé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Broquet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="877" to="889" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Hannah Buckley Received</title>
+		<imprint>
+			<date type="published" when="2013-12-04">4 December 2013. August 2014</date>
+		</imprint>
+	</monogr>
+	<note>accepted 7</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

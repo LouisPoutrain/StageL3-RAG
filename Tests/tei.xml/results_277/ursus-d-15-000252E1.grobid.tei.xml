@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Factors influencing detection of grizzly bears at genetic sampling sites</title>
+				<funder>
+					<orgName type="full">BC Ministry of Environment-Kootenay Region</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ministry of Forests, Lands and Natural Resource Operations-Kootenay Region, Habitat Conservation Trust Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Wildlife Inventory Fund</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Nature Trust</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Safari Club International, BP Canada</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Clayton</forename><forename type="middle">T</forename><surname>Lamb</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="institution">University of Alberta</orgName>
+								<address>
+									<postCode>T6G 2E9</postCode>
+									<settlement>Edmonton</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dustin</forename><forename type="middle">A</forename><surname>Walsh</surname></persName>
+							<affiliation key="aff1">
+								<address>
+									<postCode>V2E 1S4</postCode>
+									<settlement>Kamloops</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Garth</forename><surname>Mowat</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Ministry of Forests Lands and Natural Resource Operations</orgName>
+								<address>
+									<postCode>V1L 4K3</postCode>
+									<settlement>Nelson</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Factors influencing detection of grizzly bears at genetic sampling sites</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">99F336D22B013CB47521048FC2D92C33</idno>
+					<idno type="DOI">10.2192/URSUS-D-15-00025.1</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:51+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>bait site</term>
+					<term>capture heterogeneity</term>
+					<term>capture-recapture</term>
+					<term>genotyping success</term>
+					<term>mark-recapture</term>
+					<term>noninvasive sampling</term>
+					<term>population estimation</term>
+					<term>rub object</term>
+					<term>rub tree</term>
+					<term>sampling design</term>
+					<term>study design</term>
+					<term>Ursus arctos</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Recent advances in genetic approaches have facilitated genetic marking in capturerecapture (CR) experiments. Individuals can now be identified through non-invasive sampling and multi-locus genotyping instead of physical capture. In non-invasive studies where collection sites are used, detection depends on whether (1) an individual deposits a sample at the collection site, and (2) an individual can be genetically identified from the sample. Here we evaluate factors influencing detection of grizzly bears (Ursus arctos) at hair-sampling sites from 4 genetic CR projects (2006)(2007)(2008)(2009)(2010)(2011)(2012) in British Columbia, Canada, and provide recommendations for maximizing detection in future studies. We found significant effects of trap type (bait site vs. rub object), sex, and season on the detection of grizzly bears. Bait-site detection was approximately 5-fold greater than detection at rub objects; and bait sites generally detected the sexes equally, whereas rub-tree detection was strongly male-biased. At rub objects, males had a 7-fold greater detection during the breeding season compared with females. Genotyping success increased with the number of hair follicles in the sample and decreased with the duration between trap checks. Rainfall was correlated with trap duration and was also negatively related to genotyping success. Samples with little genetic material (,2 guard hair, or ,15 underfur) had low genotyping success and are best avoided, especially if samples with more follicles exist. Rub objects are an efficient sampling method but we caution investigators that these traps, unless deployed in large numbers, imperfectly detect female bears. The combined effect of trap type, sex, and season on a bear visiting a site, paired with the effects of hair quality, quantity, and sampling duration or rainfall on genotyping success, produced a range of detection spanning 2 orders of magnitude, highlighting the imperative for investigators to consider these factors for CR projects.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Capture-recapture (CR) methods for estimating the size of a population were first applied by <ref type="bibr" target="#b39">Petersen (1896)</ref> and have since been applied extensively across many taxa <ref type="bibr" target="#b36">(Nichols and Pollock 1983</ref><ref type="bibr" target="#b51">, White and Burnham 1999</ref><ref type="bibr" target="#b44">, Roland et al. 2000</ref><ref type="bibr" target="#b31">, Meekan et al. 2006)</ref>. A CR framework is often employed for species that preclude complete census; such as those that exist in high densities (e.g., rodents <ref type="bibr">[Rodentia sp.]</ref>; <ref type="bibr" target="#b53">Wilson and Efford 2007)</ref>, are cryptic in nature (e.g., tigers [Panthera tigris]; <ref type="bibr" target="#b10">Carbone et al. 2001)</ref>, or are wideranging (e.g., wolverine [Gulo gulo]; <ref type="bibr" target="#b19">Garshelis 1992)</ref>. The recent development of molecular techniques has facilitated the incorporation of non-invasive genetic sampling (NGS) techniques to "mark" individuals <ref type="bibr">(Woods et al. 1999, Lukacs and</ref><ref type="bibr" target="#b29">Burnham 2005)</ref>. As a result, investigators are still able to estimate population size or trend (population growth and its components, survival and recruitment; <ref type="bibr" target="#b18">Franklin 2001</ref>), but are no longer required to physically capture animals. Compared with traditional methods, NGS techniques generally allow increased sample sizes, facilitate marking of elusive species, reduce stress to the captured individuals, and facilitate more accurate sex identification in some species <ref type="bibr" target="#b28">(Lamb et al. 2014)</ref>.</p><p>There are a variety of methods for NGS, most of which involve the collection of hair material (e.g., <ref type="bibr" target="#b21">Henry and Russello 2011)</ref>, but scat collection is also common <ref type="bibr" target="#b29">(Lukacs and Burnham 2005)</ref>. Similar to live traps, NGS sites can be subject to (1) "traphappy" and "trap-shy" animal responses following the first capture <ref type="bibr" target="#b55">(Zarnoch 1979</ref>); (2) capture heterogeneity due to individual differences in detectability that are often based on sex, age, and reproductive status <ref type="bibr">(White and</ref><ref type="bibr">Burnham 1999, Boulanger et al. 2008)</ref>; and (3) seasonal effects <ref type="bibr">(Boulanger et al. 2004</ref>). However, unlike live traps, the collection of genetic samples is an intermediate step in the marking process because these samples must then produce a genotype for an individual to be marked. Incorporation of methods that maximize sample capture and genotyping success for all sex and age classes is needed to maximize capture probability to ensure the best possible demographic estimates.</p><p>DNA-based hair-sampling methods are welldeveloped for Ursus species <ref type="bibr">(Boulanger et al. 2002</ref><ref type="bibr" target="#b25">, Kendall and McKelvey 2008</ref><ref type="bibr" target="#b52">, Whittington and Sawaya 2014)</ref> and are generally employed for American black bears (U. americanus; <ref type="bibr" target="#b2">Boersen et al. 2003</ref><ref type="bibr" target="#b43">, Robinson et al. 2009</ref><ref type="bibr" target="#b47">, Sawaya et al. 2012</ref>) and brown bears (U. arctos; <ref type="bibr">Mowat et al. 2005;</ref><ref type="bibr" target="#b25">Kendall et al. 2008</ref><ref type="bibr">Kendall et al. , 2009))</ref>, but are also effective for other bear species <ref type="bibr">(McCarthy et al. 2009, Herreman and</ref><ref type="bibr" target="#b22">Peacock 2013)</ref>. Two main types of hair traps are used to non-invasively sample bears: baited wire corrals (bait sites; <ref type="bibr" target="#b54">Woods et al. 1999)</ref> and rub objects (trees, power poles and posts; <ref type="bibr" target="#b20">Green and Mattson 2003</ref><ref type="bibr">, Karamanlidis et al. 2007</ref><ref type="bibr" target="#b49">, Stetz et al. 2010)</ref>.</p><p>Bait sites and rub objects appear to have different detection rates for grizzly bears (U. arctos). For example, <ref type="bibr">Kendall et al. (2009)</ref> found that bait sites detected all age-sex classes of bears in Montana, USA; however, cubs were detected at approximately one half the rate of older animals. For rub objects, <ref type="bibr" target="#b11">Clapham et al. (2012</ref><ref type="bibr">Clapham et al. ( , 2014) )</ref> showed these traps detected all age-sex classes of bears but success differed by sex, age, and breeding status, similar to the rub-object results of <ref type="bibr" target="#b25">Kendall et al. (2008</ref><ref type="bibr">Kendall et al. ( , 2009))</ref>. In Clapham's study, females with young and adult males rubbed frequently, whereas adult females without cubs and subadults rubbed infrequently. The authors concluded the function of rubbing, and thus scent-marking, at these rub objects is primarily intra-sexual competition between adult males and that females rub objects to teach their offspring this behavior. Both bait sites and rub objects appear to have seasonal differences in detection <ref type="bibr">(Mowat et al. 2005</ref><ref type="bibr" target="#b27">, Boulanger et al. 2008</ref><ref type="bibr">, Kendall et al. 2009</ref><ref type="bibr" target="#b47">, Sawaya et al. 2012</ref>) and bait sites often produce higher detection rates than do rub objects <ref type="bibr" target="#b27">(Boulanger et al. 2008</ref>). Here we extend the previous work on detectability by calculating a measure of detection that uses the individual site as the sampling unit, and use this measure to compare the effects of trap type and sex across fine temporal scales (daily).</p><p>Capturing hair does not ensure an individual is marked. The sample must still produce a genotype that identifies an individual. Laboratory methods have been established that both optimize genotyping success and are effective in eliminating genotyping errors <ref type="bibr" target="#b38">(Paetkau 2003</ref><ref type="bibr">, Kendall et al. 2009</ref>); however, genotyping success rates are influenced by collection methods and field conditions <ref type="bibr" target="#b9">(Brinkman et al. 2009</ref><ref type="bibr" target="#b16">, Dumond et al. 2015</ref><ref type="bibr">, Stetz et al. 2015)</ref>. To our knowledge, only 2 studies have investigated the influence of environmental conditions on genotyping success of hair <ref type="bibr" target="#b16">(Dumond et al. 2015</ref><ref type="bibr">, Stetz et al. 2015)</ref>. These studies found that solar radiation, moisture, and time all negatively influenced genotyping success. <ref type="bibr">Stetz et al. (2015)</ref> employed an experimental approach using binary variable classes for moisture (wet, dry), ultraviolet radiation (full sun, shade), and sample collection duration (30-or 60-day); and as a result, the authors were unable to provide explicit recommendations for researchers regarding the degree of radiation, moisture, or duration of exposure before DNA degradation occurs. We built on this previous work by including a subset of factors that may reduce genotyping success, including a continuous range of hair follicles included in the DNA extraction as well as moisture and temporal variables known to influence genotyping success.</p><p>For CR studies using hair traps there are several steps in evaluating detection: (1) probability of attracting an individual to a site, (2) probability of capturing sample material of sufficient quantity and quality (e.g., follicles) to produce a genotype, (3) probability that the sample DNA will not be denatured by environmental factors or will not produce an individual genotype due to mixing of sample DNA with another individual that subsequently visits the site, and (4) probability of successful lab analysis for gender and individual identification. Here we distil the above processes into 2 main events that influence detection: (1) the deposition of genetic material at sampling sites, and (2) the successful genotyping of these samples. We pose the following questions:</p><p>(1) what factors influence whether a bear deposits hair at a site? And, (2) what influences whether a sample, once deposited, produces an individual genetic identity? We use data from 3 single-year and 1 multi-year grizzly bear inventory projects conducted across eastern British Columbia, Canada, to address these questions, and we focus on the effects of trap type, sampling schedule, and environmental factors on the capture and genotyping of bear hair. Our objective was to identify the most effective haircollection trapping methods to sample grizzly bears, especially females, and to offer recommendations for maximizing detections in future inventories.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study areas</head><p>Our main study area (#1, South Rockies; Fig. <ref type="figure" target="#fig_0">1</ref>) was sampled using both bait sites <ref type="bibr">(2006-2011) and rub objects (2006-2012)</ref>. However, because we sampled bait sites in the South Rockies only twice per year, we incorporated bait-site data from 3 other grizzly bear inventories conducted in British Columbia to increase the temporal coverage for bait sites. These studies (located in the Central Selkirk Mountains, the Parsnip River drainage, and the Flathead Valley; Fig. <ref type="figure" target="#fig_0">1</ref>) have been described in detail elsewhere <ref type="bibr">(Mowat and Strobeck 2000</ref><ref type="bibr" target="#b40">, Poole et al. 2001</ref><ref type="bibr">, Mowat et al. 2005</ref><ref type="bibr" target="#b6">, MacHutchon et al. 2008)</ref>. We considered the additional study areas in the temporal detection for bait sites, but used the South Rockies only for comparisons between bait sites and rub objects so that any minute difference between regions did not bias comparison. We used genotyping success of grizzly bear hair samples from the South Rockies and Flathead to investigate weather effects because the Flathead inventory was conducted within the South Rockies study area during 2007.</p><p>We collected grizzly bear hair using baited hair traps for 1 year only in the Central Selkirk, Parsnip River, and Flathead Valley study areas, whereas we collected hair using baited hair traps and rub objects over a 7-year study in the South Rockies study area. In addition, we moved bait sites to a new location during each of the sampling sessions in the Central Selkirk (5 sessions), Parsnip River (4), and Flathead Valley (4) study areas, whereas we did not move bait sites between the 2 sampling sessions in the South Rockies. Other sampling and genotyping methods were standardized between studies, so the methods presented here will focus on the field methods used in the South Rockies study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>South Rockies study area</head><p>The South Rockies study area covered 11,600 km 2 of the Canadian Rocky Mountains located in southeastern British Columbia (Fig. <ref type="figure" target="#fig_0">1</ref>). The study area was divided into the South Rockies (north of Highway 3) and Flathead population units (south of Highway 3, location of Flathead 2007 inventory, #2; Fig. <ref type="figure" target="#fig_0">1</ref>) for conservation management purposes. Annual climatic information during our period of study can be found in Table <ref type="table" target="#tab_0">1</ref>. Logging occurred throughout the South Rockies study area except in parks. Five active open-pit coal mines were located along the eastern boundary. There were approximately 12,000 people (Canadian population census 2006, 2011) residing in the area year-round, with a major influx of tourists during the summer months. Many highways intersected or bordered the region <ref type="bibr">(Hwy 3,</ref><ref type="bibr">43,</ref><ref type="bibr">93,</ref><ref type="bibr">and 95)</ref>, with high traffic volume during summer months (.18,000 vehicles/day; British  <ref type="table" target="#tab_2">Ursus 27(1):31-44 (2016)</ref> Columbia Ministry of Transport; <ref type="url" target="http://www.th.gov">http://www.th.gov</ref>. bc.ca/trafficdata/index.html). A railroad (Canadian Pacific Railway) followed Highway 3 and 43 from Cranbrook to Elkford and continued to Alberta via Crowsnest Pass. This transmission corridor combined with the linear human settlement that occurred in the valley bottoms, affected grizzly bear mortality <ref type="bibr" target="#b32">(Mowat et al. 2013</ref>) and movement <ref type="bibr" target="#b41">(Proctor et al. 2012)</ref>. Grizzly bear density in the region was female-skewed (F: 27 [¡6.8] bears/1,000 km 2 , M: 14 [¡2.7] bears/1,000 km 2 ; <ref type="bibr" target="#b32">Mowat et al. 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics statement</head><p>This project was approved and sponsored by the Province of British Columbia, Ministry of Forests, Lands and Natural Resource Operations, prior to the first year of sampling <ref type="bibr">(2006)</ref>. DNA-based markrecapture methods used in this study for grizzly bears are exempt from capture permits in British Columbia. Ethical approval for the analyses of these data was provided by the University of Alberta Research Ethics Office, December 2014.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>South Rockies field sampling</head><p>We set bait sites across the study area using a 14-km-square grid to help space sample effort, and set up rub objects along valley bottoms and trail networks. We sampled 231 unique bait-site locations during 2006-2011 (2 sessions/yr) and 399 rub objects during 2006-2012 (2-4 sessions/yr), for 599 total bait-site sessions and 1,818 rub-object sessions (some site locations were re-used among years). We used approximately 3 L of rotted blood and 1 cup of rotted fish oil for bait and added beaver castor as a unique scent for the second trapping session.</p><p>We trapped 2 14-day sessions each summer beginning in late June and ending in late July (Table <ref type="table" target="#tab_0">S1</ref>). Beginning in 2008, we attached a 1-2-m section of barbed wire to monitored rub objects to facilitate hair collection; very few rub objects were sampled prior to 2008. During 2006-2008 we used the same bait-site locations among years, but in subsequent years we made an effort to sample new bait-site locations each year to minimize any multi-year behavioral response to known sites. We used standard methods for constructing bait sites <ref type="bibr">(Mowat et al. 2005)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laboratory methods</head><p>Genetic analysis was done at Wildlife Genetics International in Nelson, British Columbia using methods developed by <ref type="bibr" target="#b38">Paetkau (2003)</ref> and rigorously tested by <ref type="bibr">Kendall et al. (2009)</ref>. We sub-sampled hair samples at bait sites based on our previous work <ref type="bibr">(Mowat et al. 2005)</ref>. Sub-sampling hair samples can be effective for reducing lab costs while maintaining a large number of detections because individuals often leave multiple samples during a single site visit, and repeatedly genotyping the same individual from a single visit does not add information in a markrecapture framework. We also experimented with sub-sampling of rub-object samples. During 2006-2009, we analyzed all samples that contained enough tissue to offer .50% genotyping success (D. <ref type="bibr">Paetkau, Wildlife Genetics International, personal communication)</ref>. Between 2010 and 2012, we analyzed 1 sample/tree/check except when field staff found evidence, based on hair color and sample location on the tree, that .1 bear rubbed on the tree. The 1 sample/tree approach reduced the number of bears detected at each tree (Fig. <ref type="figure" target="#fig_2">S2</ref>); however, we cannot parse apart this effect from a reduction in population size during the course of the study, which would also produce the same results. All bears were analyzed using 9 microsatellite loci and a sexually dimorphic nuclear locus to assign sex. Combining all these markers provided a very low probability of identity measure-the probability that 2 (randomly chosen) individuals within a given population have the same genotype on a set of markers-which allowed for the confident identification of unique individuals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>Relative detection success. The absolute value of the detection probability (no. of individuals detected/population size) is crucially important for CR studies. Here we created a measure of detection, termed Relative Detection Success (RDS), in which we were not interested in the absolute value of detection but in the relative detection rate between different trap types, seasons, and sexes of bears. Relative Detection Success is calculated as the mean number of bears of each sex detected/site/day, scaled by sexspecific density so as to compare between sexes and among study areas (calculation detailed below). We chose to derive this measure of detection, as opposed to estimating capture probability, because RDS allowed us to investigate daily detection rates while controlling the confounding effects of effort.</p><p>For the RDS analysis, we removed any sessions that were .50 trap-nights because these cases did not provide the resolution we required to investigate the seasonal effects of detection. We analyzed baitsite detection by combining all years that bait sites were deployed for each study area. Rub-object detection was analyzed for the South Rockies between 2008 and 2012, because in 2006-2007 rub objects were deployed in low numbers for a short period (1-1.5 months) relative to later years, and rub objects were not wrapped with barbed wire, potentially decreasing detection. We included data from 2008 and 2009, in which every sample collected was genotyped, and from 2010 to 2012, when we utilized subsampling methods. Including both sub-sampling methods may have slight effects on the absolute magnitude of the detection success <ref type="bibr" target="#b15">(Dreher et al. 2009</ref>). However, because our subsampling procedures were consistent within years, it should not influence seasonal trends in these data. In addition, researchers commonly apply both of these sub-sampling methods and averaging the two provides a more general measure of overall detection <ref type="bibr" target="#b15">(Dreher et al. 2009</ref><ref type="bibr">, Kendall et al. 2009</ref>).</p><p>We calculated RDS for males, females, and trap type (bait site and rub object). We conducted all analyses in Program R (R Core <ref type="bibr" target="#b42">Team 2015)</ref>. Although the sampling duration and timing varied among years in the South Rockies study area (Table <ref type="table" target="#tab_0">S1</ref>), bait-site information among all the study areas generally fell between 1 June and 10 August, and the rub-object information between 15 June and 15 October for the South Rockies (the only study with rub objects). We calculated RDS for each site and session as number of individual bears of each sex detected/sex-specific density (bears of sex x/100 km 2 ). Estimates of sexspecific density were gathered from individual reports and publications for each study area <ref type="bibr">(Mowat et al. 2002</ref><ref type="bibr">(Mowat et al. , 2005</ref><ref type="bibr" target="#b32">(Mowat et al. , 2013;;</ref><ref type="bibr" target="#b6">MacHutchon et al. 2008</ref>). To produce a measure of daily RDS, we calculated the detection success for each visit to a site, and divided this by the number of trap-nights. For example, if 3 male bears were detected at a particular site during 15 trap-nights, the daily detection of male bears for that trap-check period would be 3/15 5 0.2 bears/ day. We then divided the daily detection by the density of male bears in the population (e.g., 2.5/100 km 2 , producing a daily RDS success of 0.08 for males at that site during the 15 days the trap was set. Finally, we calculated daily RDS for all sites using the mean RDS and associated standard errors for all sites on a given day. Density estimates from the Selkirk 1996 inventory <ref type="bibr">(Mowat and Strobeck 2000)</ref> were not sexspecific; therefore, we estimated the F:M ratio using data from the other study areas <ref type="bibr" target="#b40">(Poole et al. 2001</ref><ref type="bibr">, Mowat et al. 2005</ref><ref type="bibr" target="#b6">, MacHutchon et al. 2008)</ref> and applied this ratio (F:M 5 1.68) to the total density estimate in the Selkirk's to partition the estimate by sex.</p><p>We compared the effects of sex, trap type, and season (day of year) on RDS statistically using a linear mixed-effects model and the lme4 package <ref type="bibr" target="#b1">(Bates et al. 2014)</ref> in Program R (R Core <ref type="bibr" target="#b42">Team 2015)</ref>. We included a random effect for year <ref type="bibr">(2006)</ref><ref type="bibr">(2007)</ref><ref type="bibr">(2008)</ref><ref type="bibr">(2009)</ref><ref type="bibr">(2010)</ref><ref type="bibr">(2011)</ref><ref type="bibr">(2012)</ref>. In addition, we provide results in Supplemental Material 4 detailing an analysis where we removed the session length (nights trapped) from RDS and chose to model that explicitly (i.e., as a response variable) to understand the relationship between detections and session length.</p><p>Genotyping success. We used mixed-effects logistic regression (lme4) to evaluate the effects of the amount of genetic material in the sample (GenMat), the number of days between trap checks (Duration), mean temperature (MeanT), and number DRIVERS OF GENETIC GRIZZLY DETECTION <ref type="bibr">N Lamb et al. 35</ref> Ursus 27(1):31-44 (2016) of rain days (RainDays) between trap checks on genotyping success. We included a random effect for the sampling site, to ensure we did not introduce nonindependence in this analysis.</p><p>Grizzly bear hair samples are composed of underfur, guard hair, or both. It usually takes more underfur follicles compared with guard hairs to ensure genotyping success <ref type="bibr">(Kendall et al. 2009)</ref>. For modelling purposes we needed an equivalent measure for the 2 hair types. Thus, we calculated an underfur equivalent measure for guard hairs (Fig. <ref type="figure" target="#fig_0">S1</ref>) and added this to the number of underfur in the sample (if any) to create a single genetic material measure (GenMat). The duration of sample exposure (Duration) was calculated using the number of days between consecutive checks at a site. We recognize that this measure does not represent the true number of days the sample was exposed, because the sample could have been deposited any time between checks. However, given random sample deposition through time, it is logical to expect that traps that are left longer also have samples exposed to the elements longer. In addition, we believe using the duration between checks as the variable of interest is more useful from a design perspective because session length is something we have control over and can amend if needed, whereas the exact date of sample deposition is not.</p><p>Weather data were gathered for the South Rockies study area from the Sparwood airport (49u44940″N, 114u52960″W), Fernie airport (49u29920″N, 114u04924″ W), and Fording River-Cominco station (50u08955″ N, 114u51918″W; <ref type="url" target="http://climate.weather.gc.ca">http://climate.weather.gc.ca</ref>) for the sample period. We averaged all daily values for each variable (i.e., mean temp, rainfall, etc.) among weather station data sets to create a complete data set for the sample period. Doing this allowed us to estimate weather variables where any single station failed to record data for a period of time and provide a more representative measure of weather across the region. We calculated mean temperature (MeanT) and total number of rain days (sum of days in which $1 mm of rain fell) for the duration of each sample's exposure. Predictor variables were standardized and tested for collinearity.</p><p>We built 7 a priori models based upon biological reasoning and selected models using Akaike's Information Criterion (AIC; Akaike 1974), and we retained all models in which (ΔAIC ,2). We included GenMat in all models to control for the variation in type and number of hair follicles because this is known to affect microsatellite genotyping success (both amplification and error rates <ref type="bibr">(Paetkau 2003, Henry and</ref><ref type="bibr" target="#b21">Russello 2011)</ref>. We validated our top model using the Receiver Operating Characteristic and the Area Under the Curve (AUC). The AUC values can be interpreted as the probability of correctly classifying 2 randomly selected samples (one successful and one unsuccessfully genotyped sample). Area Under Curve values of 0.5 represented the same discrimination as a random guess, values .0.7 and ,0.9 represented good model accuracy, and values .0.9 represent high model accuracy <ref type="bibr" target="#b37">(Nielsen et al. 2005)</ref>. We back-transformed model coefficients from the top model by exponentiating the log odds ratios (coeff.) to compare the influence of variables as a change in odds.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Relative detection success</head><p>We found that trap type, sex, and season had significant effects on the relative detection success of grizzly bears at genetic hair-sampling sites (annual trapping effort and success for South Rockies summarized in Supplemental Material 1). In the South Rockies, bait sites produced a 5-fold greater detection rate (average RDS of 0.015) than rub objects (average RDS of 0.003; P , 0.001; Fig. <ref type="figure" target="#fig_2">2</ref>). Compared with males, females had one-quarter the detections at rub objects and two-thirds the detections at bait sites (P , 0.001 for both; Fig. <ref type="figure" target="#fig_2">2</ref>).</p><p>Among study areas, bait-site detection varied, but the general pattern was a decline in male detection and an increase in female detection following the breeding season (Fig. <ref type="figure" target="#fig_1">3</ref>). In the South Rockies study area, both male and female detection declined through the short period of observation (Fig. <ref type="figure" target="#fig_1">3A</ref>) but the decline was not significant (P 5 0.590).</p><p>At rub objects, males had a 7-fold greater detection during the breeding season (14 May-15 Jul; Craighead and Mitchell 1982) compared with females (Fig. <ref type="figure" target="#fig_3">4</ref>). Male detections decreased substantially after the breeding season but were still 3-fold more than females through the late summer and autumn. Female detection was generally stable through the year, with slightly depressed detection in June (Fig. <ref type="figure" target="#fig_3">4</ref>). Rub-object detection for males was lowest overall between approximately 20 August and 5 September. Seasonal effects on detection were not present at rub objects when sexes were considered together (P 5 0.400) but became much more pronounced when sex-specific seasonal effects were incorporated (P , 0.001).</p><p>36 DRIVERS OF GENETIC GRIZZLY DETECTION N Lamb et al. <ref type="table" target="#tab_2">Ursus 27(1):31-44 (2016)</ref> Session length was positively related to detection for both bait sites and rub objects, and a linear fit in session length was more supported by AIC than a non-linear quadratic fit (ΔAIC between models 5 20; Supplemental Material 4).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genotyping success</head><p>We collected 8,958 samples during 2006-2012 in the South Rockies and Flathead study areas. Our analysis focused on those samples that were successfully identified as an individual grizzly bear and those that failed to produce a genotype (2,638 samples). We did not attempt individual genotyping for the remainder on account of sub-sampling procedures, clear evidence of mixing of $2 individuals, inadequate genetic material, or the sample was genetically identified as non-grizzly.</p><p>The mean genotyping success rate of the 2,638 samples analyzed was 65.1%. Guard hairs produced greater genotyping success (75.4% ¡ 3.0%, n 5 1,059) than underfur (54.4% ¡ 4.0%, n 5 1,110; Fig. <ref type="figure" target="#fig_4">5</ref>). Mixed samples of guard hair and underfur (n 5 469) had a mean genotyping success rate of 72.7% ¡ 4.7%. A single guard hair produced a genotype approximately 41% of the time, whereas 10 guard hairs produced a genotype approximately 93% of the time. In contrast, it took 9 underfur to produce a similar genotyping success rate of  approximately 41% and 35 underfur to produce a success rate of approximately 93% (Table <ref type="table" target="#tab_2">S2</ref>).</p><p>Our top model (Model 2, ΔAIC 5 0; Table <ref type="table" target="#tab_2">2</ref>) for genotyping success included GenMat and Duration, and no other models received competing support (ΔAIC ,2). Validation of our top model produced an AUC of 0.846 (95% CI 5 0.830-0.862), representing strong discriminatory power between samples  that produced an individual genotype and those that failed to do so. The number of hair follicles in a sample was not correlated with any of the other predictor variables (r , 0.03). Trap-check duration was correlated with rain days (r 5 0.76) but not mean temperature (r 5 -0.14). Rain days and temperature were weakly correlated (r 5 -0.42). The effect of average temperature on genotyping success was not supported in our analysis. For the models in which temperature was included, effect size on the odds ratio of this variable was an order of magnitude less than duration and even less when compared with the quality of genetic material (Table <ref type="table" target="#tab_1">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Our results considered effects of trap type and environmental factors on the detection of grizzly bears at hair-trap sampling sites. All factors combined (trap type, sex, season, genetic material, and trap duration) produced a range of detection probabilities spanning 2 orders of magnitude.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Relative detection success</head><p>Per site, bait sites detected many more bears than rub objects (56 more). This is not surprising given that bait sites provide significant incentive for a bear to enter. Rub objects are not baited and rely on natural behavior of bears to rub <ref type="bibr" target="#b11">(Clapham et al. 2012)</ref>.</p><p>The decreased detection at rub objects can be offset by running these sites in greater volumes, which is feasible given that these sites require no construction other than attaching a segment of barbed wire and are quicker to monitor than bait sites that typically have 20-30 m of barbed-wire fence to check. For example, in 2010 we monitored approximately 6-fold more rub objects than bait sites and detected a similar number of bears at each type of trap (27 bait sites 5 41 bears; 164 rub objects 5 51 bears).</p><p>Sex effects were most pronounced at rub objects, which had strong male-biased detection, especially during the breeding season (Fig. <ref type="figure" target="#fig_3">4</ref>). Sex-biased detection at rub objects has been identified by others <ref type="bibr">(Kendall et al. 2009</ref><ref type="bibr" target="#b23">, Karamanlidis et al. 2010</ref><ref type="bibr" target="#b49">, Stetz et al. 2010</ref><ref type="bibr" target="#b46">, Sato et al. 2014</ref><ref type="bibr" target="#b48">, Seryodkin 2014</ref>) and we  further this understanding by providing a continuous measure of detection throughout the sampling season. Our results should help others to determine the sampling periods that will detect the most male and female grizzly bears at rub objects.</p><p>In general, grizzly bear detection at bait sites varied by sex and season but the differences were less pronounced than those for rub objects. In 3 of 4 study areas, female detection increased over the sampling period, similar to results found by <ref type="bibr" target="#b25">Kendall et al. (2008</ref><ref type="bibr">Kendall et al. ( , 2009))</ref>. Detection at bait sites decreased through the season in the South Rockies (although not significantly), and we speculate that this pattern resulted because we did not move sites for each session (which the other 3 studies did). Thus the decrease in detection through the season in the South Rockies may represent a behavioral avoidance of the trap in the second sampling session. Also, detection may be influenced by sampling design and effort-in a systematic design, larger cells may generate higher RDS because field staff will be able to choose the very best sites available across a larger area (such as in our South Rockies study area). We hypothesize that this is one of the reasons that males had greater detection than females in our South Rockies study area, whereas other studies had comparable detection between the sexes. We deployed bait traps in the most optimum bear habitat in the sample unit. As a result, we may have placed sites in habitats best for detecting male bears, whereas studies with smaller cells may be forced to choose less ideal habitat for some sites, which may be used more by females, and especially females with cubs.</p><p>If certain subsets of the population are detected at different rates than others because of age, sex, etc., detection probability should ideally be estimated for each subset of the population in the CR model <ref type="bibr">(White and</ref><ref type="bibr">Burnham 1999, Cooch and</ref><ref type="bibr" target="#b13">White 2006)</ref>. For both rub objects and bait sites, detection probability should be estimated as a function of sex. In addition, breeding and non-breeding season detection probabilities should be estimated for males at rub objects, assuming adequate sample sizes. Similarly, we suggest investigators either deploy a sufficient number of rub objects to ensure an appropriate portion of the female population is detected to attain desired precision, which will be population-specific <ref type="bibr" target="#b3">(Boulanger 2000)</ref>. Or, incorporate bait sites into the sampling design to increase female detections and thus detection probability and model precision <ref type="bibr" target="#b27">(Boulanger et al. 2008</ref><ref type="bibr" target="#b47">, Sawaya et al. 2012</ref><ref type="bibr" target="#b52">, Whittington and Sawaya 2014)</ref>. Rub objects alone may not be a sound method to estimate population size based on a single year of sampling because a portion of the female population may not rub on trees if they do not have cubs <ref type="bibr" target="#b11">(Clapham et al. 2012)</ref>. This may not be a problem for long-term, monitoring-based approaches in which an open model of population growth is the desired analysis method <ref type="bibr" target="#b49">(Stetz et al. 2010)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genotyping success</head><p>Our results estimated that genotyping success can decrease by approximately 0.33% for each additional day between sample checks. The magnitude of the duration effect was not as severe as we had initially thought. Given that site checks for most grizzly bear population inventories are generally 14 days for bait sites (conferring a total decrease in success of 5.4% in the climate considered here, compared with a sample collected immediately) and 20-40 days for rub objects (7.5-11.5% total decrease in success), we do not see any reason to recommend shorter sessions to increase genotyping success for inventories conducted in similar climates (Table <ref type="table" target="#tab_0">1</ref>). Those inventories planned in areas that receive large amounts of precipitation or high solar exposure <ref type="bibr" target="#b16">(Dumond et al. 2015</ref><ref type="bibr">, Stetz et al. 2015</ref>) may want to use shorter sessions than we used here or, investigate genotyping success in their system. For multiyear studies using rub objects, our results confirm that running fewer longer sessions can meet sampling needs while reducing field costs in a relatively dry, temperate climate. Investigators may also want to consider the efficiency of increasing session length to detect more bears per trap check with possible reductions in detection due to the mixing of samples from different individuals as more bears are detected between visits.</p><p>Although the top 2 models included duration and not rainfall (Table <ref type="table" target="#tab_2">2</ref>), we recommend interpreting these results with caution because duration and rainfall were correlated. Duration and rainfall produced similar reductions in genotyping success as inferred from the effect sizes of these variables (Table <ref type="table" target="#tab_1">3</ref>), and the effects of moisture have been shown to be the driver of sample denaturation, not time <ref type="bibr" target="#b9">(Brinkman et al. 2009</ref><ref type="bibr">, Stetz et al. 2015)</ref>. Rainfall strongly reduced genotyping success of deer (Odocoileus sp.) pellets in coastal Alaska, USA <ref type="bibr" target="#b9">(Brinkman et al. 2009)</ref>. Similar to <ref type="bibr">Stetz et al. (2015)</ref>, we conclude that average daily temperature did not present a major source of reduction in genotyping success relative to other factors such as the amount of genetic material and duration or rainfall between trap checks. We note that trap duration is an index for rainfall, humidity, and exposure to sunlight and can be altered by investigators, whereas weather events cannot be.</p><p>We found that for equal numbers of hairs, guard hair provided greater genotyping success compared with underfur (Fig. <ref type="figure" target="#fig_4">5</ref>). <ref type="bibr">Kendall et al. (2009)</ref> examined genotyping success as part of a large grizzly bear inventory in Montana, and found success exceeded 70% with .3 guard hairs or .11 underfur. We found similar success rates for guard hair but not underfur; we found we needed .20 underfur to achieve 70% success (Fig. <ref type="figure" target="#fig_4">5</ref>). We propose that the quality and quantity of hair largely determines genotyping success, with the duration and rainfall between trap checks providing a secondary influence. We have provided a measure of success for varying amounts of guard hair and underfur (Fig. <ref type="figure" target="#fig_4">5</ref>) as well as a general formula to estimate genotyping success when both guard hair and underfur are used in the extraction (Supplemental Material, Formula 1) to assist in subsampling decisions.</p><p>Using our information, investigators can balance cost-efficiency with sampling coverage, and choose a genotyping success threshold that accommodates their study objectives. We suggest that sessions (duration between site checks) be kept to ,30 days so as to achieve $65% genotyping success rate (assuming average sample quality; Fig. <ref type="figure" target="#fig_5">6</ref>). The rate of reduction in genotyping success with trap-check duration was 21% greater with underfur than guard hair (data not shown) and future researchers may want to incorporate this in their sub-sampling rules.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recommendations</head><p>Study Question 1: What factors influence whether a bear deposits hair at a site? 1. Male detection was highest during the breeding season and female detection increased slightly early in the breeding season and then stabilized. Deploy rub objects to include the breeding season (mid-May-mid-Jul) to maximize the detection of males but deploy rub objects later in the breeding season to maximize the detection of female grizzly bears. Rub trees are not well-suited for monitoring females unless deployed in high volumes. 2. Begin bait-site sampling near the end of the breeding season (late Jun) to maximize female detections; begin near the beginning of the breeding season (May-early Jun) to maximize male detections.</p><p>Study Question 2: What influences whether a sample, once deposited, produces an individual genetic identity?</p><p>1. Check sample sites in ,30 days in temperate climates with infrequent rainfall and low humidity. Reduce trap-check periods when samples are exposed to strong sun or rain or are in humid climates <ref type="bibr">(Stetz et al. 2015)</ref>.</p><p>Choose sample site locations that minimize rain and direct sun on collected samples. 2. Consider both quantity of hair follicles and the duration hair samples were exposed to weather conditions to achieve a minimum level of genotyping success and limit genotyping costs. In our study areas, we plan to genotype samples with $2 guard hairs or .15 underfur. For samples older than 30 days, we plan to limit genetic analysis to $3 guard hairs or .30 underfur.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. The South Rockies study area where we evaluated detection of grizzly bears, showing all hairsampling site locations used during 2006-2012, bisected east-west by Highway 3. Shaded area in inlay map depicts grizzly bear range in 2000. Other study area boundaries include (1) South Rockies (main study area), (2) Flathead (independent project conducted within our main study area during 2007), (3) Central Selkirks, and (4) Parsnip River. All study areas were in British Columbia, Canada.</figDesc><graphic coords="5,297.18,66.50,221.83,291.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Relative daily grizzly bear detection success (individuals/site/n individuals [/100 km 2 ]/day) with standard errors, for hair-trap bait sites at 4 inventory projects in British Columbia, Canada: (A) South Rockies-based on trapping results during 2006-2012 in the southern Rocky Mountain area of Canada; (B) Flathead Valley 2007 inventory; (C) Selkirk Mountains 1996 inventory; (D) Parsnip River 2000 inventory.</figDesc><graphic coords="9,297.24,66.50,221.66,446.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Relative mean daily detection success (individuals/site/n individuals [/100 km 2 ]/day) by hairtrap type and sex of grizzly bears in the South Rockies Study Area, British Columbia, Canada, during 2006-2012. Error bars are standard errors.</figDesc><graphic coords="9,55.05,66.50,221.89,241.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Relative daily grizzly bear detection success (individuals/site/n individuals[/100 km 2 ]/day) with standard errors, for hair-trap objects, based on trapping results during 2009-2012 in the South Rockies Study Area, British Columbia, Canada. End of breeding season from<ref type="bibr" target="#b14">Craighead and Mitchell (1982)</ref>.</figDesc><graphic coords="10,97.91,66.50,344.18,201.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Effect of type and quantity of grizzly bear hair on genotyping success. Shown here are summary statistics from 1,059 guard hair (squares) and 1,110 underfur hair samples (circles) collected from the South Rockies and Flathead study areas in British Columbia, Canada, during 2006-2012.</figDesc><graphic coords="10,98.08,384.44,343.86,247.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Predicted effect of genetic material and duration on genotyping success top model in Table 2 (Model 2, Area Under Curve 5 0.846) based on grizzly bear hair samples collected during 2006 to 2012 from the South Rockies and Flathead Study Areas, British Columbia, Canada. Shaded region represents standard error bands.</figDesc><graphic coords="13,297.24,66.50,221.57,327.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Annual weather patterns from the South Rockies and Flathead Study Areas, British Columbia, Canada, where we evaluated factors influencing detection of grizzly bears at hair-sampling sites sampled during 1 June to 15October (2006October ( -2012)).</figDesc><table><row><cell>Study yr</cell><cell>Min. temp (6C)</cell><cell>Mean temp (6C)</cell><cell>Max. temp (6C)</cell><cell>Total rainfall (mm)</cell><cell>Total snowfall (cm)</cell></row><row><cell>2005</cell><cell>4.1</cell><cell>11.1</cell><cell>18.0</cell><cell>540</cell><cell>34</cell></row><row><cell>2006</cell><cell>4.3</cell><cell>12.4</cell><cell>20.5</cell><cell>221</cell><cell>15</cell></row><row><cell>2007</cell><cell>4.3</cell><cell>12.3</cell><cell>20.2</cell><cell>282</cell><cell>2</cell></row><row><cell>2008</cell><cell>3.6</cell><cell>11.7</cell><cell>19.9</cell><cell>356</cell><cell>0</cell></row><row><cell>2009</cell><cell>3.7</cell><cell>11.7</cell><cell>19.5</cell><cell>370</cell><cell>27</cell></row><row><cell>2010</cell><cell>4.4</cell><cell>11.7</cell><cell>18.8</cell><cell>350</cell><cell>4</cell></row><row><cell>2011</cell><cell>4.4</cell><cell>12.2</cell><cell>19.7</cell><cell>236</cell><cell>1</cell></row><row><cell>2012</cell><cell>4.5</cell><cell>12.4</cell><cell>20.2</cell><cell>410</cell><cell>19</cell></row><row><cell>2013</cell><cell>5.1</cell><cell>12.7</cell><cell>20.0</cell><cell>371</cell><cell>6</cell></row><row><cell>2014</cell><cell>5.7</cell><cell>13.4</cell><cell>20.9</cell><cell>313</cell><cell>5</cell></row><row><cell>Mean ¡ SE</cell><cell>4.4 ¡ 0.6</cell><cell>12.2 ¡ 0.6</cell><cell>19.8 ¡ 0.8</cell><cell>344.9 ¡ 91.9</cell><cell>11.3 ¡ 11.9</cell></row></table><note><p><p>34 DRIVERS OF GENETIC GRIZZLY DETECTION N Lamb et al.</p>Ursus 27(1):31-44 (2016)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 3 .</head><label>3</label><figDesc>Standardized and non-standardized beta coefficients (odds ratios) from 4 select genotyping success models described in Table2, with standard errors below coefficient. ***P , 0.001.</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Standardized model output</cell><cell></cell><cell></cell><cell cols="2">Non-standardized model output</cell><cell></cell></row><row><cell>Model</cell><cell>2</cell><cell>6</cell><cell>7</cell><cell>4</cell><cell>2</cell><cell>6</cell><cell>7</cell><cell>4</cell></row><row><cell>GenMat</cell><cell>1.033***</cell><cell>1.033***</cell><cell>1.025***</cell><cell>1.025***</cell><cell>0.091***</cell><cell>0.091***</cell><cell>0.090***</cell><cell>0.090***</cell></row><row><cell></cell><cell>-0.059</cell><cell>-0.059</cell><cell>-0.059</cell><cell>-0.059</cell><cell>-0.005</cell><cell>-0.005</cell><cell>-0.005</cell><cell>-0.005</cell></row><row><cell>Duration</cell><cell>-0.161***</cell><cell>-0.161***</cell><cell></cell><cell></cell><cell>-0.015***</cell><cell>-0.015***</cell><cell></cell><cell></cell></row><row><cell></cell><cell>-0.052</cell><cell>-0.052</cell><cell></cell><cell></cell><cell>-0.005</cell><cell>-0.005</cell><cell></cell><cell></cell></row><row><cell>RainDays</cell><cell></cell><cell></cell><cell>-0.142***</cell><cell>-0.161***</cell><cell></cell><cell></cell><cell>-0.027***</cell><cell>-0.030***</cell></row><row><cell></cell><cell></cell><cell></cell><cell>-0.054</cell><cell>-0.059</cell><cell></cell><cell></cell><cell>-0.01</cell><cell>-0.011</cell></row><row><cell>MeanT</cell><cell></cell><cell>-0.00001</cell><cell></cell><cell>-0.047</cell><cell></cell><cell>0.00</cell><cell></cell><cell>-0.018</cell></row><row><cell></cell><cell></cell><cell>-0.059</cell><cell></cell><cell>-0.065</cell><cell></cell><cell>-0.023</cell><cell></cell><cell>-0.025</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>Model-fit results for the relationship of genotyping success and the amount of genetic material in the sample (GenMat), the number of days between trap check (Duration), the number of rainfall events .1 mm between the trap checks (RainDays), and the mean temperature between trap checks (MeanT) from grizzly bear hair samples collected during 2006 to 2012 from the South Rockies and Flathead Study Areas, British Columbia, Canada. AIC 5 Akaike Information Criterion, w i 5 the model weight, and k 5 the number of parameters in the model.DRIVERS OF GENETIC GRIZZLY DETECTIONN Lamb et al. 39    </figDesc><table><row><cell>No.</cell><cell>Model</cell><cell>N</cell><cell>AIC</cell><cell>ΔAIC</cell><cell>w i</cell><cell>k</cell><cell>Deviance</cell></row><row><cell>2</cell><cell>y, GenMat + Duration</cell><cell>2,638</cell><cell>2,879.02</cell><cell>0.00</cell><cell>0.534</cell><cell>2</cell><cell>2,970.7</cell></row><row><cell>6</cell><cell>y, GenMat + Duration + MeanT</cell><cell>2,638</cell><cell>2,881.02</cell><cell>2.00</cell><cell>0.196</cell><cell>3</cell><cell>2,970.4</cell></row><row><cell>7</cell><cell>y, GenMat + RainDays</cell><cell>2,638</cell><cell>2,881.63</cell><cell>2.61</cell><cell>0.145</cell><cell>2</cell><cell>2,972.7</cell></row><row><cell>4</cell><cell>y, GenMat + RainDays + MeanT</cell><cell>2,638</cell><cell>2,883.09</cell><cell>4.07</cell><cell>0.070</cell><cell>3</cell><cell>2,972.5</cell></row><row><cell>5</cell><cell>y, GenMat + RainDays + MeanT + (RainDays*MeanT)</cell><cell>2,638</cell><cell>2,884.33</cell><cell>5.31</cell><cell>0.038</cell><cell>4</cell><cell>2,972.2</cell></row><row><cell>1</cell><cell>y, GenMat</cell><cell>2,638</cell><cell>2,886.60</cell><cell>7.58</cell><cell>0.012</cell><cell>1</cell><cell>2,987.6</cell></row><row><cell>3</cell><cell>y, GenMat + MeanT</cell><cell>2,638</cell><cell>2,888.41</cell><cell>9.38</cell><cell>0.005</cell><cell>2</cell><cell>2,986.2</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_0"><p>email: ctlamb@ualberta.ca</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Ursus 27(1):31-44 (2016)</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We thank <rs type="person">C. Gardner</rs> and one anonymous reviewer for insightful reviews of this manuscript. This manuscript would not be what it is today without the valuable comments from Ursus Editor <rs type="person">J. Belant</rs> and Associate Editor <rs type="person">R. Shideler</rs>. Thanks to the many people who have helped with data collection, especially <rs type="person">L. DeGroot</rs>, <rs type="person">M. Gall</rs>, <rs type="person">A. Chirico</rs>, <rs type="person">C. Gaynor</rs>, <rs type="person">C. Boseman</rs>, <rs type="person">B. Philips</rs>, <rs type="person">L. Grant</rs>, <rs type="person">J. Strong</rs>, The <rs type="affiliation">Nature Trust of British Columbia Cranbrook field crews</rs>, <rs type="person">C. Tolkamp</rs>, <rs type="person">J. Tyrell</rs>, <rs type="person">I. Teske</rs>, and <rs type="person">T. Szkorupa</rs>. We would also like to thank the staff at <rs type="institution">Wildlife Genetics International in Nelson, British Columbia (BC)</rs>. Funding was from the <rs type="funder">BC Ministry of Environment-Kootenay Region</rs> and the <rs type="funder">Wildlife Inventory Fund</rs>, the <rs type="funder">Ministry of Forests, Lands and Natural Resource Operations-Kootenay Region, Habitat Conservation Trust Foundation</rs>, <rs type="funder">Safari Club International, BP Canada</rs>, and The <rs type="funder">Nature Trust</rs>. Thanks to <rs type="person">S. Nielsen</rs> for providing modelling advice and to <rs type="person">B.</rs> and <rs type="person">S. Hanlon</rs> for providing logistical support in the field.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A new look at the statistical model identification</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Akaike</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Automatic Control</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="716" to="723" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Fitting linear mixed-effects models using lme4</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mächler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bolker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">S</forename><surname>Walker</surname></persName>
+		</author>
+		<idno type="DOI">10.18637/jss.v067.i01</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Statistical Software</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Estimating black bear population density and genetic diversity at Tensas River, Louisiana using microsatellite DNA markers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Boersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">T</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="197" to="207" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boulanger</surname></persName>
+		</author>
+		<title level="m">Granby-Kettle/Boundary Forest District 1997 grizzly bear DNA mark-recapture inventory project: Statistical analysis and population estimates</title>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Ministry of Environment, Lands, and Parks, Kamloops</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename></persName>
+		</author>
+		<imprint>
+			<publisher>Nelson</publisher>
+			<pubPlace>British Columbia, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Multiple data sources improve DNA-based mark-recapture population estimates of grizzly bears</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Roon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="577" to="589" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Grizzly bear population and density estimates for Alberta bear management unit 6 and British Columbia management units 4-1, 4-2</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Machutchon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Stenhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cranston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Report Prepared for the Alberta Sustainable Resource Development</title>
+		<meeting><address><addrLine>British Columbia, Canada</addrLine></address></meeting>
+		<imprint>
+			<publisher>British Columbia Ministry of Environment and Parks Canada, Nelson</publisher>
+			<date type="published" when="2007">2008. 2007</date>
+			<biblScope unit="page" from="4" to="23" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Sources of heterogeneity bias when DNA mark-recapture sampling methods are applied to grizzly bear (Ursus arctos) populations</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stenhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Munro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="618" to="624" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A meta-analysis of grizzly bear DNA mark-recapture projects in British Columbia</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proc-Tor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">S</forename><surname>Himmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canada. Ursus</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="137" to="152" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effects of time and rainfall on PCR success using DNA extracted from deer fecal pellets</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Brinkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Person</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pil-Grim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Hundertmark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1547" to="1552" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The use of photographic rates to estimate densities of tigers and other cryptic mammals</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carbone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Christie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Conforti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Coulson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Franklin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Ginsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Holden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kawanishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kinnaird</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Laidlaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lynam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Martyr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mcdougal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Nath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seidensticker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J L</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sunquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Shahruddin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Conservation</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="75" to="79" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A hypothetico-deductive approach to assessing the social function of chemical signalling in a non-territorial solitary carnivore</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Clapham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Nevin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ramsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">F</forename><surname>Rosell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS one</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">35404</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Scent-marking investment and motor patterns are affected by the age and sex of wild brown bears</title>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Behaviour</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="107" to="116" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Program MARK: A gentle introduction</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cooch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>White</surname></persName>
+		</author>
+		<idno type="DOI">10.3996/122012-JFWM-110R1/suppl_file/10.3996_122012-jfwm-110r1.s8.pdf</idno>
+		<ptr target="http://www.fwspubs.org/doi/suppl/10.3996/122012-JFWM-110R1/suppl_file/10.3996_122012-jfwm-110r1.s8.pdf" />
+		<imprint>
+			<date type="published" when="2006-11-15">2006. 15 Nov 2013</date>
+		</imprint>
+	</monogr>
+	<note>Thirteenth edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Grizzly bear</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Craighead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mitchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Wild mammals of North America-Biology, management, economics</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Chapman</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Feldhamer</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Baltimore, Maryland, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Johns Hopkins University Press</publisher>
+			<date type="published" when="1982">1982</date>
+			<biblScope unit="page" from="515" to="556" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Subsampling hair samples affects accuracy and precision of DNA-based population estimates</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Dreher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J M</forename><surname>Rosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Lukacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Scribner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Winterstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="1184" to="1188" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The estimation of grizzly bear density through hair-snagging techniques above the tree line</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dumond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boulanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="390" to="402" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Drivers Of Genetic Grizzly Detection N</forename><surname>Lamb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="31" to="44" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Exploring ecological relationships in survival and estimating rates of population change using Program MARK</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Franklin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Wildlife, land and people: Priorities for the 21st century</title>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Field</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Warren</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">H</forename><surname>Okarma</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Sievert</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Bethesda, Maryland, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>The Wildlife Society</publisher>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="350" to="356" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Mark-recapture density estimation for animals with large home ranges</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Garshelis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Wildlife 2001: Populations</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Mccullough</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Barrett</surname></persName>
+		</editor>
+		<meeting><address><addrLine>The Netherlands</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1992">1992</date>
+			<biblScope unit="page" from="1098" to="1111" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Tree rubbing by Yellowstone grizzly bears Ursus arctos</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mattson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Biology</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Obtaining high-quality DNA from elusive small mammals using low-tech hair snares</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Russello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="429" to="435" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Polar bear use of a persistent food subsidy: Insights from non-invasive genetic sampling in Alaska</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Herreman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Peacock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="148" to="163" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic studies of brown bears using power poles</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Karamanlidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Drosopoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">De</forename><surname>Gabriel Hernando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Georgiadis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Krambokoukis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pllaha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zedrosser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Scouras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="693" to="702" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Using sign at power poles to document presence of bears in Greece</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Youlatos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sgardelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Scouras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="54" to="61" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Hair collection</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mckelvey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Noninvasive survey methods for carnivores</title>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Mackay</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">W</forename><surname>Zielinski</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Ray</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Washington, DC, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Island Press</publisher>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="page" from="135" to="176" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Demography and genetic structure of a recovering grizzly bear population</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boulanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Macleod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="3" to="17" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Grizzly bear density in Glacier National Park, Montana</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Roon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boulanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1693" to="1705" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Development and application of a molecular sexing protocol in the climate change-sensitive American pika</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Lamb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Robson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Russello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics Resources</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="17" to="19" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Review of capture-recapture methods applicable to noninvasive genetic sampling</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Lukacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="3909" to="3919" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Status of the Gobi bear in Mongolia as determined by noninvasive genetic methods</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mccarthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mijiddorj</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="30" to="38" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Population size and structure of whale sharks Rhincodon typus at Ningaloo Reef, Western Australia</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meekan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bradshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Press</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Ecology-Progress Series</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="page" from="275" to="285" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Efford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">S</forename><surname>Nielsen</surname></persName>
+		</author>
+		<ptr target="http://www.env.gov.bc.ca/wildlife/wsi/reports/5160_WSI_5160_RPT_SOUTHERN_ROCKIES_V6" />
+		<title level="m">South Rockies &amp; Flathead grizzly bear monitoring final report 2006-2011</title>
+		<meeting><address><addrLine>British Columbia, Canada</addrLine></address></meeting>
+		<imprint>
+			<publisher>Nelson</publisher>
+			<date type="published" when="2013-06-15">2013. 15 Jun 2013</date>
+		</imprint>
+	</monogr>
+	<note>Prepared for Province of British Columbia</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Grizzly Ursus arctos and black bear U. americanus densities in the interior mountains of North America</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Heard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Seip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poole</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Biology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="31" to="48" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Poole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Seip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Heard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Paetkau</surname></persName>
+		</author>
+		<ptr target="http://www.env.gov.bc.ca/omineca/documents/parsnip_grizzly_inventory_final.pdf" />
+		<title level="m">Grizzly and black bear densities in interior British Columbia</title>
+		<meeting><address><addrLine>British Columbia, Canada</addrLine></address></meeting>
+		<imprint>
+			<publisher>Prince George, British Columbia, Canada; and British Columbia Ministry of Water, Land, and Air Protection Fish and Wildlife Branch, Omineca Subregion, Prince George</publisher>
+			<date type="published" when="2002-11-15">2002. 15 Nov 2013</date>
+		</imprint>
+	</monogr>
+	<note>Submitted to</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Estimating population size of grizzly bears using hair capture, DNA profiling, and mark-recapture analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="183" to="193" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Estimation methodology in contemporary small mammal capture-recapture studies</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pollock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="253" to="260" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Can models of presence-absence be used to scale abundance? Two case studies considering extremes in life history</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Heard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">M</forename><surname>Boyce</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecography</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="197" to="208" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">An empirical exploration of data quality in DNA-based population inventories</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1375" to="1387" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The yearly immigration of young plaice into the Limfjord from the German Sea</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Petersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Report of the Danish Biological Station</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="5" to="84" />
+			<date type="published" when="1896">1896</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">DNA-based population estimate for grizzly bears Ursus arctos in northeastern British Columbia, Canada</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">D</forename><surname>Fear</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Biology</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="105" to="115" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Population fragmentation and inter-ecosystem movements of grizzly bears in western Canada and the northern United States</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Sten-House</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Mace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Kasworm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Servheen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Lausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Gibeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Wakki-Nen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Haroldson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Apps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Ciarniello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M R</forename><surname>Barclay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Boyce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Monographs</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">R: A language and environment for statistical computing</title>
+		<author>
+			<persName><forename type="first">R Core</forename><surname>Team</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<pubPlace>Vienna, Austria</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">R Core Team</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Estimating abundance of American black bears using DNA-based capture-mark-recapture models</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Alpine parnassius butterfly dispersal: Effects of landscape and population size</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Roland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Keyghobadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">S</forename><surname>Fownes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="1642" to="1653" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Drivers Of Genetic Grizzly Detection N</forename><surname>Lamb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="31" to="44" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Selection of rub trees by brown bears (Ursus arctos) in Hokkaido, Japan</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kamiishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tokaji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koizumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Itoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sonohara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Takada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Urata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Theriologica</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="129" to="137" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Estimating grizzly and black bear population abundance and trend in Banff National Park using noninvasive genetic sampling</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sawaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Clevenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Gibeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Kalinowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">34777</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Marking activity of the Kamchatka brown bear (Ursus arctos piscator)</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Seryodkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Achievements in the Life Sciences</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="153" to="161" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Evaluation of bear rub surveys to monitor grizzly bear population trends</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Servheen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="860" to="870" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Effects of exposure on genotyping success rates of brown and American black bears</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Seitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sawaya</surname></persName>
+		</author>
+		<idno type="DOI">10.3996/122013-JFWM-085</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Fish and Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1944" to="1687" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Program MARK: Survival estimation from populations of marked animals</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bird Study</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="120" to="S139" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Grizzly bear monitoring with DNA: New analytical methods and next steps</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Whittington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sawaya</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<pubPlace>Banff National Park, Banff, Alberta, Canada</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Estimating density of ship rats in New Zealand forests by capture-mark-recapture trapping</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Efford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mcelrea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New Zealand Journal of Ecology</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="47" to="59" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Genetic tagging of free-ranging black and brown bears</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="616" to="627" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Simulation of effects of learned trap response on three estimators of population size</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zarnoch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="474" to="483" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

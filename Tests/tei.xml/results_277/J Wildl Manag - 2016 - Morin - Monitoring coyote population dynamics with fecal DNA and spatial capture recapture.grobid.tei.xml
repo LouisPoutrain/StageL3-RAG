@@ -1,0 +1,2361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Monitoring Coyote Population Dynamics With Fecal DNA and Spatial Capture-Recapture</title>
+				<funder>
+					<orgName type="full">Virginia Department of Game &amp; Inland Fisheries</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Cunningham Fellowship (Virginia Tech Graduate School)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Appalachian members of the Virginia Deer Hunter Association</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">The Nature Conservancy</orgName>
+				</funder>
+				<funder ref="#_AfYESSy">
+					<orgName type="full">United States Fish and Wildlife Service</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Edna Bailey Sussman Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Dana</forename><forename type="middle">J</forename><surname>Morin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marcella</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lisette</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Fish and Wildlife Conservation</orgName>
+								<orgName type="institution">Virginia Tech</orgName>
+								<address>
+									<addrLine>106 Cheatham Hall</addrLine>
+									<postCode>24061</postCode>
+									<settlement>Blacksburg</settlement>
+									<region>VA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Fish and Wildlife Conservation</orgName>
+								<orgName type="institution">Virginia Tech</orgName>
+								<address>
+									<addrLine>106 Cheatham Hall</addrLine>
+									<postCode>24061</postCode>
+									<settlement>Blacksburg</settlement>
+									<region>VA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Fish and Wildlife Sciences</orgName>
+								<orgName type="laboratory">New York Cooperative Fish and Wildlife Research Unit</orgName>
+								<orgName type="institution">University of Idaho</orgName>
+								<address>
+									<addrLine>875 Perimeter Drive</addrLine>
+									<postCode>83844-1136</postCode>
+									<settlement>Moscow</settlement>
+									<region>ID</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Natural Resources</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<addrLine>211E Fernow Hall</addrLine>
+									<postCode>14853</postCode>
+									<settlement>Ithaca</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Monitoring Coyote Population Dynamics With Fecal DNA and Spatial Capture-Recapture</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4ED6AFBA8BD9857AC6A95FDB57ABDE85</idno>
+					<idno type="DOI">10.1002/jwmg.21080</idno>
+					<note type="submission">Received: 24 July 2015; Accepted: 10 March 2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:48+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>hoc robust design</term>
+					<term>apparent survival</term>
+					<term>Canis latrans</term>
+					<term>coyote</term>
+					<term>density dependence</term>
+					<term>density estimation</term>
+					<term>non-invasive genetic sampling</term>
+					<term>population dynamics</term>
+					<term>recruitment</term>
+					<term>spatial capture-recapture</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Estimating coyote (Canis latrans) density and other demographic parameters is difficult, particularly for populations that exist at low density. This is the situation for recently established coyote populations in the eastern United States where populations may be below carrying capacity and growth unregulated. We used non-invasive fecal DNA collected from 5 scat sampling sessions over 2.5 years to estimate population parameters (i.e., density, apparent survival, recruitment, and population growth) for coyotes at 2 different sites in the Ridge and Valley region of the central Appalachians in Virginia, USA. We identified individuals using microsatellite genotypes and estimated apparent survival for the local population at both sites across the 5 sessions in a single Cormack-Jolly-Seber model. We estimated density for each site and session separately using single session spatial replicates of 0.5-km transect segments as traps in a spatial capture-recapture model. Finally, we derived estimates of recruitment and population growth using an ad hoc robust design approach. We were able to estimate population parameters, even though coyote densities at both sites were low. Generally, derived recruitment and apparent survival were inversely related across sites, however, precision in estimates was poor. Thus, although there appeared to be some differences in demographic estimates for local coyote populations, uncertainty in parameters was too great to detect changes in demographic rates over short periods of time using ad hoc robust design. However, the non-invasive genetic sampling and spatial capture-recapture approach provides a useful methodology and framework for future research intended to estimate population dynamics for coyotes. This method will also be useful for other species that occur at low densities, over large spatial scales, and lack distinguishing marks for cameratrap surveys. Finally, we believe this method will allow for detection of population trends over greater periods of time, and we consider alternate sampling strategies and modeling approaches that may improve the ability to estimate demographic rates of change for coyote populations using noninvasive genetics and spatial capture-recapture.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Over the last 2 centuries coyotes (Canis latrans) have expanded their range from the central plains of the United States, prior to European settlement, to most of North America <ref type="bibr" target="#b4">(Bekoff 1978</ref><ref type="bibr" target="#b56">, Parker 1995</ref><ref type="bibr">, Gompper 2002a</ref><ref type="bibr" target="#b34">, Kays et al. 2008</ref>). As a result, human-coyote conflicts have increased, inciting concerns about the potential impacts to prey and competitors <ref type="bibr" target="#b43">(Litvaitis and Harrison 1989</ref><ref type="bibr">, Gompper 2002b</ref><ref type="bibr" target="#b36">, Kilgo et al. 2012)</ref>. As coyote populations expanded into each new area, the natural resource agencies and state legislatures often responded with attempts to limit expansion, reduce coyote densities, and manage conflict with humans using lethal removals <ref type="bibr" target="#b31">(Houben 2004</ref>). However, lethal removal efforts have yielded little to no success <ref type="bibr" target="#b11">(Conner and Morris 2015)</ref>. Therefore, it is of practical use to obtain estimates of coyote demographic parameters to evaluate population responses to management efforts and to understand why current management strategies are unsuccessful.</p><p>Management of animal populations requires influencing !1 of 4 population processes (i.e., inputs <ref type="bibr">[births and immigration]</ref> and outputs [mortality and emigration]), and success is ideally measured by changes in local abundance or density <ref type="bibr" target="#b10">(Cole 1954</ref><ref type="bibr" target="#b53">, Nichols et al. 2000</ref><ref type="bibr" target="#b92">, Williams et al. 2002)</ref>. Thus, estimating and understanding local densities and population dynamics is critical to making informed management decisions <ref type="bibr" target="#b35">(K ery and Schaub 2012)</ref>. Eastern coyote populations may have high mortality rates, exhibit complex adaptive social structures, and can occur at low densities over broad spatial scales <ref type="bibr" target="#b33">(Kamler and Gipson 2000</ref><ref type="bibr" target="#b57">, Patterson and Messier 2001</ref><ref type="bibr" target="#b29">, Hinton et al. 2015)</ref>. As a result, obtaining unbiased estimates of coyote population parameters has been difficult and often requires problematic assumptions about closure, counts, or detection <ref type="bibr" target="#b6">(Bozarth et al. 2015</ref><ref type="bibr" target="#b25">, Gulsby et al. 2015</ref><ref type="bibr" target="#b26">, Hansen et al. 2015)</ref>.</p><p>Effectively estimating population parameters requires a way to count individuals and a way to account for imperfect detection of individuals. Traditionally, these concepts have been addressed with capture-recapture models using repeated encounters with marked individuals over time through the visual observation of natural or applied individual marks <ref type="bibr" target="#b55">(Otis et al. 1978</ref><ref type="bibr" target="#b92">, Williams et al. 2002)</ref>. Application of capture-recapture methods has been limited with coyotes because they are difficult to capture and recapture at encounter rates required for reliable parameter estimation <ref type="bibr" target="#b25">(Gulsby et al. 2015)</ref>. Although camera traps have improved our ability to monitor many carnivore populations <ref type="bibr" target="#b54">(O'Connell et al. 2010</ref><ref type="bibr" target="#b47">, Meek et al. 2014)</ref>, coyotes do not typically have distinguishing marks to allow for use of traditional camera trap designs. Although it is possible to collar coyotes and use mark-resight models <ref type="bibr" target="#b46">(McClintock and White 2009;</ref><ref type="bibr">Sollmann et al. 2013a,b;</ref><ref type="bibr" target="#b2">Alonso et al. 2015)</ref> based on camera trap resightings of collared individuals at specific locations, this would violate the assumption of equal capture-recapture probabilities across space, resulting in biased estimates <ref type="bibr">(Royle et al. 2013b</ref>). In addition, coyote movement and space use are highly variable <ref type="bibr" target="#b29">(Hinton et al. 2015)</ref>. Therefore, recent development of unmarked individual count models that use minimal encounter information <ref type="bibr">(Royle 2004, Chandler and</ref><ref type="bibr">Royle 2013</ref>) are unemployable because model assumptions of similar movement, critical for accurate estimates, are unlikely met for coyote populations. Finally, coyote individual behavior and space use can result in an unknown amount of capture heterogeneity determined solely by where a capture grid is placed in relation to individual home ranges. This likely violates assumptions about geographic closure and impedes our ability to estimate an effective sampling area <ref type="bibr">(Royle et al. 2013b)</ref>.</p><p>Two recent advancements in population monitoring improve our ability to identify individual coyotes and to account for detection in estimating density and effective trapping area given large-scale coyote space use. Noninvasive genetic sampling (NGS) allows for detection of individuals without the need for physical capture <ref type="bibr" target="#b90">(Waits and Paetkau 2005)</ref>. This method has seen prolific recent use, particularly for monitoring carnivores and other elusive and wide-ranging species <ref type="bibr" target="#b40">(Lampa et al. 2013)</ref>. Spatial capturerecapture (SCR) models allow for the estimation of density based on the movement of marked individuals around activity centers over multiple possible encounters <ref type="bibr" target="#b69">(Royle and</ref><ref type="bibr">Young 2008, Royle et al. 2013b</ref>). Thus, SCR allows for explicit modeling of inherent spatial heterogeneity in encounter probabilities and can provide unbiased estimates of density (no. individuals over a unit of area) for an area of interest. We combined NGS and SCR methods to estimate local coyote densities over multiple sessions at 2 sites in western Virginia, USA. We expected to find differences in local population dynamics between sites as a result of different intensities of harvest (permitted year-round) and available resources. We predicted that mortality and subsequent recruitment would be greater in areas with higher human population density and private inholdings that allowed for greater opportunity for coyote harvest compared to areas with lower human density. Because annual density was also expected to be dependent on prey availability <ref type="bibr" target="#b38">(Knowlton et al. 1999)</ref>, we predicted density would be greater at sites with greater habitat diversity and potential anthropogenic food resources from interspersed human and agricultural habitats <ref type="bibr" target="#b68">(Rose and</ref><ref type="bibr">Polis 1998, Fedriani et al. 2001)</ref>. Finally, we predicted local densities would fluctuate seasonally as a result of reproduction and dispersal <ref type="bibr" target="#b38">(Knowlton et al. 1999)</ref> with greater densities in the summer following birth of pups and lower densities in the winter following dispersal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STUDY AREA</head><p>We conducted surveys from June 2011 to July 2013 in 2 study areas, 1 in each of 2 counties in Virginia: Bath and Rockingham counties. Both are located along the eastern divide in the northern Ridge and Valley province of the central Appalachians, bordering West Virginia, USA (Fig. <ref type="figure" target="#fig_0">1</ref>). The region, transitioning from the Shenandoah Valley to the Appalachian Plateau, is characterized by karst topography with elongated mountain ridges and narrow valleys. Elevation in Bath County ranges from 350 m to 1,365 m, and 363 m to 1,335 m in Rockingham County. Average monthly temperature can range from 0.78C to 25.18C, with a mean minimum temperature of À4.68C in January and a mean maximum temperature of 31.68C in July (National Oceanic and Atmospheric Administration, public data 2012). Average annual precipitation was 97.79 cm, with most precipitation occurring between March and September (National Oceanic and Atmospheric Administration, public data 2012). Both study areas consisted primarily of mature hardwood forest habitat with low coyote densities <ref type="bibr" target="#b86">(Tremblay et al. 1998</ref><ref type="bibr" target="#b67">, Richer et al. 2002</ref><ref type="bibr" target="#b34">, Kays et al. 2008)</ref>. Forest habitat structure consists of a canopy including chestnut oak (Quercus prinus), red oak (Q. rubra), white oak (Q. alba), and tulip poplar (Liriodendron tulipifera), and an understory including rhododendron (Rhododendron maximum) and eastern mountain laurel (Kalmia latifolia). There was a diversity of potential prey species including white-tailed deer (Odocoileus virginianus), rabbits (Sylvilagus spp.), squirrels, (Sciurius spp.), voles (Microtus spp.), and mice (Peromyscus spp.). However, all animal populations were potentially limited by low nutritional carrying capacity in the region <ref type="bibr" target="#b14">(DeCalesta 1997</ref><ref type="bibr" target="#b16">, Diefenbach et al. 1997)</ref>. In addition, 2 other predators in the region, bobcats (Lynx rufus) and American black bears (Ursus americanus), likely competed with coyotes for limited resources.</p><p>Outdoor recreation was the primary land use in both study areas. The Bath County study area is located in the northwest portion of the county and movement of individuals within this study area extended into Highland and Allegheny Counties, Virginia, and Pocahontas and Greenbrier Counties, West Virginia. The Rockingham study area was located in the western portion of the county, and estimated home ranges extended into Pendleton County, West Virginia. The Rockingham County study area was located in a large block of contiguous forest in the George Washington National Forest, whereas the Bath County study area was placed in predominantly forest habitat on federal and state public lands ($57% of Bath County), and was interspersed with veins of more productive pasture, hayfields, and human development along linear valley bottoms <ref type="bibr" target="#b51">(Morin 2015)</ref>. We focused sampling within a 250-km 2 survey area at each site, but because of the size of coyote home ranges overlapping with the survey area, the size of each study area was much larger (estimated state space size varied between $900 km 2 and $1,200 km 2 ; see below).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample Collection</head><p>We collected fecal DNA samples over 5 closed sessions at each study site, 3 summer sessions <ref type="bibr">(Jul 2011</ref><ref type="bibr">(Jul , 2012</ref><ref type="bibr">(Jul , and 2013) )</ref> and 2 winter sessions <ref type="bibr">(Feb 2012 and</ref><ref type="bibr">Mar 2013)</ref>, to estimate rates of change over intervals with expected population inputs (reproduction in spring) and population outputs (dispersal and potential for increased mortality during fall hunting seasons). We established approximately 200 km of scat transects along dirt roads, hiking trails, and well-defined game trails on publicly managed lands (predominantly George Washington National Forest) in each study area: 213 km in Bath County, 208.5 km in Rockingham County. Scat accumulation rates can be slow for highly mobile, lowdensity populations <ref type="bibr" target="#b44">(Lonsinger et al. 2015)</ref>. Conducting repeated secondary sampling sessions (temporal replicates) to estimate detection within sessions can violate closure assumptions when scat accumulation periods are lengthy, especially if apparent survival is low. Thus, we chose to use single-session detections over spatial replicates during a single month for each sampling session to satisfy the population closure assumption. We first cleared scat from all transects and then collected fecal DNA samples and recorded global positioning system (GPS) locations for all newly accumulated scats 1 month later.</p><p>In addition to the samples collected for the closed sessions for this study, we collected samples for separate surveys in the same study areas (concurrent sampling sessions). We used all closed session and concurrent session scat samples for genetic analysis to identify individuals, and then used a subset of data consisting only of the closed session samples to create encounter histories for closed population models. Sampling methods were approved by the Virginia Tech Institutional Animal Care and Use Committee (permit #10-117-FIW) and permitted by the Virginia Department of Game and Inland Fisheries (permit #041503).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Identifying Individual Coyotes From Scat Samples</head><p>We extracted DNA from feces using Qiagen QIAmp DNA stool kit (Qiagen,Valencia, CA, USA) in a lab designated for low-quality, low-quantity DNA and included an extraction negative in each batch. We screened all samples using a species identification multiplex that allows co-amplification and fragment analysis of 2 segments of the mitochondrial DNA (mtDNA) control region for scoring species-specific fragment sizes <ref type="bibr" target="#b13">(De Barba et al. 2014)</ref>. The 2 study sites were located in the assumed convergence zone of the northern and southern fronts of eastern coyote range expansion <ref type="bibr" target="#b56">(Parker 1995</ref><ref type="bibr" target="#b34">, Kays et al. 2008)</ref>, which indicated gray wolf (Canis lupus) mtDNA haplotypes may occur in the population. In addition, <ref type="bibr" target="#b0">Adams et al. (2003)</ref> reported domestic dog mtDNA haplotypes in coyotes in the southeastern United States. Two tissue samples collected from 19 different individual coyotes captured in the Bath County study area <ref type="bibr" target="#b51">(Morin 2015)</ref> were identified as possible domestic dog or gray wolf based on amplified fragment sizes from the mtDNA test. Thus, we attempted to genotype all samples identified as canid (Canis spp.) and screened for domestic dogs using a more sensitive nuclear DNA (nDNA) genotype assignment test as described below. To determine genotypes, we combined 9 nuclear microsatellite loci and canid specificsex identification primers <ref type="bibr" target="#b80">(Seddon 2005</ref>) in a multiplex for polymerase chain reaction (PCR) amplification and analyzed samples using the Applied Biosystems 3130xl ABI capillary machine (Applied Biosystems, Foster City, CA, USA) and associated software as described in <ref type="bibr" target="#b83">Stenglein et al. (2011)</ref>. We included a PCR positive (known coyote tissue sample) and PCR negative control in each PCR plate to identify PCR failure or potential contamination. We initially performed PCR for each sample twice to cull poor quality nDNA samples (i.e., samples with &lt;50% amplification across the 9 loci not associated with sex chromosomes). We then repeated PCR 1-3 more times for each sample to confirm alleles for each locus. We required 2 repetitions to confirm heterozygous loci and 3 repetitions to confirm homozygous loci to minimize potential genotyping errors in low quality-low quantity DNA samples from allelic dropout and polymerase errors <ref type="bibr" target="#b85">(Taberlet et al. 1996)</ref>. We used RELIOTYPE <ref type="bibr" target="#b48">(Miller et al. 2002)</ref> to confirm &gt;95% accuracy of genotypes observed in only a single sample.</p><p>Finally, we added scat sample genotypes collected for this study (closed sessions for population monitoring) to scat sample genotypes identified from concurrent monitoring efforts from other surveys in both study areas. Although these other samples were not collected during the established closed-density monitoring sessions, we combined samples from all scat collection efforts in the 2 study areas only for genetic analyses to improve sample sizes for assignment tests and estimation of summary population genetics statistics required to estimate probability of identity siblings, P ID(sibs) <ref type="bibr" target="#b89">(Waits et al. 2001)</ref>. We did not include the additional samples in models to estimate population demographic parameters described below. We calculated P ID(sibs) in GenAlEx 6.501 <ref type="bibr">(Peakall and</ref><ref type="bibr">Smouse 2006, 2012</ref>) using an allele frequency data set consisting of individual coyotes identified with fecal DNA with alleles confirmed at all loci and tissue samples from 19 captured individuals in the study area <ref type="bibr" target="#b51">(Morin 2015)</ref>. We matched genotypes from different scat samples to the same individual canid using GenAlEx 6.501 and the calculated P ID(sibs) to conservatively distinguish between genetically similar siblings (P ID(sibs) &lt; 0.001 at 7 loci required for a match, P ID(sibs) ¼ 0.000069 at all 9 codominant loci). We combined all individual canid genotypes from fecal samples with genotypes from 19 coyotes captured in the Bath County study area and 28 domestic dogs and screened the canid genotypes in STRUCTURE version 2.3.4 <ref type="bibr" target="#b65">(Pritchard et al. 2000)</ref> with 9 loci, 2 assumed populations, 100,000 burn-in and 200,000 iterations. We removed all genotypes that clustered with known domestic dog samples and used the remaining confirmed individual genotypes from the 5 closed-session population monitoring surveys to construct SCR encounter histories for both study sites, resulting in 10 SCR data sets to estimate density (i.e., 5 sessions for each of the 2 sites). To estimate survival, we created a capture history by recording whether an individual was detected during a session and noted site as a grouping factor.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Population Parameter Estimates</head><p>Apparent survival.-We estimated apparent survival (f) and detection (p) using the Cormack-Jolly-Seber (CJS) model in Program MARK <ref type="bibr">(Lebreton et al. 1992, White and</ref><ref type="bibr" target="#b91">Burnham 1999</ref>) implemented through the RMark package <ref type="bibr" target="#b39">(Laake 2013)</ref> in Program R (R Core Team 2015) with individual encounters for 5 sessions grouped by both sites. The apparent survival parameter is an estimate of population outputs including mortality and permanent emigration from the study area. We constructed a candidate model set consisting of 25 candidate models testing whether survival and detection were best estimated by site (Bath or Rockingham), session <ref type="bibr">(Jul 2011</ref><ref type="bibr">, Feb 2012</ref><ref type="bibr">, Jul 2012</ref><ref type="bibr">, Mar 2013</ref><ref type="bibr">, and Jul 2013)</ref>, season (winter or summer), or combinations of site and session or season (site Â session or site Â season). We imported the most parameterized model [f(siteÂsession) p(siteÂsession)] to MARK and estimated goodness of fit using parametric bootstrap with 999 simulations and estimated the overdispersion parameter (ĉ) by dividing the observed ĉ by the mean ĉ for the simulations. We selected the best model using quasi-Akaike's Information Criterion corrected for small sample sizes (QAIC c ) and assessed usefulness of estimates of survival based on precision <ref type="bibr" target="#b7">(Burnham and Anderson 2002)</ref>.</p><p>Density.-We estimated coyote density for each site for all 5 sessions separately. We used a hierarchical SCR single occasion model for each closed session at each site. We used 0.5-km transect segments as spatial replicates and fit the SCR 0 model <ref type="bibr">(Royle et al. 2013b</ref>). The model consists of encounter histories of individuals detected by fecal DNA at specific transect segment locations (J) over a single sampling occasion (K ¼ 1). The process model assumes that individual animals use space around an individual activity center (s), and that probability of detection at a specific trap decreases with distance of that trap from activity centers, represented by a scaling parameter (s). We assumed a bivariate Gaussian (half-normal) distribution detection function defined by parameter s. We recognize a monotonically decaying detection rate from an activity center may not be ideal for detection of scat for territorial animals. Thus, estimates of s may be biased by this assumption and 95% home range size should not be inferred from s. However, our primary interest was estimating density, and although the size of estimated home ranges may be biased by violation of this assumption, the estimate of the number of activity centers in the state space should not be <ref type="bibr">(Royle et al. 2013b</ref>). Additionally, the bivariate Gaussian detection function has been tested and density estimates from models employing the bivariate Gaussian detection function are robust to most assumption violations <ref type="bibr" target="#b77">(Russell et al. 2012)</ref>. We used data augmentation to account for individuals present but not detected during the study <ref type="bibr" target="#b76">(Royle and Young 2008)</ref>. For each of the 10 data sets, we set a maximum number of possible activity centers (M) within an area (S) for each site-and session-specific state space (Table <ref type="table" target="#tab_0">1</ref>). We associated an indicator variable (z i , outcome of a Bernoulli trial) with each possible unobserved activity center to estimate whether those possible activity centers were representative of individuals that were present in the area but that had capture histories consisting of all zeros, or whether they were structural zeros (not representative of undetected individuals), with a binomial distribution characterizing all trials (c). We summed all activity centers (detected and estimated nonstructural zeros) and derived density by dividing the sum of activity centers within the state space by the total area of the state space. The choice of S is not arbitrary but is a prior of the binomial point process model and is determined by testing the sensitivity of resulting parameter estimates to changes in the size of S, and thus may vary by site and session (Table <ref type="table" target="#tab_0">1</ref>). We formatted data using the SCR23darray() function in the analysis package scrbook <ref type="bibr" target="#b72">(Royle et al. 2014</ref>) in R (R Core Team 2015) and implemented each model using the rjags <ref type="bibr" target="#b60">(Plummer 2014)</ref>, and coda <ref type="bibr" target="#b61">(Plummer et al. 2006)</ref> packages. We ran each model with 3 Markov chain Monte Carlo (MCMC) chains with 100 adaptations for the Metropoliswithin-Gibbs algorithm, and then used coda to sample 200,000 iterations from the posterior distributions of each monitored parameter at a thinning rate of 1 (no thinning), including a burn-in of 100,000 iterations. We assessed MCMC convergence by visually inspecting trace plots for each monitored parameter, and comparing R statistics to 1.1 <ref type="bibr" target="#b20">(Gelman and Rubin 1992)</ref>. In addition, we used subsets of 30,000 iteration posteriors from different locations within each 100,000 iteration posteriors and confirmed similar estimates within reasonable MCMC error. We reported the posterior means and standard deviations, medians, and 95% credible intervals for baseline encounter rate (l 0 ), s, and c, and we reported the posterior mode for density (D) as it is unbiased compared to the posterior mean in SCR models <ref type="bibr" target="#b9">(Chandler and Royle 2013)</ref>.</p><p>Recruitment and population growth rate.-We used an ad hoc robust design approach combining the apparent survival estimates (population outputs) from the CJS model and the site-and session-specific density estimates from the SCR models to derive estimates of net new recruits (population inputs via reproduction or immigration) to the population (B i ) and per capita recruitment (f i ) over each interval <ref type="bibr" target="#b62">(Pollock 1981</ref><ref type="bibr" target="#b63">(Pollock , 1982;;</ref><ref type="bibr" target="#b92">Williams et al. 2002)</ref>. We estimated B i and f i using a Jolly-Seber estimator <ref type="bibr" target="#b32">(Jolly 1965</ref><ref type="bibr" target="#b79">, Seber 1965</ref><ref type="bibr" target="#b92">, Williams et al. 2002)</ref>. We estimated approximate variance for B i following <ref type="bibr" target="#b64">Pollock et al. (1990)</ref> and variance for f i by calculating the Uniform (0,4) $5.0-km buffer variance of a ratio of random variables <ref type="bibr" target="#b50">(Mood et al. 1974)</ref>. We derived population growth as the ratio of posterior mode density estimates from the SCR model b l</p><formula xml:id="formula_0">i ¼ b D iþ1 b D i between</formula><p>each session. We estimated variance for b l i by calculating the variance of a ratio of random variables <ref type="bibr" target="#b50">(Mood et al. 1974)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>We collected 5,048 fecal samples across the 5 closed sessions and all concurrent scat collection monitoring efforts and identified 1,003 (19.87%) as canid using mtDNA species identification. We successfully amplified nDNA microsatellites and confirmed genotypes at 7 loci for 579 of 1,003 samples (57.7%). The average of allelic dropout/sample genotype was 0.75 (range: 0-8), the average number of false alleles/sample genotype 0.06 (range: 0-4), and the average PCR replicates/sample was 4.39 (range: 2-6). Our final dataset contained no individuals mismatched at only 1 locus and no individuals mismatched at 2 out of 9 loci. After removing genotypes identified as domestic dog (39 samples, 32 individuals) we identified 146 individual coyote genotypes across the 2 study sites. For the closed session population monitoring, we genotyped 347 scat samples and confirmed 107 individual coyotes over 5 sessions at the 2 study sites.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Population Parameter Estimates</head><p>Apparent survival.-Bootstrap goodness of fit indicated evidence of lack of fit (P &lt; 0.001) so we used ĉ ¼ 2.20 (observed deviance of most parameterized model/ x simulation deviance) to estimate a quasi-likelihood adjustment (QAIC c ) for model selection. There were several competing models that all included site-specific survival and nested parameterizations of detection including site and season (Table <ref type="table">2</ref>). These models suggested detection was higher in the summer than the winter at the Bath County site but lower in the summer compared to winter at the Rockingham County site, so we did not attempt to constrain detection with a post hoc additive model (Appendix A). Because the top 3 models were all nested and had approximately equivalent model weights (Table <ref type="table">2</ref>), we chose to use the f(site) p(siteÂseason) model for further population parameter estimates (Table <ref type="table" target="#tab_3">3</ref>). This model produced practical estimates of apparent survival and was not be affected by constraints on detection. Model selection indicated survival at the 2 sites was different (the top 4 models included site as a covariate on apparent survival and their combined relative QAIC c weight (w i ) ¼ 0.68). The Bath County site 6-month apparent survival estimate was 0.442 (95% CI ¼ 0.259-0.643) across seasons and the Rockingham County site apparent survival estimate was 0.863 (95% CI ¼ 0.269-0.991).</p><p>Density.-Density estimates were low at both sites, (Fig. <ref type="figure" target="#fig_1">2</ref>, Table <ref type="table" target="#tab_3">3</ref>  <ref type="table">2</ref>. Cormack-Jolly-Seber (CJS) model selection for apparent survival (f) and detection (p) over 5 scat sampling sessions (July 2011-July 2013) for coyotes in Bath and Rockingham Counties, Virginia, USA (sites). The time models allow parameters for each session or interval to be estimated and season constrains survival or detection to be the same for each season (winter or summer). We compared models using Akaike's Information Criterion with a quasilikelihood adjustment (QAIC c ), differences in QAIC c compared to the top model (DQAIC c ), model weight based on QAIC c (w i ), and quasi-likelihood adjusted deviance (QDeviance).  <ref type="table" target="#tab_0">1</ref>). This may have been a result of excessive rainfall during the accumulation period following initial clearing for the session in Bath County, which likely removed scats and decreased DNA amplification success rates for remaining scats <ref type="bibr" target="#b45">(Lonsinger et al. 2016)</ref>. Clearing for the Rockingham transects followed clearing for Bath County and occurred during the persistent heavy rains and individuals detected and recapture rates were much higher. Thus, we do not have as much confidence in the final density estimate for Bath County (Jul 2013).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model</head><p>Recruitment and population growth rate.-Over 6-month intervals, point estimates of B i and f i in Bath County ranged from 1.53 to 5.56 new recruits/100 km 2 and from 0.17 to 0.71 recruits/capita, respectively (Fig. <ref type="figure" target="#fig_1">2</ref>, Table <ref type="table" target="#tab_3">3</ref>). However, precision in estimates was variable and poor and we were unable to determine if recruitment was consistently positive given the uncertainty in estimates. At the Rockingham County study area, B i appeared to alternate between seasons with greater numbers of recruits between the summer and winter sessions and no recruits (negative estimates of recruits) between winter and summer sessions (point estimate range ¼ À3.59 to 5.45), and point estimates of f i demonstrated the same fluctuating seasonal pattern (point estimate range ¼ À0.42 to 2.26). However, precision in estimates was again too poor to determine differences with certainty. Population growth rate ( b l i ) was variable, exhibited a large amount of uncertainty, and overlapped 1.0 across seasons for both study areas (Table <ref type="table" target="#tab_3">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Estimating density and demographic rates of change is critical to wildlife management. The use of NGS and SCR to estimate local coyote population parameters is an improvement compared to traditional monitoring methods because it is unaffected by capture and geographic closure constraints that can be problematic with wide-ranging carnivores <ref type="bibr">(Royle et al. 2008)</ref>. We found combining single-season scat surveys with NGS and a spatial replicate SCR model was a successful approach for estimating coyote density in our study area. However, precision in estimates was relatively poor. As a result, direct comparisons between sites and seasons included a large amount of overlap in error estimates and inconclusive results. In addition, poor precision also hindered our ability to evaluate hypotheses about demographic rates of change between seasons. Thus, although we were able to combine SCR density estimates with CJS apparent survival estimates to derive local recruitment and population growth estimates, we were unable to detect meaningful differences over space and time because of the amount of uncertainty in the estimates.</p><p>Although we were not entirely successful in estimating all population parameters of interest with precision, there is room for improvement based on the lessons learned here. The use of a site-specific pilot study could have allowed for better determination of an appropriate accumulation period <ref type="bibr" target="#b44">(Lonsinger et al. 2015</ref><ref type="bibr" target="#b93">, Woodruff et al. 2015)</ref>. Recapture rates were highest for both sites during winter 2013. This session was completed prior to denning but was slightly later than intended because of periods of high snowfall that prohibited detection of scats for both the clearing and the b Posterior mode from 1 chain (95% credible interval). c New entrants in the population between i and i þ 1 where b</p><formula xml:id="formula_1">B i ¼ b N iþ1 À b f i b N i , SE Bi À Á ¼ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi var b N iþ1 þ f 2 i Ãvar b N i þ N 2 i Ãvar b f i þ var b f i Ãvar b N i r .</formula><p>d Number of new animals at session i þ 1 per the number present at i where</p><formula xml:id="formula_2">f i ¼ b B i b N i , SE f i À Á ¼ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi f 2 i Ã var Bi ð Þ b B 2 i þ var N i ð Þ b N 2 i ! v u u t 0 @ 1 A .</formula><p>e Ratio of posterior mode density estimates from the spatial capture-recapture (SCR) model b l</p><formula xml:id="formula_3">i ¼ b Diþ1 b Di between each session SE l i ð Þ ¼ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi l 2 i Ã var N t ð Þ b N 2 t þ var N tþ1 ð Þ b N 2 tþ1 ! v u u t 0 @ 1 A .</formula><p>collection sessions. Thus, the accumulation period was 1-2 weeks longer for this session and that likely contributed to larger sample sizes, better recapture rates, and more precise estimates. For our study area, it may be preferable to increase the length of the closed session sampling period to 6 weeks to improve estimates. In addition, we found initially clearing transects to be a critical step because test samples collected during clearing sessions detected 2 individuals known to be killed 1-4 months before the session. Thus, it is important to consider closure and accumulation rates to provide an adequate sample for density estimates <ref type="bibr" target="#b44">(Lonsinger et al. 2015)</ref>.</p><p>There are several other considerations that could improve estimates from the SCR models. First, coyote space use and home range were variable, and often determined by class structure <ref type="bibr" target="#b29">(Hinton et al. 2015</ref><ref type="bibr" target="#b51">, Morin 2015)</ref>. Including habitat covariates or estimating landscape resistance could result in some improvement to model estimates <ref type="bibr">(Royle et al. 2013a</ref><ref type="bibr">, Sutherland et al. 2015)</ref>. However, biases or uncertainty due to differences in habitat, especially in our study area, were likely less important than the challenges associated with class structure. Although there was no evidence for differences in home range size by sex in a concurrent space use study in Bath County, there was support for differences in home range size between adults and subadults, and especially between residents and transients <ref type="bibr" target="#b51">(Morin 2015)</ref>. Although density estimates are robust to the presence of transience, estimates of the spatial scalar (s) could be dramatically improved if allowed to differ for residents and transients, which could provide a substantial increase in precision <ref type="bibr" target="#b74">(Royle et al. 2015)</ref>. In addition, incorporating resource selection functions could also improve accuracy and precision <ref type="bibr">(Royle et al. 2013c</ref>).</p><p>Estimates of s may also be affected by the chosen detection function (Gaussian bivariate half-normal). The initial Gaussian bivariate SCR model was developed to estimate carnivore densities from camera-trap photographs, which are direct observations of the animals, so the assumption that detection is highest at an individual's activity center is often reasonable. However, detection based on collection of fecal DNA from transects may result in behavioral biases if detection is uniform throughout a home range or greater towards the outer portions of the home range for territorial animals such as coyotes <ref type="bibr" target="#b1">(Allen et al. 1999</ref><ref type="bibr" target="#b21">, Gese 2001)</ref>. There may also be a sampling bias because detections can only occur along transects. Validation of detection functions for this sampling method could dramatically improve identifiability, accuracy, and precision for estimates of all parameters within the model. Finally, recent developments for SCR CJS <ref type="bibr" target="#b18">(Gardner et al. 2010)</ref> would likely allow for more useful session-specific estimates for apparent survival compared to the maximum likelihood estimates we used here. This would be true for low-density populations and would improve derived estimates and our ability to identify trends over time and across sites.</p><p>Although precision in parameter estimates was not sufficient for strong inference of demographic processes, there were some patterns in the point estimates that warrant further investigation. Interestingly, density point estimates at the Rockingham site were more than twice as high for the winter sessions than the summer, opposite of our initial predictions that density would increase in the summer with reproductive inputs. It is possible this difference is a reflection of the detection sensitivity of our sampling method. Previous studies reported whelping to occur in late March to late May and dens abandoned after 2-3 months of age, with increasing pup independence at 4 months of age <ref type="bibr" target="#b28">(Harrison 1992</ref><ref type="bibr" target="#b56">, Parker 1995)</ref>. In our study area, births seemed to occur in mid-late April, which would mean pups may not have been moving around independently until August, after our summer sampling sessions. Because we were sampling transects and not rendezvous sites <ref type="bibr" target="#b83">(Stenglein et al. 2011)</ref>, it is possible we were not detecting the reproductive input in the summer but were instead detecting new individuals in the winter session, resulting in increased densities. In addition, the higher density in winter possibly was a result of increased transients or individuals attempting to immigrate into the Rockingham study area and that fewer residents defending territories comprised the summer population.</p><p>The possible differences in point estimate trends between the 2 study areas should also be explored in future studies. Although the sites were only approximately 100 km apart, there were tentative indications of demographic spatial structure within the region. This finding was surprising because the habitat was similar across our study areas and the only discernible differences were private inholdings and increased year-round interaction with humans in Bath County. The Bath County study area density point estimates were generally higher than the Rockingham County study area as predicted, despite very low 6-month apparent survival across seasons in Bath County. Conversely, although point estimates suggest density may have been lower at the Rockingham study area, population parameter estimates appeared to fluctuate seasonally as would be expected for a saturated local population with few new available territories for recruits <ref type="bibr" target="#b38">(Knowlton et al. 1999)</ref>. Thus, our findings may indicate the presence of a density-dependent compensatory feedback mechanism <ref type="bibr" target="#b52">(Murdoch 1994</ref><ref type="bibr" target="#b87">, Turchin 1999</ref><ref type="bibr" target="#b30">, Hixon et al. 2002)</ref>, similar to recent studies investigating the ineffectiveness of culling efforts for red foxes (Vulpes vulpes) in agricultural areas in England <ref type="bibr" target="#b3">(Baker and Harris 2006)</ref> and France <ref type="bibr" target="#b42">(Lieury et al. 2015)</ref>, and black-backed jackals (Canis mesomelas) in South Africa <ref type="bibr" target="#b49">(Minnie et al. 2015)</ref>.</p><p>Coyote survival in western states and urbanized areas has been relatively high compared to survival rates of eastern coyotes <ref type="bibr" target="#b5">(Bogan 2004</ref><ref type="bibr" target="#b19">, Gehrt 2007</ref><ref type="bibr" target="#b24">, Grubbs and Krausman 2009)</ref>, yet densities varied with resource availability, not mortality rates. Mortality in eastern coyote populations was primarily human-caused, including trapping, shooting, other forms of lethal removal, road mortality, and incidental poisoning <ref type="bibr" target="#b27">(Harrison 1986</ref><ref type="bibr" target="#b12">, Crête et al. 2001</ref><ref type="bibr" target="#b31">, Houben 2004</ref><ref type="bibr" target="#b88">, Van Deelen and Gosselink 2006</ref><ref type="bibr" target="#b78">, Schrecengost et al. 2009)</ref>. Even in an eastern population where annual survival was unusually high (0.80-0.98), the prevalent cause of mortality was harvest <ref type="bibr" target="#b8">(Chamberlain and Leopold 2001)</ref>. However, despite continued coyote harvest and removals, populations continued to expand in the eastern United States and local densities in areas with coyote bounties and intensive lethal removal efforts have not appeared to decrease <ref type="bibr" target="#b34">(Kays et al. 2008</ref><ref type="bibr" target="#b37">, Kilgo et al. 2014</ref><ref type="bibr" target="#b11">, Conner and Morris 2015)</ref>. In addition, past studies suggest local coyote populations were regulated by competition with other coyotes for territories and resources, and not harvest or mortality <ref type="bibr">(Knowlton et al. 1999, Conner and</ref><ref type="bibr" target="#b11">Morris 2015)</ref>. Although density dependence has been difficult to identify in single studies of coyote populations, the uncertain emerging pattern in our study, and trends in survival, recruitment, and density from previous studies, suggest density dependence should be considered when planning future management objectives for coyote populations. Further investigation into local coyote population dynamics including local and regional differences is required to elucidate the true nature of population regulation for this adaptable predator.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MANAGEMENT IMPLICATIONS</head><p>As coyote populations have expanded across eastern North America, effective population management strategies have been elusive. The NGS SCR approach provides a noninvasive method to monitor local coyote population dynamics using easily implemented single session scat surveys. This method estimates each session at each site separately and results may be comparable across separate monitoring efforts (regions and over time). Although results from our study were inconclusive because of large variances for estimates, the estimated density at both study areas was very low. Low density resulted in small numbers of individuals captured using NGS methods and lower precision in density estimates and in estimates of apparent survival, and therefore, all derived parameters. However, we expect this method would be very effective in areas with greater densities, which is useful because high-density populations may be more likely to create human-coyote conflict. In addition, when the objective is to estimate lowdensity populations, increasing the size of the study area, and therefore the number of individuals available to be sampled, would improve precision. Although we were not able to detect differences in population growth rates and recruitment between seasons in our study, estimating inputs and outputs over a longer period of time could yield population trend information, particularly if differences between one time period and the next are great. Thus, to produce useful results, monitoring objectives should be well defined prior to implementation, specific hypotheses should be outlined, and sampling designed to achieve those objectives. Spatial and temporal scale of the processes of interest need to be considered. Finally, we recommend local pilot studies to estimate general population densities and identify appropriate study area size to provide sufficient power to detect differences in the population parameters of interest across space and time. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Locations of roughly 200 km of scat transects in each of 2 study areas (Bath County to the south, and Rockingham County to the north) in western Virginia. Transects were located on existing dirt roads and trails on public managed lands and surveys repeated over 5 periods from 2011 to 2013 to estimate density and population demographics for coyotes.</figDesc><graphic coords="3,81.64,53.18,432.00,337.49" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Coyote per capita recruitment (f i ), new recruits into the population (B i ), and density (D ¼ coyotes/100 km 2 ) estimates for the 2 sites, Bath County (BA) and Rockingham County (RO) for the 5 scat sampling sessions (D) and the 4 intervals between sampling sessions (F i and B i ). Error bars for D represent the 95% credible intervals for estimates and error bars for F i and B i represent standard errors.</figDesc><graphic coords="8,147.69,53.18,299.95,391.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Recapture rates, priors, and parameter values used in the spatial capture-recapture (SCR 0 ) model to estimate coyote density for each site and session in Bath and Rockingham Counties, Virginia, USA, July 2011-July 2013.</figDesc><table><row><cell></cell><cell>Captures</cell><cell>Individuals recaptured</cell><cell>Max. no. possible</cell><cell>Area of site-and</cell><cell></cell></row><row><cell>Site session</cell><cell>(total detections)</cell><cell>(range of recaptures)</cell><cell>individuals (M)</cell><cell>session-specific state space (S)</cell><cell>s prior</cell></row><row><cell>Bath Jul 2011</cell><cell>15 (21)</cell><cell>4 (2-3)</cell><cell>200</cell><cell>997.50 km 2</cell><cell>Uniform (0,5)</cell></row><row><cell>Bath Feb 2012</cell><cell>22 (41)</cell><cell>8 (2-10)</cell><cell>250</cell><cell>$5.0-km buffer 934.89 km 2</cell><cell>Uniform (0,5)</cell></row><row><cell>Bath Jul 2012</cell><cell>14 (21)</cell><cell>5 (2-4)</cell><cell>240</cell><cell>$4.5-km buffer 874.29 km 2</cell><cell>Uniform (0,3)</cell></row><row><cell>Bath Mar 2013</cell><cell>31 (79)</cell><cell>17 (2-12)</cell><cell>165</cell><cell>$4.0-km buffer 874.29 km 2</cell><cell>Uniform (0,4)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>$4.0-km buffer</cell><cell></cell></row><row><cell>Bath Jul 2013</cell><cell>14 (18)</cell><cell>2 (2-4)</cell><cell>280</cell><cell>1,267.92</cell><cell>Uniform (0,8)</cell></row><row><cell>Rockingham Jul 2011</cell><cell>7 (11)</cell><cell>3 (2-3)</cell><cell>150</cell><cell>$7-km buffer 995.80 km 2</cell><cell>Uniform (0,5)</cell></row><row><cell>Rockingham Feb 2012</cell><cell>19 (33)</cell><cell>8 (2-4)</cell><cell>175</cell><cell>$4.5-km buffer 995.80 km 2</cell><cell>Uniform (0,4)</cell></row><row><cell>Rockingham Jul 2012</cell><cell>12 (16)</cell><cell>4 (2)</cell><cell>225</cell><cell>$4.5-km buffer 1,194.67 km 2</cell><cell>Uniform (0,6)</cell></row><row><cell>Rockingham Mar 2013</cell><cell>25 (51)</cell><cell>14 (5)</cell><cell>175</cell><cell>$6.0-km buffer 995.80 km 2</cell><cell>Uniform (0,4)</cell></row><row><cell>Rockingham Jul 2013</cell><cell>17 (52)</cell><cell>11 (2-13)</cell><cell>175</cell><cell>$4.5 km buffer 1,060.09 km 2</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>, Appendix B). At the Rockingham County study area, density was generally less precise during the winter sessions (Feb 2012 posterior mode ¼ 7.53/100 km 2 , 95% credible interval ¼ 4.52-14.46; Mar 2013 posterior mode ¼ 8.53/100 km 2 , 95% credible interval ¼ 6.43-15.16) than during the summer sessions (Jul 2011 ¼ 2.41/100 km 2 , 95% credible interval ¼ 1.21-10.54; Jul 2012 ¼ 4.68/100 km 2 , 95% credible interval ¼ 2.51-16.07; Jul 2013 ¼ 3.77/100 km 2 ,</figDesc><table><row><cell>Table</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>Population parameter estimates for coyotes in Bath and Rockingham Counties, Virginia, USA for 6-month seasonal intervals and for each session from July 2011 to July 2013. Maximum likelihood point estimate (SE, 95% CI) from Cormack-Jolly-Seber model, estimated constant across all sessions.</figDesc><table><row><cell>Site</cell><cell>Session</cell><cell>Apparent survival (f) a</cell><cell>Density (D, per 100 km 2 ) b</cell><cell>Births (B i ) c</cell><cell>Recruitment (f i ) d</cell><cell>Population growth rate (l) e</cell></row><row><cell>Bath</cell><cell>Jul 2011</cell><cell>0.442 (0.103, 0.259-0.643)</cell><cell>8.02 (4.21-17.74)</cell><cell>5.12 (3.31)</cell><cell>0.64 (0.50)</cell><cell>1.08 (0.58)</cell></row><row><cell></cell><cell>Feb 2012</cell><cell></cell><cell>8.66 (4.92-15.83)</cell><cell>4.05 (4.87)</cell><cell>0.47 (0.58)</cell><cell>0.91 (0.63)</cell></row><row><cell></cell><cell>Jul 2012</cell><cell></cell><cell>7.88 (4.69-23.33)</cell><cell>5.56 (2.01)</cell><cell>0.71 (0.50)</cell><cell>1.15 (0.73)</cell></row><row><cell></cell><cell>Mar 2013</cell><cell></cell><cell>9.04 (7.32-14.18)</cell><cell>1.53 (0.95)</cell><cell>0.17 (0.11)</cell><cell>0.61 (0.12)</cell></row><row><cell></cell><cell>Jul 2013</cell><cell></cell><cell>5.53 (2.76-19.72)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Rockingham</cell><cell>Jul 2011</cell><cell>0.863 (0.172, 0.269-0.991)</cell><cell>2.41 (1.21-10.54</cell><cell>5.45 (3.27)</cell><cell>2.26 (2.57)</cell><cell>3.12 (3.20)</cell></row><row><cell></cell><cell>Feb 2012</cell><cell></cell><cell>7.53 (4.52-14.50)</cell><cell>À1.82 (3.70)</cell><cell>À0.24 (0.50)</cell><cell>0.62 (0.50)</cell></row><row><cell></cell><cell>Jul 2012</cell><cell></cell><cell>4.68 (2.51-16.07)</cell><cell>4.45 (2.45)</cell><cell>0.96 (0.88)</cell><cell>1.82 (1.42)</cell></row><row><cell></cell><cell>Mar 2013</cell><cell></cell><cell>8.53 (6.4 À15.16)</cell><cell>À3.59 (1.80)</cell><cell>À0.42 (0.24)</cell><cell>0.44 (0.16)</cell></row><row><cell></cell><cell>Jul 2013</cell><cell></cell><cell>3.77 (2.74-6.51)</cell><cell></cell><cell></cell><cell></cell></row></table><note><p>a</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>The Journal of Wildlife Management 80(5)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>19372817, 2016, 5, Downloaded from https://wildlife.onlinelibrary.wiley.com/doi/10.1002/jwmg.21080 by Portail BibCNRS INEE, Wiley Online Library on [05/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>The Journal of Wildlife Management 80(5) 19372817, 2016, 5, Downloaded from https://wildlife.onlinelibrary.wiley.com/doi/10.1002/jwmg.21080 by Portail BibCNRS INEE, Wiley Online Library on [05/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Morin et al. Estimating Coyote Population Parameters</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We thank our collaborators <rs type="person">R. S. Alonso</rs>, <rs type="person">M. L. Fies</rs>, <rs type="person">D. E. Steffen</rs>, <rs type="person">A. Bourgeois</rs>, <rs type="person">N. Lafon</rs>, <rs type="person">C. Croy</rs>, <rs type="person">S. Tanguay</rs>, <rs type="person">T. Slater</rs>, <rs type="person">M. Smith</rs>, <rs type="person">J. R. Adams</rs>, <rs type="person">C. S. Goldberg</rs>, <rs type="person">C. Wultsch</rs>, <rs type="person">R. C. Lonsinger</rs>, <rs type="person">S. P. Woodruff</rs>, <rs type="person">K. A. Cleary</rs>, <rs type="person">M. A. Mumma</rs>, <rs type="person">J. Tebbenkamp</rs>, and <rs type="person">C.R. Stansbury</rs>. In addition, we thank <rs type="person">M. J. Cherry</rs>, <rs type="person">L. M. Conner</rs>, <rs type="person">J. D. Nichols</rs>, and <rs type="person">J. A. Royle</rs> for discussions on model implementation and interpretation. Financial support provided by the <rs type="funder">Virginia Department of Game &amp; Inland Fisheries</rs> came from the <rs type="funder">United States Fish and Wildlife Service</rs> through the <rs type="programName">Wildlife and Sport Fish Restoration Program</rs>, Project <rs type="grantNumber">WE99R</rs>. Finally, we appreciated additional funding and support from the <rs type="funder">Appalachian members of the Virginia Deer Hunter Association</rs>, <rs type="funder">The Nature Conservancy</rs>, the <rs type="funder">Edna Bailey Sussman Foundation</rs>, and the <rs type="funder">Cunningham Fellowship (Virginia Tech Graduate School)</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_AfYESSy">
+					<idno type="grant-number">WE99R</idno>
+					<orgName type="program" subtype="full">Wildlife and Sport Fish Restoration Program</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX A</head><p>Real parameter estimates from selected Cormack-Jolly-Seber (CJS) model of apparent survival (f) and detection (p) for coyotes in Bath and Rockingham Counties, Virginia, USA, 2011-2013.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX B</head><p>Spatial capture-recapture (SCR) model parameter estimates, standard errors, and credible intervals for coyotes in the Bath and Rockingham County study areas of Virginia, <ref type="bibr">USA, 2011</ref><ref type="bibr">USA, -2013. .</ref> </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Widespread occurrence of a domestic dog mitochondrial DNA haplotype in southeastern US coyotes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Leonard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="541" to="546" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">An observational study of coyote (Canis latrans) scent-marking and territoriality in Yellowstone National Park</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bekoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Crabtree</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ethology</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="289" to="302" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Mark-recapture and mark-resight methods for estimating abundance with remote cameras: a carnivore case study</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Alonso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Mcclintock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Lyren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Boydston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Crooks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plos One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">123032</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Does culling reduce fox (Vulpes vulpes) density in commercial forests in Wales, UK?</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="99" to="108" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bekoff</surname></persName>
+		</author>
+		<title level="m">Coyotes: biology, behaviour and management</title>
+		<meeting><address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Bogan</surname></persName>
+		</author>
+		<title level="m">Eastern coyote (Canis latrans) home range, habitat selection, and survival rates in the suburban Albany Pine Bush landscape of New York</title>
+		<meeting><address><addrLine>Albany, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>State University of New York at Albany</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Using fecal DNA and spatial capture-recapture to characterize a recent coyote colonization</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Bozarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Rockwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Maldonado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Northeastern Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="144" to="162" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Model selection and multimodel inference: a practical information theoretic approach</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Springer</publisher>
+			<pubPlace>New York, New York, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Second edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Survival and cause-specific mortality of adult coyotes (Canis latrans) in central Mississippi</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Leopold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Midland Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page" from="414" to="418" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Spatially explicit models for inference about density in unmarked or partially marked populations</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Chandler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Applied Statistics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="936" to="954" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The population consequences of life history phenomena</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Cole</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Quarterly Review of Biology</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="103" to="137" />
+			<date type="published" when="1954">1954</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Impacts of mesopredator control on conservation of mesopredators and their prey</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Conner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Morris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plos One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">137169</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Suitability of the forest landscape for coyotes in norteastern North America and its imlpications for coexistence with other carnivores</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Crête</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Ouellet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Tremblay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Arsenault</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecoscience</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="311" to="319" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Molecular species identification for multiple carnivores</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Barba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Goldberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Stansbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Arias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cisneros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics Resources</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="821" to="824" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Deer and ecosystem management</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Decalesta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<biblScope unit="page" from="267" to="279" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Mcshea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Underwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Rappole</surname></persName>
+		</author>
+		<title level="m">The science of overabundance: deer ecology and population management</title>
+		<meeting><address><addrLine>Washington, D.C., USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Smithsonian Institute Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Attitudes of Pennsylvania sportsmen towards managing white-tailed deer to protect the ecological integrity of forests</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Diefenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Shope</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="244" to="251" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Does availability of anthropogenic food enhance densities of omnivorous mammals? An example with coyotes in southern California</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Fedriani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Sauvajot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecography</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="325" to="331" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Spatially explicit inference for open populations: estimating demographic parameters from camera-trap studies</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Reppucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lucherini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="3376" to="3383" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Ecology of coyotes in urban landscapes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Gehrt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 12th Wildlife Damage Management Conference</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Nolte</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Arjo</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Stalman</surname></persName>
+		</editor>
+		<meeting>the 12th Wildlife Damage Management Conference<address><addrLine>Lincoln, Nebraska, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page" from="303" to="311" />
+		</imprint>
+		<respStmt>
+			<orgName>Wildlife Damage Management, Internet Center for USDA National Wildlife Research Center</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Inference from iterative simulation using multiple sequences</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Rubin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Statistical Science</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="457" to="511" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Territorial defense by coyotes (Canis latrans) in Yellowstone National Park, Wyoming: Who, how, where, when, and why</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="980" to="987" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The ecology of northeast coyotes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Gompper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Conservation Society</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1" to="47" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Top carnivores in the suburbs? Ecological by conservation issues raised by colonization of northeastern North America by coyotes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Gompper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioScience</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="185" to="190" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Use of urban landscape by coyotes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Grubbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Krausman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Southwestern Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">White-tailed deer fawn recruitment before and after experimental coyote removals in central Georgia</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Gulsby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Killmaster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Bowers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Sacks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Statham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="248" to="255" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Pairing call-response surveys and distance sampling for a mammalian carnivore</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J K</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Frair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Underwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Gibbs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="662" to="671" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Coyote dispersal, mortality, and spatial relationships with red foxes in Maine</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Harrison</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986">1986</date>
+			<pubPlace>Orono, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Maine</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Dissertation</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Dispersal characteristics of juvenile coyotes in Maine</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="128" to="138" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Space use and habitat selection by resident and transient coyotes (Canis latrans)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Hinton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Van Manen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plos One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">132203</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Population regulation: historical context and contemporary challenges of open vs. closed systems</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Hixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Pacala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Sandin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="1490" to="1508" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Status and management of coyote depredations in the eastern United States</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Houben</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sheep &amp; Goat Research Journal</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="16" to="22" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Explicit from estimates data with both death and immigration-stochastic model</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Jolly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrika</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="225" to="247" />
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Space and habitat use by resident and transient coyotes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Kamler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Gipson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="2106" to="2111" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Landscape ecology of eastern coyotes based on large-scale estimates of abundance</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Kays</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Gompper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Ray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1014" to="1027" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Bayesian population analysis using WinBUGS: a hierarchical perspective</title>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schaub</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Elsevier</publisher>
+			<pubPlace>London, United Kingdom</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Predation by coyotes on white-tailed deer neonates in South Carolina</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kilgo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vukovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Goode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1420" to="1430" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Coyote removal, understory cover, and survival of white-tailed deer neonates</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kilgo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vukovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1261" to="1271" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Coyote depredation control: an interface between biology and management</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Knowlton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Jaeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Range Management</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="398" to="412" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">RMark: an interface for analysis of capture-recapture data with MARK</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Laake</surname></persName>
+		</author>
+		<idno>2013-01</idno>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<pubPlace>Seattle, Washington, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Alaska Fisheries Science Center, NOAA, National Marine Fisheries Service</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Processed Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">How to overcome genotyping errors in non-invasive genetic mark-recapture population size estimation-A review of available methods illustrated by a case study</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lampa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Henle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Klenke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hoehn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gruber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1490" to="1511" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Modeling survival and testing biological hypotheses using marked animals: a unified approach with case studies</title>
+		<author>
+			<persName><forename type="first">J.-D</forename><surname>Lebreton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clobert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Monographs</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="67" to="118" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Compensatory immigration challenges predator control: an experimental evidence-based approach improves management</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lieury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ruette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Devillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Albaret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Drouyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Baudoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Millon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="425" to="434" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Bobcat-coyote niche relationships during a period of coyote population increase</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Litvaitis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="1180" to="1188" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Balancing sample accumulation and DNA degradation rates to optimize noninvasive genetic sampling of sympatric carnivores</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Lonsinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Dempsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Kluever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="831" to="842" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Quantifying and correcting for scat removal in noninvasive carnivore scat surveys</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Lonsinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Biology</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="45" to="54" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A less field-intensive robust design for estimating demographic parameters with mark-resight data</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Mcclintock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="313" to="320" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Recommended guiding principles for reporting on camera trapping research</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Meek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Claridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kays</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moseby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>O'brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>O'connell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Sanderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tobler</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Townsend</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biodiversity and Conservation</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="2321" to="2343" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Assessing allelic dropout and genotype reliabillity using maximum likelihood</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Joyce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="357" to="366" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Compensatory life history responses of a mesopredator may undermine carnivore management efforts</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Minnie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gaylard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I H</forename><surname>Kerley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Ecology</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="379" to="387" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Mood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Graybill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Boes</surname></persName>
+		</author>
+		<title level="m">Introduction to the theory of statistics</title>
+		<meeting><address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>McGraw-Hill</publisher>
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+	<note>Third edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Morin</surname></persName>
+		</author>
+		<title level="m">Spatial ecology and demography of eastern coyotes (Canis latrans) in western Virginia</title>
+		<meeting><address><addrLine>Blacksburg, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+		<respStmt>
+			<orgName>Virginia Tech</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Population regulation in theory and practice</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Murdoch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="271" to="287" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Estimation of contributions to population growth: a reverse-time capture-recapture approach</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lebreton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pradel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="3362" to="3376" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>O'connell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">U</forename><surname>Karanth</surname></persName>
+		</author>
+		<title level="m">Camera traps in animal ecology: methods and analyses</title>
+		<meeting><address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Statisitical inference from capture data on closed animal populations</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Otis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Monographs</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="3" to="135" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Eastern coyote: the story of its success</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Parker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<publisher>Nimbus</publisher>
+			<pubPlace>Halifax, Nova Scotia Canada</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Social organization and space use of coyotes in eastern Canada relative to prey distribution and abundance</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Messier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="463" to="477" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">GenAlEx 6: genetic analysis in Excel. Population genetic software for teaching and research</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="288" to="295" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">GenAlEx 6.5: Genetic analysis in Excel. Population genetic software for teaching and research-an update</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2537" to="2539" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">rjags: Bayesian graphi graphical models using MCMC</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Plummer</surname></persName>
+		</author>
+		<ptr target="http://cran.r-project.org/package¼rjags" />
+		<imprint>
+			<date type="published" when="2014-09-20">2014. 20 Sep 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">CODA: convergence diagnosis and output analysis for MCMC</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Plummer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cowles</surname></persName>
+		</author>
+		<ptr target="http://cran.r-project.org/doc/Rnews/" />
+	</analytic>
+	<monogr>
+		<title level="j">R News</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2006-09-20">2006. 20 Sep 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Capture-recapture models: a review of current methods, assumptions, and experimental design</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Pollock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Estimating numbers of terrestrial birds</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ralph</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Lawrence, Kansas, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Allen Press</publisher>
+			<date type="published" when="1981">1981</date>
+			<biblScope unit="page" from="426" to="435" />
+		</imprint>
+	</monogr>
+	<note>Studies in Avian Biology</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">A capture-recapture design robust to unequal probability of capture</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Pollock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="752" to="757" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Statistical inference for capture-recapture experiments</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brownie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hines</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Monographs</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="3" to="97" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Inference of population structure using multilocus genotype data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Pritchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stephens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Donnelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="945" to="959" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">R: a language and environment for statistical computing</title>
+		<author>
+			<persName><forename type="first">Team</forename><surname>Core</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">R Foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">The low performance of forest versus rural coyotes in northeastern North America: inequality between presence and availability of prey</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Richer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Crête</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Ouellet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Rivest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecoscience</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="44" to="54" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">The distribution and abundance of coyotes: the effects of allochthonous food subsidies from the sea</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Polis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="998" to="1007" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">N-mixture models for estimating population size from spatially replicated counts</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="108" to="115" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Spatial capture-recapture models for jointly estimating population density and landscape connectivity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Chandler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Gazenski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Graves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="287" to="294" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>a</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title level="m" type="main">Spatial capture-recapture</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Chandler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>Academic Press</publisher>
+			<pubPlace>San Diego, California, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Chandler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<ptr target="https://sites.google.com/site/spatialcapturerecapture/scrbook-r-package" />
+		<title level="m">scrbook: companion to the book: Spatial Capture Recapture</title>
+		<imprint>
+			<date type="published" when="2014-09-20">2014. 20 Sep 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Integrating resource selection information with spatial capture-recapture</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Chandler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Fuller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="520" to="530" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Spatial capture-recapture models allowing Markovian transience or dispersal</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sutherland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Population Ecology</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="53" to="62" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Statistical modeling and inference from carnivore survey data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Stanley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Lukacs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Noninvasive survey methods for carnivores</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Long</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Mckay</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Rey</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">W</forename><surname>Zielinski</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Washington, D.C., USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Island Press</publisher>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="page" from="293" to="312" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">A hierarchical model for spatial captureÀrecapture data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="2281" to="2289" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Estimating abundance of mountain lions from unstructured spatial sampling</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Desimone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1551" to="1561" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Home range, habitat use and survival of coyotes in western South Carolina</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Schrecengost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kilgo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Midland Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="346" to="355" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">A note on the multiple-recapture census</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A F</forename><surname>Seber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrika</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="249" to="259" />
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Canid-specific primers for molecular sexing using tissue or non-invasive samples</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Seddon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="147" to="149" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Using multiple data sources provides density estimates for endangered Florida panther</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Chandler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Shindle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Onorato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>O'connell ; A</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Ecology</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="961" to="968" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">A spatial mark-resight model augmented with telemetry data</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Parsons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Stocking</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Mcclintock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Simons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>O'connell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="553" to="559" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Estimating gray wolf pack size and family relationships using noninvasive genetic sampling at rendezvous sites</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Stenglein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Ausband</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Mack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="784" to="795" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Modelling non-Euclidean movement and landscape connectivity in highly structured ecological networks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sutherland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="169" to="177" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Reliable genotyping of samples with very low DNA quantities using PCR</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Questiau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Manceau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Escaravage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bouvet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="3189" to="3194" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Summer foraging behaviour of eastern coyotes in rural versus forest landscape: a possible mechanism of source-sink dynamics</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Tremblay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Crête</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecoscience</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="172" to="182" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Population regulation: a synthetic view</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Turchin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="153" to="159" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Coyote survival in a row-crop agricultural landscape</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Van Deelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Gosselink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="1630" to="1636" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Estimating the probability of identity among genotypes in natural populations: Cautions and guidelines</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="249" to="256" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling tools for wildlife biologists: a review of applications and recommendations for accurate data collection</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Program MARK: survival estimation from populations of marked animals</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bird Study</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="120" to="S139" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Conroy</surname></persName>
+		</author>
+		<title level="m">Analysis and management of animal populations</title>
+		<meeting><address><addrLine>San Diego, California, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Evaluating the interaction of faecal pellet deposition rates and DNA degradation rates to optimize sampling design for DNA-based mark-recapture analysis of Sonoran pronghorn</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Woodruff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="843" to="854" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<monogr>
+		<title level="m" type="main">Estimating Coyote Population Parameters 835 19372817</title>
+		<author>
+			<persName><forename type="first">Kevin</forename><surname>Mckelvey</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Morin</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jwmg.21080byPortailBibCNRSINEE</idno>
+		<ptr target="https://onlinelibrary.wiley.com/terms-and-conditions" />
+		<imprint>
+			<date type="published" when="2016-05">2016. 05/06/2025</date>
+		</imprint>
+	</monogr>
+	<note>See the Terms and Conditions. OA articles are governed by the applicable Creative Commons License</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

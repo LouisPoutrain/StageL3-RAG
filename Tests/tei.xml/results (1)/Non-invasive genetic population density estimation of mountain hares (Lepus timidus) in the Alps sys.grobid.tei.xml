@@ -1,0 +1,1369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Non-invasive genetic population density estimation of mountain hares (Lepus timidus) in the Alps: systematic or opportunistic sampling?</title>
+				<funder>
+					<orgName type="full">Bristol Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Margarethe und Rudolf Gsell Foundation, Migros</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Federal Office for the Environment FOEN</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-10-04">4 October 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Maik</forename><surname>Rehnus</surname></persName>
+							<email>maik.rehnus@wsl.ch</email>
+							<affiliation key="aff0">
+								<orgName type="department">Snow and Landscape Research WSL</orgName>
+								<orgName type="institution">Swiss Federal Institute for Forest</orgName>
+								<address>
+									<addrLine>Zürcherstrasse 111</addrLine>
+									<postCode>8903</postCode>
+									<settlement>Birmensdorf</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Wildtier Schweiz</orgName>
+								<address>
+									<addrLine>Winterthurerstrasse 92</addrLine>
+									<postCode>8006</postCode>
+									<settlement>Zürich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kurt</forename><surname>Bollmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Snow and Landscape Research WSL</orgName>
+								<orgName type="institution">Swiss Federal Institute for Forest</orgName>
+								<address>
+									<addrLine>Zürcherstrasse 111</addrLine>
+									<postCode>8903</postCode>
+									<settlement>Birmensdorf</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Non-invasive genetic population density estimation of mountain hares (Lepus timidus) in the Alps: systematic or opportunistic sampling?</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-10-04">4 October 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">300BA2D7A62BA3C9AFD196CA1CD0DF5C</idno>
+					<idno type="DOI">10.1007/s10344-016-1053-6</idno>
+					<note type="submission">Received: 6 November 2015 / Revised: 10 September 2016 / Accepted: 14 September 2016 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Conservation</term>
+					<term>Density</term>
+					<term>Genetic population monitoring</term>
+					<term>Lagomorphs</term>
+					<term>Pellets</term>
+					<term>Sampling design</term>
+					<term>SECR</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The development and evaluation of a reliable noninvasive genetic sampling (NIGS) is a crucial step towards accurately and reliably estimating population size for the long-term monitoring of wildlife species. We used NIGS data to obtain population density estimates of a mountain hare (Lepus timidus) population in the Swiss Alps. We evaluated and compared the effectiveness of systematic and opportunistic NIGS and their combination in spring 2014. Extraction success rate of DNA from faeces, hair and urine samples, their age-dependent variation as well as the completeness of microsatellite genotyping data were used as measures of effectiveness. We applied a spatially explicit capture-recapture (SECR) approach to estimate the minimum population size. We found that the extraction success of faecal samples decreased with the time since excretion and that urine and hair samples mostly yielded insufficient DNA for the successful genotyping of individuals. Mountain hare faeces up to 5 days old are most appropriate for NIGS because the risk of unsuccessful DNA extraction or genotyping errors/failure is considerably lower in these samples. Systematic sampling revealed more genotypes than opportunistic sampling, but the latter resulted in higher numbers of recapture and thus, increased the spatial resolution of the data. Depending on the sampling design, the population density estimates ranged from 3.2 to 3.6 mountain hares per 100 ha. This study informs ecologists and wildlife managers about suitable survey techniques for the monitoring of free-ranging lagomorph populations and addresses important principles for the development of accurate survey methods for other elusive wildlife species that inhabit difficult, mountainous terrain.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Non-invasive genetic sampling (NIGS) is becoming a widely used and effective tool for monitoring wildlife populations <ref type="bibr" target="#b18">(Goossens and Bruford 2009;</ref><ref type="bibr" target="#b36">Mumma et al. 2015;</ref><ref type="bibr" target="#b45">Rösner et al. 2014;</ref><ref type="bibr">Schwartz et al. 2007a, b;</ref><ref type="bibr">Waits and Paetkau 2005)</ref>. Extracting genetic material from faeces, hair or other DNA sources enables the collection of important data about wildlife populations without handling, capturing or even observing individual animals <ref type="bibr" target="#b2">(Beja-Pereira et al. 2009;</ref><ref type="bibr">Taberlet and Luikart 1999)</ref>. The procedure is therefore almost free of feedback reactions from the species of interest, such as stress or escape behaviour. Individual animals can be tracked by using genotypic data <ref type="bibr">(Taberlet and Luikart 1999;</ref><ref type="bibr">Waits and Paetkau 2005)</ref>, which offers the possibility to estimate the abundance and density of a population <ref type="bibr" target="#b45">(Rösner et al. 2014)</ref>.</p><p>Pilot studies are important prerequisites for estimating sample sizes and predicting the optimal sampling effort for NIGS programmes <ref type="bibr" target="#b2">(Beja-Pereira et al. 2009;</ref><ref type="bibr" target="#b10">Ebert et al. 2010;</ref><ref type="bibr">Valière et al. 2007;</ref><ref type="bibr">Witmer 2005)</ref>. In recent years, much progress has been made in optimising laboratory protocols, for assessing genotyping errors and in field sampling techniques. However, the field sampling design is still considered to be the main source of bias in population estimates. For example, the detection probability of an animal can vary with species depending on its appearance, behaviour and life history traits (gender, age, social status or home-range location) and with sampling design <ref type="bibr" target="#b10">(Ebert et al. 2010;</ref><ref type="bibr" target="#b33">Marucco et al. 2011)</ref>. A pilot study offers the opportunity to assess the relative strengths and weaknesses of different sampling designs and different sources of DNA for the choice of an optimal sampling strategy (De <ref type="bibr" target="#b7">Barba et al. 2010;</ref><ref type="bibr" target="#b10">Ebert et al. 2010;</ref><ref type="bibr" target="#b18">Goossens and Bruford 2009)</ref>.</p><p>Our model species, the mountain hare (Lepus timidus), has an arctic-alpine distribution with a disjunct and isolated subpopulation in the Alps <ref type="bibr">(Thulin and Flux 2003)</ref>. It is a game species in some Alpine regions <ref type="bibr" target="#b41">(Rehnus 2013)</ref> and classified as least concern with an unknown population trend at the global level <ref type="bibr">(IUCN 2015</ref>) and as near threatened in France (The National Red List project 2015) and in Carinthia <ref type="bibr" target="#b20">(Gutleb et al. 1999)</ref>. The mountain hare has a yearly shot-off seasons in some regions, e.g. Bavaria and Baden-Württemberg in Germany <ref type="bibr" target="#b1">(Adrian 2015)</ref>, Salzburg in Austria <ref type="bibr">(Environment Agency Austria 2015)</ref> or the cantons of Berne, Lucerne and Fribourg in Switzerland <ref type="bibr" target="#b41">(Rehnus 2013</ref>). The species is considered to be threatened by climate change <ref type="bibr" target="#b0">(Acevedo et al. 2012)</ref>, disturbances by outdoor activities <ref type="bibr" target="#b42">(Rehnus et al. 2014</ref>) and interspecific competition with the European hare <ref type="bibr">(Thulin 2003)</ref>. The general population trend and extent of population change is unclear, which highlights the urgent need to improve the accuracy and precision of mountain hare monitoring methods, in particular in areas where the species is hunted <ref type="bibr" target="#b41">(Rehnus 2013)</ref>. Furthermore, L. timidus is an important prey for several endangered species in Alpine ecosystems such as the golden eagle, Aquila chrysaetos, the eagle owl, Bubo bubo, and the lynx, Lynx lynx <ref type="bibr" target="#b21">(Haller 1978;</ref><ref type="bibr" target="#b22">1992;</ref><ref type="bibr" target="#b23">1996)</ref>.</p><p>The mountain hare is an appropriate species to test the suitability and efficiency of NIGS methods for different DNA sources because they can easily be found along the species distinct traces on snow. The Alpine mountain hare is philopatric and shows only limited natal dispersal and no breeding dispersal <ref type="bibr" target="#b6">(Dahl and Willebrand 2005)</ref>. Seasonal movements have not been recorded <ref type="bibr" target="#b17">(Gamboni 1997;</ref><ref type="bibr" target="#b37">Nodari 2006;</ref><ref type="bibr">but see Slotta-Bachmayr 1998)</ref>. Mountain hare faeces are distributed in large numbers within its home range. However, there are no standardised and validated techniques for surveying mountain hare populations in the Alps. Traditional methods, like sign and track densities or faecal counts are not reliable because the European hare (Lepus europaeus) co-occurs with the mountain hare over a large altitudinal gradient <ref type="bibr" target="#b41">(Rehnus 2013)</ref>. The complexity of mountain topography also complicates the use of methods such as spotlight counts because the habitat structure greatly influences census results <ref type="bibr">(Tizzani et al. 2014)</ref>. NIGS methods may be a promising alternative. However, strengths and weaknesses of NIGS methods can vary between systematic and opportunistic sampling methods depending on sample quantity, individuals detected, detection frequency, spatial interference, and population parameters being estimated (De <ref type="bibr" target="#b7">Barba et al. 2010)</ref>.</p><p>The main objective of this study was to test the suitability of NIGS data by using a spatially explicit capture-recapture approach for estimating population densities of mountain hares and other elusive species inhabiting mountain terrain. We used systematic and opportunistic field-sampling designs to collect NIGS data in order to assess their effectiveness for finding unique mountain hare individuals. We further tested the feasibility of a selected genetic marker system for DNA analysis of faeces, hair and urine samples of varying age. Finally, we estimated the detection function for mountain hares and assessed minimum population densities from systematic and opportunistic sampling and a combination thereof by using of a spatially explicit capture-recapture approach.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study area</head><p>The study area comprises 3.5 km 2 and is situated along the Ofenpass in the Swiss National Park in south-eastern Switzerland (46°39′ N, 10°11′ E; Fig. <ref type="figure" target="#fig_0">1</ref>). The study area was selected to represent the ecological range occupied by the mountain hare in the Swiss National Park and is accessible under different snow conditions with a minimal risk of avalanches. <ref type="bibr">Long-term observations (1979</ref><ref type="bibr">Long-term observations ( -2012) )</ref> by park rangers (Swiss National Park, unpublished data) and interviews with local hunters and gamekeepers from the nearby hunting districts (M. Rehnus, unpublished data) were used to confirm that the mountain hare is the only lagomorph species in the study area and does not co-occur with the European hare. The Swiss National Park is designated by the International Union for the Conservation of Nature (IUCN 2014) as a Category 1a nature reserve (strict nature reserve/ wilderness area) and is closed to the public in winter. Thus, mountain hares can be studied under natural conditions without human disturbance.</p><p>The study area ranges in elevation from 1693 to 2587 m a.s.l.. Habitat classification was based on the project HABITALP, which developed a habitat classification for protected areas in the Alps <ref type="bibr" target="#b31">(Lotz 2006</ref>). The study encompasses seven main habitat types: meadows (29 %; with diverse grasses, including Nardus stricta, Festuca spp., Poa spp., Agrostis spp., Luzula spp., and sedges), timber stands (24 %), scree slopes (16 %), storeyed stands (12 %; mixed Larix decidua, Pinus cembra, Pinus sylvestris, Pinus mugo spp., Picea abies), sapling stands (6 %; dominated by P. mugo spp.), pole timber (5 %) and mature stands (5 %). Residual habitats cover 3 % of the area. The climate in the Swiss National Park is continental, with a mean January and July temperature of -9 and 11 °C <ref type="bibr" target="#b23">(Haller et al. 2013)</ref>. The monthly mean precipitation measured at 1970 m a.s.l. is 34 mm in January and 108 mm in July <ref type="bibr" target="#b23">(Haller et al. 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NIGS designs</head><p>We conducted our pilot study in 2014, during the first half of April, a period that coincides with the start of the reproductive season of the mountain hare <ref type="bibr">(Thulin and Flux 2003)</ref> and records only individuals that potentially contribute to the next reproductive cycle, i.e. the number of adults as an equivalent of N c <ref type="bibr" target="#b32">(Luikart et al. 2010)</ref>.</p><p>For the systematic sampling of faeces, 91 plots were preselected on a 200-m square grid (Fig. <ref type="figure" target="#fig_0">1</ref>). A previous telemetry study conducted close to our study area revealed an average mountain hare home range of 57.5 ha independent of gender and age <ref type="bibr" target="#b37">(Nodari 2006)</ref>. This area relates to a radius of 428 m. As a consequence, an average home range covers 13 intercept points on our square grid. We consider this sample to be large enough to detect a high proportion of the individuals inhabiting such an area and assessed their distribution in the study area. For the systematic sampling, two surveys were conducted to correctly determine the age of the faeces <ref type="bibr" target="#b41">(Rehnus et al. 2013;</ref><ref type="bibr" target="#b12">2014;</ref><ref type="bibr" target="#b43">2016)</ref>. During the first survey, pre-selected coordinates were visited. If faeces were found, we cleared all pre-existing mountain hare faeces from the plot to accurately estimate the age of any faeces found during subsequent visits. If faeces were not found at a given plot during the first survey, we searched the vicinity up to a maximum distance of 20 m. Search time was limited to 5 min, during which preferred habitat structures like dead-wood, shrubs, stones, and snow-free sites were scanned <ref type="bibr" target="#b15">(Ewacha et al. 2014;</ref><ref type="bibr" target="#b43">Rehnus et al. 2016</ref>). If faeces were found in the vicinity, the location of the plot was marked using a GPS (Garmin GPSmap 60 CSx). If no faeces could be found within the time and/or distance limit, we cleared a random selected plot within 20 m of the original plot in a location that seemed likely to attract hares at a later point in time. We revisited all plots after 2 or 5 days and collected fresh faeces. To ensure that the search for faecal samples would be conducted every time on the same area during revisits, we marked plot areas already visited during the first survey with temporary markers, e.g. ribbons, stones or twigs.</p><p>For the opportunistic sampling of faeces, we collected fresh faeces when we moved from a systematic plot to the next one. When encountering fresh tracks of mountain hares, we followed the tracks to the site of the next faeces deposition. Then, we returned to the direct geographic connection of two systematic plots and continued the survey. Faeces found in fresh tracks were not older than 2 days because they were collected 2 days after the last light snowfall or during the second systematic sampling survey from tracks with clearly visible, new and distinct contours on the old snow layer in periods without precipitation. Faeces embedded in the snow layer that had been deposited before the last distinct snowfall (&gt;50 cm) were considered to be 16-18 days old, based on the date of the last heavy snowfall. Transect location was recorded by GPS for further analysis.</p><p>During the systematic and opportunistic samplings, a minimum of two faecal pellets (when available) were collected per location for DNA extraction. To minimise DNA contamination <ref type="bibr" target="#b48">(Sloane et al. 2000)</ref>, samples were collected and stored in separate plastic tubes, avoiding to touch them by hand. After field collection, all samples were frozen immediately at -20 °C until analysis. We assumed that faeces with different shades of surface colour found at the same location originated from different individuals because previous studies have shown a considerable overlap in the home ranges of mountain hares <ref type="bibr">(Thulin and Flux 2003)</ref>. In such cases, we collected two faeces per colour type. In addition to faeces, we opportunistically Background colours illustrate forests (dark grey), meadows (light grey), and scree and rocks (black dotted). Tissue samples (black triangles) were obtained from other locations in Switzerland to test for the allelic range of the microsatellite loci used collected hair and urine samples during the systematic or opportunistic sampling in tubes for genetic analyses <ref type="bibr">(Taberlet and Luikart 1999)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genetic methods</head><p>DNA extraction and amplification were performed in a room dedicated to processing small quantity DNA samples. DNA extraction from faeces was performed using the QIAamp Fast DNA Stool Mini Kit (Qiagen) with the following modifications: One faecal pellet was incubated overnight at room temperature with 1 mL ASL buffer (Qiagen) in the same 5 mL tube as used for individual sample collection in the field. One millilitre of this lysate was added to 1 mL of InhibitEX buffer, incubated for 1 min at room temperature and centrifuged briefly for 1 min. The supernatant was further processed according to the manufacturer's protocol. DNA was finally eluted in 75 μL of elution buffer. DNA extraction for hair and urine was performed using the Qiagen Blood and Tissue Kit. Negative controls were included during the extraction process to test for contamination.</p><p>We used ten microsatellite markers developed for different lagomorph species to genotype the mountain hare samples <ref type="bibr" target="#b28">(Kryger et al. 2002;</ref><ref type="bibr" target="#b35">Mougel et al. 1997;</ref><ref type="bibr" target="#b44">Rico et al. 1994;</ref><ref type="bibr">Surridge et al. 1997)</ref>. Prior to our study, the allelic range of the microsatellite loci was estimated (results not shown) based on ten tissue samples of hunted hares obtained from ten different locations within the distribution range of the mountain hare in Switzerland (Fig. <ref type="figure" target="#fig_0">1</ref>). In addition, one sex-specific locus for mountain hares <ref type="bibr">(SRY;</ref><ref type="bibr">Wallner et al. 2001</ref>) was used.</p><p>Amplification was performed in three independent replicates in two multiplex PCRs (Table <ref type="table" target="#tab_1">2</ref>). Each forward primer was labelled with the fluorescent dye indicated in brackets, and all primers were synthesised at Microsynth (Balgach). PCR volumes of 10 μL in total contained 1 × HotStarTaq Master Mix (Qiagen) 0.3-0.6 μM of each primer pair, and 2 μL non-diluted template DNA. Thermocycling included initial denaturation for 15 min at 95 °C, followed by 40 cycles of 30 s at 94 °C, 90 s at 56 °C and 60 s at 72 °C and a final extension of 30 min at 72 °C. Fragment length analysis was performed on a ABI3730 genetic analyser using ECO500bp as an individual standard. ECO500 was labelled with orange DY-630 dye (Dyomics GmbH, Jena, Germany). Electropherograms were analysed using GeneMarker v.2.6.4 (SoftGenetics). We applied the basic rule that alleles were considered as reliable when they were replicated three times in homozygotes and at least twice in heterozygotes. Non-replicated alleles were excluded from further analysis. Failed samples due to bad DNA (dropout &gt; 2 markers) were substituted in the lab with a second faecal pellet of the same surface colour (if possible) from the same plot.</p><p>In order to check whether DNA extraction was successful, all non-invasive samples were initially screened with multiplex mix 1 to limit laboratory expenses. We call this first screening at the six loci of multiplex 1 Bextraction successt o avoid any confusion with the term Bamplification success^. Its calculation was based on all ten markers of multiplexes 1 and 2 after the first screening. Only successfully extracted samples with reliable data at all five loci of multiplex 1 were then amplified two more times with multiplex mix 1 and three times with multiplex mix 2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analyses</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Marker system feasibility</head><p>In alpine areas, it is not always possible to start the sample collection shortly after snow fall because the risk of avalanches can delay the start of a survey. Thus, we tested the influence of the faeces' age on DNA extraction success because nuclear DNA degrades over time <ref type="bibr" target="#b8">(Demay et al. 2013;</ref><ref type="bibr" target="#b29">Lerone et al. 2014;</ref><ref type="bibr" target="#b30">Lonsinger et al. 2015;</ref><ref type="bibr" target="#b40">Piggott 2004</ref>). Extraction success was modelled as a function of three age classes (2 days, 5 days, 16-18 days), using Generalised Linear Models in R v.3.0.2 (R Development Core Team 2014).</p><p>Following the recommendation of Waits and Paetkau (2005), we calculated several parameters to assess the accuracy of the data (without the sex-specific locus) collected for each of the three age classes, namely amplification success rate, genotyping success rate, allelic dropout rate, false allele rate and genotype locus mismatches. Amplification success rate was calculated as the overall proportion of successfully amplified markers of the ten loci for each replicate. Genotyping success rate represented the proportion of complete multi-locus genotypes. These samples could be successfully genotyped in all ten microsatellite markers after pooling the results of the replicates. The remaining parameters were calculated using individual replicate data as input format. Allelic dropout rate (the proportion of heterozygous individuals wrongly genotyped as homozygous) and false allele rate (the proportion of homozygous individuals wrongly genotyped as heterozygous) across all loci were calculated with <ref type="bibr">GIMLET v.1.3.3 (Valière 2002)</ref>, which takes advantage of multiple genotyping data. Subsequently, all four parameters were modelled as a function of age class, using Generalised Linear Models.</p><p>We used GENALEX 6.5 <ref type="bibr" target="#b38">(Peakall and Smouse 2012)</ref> to estimate the locus-specific allelic range, observed and expected heterozygosity and number of alleles per locus.</p><p>For the identification of unique genotypes, also considered as hare individuals, we used CERVUS v.3.0 <ref type="bibr" target="#b27">(Kalinowski et al. 2007</ref>). To minimise any overestimation of the population due to allele calling errors, we re-analysed all raw data fsa files of the genotypes which differed only on one locus due to a homozygote/heterozygote pattern. In cases where the raw data file of the genotype with the homozygote pattern showed any indication for a heterozygote pattern, we considered the two genotypes as one individual. However these cases rarely occurred. We evaluated the power of the marker system estimating PID and PIDsib using Genalex (Taberlet and Luikart 1999). We estimated both indices for the ten microsatellites based on multi-locus genotypes using GENALEX 6.5.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evaluation of the NIGS designs</head><p>We evaluated and characterised the effectiveness of the systematic and opportunistic NIGS, as well as of the combined approach. To test the feasibility of the 200 m square grid size, we estimated the distance of the sites with faeces (collected during opportunistic survey) of individuals not detected during the systematic sampling to the next systematic plot. We also simulated a systematic sampling with lower spatial resolution (i.e. reduced survey effort), in particular a 400-m square grid (N = 45 sampling plots).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Density estimation</head><p>Recently developed likelihood-based, spatially explicit capture-recapture (SECR) methods allow for density estimates of individuals. Spatially explicit models combine a state model and an observation model <ref type="bibr" target="#b3">(Borchers and Efford 2008;</ref><ref type="bibr" target="#b13">Efford and Fewster 2013)</ref>. The state model expresses the geographic distribution of individual home ranges, while the observation model estimates the probability of detecting an individual at a given detector (e.g. plots with faeces) with respect to the distance of this detector from a central point in each individual's home range. The distribution of range centres in the population can be assumed as a homogeneous Poisson point process <ref type="bibr" target="#b3">(Borchers and Efford 2008;</ref><ref type="bibr" target="#b13">Efford and Fewster 2013)</ref>.</p><p>We estimated mountain hare density using the likelihoodbased classical inference model in the SECR package v.2.9.4 in R <ref type="bibr" target="#b12">(Efford 2014</ref>). An important step when using this package is to define the detector type. We used Bproximity^for the systematic and opportunistic data because plots with faeces simply record the passage of animals. The detectors can be considered as acting independently of each other and may catch more than one animal at a time <ref type="bibr" target="#b3">(Borchers and Efford 2008;</ref><ref type="bibr" target="#b13">Efford and Fewster 2013)</ref>. Input data comprised two files per data set, one that contained the names and geographic coordinates of the detectors (e.g. plots with faeces) and a second that contained captured histories, which included animal identification, the number of sampling occasions and the detector name. For the opportunistic sampling, we used a transect discretization coarseness of 100 m between the GPS points recorded during field work because we consider it to be a practical by value for discretization, with not too many points, but a good resolution relative to the size of the home ranges. Finally, we analysed both data sets together (the systematic and opportunistic; Fig. <ref type="figure" target="#fig_0">1</ref>) using a joint model for the two datasets.</p><p>To estimate the population density for the systematic, opportunistic and combined design, we created a habitat mask that defined the outer limit of the integration area of the detected animals <ref type="bibr" target="#b12">(Efford 2014)</ref>. The systematic and opportunistic sampling covered about the same area, with a 2000-m buffer around the systematic points. For the masked area, we calculated population densities, 95 % confidence intervals (95 % CI), and the probability of finding samples as the intercepts of the detection functions (g 0 ), and the distances between samples as the spatial scale of the detection functions (σ) for all identified individuals and for both sexes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>We collected 144 samples (faeces, urine and hair), of which 47 % originated from the systematic and 53 % from the opportunistic sampling. Faeces were found at 32 % of 91 grid sites, and within 40 % of all grid cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Feasibility of the DNA source and marker system</head><p>All of the nine urine samples and four of the seven hair samples failed to amplify first in the screening with multiplex 1. Thus, hair samples were not estimated in further analysis due to the low sample size. The extraction success of faecal samples was significantly influenced by their age and decreased with the time since excretion (regression coefficient ± standard error R = -0.009 ± 0.005, p = 0.043; Fig. <ref type="figure" target="#fig_1">2</ref>).</p><p>All markers reliably amplified mountain hare faeces (Table <ref type="table" target="#tab_0">1</ref>). The average amplification success and genotyping rate was 95.2 and 96.8 %, respectively. The highest rates were obtained from 2-day old faeces. After that, amplification success and genotyping rate slightly decreased (regression coefficient ± standard error; amplification success rate = -0.042 ± 0.020, p = 0.037; genotyping success rate R = -0.001 ± 0.001, p = 0.337) with faeces age. Allelic dropout and false allele rates were not different among age classes (allelic dropout rate R = -0.002 ± 0.001, p = 0.124; false allele rate R &lt; -0.001 ± 0.001, p = 0.911; Table <ref type="table" target="#tab_0">1</ref>).</p><p>All loci were polymorphic. Allele numbers ranged from two to 13 and their overall observed and expected heterozygosity was 0.51, and 0.50, respectively (Table <ref type="table" target="#tab_1">2</ref>). The PI and PI sib for the microsatellites based on multi-locus genotypes were &lt;0.0001 and 0.0031, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evaluation of the NIGS designs</head><p>We collected 37 samples during systematic sampling, which revealed 23 unique individuals with nine recaptures (Table <ref type="table">3</ref>). Faeces were found during the initial cleaning survey at 50 out of 91 plots. Two or 5 days later, fresh faeces were found during control surveys at 29 plots, 28 of them contained faeces at both surveys. Thus, plots that contained faeces during the initial survey were also likely to contain faeces during subsequent surveys. No additional individuals were detected in the 16-18 day old samples. At seven plots of the systematic sampling, we found and collected faeces with non-corresponding surface colour; they were assigned to two different individuals (Table <ref type="table">3</ref>).</p><p>Using opportunistic sampling, 17 unique individuals were found in 41 samples (Table <ref type="table">3</ref>). In comparison to the systematic sampling, recaptures per individual were twice as frequent. At one site, we found faeces with different shades of surface colour in the same track which stemmed from a male and a female.</p><p>By combining both data sets, 26 unique multilocus genotypes were found in 78 samples (Table <ref type="table">3</ref>). Neither the systematic sampling (200-m square grid) nor the opportunistic sampling demonstrated the presence of all individuals. Three individuals (two females and one male) were found through opportunistic sampling, but missed in the systematic sampling. The distances of the their samples to the next systematic plot were 28, 31, 75 and 89 m. Nine individuals (five females and four males) were found through systematic sampling but missed in the opportunistic sampling.</p><p>The systematic sampling with a simulated square grid size of 400 m revealed 13 unique individuals from 16 samples with 0.08 recaptures per individual.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Density estimation</head><p>The estimated population densities ranged from 3.2 to 3.6 mountain hares per 100 ha depending on the sampling design (Table <ref type="table" target="#tab_2">4</ref>). Sex-specific densities differed between the systematic and opportunistic sampling, but were balanced in the combined sampling design (Table <ref type="table" target="#tab_2">4</ref>). Males had a higher probability of detection (g 0 ) and a lower spatial scale of detection (σ) in the systematic and combined sampling, while the reverse was the case in the opportunistic sampling (Table <ref type="table" target="#tab_2">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Feasibility of the DNA source and marker system The microsatellite marker system selected in this study was applied for the first time to the mountain hare. It turned out to be effective in genotyping individual animals, a result that is in line with other studies collecting fresh wildlife faeces in winter <ref type="bibr" target="#b11">(Ebert et al. 2012;</ref><ref type="bibr" target="#b34">Mollet et al. 2015;</ref><ref type="bibr" target="#b40">Piggott 2004</ref>). In general, the quality of the genetic data (measured as, e.g. extraction, genotyping and amplification success rate) depended on both the type of samples (hair, urine or faeces) and their age.</p><p>Hair samples, which included hair roots, contained sufficient DNA for genotyping. However, these samples were difficult to obtain in the field because they are easily blown away in spring and were therefore only found stuck on branches of trees or other vegetation. Hence, the spatial reference and age of the hair samples is often not explicit. The integration of mountain hare hair samples as DNA source for occupancy and density estimates would require a standardised procedure with hair snares at feeding, rest or latrine sites as it has been developed for the American pika (Ochotona princeps; <ref type="bibr" target="#b25">Henry et al. 2011)</ref>.</p><p>Although previous studies have indicated that urine can be used as a source for NIGS wildlife monitoring <ref type="bibr" target="#b24">(Hausknecht et al. 2007</ref>), we could not confirm its suitability for the mountain hare. Urine samples can easily be collected in an opportunistic sampling in which the researcher follows the tracks of animals on snow to the next urine action site. There, a yellow to red colour indicates the contaminated snow that can be collected in tubes. However, in our pilot study, no urine sample amplified in the PCRs and did not allow for genetic identification of the individuals. This is most likely due to low DNA quality or quantity in the samples the extraction protocol. Before such samples can be regularly used in NIGS, the protocol has to be improved for urine samples by larger sample sizes. Besides, systematic urine sampling is limited to periods with continuous snow cover. Since all urine samples were found close to faeces, we assume that any genetic information originating from a urine sample could better be obtained from the faecal samples found at the same location. In summary, we conclude that faeces are the most appropriate NIGS sample for the mountain hare. Faecal samples can be easily collected in sufficient numbers in winter and mostly contain high quality DNA. However, the extraction success decreased with faecal age. Nuclear DNA degradation over time has also been observed in the faeces of other wildlife species, e.g. the pygmy rabbit (Brachylagus idahoensis; <ref type="bibr" target="#b8">Demay et al. 2013)</ref>, red fox (Vulpes vulpes; Piggott 2004) and otter (Lutra lutra; <ref type="bibr" target="#b29">Lerone et al. 2014)</ref>. Furthermore, similar to <ref type="bibr" target="#b40">Piggott (2004)</ref>, <ref type="bibr" target="#b29">Lerone et al. (2014)</ref> and <ref type="bibr" target="#b30">Lonsinger et al. (2015)</ref>, age of samples decreased the amplification success and the genotyping rates and increased the allelic dropout and false allele rates (Table <ref type="table" target="#tab_0">1</ref>). Thus, we recommend sampling faeces that are not older than 5 days for relative abundant species such as the mountain hare. The risk of unsuccessful DNA extraction or genotyping errors/failure is considerably lower in these samples and thus optimises the laboratory costs. However, including older samples in population analysis can be an option for rare species or species with low probabilities of faecal detection (e.g. <ref type="bibr">Stenglein et al. 2010)</ref>. Any and better evidence for a minimum population estimate of such species can be worth the extra costs.</p><p>PI and PI sibs were low in our study, indicating that only a small number of individuals can theoretically have the same multi-locus genotype in the used marker set. Thus, the used marker set's power or ability to identify individuals is very high.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evaluation of the NIGS designs</head><p>The systematic sampling was more effective for finding unique mountain hare individuals than the opportunistic sampling. During the control survey, fresh faeces were mostly found in plots that also contained faeces during the cleaning survey. This result confirms earlier observations that mountain hares frequently use the same sites for excretion <ref type="bibr" target="#b41">(Rehnus et al. 2013;</ref><ref type="bibr" target="#b12">2014;</ref><ref type="bibr" target="#b43">2016)</ref>. The reuse of such within a few days may indicate that the availability of attractive nutrition (e.g. Gramniods or Ericacea) and hiding places is limited during the snow season. Three individuals identified in the opportunistic sampling were not detected in the systematic sampling. The estimated number of unreported individuals is an important information in wildlife monitoring and relates to the question of the optimal grid size in the systematic sampling. We established a 200-m square grid as a trade-off between an average home range area of the mountain hare and the work load for returning to each plot regularly, every 2-5 days. The unique genotypes from the opportunistic sampling were found at distances between 28 to 89 m from the nearest systematic plot. Thus, we would also have missed these individuals if we would have increased the resolution of systematic sampling to a grid size of 100 m. Even with smaller grids, for instance 25 m, the number of plots multiplies by a factor of eight and surveying them significantly increases both, the required resources and human disturbance during sampling. Our test with a bulked systematic sampling that uses only half of the sampling plots, i.e. a 400-m square grid, however showed a substantial loss in data and revealed fewer samples and only half of the unique individuals identified in the study area. Based on the spatial range of detection functions which showed figures of more than 200 m for all survey designs and both sexes, we conclude that the 200-m square grid design was appropriate to produce a reliable minimum density estimate of the mountain hare population.</p><p>Our results show that a combination of systematic and opportunistic sampling maximises the number of detected individuals and thus, increases the accuracy of population size estimates. The path connection between two systematic plots can be surveyed for fresh faeces with a justifiable additional effort. The combined survey approach revealed three additional individuals and resulted in more recaptures. This indicates that opportunistic sampling can increase the spatial resolution of data and can be useful in habitat and behavioural studies of rare and elusive species, including the mountain hare.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Density estimation</head><p>The population density estimates obtained with the systematic, opportunistic, and combined sampling ranged from 3.2 to 3.6 hares per square kilometre. These figures are higher than those from telemetry studies in the National Park Hohe Tauern in Austria (0.4-0.7; Slotta-Bachmayr 1998), similar to 3.5 found in the Canton Ticino in Switzerland <ref type="bibr" target="#b17">(Gamboni 1997)</ref>, and lower than the 5 to 11 hares per square kilometre reported in the Stilfser Joch National Park in Italy <ref type="bibr" target="#b37">(Nodari 2006)</ref>. However, a direct comparison of these figures is not possible because they originate from radio telemetry studies in different seasons.</p><p>Differences in sex specific density estimates can be explained by differences in the intercepts and the spatial scale of the detection functions. For example, males showed higher densities in the systematic than in the opportunistic sampling because the intercept of the detection function was significantly higher and the spatial scale lower. This means that the probability of finding samples was higher for males than for females, and the distances between the male samples were smaller in our study area. Obviously, the probability of capture differs between the sexes and individuals which can cause biased population estimates in NIGS <ref type="bibr" target="#b10">(Ebert et al. 2010)</ref>. Although passive sampling of faeces appears to be less affected by individual behaviour <ref type="bibr" target="#b39">(Pérez et al. 2014)</ref>, we found a sexspecific probability of capture. Such effects are known from bear studies and can be explained by differences in homerange size among males and females (e.g. <ref type="bibr" target="#b4">Boulanger et al. 2002)</ref>. Male mountain hares are likely to occupy larger homeranges than females in April because males occasionally \explore new areas to look for females for mating <ref type="bibr" target="#b5">(Chapman and Flux 1990;</ref><ref type="bibr">Thulin and Flux 2003)</ref>. <ref type="bibr" target="#b16">Flux (1970)</ref> showed that males can track females over long distances using only their scent. Collecting different non-invasive samples or applying various sampling designs can minimise individual variation in capture probability <ref type="bibr" target="#b10">(Ebert et al. 2010;</ref><ref type="bibr" target="#b39">Pérez et al. 2014)</ref>. For mountain hares, the use of other DNA sources is by its availability (hair) and/or lack of sufficient DNA (urine).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Management recommendations</head><p>Our study illustrates that NIGS is a powerful and effective tool to survey elusive species such as the mountain hare in difficult terrain. Moreover, genetics could be used as to differentiate the samples from closely related and co-occurring species, i.e. European hare. Repetitive and regular NIGS provide data for a comprehensive assessment of regional populations by providing information on individuals, their sex, population age structure, mating system, immigration rates and gene flow as well as population census size and effective population size <ref type="bibr">(Schwartz et al. 2007a, b)</ref>. Thus, wildlife management can benefit from NIGS programmes that account for the ecology and life history of a target species and the properties of the respective habitat. Before starting a population monitoring programme, we strongly recommend conducting a pilot study because the optimal sampling design and method depend on the project's objective, species ecology and habitat characteristics <ref type="bibr" target="#b2">(Beja-Pereira et al. 2009;</ref><ref type="bibr" target="#b7">De Barba et al. 2010;</ref><ref type="bibr" target="#b10">Ebert et al. 2010;</ref><ref type="bibr" target="#b18">Goossens and Bruford 2009;</ref><ref type="bibr">Valière et al. 2007;</ref><ref type="bibr">Witmer 2005)</ref>. The joint application of systematic and opportunistic NIGS in a pilot allows for identifying strengths and weaknesses of the two methods and avoids a potential bias by testing only one of them. Further, the magnitude of the effect of grid size on the number of detected animals can be approximated by a comparison of systematic and opportunistic sampling. The grid size should always be considerably smaller than the average reported home range size of the target species so as to increase the probability of re-sampling individuals in different grids.</p><p>For a long-term mountain hare monitoring programme that aims for surveying minimum population densities, sex ratio, kinship, immigration and genetic diversity, we recommend to perform one systematic sampling per year in spring. Then, faeces are easily visible on the snow and the degradation of DNA is slow and delayed. The sampling should be based on a previously assessed, appropriate grid-size and on the successfully tested microsatellite marker set. Since resources for population monitoring are usually limited, NIGS activities should be implemented as part of the regular field tasks of rangers, wardens and naturalists. We recommend to train field staff in standardised survey methods with the use of a well-defined protocol. Field staff should be equipped with the appropriate kit for sample collection and asked to simultaneously collect faeces with different surface colour from the same plot as they may originate from different individuals. We consider that such a sampling procedure will provide robust data for comparable population size estimates and demographic parameters in order to track population trends and to assess the conservation status of the species. The significance of genetic monitoring for wildlife ecology, management and conservation will further advance because progress in laboratory and analytical techniques will increase the power and reliability of the data <ref type="bibr" target="#b2">(Beja-Pereira et al. 2009;</ref><ref type="bibr" target="#b19">Guschanski et al. 2009</ref>) for accurately assessing changes in population census size (N c ), turnover rates and population genetic parameters.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Location and extent of the study area (3.5 km2 ) with sampling locations (circles) in the Swiss National Park (grey region) in Switzerland. White circles indicate absence of mountain hare faeces during the systematic sampling; black (grey) circles indicate the presence of faeces during the systematic (opportunistic) sampling. Background colours illustrate forests (dark grey), meadows (light grey), and scree and rocks (black dotted). Tissue samples (black triangles) were obtained from other locations in Switzerland to test for the allelic range of the microsatellite loci used</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig.2Age-dependent extraction success (+ standard error) of mountain hare faeces. The extraction success was significantly influenced by faeces age and decreased with the time since excretion (regression coefficient ± standard error R = -0.009 ± 0.005, p = 0.043)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc></figDesc><table><row><cell>Amplification success</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>rate, genotyping success rate,</cell><cell>Age of faeces</cell><cell>N</cell><cell>Amplification</cell><cell>Genotyping</cell><cell>Allelic dropout</cell><cell>False allele</cell></row><row><cell>allelic dropout rate and false allele</cell><cell>(days)</cell><cell></cell><cell>success rate (%)</cell><cell>success rate (%)</cell><cell>(%)</cell><cell>(%)</cell></row><row><cell>rate across all loci for mountain</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>hare faeces of different ages</cell><cell>2</cell><cell>35</cell><cell>97.6</cell><cell>100.0</cell><cell>0.03</cell><cell>0.03</cell></row><row><cell></cell><cell>5</cell><cell>43</cell><cell>94.6</cell><cell>95.4</cell><cell>0.05</cell><cell>0.06</cell></row><row><cell></cell><cell>16-18</cell><cell>24</cell><cell>92.1</cell><cell>92.9</cell><cell>0.01</cell><cell>0.03</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Genetic variability and performance of ten microsatellite markers, calculated from 2 and 5 days old faecal samples from mountain hares in the Swiss National Park</figDesc><table><row><cell>Locus Multiplex</cell><cell>Amplification</cell><cell>Allelic</cell><cell>False</cell><cell>Allele</cell><cell>Expected</cell><cell>Observed</cell><cell>No. of</cell><cell>Reference</cell></row><row><cell>PCR assay</cell><cell>success rate (%)</cell><cell>dropout (%)</cell><cell>allele (%)</cell><cell>range (bp)</cell><cell>heterozygosity H e</cell><cell>heterozygosity H o</cell><cell>alleles</cell><cell></cell></row><row><cell>Sat2 1</cell><cell>91</cell><cell>0.025</cell><cell>0.375</cell><cell>242-274</cell><cell>0.89</cell><cell>0.93</cell><cell>13</cell><cell>Mougel et al. 1997</cell></row><row><cell>Sat5 1</cell><cell>94</cell><cell>0.050</cell><cell>0.000</cell><cell>198-228</cell><cell>0.47</cell><cell>0.43</cell><cell>7</cell><cell>Mougel et al. 1997</cell></row><row><cell>Sat8 1</cell><cell>98</cell><cell>0.000</cell><cell>0.000</cell><cell>105-109</cell><cell>0.22</cell><cell>0.25</cell><cell>2</cell><cell>Mougel et al. 1997</cell></row><row><cell>Sat12 1</cell><cell>97</cell><cell>0.083</cell><cell>0.069</cell><cell>113-125</cell><cell>0.57</cell><cell>0.55</cell><cell>4</cell><cell>Mougel et al. 1997</cell></row><row><cell>Sol8 2</cell><cell>100</cell><cell>0.000</cell><cell>0.019</cell><cell>117-127</cell><cell>0.36</cell><cell>0.35</cell><cell>3</cell><cell>Rico et al. 1994</cell></row><row><cell>Sol30 2</cell><cell>100</cell><cell>0.015</cell><cell>0.000</cell><cell>172-180</cell><cell>0.43</cell><cell>0.41</cell><cell>5</cell><cell>Rico et al. 1994</cell></row><row><cell>Sol33 1</cell><cell>94</cell><cell>0.107</cell><cell>0.000</cell><cell>219-224</cell><cell>0.56</cell><cell>0.76</cell><cell>3</cell><cell>Surridge et al. 1997</cell></row><row><cell>Lsa1 2</cell><cell>100</cell><cell>0.008</cell><cell>0.048</cell><cell>171-175</cell><cell>0.56</cell><cell>0.76</cell><cell>3</cell><cell>Kryger et al. 2002</cell></row><row><cell>Lsa2 2</cell><cell>100</cell><cell>0.037</cell><cell>0.067</cell><cell>246-256</cell><cell>0.82</cell><cell>0.61</cell><cell>9</cell><cell>Kryger et al. 2002</cell></row><row><cell>Lsa3 2</cell><cell>100</cell><cell>0.000</cell><cell>0.012</cell><cell>206-210</cell><cell>0.10</cell><cell>0.04</cell><cell>3</cell><cell>Kryger et al. 2002</cell></row><row><cell>Mean</cell><cell>97</cell><cell>0.033</cell><cell>0.059</cell><cell></cell><cell>0.50</cell><cell>0.51</cell><cell>5</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 4</head><label>4</label><figDesc></figDesc><table><row><cell>Estimated densities (± standard errors) and 95 %</cell><cell>Sampling</cell><cell></cell><cell></cell><cell cols="2">Density (number/km 2 )</cell><cell>g 0</cell><cell>σ (m)</cell></row><row><cell>confidence intervals (95 % CI) of</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>mountain hares, as well as</cell><cell></cell><cell></cell><cell>N</cell><cell>Estimate ± SE</cell><cell>95 % CI</cell><cell>Estimate ± SE</cell><cell>Estimate</cell></row><row><cell>intercepts of detection functions</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(g 0 ± standard errors) and spatial</cell><cell>Systematic</cell><cell>All individuals</cell><cell>23</cell><cell>3.6 ± 1.3</cell><cell>1.8-7.1</cell><cell>0.061 ± 0.022</cell><cell>535</cell></row><row><cell>scale of detection functions (σ).</cell><cell></cell><cell>Males</cell><cell>12</cell><cell>2.1 ± 0.9</cell><cell>1.0-4.5</cell><cell>0.110 ± 0.045</cell><cell>395</cell></row><row><cell>Results are separated according to sex and sampling method</cell><cell>Opportunistic</cell><cell>Females All individuals</cell><cell>11 17</cell><cell>1.0 ± 1.5 3.4 ± 1.0</cell><cell>0.1-8.6 2.0-5.8</cell><cell>0.019 ± 0.018 0.033 ± 0.009</cell><cell>1196 303</cell></row><row><cell></cell><cell></cell><cell>Males</cell><cell>9</cell><cell>1.5 ± 0.6</cell><cell>0.1-3.2</cell><cell>0.031 ± 0.010</cell><cell>349</cell></row><row><cell></cell><cell></cell><cell>Females</cell><cell>8</cell><cell>2.1 ± 0.9</cell><cell>0.9-4.7</cell><cell>0.041 ± 0.018</cell><cell>226</cell></row><row><cell></cell><cell>Combination</cell><cell>All individuals</cell><cell>26</cell><cell>3.2 ± 0.7</cell><cell>2.1-5.0</cell><cell>0.033 ± 0.006</cell><cell>411</cell></row><row><cell></cell><cell></cell><cell>Males</cell><cell>13</cell><cell>1.6 ± 0.5</cell><cell>0.8-2.9</cell><cell>0.036 ± 0.008</cell><cell>409</cell></row><row><cell></cell><cell></cell><cell>Females</cell><cell>13</cell><cell>1.7 ± 0.6</cell><cell>0.9-3.3</cell><cell>0.026 ± 0.009</cell><cell>420</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Eur J Wildl Res (2016) 62:737-747   </p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments We thank the <rs type="institution">Swiss National Park</rs> for granting permission to conduct this study, <rs type="person">M. Efford</rs> (<rs type="affiliation">University of Otago</rs>) for his excellent support in spatially explicit capture-recapture analyses and <rs type="person">A. Buser</rs> (<rs type="affiliation">Ecogenics, Balgach</rs>) for conducting the genetic analyses. We are grateful to the <rs type="funder">Federal Office for the Environment FOEN</rs>, the <rs type="funder">Margarethe und Rudolf Gsell Foundation, Migros</rs> and the <rs type="funder">Bristol Foundation</rs> for financial support. <rs type="person">E. Gleeson</rs>, <rs type="person">C. Mosler-Berger</rs>, <rs type="person">R. Holderegger</rs>, <rs type="person">C. Rellstab</rs>, <rs type="person">D. Csencsics</rs> and <rs type="person">S. Brodbeck</rs> provided constructive and insightful comments on the manuscript. We acknowledge <rs type="person">S. Dingwall</rs> for language editing. We finally thank <rs type="person">Paulo C. Alves</rs> and four anonymous reviewers for constructive comments on this manuscript.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Stenglein JL, Waits LP, <ref type="bibr">Ausband DE, Zagerd P, Macke CM (2010)</ref> Efficient, noninvasive genetic sampling for monitoring reintroduced wolves. J Wildl Manage 74:1050-1058 Surridge AK, Bell DJ, <ref type="bibr">Rico C, Hewitt GM (1997)</ref>  </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Parapatric species and the implications for climate change studies: a case study on hares in Europe</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Acevedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jiménez-Valverde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Melo-Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Real</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob Chang Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1509" to="1519" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Adrian</surname></persName>
+		</author>
+		<ptr target="http://www.schonzeit" />
+		<title level="m">Jagdzeiten Wild</title>
+		<imprint>
+			<date type="published" when="2015-08-12">2015. 12 Aug 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Advancing ecological understandings through technological transformations in noninvasive genetics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beja-Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Res</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1279" to="1301" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Spatially explicit maximum likelihood methods for capture-recapture studies</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Borchers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="377" to="385" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A meta-analysis of Grizzly Bear DNA mark-recapture projects in British Columbia</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Boulanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Himmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canada. Ursus</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="137" to="152" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jec</forename><surname>Flux</surname></persName>
+		</author>
+		<title level="m">Rabbits, hares and pikas status survey and conservation action plan</title>
+		<imprint>
+			<publisher>Gland</publisher>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Natal dispersal, adult home ranges and site fidelity of mountain hares Lepus timidus in the boreal forest of Sweden</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Willebrand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="309" to="317" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Comparing opportunistic and systematic sampling methods for non-invasive genetic monitoring of a small translocated brown bear population</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Barba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Genovesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randi</forename><forename type="middle">E</forename><surname>Chirichella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Ecol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="172" to="181" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Evaluating DNA degradation rates in faecal pellets of endangered pygmy rabbit</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Demay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Eidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rachlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="654" to="662" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">R: A language and environment for statistical computing</title>
+		<author>
+			<orgName type="collaboration">Development Core Team R</orgName>
+		</author>
+		<ptr target="http://www.r-project.org" />
+	</analytic>
+	<monogr>
+		<title level="m">R Foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014-10-17">2014. 17 Oct 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Individual heterogeneity as a pitfall in population estimates based on non-invasive genetic sampling: a review and recommendations</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Knauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Storch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Biol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="225" to="240" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic approaches for estimation of ungulate population size: a study on roe deer (Capreolus capreolus) based on faeces</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sandrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Spielberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Thiele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Hohmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim Biodivers Conserv</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="267" to="275" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">secr: spatially explicit capture-recapture models, R package version 2</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+		<ptr target="http://cran.r-project.org" />
+		<imprint>
+			<date type="published" when="2014-10-17">2014. 17 Oct 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Estimation of population density by spatially explicit capture-recapture</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Fewster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="918" to="928" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<ptr target="/umweltschutz/naturschutz/artenschutz/oasis" />
+	</analytic>
+	<monogr>
+		<title level="m">Österreichisches Artenschutz-(Version 2.0)</title>
+		<title level="s">V i e n n</title>
+		<imprint>
+			<publisher>Environment Agency Austria</publisher>
+			<date type="published" when="2015-08-12">2015. 12 Aug 2015</date>
+		</imprint>
+	</monogr>
+	<note>a . h t t p. . u m w e l t b u n d e s a m t . at</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Vegetation structure and composition determine snowshoe hare (Lepus americanus) activity at arctic tree line</title>
+		<author>
+			<persName><forename type="first">Mva</forename><surname>Ewacha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brook</forename><surname>Rk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Zool</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="789" to="794" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Life history of the Mountain hare (Lepus timidus scoticus) in north-east Scotland</title>
+		<author>
+			<persName><forename type="first">Jec</forename><surname>Flux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Zool (Lond)</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="75" to="123" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Comportement spatio-temporel d&apos;une population de lievre variable (Lepus timidus varronis) au sud des alpes</title>
+		<author>
+			<persName><forename type="first">A-S</forename><surname>Gamboni</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Neuchâtel</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Master thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Non-invasive genetic analysis in conservation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Population Genetics for Animal Conservation</title>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Bertorelle</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hauffe</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Rizzoli</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Vernisi</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="167" to="201" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Counting elusive animals: comparing field and genetic census of the entire mountain gorilla population of Bwindi Impenetrable National Park, Uganda</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Guschanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mcneilage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kagoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Robbins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Conserv</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="290" to="300" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Rote Liste der Säugetiere Kärntens (Vertebrata, Mammalia)</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gutleb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Komposch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Spitzenberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Rote Listen gefährdeter Tiere Kärntens. Amt der Kärntner Landesregierung</title>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Wieser</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Mildner</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Holzinger</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><surname>Rottenburg</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Klagenfurt</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="page" from="99" to="104" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Zur Populationsökologie des Uhus Bubo bubo im Hochgebirge: Bestand, Bestandsentwicklung und Lebensraum in den Rätischen Alpen</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Haller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ornithol Beob</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="237" to="265" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Zur Ökologie des Luchses Lynx lynx im Verlauf seiner Wiederansiedlung in den Walliser Alpen</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Haller</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+		<respStmt>
+			<orgName>Georg-August Universität Göttingen</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Habilitation thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Der Steinadler in Graubünden. Langfristige Untersuchungen zur Populationsökologie von Aquila chrysaetos im Zentrum der Alpen</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Haller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Atlas des Schweizerischen Nationalparks</title>
+		<editor>
+			<persName><forename type="first">H</forename><surname>Haller</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Eisenhut</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Haller</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Basel</addrLine></address></meeting>
+		<imprint>
+			<publisher>Basler Druck und Verlag</publisher>
+			<date type="published" when="1996">1996. 2013</date>
+		</imprint>
+	</monogr>
+	<note>Die ersten 100 Jahre</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Urine-a source for noninvasive genetic monitoring in wildlife</title>
+		<author>
+			<persName><forename type="first">Bern</forename><surname>Haupt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hausknecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pirga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kuehn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="208" to="212" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A noninvasive hair sampling technique to obtain high quality DNA from elusive small mammals</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Russello</surname></persName>
+		</author>
+		<ptr target="http://www.iucn.org/about/work/programmes/gpap_home/gpap_quality/gpap_pacategories" />
+	</analytic>
+	<monogr>
+		<title level="m">Protected Areas Category Ia</title>
+		<imprint>
+			<publisher>IUCN</publisher>
+			<date type="published" when="2011">2011. 2014. 17 Oct 2014</date>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page">2791</biblScope>
+		</imprint>
+	</monogr>
+	<note>IUCN (2015) Red list of threatened species, Version 2015</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<ptr target="http://www.iucnredlist.org" />
+		<title level="m">Gland</title>
+		<imprint>
+			<publisher>IUCN</publisher>
+			<date type="published" when="2015-08-12">12 Aug 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Revising how the computer program cervus accommodates genotyping error increases success in paternity assignment</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Kalinowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Marshall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1099" to="1106" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Isolation and characterization of six polymorphic microsatellite loci in South African hares (Lepus saxatilis F Cuvier, 1823 and Lepus capensis Linnaeus, 1758)</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Kryger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bloomer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="422" to="424" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Procedures to genotype problematic non-invasive otter (Lutra lutra) samples</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lerone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mengoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Carpaneto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randi</forename><forename type="middle">E</forename><surname>Loy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Theriol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="511" to="520" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Balancing sample accumulation and DNA degradation rates to optimize noninvasive genetic sampling of sympatric carnivores</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Lonsinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Dempsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Kluever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="831" to="842" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Alpine Habitat Diversity-HABITALP-Project Report</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lotz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2006. 2002. 2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Estimation of census and effective population sizes: the increasing usefulness of DNA-based approaches</title>
+		<author>
+			<persName><forename type="first">Nationalpark</forename><surname>Berchtesgaden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Berchtesgaden</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ryman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tallmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Allendorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="355" to="373" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Bridging the gaps between non-invasive genetic sampling and population parameter estimation</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marucco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Pletscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Estimating population size for Capercaillie (Tetrao urogallus L.) with spatial capture-recapture models based on genotypes from one field sample</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mollet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pasinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0129020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Nine polymorphic microsatellite loci in the rabbit, Oryctolagus cuniculus</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mougel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Mounolou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Monnerot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim Genet</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">58</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Evaluating noninvasive genetic sampling techniques to estimate large carnivore abundance</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mumma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zieminski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Mahoney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1133" to="1144" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Ecological role of mountain hare (Lepus timidus) in the alpine ecosystem. Habitat use, population consistency and dynamics of a species of conservation and management interest</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nodari</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+		<respStmt>
+			<orgName>University Insubria</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Dissertation</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">GenAlEx 6.5: genetic analysis in Excel. Population genetic software for teaching and research-an update</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2537" to="2539" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Estimating the population size of the endangered Cantabrian brown bear through genetic sampling</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pérez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Naves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Vázquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fernández-Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seijas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Albornoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Revilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delibes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Domínguez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wild Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="300" to="309" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Effect of sample age and season of collection on the reliability of microsatellite genotyping of faecal DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="485" to="493" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Seasonal changes in habitat use and feeding strategy of the mountain hare (Lepus timidus) in the Central Alps</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">;</forename><surname>Rehnus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Marconi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hystrix</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="161" to="165" />
+			<date type="published" when="2013">2013. 2013</date>
+			<pubPlace>Zürich Rehnus M</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Bristol-Stiftung</orgName>
+		</respStmt>
+	</monogr>
+	<note>Der Schneehase. Ein Überlebenskünstler mit ungewisser Zukunft</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Mountain hares Lepus timidus and tourism: stress events and reactions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rehnus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wehrle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Palme</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Ecol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="6" to="12" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The seasonal trade-off between food and cover of the Alpine mountain hare (Lepus timidus)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rehnus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Braunisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hackländer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bollmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="11" to="21" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Four polymorphic microsatellite loci for the European wild rabbit, Oryctolagus cuniculus</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hewitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim Genet</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">367</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling allows estimation of capercaillie numbers and population structure in the Bohemian Forest</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rösner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brandl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Segelbacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lorenc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Muller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="789" to="801" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Genetic monitoring as a promising tool for conservation and management</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="25" to="33" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">DNA markers for identifying individual snowshoe hares using field-collected pellets</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Rivera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Ruggiero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Northwest Sci</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="316" to="322" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Highly reliable genetic identification of individual northern hairynosed wombats from single remotely collected hairs: a feasible censusing method</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sloane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sunnucks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Alpers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Beheregaray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1233" to="1240" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Biologie und Ökologie des Alpenschneehasen (Lepus timidus varronis Miller 1901)</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Slotta-Bachmayr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Verbreitung, Raumnutzung, Aktivität und Habitatwahl in den Hohen Tauern</title>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+		<respStmt>
+			<orgName>Paris Lodron University Salzburg</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Dissertation</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

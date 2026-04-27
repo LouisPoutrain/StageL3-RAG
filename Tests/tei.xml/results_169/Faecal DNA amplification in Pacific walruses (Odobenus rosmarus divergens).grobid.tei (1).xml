@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Faecal DNA amplification in Pacific walruses (Odobenus rosmarus divergens)</title>
+				<funder ref="#_xrBPyNk">
+					<orgName type="full">North Pacific Research Board</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+				<funder ref="#_etWG5DR">
+					<orgName type="full">NPRB</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">US Geological Survey</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2013-03-21">21 March 2013</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Ella</forename><surname>Bowles</surname></persName>
+							<email>ebowles@ucalgary.ca</email>
+						</author>
+						<author>
+							<persName><forename type="first">Andrew</forename><forename type="middle">W</forename><surname>Trites</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Á</forename><forename type="middle">A W</forename><surname>Trites</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="laboratory">Marine Mammal Research Unit</orgName>
+								<orgName type="institution">University of Calgary</orgName>
+								<address>
+									<addrLine>2500 University Drive N.W.</addrLine>
+									<postCode>T2N 1N4</postCode>
+									<settlement>Calgary</settlement>
+									<region>AB</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Fisheries Centre</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<addrLine>2202 Main Mall Room 247</addrLine>
+									<postCode>V6T 1Z4</postCode>
+									<settlement>AERL Vancouver</settlement>
+									<region>BC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Faecal DNA amplification in Pacific walruses (Odobenus rosmarus divergens)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2013-03-21">21 March 2013</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0452A8FF7CFE2BED2DBAE7217C1929B4</idno>
+					<idno type="DOI">10.1007/s00300-013-1296-6</idno>
+					<note type="submission">Received: 16 March 2012 / Revised: 10 January 2013 / Accepted: 15 January 2013 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:30+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Pacific walrus</term>
+					<term>PCR</term>
+					<term>Prey identification</term>
+					<term>Faecal DNA</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Dietary information is critical for assessing the population status of seals, sea lions and walruses-and is determined for most species of pinnipeds using non-invasive methods. However, diets of walruses continue to be described from the stomach contents of dead individuals. Our goal was to assess whether DNA could be extracted from the faeces of Pacific walruses (Odobenus rosmarus divergens) collected at haulout sites, and whether potential prey species or taxa could be amplified from that DNA. We extracted DNA from 70 faecal samples collected from ice pans in the Bering Sea during the spring of 2008 and 2009 (with between 4.6 and 308.9 ng/ll of DNA in every sample). We also extracted DNA from 12 potential prey species or taxa collected by bottom-grabs in 2009 to identify positive controls for primers and to test the ability of previously published taxon-specific and species-specific primers to correctly identify the prey using conventional PCR. We tested primers that successfully amplified DNA from the tissue of at least one potential prey species or taxon on all 70 walrus faecal samples. We found that two sets of primers successfully amplified many of the potential prey species or taxa using DNA from their tissue, and that one of these primer sets produced positive amplification in 4 of the 70 faecal samples. The band size that was produced for prey organisms and in the faecal samples was consistent with expectations, although prey identities were not verified with sequencing. Our pilot study demonstrates that DNA can be successfully extracted and amplified from walrus faeces, providing a stepping stone towards describing the diets of walruses from faecal DNA.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Methods of determining the diets of pinnipeds have evolved with time towards using less invasive methodologies for seals and sea lions, but continue to rely on killing individuals to identify the prey contained in the stomachs of walruses. Seal and sea lion diets were also once determined from the stomach contents of animals killed at sea or close to shore <ref type="bibr" target="#b24">(Scheffer 1928;</ref><ref type="bibr" target="#b8">Frost and Lowry 1980;</ref><ref type="bibr" target="#b22">Prime and Hammond 1987;</ref><ref type="bibr" target="#b25">Sheffield and Grebmeier 2009)</ref>, but are now regularly determined from the identifiable prey remains (bones and other hard parts) recovered from faecal matter <ref type="bibr" target="#b17">(Merrick and Loughlin 1997;</ref><ref type="bibr" target="#b27">Sinclair and Zeppelin 2002;</ref><ref type="bibr" target="#b29">Tollit et al. 2007</ref><ref type="bibr" target="#b30">Tollit et al. , 2009) )</ref> or from the fatty acid signatures of prey assimilated in the blubber <ref type="bibr" target="#b10">(Iverson et al. 1997</ref><ref type="bibr" target="#b11">(Iverson et al. , 2004;;</ref><ref type="bibr" target="#b28">Tollit et al. 2006;</ref><ref type="bibr" target="#b1">Budge et al. 2007)</ref>. However, problems with false positives, prey and predator-specific calibrations, and issues with rates of assimilation of different prey into predator tissues appear to limit the utility of fatty acid analysis <ref type="bibr" target="#b29">(Tollit et al. 2007;</ref><ref type="bibr" target="#b19">Nordstrom et al. 2008;</ref><ref type="bibr" target="#b23">Rosen and Tollit 2012)</ref>. Stable isotopes are also used to identify trophic-level information about prey consumption <ref type="bibr" target="#b9">(Hobson et al. 1997)</ref>, there are many challenges to using them for species-specific diet composition <ref type="bibr" target="#b18">(Newsome et al. 2009;</ref><ref type="bibr" target="#b20">Phillips 2012)</ref>. More recently, molecular techniques have been developed and applied to identify prey DNA contained within the soft matrix of faecal samples collected from seals and sea lions <ref type="bibr" target="#b12">(Jarman et al. 2002;</ref><ref type="bibr">Deagle et al. 2005a, b;</ref><ref type="bibr" target="#b30">Tollit et al. 2009;</ref><ref type="bibr" target="#b13">King et al. 2008)</ref>. In general, DNA-based diet identification is considered to be a more robust measure of diet analysis than many of the other methods, although there are limitations based on differential prey digestion <ref type="bibr" target="#b13">(King et al. 2008)</ref>.</p><p>Unlike most species of pinnipeds, diets of walruses continue to be determined from the stomach contents of animals killed on or near sea ice and terrestrial haulouts <ref type="bibr" target="#b26">(Sheffield et al. 2001</ref>) because hard parts are generally absent from walrus scats, and prey libraries have not been developed to enable fatty acid analysis. These stomach contents of hunted Pacific walruses have contained mostly benthic invertebrates (primarily bivalves and gastropods) consumed at depths of \100 m <ref type="bibr" target="#b25">(Sheffield and Grebmeier 2009)</ref>. However, many other species are consumed, some of which include small crustaceans, polychaete (Annelid) worms, molluscs, seabirds <ref type="bibr" target="#b16">(Mallory et al. 2004;</ref><ref type="bibr" target="#b14">Lovvorn et al. 2010)</ref>, and occasionally seals <ref type="bibr" target="#b15">(Lowry and Fay 1984;</ref><ref type="bibr" target="#b26">Sheffield et al. 2001;</ref><ref type="bibr" target="#b25">Sheffield and Grebmeier 2009)</ref>. Walruses feed by oral suction and consume primarily soft tissue <ref type="bibr" target="#b25">(Sheffield and Grebmeier 2009)</ref>, leaving little if any hard remains to pass into their scats. It is thus not possible to determine walrus diet comprehensively from hard part analyses. A more complete understanding of walrus diet might be determined using the DNA-based prey detection methods that have been tested on the faecal matter of other pinniped species <ref type="bibr" target="#b5">(Deagle et al. 2009;</ref><ref type="bibr" target="#b30">Tollit et al. 2009;</ref><ref type="bibr" target="#b0">Bowles et al. 2011)</ref>.</p><p>The goals of our study were to determine whether DNA from potential prey species, or species incidentally consumed, could be extracted and amplified from the faeces of Pacific walruses in the Bering Sea. We therefore collected walrus faeces and potential prey from the wild and amplified DNA from the faeces and tissue of potential prey species.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Faeces and prey collection and processing</head><p>We obtained 70 Pacific walrus faecal (scat) samples from sea ice haulouts in March of 2008 and 2009 south of St. Lawrence Island in the Bering Sea. The haulouts appeared as large dark brown patches on the snow-covered ice surfaces and were located using a helicopter launched from an icebreaker. We collected the frozen scats using hammers and chisels and kept them frozen in plastic bags until DNA was extracted. Each scat sample was considered to be from a different individual animal based on colour and texture of the samples, and the physical distance between faecal remains frozen into the ice.</p><p>In addition to collecting walrus scats, we obtained benthic species that have been previously found in walrus stomachs. These potential prey species were obtained using van Veen bottom-grabs taken from the icebreaker USCGC Healy in March 2009 at a depth of *100 m within the upper 0.25 m of the soft ocean bottom. The bottom-grabs contained [30 families and [40 species. Potential walrus prey were selected and frozen from these samples <ref type="bibr" target="#b26">(Sheffield et al. 2001;</ref><ref type="bibr" target="#b25">Sheffield and Grebmeier 2009)</ref> and were later thawed to extract DNA to test primers. Our selection of prey included the most common taxa present in the bottom-grabs and ensured that every major prey taxon possible was represented (i.e. molluscs, annelids, crustaceans and echinoderms). Using a suite of common benthic invertebrates from the general area where walruses were feeding was a starting point for primer testing, given our objective to determine whether DNA could be extracted from the walrus faeces and whether any species consumed could be amplified.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA analysis</head><p>We selected primers to amplify the walrus prey from the bottom-grabs from published studies according to whether:</p><p>(1) the primers had successfully amplified a phylum, class, family, genus or species of the potential prey species contained in the bottom-grab sample and (2) we could replicate the published protocol using our laboratory equipment.</p><p>We extracted DNA from *100 mg of faecal material scraped from each of the frozen walrus scats (n = 70) using the DNeasy stool mini kit (Qiagen) according to the 'Isolation of DNA from stool for human DNA analysis' protocol, as per previous faecal dietary studies <ref type="bibr">(Deagle et al. 2005a;</ref><ref type="bibr" target="#b13">King et al. 2008;</ref><ref type="bibr" target="#b0">Bowles et al. 2011)</ref>. Faeces were not homogenized because the samples were already considered to be well mixed. Walrus scat is very diffuse and is readily spread across the ice surface. Individually identifiable scats were chipped from the ice surface and placed into separate plastic bags, thus creating a mixed sample. For prey species, we extracted total DNA from tissue using the DNeasy blood and tissue kit (Qiagen) following the 'animal tissue' protocol. We chose 12 prey species or taxa for primer testing and did two independent DNA extractions from each prey species or taxon (Table <ref type="table" target="#tab_0">1</ref>). Concentrations of DNA were measured using a Nanodrop (ND-1000) spectrophotometer.</p><p>We conducted PCRs according to the methodologies in the studies in which they were published, and only modified protocols as needed to use the equipment available to us. We modified the protocol of <ref type="bibr">Deagle et al. (2005b)</ref> to amplify prey using HotStar Taq polymerase (Qiagen) and accompanying buffer instead of AmpliTaq Gold, with the 16S primers, but all other reaction conditions remained the same. We used 2 ll of neat DNA in every reaction for prey tissue samples and 10 ll for faecal samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Primers from <ref type="bibr" target="#b7">Folmer et al. (1994)</ref> and <ref type="bibr">Deagle et al. (2005b)</ref> successfully amplified DNA from many potential prey species or taxa, and one set of primers from <ref type="bibr">Deagle et al. (2005b)</ref> successfully amplified DNA from the walrus faecal matter. These primers-16S1F F 5 0 GGACGAGAAG ACCCT and 16S2R R 5 0 CGCTGTTATCCCTATGGT AACT-were designed for the 16S mitochondrial gene and had an expected product size of 183-280 bp. Concentrations of extracted DNA ranged from 4.6 to 308.9 ng/ll from *100 mg of faecal material, and from 3.0 to 115.5 ng/ll for DNA extracted from prey species or taxa.</p><p>All of the prey species or taxa that we tested amplified with the 16S primers (Table <ref type="table" target="#tab_0">1</ref> and Online Resource 1). Although amplification was weak for two taxa (bamboo worms-Polychaeta Maldanidae and the hermit crab-Pagurus sp.), all of the products amplified at the expected product size (*183-280 base pairs). Thus, these primers should have amplified DNA from the prey remains contained in the walrus faeces if that species was present. Four of the 70 walrus faecal samples amplified at *250 base pairs (Online Resource 2), which was consistent with our expectations based on amplification of prey DNA (Online Resource 1). However, we do not know which prey these amplifications represented because many of the potential prey species or taxa amplified at similar base pair sizes (Online Resource 1). In fact, the amplifications could have been DNA from multiple prey species or taxa that amplified simultaneously.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>This is the first study to show amplification of DNA directly from walrus faeces that we are aware of. We showed that all 12 of the potential prey species or taxa that we tested from the bottom-grab can be amplified with a single primer set, and that the same primers successfully amplified DNA from four of the walrus faecal samples.</p><p>Amplification of DNA from the tissue of prey samples from the bottom-grab was generally consistent over the extraction duplicates (Online Resource 1). Most of the potential prey species or taxa showed multiple bands of amplification (Online Resource 1), which could indicate non-specific binding. Primers that bind non-specifically to prey DNA may cause competition for reagents and result in less amplification of the target DNA region. This may explain why we amplified DNA from just 4 of the 70 faecal samples that we tested. Optimization of the primers for each prey species or taxon should address this issue, which we did not do because it was beyond the scope of this pilot study. Although there may have been non-specific binding, amplification of DNA from the potential prey species or Positive amplification (Y) indicates that that sample was successfully amplified using the 16S primers from <ref type="bibr">Deagle et al. (2005b)</ref>. Sample numbers correspond to the lane labels in Online Resource 1 taxa was robust across all species or tested using the 16S primers (Table <ref type="table" target="#tab_0">1</ref> and Online Resource 1) <ref type="bibr">(Deagle et al. 2005b)</ref>, making these primers a useful starting point for amplifying DNA from these species or taxa if they were present in the walrus faecal DNA. It was surprising that only four faecal samples amplified (Online Resource 2) given that so many of the potential prey species or taxa from the bottom-grabs are seen in walrus stomachs <ref type="bibr" target="#b25">(Sheffield and Grebmeier 2009;</ref><ref type="bibr" target="#b26">Sheffield et al. 2001)</ref>, and the prey species or taxa could be amplified using the 16S primers (Table <ref type="table" target="#tab_0">1</ref> and<ref type="table" target="#tab_0">Online Resource 1</ref>). However, most of the faecal DNA is comprised of DNA from microorganisms inhabiting the predator's gut, followed by predator DNA and lesser amounts of prey DNA. This means that the amount of prey DNA is a very small portion of the total DNA contained in a faecal sample <ref type="bibr" target="#b0">(Bowles et al. 2011)</ref>. Thus, one possible explanation for so few visible amplifications in the faecal samples is that the small amount of prey DNA, in conjunction with non-specific binding of primers and competition for reagents, may have resulted in fewer amplifications of prey DNA in the faecal samples. An alternative explanation is that the amount of amplified product may have been too small to be visible on an agarose gel. Thus, a more sensitive form of PCR, such as Denaturing Gradient Gel Electrophoresis DGGE <ref type="bibr" target="#b30">(Tollit et al. 2009)</ref> or real-time PCR <ref type="bibr" target="#b2">(Deagle and Tollit 2007;</ref><ref type="bibr" target="#b0">Bowles et al. 2011)</ref>, might have detected many more amplified samples.</p><p>Another possible explanation for the small number of faecal samples that amplified is that there was simply very little prey DNA in the walrus faeces. The prey items for which DNA amplified were physically small, ranging from about 1-2 cm in length, and may therefore have been incidentally consumed by the predator, rather than being the main meal. Thus, the overall contribution of the DNA from the prey that was passed through the walruses gut may have been small compared to other prey types. Again, this may have resulted in fewer amplifications and may mean that a more sensitive method of visualization is needed to see the PCR product.</p><p>Lastly, there is the possibility that the low amplification success rate was due to degraded DNA that was damaged either by UV exposure while on the sea ice, or by freezethaw cycles as it was transported from the location where it was collected to the location where we extracted the DNA. However, spectrophotometer measurements indicated that there was DNA of some sort in all of the faecal samples. Also, the DNA fragment size that we amplified was relatively small (*250 bp), such that some DNA degradation should not have had much effect on the amplification success. Nevertheless, DNA quality issues should also be considered as a possible explanation for our low amplification success rate. Since all of the potential prey species we tested amplified at similar base pair sizes with the 16S primers (Table <ref type="table" target="#tab_0">1</ref> and Online Resource 1 and Online Resource 2), it was not possible to determine which prey species were amplified in the four faecal samples simply by visualizing the PCR product on the agarose gel. However, it should be possible to identify exactly which prey are present by cloning and sequencing these samples, or by using a PCR technique that provides sequence-based resolution, such as DGGE <ref type="bibr">(Deagle et al. 2005a)</ref>.</p><p>Non-invasive diet analysis techniques are being used with increasing frequency for wildlife management <ref type="bibr" target="#b32">(Waits and Paetkau 2005;</ref><ref type="bibr" target="#b13">King et al. 2008)</ref> and are contributing to understanding trophic relationships between competitors and predators and prey <ref type="bibr" target="#b21">(Pimm 2002;</ref><ref type="bibr" target="#b31">Trites 2003)</ref>. Faecal DNA analysis is becoming more common place and is particularly useful for describing the diets of marine mammal species that spend a significant amount of time in the water out of sight, provided that there is a means by which to collect their faeces <ref type="bibr" target="#b13">(King et al. 2008;</ref><ref type="bibr" target="#b30">Tollit et al. 2009;</ref><ref type="bibr" target="#b0">Bowles et al. 2011;</ref><ref type="bibr" target="#b6">Deagle et al. 2010)</ref>. Continued development and application of this technique could contribute considerably to assessing diets of walruses in a rapidly changing northern environment.</p><p>In summary, we successfully amplified DNA from a small subset of walrus faecal samples and believe that it is possible to identify prey species or taxa (e.g. cephalopods or polychaetes) consumed by walruses with further optimization and development of other species-specific or taxon-specific primers, and/ or sequencing. Looking to the future, novel high-throughput assays could allow for sequencing of all prey species in a single sample <ref type="bibr" target="#b5">(Deagle et al. 2009</ref><ref type="bibr" target="#b6">(Deagle et al. , 2010))</ref>. These promising results lay a foundation for further work to identify most of the species consumed by walruses using DNA analyses.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Potential prey species of Pacific walruses from which DNA was extracted and primers were tested</figDesc><table><row><cell>Phylum</cell><cell>Class</cell><cell>Family</cell><cell>Genus ? species</cell><cell>Common name</cell><cell cols="2">Sample # Amplified</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(Y/N)</cell></row><row><cell>Mollusca</cell><cell>Bivalvia</cell><cell>Tellinidae</cell><cell>Macoma moesta</cell><cell cols="2">Flat macoma (clam) 1, 2</cell><cell>Y</cell></row><row><cell></cell><cell></cell><cell>Nuculidae</cell><cell>Ennucula tenuis</cell><cell>Smooth nutclam</cell><cell>3, 4</cell><cell>Y</cell></row><row><cell></cell><cell></cell><cell>Nuculanidae</cell><cell>Nuculana radiata</cell><cell>Rayed nutclam</cell><cell>5, 6</cell><cell>Y</cell></row><row><cell></cell><cell>Gastropoda</cell><cell>Solariellidae</cell><cell>Solariella obscura</cell><cell>Obscure solarelle</cell><cell>23, 24</cell><cell>Y</cell></row><row><cell>Cephalorhyncha</cell><cell>Priapulida</cell><cell>Priapulidae</cell><cell>Priapulus caudatus</cell><cell>Cactus worm</cell><cell>7, 8</cell><cell>Y</cell></row><row><cell>Annelida</cell><cell>Polychaeta</cell><cell>Unidentified</cell><cell>Genus sp.</cell><cell>Marine polychaete</cell><cell>11,12</cell><cell>Y</cell></row><row><cell></cell><cell></cell><cell>Maldanidae</cell><cell>Genus sp.</cell><cell>Bamboo worms</cell><cell>13, 14</cell><cell>Very faint</cell></row><row><cell></cell><cell></cell><cell>Pectinariidae</cell><cell cols="2">Pectinaria hyperborea Marine polychaete</cell><cell>9, 10</cell><cell>Y</cell></row><row><cell cols="2">Arthropoda, subphylum crustacea Malacostraca</cell><cell>Gammaridae</cell><cell>Genus sp.</cell><cell>Amphipod</cell><cell>17, 18</cell><cell>Y</cell></row><row><cell></cell><cell></cell><cell>Paguridae</cell><cell>Pagurus sp.</cell><cell>Hermit crab</cell><cell>21, 22</cell><cell>Very faint</cell></row><row><cell>Echinodermata</cell><cell>Ophiuroidea</cell><cell>Ophiuridae</cell><cell>Ophiura sarsii</cell><cell>Notched brittle star</cell><cell>15, 16</cell><cell>Y</cell></row><row><cell></cell><cell cols="3">Holothuroidea Myriotrochidae Myriotrochus rinkii</cell><cell>Sea cucumber</cell><cell>19, 20</cell><cell>Y</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Polar Biol (2013) 36:755-759   </p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments We thank <rs type="person">Jacqueline Grebmeier</rs> for providing and identifying bottom-grab samples, <rs type="person">Chad Jay</rs> and <rs type="person">Tony Fischbach</rs> for assistance in collecting walrus scats, and <rs type="person">Patricia Schulte</rs> and <rs type="person">Sean Rogers</rs> for use of laboratory equipment. We also thank <rs type="person">Chad Jay</rs> and two reviewers for their constructive comments. DNA analysis was funded by the <rs type="funder">US Geological Survey</rs>, and prey and faecal samples were obtained with the support of the <rs type="funder">National Science Foundation</rs> and the <rs type="funder">North Pacific Research Board</rs> through the <rs type="programName">Bering Sea Integrated Research Program</rs>. This study was part of <rs type="projectName">BEST-BSIERP Bering Sea</rs> Project # <rs type="grantNumber">81</rs>, and is <rs type="funder">NPRB</rs> publication # <rs type="grantNumber">396</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_xrBPyNk">
+					<idno type="grant-number">81</idno>
+					<orgName type="project" subtype="full">BEST-BSIERP Bering Sea</orgName>
+					<orgName type="program" subtype="full">Bering Sea Integrated Research Program</orgName>
+				</org>
+				<org type="funding" xml:id="_etWG5DR">
+					<idno type="grant-number">396</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Proportion of prey consumed can be determined from faecal DNA using real time PCR</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bowles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Schulte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tollit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Trites</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="530" to="540" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Fatty acid biomarkers reveal niche separation in an Arctic benthic food web</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Budge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Springer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Iverson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sheffield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Ecol Prog Ser</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="305" to="309" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Quantitative analysis prey DNA in pinniped faeces: potential to estimate diet composition?</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tollit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="743" to="747" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Molecular scatology as a tool to study diet: analysis of prey DNA in scats from captive Steller sea lions</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tollit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hindell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Trites</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Gales</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1831" to="1842" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Genetic screening for prey in the gut contents from a giant squid (Architeuthis sp.)</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pemberton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Gales</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hered</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="417" to="423" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Analysis of Australian fur seal diet by pyrosequencing prey DNA in faeces</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kirkwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="2022" to="2038" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Pyrosequencing faecal DNA to determine diet of little penguins: is what goes in what comes out?</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chiaradia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcinnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="2039" to="2048" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">DNA primers for amplification of mitochondrial cytochrome c oxidase subunit 1 from diverse metazoan invertebrates</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Folmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hoeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vrijenhoek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Mar Biol Biochem</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="294" to="299" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Feeding of ribbon seals (Phoca fasciata) in the Bering Sea in spring</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Frost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lowry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Zool</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="1601" to="1607" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Investigating trophic relationships of pinnipeds in Alaska and Washington using stable isotope ratios of nitrogen and carbon</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Hobson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sease</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Merrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Piatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Mamm Sci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="114" to="132" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Fatty acid signatures reveal fine scale structure of foraging distribution of harbor seals and their prey in Prince William Sound, Alaska</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Iverson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Frost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Lowry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Ecol Prog Ser</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="255" to="271" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Quantitative fatty acid signature analysis: a new method of estimating predator diets</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Iverson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Field</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Bowen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Blanchard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol Monogr</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="211" to="235" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A DNAbased method for identification of krill species and its application to analysing the diet of marine vertebrate predators</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Gales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tierney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Gill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Elliott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="2679" to="2690" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Molecular analysis of predation: a review of best practice for DNA-based approaches</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Read</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Traugott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Woc</forename><surname>Symondson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="947" to="963" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Walruses attack spectacled eiders wintering in pack ice of the Bering Sea</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Lovvorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mckay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Bump</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Grebmeier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arctic</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="53" to="56" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Seal eating by walruses in the Bering and Chukchi Seas</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lowry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polar Biol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="11" to="18" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Walrus (Odobenus rosmarus) predation on adult thick-billed murres (Uria lomvia) at Coats Island, Nunavut, Canada</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Mallory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Gaston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mineau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polar Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="111" to="114" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Foraging behavior of adult female and young-of-year Steller sea lions in Alaskan waters</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Merrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Loughlin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Zool</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="776" to="786" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Using stable isotopes to investigate individual diet specialization in California sea otters (Enhydra lutris nereis)</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Newsome</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Tinker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Monson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">T</forename><surname>Oftedal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ralls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Staedler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Fogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Estes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="961" to="974" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Evaluating quantitative fatty acid signature analysis (QFASA) using harbour seals Phoca vitulina richardsi in captive feeding studies</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nordstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Iverson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tollit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Ecol Prog Ser</title>
+		<imprint>
+			<biblScope unit="volume">360</biblScope>
+			<biblScope unit="page" from="245" to="263" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Converting isotope values to diet composition: the use of mixing models</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Phillips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mammal</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="342" to="352" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Pimm</surname></persName>
+		</author>
+		<title level="m">Food webs</title>
+		<meeting><address><addrLine>Chicago</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Quantitative assessment of gray seal diet from fecal analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Prime</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Hammond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Approaches to marine mammal energetics</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Huntley</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Costa</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Gaj</forename><surname>Worthy</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Castellini</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Lawrence</addrLine></address></meeting>
+		<imprint>
+			<publisher>Allen Press</publisher>
+			<date type="published" when="1987">1987</date>
+			<biblScope unit="page" from="165" to="181" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Effects of phylogeny and prey type on fatty acid calibration coefficients in three pinniped species: implications for the QFASA dietary quantification technique</title>
+		<author>
+			<persName><forename type="first">Das</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tollit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Ecol Prog Ser</title>
+		<imprint>
+			<biblScope unit="volume">467</biblScope>
+			<biblScope unit="page" from="263" to="276" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Precarious status of the seal and sea-lion on our northwest coast</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Scheffer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mammal</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="10" to="16" />
+			<date type="published" when="1928">1928</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Pacific walrus (Odobenus rosmarus divergens): differential prey digestion and diet</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sheffield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Grebmeier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Mamm Sci</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="761" to="777" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Laboratory digestion of prey and interpretation of walrus stomach contents</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sheffield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Fay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Feder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Mamm Sci</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="310" to="330" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Seasonal and spatial differences in diet in the western stock of Steller sea lions (Eumetopias jubatus)</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Sinclair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Zeppelin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mammal</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="973" to="990" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Estimating diet composition in sea lions: which technique to choose?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tollit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Heaslip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Iverson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Joy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Das</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Trites</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Sea lions of the world</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Trites</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Atkinson</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Demaster</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Frtiz</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Gelatt</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Rea</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Wynne</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Fairbanks</addrLine></address></meeting>
+		<imprint>
+			<publisher>Alaska Sea Grant</publisher>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page" from="293" to="308" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Impact of dietindex selection and the digestion of prey hard remains on determining the diet of the Steller sea lion (Eumetopias jubatus)</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tollit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Heaslip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Barrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Trites</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Zool</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Development and application of DNA techniques for validating and improving pinniped diet estimates</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tollit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Schulze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Trites</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Olesiuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Crockford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Gelatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Ream</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol Appl</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="889" to="905" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Food webs in the ocean: who eats whom and how much?</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Trites</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Responsible fisheries in the marine ecosystem</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Sinclair</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Valdimarsson</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Wallingford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Rome and CABI Publishing</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="125" to="141" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling tools for wildlife biologists: a review of applications and recommendations for accurate data collection</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wildl Manage</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

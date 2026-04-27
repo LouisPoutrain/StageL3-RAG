@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Data Descriptor: Mountain hare transcriptome and diagnostic markers as resources to monitor hybridization with European hares</title>
+				<funder ref="#_wZQTM36">
+					<orgName type="full">European Social Fund and FCT</orgName>
+				</funder>
+				<funder ref="#_FJ8QCgg">
+					<orgName type="full">M.J. Murdock Charitable Trust</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">POPH-QREN</orgName>
+				</funder>
+				<funder ref="#_A55z7XM #_eJBFSER">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+				<funder ref="#_HrwaZZv">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">FLAD (Luso-American Foundation)</orgName>
+				</funder>
+				<funder ref="#_aYC6U39">
+					<orgName type="full">European Union</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Fundação para a Ciência e a Tecnologia, FCT</orgName>
+				</funder>
+				<funder ref="#_fmsTFmy">
+					<orgName type="full">Portuguese National Funds</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2017-12-05">5 December 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">João</forename><forename type="middle">P</forename><surname>Marques</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centro de Investigação em Biodiversidade e Recursos Genéticos</orgName>
+								<orgName type="department" key="dep2">InBIO Laboratório Associado</orgName>
+								<orgName type="laboratory">CIBIO</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<postCode>4485-661</postCode>
+									<settlement>Vairão</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Departamento de Biologia</orgName>
+								<orgName type="institution">Faculdade de Ciências do Porto</orgName>
+								<address>
+									<postCode>4169-007</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mafalda</forename><forename type="middle">S</forename><surname>Ferreira</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centro de Investigação em Biodiversidade e Recursos Genéticos</orgName>
+								<orgName type="department" key="dep2">InBIO Laboratório Associado</orgName>
+								<orgName type="laboratory">CIBIO</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<postCode>4485-661</postCode>
+									<settlement>Vairão</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Departamento de Biologia</orgName>
+								<orgName type="institution">Faculdade de Ciências do Porto</orgName>
+								<address>
+									<postCode>4169-007</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Liliana</forename><surname>Farelo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centro de Investigação em Biodiversidade e Recursos Genéticos</orgName>
+								<orgName type="department" key="dep2">InBIO Laboratório Associado</orgName>
+								<orgName type="laboratory">CIBIO</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<postCode>4485-661</postCode>
+									<settlement>Vairão</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Colin</forename><forename type="middle">M</forename><surname>Callahan</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Division of Biological Sciences</orgName>
+								<orgName type="institution">University of Montana</orgName>
+								<address>
+									<addrLine>32 Campus Drive</addrLine>
+									<postCode>59812</postCode>
+									<settlement>Missoula</settlement>
+									<region>MT</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Klaus</forename><surname>Hackländer</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Institute of Wildlife Biology and Game Management</orgName>
+								<orgName type="institution">BOKU-University of Natural Resources and Life Sciences</orgName>
+								<address>
+									<postCode>1180</postCode>
+									<settlement>Vienna</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hannes</forename><surname>Jenny</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">Amt für Jagd und Fischerei Graubünden</orgName>
+								<address>
+									<postCode>7001</postCode>
+									<settlement>Chur</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">W</forename><forename type="middle">Ian</forename><surname>Montgomery</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Institute of Global Food Security</orgName>
+								<orgName type="department" key="dep2">School of Biological Sciences</orgName>
+								<orgName type="institution">Queen&apos;s University Belfast</orgName>
+								<address>
+									<postCode>BT9 5BN</postCode>
+									<settlement>Belfast</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">School of Biological Sciences</orgName>
+								<orgName type="institution">Queen&apos;s University Belfast</orgName>
+								<address>
+									<addrLine>97 Lisburn Road</addrLine>
+									<postCode>BT9 7BL</postCode>
+									<settlement>Belfast</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Neil</forename><surname>Reid</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Institute of Global Food Security</orgName>
+								<orgName type="department" key="dep2">School of Biological Sciences</orgName>
+								<orgName type="institution">Queen&apos;s University Belfast</orgName>
+								<address>
+									<postCode>BT9 5BN</postCode>
+									<settlement>Belfast</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">School of Biological Sciences</orgName>
+								<orgName type="institution">Queen&apos;s University Belfast</orgName>
+								<address>
+									<addrLine>97 Lisburn Road</addrLine>
+									<postCode>BT9 7BL</postCode>
+									<settlement>Belfast</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jeffrey</forename><forename type="middle">M</forename><surname>Good</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Division of Biological Sciences</orgName>
+								<orgName type="institution">University of Montana</orgName>
+								<address>
+									<addrLine>32 Campus Drive</addrLine>
+									<postCode>59812</postCode>
+									<settlement>Missoula</settlement>
+									<region>MT</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paulo</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centro de Investigação em Biodiversidade e Recursos Genéticos</orgName>
+								<orgName type="department" key="dep2">InBIO Laboratório Associado</orgName>
+								<orgName type="laboratory">CIBIO</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<postCode>4485-661</postCode>
+									<settlement>Vairão</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Departamento de Biologia</orgName>
+								<orgName type="institution">Faculdade de Ciências do Porto</orgName>
+								<address>
+									<postCode>4169-007</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">José</forename><surname>Melo-Ferreira</surname></persName>
+							<email>jmeloferreira@cibio.up.pt</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centro de Investigação em Biodiversidade e Recursos Genéticos</orgName>
+								<orgName type="department" key="dep2">InBIO Laboratório Associado</orgName>
+								<orgName type="laboratory">CIBIO</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<postCode>4485-661</postCode>
+									<settlement>Vairão</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Departamento de Biologia</orgName>
+								<orgName type="institution">Faculdade de Ciências do Porto</orgName>
+								<address>
+									<postCode>4169-007</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Data Descriptor: Mountain hare transcriptome and diagnostic markers as resources to monitor hybridization with European hares</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2017-12-05">5 December 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1637D119671CD6299B4CEB61C3A460E7</idno>
+					<idno type="DOI">10.1038/sdata.2017.178</idno>
+					<note type="submission">Received: 15 February 2017 Accepted: 13 October 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-15T16:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Lepus timidus</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We report the first mountain hare (Lepus timidus) transcriptome, produced by de novo assembly of RNAsequencing reads. Data were obtained from eight specimens sampled in two localities, Alps and Ireland. The mountain hare tends to be replaced by the invading European hare (Lepus europaeus) in their numerous contact zones where the species hybridize, which affects their gene pool to a yet unquantified degree. We characterize and annotate the mountain hare transcriptome, detect polymorphism in the two analysed populations and use previously published data on the European hare (three specimens, representing the European lineage of the species) to identify 4 672 putative diagnostic sites between the species. A subset of 85 random independent SNPs was successfully validated using PCR and Sanger sequencing. These valuable genomic resources can be used to design tools to assess population status and monitor hybridization between species.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Design Type(s)</head><p>individual genetic characteristics comparison design • strain comparison design • population dynamics analysis objective Measurement Type(s) transcription profiling assay Technology Type(s) RNA sequencing Factor Type(s) geographic location</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background &amp; Summary</head><p>The mountain hare (Lepus timidus) is an Arcto-alpine species that was the most common and widely distributed hare species across Europe during the last glacial periods <ref type="bibr" target="#b0">1</ref> . Nowadays, the mountain hare is distributed from Fennoscandia to Eastern Siberia, but also occurs in isolated/refuge populations (e.g., Ireland, Scotland, the Alps, Poland, the Baltics and Japan), and in places where it has been introduced (Iceland, England, Faroe Islands and New Zealand) (see Fig. <ref type="figure" target="#fig_1">1</ref>). Even though they are a popular game species and abundant within its range, mountain hares have sharply declined in some regions, particularly in areas of contact with the European hare (Lepus europaeus), where the latter tends to invade and replace the range of the former <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> . Mountain and European hares share extensive natural and human-induced contact zones in Western Europe, from the British Isles to Scandinavia and Central Europe (Fig. <ref type="figure" target="#fig_1">1</ref>). Climate change is predicted to affect lagomorphs extensively <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> and, in particular, to accelerate the replacement of mountain hares by European hares in the contact zones, such as the Alps, Sweden or Ireland <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> . The two species may hybridize when in contact, resulting in some genetic introgression <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref> , with potential effects on local adaptation <ref type="bibr" target="#b13">14</ref> .</p><p>Even though the mountain hare and other hare species have been the subject of several population genetics studies, these have been mostly based on a few markers <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> . Therefore, permanent genomic resources provide fundamental information to develop monitoring tools to evaluate population status and implement protective policies. In this work, we use high-throughput RNA sequencing to: i) generate genomic resources for the mountain hare; and, ii) use published data on the European hare <ref type="bibr" target="#b17">18</ref> to pinpoint candidate fixed differences between the species that can be used to build genotyping tools to monitor gene exchange in the contact zones. We here present the first mountain hare transcriptome, and the most complete among the currently available European Lepus transcriptomes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>A summary of the methodological workflow is shown in the flowchart of Fig. <ref type="figure" target="#fig_2">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sampling procedure and locations</head><p>Specimens from the Alps (see Fig. <ref type="figure" target="#fig_1">1</ref>) were sampled during regular permit hunting in Grisons, Switzerland. Specimens from Ireland (see Fig.  Irish hares were dispatched humanely and in accordance with the licence conditions by means of lethal injection administered by Mr William Fitzgerald, Veterinary Laboratory Service Follow (MVB MVM CertCSM), from the Department of Agriculture, Food and the Marine, Regional Veterinary Laboratory, Hebron Road, Kilkenny, R95 TX39. Total RNA was isolated from 8 individuals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA extraction</head><p>Liver tissue was freshly collected, immediately preserved in RNAlater and then stored at -80 °C until RNA extraction. Prior to extraction, frozen samples were ground in liquid nitrogen with a ceramic mortar and pestle. Mortar and pestle were washed prior to extraction using a 6-step wash that includes the following washing reagents in order: 70% ethanol, tap water, 10% bleach, milli-Q water, RNase away (Thermo Fisher Scientific) and finishing with molecular grade H 2 O. RNA extraction was performed using RNeasy Mini Kit according to manufacturer instructions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA sequencing library preparation</head><p>The SureSelect Strand-Specific RNA Library Prep for Illumina Multiplexed Sequencing (Agilent Technologies) kit was used to prepare cDNA libraries for all samples. Library sizes were estimated using a Bioanalyzer 2,100 and quantified using KAPA Library quantification kit (KAPA BIOSYSTEMS). Equal molar concentrations of each library were pooled together for sequencing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sequence data processing and de novo transcriptome assembly</head><p>A detailed description of tools and commands used in the data analysis is shown in Table <ref type="table">1</ref> (available online only). A first quality evaluation of obtained sequence reads (Data Citation 1) was performed with FastQC v0.11.5 <ref type="bibr" target="#b18">19</ref> . After read quality inspection, adapters were removed and quality trimming performed using TRIMMOMATIC v0.36 <ref type="bibr" target="#b19">20</ref> , with instructions to remove the first ten bases, Illumina adapters, reads below 25 bp long and bases in the ends of reads with quality below 10, and to perform a 4-base sliding window trimming and cutting fragments with an average quality below 10. Trimmed-read quality was rechecked with FastQC (Data Citation 2). A de novo transcriptome assembly was then performed using all properly paired reads from the eight individuals in the dataset using TRINITY v2.2.0 <ref type="bibr" target="#b20">21</ref> , establishing RF as read orientation for a strand-specific assembly. In addition, as a complementary resource, de novo transcriptome assemblies for each of the two sampling localities were also performed. Transrate v1.0.3 <ref type="bibr" target="#b21">22</ref> was used to evaluate assembly quality and completeness and to remove possible chimeras and poorly supported contigs. Cleaned reads were mapped back to the produced assembly and only the wellsupported contigs were retained (Transrate optimal cut-off &gt;0.024). In order to remove redundancy produced by using multi-sample data to perform the assembly, all contigs were clustered using CD-HIT-EST v4.6.4 <ref type="bibr" target="#b22">23</ref> with a 95% similarity threshold. Open reading frames were predicted with TransDecoder v3.0.0 24 to remove possible contaminants such as non-coding RNA and DNA contamination. The final filtered transcriptome comprised contigs with predicted open reading frame and/or rabbit (Oryctolagus cuniculus) or pfam annotation. Filtered transcriptome as well as raw assemblies are available in Figshare (Data Citation 2). Commands used in the analytical steps shown in bold are detailed in Table <ref type="table">1</ref> (available online only).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transcriptome annotation</head><p>Transcriptome annotation was performed adapting the protocol of Trinotate v3.0.1 <ref type="bibr" target="#b23">24</ref> , using i) Conditional Reciprocal Best BLAST (crb-blast) v0.6.6 <ref type="bibr" target="#b24">25</ref> against the rabbit transcriptome reference (release 86) and Swiss-Prot database <ref type="bibr" target="#b25">26</ref> ; ii) protein domain identification by HMMER v3.1b2 <ref type="bibr" target="#b26">27</ref> onto the PFAM database <ref type="bibr" target="#b27">28</ref> ; iii) protein signal peptide through signal v 4.1 <ref type="bibr" target="#b28">29</ref> ; iv) transmembrane domain prediction using tmHMM v2.0 30 ; and v) eggNOG <ref type="bibr" target="#b30">31</ref> , GO <ref type="bibr" target="#b31">32</ref> and Kegg 33 databases annotation. Annotation information was incorporated into an xlsx database (Data Citation 2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SNP inference</head><p>SNP calling was performed separately for mountain hares (Data Citation 1) and European hares (Data Citation 3, from Amoutzias et al. <ref type="bibr" target="#b17">18</ref> ). The three European hare specimens represent the European lineage of the species <ref type="bibr" target="#b17">18</ref> . First, reads from all the individuals were mapped to the filtered mountain hare de novo transcriptome with bwa-mem v0.7.15 <ref type="bibr" target="#b33">34</ref> with default parameters and read group information added to each sequencing lane-sample pair. The resulting alignments were converted to a binary file (bam format), sorted and submitted to fixmate step using SAMtools v1.3.1 <ref type="bibr" target="#b34">35</ref> . Duplicate reads were removed using Picard v1.140 (<ref type="url" target="http://broadinstitute.github.io/picard">http://broadinstitute.github.io/picard</ref>) with the option MarkDuplicates. Realignment and recalibration was performed with Genome Analysis Toolkit v3.6-0 <ref type="bibr" target="#b35">36</ref> . Finally, SNP call was carried out using Reads2snp v2.0.64 37 using a threshold of 20 for site and mapping qualities, the paralog filter, a minimum coverage of 10X and a genotype probability &gt;0.95. The resulting VCF file was deposited in Figshare (Data Citation 2). Only SNPs represented in all sampled specimens were retained.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Differentiation, admixture and Gene Ontology enrichment analysis</head><p>A set of random 5 502 SNPs, selected from independent contigs in order to reduce the linkage probability, was identified with VCFtools v0.1.14 <ref type="bibr" target="#b37">38</ref> . PGDSpyder v2.1.1.0 <ref type="bibr" target="#b38">39</ref> was used to convert this file to the required file formats. Partitions of genetic diversity in the dataset were investigated with a Principal Components Analysis, using PLINK v1.90b3.45 <ref type="bibr" target="#b39">40</ref> and ggplot2 R package <ref type="bibr" target="#b40">41</ref> to plot the results. Additionally, the data were analysed using the admixture model implemented in STRUCTURE 2.3.4 <ref type="bibr" target="#b41">42</ref> , with three replicate runs with 1 million steps after a burn-in period of 200 000, and K = 2. Results were plotted using CLUMPACK <ref type="bibr" target="#b42">43</ref> . Gene Ontology enrichment analyses were performed for the collection of contigs/genes with fixed differences between mountain and European hare samples, and between mountain hare sampling localities. The analysis was based on the rabbit proteome annotations and performed with g:Profiler <ref type="bibr" target="#b33">34</ref> , applying the g:SCS multiple test correction and the 'best per parent group' hierarchical filter. The background set of genes was reduced to contigs with SNP information.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Independent SNP genotyping</head><p>A random set of 110 SNPs, inferred as potentially diagnostic between L. timidus and L. europaeus, was selected for independent validation using Sanger sequencing. DNA was extracted from two of the previously analysed mountain hare samples (one Alpine, Sample_3112, and one Irish, Sample_3103) and two other European hare specimens (sampled in Clermont-Ferrand-Sample-1569-Font-Romeu, Pyrenees-Sample-1550-in France during the regular hunting season). DNA extraction was performed using JETQUICK Tissue DNA Purification kit (Genomed). PCR primers were designed to be anchored in a single exon (taking into account intron-exon boundaries from the European rabbit reference genome) and to amplify a portion of 110 independent contigs containing at least one putative diagnostic SNP. The Primer sets were designed using the Scrimer pipeline <ref type="bibr" target="#b43">44</ref> , which depends on Primer3 <ref type="bibr" target="#b44">45</ref> to design and set the primer conditions. A third internal sequencing primer was designed. PCRs were performed using QIAGEN Multiplex PCR Master Mix (Qiagen) and the following thermal cycling profile: initial denaturation at 95 °C for 15', 35 cycles of denaturation at 95 °C for 30'', annealing at 60-67 °C for 20'' and elongation at 72 °C for 30'', and a final extension step at 72 °C for 5'. PCR products were visually inspected under UV-light after electrophoresis in agarose gels stained with GelRed (Biotium), purified with Exonuclease I (New England Biolabs) and FastAP Thermosensitive Alkaline Phosphatase (Thermo Scientific), and sequenced using internal or, in a few cases, PCR primers in a ABI 3130xl genetic analyzer.</p><p>Trinity raw assemblies (Ltimidus_Trinity.fasta, LtimidusIreland_Trinity.fasta and LtimidusAlps_Trinity.fasta) were deposited on Figshare (Data Citation 2 and Table <ref type="table" target="#tab_0">4</ref>). The curated transcriptome assembly fasta files (LtimidusTranscriptome.cds.fasta and LtimidusTranscriptome.pep.fasta) and the annotated database file (LtimidusTranscriptome.xlsx) can also be found in Figshare (Data Citation 2).</p><p>The European hare data used here (Data Citation 3) was previously published by Amoutzias et al. <ref type="bibr" target="#b17">18</ref> (NCBI Sequence Read Archive, accession number SRP055741, samples SRR1823098, SRR1863103 and SRR1863605).</p><p>Mapping statistics (Table <ref type="table" target="#tab_4">5</ref>), SNP call VCF file (LtimVsLeur.vcf) and population/species diagnostic SNPs tables (Supplementary Tables 1) were deposited in Figshare (Data Citation 2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Technical Validation</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA integrity</head><p>The quality and quantity of each RNA sample was assessed using the 260/280 and 260/230 absorbance ratios estimated by an IMPLEN P330 NanoPhotometer and RNA Integrity Number (RIN) and concentration (μg μl -1 ) with a Bioanalyzer 2,100 (Agilent Technologies). All samples had RIN values above 8.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA-Seq data quality</head><p>The Illumina HiSeq run produced a total raw output of 103 941 215 100 bp paired-end reads (207 882 430 total reads). Adapter removal and quality trimming decreased this number to 201 569 448 reads (97%) (Table <ref type="table" target="#tab_0">4</ref>). Final analysed reads passed the minimum quality parameters as established by FastQC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transcriptome assembly curation, annotation and quality</head><p>Cleaned reads were assembled into 272 183 contigs with a mean length of 594 bp and a N50 length of 839 bp (Table <ref type="table" target="#tab_0">4</ref>). After assembly curation with Transrate optimal cut-off &gt;0.024, clustering with a 95% similarity threshold and open reading frame prediction, were retained 25 868 transcripts with a mean length of 842 bp and a N50 length of 1 182 (Table <ref type="table" target="#tab_0">4</ref>).</p><p>Annotation using a conditional reciprocal best blast hit approach results in 16 772 (65%) annotated transcripts, of which 13 641 were annotated to the rabbit transcriptome and 15 955 to the Swiss-Prot database (Fig. <ref type="figure" target="#fig_3">3</ref>). In order to reduce the number of non-annotated transcripts, the less stringent unidirectional blast hit was added to the database. Hits were recovered for 25 549 transcripts (99%) (Fig. <ref type="figure" target="#fig_3">3</ref>).</p><p>The mountain hare transcriptome produced in this study represents an important improvement compared to the currently available transcriptomic resources for European Lepus-L. granatensis <ref type="bibr" target="#b45">46</ref> and L. europaeus 18 transcriptomes-as it performs better on several assembly statistics, such as reference coverage (42 versus 32% in L. granatensis and 40% in L. europaeus; using the rabbit transcriptome as reference).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genetic variation, differentiation and gene ontology enrichment</head><p>In total, 218 057 526 reads (63%) were mapped to the filtered transcriptome-136 511 846 mountain hare reads (68%) and 81 545 680 European hare reads (57%) (see statistics in Table <ref type="table" target="#tab_4">5</ref>). After filtering, 159 629 high-quality SNPs were inferred, of which 41 182 (26%) were sequenced in all eleven specimens. A summary of polymorphic, shared and fixed SNPs is shown in Fig. <ref type="figure" target="#fig_3">3</ref>. 4 672 putative species-diagnostic SNPs (considered when species presented alternative fixed alleles) were inferred (Data Citation 2, Supplementary Tables 1, also deposited in Figshare). The diagnostic power of our SNP set could be strongly reduced if any of the sequenced specimens was admixed (namely from the Alps, where the species overlap). We therefore conducted a Principal Component Analysis and a Bayesian Assignment analysis to assess our ability to separate the species. The results suggest that the analysed mountain and European hares are well differentiated with our SNP set, and only possible limited levels of admixture were found for Sample-3116 (Fig. <ref type="figure" target="#fig_4">4</ref>). An extra table of putative species-diagnostic SNPs excluding that individual was therefore produced (Data Citation 2, Supplementary Table <ref type="table">2</ref>. Summary of sample data information deposited in the NCBI database.</p><p>Irish and Alpine samples respectively, and 126 were fixed between sampling localities (Data Citation 2, Supplementary Tables 5, deposited in Figshare). The 'membrane part' gene ontology term was found enriched in the collection of genes with fixed differences between the Irish and Alpine mountain hare samples, while terms 'lipid metabolic process', 'small molecule catabolic process', 'extracellular space and acyl-CoA dehydrogenase activity' were found enriched in genes with fixed differences between samples of the two species. Note however that even though the background gene set was controlled for, RNAsequencing data does not provide an unbiased sample of information across different genes and these results may represent tissue-related functions.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SNP validation</head><p>Independent SNP genotyping was performed for a random subset of 110 putative species-diagnostic SNPs from different contigs. Technical validation was considered successful for SNPs showing the expected alternative alleles, being one fixed in L. timidus (note that the sequenced L. europaeus specimens differed from the RNA-sequencing). PCR amplification was successful for 96 of the 110 target contigs (87%), 88 amplicons were successfully sequenced in both species (92%), and concordance between sequences and expected SNPs was obtained for 85 of the sequenced fragments (97%). This represents an overall validation success of 77%, which compares to studies using similar approaches <ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref>   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Usage Notes</head><p>These genomic resources (which greatly extend previously available marker sets; e.g. <ref type="bibr" target="#b49">50</ref> ) will be useful for a variety of studies, particularly in the characterization of genetic diversity in mountain hare populations and on the development of hybridization monitoring tools. Note that SNPs were here inferred from an uneven and small species sample, and therefore any diagnostic genotyping assay built from this data should be first tested with adequate sample sizes from pure parental populations of the species, before being applied to hybrid zones.</p><p>material in this article are included in the article's Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ref type="url" target="http://creativecommons.org/licenses/by/4.0/">http://creativecommons. org/licenses/by/4.0/</ref> </p><p>The Creative Commons Public Domain Dedication waiver <ref type="url" target="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/ zero/1.0/</ref> applies to the metadata files made available in this article.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>1) were captured from the wild in Borris-in-Ossory, by the Irish Coursing Club (ICC) for scientific research purposes under National Parks &amp; Wildlife (NPWS) licence No. C 337/2012 issued by the Department of Arts, Heritage and the Gaeltacht (dated 31/10/2012).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Approximate mountain and European hare distribution. Approximate distributions of the mountain hare, Lepus timidus, and the European hare, L. europaeus, in Eurasia with indication of the areas of contact and of broad geographic overlap between the species (distribution ranges were adapted from IUCN Spatial Data Resources; IUCN 2016 51 ). Circles indicate the mountain hare sampling locations for this work (open circle-Ireland; closed circle-Alps).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Methodological workflow. Flowchart of the RNA-sequencing setup and data analysis steps. Commands used in the analytical steps shown in bold are detailed inTable 1 (available online only).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Annotation summary. Number of transcripts annotated with different combinations of methods and databases: all transcripts; transcripts annotated with crb-blast against rabbit transcriptome; transcripts annotated with a unidirectional BLASTx against rabbit transcriptome; transcripts annotated with crb-blast against the Swiss-Prot database; and transcripts annotated with a unidirectional BLASTx against the Swiss-Prot database.</figDesc><graphic coords="8,159.89,257.29,217.10,220.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Characterization of inferred SNPs in the sampled populations and species. (a) Relative proportion of the 41 182 SNPs mapped to the mountain hare transcriptome, summarized as polymorphic within each species and fixed or shared between L. timidus (mountain hare) and L. europaeus (European hare). The proportion is shown considering the complete L. timidus dataset (i) and only the Irish (ii) and Alpine (iii) populations. (b) STRUCTURE analysis to evaluate cluster membership and admixture proportions. Individuals are sorted by population and species. Mountain hare populations are shown in blue and European hare individuals in orange. (c) Principal Component Analysis (PCA) plot using one SNP per contig. The first principal component (PC1) splits species and the second (PC2) the sampled populations.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 4 ,</head><label>4</label><figDesc>also deposited in Figshare). 25 269 SNPs were inferred in the mountain hare, of which 12 548 and 18 591 were polymorphic in the</figDesc><table><row><cell>Sample ID</cell><cell>Species (population)</cell><cell>Tissue</cell><cell>Method</cell><cell>NCBI BioSample ID</cell></row><row><cell>Sample_3101</cell><cell>Lepus timidus (Ireland)</cell><cell>liver</cell><cell>RNA-seq</cell><cell>SAMN06186748</cell></row><row><cell>Sample_3102</cell><cell>Lepus timidus (Ireland)</cell><cell>liver</cell><cell>RNA-seq</cell><cell>SAMN06186761</cell></row><row><cell>Sample_3103</cell><cell>Lepus timidus (Ireland)</cell><cell>liver</cell><cell>RNA-seq</cell><cell>SAMN06186762</cell></row><row><cell>Sample_3105</cell><cell>Lepus timidus (Ireland)</cell><cell>liver</cell><cell>RNA-seq</cell><cell>SAMN06186763</cell></row><row><cell>Sample_3112</cell><cell>Lepus timidus (Alps)</cell><cell>liver</cell><cell>RNA-seq</cell><cell>SAMN06186727</cell></row><row><cell>Sample_3113</cell><cell>Lepus timidus (Alps)</cell><cell>liver</cell><cell>RNA-seq</cell><cell>SAMN06186728</cell></row><row><cell>Sample_3114</cell><cell>Lepus timidus (Alps)</cell><cell>liver</cell><cell>RNA-seq</cell><cell>SAMN06186729</cell></row><row><cell>Sample_3116</cell><cell>Lepus timidus (Alps)</cell><cell>liver</cell><cell>RNA-seq</cell><cell>SAMN06186738</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Illumina RNA-seq data deposited in the NCBI database.</figDesc><table><row><cell>Lepus timidus transcriptome</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Mountain hare transcriptome assembly and curation statistics.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5 .</head><label>5</label><figDesc>(Data Citation 2; see Supplementary Table8for full genotyping results, and Supplementary Table9with the list of all primers, both deposited in Figshare). The reported accuracy of technical validation is conservative, as it is reduced by technical issues in PCR amplification and sequencing, and potential intraspecific polymorphism in the European hare (given the use of two different samples for validation), in addition to real false positives. From the validated SNPs, 73 confirmed alternate alleles in the species, but their diagnostic utility should be tested with larger population sampling. Mapping statistics.</figDesc><table><row><cell>Sample ID</cell><cell>Species (population)</cell><cell>Raw reads #</cell><cell>Mapped reads #</cell><cell>Mapped reads %</cell></row><row><cell>Sample_3101</cell><cell>Lepus timidus (Ireland)</cell><cell>26,598,712</cell><cell>19,648,435</cell><cell>74</cell></row><row><cell>Sample_3102</cell><cell>Lepus timidus (Ireland)</cell><cell>26,128,525</cell><cell>18,781,893</cell><cell>72</cell></row><row><cell>Sample_3103</cell><cell>Lepus timidus (Ireland)</cell><cell>24,469,456</cell><cell>16,102,091</cell><cell>66</cell></row><row><cell>Sample_3105</cell><cell>Lepus timidus (Ireland)</cell><cell>26,662,182</cell><cell>18,429,333</cell><cell>69</cell></row><row><cell>Sample_3112</cell><cell>Lepus timidus (Alps)</cell><cell>22,444,667</cell><cell>13,913,982</cell><cell>62</cell></row><row><cell>Sample_3113</cell><cell>Lepus timidus (Alps)</cell><cell>20,825,930</cell><cell>13,935,177</cell><cell>67</cell></row><row><cell>Sample_3114</cell><cell>Lepus timidus (Alps)</cell><cell>32,749,011</cell><cell>21,360,771</cell><cell>65</cell></row><row><cell>Sample_3116</cell><cell>Lepus timidus (Alps)</cell><cell>21,690,965</cell><cell>14,340,164</cell><cell>66</cell></row><row><cell>Sample_H1</cell><cell>Lepus europaeus</cell><cell>20,825,930</cell><cell>14,100,961</cell><cell>62</cell></row><row><cell>Sample_H2</cell><cell>Lepus europaeus</cell><cell>32,749,011</cell><cell>28,922,352</cell><cell>57</cell></row><row><cell>Sample_H3</cell><cell>Lepus europaeus</cell><cell>21,690,965</cell><cell>38,522,367</cell><cell>55</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>SCIENTIFIC DATA | 4:170178 | DOI: 10.1038/sdata.2017.178</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was funded by project <rs type="projectName">HybridAdapt</rs> with reference <rs type="grantNumber">FCT-ANR/BIA-EVF/0250/2012</rs>, supported by <rs type="funder">Portuguese National Funds</rs> through the <rs type="funder">Fundação para a Ciência e a Tecnologia, FCT</rs>. Additional support was obtained from <rs type="funder">POPH-QREN</rs> funds, from the <rs type="funder">European Social Fund and FCT</rs> (<rs type="grantNumber">IF/ 00033/2014/CP1256/CT0005 FCT</rs> Investigator grant to JM-F, and <rs type="grantNumber">SFRH/BD/115089/2016</rs> and <rs type="grantNumber">PD/BD/ 108131/2015</rs> PhD grants to JPM and MSF respectively). Instrumentation, laboratory and computational support was provided by <rs type="projectName">CIBIO NEW-GEN sequencing platform</rs>, supported by <rs type="funder">European Union</rs>'s <rs type="programName">Seventh Framework Programme for research, technological development and demonstration</rs> under grant agreement no. <rs type="grantNumber">286431</rs>. Laboratory work at the <rs type="institution">University of Montana</rs> was performed in the <rs type="institution">UM Genomics Core</rs>, supported with a grant from the <rs type="funder">M.J. Murdock Charitable Trust</rs>. Transcriptome sequencing was performed through the <rs type="person">Vincent J. Coates</rs> <rs type="affiliation">Genomics Sequencing Laboratory at University of California Berkeley</rs>, supported by <rs type="funder">NIH</rs> <rs type="grantName">S10 Instrumentation</rs> Grants <rs type="grantNumber">S10RR029668</rs> and <rs type="grantNumber">S10RR027303</rs>. Support was additionally obtained from <rs type="funder">FLAD (Luso-American Foundation)</rs> travel grant to MSF. We are grateful to <rs type="person">René Gadient</rs> and local hunters in Grisons for their tremendous effort in collecting samples under Alpine conditions. <rs type="person">Laura Claffey</rs> issued the licence to take animals for scientific purposes in Ireland (dated 31/10/2012) from the <rs type="institution">Wildlife Licensing Unit, National Parks &amp; Wildlife Service (NPWS)</rs>, <rs type="institution">Department of Arts, Heritage &amp; the Gaeltacht</rs>, and <rs type="person">Mr Jimi Conroy</rs>, the local NPWS Conservation Officer consented to sampling within his jurisdiction. We thank the <rs type="institution">Irish Coursing Club (ICC)</rs> for providing hares, and in particular <rs type="person">Mr D.J. Histon</rs>, Chief Executive and Secretary, for supporting the research. Thanks also to <rs type="person">Mr William Fitzgerald</rs>, <rs type="affiliation">Department of Agriculture, Food</rs> and the Marine for dispatching animals in a humane manner.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_fmsTFmy">
+					<idno type="grant-number">FCT-ANR/BIA-EVF/0250/2012</idno>
+					<orgName type="project" subtype="full">HybridAdapt</orgName>
+				</org>
+				<org type="funding" xml:id="_wZQTM36">
+					<idno type="grant-number">IF/ 00033/2014/CP1256/CT0005 FCT</idno>
+				</org>
+				<org type="funding" xml:id="_HrwaZZv">
+					<idno type="grant-number">SFRH/BD/115089/2016</idno>
+				</org>
+				<org type="funded-project" xml:id="_aYC6U39">
+					<idno type="grant-number">PD/BD/ 108131/2015</idno>
+					<orgName type="project" subtype="full">CIBIO NEW-GEN sequencing platform</orgName>
+					<orgName type="program" subtype="full">Seventh Framework Programme for research, technological development and demonstration</orgName>
+				</org>
+				<org type="funding" xml:id="_FJ8QCgg">
+					<idno type="grant-number">286431</idno>
+				</org>
+				<org type="funding" xml:id="_A55z7XM">
+					<idno type="grant-number">S10RR029668</idno>
+					<orgName type="grant-name">S10 Instrumentation</orgName>
+				</org>
+				<org type="funding" xml:id="_eJBFSER">
+					<idno type="grant-number">S10RR027303</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Code availability</head><p>Analyses in this work were performed with freely available open access tools mainly using command line versions (Table <ref type="table">1</ref> (available online only)). Parameters are described in the methods section and software versions and commands used are detailed in Table <ref type="table">1</ref> (available online only).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Citations</head><p>1. NCBI Sequence Read Archive SRP095715 (2017). 2. Marques, J. P. et al. Figshare <ref type="url" target="http://dx.doi.org/10.6084/m9.figshare.c.3682042">http://dx.doi.org/10.6084/m9.figshare.c.3682042</ref> (2017). 3. NCBI Sequence Read Archive SRP055741 (2016).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Records</head><p>Forty-eight raw FASTQ files were submitted to NCBI Sequence Read Archive, with accession number SRP095715 (Data Citation 1 and Tables <ref type="table">2</ref> and<ref type="table">3</ref>). FASTQ files were divided in two sets, corresponding to the sampling localities (Ltim_Ireland and Ltim_Alps), and by biosample-specimen (SAMN06186748-3101, SAMN06186761-3102, SAMN06186762-3103 and SAMN06186763-3105; SAMN06186727-3112, SAMN06186728-3113, SAMN06186729-3114 and SAMN06186738-3116). In each biosample, six files were submitted, corresponding to three different Illumina HiSeq sequencing lanes and two read directions. Pre/post-cleaning FASTQC base quality pdf report (FASTQC.pdf) can be accessed in Figshare (Data Citation 2). This dataset is the core of this work and has not been released or analysed previously. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional Information</head><p>Supplementary Information accompanies this paper at <ref type="url" target="http://www.nature.com/sdata">http://www.nature.com/sdata</ref> Competing interests: The authors declare no competing financial interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The distribution of mountain hares Lepus timidus in Europe: A challenge from brown hares L. europaeus?</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Thulin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm. Rev</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="29" to="42" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Is naturalisation of the brown hare in Ireland a threat to the endemic Irish hare?</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">I</forename><surname>Montgomery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Environ</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="129" to="138" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">European hare (Lepus europaeus) invasion ecology: Implication for the conservation of the endemic Irish hare (Lepus timidus hibernicus)</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Reid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Invasions</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="559" to="569" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Range expansion and comparative habitat use of insular, congeneric lagomorphs: invasive European hares Lepus europaeus and endemic Irish hares Lepus timidus hibernicus</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caravaggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">I</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Reid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Invasions</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="687" to="698" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Expertly validated models and phylogenetically-controlled analysis suggests responses to climate change are related to species traits in the order Lagomorpha</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Leach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cameron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">I</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Reid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">122267</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">macroecology and species&apos; traits mediate competitive interactions in the order Lagomorpha</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Leach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">I</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Biogeography</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammal Review</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="88" to="102" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Parapatric species and the implications for climate change studies: A case study on hares in Europe</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Acevedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jiménez-Valverde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Melo-Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Real</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob. Chang. Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1509" to="1519" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Niche overlap of mountain hare subspecies and the vulnerability of their ranges to invasion by the European hare; the (bad) luck of the Irish</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caravaggi</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10530-016-1330-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Invasions</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The occurrence of mountain hare mitochondrial DNA in wild brown hares</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Thulin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jaarola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tegelstrom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="463" to="467" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Introgression from Lepus europaeus to L. timidus in Russia revealed by mitochondrial single nucleotide polymorphisms and nuclear microsatellites</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Thulin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Averianov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hereditas</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="68" to="76" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Introgressive hybridization in wild living mountain hares (L. timidus varronis) and brown hares (L. europaeus) and morphological consequences</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Suchentrunk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm. Biol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="39" to="40" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The genomic legacy from the extinct Lepus timidus to the three hare species of Iberia: Contrast between mtDNA, sex chromosomes and autosomes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Melo-Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Freitas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ferrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Boursot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="2643" to="2658" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Regional genetic in situ differentiation despite phylogenetic heterogeneity in Alpine mountain hares</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Zachos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ben Slimen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hackländer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Giacometti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Suchentrunk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Zool</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="47" to="53" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Verification of hybridisation between introduced European and native Irish hares</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Prodoehl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">North. Irel. Environ. Agency Res. Dev. Ser. Irel. Environ. Agency Res. Dev. Ser</title>
+		<imprint>
+			<biblScope unit="page" from="11" to="11" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Spatial patterns of genetic diversity across European subspecies of the mountain hare, Lepus timidus L</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Hamill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Doyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Duke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Heredity</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="355" to="365" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Recurrent introgression of mitochondrial DNA among hares (Lepus spp.) revealed by species-tree inference and coalescent simulations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Melo-Ferreira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst. Biol</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="367" to="381" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Home-loving boreal hare mitochondria survived several invasions in Iberia: the relative roles of recurrent hybridisation and allele surfing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Melo-Ferreira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Heredity</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="265" to="273" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">SNP identification through transcriptome analysis of the european brown hare (Lepus europaeus): Cellular energetics and mother&apos;s curse</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Amoutzias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">159939</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">FastQC: a quality control tool for high throughput sequence data</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Andrews</surname></persName>
+		</author>
+		<ptr target="http://www.bioinformatics.babraham.ac.uk/projects/fastqc.2010" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Trimmomatic: A flexible read trimming tool for Illumina NGS data</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Bolger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lohse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Usadel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="2114" to="2120" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Full-length transcriptome assembly from RNA-Seq data without a reference genome</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Grabherr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="644" to="652" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">TransRate: Reference-free quality assessment of de novo transcriptome assemblies</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Smith-Unna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boursnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Patro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hibberd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1134" to="1144" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">CD-HIT: Accelerated for clustering the next-generation sequencing data</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="3150" to="3152" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">De novo transcript sequence reconstruction from RNA-seq using the Trinity platform for reference generation and analysis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Haas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1494" to="1512" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Deep Evolutionary Comparison of Gene Expression Identifies Parallel Recruitment of Trans-Factors in Two Independent Origins of C4 Photosynthesis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aubry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M C</forename><surname>Kümpers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Smith-Unna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hibberd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">1004365</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">UniProtKB/Swiss-Prot, the Manually Annotated Section of the UniProt KnowledgeBase: How to Use the Entry View</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Boutet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">1374</biblScope>
+			<biblScope unit="page" from="23" to="54" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">HMMER web server: Interactive sequence similarity searching</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Finn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clements</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Eddy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="29" to="W37" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Pfam: The protein families database</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Finn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="222" to="D230" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">SignalP 4.0: discriminating signal peptides from transmembrane regions</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brunak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Von Heijne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nielsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="785" to="786" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Predicting transmembrane protein topology with a hidden Markov model: application to complete genomes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Von Heijne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Sonnhammer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">305</biblScope>
+			<biblScope unit="page" from="567" to="580" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">eggNOG v3.0: Orthologous groups covering 1133 organisms at 41 different taxonomic ranges</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Powell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The Gene Ontology Consortium. Gene ontology: tool for the unification of biology</title>
+		<author>
+			<orgName type="collaboration">Gene Ontology Consortium</orgName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Genet</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="25" to="29" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">KEGG for integration and interpretation of large-scale molecular data sets</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Furumichi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tanabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="109" to="D114" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Fast and accurate long-read alignment with Burrows-Wheeler transform</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Durbin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="589" to="595" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The Sequence Alignment/Map format and SAMtools</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="2078" to="2079" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The Genome Analysis Toolkit: A MapReduce framework for analyzing next-generation DNA sequencing data</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Mckenna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1297" to="1303" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Reference-Free Population Genomics from Next-Generation Transcriptome Data and the Vertebrate-Invertebrate Gap</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gayral</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1003457</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The variant call format and VCF tools</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Danecek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="2156" to="2158" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">An automated data conversion tool for connecting population genetics and genomics programs</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E L</forename><surname>Lischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Excoffier</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Pgdspider</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="298" to="299" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Second-generation PLINK: rising to the challenge of larger and richer datasets</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gigascience</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wickham</surname></persName>
+		</author>
+		<title level="m">ggplot2: Elegant Graphics for Data Analysis</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Inference of population structure using multilocus genotype data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Pritchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stephens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Donnelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="945" to="959" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Clumpak: A program for identifying clustering modes and packaging population structure inferences across K</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Kopelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mayzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jakobsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mayrose</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1179" to="1191" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Scrimer: Designing primers from transcriptome data</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mořkovský</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pačes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rídl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifová</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1415" to="1420" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Primer3-new capabilities and interfaces</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Untergasser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page">115</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Range expansion underlies historical introgressive hybridization in the Iberian hare</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Marques</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">40788</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Comparative transcriptomics uncovers alternative splicing and molecular marker development in radish (Raphanus sativus L.)</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Luo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">505</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">SNP discovery in the transcriptome of white pacific shrimp Litopenaeus vannamei by next generation sequencing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">87218</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">SNP discovery in the bovine milk transcriptome using RNA-Seq technology</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cánovas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rincon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Islas-Trejo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wickramasinghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Medrano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm. Genome</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="592" to="598" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">A single multiplex of twelve microsatellite markers for the simultaneous study of the brown hare (Lepus europaeus) and the mountain hare (Lepus timidus)</title>
+		<author>
+			<persName><forename type="first">M.-P</forename><surname>Beugin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="3931" to="3939" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">IUCN Red List of Threatened Species</title>
+		<ptr target="www.iucnredlist.org" />
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>IUCN</publisher>
+		</imprint>
+	</monogr>
+	<note>Version 2016-1</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

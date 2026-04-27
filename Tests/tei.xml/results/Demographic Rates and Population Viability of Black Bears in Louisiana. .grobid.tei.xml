@@ -1,0 +1,2402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mike</forename><surname>Davidson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Travis</forename><surname>Hooker</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Trant</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><surname>Mccollister</surname></persName>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C56AA9B22E386938AA6392DD35ABCA2F</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-15T14:47+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>canals, sharing home cooking</head></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>difficult. Thanks to everyone who contributed guidance, encouragement, access, or lent me a hand whether I was stuck in water hyacinth, mud, or Program MARK.</p><p>Thanks to my advisor Dr. Joe Clark for giving me the unique opportunities of researching bears and experiencing coastal Louisiana. Working as a volunteer, technician, and student on Joe's research has been the highlight of my education, taken me to unique places, and developed my interest in black bear biology. Thanks for being so accessible and always making time whenever I had questions. Thanks also to my committee members Arnold Saxton and Benjamin Fitzpatrick for their advice and instruction; their knowledge added a lot to my research.</p><p>I was fortunate to enjoy the company of good friends in the bear lab including Dr.</p><p>Frank and Jennapher Teunissen van Manen and Carrie Lowe. Thanks to Jennifer Murrow whose previous work and advice contributed to this project and to Terry White for keeping us organized. To Kaitlin O'Connell and Jared Laufenberg, thanks so much for your friendship and mathematical skills. Without your help, I'd still be banging my head against a computer screen and I hope we can work together again soon.</p><p>Funding for this project was provided by the U.S. Fish and Wildlife Service (USFWS). Thanks to Paul Yakupzack and Deborah Fuller of USFWS for sharing their knowledge and providing logistical help. Additional funding, vehicles, and housing were provided by the Louisiana Department of <ref type="bibr">Wildlife and Fisheries (LDWF)</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CHAPTER I INTRODUCTION</head><p>The Louisiana black bear (Ursus americanus luteolus), 1 of 16 subspecies of the American black bear (Ursus americanus), was historically distributed across all of Louisiana, eastern Texas, southern Arkansas, and southern Mississippi <ref type="bibr" target="#b31">(Hall 1981</ref>, Figure <ref type="figure" target="#fig_11">1</ref>). Within their historic range, Louisiana black bears were thought to reach greatest densities in the bottomland hardwood forests of the Mississippi River and Atchafalaya River alluvial plains <ref type="bibr">(St. Amant 1959)</ref>. Habitat requirements of the Louisiana black bear include relatively large areas of contiguous bottomland and upland forest and forested wetland with trees of diverse age and size classes. These forests provided den sites, escape cover, and hard and soft mast <ref type="bibr" target="#b8">(Boggs 2008)</ref>.</p><p>The Louisiana black bear's status in the early 20 th century was summarized by Theodore Roosevelt, who wrote "which, until within a very few years, was extraordinarily plentiful in the swamps and canebrakes on both sides of the lower Mississippi, and which is still found here and there, although in greatly diminished numbers" <ref type="bibr">(Roosevelt 1908:50)</ref>. In his narrative, Roosevelt revealed that his guide Holt Collier had killed or assisted in killing &gt;3,000 bears. He also foresaw flood control and predicted that "the whole land will be cultivated and densely peopled". This process would eventually fragment bear habitat, isolating small subpopulations in the Tensas River Basin (TRB), the Upper Atchafalaya River Basin (UARB), and the Lower ARB (hereinafter, coastal population or coast; Figure <ref type="figure" target="#fig_11">1</ref>). Cypress timber cutting dominated the economy of southern Louisiana from 1880 until the mid-1920s resulting in complete harvest of many swamps <ref type="bibr" target="#b19">(Davis 2010)</ref>. During this period, the sugarcane industry rapidly expanded as levee building, wetland drainage, and channelization allowed agriculture to extend into marshes and swamps <ref type="bibr" target="#b19">(Davis 2010)</ref>. The 1959 Louisiana wildlife inventory estimated the statewide black bear population at 80---120 individuals in 6 parishes, declining from 17 parishes in 1890 <ref type="bibr">(St. Amant 1959)</ref>. This inventory also indicated that up until 1920, crop damage and predation by bears were common. Conversion of bottomland hardwood forests accelerated again between the 1950s and 1970s due to government flood control and the growth of agriculture in the region due to increased commodity prices <ref type="bibr" target="#b38">(King et al. 2006)</ref>. Between settlement and 1980, bottomland hardwood habitat was reduced by &gt;80% from 25 million acres (97,000 km 2 ) to &lt;5 million acres (20,000 km 2 ) in the Lower Mississippi Alluvial Valley, with the remaining habitat reduced in quality by fragmentation <ref type="bibr" target="#b51">(Neal 1992)</ref>. By 1981, the coastal bear population was thought to number &lt;30 <ref type="bibr" target="#b53">(Nowak 1986)</ref>.</p><p>Coordinated efforts to conserve and restore the bear population have been initiated in the past 25 years. In 1987, the U.S. Fish and Wildlife Service (USFWS) was petitioned to protect the Louisiana black bear under the Endangered Species Act of 1973. In 1992, the bear was listed as "Threatened" because of past habitat loss and vulnerability to continued habitat loss and illegal killing <ref type="bibr" target="#b51">(Neal 1992)</ref>. A significant portion of habitat in the LARB was protected in 2001 when the Bayou Teche National Wildlife Refuge was established in St. Mary Parish with the primary purpose of conserving and managing habitat for the coastal bear population (USFWS 2009a). In 2009, the USFWS designated critical habitat including 541 km 2 within the LARB (USFWS 2009b).</p><p>Human---related mortality continues to be a primary threat to recovery of the Louisiana black bear (USFWS 1995). Although hunting was suspended in 1988, illegal kills and vehicle collisions have been significant sources of mortality with the majority of confirmed deaths coming from the LARB <ref type="bibr" target="#b58">(Pace et al. 2000)</ref>. Another obstacle to the viability of the coastal population is nuisance behavior, which frequently results in problem bears being euthanized or relocated from the LARB to a repatriation area located between the Tensas and UARB populations (Figure <ref type="figure" target="#fig_11">1</ref>).</p><p>A milestone in the Louisiana black bear conservation effort was reached in 1995 when a recovery plan prepared by the Black Bear Conservation Committee and USFWS was approved.</p><p>The recovery plan requires that 3 criteria be met for a successful recovery:</p><p>(1) At least 2 viable subpopulations, 1 each in the Tensas and Atchafalaya River basins (Figure <ref type="figure">2</ref>),</p><p>(2) Establishment of immigration and emigration corridors between the 2 subpopulations, and</p><p>(3) Protection of the habitat and interconnecting corridors that support each of the 2 viable subpopulations used as justification for delisting (USFWS 1995).</p><p>The recovery plan defines viability as a ≥95% probability of survival over 100 years <ref type="bibr">(USFWS 1995)</ref>. Additionally, the plan prescribes the following actions needed to meet the delisting criteria:</p><p>(1) Restore and protect bear habitat,</p><p>(2) Develop and implement information and education programs,</p><p>(3) Protect and manage bear populations, and</p><p>(4) Conduct research on population viability and bear biology (USFWS 1995).</p><p>Previous research on the coastal bear population has included work on habitat relationships <ref type="bibr" target="#b54">(Nyland 1995)</ref>, movement extent and pattern <ref type="bibr" target="#b88">(Wagner 1995</ref><ref type="bibr" target="#b90">, Wagner et al. 2001)</ref>, denning ecology <ref type="bibr" target="#b34">(Hightower et al. 2002)</ref>, fine-scale movement and habitat use <ref type="bibr" target="#b33">(Hightower 2003)</ref>, genetics <ref type="bibr" target="#b79">(Triant 2001</ref><ref type="bibr" target="#b18">, Csiki et al. 2003</ref><ref type="bibr" target="#b80">, Triant et al. 2004)</ref>, mortality <ref type="bibr" target="#b58">(Pace et al. 2000)</ref>, aversive conditioning <ref type="bibr" target="#b40">(Leigh 2007)</ref>, and habitat assessment <ref type="bibr" target="#b55">(Nyland and Pace 1997</ref><ref type="bibr" target="#b89">, Wagner 2003</ref><ref type="bibr" target="#b49">, Murrow and Clark 2012)</ref>. Previous work on population dynamics of the coastal population was limited to a population estimate <ref type="bibr" target="#b79">(Triant 2001</ref><ref type="bibr" target="#b80">, Triant et al. 2004</ref>). That research was limited to 1 year and restricted to only a portion of the coastal population thought to exist today.</p><p>Data for the other 2 remnant subpopulations are being evaluated in several completed or ongoing studies (J. Clark, U.S. Geological Survey, unpublished data). To evaluate recovery and estimate future viability of the coastal population, estimates of population abundance and other demographic parameters and their variances are necessary. Initial demographic studies were conducted using closed capture-mark-recapture (CMR) models in the TRB <ref type="bibr" target="#b3">(Beausoleil 1999</ref><ref type="bibr" target="#b6">, Boersen 2001</ref><ref type="bibr" target="#b7">, Boersen et al. 2003)</ref>, and the UARB and LARB <ref type="bibr" target="#b79">(Triant 2001</ref><ref type="bibr" target="#b80">, Triant et al. 2004)</ref>.</p><p>Recently, Robust Design CMR studies by <ref type="bibr" target="#b35">Hooker (2010)</ref> and <ref type="bibr" target="#b41">Lowe (2011)</ref>  Despite the challenges involved in managing bears on the coast, this population may warrant special conservation consideration because it may be the population most genetically representative of the native Louisiana bear <ref type="bibr" target="#b80">(Triant et al. 2004</ref>). Previous studies have concluded that bears of the UARB and TRB share some genetic similarity with the population of Cook County, MN, the source of a restocking effort from 1964 to 1967, whereas bears of the LARB are relatively unique <ref type="bibr" target="#b18">(Csiki et al. 2003</ref><ref type="bibr" target="#b80">, Triant et al. 2004)</ref>. Regardless, habitat fragmentation may increase the isolation of this population and reduce its size. When populations are reduced, rare alleles are lost and inbreeding and genetic drift can increase, further diminishing genetic diversity <ref type="bibr" target="#b43">(Masel 2011)</ref>. When that reduction is rapid, genetic "bottlenecks" may occur as alleles are lost from the population <ref type="bibr" target="#b2">(Allendorf 1986)</ref> The coastal Atchafalaya River Basin included a diversity of habitats that generally became more hydric and saline along a northeast to southwest gradient (Figure <ref type="figure" target="#fig_13">4</ref>). Urban and agricultural zones occupied high ground protected by a network of levees and drainage canals.</p><p>Row crops, predominantly sugarcane but also soybeans, were a major land use in south</p><p>Louisiana. Also within the levee system were bottomland hardwood forests characterized by bald cypress (Taxodium distichum), water oak (Quercus nigra), and red maple (Acer rubrum).</p><p>Beyond the levees, bottomlands gave way to swamps of cypress and water tupelo (Nyssa aquatica). Moving toward the Gulf, swamps transitioned to brackish marshes of scrub/shrub. Surrounded by marsh, several salt dome "islands" provided rolling upland habitat of live and water oak, sweetgum (Liquidambar styraciflua), and southern magnolia (Magnolia grandiflora).</p><p>Palmetto and yaupon (Ilex vomitoria) were ubiquitous in all habitats, except salt marsh, and created a dense undergrowth on nearly all spoil banks, bottomlands, and uplands. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CHAPTER III</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Robust Design Capture-Mark-Recapture</head><p>Management of wildlife populations frequently requires knowledge of demographic parameters.</p><p>These include abundance (N), the number of individuals in the population; density (D), the number of individuals per km 2 ; apparent survival <ref type="bibr">(φ)</ref>, the proportion of animals that survive and do not permanently emigrate between sampling sessions and are thus available for recapture; and population growth (λ), the ratio of N in a session to N in the previous session. Estimation of additional parameters is necessary to achieve unbiased estimates of N, D, φ, and λ; these include probability of capture (p), the proportion of the population that is encountered on a given occasion; and probability of recapture (c), the proportion of the population that has been encountered on a previous occasion and reencountered on a given occasion. To achieve precise estimates of φ, mortality must be distinguished from temporary emigration, γ, the probability of being away from the study area given that the animal was (γ") or was not (γ') present during the preceding capture session.</p><p>Many species, including black bears, are difficult to find and observe. Because of this imperfect detection, exact counts of animals are usually impractical or impossible and managers must rely on estimation. The most common estimation method is capture-mark-recapture which involves sampling on 2 or more occasions, marking all animals captured, and comparing the ratio of marked to unmarked animals in subsequent occasions. Capture and marking may involve physical handling and marking, or observation of natural identifying markings or DNA. The most basic estimator for this method is N=M/p where N is the number of individuals in the population, M is the number of individuals marked, and p is the average probability of capture. This is a closed model which requires these 4 fundamental assumptions according to <ref type="bibr" target="#b57">Otis et al. (1978)</ref>:</p><p>(1) The population is closed both demographically and geographically,</p><p>(2) Animals do not lose their marks during the experiment,</p><p>(3) All marks are correctly noted and recorded at each trapping occasion, and ( <ref type="formula">4</ref>) Each animal has a constant and equal probability of capture on each trapping occasion.</p><p>Assumption 1 can be relaxed by using open models which allow changes to the population between sampling occasions <ref type="bibr" target="#b36">(Jolly 1965</ref><ref type="bibr" target="#b74">, Seber 1965)</ref>. <ref type="bibr" target="#b93">White et al. (1982)</ref> classify these changes as either demographic (birth and death) or geographic (immigration and emigration). These geographic and demographic closure assumptions can be relaxed with so-called open markrecapture models, which can provide session-specific estimates of population change over an extended period, and allow estimation of parameters such as φ, p, recruitment (f), and λ. The disadvantage of open models is sampling must take place over multiple time periods (generally &gt;3) and abundance estimates are generally less precise and may be biased by unequal catchability <ref type="bibr" target="#b29">(Gilbert 1973)</ref>.</p><p>Assumption 2 can be violated if animals lose their identifying marks which results in an overestimate of N because previously encountered animals appear unmarked. Violations of Assumption 3 can occur if animals are misidentified, causing positive or negative biases depending whether an individual was erroneously "created" or mistaken for another individual and which sample the error applies to.</p><p>Finally, an important assumption of mark-recapture studies is that each animal has an equal and constant probability of capture on each trapping occasion (assumption 4). According</p><p>to <ref type="bibr" target="#b57">Otis et al. (1978)</ref>, p may vary by time, individual heterogeneity, and behavioral response.</p><p>Individual heterogeneity, e.g., differences in p by age, size, sex, or other individual characteristic, is perhaps the most difficult of these variations to account for. When animals have intrinsically different capture probabilities which are not accounted for, estimates of N will be biased low <ref type="bibr" target="#b64">(Pledger 2000)</ref>. A behavioral response occurs when the capture of an individual animal affects the subsequent probability of capture for that animal. Typical behavioral responses are "trap happy" and "trap shy". Finally, a time response is a change in p between capture occasions caused by events like weather, migration, or changes in food availability.</p><p>Equal catchability assumptions are commonly violated in wildlife studies and a myriad of methods have been developed to account for such biases <ref type="bibr" target="#b95">(Williams et al. 2002)</ref>.</p><p>To address Assumption 1, my closed population estimates were conducted during 8 consecutive weeklong "sampling occasions" during June and July, a period when no cubs were born and death, emigration, and immigration were likely negligible. I assumed the study area to be geographically closed because it consisted of a thin linear series of forest fragments surrounded by tidal marsh to the south and west and agriculture and urban development to the north and east. I was able to sample most of the core habitat although some bears do live outside this area. I addressed Assumptions 2 and 3 by using DNA, a unique and permanent identifying mark and by using error-checking protocols such as reanalyzing mismatching markers in similar pairs of genotypes to ensure correct identification of individuals. Using such protocols, the chances of sample misidentification are dramatically reduced if not nearly eliminated <ref type="bibr" target="#b59">(Paetkau 2003)</ref>. To address Assumption 4, I used methods to account for time, sex, and behavioral responses. I modeled individual heterogeneity biases with mixture models <ref type="bibr" target="#b64">(Pledger 2000)</ref>.</p><p>These models partition the population in a closed capture experiment into any number of segments or "finite mixtures" according to catchability and estimate the proportion of the population and unique capture probabilities within each segment <ref type="bibr" target="#b64">(Pledger 2000)</ref>. I partitioned the population into 2 mixtures and estimated π a, the probability of belonging to the first mixture.</p><p>Probability of belonging to the second mixture π b is 1-π a .</p><p>Although parameter estimates for closed populations may be precise, they are not realistic over an extended period because populations experience demographic and or geographic changes. Therefore, in addition to closed estimates of abundance, I estimated demographic changes between sampling occasions using an open model. A mixture of open and closed models is known as Robust Design <ref type="bibr" target="#b65">(Pollock 1982)</ref>. The Robust Design works by sampling a population at 2 temporal scales. An open model is used to estimate population change parameters φ, γ', γ", and λ during intervals known as primary periods between sampling sessions. Gains and losses to the population are allowed during these intervals. Between intervals, multiple samples are taken over a short duration termed the secondary sampling period.</p><p>Within each secondary period the population is assumed to be unchanging and closed population estimators are used to estimate parameters p, c, π, and N. My primary periods lasted 1 year and my secondary periods consisted of 8 consecutive weekly "sampling occasions". I tested models that allowed p and c to vary by primary session, sex, and finite mixture and models that fit a behavioral effect by allowing p to differ from c. I used Laufenberg's method (2013) to evaluate accuracy (i.e., the probability of obtaining an estimated N that is within 20% of true N), coverage (i.e., the probability that the 95% confidence interval includes the true N), and precision (i.e., the probability of obtaining a coefficient of variation ≤ 20%) of estimates using logistic regression.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA Sampling</head><p>I marked and recaptured black bears by collecting hair samples and identifying individuals by genotyping DNA from the roots of sampled hair. Samples were collected using a network of baited barbed wire enclosures. This technique was pioneered by <ref type="bibr" target="#b96">Woods et al. (1999)</ref> for estimating bear populations and has been successfully used on Louisiana black bears <ref type="bibr" target="#b6">(Boersen 2001</ref><ref type="bibr" target="#b79">, Triant 2001</ref><ref type="bibr" target="#b35">, Hooker 2010</ref><ref type="bibr" target="#b41">, Lowe 2011)</ref>. DNA is a useful marker for identifying animals because it cannot be altered and is unique to each individual. It is capable of distinguishing individual, sex, species, and genetic structure. Non-invasive sampling is safer than live capture for animals and researchers and should minimize the chance of a negative behavioral response, i.e., animals becoming trap shy <ref type="bibr" target="#b96">(Woods et al. 1999)</ref>. A final advantage of this technique is greater efficiency; it requires less money <ref type="bibr" target="#b96">(Woods et al. 1999)</ref>, time, and effort <ref type="bibr" target="#b48">(Mowat and Strobeck 2000)</ref> per individual identified than live capture.</p><p>To meet the assumption of equal probability of capture, I followed the recommendation by <ref type="bibr" target="#b57">Otis et al. (1978)</ref>   Additional samples for genetic analysis were collected by LDWF employees from bears that were killed on highways or otherwise died or were relocated outside the study area from November, 2009 to November, 2012.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Subsampling</head><p>Bears that are detected more than once at the same site during a particular secondary sampling occasion add nothing to their capture histories. Consequently, analyzing multiple samples from the same bear during a single site-week combination would result in inefficiency and unnecessary expense. Therefore, I designed a subsampling protocol to minimize this scenario.</p><p>Subsampling intensities must be sufficient to achieve adequate capture probabilities (p ≥ 0.2) to reliably estimate population abundance <ref type="bibr" target="#b39">(Laufenberg et al. 2013</ref>). To achieve this capture probability while maintaining cost efficiency, I selected 533 samples for extraction from each primary session. I selected samples by assigning a random number to each site-week combination and to each sample within a site-week combination. I selected samples based on an optimal quality threshold of 5 guard hairs or 20 underfur, if available, or a lenient threshold of 1 guard hair or 5 underfur if otherwise. In 2010, I selected 1 sample from each site-week combination in their randomized order, taking the first sample to meet the optimal threshold if available or the lenient threshold otherwise. Multiple rounds of selection through all site-week combinations were required to reach the target of 533 samples. For 2011 and 2012, I subsampled by randomly selecting 1 sample at the optimal threshold from each site-week combination where any were available, then randomly sampling at the lenient threshold until all possible site-week combinations were represented. Once all site-week combinations were represented, I made additional passes exhausting the optimal then lenient threshold within each pass until 533 samples were selected. I used this subsampling protocol to distribute my sample across sites and weeks, attempting to maximize individuals detected while minimizing redundant samples from a single site visit by a bear.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microsatellite Analyses</head><p>Microsatellites are short (&lt;100 bp) runs of tandemly repeated DNA sequences with repeat lengths of 6 bp or less, that contain highly variable numbers of repeats. Microsatellites can be efficiently analyzed using Polymerase Chain Reaction methods (PCR, <ref type="bibr" target="#b4">Beckmann and Weber 1992)</ref>. PCR is an enzymatic amplification of target sequences in DNA resulting in the exponential increase of target DNA <ref type="bibr" target="#b73">(Saiki et al. 1985)</ref>. Because of their high variability, microsatellites are a useful tool for studying bear populations which often have low levels of genetic variation <ref type="bibr" target="#b61">(Paetkau et al. 1995)</ref>. Bears have 2 matching sets of 37 chromosomes for a total of 74. Each homologous chromosome contains an allele which is an alternative form of a particular gene <ref type="bibr" target="#b30">(Guttmacher and Collins 2002)</ref>. If alleles on both chromosomes at a locus are identical, the organism is homozygous for the trait. If they are different, the organism is heterozygous for that trait <ref type="bibr" target="#b30">(Guttmacher and Collins 2002)</ref>.</p><p>Subsampling and genotyping were performed at Wildlife Genetics International (WGI;</p><p>Nelson, British Columbia, Canada). PCR was used to amplify DNA material and electrophoresis was used to distinguish genotypes <ref type="bibr" target="#b59">(Paetkau 2003)</ref>. Marker selection began with an initial set of 45 samples drawn from different site-week combinations. These were examined at 23 markers (G10P, MU23, MU59, G10U, CXX110, D123, G10J, MU50, G10C, REN144A06, CPH9, REN145P07, MU26, G1D, G10L, MSUT2, G10M, G10B, G10H, CXX20, G10X, D1A, G1A, and The analysis of individual identity started with a first pass of all 8 selected microsatellite markers plus sex. Next, samples that produced very weak or mixed data were culled. Finally, remaining samples that were weak or difficult to read were reanalyzed. Similar genotypes were selectively re-analyzed to further reduce error <ref type="bibr" target="#b59">(Paetkau 2003)</ref>.</p><formula xml:id="formula_0">MU51</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genotyping Assumptions and Error Checking</head><p>To achieve unbiased parameter estimates, all marks must be correctly noted and recorded <ref type="bibr" target="#b57">(Otis et al. 1978)</ref>. Two types of error are possible when identifying individuals from genotypes. The first is the creation of "false" individuals by misinterpreting a DNA signature as that of a newly captured individual when in reality it is a recapture of a previously captured animal. This artificially increases the detected population (M), decreases p, and inflates N. The second type of identification error is failure to distinguish individuals with similar genotypes <ref type="bibr" target="#b47">(Mills et al. 2000)</ref>.</p><p>This "shadow effect" results in artificially high p and reduced M, causing N to be biased low even as precision increases <ref type="bibr" target="#b47">(Mills et al. 2000)</ref>. To check for errors, individuals with matching genotypes at all but 1 or 2 markers were re-analyzed to detect false matches and if necessary, analyzed at 5 additional markers (D. Paetkau, personal communication). The shadow effect can also be prevented by analyzing a sufficient number of loci and by selecting alleles with high variability <ref type="bibr" target="#b47">(Mills et al. 2000)</ref>.</p><p>If individuals within a population are closely related, the probability of similar genotypes and thus misidentification is greater. Previous analysis of the coastal population revealed low genetic variability <ref type="bibr" target="#b80">(Triant et al. 2004</ref>) which is common in small, isolated, and low density populations <ref type="bibr" target="#b60">(Paetkau and Strobeck 1994)</ref>. To estimate the probability that 2 individuals from a population will share identical genotypes at multiple loci, I calculated probability of identity, ( )</p><formula xml:id="formula_1">2 4 single locus= PI 2 i j i i i j i x x x + &gt; ∑ ∑ ∑</formula><p>, where x i and x j are the frequencies of the ith and jth alleles <ref type="bibr" target="#b60">(Paetkau and Strobeck 1994)</ref>. PI over all loci can be calculated as overall PI = ( ) single locus PI ∏ <ref type="bibr" target="#b78">(Taberlet and Luikart 1999)</ref>. PI overall calculated with this formula will be biased low for many wild populations because it does not account for subdivision within populations or philopatry of relatives <ref type="bibr" target="#b78">(Taberlet and Luikart 1999)</ref>. <ref type="bibr" target="#b91">Waits et al. (2001)</ref> discovered that observed PI may be higher than theoretical PI when populations contain related individuals; they developed the PI among siblings (PI sib ) as a conservative alternative to PI overall , PI sib = 0.25 + (0.5ΣPI sib = 0.25 + (0.5Σ 2 i p ) + [0.5Σ 2 2  ] uncertainty <ref type="bibr" target="#b13">(Burnham and Anderson 2002)</ref>. When averaging parameters across sexes, years, or mixtures, I derived estimates of standard error and confidence intervals using the delta method <ref type="bibr" target="#b67">(Powell 2007)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Density Estimation</head><p>Density (individuals/km 2 ) was calculated using spatially explicit capture recapture (SECR; <ref type="bibr">Efford et al. 2004, Borchers and</ref><ref type="bibr" target="#b9">Efford 2008)</ref>. This method is based on a maximum likelihood estimator and incorporates the locations of hair-sampling sites and the capture locations and  <ref type="bibr" target="#b70">Core Team 2012)</ref>, that can be used to fit models that include density (D) and parameters for the detection process in the likelihood <ref type="bibr" target="#b95">(Williams et al. 2002)</ref>. The detection process is represented by a mathematical function which includes 2 submodels to describe an animal's declining probability of being detected as its home range center gets further from a detector <ref type="bibr" target="#b95">(Williams et al. 2002)</ref>. The parameters that define the detection function are the probability of detection if an individual's activity center is at a detector (g 0 ) and spatial scale (σ),</p><p>analogous to an individual's home range radius <ref type="bibr" target="#b24">(Efford et al. 2004</ref>). Several types of detection functions are available. I tested models that included half-normal, gamma, and hazard functions.</p><p>I built models allowing D, g 0, and σ to remain constant or to differ by year, sex, or both. I also tested for behavioral responses following initial capture. I used a buffer suggestion routine in</p><p>Program SECR to determine a suitable buffer width for the integration mask. Within this buffer, I further refined the analysis area by using ArcMap </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Population Genetics</head><p>My final objectives were to assess genetic signatures of population structure and a population bottleneck in past generations of the coastal population and migration to or from other regional populations. I evaluated a subset of 127 individuals at additional loci to better distinguish individuals and increase statistical power. The full set of markers used for the population genetic analysis contained sex and 23 markers. To test for genetic signatures of potential barriers to dispersal, I examined the possibility of substructure using the fixation index F ST <ref type="bibr" target="#b97">(Wright 1951</ref>) and the genetic distance measurement</p><p>Nei's D <ref type="bibr" target="#b52">(Nei 1972)</ref>  Stepwise Mutation Model to evaluate evidence of a historic bottleneck in both samples <ref type="bibr" target="#b17">(Cornuet and Luikart 1996)</ref>. I tested my full set of individuals at all 23 markers to increase power.</p><p>Finally, I separately evaluated the eastern and western coastal subpopulations at 23 markers to compare heterozygosity. Differences in heterozygosity between geographic areas could be evidence of population structure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CHAPTER IV</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA Sampling</head><p>My sampling grid included 118 hair collection sites and covered most of the 541 km 2 designated by the USFWS (2009b) as critical habitat for the Louisiana black bear in the Lower Atchafalaya River Basin. Five-hundred ninety-two km 2 of terrestrial habitat were located within 1,938 m (an average female home range radius) of a sampling site (Figure <ref type="figure" target="#fig_15">6</ref>). This 592 km 2 included 316 km 2 of forest cover, which is considered primary habitat <ref type="bibr" target="#b51">(Neal 1992)</ref>.  <ref type="figure">7</ref>). The number of samples varied greatly by site (0-123) and week (53-281). Eleven sites never produced hair samples. Within years, I collected more samples and recorded more bear detections in occasions 1 through 5 than in 6 through 8 when samples declined from 2,662 to 1,035 and detections declined from 849 to 440 (Figure <ref type="figure">7</ref>). The number of individuals detected at each site over the 24 secondary sampling sessions ranged from were captured for GPS collaring, 1 of which was detected at a hair site. Two of the nuisance animals were euthanized; 2 were relocated, dispersed, and were subsequently shot; 2 were relocated, returned to the coast, and were recaptured (1 of these twice); and 2 were not encountered after relocation. All bears captured for GPS collaring were killed, 2 by illegal shooting, 1 by accidental asphyxiation under anesthesia, and 1 was caught and killed in a hogsnare.</p><formula xml:id="formula_2">I</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microsatellite Analyses</head><p>I received 1,415 genotyped samples from WGI which were assigned to 190 individuals (93 Observed heterozygosity ranged from 0.32 at locus G1A to 0.73 at G10P (Table <ref type="table" target="#tab_11">2</ref>).</p><formula xml:id="formula_3">males</formula><p>Following the initial investigation of 45 individuals at 22 markers, MU51 was determined to be fixed and was dropped from analysis. Marker D123 was discovered to be highly variable in the coastal population and was added to the 10-locus set. RENN144A06 and G10C were subsequently dropped from the 10-locus set, leaving 8 loci plus sex for individual identification.</p><p>Finally, D1A was added to the marker set for the genetic structuring analysis, bringing the total to 23 markers plus sex.</p><p>Observed and expected heterozygosity for the 8-locus set averaged 0.66 each, with mean variability of 4.1 alleles per locus (Table <ref type="table" target="#tab_11">2</ref>). For the full set of 23 loci, observed and expected heterozygosity averaged 0.56 each with a mean of 4.1 alleles per locus (Table <ref type="table" target="#tab_11">2</ref>). PI and PI sib in the full genetic data set were 1.0x10 -14 and 4.7x10 -7 respectively (Table <ref type="table" target="#tab_11">2</ref>). For the 63 individuals not included in the genetic sample, PI for 8 loci was 1.3x10 -6 and PI sib was 2.4x10 -3 , meeting the suggested threshold of <ref type="bibr" target="#b78">Taberlet and Luikart (1999)</ref>. Prior to the addition of D123, a pair of individuals matched at all markers. The addition of D123 successfully distinguished this pair, increasing the apparent number of individuals from 189 to 190.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Demographic Parameter Estimation</head><p>My final model set included 23 models (Table <ref type="table">3</ref>). The 5 highest-ranked models were within 2 ∆AICc units and made up 71% of the model weight. All of the top 5 models included 2 finite mixtures, no behavioral effects, and year effects on capture and recapture probabilities. The highest ranked model included an interaction between sex and year in p and c. Allowing p and c to vary by sex greatly improved model fit whereas varying φ by year lowered AICc only slightly.</p><p>Thirteen models had ∆AICc values &lt;10 and AICc weight ≥1% indicating some support.</p><p>Model-averaged estimates of φ for females were 0.83 (SE = 0.04, 95% CI = 0.71-0.91) between 2010 and 2011 and 0.89 (SE = 0.06, 95% CI = 0.60-0.98) between 2011 and 2012. For males, estimates of φ were 0.83 (SE = 0.04, 95% CI = 0.72-0.90) between 2010 and 2011 and 0.88 (SE = 0.06, 95% CI = 0.59-0.97) between 2011 and 2012. Survival estimates were slightly higher for females but this effect was not significant as β values overlapped 0 (β = 0.58, 95% CI = -0.51-1.68). Mean survival for both sexes and years was 0.86 (SE = 0.03, 95% CI = 0.79-0.93). Because of sparse data, temporary emigration was not estimable by year, sex, or by any models that did not include a behavioral effect. Setting immigration equal to emigration also resulted in both parameters being inestimable. For models where capture and recapture probabilities differed, invariant movement rates were estimated as 0.07 (SE = 0.07, 95% CI = 0.01-0.36) for both γ' and γ". Models where emigration was constrained to 0 and models without finite mixtures were not supported. Probability of belonging to mixture π a was 0.62 (SE = 0.04, 95% CI = 0.52-0.72) and π b was 0.38, and these proportions did not vary by sex or year.</p><p>Weekly capture and recapture probabilities were highest in 2011, and were consistently higher for males than females (Table <ref type="table" target="#tab_12">4</ref>). (SE = 7.0, 95% CI = 59.4-87.0) during 2010, 2011, and 2012, respectively (Figure <ref type="figure" target="#fig_11">10</ref>). My estimate of N averaged across all years for both sexes was 138.4 (SE = 9.9, 95% CI = 118.9-157.9). Annual population growth rates for males were 0.96 (SE = 0.13, 95% CI = 0.54-1.11) and 1.35, (SE = 0.16, 95% CI = 0.89-1.68) and for females were 0.83 (SE = 0.15, 95% CI = 0.70-1.22) and 1.29, (SE = 0.20, 95% CI = 1.03-1.67) from 2010 to 2011 and 2011 to 2012, respectively. Pooled population growth over all years for both sexes was 1.08 (SE = 0.04, 95% CI = 1.02-1.18).</p><p>Laufenberg's logistic regression equation ( <ref type="formula">2013</ref>) for evaluating accuracy estimated a 91%</p><p>probability that my estimate of N was within 20% of the true N. Using the same method to estimate coverage yielded an 83% probability that my 95% confidence interval included the true N. The probability of obtaining a coefficient of variation ≤ 20% of estimates was 81% using <ref type="bibr">Laufenberg's method (2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Density Estimation</head><p>The buffer suggestion routine in Program SECR resulted in a recommended buffer of 4,000 m.</p><p>Within this buffer, 406 km 2 consisted of forest cover types and were included in the integration mask (Figure <ref type="figure" target="#fig_15">6</ref>). My model set included 25 models but only 4 received AICc weights &gt; 0 (Table <ref type="table">5</ref>). Variation by sex proved to be an important factor in estimating population density. The top 4 models all included sex effects on all parameters as well as year effects on σ. Behavioral effect on g 0 was also well supported and appeared in the top 2 models. The hazard rate function was well supported but was abandoned in favor of the half-normal estimates because of the unreasonably large buffer required for stable density estimates <ref type="bibr" target="#b25">(Efford 2012)</ref>.</p><p>Estimates of density were 0.22/km 2 (SE = 0.02, 95% CI = 0.19-0.26) for females and 0.14/km 2 (SE = 0.01, 95% CI = 0.11-0.16) for males across all years. Overall density was 0.35/km 2 (SE = 0.02, 95% CI = 0.30-0.41). Mean g 0 was 0.19 (SE = 0.02, 95% CI = 0.15-0.29) for females, 0.09 (SE = 0.01, 95% CI = 0.07-0.14) for males and remained essentially the same across sessions. Mean σ was 970.9 (SE = 18.5, 95% CI = 934.8-1,007.1) for females, 2,287.1 (SE = 40.3, 95% CI = 2,208.1-2,366.2) for males, and followed a similar pattern to estimates of p, lowest in 2010, increasing in 2011, then decreasing in 2012. A spatially explicit estimate of N derived as D multiplied by mask area was 143.8 (SE = 12.1, 95% CI = 120.2-167.5).</p><p>Among the suite of 9 covariates, percent canopy was positively correlated with D (β = 0.009, 95% CI = 0.003─0.015), explained variation in D better than any other covariate, and was associated with 68% of AICc weight (Table <ref type="table">6</ref>). Percent marsh was negatively correlated (β = -0.09, SE = 0.37, 95% CI = -1.57--0.13) and percent swamp positively correlated (β = 0.65, SE = 0.27, 95% CI = 0.12-1.17) with D. I included them in the predictive model because each had &gt;10% of model weight, and ∆AICc &lt;4. The 6 remaining covariates were not included because their 95% confidence intervals encompassed 0. Based on the predictive model (logitD = -7.84 + 0.009 (percent canopy) -0.85 (percent marsh) + 0.64 (percent swamp), predicted bear density ranged from 0.02 to 0.15/km 2 and was greatest in the interior of large blocks of forest cover.</p><p>After adjusting to exclude non-forest cover, the estimate ranged from 0.05─0.47/km 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Population Genetics</head><p>Correspondence analysis revealed that no bears sampled in this project clustered with individuals sampled at White River, TRB, or UARB  indicating that none of my sample were immigrants from those areas. A single female sampled at the TRB study area clustered with the coastal population (Figure <ref type="figure" target="#fig_5">12</ref>). I detected a genetic subdivision within the coastal population, roughly dividing the population into 2 clusters (Figure <ref type="figure" target="#fig_20">14</ref>). Categorizing individuals in the analysis according to capture location revealed that the 2 clusters were separated by longitude with little admixture. Based on the method of <ref type="bibr" target="#b28">Evanno et al. (2005)</ref> for determining the number of clusters from Program STRUCTURE, 2 genetic groups were present within the population. Based on inferred ancestry in Program STRUCTURE, when the population was divided into 2 genetic groups, 69 and 47 individuals had &gt;75% assignment to clusters K 1 and K 2 respectively (Figure <ref type="figure" target="#fig_22">15</ref>). Eleven individuals did not assign to either group based on assignment between thresholds of 25% and 75%. Mapping individuals according to these assignments revealed that individuals detected west of UTM zone 15N E 649500 primarily assigned to K 1 whereas individuals detected east of this longitude primarily assigned to K 2 (Figure <ref type="figure" target="#fig_23">16</ref>) . Twentyseven of 33 males and 35 of 36 females from K 1 were located primarily in the western zone of the study area. Sixteen of 21 males and 25 of 26 females from K 2 were located primarily in the eastern zone. Both females flagged as possible migrants had range centers located approximately 1 km from the border with their assigned population. Based on movement between populations, sex-specific migration rates for the overall population were 20% for males and 3% for females.</p><p>Tests of genetic variation between subpopulations provided evidence of greater genetic isolation between eastern and western bears than between other neighboring populations.</p><p>Although pairwise F ST was positively correlated with distance between populations, F ST in the eastern portion of the study area compared with the west was consistently higher than F ST between eastern or western pairings (Figure <ref type="figure" target="#fig_24">17</ref>). The greatest F ST between neighboring areas was 0.046 between areas 4 in the western zone and 5 in the eastern zone (Figure <ref type="figure" target="#fig_24">17</ref>). Mean F ST between all other neighboring pairs was 0.025 (Table <ref type="table">7</ref>). Estimated migration rates were lowest between areas 4 and 5 (Nm = 5.2) and highest between areas 1 and 2 (Nm = 16.6; Table <ref type="table">7</ref>). Nei's genetic distance followed the same pattern as F ST (Table <ref type="table">8</ref>; Figure <ref type="figure" target="#fig_25">18</ref>). Greatest distance was between zones 4 and 5 (0.046) and greatest genetic similarity between zones 1 and 2 (0.015; Figure <ref type="figure" target="#fig_26">19</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CHAPTER V DISCUSSION</head><p>My model-averaged abundance estimate from 2010-2012 was 138 (95% CI = 119-158), a substantial difference from the 1999 estimate of 77 (95% CI = 68-86) reported by <ref type="bibr" target="#b79">Triant (2001)</ref>.</p><p>Caution should be used when comparing these numbers, however, as our methods and study areas differed. Triant ( <ref type="formula">2001</ref>) used 2 sets of samples collected over sessions of 15 days and estimated abundance with Chapman's modified Lincoln-Peterson estimator <ref type="bibr" target="#b75">(Seber 1982</ref>). This simple model may underestimate N because it does not account for capture heterogeneity <ref type="bibr" target="#b66">(Pollock 1990</ref>). Collection sites for <ref type="bibr" target="#b79">Triant (2001)</ref> consisted of a single strand of barbed wire, 45 cm high; therefore, small or large bears may have avoided detection. Finally, the <ref type="bibr" target="#b79">Triant (2001)</ref> study sampled a grid of 208 km 2 with 60, then 120 sites for site densities of 0.29 then 0.58/km 2 , respectively. I maintained 118 sites over a grid of 348 km 2 for a site density of 0.34/km 2 . If the estimates of <ref type="bibr" target="#b79">Triant (2001)</ref> are unbiased, my estimates represent a substantial increase in the 11to 13-year interval between our sampling sessions. Given that <ref type="bibr" target="#b79">Triant (2001)</ref> used a single strand of wire, a simplified estimator, and a smaller coverage area, it seems likely that the 1999 population estimate was biased low relative to my study, although the magnitude of this bias is unknown and therefore population growth since 1999 is also unknown.</p><p>The final 9-locus mismatch distribution included 20 pairs of individuals that matched at all but 2 markers and 3 pairs with only a single mismatch. Extrapolation from this predicts about a 50% chance that the data set would include a 0MM-pair although more are possible (D.</p><p>Paetkau, personal communication). If this was the case, I incorrectly reported data from &gt;190 individuals in 190 individual records. However, the implications of including a small number of extra individuals in my estimates are insignificant in light of demographic changes that constantly alter the coastal population.</p><p>Estimates of precision and bias improve dramatically for p &gt; 0.2 <ref type="bibr" target="#b10">(Boulanger et al. 2004</ref><ref type="bibr" target="#b39">, Laufenberg et al. 2013)</ref>. My average weekly capture probabilities, 0.25 for females and 0.28 for males, indicated that I encountered 90% of females and 93% of males in the area each year.</p><p>Capture probabilities were higher for males compared with females, possibly an artifact of locating sampling sites along spoil banks which bears used to traverse their home ranges (J. My average survival rate of 0.86 (SE = 0.01) was lower than the 0.91 reported for the Tensas and Pointe Coupee populations <ref type="bibr" target="#b35">(Hooker 2010</ref><ref type="bibr" target="#b41">, Lowe 2011)</ref>. This is not surprising given the higher human density in my study area. Although the coastal population is legally protected, illegal kills, vehicle collisions, and relocations add up to losses comparable to those in hunted populations, where mortality rates can average 16.6% for females and 21.6% for males <ref type="bibr" target="#b12">(Bunnell and Tait 1981)</ref>. Published estimates of maximum sustainable harvest include 14% <ref type="bibr" target="#b45">(Miller 1990)</ref> and 20% <ref type="bibr" target="#b51">(Neal 1992)</ref>. Research on natality and recruitment is needed to determine whether estimated mortality rates are sustainable. Review of known mortalities and relocations (USGS BearTRAK 2013) indicated 17 losses in the first sampling interval, 12 losses in the second, and an average of 14 losses per year from January 2010 to December 2012 (Table <ref type="table" target="#tab_10">10</ref>). This represents approximately 10-12% of the coastal population based on my estimates of N, and was consistent with my estimates of φ given that undocumented losses would increase this proportion.</p><p>My average λ estimate of 1.1 (95% CI = 1.01-1.17) indicates that the mortality rate did not prevent population growth; however, population fluctuations were evident as λ was 0.88 (95% CI = 0.75-1.02) in the first interval, then rebounded to 1.31 (95% CI = 1. Correspondence analyses revealed only a single individual moving between the coast and other regional populations (Figure <ref type="figure" target="#fig_5">12</ref>). This was a female that assigned to the coast but was sampled at the southern end of the Tensas study area. Given that females are philopatric it seems unlikely that this bear naturally dispersed from the coast to Tensas. It is more likely that she was relocated to the repatriation area (Figure <ref type="figure" target="#fig_11">1</ref>), then dispersed to Tensas. Relocated bears frequently travel great distances from release sites <ref type="bibr" target="#b15">(Clark and Eastridge 2001)</ref>.</p><p>Results of correspondence analyses, assignment tests, F ST and genetic distance analyses all indicate 2 genetic groups divided into eastern and western subpopulations on either side of Highway 317 south of Centerville. One possible explanation is that the highway, adjacent agriculture, a metal floodwall, and marginal habitat west of the highway (Figure <ref type="figure" target="#fig_23">16</ref>) discourage movement through this area, causing separation and genetic drift. A similar highway flanked by agriculture also had high F ST (Figure <ref type="figure" target="#fig_24">17</ref>) and genetic distance (Figure <ref type="figure" target="#fig_26">19</ref>) indicating that large gaps between natural cover present some resistance to bear movement. Despite being larger, the agricultural area surrounding Hwy 83 seems to be less of a barrier than Hwy 317. Seven males and 1 female were detected on both sides of Hwy 317 during my 3-year study, and radio collared bears were observed moving across the highway and floodwall (J. Clark, USGS, unpublished data). This mixture is consistent with estimates of Nm although the cause of the genetic difference observed between east and west remains uncertain. A second hypothesis is that historic population fragmentation resulting from low abundance resulted in small, geographically disjunct populations; a reduction in N combined with genetic drift, ultimately resulted in 2 distinguishable groups. This hypothesis seems likely given that the coastal population was possibly reduced to as few as 30 individuals in the 1980s <ref type="bibr" target="#b53">(Nowak 1986)</ref> Losses during 2010─2012 were heaviest from November─January including all confirmed illegal kills and 17 of 22 fatal collisions (Figure <ref type="figure" target="#fig_11">21</ref>). Consistent with <ref type="bibr" target="#b58">Pace et al. (2000)</ref>, approximately 25% of losses occurred in November alone, primarily due to excessive roadkill (Figure <ref type="figure" target="#fig_11">21</ref>). In coastal Louisiana, many bears use sugar cane fields in fall <ref type="bibr" target="#b54">(Nyland 1995)</ref>, which places them near roads more often <ref type="bibr" target="#b58">(Pace et al. 2000)</ref>. Mapping of mortalities and management removals revealed that a disproportionate number of vehicle mortalities <ref type="bibr">(11 of 22)</ref> and relocations (4 of 10) occurred along Highways 90 and 317 south of Centerville (Figure <ref type="figure" target="#fig_27">20</ref>). This seems to indicate a source-sink pattern between the productive habitat east of Highway 317 and the surrounding developed areas.</p><p>Tests for a past genetic bottleneck revealed a heterozygosity deficiency in the sample collected by <ref type="bibr" target="#b79">Triant (2001)</ref>. Unlike heterozygosity excess which indicates a bottleneck, heterozygote deficiency can be a result of population structure <ref type="bibr" target="#b72">(Rousset and Raymond 1995)</ref>.</p><p>This deficiency was not strong and I suspect it was an artifact of the small number of loci tested.</p><p>My own 8-locus sample was very close to equilibrium but adding all loci and increasing sample size resulted in a heterozygosity excess, the signal of a bottleneck. Evidence for a bottleneck was strong in the eastern subpopulation but weak in the larger western subpopulation. This is a further indicator of genetic structure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CHAPTER VI MANAGEMENT IMPLICATIONS</head><p>My survival and population growth estimates indicate that the coastal population of Louisiana black bears is increasing at a moderate rate but subject to fluctuations and declines in some My abundance and density estimates created a baseline for future monitoring of population trends. Taken alone, these data are only a snapshot of a dynamic population. I recommend continued monitoring with population indices such as bait-station surveys which can be a relatively inexpensive tool compared with population estimation and are robust to biases that affect estimation of abundance and density <ref type="bibr" target="#b10">(Boulanger 2004)</ref>. This is especially vital if harvest is a management goal for this population. Any future take should be conservative and seek to balance net mortality with recruitment.                  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>provided more current and comprehensive estimates for the Tensas and UARB subpopulations, respectively. Updated abundance estimates for the TRB and UARB were 294 (SE = 31.0) and 56 (SE = 4.5), respectively. Apparent annual survival was 0.91 (95% CI = 0.62-0.98) at TRB<ref type="bibr" target="#b35">(Hooker 2010)</ref> as it was also at UARB (95% CI = 0.79-1.0, Lowe 2011). The TRB had a relatively high density (0.66 bears/km 2 , SE = 0.07) and positive mean annual growth rate (λ = 1.04, SE = 0.18) whereas the UARB population had a lower density (0.15 bears/km 2 ) and positive growth rate (λ = 1.32, SE = 0.07).The landscape of south Louisiana creates particular challenges for bear managers. The relatively dry areas in the region such as salt domes and natural levees as well as converted former wetlands are occupied by humans, with bears being relegated to the remainder. In more mesic areas, bears and humans come into frequent contact and nuisance incidents and vehicle collisions are common, especially in the eastern half of St. Mary Parish. Bears are also vulnerable to illegal kills, accidents, and other anthropogenic mortality.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Hair collection sites consisted of4-point, 15.5-gauge barbed wire tightly stretched around 3-5 trees and fastened with fencing staples<ref type="bibr" target="#b96">(Woods et al. 1999)</ref>. Previous researchers in Louisiana used a single wire which may have enabled some bears to step over or crawl under the wire<ref type="bibr" target="#b35">(Hooker 2010</ref><ref type="bibr" target="#b41">, Lowe 2011</ref>). To reduce such potential capture heterogeneity, I stretched 2 wires at heights of 35 and 70 cm, respectively<ref type="bibr" target="#b41">(Lowe 2011)</ref>. I flagged hair collection sites with fluorescent tape for visibility and human safety and maintained wire tension by cinching corners together with size 21 nylon twine (Figure5). I baited hair sites with approximately 100 g of sweet baked goods which were placed inside a biodegradable bag (BioBag © , BIOgroupUSA, Palm Harbor, Florida) and suspended approximately 1.8 m above the ground in the center of the hair site. I also suspended a tampon soaked in approximately 50 ml of raspberry-or honeyflavored extract (Mother Murphy's Laboratories, Greensboro, NC) as a scent lure. Bait and scent lures were replaced or refreshed weekly. Sites were baited 7 days prior to the first collection.I collected hair samples during primary and secondary sampling sessions as required by Robust Design. Primary sessions were the summer months of 2010, 2011, and 2012. The population was assumed to be open demographically and geographically in the 10-month intervals between primary sessions. Within each primary sampling session, hair samples were collected at each site on 8 secondary sampling occasions. Secondary sampling occasions for each site lasted approximately 1 week from baiting to sample collection and were continuous for the 8 weeks of the secondary period. I treated hair from a single barb as an individual sample. I culled samples with &lt;1 guard hair or &lt;5 underfur hairs to reduce genotyping failure as advised by D.Paetkau (Wildlife Genetics International, personal communication). I used forceps to transfer hair samples from a single barb into a single coin envelope. To prevent cross contamination, I sterilized forceps and all barbs with a propane torch after collecting each sample. I labeled hair samples, stored them in coin envelopes, sealed them in airtight bags, and kept them in a climate-controlled environment. I recorded capture session, date, location, and sample number on each sample envelope and entered this information into a database.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>) to determine which microsatellite markers had the highest variability. The 8 most variable markers (G10P, MU23, MU59, G10U, CXX110, D123, G10J, MU50) and an amelogenin marker to determine sex (Ennis and Gallagher 1994) were used to distinguish identity for the rest of the samples (D. Paetkau, Wildlife Genetics International, personal communication). To investigate my population genetics objective, 23 markers were genotyped for all individuals captured in 2010 and 2011 as well as all dead or relocated animals handled by LDWF.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>p i is the frequency of the ith allele. Given the limited habitat and small black bear population in coastal Louisiana, non-random mating and collection of samples from closely related individuals are likely. Consequently, I calculated PI and PI sib for the 8-and 23-locus data sets using Program GenALEx (Program GenALEx Version 6.5, www.biology.anu.edu.au/GenAlEx/, accessed 28 May 2013; Peakall and Smouse 2012). I used<ref type="bibr" target="#b78">Taberlet and Luikart's (1999)</ref> suggested threshold of PI sib ≤ 0.01 to evaluate the risk of encountering individuals with identical genotypes for all analyzed loci.Demographic Parameter EstimationI used genotyping results to compile capture histories for all individuals encountered. Capture histories consisted of an indicator of detection or non-detection during each of the 24 secondary occasions. I analyzed capture histories in Program MARK (MARK Version 7.1, www.phidot.org/software /mark/downloads/, accessed 2 Mar 2013; White and Burnham 1999) using maximum likelihood to fit Robust Design models to data in the full closed captures with heterogeneity data type. Full likelihood models include N in the likelihood, f 0 = N -M (t+1), where f 0 is the number of animals never captured and M (t+1) is the number captured at the conclusion of the final capture occasion (t).I created a candidate set of 23 competing models. I created models allowing φ to vary by sex and year or remain constant. I tested models allowing "random movement" where γ" = γ', representing the hypothesis that the probability of being off the study area is independent of location in a previous primary sampling session. I tested "no movement" models where animals do not enter or leave the study area; γ" = γ' = 0. I also tested "even-flow" models where emigration and immigration (1-γ') are equal. I allowed π to vary by sex, year, or remain constant. For p and c, I fit invariant models and others that included variation by sex, year, or both. I also modeled behavioral response by fitting models where c differed from p. Finally, I tested for capture heterogeneity by comparing models with and without mixtures for p and c. I ranked models using the Akaike Information Criterion corrected for small samples (AICc)<ref type="bibr" target="#b13">(Burnham and Anderson 2002)</ref>. AICc ranks are based on empirical support and model simplicity. Models are assigned an AICc score which is penalized in AICc units with more severe penalties as number of parameters increases and sample size decreases. Thus, only parameters with significant explanatory power improve score. I considered models well supported if their AICc scores were within 2 units of the top model. An AICc weight can be calculated based on the proportion of support for each model in the model set. I derived parameter estimates by averaging supported models according to weight to account for model</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>I</head><label></label><figDesc>performed a correspondence analysis with Program GENETIX (GENETIX Version 4.05, www.genetix.univ-montp2.fr, accessed 1 Dec 2012;Belkhir et al. 1996)  to investigate the prospect of dispersal and gene interchange between the coastal population and other local populations. This software can be used to group individuals along various axes based on genetic similarity at multiple loci. In addition to the UARB and TRB, I also compared the coastal population with a genetically similar population at White River in southern Arkansas<ref type="bibr" target="#b92">(Warrilow et al. 2001</ref><ref type="bibr" target="#b18">, Csiki et al. 2003)</ref>. I performed 3 analyses comparing the 8 markers used to identify bears at UARB, TRB, and White River with the 23-locus set from the coastal bears, which contained each of those 8-locus subsets. I compared my sample of 127 individuals with all genotyped individuals from each area; 109 from Upper ARB, 498 from Tensas, and 105 from White River. I also used Program GENETIX to investigate genetic structure within the study area using the full set of 23 loci for the coastal population. To test for genetic structure at 2 scales and compare genetic effects of possible movement barriers, I divided the study area into 6 zones. Zones 1 and 2 were divided by LA 83, a 2-lane highway. Zones 2 and 3 were divided by the same highway and an agricultural area approximately 3 km wide. Zones 3 and 4 were separated by the 100-m wide Charenton Canal. Zones 4 and 5 were divided by LA 317, another 2-lane highway and approximately 1.6 km of agriculture. Zones 5 and 6 were separated by the 200-m wide Wax Lake Outlet Canal. In addition, I combined the 4 western zones and the 2 eastern zones to create 2 larger zones. Using minimum convex polygons and home range centers derived from hair site encounters, I assigned individuals to a large zone (west or east) and 1 of 6 small geographic zones. For bears that were detected in &gt;1 zone, I assigned a geographic origin based on quantity and date of detections. I performed correspondence analyses on these subpopulations and analyzed the results to detect genetic similarity based on locations of detection. Further analyses of genetic stratification within the population involved the use of Program STRUCTURE (STRUCTURE 2.3.4, http://pritch.bsd.uchicago.edu/structure.html, accessed 2 Apr 2013; Pritchard et al. 2000) to assign individuals to a population based on competing hypotheses of the number of population clusters (k). Program STRUCTURE uses a Bayesian algorithm to assign individuals to populations based on inferred ancestry. It uses the mean value of the log likelihood as evidence for the most likely k. Because estimation of the true k may be incorrect when patterns of dispersal among populations are not homogeneous, I used Evanno's delta method<ref type="bibr" target="#b28">(Evanno et al. 2005)</ref> in the STRUCTURE HARVESTER (Program STRUCTURE HARVESTER Version 0.6.9, www.taylor0.biology.ucla.edu/structureHarvester/, accessed 30 Jun 2013; Dent and vonHoldt 2012) to select the most likely k based on the rate of change in the log probability of data between successive k values. I tested values of k ranging from 1 to 6 using a burn-in of 1,000,000 repetitions followed by 1,000,000 Markov Chain Monte Carlo repetitions under the admixture model. Evanno's delta method requires &gt;1 replicate; therefore, I repeated this test until 4 iterations were complete. I categorized individuals based on their assigned genetic population and used ArcMap 10.1 GIS to map geographic correlations between genetic assignments. This technique has been used to identify possible migrants and quantify sex-specific dispersal rates within the population<ref type="bibr" target="#b69">(Proctor et al. 2012)</ref>. Based on percent assignment in Program STRUCTURE, I allocated the population into genetically similar groups. Using home range centers calculated in ArcMap 10.1 GIS based on the hair site encounters, I plotted the location and genetic assignment of each individual.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>0 ( 12</head><label>12</label><figDesc>sites) to 11 (3 sites) with a mean of 4.8. Areas where greater numbers of individuals were detected were Weeks Island, the Franklin unit of Bayou Teche NWR, the areas west of Glencoe, east of Hwy 317, and the area south of Patterson. No hair was collected from the Centerville unit of Bayou Teche National Wildlife Refuge and only a single sample was collected on Cote Blanche Island. Video from a motion-activated game camera (Reconyx, Holmen, WI) revealed cubs of the year passing under the 35-cm wire; therefore, my parameter estimates only apply to bears &gt;1 year of age. I collected additional hair or tissue samples from 19 vehicle kills and 1 illegal kill, 8 of which had been previously detected at hair sites. I also collected hair from 8 individuals live captured by LDWF for nuisance behavior, 6 of which were detected at a hair site. Four bears</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>and 97 females). Ninety different individuals were encountered in 2010, 101 in 2011, and 123 in 2012 (Figure 8). The 2012 sample contained 80 recaptures (65%) from previous sessions and 43 previously uncaptured individuals. Seventy-one of 101 (70%) individuals from 2011 and 56 of 90 (62%) from 2010 were recaptured in 2012. Sixty of 90 (66%) from 2010 were encountered in 2011. Individual males were encountered up to 41 times with an average of 8.07 encounters at 4.3 sites and females up to 22 times with an average of 5.56 encounters at 2.3 sites (Figure 9).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>Average weekly capture probabilities calculated as p = (π a p a ) + (π b p b ) averaged across all years and mixtures were 0.25 (SE = 0.02, 95% CI = 0.20-0.30) for females and 0.28 for males (SE = 0.02, 95% CI = 0.24-0.32). Weekly p averaged across sexes and mixtures were 0.19 for 2010 (SE = 0.03, 95% CI = 0.15─0.25), 0.32 for 2011 (SE = 0.03, 95% CI = 0.26-0.38), and 0.27 for 2012 (SE = 0.03, 95% CI = 0.22-0.33). Models without behavioral effects received more support than those with behavioral effects. Model-averaged abundance estimates of females were 80.0 (SE = 12.8, 95% CI = 54.9-105.2), 66.3 (SE = 11.3, 95% CI = 54.7-78.0), and 85.2 (SE = 5.0, 95% CI = 63.0-107.5) and for males were 56.4 (SE = 5.9, 95% CI = 41.4-71.4), 54.2 (SE = 7.7, 95% CI = 44.3-64.0), and 73.2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>Clark, USGS, unpublished data). Males have larger home ranges and I sampled during the season when males are searching for estrous females. By concentrating sampling sites along travel corridors, I potentially exposed males to a disproportionate risk of capture.Capture probabilities were highest in 2011 and estimates of abundance and density were lowest at this time. In the same year, I visually observed more bears than in either of the other sessions. These observations seem contradictory but 2 events occurred in 2011 that are worth noting. First, a severe drought struck the southern U.S. beginning in late 2010 and peaking in July 2011(NOAA 2011). I observed failure of soft mast crops, possibly causing bears to become more active with some emigrating from the study area. Spatially explicit capture recapture analysis indicated that σ was highest for both sexes in 2011. Confirmed losses were higher and survival estimates were lower in the first interval than the second. These losses and movements likely resulted in increased p for those bears that remained, owing to our subsampling procedure. Consistent with this hypothesis, the number of samples collected more than doubled from 2010 to 2011 with only a 12% increase in individuals encountered.The second event which affected my study area was record spring rainfall in the Ohio Valley which caused historic flooding of the Mississippi River (NOAA 2011). The U.S. Army Corps of Engineers diverted water through the Atchafalaya River Basin and its distributaries, raising water levels north, south, and east of my sampling sites. Although flooding adjacent to the study area had the potential to cause immigration, neither an increase in N nor a decrease in p was observed. I conclude that the increase in bear visibility was due to increased movement and not immigration.My secondary sampling periods were scheduled for 8 weeks in the summer to meet the assumption of demographic closure. Because my study area consisted of an isolated fragment of suitable bear habitat, it likely met the geographic closure assumption as well. The habitat in St.Mary and Iberia parishes is surrounded by marsh, agriculture, development, and seasonally flooded swamp (Figure4). One parcel of possible habitat bordering the study area to the southeast was not sampled. It contained approximately 70 km 2 of cypress/tupelo swamp, south of the Intracoastal Waterway. My parameter estimates do not indicate significant immigration or emigration but it is possible that some animals inhabiting this area may have avoided detection or that animals emigrated to this bayou-rich area during the drought.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head></head><label></label><figDesc>. Quantity of samples collected and number of individuals captured indicate higher bear density on Weeks Island in western Iberia Parish and the Patterson/Calumet area in eastern St. Mary Parish. It seems likely that these areas may have been historic refuges for small populations and sources for recolonization of the surrounding habitat. Heavy losses along Highways 317 and 90 (Figure 20) are another possible factor shaping genetic structure in the coastal population. Bears moving through this area are frequently killed or relocated, preventing genetic exchange between eastern and western subpopulations.The combined effects of illegal kills, management removals, and vehicle collisions create a loss rate comparable to a hunted population in the coastal population.<ref type="bibr" target="#b58">Pace et al. (2000)</ref> reported a mark-recapture estimated survival rate of 76% for adult females in the coastal population from 1992-2000. In this same period, they report that 65% (49 of 75) of deaths or removals from the statewide population came from the coast. In comparison, I counted 10 relocations and 31 confirmed mortalities during my 3 sampling years (USGS BearTRAK 2013).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head></head><label></label><figDesc>years. Apparent survival rates are lower than those observed in other unharvested populations in the Southeast<ref type="bibr" target="#b22">(Dobey et al. 2005</ref><ref type="bibr" target="#b16">, Clark et al. 2010</ref><ref type="bibr" target="#b35">, Hooker 2010</ref><ref type="bibr" target="#b41">, Lowe 2011)</ref>. It is important to remember that these estimates are based on only 2 intervals and longer term data is needed to reach any definitive conclusions about population trend. If a viable population or sustainable harvest are management goals, I recommend focusing efforts on preventing mortality along the 25 km of Highways 90 and 317 connecting Patterson and Bayou Sale (Figure20). Management efforts in this area will almost certainly give the greatest return on investment. Without addressing losses from this population sink, the additional mortality of harvest may cause the coastal bear population to decline. The conversion of Hwy 90 to I-49 has the potential to either alleviate or increase roadkills. Landscape-level planning, fencing, and underpasses are tools currently available to reduce the frequency and costs of wildlife/vehicle collisions (McCollister and van Manen 2010).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Historic range of the Louisiana black bear in Louisiana, Arkansas, Mississippi, and Texas, USA, and Louisiana parishes occupied by breeding populations 2010-2012.</figDesc><graphic coords="85,67.44,72.00,486.48,348.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Location of 118 stations used for hair-sampling of Louisiana black bears in St. Mary and Iberia parishes, Louisiana, USA, 2010-2012.</figDesc><graphic coords="87,67.08,72.00,487.20,347.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Eight landcover classifications comprise &gt;95% of the coastal study area. Percentages of these 8 and percent canopy were used as covariates in SECR to predict density of Louisiana black bears in coastal Louisiana, USA, 2010-2012.</figDesc><graphic coords="88,67.08,72.00,487.20,347.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: A barbed wire corral for collecting hair samples from Louisiana black bears. I constructed 118 hair collection sites in 2010-2012 in St. Mary and Iberia parishes, Louisiana, USA.</figDesc><graphic coords="89,67.08,237.24,487.20,165.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 6 :</head><label>6</label><figDesc>Figure 6: Average Louisiana black bear female home range radii (1,938 m) circumscribed around 118 hair collection sites operated in 2010-2012, forest cover within a 4,000 m SECR buffer, and forest cover adjacent to the sampling area in coastal Louisiana, USA.</figDesc><graphic coords="90,66.96,72.00,487.44,353.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 8 :Figure 9 :</head><label>89</label><figDesc>Figure 8: Capture histories for Louisiana black bears 2010-2012 in coastal Louisiana, USA.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure 11 :</head><label>11</label><figDesc>Figure 11: Correspondence analysis of 105 black bears sampled in the White River Basin, Arkansas, USA, 2004-2007 (red) vs. 127 Louisiana black bears from the Lower Atchafalaya River Basin, Louisiana, USA, sampled from 2010-2012 (white).</figDesc><graphic coords="95,76.92,72.00,467.40,239.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure 12 .</head><label>12</label><figDesc>Figure 12. Correspondence analysis of 498 Louisiana black bears sampled in the Tensas River Basin, Louisiana, USA, from 2006-2012 (red) vs. 127 from the Lower Atchafalaya River Basin, Louisiana, USA, sampled from 2010-2012 (white). One female sampled at Tensas assigned genetically to the coastal population.</figDesc><graphic coords="95,76.68,393.96,468.00,241.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure 13 .</head><label>13</label><figDesc>Figure 13. Correspondence analysis of 109 Louisiana black bears sampled in the Upper Atchafalaya River Basin, Louisiana, USA, from 2007-2012 (red) vs. 127 sampled in the Lower Atchafalaya River Basin, Louisiana, USA, from 2010-2012 (white).</figDesc><graphic coords="96,76.32,72.00,468.60,239.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figure 14 :</head><label>14</label><figDesc>Figure 14: Correspondence analysis of 74 Louisiana black bears (gold) sampled in the western section of the study area (zones 1 though 4) vs 53 individuals (blue) sampled in the eastern section (zones 5 and 6) in coastal Louisiana, USA, 2010-2012.</figDesc><graphic coords="96,76.68,408.00,468.00,241.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head>Figure 15 :</head><label>15</label><figDesc>Figure 15: Genetic assignments by Program STRUCTURE of 127 Louisiana black bears sampled in St. Mary and Iberia parishes, Louisiana, USA, from 2010-2012. Blue: &gt;0.75 assignment to population 1, Gold: &gt;0.75 assignment to population 2. White: 0.25-0.75 assignment to either population.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head>Figure 16 :</head><label>16</label><figDesc>Figure 16: Detection-based home range centers for Louisiana black bears in St. Mary and Iberia parishes, Louisiana, USA, 2010-2012, color categorized by genetic assignment. Blue: &gt;0.75 assignment to population 1, Gold: &gt;0.75 assignment to population 2. White: 0.25-0.75 assignment to either population.</figDesc><graphic coords="98,67.32,72.00,486.72,350.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_24"><head>Figure 17 :</head><label>17</label><figDesc>Figure 17: Geographic zones 1-4 West, and 5 and 6 East used to measure F ST between Louisiana black bears in coastal Louisiana, USA, 2010-2012. Pairwise F ST values and estimated number of migrants per generation (Nm) between adjacent zones are shown.</figDesc><graphic coords="99,66.48,72.00,488.40,343.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_25"><head>Figure 18 :</head><label>18</label><figDesc>Figure 18: Genetic distance (Nei's D) vs geographic distance (km) between geographically categorized groups of Louisiana black bears in St. Mary and Iberia parishes, Louisiana, USA, 2010-2012. W vs E Hwy 317 is the distance between zones 4 east and 5 west.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_26"><head>Figure 19 :</head><label>19</label><figDesc>Figure 19: Geographic zones 1-4 West, and 5 and 6 East used to measure genetic distance between Louisiana black bears in coastal Louisiana, USA, 2010-2012. Pairwise Nei's D values between adjacent zones are shown.</figDesc><graphic coords="101,63.36,72.00,492.48,344.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_27"><head>Figure 20 :</head><label>20</label><figDesc>Figure 20: Geographic distributions of deaths and relocations of Louisiana black bears from St. Mary and Iberia parishes, Louisiana, USA, 2010-2012.</figDesc><graphic coords="102,64.44,72.00,492.48,346.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="86,65.04,71.88,491.16,360.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>and Maria 1. GIS layers and ecological systems used to delineate habitat and predict density of Louisiana black bears in St. Mary and Iberia parishes, Louisiana, USA, 2010─2012……..………………………….............58 Percentages of these 8 and percent canopy were used as covariates in SECR to predict density of Louisiana black bears in coastal Louisiana, USA, 2010─2012…………………………......................74 5. A barbed wire corral for collecting hair samples from Louisiana black bears. I constructed 118 hair collection sites in 2010─2012 in St. Mary and Iberia parishes, Louisiana, USA……………...………………75</figDesc><table><row><cell>11.</cell><cell>Black bear population densities in the southeastern USA……………………..69</cell></row><row><cell>1.</cell><cell>Historic range of the Louisiana black bear in Louisiana, Arkansas,</cell></row><row><cell></cell><cell>Mississippi, and Texas, USA, and Louisiana parishes occupied by</cell></row><row><cell></cell><cell>breeding populations 2010─2012……………………………………………...71</cell></row><row><cell>2. 2.</cell><cell>Heterozygosity and Probability of Identity for 23 microsatellite Location of Louisiana black bear habitat in St. Mary and Iberia</cell></row><row><cell></cell><cell>markers used for identification and genetic structure analyses of Parishes, 2010─2012………...………………………………………………...72</cell></row><row><cell></cell><cell>Louisiana black bears in coastal Louisiana, USA 2010-2012.………...………59</cell></row><row><cell>3.</cell><cell>Location of 118 stations used for hair-sampling of Louisiana black</cell></row><row><cell>3.</cell><cell>Robust Design model rankings based on AICc to estimate bears in St. Mary and Iberia parishes, Louisiana, USA, 2010─2012………….73</cell></row><row><cell></cell><cell>demographic parameters for the Louisiana black bear population of</cell></row><row><cell>4.</cell><cell>St. Mary and Iberia parishes, Louisiana, USA, 2010─2012…………………...60 Eight landcover classifications comprise &gt;95% of the coastal</cell></row><row><cell cols="2">4. 5. study area. 6. Weekly probabilities of capture (p) and recapture (c) for Louisiana black bears sampled in 2010─2012 in a capture-mark-recapture study in coastal Louisiana, USA……………………………………………………...61 Average Louisiana black bear female home range radii (1,938 m)</cell></row><row><cell></cell><cell>circumscribed around 118 hair collection sites operated in</cell></row><row><cell></cell><cell>2010─2012, forest cover within a 4,000-m SECR buffer, and forest</cell></row><row><cell></cell><cell>cover adjacent to the sampling area in coastal Louisiana, USA……………….76</cell></row><row><cell>7.</cell><cell>Collection rates of samples from Louisiana black bears in coastal</cell></row><row><cell></cell><cell>Louisiana, USA. Sites collecting ≥ 1 hair-sample, samples collected,</cell></row><row><cell></cell><cell>.………………64 and captures are shown for 24 sampling occasions. Sessions 1 to 8</cell></row><row><cell></cell><cell>were collected in 2010, 9 to 16 in 2011, and 17 to 24 in 2012………………...77</cell></row><row><cell>8.</cell><cell>Genetic and linear distances between geographic groupings of</cell></row><row><cell>8.</cell><cell>Louisiana black bears sampled in St. Mary and Iberia parishes, Capture histories for Louisiana black bears 2010─2012 in</cell></row><row><cell></cell><cell>Louisiana, USA, 2010-2012. Genetic distance was measured by coastal Louisiana, USA………………………………………………………..78</cell></row><row><cell></cell><cell>Nei's D and linear distance was measured in km…………….………………..65</cell></row><row><cell>9.</cell><cell>Capture distribution of Louisiana black bears, 2010─2012, in coastal</cell></row><row><cell>9.</cell><cell>P-values of Wilcoxon tests for a genetic bottleneck within the Louisiana, USA. Individual males were encountered up to 41 times</cell></row><row><cell></cell><cell>Louisiana black bear population of St. Mary and Iberia parishes, with a mean of 8.07 encounters at 4.3 sites and females up to 22</cell></row><row><cell></cell><cell>Louisiana, USA 1992-2000 and 2010-2012.………………………………….66 times with a mean of 5.56 encounters at 2.3 sites……………………………...79</cell></row><row><cell>10. 10.</cell><cell>Mortalities and relocations of Louisiana black bears from St. Annual abundance estimates of Louisiana black bears in coastal</cell></row><row><cell></cell><cell>Mary and Iberia parishes, Louisiana, USA, 1 November, 2009 Louisiana, USA, 2010─2012…………………………………………………..80</cell></row><row><cell></cell><cell>to 31 December, 2012………………………………………………….............67</cell></row><row><cell></cell><cell>ix</cell></row></table><note><p>Spatially explicit capture-recapture model rankings based on AICc to estimate density (D) for the Louisiana black bear population of St. Mary and Iberia parishes, Louisiana, USA, 2010─2012…………………...62 6. Spatially explicit capture recapture model rankings based on AICc to predict Louisiana black bear density as a function of landcover covariates in coastal Louisiana, USA, 2010─2012..…...……….……..………63 7. Fixation index (F ST ) and estimated migrants per generation (Nm) between geographic groupings of Louisiana black bears sampled in St. Mary and Iberia parishes, Louisiana, USA, 2010-2012..</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>hair sampling sites. One-hundred ten of the sites were between Highway 90 (future I-49) and the Intracoastal Waterway, 6 were located north of the highway, and 2 were located on Cote Blanche Island, south of the Intracoastal Waterway.</figDesc><table /><note><p><p><p><p><p><p><p>of 4 traps per home range. Telemetry-based home ranges of females in the coastal population averaged 11.8 km 2</p><ref type="bibr" target="#b49">(Murrow and Clark 2012)</ref></p>. I divided this area by 4 to create a grid of 2.95-km 2 cells which I plotted on the study area using</p>ArcMap 9.3 GIS   (Environmental Systems Research Institute, Inc., Redlands, CA)</p>. In each cell that contained &gt;50% forest cover I attempted to establish 1 hair collection site while maintaining approximately 1.7 km between adjacent sites. In some areas, even spacing was prohibited by landowners or field conditions that prevented access; consequently, my sampling locations were not strictly uniform. Only forested areas were considered Louisiana black bear habitat by the USFWS although marshes and agricultural lands were also used by bears</p><ref type="bibr" target="#b51">(Neal 1992)</ref></p>; therefore, I delineated forest cover by combining 4 GAP cover types (Table 1; USGS 2011) where I established 118</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head></head><label></label><figDesc>with Program GenALEx<ref type="bibr" target="#b63">(Peakall and Smouse 2012)</ref>. F ST measures the proportion of the total genetic diversity (heterozygosity) that is distributed among the</figDesc><table><row><cell>migrants per generation (Nm) as F ST =</cell><cell>4</cell><cell>1 Nm +</cell><cell>1</cell><cell>(Wright 1969).</cell></row><row><cell cols="5">I used Program BOTTLENECK (BOTTLENECK Version 1.2.02,</cell></row><row><cell cols="5">http://www1.montpellier.inra.fr/ URLB/bottleneck/bottleneck.html, accessed 1 June 2013;</cell></row><row><cell cols="5">(Cornuet and Luikart 1996) to test for past bottlenecks by measuring for excess heterozygosity</cell></row><row><cell cols="5">relative to observed allele diversity. To evaluate allelic diversity in the coastal population, I</cell></row><row><cell cols="5">performed 3 tests for evidence of a past bottleneck. First, I obtained genetic data from Triant's</cell></row><row><cell cols="5">(2001) sample which consisted of 57 genotypes from individuals sampled at hair snares in 1999</cell></row><row><cell cols="5">and 41 archived 8-locus genotypes from other individuals sampled from 1992 to 2000. I</cell></row></table><note><p><p><p><p><p>subpopulations relative to the total</p><ref type="bibr" target="#b62">(Peakall and Smouse 2009)</ref></p>. Using my 6 designated geographic zones, I performed pairwise comparisons of Nei's D and F ST and graphed Nei's D against geographic distance based on averaged UTM coordinates of detections for each individual. A common rule of thumb holds that one migrant per generation into a subpopulation is sufficient to minimize the loss of polymorphism and heterozygosity within subpopulations</p><ref type="bibr" target="#b46">(Mills and Allendorf 1996)</ref></p>. I calculated the approximate number of successfully breeding randomly selected 98 individuals from my own sample to equalize sample size and tested both samples using Triant's 8 markers; G10P, G10M, G10B, G10L, G10C, G10X, G1D, and G1A. I compared results of the Wilcoxon test under the 2-phased model of mutation using the 90%</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>collected hair samples at weekly intervals for 8 weeks each summer. Collection dates for the 3 primary sessions were 14 June, 2010 through 7 August, 2010, 6 June, 2011 through 29 July, 2011, and 4 June, 2012 through 27 July, 2012. I collected 672 samples from 90 sites, 1,416 samples from 100 sites, and 1,610 samples from 104 sites in 2010, 2011, and 2012, respectively.</figDesc><table><row><cell>Sites visited by bears (i.e., leaving a hair sample) increased annually from 76%, to 85% to 88%</cell></row><row><cell>and I collected hair samples from an average of 38, 59, and 64 sites each week in 2010, 2011,</cell></row><row><cell>and 2012, respectively (Figure</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head></head><label></label><figDesc>14-1.49) in the second. Average annual per capita recruitment (f) estimated as λφ was 0.22 (SE = 0.02, 95% CI = 0.18-0.26). Because these estimates apply to a relatively short period, they may not reflect long-term trends. Additional monitoring of the coastal population would allow for more certainty in dynamic parameters estimated between sessions.Density estimates for the coastal population were 0.35/km 2 , a moderate density compared with other Southeastern populations (Table11). Density estimates were consistent with estimates of N; for example, multiplying my density estimate of 0.35/km 2 by my habitat mask of 406 km 2 produced a spatially explicit estimate of N = 142, only 4 more than my estimate using Program MARK. Parameter g 0 remained constant across years whereas σ for both sexes increased during 2011, supporting the hypothesis that bears increased their movements, possibly in response to the drought. My linear model to predict site specific density performed poorly, estimating greater density within forested areas and predicting highest densities in areas that were inconsistent with my sampling results. This may be a result of the size of my analysis window relative to the size of habitat fragments; the model predicted high bear density in the center of large blocks of forest regardless of cover type. Lack of data on flooding regime also made it difficult to model the coastal habitat. Quality bear habitat such as bottomland hardwood forests exists in a matrix of lower quality swamps and depressions. Because canopy cover may be similar between hardwood forests and swamps, it did not predict density accurately despite being the most supported covariate.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head>Table 1 .</head><label>1</label><figDesc>GIS layers and ecological systems used to delineate habitat for predict density of Louisiana black bears inSt. Mary and Iberia parishes, Louisiana, USA, 2010-2012.    </figDesc><table><row><cell></cell><cell></cell><cell>Classified</cell></row><row><cell>Layer</cell><cell>Value</cell><cell>as bear habitat</cell></row><row><cell cols="2">USGS Gap Landcover Mississippi Delta Maritime Forest</cell><cell>Yes</cell></row><row><cell cols="2">USGS Gap Landcover Mississippi River Floodplain and Riparian Forest</cell><cell>Yes</cell></row><row><cell cols="2">USGS Gap Landcover Mississippi River Bottomland Depression</cell><cell>Yes</cell></row><row><cell cols="2">USGS Gap Landcover Gulf and Atlantic Coastal Plain Swamp Systems</cell><cell>Yes</cell></row><row><cell></cell><cell>Agriculture, Reclassified from Cultivated Cropland</cell><cell></cell></row><row><cell>USGS Gap Landcover</cell><cell>and Hay/Pasture</cell><cell>No</cell></row><row><cell cols="3">USGS Gap Landcover Gulf and Atlantic Coastal Plain Tidal Marsh Systems No</cell></row><row><cell></cell><cell>Developed, Reclassified from Developed Low,</cell><cell></cell></row><row><cell>USGS Gap Landcover</cell><cell>Medium, and High Intensity</cell><cell>No</cell></row><row><cell cols="2">USGS Gap Landcover Open Water</cell><cell>No</cell></row><row><cell>USGS NCLD 2001</cell><cell>Percent Canopy</cell><cell>NA</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head>Table 2 .</head><label>2</label><figDesc>Heterozygosity and Probability of Identity for 23 microsatellite markers used for identification and genetic structure analyses of Louisiana black bears in coastal Louisiana, USA 2010-2012.</figDesc><table><row><cell>Locus</cell><cell>N a</cell><cell>A b</cell><cell>H E</cell><cell>c</cell><cell>H O d</cell><cell>PI e</cell><cell>8</cell><cell>PI sib</cell><cell>f</cell><cell>8</cell><cell>PI 23</cell><cell>PI sib 23</cell></row><row><cell>G10P</cell><cell>190</cell><cell>5</cell><cell cols="2">0.73</cell><cell>0.73</cell><cell cols="2">0.12</cell><cell cols="3">0.41</cell><cell>0.12</cell><cell>0.42</cell></row><row><cell>MU59</cell><cell>190</cell><cell>4</cell><cell cols="2">0.69</cell><cell>0.66</cell><cell cols="2">0.17</cell><cell cols="3">0.45</cell><cell>0.17</cell><cell>0.45</cell></row><row><cell>MU23</cell><cell>190</cell><cell>5</cell><cell cols="2">0.69</cell><cell>0.68</cell><cell cols="2">0.16</cell><cell cols="3">0.45</cell><cell>0.16</cell><cell>0.45</cell></row><row><cell>G10U</cell><cell>190</cell><cell>4</cell><cell cols="2">0.66</cell><cell>0.65</cell><cell cols="2">0.18</cell><cell cols="3">0.47</cell><cell>0.18</cell><cell>0.47</cell></row><row><cell>CXX110</cell><cell>190</cell><cell>3</cell><cell cols="2">0.65</cell><cell>0.65</cell><cell cols="2">0.20</cell><cell cols="3">0.47</cell><cell>0.20</cell><cell>0.47</cell></row><row><cell>G10J</cell><cell>190</cell><cell>5</cell><cell cols="2">0.63</cell><cell>0.66</cell><cell cols="2">0.22</cell><cell cols="3">0.50</cell><cell>0.22</cell><cell>0.50</cell></row><row><cell>D123</cell><cell>190</cell><cell>3</cell><cell cols="2">0.63</cell><cell>0.64</cell><cell cols="2">0.22</cell><cell cols="3">0.49</cell><cell>0.22</cell><cell>0.49</cell></row><row><cell>MU50</cell><cell>190</cell><cell>4</cell><cell cols="2">0.58</cell><cell>0.59</cell><cell cols="2">0.25</cell><cell cols="3">0.53</cell><cell>0.25</cell><cell>0.50</cell></row><row><cell>8-Locus Mean</cell><cell>190</cell><cell>4.1</cell><cell cols="2">0.66</cell><cell>0.66</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">8-Locus Combined PI, PI sib</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="5">1.3x10 -6 2.4x10 -3</cell><cell></cell><cell></cell></row><row><cell>A06</cell><cell>143</cell><cell>7</cell><cell cols="2">0.73</cell><cell>0.58</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.12</cell><cell>0.41</cell></row><row><cell>D1A</cell><cell>127</cell><cell>3</cell><cell cols="2">0.65</cell><cell>0.67</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.20</cell><cell>0.48</cell></row><row><cell>P07</cell><cell>143</cell><cell>3</cell><cell cols="2">0.62</cell><cell>0.62</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.22</cell><cell>0.50</cell></row><row><cell>CPH9</cell><cell>143</cell><cell>4</cell><cell cols="2">0.62</cell><cell>0.62</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.24</cell><cell>0.51</cell></row><row><cell>G10C</cell><cell>143</cell><cell>4</cell><cell cols="2">0.61</cell><cell>0.61</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.23</cell><cell>0.51</cell></row><row><cell>G10L</cell><cell>127</cell><cell>4</cell><cell cols="2">0.57</cell><cell>0.58</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.23</cell><cell>0.53</cell></row><row><cell>MU26</cell><cell>143</cell><cell>5</cell><cell cols="2">0.53</cell><cell>0.53</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.27</cell><cell>0.55</cell></row><row><cell>CXX20</cell><cell>127</cell><cell>4</cell><cell cols="2">0.5</cell><cell>0.47</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.30</cell><cell>0.58</cell></row><row><cell>G10B</cell><cell>127</cell><cell>6</cell><cell cols="2">0.47</cell><cell>0.45</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.32</cell><cell>0.60</cell></row><row><cell>MSUT2</cell><cell>127</cell><cell>3</cell><cell cols="2">0.45</cell><cell>0.41</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.34</cell><cell>0.61</cell></row><row><cell>G1D</cell><cell>127</cell><cell>3</cell><cell cols="2">0.42</cell><cell>0.44</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.42</cell><cell>0.64</cell></row><row><cell>G10M</cell><cell>127</cell><cell>4</cell><cell cols="2">0.41</cell><cell>0.42</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.38</cell><cell>0.64</cell></row><row><cell>G10H</cell><cell>127</cell><cell>4</cell><cell cols="2">0.41</cell><cell>0.41</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.39</cell><cell>0.64</cell></row><row><cell>G10X</cell><cell>127</cell><cell>4</cell><cell cols="2">0.39</cell><cell>0.35</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.41</cell><cell>0.66</cell></row><row><cell>G1A</cell><cell>127</cell><cell>3</cell><cell cols="2">0.3</cell><cell>0.32</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0.52</cell><cell>0.73</cell></row><row><cell>23-Locus Mean</cell><cell>152</cell><cell>4.1</cell><cell cols="2">0.56</cell><cell>0.55</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">23-Locus Combined PI, PI sib</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">1.0x10 -14 4.7x10 -7</cell></row><row><cell cols="5">a Number of bears identified using a given locus.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p>b Number of alleles. c Expected heterozygosity. d Observed heterozygosity. e Probability of Identity. f Probability of Identity among siblings.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head>Table 4 .</head><label>4</label><figDesc>Weekly probabilities of capture (p) and recapture (c) for Louisiana black bears sampled in 2010-2012 in a capture-mark-recapture study in coastal Louisiana, USA.</figDesc><table><row><cell></cell><cell></cell><cell>p 2010</cell><cell>p 2011</cell><cell>p 2012</cell><cell>c 2010</cell><cell>c 2011</cell><cell>c 2012</cell></row><row><cell cols="2">Female π a</cell><cell>0.07</cell><cell>0.15</cell><cell>0.11</cell><cell>0.06</cell><cell>0.13</cell><cell>0.10</cell></row><row><cell cols="2">Female π b</cell><cell>0.37</cell><cell>0.57</cell><cell>0.49</cell><cell>0.37</cell><cell>0.58</cell><cell>0.49</cell></row><row><cell>Male</cell><cell>π a</cell><cell>0.09</cell><cell>0.16</cell><cell>0.14</cell><cell>0.08</cell><cell>0.14</cell><cell>0.12</cell></row><row><cell>Male</cell><cell>π b</cell><cell>0.42</cell><cell>0.59</cell><cell>0.54</cell><cell>0.43</cell><cell>0.60</cell><cell>0.55</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head>Table 9 .</head><label>9</label><figDesc>P-values of Wilcoxon tests for a genetic bottleneck within the Louisiana black bear population ofSt. Mary and Iberia parishes, Louisiana, USA 1992<ref type="bibr" target="#b64">-2000</ref> and 2010-2012. Models were tested under the 2-phase mutation model which assumes that mutation may gain or lose one repeat at a time (the Stepwise Mutation Model; Infinite SMM) but may also create any new allele randomly (the Alleles Model; IAM).<ref type="bibr" target="#b79">Triant (2001)</ref> used 8 markers from samples collected from 1992-2000. Using samples collected from 2010-2012, I replicated the test of<ref type="bibr" target="#b79">Triant (2001)</ref> and used a 23-marker set to test for a bottleneck in the overall population and compare eastern and western subgroups.</figDesc><table><row><cell></cell><cell>Triant et</cell><cell></cell><cell></cell><cell>23-loci</cell><cell>23-loci</cell></row><row><cell>Test</cell><cell cols="3">al. (2001) 8-loci 23-loci</cell><cell>West</cell><cell>East</cell></row><row><cell>Number of loci with heterozygosity &gt; expected</cell><cell>3/8</cell><cell cols="2">4/8 16/23</cell><cell>13/23</cell><cell>17/23</cell></row><row><cell>Wilcoxon test P-value for heterozygosity excess</cell><cell>0.90</cell><cell>0.62</cell><cell>0.05</cell><cell>0.29</cell><cell>0.12</cell></row><row><cell>Number of loci with heterozygosity &lt; expected</cell><cell>5/8</cell><cell>4/8</cell><cell>7/23</cell><cell>10/23</cell><cell>6/23</cell></row><row><cell cols="2">Wilcoxon test P-value for heterozygosity deficiency 0.12</cell><cell>0.42</cell><cell>0.95</cell><cell>0.72</cell><cell>0.98</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head>Table 11 .</head><label>11</label><figDesc>Black bear population densities in the southeastern USA.</figDesc><table><row><cell>Study Area</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>I often hear that it's not what you know, it's who you know. Although this project taught me a lot, it never could have happened without the contributions of many individuals.</p><p><rs type="institution">South Louisiana</rs> is no easy place to navigate. Statistical software proved even more</p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LIST OF TABLES</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LIST OF FIGURES</head><note type="other">Figure Genetic analyses</note><p>showed no exchange between bear populations in the UARB and LARB. The coast appears to be isolated with little or no function from a metapopulation standpoint. Genetic analyses indicate a genetic bottleneck within the eastern portion of the coastal population; currently however, demographic factors are a greater threat than genetic ones.</p><p>Although the coastal population appears to be increasing, little suitable habitat is available for future expansion. Isolated from other populations and confined to a narrow area, the coastal population is vulnerable to decline and extinction from unpredictable or stochastic events such as disease, development, hurricanes, land subsidence, or sea-level rise. Although dispersing males frequently move north from the coast, the UARB and LARB populations are separated by approximately 70 to 100 km and numerous obstacles, including areas that are permanently or seasonally flooded, highways, and development. Natural landcover north of the coastal population primarily consists of swamp and although natural ridges exist, a scarcity of mast producing trees and lack of female bears discourages males from establishing home ranges or reaching the inland populations. Finally, although male dispersal can alleviate genetic threats, exchange of females is necessary for there to be a demographic effect. Suitable habitat corridors or translocation of females between the coastal and inland populations may be necessary to allow rescue or recolonization of the coastal population in the event of a future decline.  <ref type="bibr">St. Mary and</ref><ref type="bibr">Iberia parishes, Louisiana, USA, 2010-2012.</ref> The parameters that define the detection function are the probability of detection if an individual's activity center is at a detector (g 0 ), spatial scale (σ), and shape (z). Competing models included constant (.), sex, year, and additive effects on D, g 0, and σ as well as behavioral effects on g 0, and σ.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LITERATURE CITED</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDICES APPENDIX A: TABLES</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rank</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Replication of the bottleneck test using the 8 markers from Triant (2001) revealed weak evidence of a heterozygosity deficiency in both samples (Table 9). Five of 8 loci in Triant&apos;s (2001) sample from 1999 to 2000 showed heterozygosity deficiency (P-value for deficiency = 0.12) as did 4 of 8 loci in my sample (P-value for deficiency = 0.42). Using all 127 individuals and 23 loci to increase power, 16 loci showed heterozygosity excess (P-value for excess = 0.06). When eastern and western geographic groups from my sample were separately analyzed, 13 of 23 loci in the western group showed evidence of heterozygosity excess (P-value for excess = 0.29) as did 17 of 23 loci in the eastern group (P-value for excess = 0.01)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Allen</surname></persName>
+		</author>
+		<title level="m">Black bear population size and habitat use on the Alligator River National Wildlife Refuge, North Carolina</title>
+		<meeting><address><addrLine>Knoxville, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Tennessee</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Genetic drift and the loss of alleles versus heterozygosity</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Allendorf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zoo Biology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="181" to="190" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Beausoleil</surname></persName>
+		</author>
+		<title level="m">Population and spatial ecology of the Louisiana black bear in a fragmented bottomland hardwood forest</title>
+		<meeting><address><addrLine>Knoxville, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Tennessee</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Survey of human and rat microsatellites</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Beckmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Weber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genomics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="627" to="631" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><surname>Belkhir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Borsa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chikhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Raufaste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bonhomme</surname></persName>
+		</author>
+		<title level="m">GENETIX 4.05, logiciel sous Windows TM pour la génétique des populations. Laboratoire Génome, Populations, Interactions</title>
+		<meeting><address><addrLine>Montpellier (France</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996">1996-2004</date>
+			<biblScope unit="volume">5171</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>CNRS UMR ; Université de Montpellier II</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Boersen</surname></persName>
+		</author>
+		<title level="m">Abundance and density of Louisiana black bears on the Tensas River National Wildlife Refuge</title>
+		<meeting><address><addrLine>Knoxville, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Tennessee</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Estimating black bear population density and genetic diversity at Tensas River, Louisiana using microsatellite DNA markers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Boersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="197" to="207" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Designation of critical habitat for the Louisiana black bear (Ursus americanus luteolus)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boggs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Federal Register</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">88</biblScope>
+			<biblScope unit="page" from="25354" to="25395" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Spatially explicit maximum likelihood methods for capture-recapture studies</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Borchers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="377" to="385" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Sampling design and bias in DNA-based capture-mark-recapture population and density estimates of grizzly bears</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boulanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="457" to="469" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Brandenburg</surname></persName>
+		</author>
+		<title level="m">Effects of roads on behavior and survival of black bears in coastal North Carolina</title>
+		<meeting><address><addrLine>Knoxville, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Tennessee</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Population dynamics of bears-implications</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Bunnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E N</forename><surname>Tait</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Dynamics of large mammal populations</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Fowler</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<date type="published" when="1981">1981</date>
+			<biblScope unit="page" from="75" to="98" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Model selection and multimodel inference: a practical information-theoretic approach</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Springer-Verlag</publisher>
+			<pubPlace>New York, New York, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A demographic comparison of two black bear populations in the interior highlands of Arkansas</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="593" to="603" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Evaluation of 2 soft-release techniques to reintroduce black bears</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eastridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1163" to="1174" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Effects of exploitation on black bear populations at White River National Wildlife Refuge</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eastridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Hooker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="1448" to="1456" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Description and power analysis of two tests for detecting recent population bottlenecks from allele frequency data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Cornuet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="2001" to="2014" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Genetic variation in black bears in Arkansas and Louisiana using microsatellite DNA markers</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Csiki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Key</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coulter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Pace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rhoads</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="691" to="701" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Davis</surname></persName>
+		</author>
+		<title level="m">Washed away? The invisible peoples of Louisiana&apos;s wetlands</title>
+		<meeting><address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Louisiana at Lafayette</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">STRUCTURE HARVESTER: a website and program for visualizing STRUCTURE output and implementing the Evanno method</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Dent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Vonholdt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics Resources</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="359" to="361" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Mutational processes of simple-sequence repeat loci in human populations</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Di Rienzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Garza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Valdes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Slatkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Freimer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="3166" to="3170" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Ecology of Florida black bears in the Okefenokee-Osceola Ecosystem</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dobey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Masters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Scheick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Pelton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Sunquist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Monographs</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Drewry</surname></persName>
+		</author>
+		<title level="m">Population abundance and genetic structure of black bears in coastal South Carolina</title>
+		<meeting><address><addrLine>Knoxville, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Tennessee</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Density estimation in live-trapping studies</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="598" to="610" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Secr -spatially explicit capture-recapture in R</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+		<ptr target="otago.ac.nz/density/pdfs/secr-overview" />
+		<imprint>
+			<date type="published" when="2012-08-20">2012. 20 Aug 2013</date>
+			<publisher>Department of Zoology, University of Otago. &lt;www</publisher>
+			<pubPlace>Dunedin</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A PCR-based gender-determination assay in cattle based on the bovine amelogenin locus</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Genetics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="425" to="427" />
+			<date type="published" when="1994">2013. 1994</date>
+		</imprint>
+	</monogr>
+	<note>SECR: Spatially explicit capture-recapture models. R package. Version</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<ptr target="&lt;http://www.epa.gov/wed/pages/ecoregions/la_eco.htm&gt;" />
+		<title level="m">Level III ecoregions of Louisiana</title>
+		<imprint>
+			<publisher>Environmental Protection Agency [EPA</publisher>
+			<date type="published" when="2011-08-17">2011. 17 Aug 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Detecting the number of clusters of individuals using the software STRUCTURE: a simulation study</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Evanno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Regnaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goudet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="2611" to="2620" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Approximations of the bias in the Jolly-Seber capture-recapture model</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Gilbert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="501" to="526" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Genomic medicine -a primer</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Guttmacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New England Journal of Medicine</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<biblScope unit="page" from="1512" to="1520" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">The mammals of North America</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Hall</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981">1981</date>
+			<publisher>John Wiley and Sons</publisher>
+			<biblScope unit="volume">2</biblScope>
+			<pubPlace>New York, New York, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Demographic analysis of a black bear population in the Great Dismal Swamp</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Hellgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Vaughan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="347" to="353" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hightower</surname></persName>
+		</author>
+		<title level="m">Fine-scaled movements and habitat use of black bears in south central Louisiana</title>
+		<meeting><address><addrLine>Baton Rouge, Louisiana, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+		<respStmt>
+			<orgName>Louisiana State University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Denning ecology of female American black bears in south central Louisiana</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hightower</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Pace</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Iii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="11" to="17" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Hooker</surname></persName>
+		</author>
+		<title level="m">Estimating population parameters of the Louisiana black bear in the Tensas River Basin, Louisiana, using robust design capture-mark-recapture</title>
+		<meeting><address><addrLine>Knoxville, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Tennessee</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Explicit estimates from capture-recapture data with both death and immigration: stochastic model</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Jolly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrika</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="225" to="247" />
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The number of alleles that can be maintained in a finite population</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Crow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="725" to="738" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The role of the wetland reserve program in conservation efforts in the Mississippi River Alluvial Valley</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Twedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="914" to="920" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Effects of sampling conditions on DNA-based estimates of American black bear abundance</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Laufenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Van Manen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1010" to="1020" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Effects of aversive conditioning on behavior of nuisance Louisiana black bears</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Leigh</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<pubPlace>Baton Rouge, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Louisiana State University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Lowe</surname></persName>
+		</author>
+		<title level="m">Estimating population parameters of the Louisiana black bear in the Upper Atchafalaya River Basin</title>
+		<meeting><address><addrLine>Knoxville, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Tennessee</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Martorello</surname></persName>
+		</author>
+		<title level="m">Ecology of black bears in coastal North Carolina</title>
+		<meeting><address><addrLine>Knoxville, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Tennessee</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Genetic drift</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Masel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Current Biology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="837" to="838" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Effectiveness of wildlife underpasses and fencing to reduce wildlife-vehicle collisions</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Mccollister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Van Manen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="1722" to="1731" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Population management of bears in North America</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bears: their biology and management</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="357" to="373" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The one-migrant-per-generation rule in conservation and management</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Allendorf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1489" to="1571" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Estimating animal abundance using noninvasive DNA sampling: promise and pitfalls</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Citta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Lair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Tallmon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="283" to="294" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Estimating population size of grizzly bears using hair capture, DNA profiling, and mark-recapture analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="183" to="193" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Effects of Hurricanes Katrina and Rita on Louisiana black bear habitat</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Murrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="192" to="205" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">National Climatic Data Center</title>
+		<ptr target="&lt;http://www.ncdc.noaa.gov/sotc/national/2011/13" />
+	</analytic>
+	<monogr>
+		<title level="m">State of the Climate: National Overview for Annual</title>
+		<imprint>
+			<publisher>NOAA</publisher>
+			<date type="published" when="2011-06-26">2011. 2011. 26 Jun 2013</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Oceanic and Atmospheric Administration</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Threatened status for Louisiana black bear and related rules</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Neal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Federal Register</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="588" to="595" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Genetic distance between populations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The American Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="283" to="292" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Status of the Louisiana black bear</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Nowak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Office of Endangered Species</title>
+		<meeting><address><addrLine>Washington, D.C., USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>U.S. Fish and Wildlife Service</publisher>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">Black bear habitat relationships in coastal Louisiana</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Nyland</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<pubPlace>Baton Rouge, Louisiana, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Louisiana State University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Utility of National Wetlands Inventory data for black bear habitat assessment in coastal Louisiana</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Nyland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Pace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iii</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings Southeastern Association of Fish and Wildlife Agencies</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="297" to="310" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">A model of mutation appropriate to estimate the number of electrophoretically detectable alleles in a finite population</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ohta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kimura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetical Research</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="201" to="204" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Statistical inference from capture data on closed animal populations</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Otis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Monographs</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Sources and patterns of black bear mortality in Louisiana</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Pace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Shively</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the Annual Conference of the Southeastern Association of Fish and Wildlife Agencies</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="365" to="373" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">An empirical exploration of data quality in DNA-based population inventories</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1375" to="1387" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Microsatellite analysis of genetic variation in black bears</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="347" to="354" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Microsatellite analysis of population structure in Canadian polar bears</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Calvert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Stirling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="347" to="354" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+		</author>
+		<ptr target="&lt;http://www.biology.anu.edu.au/GenAlEx/Tutorials.html&gt;" />
+		<title level="m">GenAlEx Tutorial 1. Introduction to population genetic analysis</title>
+		<imprint>
+			<date type="published" when="2009-06-19">2009. 19 Jun 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">GenAlEx 6.5: genetic analysis in Excel. Population genetic software for teaching and research-an update</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2537" to="2539" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Unified maximum likelihood estimates for closed capture-recapture models using mixtures</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Pledger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="434" to="442" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">A capture-recapture design robust to unequal probability of capture</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Pollock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="752" to="757" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Statistical inference from capture-recapture experiments</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brownie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hines</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Monographs</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Approximating variance of demographic parameters using the delta method: a reference for avian biologists</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Powell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Condor</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="949" to="954" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Inference of population structure using multilocus genotype data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Pritchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stephens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Donnelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="945" to="959" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Population fragmentation and inter-ecosystem movements of grizzly bears in western Canada and the northern United States</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stenhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Mace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Kasworm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Servheen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Lausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Gibeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Wakkinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Haroldson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Apps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Ciarniello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M R</forename><surname>Barclay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Boyce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Monographs</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">R: A language and environment for statistical computing</title>
+		<author>
+			<persName><forename type="first">Team</forename><surname>Core</surname></persName>
+		</author>
+		<ptr target="&lt;http://www.R-project" />
+	</analytic>
+	<monogr>
+		<title level="m">R Foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012-11-15">2012. 15 Nov 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">In the Louisiana canebrakes</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Roosevelt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scribner&apos;s Magazine</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="47" to="60" />
+			<date type="published" when="1908">1908</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Testing heterozygote excess and deficiency</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rousset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raymond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="1413" to="1419" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Enzymatic amplification of β-globin genomic sequences and restriction site analysis for diagnosis of sickle cell anemia</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Saiki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scharf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Faloona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Mullis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Erlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Arnheim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">230</biblScope>
+			<biblScope unit="page" from="1350" to="1354" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">A note on the multiple-recapture census</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A F</forename><surname>Seber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrika</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="249" to="259" />
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A F</forename><surname>Seber</surname></persName>
+		</author>
+		<title level="m">The estimation of animal abundance and related parameters</title>
+		<meeting><address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Macmillan</publisher>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note>Second edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>St</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Amant</surname></persName>
+		</author>
+		<title level="m">Louisiana wildlife inventory and management plan</title>
+		<meeting><address><addrLine>Baton Rouge, Louisiana, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1959">1959</date>
+		</imprint>
+		<respStmt>
+			<orgName>Louisiana Wildlife and Fisheries Commission</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Non-invasive genetic sampling and individual identification</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Journal of the Linnean Society</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="41" to="55" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Triant</surname></persName>
+		</author>
+		<title level="m">Estimating population size and genetic diversity of two populations of black bears in south central Louisiana</title>
+		<meeting><address><addrLine>Baton Rouge, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+		<respStmt>
+			<orgName>Louisiana State University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Abundance, genetic diversity and conservation of Louisiana black bears (Ursus americanus luteolus) as detected through noninvasive sampling</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Triant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Pace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Stine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="647" to="659" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<monogr>
+		<title level="m">Louisiana black bear (Ursus americanus luteolus) recovery plan</title>
+		<meeting><address><addrLine>Atlanta, Georgia, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Southeast Regional Office</publisher>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<monogr>
+		<title level="m">Bayou Teche National Wildlife Refuge comprehensive conservation plan</title>
+		<meeting><address><addrLine>Atlanta, Georgia, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>U.S. Fish and Wildlife Service</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Endangered and threatened wildlife and plants; designation of critical habitat for the Louisiana black bear (Ursus americanus luteolus)</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename><surname>Fish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wildlife</forename><surname>Service</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Federal Register</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">45</biblScope>
+			<biblScope unit="page" from="10350" to="10409" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Multi-resolution land characteristics consortium</title>
+		<ptr target="&lt;http://www.mrlc.gov/" />
+	</analytic>
+	<monogr>
+		<title level="j">National land cover database</title>
+		<imprint>
+			<date type="published" when="2001-08-31">2001. 31 Aug 2011</date>
+			<publisher>U. S. Geological Survey</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<monogr>
+		<ptr target="&lt;http://seamless.usgs.gov/website/seamless/viewer.htm&gt;" />
+		<title level="m">National Elevation Dataset</title>
+		<imprint>
+			<publisher>U.S. Geological Survey</publisher>
+			<date type="published" when="2009-09-06">2009. 6 September 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<monogr>
+		<ptr target="&lt;http://gapanalysis.usgs.gov/" />
+		<title level="m">National gap analysis program</title>
+		<imprint>
+			<publisher>U.S. Geological Survey</publisher>
+			<date type="published" when="2011-05-01">2011. 1 May 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<monogr>
+		<ptr target="http://nwrcwebapps.cr.usgs.gov/beartrak/" />
+		<title level="m">BearTRAK─USGS National Wetlands Research Center</title>
+		<imprint>
+			<publisher>U.S. Geological Survey</publisher>
+			<date type="published" when="2013-05-31">2013. 31 May 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<monogr>
+		<title level="m" type="main">Movement patterns of black bears in south central Louisiana</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Wagner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<pubPlace>Baton Rouge, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Louisiana State University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<monogr>
+		<title level="m" type="main">Developing landscape-scaled habitat selection functions for forest wildlife from Landsat data: judging black bear habitat quality in Louisiana</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Wagner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<pubPlace>Baton Rouge, Louisiana, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Louisiana State University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Dissertation</note>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Measuring levels and patterns of activity in black bears</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hightower</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Pace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iii</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="181" to="188" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Estimating the probability of identity among genotypes in natural populations: cautions and guidelines</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="249" to="256" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Subspecific affinity of black bears in the White River National Wildlife Refuge</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Warrilow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Culver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hallerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vaughan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Heredity</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="226" to="233" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Capture-recapture and removal methods for sampling closed populations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Otis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Los Alamos National Laboratory, LA 8787-NERP</title>
+		<meeting><address><addrLine>Los Alamos, New Mexico, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Program MARK: Survival estimation from populations of marked animals</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bird Study Supplement</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="120" to="138" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Conroy</surname></persName>
+		</author>
+		<title level="m">Analysis and management of animal populations</title>
+		<meeting><address><addrLine>Burlington, Massachusetts, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Genetic tagging of free-ranging black and brown bears</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="616" to="627" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">The genetical structure of populations</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wright</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Eugenics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="323" to="353" />
+			<date type="published" when="1951">1951</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wright</surname></persName>
+		</author>
+		<title level="m">Evolution and the genetics of populations</title>
+		<meeting><address><addrLine>Chicago, Illinois, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="1969">1969</date>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+	<note>The theory of gene frequencies</note>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">mixtures (π), probability of capture (p), and probability of recapture (c). I fit models without a behavioral effect (p = c), with a behavioral effect (p + c), and with a behavioral effect where p and c were estimated independently (p + c int). I also modeled probability of being off the study area given that an individual was (γ&apos;&apos;) or was not (γ&quot;) available</title>
+	</analytic>
+	<monogr>
+		<title level="m">Robust Design model rankings based on AICc to estimate demographic parameters for the Louisiana black bear population of St. Mary and Iberia parishes</title>
+		<meeting><address><addrLine>Louisiana, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010-2012</date>
+		</imprint>
+	</monogr>
+	<note>. I modeled random movement γ&apos; = γ&apos;&apos; = (.) and no movement γ&apos; = 0, γ&apos;&apos; = 1. Parameters were averaged based on model AICc weight</note>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Rank Model AICc ∆ AICc AICc Weight Parameters Deviance 1 { φ (year), γ&apos; (.), γ</title>
+	</analytic>
+	<monogr>
+		<title level="j">π</title>
+		<imprint/>
+	</monogr>
+	<note>sex * year, mix) = c } 1448.35 0.00 0.19 1828.14</note>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">φ (year), γ</title>
+		<idno>1448.77 0.42 0.16 1832.71</idno>
+	</analytic>
+	<monogr>
+		<title level="j">π</title>
+		<imprint/>
+	</monogr>
+	<note>γ</note>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">γ</title>
+		<idno>.15 1834.87</idno>
+	</analytic>
+	<monogr>
+		<title level="j">π</title>
+		<imprint/>
+	</monogr>
+	<note>γ. sex, year, mix) = c } 1448.85 0.50 0</note>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">γ</title>
+		<idno>11 1837.58</idno>
+	</analytic>
+	<monogr>
+		<title level="j">π</title>
+		<imprint/>
+	</monogr>
+	<note>γ. year, mix) = c } 1449.51 1.16 0.</note>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title level="a" type="main">φ (sex), γ</title>
+	</analytic>
+	<monogr>
+		<title level="j">π</title>
+		<imprint/>
+	</monogr>
+	<note>sex, year, mix) = c } 1449.72 1.37 0.10 1833.67</note>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<monogr>
+		<title level="m" type="main">γ&apos; (.), γ&quot; (.), π(.), p (</title>
+		<imprint/>
+	</monogr>
+	<note>year, mix) + c int. (year, mix) } 1450.73</note>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<monogr>
+		<title level="m" type="main">γ&apos; (.), γ&quot; (.), π(.)</title>
+		<imprint/>
+	</monogr>
+	<note>year, mix) + c (year, mix) } 1450.79 2.44 0.06 1836.80</note>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<monogr>
+		<title level="m" type="main">γ&apos; (.), γ&quot; (.), π(.), p (year, mix) +</title>
+		<imprint/>
+	</monogr>
+	<note>c int. (sex, year, mix) } 1451.19 2.85 0.05 1830.99</note>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<monogr>
+		<title level="m" type="main">γ&apos; (0), γ&quot; (1), π(.), p (</title>
+		<imprint/>
+	</monogr>
+	<note>year, mix) + c int. (year, mix) } 1451.80 3.45 0.03 1833.67</note>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<monogr>
+		<title level="m" type="main">γ&apos; (0), γ&quot; (1), π(.), p (</title>
+		<imprint/>
+	</monogr>
+	<note>year, mix) + c int. (sex, year, mix) } 1452.27 3.92 0.03 1832.07</note>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<monogr>
+		<title level="m" type="main">γ&apos; (.), γ&quot; (.), π(.), p (sex, year, mix) +</title>
+		<imprint/>
+	</monogr>
+	<note>c int. (sex, year, mix) } 1452.45 4.10 0.03 1830.16</note>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<monogr>
+		<title level="m" type="main">γ&apos; (.), γ&quot; (.), π(.), p (sex, year, mix) +</title>
+		<imprint/>
+	</monogr>
+	<note>c int. (year, mix) } 1452.59 4.24 0.02 1832.38</note>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<analytic>
+		<title level="a" type="main">γ&apos; (.), γ</title>
+	</analytic>
+	<monogr>
+		<title level="j">π</title>
+		<imprint/>
+	</monogr>
+	<note>year, mix) + c int. (mix) } 1454.14 5.79 0.01 1836.01</note>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title level="a" type="main">γ</title>
+		<idno>1458.85 10.50 0.00 1851.03</idno>
+	</analytic>
+	<monogr>
+		<title level="j">γ</title>
+		<imprint/>
+	</monogr>
+	<note>π</note>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<analytic>
+		<title level="a" type="main">γ</title>
+		<idno>1459.01 10.66 0.00 1849.14</idno>
+	</analytic>
+	<monogr>
+		<title level="j">γ</title>
+		<imprint/>
+	</monogr>
+	<note>π</note>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<analytic>
+		<title level="a" type="main">γ&apos; (.), γ</title>
+		<idno>.99 0.00 1847.42</idno>
+	</analytic>
+	<monogr>
+		<title level="j">π</title>
+		<imprint>
+			<biblScope unit="page" from="34" to="44" />
+			<date type="published" when="1459">1459</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<monogr>
+		<title level="m" type="main">π(.), p (mix) +</title>
+		<idno>.00 1841.89</idno>
+		<imprint/>
+	</monogr>
+	<note>γ&apos; (.), γ. c int. (year, mix) } 1460.02 11.67 0</note>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<analytic>
+		<title level="a" type="main">φ (year), γ</title>
+		<idno>1460.35 12.00 0.00 1850.48</idno>
+	</analytic>
+	<monogr>
+		<title level="j">γ</title>
+		<imprint/>
+	</monogr>
+	<note>π</note>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<analytic>
+		<title level="a" type="main">γ&apos; (.), γ</title>
+	</analytic>
+	<monogr>
+		<title level="j">π</title>
+		<imprint/>
+	</monogr>
+	<note>mix) + c (mix) } 1460.39 12.04 0.00 1850.53</note>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+	<analytic>
+		<title level="a" type="main">γ&apos; (.), γ</title>
+		<idno>13 0.00 1848.55</idno>
+	</analytic>
+	<monogr>
+		<title level="j">π</title>
+		<imprint/>
+	</monogr>
+	<note>sex, mix) + c (sex, mix) } 1460.48 12</note>
+</biblStruct>
+
+<biblStruct xml:id="b120">
+	<analytic>
+		<title level="a" type="main">φ (sex), γ</title>
+		<idno>1460.56 12.21 0.00 1850.69</idno>
+	</analytic>
+	<monogr>
+		<title level="j">π</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b121">
+	<monogr>
+		<title level="m" type="main">γ&apos; (.), γ&quot; (.), π(year), p</title>
+		<imprint/>
+	</monogr>
+	<note>year, mix) + c (year, mix) } 1468.68 20.33 0.00 1848.47</note>
+</biblStruct>
+
+<biblStruct xml:id="b122">
+	<monogr>
+		<title level="m" type="main">φ (year), γ</title>
+		<idno>1572.98 124.63 0.00 1958</idno>
+		<imprint/>
+	</monogr>
+	<note>π(year)</note>
+</biblStruct>
+
+<biblStruct xml:id="b123">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Charles</forename><surname>Vita Jesse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Son</forename><surname>Troxler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bill</forename><surname>Of</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joyce</forename><surname>Troxler</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Knoxville</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981-08-30">August 30, 1981</date>
+		</imprint>
+	</monogr>
+	<note>He graduated from Karns High School in 2000 and completed his B.S. in Wildlife and Fisheries Science at the University of Tennessee in 2005. Between semesters, he worked as a technician on a ruffed grouse study in North Carolina and black-tailed prairie dog and wolverine projects in Montana. He also visited Brazil several times with the UT Christian Student Center. In Joao Pessoa he met his future wife Juliana Notaro. Following graduation, he worked on river otters in Missouri, black bears in Arkansas and Louisiana, brown bears in Wyoming, and pygmy rabbits in Idaho. He and Juliana were married in 2009 and lived 2 years in Washington D.C. They returned to Knoxville where Jesse received an M.S. in Wildlife and Fisheries Science with a minor in Statistics in December, 2013</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

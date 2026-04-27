@@ -1,0 +1,61 @@
+Traitement du fichier : output2\Anileetal2012b.json
+Document(id=14270ed0bcdad434812821f305c3c47c07f713704e80e296332a9aa28b581d97, content: 'A non-invasive monitoring on European wildcat (Felis silvestris silvestris Schreber, 1777) in Sicily...')
+Document(id=6edbdba9a91e471b915e9cfa8ee8534b189902fa48eca890bf5ef3f4d18cdb89, content: 'that allowed to use camera traps; his family for support and E. Centofanti for camera trap assistanc...')
+Document(id=1f628fb66fd23d3b0d1cd06bca57baff27bab16e0ca9b10b583578ca1961ff76, content: 'The study area is located on the south-western side of Mount Etna (north-eastern Sicily), at altitud...')
+Documents est une liste avec 3 éléments.
+Document ID: 14270ed0bcdad434812821f305c3c47c07f713704e80e296332a9aa28b581d97, Embedding: True
+Document ID: 6edbdba9a91e471b915e9cfa8ee8534b189902fa48eca890bf5ef3f4d18cdb89, Embedding: True
+Document ID: 1f628fb66fd23d3b0d1cd06bca57baff27bab16e0ca9b10b583578ca1961ff76, Embedding: True
+3 documents indexés depuis output2\Anileetal2012b.json
+
+--- Méthode avec HyDE ---
+--- Méthode avec HyDE ---
+debut de retrieve with hyde
+Clés disponibles dans hyde_output: ['hyde']
+Structure de hyde: ['hypothetical_embedding']
+
+Documents hypothétiques générés:
+
+--- DOCUMENTS RÉCUPÉRÉS (HYDE) ---
+Contenu: The study area is located on the south-western side of Mount Etna (north-eastern Sicily), at altitudes ranging from 900 to 2000 m a.s.l. (Fig. 1)
+The landscape consists of quite recent large lava flow...
+Contenu: that allowed to use camera traps; his family for support and E. Centofanti for camera trap assistance. We thank two anonymous reviewers and the associated editor Damiano Preatoni for their valuable ad...
+Contenu: A non-invasive monitoring on European wildcat (Felis silvestris silvestris Schreber, 1777) in Sicily using hair trapping and camera trapping: Does scented lure work?...
+--- FIN DES DOCUMENTS RÉCUPÉRÉS (HYDE) ---
+
+
+--- DOCUMENTS RÉCUPÉRÉS (OU CHUNKS) ---
+
+Document/Chunk 1:
+Score: 394.0827905219877
+Contenu: The study area is located on the south-western side of Mount Etna (north-eastern Sicily), at altitud...
+
+Document/Chunk 2:
+Score: 364.2609695276376
+Contenu: that allowed to use camera traps; his family for support and E. Centofanti for camera trap assistanc...
+
+Document/Chunk 3:
+Score: 355.37457193073527
+Contenu: A non-invasive monitoring on European wildcat (Felis silvestris silvestris Schreber, 1777) in Sicily...
+CONTEXTE ----------
+EXTRAIT 1:
+The study area is located on the south-western side of Mount Etna (north-eastern Sicily), at altitudes ranging from 900 to 2000 m a.s.l. (Fig. 1)
+The landscape consists of quite recent large lava flows and volcanic cones of different ages intermixed with wide patches of forest (Pinus laricio, Quercus pubescens and Q. ilex). Human activity is limited to forest management and sheep husbandry. The climate is typically Mediterranean but in winter snow cover can be thick and persistent.
+The placement of camera traps and hair traps was determined on the basis of previous studies (Anile et al., 2009(Anile et al., , 2010(Anile et al., , 2012a)). Eighteen digital camera traps (DFV®7.2 megapixels) with passive infrared motion/heat sensors were used to monitor 18 different stations, 1 km apart from each other, as to cover an area of 1090 ha (Minimum Convex Polygon) (Fig. 1). Each camera was put 40-60 cm above the ground, in an iron box closed with a padlock and tied to a tree with a chain to avoid damage and theft: cameras were set on 10 s delay between successive photos.
+Hair traps consisted of wooden stakes 40 cm long attached to the base of tree trunks. Each wooden stake was carved to snatch and retain hair samples. A cork, submerged for 1 week in valerian tincture, was stuck in a hole in the upper part of the stake (Fig. 2).
+The hair traps were watched by camera traps in order to assess the passage of wildcats and the possible rubbing against the
+
+EXTRAIT 2:
+that allowed to use camera traps; his family for support and E. Centofanti for camera trap assistance. We thank two anonymous reviewers and the associated editor Damiano Preatoni for their valuable advices that improve the first version of the manuscript.
+
+EXTRAIT 3:
+A non-invasive monitoring on European wildcat (Felis silvestris silvestris Schreber, 1777) in Sicily using hair trapping and camera trapping: Does scented lure work?
+
+Réponse avec HyDE:
+    animal:European wildcat
+    famille:Felidae
+    Invert/Vert:Vertébrés
+    pays:Sicile (Italie)
+    source:"A non-invasive monitoring on European wildcat (Felis silvestris silvestris Schreber, 1777) in Sicily using hair trapping and camera trapping: Does scented lure work?"
+Données parsées:
+Parsed Data: [{'animal': 'European wildcat', 'famille': 'Felidae', 'Invert/Vert': 'Vertébrés', 'pays': 'Sicile (Italie)', 'source': 'A non-invasive monitoring on European wildcat (Felis silvestris silvestris Schreber, 1777) in Sicily using hair trapping and camera trapping: Does scented lure work?'}]

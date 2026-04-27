@@ -1,0 +1,1733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Combining camera-trapping and noninvasive genetic data in a spatial capture-recapture framework improves density estimates for the jaguar</title>
+				<funder>
+					<orgName type="full">Spanish Ministry of Science and Innovation</orgName>
+				</funder>
+				<funder ref="#_TMnjkQj">
+					<orgName type="full">Jaguar Conservation Fund</orgName>
+					<orgName type="abbreviated">JCF</orgName>
+				</funder>
+				<funder ref="#_KguKURV">
+					<orgName type="full">Fundación BBVA</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Fundação Museu do Homem Americano</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Rahel</forename><surname>Sollmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Jaguar Conservation Fund/Instituto Onça-Pintada</orgName>
+								<address>
+									<settlement>Mineiros</settlement>
+									<region>Goiás</region>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Forestry and Environmental Resources</orgName>
+								<orgName type="institution">North Carolina State University</orgName>
+								<address>
+									<settlement>Raleigh</settlement>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Natália</forename><forename type="middle">Mundim</forename><surname>Tôrres</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Jaguar Conservation Fund/Instituto Onça-Pintada</orgName>
+								<address>
+									<settlement>Mineiros</settlement>
+									<region>Goiás</region>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Instituto de Biologia</orgName>
+								<orgName type="institution">Universidade Federal de Uberlândia</orgName>
+								<address>
+									<settlement>Uberlândia Minas Gerais</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mariana</forename><forename type="middle">Malzoni</forename><surname>Furtado</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Jaguar Conservation Fund/Instituto Onça-Pintada</orgName>
+								<address>
+									<settlement>Mineiros</settlement>
+									<region>Goiás</region>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Faculdade de Medicina Veterinária e Zootecnia</orgName>
+								<orgName type="institution">Universidade de São Paulo</orgName>
+								<address>
+									<settlement>São Paulo</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anah</forename><surname>Tereza De Almeida Jácomo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Jaguar Conservation Fund/Instituto Onça-Pintada</orgName>
+								<address>
+									<settlement>Mineiros</settlement>
+									<region>Goiás</region>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Francisco</forename><surname>Palomares</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Conservation Biology</orgName>
+								<orgName type="institution">Estación Biológica de Doñana (CSIC)</orgName>
+								<address>
+									<settlement>Sevilla</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Severine</forename><surname>Roques</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Conservation Biology</orgName>
+								<orgName type="institution">Estación Biológica de Doñana (CSIC)</orgName>
+								<address>
+									<settlement>Sevilla</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Leandro</forename><surname>Silveira</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Jaguar Conservation Fund/Instituto Onça-Pintada</orgName>
+								<address>
+									<settlement>Mineiros</settlement>
+									<region>Goiás</region>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Forestry and Environmental Resources</orgName>
+								<orgName type="institution" key="instit1">North Carolina State University</orgName>
+								<orgName type="institution" key="instit2">Turner House</orgName>
+								<address>
+									<addrLine>Campus Box 7646</addrLine>
+									<postCode>27695-7646</postCode>
+									<settlement>Raleigh</settlement>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Combining camera-trapping and noninvasive genetic data in a spatial capture-recapture framework improves density estimates for the jaguar</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C46F9F7225E42DE7B98AFCAE70A9AB43</idno>
+					<idno type="DOI">10.1016/j.biocon.2013.08.003</idno>
+					<note type="submission">Received 10 May 2013 Received in revised form 26 July 2013 Accepted 1 August 2013</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-27T13:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Brazil Caatinga Carnivores Estimator performance Panthera onca Population estimation Scat survey</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Abundance and density are key pieces of information for questions related to ecology and conservation. These quantities, however, are difficult to obtain for rare and elusive species, where even intensive sampling effort can yield sparse data. Here, we combine data from camera-trapping and noninvasive genetic sampling (scat surveys) of a jaguar population in the Caatinga of northeastern Brazil, where the species is threatened and little studied. We analyze data of both survey types separately and jointly in the framework of spatial capture-recapture. Density estimates were 1.45 (±0.46) for the camera-trap data alone, 2.03 (±0.77) for the genetic data alone, and 1.57 (±0.43) and 2.45 (±0.70) for the two methods, respectively, in the joint analysis. Density and other parameters were estimated more precisely in the joint model. Particularly the differences in movement between males and females were estimated much more precisely when combining both data sources, especially compared to the genetic data set alone. When compared to a previous non-spatial capture-recapture approach, present density estimates were more precise, demonstrating the superior statistical performance of spatial over non-spatial capture recapture models. The ability to combine different surveys into a single analysis with shared parameter allows for more precise population estimates, while at the same time enabling researchers to employ complementary survey techniques in the study of little known species.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Knowledge of population abundance and density is of fundamental importance for many questions related to ecology, conservation and management. For most organisms, but especially for rare and cryptic species, we cannot census entire populations but have to rely on estimation techniques that account for our imperfect ability to detect individuals <ref type="bibr" target="#b55">(Williams et al., 2002)</ref>. Capturerecapture models have been a standard tool in estimating wildlife population parameters for decades. More recently, traditional capture-recapture models have been extended to spatial capture-recapture (SCR) models. SCR models combine a detection process describing how animals are detected by an array of traps, conditional on an ecological process describing individual distribution and movement in space <ref type="bibr" target="#b8">(Efford, 2004;</ref><ref type="bibr" target="#b9">Efford et al., 2004;</ref><ref type="bibr" target="#b14">Gardner et al., 2009;</ref><ref type="bibr" target="#b35">Royle and Young, 2008)</ref>. Contrary to traditional capture-recapture, these models fully account for heterogeneity in detection probability resulting from different exposure of individuals to the trap array. Further, they explicitly link abundance to a specific area, so that density estimation is straight forward, whereas traditional capture-recapture relies on ad hoc approaches to determine the area sampled and transform abundance into density estimates.</p><p>Rare and cryptic species, though often of particular conservation concern, are generally challenging to study, and even considerable survey effort may only yield sparse data. Sparse data limit our ability to obtain precise parameter estimates and to include potentially important covariates into an analytical model. Approaches that allow us to combine data from multiple surveys are therefore of prime importance in the study of rare and elusive species. In the context of SCR, combining data from several surveys using the same technique (for example, camera-trapping) either at several sites, or repeatedly over time, has enabled researchers to estimate density of little studied species such as leopard cats <ref type="bibr" target="#b23">(Mohamed et al., 2013)</ref> and Sunda clouded leopards <ref type="bibr" target="#b56">(Wilting et al., 2012)</ref>. Recently, <ref type="bibr" target="#b16">Gopalaswamy et al. (2012)</ref> developed an SCR model that combines data from a camera-trapping and a scat survey of a tiger population and showed that using both data sources led to a more precise estimate of population density.</p><p>Monitoring populations using different techniques allows researchers and managers to draw upon the specific advantages of each approach. For example, camera-traps are indisputably the most efficient tool to monitor populations of individually identifiable large cats such as tigers or jaguars (e.g., <ref type="bibr" target="#b18">Karanth and Nichols, 1998;</ref><ref type="bibr" target="#b54">Wallace et al., 2003)</ref>: camera-traps can be operated over large areas and extended periods of time with comparably little effort and work continuously once they are set up. Surveys can easily be standardized and plenty of ancillary data on the local mammal community is collected without additional effort <ref type="bibr" target="#b42">(Silveira et al., 2003)</ref>. On the other hand, the collection and subsequent genetic analysis of scats can provide insight into feeding ecology, genetic structure and diversity and aspects of health of the population under study <ref type="bibr" target="#b19">(Kohn and Wayne, 1997;</ref><ref type="bibr" target="#b40">Schwartz et al., 2007;</ref><ref type="bibr" target="#b53">Waits and Paetkau, 2005)</ref>. Clearly, both methods complement each other in studying a species' ecology.</p><p>The jaguar remains one of the less studied large felids <ref type="bibr" target="#b5">(Brodie, 2009)</ref>. It is the largest cat of the Americas and with a loss of approximately 40% of its original range in the past century <ref type="bibr" target="#b58">(Zeller, 2007)</ref> it is one of the large mammals with the largest absolute range contraction in the past 500 years <ref type="bibr" target="#b25">(Morrison et al., 2007)</ref>. Although the species' stronghold is the Amazon rainforest <ref type="bibr" target="#b39">(Sanderson et al., 2002)</ref>, it occurs in a variety of habitats, including the semi-arid Caatinga biome of northeastern Brazil. A recent regional evaluation of the jaguar's conservation status in the Caatinga placed it at Critcally Endangered; habitat loss and especially high degrees of habitat fragmentation threaten the species' persistence in this biome <ref type="bibr" target="#b27">(Paula et al., 2012)</ref>.</p><p>The Serra da Capivara National Park (SCNP) holds an important jaguar population for the Caatinga <ref type="bibr" target="#b27">(Paula et al., 2012)</ref>. Using camera-trapping and non-spatial capture-recapture models, <ref type="bibr" target="#b41">Silveira et al. (2009)</ref> estimated jaguar density in SCNP at 2.67 individuals/100 km 2 . In the year following this camera trap effort, a jaguar scat collection survey was carried out at the SCNP. Here, we modify the approach by <ref type="bibr" target="#b16">Gopalaswamy et al. (2012)</ref> to estimate separate population densities of jaguars in the SCNP in two subsequent years, by combining data from both the camera-trapping and the scat collection survey within a single SCR model. Using an improved analytical tool, the density estimates we produce are more reliable than earlier estimates from non-spatial capture-recapture models. Further, we demonstrate how combining data from complementary survey methods can improve inference about population density and other ecological parameters. Since the ability to detect changes in populations depends strongly on the ability to estimate population size precisely, the approach we demonstrate is useful for many monitoring programs of rare and elusive species.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Study site</head><p>The Serra da Capivara National Park (SCNP) is located in the south of the state of Piauí, north-east Brazil (Fig. <ref type="figure" target="#fig_0">1</ref>). It protects 129,140 ha of the Caatinga, a semi-arid biome contained entirely within Brazil. Temperatures can reach as high as 45 °C, the rainy season is from October to April <ref type="bibr" target="#b11">(Emperaire, 1985)</ref>, and mean total annual precipitation is 644 mm <ref type="bibr" target="#b44">(SMAPR, 1994)</ref>. A 6 to 10-m-tall shrubby vegetation predominates the vegetation of the park <ref type="bibr" target="#b11">(Emperaire, 1985)</ref>. Altitude ranges from 280 to 600 m and the topography consists of a main plateau bounded by 50-to 200-m cliffs and dissected by valleys and canyons. There is no natural per-manent water within the Park but a system of artificial waterholes has been constructed over the past 15 years.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Field surveys and data preparation</head><p>From August to October 2007, we set up 20 camera-trap stations along the roads of the southern and central part of SCNP, covering an area of approximately 205 km 2 (Fig. <ref type="figure" target="#fig_0">1</ref>), as described in detail by <ref type="bibr" target="#b41">Silveira et al. (2009)</ref>. Each station consisted of two passive-sensor Camtrakker (CamTrack South Inc., Watkinsville, USA) camera traps, model Original 35 mm, facing each other to capture both flanks of a passing animal. Stations were spaced at approximately 3 km and checked every 15 days over 92 days. From the photographs we constructed individual and trap station specific detection histories, containing the number of times each individual was photographed at each trap. To account for occasional camera trap failure we also recorded the number of days each camera trap station was functional over the total survey period.</p><p>Between November 10 and December 3 2008 we collected scats in SCNP with the help of scat detector dogs <ref type="bibr" target="#b20">(Long et al., 2007;</ref><ref type="bibr" target="#b46">Smith et al., 2001)</ref>, trained to search for scats from jaguar and puma. One dog-handler team walked 180.94 km during 21 transects along the roads of SCNP, covering an area of approximately 506 km 2 . The scat survey area overlapped largely with the camera trap survey area (Fig. <ref type="figure" target="#fig_0">1</ref>). The largest portion of each scat was stored frozen for dietary analysis, and a small portion was stored in 96% ethanol for subsequent genetic analysis. DNA was extracted using protocols based on the GuSCN/silica method <ref type="bibr" target="#b3">(Boom et al., 1990;</ref><ref type="bibr" target="#b17">Höss and Pääbo, 1993;</ref><ref type="bibr" target="#b12">Frantz et al., 2003)</ref>. Posterior species identification was carried out using an optimized PCR-based protocol as described in <ref type="bibr" target="#b32">Roques et al. (2011)</ref>. Sex was identified using the method proposed by <ref type="bibr" target="#b29">Pilgrim et al. (2005)</ref> based on the size difference between the male and female Amelogenin gene, but using newly design primers <ref type="bibr">(Roques et al., accepted for publication)</ref>. For individual genotyping, an optimized set of 11 microsatellite markers <ref type="bibr" target="#b22">(Menotti-Raymond et al.. 1999)</ref> was used as described in <ref type="bibr">Roques et al. (accepted for publication)</ref>.</p><p>To bring the dataset of both methods into a comparable format, we followed the approach by <ref type="bibr" target="#b38">Russell et al. (2012)</ref> for unstructured spatial sampling (as opposed to having a fixed grid of sampling devices as in camera-trapping): We divided the study area into a grid with cell size of 2 Â 2 km and treated the center of each grid cell as a 'trap'. We assigned each scat to the center coordinate of the cell it was found in and then constructed an individual and grid cell specific encounter history containing the number of scats that were found for each individual in each grid cell. We tested other grid cell sizes (1 Â 1 km and 3 Â 3 km) but found no effect of grid resolution on density estimates. To account for varying spatial sampling effort we calculated the distance walked by the dog-handler team in each grid cell.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Model</head><p>To analyze data, we formulated a joint spatial capture-recapture (SCR) model as described in <ref type="bibr" target="#b16">Gopalaswamy et al. (2012)</ref>. SCR models assume that each individual i has an activity center s i , characterized by a pair of coordinates. All s are located within the statespace S, an area encompassing the trapping grid, which has to be chosen large enough so as to include all individuals that could have been exposed to the trapping grid. In our analysis we buffered the most extreme coordinates of the scat locations and the camera trap grid by 30 km to define S.</p><p>In the following, the superscript C denotes data and parameters pertaining to camera trapping, G denotes the scat survey, and B denotes parameters that are shared by both sampling types. We assume that for both methods the observed encounter history for individual i at trap/grid cell j, y ij , are mutually independent outcomes of a Poisson random variable,</p><formula xml:id="formula_0">y ij C $ Poissonðk C ij Þ and y G ij $ Poissonðk G ij Þ;</formula><p>where variation in k ij is modeled as a function of the distance of trap/grid cell j to s i , d ij . Particularly, we use a Gaussian kernel (also referred to as half-normal function) of the form:</p><formula xml:id="formula_1">k C ij ¼ k C 0sex Ã ðÀd C2 ij =2 Ã r B2 sex Þ Ã eff C j k G ij ¼ k G 0sex Ã ðÀd G2 ij =2 Ã r B2 sex Þ Ã eff G j</formula><p>The k 0sex are the respective baseline encounter rates (the expected encounter rate of an individual with a trap or at a grid cell center if that trap/cell center were located precisely at the individual's activity center) and we allowed this parameter to be sex-specific. Since the detection process differs between methods, we assigned each data type a separate baseline encounter rate. Because we cannot associate photographic images of an individual jaguar with its scat samples, and because home ranges and therefore activity centers of individuals can shift over time, we allowed for independent individual activity centers across the two surveys, hence we have two sets of distances, d C ij and d G ij . The parameter r sex (units of the trapping grid, here km) is the scale parameter of the Gaussian kernel and is related to animal home range radius <ref type="bibr" target="#b31">(Reppucci et al., 2011)</ref>. We expect that home ranges differ between the sexes and thus allow males and females to have separate r.</p><p>If we assume that movement remains constant across the two surveys, we can model r as a shared parameter of both detection models for camera trapping and scat sampling, so that it is informed by both types of data. The variable eff j is the sampling effort at site j, for the camera traps the number of days the station was functional, for the scat survey the distance walked by the dog-handler team in cell j.</p><p>We estimate N (the number of activity centers in S) for each survey separately to account for possible changes in population size between the two surveys. To do so, we used a Bayesian analysis by data augmentation of the model <ref type="bibr" target="#b36">(Royle and Dorazio, 2012;</ref><ref type="bibr" target="#b37">Royle et al., 2007)</ref>. In data augmentation, we let M be a number that is larger than the largest possible population size N in S, and n be the number of detected individuals. We assume a prior distribution for N that is discrete-uniform over the interval (0, M) and augment the observed data set with M -n individuals that were never detected and thus have encounter histories that are all zero. For all M potential individuals we introduce an auxiliary variable, z i , which is 1 if the animal is part of the population and 0 if it is not. N is then the sum over all z. M is adequately large when estimates of N are not limited by M. Density D can be derived by dividing N by the area of S. Sex is coded as a binary variable, with 1 for males and 0 for females. Sex for the augmented individuals is treated as missing data and estimated as a Bernoulli random variable with probability p, which represents the proportion of males in the population <ref type="bibr" target="#b13">(Gardner et al., 2010;</ref><ref type="bibr" target="#b48">Sollmann et al., 2011)</ref>. Again, it seems biologically reasonable to assume that the sex ratio of a long lived species does not change significantly over the course of a year, so that we can estimate p from the joint camera trapping and scat survey data set.</p><p>We ran separate models for only the camera-trapping and only the scat data, as well as a joint model for the combined data. We implemented the models in the software WinBUGS <ref type="bibr" target="#b15">(Gilks et al., 1994)</ref> accessed through R 2.13.0 (R Development Core Team, 2011) using the package R2WinBUGS <ref type="bibr" target="#b50">(Sturtz et al., 2005)</ref>. We ran 3 parallel Markov chains with 30,000 iterations each, a burn-in of 10,000 iterations and a thinning rate of 3. For all parameters we report posterior means and standard deviations, as well as 2.5 and 97.5 percentiles, which mark the 95% Bayesian Credible Intervals (BCI). We consider parameters to be significantly different when their 95% BCI do not overlap.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Data</head><p>Camera traps accumulated 1450 trap days, during which we obtained 72 photographs of 13 jaguars (4 females and 6 males; 3 unidentified). Individual photo-frequencies ranged from 1 to 17. Eighty-two potential jaguar scats were collected, and for 57 of them species could be identified (4 and 53 were puma and jaguar scats, respectively). Forty-seven jaguar scats were assigned to 16 individuals (6 females and 10 males), with individual scat frequencies ranging from 1 to 11.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Model results</head><p>Analysis of the camera-trapping data set yielded an estimate of jaguar density of 1.45 (±0.46) individuals/100 km 2 . Baseline encounter rate k C 0 was higher for females (0.09 ± 0.04) than for males (0.05 ± 0.09), but 95% BCI for both parameters overlapped.</p><p>The scale parameter r was significantly larger for males (5.98 ± 1.21) than for females (2.67 ± 0.46).</p><p>Jaguar density estimated from the scat survey was higher, with 2.03 (±0.77) individuals/100 km 2 , but BCI of density estimates for both methods overlapped. Baseline detection rate for the scat survey was significantly higher for males (0.21 ± 0.06) than for females (0.04 ± 0.03), while r was higher for females than for males (6.92 ± 4.47 and 4.52 ± 0.63, respectively), but not significantly so.</p><p>The combined model lead to similar but slightly increased density estimates for both methods (1.57 ± 0.43 and 2.45 ± 0.70 for the camera-trap and scat survey, respectively). k 0 for both years and sexes remained similar to results from the separate analyses. The combined r was significantly smaller for females (2.78 ± 0.44) than for males (5.10 ± 0.55).</p><p>All models indicated a mean sex ratio slightly skewed towards females, but in all models 95% BCI of p overlapped 0.5, suggesting that the sex ratio was not significantly different from 1:1. Posterior summaries of model parameters are listed in Table <ref type="table">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>Combining data and sharing information across surveys can improve inference from sparse data sets such as those generally obtained for elusive species. Traditional non-spatial capturerecapture models only have one fundamental detection parameter, the capture probability, p (which can vary with different covariates). Data from subsequent surveys using the same detection methodology (i.e., only camera-trapping, or only scat surveys) can be combined into a single capture-recapture model and p can be shared across surveys if it can safely be assumed to remain constant. But detection methods as distinct as camera-trapping and scat surveys are very unlikely to share detection probability -the process of finding scats with the help of dogs surely is different from a camera recording an image of a passing jaguar. Contrary to non-spatial capture recapture, the detection model in SCR has two parameters (in fact, it can have more than two, depending on the detection-by-distance model used), one of which, r, is related to animal home range radius. Home range size is an ecological quantity and does not depend on the detection method. Thus, even two methods with different detection processes can share this parameter when an SCR framework is used.</p><p>In the present combined analysis of a camera-trap and a genetic data set, both data sets share the movement parameter r and the sex ratio p. The shared model parameters, but also densities, were estimated with higher precision in the combined model, especially when compared to estimates from the genetic data set only. For example, r for females estimated from the genetic data set alone had a coefficient of variation (CV; SE/mean) of 68%; its CV dropped to 16% in the combined analysis. The parameter r is related to animal movement and larger values of r reflect larger movement ranges over the course of the study. Male jaguars tend to have larger home ranges than females <ref type="bibr" target="#b0">(Astete et al., 2008)</ref> and accounting for the resulting larger movements in SCR models is important <ref type="bibr" target="#b48">(Sollmann et al., 2011;</ref><ref type="bibr">Tobler et al., 2013;</ref><ref type="bibr">Tobler and Powell, 2013)</ref>. The extreme uncertainty about this parameter when estimated from genetic data alone most likely arises from a lack of spatial recaptures of females in this particular data set; thus, it is not a consequence of the survey type but of the resulting data. Combining data from both surveys, however, allowed us to include sex as an individual covariate and estimate movement parameters for both sexes with good precision. The results show that male jaguars in the SCNP have larger movement ranges than females. Further, including sex in the model, we found some evidence that the sex ratio of the population was biased towards females (estimates of the probability of being a male, p, were less than 0.5, though not significantly so; Table <ref type="table">1</ref>). These patterns have been observed before in other parts of the species' distribution (e.g., <ref type="bibr" target="#b48">Sollmann et al., 2011;</ref><ref type="bibr">Tobler et al., 2013)</ref>.</p><p>Baseline camera-trap encounter rates for females were almost double that of males, although due to the high uncertainty in female k C 0 , this difference was not deemed significant (Table <ref type="table">1</ref>). Higher baseline encounter rates from camera-trapping are generally observed for male jaguars (e.g., <ref type="bibr" target="#b48">Sollmann et al., 2011;</ref><ref type="bibr">Tobler et al., 2013)</ref>, possibly because males exhibit higher movement rates. It is unclear what may have caused higher female baseline encounter rates in the present study. Contrary, for the scat survey the baseline encounter rate of males was considerably higher than that of females (95BCI for k S 0 of males did not include the estimate for females, and vice versa). Male jaguars are thought to demarcate their territories and are thus probably more prone to leave their scats in more conspicuous sites such as roads and trails. Although to our knowledge, there are no studies on the differential scat deposition behavior in male and female jaguars, <ref type="bibr" target="#b26">Palomares et al. (2012)</ref> observed high proportions of male feces in several samples from jaguar populations and attributed it to a lower detectability of scats from females. <ref type="bibr" target="#b16">Gopalaswamy et al. (2012)</ref> combined camera-trapping and scat survey data to obtain a single tiger density estimate from both data sets. As in that case both surveys were carried out in close temporal proximity, the population could be assumed to be demographically closed over the course of both surveys. Contrary, in the present case, the two surveys were carried out in subsequent years. As a consequence, we let density vary between surveys. This reflects a simplistic form of an open population model, one that only considers changes in density without estimating underlying demographic parameters such as survival or recruitment. Although the density estimate for 2008 was higher than for 2007, the BCI for both estimates overlapped considerably, indicating that there was no significant change in population density between the two years. Since both surveys covered essentially the same area within SCNP (Fig. <ref type="figure" target="#fig_0">1</ref>) and the jaguar is a long-lived and slowly reproducing species, this outcome was not surprising. Still, our approach highlights the possibility of monitoring a population using alternating methodologies. <ref type="bibr" target="#b41">Silveira et al. (2009)</ref> analyzed the same photographic data set with non-spatial capture-recapture models. Comparing the present density estimate for 2007 of 1.57 (±0.43) individuals/100 km 2</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 1</head><p>Posterior summaries of SCR model parameters for camera trapping data, scat data and combined data; we present the posterior mean, the standard deviation (SD) and the 2.5%, 50% and 97.5% intervals for the baseline encounter rate (k 0 ), the half normal scale parameter (r), the probability of being a male (p) and density (D). to the non-spatial estimate by <ref type="bibr" target="#b41">Silveira et al. (2009)</ref>, we see that the spatial model returns a density estimate similar to the non-spatial model with the full mean maximum distance moved (MMDM; 1.28 ± 0.62 individuals per 100 km 2 ). This confirms findings of other studies that report the full MMDM to be a better representation of jaguar movement that the half MMDM (e.g., <ref type="bibr" target="#b47">Soisalo and Cavalcanti, 2006;</ref><ref type="bibr">Tobler and Powell, 2013)</ref>. Jaguar density in the SCNP compares with estimates from other parts of the species distribution, which range from under 1 individuals per 100 km 2 in areas of central Brazil and the Atlantic Forest <ref type="bibr" target="#b28">(Paviolo et al., 2008;</ref><ref type="bibr" target="#b48">Sollmann et al., 2011)</ref> to 7-8 individuals per 100 km 2 in the Brazilian Pantanal <ref type="bibr" target="#b47">(Soisalo and Cavalcanti, 2006)</ref> and the Belizean rainforest <ref type="bibr" target="#b43">(Silver et al., 2004)</ref>. Considering that the semi-arid Caatinga represents somewhat marginal habitat for the jaguar, density estimates in the SCNP are surprisingly high. This may be a result of the presence of permanent artificial waterholes in the Park, in combination with strong and effective poaching controls that have been implemented since 2000 <ref type="bibr" target="#b41">(Silveira et al., 2009)</ref>. These management measures likely helped prey populations to recover from previously low numbers <ref type="bibr" target="#b57">(Wolff, 2001)</ref>, thereby also benefitting the local jaguar population. As such, SCNP appears to be an important regional refuge for the Critically Endangered Caatinga jaguar.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mean</head><p>Although in the present case density estimates were similar across modeling approaches, a major disadvantage of non-spatial capture-recapture models, especially when used for wide-ranging species, is the need to use ad hoc approaches like the MMDM to estimate the area surveyed. These estimates depend heavily on trap spacing and the size of the trap array relative to animal home range size, and ideally, the trap array should cover at least four times the average home range (e.g., <ref type="bibr" target="#b2">Bondrup-Nielsen, 1983;</ref><ref type="bibr" target="#b7">Dillon and Kelly, 2007;</ref><ref type="bibr" target="#b21">Maffei and Noss, 2008)</ref>. SCR models are much more robust to these issues of spatial study design <ref type="bibr" target="#b49">(Sollmann et al., 2012)</ref>. Our analysis showed that SCR models produced more precise density estimates, for the combined data set, but also when applied to the camera-trap data set alone: the CV for the non-spatial estimate was 37% <ref type="bibr" target="#b41">(Silveira et al., 2009)</ref>, whereas for the spatial cameras-only estimate is was 32%, and 27% for the combined analysis. Precision in estimating density is important when monitoring populations, as it determines our ability to detect changes in the population of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Conclusions</head><p>Camera-traps are a standard tool in monitoring populations of individually marked species such as jaguars. With the advent of spatially explicit capture-recapture <ref type="bibr" target="#b4">(Borchers, 2012;</ref><ref type="bibr" target="#b8">Efford, 2004;</ref><ref type="bibr" target="#b35">Royle and Young, 2008)</ref> more appropriate models exist for the analysis of resulting individual detection data. We showed that the SCR framework we adopt here results in more precise estimates of density than previously published non-spatial estimates <ref type="bibr" target="#b41">(Silveira et al., 2009)</ref> for the same data set. Better statistical performance of SCR over traditional capture-recapture models has been shown before in a simulation study <ref type="bibr" target="#b1">(Blanc et al., 2013)</ref>. Moreover, the spatial framework allows combining and sharing parameters between different data types, which further improved population estimates. But advantages of combining different survey types in the monitoring of populations go beyond better estimates of density. Scat surveys also provide us with information that cameratraps cannot collect. Specifically, dietary analysis of scats showed that the six-banded armadillo Euphractus sexcinctus and the collared anteater Tamandua tetradactyla comprised approximately 80% of the jaguar's diet in SCNP (JCF, unpublished data). Genetic analyses revealed the signature of a recent population bottleneck, coupled with signs of reduced gene flow between SCNP and the other regions <ref type="bibr">(Roques et al., in preparation)</ref>. All these pieces of information are extremely important for our understanding of jaguar ecology in the Caatinga, an extreme and supposedly untypical habitat for a species that is usually associated with rivers or wetland habitat (e.g., <ref type="bibr" target="#b6">Crawshaw and Quigley, 1991;</ref><ref type="bibr" target="#b10">Emmons, 1987;</ref><ref type="bibr" target="#b24">Mondolfi and Hoogesteijn, 1986)</ref>, and where the species remains extremely little studied.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Camera-traps (grey circles) operated in 2007 and scat surveys (dashed lines) walked in 2008 to study the jaguar population of the Serra da Capivara National Park (cross) in the Caatinga (grey), northeastern Brazil (inset map); triangles mark the locations of jaguar scats collected in 2008.</figDesc><graphic coords="2,323.72,67.92,226.80,284.26" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>R.Sollmann et al. / Biological Conservation 167 (2013) 242-247  </p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We appreciate the support provided by the <rs type="funder">Fundação Museu do Homem Americano</rs> and the park administration of the <rs type="institution">Instituto Chico Mendes de Conservação da Biodiversidade</rs>, which made this study possible. The study was funded by the <rs type="funder">Jaguar Conservation Fund (JCF), The Memphis Zoo</rs>, and the projects <rs type="grantNumber">BIOCON 05-100/ 06</rs> of <rs type="funder">Fundación BBVA</rs> and <rs type="grantNumber">CGL2010-16902</rs> of the <rs type="funder">Spanish Ministry of Science and Innovation</rs>. We thank all field assistants for help with camera trapping and scat collection and analysis, especially <rs type="person">Samuel Astete</rs>, <rs type="person">Raphael Lucas de Almeida</rs>, <rs type="person">Grasiela Porfírio</rs> and <rs type="person">Tiago Boscarato</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_TMnjkQj">
+					<idno type="grant-number">BIOCON 05-100/ 06</idno>
+				</org>
+				<org type="funding" xml:id="_KguKURV">
+					<idno type="grant-number">CGL2010-16902</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Comparative ecology of jaguars in Brazil</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Astete</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Silveira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CAT News Special Issue</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="9" to="14" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Abundance of rare and elusive species: Empirical investigation of closed versus spatially explicit capturerecapture models with lynx as a case study</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Blanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Marboutin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gimenez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="372" to="378" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Density estimation as a function of live-trapping grid and home range size</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bondrup-Nielsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can. J. Zool</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="2361" to="2365" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Rapid and simple method for purification of nucleic acids</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Boom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Sol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Salimans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Jansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Wertheim-Van Dillen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Der Noordaa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="495" to="503" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A non-technical overview of spatially explicit capture-recapture models</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Borchers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Ornithol</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="435" to="444" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Is research effort allocated efficiently for conservation? Felidae as a global case study</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Brodie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biodivers. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="2927" to="2939" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Jaguar spacing, activity and habitat use in a seasonally flooded environment in Brazil</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Crawshaw</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Quigley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Zool</title>
+		<imprint>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="page" from="357" to="370" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Ocelot Leopardus pardalis in Belize: the impact of trap spacing and distance moved on density estimates</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oryx</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="469" to="477" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Density estimation in live-trapping studies</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Efford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="598" to="610" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">DENSITY: software for analysing capture-recapture data from passive detector arrays</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Robbins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim. Biodivers. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="217" to="228" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Comparative feeding ecology of felids in a neotropical rainforest</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Emmons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behav. Ecol. Sociobiol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="271" to="283" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A região da Serra da Capivara (Sudeste do Piauí) e sua vegetação</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Emperaire</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bras. Florestal</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="5" to="21" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Reliable microsatellite genotyping of the Eurasian badger (Meles meles) using faecal DNA</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Frantz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Roper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Delahay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Burke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1649" to="1661" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Estimating black bear density using DNA data from hair snares</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Wegan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Rainbolt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Curtis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="318" to="325" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Hierarchical models for estimating density from DNA mark-recapture studies</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Wegan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="1106" to="1115" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A language and program for complex bayesian modelling</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Gilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Spiegelhalter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. R. Stat. Soc. Ser. D (Stat.)</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="169" to="177" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Density estimation in tiger populations: combining information for strong inference</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Gopalaswamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delampady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">U</forename><surname>Karanth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Macdonald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="1741" to="1751" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">DNA extraction from Pleistocene bones by a silica-based purification method</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Höss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pääbo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="3913" to="3914" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Estimation of tiger densities in India using photographic captures and recaptures</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Karanth</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ullas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="2852" to="2862" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Facts from feces revisited</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="223" to="227" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Comparing scat detection dogs, cameras, and hair snares for surveying carnivores</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Donovan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mackay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Buzas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="2018" to="2025" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">How small is too small? Camera trap survey areas and density estimates for ocelots in the Bolivian Chaco</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Maffei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Noss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotropica</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="71" to="75" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A genetic linkage map of microsatellites in the Domestic Cat (Felis catus)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Menotti-Raymond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lyons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Schäffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Tomlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Hutton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>O'brien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genomics</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="9" to="23" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Density and habitat use of the leopard cat (Prionailurus bengalensis) in three commercial forest reserves in Sabah, Malaysian Borneo</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mohamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Ambu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mannan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilting</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mammal</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="82" to="89" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Notes on the biology and status of the jaguar in Venezuela</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mondolfi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hoogesteijn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Cats of the World</title>
+		<imprint>
+			<date type="published" when="1986">1986</date>
+			<biblScope unit="page" from="85" to="123" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Persistence of large mammal faunas as indicators of global human impacts</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sechrest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dinerstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Wilcove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Lamoreux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mammal</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="1363" to="1380" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">High proportion of male faeces in jaguar populations</title>
+		<author>
+			<persName><forename type="first">Francisco</forename><surname>Palomares</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Roques</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Séverine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chávez</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Leandro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claudia</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rahel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Prado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Torres</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Adrados</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Begoña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Godoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T A</forename><surname>Jácomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Natália</forename><surname>Tôrres</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mundim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mariana</forename><surname>Furtado</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Malzoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>López-Bao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">52923</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Red List assessment for the jaguar in the Caatinga biome</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Paula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Campos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Oliveira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cat News Special Issue</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="19" to="24" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Jaguar Panthera onca population decline in the upper Paraná Atlantic forest of Argentina and Brazil</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paviolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>De Angelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">E</forename><surname>Di Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Di Bitetti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oryx</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="554" to="561" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Felid sex identification based on noninvasive genetic samples</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Riddle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Notes</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="60" to="61" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">R: A Language and Environment for Statistical Computing</title>
+		<author>
+			<orgName type="collaboration">R Development Core Team</orgName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">R Foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Estimating detection and density of the Andean cat in the high Andes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Reppucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Beth</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lucherini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mammal</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="140" to="147" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Identification of neotropical felid faeces using RCP-PCR</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Adrados</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chavez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Magnusson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Palomares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Godoy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="171" to="175" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Monitoring jaguar populations (Panthera onca) with non-invasive genetics: a pilot study in Brazilian ecosystems</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Furtado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T A</forename><surname>Jácomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Tôrres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Godoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Palomares</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oryx</title>
+		<imprint/>
+	</monogr>
+	<note>accepted for publication</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Effects of habitat deterioration on the genetics of wide-ranging carnivores: the case of the jaguar in the Neotropics</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T A</forename><surname>Jácomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Tôrres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chavez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mello Do Prado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Torres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jorge Dos Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernardes</forename><surname>Garcia Da Luz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Magnusson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Godoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Ceballos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Palomares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>In preparation</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A hierarchical model for spatial capture-recapture data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="2281" to="2289" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Parameter-expanded data augmentation for Bayesian analysis of capture-recapture models</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Andrew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">M</forename><surname>Dorazio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Ornithol</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="521" to="537" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Analysis of multinomial models with unknown index using data augmentation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Dorazio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Link</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Graph. Stat</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="67" to="85" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Estimating abundance of mountain lions from unstructured spatial sampling</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Desimone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1551" to="1561" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Planning to save a species: the jaguar as a model</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Sanderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Redford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Chetkiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Medellin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Rabinowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Taber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Biol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="58" to="72" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Genetic monitoring as a promising tool for conservation and management</title>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="25" to="33" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Density of the near threatened jaguar Panthera onca in the caatinga of north-eastern Brazil</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T A</forename><surname>Jácomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Astete</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Tôrres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Furtado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marinho-Filho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oryx</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="104" to="109" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Camera trap, line transect census and track surveys: a comparative evaluation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T A</forename><surname>Jácomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Diniz-Filho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="351" to="355" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The use of camera traps for estimating jaguar Panthera onca abundance and density using capture/recapture analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Ostro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Maffei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Noss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gómez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ayala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oryx</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="148" to="154" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Smapr</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m">Plano de Manejo Parque Nacional Serra da Capivara</title>
+		<meeting><address><addrLine>Brasília, Brazil</addrLine></address></meeting>
+		<imprint>
+			<publisher>Secretaria do Meio Ambiente da Presidência da República</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Canine assistants for conservationists</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ralls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Davenport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Maldonado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">291</biblScope>
+			<biblScope unit="page">435</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Estimating the density of a jaguar population in the Brazilian pantanal using camera-traps and capture-recapture sampling in combination with GPS radio-telemetry</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Soisalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cavalcanti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="487" to="496" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Improving density estimates for elusive carnivores: accounting for sex-specific detection and movements using spatial capturerecapture models for jaguars in central Brazil</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Furtado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T A</forename><surname>Jácomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Tôrres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Silveira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="1017" to="1024" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">How does spatial study design influence density estimates from spatial capture-recapture models</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Belant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">34575</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">R2WinBUGS: a package for running WinBUGS from R</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sturtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Ligges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Stat. Softw</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">High jaguar densities and large population sizes in the core habitat of the southwestern Amazon</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Tobler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Carrillo-Percastegui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zúñiga Hartley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">V N</forename><surname>Powell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="page" from="375" to="381" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Estimating jaguar densities with camera traps: problems with current designs and recommendations for future studies</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Tobler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">V N</forename><surname>Powell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="page" from="109" to="118" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling tools for wildlife biologists: a review of applications and recommendations for accurate data collection</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Camera trapping for jaguar (Panthera onca) in the Tuichi Valley, Bolivia</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gomez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ayala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Espinoza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mastozoología Neotrop</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="133" to="139" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Analysis and Management of Animal Populations: Modeling, Estimation, and Decision Making</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Conroy</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Academic Press</publisher>
+			<pubPlace>San Diego, USA and London, UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Density of the Vulnerable Sunda clouded leopard Neofelis diardi in two commercial forest reserves in Sabah</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mohamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Ambu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mannan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Malaysian Borneo</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="423" to="426" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>Oryx</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wolff</surname></persName>
+		</author>
+		<title level="m">Vertebrate Ecology in Caatinga: A. Distribution of Wildlife in Relation to Water. B. Diet of Pumas (P. concolor) and Relative Abundance of Felids</title>
+		<meeting><address><addrLine>St. Louis, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Univerist of Missouri</publisher>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Master&apos;s Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zeller</surname></persName>
+		</author>
+		<title level="m">Jaguars in the New Millennium Data Set Update: The State of the Jaguar in 2006</title>
+		<meeting><address><addrLine>Bronx, New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wildlife Conservation Society</publisher>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

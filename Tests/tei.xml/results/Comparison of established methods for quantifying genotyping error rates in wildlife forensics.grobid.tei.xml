@@ -1,0 +1,1899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Evaluating genetic traceability methods for captive-bred marine fish and their applications in fisheries management and wildlife forensics</title>
+				<funder ref="#_nhDtwtq">
+					<orgName type="full">Research Foundation-Flanders (FWO-Vlaanderen)</orgName>
+				</funder>
+				<funder ref="#_GxJD6dA">
+					<orgName type="full">European Commission Joint Research Centre</orgName>
+					<orgName type="abbreviated">JRC</orgName>
+				</funder>
+				<funder ref="#_JznyKYA">
+					<orgName type="full">EU FP7 project FishPopTrace</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>February 25</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Jonas</forename><surname>Bylemans</surname></persName>
+							<email>jonas.bylemans@canberra.edu.au</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Biodiversity and Evolutionary Genomics</orgName>
+								<orgName type="institution">University of Leuven</orgName>
+								<address>
+									<addrLine>Ch. Deberiotstraat 32</addrLine>
+									<postCode>3000</postCode>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute for Applied Ecology</orgName>
+								<orgName type="institution">University of Canberra</orgName>
+								<address>
+									<postCode>2612</postCode>
+									<settlement>Canberra</settlement>
+									<region>ACT</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gregory</forename><forename type="middle">E</forename><surname>Maes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Biodiversity and Evolutionary Genomics</orgName>
+								<orgName type="institution">University of Leuven</orgName>
+								<address>
+									<addrLine>Ch. Deberiotstraat 32</addrLine>
+									<postCode>3000</postCode>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Centre for Sustainable Tropical Fisheries and Aquaculture</orgName>
+								<orgName type="department" key="dep2">Comparative Genomics Centre</orgName>
+								<orgName type="department" key="dep3">College of Marine and Environmental Sciences</orgName>
+								<orgName type="department" key="dep4">Faculty of Science and Engineering</orgName>
+								<orgName type="institution">James Cook University</orgName>
+								<address>
+									<postCode>4811 QLD</postCode>
+									<settlement>Townsville</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eveline</forename><surname>Diopere</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Biodiversity and Evolutionary Genomics</orgName>
+								<orgName type="institution">University of Leuven</orgName>
+								<address>
+									<addrLine>Ch. Deberiotstraat 32</addrLine>
+									<postCode>3000</postCode>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alessia</forename><surname>Cariani</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Biological, Geological and Environmental Sciences</orgName>
+								<orgName type="institution">University of Bologna</orgName>
+								<address>
+									<postCode>48123</postCode>
+									<settlement>Ravenna</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff12">
+								<orgName type="department">Institute for the Protection and Security of the Citizen (IPSC)</orgName>
+								<orgName type="institution" key="instit1">-Maritime Affairs</orgName>
+								<orgName type="institution" key="instit2">Joint Research Centre (JRC)</orgName>
+								<orgName type="institution" key="instit3">European Commission</orgName>
+								<address>
+									<addrLine>Via Enrico Fermi 2749</addrLine>
+									<postCode>21027</postCode>
+									<settlement>Ispra</settlement>
+									<region>VA</region>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Helen</forename><surname>Senn</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="laboratory">WildGenes Laboratory</orgName>
+								<orgName type="institution">Royal Zoological Society of Scotland</orgName>
+								<address>
+									<postCode>EH12 6TS</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><forename type="middle">I</forename><surname>Taylor</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">School of Biological Sciences</orgName>
+								<orgName type="institution">University of East Anglia</orgName>
+								<address>
+									<postCode>NR4 7TJ</postCode>
+									<settlement>Norwich</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sarah</forename><surname>Helyar</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Institute for Global Food Security</orgName>
+								<orgName type="institution">Queen&apos;s University Belfast</orgName>
+								<address>
+									<postCode>BT9 5BN</postCode>
+									<settlement>Belfast</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luca</forename><surname>Bargelloni</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Department of Public Health</orgName>
+								<orgName type="department" key="dep2">Comparative Pathology, and Veterinary Hygiene</orgName>
+								<orgName type="institution">University of Padova</orgName>
+								<address>
+									<addrLine>Viale dell&apos;Università 16</addrLine>
+									<postCode>35020</postCode>
+									<settlement>Legnaro</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alessio</forename><surname>Bonaldo</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Veterinary Medical Sciences DIMEVET</orgName>
+								<orgName type="institution">University of Bologna</orgName>
+								<address>
+									<postCode>40064</postCode>
+									<settlement>Bologna</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gary</forename><surname>Carvalho</surname></persName>
+							<affiliation key="aff9">
+								<orgName type="department">School of Biological Sciences</orgName>
+								<orgName type="laboratory">Molecular Ecology and Fisheries Genetics Laboratory</orgName>
+								<orgName type="institution" key="instit1">Environment Centre Wales</orgName>
+								<orgName type="institution" key="instit2">Bangor University</orgName>
+								<address>
+									<postCode>LL57 2UW</postCode>
+									<settlement>Bangor</settlement>
+									<region>Gwynedd</region>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ilaria</forename><surname>Guarniero</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Veterinary Medical Sciences DIMEVET</orgName>
+								<orgName type="institution">University of Bologna</orgName>
+								<address>
+									<postCode>40064</postCode>
+									<settlement>Bologna</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hans</forename><surname>Komen</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department">Animal Breeding and Genomics Centre</orgName>
+								<orgName type="institution">Wageningen University</orgName>
+								<address>
+									<postBox>PO Box 338</postBox>
+									<postCode>6700AH</postCode>
+									<settlement>Wageningen</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jann</forename><forename type="middle">Th</forename><surname>Martinsohn</surname></persName>
+							<affiliation key="aff11">
+								<orgName type="institution">JRC.G</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Einar</forename><forename type="middle">E</forename><surname>Nielsen</surname></persName>
+							<affiliation key="aff13">
+								<orgName type="laboratory">Section for Marine Living Resources</orgName>
+								<orgName type="institution" key="instit1">National Institute of Aquatic Resources</orgName>
+								<orgName type="institution" key="instit2">Technical University of Denmark</orgName>
+								<address>
+									<addrLine>Vejlsøvej 39</addrLine>
+									<postCode>8600</postCode>
+									<settlement>Silkeborg</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fausto</forename><surname>Tinti</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Biological, Geological and Environmental Sciences</orgName>
+								<orgName type="institution">University of Bologna</orgName>
+								<address>
+									<postCode>48123</postCode>
+									<settlement>Ravenna</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff12">
+								<orgName type="department">Institute for the Protection and Security of the Citizen (IPSC)</orgName>
+								<orgName type="institution" key="instit1">-Maritime Affairs</orgName>
+								<orgName type="institution" key="instit2">Joint Research Centre (JRC)</orgName>
+								<orgName type="institution" key="instit3">European Commission</orgName>
+								<address>
+									<addrLine>Via Enrico Fermi 2749</addrLine>
+									<postCode>21027</postCode>
+									<settlement>Ispra</settlement>
+									<region>VA</region>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Filip</forename><forename type="middle">A M</forename><surname>Volckaert</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Biodiversity and Evolutionary Genomics</orgName>
+								<orgName type="institution">University of Leuven</orgName>
+								<address>
+									<addrLine>Ch. Deberiotstraat 32</addrLine>
+									<postCode>3000</postCode>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rob</forename><surname>Ogden</surname></persName>
+							<affiliation key="aff14">
+								<orgName type="department">TRACE Wildlife Forensics Network</orgName>
+								<orgName type="institution">Royal Zoological Society of Scotland</orgName>
+								<address>
+									<postCode>EH12 6TS</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Evaluating genetic traceability methods for captive-bred marine fish and their applications in fisheries management and wildlife forensics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">February 25</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4766403458F87E7F8F5EBF4C86BB75F4</idno>
+					<idno type="DOI">10.3354/aei00164</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-15T15:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Aquaculture</term>
+					<term>Conservation genetics</term>
+					<term>Escapees</term>
+					<term>Fisheries management</term>
+					<term>Wildlife forensics</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Growing demands for marine fish products is leading to increased pressure on already depleted wild populations and a rise in aquaculture production. Consequently, more captive-bred fish are released into the wild through accidental escape or deliberate releases. The increased mixing of captive-bred and wild fish may affect the ecological and/or genetic integrity of wild fish populations. Unambiguous identification tools for captive-bred fish will be highly valuable to manage risks (fisheries management) and tracing of escapees and seafood products (wildlife forensics). Using single nucleotide polymorphism (SNP) data from captive-bred and wild populations of Atlantic cod Gadus morhua L. and sole Solea solea L., we explored the efficiency of population and parentage assignment techniques for the identification and tracing of captive-bred fish. Simulated and empirical data were used to correct for stochastic genetic effects. Overall, parentage assignment performed well when a large effective population size characterized the broodstock and escapees originated from early generations of captive breeding. Consequently, parentage assignments are particularly useful from a fisheries management perspective to monitor the effects of deliberate releases of captive-bred fish on wild populations. Population assignment proved to be more efficient after several generations of captive breeding, which makes it a useful method in forensic applications for well-established aquaculture species. We suggest the implementation of a case-by-case strategy when choosing the best method.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Aquaculture is one of the fastest growing food-producing sectors and will remain so in the foreseeable future due to a growing human demand for animal protein and lipids (Braithwaite &amp; Salvanes 2010) and the limits that have been reached for wild-capture fisheries production <ref type="bibr">(FAO Fisheries and Aquaculture Department 2014)</ref>. This has led to various challenges related to the aquaculture industry, including organic, chemical and pharmaceutical pollution <ref type="bibr" target="#b48">(Seymour &amp; Bergheim 1991)</ref>, infectious diseases <ref type="bibr" target="#b32">(Murray &amp; Peeler 2005)</ref>, feed supply <ref type="bibr" target="#b34">(Naylor et al. 2000</ref><ref type="bibr">, 2009</ref><ref type="bibr" target="#b33">, Natale et al. 2013</ref>) and escapees <ref type="bibr" target="#b20">(Kitada et al. 2009</ref><ref type="bibr" target="#b1">, Glover 2010</ref><ref type="bibr">, Glover et al. 2011</ref><ref type="bibr" target="#b39">, Noble et al. 2014)</ref>.</p><p>Accidental escapees <ref type="bibr">(Bekkevold et al. 2006</ref><ref type="bibr" target="#b3">, Glover et al. 2013</ref><ref type="bibr" target="#b39">, Noble et al. 2014)</ref> or deliberate releases <ref type="bibr">(Bell et al. 2008</ref><ref type="bibr" target="#b20">, Kitada et al. 2009</ref>) of captive-bred marine fish may impact the environment, and the ecological and genetic integrity of wild fish populations <ref type="bibr">(Braithwaite &amp; Salvanes 2010</ref><ref type="bibr" target="#b22">, Laikre et al. 2010)</ref>. First, a decrease in genetic diversity, and consequently a lower evolutionary potential, has been observed in wild marine fish populations which have been invaded by captive-bred conspecifics <ref type="bibr" target="#b8">(Hindar et al. 1991</ref><ref type="bibr" target="#b57">, Weir &amp; Grant 2005</ref><ref type="bibr" target="#b3">, Glover et al. 2013)</ref>. Given that recent studies have indicated surprisingly fine-scale local genetic adaptation in marine fish <ref type="bibr">(André et al. 2011</ref><ref type="bibr" target="#b38">, Nielsen et al. 2012</ref><ref type="bibr" target="#b53">, Vandamme et al. 2014)</ref>, the introgression of captive-bred fish can be detrimental to the long-term survival of wild fish populations. Second, introgression might disrupt adaptive gene complexes, which reduces the fitness of hybrids and in turn may compromise the persistence of locally adapted populations <ref type="bibr" target="#b30">(McGinnity et al. 2003</ref><ref type="bibr">, Danancher &amp; Garcia-Vazquez 2011</ref><ref type="bibr" target="#b24">, Lamaze et al. 2013)</ref>. Managing and mitigating risks and assessing the impacts of released/escaped captive-bred fish on local wild populations are thus of utmost importance to ensure the long-term sustainability of aquaculture and fisheries industries. Third, aquaculture companies might have legal obligations to report escapees and failure to comply with these regulations might result in fines <ref type="bibr" target="#b1">(Glover 2010</ref>). As such, the ability to trace back escapees to the farm of origin constitutes a highly valuable asset in delivering evidence for legal action <ref type="bibr">(Glover et al. 2008</ref><ref type="bibr" target="#b1">, Glover 2010)</ref>. Finally, an increase in international trade and consumer awareness in recent decades has highlighted the need for accurate labelling of seafood products. Mislabelling to increase profits has been extensively documented in the seafood industry <ref type="bibr" target="#b12">(Jacquet &amp; Pauly 2008</ref><ref type="bibr" target="#b5">, Hanner et al. 2011</ref><ref type="bibr" target="#b28">, Mariani et al. 2014)</ref>. Given that market prices of wild-caught marine fish species are generally higher than aquaculture sourced fish, fraudulent labelling captivebred fish as 'wild-caught' may increase income for the perpetrator (Cline 2012, <ref type="bibr" target="#b56">Warner et al. 2013</ref>). Hence, genetic identification methods for farmed and wild marine fish species would be extremely valuable in aquaculture and fisheries management and wildlife forensics.</p><p>For a large variety of commercially reared species, escapees and deliberate releases have been reported <ref type="bibr" target="#b25">(Liao et al. 2003</ref><ref type="bibr">, Bell et al. 2008</ref><ref type="bibr" target="#b13">, Jensen et al. 2010</ref><ref type="bibr">, Danancher &amp; Garcia-Vazquez 2011)</ref>. However, due to their long breeding history and the availability of genetic tools, research on tracing and quantifying escapees has focused mainly on salmonids <ref type="bibr" target="#b1">(Glover 2010</ref><ref type="bibr" target="#b3">, Glover et al. 2013</ref>) and only recently on sea bass and sea bream <ref type="bibr">(Arechavala-Lopez et al. 2013</ref><ref type="bibr" target="#b49">, Somarakis et al. 2013</ref><ref type="bibr">, Brown et al. 2015)</ref>. Extending standardized traceability methods to other commercially exploited marine fish species will thus advance research into the effects of escapees and restocking programmes.</p><p>The lack of a long breeding history in most cultured marine fish species complicates the genetic discrimination between wild and captive-bred marine fish, especially when the identification of the hatchery of origin is required. The recent domestication history of many marine fish results in similar allele frequencies in captive-bred and wild populations, which lowers the discrimination power of genetic markers <ref type="bibr">(Duarte et al. 2007)</ref>. Likewise, the absence of long-term selective breeding programmes reduces the likelihood of finding species-specific 'domestication' markers <ref type="bibr" target="#b18">(Karlsson et al. 2011</ref><ref type="bibr">, Gjedrem et al. 2012)</ref>. Stochastic and selective breeding processes in aquaculture and recent developments in genetic traceability tools can however facilitate discrimination between captive-bred and wild fish. The common use of a relatively small broodstock and the unwanted high variance in reproductive success within the hatchery will result in increased genetic differentiation between captive-bred and wild populations and a lower genetic diversity within the captive-bred population <ref type="bibr">(Porta et al. 2006a</ref><ref type="bibr">(Porta et al. ,b, 2007))</ref>. Within the marine environment, provided that a solid genetic baseline is available, wild fish can be individually assigned to their region and/or population of origin with high precision using gene-associated single nucleotide polymorphism (SNP) markers <ref type="bibr" target="#b38">(Nielsen et al. 2012)</ref>. Genetic background information is increasingly available for commercially important fish species <ref type="bibr" target="#b37">(Nielsen et al. 2009</ref><ref type="bibr">, Abadía-Cardoso et al. 2013</ref><ref type="bibr">, Clemento et al. 2014)</ref>, which makes the use of simulation studies possible to assess the discrimination power of existing genetic markers for wild and captive-bred fish. Finally, while the rate of genetic drift at neutral markers depends on the effective population size (N e ) of the broodstock, SNP markers associated with important aquaculture traits (such as growth and disease resistance) are subjected to directional selection which will increase the degree of differentiation between wild and captive-bred populations <ref type="bibr" target="#b1">(Glover et al. 2010)</ref>. Such markers may introgress at different rates compared to selectively neutral markers <ref type="bibr" target="#b23">(Lamaze et al. 2012</ref><ref type="bibr" target="#b9">, Hohenlohe et al. 2013)</ref>, thus providing crucial insights into both the fitness and molecular consequences of escapees and restocking programmes.</p><p>Multiple approaches are available for identifying and discriminating between captive-bred and wild marine fish <ref type="bibr" target="#b27">(Manel et al. 2005)</ref>. The 2 main methods used to date are individual assignment (IA) and parentage-based tagging (PBT) <ref type="bibr" target="#b27">(Manel et al. 2005</ref><ref type="bibr" target="#b16">, Jones et al. 2010</ref>). Most commonly used, IA methods rely on allele frequency differences between populations to assign an individual to its most likely source <ref type="bibr" target="#b40">(Ogden 2008</ref><ref type="bibr" target="#b1">, Glover 2010</ref><ref type="bibr" target="#b38">, Nielsen et al. 2012)</ref>. However, in order to achieve highly robust assignments, IA requires some level of genetic differentiation between populations and extensive genetic reference data <ref type="bibr" target="#b27">(Manel et al. 2005</ref><ref type="bibr" target="#b38">, Nielsen et al. 2012</ref>). In contrast, PBT utilizes the genetic variation within the complete data to determine the most likely parental pair for a particular genotype and can achieve high assignment success even when genetic differentiation among populations is insufficient for IA <ref type="bibr" target="#b15">(Jones &amp; Ardren 2003</ref><ref type="bibr" target="#b51">, Steele et al. 2013)</ref>.</p><p>Our study focuses on Atlantic cod Gadus morhua L., 1758 and sole Solea solea L., 1958, 2 commercially important fish of the Northeast Atlantic Ocean for which extensive genetic resources are available <ref type="bibr" target="#b38">(Nielsen et al. 2012</ref>). Both species have a widespread distribution across the Northeast Atlantic Ocean, and their high commercial value has resulted in an increased interest in captive-breeding programmes, restocking, stock enhancement and sea ranching <ref type="bibr" target="#b10">(Howell 1997</ref><ref type="bibr" target="#b21">, Kjesbu et al. 2006</ref><ref type="bibr">, Björnsson 2011)</ref>. More specifically, declines in wild-caught Atlantic cod and advances in captive breeding and feed formulation have led to an increase in global aquaculture production, reaching 22 000 tons in 2010 <ref type="bibr" target="#b47">(Rosenlund &amp; Skretting 2006</ref><ref type="bibr" target="#b52">, Thurstan et al. 2010</ref><ref type="bibr">, FAO Fisheries and Aquaculture Department 2015a)</ref>. Although cod aquaculture has recently decreased due to large catches on the northern fishing grounds (FAO Fisheries and Aquaculture Department 2015a), the use of traditional cage farming in cod aquaculture and the substantial interest in stock enhancement and sea ranching programmes continues to represent a significant risk for interactions between wild and hatchery-reared cod <ref type="bibr">(Bekkevold et al. 2006</ref><ref type="bibr" target="#b17">, Jørstad et al. 2008</ref><ref type="bibr">, Björnsson 2011)</ref>. Similarly, recent advances and changing economic perspective have increased the interest in sole aquaculture, with production peaking at 125 tons in 2010 but decreasing in recent years <ref type="bibr" target="#b10">(Howell 1997</ref><ref type="bibr" target="#b11">, Imsland et al. 2003</ref><ref type="bibr">, FAO Fisheries and Aquaculture Department 2015b)</ref>. Although intensive land-based recirculation systems are currently preferred in flatfish aquaculture, there is considerable interest to reduce production costs through less intensive systems (e.g. cage farming, stock enhancement and sea ranching) <ref type="bibr">(Brown 2002</ref><ref type="bibr" target="#b19">, Kitada &amp; Kishino 2006</ref><ref type="bibr" target="#b50">, Sparrevohn &amp; Støttrup 2007)</ref>. Hence, for both focal species, there is a considerable risk of introgression between captive-bred individuals and local wild populations.</p><p>In this study, we aimed to evaluate the utility of IA and PBT approaches to discriminate between captive-bred marine fish and natural fish populations. To achieve this, we used a combination of simulated and empirical SNP datasets to perform a series of assignment experiments in each species, across a range of potential scenarios. The level of genetic differentiation between captive-bred and wild marine fish will vary due to: (1) the number of captive-bred generations (F n ) prior to escape or release, (2) the number of broodstock and the strength of reproductive variance between broodstock individuals, which both influence N e , and (3) genetic (and geographical) differences between the hatchery population and locally occurring wild populations with which the escapees will intermingle. We investigated each of these potential variables to evaluate their relative impact on assignment power under IA and PBT approaches. In addition, the effect of (in)complete reference samples was also assessed given that the availability and representative nature of reference samples will also affect traceability outcomes.</p><p>From the outset, we anticipated that increasing F n , decreasing N e and a distinct genetic origin of the broodstock will all favour IA, given that IA relies on the realized level of genetic differentiation between populations to make robust assignments. On the other hand, the performance of PBT will be negatively impacted by those parameters that reduce the genetic diversity within the captive-bred population (i.e. high F n and low N e ) due to the difficulty of excluding candidate parents from real parents. Therefore, in addition to evaluating the relative performance of the 2 approaches, we were interested in examining possible thresholds of F n and N e across which the optimal approach for determining fish origin actually changes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sampling</head><p>Wild samples of 10 Atlantic cod and 14 sole populations have been previously collected from European waters and genotyped <ref type="bibr" target="#b38">(Nielsen et al. 2012</ref>). An Atlantic cod broodstock (A cod-BS ) (n = 92) sourced from the ICES region 27.V.b2 -Faroe Bank was sampled from the Fiskaaling aquaculture research station (Faroe Islands). Atlantic-sourced (ICES 27.IV.c -Southern North Sea) sole were sampled from a Dutch experimental breeding farm, SOLEA in IJmuiden, and consisted of 2 full-sib families with 4 broodstock individuals (A sole-BS ) (n = 4) and their first-generation offspring (F n = 1) (A sole-F1 ) (n = 92) <ref type="bibr">(Blonk et al. 2009</ref>). Captive-bred sole samples originating from the Mediterranean Sea (FAO 37.2.1 -North Adriatic) were obtained from a pilot farm of the Laboratory of Aquaculture, Department of Veterinary Medical Sciences of the University of Bologna, Italy, and included samples from a broodstock (M sole-BS ) (n = 26) and first-generation offspring (F n = 1) (M sole-F1 ) (n = 96), obtained from 4 batch spawnings (M sole-F1-B1 , M sole-F1-B2 , M sole-F1-B3 and M sole-F1-B4 ). More details on all populations used in this study are found in Supplement 1 (www.int-res.com/ articles/ suppl/ q008 p131_ supp.pdf).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genotypic data</head><p>Gene-associated SNP markers were available for: the wild populations of Atlantic cod (1258 SNPs), the wild populations of sole (427 SNPs), A cod-BS (427 SNPs), A sole-BS and A sole-F1 (423 SNPs) (Table <ref type="table" target="#tab_0">1</ref>) <ref type="bibr" target="#b38">(Nielsen et al. 2012</ref><ref type="bibr">, Diopere et al. 2014)</ref>. Additional genotyping of the M sole-BS and M sole-F1 samples was conducted using VeraCode TM technology on the BeadExpress platform (Illumina), following the manufacturer's instructions. Of the 427 available SNPs, the 192 most informative SNPs, showing high genetic discrimination values (F ST values) between the Mediterranean populations, were genotyped <ref type="bibr" target="#b38">(Nielsen et al. 2012)</ref>. Quality assessment and genotype calling was performed using GenomeStudio v.2009.2 software (Illumina). Three individuals from the A sole-BS , initially genotyped with the wild populations using the SAM assay (GoldenGate, GG) on the iScan platform (Illumina) and with the highest GG call rate for the selected panel <ref type="bibr">(Diopere et al. 2014)</ref>, were included as cross-platform genotyping controls to ensure comparability between the archived and newly generated data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Marker selection</head><p>In order to obtain marker panels with sufficient assignment power and to ensure that they are easily transferrable between laboratories, a subset of 96 highly informative SNPs were selected based on the practical limitations of common genotyping platforms (Supplement 2 at www.int-res.com/ articles/ suppl/q008p131_supp.pdf). Given that cod data were only used in IA analyses (see 'Tracing escapees' below), and the ability of markers to distinguish between populations provides a good indication of their power in IA analyses, the available SNPs for cod were ranked based on the pairwise F ST values calculated among the wild cod populations using FSTAT v.2.9.3 <ref type="bibr" target="#b4">(Goudet 1995)</ref>. The Atlantic and Mediterranean sole data (wild and aquaculture) were used in both IA and PBT. To maximize the traceability power of selected sole SNPs for IA, markers were first ranked based on the pairwise F ST values obtained from comparisons between the wild Atlantic and Mediterranean populations respectively. PBT analyses, on the other hand, re quire markers with a high genetic variability within a population to make ro bust assignments. Consequently, a second ranking of markers was based on their polymorphic information content (PIC) calculated with Cervus v.3.0 <ref type="bibr" target="#b29">(Marshall et al. 1998)</ref>  bined data from the re spective broodstocks (A sole-BS and M sole-BS ) and their genetically similar wild populations (GER and ADR1 respectively). The top 96 ranking SNPs were used in all further analyses and further reduced genotypic datasets were used in the assignment analyses to determine the assignment power of the selected loci (Table <ref type="table" target="#tab_1">2</ref>). This selection procedure for highly informative markers is unlikely to suffer from high-grading bias (Anderson 2010a, Waples 2010) for 3 reasons. First, assignment power was estimated from a different (holdout) set of samples to those used for SNP selection. Second, outlier SNPs were defined using initially high sampling sizes (n ≈ 40) from various geographical locations, which reduces the effects of random sampling errors <ref type="bibr" target="#b38">(Nielsen et al. 2012)</ref>. Third, the use of 2 rigorous outlier detection methods and annotation information provides confidence that the high F ST values of the selected markers are more likely to result from diversifying selection (i.e. real differentiation) rather than being at the extremes of a neutral marker F ST distribution <ref type="bibr" target="#b55">(Waples 2010</ref><ref type="bibr" target="#b38">, Nielsen et al. 2012)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Simulations of hatchery data</head><p>To formally evaluate the individual and combined impacts of F n , N e and the availability of reference data on the traceability efficiency of IA and PBT analyses, various breeding scenarios were simulated for both species. Data were simulated using the previously selected 96 SNPs of the A cod-BS and M sole-BS (including 7 individuals that died before reproduc-tion) genotypes for cod and sole respectively (Fig. <ref type="figure" target="#fig_0">1</ref>). An initial parental broodstock (P 1-SIM ) and 4 offspring generations (F 1-SIM , F 2-SIM , F 3-SIM and F 4-SIM ) were simulated under the assumption of perfect Hardy-Weinberg (HW) equilibrium. Different simulation series were performed using various N e values (N e = 5, 10, 20 or 50) to simulate drift due to reproductive variance. HYBRIDLAB v.1.0 <ref type="bibr" target="#b36">(Nielsen et al. 2006</ref>) was used to simulate offspring genotypes used in the IA analyses. For the PBT analyses, Nookie v.1.0 (Anderson 2014) was used to simulate offspring genotypes because it generates individual genotypes 'bred' from specific parental pairs which are required for parentage assignment in simulated generations, rather than simply simulating individuals from a pool of population allele frequencies. Comparisons of genetic diversity showed that datasets generated through both programs were comparable (Supplement 3 at www. int-res.com/articles/ suppl/ q008 p131_ supp.pdf).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparative data analyses</head><p>A detailed comparison of the traceability results based on both the simulated and empirical datasets is important to determine the optimal traceability approach for a specific scenario. To be able to compare simulated and empirical results, population genetic parameters (F ST values, observed heterozygosity H obs and expected heterozygosity H exp ) associated with each dataset have to be understood as they will strongly influence the traceability power of the datasets. With the most comprehensive empirical data being available for the Mediterranean captivebred sole, population genetic parameters were calculated for the broodstock (M sole-BS and P In addition to the comparative data analyses, the results also allow us to determine the N e of the M sole-BS . Using the H obs and H exp values obtained for M sole-F1-B1 , M sole-F1-B2 , M sole-F1-B3 and M sole-F1-B4 , the N e can be calculated for M sole-BS during each batch spawning event using the equation from <ref type="bibr" target="#b26">Luikart &amp; Cornuet (1999)</ref>:</p><formula xml:id="formula_0">N e = H exp /[2(H obs -H exp )]</formula><p>(1)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tracing escapees</head><p>Assignment efficiency is strongly influenced by the realized levels of genetic differentiation between the captive-bred and wild populations (IA) and the amount of genetic variability within the captive-bred population (PBT). By using the simulated datasets which are characterized by differences in the N e and F n , 2 parameters that significantly affect genetic differentiation and genetic variability, the effects of these changes could be evaluated. In addition, the origin of the captive-bred population will also influence the traceability outcomes. To assess the effects of genetic dissimilarities between captive-bred and wild populations, 2 traceability scenarios were used: A, the broodstock originated from a genetically distinct population than the local wild populations; and B, the broodstock originated from a local, genetically similar wild population (Table <ref type="table" target="#tab_1">2</ref>).</p><p>From a forensic perspective, the ability to assign captive-bred fish back to their origin will be influenced by the nature and availability of reference samples, which may be challenging in well-established aquaculture species <ref type="bibr" target="#b0">(Glover et al. 2009</ref>). For the purpose of our study, 2 simplified sampling regimes were used to evaluate the effect of missing data from previous captive-bred generations: Sampling Regime 1, in which data from the parental generation, which produced the escapees, is available, and escapees can thus be assigned to their parental generation or to the wild populations; Sampling Regime 2, in which data is restricted to the founding broodstock (often the case in operational hatcheries) and escapees can only be assigned to the founding broodstock or the wild populations. The lack of multiple captive-bred generations in the empirical data restricted the analyses of the empirical data to Sam- pling Regime 1. Furthermore, PBT relies on the identification of parent -offspring relationships and will thus only be valuable under the assumptions of Sampling Regime 1. IA and PBT analyses were performed using both simulated and empirical datasets (see Table <ref type="table" target="#tab_1">2</ref>). For the analyses of the simulated data, escapees were assumed to be flagged (i.e. genotypes of escapees are known) to obtain a baseline traceability efficiency, while for the analysis of the empirical data, escapees were mixed within a single wild population to create a more realistic scenario. IA analyses used the simulated datasets of both species and the empirical Atlantic sole data. PBT analyses were performed using sole data only, as Atlantic cod family data was unavailable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IA analysis</head><p>IA analyses were performed with GeneClass2 v.2.0 using the 'assign/exclude population as origin of individuals' option <ref type="bibr" target="#b42">(Piry et al. 2004</ref>). The threshold value was set to p = 0.05 and only individuals assigned to a population with rank 1 were considered. The probability of an individual being assigned to all possible reference populations was calculated using the Monte Carlo re-sampling method <ref type="bibr" target="#b41">(Paetkau et al. 2004</ref>).</p><p>Using the simulated data of both species, assignment efficiency was evaluated under both sampling regimes. Input data for assignments consisted of 100 F n-SIM genotypes (escapees) which could be assigned to either wild populations or their captive-bred population (i.e. their parental generation F (n-1)-SIM or their founding broodstock P 1-SIM for Sampling Regime 1 or 2 respectively).</p><p>For the analyses of the empirical data, 20 individuals from A sole-F1 (10 from each full-sib family) representing the escapees were randomly selected and mixed with a genetically similar wild population (Scenario B) originating from the Belgian coast (BEL). Genotypes contained within this mixed population and the neighbouring wild populations (STO, GER, NOR, ENG, IS and GAS; see Supplement 1) could then be assigned to the remaining A sole-F1 individuals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PBT analysis</head><p>The parent -offspring relationships within the empirical aquaculture samples were obtained from previous studies <ref type="bibr">(Blonk et al. 2009</ref>) and additional parentage testing (Supplement 4 at www.intres.com/articles/suppl/q008p131_supp.pdf). Only the SNP genotypes of individuals for which reliable parent-offspring relationships could be obtained were used in further analyses to ensure that the effectiveness of PBT could be formally evaluated. PBT analyses were performed with the software SNPPIT v.1.0 (Anderson 2010b), using only genotypic information (i.e. sex, age, year of sampling, etc. were considered unknown) and a genotyping error rate of 0.5% per allele.</p><p>Using the simulated data and the wild populations of sole, the effect of N e and F n on the assignment success was evaluated under the assumption of Sampling Regime 1. Input files consisted of a list of putative parents (all wild populations and F (n-1)-SIM ) and offspring to be assigned (F n-SIM ) (i.e. the escapees).</p><p>Empirical analyses were performed with the Atlantic and Mediterranean sole data to determine the influence of the origin of the broodstock (Scenario A or B) on the traceability efficiency. Under Scenario A, the input file of putative parents contained the genotypes of A sole-BS or M sole-BS mixed with their respective source population (i.e. GER and ADR1 respectively). The offspring to be assigned contained a mixed population of 20 randomly selected A sole-F1 or M sole-F1 individuals added to genetically different wild populations (i.e. IS and THY respectively) and the remaining wild populations. In the case of Scenario B, assignment input was similar with the exception that the 20 randomly selected A sole-F1 or M sole-F1 individuals were mixed with a genetically similar wild population (i.e. BEL and ADR2 respectively).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sampling and genotyping</head><p>Following complementary genotyping of the sole samples (M sole-F1 ) with 192 SNPs, 181 SNPs passed the initial quality assessment. Of these, a panel of 96 highly informative SNP markers was selected and used in the analyses. An overview of all 96 selected SNPs used in the traceability analyses can be found in Supplement 2. Based on the re-genotyping of the 3 A sole-BS individuals at 181 loci, a genotyping discordance rate of 1.2% was obtained. Hence, in all further analyses, a genotyping error of 1% was used as an approximation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparative data analyses</head><p>The comparative analyses of overall genetic diversity (H obs and H exp ) showed no strong deviation between H obs and H exp in the P 1-SIM <ref type="bibr">(N e = 5, 10, 20, 50)</ref> and F 1-SIM (N e = 5, 10, 20, 50) data (Fig. <ref type="figure">2</ref>). However, in the M sole-F1 data, a heterozygote excess was observed (H obs &gt; H exp ), suggesting that within M sole-BS , a low number of individuals contributed to the next generation. Based on this heterozygote excess, the N e is estimated to be 2.16, 2.10, 1.58 and 1.67 for M sole-F1-B1 , M sole-F1-B2 , M sole-F1-B3 and M sole-F1-B4 respectively.</p><p>Pairwise F ST values and the DAPC show that both M sole-BS and ADR1 have a similar genetic composition (Fig. <ref type="figure" target="#fig_3">3</ref>; Supplement 5 at www.int-res.com/ articles/ suppl/q008p131_supp.pdf). However, strong genetic differentiation is observed between M sole-F1 and their population of origin (M sole-BS and ADR1). A comparison of the simulated data (P 1-SIM ) and the wild populations (M sole-BS and ADR1) shows an increase in genetic differentiation when a strong bottleneck was applied (from N e = 50 to N e = 5), and the same pattern can be observed in the derived F 1-SIM samples. Furthermore, the F ST values are generally higher between the M sole-F1 batches (M sole-F1-B1 , M sole-F1-B2 , M sole-F1-B3 , M sole-F1-B4 ) than between the F 1-SIM data (Fig. <ref type="figure" target="#fig_3">3</ref>), and the same pattern can be observed with the DAPC (i.e. F 1-SIM clusters are positioned closer together than M sole-F1 clusters). One exception is the low genetic differentiation between M sole-F1-B3 and M sole-F1-B4 , which is due to the same parents having produced these batches (Supplement 4). The results suggest that the simulated data provides a good baseline (broodstock under HW equilibrium) for the validation of the traceability methods under real-life scenarios.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tracing escapees</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IA analysis</head><p>The success rate of correctly assigning escapees to the previous aquaculture generation (Sampling Regime 1) ranged from 73 to 100% across all simulated datasets (Fig. <ref type="figure" target="#fig_4">4</ref>). Results clearly indicate that the assignment success increased with increasing genetic drift (smaller N e ) and increasing generational distance from the original broodstock generation (higher F n ). Under the assumptions of Sampling Regime 2, the assignment success increased with increasing genetic drift, but no change in assignment success was observed with increasing generational distance from the broodstock (Fig. <ref type="figure" target="#fig_4">4</ref>). However, in sole, an increasing F n resulted in a decrease of assignment performance when a large effective population size (N e = 50) was employed.</p><p>The population assignment analyses based on the empirical data of the Atlantic farmed sole and their neighbouring wild populations revealed that 81% of escapees were correctly assigned using 1 SNP (average assignment score: 40), while a 100% assignment was achieved with only 30 SNPs (average assignment score: 100).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PBT analysis</head><p>PBT analyses (SNPPIT) using the simulated data of sole showed that a panel of 48 SNP loci was sufficient to obtain an assignment success of ≥ 99%. Assignment success decreased (i.e. increasing number of non-excluded parent-offspring trios) with an increasing number of breeding generations (F n ), especially when N e was small (Table <ref type="table" target="#tab_3">3</ref>).</p><p>The PBT results based on the empirical sole data show that under Scenario A, a dataset of 30 and 40 highly polymorphic SNPs was sufficient to trace back the Atlantic and Mediterranean aquaculture escapees, respectively (Table <ref type="table" target="#tab_4">4</ref>). Under the assumptions of Scenario B, a total of 35 highly poly- </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Heterozygosity values</head><p>Population ID</p><formula xml:id="formula_1">H exp H obs M M M M s o le - F 1 - B 1 s o le - F 1 - B 2 s o le - F 1 - B 3 s o le - F 1 - B 4 F F F F P P P P 1 - S IM (N e 5 0 ) 1 - S IM (N e 2 0 ) 1 - S IM (N e 1 0 ) 1 - S IM (N e 5 ) 1 - S IM (N e 5 0 ) 1 - S IM (N e 2 0 ) 1 - S IM (N e 1 0 ) 1 - S IM (N e 5 ) M s o le - B S A D R 1</formula><p>Fig. <ref type="figure">2</ref>. Observed (H obs ) and expected (H exp ) heterozygosity values in population samples of Mediterranean sole Solea solea. ADR1 = natural population from Adriatic Sea; M sole-BS = broodstock composed of wild fish from Adriatic Sea; P 1-SIM(N e X) (X = 5-50) = simulated parental populations at varying degrees of effective population size N e ; F 1-SIM(N e X) (X = 5-50) = simulated first offspring populations at varying degrees of effective population size N e ; M sole-F1-BX (X = 1-4) = morphic SNPs were sufficient for the identification of all aquaculture escapees for both broodstocks (Table <ref type="table" target="#tab_4">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Our study shows that a panel of highly informative, gene-associated SNP markers can discriminate between wild and captive-bred marine fish, even without extensive domestication of the species of interest. Furthermore, the results show that IA and PBT analyses can both be valuable tools for wildlife forensics and fisheries management, depending on the genetic history of the relevant captive populations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Potential of SNP markers for traceability</head><p>Biallelic SNP markers are generally considered less informative than microsatellite markers. However, SNPs are highly abundant and evenly distributed throughout the genome <ref type="bibr" target="#b31">(Morin et al. 2004</ref>). 0.043 0.135 0.053 0.010 0.000 P 1-SIM (N e 50) 0.002 0.068 0.061 0.050 0.040 0.000 P 1-SIM (N e 20) 0.006 0.092 0.076 0.058 0.047 0.003 0.000 P 1-SIM (N e 10) 0.009 0.085 0.076 0.061 0.048 0.005 0.007 0.000 P 1-SIM (N e 5) 0.012 0.072 0.070 0.053 0.044 0.006 0.011 0.010 0.000 F 1-SIM (N e 50) 0.002 0.048 0.046 0.035 0.029 0.002 0.003 0.003 0.003 0.000 F 1-SIM (N e 20) 0.005 0.059 0.049 0.035 0.029 0.005 0.001 0.003 0.003 0.007 0.000 F 1-SIM (N e 10) 0.007 0.058 0.056 0.043 0.036 0.008 0.004 0.000 0.002 0.008 0.008 0.000 F 1-SIM (N e 5) M sole -BS M sole -F1-B1 M sole -F1-B2 M sole -F1-B3 M sole -F1-B4 P 1-SIM (N e 50) P 1-SIM (N e 20) P 1-SIM (N e 10) P 1-SIM (N e 5) F 1-SIM (N e 50) F 1-SIM (N e 20) F 1-SIM (N e 10) F 1-SIM (N e 5) ADR1 Hence, low polymorphism levels can be compensated through the development of a large number of gene-associated SNPs which can detect even small population genetic differences <ref type="bibr" target="#b38">(Nielsen et al. 2012)</ref>. Additionally, SNP genotyping can be highly automated and does not require extensive calibrations for marker exchange <ref type="bibr" target="#b6">(Hauser &amp; Seeb 2008)</ref>. These characteristics make SNP markers ideal for the development of universally applicable genetic traceability tools, which inherently rely on the availability of robust reference data <ref type="bibr" target="#b7">(Helyar et al. 2011</ref><ref type="bibr" target="#b38">, Nielsen et al. 2012</ref>). In the case of tracing captive-bred marine fish, SNPs can be used to detect subtle genetic differences between wild and captive-bred populations, even after just a few generations of captive breeding. Consequently, there is ample opportunity to use SNP-based tracing in fisheries management and wildlife forensics. From a management perspective, SNPs can be employed to monitor the effects of accidental/deliberate releases of captive-bred fish on wild populations. SNP-based tracing will also have forensic applications, as it will be a useful tool in the fight against mismanagement practices in aquaculture and the mislabelling of seafood products, since universal markers for the identification of captivebred individuals can be developed <ref type="bibr" target="#b18">(Karlsson et al. 2011)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Applications of IA and PBT analyses</head><p>Our results demonstrate that IA and PBT perform optimally under different scenarios. The performance of IA analyses improves with increased genetic differentiation between the aquaculture and wild populations as a result of increased generational breeding (high F n ) and/or a low N e in the broodstock. PBT analyses, on the other hand, perform better when a high N e characterizes the broodstock and/or generational breeding is low. This is as expected, given that candidate parents are less likely to be excluded from being the real parents due to loss of genetic diversity (low N e and/or high F n ). As a result of the performance differences, the suitability of IA Percentage of correctly assigned individuals in individual assignment (IA) analysis using simulated datasets. 1A, 1B, 1C: Sampling Regime 1 (reference data of aquaculture population is available for parental generation); 2B, 2C: Sampling Regime 2 (reference data of aquaculture population is limited to the founding broodstock); with results based on (A) sole data using 52 single nucleotide polymorphisms (SNPs), (B) sole data using 96 SNPs, (C) cod data using 96 SNPs. F 1-SIM , F 2-SIM , F 3-SIM , F 4-SIM = 4 offspring generations, N e = effective population size and PBT analyses is strongly dependent on the ultimate goal of genetic tracing studies. Hence, our results are important for wildlife forensics and fisheries management to determine the optimal assignment strategy.</p><p>A common goal of fisheries management is the preservation or restoration of commercially important fish populations to levels which will produce a longterm maximum sustainable yield (MSY) (FAO Fisheries and Aquaculture Department 2008). Since the number of overexploited marine fish pop ulations con-tinues to increase, stock enhancement and sea ranching programmes have become popular management actions <ref type="bibr">(Bell et al. 2008, FAO Fisheries and</ref><ref type="bibr">Aquaculture Department 2012)</ref>. Consequently, the release of firstgeneration captive-bred juvenile fish which are genetically similar to the local wild populations has increased <ref type="bibr">(Bell et al. 2008)</ref>. Given that PBT analyses have a high identification efficiency for first-generation escapees and can de tect hybridization between wild and captive-reared conspecifics, they can be used to jointly evaluate the levels of introgression (enforcement action) and the efficiency of restocking, stock enhancement and sea ranching programmes (management action). Robust, forensically validated and universally applicable traceability tools can also be used in wildlife forensics to support legal actions against mismanagement of aquaculture facilities, which increases the chance of escapees, or the mislabelling of seafood products for financial profits <ref type="bibr" target="#b40">(Ogden 2008</ref><ref type="bibr" target="#b1">, Glover 2010</ref><ref type="bibr" target="#b5">, Hanner et al. 2011)</ref> tive breeding has resulted in a strong genetic differentiation between captive-bred and wild fish populations <ref type="bibr">(Bekkevold et al. 2006</ref><ref type="bibr" target="#b18">, Karlsson et al. 2011</ref>). However, most marine fish species have only recently been bred in captivity and thus forensic tools need to be able to differentiate between genetically similar captive-bred species and wild conspecifics.</p><p>Our findings suggest that PBT can be used for these recently domesticated fish species, since assignment success was high after only a single generation of captive breeding. This is in line with expectations, since PBT was originally developed to identify the source of salmon released into rivers and is thus capable of differentiating between genetically similar hatchery populations <ref type="bibr">(Anderson &amp; Garza 2006)</ref>. Genetic assignment methods have already been successfully applied in a forensic context <ref type="bibr" target="#b58">(Wong &amp; Hanner 2008</ref><ref type="bibr" target="#b1">, Glover 2010</ref>). However, real-life situations often complicate genetic tracing studies <ref type="bibr" target="#b0">(Glover et al. 2009</ref>). As such, the presence of multiple (genetically similar) putative source farms and the lack of extensive genetic reference data will reduce the assignment efficiency of both IA and PBT. Although the latter is less problematic for IA analysis, PBT unequivocally requires genotypic information from all parental individuals that have contributed to the subsequent generation. The increased use of genetic broodstock management and selective breeding programmes might partially resolve this but the feasibility of using PBT in a forensic context remains controversial <ref type="bibr">(Blonk et al. 2010</ref><ref type="bibr" target="#b54">, Vandeputte et al. 2011)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Validation of traceability approaches</head><p>Validating traceability methods requires a detailed comparison between expected (simulations) and observed (empirical) results. The assignment success rates of the analyses based on the F 1-SIM and the empirical data reveal that overall, a higher success rate is obtained in the empirical analyses. The fact that relatively more SNP makers are needed for unambiguous assignments in the simulated data can be explained by a high reproductive skew in real aquaculture production (A sole-BS and M sole-BS ), which is difficult to simulate with currently available software packages. From the N e values estimated based on the observed heterozygote excess in the M sole-F1 , we conclude that on average, 2 parental individuals contributed to each offspring batch, and these finding are supported by the results from the additional parentage testing (Supplement 4). Furthermore, comparing the genetic differentiation between the em -pirical and simulated data (DAPC) suggests that within the M sole-BS , an N e of between 5 and 10 is the most likely, which is supported by the N e estimates found in the A sole-BS by <ref type="bibr">Blonk et al. (2009)</ref>.</p><p>Other evidence supporting the methodology employed here arises from the comparison of current results with earlier studies. <ref type="bibr" target="#b54">Vandeputte et al. (2011)</ref> recorded a decrease in the assignment power when comparing theoretical, simulated and empirical parentage assignments using microsatellite data. However, our study has clearly indicated that large-scale SNP genotyping (i.e. genome scan) combined with a selection procedure for highly informative geneassociated markers (high F ST values and PIC) can increase the assignment power in empirical studies. This is consistent with the findings of previous studies which recorded similarly high assignment efficiencies with only a small number of markers <ref type="bibr" target="#b38">(Nielsen et al. 2012)</ref>. Hence, the methodology presented here will be valuable for future traceability studies where sufficient genetic background information is available for the species of interest. With low-cost high-throughput genotyping-by-sequencing methods now available to be implemented in breeding programmes <ref type="bibr">(Davey et al. 2011)</ref>, the cost of developing a large battery of markers should not impede applications to fisheries management and wildlife forensics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>This study has evaluated the relative power of parentage-based tagging (PBT) and individual assignment (IA) for identifying the population of origin of marine aquaculture fish under a range of scenarios, highlighting the benefits and disadvantages of each. PBT potentially offers the strongest line of traceability evidence, as the identification of a specific parental pair with high confidence is likely to be more powerful than a combined population assignment and exclusion approach under IA, particularly where aquaculture and wild populations have not diverged significantly. The results presented here have shown that PBT analyses will be particularly valuable in fisheries management to evaluate the genetic effects and the impact of accidental and/or deliberately released captive-bred fish. However, current aquaculture practices restrict the practical application of PBT due to the requirement for complete broodstock sampling; consequently, in most marine fish aquaculture scenarios, IA analyses are considered to be of more practical use for future traceability applications. Ultimately, the availability of genetic background information and the aim of the study will determine whether IA or PBT will be the method of choice. </p><formula xml:id="formula_2">® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ® ®</formula></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Gadus morhua and Solea solea. Simulations used to generate captive-bred offspring genotypes. HYBRIDLAB v.1.0 (Nielsen et al. 2006) was used to generate the initial broodstock (P 1-SIM ). Offspring genotypes used in individual assignment (IA) and parentage-based tagging (PBT) analyses were simulated with HYBRIDLAB and Nookie v.1.0 (Anderson 2014), respectively. A cod-BS = Atlantic cod broodstock, M sole-BS = Mediterranean sole broodstock, F 1-SIM , F 2-SIM , F 3-SIM , F 4-SIM = 4 offspring generations, n = number of individuals, N e (effective population size) = 5, 10, 20 or 50 and N e * = 4 or 50</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Pairwise F ST values matrix among the simulated and empirical datasets of Mediterranean aquaculture sole Solea solea. : F ST = 0; : 0 &lt; F ST &lt; 0.01; : 0.01 ≤ F ST &lt; 0.05; : 0.05 ≤ F ST &lt; 0.1; : 0.1 ≤ F ST . See Fig. 2 for abbreviations</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 .</head><label>4</label><figDesc>Fig.4. Gadus morhua and Solea solea. Percentage of correctly assigned individuals in individual assignment (IA) analysis using simulated datasets. 1A, 1B, 1C: Sampling Regime 1 (reference data of aquaculture population is available for parental generation); 2B, 2C: Sampling Regime 2 (reference data of aquaculture population is limited to the founding broodstock); with results based on (A) sole data using 52 single nucleotide polymorphisms (SNPs), (B) sole data using 96 SNPs, (C) cod data using 96 SNPs. F 1-SIM , F 2-SIM , F 3-SIM , F 4-SIM = 4 offspring generations, N e = effective population size</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>Editorial responsibility: Marianne Holmer, Odense, Denmark Submitted: June 18, 2015; Accepted: December 10, 2015 Proofs received from author(s): February 8</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>using the com-Available and newly generated single nucleotide polymorphism (SNP) genotypic datasets for wild and captive-bred populations of Solea solea and Gadus morhua. Atl-Aqua = aquaculture population sourced from the Atlantic Ocean, Med-Aqua = aquaculture population sourced from the Mediterranean Sea</figDesc><table><row><cell>134</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Solea solea and Gadus morhua. Datasets used in population (IA = individual assignment) and parentage (PBT = parentage-based tagging) analysis to test for effects of sampling regimes and traceability scenarios. Sampling Regime 1: reference data of the aquaculture population is available for the parental generation. Sampling Regime 2: reference data of the aquaculture population is limited to the founding broodstock. Scenario A: aquaculture broodstock originated from a genetically distinct population than the local wild populations. Scenario B: aquaculture broodstock originated from a local, genetically similar wild population. The number of single nucleotide polymorphisms (SNPs) used in each analysis is indicated between parentheses. SD = simulated data, EAD = empirical Atlantic data, EMD = empirical Mediterranean data, na = not applicable</figDesc><table><row><cell>1-SIM [N e = 5,</cell></row><row><cell>10, 20, 50]) and first-gener-</cell></row><row><cell>ation offspring (M sole-F1 and</cell></row><row><cell>F 1-SIM [N e = 5, 10, 20, 50]).</cell></row><row><cell>The Northern Adriatic pop-</cell></row><row><cell>ulation (ADR1), as the orig-</cell></row><row><cell>inal source of M sole-BS , was</cell></row><row><cell>included in the analysis as</cell></row><row><cell>a reference. Genetic di -</cell></row><row><cell>versity (H obs and H exp ) was</cell></row><row><cell>calculated for each inde-</cell></row><row><cell>pendent dataset (M sole-BS ,</cell></row><row><cell>M sole-F1-B1 , M sole-F1-B2 , M sole-</cell></row><row><cell>F1-B3 , M sole-F1-B4 , P 1-SIM [N e =</cell></row><row><cell>5, 10, 20, 50], F 1-SIM [N e = 5,</cell></row><row><cell>10, 20, 50] and ADR1) using</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>. Our results indicate that both IA and PBT are potentially valuable provided that the aquaculture history of the species of interest is taken into account. IA analyses are a powerful tool for species with a long aquaculture history since cap-Solea solea. Parentage-based tagging (PBT) analysis using software package SNPPIT to identify escapees based on simulated sole data. F n-SIM = number of captivebred generations that were simulated; F 1-SIM , F 2-SIM , F 3-SIM , F 4-SIM = 4 offspring generations that were simulated; N e = effective population size; na = not applicable</figDesc><table><row><cell>141</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 4 .</head><label>4</label><figDesc>Solea solea. Parentage-based tagging (PBT) approach using software package SNPPIT for identifying escapees based on the empirical sole aquaculture data. Scenario A: broodstock originated from a genetically different population than the local wild populations, Scenario B: broodstock originated from a local wild population. SNP = single nucleotide polymorphism</figDesc><table /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements. We thank <rs type="institution">Fiskaaling aquaculture research station (Faroe Islands)</rs> for providing samples of farmed cod. Additionally, we thank <rs type="person">R. J. W. Blonk</rs> for providing samples and parentage information of the hatcheryreared Atlantic sole. Research was funded by the <rs type="funder">European Commission Joint Research Centre (JRC)</rs> through the <rs type="projectName">AQUAGEN</rs> project (<ref type="url" target="https://aquagen.jrc.ec.europa.eu">https://aquagen.jrc.ec.europa.eu</ref>; tender No. <rs type="grantNumber">IPSC_2010_04_11_NC</rs>) and benefited from the <rs type="funder">EU FP7 project FishPopTrace</rs> (<rs type="grantNumber">KBBE-2007-212399</rs>)  and <rs type="projectName">Aqua-Trace</rs> (<rs type="grantNumber">KBBE-311920</rs>). E.D. and G.E.M. were funded by the <rs type="funder">Research Foundation-Flanders (FWO-Vlaanderen)</rs> during the course of this research.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_GxJD6dA">
+					<idno type="grant-number">IPSC_2010_04_11_NC</idno>
+					<orgName type="project" subtype="full">AQUAGEN</orgName>
+				</org>
+				<org type="funded-project" xml:id="_JznyKYA">
+					<idno type="grant-number">KBBE-2007-212399</idno>
+					<orgName type="project" subtype="full">Aqua-Trace</orgName>
+				</org>
+				<org type="funding" xml:id="_nhDtwtq">
+					<idno type="grant-number">KBBE-311920</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Identifying the source of farmed escaped Atlantic salmon (Salmo salar): Bayesian clustering analysis increases accuracy of assignment</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Glover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ø</forename><surname>Skaala</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aquaculture.2009.01.034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aquaculture</title>
+		<imprint>
+			<biblScope unit="volume">290</biblScope>
+			<biblScope unit="page" from="37" to="46" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A comparison of SNP and STR loci for delineating population structure and performing individual genetic assignment</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Glover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Als</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Høyheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ø</forename><surname>Skaala</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2156-11-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genet</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Genetic identification of farmed and wild Atlantic cod, Gadus morhua, in coastal Norway</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Glover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dahle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Jorstad</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/icesjms/fsr048</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ICES J Mar Sci</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="901" to="910" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Atlantic salmon populations invaded by farmed escapees: quantifying genetic introgression with a Bayesian approach and SNPs</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Glover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pertoldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Besnier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Wennevik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ø</forename><surname>Skaala</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2156-14-74</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genet</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">74</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">FSTAT (version 1.2): a computer program to calculate F-statistics</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goudet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hered</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="485" to="486" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">FISH-BOL and seafood identification: geographically dispersed case studies reveal systemic market substitution across Canada</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hanner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Ivanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Steinke</surname></persName>
+		</author>
+		<idno type="DOI">10.3109/19401736.2011.588217</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mitochondrial DNA</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="106" to="122" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Advances in molecular technology and their impact on fisheries genetics</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Seeb</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-2979.2008.00306.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Fish Fish</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="473" to="486" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Application of SNPs for population genetics of nonmodel organisms: new opportunities and challenges</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Helyar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hemmer-Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bekkevold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Others</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1755-0998.2010.02943.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="123" to="136" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Genetic effects of cultured fish on natural fish populations</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hindar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ryman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Utter</surname></persName>
+		</author>
+		<idno type="DOI">10.1139/f91-111</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Fish Aquat Sci</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="945" to="957" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Genomic patterns of introgression in rainbow and westslope cutthroat trout illuminated by overlapping paired-end RAD sequencing</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Hohenlohe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Amish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Others</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mec.12239</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="3002" to="3013" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A re-appraisal of the potential of the sole, Solea solea (L.), for commercial cultivation</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Howell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0044-8486(97)00103-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aquaculture</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="355" to="365" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A review of the culture potential of Solea solea and S. senegalensis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Imsland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Foss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lec</forename><surname>Conceicão</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Dinis</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Others</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11160-004-1632-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rev Fish Biol Fish</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="379" to="407" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Trade secrets: renaming and mislabeling of seafood</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Jacquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pauly</forename><forename type="middle">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.marpol.2007.06.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Policy</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="309" to="318" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Escapes of fishes from Norwegian sea-cage aquaculture: causes, consequences and prevention</title>
+		<author>
+			<persName><forename type="first">Ø</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dempster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Thorstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Uglem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fredheim</surname></persName>
+		</author>
+		<idno type="DOI">10.3354/aei00008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aquacult Environ Interact</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="71" to="83" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">adegenet: a R package for the multivariate analysis of genetic markers</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jombart</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btn129</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1403" to="1405" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Methods of parentage analysis in natural populations</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Ardren</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-294X.2003.01928.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2511" to="2523" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A practical guide to methods of parentage analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Small</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Paczolt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Ratterman</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1755-0998.2009.02778.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="6" to="30" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Escapes&apos; of eggs from farmed cod spawning in net pens: recruitment to wild stocks</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Jørstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Der Meeren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">I</forename><surname>Paulsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Thomsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thorsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Svåsand</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10641260701678017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rev Fish Sci</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="285" to="295" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Generic genetic differences between farmed and wild Atlantic salmon identified from a 7K SNP-chip</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Karlsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lien</forename><forename type="middle">S</forename><surname>Glover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Hindar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1755-0998.2010.02959.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="247" to="253" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Lessons learned from Japanese marine finfish stock enhancement programmes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kitada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kishino</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.fishres.2006.03.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Fish Res</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="101" to="112" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Genetic effects of long-term stock enhancement programs</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kitada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shishidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kitakado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hamasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kishino</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aquaculture.2009.02.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aquaculture</title>
+		<imprint>
+			<biblScope unit="volume">290</biblScope>
+			<biblScope unit="page" from="69" to="79" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Gadoid mariculture: development and future challenges</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">S</forename><surname>Kjesbu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Taranger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Trippel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icesjms.2005.12.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ICES J Mar Sci</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="187" to="191" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Compromising genetic diversity in the wild: unmonitored large-scale release of plants and animals</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Laikre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ryman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tree.2010.06.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="520" to="529" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Dynamics of introgressive hybridization assessed by SNP population genomics of coding genes in stocked brook charr (Salvelinus fontinalis)</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Lamaze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sauvage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie</forename><forename type="middle">A</forename><surname>Garant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bernatchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2012.05579.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="2877" to="2895" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Stocking impacts the expression of candidate genes and physiological condition in introgressed brook charr (Salvelinus fontinalis) populations</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Lamaze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Garant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bernatchez</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/eva.12022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Evol Appl</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="393" to="407" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Status of research in stock enhancement and sea ranching</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Leaño</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/B%3ARFBF.0000019477.97551.73</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rev Fish Biol Fish</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="151" to="163" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Estimating the effective number of breeders from heterozygote excess in progeny</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Cornuet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="1211" to="1216" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Assignment methods: matching biological questions with appropriate techniques</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Manel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">E</forename><surname>Gaggiotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tree.2004.12.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="136" to="142" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Mass media influence and the regulation of illegal practices in the seafood market</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mariani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bréchon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Sacchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/conl.12085</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Lett</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="478" to="483" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Statistical confidence for likelihood-based paternity</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Kruuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pemberton</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-294x.1998.00374.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="639" to="655" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Fitness reduction and potential extinction of wild populations of Atlantic salmon, Salmo salar, as a result of interactions with escaped farm salmon</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcginnity</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Prodohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hynes</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Others</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2003.2520</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc R Soc Lond B Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page" from="2443" to="2450" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">SNPs in ecology, evolution and conservation</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tree.2004.01.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="208" to="216" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A framework for understanding the potential for emerging diseases in aquaculture</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Peeler</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.prevetmed.2004.10.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prev Vet Med</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="223" to="235" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Interactions between aquaculture and fisheries</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Natale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hofherr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fiore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Virtanen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.marpol.2012.05.037</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Policy</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="205" to="213" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Effect of aquaculture on world fish supplies</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Naylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Goldburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Primavera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kautsky</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Others</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/35016500</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">405</biblScope>
+			<biblScope unit="page" from="1017" to="1024" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Feeding aquaculture in an era of finite resources</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Naylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Hardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Bureau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Others</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0905235106</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="15103" to="15110" />
+			<date type="published" when="2009">2009</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Hybridlab (version 1.0): a program for generating simulated hybrids from population samples</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Bach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kotlicki</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1471-8286.2006.01433.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="971" to="973" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Population genomics of marine fishes: identifying adaptive variation in space and time</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hemmer-Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bekkevold</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2009.04272.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="3128" to="3150" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Gene-associated markers provide tools for tackling ille-gal fishing and false eco-certification</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cariani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Aoidh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Maes</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Others</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms1845</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="851" to="856" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Genetic investigation of the large-scale escape of a tropical fish, barramundi Lates calcarifer, from a sea-cage facility in northern Australia</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Noble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Smith-Keune</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jerry</forename><surname>Dr</surname></persName>
+		</author>
+		<idno type="DOI">10.3354/aei00106</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aquacult Environ Interact</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="173" to="183" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Fisheries forensics: the use of DNA tools for improving compliance, traceability and enforcement in the fishing industry</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ogden</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-2979.2008.00305.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Fish Fish</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="462" to="472" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Genetic assignment methods for the direct, real-time estimation of migration rate: a simulation-based exploration of accuracy and power</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Slade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Estoup</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-294X.2004.02008.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="55" to="65" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">GENECLASS2: a software for genetic assign ment and first-generation migrant detection</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Piry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alapetite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Cornuet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Baudouin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Estoup</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jhered/esh074</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Hered</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="536" to="539" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Genetic structure and genetic relatedness of a hatchery stock of Senegal sole (Solea senegalensis) inferred by microsatellites</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Porta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Porta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Martínez-Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Alvarez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aquaculture.2005.05.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aquaculture</title>
+		<imprint>
+			<biblScope unit="volume">251</biblScope>
+			<biblScope unit="page" from="46" to="55" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Development of a microsatellite multiplex PCR for Senegalese sole (Solea senegalensis) and its appli cation to broodstock management</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Porta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Porta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Martínez-Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Alvarez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aquaculture.2006.02.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aquaculture</title>
+		<imprint>
+			<biblScope unit="volume">256</biblScope>
+			<biblScope unit="page" from="159" to="166" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Substantial loss of genetic variation in a single generation of Senegalese sole (Solea senegalensis) culture: implications in the domestication process</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Porta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Porta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Martínez-Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Alvarez</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1095-8649.2007.01576.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Fish Biol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="223" to="234" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">R : a language and environment for statistical computing</title>
+		<author>
+			<orgName type="collaboration">R Development Core Team</orgName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">R Foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Worldwide status and perspective on gadoid culture</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rosenlund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Skretting</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icesjms.2005.11.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ICES J Mar Sci</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="194" to="197" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Towards a reduction of pollution from intensive aquaculture with reference to the farming of salmonids in Norway</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Seymour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bergheim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0144-8609(91)90001-Z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aquacult Eng</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="73" to="88" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Evidence for &apos;escape through spawning&apos; in large gilthead sea bream Sparus aurata reared in commercial sea-cages</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Somarakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pavlidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Saapoglou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tsigenopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dempster</surname></persName>
+		</author>
+		<idno type="DOI">10.3354/aei00057</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aquacult Environ Interact</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="135" to="152" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Post-release survival and feeding in reared turbot</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Sparrevohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Støttrup</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.seares.2006.08.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sea Res</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="151" to="161" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">A validation of parentage-based tagging using hatchery steelhead in the Snake River basin</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Steele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Ackerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Narum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Campbell</surname></persName>
+		</author>
+		<idno type="DOI">10.1139/cjfas-2012-0451</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Fish Aquat Sci</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1046" to="1054" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The effects of 118 years of industrial fishing on UK bottom trawl fisheries</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Thurstan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brockington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Roberts</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms1013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Regional environmental pressure influences population differentiation in turbot (Scophthalmus maximus)</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Vandamme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Maes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jam</forename><surname>Raeymaekers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cottenie</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Others</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mec.12628</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="618" to="636" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">From theory to practice: empirical evaluation of the assignment power of marker sets for pedigree analysis in fish breeding</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vandeputte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Rossignol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pincent</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aquaculture.2011.01.043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aquaculture</title>
+		<imprint>
+			<biblScope unit="volume">314</biblScope>
+			<biblScope unit="page" from="80" to="86" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">High-grading bias: subtle problems with assessing power of selected subsets of loci for population assignment</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2010.04675.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="2599" to="2601" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Timme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lowell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hirshfield</surname></persName>
+		</author>
+		<ptr target="http://oceana.org/en/news-media/publications/reports/oceana-study-reveals-seafood-fraud-nationwide" />
+		<title level="m">Oceana study reveals seafood fraud nationwide</title>
+		<imprint>
+			<publisher>Oceana</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Effects of aquaculture on wild fish populations : a synthesis of data</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Weir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jwa</forename><surname>Grant</surname></persName>
+		</author>
+		<idno type="DOI">10.1139/a05-012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Rev</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="145" to="168" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">DNA barcoding detects market substitution in North American seafood</title>
+		<author>
+			<persName><forename type="first">Ehk</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Hanner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodres.2008.07.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Food Res Int</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="828" to="837" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

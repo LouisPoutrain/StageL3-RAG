@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Application of DNA barcoding techniques to mammal inventories in the African rain forest: droppings may inform us of the owners</title>
+				<funder>
+					<orgName type="full">Agence National des Parcs Nationaux of the Gabonese Government</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">JST/JICA</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Science and Technology Research Partnership for Sustainable Development (SATREPS)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Eiji</forename><surname>Inoue</surname></persName>
+							<email>inoue@jinrui.zool.kyoto-u.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department">Graduate School of Science</orgName>
+								<orgName type="institution">Kyoto University</orgName>
+								<address>
+									<postCode>606-8502</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Etienne</forename><surname>François Akomo-Okoue</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Graduate School of Science</orgName>
+								<orgName type="institution">Kyoto University</orgName>
+								<address>
+									<postCode>606-8502</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institut de Recherche en Ecologie Tropicale (IRET/CENAREST)</orgName>
+								<address>
+									<postBox>BP 13354</postBox>
+									<settlement>Libreville</settlement>
+									<country key="GA">Gabon</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Application of DNA barcoding techniques to mammal inventories in the African rain forest: droppings may inform us of the owners</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">AD87C9011365FB43FF23538D1EC4D8A9</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:34+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>DNA barcoding</term>
+					<term>mammal inventory</term>
+					<term>noninvasive genetics</term>
+					<term>species identification</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The DNA barcoding of fecal samples was used to inventory large-and medium-sized terrestrial mammals in the African rain forest. First, the appropriate DNA region for the genetic identification of various species was determined. Although a region of mitochondrial cytochrome c oxidase I has been commonly used for DNA barcoding, the number of mammal species in which sequences of the region have been registered in the GenBank is limited, with the mitochondrial cytochrome b region (cytb) representing the most appropriate region for this type of analysis. Hence, genetic species identification was conducted using the mitochondrial cytb region for most samples, while the control region was used for small ungulates. We collected 259 fresh fecal samples of mammals in Moukalaba-Doudou National Park, Gabon. More than 70 % of analyzed samples produced sequences. The species was identified by examining the sequence identity between the sample and the identified species and that between the sample and the next closest species, or by constructing a phylogenetic tree containing closely related species. In total, the sequences of 19 mammal species were obtained. A smaller number of species were recorded by DNA barcoding compared to camera traps placed in the study area; however, DNA analyses were effective at discriminating morphologically similar species, such as small ungulates and carnivores, some of which were difficult to identify even when using camera traps. Genetic species identification using feces, in combination with direct observation and/or camera traps, can be useful for the accurate inventory of large-and medium-sized terrestrial mammals.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Mammal inventory is important to investigate the biodiversity of certain regions, such as protected areas. However, it is difficult to record nocturnal and/or shy mammal species by direct observation. As a result, recent advances in mammal inventories have involved the use of camera traps <ref type="bibr" target="#b43">(Trolle 2003</ref><ref type="bibr" target="#b49">, Yasuda 2004</ref><ref type="bibr" target="#b35">, Srbek-Araujo and Chiarello 2005</ref><ref type="bibr" target="#b15">, Giman et al. 2007</ref><ref type="bibr" target="#b41">, Tobler et al. 2008</ref><ref type="bibr" target="#b29">, Nakashima 2015)</ref>. Camera trapping has become one of the useful methods for monitoring large-and medium-sized terrestrial mammals. However, it is difficult to discriminate among species that have similar morphological characteristics, such as small carnivores and small ungulates. It is possible to use certain distinctive criteria to distinguish similar-looking species (e.g., <ref type="bibr" target="#b2">Bahaa-El-Din et al. 2013)</ref>; however, these criteria cannot be checked from some camera angles. Feces may provide another candidate for inventorying mammals, because feces are relatively easy to observe and collect, particularly for large-and medium-sized terrestrial mammals. Although it is easy to identify some mammal species from the morphological aspects of feces, such as elephants and buffaloes, genetic species identification, including DNA barcoding, is necessary for other mammal species, such as small carnivores and small ungulates. Fortunately, recent improvements in noninvasive genetics have facilitated the analysis of DNA sequences using mammal feces <ref type="bibr" target="#b37">(Taberlet et al. 1999</ref><ref type="bibr" target="#b32">, Nsubuga et al. 2004</ref>). Genetic species identification using short DNA sequence has been conducted since the 1980＇s, with a significant increase the number of papers including the term "DNA barcode" since 2003 <ref type="bibr" target="#b40">(Taylor and Harris 2012)</ref>. This tool is powerful for taxa in which species identification by morphological traits alone is difficult because of the phenotypic plasticity of the trait, the existence of cryptic taxa, or phenotypic differences between sexes or among life stages <ref type="bibr" target="#b44">(Valentini et al. 2009)</ref>. Consequently, there is taxonomic bias in studies using DNA barcoding, with only a few studies focusing on mammals <ref type="bibr" target="#b40">(Taylor and Harris 2012)</ref>. For mammals, DNA barcoding has been mainly applied in rodents <ref type="bibr" target="#b3">(Borisenko et al. 2008</ref><ref type="bibr" target="#b11">, Galan et al. 2012</ref>) and bats <ref type="bibr" target="#b7">(Clare et al. 2007</ref><ref type="bibr" target="#b10">, Francis et al. 2010)</ref>.</p><p>DNA barcoding may also represent a powerful tool for identifying species from a part of the animal (i.e., hair/fur, claws, or skin) or its droppings. For example, to monitor illegal trade, hair/fur samples in shaving brushes and in shahtoosh were used for the genetic identification of the Eurasian badger (Meles meles) and Tibetan antelope (Pantholops hodgsonii), respectively <ref type="bibr" target="#b9">(Domingo-Roura et al. 2006</ref><ref type="bibr" target="#b24">, Lee et al. 2006)</ref>. The method may also be applied to conservation biology. To monitor two sympatric endangered carnivores, the Amur leopard (Panthera pardus oriental) and the Siberian tiger (Panthera tigris altaica), genetic species identification using fecal samples was conducted <ref type="bibr" target="#b36">(Sugimoto et al. 2006</ref>). Genetic species identification using fecal samples was also conducted in tropical forests to investigate species distribution, their abundance, and their food <ref type="bibr">(Miotto et al. 2007</ref><ref type="bibr" target="#b31">, Napolitano et al. 2008</ref><ref type="bibr" target="#b45">, van Vliet et al. 2008</ref><ref type="bibr" target="#b4">, Bowkett et al. 2009</ref><ref type="bibr" target="#b30">, Nakashima et al. 2010)</ref>.</p><p>These studies indicate the possibility of conducting mammal inventories using mammal feces.</p><p>The mitochondrial gene cytochrome c oxidase I (COI) has been frequently used for animal species after it was reported that the region could serve as a genetic barcode for animals <ref type="bibr">(Hebert et al. 2003, Taylor and</ref><ref type="bibr" target="#b40">Harris 2012)</ref>. <ref type="bibr" target="#b19">Hebert et al. (2003)</ref> selected this region because the universal primers were very robust, and because COI appeared to contain a greater range of phylogenetic signal. However, in the forensic study of the Eurasian badger (Meles meles), species identification using the COI region failed, because COI reference sequence data did not exist for this species in the GenBank at the time of the study <ref type="bibr" target="#b8">(Dawnay et al. 2007</ref>). When using genetic species identification based on feces, reference sequences must exist in the GenBank. However, the reference sequences of the COI region for some largeand medium-sized mammals may not exist, because of DNA barcoding focusing on just rodents and bats to date. Therefore, it is necessary to search the DNA region where sequences are already registered for most target mammals, before conducting genetic species identification using fecal samples.</p><p>In this study, we applied DNA barcoding to inventory mammals in an African rain forest in Gabon. First, the numbers of registered sequences of several mitochondrial regions for target mammal species was investigated, to select appropriate DNA regions. Second, we conducted genetic species identification using the fecal samples of species that were easily identified based on their morphological characteristic, to confirm the accuracy of this method. Third, genetic species identification using the fecal samples of species that were difficult to identify based on their morphology was conducted, such as small carnivores and small ungu-lates which were abundant in the study area <ref type="bibr" target="#b29">(Nakashima 2015)</ref>. Finally, we discuss the utility of this method for mammal inventories and compared it with data collected by camera traps and direct observation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA database survey</head><p>We surveyed the number of registered sequences in target DNA regions for target species using the NCBI Gen-Bank on September 27, 2013. The target species were the large-to medium-sized mammals that had been recorded in Gabon by <ref type="bibr" target="#b6">Christy et al. (2008)</ref>, excluding aquatic mammals and rodents (Appendix). Essentially, only species from which feces might be collected from the ground were selected. We included arboreal mammals because their feces might be collected. One of the target DNA regions was the COI, which has been used for many DNA barcoding studies. Other target DNA regions were three mitochondrial coding regions─cytochrome b (cytb) and two ribosomal RNA genes (16S rRNA and 12S rRNA)─because these regions have been used for the phylogenetic analyses of mammals <ref type="bibr" target="#b0">(Allard and Honeycutt 1992</ref><ref type="bibr" target="#b21">, Johnson and O＇ Brien 1997</ref><ref type="bibr" target="#b17">, Hassanin and Douzery 1999</ref><ref type="bibr" target="#b5">, Castresana 2001</ref><ref type="bibr" target="#b34">, Quérouil et al. 2001</ref><ref type="bibr" target="#b42">, Tougard et al. 2001</ref><ref type="bibr" target="#b23">, Lecompte et al. 2002</ref><ref type="bibr" target="#b27">, Montgelard et al. 2002)</ref>. The number of complete mitochondrial genome sequences or almost complete genome sequences of mitochondrion (the length was longer than 15,000 base pairs) that have been registered were also counted, because the sequences included all of the candidate genetic regions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample collection and DNA analyses</head><p>We (mainly E.I.) collected the fecal samples of mammals in Moukalaba-Doudou National Park between September and November 2009 (totaling 42 study days). The national park is located in southern Gabon and consists of a mosaic of forest, savanna, and swamp. We followed one habituated gorilla group (Group Gentil; <ref type="bibr" target="#b1">Ando et al. 2008</ref><ref type="bibr">, Inoue et al. 2013</ref>) on some days, and walked around a 30 km 2 area, mainly along with 6 phenology transects located in study area <ref type="bibr" target="#b38">(Takenoshita et al. 2008)</ref>, on other days, collecting fresh fecal samples using cotton swabs. We collected fecal samples not only in the forest but also in the savanna. Fecal samples were maintained in 2 ml lysis buffer solution containing 0.5 % SDS, 100 mM EDTA (pH 8.0), 100 mM Tris-HCl (pH 8.0), and 10 mM NaCl <ref type="bibr" target="#b18">(Hayaishi and Kawamoto 2006)</ref>.</p><p>The feces of some mammals had species-specific morphological characteristics from which it was easy to identify the species. In Moukalaba, these animals included gorilla (Gorilla gorilla), chimpanzee (Pan troglodytes), elephant (Loxodonta africana), buffalo (Syncerus caffer), red river hog (Potamochoerus porcus), and waterbuck (Kobus ellipsiprymnus). For the mammal samples that could be easily identified, we analyzed the sequences of two samples from each species. In contrast, it was difficult to identify the species of carnivores, small ungulates, and rodents from fecal morphology. For these mammals, we analyzed the sequences of all the samples that we collected.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extraction and sequencing analyses</head><p>DNA extraction was conducted using a QIAamp DNA Stool Mini Kit (Qiagen, Tokyo, Japan). For genetic species identification, primers L14841 and H15149 were used to amplify an approximate 300-bp fragment of the cytb gene (Table <ref type="table" target="#tab_0">1</ref>, <ref type="bibr" target="#b47">Veron and Heard 2000)</ref>. We used cytb in all cases, except for small ungulates. For carnivores, the sequencing results from some samples were contaminated, probably because the feces also contained the DNA of prey mammals. For samples where the sequencing results were unclear, Panthera-specific primers, PL1 and PH1 (Table <ref type="table" target="#tab_0">1</ref>, <ref type="bibr" target="#b28">Nagata et al. 2005)</ref>, were used, because leopards frequently eat other mammals. For small ungulates, the mitochondrial control region (around 675 bp) was used for species identification, because the region was reported to be superior in terms of identifying African duiker species compared to cytb (Table <ref type="table" target="#tab_0">1</ref>, <ref type="bibr" target="#b33">Ntie et al. 2010)</ref>.</p><p>Polymerase chain reaction (PCR) amplifications were carried out in a total 15-µl volume, containing 2 µl template, 150 µM of each dNTP, 200 nM of each primer, 0.2 µl of T4 gene 32 protein (Nippon Gene, Tokyo, Japan), and 0.5 U Expand High Fidelity enzyme mix (Roche Diagnostics, Tokyo, Japan) in the PCR buffer supplied by the manufacturer. After initial incubation at 95℃ for 5 min, 45 amplification cycles were performed with denaturation at 94℃ for 30 s, annealing at 50-55℃ (see Table <ref type="table" target="#tab_0">1</ref>) for 30 s, and extension at 72℃ for 30 s. This process was followed by a final extension at 72℃ for 30 min. PCR products were purified using ExoSap IT (USB, Cleveland, USA), and sequencing was carried out on an ABI3130xl (Applied Biosystems, Foster City, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genetic identification of species</head><p>The sequences were aligned and edited with MEGA5 <ref type="bibr" target="#b39">(Tamura et al. 2011)</ref>. Using NCBI BLAST embedded in MEGA5, the closest sequence to the target sequence was searched, and the percent identity of the two sequences was recorded. The identity of the target sequence to the next closest species sequence was also recorded. If there was a gap between the identity of the closest species sequence and that of the next closest species sequence, the closest species was identified as the target species. When the percent identity of the closest species sequence was low (less than 98 %), a neighbor-joining phylogenetic tree, which contained closely related species sequences and one outgroup species sequence, was constructed using MEGA5 with Kimura 2-parameter model.</p><p>For central African duikers (Genera: Philantomba and Cephalophus), tree-based analyses that were constructed using control region sequences were used as the best method to identity species <ref type="bibr" target="#b33">(Ntie et al. 2010)</ref>. After editing the sequence using MEGA5, the closest sequence was searched by NCBI BLAST. We aligned all of the sequences that were close to the duiker sequences, and then constructed a neighbor-joining phylogenetic tree, which included the reference sequences of duikers, with sunis (Neotragus moschatus) as an outgroup <ref type="bibr" target="#b33">(Ntie et al. 2010)</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA database survey</head><p>We surveyed the registered sequences of 61 mammal species; namely, 20 Primates, 17 Carnivora, three Pholidota, one Tubulidentata, one Hyracoidea, one Proboscidea, and 18 Cetartiodactlya species (Appendix). Among these species, cytb regions were registered for 45 species (Table <ref type="table" target="#tab_1">2</ref>). Including mitochondrial genome information, information on cytb sequences was available for 53 species. The number of available species in the other regions was comparatively limited (Table <ref type="table" target="#tab_1">2</ref>). In particular, the number of registered carnivore species for the cytb region was larger compared to the other regions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genetic identification of species that are easily identified from fecal morphology</head><p>Twenty-five gorilla, 22 chimpanzee, 47 elephant, 31 buffalo, 13 red river hog, and 17 waterbuck fecal samples were collected. Two samples in each species were sequenced and clear sequences of the cytb region were successfully obtained from almost all the analyzed fecal samples. We failed to amplify the target region of just one sample (red river hog), hence a third sample of this species was sequenced. All of the analyzed sequences showed high similarity (more than 98 % identity) to the reference sequences of corresponding species and there was a gap between the sequence identity of the corresponding species and that of the next closest species (Table <ref type="table" target="#tab_2">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genetic identification of rodents</head><p>One rodent fecal sample was collected, and a sequence in the cytb region was obtained from this sample. The percent identity of the closest species sequence (African brush-tailed porcupine, Atherurus africanus) was 98 %, and that to the next closest species (crested porcupine, Hystrix cristata) was low (85 %, Table <ref type="table" target="#tab_2">3</ref>). Although there was a lack of information on the closest species, the Asiatic brushtailed Porcupine (Atherurus macrourus), in GenBank, the species from which our sample was derived was unambiguously identified as the African brush-tailed porcupine.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genetic identification of carnivores</head><p>Thirty-one fecal samples were collected. Clear cytb sequences for 22 out of 31 samples were obtained using L14841 and H15149 primers. Nine samples failed, of which just one sample produced a clear sequence (Carnivore_24) using PL1 and PH1 primers. High identity (99-100 %) to the registered sequences confirmed that there was one sample of servaline genet (Genetta servalina), three samples (the same sequences) of long-snouted mongoose (Herpestes naso), four samples (the same sequences) of African civet (Civettictis civetta), two samples (two different sequences) of marsh mongoose (Atilax paludinosus), and eight samples (two sequences) of Egyptian mongoose (Herpestes ichneumon, Table <ref type="table" target="#tab_2">3</ref>). The sequence from Carnivore_24 was closest to the registered leopard sequence; however, the identity was not high (96 %, Table <ref type="table" target="#tab_2">3</ref>). A neighbor-joining phylogenetic tree was constructed using Carnivore_24 and several Panthera species sequences, with the domestic cat (Felis catus) sequence as the outgroup (Fig. <ref type="figure" target="#fig_0">1</ref>). Carnivore_24 was clustered together with the leopard sequences (Panthera pardus orientalis), hence we concluded that the fecal sample belonged to the African leopard (Panthera pardus pardus). The sequences of Carnivore_05, 07, 21, and 27 were identical, with the identity of the registered sequences being low (91 %, Table <ref type="table" target="#tab_2">3</ref>). From the fecal size, the feces were inferred to be those of the African golden cat (Caracal aurata). No sequences of this species were found in the NCBI GenBank; however, the sequence information was available in the supporting materials of <ref type="bibr" target="#b22">Johnson et al. (2006)</ref>. A neighbor-joining phylogenetic tree was constructed using our sequences, while the sequences of the African ＊ The identity of the closest sequences was low by NCBI BLAST analyses (91% to Acinonyx jubatus). The identities to the sequences of Caracal species (described in the supporting materials of <ref type="bibr" target="#b22">Johnson et al. 2006</ref>) are shown in this table. TROPICS Vol. 23 (4)   golden cat and close species were retrieved from <ref type="bibr" target="#b22">Johnson et al. (2006)</ref>. The samples were clustered together with the African golden cat (Fig. <ref type="figure">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genetic identification of small ungulates</head><p>We collected 72 fecal samples. The control region sequences were successfully obtained from 60 out of 72 fecal samples. Thirty-one different sequences were obtained from 60 samples. NCBI BLAST results showed that five fecal samples (three different sequences) belonged to water chev- rotain (Hyemoschus aquaticus) with high similarity (99-100 % identity). We concluded that the sample belonged to water chevrotain because the identity of these three sequences to the next closest species did not exceed 90 %.</p><p>The closest species of the other 55 samples (28 different sequences) were duiker sequences (Genera: Philantomba and Cephalophus). The species identification of the duiker samples was conducted using a phylogenetic tree (Fig. <ref type="figure">3</ref>). The phylogeny showed that there were 40 samples (21 different sequences) of blue duikers (Philantomba monticola), five samples (two sequences) of yellow-backed duikers (Cephalophus silvicultor), one sample of bay duiker (Cephalophus Fig. <ref type="figure">3</ref>. Median-joining tree of the mitochondrial control region of duikers and our samples (Duiker_01-73), using the suni (Neotragus moschatus) as an outgroup. Bootstrap values based on 10,000 replicates are shown above the relevant branches. TROPICS Vol. 23 (4)   dorsalis), and nine samples (four sequences) of Ogilby＇s (Cephalophus ogilbyi) or Peters＇ duikers (Cephalophus callipygus).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA region for species identification using unknown samples</head><p>The genomic information of target species in the DNA database is required to identify unknown species samples. A survey of the DNA database showed that a part of the cytb region was appropriate, at least at the time of study, for the identification of mammal species in Gabon, particularly carnivores (Table <ref type="table" target="#tab_1">2</ref>). However, information about some mammal species was not available, even with cytb. More genetic information must be collected to identify the species belonging to the unknown samples. In such cases, any mitochondrial gene may be a candidate region, because <ref type="bibr" target="#b25">Luo et al. (2011)</ref> found no significant difference in intra-or interspecific variability among mitochondrial genes using several mammals. One important issue when selecting target regions is the universal primers. COI may be a candidate region because universal primers may be applied to most, if not all, animal phyla <ref type="bibr">(Herbert et al. 2003)</ref>. This study showed that the cytb primers (L14841 and H15149) are useful for all target mammals in Gabon. Recent genetic improvements have facilitated the sequencing of the whole mitochondrial genome. Therefore, more genetic information will be available for identifying species using unknown samples in the future.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Success rate of sequencing using fecal samples</head><p>PCR amplification using fecal samples may be difficult because of low DNA concentration and the presence of PCR inhibitors <ref type="bibr" target="#b48">(Waits and Paetkau 2005)</ref>. The sequences of various mammals were obtained using a single method in this study. The success rate of sequence determination was quite high; specifically, 74 % (23/31) for carnivores, 83 % (60/72) for small ungulates, and 93 % (13/14) for all other mammals. These results indicate that almost fresh mammal feces provide DNA sequences using our method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accuracy of species identification</head><p>The genetic identification of species that are easy to identify from fecal morphology confirmed the accuracy of the method. We examined the difference between the sequence identity of the sample to the identified species and that to the next closest species (Table <ref type="table" target="#tab_1">2</ref>). A difference was found in most examined species, with high identity to the identified species. In chimpanzees and elephants, the identity of the next closest species was high; however, there was a gap between the identity to the identified species and that to the next closest species. It was not possible to misidentify these species because the distribution of the second candidate species of chimpanzees was different (bonobos, Pan paniscus), while the second candidate species of elephants is extinct (mammoths, Mammuthus primigenius).</p><p>For leopards and golden cats, the sequence identity to the identified species was not high (96 %). The sequence data of close species was available, and the phylogenetic tree using these data confirmed the same cluster with the corresponding species. In addition, the camera trap analyses (Table <ref type="table" target="#tab_3">4</ref>, Nakashima 2015) also confirmed the existence of these species. Low identity to the identified species was caused by their geographical distribution and the availability of limited genetic data. In the case of the leopard, the registered sequences, including subspecies information, were those of only Amur leopards (Panthera pardus orientalis). Their sequences might be slightly different to the African leopard subspecies (Panthera pardus pardus). For golden cats, the wide geographical distribution and limited genetic information might influence the low identity. The geographical sampling site from which the reference sequence was obtained was probably far from our sampling site, which caused intra-genetic variation. In addition, in African buffaloes and the African brush-tailed porcupines, which are widely distributed across equatorial Africa, and which have limited registered sequences, the identity to the identified species was slightly low (98 %, Table <ref type="table" target="#tab_1">2</ref>). This result indicates that the identity to the identified species depends on the volume of registered sequence data.</p><p>The two duiker species, Ogilby＇s and Peters＇ duikers, were not identified, even when using a phylogenetic tree (Fig. <ref type="figure">3</ref>). There was low genetic variation (less than 1 %) among all four sequences that were identified as Ogilby＇s or Peters＇ duikers in this study. Previous studies indicate that these two species have high genetic similarity in the mitochondrial genome, along with it being difficult to identify these species using mitochondrial genetic information <ref type="bibr" target="#b33">(Ntie et al. 2010</ref><ref type="bibr" target="#b16">, Hassanin et al. 2012)</ref>. <ref type="bibr" target="#b16">Hassanin et al. (2012)</ref> suggested that these two species, including another similar species (Cephalophus weynsi), might be subspecies, rather than species rank status. Nucleic genetic information and the reassessment of the taxonomy of these duikers are required.</p><p>The most problematic case was the servaline genet sample (carnivore_01, Table <ref type="table" target="#tab_2">3</ref>). The sequence was identical to the sequence of servaline genets (Genetta servalina). However, the identity to the next closest species, crested genets (Genetta cristata), was 99 %. <ref type="bibr" target="#b12">Gaubert and Begg (2007)</ref> showed that the two registered sequences of crested genets were actually chimeric sequences, and suggested that this phenomenon might be caused by the experimental procedure of extracting skin samples from museum specimens. Therefore, the species in our sample was identified as a servaline genet. Hybridization between these two species has also reported <ref type="bibr" target="#b14">(Gaubert et al. 2006</ref>); therefore, it was 1, 2 Data of camera traps and direct observation was modified from the data in Nakashima (2015).</p><p>3-6 Species with the same superscript number could not always be distinguished from one another even when using camera traps.</p><p>difficult to conclude the species based on the genetic data from just one sample.</p><p>The high accuracy in species identification in this study was because the sequence data of almost small carnivores and ungulates was available, because detailed phylogenetic studies of genets <ref type="bibr" target="#b13">(Gaubert et al. 2004</ref>) and mongooses <ref type="bibr" target="#b46">(Veron et al. 2004</ref>) have been conducted, and because of comprehensive species diagnostic studies of small ungulates <ref type="bibr" target="#b33">(Ntie et al. 2010)</ref>. However, sufficient genetic information was not available for widely distributed species, such as leopards, golden cats, buffaloes, and porcupines. In the GenBank, the information on the original geographic location of many sequence samples was missing. More sequence data, including sample geographic location, are required for accurate species identification and conservation practice, such as illegal trade detection using genetic techniques <ref type="bibr" target="#b8">(Dawnay et al. 2007)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison with direct observation and camera traps</head><p>The sequences of 19 mammal species were obtained in this study. It is often difficult to record nocturnal and/or shy mammal species by direct observation. Compared to direct observation data in the same study site, Moukalaba (Nakashima 2015), several species of small carnivores were only identified by DNA barcoding (Table <ref type="table" target="#tab_3">4</ref>). In addition, DNA barcoding identified the species which would have been difficult to identify accurately by direct observation alone, such as mongoose, genet, and duiker species. Therefore, DNA barcoding, which has the potential to provide the accurate species information, represents a useful tool to inventory mammals, especially small carnivores. On the other hand, arboreal primates such as mangabeys and guenons were recorded by direct observation, but we did not collect their fecal samples probably due to their arboreal ecology.</p><p>The disadvantage for arboreal species might be important to be considered when applying DNA barcoding to mammal inventory.</p><p>A smaller number of species were recorded by DNA barcoding compared to camera traps in this study (Table <ref type="table" target="#tab_3">4</ref>, <ref type="bibr" target="#b29">Nakashima 2015)</ref>. Most of the species that were only recorded by camera traps were arboreal carnivores and pangolins. One of the reasons why only a limited number of species were identified by DNA barcoding was the effort required for sample collection. Only 42 study days by primarily one researcher were required to collect the feces from 19 mammal species. The feces in open area are easy to find compared with those in dense forest and feces containing fibers remain longer period. Therefore, the species which defecated in open area or deposited feces with fibers might be easily collected and only a few efforts might be needed to collect them. Greater effort to search feces, such as searching the dense forest carefully, is required in order to increase the number of species identified by DNA barcode.</p><p>In addition, some species were difficult to discriminate even when using camera traps, but were identified by DNA barcode. For instance, two mongooses (long-snouted mongoose, Herpestes naso; marsh mongoose, Atilax paludinosus) and three red duikers (bay duiker, Cephalophus dorsalis; Peters＇ duiker, Cephalophus callipygus; Ogilby＇s duiker Cephalophus ogilbyi) cannot be always distinguished by camera traps. However, it was also not possible to discriminate the two duiker species (Peters＇ and Ogilby＇s duiker) by DNA analyses, because of their similarity in mitochondrial genome <ref type="bibr" target="#b33">(Ntie et al. 2010</ref><ref type="bibr" target="#b16">, Hassanin et al. 2012)</ref>. Ultimately, species identification by DNA barcode probably has the advantage of discriminating even morphologically similar species, as long as sufficient data are available. In conclusion, DNA barcoding of fecal samples, in combination with direct observation and/or camera traps, may be a powerful tool for accurate mammal inventory. This method may be useful in the place where there has not been intensive research and there exists several species of small carnivores and ungulates.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Median-joining tree of mitochondrial cytochrome b region of Panthera species and our sample (Carniovre_24), using the domestic cat (Felis catus) as an outgroup. Bootstrap values based on 10,000 replicates are shown above the relevant branches.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Primers used for the genetic identification of species</figDesc><table><row><cell>Region</cell><cell cols="2">Primers Sequence</cell><cell>Ta ＊ Reference</cell></row><row><cell>Cytochrome b</cell><cell cols="2">L14841 5′-CATCCAACATCTCAGCATGATGAAA-3′ H15149 5′-AAACTGCAGCCCCTCAGAATGATATTTGTCCTCA-3′</cell><cell>50 Veron and Heard 2000</cell></row><row><cell>Cytochrome b for Panthera</cell><cell>PL1 PH1</cell><cell>5′-CYAAYAACCCCTCAGGAATGGT-3′ 5′-CGTTGTTTGGAWGTGTGGAGRGC-3′</cell><cell>55 Nagata et al. 2005</cell></row><row><cell>Control region</cell><cell cols="2">CR F1 CR R3 5′-CCTGAAGRAAGAACCAGATGTC-3′ 5′-CTCCCTAAGGCTCAAGGAAGC-3′</cell><cell>55 Ntie et al. 2010</cell></row></table><note><p><p>＊ Ta indicates annealing temperature TROPICS</p>Vol. 23 (4)   </p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Number of species for which reference sequences in each target region is available in DNA databank</figDesc><table><row><cell>Order</cell><cell>No. studied species</cell><cell>Cytb</cell><cell>COI</cell><cell cols="2">12s rRNA 16s rRNA</cell></row><row><cell>Primates</cell><cell>20</cell><cell cols="2">11 (16) 12 (14)</cell><cell>16 (17)</cell><cell>15 (17)</cell></row><row><cell>Carnivora</cell><cell>17</cell><cell>14</cell><cell>5 (6)</cell><cell>1 (2)</cell><cell>5</cell></row><row><cell>Pholidota</cell><cell>3</cell><cell>1 (2)</cell><cell>1 (2)</cell><cell>0 (1)</cell><cell>0 (1)</cell></row><row><cell>Tubulidentata</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>1</cell></row><row><cell>Hyracoidea</cell><cell>1</cell><cell>0 (1)</cell><cell>0 (1)</cell><cell>1</cell><cell>0 (1)</cell></row><row><cell>Proboscidea</cell><cell>1</cell><cell>1</cell><cell>0 (1)</cell><cell>0 (1)</cell><cell>0 (1)</cell></row><row><cell>Cetartiodactyla</cell><cell>18</cell><cell cols="2">17 (18) 14 (17)</cell><cell>16 (18)</cell><cell>9 (18)</cell></row><row><cell>Total</cell><cell>61</cell><cell cols="2">45 (53) 33 (42)</cell><cell>35 (41)</cell><cell>30 (44)</cell></row></table><note><p>Complete or almost complete mitochondrial sequences of several species were registered. In such cases, we accessed all four target regions. The number including such instances is noted in parentheses.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Identity of the sample sequences to the identified and next closest species by NCBI BLAST</figDesc><table><row><cell></cell><cell>Identified species</cell><cell></cell><cell>Next closest species</cell><cell></cell></row><row><cell>Sample Name</cell><cell>Species</cell><cell>Identity</cell><cell>Species</cell><cell>Identity</cell></row><row><cell>Buffallo_1</cell><cell>Syncerus caffer</cell><cell>98%</cell><cell>Bubalus bubalis</cell><cell>91%</cell></row><row><cell>Buffallo_2</cell><cell>Syncerus caffer</cell><cell>98%</cell><cell>Bubalus bubalis</cell><cell>92%</cell></row><row><cell>Chimp_1</cell><cell>Pan troglodytes</cell><cell>100%</cell><cell>Pan paniscus</cell><cell>96%</cell></row><row><cell>Chimp_2</cell><cell>Pan troglodytes</cell><cell>100%</cell><cell>Pan paniscus</cell><cell>97%</cell></row><row><cell>Elephant_1</cell><cell>Loxodonta africana</cell><cell>100%</cell><cell>Mammuthus primigenius</cell><cell>96%</cell></row><row><cell>Elephant_2</cell><cell>Loxodonta africana</cell><cell>100%</cell><cell>Mammuthus primigenius</cell><cell>97%</cell></row><row><cell>Gorilla_1</cell><cell>Gorilla gorilla</cell><cell>100%</cell><cell>Homo sapiens</cell><cell>90%</cell></row><row><cell>Gorilla_2</cell><cell>Gorilla gorilla</cell><cell>100%</cell><cell>Homo sapiens</cell><cell>90%</cell></row><row><cell>Hog_1</cell><cell>Potamochoerus porcus</cell><cell>99%</cell><cell>Potamochoerus larvatus</cell><cell>94%</cell></row><row><cell>Hog_2</cell><cell>Potamochoerus porcus</cell><cell>99%</cell><cell>Potamochoerus larvatus</cell><cell>94%</cell></row><row><cell>Waterbuck_1</cell><cell>Kobus ellipsiprymnus</cell><cell>99%</cell><cell>Kobus kob</cell><cell>91%</cell></row><row><cell>Waterbuck_2</cell><cell>Kobus ellipsiprymnus</cell><cell>99%</cell><cell>Kobus kob</cell><cell>91%</cell></row><row><cell>Carnivore_1</cell><cell>Genetta servalina</cell><cell>100%</cell><cell>Genetta cristata</cell><cell>99%</cell></row><row><cell>Carnivore_2</cell><cell>Herpestes naso</cell><cell>99%</cell><cell>Herpestes urva</cell><cell>93%</cell></row><row><cell>Carnivore_4</cell><cell>Herpestes naso</cell><cell>99%</cell><cell>Herpestes urva</cell><cell>93%</cell></row><row><cell>Carnivore_16</cell><cell>Herpestes naso</cell><cell>99%</cell><cell>Herpestes urva</cell><cell>93%</cell></row><row><cell>Carnivore_3</cell><cell>Civettictis civetta</cell><cell>100%</cell><cell>Viverra megaspila</cell><cell>90%</cell></row><row><cell>Carnivore_18</cell><cell>Civettictis civetta</cell><cell>100%</cell><cell>Viverra megaspila</cell><cell>90%</cell></row><row><cell>Carnivore_19</cell><cell>Civettictis civetta</cell><cell>100%</cell><cell>Viverra megaspila</cell><cell>90%</cell></row><row><cell>Carnivore_20</cell><cell>Civettictis civetta</cell><cell>100%</cell><cell>Viverra megaspila</cell><cell>90%</cell></row><row><cell>Carnivore_6</cell><cell>Atilax paludinosus</cell><cell>100%</cell><cell>Herpestes ichneumon</cell><cell>93%</cell></row><row><cell>Carnivore_14</cell><cell>Atilax paludinosus</cell><cell>99%</cell><cell>Herpestes ichneumon</cell><cell>93%</cell></row><row><cell>Carnivore_8</cell><cell>Herpestes ichneumon</cell><cell>99%</cell><cell>Galerella sanguinea</cell><cell>93%</cell></row><row><cell>Carnivore_13</cell><cell>Herpestes ichneumon</cell><cell>99%</cell><cell>Galerella sanguinea</cell><cell>93%</cell></row><row><cell>Carnivore_15</cell><cell>Herpestes ichneumon</cell><cell>99%</cell><cell>Galerella pulverulenta</cell><cell>92%</cell></row><row><cell>Carnivore_17</cell><cell>Herpestes ichneumon</cell><cell>100%</cell><cell>Galerella pulverulenta</cell><cell>93%</cell></row><row><cell>Carnivore_22</cell><cell>Herpestes ichneumon</cell><cell>100%</cell><cell>Galerella pulverulenta</cell><cell>93%</cell></row><row><cell>Carnivore_26</cell><cell>Herpestes ichneumon</cell><cell>99%</cell><cell>Galerella sanguinea</cell><cell>93%</cell></row><row><cell>Carnivore_28</cell><cell>Herpestes ichneumon</cell><cell>100%</cell><cell>Galerella pulverulenta</cell><cell>93%</cell></row><row><cell>Carnivore_29</cell><cell>Herpestes ichneumon</cell><cell>99%</cell><cell>Galerella sanguinea</cell><cell>93%</cell></row><row><cell>Carnivore_24</cell><cell>Panthera pardus</cell><cell>96%</cell><cell>Panthera tigris</cell><cell>92%</cell></row><row><cell>Carnivore_5 ＊</cell><cell>Caracal aurata</cell><cell>96%</cell><cell>Panthera tigris</cell><cell>91%</cell></row><row><cell>Carnivore_7 ＊</cell><cell>Caracal aurata</cell><cell>96%</cell><cell>Panthera tigris</cell><cell>91%</cell></row><row><cell>Carnivore_21 ＊</cell><cell>Caracal aurata</cell><cell>96%</cell><cell>Panthera tigris</cell><cell>91%</cell></row><row><cell>Carnivore_27 ＊</cell><cell>Caracal aurata</cell><cell>96%</cell><cell>Panthera tigris</cell><cell>91%</cell></row><row><cell>Rodent_1</cell><cell>Atherurus africanus</cell><cell>98%</cell><cell>Hystrix cristata</cell><cell>85%</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Mammal inventory by DNA barcoding compared to that obtained using camera traps and direct observation in Moukalaba-Doudou National Park</figDesc><table><row><cell>Order</cell><cell>Scientific name</cell><cell>Common name</cell><cell cols="2">Camera 1 Direct 2</cell><cell>DNA</cell></row><row><cell>Primates</cell><cell>Pan troglodytes</cell><cell>Chimpanzee</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell></cell><cell>Gorilla gorilla</cell><cell>Western gorilla</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell></cell><cell>Mandrillus sphinx</cell><cell>Mandrill</cell><cell>+</cell><cell>+</cell><cell></cell></row><row><cell></cell><cell>Cercocebus torquatus</cell><cell>Red-capped mangabey</cell><cell>+</cell><cell>+</cell><cell></cell></row><row><cell></cell><cell>Lophocebus albigena</cell><cell>Grey-cheeked mangabey</cell><cell></cell><cell>+</cell><cell></cell></row><row><cell></cell><cell>Miopithecus ogouensis</cell><cell>Gabon talapoin</cell><cell></cell><cell>+</cell><cell></cell></row><row><cell></cell><cell>Cercopithecus pogonias</cell><cell>Crowned monkey</cell><cell></cell><cell>+</cell><cell></cell></row><row><cell></cell><cell>Cercopithecus nictitans</cell><cell>Putty-nosed monkey</cell><cell></cell><cell>+</cell><cell></cell></row><row><cell></cell><cell>Cercopithecus cephus</cell><cell>Moustached monkey</cell><cell></cell><cell>+</cell><cell></cell></row><row><cell></cell><cell>Euoticus elegantulus</cell><cell>Western needle-clawed galago</cell><cell>+</cell><cell>+</cell><cell></cell></row><row><cell></cell><cell>Galago spp. 3</cell><cell></cell><cell>+</cell><cell></cell><cell></cell></row><row><cell>Carnivora</cell><cell>Hydrictis maculicollis</cell><cell>Spotted-necked otter</cell><cell></cell><cell>+</cell><cell></cell></row><row><cell></cell><cell>Bdeogale nigripes</cell><cell>Black-legged mongoose</cell><cell>+</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Herpestes ichneumon</cell><cell>Egyptian mongoose</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell></cell><cell>Herpestes naso 4</cell><cell>Long-snouted mongoose</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell></cell><cell>Atilax paludinosus 4</cell><cell>Marsh mongoose</cell><cell>+</cell><cell></cell><cell>+</cell></row><row><cell></cell><cell>Civettictis civetta</cell><cell>African civet</cell><cell>+</cell><cell></cell><cell>+</cell></row><row><cell></cell><cell>Genetta servalina</cell><cell>Servaline genet</cell><cell>+</cell><cell></cell><cell>+</cell></row><row><cell></cell><cell>Genetta maculata</cell><cell>Rusty-spotted Genet</cell><cell>+</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Poiana richardsonii</cell><cell>African linsang</cell><cell>+</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Nandinia binotata</cell><cell>African palm civet</cell><cell>+</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Profelis aurata</cell><cell>African golden cat</cell><cell>+</cell><cell></cell><cell>+</cell></row><row><cell></cell><cell>Panthera pardus</cell><cell>Leopard</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell>Pholidota</cell><cell>Smutsia gigantea</cell><cell>Giant pangolin</cell><cell>+</cell><cell>+</cell><cell></cell></row><row><cell></cell><cell>Uromanis tetradactyla 5</cell><cell>Long-tailed pangolin</cell><cell>+</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Phataginus tricuspis 5</cell><cell>Tree pangolin</cell><cell>+</cell><cell></cell><cell></cell></row><row><cell>Proboscidea</cell><cell>Loxodonta africana</cell><cell>African elephant</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell cols="2">Cetartiodactyla Potamochoerus porcus</cell><cell>Red river hog</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell></cell><cell>Hyemoschus aquaticus</cell><cell>Water chevrotain</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell></cell><cell>Syncerus caffer</cell><cell>African buffalo</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell></cell><cell>Tragelaphus spekii</cell><cell>Sitatunga</cell><cell></cell><cell>+</cell><cell></cell></row><row><cell></cell><cell>Tragelaphus scriptus</cell><cell>Bushbuck</cell><cell>+</cell><cell>+</cell><cell></cell></row><row><cell></cell><cell>Philantomba monticola</cell><cell>Blue duiker</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell></cell><cell>Cephalophus silvicultor</cell><cell>Yellow-backed duiker</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell></cell><cell>Cephalophus dorsalis 6</cell><cell>Bay duiker</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell></cell><cell>Cephalophus dorsalis 6</cell><cell>Peters＇ duiker</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell></cell><cell>Cephalophus ogilbyi 6</cell><cell>Ogilby＇s duiker</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Kobus ellipsiprymnus</cell><cell>Waterbuck</cell><cell>+</cell><cell>+</cell><cell>+</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>We are indebted to <rs type="institution">Centre National de la Recherche Scientifique et Technologique (CENAREST, Gabon)</rs>, <rs type="institution">Institut de Recherche en Ecologie Tropicale (IRET/CENAREST, Gabon)</rs>, and the <rs type="institution">Ministère des Eaux et Forêts</rs> and <rs type="funder">Agence National des Parcs Nationaux of the Gabonese Government</rs> for their cooperation and permission to conduct the research. We are grateful to <rs type="person">Dr. J. Yamagiwa</rs>, <rs type="person">Dr. M. Inoue-Murayama</rs>, <rs type="person">Dr. Y. Takenoshita</rs>, <rs type="person">Dr. Y. Nakashima</rs>, <rs type="person">Dr. N. Matsuura</rs>, <rs type="person">Dr. Y. Iwata</rs>, <rs type="person">Ms. C. Ando</rs> and all the researchers who studied at Moukalaba, all of the field assistants at <rs type="institution">Moukalaba-Doudou National Park</rs>, and the people of the villages of Doussala, <rs type="institution">Konzi</rs>, and <rs type="person">Mboungou</rs> for support in conducting this research. This study was financially supported by <rs type="funder">JST/JICA</rs> and the <rs type="funder">Science and Technology Research Partnership for Sustainable Development (SATREPS)</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Nucleotide sequence variation in the mitochondrial 12SrRNA gene and the phylogeny of African mole-rats (Rodentia: Bathyergidae)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Allard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Honeycutt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Biology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="27" to="40" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Progress of habituation of western lowland gorillas and their reaction to observers in Moukalaba-Doudou National Park, Gabon</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Iwata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yamagiwa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">African Study Monographs Supplementary Issue</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="55" to="69" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Notes on the distribution and status of small carnivores in Gabon</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bahaa-El-Din</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Henschel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Aba＇a</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Abernethy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bohm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Coad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Head</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lahm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Maisels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rabanal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Starkey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Vanthomme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nakashima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hunter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Carnivore Conservation</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="19" to="29" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">DNA barcoding in surveys of small mammal communities: a field study in Suriname</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Borisenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Ivanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Hanner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pdn</forename><surname>Hebert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="471" to="479" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Genetic testing of dung identification for antelope surveys in the Udzungwa Mountains, Tanzania</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Bowkett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Plowman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Trb</forename><surname>Davenport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jansen</forename><surname>Van Vuuren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="251" to="255" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Cytochrome b phylogeny and the taxonomy of great apes and mammals</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Castresana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Biology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="465" to="471" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Checklist of the amphibians, reptiles, birds and mammals of the national parks of Gabon</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Christy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Lahm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Osg</forename><surname>Pauwels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vande</forename><surname>Weghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Smithsonian Institution Lannoo SA</publisher>
+			<pubPlace>Tielt</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">DNA barcoding of Neotropical bats: species identification and discovery within Guyana</title>
+		<author>
+			<persName><forename type="first">Clare</forename><forename type="middle">El</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Engstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Eger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pdn</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="184" to="190" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Validation of the barcoding gene COI for use in forensic genetic species identification</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dawnay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ogden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mcewin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Thorpe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Forensic Science International</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Badger hair in shaving brushes comes from protected Eurasian badgers</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Domingo-Roura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ferrando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>López-Giráldez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hah</forename><surname>Jansman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="425" to="430" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The role of DNA barcodes in understanding and conservation of mammal diversity in Southeast Asia</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Francis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Borisenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Ivanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Eger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guillen-Servent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Kruskop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mackie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pdn</forename><surname>Hebert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">12575</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Next-generation sequencing for rodent barcoding: species identification from fresh, degraded and environmental samples</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Galan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pagès</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Cosson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">48374</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Re-assessed molecular phylogeny and evolutionary scenario within genets (Carnivora, Viverridae, Genettinae)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gaubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Begg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Phylogenetics and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="920" to="927" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Genets (Carnivora, Viverridae) in Africa: an evolutionary synthesis based on cytochrome b sequences and morphological characters</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gaubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Veron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Journal of the Linnean Society</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="589" to="610" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Natural history collections and the conservation of poorly known taxa: Ecological niche modeling in central African rainforest genets (Genetta spp.)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gaubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Papeş</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Peterson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="106" to="117" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A camera trapping inventory for mammals in a mixed use planted forest in Sarawak</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Giman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stuebing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Megum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Raffles Bulletin of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="209" to="215" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Pattern and timing of diversification of Cetartiodactyla (Mammalia, Laurasiatheria), as revealed by a comprehensive analysis of mitochondrial genomes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hassanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Delsuc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ropiquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jansen</forename><surname>Van Vuuren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Matthee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ruiz-Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Catzeflis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Areskoug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Couloux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comptes Rendus Biologies</title>
+		<imprint>
+			<biblScope unit="volume">335</biblScope>
+			<biblScope unit="page" from="32" to="50" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The tribal radiation of the family Bovidae (Artiodactyla) and the evolution of the mitochondrial cytochrome b gene</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hassanin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ejp</forename><surname>Douzery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Phylogenetics and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="227" to="243" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Low genetic diversity and biased distribution of mitochondrial DNA haplotypes in the Japanese macaque (Macaca fuscata yakui) on Yakushima Island</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hayaishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawamoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Primates</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="158" to="164" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Biological identifications through DNA barcodes</title>
+		<author>
+			<persName><forename type="first">Pdn</forename><surname>Hebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cywinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Dewaard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the Royal Society of London Series B-Biological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page" from="313" to="321" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Male genetic structure and paternity in western lowland gorillas (Gorilla gorilla gorilla)</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Akomo-Okoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Iwata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Judai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fujita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hongo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nze-Nkogue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Inoue-Murayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yamagiwa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Physical Anthropology</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="583" to="588" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Phylogenetic reconstruction of the Felidae using 16S rRNA and NADH-5 mitochondrial genes</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>O＇brien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Evolution</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="98" to="S116" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The late Miocene radiation of modern Felidae: a genetic assessment</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eizirik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pecon-Slattery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Antunes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Teeling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>O＇brien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">311</biblScope>
+			<biblScope unit="page" from="73" to="77" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Cytochrome b-based phylogeny of the Praomys group (Rodentia, Murinae): a new African radiation?</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lecompte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Granjon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Peterhans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Denys</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comptes Rendus Biologies</title>
+		<imprint>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="page" from="827" to="840" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">DNA profiling of shahtoosh</title>
+		<author>
+			<persName><forename type="first">Jci</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Linacre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Hsieh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electrophoresis</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="3359" to="3362" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Potential efficacy of mitochondrial genes for animal DNA barcoding: a case study using eutherian mammals</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Syw</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Cameron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">84</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Monitoring a puma (Puma concolor) population in a fragmented landscape in southeast Brazil</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Miotto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cervini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Begotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Galetti</forename><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotropica</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="98" to="104" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Molecular Systematics of Sciurognathi (Rodentia): The mitochondrial Cytochrome b and 12S rRNA genes support the Anomaluroidea (Pedetidae and Anomaluridae)</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Montgelard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bentz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tirard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Verneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Catzeflis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Phylogenetics and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="220" to="233" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Fecal genetic analysis using PCR-RFLP of cytochrome b to identify sympatric carnivores, the tiger Panthera tigris and the leopard Panthera pardus, in far eastern Russia</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nagata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Aramilev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Belozor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Mccullough</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">servation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="863" to="865" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>Con-TROPICS</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Inventorying medium-and large-sized mammals in the African lowland rainforest using camera trapping</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nakashima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tropics</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="151" to="163" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Functional uniqueness of a small carnivore as seed dispersal agents: a case study of the common palm civets in the Tabin Wildlife Reserve, Sabah, Malaysia</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nakashima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Inoue-Murayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sukor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oecologia</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page" from="721" to="730" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Ecological and biogeographical inferences on two sympatric and enigmatic Andean cat species using genetic identification of faecal samples</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Napolitano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>O＇brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Marquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Barria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Poulin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Itiarte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="678" to="690" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Factors affecting the amount of genomic DNA extracted from ape faeces and the identification of an improved sample storage method</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Nsubuga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Robbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Roeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="2089" to="2094" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A molecular diagnostic for identifying central African forest artiodactyls from faecal pellets</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ntie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mickala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Bowkett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jansen</forename><surname>Van Vuuren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Colyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Telfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Maisels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hymas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rouyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Leblanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Van Vliet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sonet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Verheyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pires</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wickings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Lahm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Anthony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Conservation</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="80" to="93" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Phylogeny and evolution of African shrews (Mammalia: Soricidae) inferred from 16 s rRNA sequences</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Quérouil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hutterer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Colyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kerbis</forename><surname>Peterhans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Verheyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Phylogenetics and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="185" to="195" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Is camera-trapping an efficient method for surveying mammals in neotropical forests? A case study in south-eastern Brazil</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Srbek-Araujo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Chiarello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Tropical Ecology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Species and sex identification from faecal samples of sympatric carnivores, Amur leopard and Siberian tiger, in the Russian Far East</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nagata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Aramilev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Belozor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Higashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Mc-Cullough</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="799" to="802" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling: look before you leap</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="323" to="327" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Fruit phenology of the great ape habitat in the Moukalaba-Doudou National Park, Gabon</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Takenoshita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Iwata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yamagiwa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">African Study Monographs Supplementary Issue</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="23" to="39" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">MEGA5: Molecular evolutionary genetics analysis using maximum likelihood, evolutionary distance, and maximum parsimony method</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stecher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Biology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2731" to="2739" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">An emergent science on the brink of irrelevance: a review of the past 8 years of DNA barcoding</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="377" to="388" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">An evaluation of camera traps for inventorying large and medium sized terrestrial rainforest mammals</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Tobler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Carrillo-Percastegui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leite</forename><surname>Pitman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Conservation</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="169" to="178" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Phylogenetic relationships of the five extant Rhinoceros species (Rhinocerotidae, Perissodactyla) based on mitochondrial cytochrome b and 12S rRNA genes</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tougard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Delefosse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hanni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Montgelard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Phylogenetics and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="34" to="44" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Mammal survey in the southeastern Pantanal, Brazil</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Trolle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biodiversity and Conservation</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="823" to="836" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">DNA barcoding for ecologists</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valentini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="110" to="117" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Distinguishing dung from blue, red and yellowbacked duikers through noninvasive genetic techniques</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Van Vliet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zundal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miguel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nasi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">African Journal of Ecology</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="411" to="417" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Molecular systematics and origin of sociality in mongooses (Herpestidae, Carnivora)</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Veron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Colyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Dunham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gaubert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Phylogenetics and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="582" to="598" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Molecular systematics of the Asiatic Viverridae (Carnivora) inferred from mitochondrial cytochrome b sequence analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Veron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Heard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Zoological Systematics and Evolutionary Research</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="209" to="217" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling tools for wildlife biologists: a review of applications and recommendations for accurate data collection</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Monitoring diversity and abundance of mammals with camera traps: a case study on Mount Tsukuba, central Japan</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yasuda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammal Study</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="37" to="46" />
+			<date type="published" when="2004-11-22">2004. Received. November 22, 2013. April 28, 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

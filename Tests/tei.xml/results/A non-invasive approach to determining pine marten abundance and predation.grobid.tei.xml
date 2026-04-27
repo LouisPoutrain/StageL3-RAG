@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+				<funder ref="#_rTKc6M7">
+					<orgName type="full">UK Engineering and Physical Sciences Research Council</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Centre</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Heriot-Watt University</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Maxwell Institute Graduate School in Analysis</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">University of Edinburgh</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Scottish Funding Council</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8B7D301E49C8D1676DE04E57CC967CE0</idno>
+					<idno type="DOI">10.1111/oik.08565</idno>
+					<note type="submission">Accepted 30 May 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-15T14:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>community structure</term>
+					<term>ecological modelling</term>
+					<term>population cycles</term>
+					<term>prey switching 2</term>
+				</keywords>
+			</textClass>
+			<abstract xml:lang="sq">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>e08565</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Predators play an important role in regulating ecosystems and sustaining biodiversity <ref type="bibr" target="#b14">(Hairston et al. 1960</ref><ref type="bibr" target="#b29">, Paine 1966</ref><ref type="bibr" target="#b18">, Holt 1977</ref><ref type="bibr" target="#b33">, Ritchie and Johnson 2009)</ref>. This role has been shown to depend on the capacity of predators to switch to more abundant A temporal refuge from predation can change the outcome of prey species competition Andrew Slade, Andy White, Peter W. W. Lurz, Craig Shuttleworth and Xavier Lambin A. Slade (<ref type="url" target="https://orcid.org/0000-0002-0688-4965">https://orcid.org/0000-0002-0688-4965</ref>) ✉ (a.slade@hw.ac.uk) and A. <ref type="bibr">White, Maxwell Inst. for Mathematical Sciences, Dept of Mathematics, Heriot-Watt Univ., Edinburgh, UK. -P. W. W. Lurz, Royal (Dick)</ref> School of Veterinary Studies, Univ. of Edinburgh, Midlothian, UK. -C. <ref type="bibr">Shuttleworth, School of Natural Sciences, Bangor Univ., Bangor, Gwynedd, UK. -X. Lambin (https://orcid.org/0000-0003-4643-2653)</ref>, School of Biological Sciences, Univ. of Aberdeen, Aberdeen, UK.</p><p>prey species <ref type="bibr" target="#b28">(Murdoch 1969</ref><ref type="bibr" target="#b52">, Van Baalen et al. 2001</ref><ref type="bibr" target="#b22">, Kondoh 2003)</ref>, as well as the prey's ability to avoid predation by using a refuge <ref type="bibr" target="#b40">(Sih 1987</ref><ref type="bibr" target="#b2">, Berryman and Hawkins 2006</ref><ref type="bibr" target="#b23">, Krivan 2011)</ref>. Refugia have been the focus of theoretical studies due to their contribution to the stability of predator-prey interactions <ref type="bibr" target="#b34">(Royama 1977</ref><ref type="bibr" target="#b40">, Sih 1987</ref><ref type="bibr" target="#b2">, Berryman and Hawkins 2006</ref><ref type="bibr" target="#b23">, Krivan 2011)</ref>. A refuge can become established due to the creation of enemy-free space by, for example, shelter, restrictions in movement or group living <ref type="bibr" target="#b2">(Berryman and Hawkins 2006)</ref>. A refuge can also occur implicitly through prey switching, whereby a predator focusses on an abundant, primary, prey species which creates a temporal refuge for alternative prey species <ref type="bibr" target="#b13">(Garrott et al. 2007)</ref>.</p><p>Theoretical assessments that have examined prey switching, and how it can determine the stability and coexistence of prey species subject to predation, have typically been limited to considering a single predator that switches between two prey species <ref type="bibr" target="#b28">(Murdoch 1969</ref><ref type="bibr" target="#b31">, Persson 1993</ref><ref type="bibr" target="#b52">, Van Baalen et al. 2001</ref><ref type="bibr" target="#b35">, Schreiber et al. 2011)</ref>. Model results have shown how prey switching can lead to the emergence of cyclical dynamics in the predator-prey system that facilitate prey species persistence <ref type="bibr" target="#b52">(Van Baalen et al. 2001)</ref>. There also exists ample empirical evidence that prey switching can shape predator-mediated indirect interactions between prey species. For instance, the long-standing alternative prey hypothesis <ref type="bibr" target="#b0">(Angelstam et al. 1984</ref>) posits that a reduction in the impact of predation on alternative prey, caused by a functional response of generalist predators that focus predation on primary prey during years of high abundance, can synchronise the fluctuations of primary and alternative prey. An explicit example has shown that the impact of predation by pine martens Martes martes on ground nesting willow ptarmigan Lagopus lagopus is minimal when the predator exploits the high abundance phase of cyclically fluctuating vole populations, which is their primary prey. However, predation has a negative impact on the growth rate and breeding success of ptarmigan when vole abundance is low <ref type="bibr">(Breisjøberget et al. 2018)</ref>. The alternative prey hypothesis therefore recognises that shifting patterns of predation reflect exogenous changes in the abundance of the primary prey species.</p><p>We extend prey switching theory to consider how a predator can mediate the interaction between two alternative prey species that are in competition with each other, and how this is affected by the predator switching from the two alternative prey species to its highly abundant primary prey. Here, prey switching generates a temporal refuge from predation for the two alternative prey species. If interspecific interactions between the two alternative prey species lead to different dynamical outcomes in the presence and absence of predation, then the temporal refuge may alter the dynamics and persistence of the interacting species. In this study, we develop a general model framework to assess how a temporal refuge from predation could affect prey population dynamics and community structure. Previous theoretical studies have examined the role of environmental fluctuations on species diversity, and the resultant population dynamics, in generalised models of species competition <ref type="bibr" target="#b11">(De Mottoni and Schiaffino 1981</ref><ref type="bibr" target="#b8">, Chesson 1994</ref><ref type="bibr" target="#b9">, Chesson and Huntly 1997</ref><ref type="bibr" target="#b21">, Klausmeier 2010</ref><ref type="bibr" target="#b12">, Fox 2013)</ref>. While these general frameworks broadly encompass the model framework we use, they do not explicitly detail the mechanism nor role of a temporal refuge. A key property of a temporal refuge is that it is quantifiable and, in this study, we have derived explicit criteria that determine how the length of the temporal refuge governs the outcome of the interaction between competing prey species and a shared predator.</p><p>The general model framework is extended to consider a specific case study system which details the impact of a temporal refuge on the native Eurasian red squirrel Sciurus vulgaris and invasive North American grey squirrel Sciurus carolinensis, a pair of competing, alternative, prey species that share a common predator, the Eurasian pine marten <ref type="bibr" target="#b36">(Sheehy and Lawton 2014</ref><ref type="bibr" target="#b37">, Sheehy et al. 2018</ref><ref type="bibr" target="#b50">, Twining et al. 2021</ref>). The red squirrel has been replaced by the invasive grey squirrel in much of the UK and the Republic of Ireland due to disease-mediated competitive replacement, with apparent competition <ref type="bibr" target="#b18">(Holt 1977)</ref> occurring since disease reduces red squirrel density, allowing the replacement of red squirrels by grey squirrels to be more rapid, and to occur at lower grey squirrel densities compared to when the disease is absent <ref type="bibr" target="#b46">(Tompkins et al. 2003)</ref>. It is estimated that over 80% of the remaining UK red squirrel populations are now exclusively found in Scotland <ref type="bibr" target="#b27">(Mathews et al. 2018</ref>). Pine martens predate on both red and grey squirrels, but grey squirrels typically compose a greater proportion of pine marten diet than reds squirrels, as measured by frequency of occurrence <ref type="bibr" target="#b37">(Sheehy and</ref><ref type="bibr">Lawton 2014, Twining et al. 2020b)</ref>, with naivety of the invasive species regarding the predator being cited as a cause <ref type="bibr" target="#b54">(Wanger et al. 2011)</ref>. Thus, a resurgence in pine marten density, and an expansion of their distribution in Scotland, Northern Ireland and the Republic of Ireland, has seen a concurrent reduction, and in some instances the local extirpation, of invasive grey squirrels that has allowed the reestablishment of the native red squirrel <ref type="bibr" target="#b36">(Sheehy and Lawton 2014</ref><ref type="bibr" target="#b37">, Sheehy et al. 2018</ref><ref type="bibr">, Twining et al. 2020b</ref><ref type="bibr">, 2022)</ref>.</p><p>Pine marten are generalist, opportunist, predators that focus on abundant, available, prey <ref type="bibr" target="#b30">(Paterson and</ref><ref type="bibr">Skipper 2008, Caryl et al. 2012)</ref>. The abundance of field voles Microtus agrestis in the UK means they are the primary prey species for pine marten. However, field voles undergo multiannual cycles in their population dynamics <ref type="bibr" target="#b16">(Hansen et al. 1999</ref><ref type="bibr" target="#b44">, Stenseth 1999</ref><ref type="bibr" target="#b24">, Lambin et al. 2000)</ref>, with an observed 20-fold increase between the low and high phase of the cycle <ref type="bibr" target="#b24">(Lambin et al. 2000)</ref>. When vole density is low, pine marten will feed on a variety of alternative prey, including squirrels, which means they avoid the large boom and bust cycles exhibited by their primary food source <ref type="bibr" target="#b3">(Birks 2020</ref>) and are able to maintain a relatively stable density that can exhibit low amplitude, lagged, population oscillations (with an observed two fold increase between the low and high phase) in response to the oscillations of the primary prey species <ref type="bibr" target="#b57">(Zalewski et al. 1995)</ref>. When vole density is high, pine marten will increasingly focus their predation efforts on voles and this will reduce the predation pressure on red and grey squirrels, providing them with a temporal refuge from predation. Therefore, the ability of pine marten to control the invasive grey squirrel may be weakened by the intermittent refugia of the prey species.</p><p>Our case study will assess the impact of a temporal refuge from predation for both squirrel species due to prey switching in years of abundant density of field voles, the primary prey species of pine marten. This highlights the quantifiable nature of the temporal refuge as it is directly associated with periods where vole density is above a given threshold. We show that the ability of pine marten to suppress grey squirrel density to levels where red squirrels can recover depends on the predation-reduced densities of red and grey squirrels, which is dependent on how the temporal refuge affects the average predation pressure, the habitat dependent carrying capacity of each species and the level of interspecific competition. We compare the case study results to those of the general theory and examine the outcome of the model when prey switching, and therefore the length of the temporal refuge, is driven by the well-documented 3-4 year multiannual cyclic dynamics observed for voles in the UK <ref type="bibr" target="#b24">(Lambin et al. 2000)</ref>. Our model results support the general ecological hypothesis that the length of the temporal refuge will be a key determinant of species persistence and community structure. The findings from our case study system inform the debate on how the ongoing reintroduction and recovery of native predators can regulate native and invasive prey species <ref type="bibr" target="#b17">(Hayward and Somers 2009)</ref> and provide insights for the conservation of the endangered red squirrel in the UK and the Republic of Ireland.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The impact of predation on competing prey species</head><p>We outline a model to represent the dynamics of two competing, alternative, prey species that are subject to predation. The model is based on the classical Lotka-Volterra framework for competing species <ref type="bibr" target="#b55">(Wangersky 1978)</ref>. The model represents the densities of the alternative prey species X 1 and X 2 at time t as follows:  </p><formula xml:id="formula_0">d d d X t t a q X c X X b X PX X a q X c X X 1 = 1 1 1 2 2 1 1 1 1 1 2 2 2 2 1 1 - + ( ) ( ) -- - + = ( ) ( ) m 2 2 2 2 2 2 - - = b X PX P K P m (1)</formula><p>We assume a maximum birth rate (a i ) for each species (where i represents 1 or 2 for each species respectively). The birth rate for species i is modified by intra-specific competition from species i, through coefficient q i , and by interspecific competition from species j, through coefficient c j .</p><p>We assume constant natural death rates, b i . The predation rates are given by µ i and P is the population density of the predator. Since the predator is not dynamically linked to the alternative prey species, apparent competition <ref type="bibr" target="#b18">(Holt 1977)</ref> between species X 1 and X 2 cannot occur. We initially assume a fixed predator density to isolate the impact of a temporal refuge on species interactions. We also consider a predator that has oscillatory dynamics with period T.</p><p>We consider the scenario where the oscillations in predator density are synchronised exactly with the primary prey fluctuations, as well as the scenario where oscillations in the predator density lag behind the primary prey fluctuations. These scenarios capture the key aspects of the case study system. Altering the predation rates µ i allows the twospecies competition model to represent a scenario in which prey compete in the absence (µ i = 0) and presence (µ i &gt; 0) of predation. By setting µ 1 ≠ µ 2 we can include different predation rates for different species, thus reflecting differences in prey susceptibility and predator preference/attack rate. We assume that predation on competing (alternative) prey species occurs according to a linear functional response. This is appropriate as predation on the alternative prey species occurs when the primary prey species, that forms the predators main diet, is at a low density, and so predator consumption will not have saturated. Furthermore, when we assume prey switching to an abundant primary prey, the predation rate on the alternative prey species is either reduced or set to zero. This system has four steady states: extinction of both X 1 and X 2 ; species X 1 in the absence of species X 2 ; species X 2 in the absence of species X 1 and the coexistence of species X 1 and X 2 . We ignore the trivial steady state where both populations are extinct which imposes a requirement that a i &gt; b i . We define the predation-suppressed steady-state density for species i, in the absence of species j, as X i † = K i -(µ i K P )/q i (where i, j = 1, 2 are the prey species and i ≠ j). When µ i = 0, X i † = K i = (a ib i )/q i , which is the carrying capacity for species i in the absence of predation. Therefore, when µ i &gt; 0, the prey species density decreases in response to an increase in the predation rate, or an increase in the predator density.</p><p>The steady states (denoted by X 1 † and X 2 † ), and associated stability conditions, are outlined in Table <ref type="table">1</ref>. Since these steady states depend on predation, a change in the level of Figure <ref type="figure">2</ref>. The predation function, g(V) plotted against field vole density. Here, the predation function g(V) is set to one when the vole population is below a minimum threshold value V 0 = 80 voles per ha and g(V) is set to zero when the vole population is larger than a maximum threshold value V x = 140 voles per ha. These values are based on the inter-quartile ranges of the three and four year field vole population cycles at Kielder Forest <ref type="bibr" target="#b24">(Lambin et al. 2000)</ref>. Sensitivity analysis suggests the results are robust to changes in the values of V 0 and V x (see the Supporting information for details). The value of the predation function g(V) decreases linearly from one to zero as the vole population increases from V 0 to V x .</p><p>predation can allow a scenario where an unstable steady state becomes stable and changes the competitive outcome of the dynamics. For example, if we assume the (0, X 2 † ) steady state is stable without predation, meaning K 1 &lt; c 2 K 2 and K 2 &gt; c 1 K 1 , then the steady state will change to the (X 1 † , 0) steady state with predation if the updated steady states are such that K 1 -K P µ 1 /q 1 &gt; c 2 (K 2 -K P µ 2 /q 2 ) and K 2 -K P µ 2 /q 2 &lt; c 1 (K 1 -K P µ 1 /q 1 ). Furthermore, due to the exclusivity of the steady states, the level of predation can dictate which steady state the system is in, with, for instance, a switch from the coexistence steady state to a single species steady state occurring via a change in either the predator density or predation rates (assuming the carrying capacities and competition coefficients are fixed). Hence, predation, and predator density, can alter the outcome of prey species interactions and therefore change community composition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Predation induced temporal refuge</head><p>To consider a temporal refuge from predation we assume the dynamics are represented by Eq. 1 with the following property for the predation parameter:</p><formula xml:id="formula_1">m i c c t T T t T = &gt; ì í ï î ï £ &lt; £ &lt; 0 0 0 for for , .<label>(2)</label></formula><p>The predator continuously switches predation off and on for species 1 and 2 in a periodic manner, with period T. The length of the temporal refuge is given by T c during each period. This represents the scenario whereby predation is focused on the primary prey species during the first part of  <ref type="bibr">[1986]</ref><ref type="bibr">[1987]</ref><ref type="bibr">[1988]</ref> and repeating these values to provide periodic data with a 3-year cycle, (e) denotes the 4-year periodic vole density based on real vole densities from Kielder Forest <ref type="bibr" target="#b24">(Lambin et al. 2000)</ref>. The cycle is set-up by extracting the observed data for years 1992-1995 and repeating these values to provide periodic data with a 4-year cycle, (f ) denotes the full Kielder Forest data set <ref type="bibr" target="#b24">(Lambin et al. 2000)</ref>, which we assume repeats periodically. Spring, summer and autumn vole density information from Kielder Forest is given by white, grey and black circles respectively.</p><p>the period, and so the predator does not predate on species 1 and 2 for a length of time T c during each period T.</p><p>With this set-up, standard techniques for stability analysis of steady states do not apply. Instead we need to examine the existence and stability of time varying solutions using Floquet theory <ref type="bibr" target="#b20">(Klausmeier 2008)</ref>. We detail the stability analysis that uses Floquet theory in full in the Supporting information. Here we provide a summary of the key results. It can be shown that a periodic solution for species 1, in the absence of species 2, exists and can be defined explicitly. We denote this periodic solution as (X 1 * (t), 0). Floquet theory can be used to assess the stability of this periodic solution. Assuming species 1 does not go extinct in the absence of species 2 (analogous to a 1 &gt; b 1 in the analysis without a temporal refuge, Table <ref type="table">1</ref>) it can be shown that (X 1 * (t), 0) is stable if</p><formula xml:id="formula_2">K q T T T c T K X t t P c T 2 - m 2 1 2 1 0 1 - ae è ç ö ø ÷ &lt; ( ) ò * d (3)</formula><p>where 1</p><formula xml:id="formula_3">1 0 / () * T t t X T ò</formula><p>d is the average density of species 1 over one time period, T. In the Supporting information we show that this expression can be simplified to one that represents the depression of the prey density due to the average predation pressure over one time period, as shown in Eq. 4:</p><formula xml:id="formula_4">K q T T T c K q T T T K K P P c c 2 2 1 1 1 2 1 - m m - ae è ç ö ø ÷ &lt; - - ae è ç ö ø ÷ ae è ç ç ö ø ÷ ÷ (4)</formula><p>An equivalent analysis can be undertaken to assess the stability of a periodic solution (0, X 2 * (t)) for species 2 in the absence of species 1. The stability conditions are summarised in Table <ref type="table">1</ref>. A key result, therefore, is that stability depends upon the habitat dependent carrying capacity of each species, the level of interspecific competition and the average pressure from predation, which depends on the duration of the temporal refuge.</p><p>Note, it is possible to recover the results for the nonperiodic version of the model (Table <ref type="table">1</ref>) from the periodic results (Table <ref type="table">1</ref>). If T c = T then the above stability conditions revert to those for the system without predation (Eq. 1, µ i = 0), whilst if T c = 0 then the conditions revert to those for the predator-prey system (Eq. 1, µ i &gt; 0). Thus, these two scenarios provide the limiting cases for the temporal refuge. Therefore, the duration of the temporal refuge may be a key determinant to the outcome of predator-mediated competition between prey species. In particular the length of the temporal refuge, which is dependent on the population dynamics of the predators primary prey species, could lead to a switch from one solution to the other.</p><p>Rearranging Eq. 4 we can determine the critical length, T crit 1 , of the temporal refuge that is required for the steady state (X 1 * (t), 0) to be stable as Table <ref type="table">1</ref>. Steady states and stability conditions for the model represented by Eq. 1 which does not include a temporal refuge and does include a temporal refuge.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Steady state Stability condition(s)</head><p>Without temporal refuge</p><formula xml:id="formula_5">(X 1 † , 0) K K q c K K q P P 2 2 2 1 1 1 1 - &lt; - ae è ç ö ø ÷ m m (0, X 2 † ) K K q c K K q P P 1 1 1 2 2 2 2 - &lt; - ae è ç ö ø ÷ m m K K q c K K q P P 1 1 1 2 2 2 2 - &gt; - ae è ç ö ø ÷ m m X c X c c X cX c c 1 2 2 1 † † † † - - - - ae è ç ö ø ÷ 2 1 2 1 1 2 1 1 , K K q c K K q c c P P 2 2 2 1 1 1 1 1 2 0 1 - &gt; - ae è ç ö ø ÷ &lt; &lt; m m With temporal refuge (X 1 * (t), 0) K K q T T T c K K q T T T P c P c 2 2 2 1 1 1 1 - -&lt; - - ae è ç ö ø ÷ m m (0, X 2 * (t)) K K q T T T c K K q T T T P c P c 1 1 1 2 2 2 2 - -&lt; - - ae è ç ö ø ÷ m m</formula><p>Note, X i † denotes the steady state density without temporal refuge (where i = 1 or 2). The coexistence steady state does not exist when</p><formula xml:id="formula_6">c 1 c 2 = 1 (except when X 1 = c 2 X 2 and X 2 = c 1 X 1 which is unstable) and is unstable when c 1 c 2 &gt; 1. X i</formula><p>* is the stable periodic solution for species i in the absence of species j. We assume the predator switches between no predation on species 1 and 2 (µ i = 0) for 0 ≤ t &lt; T c and predation on species 1 and 2 (µ i &gt; 0) for T c ≤ t &lt; T in a periodic manner (with period T). The prey species benefit from a temporal refuge for a length of time T c (during each period). If neither (X 1 * , 0) or (0, X 2 * ) are stable, we expect coexistence of both species in the periodic system.</p><formula xml:id="formula_7">T T q q K c K K q c q P crit 1 2 2 1 1 2 1 1 1 1 2 1 = - ( ) ( ) ae è ç ç ö ø ÷ ÷ - - m m (5)</formula><p>Under the assumption that (X 1 * (t), 0) is stable in the presence of predation (T c = 0) and that (0, X 2 * (t)) is stable in the absence of predation (T c = T), the expression for T crit 1 provides the maximum duration of temporal refuge that allows species 1 to exclude species 2 due to the impact of predation.</p><p>An equivalent expression can be derived for the critical length of the temporal refuge, T crit 2 , to ensure that (0, X 2 * (t)) is stable. This expression is:</p><formula xml:id="formula_8">T T q q K c K K q c q P crit 1 2 2 1 2 2 1 2 2 2 1 1 = - ( ) ( ) ae è ç ç ö ø ÷ ÷ - - m m (6)</formula><p>If (X 1 * (t), 0) is stable with predation (T c = 0) and (0, X 2 * (t)) is stable without predation (T c = T), and assuming T T crit crit 1 2</p><p>&lt; , Figure <ref type="figure">4</ref>. The average population density of red and grey squirrels for a habitat with 15% broadleaved trees and for different, fixed, pine marten densities (K P ) for the model described by Eq. 10. Numerical simulations were run for sufficiently long to ensure a stable periodic solution is reached which we found was always the case by t = 1000. The crosses indicate the pine marten density used in Fig. <ref type="figure">5</ref>. Here (a)</p><p>shows the baseline results without a temporal refuge (vole dynamics are defined by Fig. <ref type="figure" target="#fig_2">3a</ref>), (b) shows the results when one year out of every three years is a temporal refuge (the vole dynamics are defined by Fig. <ref type="figure" target="#fig_2">3b</ref>), (c) shows the results when two years out of every three years is a temporal refuge (the vole dynamics are defined by Fig. <ref type="figure" target="#fig_2">3c</ref>), (d) shows the results when the vole dynamics follow the 3-year cycle based on the Kielder Forest data (Fig. <ref type="figure" target="#fig_2">3d</ref>), (e) shows the results when the vole dynamics follow the 4-year cycle based on the Kielder Forest data (Fig. <ref type="figure" target="#fig_2">3e</ref>) and (f ) shows the results when the vole dynamics follow the full Kielder Forest dataset (1984-1998) (Fig. <ref type="figure" target="#fig_2">3f</ref> ). We assume a habitat that is composed of 15% broadleaved trees and the remainder coniferous then the (X 1 * (t), 0) solution is stable for T T c £ crit 1 (Fig. <ref type="figure" target="#fig_0">1b</ref>), species X 1 and X 2 would coexist with a temporally varying solution for T T T c crit crit 1 2</p><p>&lt; &lt; (Fig. <ref type="figure" target="#fig_0">1c</ref>) and the (0, X 2 * (t)) solution is stable for T T c ³ crit 2 (Fig. <ref type="figure" target="#fig_0">1d</ref>). This highlights how the duration of the temporal refuge is a key factor in determining the outcome of the dynamics (we show examples of how, for fixed predator density, T c has impact on the outcome of the dynamics later).</p><p>Alternatively, Eq. 5 can be rearranged to give the predator density required to ensure species 1 outcompetes species 2:</p><formula xml:id="formula_9">K T T T q q K c K q c q P c ( ) = - ae è ç ö ø ÷ - ( ) - crit 1 1 2 2 1 1 2 1 1 1 2 m m (7)</formula><p>and the equivalent expression for species 2 to outcompete species 1:</p><formula xml:id="formula_10">K T T T q q K c K q c q P c ( ) = - ae è ç ö ø ÷ - ( ) - crit 2 1 2 1 2 2 1 2 2 2 1 m m (8)</formula><p>For the scenario detailed above (for T crit 1 and T crit 2 ) and a fixed duration of the temporal refuge, T c , we have ( ) ( )</p><formula xml:id="formula_11">K K P P crit crit 2 1 &lt; . Therefore, under this scenario, (0, X 2 * (t)) is stable if K K P P</formula><p>&lt; ( ) crit 2 , species X 1 and X 2 would coexist with a temporally varying solution for ( ) ( )</p><formula xml:id="formula_12">K K K P P P crit crit 2 1 &lt; &lt; and (X 1 * (t), 0) is stable if K K P P &gt; ( ) crit 1 .</formula><p>This highlights how the outcome of competition between the alternative prey species Figure <ref type="figure">5</ref>. The population density over time for red and grey squirrels for the model defined by Eq. 10 with a habitat comprised of 15% broadleaved trees and a pine marten density of 0.4 per km 2 . Here (a) shows the results when there is no temporal refuge (the vole dynamics are defined by Fig. <ref type="figure" target="#fig_2">3a</ref>), (b) shows the results when one year out of every three years is a temporal refuge (the vole dynamics are defined by Fig. <ref type="figure" target="#fig_2">3b</ref>), (c) shows the results when two years out of every three years is a temporal refuge (the vole dynamics are defined by Fig. <ref type="figure" target="#fig_2">3c),</ref><ref type="figure">(d)</ref> shows the results when the vole dynamics follow the 3-year cycle based on the Kielder Forest data (Fig. <ref type="figure" target="#fig_2">3d</ref>), (e) shows the results when the vole dynamics follow the 4-year cycle based on the Kielder Forest data (Fig. <ref type="figure" target="#fig_2">3e</ref>) and (f ) shows the results when the vole dynamics are defined by the full Kielder Forest dataset (Fig. <ref type="figure" target="#fig_2">3f</ref> ). Parameter values are as in Fig. <ref type="figure">4</ref> with K P = 0.4. depends on predator density for a fixed duration of the temporal refuge (we highlight this for the case study system later).</p><p>We also consider the scenario where the predator density, P(t) is periodic with period T. This reflects the situation where the predator density responds to fluctuations in the primary prey species. In the Supporting information we show that the results in Table <ref type="table">1</ref> hold if the fixed predator density, K P is replaced by the average predator density, K P , over the time period when predation is active on the alternative prey species (i.e. between T c ≤ t ≤ T) as follows:</p><formula xml:id="formula_13">K T T P t t P c T T c = -∫ 1 ( )d<label>(9)</label></formula><p>Since T c and T are properties that depend on the primary prey species, the value of K P can vary depending on whether the predator cycle is synchronous or lags behind the primary prey species population cycle. We explore this for the case study system later.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Case study</head><p>We modify and expand the general model framework (Eq. 1) to represent the key case study system of the impact of pine marten predation on its primary prey species, field voles and two of its alternative prey species, grey and red squirrels.</p><p>The model considers the competitive interaction between red and grey squirrels, as described by <ref type="bibr" target="#b46">Tompkins et al. (2003)</ref>, and additionally includes predation by pine marten where the rate of predation is a function of field vole density. The model is represented by the following equations:</p><formula xml:id="formula_14">d d d d R t a q R c G R b R g V RP G t a q G c R G b R R G R R G G R G ( ) = - + ( ) ( ) -- = - + ( ) ( ) - m G G gV GP P K V V t G P - = = m ( ) ( )<label>(10)</label></formula><p>which represents the density of red (R) and grey (G) squirrels. We initially assume pine marten (P) are maintained at a fixed density K P . Later we assume that pine marten density varies in response to oscillations in the population size of its primary prey species (field voles). The rate of predation of pine marten is a function of field vole density, V, which can vary over time. We assume the density of field voles (V) is a periodic function, with the periodicity of the fluctuations being based on observed data.</p><p>Figure <ref type="figure">6</ref>. Results showing the threshold level for pine marten density (above the lines or respective points) that lead to red squirrel survival for the different temporal refuge scenarios outlined for Kielder Forest in Fig. <ref type="figure" target="#fig_2">3</ref>. Here (a) shows the results when the vole dynamics follow the 3-year cycle based on the Kielder Forest data (Fig. <ref type="figure" target="#fig_2">3d</ref>), (b) shows the results when the vole dynamics follow the 4-year cycle based on the Kielder Forest data (Fig. <ref type="figure" target="#fig_2">3e</ref>) and (c) shows the results when the vole dynamics follow the full Kielder Forest dataset (Fig. <ref type="figure" target="#fig_2">3f</ref> ). The lines show the results of the theoretical estimate of the pine marten level required for red squirrel survival (Eq. 5) for different lengths of the temporal refuge. Note, the pine marten density reaches zero when the broadleaf proportion is 5% since under our model set-up red squirrels out-compete grey squirrels in habitats with less than 5% broadleaved trees. When not changed in the figure parameters are as in Fig. <ref type="figure">4</ref>.</p><p>The model assumes a maximum birth rate for red and grey squirrels a i (where i is replaced by R for red and G for grey squirrels respectively), with a R = 1.0 and a G = 1.2, which is modified due to intra-specific competition with coefficient q i , which is defined via the carrying capacity K i (since q i = (a ib i )/K i ), and due to inter-specific competition between red and grey squirrels with coefficient c i . The natural death rate is b R = b G = 0.4. We assume grey squirrels outcompete red squirrels under equally suitable habitats (c R &lt; c G , with c G = 1.65 = 1/c R ). The parameter values are taken from <ref type="bibr" target="#b46">Tompkins et al. (2003)</ref>. For this case study system we assess the impact of pine marten density and the length of the temporal refuge on the outcome of red and grey squirrel competition for a range of different habitats and therefore for different squirrel carrying capacities K i (and so different values of q i = (a ib i )/K i ). Red and grey squirrel carrying capacities are taken from <ref type="bibr" target="#b41">Slade et al. (2020)</ref> and are representative of habitats in Scotland and northern England. The carrying capacities are assumed to be 0.31 per km 2 in 100% broadleaf forests and 0.23 per km 2 in 100% conifer forests for red squirrels and 0.98 per km 2 in broadleaf and 0.10 per km 2 in conifer forests for grey squirrels. To determine the predation coefficient for grey squirrels we consider the equation for grey squirrels in Eq. 10 (with R = 0 and g(V) = 1) and determine the values of µ G which leads to a reduction of 30% in grey squirrel density when pine marten density is 0.36 per km 2 (as observed by the authors). This gives a value µ G = 1.5. <ref type="bibr">Twining et al. (2020b)</ref> report that red and grey squirrels constitute an average of 3.3% and 15.6% of pine marten diet respectively, and therefore we set µ R = 0.2µ G to reflect this preferential predation on grey squirrels. Figure <ref type="figure">7</ref>. Results when the dynamics occur across a two-year period. Here a(i) shows the idealised vole dynamics, with a high density of 170 and a low density of 50 voles per km 2 (chosen so that the vole density will always be either above, or below the critical values), a(ii) shows the pine marten dynamics that are in sync with the vole dynamics, with a high density of 4/3K P and a low density of 2/3K P (a 2-fold increase between the low and high density) where K P is the average density, and a(iii) shows the pine marten dynamics that are out of sync with the vole dynamics (lagged by one year). Image b(i) details the average red and grey squirrel population densities, for a range of fixed pine marten densities, b(ii) details the average red and grey squirrel population densities when the pine marten has the population fluctuations, shown in a(ii), that are in-sync with the vole dynamics, and b(iii) details the average red and grey squirrel population densities, when the pine marten has the population fluctuations, shown in a(iii), that are out-of-sync with the vole dynamics.</p><p>The predation rate of pine marten on squirrels is also assumed to depend on vole density, with pine marten focusing predation on voles when they are at high density. The prey switching mechanism is encapsulated in the function g(V) (Fig. <ref type="figure">2</ref>) (note, we undertake a sensitivity analysis with respect to the predation parameters at the end of the Results section).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Vole density</head><p>Field vole populations are known to exhibit high amplitude periodic fluctuations, with 3-4 year periodicity <ref type="bibr" target="#b16">(Hansen et al. 1999</ref><ref type="bibr" target="#b44">, Stenseth 1999</ref><ref type="bibr" target="#b24">, Lambin et al. 2000)</ref>, and pine marten prey switching, which focuses predation on voles when their density increases, will offer a temporal refuge from predation for red and grey squirrels. We wish to examine how this temporal refuge will affect the predator-mediated competitive interaction between red and grey squirrels. We initially consider idealised periodic dynamics for vole density, where we assume a three year cycle (T = 3) where vole density is at a high density for one or two years (T c = 1 or 2) and vole density is low otherwise (Fig. <ref type="figure" target="#fig_2">3b,</ref><ref type="figure">c</ref>). When vole density is high in these scenarios, it is assumed that there is no pine marten predation of squirrels. This set-up provides a direct analogue to the general theoretical results. We then consider the vole dynamics that correspond to 3-year (Fig. <ref type="figure" target="#fig_2">3d</ref>) and 4-year (Fig. <ref type="figure" target="#fig_2">3e</ref>) cycles as observed in long-term field studies in Kielder Forest, England <ref type="bibr" target="#b24">(Lambin et al. 2000)</ref>. We finally consider the vole dynamics as described by the full Kielder Forest dataset (Fig. <ref type="figure" target="#fig_2">3f</ref> ). We choose to present our results by considering time series for the vole population dynamics. This allows visualisation of how a temporal refuge can occur in a real system and aids the interpretation of its effect on the competing red and grey squirrels. We note that our findings for the case study system could also be determined mathematically by numerically calculating the average value of g(V), denoted g V ( ), using the vole population time series and substituting the term (T -T c )/T for g V ( ) in Table <ref type="table">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>We present model results for a range of scenarios for the case study system. Figure <ref type="figure">4</ref> presents the average red and grey squirrel population density for a habitat with 15% broadleaved trees, for different, fixed, pine marten densities (K P ). In Fig. <ref type="figure">4a</ref> the vole dynamics are as in Fig. <ref type="figure" target="#fig_2">3a</ref> and there is no temporal refuge and constant predation. At low pine marten density grey squirrels out-compete red squirrels. As pine marten density is increased grey squirrel density decreases, and at a pine marten threshold density of 0.23 km -2 red squirrels can exclude grey squirrels due to predator-mediated competition. Note, in this case study system c G c R = 1 and so there is no possibility of coexistence between red and grey squirrels. It is also important to note that grey squirrels are not excluded in the absence of red squirrels for pine marten densities less than 0.53 km -2 (Supporting information) which may be greater than expected pine marten densities in Scotland and northern England (meaning pine marten alone may not lead to the extirpation of grey squirrels). Exclusion of grey squirrels requires their density to be suppressed by pine marten that preferentially predate on grey squirrels, to a level where red squirrels have a competitive advantage. For pine marten densities above the threshold for grey squirrel exclusion, red squirrels persist and their density decreases as pine marten density increases. Pine marten can also exclude red squirrels but only when their density is greater than 3 km -2 , which is greater than pine marten densities observed in Scotland to date. In Fig. <ref type="figure">4b</ref> the vole dynamics are as in Fig. <ref type="figure" target="#fig_2">3b</ref>, leading to one year out of every three years being a temporal refuge.</p><p>The results are similar to those in Fig. <ref type="figure">4a</ref> except that the pine marten threshold density that leads to predator-mediated competitive exclusion of grey squirrels by red squirrels is 1.5 times greater at 0.35 km -2 . In Fig. <ref type="figure">4c</ref> the vole population is as in Fig. <ref type="figure" target="#fig_2">3c</ref>, with two years out of every three years being a temporal refuge. The results are similar to Fig. <ref type="figure">4a</ref> and<ref type="figure">b</ref> except that the pine marten threshold density that leads to predatormediated competitive exclusion of grey squirrels by red squirrels has increased twofold to 0.7 km -2 , a value in excess of what has thus far been observed in Scotland. An increase in the length of the temporal refuge therefore reduces the ability of pine marten to mediate the replacement of grey squirrels by red squirrels. The results shown in Fig. <ref type="figure">4d</ref>, e, which uses vole population dynamics that follow a periodic solution taken from the data observed in Kielder Forest (Fig. <ref type="figure" target="#fig_2">3d,</ref><ref type="figure">e</ref>), are similar to the results in Fig. <ref type="figure">4a-c</ref>. The solution with a 3-year cycle requires a pine marten density of 0.5 km -2 (Fig. <ref type="figure">4d</ref>) and the 4-year cycle requires a pine marten density of 0.35 km -2 , which is 30% lower (Fig. <ref type="figure">4e</ref>) to mediate grey squirrel exclusion. This indicates that the 3-year cycle offers a longer temporal refuge against pine marten predation than the 4-year cyclewhich arises as vole densities are higher for a relatively more sustained length of time (over each period) in the 3-year cycle. While the 4-year vole population cycle may allow red squirrels to exclude grey squirrels at a lower pine marten density, it is worth noting that when red squirrels persist, their density is lower for a fixed pine marten density under the 4-year cycle compared to the 3-year vole cycle. Figure <ref type="figure">4f</ref> shows the results when the full Kielder Forest dataset is used (Fig. <ref type="figure" target="#fig_2">3f</ref> ) which requires a pine marten density of 0.37 km -2 to exclude grey squirrels. Given that the full dataset is comprised of the 3 and 4-year cycles, which leads to different predator-mediated competitive outcomes due to differences in the duration in the temporal refuge (compare Fig. <ref type="figure">4d</ref> and<ref type="figure">e</ref>), then it may be expected that coexistence between red and grey squirrels could occur. However, coexistence does not occur in this instance, with pine marten predation and competition from red squirrels leading to the exclusion of grey squirrels. In fact, <ref type="bibr" target="#b12">Fox (2013)</ref> shows that the introduction of a linear disturbance, such as a temporal refuge, cannot lead to coexistence between the prey species if coexistence is not possible in the original system (the implication being that since we cannot get coexistence in the model of the case study system without a temporal refuge, we cannot get coexistence due to the temporal refuge). Thus, the dynamics are more heavily influenced by the 4-year cycles (and the associated shorter temporal refuge duration) than the 3-year cycles.</p><p>Figure <ref type="figure">5</ref> shows the density of red and grey squirrels over time, for a fixed habitat of 15% broadleaved trees, and highlights the dynamics that occur for a fixed pine marten density of 0.4 per km 2 in Fig. <ref type="figure">4</ref>. These results show how the inclusion of a temporal refuge can change the competitive outcome and further emphasises how the duration of temporal refuge from pine marten predation can alter the population dynamics and persistence of red and grey squirrels. In particular, when the temporal refuge is short, red squirrels can exclude grey squirrels through predator-mediated competition. If the temporal refuge is sufficiently long, the impact of predation on squirrels is reduced and therefore grey squirrels can exclude red squirrels as greys are better competitors with low levels, or no, predation. A key point to note is that different, observed, patterns of vole population fluctuations can lead to different outcomes in terms of red and grey squirrel persistence (compare Fig. <ref type="figure">5d</ref> and<ref type="figure">e</ref>).</p><p>Figure <ref type="figure">6</ref> shows the pine marten density needed to ensure predator-mediated exclusion of grey squirrels by red squirrels for different habitats, defined by their proportion of broadleaved trees (with the remainder of the habitat being coniferous), when there is either no temporal refuge (T c = 0), or a temporal refuge of either 1 or 2 years. For habitats with less than 5% broadleaved trees, the model predicts that red squirrels out-compete grey squirrels, without the need for pine marten predation (and so the pine marten density required for grey exclusion is zero in Fig. <ref type="figure">6</ref>). When the habitat is greater than 5% broadleaved trees, grey squirrels will outcompete red squirrels in the absence of pine marten, with grey squirrels having an increasing competitive advantage over red squirrels as the percentage of broadleaved trees increases. The threshold in pine marten density required for grey squirrel exclusion increases as the percentage of broadleaved habitat increases. Thus, a pine marten density that may exclude grey squirrels in conifer dominated habitats may be insufficient in broadleaf dominated habitats. For each habitat the threshold in pine marten density also increases as the length of the temporal refuge increases.</p><p>We acknowledge that the available data to parametrise the predation terms in the model is scarce. We therefore undertake a sensitivity analysis of the impact of the predation rate and characteristics of prey switching function g(V) on our key findings (Supporting information). Results show that, if the overall predation rate is reduced or if the preferential predation rate of pine marten on grey squirrels is less pronounced (µ R /µ G is increased), then a higher density of pine marten is required for predator-mediated exclusion of grey squirrels by reds. However, the trends in pine marten density that lead to grey squirrel exclusion as the length of the temporal refuge is increased are robust to changes in pine marten predation parameters.</p><p>We now extend the case study results to consider the effect of pine marten population fluctuations, that arise in response to fluctuations in vole density, on the outcome of interactions between red and grey squirrels. Figure <ref type="figure">7</ref> outlines the population dynamics of voles, pine marten and squirrels for an idealised scenario where the period T = 2 and the temporal refuge length T c = 1. We consider pine marten dynamics that have oscillations that are synchronous with the vole oscillations and those that lag behind the vole oscillation by 1 year (and are therefore asynchronous with the vole dynamics). Figure <ref type="figure">7a</ref>(i) shows the vole dynamics, which alternate between the high and low densities such that there is a temporal refuge from predation for squirrels when vole density is high. Figure <ref type="figure">7a</ref>(ii) shows the pine marten dynamics, where oscillations lead to a 2-fold difference in density, which are exactly in-sync with the vole dynamics. Thus, pine marten density is high when the vole density is high, and low when the vole density is low. Figure <ref type="figure">7a</ref>(iii) shows the pine marten dynamics when they lag behind the vole dynamics such that they are exactly out-of-sync with the vole dynamics (when vole numbers are high, pine marten numbers are low and vice-versa).</p><p>Figure <ref type="figure">7b</ref>(i) shows the average red and grey squirrel population densities, for fixed pine marten densities (when T = 2 and T c = 1). The pine marten density required to ensure red squirrel survival is 0.46 km -2 . Figure <ref type="figure">7b</ref>(ii) shows that the average pine marten density required to ensure red squirrel survival is 50% larger, at 0.69 km -2 , when the pine marten population oscillations are in-sync with the vole dynamics. Recall, predation on squirrels occurs when vole densities are low, and when pine marten dynamics are in-sync with vole dynamics this coincides to the low phase of the pine marten cycle. Figure <ref type="figure">7b</ref>(iii) shows average pine marten density required to ensure red squirrel survival is 25% smaller, at 0.35 km -2 , when the pine marten dynamics are fully out-of-sync with the vole dynamics. Here, predation on squirrels occurs when pine marten are at the high phase of the cycle. These idealised scenarios provide an upper and lower bound on the average pine marten density required to exclude grey squirrels when pine marten densities vary (with a 2-fold increase in density) in response to vole population cycles. The impact of pine marten oscillations (again with a 2-fold increase in density) driven by the vole dynamics reported in the Kielder Forest dataset (Fig. <ref type="figure">4f</ref> ) can be understood by determining the average predation pressure over the period where predation is active. Compared to a fixed pine marten density the average pine marten density would need to increase by 26% when pine marten dynamics are in-sync with vole dynamics and by 7% when they lag behind the vole dynamics by 1 year (the lag observed in field studies <ref type="bibr" target="#b57">(Zalewski et al. 1995)</ref> and also a lag of approximately a quarter of the cycle length, which is typical for idealised or modelled predatorprey cycles <ref type="bibr" target="#b5">(Bulmer 1975)</ref>). This highlights how the timing of the temporal refuge in relation to the phase and period of the predator population cycle can have an impact on the predators ability to mediate the competitive interactions of alternative prey species.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In this paper we have developed new mathematical theory that combines prey switching and the alternative prey hypothesis to show how prey switching by a generalist predator, and the temporal refuge from predation that is generated, can alter the outcome of inter-species interactions for competing prey species. We show that temporal refugia can affect the average predation pressure and can therefore play an important role in determining prey species persistence and community composition.</p><p>Previous studies have shown that the proportion of a prey population that utilises a refuge, defined as either a fixed proportion of the total population or a fixed number of individuals (regardless of population size), is a key parameter in determining the stability and persistence of predatorprey interactions <ref type="bibr" target="#b34">(Royama 1977</ref><ref type="bibr" target="#b40">, Sih 1987</ref><ref type="bibr" target="#b2">, Berryman and Hawkins 2006)</ref>. These spatial refugia offer constant refuge from predation by safeguarding a segment of the population, thereby making extinction less likely <ref type="bibr" target="#b2">(Berryman and Hawkins 2006)</ref>. Our study develops new theory to show that the length of time spent in a temporal refuge from predation, relative to the length of time when predation occurs (Eq. 5 and 6), is a key factor in determining the outcome of predator-prey dynamics. A temporal refuge occurs when the predator switches its focus onto an abundant primary prey species, which either reduces or removes predatory pressure on the alternative prey species for a fixed period of time. The temporal refuge is quantifiable as it is directly associated with periods where the abundant alternative prey density is above a specified threshold. Building on a model of enemy-mediated competition, we derived explicit criteria that determine how the length of the temporal refuge governs the outcome of the interaction between competing prey species and a shared predator. This explicit solution is an advance on previous analytical considerations of refuges from predation for which the proportion of prey that benefits from a spatial refuge does not have an obvious biological interpretation. It opens the way for considering the influence of the population dynamics of primary and alternative prey species in determining community structure.</p><p>We extend the theory on prey switching to consider how a predator can mediate the interaction between two alternative prey species that are in competition, and how this is affected by the predator switching to a primary prey that generates a temporal refuge for the two alternative prey. We highlight the utility of the theory for the well-documented 3-4 years of multi-annual cyclic dynamics in small rodents that are a key driver of predator-prey relationships involving vertebrates. An important feature of a temporal refuge described in our model study is that the unequal predatory impact on the competing, alternative, prey species is reinstated dynamically as the abundance of the cyclic primary prey collapses. Hence, the refuge from predation diminishes and predation of the alternative, competing, prey resumes, potentially disproportionally to their relative abundances. Our general theory shows that, when there is differential predation on the alternative prey species, the predator can mediate the outcome of competition and allow an inferior competitor to persist if it suffers less from the impact of predation <ref type="bibr" target="#b26">(Leibold 1996</ref><ref type="bibr" target="#b6">, Carlsson et al. 2009)</ref>. When the predator switches to an abundant primary prey, the alternative prey species in our study (red and grey squirrels) benefits from a temporal refuge which can lead to renewed competition and the loss of the inferior competitor. Thus, we see the interplay between bottom-up and top-down regulation and the impact these have on community structure <ref type="bibr" target="#b26">(Leibold 1996)</ref>.</p><p>Our general theoretical framework was extended to consider a key case study system in which two prey species -the endangered Eurasian red squirrel, which is subject to competition from, and potential exclusion by, the invasive North American grey squirrel -are subject to predation from the native pine marten. Pine marten population density is recovering in the UK and the Republic of Ireland following historical decline as a result of persecution associated with the growth of the sporting-estate and habitat loss due to deforestation <ref type="bibr" target="#b25">(Langley and Yalden 1977)</ref>. Pine martens predate on both red and grey squirrels, but preferential predation of pine marten on grey squirrels has been linked to the decline of grey squirrels and the recovery of native red squirrels in the Republic of Ireland and Scotland <ref type="bibr" target="#b36">(Sheehy and Lawton 2014</ref><ref type="bibr" target="#b37">, Sheehy et al. 2018</ref><ref type="bibr">, Twining et al. 2020b)</ref>. Our theoretical results indicate that this preferential predation on grey squirrels can counter their enhanced competitive ability and allow red squirrels to exclude greys. However, pine martens are opportunistic predators that target locally abundant resources <ref type="bibr" target="#b47">(Twining et al. 2019</ref>) and, in particular, may focus predation efforts on field vole populations which are known to exhibit multi-year cycles in population abundance <ref type="bibr" target="#b24">(Lambin et al. 2000)</ref>. This has the potential to lead to a temporal refuge from predation for both squirrel species and our results indicate that, if the duration of the temporal refuge is suitably long, the predator-mediated advantage for red squirrels is diminished and may prevent red squirrel recovery.</p><p>Our key finding, that the outcome of competition between red and grey squirrels differs in the presences and absence of pine marten predation, depends on pine marten having a higher rate of predation on grey squirrel compared to red squirrels. Native red squirrels evolved with native pine marten, and so avoid pine marten, whereas invasive grey squirrels have been shown to lack an anti-predator behavioural response to pine marten <ref type="bibr">(Twining et al. 2020a</ref>). However, the lack of grey squirrel response may be temporary. It has been shown that species can rapidly develop anti-predator defences when faced with strong selection pressure (Anson and Dickman 2013) and that intra-specific heterogeneity in defence level can affect the outcome of resource competition <ref type="bibr" target="#b53">(Vos et al. 2004</ref>). However, studies also suggest that vulnerable species may become extinct before developing a defence against predators (Anson and Dickman 2013), although grey squirrels are likely to survive in urban refugia that are not favoured by pine marten <ref type="bibr" target="#b50">(Twining et al. 2021)</ref>. Should grey squirrels evolve anti-predator behaviour, the role of pine marten as a natural control agent of grey squirrels may be diminished.</p><p>Field vole cycles documented in Scotland and northern England may also be present in Wales and the rest of England <ref type="bibr" target="#b10">(Chitty and Chitty 1962</ref><ref type="bibr" target="#b45">, Tapper 1979</ref><ref type="bibr" target="#b24">, Lambin et al. 2000)</ref>. These population cycles have variable period length, where under the observed 3-year cycles that have prevailed since 2013 the vole density remains high for a longer period of time and thereby offers a greater refuge for red and grey squirrels than the lower amplitude 4-year cycles (Fig. <ref type="figure" target="#fig_2">3d-e</ref>). We find that the 3-year cycles, which provide a relatively longer refuge, require a 40% higher threshold in pine marten density, compared to the 4-year cycle, to ensure predatormediated exclusion of grey squirrels (compare Fig. <ref type="figure">4d-e</ref>). When the vole population fluctuations drive fluctuations in pine marten abundance, the average density of the predator required to exclude grey squirrels is also increased. Here, predation on red and grey squirrels typically occurs when pine marten are entering the low abundance phase of the cycle, which reduces the average predation pressure on squirrels. However, since the population fluctuations in generalist predators typically have low amplitude and can be lagged behind the primary prey species, a situation that occurs for pine marten and field voles <ref type="bibr" target="#b57">(Zalewski et al. 1995</ref><ref type="bibr" target="#b3">, Birks 2020)</ref>, the increase in average density required to exclude grey squirrels under cycling, compared to fixed, predator dynamics may be small. We note that the threshold values of marten density that yield predator-mediated exclusion in our strategic models fall within the observed range of density values recorded using statistically robust methods, but often sparse data. However, we recognise that the appropriate use of our findings is for the qualitative comparison of model scenarios rather than for quantitative interpretation. Nevertheless, our results imply that our necessarily parameter rich multi-species model broadly captures the essence of the biology of the species and effectively uses empirical evidence, despite strong simplifying assumptions <ref type="bibr" target="#b56">(White et al. 2016</ref><ref type="bibr" target="#b19">, Jones et al. 2017</ref><ref type="bibr" target="#b41">, Slade et al. 2020)</ref>.</p><p>It is noteworthy that cyclically fluctuating field vole populations are altogether absent from the island of Ireland, where bank voles Myodes glareolus and wood mice Apodemus sylvaticus are the primary prey of pine marten <ref type="bibr" target="#b47">(Twining et al. 2019)</ref>. Those species exhibit irregular outbreaks in density linked to tree seed masting events <ref type="bibr" target="#b32">(Pucek et al. 1993)</ref>, however they do not reach the densities exhibited by field voles in mainland UK <ref type="bibr" target="#b43">(Smal and Fairley 1980)</ref>. Thus, the impact of a temporal refuge may be more pronounced in Scotland and northern England than in Ireland, which may explain why the grey squirrel decline that has coincided with the recovery of pine marten in Ireland has been rapid <ref type="bibr" target="#b36">(Sheehy and Lawton 2014</ref><ref type="bibr">, Twining et al. 2020a</ref><ref type="bibr">, 2022)</ref>. Note also that, while we considered the known influence of the proportion of coniferous and deciduous tree cover on squirrel species carrying capacity, we implicitly held the amount of field vole habitat constant. Field voles inhabit rough grasslands and clear-felled areas in short rotation conifer plantations, rather than forest understorey. These conditions prevail in northern Britain and support abundant field vole populations, as do unplanted river margins and ungrazed meadows. However, plantation forests lack tree cavities, which North American research indicates could confer higher survival rates for grey squirrels relative to dreys, which may limit grey squirrel densities <ref type="bibr" target="#b38">(Shuttleworth et al. 2016)</ref>. Determining how habitat properties in the UK and Republic of Ireland affect the four interacting species considered in our case study system is an important applied endeavour beyond the scope of this modelling exercise.</p><p>The strategic model developed to assess the case study system highlights the importance of a range of potential processes that could influence the ability of pine marten to promote the recovery of red squirrels. Under the assumption that pine marten preferentially predate on grey squirrels relative to red squirrels <ref type="bibr">(Twining et al. 2020a</ref>), a key finding is that the pine marten density required for the exclusion of grey squirrels is dependent on the grey squirrel carrying capacity, which is strongly linked to habitat composition, with higher carrying capacities requiring greater marten densities for the exclusion of grey squirrels to occur. This result holds for constant predator density and if predator density cycles in response to population oscillations of the primary prey species. The pine marten density required to exclude grey squirrels also increases as the relative length of the temporal refuge increases, and if the temporal refuge coincides with the high density phase of pine marten population fluctuations. Our results also indicate that the pine marten density required to exclude grey squirrels is higher in the absence of red squirrels (Supporting information). This suggests that grey squirrel decline, mediated by pine marten predation, is likely to be most pronounced in regions that are contiguous with red squirrel populations, since here grey squirrel density may be further reduced by competition with red squirrels. Thus, the influence of pine marten may spread as a slowly expanding wave front as red squirrel recovery enhances the impact of pine marten on grey squirrel population declines. Pine marten also predate on red squirrels <ref type="bibr" target="#b15">(Halliwell 1997)</ref> and there is concern that pine marten recovery may threaten red squirrel viability. Despite our strong caveats on the interpretation of modelled pine marten densities, our study reflects the results from field observations <ref type="bibr" target="#b37">(Sheehy et al. 2018</ref><ref type="bibr">, Twining et al. 2020a</ref><ref type="bibr">, 2022)</ref> that suggest that, at the level of pine marten density observed in the UK and Republic of Ireland, the impact of pine marten predation on red squirrel density is low. Note however, that recent evidence suggests that the impact of pine marten on red squirrel density in low resource conifer dominated habitats in Northern Ireland (where field voles are absent) may be high <ref type="bibr" target="#b51">(Twining et al. 2022)</ref>.</p><p>It is reasonable to ask how our study can be used by ecologists and policy makers to aid red squirrel conservation. The strategic nature of our model study means that providing a target pine marten density for red squirrel conservation is not possible. However, our study highlights that such a target density will depend on how the average predation pressure relates to the red and grey squirrel carrying capacities and level of interspecific competition. The average predation pressure is linked to pine marten density and will decrease if there is a temporal refuge from predation for squirrels. Therefore, as pine marten continue to expand their range in the UK their impact on red squirrel conservation will vary and depend on pine marten density, local habitat characteristics and the abundance of primary prey. In general, our study has shown how strategic models can extend the debate on the role of the reintroduction and conservation of natural predators to control invasive species and maintain species diversity <ref type="bibr" target="#b33">(Ritchie and Johnson 2009)</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Model results confirming the change in competitive outcome as temporal refuge length is altered. Here (a) shows the average population density of species 1 and 2 as the length of the temporal refuge is increased from T c = 0 to T c = 3, which demonstrates that species 1 is dominant when T T c &lt; crit 1 , species 2 is dominant when T T c &gt; crit 2 and that there is coexistence when T</figDesc><graphic coords="3,75.27,62.36,450.40,352.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>d</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure3. Field vole densities. Here (a) shows a constant field vole density that is less than V 0 , (b) denotes the idealised 3-year periodic field vole density with temporal refuge of length T c = 1, (c) denotes the idealised 3-year periodic field vole density with a temporal refuge of length T c = 2, (d) denotes the 3-year periodic vole density based on real vole densities at Kielder Forest<ref type="bibr" target="#b24">(Lambin et al. 2000)</ref>. The cycle is set-up by extracting the observed data for years 1986-1988 and repeating these values to provide periodic data with a 3-year cycle, (e) denotes the 4-year periodic vole density based on real vole densities from Kielder Forest<ref type="bibr" target="#b24">(Lambin et al. 2000)</ref>. The cycle is set-up by extracting the observed data for years 1992-1995 and repeating these values to provide periodic data with a 4-year cycle, (f ) denotes the full Kielder Forest data set<ref type="bibr" target="#b24">(Lambin et al. 2000)</ref>, which we assume repeats periodically. Spring, summer and autumn vole density information from Kielder Forest is given by white, grey and black circles respectively.</figDesc><graphic coords="5,79.37,62.36,442.20,352.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>Figure4. The average population density of red and grey squirrels for a habitat with 15% broadleaved trees and for different, fixed, pine marten densities (K P ) for the model described by Eq. 10. Numerical simulations were run for sufficiently long to ensure a stable periodic solution is reached which we found was always the case by t = 1000. The crosses indicate the pine marten density used in Fig.5. Here (a) shows the baseline results without a temporal refuge (vole dynamics are defined by Fig.3a), (b) shows the results when one year out of every three years is a temporal refuge (the vole dynamics are defined by Fig.3b), (c) shows the results when two years out of every three years is a temporal refuge (the vole dynamics are defined by Fig.3c), (d) shows the results when the vole dynamics follow the 3-year cycle based on the Kielder Forest data (Fig.3d), (e) shows the results when the vole dynamics follow the 4-year cycle based on the Kielder Forest data (Fig.3e) and (f ) shows the results when the vole dynamics follow the full Kielder Forest dataset(1984)(1985)(1986)(1987)(1988)(1989)(1990)(1991)(1992)(1993)(1994)(1995)(1996)(1997)(1998) (Fig.3f). We assume a habitat that is composed of 15% broadleaved trees and the remainder coniferous trees. Parameter values are a R = 1.0, b R = 0.4, c R = 0.606 and K R = 0.242 for red squirrels; a G = 1.2, b G = 0.4, c G = 1.65 and K G = 0.232 for grey squirrels.</figDesc><graphic coords="7,75.84,62.36,449.27,418.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="8,70.36,62.36,448.89,387.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="9,143.63,62.36,313.68,251.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="10,53.24,62.36,483.12,373.08" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>Funding -AS was supported by The <rs type="funder">Maxwell Institute Graduate School in Analysis</rs> and its Applications, a <rs type="funder">Centre</rs> for Doctoral Training funded by the <rs type="funder">UK Engineering and Physical Sciences Research Council</rs> (grant <rs type="grantNumber">EP/L016508/01</rs>), the <rs type="funder">Scottish Funding Council</rs>, <rs type="funder">Heriot-Watt University</rs> and the <rs type="funder">University of Edinburgh</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_rTKc6M7">
+					<idno type="grant-number">EP/L016508/01</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability statement</head><p>Data are available from the Zenodo Digital Repository: &lt;https<ref type="url" target="://zenodo.org/record/6607422&gt;">://zenodo.org/record/6607422&gt;</ref>  <ref type="bibr" target="#b42">(Slade et al. 2022</ref>).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>Andrew Slade: Conceptualization (equal); Formal analysis (equal); Methodology (equal); Software (lead); Visualization (lead); Writing -original draft (equal); Writing -review and editing (equal). Andy White: Conceptualization (equal); Formal analysis (equal); Methodology (equal); Writingoriginal draft (equal); Writing -review and editing (equal). Peter W. W. Lurz: Writing -original draft (equal); Writing -review and editing (equal). Craig Shuttleworth: Writingoriginal draft (equal); Writing -review and editing (equal). Xavier Lambin: Conceptualization (equal); Methodology (equal); Writing -original draft (equal); Writing -review and editing (equal).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting information</head><p>The Supporting information associated with this article is available with the online version.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Role of predation in short-term population fluctuations of some birds and mammals in fennoscandia</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Angelstam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oecologia</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="199" to="208" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Behavioral responses of native prey to disparate predators: naivete and predator recognition</title>
+		<author>
+			<persName><forename type="first">Anson</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dickman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oecologia</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="page" from="367" to="377" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The refuge as an integrating concept in ecology and evolution</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Berryman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hawkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="192" to="196" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Pine Martens</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Birks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">British natural history collection</title>
+		<imprint>
+			<publisher>Whittet Books</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">8</biblScope>
+		</imprint>
+	</monogr>
+	<note>2nd edn</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The alternative prey hypothesis revisited: still valid for willow ptarmigan population dynamics</title>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">197289</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Phase relations in the ten-year cycle</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bulmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Anim. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="609" to="621" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Native predators and exotic prey -an acquired taste? -Front</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Carlsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Environ</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="525" to="532" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The seasonal diet of British pine marten determined from genetically identified scats</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Caryl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Zool</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="page" from="252" to="259" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Multispecies competition in variable environments</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chesson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Theor. Popul. Biol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="227" to="276" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The roles of harsh and fluctuating conditions in the dynamics of ecological communities</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chesson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Huntly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Nat</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page" from="519" to="553" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Population trends among the voles at Lake Vyrnwy, 1932-1960</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chitty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chitty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Symposium theriologicum</title>
+		<title level="s">Czech. Acad. Sci.</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Pelikan</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Pelikan</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Brno</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1960">1962. 1960</date>
+			<biblScope unit="page" from="67" to="76" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Competition systems with periodic coefficients: a geometric approach</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>De Mottoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schiaffino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Math. Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="319" to="335" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The intermediate disturbance hypothesis should be abandoned</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="86" to="92" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Evaluating prey switching in wolf-ungulate systems</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Garrott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Appl</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1588" to="1597" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Community structure, population control and competition</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hairston</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Nat</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="421" to="425" />
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Halliwell</surname></persName>
+		</author>
+		<title level="m">The ecology of red squirrels in Scotland in relation to pine marten predation</title>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+		<respStmt>
+			<orgName>Univ. of Aberdeen</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Multiannual vole cycles and population regulation during long winters: an analysis of seasonal density dependence</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Nat</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="page" from="129" to="139" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Reintroduction of top-order predators: using science to restore one of the drivers of biodiversity</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hayward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Somers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Reintroduction of top-order predators</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Hayward</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Somers</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Blackwell Publishing Ltd</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="1" to="9" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Predation, apparent competition and the structure of prey communities</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Holt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Theor. Popul. Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="197" to="229" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Mathematical models for invasive species management: grey squirrel control on anglesey</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Model</title>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="page" from="276" to="284" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Floquet theory: a useful tool for understanding nonequilibrium dynamics</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Klausmeier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Theor. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="153" to="161" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Successional state dynamics: a novel approach to modeling nonequilibrium foodweb dynamics</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Klausmeier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Theor. Biol</title>
+		<imprint>
+			<biblScope unit="volume">262</biblScope>
+			<biblScope unit="page" from="584" to="595" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Foraging adaptation and the relationship between food-web complexity and stability</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kondoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">299</biblScope>
+			<biblScope unit="page" from="1388" to="1391" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">On the gause predator-prey model with a refuge: a fresh look at the history</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Krivan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Theor. Biol</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="67" to="73" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Cyclic dynamics in field vole populations and generalist predation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lambin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Anim. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="106" to="119" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The decline of the rarer carnivores in Great Britain during the nineteenth century</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Langley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yalden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammal Rev</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="95" to="116" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A graphical model of keystone predators in food webs: trophic regulation of abundance, incidence and diversity patterns in communities</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leibold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Nat</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page" from="784" to="812" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mathews</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">A review of the population and conservation status of British mammals</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Switching in general predators: experiments on predator specificity and stability of prey populations</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Murdoch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Monogr</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="335" to="354" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Food web complexity and species diversity</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Paine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Nat</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="65" to="75" />
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The diet of pine martens (Martes martes) with reference to squirrel predation in Loch Lomond and the Trossachs National Park, Scotland</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Paterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Skipper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glasgow Nat</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="75" to="82" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Predator-mediated competition in prey refuges: the importance of habitat dependent prey resources</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Persson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="12" to="22" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Rodent population dynamics in a primeval deciduous forest (Bialowieza National Park) in relation to weather, seed crop and predation</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Pucek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Theriol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="199" to="232" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Predator interactions, mesopredator release and biodiversity conservation</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="982" to="998" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Population persistence and density dependence</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Royama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Monogr</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1" to="35" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The community effects of phenotypic and genetic variation within a predator population</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schreiber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="1582" to="1593" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Population crash in an invasive species following the recovery of a native predator: the case of the american grey squirrel and the european pine marten in Ireland</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sheehy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lawton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biodivers. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="753" to="774" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The enemy of my enemy is my friend: native pine marten recovery reverses the decline of the red squirrel by suppressing grey squirrel populations</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sheehy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page">20172603</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Grey squirrel nesting ecology and the use of nest sites in european population management</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shuttleworth</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The grey squirrel: ecology and management of an invasive species in Europe</title>
+	</analytic>
+	<monogr>
+		<title level="m">European Squirrel Initiative</title>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Craig</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="page" from="349" to="367" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Prey refuges and predator-prey stability</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sih</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Theor. Popul. Biol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">An assessment of long-term forest management policy options for red squirrel conservation in Scotland. -Hystrix It</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Slade</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mammol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="137" to="147" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Data from: A temporal refuge from predation can change the outcome of prey species competition. -Zenodo Digital Repository</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Slade</surname></persName>
+		</author>
+		<ptr target="&lt;https://zenodo.org/record/6607422" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Food of wood mice Apodemus sylvaticus and bank voles Clethrionomys glareolus in oak and yew woods at Killarney, Ireland</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Smal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fairley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Zool</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="413" to="418" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Population cycles in voles and lemmings: density dependence and phase dependence in a stochastic world</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stenseth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="427" to="461" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The effect of fluctuating vole numbers (Microtus agrestis) on a population of weasels (Mustela nivalis) on farmland</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tapper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Anim. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="603" to="617" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Ecological replacement of native red squirrels by invasive greys driven by disease</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tompkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="189" to="196" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Seasonal, geographical and habitat effects on the diet of a recovering predator population: the european pine marten (Martes martes) in Ireland</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Twining</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page">51</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Native and invasive squirrels show different behavioural responses to scent of a shared native predator</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Twining</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">R. Soc. Open Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">191841</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The dynamics of pine marten predation on red and grey squirrels</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Twining</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammal. Biol</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="285" to="293" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Declining invasive grey squirrel populations may persist in refugia as native predator recovery reverses squirrel species replacement</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Twining</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="248" to="260" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Habitat mediates coevolved but not novel species interactions</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Twining</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page">20212338</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Alternative food, switching predators and the persistence of predator-prey systems</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Baalen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Nat</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="512" to="524" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Inducible defences and the paradox of enrichment</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="471" to="480" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Endemic predators, invasive prey and native diversity</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wanger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="page" from="690" to="694" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Lotka-Volterra population models</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wangersky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Ecol. Syst</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="189" to="218" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Modelling disease spread in real landscapes: squirrelpox spread in southern Scotland as a case study. -Hystrix It</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mammol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="75" to="82" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Pine marten home ranges, numbers and predation on vertebrates in a deciduous forest (Białowieza National Park, Poland)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zalewski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Zool. Fenn</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="131" to="144" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

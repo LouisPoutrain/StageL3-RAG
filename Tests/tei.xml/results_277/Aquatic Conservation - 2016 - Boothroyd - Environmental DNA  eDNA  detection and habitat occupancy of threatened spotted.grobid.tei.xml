@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Environmental DNA (eDNA) detection and habitat occupancy of threatened spotted gar (Lepisosteus oculatus)</title>
+				<funder ref="#_cd8Hs9q">
+					<orgName type="full">DFO</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-01-15">15 January 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Margaret</forename><surname>Boothroyd</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Aquatic Research and Monitoring Section</orgName>
+								<orgName type="institution">Ontario Ministry of Natural Resources and Forestry</orgName>
+								<address>
+									<settlement>Peterborough</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicholas</forename><forename type="middle">E</forename><surname>Mandrak</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="laboratory">Aquatic Research and Monitoring Section</orgName>
+								<orgName type="institution">University of Toronto Scarborough</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Fox</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Chris</forename><forename type="middle">C</forename><surname>Wilson</surname></persName>
+							<email>chris.wilson@ontario.ca</email>
+							<affiliation key="aff1">
+								<orgName type="department">Aquatic Research and Monitoring Section</orgName>
+								<orgName type="institution">Ontario Ministry of Natural Resources and Forestry</orgName>
+								<address>
+									<settlement>Peterborough</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Environmental and Resource Studies Program</orgName>
+								<orgName type="department" key="dep2">Department of Biology</orgName>
+								<orgName type="institution">Trent University</orgName>
+								<address>
+									<settlement>Peterborough</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">Ontario Ministry of Natural Resources and Forestry</orgName>
+								<address>
+									<addrLine>2140 East Bank Drive</addrLine>
+									<postCode>K9J 7B8</postCode>
+									<settlement>Peterborough</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Environmental DNA (eDNA) detection and habitat occupancy of threatened spotted gar (Lepisosteus oculatus)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-01-15">15 January 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">025DA46C53DEC0B9E8437BBF09D8DF42</idno>
+					<idno type="DOI">10.1002/aqc.2617</idno>
+					<note type="submission">Received 15 March 2015; Revised 02 September 2015; Accepted 03 December 2015</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>new techniques</term>
+					<term>endangered species</term>
+					<term>genetics</term>
+					<term>fish</term>
+					<term>littoral</term>
+					<term>lake</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>1. Determining the occurrence and site occupancy of rare and endangered species can be challenging, particularly without causing harm or stress to the species of concern.</p><p>2. Environmental DNA (eDNA) detection was used to assess habitat occupancy by spotted gar (Lepisosteus oculatus), which is federally listed as Threatened in Canada, with known occurrences limited to a small number of locations in southern Ontario.</p><p>3. Quantitative polymerase chain reaction (qPCR) assays were developed to detect spotted gar eDNA, which was detected in all but one previously recorded location. The eDNA method was shown to be more effective than traditional netting for detecting spotted gar habitat use.</p><p>4. The use of qPCR allowed for quantification of substantial variation in detection strength (copy number) among replicate eDNA samples, with implications for establishing sampling designs for detection and surveillance.</p><p>5. The use of eDNA for detection and monitoring of aquatic species of conservation concern shows great potential as a non-invasive method for assessing species occurrences and habitat occupancy, as well as for informing targeted sampling by conventional capture methods.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Global biodiversity is experiencing accelerating losses from human impacts on environments and ecosystems <ref type="bibr" target="#b5">(Butchart et al., 2010)</ref>. While many conservation efforts have focused on terrestrial systems, higher trajectories of species loss in freshwater ecosystems indicate urgent conservation needs <ref type="bibr" target="#b0">(Abell, 2002;</ref><ref type="bibr" target="#b51">Strayer and Dudgeon, 2010)</ref>.</p><p>Freshwater fishes alone comprise one quarter of living vertebrate species, and recent assessments suggest that more than 30% are threatened <ref type="bibr" target="#b48">(Singh, 2002)</ref>. The rapid decline of North American freshwater fish diversity has continued despite increased knowledge and implementation of environmental and species protection laws <ref type="bibr" target="#b29">(Jelks et al., 2008;</ref><ref type="bibr" target="#b59">Williams et al., 2011)</ref>. Knowledge of a species' distribution and abundance is vital to understanding their ecology, and critical for conserving populations <ref type="bibr" target="#b56">(Thompson, 2004)</ref>.</p><p>Canada's Species at Risk Act (SARA) legislates the protection of critical habitat, which is habitat required for persistence of listed threatened or endangered species <ref type="bibr">(S.C. 2002, c.29;</ref><ref type="bibr" target="#b44">Rosenfeld and Hatfield, 2006)</ref>. As critical habitat can vary substantially among different life stages, defining and mapping it can be challenging <ref type="bibr" target="#b44">(Rosenfeld and Hatfield, 2006)</ref>. The information required to define critical habitat can be costly and time consuming to obtain, particularly in complex aquatic ecosystems <ref type="bibr" target="#b16">(Ficetola et al., 2008;</ref><ref type="bibr" target="#b53">Takahara et al., 2012)</ref>.</p><p>The use of environmental DNA (eDNA) is an emerging method for detecting the presence of low-abundance aquatic species that has applications for identifying occurrences of rare or endangered species, as well as invasive species during early colonization stages <ref type="bibr" target="#b16">(Ficetola et al., 2008;</ref><ref type="bibr" target="#b53">Takahara et al., 2012;</ref><ref type="bibr" target="#b57">Thomsen et al., 2012;</ref><ref type="bibr" target="#b2">Biggs et al., 2015)</ref>. Although eDNA has largely been used for invasive species surveillance <ref type="bibr" target="#b16">(Ficetola et al., 2008;</ref><ref type="bibr" target="#b30">Jerde et al., 2011;</ref><ref type="bibr" target="#b11">Dejean et al., 2012)</ref>, the method's sensitivity also makes it valuable for detecting rare species where they are present at low densities and difficult to find <ref type="bibr" target="#b56">(Thompson, 2004;</ref><ref type="bibr" target="#b57">Thomsen et al., 2012;</ref><ref type="bibr" target="#b28">Janosik and Johnston, 2015;</ref><ref type="bibr" target="#b32">Laramie et al., 2015;</ref><ref type="bibr" target="#b47">Sigsgaard et al., 2015)</ref>. Habitat sampling using eDNA has distinct advantages over traditional sampling methods such as netting that rely on invasive and/or selective capture, as DNA from sloughed tissues is collected from water samples without having to capture or directly encounter the species of interest <ref type="bibr" target="#b8">(Darling and Mahon, 2011;</ref><ref type="bibr" target="#b30">Jerde et al., 2011;</ref><ref type="bibr" target="#b47">Sigsgaard et al., 2015)</ref>. Thus, noninvasive species detections using eDNA have the additional benefit of avoiding any potential stress or mortality caused by sampling <ref type="bibr" target="#b42">(Putman, 1995;</ref><ref type="bibr" target="#b38">Olson et al., 2012;</ref><ref type="bibr" target="#b57">Thomsen et al., 2012)</ref>. As well as providing clear benefits for documenting occurrences of species of conservation concern, eDNA detections can also focus conservation efforts at appropriate sites and enable population monitoring with less cost and effort than relying solely on traditional sampling methods <ref type="bibr" target="#b16">(Ficetola et al., 2008;</ref><ref type="bibr" target="#b10">Dejean et al., 2011</ref><ref type="bibr" target="#b47">, Sigsgaard et al., 2015)</ref>.</p><p>The spotted gar (Lepisosteus oculatus) is a North American freshwater fish with a distribution that is largely limited to the Mississippi River basin and the Gulf of Mexico, but also includes disjunct populations in the Great Lakes basin (Figure <ref type="figure" target="#fig_0">1</ref>; <ref type="bibr" target="#b40">Page and Burr, 1991)</ref>. The spotted gar is designated as Threatened within Canada, with only three confirmed populations: Long Point Bay, Pelee National Park, and Rondeau Bay in Lake Erie <ref type="bibr">(COSEWIC, 2005)</ref>. There are also recent records from the Bay of Quinte and Hamilton Harbour in Lake Ontario, and historic records from Lake St Clair <ref type="bibr">(COSEWIC, 2005)</ref>.</p><p>Major threats to the species in Canada include pollution and habitat loss, as adult spotted gar prefer shallow, clear, vegetated habitat within lakes and rivers <ref type="bibr" target="#b21">(Glass et al., 2012;</ref><ref type="bibr" target="#b23">Gray et al., 2012)</ref>. As the spotted gar is listed under Canada's federal Species at Risk Act (SARA), a recovery strategy must be developed and implemented for the species, including identification and protection of critical habitat (Department of Fisheries and Oceans, <ref type="bibr">DFO, 2010)</ref>. Current data on the species' distribution, abundance, and habitat use is vital for developing the recovery strategy.</p><p>In this study, quantitative eDNA methods were used to document the occurrence of DNA from spotted gar in historically identified habitats across its Canadian range and infer habitat use or occupancy to help inform conservation efforts for this threatened species. The objectives of this study were to: (1) test the effectiveness of the eDNA detection method for species-specific detection of spotted gar; (2) assess the presence of spotted gar in historical and contemporary sites in south-western Ontario; and (3) assess detection power and repeatability of eDNA for potential application to other aquatic species of conservation concern.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Field sampling</head><p>Locations with known and historically documented occurrences of spotted gar in Canada (Table <ref type="table" target="#tab_0">1</ref>, Figure <ref type="figure" target="#fig_0">1</ref>) were sampled for eDNA testing. Long Point Bay, Hillman Marsh, Point Pelee, and Rondeau Bay in Lake Erie; the Thames River, a tributary to Lake St Clair; and, Hamilton Harbour in Lake Ontario (Figure <ref type="figure" target="#fig_0">1</ref>) were all targeted for sampling based on historical and recent records <ref type="bibr">(Table 1, COSEWIC, 2005;</ref><ref type="bibr" target="#b3">Bouvier and Mandrak, 2010;</ref><ref type="bibr">Department of Fisheries and Oceans, DFO, 2010;</ref><ref type="bibr" target="#b50">Staton et al., 2012)</ref>.</p><p>To compare detection sensitivity of eDNA versus conventional sampling, nearshore habitats within Long Point Bay were also sampled using 1.2 m fine-mesh (6.35 mm bar mesh) fyke nets. A total of 47 fyke net sets, averaging 24 h, were set at multiple sites in Long Point Bay between 28 May and 7 June 2012, during the known spawning season for spotted gar <ref type="bibr" target="#b58">(Tyler and Granger, 1984;</ref><ref type="bibr" target="#b49">Snedden et al., 1999;</ref><ref type="bibr" target="#b21">Glass et al., 2012)</ref>. Netting sites were chosen based on identified critical habitat and areas considered to potentially support spotted gar (Department of Fisheries and Oceans, <ref type="bibr">DFO, 2010;</ref><ref type="bibr" target="#b50">Staton et al., 2012)</ref>. Nets were placed in shallow areas adjacent to shore to target spawning-related movements and left for 24 h (range 18.5-38 h owing to weather conditions). All nets and sampling gear were bleached and rinsed after retrieval to prevent DNA cross-contamination. The netting was conducted under a Species at Risk scientific permit issued by Fisheries and Oceans Canada (DFO), and was done in accordance with guidelines set by the DFO's Canada Centre for Inland Waters Animal Care Committee (Protocol Number: AUP # 1017). Water samples for eDNA testing were collected at each recent and historically known location for spotted gar (Table <ref type="table" target="#tab_0">1</ref>, Figure <ref type="figure" target="#fig_0">1</ref>), sampling 10 sites within each general location and taking five replicate 1 L water samples per site. For the Thames River, three 1 L water samples were collected from each of 16 sites. Owing to logistical delays, water sampling was carried out from 19-25 June 2012 instead of coinciding with the netting effort. All sampling followed protocols established by <ref type="bibr" target="#b33">Mahon et al. (2010)</ref>, which include multiple safeguards and quality checks to reduce contamination and minimize the possibility of false positive results <ref type="bibr" target="#b33">(Mahon et al., 2010)</ref>. Post-collection samples were stored in 60 L coolers with ice packs to prevent DNA degradation. Negative controls (one 1 L sample of clean water per cooler) were also brought into the field to test for contamination from handling among environmental samples. As described above, all sampling gear was bleached and rinsed between locations to prevent DNA cross-contamination. Three 1 L water samples were collected from the Otonabee River (Peterborough, Ontario) to act as field controls, since there are no known or historical records of spotted gar within the Otonabee River. These precautions are necessary because of the high sensitivity of polymer chain reaction (PCR), which can make it prone to contamination during field sampling or laboratory processing <ref type="bibr" target="#b8">(Darling and Mahon, 2011)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Filtering</head><p>Water samples were filtered within 3-18 h of collection. Water was filtered using a filter funnel attached to a vacuum source, with two types of fine-pore filters: 1.0 μm pore size Whatman TM 47 mm GF/B filters and 1.2 μm pore Whatman TM 47 mm GF/C filters. Previous work under controlled conditions showed that DNA yields from these two filter types were not significantly different (C. Wilson, unpubl. data). All filters were stored at -80°C until extracted to prevent DNA degradation <ref type="bibr" target="#b1">(Anchordoquy and Molina, 2007)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Extractions</head><p>DNA was extracted from the water filters using MoBio Power Water extraction kits. The manufacturer's extraction protocol was followed with the following modifications: (1) extractions were made in 15 mL tubes rather than the bead tubes provided; (2) samples were agitated using an orbital shaker for 30 min rather than 5 min; (3) after the shaking stage for GF/C filters, an additional 500 μL of PW1 was added and the samples were vortexed; and (4) final elution was done with low TE (10 mmol L -1 Tris pH 8, 0.1 mmol L -1 EDTA) instead of the PW6 solution provided. Extracted samples were stored at -20°C to prevent DNA degradation. Genomic DNA was also extracted from 12 reference samples of spotted gar (fin clips preserved in 80% ethanol) from several Lake Erie locations (Point Pelee, Long Point, Rondeau Bay) and Missouri, USA using an alkali extraction protocol <ref type="bibr" target="#b13">(Dissing et al., 1996)</ref>.</p><p>Successful extraction of DNA for both reference and environmental samples was confirmed by gel electrophoresis, visualizing 2 μL of DNA from each extraction with SYBR Green stain in a 1.5% agarose gel alongside a 100 bp mass ladder (Bioshop Canada). qPCR Quantitative PCR (qPCR) was used to test the detection efficacy of spotted gar eDNA, using species-specific primers and probe designed to amplify and detect a 61 bp segment of the mitochondrial cytochrome c oxidase I (COI) gene based on L. oculatus sequences in BOLD <ref type="bibr" target="#b43">(Ratnasingham and Hebert, 2007)</ref>. The COI gene is well-suited for eDNA detection of species of interest, based on species-diagnostic differences between most species and the rapidly growing global database of DNA barcodes based on COI sequences <ref type="bibr" target="#b24">(Hebert et al., 2003;</ref><ref type="bibr" target="#b43">Ratnasingham and Hebert, 2007)</ref>. The barcoding region of COI has the additional benefit of being flanked by two highly conserved 'universal' primer sites for PCR, which simplifies obtaining DNA barcodes from novel species of interest <ref type="bibr" target="#b24">(Hebert et al., 2003)</ref>.</p><p>The TaqMan-labelled qPCR probe was designed to have three mismatches from longnose gar (L. osseus), the only other gar species with a Canadian distribution <ref type="bibr" target="#b40">(Page and Burr, 1991)</ref>. All qPCR reactions were run with TaqMan® chemistry with a total reaction volume of 20 μL consisting of 5 μL undiluted DNA, 10 μL of TaqMan® Fast Advanced Master Mix (Applied Biosystems), 0.4 μL each for the qPCR primers and probe [S.GarTaqManF (5′-CTGACTTCTCCCACCCTCATTT-3′), 0.2 μL S.GarTaqManR (5′-CGGCCCCTGCTTCAAT C-3′), 0.2 μL SpottedGarProbe (6FAM-TTCTCCT TTTAGCCTCATC-MGBNFQ)], and 3.8 μL ddH 2 O. Reactions were carried out in a StepOnePlus thermocycler (Life Technologies), using an initial denaturation at 95°C for 2 min, followed by 40 cycles of 95°C denaturation for 1 s and 60°C annealing for 20 s. Two replicate qPCR reactions were run for each sample, and two series of qPCR standards (10-fold dilution series of spotted gar COI PCR product from 10 6 to 10 0 copies per reaction) and two negative controls were run on all sample plates. The resulting standard curves were used to quantify starting copy number estimates of template DNA in the environmental samples. qPCR was also used to test a subset of environmental samples for inhibition using an Internal Positive Control (IPC; Life Technologies). For this subset of IPC controls, 20 μL qPCR reactions were run with TaqMan® chemistry, consisting of 5 μL undiluted DNA, 10 μL of TaqMan® Fast Advanced Master Mix (Applied Biosystems), 0.4 μL each of S.GarTaqManF, S. GarTaqManR, and SpottedGarProbe, 1.2 μL ddH 2 O, 2.2 μL of 10× Exo IPC Mix, and 0.4 μL 50× Exo IPC DNA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Establishing a detection threshold</head><p>Determination of whether or not a result is a 'positive' detection requires careful interpretation and appropriate quality checks and controls. <ref type="bibr" target="#b8">Darling and Mahon (2011)</ref> suggested defining a priori criteria and thresholds to distinguish clearly between positive and negative detections, minimize observer bias, and work toward consistent scoring and interpretation. For qPCR, the assay's sensitivity depends on many factors including sampling and DNA extraction procedures, target rarity in samples, presence of inhibitors, and amplification conditions <ref type="bibr" target="#b19">(Foy and Parkes, 2001)</ref>. Method sensitivity is associated with the detectable lower limit of the method, or the limit of detection (LOD), which can be defined to give insight into the lowest detection limit for a qPCR assay <ref type="bibr" target="#b6">(Burns and Valdivia, 2008)</ref>. Generally, the LOD is conveyed as the amount of analyte the analytical method detects successfully at a minimum 95% of the time <ref type="bibr" target="#b45">(Ros-García et al., 2012)</ref>. In the present study the 1 DNA copy/5 μL had a high failure rate (45%), resulting in the 10 DNA copies/5 μL being set as the LOD and threshold for detection. Confident detections were defined as samples that consistently amplified at or above the 10-copy detection threshold. If the samples showed qPCR detection while the negative field and laboratory control samples did not, it was inferred that spotted gar DNA was present at the sampling site.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sequencing</head><p>A subset of samples with positive detections, including at least one positive from each site with positive detections, were amplified using conventional PCR primers developed for a 260 bp segment of spotted gar COI <ref type="bibr" target="#b4">(Bronnenhuber and Wilson, 2013)</ref>, bidirectionally sequenced using BigDye 3.1 sequencing chemistry (Applied Biosystems), and visualized on an AB3730 capillary sequencer (Applied Biosystems) to ensure that the amplified DNA was from spotted gar. In cases where multiple positive detections occurred at a site, a representative subsample was sequenced. All sequences were proofread using Sequencher 5.1 (Gene Codes, Inc.) and identified using the BLAST tool on Genbank (www.ncbi. nlm.nih.gov) to look for homologous sequences. Sequences were also visualized using MEGA version 5 <ref type="bibr" target="#b55">(Tamura et al., 2011)</ref> alongside samples from spotted gar and longnose gar obtained from Genbank and BOLD <ref type="bibr" target="#b43">(Ratnasingham and Hebert, 2007)</ref> to confirm species identity of DNA from the environmental samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mean copy number</head><p>The mean copy number of target DNA within the environmental samples was calculated by taking the arithmetic mean of the qPCR replicates from all filters for each site. Any sites that had negative control samples amplified above the detection threshold (10 copies/5 μL) were assumed to be a result of error or contamination ('false positive' data; <ref type="bibr" target="#b8">Darling and Mahon, 2011)</ref> and were therefore excluded from the mean calculation data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Netting data</head><p>The 47 net sets over 6 sampling days (28-30 May, 5-7 June) in Long Point Bay captured a total of 7737 fish from 31 species (means and standard errors of 164.6 + 22.5 and 9.9 + 0.5 respectively; data not shown), including three longnose gar. Despite the extensive netting effort, only three spotted gar were captured, all of which were caught at Long Point Bay Site 2 (Figure <ref type="figure" target="#fig_1">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>eDNA detections</head><p>Spotted gar DNA was successfully amplified from sites within five of the six sampling locations Long Point Bay, (E) Thames River, and (F) Hamilton Harbour with detections categorized by samples yielding starting DNA copy numbers greater than 100 copies/5 μL in at least one sample (green), starting copy numbers greater than 10 copies/5 μL and less than 100 copies/5 μL in at least one sample (yellow), and no detection or starting copy numbers less than 10 copies/5 μL in all samples (red). The square symbol in Long Point Bay indicates the location where live spotted gar were captured.</p><p>(Figure <ref type="figure" target="#fig_1">2</ref>), with positive detections at 30-90% of sampled sites. Detections were not uniform: DNA concentrations shown in Figure <ref type="figure" target="#fig_1">2</ref> represent maximum rather than mean values of DNA copy number detected from filters or qPCR replicates at each site. Sampling locations with positive detections had 1-8 sites below the cutoff detection threshold (≥10 copies/5 μL), 3-8 sites with eDNA detections between 10 and 100 copies/5 μL, and &lt; 5 sites with eDNA detections greater than 100 copies/5 μL (Figure <ref type="figure" target="#fig_1">2</ref>). No positive detections for spotted gar DNA were obtained from the Hamilton Harbour locations based on the predefined minimum detection threshold (Figure <ref type="figure" target="#fig_1">2</ref>). Data from field samples associated with detections in negative cooler and filtering controls (14% of the negative controls) were excluded from the results. The field controls from the Otonabee River (outside the species range) did not yield positive detections, and the subset of samples tested using the exogenous Internal Positive Control showed no evidence of PCR inhibition.</p><p>The qPCR surveillance yielded reproducible results at control DNA concentrations down to 10 copies/5 μL and environmental samples at concentrations below 100 copies/5 μL (Figure <ref type="figure" target="#fig_1">2</ref>). Several locations yielded at least one sample with an estimated DNA concentration between 10 and 100 copies/5 μL (Figure <ref type="figure" target="#fig_1">2</ref>), despite lower mean concentrations (Figure <ref type="figure" target="#fig_2">3</ref>). Although qPCR results from a number of locations yielded putative detections of spotted gar DNA at concentrations below 10 target copies/5 μL (Figure <ref type="figure" target="#fig_2">3</ref>), these were not considered to be positive detections as they fell below the predefined detection threshold.</p><p>All positive eDNA results that were sequenced matched reference spotted gar sequences obtained from GenBank, as well as the Canadian reference sequences in BOLD <ref type="bibr" target="#b43">(Ratnasingham and Hebert, 2007)</ref>. The amplified region had nine speciesdiagnostic mismatches between the reference sequences for spotted and longnose gar. The environmental sequences showed 96-100% homology with spotted gar, compared with a maximum homology of 95% with longnose gar.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mean copy number</head><p>Replicate samples within sites exhibited substantial variation in DNA yield, despite water samples being taken in close proximity to each other (≤50 m) within a site (Figure <ref type="figure" target="#fig_2">3</ref>). In general, sites with a higher mean number of copies of spotted gar eDNA had greater within-site variability (Figure <ref type="figure" target="#fig_2">3</ref>). Both within and among sampling sites, a small fraction of the replicate samples consistently had high copy number detections (Figure <ref type="figure" target="#fig_1">2</ref>) with the remaining replicates having low copy number detections (Figure <ref type="figure" target="#fig_2">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>This study demonstrated that eDNA is an effective tool for documenting occurrences and habitat occupancy of spotted gar, and showed eDNA detection success similar to other freshwater studies with locations known to be inhabited by the species having high detection success <ref type="bibr" target="#b22">(Goldberg et al., 2011;</ref><ref type="bibr" target="#b57">Thomsen et al., 2012;</ref><ref type="bibr" target="#b2">Biggs et al., 2015;</ref><ref type="bibr" target="#b28">Janosik and Johnston, 2015)</ref>. This study differed somewhat from most other eDNA studies on species at risk by its scale, documenting positive detections over most of the species' Canadian range.</p><p>Spotted gar DNA was successfully detected at all sampled Lake Erie locations (Hillman Marsh, Point Pelee, Long Point Bay, Rondeau Bay), as well as the Thames River. There have been recent collections of spotted gar at these locations, excluding the Thames River (Table <ref type="table" target="#tab_0">1</ref>; Department of Fisheries and Oceans, <ref type="bibr">DFO, 2010;</ref><ref type="bibr" target="#b21">Glass et al., 2012)</ref>. In addition, the rates and levels of eDNA detection were generally consistent with what is known about spotted gar abundance in the sampled locations, with the exception of sites in the Thames River and Hamilton Harbour (discussed below). Three locations (Hillman Marsh, Point Pelee, Rondeau Bay) had detections at a majority of the sites sampled. Rondeau Bay and Point Pelee also have the largest population estimates for spotted gar in Ontario, the population status of these populations were assessed as 'good' and 'fair', respectively (Table <ref type="table" target="#tab_0">1</ref>; Department of Fisheries and Oceans, <ref type="bibr">DFO, 2010)</ref>. Other studies similarly found that detection rates were higher in areas with higher density estimates for target organisms <ref type="bibr" target="#b41">(Pilliod et al., 2013;</ref><ref type="bibr" target="#b32">Laramie et al., 2015)</ref>. While collection data for spotted gar are limited at Hillman Marsh, the habitat is suitable for spotted gar <ref type="bibr" target="#b49">(Snedden et al., 1999;</ref><ref type="bibr" target="#b39">Ostrand et al., 2004;</ref><ref type="bibr" target="#b21">Glass et al., 2012)</ref>, and spotted gar have been captured in the area (Table <ref type="table" target="#tab_0">1</ref>, N. Mandrak, unpublished data 2012). Long Point Bay had DNA detections at three of 10 sampled sites; by contrast, netting efforts for spotted gar within the bay met with minimal success, resulting in the population status being categorized as 'poor' (Table <ref type="table" target="#tab_0">1</ref>, Department of Fisheries and Oceans, DFO, 2010). In 2010, 129 fyke net sets targeting the species caught only six individuals, and only 17 adults had been captured before then <ref type="bibr" target="#b20">(Glass and Mandrak, 2014)</ref>. The limited number of site detections in Long Point Bay may therefore reflect a low density of spotted gar in the area; other studies have demonstrated increased probability of detection with increasing density or biomass of the target species <ref type="bibr" target="#b41">(Pilliod et al., 2013;</ref><ref type="bibr" target="#b54">Takahara et al., 2013;</ref><ref type="bibr" target="#b37">Moyer et al., 2014)</ref>.</p><p>The detection of spotted gar DNA at eight of the 16 sites sampled within the Thames River was unexpected, as spotted gar are considered to be extirpated within the Lake St. Clair catchment (Table <ref type="table" target="#tab_0">1</ref>; COSEWIC, 2005; Department of Fisheries and Oceans, DFO, 2010). Although there is one historical record for spotted gar from the Thames River area of Lake St Clair, none have been recorded for over half a century <ref type="bibr">(COSEWIC, 2005)</ref>. Follow-up netting in 2013 (40 24 h fyke net sets, 365 m of trammel net, and 1530 s of boat electrofishing) in the vicinity of the positive eDNA detections failed to detect spotted gar, although 27 species including more than 400 longnose gar were captured <ref type="bibr" target="#b35">(Marson et al., 2014)</ref>. Similar species detections using eDNA have been reported from other studies sampling for rare and long-unobserved fish species: <ref type="bibr" target="#b28">Janosik and Johnston (2015)</ref> reported detection of eDNA from the slackwater darter (Etheostoma boschungi) at a site with no record since 1970, and <ref type="bibr" target="#b47">Sigsgaard et al. (2015)</ref> detected European weather loach (Misgurnis fossilis) eDNA at a site where the species had not been observed for 20 years. These support the use of eDNA as a highly sensitive detection method for aquatic organisms, allowing detection of rare species in areas that went many years without record.</p><p>Although recent sampling yielded many longnose gar and no spotted gar from the Thames River <ref type="bibr" target="#b35">(Marson et al., 2014)</ref>, the possibility that the qPCR tests could have amplified eDNA from longnose gar despite primer and probe mismatches was excluded by sequence confirmation of positive eDNA results as belonging to L. oculatus (98-100% homology to spotted gar reference sequences). As previous studies have demonstrated that hybridization among gars can occur, it is possible that the eDNA detections were from hybrid fish with spotted gar maternal ancestry <ref type="bibr" target="#b25">(Herrington et al., 2008)</ref>.</p><p>Despite records of spotted gar in Hamilton Harbour <ref type="bibr">(COSEWIC, 2005)</ref>, eDNA sampling failed to detect its presence. The lack of detection may have resulted from spotted gar leaving the area after spawning, as the harbour was the last location sampled and sampling occurred almost a month after the peak spawning time for spotted gar <ref type="bibr" target="#b58">(Tyler and Granger, 1984)</ref>. General observations of spotted gar have documented spawning along the shore (where current eDNA sampling occurred) in the spring, followed by post-spawning movement into the broader lake habitat <ref type="bibr" target="#b49">(Snedden et al., 1999;</ref><ref type="bibr" target="#b21">Glass et al., 2012)</ref>. This underscores the importance of a strong spatio-temporal sampling design <ref type="bibr" target="#b8">(Darling and Mahon, 2011)</ref>: repeated sampling throughout the year would also provide insight into seasonal variation in habitat occupancy, which would provide important information when establishing critical habitat for protected species. The apparent lack of detection of spotted gar DNA in Hamilton Harbour may also have been due to the detection threshold used (10 copies/5 μL), potentially excluding valid low-quantity detections. This is a recognized shortcoming of measures to prevent false positives, which can create a bias towards the error of false negative detections <ref type="bibr" target="#b8">(Darling and Mahon, 2011)</ref>. Despite this possibility, having an a priori cutoff threshold is a necessary precaution to safeguard against false positives from potential contamination, and enable robust confidence in positive detections <ref type="bibr" target="#b8">(Darling and Mahon, 2011)</ref>.</p><p>The successful detection of spotted gar DNA at five of the six sampled locations highlights that eDNA can be used as a tool to detect rare species in both lentic and lotic environments. To date, many eDNA studies have focused on small lentic pond environments <ref type="bibr" target="#b16">(Ficetola et al., 2008;</ref><ref type="bibr" target="#b11">Dejean et al., 2012;</ref><ref type="bibr" target="#b54">Takahara et al., 2013)</ref>. eDNA detectability in lotic environments is probably influenced by additional factors such as flow <ref type="bibr" target="#b9">(Deiner and Altermatt, 2014;</ref><ref type="bibr" target="#b32">Laramie et al., 2015;</ref><ref type="bibr" target="#b52">Strickler et al., 2015)</ref>. Although eDNA studies within lotic systems have reported successful detection of rare species <ref type="bibr" target="#b22">(Goldberg et al., 2011;</ref><ref type="bibr" target="#b57">Thomsen et al., 2012;</ref><ref type="bibr" target="#b27">Jane et al., 2015;</ref><ref type="bibr" target="#b32">Laramie et al., 2015)</ref>, studies focusing on lentic environments have often reported more consistent success rates <ref type="bibr" target="#b16">(Ficetola et al., 2008;</ref><ref type="bibr" target="#b57">Thomsen et al., 2012)</ref>. Detection of spotted gar where they are considered extirpated, and thus presumably present at low density, suggests that the eDNA method may be used as a highly sensitive method of rare species detection, even within lotic environments.</p><p>A criticism and perceived limitation of using eDNA as a monitoring tool for rare and invasive species is that eDNA detections identify the presence of the target species' DNA rather than individuals themselves <ref type="bibr">(ECALS, Environmental DNA Calibration Study, 2013)</ref>. Posited alternative sources of DNA include carcasses, effluent from live food markets and pet shops, sewer runoff, bird droppings, or contaminated sampling gear <ref type="bibr" target="#b8">(Darling and Mahon, 2011;</ref><ref type="bibr">ECALS, Environmental DNA Calibration Study, 2013</ref><ref type="bibr" target="#b36">, Merkes et al., 2014)</ref>. As the spotted gar is a rare and protected species in Canada, however, it is unlikely that the positive DNA detections in this study resulted from any of these sources. As it is illegal to trade native fish species in Canada, spotted gar is protected under SARA, and the gar pet trade largely consists of the similar-looking but genetically divergent Florida gar (Lepisosteus platyrhincus). Spotted gar is a rare top-level predator; although limited bird predation may occur on juvenile gar <ref type="bibr" target="#b40">(Page and Burr, 1991)</ref>, it is unlikely that DNA was transported via bird droppings, particularly over large distances or into novel locations. Thus, positive eDNA detections should be reliable indicators of the occurrence of spotted gar in or near sampled areas, and similar arguments would hold for other endangered taxa.</p><p>For eDNA to be accepted as a valid monitoring technique, it must meet a number of criteria including accuracy, precision, and repeatability (Invasive Species Advisory Committee, ISAC, 2012). The substantial variation observed among replicate samples within detection sites has been reported in other studies as well <ref type="bibr" target="#b16">(Ficetola et al., 2008</ref><ref type="bibr" target="#b17">(Ficetola et al., , 2015;;</ref><ref type="bibr" target="#b18">Foote et al., 2012;</ref><ref type="bibr" target="#b31">Klymus et al., 2015)</ref>. Variability among replicate samples could be contributed to by non-homogeneous mixing, heterogeneity of fish distribution in the water column, or inefficiencies in DNA extraction and testing <ref type="bibr" target="#b22">(Goldberg et al., 2011;</ref><ref type="bibr">Mahon et al., 2013;</ref><ref type="bibr" target="#b14">Eichmiller et al., 2014)</ref>. The number of positive detections among replicate samples provides an estimate of detection probability, which is valuable for designing efficient sampling protocols.</p><p>Detection probability is likely to vary based on species characteristics, local density, and sampling location; therefore, ideal replicate numbers will probably be study-specific <ref type="bibr" target="#b8">(Darling and Mahon 2011;</ref><ref type="bibr" target="#b53">Takahara et al., 2012;</ref><ref type="bibr" target="#b37">Moyer et al., 2014)</ref>. For example, <ref type="bibr" target="#b46">Schmidt et al. (2013)</ref> found that the detection probability for Batrachochytrium dendrobatidis increased with the number of replicate water samples taken, with a plateau at five for robust detection. For community 'metabarcoding' (multispecies detection from eDNA samples via next-generation sequencing) <ref type="bibr" target="#b17">Ficetola et al. (2015)</ref> suggested that the number of replicates should vary with detection probability, with a minimum of eight needed for species with low detection probabilities (&lt;0.5) to limit false absences. As pointed out by <ref type="bibr" target="#b41">Pilliod et al. (2013)</ref> and <ref type="bibr" target="#b27">Jane et al. (2015)</ref>, detection probability is also expected to vary with source biomass.</p><p>The variation in detection strengths within and among sites also indicates potential limitations in spatial resolution for mapping habitat use with eDNA. In systems where both target (source species) movements and sampling medium (water) are literally fluid, detection levels should not be overinterpreted. Because eDNA and fish both move, inferences from this study should probably be made at the larger location scale (local bay/harbour/river) rather than individual sites sampled within general locations. In standing water environments such as small ponds <ref type="bibr" target="#b10">(Dejean et al., 2011;</ref><ref type="bibr" target="#b53">Takahara et al., 2012</ref><ref type="bibr" target="#b54">Takahara et al., , 2013;;</ref><ref type="bibr" target="#b14">Eichmiller et al., 2014;</ref><ref type="bibr" target="#b37">Moyer et al., 2014)</ref> and simple stream systems <ref type="bibr" target="#b22">(Goldberg et al., 2011)</ref>, site detections may sufficiently represent sampled habitats. Patchy distribution of eDNA detections has also been reported for common carp (Cyprinus carpio), with significantly higher eDNA detection rates in high-use areas <ref type="bibr" target="#b14">(Eichmiller et al., 2014)</ref>. In larger water bodies, however, eDNA detection probabilities are influenced by a number of factors, including the distance from the source, site conditions, and number of fish present in the area <ref type="bibr" target="#b8">(Darling and Mahon, 2011;</ref><ref type="bibr" target="#b53">Takahara et al., 2012)</ref>. Care should therefore be taken in interpreting the spatial scale and resolution of results from larger flowing systems or water bodies, as detections at sampling points may reflect distant or upstream rather than local contributions <ref type="bibr" target="#b9">(Deiner and Altermatt, 2014)</ref>, and will also be influenced by flow rate and proximity or distance from biological sources <ref type="bibr" target="#b41">(Pilliod et al., 2013;</ref><ref type="bibr" target="#b27">Jane et al., 2015;</ref><ref type="bibr" target="#b31">Klymus et al., 2015)</ref>. Accordingly, more research is needed to strengthen the application of eDNA for identifying critical habitats sensu <ref type="bibr" target="#b44">Rosenfeld and Hatfield (2006)</ref> for species of conservation concern.</p><p>The detection of spotted gar at the majority of their previously documented locations across their Canadian range <ref type="bibr">(COSEWIC, 2005)</ref> has demonstrated the efficacy and sensitivity of eDNA surveillance for aquatic endangered species. Although this study supports the use of eDNA as a tool for monitoring and detecting aquatic endangered species to focus conservation efforts, eDNA surveillance should be used to augment and focus conventional sampling methods rather than replace them. The high variability within replicate samples and potential rejection of low-copy data demonstrate the limitations of current eDNA methodology, and it is unlikely to replace capture methods to provide information on population size or demographic structure. As this new methodology matures, collaborations between the scientific community and management agencies should work towards establishing rigorous protocols and thresholds to maximize the information benefits from eDNA studies. With thoughtful sampling design and validation testing, eDNA applications have excellent potential for documenting species occurrences and facilitating habitat protection for threatened and endangered species.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Distribution map of spotted gar (Lepisosteus oculatus) in Canada (southern Ontario), showing locations sampled in June 2012. Inset map shows the North American distribution of L. oculatus (modified from Page and Burr (1991)).</figDesc><graphic coords="2,139.69,472.82,313.88,202.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Maximum qPCR detections of spotted gar eDNA within sampling locations. (A) Hillman Marsh, (B) Point Pelee, (C) Rondeau Bay, (D)Long Point Bay, (E) Thames River, and (F) Hamilton Harbour with detections categorized by samples yielding starting DNA copy numbers greater than 100 copies/5 μL in at least one sample (green), starting copy numbers greater than 10 copies/5 μL and less than 100 copies/5 μL in at least one sample (yellow), and no detection or starting copy numbers less than 10 copies/5 μL in all samples (red). The square symbol in Long Point Bay indicates the location where live spotted gar were captured.</figDesc><graphic coords="6,119.11,205.12,354.91,443.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. qPCR results of mean estimated target DNA copy number/5μL and associated standard error (± SE) for each water collection site with the sampling locations. (A) Hillman Marsh, (B) Point Pelee, (C) Rondeau Bay, (D) Long Point Bay, (E) Thames River, and (F) Hamilton Harbour.</figDesc><graphic coords="8,119.11,75.52,354.91,398.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Sampling locations with historical catch data and estimated population status</figDesc><table><row><cell>Location</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>M. BOOTHROYD ET AL.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>Field sampling was conducted by <rs type="person">Jason Barnucz</rs> and <rs type="person">Dave Marson</rs> (<rs type="affiliation">DFO</rs>). <rs type="person">Bill Glass</rs> (<rs type="affiliation">University of Windsor</rs>) generously provided the reference spotted gar samples to confirm species-specificity of the developed primers and probe. <rs type="person">Jennifer Bronnenhuber</rs> and <rs type="person">Kristyne Wozney</rs> provided invaluable guidance and troubleshooting with laboratory work, and <rs type="person">Cait Nemeczek</rs> assisted with DNA extractions. Maps were generated by <rs type="person">Bastian Schmidt</rs> (<rs type="affiliation">MNRF</rs>). Funding was provided by <rs type="funder">DFO</rs> under the <rs type="programName">Species at Risk Program</rs>. None of the authors have any conflicts of interest to declare.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_cd8Hs9q">
+					<orgName type="program" subtype="full">Species at Risk Program</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional supporting information may be found in the online version of this article at the publisher's web site.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Conservation for the biodiversity crisis</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Abell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1435" to="1437" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Preservation of DNA</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Anchordoquy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Molina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Preservation Technology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="180" to="188" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Using eDNA to develop a national citizen science-based monitoring programme for the great crested newt (Triturus cristatus)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Biggs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ewald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valentini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Garboriaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dejean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Brotherton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="19" to="28" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Information in support of a Recovery Potential Assessment of Spotted Gar (Lepisosteus oculatus) in Canada</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Bouvier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Mandrak</surname></persName>
+		</author>
+		<idno>Document 2010/079</idno>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>DFO Canadian Science Advisory Secretariat Research</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Combining speciesspecific COI primers with environmental DNA analysis for targeted detection of rare freshwater species</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Bronnenhuber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics Resources</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="971" to="975" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Global biodiversity: indicators of recent declines</title>
+		<author>
+			<persName><forename type="first">Shm</forename><surname>Butchart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walpole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Collen</forename><forename type="middle">B</forename><surname>Van Strien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Scharlemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jpw</forename><surname>Almond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rea</forename><surname>Baillie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jem</forename><surname>Bomhard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bruno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">328</biblScope>
+			<biblScope unit="page" from="1164" to="1168" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Modelling the limit of detection in real-time quantitative PCR</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Valdivia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Food Research Technology</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="page" from="1513" to="1524" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<ptr target="http://publications.gc.ca/collections/Collection/CW69-14-67-2005E.pdf" />
+		<title level="m">COSEWIC Assessment and update status report on the spotted gar Lepisosteus oculatus in Canada. Committee on the Status of Endangered Species in Canada</title>
+		<meeting><address><addrLine>Ottawa, ON</addrLine></address></meeting>
+		<imprint>
+			<publisher>COSEWIC</publisher>
+			<date type="published" when="2005-12-05">2005. 5 December 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">From molecules to management: adopting DNA-based methods for monitoring biological invasions in aquatic environments</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Darling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Mahon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Research</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="978" to="988" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Transport distance of invertebrate environmental DNA in a natural river</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Deiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Altermatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">88786</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Persistence of environmental DNA in freshwater ecosystems</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dejean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valentini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Duparc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pellier-Cuit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miaud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">23398</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Improved detection of an alien invasive species through environmental DNA barcoding: the example of the American bullfrog Lithobates catesbeianus</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dejean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valentini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miquel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miaud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Ecology</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="953" to="959" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Recovery potential assessment of Spotted gar (Lepisosteus oculatus) in Canada</title>
+		<idno>Report 047</idno>
+		<ptr target="http://www.dfo-mpo.gc.ca/CSAS/Csas/publications/sar-as/2010/2010_047_e.pdf" />
+		<imprint>
+			<date type="published" when="2010-01-23">2010. 23 January 2013</date>
+			<publisher>Canadian Science Advisory Secretariat Science Advisory</publisher>
+			<pubPlace>Burlington, ON</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A five minute procedure for extraction of genomic DNA from whole blood, semen and forensic stains for PCR</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dissing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rudbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Marcher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Forensic Haemogenetics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="269" to="271" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The relationship between the distribution of common carp and their environmental DNA in a small lake</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Eichmiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Bajer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Sorenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">112611</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Environmental DNA Calibration Study Interim Technical Review Report February 2013</title>
+		<ptr target="http://www.asiancarp.us/documents/ECALS_INTERIM.pdf" />
+		<imprint>
+			<date type="published" when="2012">2013. 8 December 2012</date>
+			<publisher>ECALS (Environmental DNA Calibration Study</publisher>
+			<pubPlace>United States</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Species detection using environmental DNA from water samples</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ficetola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biology Letters</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="423" to="425" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Replication levels, false presences and the estimation of the presence/ absence from eDNA metabarcoding data</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Ficetola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pansu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bonin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coissac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Giguet-Covex</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Barba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gielly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lopes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Boyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="543" to="556" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Investigating the potential use of environmental DNA (eDNA) for genetic monitoring of marine mammals</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Foote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Thomsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sveegaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wahlberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kielgast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Klyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Salling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Galatius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Orlando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mtp</forename><surname>Gilbert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">41781</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Emerging homogeneous DNAbased technologies in the clinical laboratory</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Foy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Parkes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="990" to="1000" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Distribution of Spotted Gar (Lepisosteus oculatus) adults and juveniles in the Rondeau Bay, Long Point Bay, and Hamilton Harbour watersheds</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Glass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Mandrak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Manuscript Report of Fisheries and Aquatic Sciences</title>
+		<imprint>
+			<date type="published" when="2014">2014. 3048</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Spring and summer distribution and habitat use by adult threatened spotted gar in Rondeau Bay, Ontario, using radiotelemetry</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Glass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Corkum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Mandrak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transactions of American Fisheries Society</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="1026" to="1035" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Molecular detection of vertebrates in stream water: a demonstration using rocky mountain tailed frogs and Idaho giant salamanders</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Goldberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pilliod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Arkle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">22746</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Turbidity reduces hatching success in threatened spotted gar (Lepisosteus oculatus)</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Mandrak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Biology of Fishes</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="689" to="694" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Biological identifications through DNA barcodes</title>
+		<author>
+			<persName><forename type="first">Pdn</forename><surname>Hebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cywinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Dewaard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the Royal Society (Biological Sciences)</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page" from="313" to="322" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Hybridization between longnose and alligator gars in captivity with comments on possible gar hybridization in nature</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Herrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Hettiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Heist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Keeney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the American Fisheries Society</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="158" to="164" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Validation of PCR-based asssays and laboratory accreditation for environmental detection of aquatic species</title>
+		<ptr target="http://www.invasivespecies.gov/ISAC/White%20Papers/ISAC_PCR_WHITEPAPER_FINAL.pdf" />
+		<imprint>
+			<date type="published" when="2012">2012. 20240. 3 March 2013</date>
+			<publisher>US Department of the Interior</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Distance, flow and PCR inhibition, eDNA dynamics in two headwater streams</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Jane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Wilcox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Lowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Letcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Whiteley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="216" to="227" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Environmental DNA as an effective tool for detection of imperiled fishes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Janosik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Johnston</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Biology of Fishes</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="1889" to="1893" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Conservation status of imperiled North American freshwater and diadromous fishes</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Jelks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mccormick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Burkhead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Contreras-Balderas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Diaz-Pardo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hendrikson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lyons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Mandrak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fisheries</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="372" to="407" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Sight-unseen&apos; detection of rare aquatic species using environmental DNA</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Jerde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Mahon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Chadderton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Lodge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Letters</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="150" to="157" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Quantification of eDNA shedding rates from invasive bighead carp Hypophthalmichthys nobilis and silver carp Hypophthalmichthys molitrix</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Klymus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Paukert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="77" to="84" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Characterizing the distribution of an endangered salmonid using environmental DNA analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Laramie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Pilliod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Goldberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="29" to="37" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Environmental DNA monitoring and surveillance: standard operation procedures</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Mahon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rohly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Budney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Elgin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jerde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Chadderton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Lodge</surname></persName>
+		</author>
+		<ptr target="http://edna.nd.edu/Environmental_DNA_at_ND/Publications_and_Reports.html" />
+		<imprint>
+			<date type="published" when="2010-03-03">2010. 3 March 2013</date>
+			<publisher>States Army Corps of Engineers</publisher>
+			<pubPlace>Vicksburg, Mississippi</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Environmental Laboratories, Cooperative Environmental Studies Unit</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Report to the United</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Validation of eDNA surveillance sensitivity for detection of Asian carps in controlled and field experiments</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Mahon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Jerde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Galaska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bergner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chadderton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Lodge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Nico</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">58316</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Results of the Burlington 2013 Asian carp early detection field monitoring program</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Marson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gertzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cudmore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Manuscript Report of Fisheries and Aquatic Sciences</title>
+		<imprint>
+			<date type="published" when="2014">2014. 3054</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Persistence of DNA in carcasses, slime and avian feces may affect interpretation of environmental DNA data</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Merkes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Mccalla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Gailkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Amberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">113346</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Assessing environmental DNA detection in controlled lentic systems</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Moyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Díaz-Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">103767</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">An eDNA approach to detect eastern hellbenders (Cryotibranchus a. alleganiensis) using samples of water</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Briggler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="629" to="636" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Consequences of vegetation density and prey species on spotted gar foraging</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Ostrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Braeutigam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wahl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transactions of the American Fisheries Society</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="794" to="800" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Burr</surname></persName>
+		</author>
+		<title level="m">A Field Guide to Freshwater Fishes: North America North of Mexico</title>
+		<meeting><address><addrLine>Boston, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Houghton Mifflin</publisher>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Estimating occupancy and abundance of stream amphibians using environmental DNA from filtered water samples</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Pilliod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Goldberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Arkle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Fisheries and Aquatic Science</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1123" to="1130" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Ethical considerations and animal welfare in ecological field studies</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Putman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biodiversity Conservation</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="903" to="915" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">BOLD: The Barcode of Life Data System (www.barcodinglife.org)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ratnasingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pdn</forename><surname>Hebert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="355" to="364" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Information needs for assessing critical habitat of freshwater fish</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Rosenfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hatfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Fisheries and Aquatic Sciences</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="683" to="698" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Development and evaluation of a realtime PCR assay for the quantitative detection of Theileria annulata in cattle</title>
+		<author>
+			<persName><forename type="first">Ros-García A</forename><surname>Nicolás</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>García-Pérez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Juste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Hurtado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Parasites and Vectors</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">171</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Site occupancy models in the analysis of environmental DNA presence/absence surveys: a case study of an emerging amphibian pathogen</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kéry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ursenbacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">J</forename><surname>Hyman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="646" to="653" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Monitoring the near-extinct European weather loach in Denmark based on environmental DNA from water samples</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Sigsgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Carl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Møller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Thomsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="46" to="52" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The biodiversity crisis: a multifaceted review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Current Science</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="638" to="647" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Diel and seasonal patterns of spotted gar movement and habitat use in the Lower Atchafalaya River Basin, Louisiana</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Snedden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Kelso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Rutherford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transactions of the American Fisheries Society</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="144" to="154" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Staton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Boyko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burridge</surname></persName>
+		</author>
+		<ptr target="http://www.sararegistry.gc.ca/virtual_sara/files/plans/rs_lepisoste_tachete_sp_gar_1012_e.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">Recovery strategy for the Spotted Gar (Lepisosteus oculatus) in Canada</title>
+		<title level="s">Species at Risk Act Recovery Strategy Series</title>
+		<imprint>
+			<publisher>Fisheries and Oceans Canada</publisher>
+			<date type="published" when="2012-07-26">2012. 26 July 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Freshwater biodiversity conservation: recent progress and future challenges</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Strayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dudgeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the North American Benthological Society</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="344" to="358" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Quantifying effects of UV, temperature, and pH on degradation rates of eDNA in aquatic microcosms</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Strickler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Fremier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Goldberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="85" to="92" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Estimation of fish biomass using environmental DNA</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Minamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yamanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Doi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Kawabata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">35868</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Using environmental DNA to estimate the distribution of invasive fish species in ponds</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Minamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Doi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">56584</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">MEGA5: molecular evolutionary genetics analysis using maximum likelihood, evolutionary distance, and maximum parsimony methods</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stecher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Biology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2731" to="2739" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Thompson</surname></persName>
+		</author>
+		<title level="m">Sampling Rare or Elusive Species</title>
+		<meeting><address><addrLine>Washington DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>Island Press</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Monitoring endangered freshwater biodiversity using environmental DNA</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thomsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kielgast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Iversen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wiuf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Orlando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Willerslev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="2565" to="2573" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Notes on food habitats, size, and spawning behavior of spotted gar in Lake Lawtonka, Oklahoma</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Tyler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Granger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the Oklahoma Academy of Science</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="8" to="10" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Native fish conservation areas: a vision for largescale conservation of native fish communities</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Thurow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Elwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Phillip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Kershner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Reeves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fisheries</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="267" to="277" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

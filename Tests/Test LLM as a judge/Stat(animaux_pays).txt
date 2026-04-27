@@ -1,0 +1,83 @@
+### Statistiques
+
+1. **Nombre total d'entrées :** 16
+2. **Pourcentage de correspondances complètes :**
+   - **Animal :** 16/16 (100%)
+   - **Pays :** 13/16 (81.25%)
+   - **Total :** 13/16 (81.25%)
+
+3. **Score moyen de titre :** 85.67 (moyenne calculée à partir des scores de titre fournis)
+
+4. **Distribution des scores de titre :**
+   - Scores parfaits (100) : 2 entrées
+   - Scores supérieurs à 90 : 4 entrées
+   - Scores entre 80 et 90 : 5 entrées
+   - Scores entre 70 et 80 : 3 entrées
+   - Scores entre 60 et 70 : 0 entrées
+   - Scores inférieurs à 60 : 2 entrées
+
+### Problèmes rencontrés
+
+1. **Problèmes de taxonomie :**
+   - **Exemples :** "Eurasian lynx" vs "Lynx", "gibbon" vs "Primate (Gibbon)", "brown bear" vs "bear (8 species)".
+   - **Impact :** Différences mineures de taxonomie qui ne remettent pas en cause la correspondance globale mais peuvent être améliorées pour une plus grande précision.
+
+2. **Problèmes de pays :**
+   - **Exemples :** "Washington" vs "Idaho", "Tanzanie" vs "Tanzania", "États-Unis" vs "Canada".
+   - **Impact :** Certaines différences de pays peuvent être mineures (ex. orthographe) mais d'autres peuvent être significatives (ex. Washington vs Idaho).
+
+3. **Problèmes de correspondance de titre :**
+   - **Exemples :** "non-invasive" vs "non-invasive", "Feasibility of Non-Invasive Molecular Method for Sexing of Parrots" vs "Feasibility of Non-Invasive Molecular Method for Sexing of Parrots".
+   - **Impact :** Les différences mineures :  **Pays** : Bien que les États-Unis (California et Oregon) soient inclus dans la description des États-Unis (California).
+
+4. **Distribution des scores de titre :**
+   - **Scores parfaits (100)** : 2 entrées
+   - **Scores supérieurs à 90** : 3 entrées
+   - **Scores entre 80 et 90** : 4 entrées
+   - **Scores entre 70 et 80** : 3 entrées
+   - **Scores entre 60 et 70** : 1 entrée
+   - **Scores inférieurs à 60** : 1 entrée
+
+### Problèmes rencontrés
+
+1. **Problèmes de taxonomie :**
+   - **Exemples :** "Eurasian lynx" vs "Lynx", "gibbon" vs "Primate (Gibbon)", "brown bear" vs "bear (8 espèces)".
+   - **Impact :** Différences mineures de taxonomie ne remettent pas en cause la correspondance globale mais peuvent être améliorées pour une plus grande précision.
+
+2. **Problèmes de pays :**
+   - **Exemples :** "Washington" vs "Idaho", "Tanzanie" vs "Tanzania", "États-Unis" vs "Canada".
+   - **Impact :** Certaines différences de pays peuvent être mineures (ex. orthographe) mais d'autres peuvent être significatives (ex. Washington vs Idaho).
+
+3. **Problèmes de correspondance de titre :**
+   - **Exemples :** "non-invasive" vs "non-invasive", "Feasibility of Non-Invasive Molecular Method for Sexing of Parrots" vs "Feasibility of Non-Invasive Molecular Method for Sexing of Parrots" et la "sage-grouse" est un terme spécifique pour un type d'oiseau, donc la taxonomie est cohérente malgré la différence mineure de formulation ("sage-grouse").
+   - **Impact :** Les différences mineures de formulation ne remettent pas en cause la correspondance globale mais peuvent être améliorées pour une plus grande précision.
+
+### Analyse qualitative
+
+- **Correspondances complètes :**
+   - 11 entrées sur 16 ont une correspondance complète (animal et pays).
+   - **Exemples :** Entrées 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.
+   - **Observation :** La plupart des correspondances complètes concernent des espèces bien définies avec des localisations précises.
+- **Correspondances incomplètes :**
+   - **Exemples :** Entrée 7, 8, 9.
+   - **Observation :** Les correspondances incomplètes sont souvent dues à des différences mineures de pays ou des différences de taxonomie mineures ou des précisions mineures.
+
+### Suggestions
+
+1. **Amélioration de la précision de taxonomie :**
+   - **Action :** Utiliser une taxonomie plus précise et standardisée pour éviter les ambiguïtés et améliorer la correspondance.
+2. **Harmonisation des pays :**
+   - **Action :** Utiliser une standardisation des pays pour éviter les différences mineures dues aux variations régionales ou orthographiques.
+3. **Amélioration de la correspondance de titre :**
+   - **Action :** Utiliser une standardisation des titres pour éviter les différences mineures dues aux variations de formulation ou d'accentuation.
+
+4. **Utilisation de bases de données taxonomiques et géographiques :**
+   - **Action :** Utiliser des bases de données fiables pour la taxonomie et la géographie pour améliorer la précision et la standardisation.
+
+5. **Formation et sensibilisation :**
+   - **Action :** Former les utilisateurs sur l'importance de la standardisation et de la précision dans l'entrée des données pour éviter les erreurs et améliorer la qualité des correspondances.
+
+6. **Automatisation et vérification des données :**
+   - **Action :** Utiliser des outils d'automatisation pour vérifier et corriger les entrées des données en temps réel pour améliorer la précision et la fiabilité.
+
+En suivant ces suggestions, nous pouvons améliorer la précision et la fiabilité des correspondances entre les entrées et augmenter la confiance dans les résultats des analyses.

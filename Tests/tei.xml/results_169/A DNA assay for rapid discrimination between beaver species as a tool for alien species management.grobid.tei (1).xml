@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A DNA assay for rapid discrimination between beaver species as a tool for alien species management</title>
+				<funder>
+					<orgName type="full">Royal Zoological Society of Scotland</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-02-22">22 February 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">R</forename><surname>Mcewing</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Frosch</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">F</forename><surname>Rosell</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">R</forename><surname>Campbell-Palmer</surname></persName>
+							<email>rcampbellpalmer@rzss.org.uk</email>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Gortázar</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">WildGenes Laboratory</orgName>
+								<orgName type="institution">Royal Zoological Society of Scotland</orgName>
+								<address>
+									<postCode>EH12 6TS</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Arts and Sciences</orgName>
+								<orgName type="laboratory">Conservation Genetics Group</orgName>
+								<orgName type="institution">Senckenberg Research Institute and Natural History Museum Frankfurt</orgName>
+								<address>
+									<addrLine>Clamecystraße 12</addrLine>
+									<postCode>63571</postCode>
+									<settlement>Gelnhausen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Environmental and Health Studies</orgName>
+								<orgName type="institution">Telemark University College</orgName>
+								<address>
+									<postCode>N-3800</postCode>
+									<settlement>Bø i Telemark</settlement>
+									<country key="NO">Norway</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Conservation Programmes</orgName>
+								<orgName type="institution">Royal Zoological Society of Scotland</orgName>
+								<address>
+									<postCode>EH12 6TS</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A DNA assay for rapid discrimination between beaver species as a tool for alien species management</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-02-22">22 February 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D21BCBB0E3B9B06709EC11E618B480FF</idno>
+					<idno type="DOI">10.1007/s10344-014-0803-6</idno>
+					<note type="submission">Received: 21 August 2013 / Revised: 6 December 2013 / Accepted: 6 February 2014 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:34+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Castor fiber</term>
+					<term>Castorcanadensis</term>
+					<term>Real-time PCR</term>
+					<term>SNP</term>
+					<term>Wildlife management</term>
+					<term>Non-invasive sampling</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The confirmed presence of alien North American beavers in some regions of Eurasia may compete with and hinder the successful recolonisation of the native Eurasian species back to its former range. Distinguishing the two species in the field can be problematic, time consuming and expensive, thereby potentially limiting appropriate conservation actions. Here, a rapid and inexpensive genetic SNP assay is described that can separate the two species from either noninvasively collected samples or samples taken directly from restrained individuals. We applied these new genetic assays to free-living beavers of unknown origin sampled in Scotland.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Two extant species of beaver are now recognised through a difference in chromosome number (Eurasian Castor fiber = 48, North American Castor canadensis = 40) <ref type="bibr" target="#b11">(Lavrov and Orlov 1973)</ref>; these diverged approximately 7.5 million years ago <ref type="bibr" target="#b7">(Horn et al. 2011</ref>). However, Eurasian (Cf) and North American (Cc) beavers are morphologically, behaviourally and ecologically very similar, making distinguishing these species difficult in the field <ref type="bibr" target="#b18">(Rosell et al. 2005;</ref><ref type="bibr">Danilov et al. 2011a</ref><ref type="bibr">Danilov et al. , 2011b))</ref>. Current techniques for species identification include the examination of the colour and viscosity of anal gland secretions (AGS) in correctly sexed beavers <ref type="bibr" target="#b17">(Rosell and Sun 1999)</ref> and/or genetic analysis <ref type="bibr" target="#b8">(Kuehn et al. 2000;</ref><ref type="bibr" target="#b2">Dewas et al. 2012)</ref>. Although the 2000 examination of AGS is a practical and quick field method, it does require animal capture, experienced sample collection and may be problematic if an animal is sexed incorrectly, which is more likely in younger animals <ref type="bibr" target="#b15">(Osborn 1955;</ref><ref type="bibr" target="#b17">Rosell and Sun 1999)</ref>. While genetic tests are more definitive and can allow for species identification without catching or disturbing the animal through the use of non-invasive hair trapping <ref type="bibr" target="#b6">(Herr and Schley 2009)</ref>, such methods still tend to be time consuming and expensive, as they require the generation and subsequent analysis of DNA sequence information.</p><p>Both species of beaver were almost brought to extinction largely as a result of fur hunting, with Cf reduced to ∼1,200 individuals scattered across 8 isolated populations across Europe by the late nineteenth century <ref type="bibr" target="#b5">(Halley and Rosell 2002)</ref>. Since the second half of the twentieth century, various conservation strategies, including hunting regulations, reintroduction and translocation programs, along with natural spread have seen both species successfully recover and recolonise large parts of their former native range. Prior to the determination of two separate species, seven individuals of Cc were imported to Finland to supplement a reintroduction program of Cf from Norway <ref type="bibr">(Lahti and Helminen</ref> In the absence of competition from Cf, significant predation, including hunting pressure, and with appropriate environmental factors, their numbers rose rapidly and were further translocated to other parts of Finland <ref type="bibr" target="#b16">(Parker et al. 2012)</ref>. Free-living Cc is now reported at a number of locations across Europe, including additional escapees from zoological collections <ref type="bibr" target="#b13">(Michaux et al. 2011;</ref><ref type="bibr" target="#b2">Dewas et al. 2012)</ref>. Although <ref type="bibr" target="#b10">Lavrov (1996)</ref> reported a post-zygotic early stage foetus hybrid between the two species, previous and subsequent active attempts in captivity to breed hybrids have not resulted in viable offspring <ref type="bibr" target="#b3">(Djoshkin and Safonow 1972;</ref><ref type="bibr" target="#b8">Kuehn et al. 2000;</ref><ref type="bibr" target="#b11">Lavrov and Orlov 1973;</ref><ref type="bibr" target="#b19">Zurowski 1983)</ref>, and therefore hybridisation between the two species is considered unlikely. The eradication of Cc from Europe is a viable and legally supported conservation strategy but given the protected status of Cf presents practical problems for wildlife management personnel. Expanding populations of both species are converging at two main fronts, in Finland and Northwest Russia <ref type="bibr" target="#b16">(Parker et al. 2012)</ref>; therefore, positive identification of Cc individuals followed by dispatch or sterilisation ensures complete removal of this alien species if resources, public and political are obtainable <ref type="bibr" target="#b16">(Parker et al. 2012)</ref>.</p><p>From a practical and welfare perspective, the wide-scale trapping and holding of beavers for species identification is unrealistic. Genetic identification of species is preferable, particularly when translocating or reintroducing animals. Therefore, an effective, robust test providing quick results whilst an individual animal is restrained could offer a practical solution which could be deployed within key areas to facilitate the removal of this alien species. Moreover, the use of noninvasive hair trapping promises to effectively screen for the presence of Cc without animal trapping and restraint <ref type="bibr" target="#b6">(Herr and Schley 2009)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head><p>DNA samples collected from tissue, blood and hair samples were collected from both beaver species across their species range. In addition, DNA samples from other mammal species with overlapping niche/distributions were also incorporated to assess the species specificity of any assay (Table <ref type="table" target="#tab_0">1</ref>). In addition, four beaver samples were provided from unknown species found shot, road victim or lawfully trapped in an area of Scotland where beavers of unknown provenance have been accidentally or wilfully released.</p><p>DNA was extracted using the QIAGEN Investigator kits following the supplied protocols. All DNA extracts were normalised to 6.5 ng/μl using a NanoDrop spectrophotometer. From a consensus of six complete mitochondrial genomes, five Cf, representing the albicus, birulai, tuvinicus, pohlei and belorussicus subspecies <ref type="bibr" target="#b4">(Durka et al. 2005</ref>) and a single Cc (from a introduced population in Eastern Scandinavia) <ref type="bibr" target="#b7">(Horn et al. 2011)</ref>, two single nucleotide polymorphisms (SNPs; see, e.g. <ref type="bibr" target="#b14">Morin et al. 2004)</ref> were identified in the 16S rRNA gene that were both diagnostic and suitable for the design of a SNPbased assay, i.e. conserved flanking region. The first SNP assay targeted was a T/C (Cc/Cf) mutation at position 1971, and the second targeted a G/A (Cc/Cf) mutation at position 2473 <ref type="bibr" target="#b7">(Horn et al. 2011</ref>). An inexpensive 'allele-specific primer' based assay, KASPar probe (KBiosciences), was designed for both SNP positions labelling the two SNP alleles for Cc (T,G) with a FAM fluorophore and for the Cf (C,A) alleles with a HEX fluorophore. For SNP position 1971, the common reverse primer was 5′ TGGGCAGGCGGTGCCTCTAATA 3′ and the two forwards FAM 5′ CCAAAAACATCACCTCTA GCATTACAAT 3′ and HEX 5′ CAAAAACATCACCTCT AGCATTACAAC 3′. For SNP position 2473, the common reverse primer was 5′ CGATGTTGGATCAGGACATCCC AAT 3′ and the two forwards FAM 5′ GAACAAACGAAC CTTTAATAGCGGC 3′ and HEX 5′ GAACAAACGAACCT TTAATAGCGGT 3′.</p><p>Species identification could then be determined by preferential incorporation of either the HEX or FAM fluorophore during amplification for each SNP. PCR amplifications for both SNPs were carried out individually but simultaneously in a single PCR amplification using an Applied Biosystems StepOne real-time thermal cycler and following the standard amplification conditions for KASPar probes as recommended by the manufacturer. Reaction volumes of 8 μl were used and consisted of 5 μl of real-time PCR mastermix (KBioscience) containing ROX as an internal normalising control, 3 μl of normalised DNA and 0.1 μl of the SNP primer mix. All amplifications incorporated two 'no template controls'. SNP allele designations were called automatically using a two cluster algorithm as heterozygotes are not present, based on a 95 % confidence cluster calling using the proprietary StepOne analysis software. For the unknown beaver species samples and the additional mammal species selected for specificity testing, real-time PCR was undertaken for both SNP positions that incorporated two positive controls for each species and two 'no template controls'.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head><p>The results from our Cf subspecies samples and Cc samples (Table <ref type="table" target="#tab_0">1</ref>) concur with previous studies from other source locations <ref type="bibr" target="#b7">(Horn et al. 2011</ref>) revealed that SNP positions 1971 and 2473 in the 16-s mitochondrial gene are fixed for nucleotides C/A, respectively, in Cf and G/T, respectively, in Cc, thereby making these positions ideal for species identification purposes. Both SNP assays developed here unambiguously identified the correct species in all authenticated samples of North American and Eurasian beaver (Fig. <ref type="figure" target="#fig_0">1</ref>). This  result demonstrates that this technique is a useful method for discrimination between these species. The four unknown beaver samples clustered for SNPs with the Eurasian beaver identifying them as Cf (data not shown), the correct species for this geographical distribution. SNP 1971 failed to amplify in any other mammal species tested; however, SNP 2473 showed non-specific amplification in several other mammals (Table <ref type="table" target="#tab_0">1</ref>). Therefore, either, and preferably both, SNP markers can be utilised for known beaver samples to ascertain species, while for non-invasively collected samples, such as hair traps or faeces, SNP 1971 should be utilised to avoid false-positive results in terms of presence or species of beaver. The presence of North American beaver in some regions may not only hinder the successful recolonisation of the Eurasian beaver back to its former range, but also presents a significant animal management issue (see <ref type="bibr" target="#b16">Parker et al. 2012</ref>). The DNA identification assay described here offers a robust and rapid method for determining the species of beaver when this is unknown regardless of the subspecies or population of Cf. By utilising a real-time PCR technique, a species identification result can be provided in less than 3 h from delivery of a blood or hair sample from a trapped animal, a substantial improvement compared to Sanger sequencing of mitochondrial genes. Importantly, this technique is also extremely inexpensive with reagent costs including DNA extraction being approximately € 3.5 per sample analysed, considerably less than standard Sanger DNA sequencing and more amenable to testing single or low numbers of samples more typical of conservation or management projects.</p><p>As genomic information becomes more widely available and as techniques improve and costs fall, DNA testing has the potential to be used much more widely as an applied ecological and conservation management tool (e.g. <ref type="bibr" target="#b12">McEwing et al. 2011</ref>).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Results of allele-specific real-time PCR amplification. Cc (FAM labelled) primers amplify in the vertical direction (circles), Cf (HEX labelled) primers amplify in the horizontal position (triangles). Back squares are no template controls</figDesc><graphic coords="3,178.02,565.68,366.41,147.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Mammal DNA samples used for identification and discriminations beaver species</figDesc><table><row><cell>Species</cell><cell>Source</cell><cell>Sample type</cell><cell>n</cell><cell>snp 1971</cell><cell>snp 2473</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Amplification efficiency /genotype</cell><cell>Amplification efficiency/genotype</cell></row><row><cell>Castor fiber</cell><cell>C.f. fiber</cell><cell>Tissue</cell><cell>8</cell><cell>***/T</cell><cell>***/A</cell></row><row><cell></cell><cell>Germany</cell><cell>Tissue</cell><cell>8</cell><cell>***/T</cell><cell>***/A</cell></row><row><cell></cell><cell></cell><cell></cell><cell>1</cell><cell>***/T</cell><cell>***/A</cell></row><row><cell></cell><cell></cell><cell>Hair</cell><cell>5</cell><cell>***/T</cell><cell>***/A</cell></row><row><cell></cell><cell>C.f. galliae</cell><cell>Hair</cell><cell>5</cell><cell>***/T</cell><cell>***/A</cell></row><row><cell></cell><cell>C.f. albicus</cell><cell>Hair</cell><cell>5</cell><cell>***/T</cell><cell>***/A</cell></row><row><cell></cell><cell>C.f. ?</cell><cell>Hair</cell><cell>1</cell><cell>***/T</cell><cell>***/A</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>***/T</cell><cell>***/A</cell></row><row><cell>Castor canadensis</cell><cell>Germany</cell><cell>Tissue</cell><cell>2</cell><cell>***/C</cell><cell>***/G</cell></row><row><cell></cell><cell>USA</cell><cell>Hair</cell><cell>7</cell><cell>***/C</cell><cell>***/G</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>***/C</cell><cell>***/G</cell></row><row><cell>Castor sp. ?</cell><cell>Scotland</cell><cell>Tissue</cell><cell>4</cell><cell>***/T</cell><cell>***/A</cell></row><row><cell>Bos taurus</cell><cell>Germany</cell><cell>Hair</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Canis lupus</cell><cell>Germany</cell><cell>Scat</cell><cell>1</cell><cell>*</cell><cell>**/A</cell></row><row><cell>Canis lupus familiaris</cell><cell>Germany</cell><cell>Hair</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Capra aegagrus hircus</cell><cell>Zoo/Germany</cell><cell>Hair</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Cervus elaphus</cell><cell>Zoo/Germany</cell><cell>Hair</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Capreolus capreolus</cell><cell></cell><cell></cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Dama dama</cell><cell>Zoo/Germany</cell><cell>Hair</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Equus ferus caballus</cell><cell>Germany</cell><cell>Scat</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Felis silvestris</cell><cell>Germany</cell><cell>Hair</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Felis silvestris catus</cell><cell>Germany</cell><cell>Hair</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Glis glis</cell><cell>Germany</cell><cell>Tissue</cell><cell>1</cell><cell>*</cell><cell>**/G</cell></row><row><cell>Homo sapiens</cell><cell>Germany</cell><cell>Hair</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Lepus europaeus</cell><cell>Germany</cell><cell>Hair</cell><cell>1</cell><cell>*</cell><cell>**/A</cell></row><row><cell>Lynx lynx</cell><cell>Zoo/Germany</cell><cell>Hair</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Martes foina</cell><cell>Germany</cell><cell>Hair</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Meles meles</cell><cell>Bulgaria</cell><cell>Hair</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Oryctolagus cuniculus</cell><cell>Germany</cell><cell>Hair</cell><cell>1</cell><cell>*</cell><cell>**/G</cell></row><row><cell>Ovis orientalis aries</cell><cell>Zoo/Germany</cell><cell>Scat</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Procyon lotor</cell><cell>Germany</cell><cell>Hair</cell><cell>1</cell><cell>*</cell><cell>**/G</cell></row><row><cell>Sus scrofa</cell><cell>Germany</cell><cell>Tissue</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell>Ursus arctos</cell><cell>Bulgaria</cell><cell>Tissue</cell><cell>1</cell><cell>*</cell><cell>*</cell></row><row><cell cols="5">Amplification efficiency *** strong amplification, ** some amplification, * no amplification</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments We are grateful to <rs type="person">Stefanie Venske</rs> (<rs type="affiliation">Nature Erlebnis Zentrum Wappenschmiiede, Germany</rs>) for providing samples as well as <rs type="person">Casten Nowak</rs>, <rs type="person">Robert Kraus</rs> (<rs type="affiliation">Conservation Genetics Group, Senckenberg, Germany</rs>), <rs type="person">Helen Senn</rs> (<rs type="affiliation">WildGenes Laboratory, UK</rs>) for discussions, and continued support from <rs type="person">Martin Gaywood</rs>, (<rs type="affiliation">Scottish Natural Heritage</rs>), <rs type="person">Liz Haliwell</rs>, (<rs type="affiliation">Countryside Council for Wales</rs>) and the Scottish Beaver Trial. This work was funded by The <rs type="funder">Royal Zoological Society of Scotland</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Differences of the morphology of the North American and Eurasian beavers in Karelia</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Danilov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kanshiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fyodorov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Restoring the European Beaver: 50 Years of Experience</title>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Sjöberg</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Ball</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Sofia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Pensoft Publishers</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="49" to="54" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Characteristics of North American and Eurasian beaver ecology in Karelia</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Danilov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kanshiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fyodorov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Restoring the European Beaver: 50 Years of Experience</title>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Sjöberg</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Ball</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Sofia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Pensoft Publishers</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="55" to="72" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Recovery and status of native and introduced beavers Castor fiber and Castor canadensis in France and neighbouring countries</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dewas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Herr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Angst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Manet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Landry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Catusee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammal Rev</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="144" to="165" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Die Biber der Alten und der Neuen Welt</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Djoshkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Safonow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Neue Brehm Bücherei</title>
+		<imprint>
+			<biblScope unit="volume">437</biblScope>
+			<date type="published" when="1972">1972</date>
+		</imprint>
+		<respStmt>
+			<orgName>Wittenberg-Lutherstadt</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Mitochondrial phylogeography of the Eurasian beaver Castor fiber L</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Durka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Babik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Ducroz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Heidecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rosell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Samjaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stubbe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="3843" to="3856" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The beaver&apos;s reconquest of Eurasia: status, population development and management of a conservation success</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Halley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rosell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammal Rev</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="153" to="178" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Barbed wire hair traps as a tool for remotely collecting hair samples from beavers (Castor sp.)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Herr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lutra</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="123" to="127" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Mitochondrial genomes reveal slow rates of molecular evolution and the timing of speciation in beavers (Castor), one of the largest rodent species</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Durka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ermala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stubbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stubbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hofreiter</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0014622</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">14622</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Differentiation of Castor fiber and Castor canadensis by non-invasive molecular methods</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kuehn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schwab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schröder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rottmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zoo Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="511" to="515" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The beaver Castor fiber (L.) and C. canadensis (Kuhl) in Finland</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lahti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Helminen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Theriol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="177" to="189" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Hybridization between Castor fiber orientoeuropaeus (Lavr, 1981) and Castor canadensis (Kühl, 1820)</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Lavrov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull Mosc Soc Nat Biol Ser</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="20" to="21" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note>In Russian with English summary</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Karyotypes and taxonomy of modern beavers (Castor, Castoridae, Mammalia)</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Lavrov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Orlov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zoologicheskii Zhurnal</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="734" to="743" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+	<note>In Russian with English summary</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">An allelic discrimination SNP assay for distinguishing the mitochondrial lineages of European wildcats and domestic cats</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mcewing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Kitchener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Holleley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kilshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Donoghue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet Resour</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="163" to="165" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Current status of the distribution of the North American beaver (Castor canadensis) in the greater region of Belgium, Luxembourg and Western Germany</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Michaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Manet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Herr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eugene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dalbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Denne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Schwoerer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Venske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rosell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Annual Conference of the German Society of Mammalogy</title>
+		<meeting><address><addrLine>Luxembourg</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011-09-17">2011. 13-17 September 2011</date>
+			<biblScope unit="volume">85</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">SNP&apos;s in ecology, evolution and conservation</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Snp</forename><surname>The</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="208" to="216" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Techniques of sexing beaver, Castor canadensis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Osborn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mammal</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="141" to="142" />
+			<date type="published" when="1955">1955</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Invasive North American beaver Castor canadensis in Eurasia: a review of potential consequences and strategy for eradication</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nummi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hartman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rosell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="354" to="365" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Use of anal gland secretion to distinguish the two beaver species Castor canadensis and C. fiber</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rosell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="119" to="123" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Ecological impact of beavers Castor fiber and Castor canadensis and their ability to modify ecosystems</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rosell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Bozser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Collen</forename><forename type="middle">P</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammal Rev</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="248" to="276" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Worldwide beaver symposium, Helsinki 1982: opening remarks</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zurowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Zool Fenn</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="85" to="86" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

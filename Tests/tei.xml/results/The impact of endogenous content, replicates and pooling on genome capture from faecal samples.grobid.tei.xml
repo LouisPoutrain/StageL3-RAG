@@ -1,0 +1,2355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Maximizing the acquisition of unique reads in non-invasive capture sequencing experiments Running title: Increasing coverage of captured fecal DNA</title>
+				<funder>
+					<orgName type="full">Société Equatoriale</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Max Planck Society</orgName>
+				</funder>
+				<funder ref="#_BuAdC2C">
+					<orgName type="full">&quot;la Caixa&quot; Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Max Planck Society Innovation Fund</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Centre National de la Recherche Scientifique (CENAREST)</orgName>
+				</funder>
+				<funder ref="#_gEMxdqn">
+					<orgName type="full">European Union</orgName>
+				</funder>
+				<funder ref="#_FhnnXkb">
+					<orgName type="full">FPI (Formación de Personal Investigador</orgName>
+				</funder>
+				<funder ref="#_4aUcHJj">
+					<orgName type="full">MINECO/FEDER</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ministère de la Recherche Scientifique et de l&apos;Innovation, Cameroon</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ministerio de Ciencia, Universidades e Investigación</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ministère des Forêts et de la Faune, Cameroon</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ministère des Eaux et Forêts</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Secretaria d&apos;Universitats i Recerca</orgName>
+				</funder>
+				<funder ref="#_yYnsJ9G">
+					<orgName type="full">European Research Council</orgName>
+					<orgName type="abbreviated">ERC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Cote d&apos;Ivoire</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Howard Hughes International Early Career, Obra Social &quot;La Caixa</orgName>
+				</funder>
+				<funder ref="#_E4UC6Yf">
+					<orgName type="full">Pan African Programme</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">&quot;La Caixa&quot; doctoral fellowship program</orgName>
+				</funder>
+				<funder ref="#_t5ZNGsa">
+					<orgName type="full">CERCA Programme del Departament d&apos;Economia i Coneixement de la Generalitat de Catalunya</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Unidad de Excelencia María de Maeztu</orgName>
+				</funder>
+				<funder ref="#_Excpgxq">
+					<orgName type="full">AEI</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Gabon</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ministère de l&apos;Enseignement Supérieur et de la Recherche Scientifique</orgName>
+				</funder>
+				<funder ref="#_nrDycFe">
+					<orgName type="full">Heinz L. Krekeler Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Agence Nationale des Parcs Nationaux</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Claudia</forename><surname>Fontsere</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Biologia Evolutiva</orgName>
+								<orgName type="institution">CSIC-Universitat Pompeu Fabra</orgName>
+								<address>
+									<addrLine>PRBB Doctor Aiguader 88</addrLine>
+									<postCode>08003</postCode>
+									<settlement>Barcelona</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marina</forename><surname>Alvarez-Estape</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Biologia Evolutiva</orgName>
+								<orgName type="institution">CSIC-Universitat Pompeu Fabra</orgName>
+								<address>
+									<addrLine>PRBB Doctor Aiguader 88</addrLine>
+									<postCode>08003</postCode>
+									<settlement>Barcelona</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jack</forename><surname>Lester</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mimi</forename><surname>Arandjelovic</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><surname>Kuhlwilm</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Biologia Evolutiva</orgName>
+								<orgName type="institution">CSIC-Universitat Pompeu Fabra</orgName>
+								<address>
+									<addrLine>PRBB Doctor Aiguader 88</addrLine>
+									<postCode>08003</postCode>
+									<settlement>Barcelona</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paula</forename><surname>Dieguez</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anthony</forename><surname>Agbor</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Samuel</forename><surname>Angedakin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Emmanuel</forename><forename type="middle">Ayuk</forename><surname>Ayimisin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mattia</forename><surname>Bessone</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gregory</forename><surname>Brazzola</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tobias</forename><surname>Deschner</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Manasseh</forename><surname>Eno-Nku</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">WWF Cameroon Country Programme Office</orgName>
+								<address>
+									<postCode>BP6776</postCode>
+									<settlement>Yaoundé</settlement>
+									<country key="CM">Cameroon</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anne-Céline</forename><surname>Granjon</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Josephine</forename><surname>Head</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Parag</forename><surname>Kadam</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">School of Biological and Environmental Sciences</orgName>
+								<orgName type="institution">Liverpool John Moores University</orgName>
+								<address>
+									<addrLine>James Parsons Building Byrom street</addrLine>
+									<postCode>L3 3AF</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ammie</forename><forename type="middle">K</forename><surname>Kalan</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mohamed</forename><surname>Kambi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kevin</forename><surname>Langergraber</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">School of Human Evolution and Social Change</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<addrLine>900 Cady Mall</addrLine>
+									<postCode>85287</postCode>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Institute of Human Origins</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<addrLine>900 Cady Mall</addrLine>
+									<postCode>85287</postCode>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Juan</forename><surname>Lapuente</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Comoé Chimpanzee Conservation Project</orgName>
+								<orgName type="institution" key="instit1">Kakpin</orgName>
+								<orgName type="institution" key="instit2">Comoé National</orgName>
+								<address>
+									<settlement>Park</settlement>
+									<region>Coast</region>
+									<country>Ivory</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Giovanna</forename><surname>Maretti</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lucy</forename><forename type="middle">Jayne</forename><surname>Ormsby</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alex</forename><surname>Piel</surname></persName>
+							<affiliation key="aff9">
+								<orgName type="department">Department of Anthropology</orgName>
+								<orgName type="institution">University College London</orgName>
+								<address>
+									<addrLine>14 Taviton St</addrLine>
+									<settlement>Bloomsbury London</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martha</forename><forename type="middle">M</forename><surname>Robbins</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fiona</forename><surname>Stewart</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">School of Biological and Environmental Sciences</orgName>
+								<orgName type="institution">Liverpool John Moores University</orgName>
+								<address>
+									<addrLine>James Parsons Building Byrom street</addrLine>
+									<postCode>L3 3AF</postCode>
+									<settlement>Liverpool</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department">Department of Anthropology</orgName>
+								<orgName type="institution">University College London</orgName>
+								<address>
+									<addrLine>14 Taviton St</addrLine>
+									<settlement>Bloomsbury London</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Virginie</forename><surname>Vergnes</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="institution">Wild Chimpanzee Foundation (WCF</orgName>
+								<address>
+									<postCode>23BP238</postCode>
+									<settlement>Abidjan</settlement>
+									<country key="CI">Côte d&apos;Ivoire</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Roman</forename><forename type="middle">M</forename><surname>Wittig</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff12">
+								<orgName type="laboratory">Taï Chimpanzee Project</orgName>
+								<orgName type="institution">Centre Suisse de Recherches Scientifiques</orgName>
+								<address>
+									<postBox>BP 1301</postBox>
+									<settlement>Abidjan 01</settlement>
+									<region>CI</region>
+									<country>Côte</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hjalmar</forename><forename type="middle">S</forename><surname>Kühl</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Biologia Evolutiva</orgName>
+								<orgName type="institution">CSIC-Universitat Pompeu Fabra</orgName>
+								<address>
+									<addrLine>PRBB Doctor Aiguader 88</addrLine>
+									<postCode>08003</postCode>
+									<settlement>Barcelona</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Max Planck Institute for Evolutionary Anthropology</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff14">
+								<orgName type="department">German Centre for Integrative Biodiversity Research (</orgName>
+								<orgName type="institution">iDiv) Halle-Jena-Leipzig</orgName>
+								<address>
+									<addrLine>Deutscher Platz 5e</addrLine>
+									<postCode>04103</postCode>
+									<settlement>Leipzig</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tomas</forename><surname>Marques- Bonet</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><forename type="middle">A</forename><surname>Hughes</surname></persName>
+							<affiliation key="aff15">
+								<orgName type="laboratory" key="lab1">CNAG-CRG</orgName>
+								<orgName type="laboratory" key="lab2">Centre for Genomic Regulation (CRG)</orgName>
+								<orgName type="institution">Barcelona Institute of Science and Technology (BIST)</orgName>
+								<address>
+									<addrLine>Baldiri i Reixac 4</addrLine>
+									<postCode>08028</postCode>
+									<settlement>Barcelona</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff16">
+								<orgName type="department">Institució Catalana</orgName>
+								<orgName type="institution">de Recerca i Estudis Avançats (ICREA)</orgName>
+								<address>
+									<postCode>08010</postCode>
+									<settlement>Barcelona</settlement>
+									<region>Catalonia</region>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff17">
+								<orgName type="department">Institut Català de Paleontologia Miquel Crusafont</orgName>
+								<orgName type="institution">Universitat Autònoma de Barcelona</orgName>
+								<address>
+									<addrLine>Columnes s/n</addrLine>
+									<postCode>08193</postCode>
+									<settlement>Cerdanyola del Vallès</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff18">
+								<orgName type="department">MRC Integrative Epidemiology Unit</orgName>
+								<orgName type="institution">University of Bristol</orgName>
+								<address>
+									<postCode>BS8 2BN</postCode>
+									<settlement>Bristol</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff19">
+								<orgName type="department" key="dep1">Population Health Sciences</orgName>
+								<orgName type="department" key="dep2">Bristol Medical School</orgName>
+								<orgName type="institution">University of Bristol</orgName>
+								<address>
+									<postCode>BS8 2BN</postCode>
+									<settlement>Bristol</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Esther</forename><surname>Lizano</surname></persName>
+							<email>esther.lizano@upf.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Biologia Evolutiva</orgName>
+								<orgName type="institution">CSIC-Universitat Pompeu Fabra</orgName>
+								<address>
+									<addrLine>PRBB Doctor Aiguader 88</addrLine>
+									<postCode>08003</postCode>
+									<settlement>Barcelona</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff17">
+								<orgName type="department">Institut Català de Paleontologia Miquel Crusafont</orgName>
+								<orgName type="institution">Universitat Autònoma de Barcelona</orgName>
+								<address>
+									<addrLine>Columnes s/n</addrLine>
+									<postCode>08193</postCode>
+									<settlement>Cerdanyola del Vallès</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<postBox>PO Box 872402</postBox>
+									<postCode>85287-2402</postCode>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<postBox>PO Box 872402</postBox>
+									<postCode>85287-2402</postCode>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff11">
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff13">
+								<address>
+									<country>&apos;Ivoire</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Maximizing the acquisition of unique reads in non-invasive capture sequencing experiments Running title: Increasing coverage of captured fecal DNA</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8853CC3C53907CBDEFBF5CD0DCD46957</idno>
+					<idno type="DOI">10.1111/1755-0998.13300</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-15T16:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Non-invasive samples</term>
+					<term>fecal samples</term>
+					<term>target capture</term>
+					<term>molecular complexity</term>
+					<term>conservation genomics</term>
+					<term>chimpanzees</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Non-invasive samples as a source of DNA are gaining interest in genomic studies of endangered species. However, their complex nature and low endogenous DNA content hamper the recovery of good quality data. Target capture has become a productive method to enrich the endogenous fraction of non-invasive samples, such as feces, but its sensitivity has not yet been extensively studied. Coping with fecal samples with an endogenous DNA content below 1% is a common problem when prior selection of samples from a large collection is not possible. However, samples classified as unfavorable for target capture sequencing might be the only representatives of unique specific geographical locations or to answer the question of interest.</p><p>To explore how library complexity may be increased without repeating DNA extractions and generating new libraries, here we have captured the exome of 60 chimpanzees (Pan troglodytes) using fecal samples with very low proportions of endogenous content (&lt; 1%).</p><p>Our results indicate that by performing additional hybridizations of the same libraries, the molecular complexity can be maintained to achieve higher coverage. Also, whenever possible, the starting DNA material for capture should be increased. Lastly, we have specifically calculated the sequencing effort needed to avoid exhausting the library complexity of enriched fecal samples with low endogenous DNA content.</p><p>This study provides guidelines, schemes and tools for laboratories facing the challenges of working with non-invasive samples containing extremely low amounts of endogenous DNA.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Studies of wild animal populations that are unamenable to invasive sampling (eg: trapping or darting) often rely on the usage of low quality and/or quantity DNA samples <ref type="bibr" target="#b43">(Schwartz, Luikart, &amp; Waples, 2007;</ref><ref type="bibr">Vigilant &amp; Guschanski, 2009)</ref>, traditionally restricting the analysis to neutral markers or genetic loci such as microsatellites <ref type="bibr" target="#b1">(Arandjelovic et al., 2011;</ref><ref type="bibr" target="#b19">Inoue et al., 2013;</ref><ref type="bibr" target="#b28">Mengüllüoğlu, Fickel, Hofer, &amp; Förster, 2019;</ref><ref type="bibr" target="#b33">Orkin, Yang,</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved <ref type="bibr" target="#b33">Yang, Yu, &amp; Jiang, 2016)</ref>, autosomal regions <ref type="bibr" target="#b13">(Fischer, Wiebe, Pääbo, &amp; Przeworski, 2004</ref>) and the mitochondrial genome <ref type="bibr" target="#b12">(Fickel, Lieckfeldt, Ratanakorn, &amp; Pitra, 2007;</ref><ref type="bibr" target="#b50">Thalmann, Hebler, Poinar, Pääbo, &amp; Vigilant, 2004)</ref>. Depending on the researcher's question, these neutral genetic markers may continue to be the most economical and efficient method <ref type="bibr" target="#b44">(Shafer et al., 2015)</ref>. However, for other questions such as cataloging genetic diversity, assessing kinship, making fine inferences of demographic history, or evaluating disease susceptibility, it is increasingly relevant to acquire a more representative view of the genome <ref type="bibr" target="#b34">(Ouborg, Pertoldi, Loeschcke, Bijlsma, &amp; Hedrick, 2010;</ref><ref type="bibr" target="#b38">Primmer, 2009;</ref><ref type="bibr" target="#b44">Shafer et al., 2015;</ref><ref type="bibr" target="#b46">Städele &amp; Vigilant, 2016;</ref><ref type="bibr" target="#b47">Steiner, Putnam, Hoeck, &amp; Ryder, 2013)</ref>.</p><p>Conservation genomics of ecologically-crucial, non-model organisms, and especially threatened species such as great apes, have largely benefited from the current advances in next-generation sequencing (NGS) technologies <ref type="bibr" target="#b15">(Gordon et al., 2016;</ref><ref type="bibr" target="#b26">Locke et al., 2011;</ref><ref type="bibr" target="#b29">Mikkelsen et al., 2005;</ref><ref type="bibr" target="#b42">Scally et al., 2012)</ref>. The ability to simultaneously interrogate hundreds of thousands of genetic markers across an entire genome allows greater resolution on inferences of demographic parameters, genetic variation, gene flow, inbreeding, natural selection, local adaptation and the evolutionary history of the studied species <ref type="bibr" target="#b10">(De Manuel et al., 2016;</ref><ref type="bibr" target="#b37">Prado-Martinez et al., 2013;</ref><ref type="bibr">Xue et al., 2015)</ref>.</p><p>The major impediment to the study of wild, threatened, natural populations continues to be the difficulties in acquiring samples of known location from a large number of individuals. To avoid disturbing and negatively influencing endangered species (alteration of social group dynamics, infections and stress) <ref type="bibr" target="#b31">(Morin, Wallis, Moore, Chakraborty, &amp; Woodruff, 1993;</ref><ref type="bibr" target="#b49">Taberlet, Luikart, &amp; Waits, 1999)</ref>, but also to track cryptic or monitor reintroduced species <ref type="bibr" target="#b9">(De Barba et al., 2010;</ref><ref type="bibr" target="#b11">Ferreira et al., 2018;</ref><ref type="bibr" target="#b40">Reiners, Encarnação, &amp; Wolters, 2011;</ref><ref type="bibr" target="#b48">Stenglein, Waits, Ausband, Zager, &amp; Mack, 2010)</ref>, sampling often relies on non-invasive (NI) sources of DNA such as feces and hair, rather than invasive samples such as blood or other tissues, which yield better DNA quality and quantity.</p><p>NI samples have a complex nature: they are typically composed of low proportions of host or endogenous DNA (eDNA), are highly degraded <ref type="bibr" target="#b36">(Perry, Marioni, Melsted, &amp; Gilad, 2010;</ref><ref type="bibr" target="#b49">Taberlet et al., 1999)</ref>, and contain genetic material from the host's microbiota and from species living in the environment where the sample was collected (i.e., exogenous DNA) <ref type="bibr" target="#b18">(Hicks et al., 2018)</ref>. The proportion of endogenous versus exogenous DNA can be</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved highly variable <ref type="bibr" target="#b17">(Hernandez-Rodriguez et al., 2018)</ref> and as previous literature has proposed, may depend on the environmental conditions, with humidity and ambient temperature having the highest influence <ref type="bibr" target="#b14">(Goossens, Chikhi, Utami, De Ruiter, &amp; Bruford, 2000;</ref><ref type="bibr" target="#b16">Harestad &amp; Bunnell, 1987;</ref><ref type="bibr" target="#b20">King, Schoenecker, Fike, &amp; Oyler-McCance, 2018;</ref><ref type="bibr" target="#b32">Nsubuga et al., 2004)</ref>. Because of this, the employment of techniques that generate sequences of the whole genomic content of the samples, such as NGS, has not been economically feasible until recently. Target enrichment technologies, also known as capture, have become a common and successful methodology in ancient DNA studies <ref type="bibr" target="#b5">(Burbano et al., 2010;</ref><ref type="bibr" target="#b7">Carpenter et al., 2013;</ref><ref type="bibr" target="#b27">Maricic, Whitten, &amp; Pääbo, 2010)</ref> and have allowed for a more cost-effective use of NGS on NI samples, as the endogenous to exogenous DNA ratio greatly improves, thus reducing the sequencing effort <ref type="bibr" target="#b36">(Perry et al., 2010;</ref><ref type="bibr" target="#b45">Snyder-Mackler et al., 2016;</ref><ref type="bibr" target="#b51">van der Valk, Lona Durazo, Dalén, &amp; Guschanski, 2017)</ref>. Capture methods reduce the relative cost of sequencing and improve the quality of the data by building DNA libraries that are hybridized to complementary baits for selected target regions (partial genomic regions, a chromosome, the exome, or the whole genome) increasing the proportion of the targeted eDNA to be sequenced. Despite the existence of technical studies describing the use of NI samples for the genomic study of wild chimpanzees (Pan troglodytes) <ref type="bibr" target="#b17">(Hernandez-Rodriguez et al., 2018;</ref><ref type="bibr">White et al., 2019)</ref> many aspects remain to be investigated. For instance, in Hernandez-Rodriguez et al., samples were selected to cover the entire range of observed average fragmentation lengths and percentage of eDNA, in order to be as representative as possible. As a result, they observed a sequencing bias due to the different percentage of endogenous content in captured samples. To avoid that outcome, they proposed performing equi-endogenous pools instead of the standard pooling of libraries according to molarity. White et al. followed this recommendation and yielded a more balanced representation across samples. However, their experiments were limited to only those samples with a proportion of eDNA above 2% <ref type="bibr">(White et al., 2019)</ref>. As shown by Hernandez-Rodriguez et al. there is a positive association between endogenous content and the amount of data acquired from a sample, such that when possible, one should use those samples with higher endogenous content. However, the proportion of chimpanzee fecal samples with eDNA above 2% is often very low (&lt;20%) <ref type="bibr">(White et al., 2019)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved Here, we look to expand on the methods presented in <ref type="bibr" target="#b17">Hernandez-Rodriguez et al. (2018)</ref> and <ref type="bibr">White et al. (2019)</ref> by focusing on very low endogenous content samples. These previous studies have illustrated the value and quality of genotype data derived from target capture enrichment protocols using complex non-invasive samples. Here, we will focus on methods to improve the acquisition of unique, endogenous or host DNA readsthe variable most important in increasing the amount and quality of genotype data.</p><p>The NI chimpanzee samples used in this study were collected from 15 different geographic sites across the whole species' ecological habitat in Africa and included all four subspecies, thus representing a wide variety of sampling and environmental conditions. With this screening approach we were able to examine how the proportion of eDNA content varies between each site, revealing that the majority of collected samples in some sites have low proportions of eDNA (&lt;1%). Therefore, when prior selection of samples from a large collection is not possible, the only ones representing a specific location or that are relevant to the scientific question, might be those with extremely low proportions of endogenous content. Because of that, we have focused our efforts on developing approaches to retrieve the maximum data possible from challenging samples.</p><p>In that regard, we sought to capture the exome of 60 chimpanzee fecal samples as part of the Pan African Programme:</p><p>The Cultured Chimpanzee (PanAf) (<ref type="url" target="http://panafrican.eva.mpg.de/">http://panafrican.eva.mpg.de/</ref>) <ref type="bibr" target="#b22">(Kühl et al., 2019)</ref> with eDNA estimates below 1%. We used a commercial human exome to evaluate how the coverage of targeted genomic regions may be increased in a collection of samples that may be regarded as unfavorable for target capture sequencing. We confirmed the importance of the correct estimation of eDNA and the pooling of libraries accordingly to avoid sequencing bias across samples <ref type="bibr" target="#b17">(Hernandez-Rodriguez et al., 2018)</ref>. We also expanded on previously explored and unexplored guidelines to ensure the maintenance of the captured molecule diversity or library complexity such as the number of libraries in a pool, the performance of additional hybridizations and increasing the total DNA starting material for capture <ref type="bibr" target="#b17">(Hernandez-Rodriguez et al., 2018;</ref><ref type="bibr" target="#b36">Perry et al., 2010;</ref><ref type="bibr" target="#b45">Snyder-Mackler et al., 2016;</ref><ref type="bibr">White et al., 2019)</ref>.</p><p>Our results provide the most comprehensive exploration to date of target enrichment efficiency in very low eDNA fecal samples, and guidelines to improve the quality of the data without re-extracting DNA and preparing new libraries. These findings could greatly</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved benefit the conservation effort on great apes, as well as any other species with similar DNA sampling limitations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Material and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Samples and Library Preparation</head><p>Chimpanzee fecal samples from 15 different sites in Africa were collected as part of the PanAf (Figure <ref type="figure" target="#fig_0">1A</ref>). Approximately 5g ("hazelnut-size") of feces were collected from each chimpanzee fecal sample and stored in the field using a two-step ethanol-silica preservation method <ref type="bibr" target="#b32">(Nsubuga et al., 2004)</ref>. Depending on the density of the sample, between 10 and 80 mg of dry fecal sample were extracted using a Qiagen robot with the QIAamp Fast DNA Stool Mini Kit (Qiagen) with modifications <ref type="bibr">(Lester et al, in review, 2020)</ref>. The extractions, including blanks, were screened using a microsatellite genotyping assay <ref type="bibr" target="#b0">(Arandjelovic et al., 2009;</ref><ref type="bibr" target="#b1">Arandjelovic et al., 2011)</ref> and up to 20 samples from each PanAf field site were selected as follows:</p><p>(1) those that amplified at the most loci of the 15 loci panel, (2) represented unique individuals, and (3) were ascertained to have a low probability of being first degree relatives <ref type="bibr" target="#b8">(Csilléry et al., 2006</ref>) (302 samples) (Supporting Information Table <ref type="table" target="#tab_2">S1</ref>). None of the blanks amplified in the microsatellite assays. To ensure sufficient template DNA for library preparation, the 302 samples were re-extracted using the same QIAamp kit and between 100 and 200 mg of dry fecal sample. Total DNA concentration and fragmentation were measured on a Fragment Analyzer using a Genomic DNA 50Kb Analysis kit (Advanced Analytical) and the fragmentation level was calculated with PROSize Data Analysis Software (Agilent Technologies). Endogenous DNA content (fraction of mammalian DNA, relative to gut microbial and other environmental genetic material) was estimated by qPCR <ref type="bibr" target="#b30">(Morin, Chambers, Boesch, &amp; Vigilant, 2001)</ref>. Finally, percentage of endogenous content for each sample was calculated by dividing the chimpanzee eDNA concentration by the total DNA concentration. We selected 60 samples with an intermediate percentage of eDNA (0.41-0.85%, average 0.61%) from the 302 screened samples (range of endogenous distribution: 0-47.57%, average 1.49%) (Supporting Information Figure <ref type="figure" target="#fig_0">S1</ref> and Table <ref type="table">S2</ref>).</p><p>A single library was prepared for each of the 60 samples following the BEST protocol <ref type="bibr" target="#b6">(Carøe et al., 2018)</ref> starting with 200 ng total DNA (from a sample) with minor</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved modifications. Specifically, double in-line barcoded adapters were used (Supporting Information Figure <ref type="figure" target="#fig_1">S2</ref>), barcoding each sample at both ends of its library to allow for its unique identification within a pool <ref type="bibr" target="#b41">(Rohland &amp; Reich, 2012)</ref>. Library concentration was calculated using Agilent 2100 BioAnalyzer and DNA7500 assay kit. A detailed protocol for library construction can be found in Supplementary Information.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pooling and Capture</head><p>Endogenous DNA content is a key factor in target-capture experiments directly influencing the yield of on-target reads and molecule diversity <ref type="bibr" target="#b17">(Hernandez-Rodriguez et al., 2018)</ref>. Our equi-endogenous sample pooling strategy follows two criteria. First, samples belonging to a pool have similar eDNA proportions according to a 1:2 ratio rule:</p><p>the sample with highest proportion of eDNA cannot double the sample with the lowest.</p><p>Second, each sample within a pool contributes the same total amount of eDNA (µg) to the final pool, creating an equi-endogenous pool. So, the sample with the lowest percentage of eDNA will contribute more total DNA to the final pool compared to the sample with the highest, but the amount of eDNA per sample will be equivalent.</p><p>According to the estimates of eDNA, we pooled the 60 libraries into three primary pools (see graphical representation in Figure <ref type="figure" target="#fig_1">2</ref>). The first pool (P1) with 2 µg total DNA (in the pool) consisted of 10 samples with an average endogenous content of 0.81% (range 0.69-0.85%). The second pool (P2) had 4 µg total DNA and consisted of 20 samples and an average endogenous content of 0.69% (range 0.58-0.80%). The 30 remaining libraries were pooled into the third pool (P3) of 6 µg total DNA with an average endogenous content of 0.49% (range 0.41-0.66%) (Table <ref type="table" target="#tab_2">1</ref> and Figure <ref type="figure" target="#fig_2">3A</ref>, Supporting Information Table <ref type="table">S2</ref>). Subsequently, each initial primary pool was subdivided into two (P1E1, P1E2), four (P2E1, P2E2, P2E3, P2E4) and six (P3E1, P3E2, P3E3, P3E4, P3E5, P3E6) exome capture (E) replicates each consisting of 1 µg of total DNA. Independently, we repeated the construction of the primary pools (P1, P2 and P3), but with each having 4 µg total DNA. Each of these new primary pools was then divided into two replicates of 2 µg each (P1E3, P1E4, P2E5, P2E6, P3E7, P3E8). As a consequence of generating replicate primary pools, six of the 60 libraries were exhausted and are not present in these replicate primary pools. As a result, across all 60 samples and 18</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved hybridizations there are a total of 388 individual hybridization experiments (Figure <ref type="figure" target="#fig_1">2</ref>). All details are provided in Table <ref type="table" target="#tab_2">1</ref>.</p><p>Each exome capture experiment consisted of two consecutive hybridizations, or dualcapture reactions as previously recommended <ref type="bibr" target="#b17">(Hernandez-Rodriguez et al., 2018)</ref> using the SureSelect Human All Exon V6 RNA library baits from Agilent Technologies and was performed following the manufacturer's protocol with some modifications (full protocol is available in Supporting Information), and started with either 1 µg or 2 µg total DNA (Table <ref type="table" target="#tab_2">1</ref> and Figure <ref type="figure" target="#fig_1">2</ref>). After the first hybridization reaction and the subsequent PCR enrichment, we performed the second hybridization reaction with all available material.</p><p>The final captured pool was amplified with indexed primers <ref type="bibr" target="#b21">(Kircher, Sawyer, &amp; Meyer, 2012)</ref>, double-indexing each library within a pool, thereby tagging each library to a specific hybridization experiment. Double inline barcoded (sample specific) and double indexed (pool specific) libraries allow for multiplexing many libraries into a single pool and sequencing many pools into a single sequencing lane, even when the same sample library is present in multiple hybridization reactions. This permits the tracking of unique experiments.</p><p>For the reminder of the article when we use the word "capture" or "hybridization", we will always be referring to the dual-capture or two consecutive rounds of capture hybridizations that are described above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sequencing and Mapping</head><p>Captured libraries were pooled into 3 sequencing batches and sequenced on a total of 3.75 lanes of a HiSeq 4000 with 2x100 paired-end reads: SeqBatch1 (P1E1, P2E1, P2E2, P3E1, P3E2, P3E3), SeqBatch2 (P1E2, P2E3, P2E4, P3E4, P3E5, P3E6) and SeqBatch3 (P1E3, P1E4, P2E5, P2E6, P3E6, P3E7, P3E8) (Table <ref type="table" target="#tab_2">1</ref>).</p><p>Demultiplexed FASTQ files were trimmed with Trimmomatic (version 0.36) <ref type="bibr" target="#b3">(Bolger, Lohse, &amp; Usadel, 2014)</ref> to remove the first 7 nucleotides corresponding to the in-line barcode (HEADCROP: 7), the Illumina adapters (ILLUMINACLIP:2:30:10), and bases with an average quality less than 20 (SLIDINGWINDOW:5:20). Paired-end reads were aligned to human genome Hg19 (GRCh37, Feb.2009 (GCA_000001405.1)) using BWA (version 0.7.12) <ref type="bibr">(Li &amp; Durbin, 2009)</ref>. Duplicates were removed using PicardTools (version</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved 1.95) (<ref type="url" target="http://broadinstitute.github.io/picard/">http://broadinstitute.github.io/picard/</ref>) with MarkDuplicates option. Further filtering of the reads was carried out to discard secondary alignments and reads with mapping quality lower than 30 using samtools (version 1.5) <ref type="bibr">(Li et al., 2009)</ref>. From now on, we will refer to those reads remaining after filtering as "reliable reads". To retrieve the reliable reads on-target we used intersectBed from BEDTOOLS package (version 2.22.1) <ref type="bibr" target="#b39">(Quinlan &amp; Hall, 2010)</ref>  duplicates generated during library preparation, we removed duplicates and then retrieved the reliable reads on-target using the same methodology as above (Supporting Information Figure <ref type="figure" target="#fig_2">S3</ref>). For all previous steps, the total number of reads were counted using PicardTools (version 1.95) (<ref type="url" target="http://broadinstitute.github.io/picard/">http://broadinstitute.github.io/picard/</ref>) with CollectAlignmentSummaryMetrics option. The percentage of human contamination was estimated by using positions where modern humans and chimpanzees consistently differ.</p><p>We used previously published diversity data on high-coverage genomes from the Pan species (chimpanzee and bonobos) (De <ref type="bibr" target="#b10">Manuel et al., 2016)</ref> and human diversity data from the 1000 Genomes Project <ref type="bibr" target="#b2">(Auton et al., 2015)</ref>, selecting positions where the human allele is observed at more than 98% frequency, and a different allele is observed in almost all Pan individuals (136 out of 138 chromosomes). Genome-wide, 5,646,707 chimpanzee-specific positions were identified. Using samtools mpileup <ref type="bibr">(Li et al., 2009)</ref>,</p><p>we retrieved the number of observations of human-like alleles at these positions in the mapped reads, and estimated the human contamination as the fraction of observations for the human-like allele across all positions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Capture performance</head><p>Capture performance was evaluated by calculating the enrichment factor (EF), capture specificity (CSp), library complexity (LC), and capture sensitivity (CS) as described in <ref type="bibr" target="#b17">Hernandez-Rodriguez et al (2018)</ref>. EF is calculated as the ratio of the number of reliable reads on-target to the total reads sequenced divided by the fraction of the target space (64Mb) to the genome size (~3Gb). CSp is defined as the ratio of reliable on-target reads to the total number of reliable reads. LC is defined as the number of reliable reads</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved divided by the total number of mapped reads (containing duplicated reads). Capture sensitivity (CS) is defined as the number of target regions with an average coverage of at least one (DP1) -but also four (DP4), ten (DP10), twenty (DP20) or fifty (DP50) -divided by the total number of target regions provided by the manufacturer <ref type="bibr">(n = 243,190)</ref>. To calculate the average coverage of the target regions we used samtools (version 1.5) with the option bedcov <ref type="bibr">(Li et al., 2009)</ref>.</p><p>To generate molecular complexity or library complexity curves (MC), we used the subsampling without replacement strategy implemented in Preseq software (version 2.0.7) with c_curve option (<ref type="url" target="http://smithlabresearch.org/software/preseq/">http://smithlabresearch.org/software/preseq/</ref>) from the bam files without removing duplicates. MCs were sequentially estimated by adding the production reads, i.e. raw reads produced by sequencing, from additional hybridizations, one at a time until all hybridizations from the same library were merged (schematic representation in Figure <ref type="figure" target="#fig_3">S4</ref>).</p><p>Correlation coefficients among all pairs of study variables were estimated. Spearman's rho (cor.test(, method = "sp") from R stats package) was estimated when comparing two numeric variables. Among two categorical variables we estimated Cramér's V, derived </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved summary statistic, CS at DP1) was explained by ~ subspecies + site + % eDNA + average fragment size + pool + amount of DNA + hybridization + sequencing batch + error. Again, the variance explained by each independent variable was summarized by computing the eta-square statistic derived from the sums of squares for each variable using a type I hierarchical ANOVA. All statistical analyses were performed in R (version 3.5.2) (R Core Team, 2018).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample Description</head><p>Samples were collected from 15 different PanAf sites distributed across the entire range of chimpanzees in Africa (Figure <ref type="figure" target="#fig_0">1A</ref> and Supporting Information Table <ref type="table" target="#tab_2">S1</ref>). The 302 screened samples had an average eDNA of 1.49%, ranging from 0 to 47.75% (Figure <ref type="figure" target="#fig_0">1B</ref>, Supporting Information Figure <ref type="figure" target="#fig_0">S1A</ref> and Table <ref type="table" target="#tab_2">S1</ref>) with 70.2% of the samples below 1% eDNA, according to qPCR estimates (Figure <ref type="figure" target="#fig_0">1C</ref>). The average fragment length for screened samples was 3,479.94 bp (ranging from 72 to 17,966 bp) (Supporting Information Figure <ref type="figure" target="#fig_0">S1B</ref> and Table <ref type="table" target="#tab_2">S1</ref>).</p><p>We observe variation on the average endogenous content among geographical sites (Figure <ref type="figure" target="#fig_0">1B</ref>), and also variation on fragment length among geographical sites (Supporting Information Figure <ref type="figure" target="#fig_0">S1B</ref>). For instance, samples collected in a specific location such as Campo Ma'an (Cameroon) have an average eDNA of 0.02%, an extremely low value compared to the average of all sites of 1.49%. On the other hand, some sites such as Ngogo (Uganda) have samples with higher than average eDNA (6.95%) (Supporting Information Table <ref type="table">S3</ref>). This might be explained by the influence of weather, humidity and temperature on DNA preservation and bacterial growth in the fecal sample before collection as well as a product of sample age and quality of sampling conditions <ref type="bibr" target="#b4">(Brinkman, Schwartz, Person, Pilgrim, &amp; Hundertmark, 2010;</ref><ref type="bibr" target="#b14">Goossens et al., 2000;</ref><ref type="bibr" target="#b16">Harestad &amp; Bunnell, 1987;</ref><ref type="bibr" target="#b20">King et al., 2018;</ref><ref type="bibr" target="#b32">Nsubuga et al., 2004;</ref><ref type="bibr">Wedrowicz, Karsa, Mosse, &amp; Hogan, 2013)</ref>.</p><p>A total of 60 samples with a mean percent endogenous content of 0.58% (range from 0.41% to 0.85%), and with a median human contamination of 0.0875% (range from 0.04% to 7.50%) from all four chimpanzee subspecies and 14 geographic sites were</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved carried forward into target capture enrichment experiments (Table <ref type="table">S2</ref>). After doubleinline-barcoded library production, the 60 samples were placed into 3 pools with 10, 20 and 30 samples each (Figure <ref type="figure" target="#fig_1">2</ref>). Samples were divided into pools based on their percent endogenous content, such that those samples with higher levels of percent endogenous content were in P1 with 10 samples (mean = 0.81) and those with the smallest were in P3</p><p>with 30 samples (mean = 0.49; P2 mean = 0.69) (Figure <ref type="figure" target="#fig_2">3A</ref>). As such the percent endogenous DNA is highly structured among the three pools, explaining 81% of the variation in eDNA (univariate linear model using rank normal transformed % eDNA; pvalue = 2.05x10 -91 ) (Supporting Information Figure <ref type="figure" target="#fig_4">S5A</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Read Summary Statistics and Capture Performance</head><p>As illustrated in Figure <ref type="figure" target="#fig_2">3B</ref> across a total of 18 hybridization experiments sequenced we obtained ~1.40 billion reads distributed among 3 pools. Of those, ~1.19 billion were mapped reads (85.19%), with ~203 million reads being considered duplicate-free, reliable reads (14.6%). After removing off-target reads, we obtained a total of ~174 million ontarget-reliable reads (12.48%) (Supporting Information Table <ref type="table">S4</ref>, Figure <ref type="figure" target="#fig_2">S3A</ref>). However, on average each hybridization experiment yielded an average of 17.35% on-targetreliable reads, with a range of 4.15% in our earliest experiments to 34.85% in our later experiments (Supporting information Table <ref type="table">S5</ref>). The observed high levels of duplicates are a consequence of the low endogenous content of the samples and the exhaustion of library complexity during sequencing; we will elaborate on outcome and improvements below.</p><p>The ~1.40 billion reads were not equally distributed among the 3 pools (production reads explained by pools; r 2 = 0.41, p-value = 3.24x10 -16 ) or 18 hybridizations (r 2 = 0.62, pvalue = 2.59x10 -30 ). In fact, two hybridizations of P1 (P1E1, P1E2) were sequenced to an average depth of 18 million reads, while all other hybridizations had an average depth of 3 million reads (Figure <ref type="figure" target="#fig_2">3C</ref>). This very deep sequencing, in P1E1 and P1E2, led to a point where the library complexity was exhausted, leading to the sequencing of a high number of PCR duplicates (Supporting Information Figure <ref type="figure" target="#fig_2">S3A</ref>, S3B and Table <ref type="table">S5</ref>). We therefore reduced subsequent sequencing efforts, as discussed in section "Optimization of required production reads", for the remaining replicate hybridizations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved</p><p>All capture performance summary statistics (Supporting Information Table <ref type="table">S4</ref>), to the exception of capture specificity (CSp), are strongly correlated with the number of production reads acquired (median correlation coefficient = 0.422, CI = 0.03 to 0.93; Supporting information Figure <ref type="figure" target="#fig_4">S5A</ref>, Table <ref type="table">S6</ref>). Given this, and also because of the distinct difference in the number of production reads between P1E1 and P1E2 and all other hybridizations we down-sampled all experiments to 1.5 million production reads, retaining only those 274 sample/hybridization experiments with 1.5 million production reads, and re-estimated all capture performance summary statistics (Supporting Information Figure <ref type="figure" target="#fig_4">S5B</ref>, Table <ref type="table">S7</ref> and<ref type="table">S8</ref>). The effect each experimental variable has on performance was estimated in a univariate linear model after rank normal transforming each summary statistic (Figure <ref type="figure" target="#fig_3">4A</ref>). We observed a near uniformity in the variance explained by each experimental variable across each performance statistics. In short, the average, ranked order of variance explained by each explanatory variable are sample (86.50%), hybridization (38.72%), sequencing batch (28.78%), site (20.5%), pool (13%), % endogenous DNA (11%), subspecies (8.85%), starting DNA amount (7.35%), endogenous DNA concentration (5.14%), average fragmentation size (2.12%,), and total DNA concentration (2.07%). Given these observations we may conclude that variation in hybridization and sequencing are crucial to performance. However, sample quality and starting material varies among our hybridizations and sequencing batches. These tendencies can be observed in Figure <ref type="figure" target="#fig_4">5A-C</ref>. We account for this in a multivariate linear model followed by a decomposition of the variance in a type I hierarchical analysis of variance (ANOVA). To do so we fit a linear model ordered by experimental choices, as described in materials and methods, to explain Capture Sensitivity (CS) at DP1 which is being used here as an example of capture performance. This model indicates that hybridization explains, on average, an attenuated 17.80% of the variation in performance, followed by percent endogenous content (17.11%), site (9.62%), subspecies (9.26%), pool (3.92%) and then the amount of DNA in the hybridization (3.58 %) (Figure <ref type="figure" target="#fig_3">4B</ref>).</p><p>Results for all other performance summary statistics mirror those for CS at DP1 and can be seen in Figure <ref type="figure" target="#fig_5">S6</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Relevance of Equi-Endogenous Pools</head><p>The observations of Hernandez-Rodriguez et al. and White et al. suggest that pooling libraries by eDNA concentration (in equi-endogenous pools) prior to hybridization capture should reduce or remove the effect of variation in eDNA across samples on targeted capture sequencing performance. Indeed, eDNA did not have a major influence on production reads or on-target reads, although a slightly positive trend can be observed in some hybridizations of P2 (Supporting Information Figure <ref type="figure">S7</ref>). Without equi-endogenous pooling, it is expected that samples with higher eDNA would accumulate more on-target reads than other samples with lower eDNA as observed by Hernandez-Rodriguez et al.</p><p>(2018). The reason why in P2 we find some outliers might be traced to both pipetting variations and inaccurate endogenous measurements from qPCR values due to the presence of inhibitors <ref type="bibr" target="#b30">(Morin et al., 2001)</ref>. Avoiding outliers is extremely important in limiting variability within a pool. For example, sample N183-5 accumulated 29.4% of total raw reads in P2, when a value 5% (1/20 of 100%) was expected (Supporting Information Figure <ref type="figure">S8</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Impact of Amount of Starting DNA for Capture on Library Complexity</head><p>One major decision when performing capture experiments is the amount of starting DNA in the pool. In twelve hybridizations we used the manufacturer's suggested amount of starting material, 1 µg for each pool. For the last two hybridizations of each pool (a total of six hybridizations) we doubled the starting material, up to 2 µg of pooled libraries (Table <ref type="table" target="#tab_2">1</ref>). With this approach we aimed to test the effect on the final LC when doubling the amount of DNA and to determine how much DNA should be used for fecal capture experiments. We observed an average increase of 2.8-fold in LC for experiments using 2 µg of total DNA in the hybridization relative to those using 1 µg (Supporting Information Figure <ref type="figure" target="#fig_2">S3B</ref>). However, given that production reads also vary between these two conditions, we down-sampled the data to 1,500,000 reads per library. After this correction we still observed 2-fold higher LC when starting the experiments with 2 µg of total DNA in all pools (Figure <ref type="figure" target="#fig_4">5D</ref>).</p><p>Molecular complexity, as influenced by the amount total DNA in a hybridization, was further investigated by evaluating the relationship between MC and production reads in a</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved MC curve analysis. The MC curve for each hybridization was obtained by subsampling without replacement their reads. The results supported the conclusion above: increasing the amount of total DNA in the hybridization increased the MC (Supporting Information Figure <ref type="figure">S9</ref>). Therefore, whenever there is sufficient library available, it is advisable to start with 2 µg rather than 1 µg.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Molecular Complexity and Capture Sensitivity</head><p>One of the critical aspects to increase coverage is to acquire as many unique on-target reads as possible without exhausting the library's molecular complexity. We applied a subsampling without replacement method to assess how many mapped reads are unique after incrementally adding production reads from replicate hybridizations. In principle, molecular complexity curves that plateau quickly are derived from low complexity libraries, and conversely high complexity libraries may not reach plateau. Thereby the plateau indicates when there are no new unique reads to be sampled or sequenced (see Supporting Information Figure <ref type="figure" target="#fig_3">S4</ref> for a schematic representation).</p><p>We performed the analysis of molecular complexity in libraries belonging to P3 since more hybridization replicates were available (8 in total) for 30 libraries. We found that for the majority of the libraries, performing additional hybridizations increased the number of unique reads retrieved (Supporting Information Figure <ref type="figure" target="#fig_0">S10</ref>, example library N259-5).</p><p>However, there were libraries that quickly hit exhaustion where performing additional hybridizations would add little extra information (Supporting Information Figure <ref type="figure" target="#fig_0">S10</ref>, example library Kay2-32). Overall, by performing additional hybridizations, it was possible to retrieve new unique reads and thus increase the final coverage (Figure <ref type="figure" target="#fig_5">6A</ref>), because libraries themselves were not exhausted but merely their hybridization-captured molecules reached exhaustion.</p><p>Following the same strategy, we calculated the sensitivity in P1, P2 and P3 (4, 6 and 8 replicates respectively). After cumulatively adding data from replicate hybridizations we covered 85.57% in P1 (95% CI: 74.78-96.36%), 76.23% in P2 (95% CI: 64.55-87.91%) and 79.83% in P3 (95% CI: 74.44-85.22%) on average of the target space, with at least 1 read (Supporting Information Figure <ref type="figure" target="#fig_0">S11</ref>). Interestingly, no sample covered 100% of target space. Looking carefully into this, we observed that precisely the same 3,804</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved regions (1.54%) were never covered in any replicate hybridizations, suggesting that some regions are either difficult to capture <ref type="bibr">(Kong, Lee, Liu, Hirschhorn, &amp; Mandl, 2018)</ref> or are too divergent between Homo and Pan to either capture or map these particular sequences (Supporting Information Figure <ref type="figure" target="#fig_1">S12</ref>).</p><p>For deeper coverage of at least 4 or 10 reads, we still observed a positive progression, with each additional hybridization increasing coverage, indicating that additional hybridizations would result in an increase of the proportion of the genome covered at these depths as well (Supporting Information Figure <ref type="figure" target="#fig_0">S11</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Optimization of Required Production Reads</head><p>Assessing the amount of sequencing needed is one of the major decisions when planning an experiment. As a result of the low eDNA content of most fecal samples, derived libraries can easily reach saturation (i.e., high levels of duplicated reads).</p><p>Therefore, sequencing depth should be carefully calculated. Without previous knowledge, we sequenced the first 2 hybridizations for P1, the first 4 hybridizations for P2, and the first 6 hybridizations for P3 in three lanes of a HiSeq 4000. For P1 only ~6% and for P2 and P3 only ~13% of production reads were unique reads (Supporting Information Table <ref type="table">S5</ref>), indicative of high levels of PCR duplicates due to library exhaustion. To avoid oversequencing in our next experiments, we set an arbitrary threshold to recover approximately 20% of the "informative" data (unique reads) available in a hybridization experiment. This 20% threshold was chosen to maximize the output cost ratio given the diminishing returns on further sequencing (Figure <ref type="figure" target="#fig_2">S13</ref>). Using the data from SeqBatch 1 and 2, we estimated that on average, for samples with less than 1% eDNA, we would sequence at most 2 million mapped reads per library (Figure <ref type="figure" target="#fig_2">S13</ref>). Given that 80% of reads mapped to the genome in these experiments, we estimated that we would need to sequence at most 2.5 million production reads per library (Supporting Information Table <ref type="table">S5</ref>).</p><p>To test these estimates, we sequenced the remaining hybridizations (P1E3, P1E4, P2E5, P2E6, P3E7, P3E8) in three-fourths of a HiSeq 4000 lane. The number of average production reads obtained were 3.5, 2.0 and 1.5 million for libraries in hybridizations from P1, P2, and P3, respectively. On average ~38% (range: 8.09-50.81%) of reads were</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved unique reads in all pools (Supporting Information Figure <ref type="figure" target="#fig_3">S14</ref>). We note that these values exceeded what we observed in the previous hybridization experiments. An outcome we attribute to the increase in starting material (2 µg), also used in these experiments, as noted above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pooling Strategy</head><p>Choosing how many samples to pool is a difficult decision, since little is known on how the pool size will affect the final molecular complexity. Taking advantage of our pooling strategy (Figure <ref type="figure" target="#fig_1">2</ref>), we assessed the effect of size on the average library complexity for all samples within each hybridization with a subsampling without replacement strategy.</p><p>When only a single hybridization was performed, a single library within a pool of 10, 20 or 30 would, on average, result in a similar number of unique molecules (Figure <ref type="figure" target="#fig_5">6B</ref>, Supporting Information Figure <ref type="figure" target="#fig_4">S15</ref>). However, there is a tendency for samples in smaller pools (P1) to perform better than those in larger pools. This could be explained by our experimental design, where samples with higher eDNA content are in smaller pools.</p><p>However, let us address this possibility here. Using CS as an example summary statistic, we observed that CS is higher for pools with smaller numbers of samples in them (Figure <ref type="figure" target="#fig_4">5C</ref>). Given median estimates, a pool of 10 libraries (median CS = 0.46) had 1.44-fold higher CS than a pool of 20 libraries (median CS = 0.32), and 1.92-fold higher than a pool of 30 libraries (median CS = 0.24). Between a pool of 20 and a pool of 30, the ratio was 1.33-fold (Figure <ref type="figure" target="#fig_4">5C</ref> and Supporting Information Figure <ref type="figure" target="#fig_5">S16</ref>). If we remove the effect of having a variable number of production reads across experiments by down-sampling, this observation still remains (Supporting Information Figure <ref type="figure" target="#fig_0">S17</ref>). That is, smaller pools do have higher CS estimates, and pools linearly account for 18% of the variation in CS (univariate ANOVA, p-value=3.47x10 -12 (Figure <ref type="figure" target="#fig_3">4A</ref>)). Finally, if we correct for all experimental variables with a multivariate analysis, as done above, we show that 'Pool' only accounts for 4% of the variation in CS (Figure <ref type="figure" target="#fig_3">4B</ref>), but the effect of pool size remains significant (multivariate ANOVA, p-value = 2.7x10 -4 ; Supporting Information Figure <ref type="figure" target="#fig_0">S17</ref>). However, this effect on CS attenuates with additional hybridizations (4, 6 and 8, for P1, P2 and P3 respectively) for the same pool (Supporting Information Figure <ref type="figure" target="#fig_0">S18</ref>). Moreover, a similar outcome can be observed when comparing the effect of pool</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved size on LC. After sequentially adding data from replicate hybridizations in each pool (see Supporting Information Figure <ref type="figure" target="#fig_3">S4</ref> for a schematic representation), we can acquire the same number of unique reliable reads (Figure <ref type="figure" target="#fig_5">6C</ref>, Supporting Information S17).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Capturing host DNA from fecal samples is a challenging endeavor. Previous work has</p><p>shown that the retrieval of genomic data from fecal samples by target enrichment methodologies is a feasible and powerful tool for conservation and evolutionary studies <ref type="bibr" target="#b35">(Perry, 2014;</ref><ref type="bibr" target="#b45">Snyder-Mackler et al., 2016)</ref>. However, obtaining good quality and quantity DNA from fecal samples is not always possible. Because of that, many studies have characterized the technical difficulties of capturing DNA from non-invasive samples and proposed different strategies <ref type="bibr" target="#b17">(Hernandez-Rodriguez et al., 2018;</ref><ref type="bibr" target="#b51">van der Valk et al., 2017;</ref><ref type="bibr">White et al., 2019)</ref>. <ref type="bibr" target="#b51">Van der Valk et al. (2017)</ref> captured the whole mitochondrial genome but no autosomal regions, and describe the biases introduced during capture such as DNA fragment size, jumping PCR and divergence between bait and target species. The study performed by Hernandez-Rodriguez et al. ( <ref type="formula">2018</ref>) systematically analyzed the capture performance and library complexity. While they described that pooling different libraries into the same hybridization is feasible, they did not discuss how many of them should be pooled. Also, they concluded that performing multiple libraries from the same extract or even from different extracts from the same sample can increase the final complexity. Finally, they recommended performing two capture rounds for the same library. On the other hand, <ref type="bibr">White et al. (2019)</ref> suggested to do only one capture round, at least when eDNA is higher than 2-3%, stressing the importance of pooling libraries as well as taking into consideration the eDNA content, as first proposed by Hernandez-Rodriguez et al.</p><p>The present study addresses these gaps left unexplored by the previous studies. We focused our analysis on a representative set of samples with very low proportions of endogenous content (&lt; 1%) as are often found in the field. After screening 302 samples, we found that up to 70% of samples are below this threshold, similar to what was already described <ref type="bibr">(White et al., 2019)</ref>. Hence, if time and economic reasons hinder the ability to collect and select the best samples, the only available one(s) might have low eDNA. This</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved may be a common situation when using historical samples, aiming for a large sample size, or if an interesting sampling location is particularly challenging in terms of low eDNA (such as Campo Ma'an, Figure <ref type="figure" target="#fig_0">1B</ref>).</p><p>For these reasons, it is of utmost importance to characterize ways to maximize the amount of data to be recovered from these types of samples. In this regard, we have extensively evaluated how to increase library complexity without doing more extractions or library preparations from the same sample, how many libraries to pool together, and how much starting amount of DNA should be used in a capture, as well as the impact of endogenous content for pooling.</p><p>Consistent with previous findings <ref type="bibr" target="#b17">(Hernandez-Rodriguez et al., 2018;</ref><ref type="bibr">White et al., 2019)</ref>, we determined that assessing the endogenous content of fecal samples and pooling them equi-endogenously is a practical way to equally distribute raw reads between samples. Importantly, the correct estimation of the proportion of eDNA is key for the success of this method. Thus, we recommend the usage of shotgun sequencing <ref type="bibr" target="#b17">(Hernandez-Rodriguez et al., 2018)</ref> rather than qPCR estimates, since the later can easily fluctuate due to the presence of inhibitors <ref type="bibr" target="#b30">(Morin et al., 2001)</ref>.</p><p>In regard to the performance of target capture sequencing experiments, gaining new unique reads is crucial to reach higher sensitivity, which is a good predictor of capture success. Here, we have established an approach to obtain new unique reads using the same prepared libraries. Since it is mainly during capture experiments when the molecular diversity is reduced, we propose to perform additional hybridizations from the same library so the final coverage can reach higher values. If the library complexity is already very low, the only solution is to re-extract DNA or prepare a new library from the same sample <ref type="bibr" target="#b17">(Hernandez-Rodriguez et al., 2018)</ref>.</p><p>We observed a better performance (MC and CS) in small pools, when evaluating initial results derived from the entire dataset. However, after correcting for other variables that differ among pools, the effect is attenuated and can only explain ~4% of the variance, an effect that may be largely negligible for most studies. Moreover, performing additional hybridizations can also compensate for this effect. Therefore, we do not conclude, based on this data, that pool size is a major contributor to performance. However, in cases where libraries have small proportions of eDNA, we would advocate for the reduction of the number of samples per pool so that pipetting volumes may remain larger, and as a</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved consequence variability due to pipetting error may be reduced. Otherwise when the eDNA proportion is not a limiting factor, pooling more libraries together and performing additional hybridizations can be a good strategy.</p><p>It is worth noting that without taking into consideration individual sample quality and the amount of starting material used, one of the most influential variables on the performance of target capture enrichment experiments is the hybridization experiment itself. After accounting for all other variables, it still explains 18% of the variation. This is due to the technical complexity and variability inherent to these experiments. Careful equipment optimization, material selection, preparation and experience will aid in minimizing this variation, although it is likely to remain a sensitive experiment that requires diligence.</p><p>Finally, we have illustrated that a sequencing effort of exome-captured fecal samples with low eDNA (&lt; 1%) should be set at ~3 million reads per library in a pool to avoid exhausting the molecular complexity. We have benefited from the usage of doublebarcoded and double-indexed libraries to multiplex many samples in a single sequencing lane. This becomes a great advantage because we can utilize high throughput sequencing technologies at a lower price per read.</p><p>To summarize, when starting a project involving fecal samples, we recommend screening your set of samples based on quantity and quality of the DNA extracted. If having related or identical individuals in the study should be avoided, microsatellite genotyping could be an option, helping as well to discard samples with high amount of PCR inhibitors. Further selection of samples should be based on the proportion of eDNA; we recommend using shotgun sequencing from the prepared libraries. Performing re-extractions of the most valuable samples and preparing replicate libraries from each extract can help increase the final molecular complexity. As we have shown here, another approach to achieve higher molecular complexity is based on conducting additional hybridizations of the captured libraries, always pooling libraries in an equi-endogenous manner, and starting with more library material than the standard protocol suggests. Finally, we suggest not sequencing the captured libraries very deeply, since their molecular complexity is already very low and over-sequencing can result in rapidly depleting the economic feasibility of the experiment.</p><p>In the study presented here we have thoroughly explored approaches to increase the molecular diversity and capture sensitivity and hence the final coverage of exome</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved captured fecal samples with extremely low endogenous content in an attempt to help laboratories facing the challenges of working with non-invasive samples.  We performed two primary pools of 2 g and 4 g each that were further divided into four hybridization pools, two at 1 g and two at 2 g. P2 has 20 libraries with average endogenous of 0.69%. Two primary pools of 4 g were divided into four hybridization pools of 1 g each and two hybridizations pools of 2 g. P3 has 30 libraries and an average endogenous of 0.49%. Two primary pools of 6 g and 4 g were distributed into six hybridization pools of 1g and two hybridization pools of 2 g each. Colors represent the sequencing batch.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved colors illustrate sequencing batch. (d) Library complexity contrasting the amount of starting DNA</p><p>(1 g or 2 g) in down-sampled data and structured by pools (P1=Pool1, P2=Pool2, P3=Pool3).</p><p>See Figure <ref type="figure" target="#fig_1">2</ref> for more details on pools. In the boxplots, lower and upper hinges correspond to first and third quartiles and the lower and upper whiskers extend to the smallest or largest value no further than 1.5 times the interquartile range (distance between the 1 st and 3 rd quartile).       </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Boe</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 1 .</head><label>1</label><figDesc>FIGURE 1. Sample description. (a) Geographical location of the 15 sites from the Pan African Programme: The Cultured Chimpanzee (PanAf). (b) Endogenous DNA (eDNA) content for all screened samples according to geographic origin. The maximum value of the x-axis has been setto 10% eDNA for visual purposes. (c) eDNA distribution for all screened samples. Samples with &gt; 10% eDNA are excluded (N=5). In the boxplot, lower and upper hinges correspond to first and third quartiles and the lower and upper whiskers extend to the smallest or largest value no further than 1.5 times the interquartile range (distance between the 1 st and 3 rd quartile).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 2 .</head><label>2</label><figDesc>FIGURE 2. Pooling strategy illustration. P1 has 10 libraries with average endogenous of 0.81%.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIGURE 3 .</head><label>3</label><figDesc>FIGURE 3. Capture performance and sequencing. (a) Percentage of eDNA among hybridizations, structured by pools (P1, P2 and P3). (b) Sequencing stats across all samples for the 18 hybridizations in 3,75 HiSeq 4000 lanes. (c) Distribution of production reads across 18 hybridizations. The colors red, blue and yellow found in the box plots for figure (a) and (c) denotethe sequencing batch to which each hybridization was assigned. In the boxplots, lower and upper hinges correspond to first and third quartiles and the lower and upper whiskers extend to the smallest or largest value no further than 1.5 times the interquartile range (distance between the 1 st and 3 rd quartile).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIGURE 4 .</head><label>4</label><figDesc>FIGURE 4. Analysis of variance. (a) Estimated variance explained from univariate linear models after rank normal transforming each performance summary statistic (columns). LC stands for library complexity and DP describes read depth at different cutoffs (1, 4, 10, 20 and 50 reads) (b) Multivariate type I ANOVA of the experimental variables affecting Capture Sensitivity (CS) at depth 1. Both models are built down-sampling libraries to 1,500,000 reads.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIGURE 5 .</head><label>5</label><figDesc>FIGURE 5. Summary stats after down-sampling to 1,500,000 reads: (a) Enrichment factor and (d) Capture Specificity (c) Capture Sensitivity at depth 1 for the 18 hybridizations in P1, P2 and P3;</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>FIGURE 6 .</head><label>6</label><figDesc>FIGURE 6. Analysis of coverage and LC with hybridizations done with 1 µg. (a) Coverage after merging data from additional hybridizations with up to 2, 4 and 6 for P1, P2 and P3. (b) Comparison of average LC curves of individual hybridizations belonging to pools with different size. Each line is the average of libraries within each hybridization and the surrounding area is the standard deviation. (c) Two examples comparing the effect of pool size on the average LC curves from merged hybridization: P1 (10 samples) -1 hybridization, P2 (20 samples) -2 hybridizations and P3 (30 samples) -3 hybridizations; and P1 (10 samples) -2 hybridizations, P2 (20 samples) -4 hybridizations and P3 (30 samples) -6 hybridizations. Sample Lib1-6D in P2 was removed from the analysis due to low coverage.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>This article is protected by copyright. All rights reserved protected by copyright. All rights reserved</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>protected by copyright. All rights reserved</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>article is protected by copyright. All rights reservedAccepted Article</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>using exome target regions provided by Agilent. In cases where we combined sequencing data, we merged filtered bam files from different hybridizations</figDesc><table><row><cell>using</cell><cell>MergeSamFiles</cell><cell>option</cell><cell>from</cell><cell>PicardTools</cell><cell>(version</cell><cell>1.95)</cell></row></table><note><p>(http://broadinstitute.github.io/picard/). Since the merged bam files can still contain</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE 1 .</head><label>1</label><figDesc>Pooling Strategy. Sixty libraries were divided into 3 pools for capture hybridization experiments in 4 replicates for P1, 6 replicates for P2 and 8 replicates for P3. Total DNA represents the starting material for each capture hybridization.</figDesc><table><row><cell>Pool Pool 1 (P1) Pool 2 (P2) Pool 3 (P3) Accepted Article</cell><cell>Average eDNA content (range) 0.81% (0.60% -0.85%) 0.69% (0.58% -0.80%) 0.49% (0.41% -0.66%)</cell><cell>Hybridization ID P1E1 P1E2 P1E3 P1E4 P2E1 P2E2 P2E3 P2E4 P2E5 P2E6 P3E1 P3E2</cell><cell>Number of pooled libraries 10 10 9 9 20 20 20 20 19 19 30 30</cell><cell>Total DNA 1 g 1 g 2 g 2 g 1 g 1 g 1 g 1 g 2 g 2 g 1 g 1 g</cell><cell>Sequencing Batch SeqBatch1 SeqBatch2 SeqBatch3 SeqBatch3 SeqBatch1 SeqBatch1 SeqBatch2 SeqBatch2 SeqBatch3 SeqBatch3 SeqBatch1 SeqBatch1</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We would like to thank <rs type="person">Linda Vigilant</rs>, <rs type="person">Christophe Boesch</rs> and <rs type="person">Marco Telford</rs> for helpful discussion and <rs type="person">Roland Schroeder</rs>, <rs type="person">Alan Riedel</rs> and <rs type="person">Katharina Madl</rs>, for guidance and assistance in the laboratory. We thank <rs type="person">Emmanuel Dilambaka</rs>, <rs type="person">Devla Dowd</rs>, <rs type="person">Annemarie Goedmakers</rs>, <rs type="person">Vincent Lapeyre</rs>, <rs type="person">Vera Leinert</rs>, <rs type="person">Mizuki Murai</rs>, <rs type="person">Emmanuelle Normand</rs>, <rs type="person">Robinson Orume</rs>, <rs type="person">Alexander Tickle</rs>, <rs type="person">Els Ton</rs>, <rs type="person">Joost van Schijndel</rs>, <rs type="person">Sergio Marrocoli</rs>, <rs type="person">Amelia Meier</rs>, <rs type="person">Volker Sommer</rs>, <rs type="person">Martijn Ter Heegde</rs>, <rs type="person">Nadege Wangue Njomen</rs>, <rs type="person">Joshua M Linder</rs>, <rs type="person">Hilde Vanleeuwe</rs>, <rs type="person">Jean Claude Dengui</rs>, <rs type="person">Paul Telfer</rs> and <rs type="person">Yasmin Moebius</rs> for assistance in field site coordination and sample collection. C.F. is supported by the <rs type="funder">"La Caixa" doctoral fellowship program</rs>. M.A.E. is supported by an <rs type="funder">FPI (Formación de Personal Investigador</rs>) <rs type="grantNumber">PRE2018-083966</rs> from <rs type="funder">Ministerio de Ciencia, Universidades e Investigación</rs>. The <rs type="funder">Pan African Programme</rs>: The <rs type="projectName">Cultured Chimpanzee (PanAf</rs>) is generously funded by the <rs type="funder">Max Planck Society</rs>, the <rs type="funder">Max Planck Society Innovation Fund</rs> and the <rs type="funder">Heinz L. Krekeler Foundation</rs>. E.L is supported by <rs type="grantNumber">CGL2017-82654-P</rs> (<rs type="funder">MINECO/FEDER</rs>,UE). M.K. is supported by <rs type="funder">"la Caixa" Foundation</rs> (<rs type="grantNumber">ID 100010434</rs>), fellowship code <rs type="grantNumber">LCF/BQ/PR19/11700002</rs>. T.M.-B is supported by funding from the <rs type="funder">European Research Council (ERC)</rs> under the <rs type="funder">European Union</rs>'s <rs type="programName">Horizon 2020 research and innovation programme</rs> (grant agreement No. <rs type="grantNumber">864203</rs>), <rs type="grantNumber">BFU2017-86471-P</rs> (<rs type="funder">MINECO/FEDER</rs>, UE), "<rs type="funder">Unidad de Excelencia María de Maeztu</rs>", funded by the <rs type="funder">AEI</rs> (<rs type="grantNumber">CEX2018-000792-M</rs>), <rs type="funder">Howard Hughes International Early Career, Obra Social "La Caixa</rs>" and <rs type="funder">Secretaria d'Universitats i Recerca</rs> and <rs type="funder">CERCA Programme del Departament d'Economia i Coneixement de la Generalitat de Catalunya</rs> (<rs type="grantNumber">GRC 2017 SGR 880</rs>). We thank the following government agencies for their support in conducting field research in their countries: <rs type="funder">Ministère de la Recherche Scientifique et de l'Innovation, Cameroon</rs>, <rs type="funder">Ministère des Forêts et de la Faune, Cameroon</rs>, <rs type="funder">Ministère des Eaux et Forêts</rs>, <rs type="funder">Cote d'Ivoire</rs>, <rs type="funder">Ministère de l'Enseignement Supérieur et de la Recherche Scientifique</rs>, <rs type="funder">Cote d'Ivoire</rs>, <rs type="funder">Agence Nationale des Parcs Nationaux</rs>, <rs type="funder">Gabon</rs>, <rs type="funder">Centre National de la Recherche Scientifique (CENAREST)</rs>, Gabon, <rs type="funder">Société Equatoriale</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_FhnnXkb">
+					<idno type="grant-number">PRE2018-083966</idno>
+				</org>
+				<org type="funded-project" xml:id="_E4UC6Yf">
+					<orgName type="project" subtype="full">Cultured Chimpanzee (PanAf</orgName>
+				</org>
+				<org type="funding" xml:id="_nrDycFe">
+					<idno type="grant-number">CGL2017-82654-P</idno>
+				</org>
+				<org type="funding" xml:id="_BuAdC2C">
+					<idno type="grant-number">ID 100010434</idno>
+				</org>
+				<org type="funding" xml:id="_yYnsJ9G">
+					<idno type="grant-number">LCF/BQ/PR19/11700002</idno>
+				</org>
+				<org type="funding" xml:id="_gEMxdqn">
+					<idno type="grant-number">864203</idno>
+					<orgName type="program" subtype="full">Horizon 2020 research and innovation programme</orgName>
+				</org>
+				<org type="funding" xml:id="_4aUcHJj">
+					<idno type="grant-number">BFU2017-86471-P</idno>
+				</org>
+				<org type="funding" xml:id="_Excpgxq">
+					<idno type="grant-number">CEX2018-000792-M</idno>
+				</org>
+				<org type="funding" xml:id="_t5ZNGsa">
+					<idno type="grant-number">GRC 2017 SGR 880</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Accessibility</head><p>All raw sequencing data have been deposited at ENA and are available under the accession code PRJEB37173 (<ref type="url" target="http://www.ebi.ac.uk/ena/data/view/PRJEB37173">http://www.ebi.ac.uk/ena/data/view/PRJEB37173</ref>).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accepted Article</head><p>This article is protected by copyright. All rights reserved Wedrowicz, F., Karsa, M., Mosse, J., &amp; Hogan, F. E. <ref type="bibr">(2013)</ref>. Reliable genotyping of the koala (Phascolarctos cinereus) using DNA isolated from a single faecal pellet.</p><p>Molecular Ecology Resources, 13(4), <ref type="bibr">634-641. doi: 10.1111/1755-0998.12101</ref> White, L. C., Fontsere, C., Lizano, E., Hughes, D. A., Angedakin, S., Arandjelovic, M., … <ref type="bibr">Vigilant, L. (2019)</ref>. A roadmap for high-throughput sequencing studies of wild animal populations using noninvasive samples and hybridization capture. Molecular Ecology <ref type="bibr">Resources, 19(3), 609-622. doi: 10.1111</ref><ref type="bibr">Resources, 19(3), 609-622. doi: 10. /1755-0998.12993 -0998.12993</ref> Xue, Y., Prado-Martinez, J., Sudmant, P. H., Narasimhan, V., Ayub, Q., Szpak, M., … <ref type="bibr">Scally, A. (2015)</ref>. Mountain gorilla genomes reveal the impact of long-term population decline and inbreeding. Science, 348( <ref type="formula">6231</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>Additional supporting information with extended methods and supplementary figures and tables can be found online in the Supporting information section at the end of the article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of Interest</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Two-step multiplex polymerase chain reaction improves the speed and accuracy of genotyping using DNA from noninvasive and museum samples</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arandjelovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Guschanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Thalmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Siedel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1755-0998.2008.02387.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="28" to="36" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Non-invasive genetic monitoring of wild central chimpanzees</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arandjelovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Head</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Rabanal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mettke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0014761</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">14761</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A global reference for human genetic variation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Auton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Abecasis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Altshuler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Durbin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Bentley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chakravarti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Schloss</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature15393</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">526</biblScope>
+			<biblScope unit="page" from="68" to="74" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Trimmomatic: A flexible trimmer for Illumina sequence data</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Bolger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lohse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Usadel</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btu170</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="2114" to="2120" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Effects of time and rainfall on PCR success using DNA extracted from deer fecal pellets</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Brinkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Person</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Hundertmark</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-009-9928-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1547" to="1552" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Targeted investigation of the neandertal genome by array-based Accepted Article This article is protected by copyright. All rights reserved sequence capture</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Burbano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hodges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Briggs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krause</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pääbo</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1188046</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">328</biblScope>
+			<biblScope unit="page" from="723" to="725" />
+			<date type="published" when="2010">2010. 5979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Single-tube library preparation for degraded DNA</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carøe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gopalakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vinner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S T</forename><surname>Mak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H S</forename><surname>Sinding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Samaniego</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T P</forename><surname>Gilbert</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/2041-210X.12871</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="410" to="419" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Pulling out the 1%: Whole-Genome capture for the targeted enrichment of ancient dna sequencing libraries</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Buenrostro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Valdiosera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schroeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Allentoft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sikora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Bustamante</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ajhg.2013.10.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Human Genetics</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="852" to="864" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Performance of marker-based relatedness estimators in natural populations of outbred vertebrates</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Csilléry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Beraldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Clutton-Brock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Coltman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pemberton</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.106.057331</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="2091" to="2101" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Comparing opportunistic and systematic sampling methods for non-invasive genetic monitoring of a small translocated brown bear population</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Barba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Genovesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Randi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chirichella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cetto</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2664.2009.01752.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Ecology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="172" to="181" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Chimpanzee genomic diversity reveals ancient admixture with bonobos</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Manuel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuhlwilm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frandsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Desai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Prado-Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marques-Bonet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aag2602</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">354</biblScope>
+			<biblScope unit="issue">6311</biblScope>
+			<biblScope unit="page" from="477" to="481" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Genetic non-invasive sampling (gNIS) as a costeffective tool for monitoring elusive small mammals</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sabino-Marques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barbosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Encarnação</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Alpizar-Jara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10344-018-1188-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Distribution of haplotypes and microsatellite alleles among Asian elephants (Elephas maximus) in Thailand</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fickel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lieckfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ratanakorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pitra</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10344-007-0099-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="298" to="303" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Evidence for a Complex Demographic History of Chimpanzees</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Wiebe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pääbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Przeworski</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/msh083</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Biology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="799" to="808" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A multi-Accepted Article This article is protected by copyright. All rights reserved samples, multi-extracts approach for microsatellite analysis of faecal samples in an arboreal ape</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chikhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Utami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>De Ruiter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/A:1026535006318</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="157" to="162" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Long-read sequence assembly of the gorilla genome</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huddleston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J P</forename><surname>Chaisson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">N</forename><surname>Kronenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Munson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Eichler</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aae0344</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">352</biblScope>
+			<biblScope unit="issue">6281</biblScope>
+			<biblScope unit="page">344</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Persistence of Black-Tailed Deer Fecal Pellets in Coastal Habitats</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Harestad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Bunnell</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/3801624</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">33</biblScope>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The impact of endogenous content, replicates and pooling on genome capture from faecal samples</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hernandez-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arandjelovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>De Filippo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Weihmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Marques-Bonet</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1755-0998.12728</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="319" to="333" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Gut microbiomes of wild great apes fluctuate seasonally in response to diet</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Hicks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Couto-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sinha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-018-04204-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">1786</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Male genetic structure and paternity in western lowland gorillas (Gorilla gorilla gorilla)</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Akomo-Okoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Iwata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Judai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fujita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yamagiwa</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ajpa.22312</idno>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Physical Anthropology</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="583" to="588" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Long-term persistence of horse fecal DNA in the environment makes equids particularly good candidates for noninvasive sampling</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R B</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Schoenecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Fike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Oyler-Mccance</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ece3.3956</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="4053" to="4064" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Double indexing overcomes inaccuracies in multiplex sequencing on the Illumina platform</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kircher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sawyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">;</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hirschhorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Mandl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/gim.2018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1617" to="1626" />
+			<date type="published" when="2012">2012. 2018</date>
+		</imprint>
+	</monogr>
+	<note>Genetics in Medicine</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Human impact erodes chimpanzee behavioral diversity</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kühl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kulik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arandjelovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dieguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Kalan</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aau4532</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="issue">6434</biblScope>
+			<biblScope unit="page" from="1453" to="1455" />
+			<date type="published" when="2019">2019</date>
+			<pubPlace>New York, N.Y.</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Article This article is protected by copyright. All rights reserved</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Recent genetic connectivity and clinal variation in chimpanzees</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Lester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gratton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Mccarthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Barratt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dieguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Arandjelovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>In review</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Fast and accurate short read alignment with Burrows-Wheeler transform</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Durbin</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btp324</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="1754" to="1760" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The Sequence Alignment/Map format and SAMtools</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Handsaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wysoker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fennell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Homer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Durbin</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btp352</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="2078" to="2079" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Comparative and demographic analysis of orang-utan genomes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Locke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Hillier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Worley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Nazareth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Muzny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature09687</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">469</biblScope>
+			<biblScope unit="issue">7331</biblScope>
+			<biblScope unit="page" from="529" to="533" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Multiplexed DNA sequence capture of mitochondrial genomes using PCR products</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maricic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Whitten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pääbo</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0014004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">14004</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Non-invasive faecal sampling reveals spatial organization and improves measures of genetic diversity for the conservation assessment of territorial species: Caucasian lynx as a case species</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mengüllüoğlu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fickel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Förster</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0216549</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Initial sequence of the chimpanzee genome and comparison with the human genome</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Mikkelsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Hillier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Eichler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Zody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Jaffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Waterston</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature04072</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">437</biblScope>
+			<biblScope unit="issue">7055</biblScope>
+			<biblScope unit="page" from="69" to="87" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Quantitative PCR analysis of DNA from noninvasive samples fro accurate microsatellite genotyping of wild chimpanzees</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Chambers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="page" from="1835" to="1844" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Noninvasive sampling and DNA amplification for paternity exclusion, community structure, and phylogeography in wild chimpanzees</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wallis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Woodruff</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF02382630</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Primates</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="347" to="356" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Factors affecting the amount of genomic DNA extracted from ape faeces and the identification of an improved sample storage method</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Nsubuga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Robbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Roeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2004.02207.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>Accepted Article This article is protected by copyright. All rights reserved 2089-2094</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Cost-effective scatdetection dogs: Unleashing a powerful new tool for international mammalian conservation biology</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Orkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep34758</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">34758</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Conservation genetics in transition to conservation genomics</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Ouborg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pertoldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Loeschcke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Bijlsma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Hedrick</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tig.2010.01.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Genetics</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="177" to="187" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The Promise and Practicality of Population Genomics Research with Endangered Species</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Perry</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10764-013-9702-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Primatology</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="55" to="70" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Genomic-scale capture and sequencing of endogenous DNA from feces</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Perry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Marioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Melsted</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gilad</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2010.04888.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="5332" to="5344" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Great ape genetic diversity and population history</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Prado-Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Sudmant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Kidd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Kelley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lorente-Galdos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Marques-Bonet</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature12228</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">499</biblScope>
+			<biblScope unit="issue">7459</biblScope>
+			<biblScope unit="page" from="471" to="475" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">From conservation genetics to conservation genomics</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Primmer</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1749-6632.2009.04444.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of the New York Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">1162</biblScope>
+			<biblScope unit="page" from="357" to="368" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">BEDTools: A flexible suite of utilities for comparing genomic features</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Hall</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btq033</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="841" to="842" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">An optimized hair trap for noninvasive genetic studies of small cryptic mammals</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Reiners</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Encarnação</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Wolters</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10344-011-0543-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="991" to="995" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Cost-effective, high-throughput DNA sequencing libraries for multiplexed target capture</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rohland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Reich</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gr.128124.111</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Research</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="939" to="946" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Insights into hominid evolution from the gorilla genome sequence</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Scally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Dutheil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Hillier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Jordan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Goodhead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Herrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Durbin</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature10842</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">483</biblScope>
+			<biblScope unit="issue">7388</biblScope>
+			<biblScope unit="page" from="169" to="175" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Genetic monitoring as a promising Accepted Article This article is protected by copyright. All rights reserved tool for conservation and management</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tree.2006.08.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="25" to="33" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Genomics and the challenging translation into conservation practice</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Shafer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bergströ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Brä Nnströ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zielin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tree.2014.11.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology &amp; Evolution</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="78" to="87" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Efficient genome-wide sequencing and low-coverage pedigree analysis from noninvasively collected samples</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Snyder-Mackler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Majoros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Shaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Kopp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tung</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.116.187492</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">203</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="699" to="714" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Strategies for determining kinship in wild populations using genetic data</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Städele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ece3.2346</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="6107" to="6120" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Conservation Genomics of Threatened Animal Species</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Putnam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E A</forename><surname>Hoeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Ryder</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-animal-031412-103636</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Animal Biosciences</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="261" to="281" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Efficient, Noninvasive Genetic Sampling for Monitoring Reintroduced Wolves</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Stenglein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Ausband</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Mack</surname></persName>
+		</author>
+		<idno type="DOI">10.2193/2009-305</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1050" to="1058" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling: Look before you leap</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0169-5347(99)01637-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="323" to="327" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Unreliable mtDNA data due to nuclear insertions: A cautionary tale from analysis of humans and other great apes</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Thalmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hebler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Poinar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pääbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-294X.2003.02070</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="321" to="335" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Whole mitochondrial genome capture from faecal samples and museum-preserved specimens</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Der Valk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lona Durazo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dalén</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Guschanski</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1755-0998.12699</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="111" to="e121" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Using genetics to understand the dynamics of wild primate populations</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Guschanski</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10329-008-0124-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Primates</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="105" to="120" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

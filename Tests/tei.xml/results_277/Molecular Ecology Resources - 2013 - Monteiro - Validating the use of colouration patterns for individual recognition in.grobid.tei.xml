@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Validating the use of colouration patterns for individual recognition in the worm pipefish using a novel set of microsatellite markers</title>
+				<funder ref="#_mpVFgCy">
+					<orgName type="full">Portuguese Foundation for Science and Technology (Programa Ciência</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Portuguese Foundation for Science and Technology (FCT)</orgName>
+				</funder>
+				<funder ref="#_VWfbf7p">
+					<orgName type="full">R&amp;D</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Nuno</forename><forename type="middle">M</forename><surname>Monteiro</surname></persName>
+							<email>nmonteir@fc.up.pt</email>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">¶Departamento de Biologia</orgName>
+								<orgName type="department" key="dep2">FCUP</orgName>
+								<orgName type="department" key="dep3">Faculdade de Ciências da</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<addrLine>Rua do Campo Alegre</addrLine>
+									<postCode>4169-007</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">Texas A&amp;M University</orgName>
+								<address>
+									<addrLine>3258 TAMU</addrLine>
+									<postCode>77843</postCode>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">¶Departamento de Biologia</orgName>
+								<orgName type="department" key="dep2">FCUP</orgName>
+								<orgName type="department" key="dep3">Faculdade de Ciências da</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<addrLine>Rua do Campo Alegre</addrLine>
+									<postCode>4169-007</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">Texas A&amp;M University</orgName>
+								<address>
+									<addrLine>3258 TAMU</addrLine>
+									<postCode>77843</postCode>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">†</forename><forename type="middle">R M</forename><surname>Silva</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Cunha</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">¶Departamento de Biologia</orgName>
+								<orgName type="department" key="dep2">FCUP</orgName>
+								<orgName type="department" key="dep3">Faculdade de Ciências da</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<addrLine>Rua do Campo Alegre</addrLine>
+									<postCode>4169-007</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">Texas A&amp;M University</orgName>
+								<address>
+									<addrLine>3258 TAMU</addrLine>
+									<postCode>77843</postCode>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Antunes</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">¶</forename><forename type="middle">A G</forename><surname>Jones</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Centro de Investigação em Biodiversidade e Recursos Genéticos</orgName>
+								<address>
+									<addrLine>Rua Padre Armando Quintas</addrLine>
+									<postCode>4485-661</postCode>
+									<settlement>Vairão</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">†Faculdade de Ciências da Saúde</orgName>
+								<orgName type="department" key="dep2">CEBIMED</orgName>
+								<orgName type="institution">Universidade Fernando Pessoa</orgName>
+								<address>
+									<addrLine>Rua Carlos da Maia 296</addrLine>
+									<postCode>4200-150</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">‡Departamento de Clínicas Veterinárias</orgName>
+								<orgName type="department" key="dep2">Instituto Ciências Biomédicas</orgName>
+								<orgName type="laboratory">ICBAS</orgName>
+								<orgName type="institution">Abel Salazar da Universidade do Porto</orgName>
+								<address>
+									<addrLine>Rua de Jorge Viterbo Ferreira 228</addrLine>
+									<postCode>4050-313</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">§CIIMAR/CIMAR</orgName>
+								<orgName type="department" key="dep2">Centro Interdisciplinar de Investigac ßão Marinha e Ambiental</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<addrLine>Rua dos Bragas 289</addrLine>
+									<postCode>4050-123</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Validating the use of colouration patterns for individual recognition in the worm pipefish using a novel set of microsatellite markers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A17AB2A479B530A9FBFA5EA9BD37944A</idno>
+					<idno type="DOI">10.1111/1755-0998.12151</idno>
+					<note type="submission">Received 27 April 2013; revision received 13 June 2013; accepted 2 July 2013</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-27T13:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>colouration</term>
+					<term>individual identification</term>
+					<term>microsatellites</term>
+					<term>non-invasive sampling</term>
+					<term>skin swabs</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In studies of behaviour, ecology and evolution, identification of individual organisms can be an invaluable tool, capable of unravelling otherwise cryptic information regarding group structure, movement patterns, population size and mating strategies. The use of natural markings is arguably the least invasive method for identification. However, to be truly useful natural markings must be sufficiently variable to allow for unique identification, while being stable enough to permit long-term studies. Non-invasive marking techniques are especially important in fishes of the Family Syngnathidae (pipefishes, seahorses and seadragons), as many of these taxa are of conservation concern or used extensively in studies of sexual selection. Here, we assessed the reliability of natural markings as a character for individual identification in a wild population of Nerophis lumbriciformis by comparing results from natural markings to individual genetic assignments based on eight novel microsatellite loci. We also established a minimally invasive method based on epithelial cell swabbing to sample DNA. All pipefish used in the validation of natural markings, independently of sex or time between recaptures, were individually recognized through facial colouration patterns. Their identities were verified by the observation of the same multilocus genotype at every sampling event for each individual that was identified on the basis of natural markings. Successful recaptures of previously swabbed pipefish indicated that this process probably did not induce an elevated rate of mortality. Also, the recapture of newly pregnant males showed that swabbing did not affect reproductive behaviour.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Techniques for the identification of individual organisms have played an important role in research in ecology, evolution and behaviour. For instance, some of the most striking breakthroughs made by von <ref type="bibr" target="#b8">Frisch (1946)</ref>, who would ultimately share the Nobel Prize for his discoveries concerning the organization and elicitation of individual and social behaviour, were facilitated by his ability to identify individual honeybees by painting them with small dots of coloured paint. In the decades following Frisch, the use of artificial markings grew in popularity as an approach for individual identification in behavioural studies, but artificial marking techniques are not entirely free of shortcomings. For example, not all species are amenable to marking and some marks simply do not last long enough to be useful. However, many taxa possess natural markings that can be used for individual identification <ref type="bibr" target="#b32">(W€ ursig &amp; Jefferson 1990)</ref>, thus minimizing impacts on individual behaviour and welfare due to direct manipulation. One of the most iconic examples of the use of natural markings for individual recognition involves the identification of cetaceans through fin morphology and colouration (e.g. <ref type="bibr" target="#b11">Katona &amp; Whitehead 1981)</ref>. Related studies, involving numerous other taxa, have resulted in breakthroughs that would not have been possible without the use of natural markings for individual recognition (Mammals: <ref type="bibr" target="#b0">Anderson et al. 2007;</ref><ref type="bibr" target="#b2">Auger-Methe &amp; Whitehead 2007;</ref><ref type="bibr">Fish: Aoyama 2000;</ref><ref type="bibr" target="#b12">Kitchen-Wheeler 2010;</ref><ref type="bibr" target="#b15">Martin-Smith 2011;</ref><ref type="bibr" target="#b18">Monteiro et al. 2005;</ref><ref type="bibr">Reptiles: Schofield et al. 2008</ref>). An exhaustive compilation of the relevant bibliography on marking and tagging of aquatic animals, especially fish, was conducted by <ref type="bibr" target="#b8">Emery &amp; Wydoski (1987)</ref>.</p><p>Fishes of the Family Syngnathidae (pipefishes, seahorses and seadragons) have become important models for studies of behavioural ecology and conservation biology <ref type="bibr" target="#b16">(Mobley et al. 2011;</ref><ref type="bibr" target="#b24">Rosenqvist &amp; Berglund 2011;</ref><ref type="bibr" target="#b30">Vincent et al. 2011)</ref>, and both of these enterprises would benefit from methods for individual recognition. Natural markings have already proven to be useful for the identification of individuals in seadragons, Phyllopteryx taeniolatus (Martin-Smith 2011) and Phycodurus eques <ref type="bibr" target="#b6">(Connolly et al. 2002)</ref>, as well as in the pipefish Nerophis lumbriciformis <ref type="bibr" target="#b18">(Monteiro et al. 2005)</ref>. Some seahorse species, such as Hippocampus erectus <ref type="bibr" target="#b3">(Bergert &amp; Wainwright 1997)</ref>, also possess intricate facial markings, making them potential targets for the use of this type of methodology. The use of non-invasive marking techniques is especially important in syngnathid fishes as many taxa in this group are in critical need of basic life history data <ref type="bibr" target="#b31">(Whitfield 1995;</ref><ref type="bibr" target="#b7">Dias et al. 2002;</ref><ref type="bibr" target="#b20">Morgan &amp; Panes 2008)</ref> or used as models in studies focused on sexual selection and mating behaviour (e.g. <ref type="bibr" target="#b9">Jones &amp; Avise 1997;</ref><ref type="bibr" target="#b4">Berglund et al. 2006;</ref><ref type="bibr" target="#b28">Silva et al. 2009)</ref>. While some studies have already successfully marked syngnathids with artificial tags, such as necklaces, elastomer implants or electronic tags (see <ref type="bibr" target="#b5">Caldwell et al. 2011)</ref>, these techniques have the potential to disrupt behaviour or increase mortality and may not be possible for some species. Therefore, it seems reasonable to use natural markings whenever possible, especially considering the low invasiveness of such an approach. Although natural markings have undeniable potential, they also have limitations, and their use for individual recognition depends primarily on two main sets of conditions: (i) markings need to be sufficiently polymorphic to allow objective differentiation even between similar individuals <ref type="bibr" target="#b0">(Anderson et al. 2007</ref>) and (ii) markings need to be stable during an extended time period, or at least constant during the extent of a particular study. Even though the benefits of individual identification based on natural markings will usually outweigh the disadvantages, this technique should be rigorously verified for each focal species before it is put into widespread use.</p><p>Here, we assessed the reliability of natural markings as a character for individual identification in the worm pipefish Nerophis lumbriciformis based on unambiguous individual genetic assignments using eight newly described microsatellite loci. We successfully established a method based on gentle swabbing of epithelial cells along the fish's body surface to sample DNA in a minimally invasive fashion and compared the results based on our genetic markers to those obtained from comparisons of facial markings on field-captured individual worm pipefish.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Material and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sampling</head><p>Pipefish were sampled in the rocky intertidal of Viana do Castelo (41°41′58.85′′N, 8°51′21.60′′W) in northern Portugal. Sampling was performed monthly during spring tides (from September 2011 to September 2012) near the low water mark by inspecting the undersides of boulders where this pipefish typically occurs <ref type="bibr" target="#b17">(Monteiro et al. 2002)</ref>. Following <ref type="bibr" target="#b18">Monteiro et al. (2005)</ref>, each fish was immediately photographed for individual identification (macrodigital photographs using a Pentax Optio WG-1). Facial markings in N. lumbriciformis are asymmetric, so we photographed both sides of each individual's head to facilitate identification in cases where the colouration patterns on one side of the head were insufficient to objectively distinguish similar individuals of the same sex and approximate size. A full-body photograph was also taken in order to gather additional phenotypic information (e.g. sex and size).</p><p>Prior to the release of each fish to the spot where it was initially captured, we applied a marginally invasive but non-destructive method of sampling DNA from epithelial cells (similar to techniques described in <ref type="bibr" target="#b13">Le Vin et al. 2011;</ref><ref type="bibr" target="#b14">Martin-Galvez et al. 2011;</ref><ref type="bibr" target="#b22">Prunier et al. 2012)</ref>. Buccal swabs (Isohelix SK2) were used to smoothly swab the fish skin in the abdominal and tail area, thus avoiding the head (in order to prevent eye or opercular damage) and the genital papilla (thus avoiding faecal contamination). All the samples were submerged in 96% ethanol and transferred to the laboratory for storage at À20 °C.</p><p>Facial pattern comparison was based on visual inspection of the photographs. In order to identify a recapture event, we used information on sex and length and compared facial markings with photographs from previous sampling events (see examples of N. lumbriciformis facial pigmentation patterns in Fig. <ref type="figure" target="#fig_0">1</ref>). A total of six males and seven females, which had been successfully recaptured based on the photographic evidence, were selected for genotyping to validate genetically that they had indeed been recaptured. These 13 individuals were chosen to (i) include representatives of both sexes, as males and females differ in the amount of facial pigmentation <ref type="bibr" target="#b18">(Monteiro et al. 2005</ref>) and (ii) include recapture events that were temporally distant from the first sampling (up to 7 months) in order to confirm previous observations, indicating that facial patterns are stable across time <ref type="bibr" target="#b18">(Monteiro et al. 2005)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microsatellite development</head><p>Size-selected fragments from genomic DNA were enriched for microsatellite sequences using magnetic streptavidin beads and biotin-labelled CT, GT, GTAT and GATA repeat oligonucleotides. The enriched library was analysed on a Roche 454 platform using the GS FLX titanium reagents. The total 34 720 reads had an average length of 146 base pairs. Of these, 2059 contained a microsatellite insert with a tetra-or a trinucleotide of at least six repeat units or a dinucleotide of at least 10 repeat units. Suitable primer design was possible for 443 microsatellites, of which 27 were tested for polymorphism, and eight finally selected for pipefish genotyping.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extraction and amplification</head><p>Genomic DNA was extracted from swabs of 34 distinct individuals (20 males and 14 females) for the characterization of the novel microsatellites. These samples did not include the validation of recapture events. In the case of recaptures, we extracted DNA from the swabs obtained during the first capture as well as the swabs obtained during a later recapture event. The microsatellite genotypes obtained during recaptures were used to validate the visual identification process, but were not included in estimation of allele frequencies.</p><p>A commercial kit (Genomed JETquick) was used to extract DNA from the epithelial cells captured in each swab, following the manufacturer's instructions. Samples were amplified for eight microsatellites (Ner-lum_05025, Nerlum_16858, Nerlum_02383, Nerlum_ 07690, Nerlum_00750, Nerlum_06490, Nerlum_12901 and Nerlum_00629). All amplifications were performed in a 10 lL reaction volume containing 1 lL DNA, 1 lL (10X) PCR reaction buffer (Invitrogen), 1.5 mM MgCl 2 , 0.2 mM dNTP mix, 0.8 lM primer set, 0.8 mM fluorescently labelled tail (FAM) <ref type="bibr" target="#b27">(Schuelke 2000)</ref> and 0.1 U Platinum Taq DNA polymerase (Invitrogen). The PCR thermal profile used to amplify all the microsatellites began with an initial denaturation at 95 °C for 15 min, which was followed by 30 cycles of 95 °C for 30 s, 56 °C for 45 s and 72 °C for 45 s. The fluorescently labelled tail was incorporated during eight additional cycles (95 °C for 30 s, 53 °C for 45 s and 72 °C for 45 s), which were followed by a final extension step at 72 °C for 30 min. All PCRs were conducted on a Bio-Rad MyCycler ™ Thermal Cycler.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microsatellite analysis</head><p>Fragment analysis was performed on an ABI 3100 capillary sequencer (Applied Biosystems) using LIZ 75-450 as the size standard (Applied Biosystems). Peak Scanner Software v1.0 (Applied Biosystems) was used to score fragment size. GenAlEx v6.5 <ref type="bibr" target="#b21">(Peakall &amp; Smouse 2012)</ref> was used to assess allelic diversity, allelic frequency, observed (H obs ) and expected (H exp ) heterozygosity and probability of identity (P (ID) ), which reports the probability of two randomly sampled individuals from our data set having the same genotype. We tested for departures from Hardy-Weinberg equilibrium proportions (HWE) and genotypic linkage disequilibrium using Genepop <ref type="bibr" target="#b23">(Raymond &amp; Rousset 1995;</ref><ref type="bibr" target="#b25">Rousset 2008</ref>) and estimated null allele frequencies with Cervus 3.0 <ref type="bibr" target="#b10">(Kalinowski et al. 2007</ref>). To verify that recaptured individuals, based on visual assessment of facial markings, were indeed real recaptures, we compared the genotypes obtained from the first capture to those from later putative recaptures of the same individual. We used Microchecker to compare multilocus genotypes <ref type="bibr" target="#b29">(Van Oosterhout et al. 2004</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The selected method for DNA sampling, based on the gentle swabbing of the outer surface of the pipefish, proved to be a successful alternative to other more invasive techniques, such as fin clipping. All of the samples contained good-quality DNA, with no apparent signs of degradation, suitable for microsatellite genotyping. The swabbing process did not seem to produce any negative effects in the sampled pipefish as (i) we continued to recapture individuals showing normal behaviour with no apparent scars or infections (i.e. the DNA sampling process did not seem to increase mortality risk) and (ii) some of the recaptured males became pregnant shortly after our sampling, so they remained reproductively active and attractive to females.</p><p>All the studied loci proved to be polymorphic, showing between 7 and 19 alleles per locus in the focal population. Observed heterozygosity (H obs ) ranged from 0.706 to 0.853, while expected heterozygosity (H exp ) ranged from 0.690 to 0.857 (Table <ref type="table" target="#tab_0">1</ref>). None of the loci displayed a significant deviation from HW expectations (Table <ref type="table" target="#tab_0">1</ref>), and there was no evidence for significant linkage disequilibrium among the tested markers (only one of 28 pairwise tests was significant at a = 0.05; data not shown). Consequently, estimated null allele frequencies were very low (Table <ref type="table" target="#tab_0">1</ref>). The P (ID) for all loci combined was extremely low (9.0 9 10 À11 ). As a quality control mechanism, we repeated 15% of our PCR amplifications and found no changes in the observed genotypes.</p><p>All of the 13 pipefish used to test the validity of natural markings, regardless of sex or interval of time between recaptures, were easily recognizable through facial colouration patterns. In every case, these individuals with the same patterns of facial markings (see two examples in Fig. <ref type="figure" target="#fig_0">1</ref>) collected at different sampling times also showed identical multilocus genotypes, clearly indicating that they were indeed the same pipefish.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The worm pipefish displays a considerable number of spots, predominantly in the facial area, which form intricate patterns. <ref type="bibr" target="#b18">Monteiro et al. (2005)</ref> recognized that these extremely polymorphic patterns, acting much like a human fingerprint, could be used for individual recognition and, after a year of aquarium observations, decided that they were sufficiently stable for use in a natural population. This inexpensive and apparently precise methodology made it possible to demonstrate that the worm pipefish is not a permanent intertidal resident, but displays strong homing behaviour when it is present in the intertidal. Interestingly, one male was recaptured in virtually the same spot within the intertidal more than a year after its initial sighting <ref type="bibr" target="#b18">(Monteiro et al. 2005)</ref>. Moreover, a total of eleven pipefish (six males and five females) were recaptured in two consecutive breeding seasons <ref type="bibr" target="#b19">(Monteiro et al. 2006)</ref>, implying that facial markings tend to be stable across long time periods. However, an unequivocal validation of the facial-marking recognition process was never formally conducted. Here, we showed that facial markings are indeed sufficiently polymorphic to permit confident individual recognition, even for males, which typically bear less intricate patterns of pigmentation than females. It should be stressed, however, that the individual recognition technique we used is not entirely non-invasive, as it still depends on fish handling for photographic records. Even so, it is probably one of the least invasive alternatives available if we aim to gather information at the individual level.</p><p>To assess the reliability of pigmentation patterns for individual recognition, we developed a novel suite of microsatellite markers, which should be useful to address other questions related to the ecology and behaviour of this species. We also tested a relatively non-invasive DNA sampling technique. The swabbing technique we used appeared to be minimally invasive and could be performed quickly in concert with the photographs we took of each pipefish. As already verified for other taxa, namely birds <ref type="bibr" target="#b14">(Martin-Galvez et al. 2011;</ref><ref type="bibr" target="#b33">Yannic et al. 2011)</ref> and amphibians <ref type="bibr" target="#b22">(Prunier et al. 2012)</ref>, swabbing for DNA proved to be an extremely useful technique in worm pipefish. Most of the caveats associated with the quest for high-quality DNA, especially in fish (from behaviour to phenotype alterations), are elegantly described by <ref type="bibr" target="#b13">Le Vin et al. (2011)</ref>. In N. lumbriciformis, the use of body mucus swabbing provided enough goodquality DNA for the genotyping process without causing any observed infection or interfering with reproduction. In fact, the percentage of recaptures (number of recapture events divided by the number of captured adult individuals) obtained in this study (nearly 23%) was similar to that obtained 10 years ago (nearly 21%) when the same population was also monitored but without the use of swabs <ref type="bibr" target="#b18">(Monteiro et al. 2005)</ref>. Moreover, the frequent recapture of pregnant males indicated that swabbing did not affect normal reproductive behaviour in these individuals.</p><p>Although the primary use of the newly described microsatellites in this study was to validate the effectiveness of facial pigmentation patterns in individual identification, these two methodologies are far from mutually exclusive. In fact, both methodologies can, whenever possible, be used side-by-side, with obvious economical advantages. For instance, the use of natural markings, if properly validated, can be used for individual recognition, allowing for the monitoring of a group of individuals with minimal disturbance. The more expensive genetic fingerprinting can then be reserved for occasions   where an individual cannot easily be recognized on the basis of its natural markings (e.g. juveniles). Likewise, given the effectiveness of skin swabs, it seems sensible to suggest that, whenever feasible and especially for endangered species, fin clipping or any other more invasive DNA collection methodology could be replaced by this less invasive technique.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Two examples of successful Nerophis lumbriciformis recaptures (a male [M] and a female [L]), initially determined by the use of facial markings and later confirmed by microsatellite analysis, highlighting how pigmentation patterns are highly polymorphic (see left [L] and right [R] sides), and well conserved between capture events (time intervals depicted in the centre of the images).</figDesc><graphic coords="3,62.37,68.31,225.79,234.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>), Temperature of annealing; n, number of genotyped individuals; A, number of alleles; H (Exp) , Expected heterozygosity; H (Obs) , Observed heterozygosity; HWE, Hardy-Weinberg equilibrium proportions; NS, no significant departure from HWE. © 2013 John Wiley &amp; Sons Ltd 154 N . M . M O N T E I R O E T A L .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Summary data for eight microsatellite loci developed for Nerophis lumbriciformis</figDesc><table><row><cell></cell><cell>H (Exp)</cell></row><row><cell>Size range</cell><cell>(bp)</cell></row><row><cell></cell><cell>A</cell></row><row><cell></cell><cell>n</cell></row><row><cell>Ta</cell><cell>(°C)</cell></row><row><cell></cell><cell>Primer sequence (5′-3′)</cell></row><row><cell>Repeat</cell><cell>type</cell></row><row><cell>Locus</cell><cell>(accession no)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>17550998, 2014, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12151 by Portail BibCNRS INEE, Wiley Online Library on [25/05/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2013 John Wiley &amp; Sons Ltd</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>17550998, 2014, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12151 by Portail BibCNRS INEE, Wiley Online Library on [25/05/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>© 2013 John Wiley &amp; Sons Ltd 156 N . M . M O N T E I R O E T A L . 17550998, 2014, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12151 by Portail BibCNRS INEE, Wiley Online Library on [25/05/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This study was partially funded by the <rs type="funder">Portuguese Foundation for Science and Technology (FCT)</rs> through the <rs type="funder">R&amp;D</rs> project <rs type="grantNumber">PTDC/AAC-CLI/112936/2009</rs> (<rs type="grantNumber">FCOMP-01-0124-FEDER-014021</rs>). <rs type="person">N. Monteiro</rs> was funded by the <rs type="funder">Portuguese Foundation for Science and Technology (Programa Ciência</rs> 2009). The authors declare no conflict of interests and acknowledge the contribution of three anonymous referees.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_VWfbf7p">
+					<idno type="grant-number">PTDC/AAC-CLI/112936/2009</idno>
+				</org>
+				<org type="funding" xml:id="_mpVFgCy">
+					<idno type="grant-number">FCOMP-01-0124-FEDER-014021</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Accessibility</head><p>GenBank accession numbers: KF317541 to KF317548. Microsatellite data and facial images: DRYAD entry doi:10.5061/drya'd.7c04d.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>N.M. was responsible for experimental design and funding. M.C. and R.M.S. carried out the fieldwork and performed the technical work. N.M., M.C., R.M.S., A.A., M.N.V. and A.G.J. analysed the data and wrote the manuscript.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Can whisker spot patterns be used to identify individual polar bears</title>
+		<author>
+			<persName><forename type="first">Cjr</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Waterman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="333" to="339" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A method for the individual identification using the variation in the natural white linear markings on the abdomen of the cobitid fish Lefua sp</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aoyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Japanese Journal of Ichthyology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="61" to="65" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The use of natural markings in studies of long-finned pilot whales (Globicephala melas)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Auger-Methe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Whitehead</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Mammal Science</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="77" to="93" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Morphology and kinematics of prey capture in the syngnathid fishes Hippocampus erectus and Syngnathus floridae</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Bergert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Wainwright</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Biology</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="563" to="570" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Food or sexmales and females in a sex role reversed pipefish have different interests</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Berglund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rosenqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Robinson-Wolrath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Ecology and Sociobiology</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="281" to="287" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Advances in tagging syngnathids, with the effects of dummy tags on behaviour of Hippocampus guttulatus</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Caldwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Correia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Palma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vincent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Fish Biology</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1769" to="1785" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Patterns of movement and habitat use by leafy seadragons tracked ultrasonically</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Connolly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Melville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Preston</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Fish Biology</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="684" to="695" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Threatened fishes of the world: Hippocampus erectus Perry, 1810 (Syngnathidae)</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Dias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">L</forename><surname>Rosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Baum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Biology of Fishes</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="326" to="326" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Marking and Tagging of Aquatic Animals: An Indexed Bibliography. U.S. Dept. of the Interior</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Emery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R ;</forename><surname>Wydoski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Frisch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Austrian Zoological Journal</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="48" />
+			<date type="published" when="1946">1987. 1946</date>
+			<publisher>Fish and Wildlife Service</publisher>
+		</imprint>
+	</monogr>
+	<note>Die T€ anze der Bienen</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Microsatellite analysis of maternity and the mating system in the Gulf pipefish Syngnathus scovelli, a species with male pregnancy and sex-role reversal</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Avise</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="203" to="213" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Revising how the computer program CERVUS accommodates genotyping error increases success in paternity assignment</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Kalinowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Taper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Marshall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1099" to="1106" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Identifying Humpback Whales using their natural markings</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Katona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Whitehead</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polar Record</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="439" to="444" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Visual identification of individual manta ray (Manta alfredi) in the Maldives Islands, Western Indian Ocean</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kitchen-Wheeler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Biology Research</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="351" to="363" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Validation of swabs as a nondestructive and relatively non-invasive DNA sampling method in fish</title>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Vin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tedder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="107" to="109" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">DNA sampling from eggshell swabbing is widely applicable in wild bird populations as demonstrated in 23 species</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Martin-Galvez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Peralta-Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dawson</forename><forename type="middle">Da</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="481" to="493" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Photo-identification of individual weedy seadragons Phyllopteryx taeniolatus and its application in estimating population dynamics</title>
+		<author>
+			<persName><forename type="first">Martin-Smith</forename><surname>Km</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Fish Biology</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1757" to="1768" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The genetics and genomics of Syngnathidae: pipefishes, seahorses and seadragons</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Mobley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Small</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Fish Biology</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1624" to="1646" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Activity rhythms and cyclical changes of microhabitat preferences in the intertidal pipefish Nerophis lumbriciformis (Pisces: Syngnathidae)</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Monteiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vieira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Almada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta ethologica</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="39" to="43" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Homing behaviour and individual identification of the pipefish Nerophis lumbriciformis (Pisces: Syngnathidae): a true intertidal resident?</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Monteiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vieira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Almada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Estuarine Coastal And Shelf Science</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="93" to="99" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Reproductive migrations of the sex role reversed pipefish Nerophis lumbriciformis (Pisces; Syngnathidae)</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Monteiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Berglund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vieira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Almada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Fish Biology</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="66" to="74" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Threatened fishes of the world: Hippocampus spinosissimus Weber 1913 (Syngnathidae)</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Panes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Biology of Fishes</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="21" to="22" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">GenAlEx 6.5: genetic analysis in Excel. Population genetic software for teaching and research-an update</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2537" to="2539" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Skin swabbing as a new efficient DNA sampling technique in amphibians, and 14 new microsatellite markers in the alpine newt (Ichthyosaura alpestris)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Prunier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kaufmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Grolet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="524" to="531" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Genepop (version-1.2)population-genetics software for exact tests and ecumenicism</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raymond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rousset</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Heredity</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="248" to="249" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Sexual signals and mating patterns in Syngnathidae</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rosenqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Berglund</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Fish Biology</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1647" to="1661" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">GENEPOP &apos;007: a complete re-implementation of the GENEPOP software for Windows and Linux</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rousset</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="103" to="106" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Investigating the viability of photo-identification as an objective tool to study endangered sea turtle populations</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schofield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Katselidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dimopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pantis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Marine Biology and Ecology</title>
+		<imprint>
+			<biblScope unit="volume">360</biblScope>
+			<biblScope unit="page" from="103" to="108" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">An economic method for the fluorescent labeling of PCR fragments</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schuelke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Biotechnology</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="233" to="234" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Female reproductive tactics in a sex-role reversed pipefish: scanning for male quality and number</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Almada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Vieira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Monteiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Ecology</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="768" to="772" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">MICRO-CHECKER: software for identifying and correcting genotyping errors in microsatellite data</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Van Oosterhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dpm</forename><surname>Wills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shipley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="535" to="538" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Conservation and management of seahorses and other Syngnathidae</title>
+		<author>
+			<persName><forename type="first">Acj</forename><surname>Vincent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Koldewey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Fish Biology</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1681" to="1724" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Threatened fishes of the world: Hippocampus capensis Boulenger, 1900 (Syngnathidae)</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Whitfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Biology of Fishes</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="362" to="362" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Methods of photo-identification for small cetaceans</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>W€ Ursig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jefferson</forename><forename type="middle">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Reports of the International Whaling Commission</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="43" to="52" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Description of microsatellite markers and genotyping performances using feathers and buccal swabs for the Ivory gull (Pagophila eburnea)</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yannic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sermier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aebischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="877" to="889" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

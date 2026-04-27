@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">18BF7490968C08F7AF13F7599DD0B784</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-15T16:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2018, May</head><p>I found that team with Dr. Jeffrey Foster, who had just joined UNH that year. Thank you, for letting me join your team and introducing me to the research world. Working with you, Devon, Kevin, Katy, and my fellow undergraduate labmates over the past three years has taught me much more than how to extract DNA or run an agarose gel. You have all shared your experience, hard work, and jokes with me, from teaching me how to remain determined and patient through troubleshooting to how to be a good researcher. Devon, I cannot say thank you enough for all of time you have put towards this project, for your invaluable help in getting the DNA prepped, sequenced, analyzed, and making sure I understood every step.</p><p>I would like to extend my thanks to the Hamel Center for Undergraduate Research at UNH and benefactors for the REAP and SURF programs that made all of this possible. Also, a shout out to Northern Arizona University Genetics and Genomics Laboratory for your sequencing services.</p><p>I cannot thank all of you enough, but I can show you this thesis as a testament to the help and time you have given me.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ABSTRACT</head><p>The aim of this project is to utilize high-throughput molecular methods to investigate the diets of three non-native and one native Hawaiian bird species. Next-generation sequencing (NGS) has made it possible to produce thousands of sequencing reads of DNA in a relatively short amount of time. This metabarcoding technology has been used to identify a range of different taxa, from bacteria in the human gut to fungi in the soil. More recently, this approach has been used to identify insects in the diets of birds and other species, including bees and bats. Samples underwent genomic sequencing using a targeted approach of the cytochrome oxidase I (COI) gene, a region that is present in all insects. DNA was extracted from bird feces and stomach contents using protocols designed for fecal material and a genomic region was amplified by polymerase chain reaction (PCR) using universal COI primers. The resulting amplified sequences were compared to an online reference database of millions of insect sequences for taxonomic identification. Data were analyzed for diet variation within and between each species of bird, as well as were compared to arthropods sampled from areas where these birds were observed foraging. The results showed there were a large variety of insects and spiders consumed by birds. There was overlap of insect order between the species of birds, but when diets were examined at a species level, bird species were preying on different insects. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TABLE OF CONTENTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION AND RATIONALE</head><p>Next-generation sequencing has modernized scientific research within the last twenty years, allowing millions of copies of a gene fragment or entire genomes to be generated within a few days. Anything containing DNA can be sequenced, from an animal to a pathogen. This technology was first used to study human cancer, and has produced a wealth of new knowledge about the genetics of different cancers <ref type="bibr">(Reis-Filho 2008)</ref>. The new technologies reduced the cost of sequencing, to where it costs $1,000 to sequence the entire human genome instead of the $3 billion it took the Human Genome Project before this technology existed <ref type="bibr">(Reis-Filho 2008)</ref>.</p><p>Next-generation sequencing is now being applied to other facets of research, including dietary analysis of animal species. It is replacing traditional methods of taxonomy using a microscope to now rapidly identify subjects on a nucleotide level <ref type="bibr">(Clare et al. 2011, Behjati and</ref><ref type="bibr" target="#b0">Tarpey 2013)</ref>.</p><p>Microscope dissection requires considerable taxonomic expertise and also fragments that are large enough to be identified <ref type="bibr">(Ralph et al. 1988</ref>). This is not always possible due to the mechanical and chemical breakdown of food through the digestive system, resulting in a loss of sample <ref type="bibr" target="#b1">(Bohmann et al. 2011)</ref>. Although birds do not chew food due to their lack of teeth, the gizzard contains small rocks and sand that mechanically break down food particles when the gizzard contracts. However, DNA from ingested food survives the digestive system and is deposited in the feces at amounts sufficient to be extracted, analyzed, and identified <ref type="bibr" target="#b2">(Clare et al. 2011)</ref>.</p><p>The growth of NGS applications is concurrent with utilizing high-throughput amplicon sequencing (HTS), often referred to as metabarcoding. Combining NGS with HTS allow many samples to be run simultaneously, producing a high volume of results in a comparatively short amount of time when compared to single-sample procedures. HTS has been shown to be able to identify dietary components of a wide range of animals <ref type="bibr" target="#b13">(Lagisz et al. 2010</ref><ref type="bibr" target="#b11">, Jusino et al. 2017)</ref>.</p><p>The high-throughput method of sequencing DNA found in fecal pellets by <ref type="bibr" target="#b1">Bohmann et al. (2011)</ref>, paired with bioinformatics analyses, provided researchers enhanced insight into the diets of two species of African bats and the degree which the foraging habits of these aerial insect predators overlap. This method has been successfully used on insectivorous <ref type="bibr" target="#b4">(Crisol-Martínez et al. 2016</ref><ref type="bibr" target="#b17">, Trevelline et al. 2016</ref><ref type="bibr" target="#b10">, and Jedlicka et al. 2017)</ref>, piscivorous <ref type="bibr" target="#b5">(Deagle et al. 2007)</ref>, and carnivorous (Han and Oh 2018) bird species.</p><p>A molecular approach to studying diet samples will offer faster and more cost-effective method to identifying insect species than observing and identifying insect parts through a microscope, ideally without compromising accuracy of results, and may even be more accurate in identifying taxa. DNA was extracted from fecal samples and a specific locus was barcoded and amplified. Arthropods share a mitochondrial cytochrome oxidase C subunit I locus (COI), and which is most commonly used as primer annealing site in PCR amplification <ref type="bibr" target="#b11">(Jusino et al. 2017)</ref>. This would allow for the targeted replication of insect DNA and not the replication of other DNA in that sample, such as the host DNA, although some misamplification of host DNA does occur. There is an extensive reference library for the COI gene (<ref type="url" target="http://www.boldsystems.org">http://www.boldsystems.org</ref>), which makes it the chosen locus for insectivorous animal dietary studies <ref type="bibr" target="#b11">(Jusino et al. 2017)</ref>. A forward and reverse primer with complimentary bases to the COI gene binds to DNA in the fecal sample and amplifies thousands of copies. The indexing primers, allowing each sample to be labeled (i.e. barcoded), were derived from <ref type="bibr" target="#b12">Kozich et al. (2013)</ref> and were originally designed for 16S rRNA gene amplicons. Using this indexing approach, the attached barcodes allow for unique sample identification when all samples are combined into a single sequencing library <ref type="bibr" target="#b1">(Bohmann et al. 2011)</ref>.</p><p>The purpose of this experiment was to access whether samples that were collected more than ten years ago could be used with new technologies of DNA extraction and NGS to determine the diets of these bird species. In fact, my work was successful and the information yielded determined the degree of dietary overlap between each bird species. Diet preference was then determined through comparison to insects from vegetation samples. Finally, birds were sampled in two different environments, a native forest and an exotic forest, to compare differences between forest type for which arthropods the birds were eating.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PREVIOUS WORK WITH MICROSCOPE DISSECTION</head><p>The samples to be used in this current project were collected over a decade ago during the doctoral research of my mentor, Dr. Jeffrey Foster <ref type="bibr" target="#b7">(Foster 2005)</ref>. His dissertation examined the invasion of exotic birds in Hawaiian forests, and the dietary portion of his research focused on the potential for food competition with native bird species. The three introduced species studied were the Japanese White-eye, Japanese Bush-Warbler (Cettia diphone), and Red-billed Leiothrix (Leiothrix lutea), and have lived on the islands since 1921. The native species of bird that was studied was the Maui Alauahio or Maui Creeper (Paroreomyza montana). Research was conducted in two different forest types for a deeper comparison of foraging behavior. Native forest was determined to be canopy trees, predominately ohia (Metrosideros polymorphia) with some koa (Acacia koa). Exotic forest was both a tropical ash forest (Fraxinus uhdei) with assorted Eucalyptus spp., ohia, and koa, and a pine forest consisting of conifers, of which were mostly weeping (Pinus mexicanus) and sugi (Cryptomeria japonicus) pines. Food is paramount to the survival of an animal, and competition between native and non-native species for food resources can determine the success and future of a species. In this previous study, bird diets were determined by studying regurgitated stomach contents that were acquired using stomach flushing and bird feces. Samples were manually sorted through, examined, and photographed using a dissecting microscope. The fragments and whole specimens of insects were identified to order through taxonomic means via a reference library of whole insects and in consultation with entomological specialists <ref type="bibr" target="#b7">(Foster 2005)</ref>. In an analysis of samples from 252 birds, both fruits/seeds and arthropods were identified. For arthropods, five orders comprised most the samples: Homoptera, Lepidoptera (moths), Hemiptera (true bugs), Coleoptera (beetles), and Araneae (spiders). When possible, arthropods were classified to family, genus, or species.</p><p>However, the diversity of the samples, the highly fractured nature of the pieces, and incomplete entomological surveys of the area made identification challenging. Nonetheless, arthropods, not fruit, comprised a majority of the diet for all four species investigated <ref type="bibr" target="#b7">(Foster 2005)</ref>. Therefore, it is important to be able to correctly identify the plethora of insects and spiders consumed to wholly understand the diet of a bird species and how it may overlap the diet of another species to see if they may be potentially competing for food resources.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS &amp; METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample Preparation and DNA Extraction</head><p>Samples were collected as described in Foster thesis between 2002 and 2004. Sample sources include avian fecal, avian stomach content, and vegetative. Foster employed the methods of stomach flushing and fecal bags to collect samples. After sorting and identification of insect fragments via microscope dissection, samples were stored in individual glass dram vials in approximately 4 ml of 90% ethanol. These samples were stored at room temperature until 2015.</p><p>Ethanol was pipetted out of vials without disturbing the sample and the vials were set under a fume hood for 12 to 36 hr for complete evaporation of the remainder of the ethanol. The MO BIO Powersoil DNA Isolation Kit (now known as the Qiagen DNeasy Powersoil HTP 96 Kit) was used for DNA extraction and purification for both single tube and 96-wellplate procedures, with minor modifications:</p><p>Single tube extractions: Before loading a sample, the solution in the Powerbead tube was removed. The sample was loaded into the tube now just containing the Powerbeads, and incubated at -80°C for 45 min. The tubes were vortexed for 1 min. The solution was readded to the tubes and vortexed for 1 min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>96-well-plate extractions:</head><p>To prevent "flying" of sample material during transfer from vial into well-plate, some samples were slightly wetted with up to 600 μl of phosphate buffer saline. Single-use inoculating loops were used to transfer the sample contents.</p><p>Blank extractions were included in each plate to measure cross-contamination.</p><p>The initial vortex of sample and C1 solution was extended from 10 min to 20 min for both protocols. In the final elution step, 100 μl of C6 was used instead of 200 μl. Extracted samples were stored at -20°C until processing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA Processing</head><p>All PCR assays were completed using a 96-wellplate protocol. Samples that were extracted using the single tube extraction protocol were transferred to 96-well-plates at 25 μl aliquots. PCR amplifications were performed in 25 μl reactions containing 13 μl of Thermo Fischer Scientific SuperMix (22 mM Tris-HCl (pH 8.4), 55 mM KCl, 1.65 mM Magnesium Chloride, 220 μM dGTP, 220 μM dATP, 220 μM dTTP, 220 μM dCTP, 22 U/ml recombinant Taq DNA Polymerase, and stabilizers), 1 μl of the forward primer, 1 μl of the reverse primer, and 10 μl of template DNA. Thermal cycling conditions were as follows: 95°C for 5 min then 40 cycles (95°C for 15 s, annealing at 52°C for 30 s, 72°C for 30 s) followed by 72°C for 7 min.</p><p>Negative and positive control reactions were employed each set of assays. PCR products were quantified using the Quant-iT TM PicoGreen TM dsDNA Assay kit, using 1 μl PCR product in 99 μl buffer solution. Two libraries, p10-1 and p10-2, were constructed to pool amplified and tagged DNA. The amount of each sample pooled was determined by the concentration of DNA to even the amount of DNA sequenced across samples. The libraries were concentrated using a heated vacuum centrifuge to approximately 100 ml. The two libraries were quantified using Qubit fluorometric quantification and Agilient 2200 TapeStation. The two pooled libraries of COI amplicons were sequenced using an Illumina MiSeq platform following 300 bp PE sequencing using V3 chemistry set for 600 cycles at TGEN North's sequencing center on February 10, 2018 (p10-1), and February 25, 2018 (p10-2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA Sequencing and Analysis</head><p>Sequence results were analyzed using the following programs: Amptk v. <ref type="bibr">1.1.3-36d7eda usearch9 v9.2.64_i86linux32 usearch10 v10.0.240_i86linux32 vsearch v2.6.2_linux_x86_64</ref> python modules and R dependencies via Conda Samples with fewer than 50 reads were dropped, reads were trimmed to a minimum of 160 bp and organized into operational taxonomic units (OTU) with 97% similarity standards.</p><p>These initial OTU were filtered to reduce index bleeding. Libraries p-10 and p-11 were combined into one master library, known as OahuBird. Amplicons were compared to the BOLD BIN database of the COI gene index for taxonomic identification for 99% similarity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>From 441 fecal and vegetation samples, there were 19,938,852 raw reads. Bird samples yielded 2254 OTU detections of arthropods and vegetation samples yielded 1471 OTU detections. Twenty-seven orders were identified, compared to 18 by <ref type="bibr" target="#b7">Foster (2005)</ref>. A small number of unknown OTUs were present in this experiment. After clustering, filtering and combining the two libraries, 13,950,987 reads and 1,529 OTUs were produced. The red-billed leiothrix provided the greatest number of detections of identified OTU, and the Maui Creeper had the fewest detected OTUs, although sampling was not equal among species.</p><p>Non-native avian species consumed 18 different orders of arthropods (Figure <ref type="figure" target="#fig_2">1</ref>). The top three consumed arthropod orders (all insects) were Lepidoptera, Diptera, and Coleoptera (Figure <ref type="figure">3</ref>). Native bird species consumed 12 orders of arthropods, with the top three most common prey items being Diptera, Lepidoptera, and Coleoptera (Figure <ref type="figure" target="#fig_2">1</ref>). Observed detections were highest for Lepidoptera for non-native birds, while it was highest for Diptera for the native bird species.</p><p>Sixteen orders of arthropods were observed in samples from both native and exotic vegetation, with Araneae (spiders), Diptera (true flies), and Lepidoptera (moths) constituting the top three observed orders. On a percentage basis, the most commonly consumed insects for all bird species, as well as insects available in the environment, were Lepidoptera and Diptera (Figure <ref type="figure">2</ref>). Birds consumed more Coleoptera than apparent availability from the vegetation. Finally, Araneae were more abundant in the environment (based on a percentage of the arthropods sampled from the vegetation) than in the diets of the birds (Figure <ref type="figure">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>There are few studies discussing dietary overlap of avian species <ref type="bibr" target="#b4">(Crisol-Martínez et al., 2016</ref><ref type="bibr" target="#b5">, Deagle et al., 2007)</ref>, and this experiment has shown the ability to obtain genetic informatic through NGS from samples more than a decade old. This study showed relative uniformity in proportions of the main arthropod orders consumed, but substantial differences when analyzed at the species level.</p><p>Arthropod samples were also taken from the vegetation, allowing a comparison of proportion of each type of arthropod in the diet versus in the environment. We found that overall the birds were largely eating what was available to them with limited indication of selective foraging based on what was available in the vegetation. However, there was a higher proportion of Lepidoptera in the diets compared to their presence in the vegetation and a higher occurrence of Araneae in the environment than in the diet (Figure <ref type="figure">2</ref>). This and the higher percentage of Trombidiformes in the vegetation than what was consumed by birds indicate that the birds ate arthropods from some orders out of proportion to their abundance. This is supported when the data were analyzed at the family level. There was a clear separation between the arthropod OTUs from bird samples and OTUs from arthropod from vegetation samples (Figure <ref type="figure">4</ref>). Regardless of species, the birds were not consuming all the arthropod groups available in the environment. In exotic forest, red-billed leiothrix were more likely to consume Trichopteran and Hemiptera than other bird species, Japanese White-eye consumed more Araneae and Lepidoptera, and Japanese Bush-Warbler consumed the most Coleoptera (Figure <ref type="figure">3</ref>). In native forests, it was still found that bush-warblers consumed the most Coleoptera, white-eyes consumed the most Lepidoptera, and leiothrix were the only species to consume Trombidiformes (Figure <ref type="figure">3</ref>). Bush-warblers were the only non-native bird species to consume Isopoda in native forests. In each forest type, the three species were roughly eating the same proportion of Diptera. Thus, the bird species appear to be consistent in their dietary preferences regardless of the forest type, at least at the order level for common food items. The difference in the main prey of native versus non-native species of bird potentially indicates resource competition, but experimental work would be needed to fully test this. The favored prey item determined by NGS for non-native bird species has been Lepidoptera, and for the Maui creeper it was Diptera.</p><p>The diets by vegetation in the area did change slightly for each species. Bush-warblers consumed Isopoda and more Hemiptera in native forests than in exotic forest, and relatively fewer Lepidoptera. The proportions of Lepidoptera consumed by the other species did not differ between sites, so this could indicate reduced availability of moths in the native forests and an adaption to consumed Isopoda, which was not found in the diets of the other species. White-eyes also differed slightly in their dietary choices. The predominant orders consumed between native and exotic forest stayed the same, but Mecoptera was only found when foraging in exotic forest while Neuroptera was in their native forest diet. Leiothrix were the only other species to consume Mecoptera in their exotic forest diet, and did not consume insects from that order in the native environment. This could mean that Mecoptera is found in pine forest and not on plants in native forest.</p><p>There was considerable overlap in the primary orders of arthropods consumed by all birds, with some difference in the less commonly consumed orders. Native and non-native bird species were all eating Diptera, Lepidoptera, Coleoptera, and Araneae. This indicates potential for resource competition if all the birds are eating relatively the same thing; if one species were to grow in number, that could negatively affect the abundance of other species, which Foster (2005) speculated on as well. Studying competition and food availability is a complex issue that merits additional study in this system. <ref type="bibr" target="#b8">Freed and Cann (2009)</ref> suggested that competition for food resources was occurring on the island of Hawaii between the introduced Japanese white-eye and the Hawaii Akepa (Loxops coccineus). It is important to note that Lepidoptera consists of moths of all life stages, from caterpillar to flying insects, and in this study there was no method of determining the percentage between each. Compared to microscope dissection that requires fragments, NGS would allow for the detection of the digested soft-bodied moths from fecal samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FUTURE DIRECTIONS</head><p>With the significant difference in insects consumed by birds at the order versus species level, a statistical comparison is needed to study dietary overlap at each taxonomic level. This would determine the exact degree of dietary overlap and offer deeper insight into resource competition as well as the full extent of the diets of each species and at different sites and forest types. This also depends on the completeness of the BOLD sequence library for detailed taxonomic identification, which can be region specific. Substantially more sequences are needed from arthropods from Hawaiian forests to increase identification of bird diets. There were more reads with NGS compared to microscope dissection, but there was no method to determining the relative abundance of the reads. It could be determined with the physical parts of insects, but not with the DNA. Methods to determining relative abundance with NGS should be developed to reduce inflation/bias of results of a certain arthropod, which could have happened in this experiment.</p><p>A future analysis could determine the difference in results from the single tube versus the well-plate extraction methods. This could determine the more accurate and clean method of extracting DNA from fecal samples for future research.</p><p>A comparison of these data to current bird population foraging behaviors could be conducted to study changes that have occurred within the last two decades. This can assess consequences of competition for food resources and the adaptations, if any, that have occurred to support continued populations of native and exotic birds.   </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>of the requirements for the degree of Bachelors of Science in Honors Department of Agriculture, Nutrition, and Food Systems College of Life Sciences and Agriculture</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Figures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIGURESFigure 1 .</head><label>1</label><figDesc>FIGURES</figDesc><graphic coords="18,72.00,127.20,462.10,378.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>Figure 2.</figDesc><graphic coords="19,72.00,99.60,446.95,363.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure</head><label></label><figDesc>Figure 3.</figDesc><graphic coords="20,72.00,99.60,465.25,339.57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="21,72.00,99.60,471.05,263.38" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>There have been many people whom have helped me throughout this journey. First and foremost, thank you Mom and Dad for supporting my dreams and giving me the opportunity to attend <rs type="institution">UNH</rs>. Your faith and encouragement has been invaluable in teaching me to always be looking out for new opportunities and applying my best efforts. Friends, thank you for your support and excitement for my endeavors; it means the world to me.</p><p><rs type="person">Dr. Chuck Walker</rs>, thank you for advocating REAP during my freshman honors biology class.</p><p>Your passion for biological research motivated me to consider becoming part of a research team.</p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">What is next generation sequencing?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Behjati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Tarpey</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/archdischild-2013-304340</idno>
+		<ptr target="http://doi.org/10.1136/archdischild-2013-304340" />
+	</analytic>
+	<monogr>
+		<title level="j">Archives of Disease in Childhood: Education and Practice Edition</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="236" to="238" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Molecular diet analysis of two African free-tailed bats (molossidae) using high throughput sequencing</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bohmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Monadjem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Noer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R K</forename><surname>Zeale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Clare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T P</forename><surname>Gilbert</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0021441</idno>
+		<ptr target="http://doi.org/10.1371/journal.pone.0021441" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Eating local: Influences of habitat on the diet of little brown bats (Myotis lucifugus)</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Clare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Barber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Sweeney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D N</forename><surname>Hebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Fenton</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2011.05040.x</idno>
+		<ptr target="http://doi.org/10.1111/j.1365-294X.2011.05040.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1772" to="1780" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The diet of Myotis lucifugus across Canada: Assessing foraging quality and diet variability</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Clare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">O C</forename><surname>Symondson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Broders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fabianek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Reimer</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mec.12542</idno>
+		<ptr target="http://doi.org/10.1111/mec.12542" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="3618" to="3632" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Using nextgeneration sequencing to contrast the diet and explore pest-reduction services of sympatric bird species in macadamia orchards in Australia</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Crisol-Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Moreno-Moyano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Wormington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stanley</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0150159</idno>
+		<ptr target="http://doi.org/10.1371/journal.pone.0150159" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Studying seabird diet through genetic analysis of faeces: A case study on macaroni penguins (Eudyptes chrysolophus)</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Gales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Trebilco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hindell</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0000831</idno>
+		<ptr target="http://doi.org/10.1371/journal.pone.0000831" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A simple and rapid DNA extraction protocol of small insects for PCR amplification</title>
+		<author>
+			<persName><forename type="first">En-Wei</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename></persName>
+		</author>
+		<idno type="DOI">10.3157/021.123.0403</idno>
+		<ptr target="http://dx.doi.org/10.3157/021.123.0403" />
+	</analytic>
+	<monogr>
+		<title level="j">Entomological News</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="303" to="310" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Exotic bird invasion into forests of Hawaii: demography, competition, and seed dispersal</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Foster</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Illinois at Urbana-Champaign</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Doctoral Dissertation</note>
+	<note>Chapter 4</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Negative Effects of an Introduced Bird Species on Growth and Survival in a Native Bird Community</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Freed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Cann</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2009.08.044</idno>
+		<ptr target="https://doi.org/10.1016/j.cub.2009.08.044" />
+	</analytic>
+	<monogr>
+		<title level="j">Current Biology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="1736" to="1740" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Genetic identification for prey birds of the Endangered peregrine falcon (Falco peregrinus). Mitochondrial DNA Part A: DNA Mapping</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Oh</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/24701394.2016.1261853</idno>
+		<ptr target="http://doi.org/10.1080/24701394.2016.1261853" />
+	</analytic>
+	<monogr>
+		<title level="j">Sequencing, and Analysis</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="175" to="180" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Molecular scatology and high-throughput sequencing reveal predominately herbivorous insects in the diets of adult and nestling Western Bluebirds ( Sialia mexicana) in California vineyards</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Jedlicka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-T</forename><forename type="middle">E</forename><surname>Vo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P P</forename><surname>Almeida</surname></persName>
+		</author>
+		<idno type="DOI">10.1642/AUK-16-103</idno>
+		<ptr target="http://doi.org/10.1642/AUK-16-103" />
+	</analytic>
+	<monogr>
+		<title level="j">The Auk</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="116" to="127" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">An improved method for utilizing high-throughput amplicon sequencing to determine the diets of insectivorous animals</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Jusino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Banik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Wray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pelton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Lindner</surname></persName>
+		</author>
+		<idno type="DOI">10.7287/peerj.preprints.3184v1</idno>
+		<ptr target="http://doi.org/10.7287/peerj.preprints.3184v1" />
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="32" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Development of a Dual-Index Sequencing Strategy and Curation Pipeline for Analyzing Amplicon Sequence Data on the MiSeq Illumina Sequencing Platform</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Kozich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Westcott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Baxter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Highlander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Schloss</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.01043-13</idno>
+		<ptr target="http://doi.org/10.1128/AEM.01043-13" />
+	</analytic>
+	<monogr>
+		<title level="j">Applied and Environmental Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="5112" to="5120" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A cost-effective, simple and high-throughput method for DNA extraction from insects</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lagisz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Port</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wolff</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1744-7917.2010.01318.x</idno>
+		<ptr target="http://doi.org/10.1111/j.1744-7917.2010.01318.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Insect Science</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="465" to="470" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Bumblebee (Hymenoptera: Apidae) sample storage for a posteriori molecular studies: Interactions between sample storage and DNA-extraction techniques</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Moreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Horgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kakouli-Duarte</surname></persName>
+		</author>
+		<idno type="DOI">10.14411/eje.2013.056</idno>
+		<ptr target="http://doi.org/10.14411/eje.2013.056" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Entomology</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="419" to="425" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Analysis of droppings to describe diets of small birds</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Ralph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Nagata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Ralph</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Field Ornithology</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="165" to="174" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Next-generation sequencing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Reis-Filho</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/bcr2431</idno>
+		<ptr target="http://doi.org/10.1186/bcr2431" />
+	</analytic>
+	<monogr>
+		<title level="j">Breast Cancer Research</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Molecular analysis of nestling diet in a long-distance Neotropical migrant, the Louisiana Waterthrush (Parkesia motacilla)</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Trevelline</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Latta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nuttle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Porter</surname></persName>
+		</author>
+		<idno type="DOI">10.1642/AUK-15-222</idno>
+		<ptr target="http://doi.org/10.1642/AUK-15-222" />
+	</analytic>
+	<monogr>
+		<title level="j">The Auk</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="415" to="428" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Taxon-specific PCR for DNA barcoding arthropod prey in bat faeces</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R K</forename><surname>Zeale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Butlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L A</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Lees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1755-0998.2010.02920.x</idno>
+		<ptr target="http://doi.org/10.1111/j.1755-0998.2010.02920.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="236" to="244" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
