@@ -91,9 +91,10 @@ def assigner_ids_articles(df, colonne_titre="Titre_exp", colonne_id="ID_article"
 
 
 def formatter_resultats(resultats, titre):
+    nb_articles = resultats.get("Nombre d'articles différents", "N/A")
     lignes = [f"📌 {titre}",
               f"- Nombre total de lignes : {resultats['Nombre total de lignes']}",
-              f"- Nombre d'articles différents : {resultats['Nombre d\'articles différents']}",
+              f"- Nombre d'articles différents : {nb_articles}",
               f"- Nombre d'articles considérés comme Oui : {resultats['Articles considérés comme Oui']} "
               f"({resultats['Pourcentage Oui']}%)",
               "\n[Statistiques par article]"]

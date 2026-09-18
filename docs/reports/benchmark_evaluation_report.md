@@ -73,6 +73,8 @@ L'écart significatif entre le rappel d'extraction d'échantillon (85.23%) et le
 
 ## 4. Bilan Énergétique et Empreinte Carbone (EcoLogits)
 
-Grâce au suivi natif via EcoLogits :
-- **Consommation énergétique moyenne** : ~0.0042 kWh par article analysé (modèle 12B quantifié).
-- **Émissions CO2e moyennes** : ~0.85 g CO2e par inférence complète RAG + Invasiveness Check.
+Le pipeline intègre une traçabilité environnementale native via l'adaptateur `src/rag/UniversityLLMAdapter.py` :
+- **Instrumentation EcoLogits** : Initialisée avec la zone `FRA` (facteur d'intensité carbone de référence : 53 gCO2e/kWh pour le mix électrique français).
+- **Mesures temporelles brutes** : Le serveur d'inférence Ollama consigne pour chaque passage les temps d'exécution stricts au niveau de la nanoseconde (`prompt_eval_duration`, `eval_duration`, `total_duration`), exportés dans les fichiers d'extraction `data/output/main_results/`.
+- **Frugalité et souveraineté** : L'exécution locale d'un modèle quantifié 12B évite les latences réseau et les coûts d'infrastructure déportée des API propriétaires fermées.
+

@@ -98,29 +98,37 @@ L'arbitrage est realise via le protocole **LLM-as-a-Judge** (`src/evaluation/jud
 | **Conclusion d'Invasivite** | Ligne (fin) | 102 | 162 | 100.00% | 38.64% | **55.74%** |
 | **Conclusion d'Invasivite** | Article (global) | 72 | 72 | 100.00% | 50.00% | **66.67%** |
 
-### 2. Comparaison avec les Baselines
+### 2. Repartition Experimentale des Protocoles et Annonces Auteurs
 
-Le tableau suivant mesure l'apport de notre architecture a double chemin (HyDE + Refine + Verification d'annonce) par rapport aux approches conventionnelles :
+L'analyse globale des 264 lignes de protocoles extraites et evaluees dans `data/output/Protocoles.csv` presente la distribution empirique suivante :
 
-| Methode | Rappel Echantillon (Ligne) | Rappel Invasivite (Ligne) | F1-Score Global (Article) | Taux d'Hallucination |
-|---|---|---|---|---|
-| Heuristique par Regex / Mots-Cles | 41.20% | 12.50% | 23.40% | 0.00% (mais recall bas) |
-| LLM Direct Zero-Shot (sans RAG) | 58.00% | 29.20% | 42.10% | 34.20% (perte de contexte) |
-| RAG Dense Standard (sans HyDE) | 71.50% | 32.00% | 61.20% | 8.50% |
-| **StageL3-RAG (Notre Approche)** | **85.23%** | **38.64%** | **78.45%** | **1.20%** |
+| Categorie de Jugement | Nombre de Protocoles | Proportion (%) | Justification Methodologique |
+|---|---|---|---|
+| **Invasif** | 169 | 64.02% | Prelevements impliquant capture, contention, biopsie ou perturbation directe |
+| **Non invasif** | 94 | 35.61% | Collecte purement passive (poils sur pieges sans colle, feces opportunistes) |
+| **Invasif - Territory marking** | 1 | 0.38% | Collecte de feces ou secretions alterant le marquage territorial de l'espece |
+| **Total Invasif Cumule** | 170 | 64.39% | Protocoles non conformes a la definition stricte de Taberlet et al. (1999) |
 
-### 3. Analyse Scientifique des Goulots d'Etranglement
+En parallele, le module `RAGNonInvasiveDetection` a audite les titres et abstracts de l'ensemble du corpus :
+- **17 articles** contiennent une revendication explicite d'echantillonnage "non invasif" dans le titre ou l'abstract (`annonce_invasivite = 'Oui'`), alors que l'analyse algorithmique des sections methodologiques revele des etapes de manipulation physique ou de capture preparatoire (cas illustratifs des "Sept Peches" methodologiques).
 
-L'ablation et l'etude de sensibilite conduites sur le pipeline revelent trois enseignements capitaux :
-1. **Impact de la formulation de la definition** : L'utilisation de la definition stricte de Taberlet (1999) classe 61.4% des methodes comme invasives. Le passage a une definition permissive ("absence de blessure permanente") fait basculer pres de 40% des protocoles vers "non-invasif", demontrant que la sensibilite ethique est pilotee par le prompt de cadrage.
-2. **Le biais d'auto-declaration de l'auteur (Peché 1 et 7)** : Dans 42 articles, les auteurs utilisent l'expression "non-invasive" alors que l'analyse detaillee du protocole montre la capture d'animaux pour marquage ou pose de balises telemetry. Notre module `RAGNonInvasiveDetection` capture cette contradiction alors qu'un RAG naif est induit en erreur.
-3. **Stabilite stochastique** : A temperature T=0.7, la variance de classification sur 3 iterations atteint 27% sur les cas limites. La fixation d'une temperature deterministe T=0.1 est necessaire pour eliminer la variance de conclusion.
+### 3. Analyse Scientifique des Goulots d'Etranglement et Ablations
 
-### 4. Metriques d'Inference et Empreinte Environnementale
+L'ecart entre le rappel d'extraction d'echantillon (85.23% niveau ligne, 96.53% niveau article) et le rappel de qualification d'invasivite (38.64% niveau ligne, 50.00% niveau article) a ete documente a travers les bancs de test (`experiments/test_parameter_influence.py` et `experiments/test_invasivity_factors.py`) :
 
-- **Temps moyen d'inference par article** : 12.4 secondes (modele 12B local sur acceleration MPS / Apple Silicon).
-- **Consommation electrique mesuree (EcoLogits)** : 0.0042 kWh par article traite.
-- **Emissions CO2 equivalentes** : 0.85 g CO2e par cycle complet d'analyse.
+1. **Divergence de cadrage normatif (Taberlet strict vs Definition permissive)** :
+   Dans la verite terrain (`FinalRawData.xlsx`), 205 protocoles sont juges invasifs selon la definition canonique de Taberlet (1999), alors que seulement 25 sont qualifies d'invasifs sous une definition medicale permissive. Le prompt de cadrage determine directement le seuil de sensibilite du LLM.
+2. **Effet de granularite (Ligne fine vs Agregation par article)** :
+   Lorsqu'un article decrit plusieurs etapes (ex. capture prealable d'un animal pour pose d'emetteur radio, suivie de la recolte d'excrements a distance), le pipeline RAG extrait l'echantillon principal avec succes (96.53% au niveau global), mais peut sous-estimer une modalite secondaire sur une ligne isolee, expliquant la chute du rappel a 38.64% sur l'arbitrage ligne a ligne.
+3. **Apport architectural du couplage HyDE et Refine** :
+   La generation de documents hypothetiques (HyDE) surmonte l'asymetrie lexicale entre la brievete de la requete utilisateur et le vocabulaire zoologique specialise des sections de materiel et methodes (TEI GROBID). Le module `RefineRAGSystem` opere ensuite un second passage contextuel pour epurer les extraits et confronter les declarations d'auteurs a la grille des 7 peches.
+
+### 4. Protocole d'Audit Environnemental et Tracabilite
+
+Plutot que de recourir a des extrapolations forfaitaires, le systeme instrumente chaque requete via un dispositif auditable et transparent :
+- **Integration native EcoLogits** : Activee dans `src/rag/UniversityLLMAdapter.py` avec un mix electrique regionalise (`electricity_mix_zone="FRA"` applique a une intensite carbone de reference de 53 gCO2e/kWh).
+- **Tracabilite temporelle exacte par le moteur LLM** : Ollama trace pour chaque cycle d'inference les durees reelles a l'echelle de la nanoseconde (`prompt_eval_duration`, `eval_duration`, `total_duration`), exportees dans `data/output/main_results/`.
+- **Souverainete des donnees et absence de dependance cloud** : L'execution du modele 12B en local garantit qu'aucun document de recherche confidentiel ne transite par des API proprietaires distantes.
 
 ---
 
@@ -282,17 +290,58 @@ python experiments/test_parameter_influence.py --article 012017-jfwm-007 --test 
 
 ## References et Bibliographie
 
-| Cle de Citation | Titre Complet de la Publication | Auteurs | Revue / Annee | Identifiant / Lien Direct |
+Les references ci-dessous constituent le socle theorique, methodologique et algorithmique du projet, directement issues de la bibliographie scientifique de reference (`Stage L3 RAG.xml`) :
+
+### 1. Echantillonnage Non-Invasif et Ecologie Moleculaire
+
+| Cle de Citation | Titre de la Publication | Auteurs | Revue / Annee | Identifiant / Lien Direct |
 |---|---|---|---|---|
 | Taberlet et al. (1999) | Noninvasive genetic sampling: look before you leap | P. Taberlet, L. P. Waits, G. Luikart | *Trends in Ecology & Evolution*, 1999 | [DOI: 10.1016/S0169-5347(99)01637-7](https://doi.org/10.1016/S0169-5347(99)01637-7) |
+| Lefort et al. (2022) | Blood, sweat and tears: a review of non-invasive DNA sampling | M.-C. Lefort, R. H. Cruickshank, K. Descovich et al. | *Peer Community Journal*, 2022 | [DOI: 10.24072/pcjournal.98](https://doi.org/10.24072/pcjournal.98) |
+| Calvignac-Spencer et al. (2013) | Carrion fly-derived DNA as a tool for comprehensive and cost-effective assessment of mammalian biodiversity | S. Calvignac-Spencer, K. Merkel, N. Kutzner et al. | *Molecular Ecology*, 2013 | [DOI: 10.1111/mec.12183](https://doi.org/10.1111/mec.12183) |
+
+### 2. Paradigme LLM-as-a-Judge et Evaluation de Coherence
+
+| Cle de Citation | Titre de la Publication | Auteurs | Venue / Annee | Identifiant / Lien Direct |
+|---|---|---|---|---|
+| Gu et al. (2025) | A Survey on LLM-as-a-Judge | J. Gu, X. Jiang, Z. Shi, H. Tan et al. | *arXiv*, 2025 | [arXiv:2411.15594](https://arxiv.org/abs/2411.15594) |
+| Shi et al. (2025) | Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge | L. Shi, C. Ma, W. Liang, Y. Zhang et al. | *arXiv*, 2025 | [arXiv:2406.07791](https://arxiv.org/abs/2406.07791) |
+| Honovich et al. (2021) | Q2: Evaluating Factual Consistency in Knowledge-Grounded Dialogues via Question Generation and Question Answering | O. Honovich, L. Choshen, R. Aharoni et al. | *arXiv / EMNLP*, 2021 | [arXiv:2104.08202](https://arxiv.org/abs/2104.08202) |
+
+### 3. Architectures RAG, Chunking et Recherche Dense
+
+| Cle de Citation | Titre de la Publication | Auteurs | Venue / Annee | Identifiant / Lien Direct |
+|---|---|---|---|---|
+| Gao et al. (2024) | Retrieval-Augmented Generation for Large Language Models: A Survey | Y. Gao, Y. Xiong, X. Gao, K. Jia et al. | *arXiv*, 2024 | [arXiv:2312.10997](https://arxiv.org/abs/2312.10997) |
 | Gao et al. (2022) | Precise Zero-Shot Dense Retrieval without Relevance Labels (HyDE) | L. Gao, X. Ma, J. Lin, J. Callan | *arXiv*, 2022 | [arXiv:2212.10496](https://arxiv.org/abs/2212.10496) |
-| Calvignac-Spencer et al. (2013) | Carrion fly-derived DNA as a tool for comprehensive and cost-effective assessment of mammalian biodiversity | S. Calvignac-Spencer et al. | *Molecular Ecology*, 2013 | [DOI: 10.1111/mec.12183](https://doi.org/10.1111/mec.12183) |
+| Gao et al. (2025) | U-NIAH: Unified RAG and LLM Evaluation for Long Context Needle-In-A-Haystack | Y. Gao, Y. Xiong, W. Wu et al. | *arXiv*, 2025 | [arXiv:2503.00353](https://arxiv.org/abs/2503.00353) |
+| Jin et al. (2024) | Long-Context LLMs Meet RAG: Overcoming Challenges for Long Inputs in RAG | B. Jin, J. Yoon, J. Han et al. | *arXiv*, 2024 | [arXiv:2410.05983](https://arxiv.org/abs/2410.05983) |
+| Günther et al. (2024) | Late Chunking: Contextual Chunk Embeddings Using Long-Context Embedding Models | M. Günther, I. Mohr, D. J. Williams et al. | *arXiv*, 2024 | [arXiv:2409.04701](https://arxiv.org/abs/2409.04701) |
+| Wang et al. (2025) | Chain-of-Retrieval Augmented Generation | L. Wang, H. Chen, N. Yang et al. | *arXiv*, 2025 | [arXiv:2501.14342](https://arxiv.org/abs/2501.14342) |
+| Zhao et al. (2022) | Dense Text Retrieval based on Pretrained Language Models: A Survey | W. X. Zhao, J. Liu, R. Ren et al. | *arXiv*, 2022 | [arXiv:2211.14876](https://arxiv.org/abs/2211.14876) |
+| Zhao et al. (2024) | Retrieval-Augmented Generation for AI-Generated Content: A Survey | P. Zhao, H. Zhang, Q. Yu et al. | *arXiv*, 2024 | [arXiv:2402.19473](https://arxiv.org/abs/2402.19473) |
+| Xu et al. (2024) | Retrieval Meets Long Context Large Language Models | P. Xu, W. Ping, X. Wu et al. | *arXiv*, 2024 | [arXiv:2410.05983](https://arxiv.org/abs/2410.05983) |
+| Merth et al. (2024) | Superposition Prompting: Improving and Accelerating Retrieval-Augmented Generation | T. Merth, Q. Fu, M. Rastegari et al. | *ICML*, 2024 | [OpenReview](https://openreview.net/forum?id=r8k5JrGip6) |
+
+### 4. Extraction d'Information Scientifique, Agents et Raisonnement
+
+| Cle de Citation | Titre de la Publication | Auteurs | Venue / Annee | Identifiant / Lien Direct |
+|---|---|---|---|---|
+| Foppiano et al. (2024) | Mining experimental data from materials science literature with large language models: an evaluation study | L. Foppiano, G. Lambard, T. Amagasa et al. | *STAM: Methods*, 2024 | [DOI: 10.1080/27660400.2024.2356506](https://doi.org/10.1080/27660400.2024.2356506) |
+| Neves et al. (2023) | Automatic classification of experimental models in biomedical literature to support searching for alternative methods to animal experiments | M. Neves, A. Klippert, F. Knöspel et al. | *J. Biomed. Semantics*, 2023 | [DOI: 10.1186/s13326-023-00292-w](https://doi.org/10.1186/s13326-023-00292-w) |
+| Lála et al. (2023) | PaperQA: Retrieval-Augmented Generative Agent for Scientific Research | J. Lála, O. O'Donoghue, A. Shtedritski et al. | *arXiv*, 2023 | [arXiv:2312.07559](https://arxiv.org/abs/2312.07559) |
+| Skarlinski et al. (2024) | Language agents achieve superhuman synthesis of scientific knowledge | M. D. Skarlinski, S. Cox, J. M. Laurent et al. | *arXiv*, 2024 | [arXiv:2409.13740](https://arxiv.org/abs/2409.13740) |
+| Kim (2025) | MedBioLM: Optimizing Medical and Biological QA with Fine-Tuned Large Language Models and Retrieval-Augmented Generation | S. Kim | *arXiv*, 2025 | [arXiv:2502.03004](https://arxiv.org/abs/2502.03004) |
+| Yao et al. (2023) | ReAct: Synergizing Reasoning and Acting in Language Models | S. Yao, J. Zhao, D. Yu et al. | *ICLR*, 2023 | [arXiv:2210.03629](https://arxiv.org/abs/2210.03629) |
+| Wang et al. (2023) | Self-Consistency Improves Chain of Thought Reasoning in Language Models | X. Wang, J. Wei, D. Schuurmans et al. | *ICLR*, 2023 | [arXiv:2203.11171](https://arxiv.org/abs/2203.11171) |
+| Zhang et al. (2022) | Automatic Chain of Thought Prompting in Large Language Models | Z. Zhang, A. Zhang, M. Li et al. | *arXiv*, 2022 | [arXiv:2210.03493](https://arxiv.org/abs/2210.03493) |
+| McCune et al. (1985) | RUBRIC: A System for Rule-Based Information Retrieval | B. P. McCune, R. M. Tong, J. S. Dean et al. | *IEEE Trans. Softw. Eng.*, 1985 | [DOI: 10.1109/TSE.1985.232827](https://doi.org/10.1109/TSE.1985.232827) |
 | EcoLogits (2024) | Tracking Energy and Carbon Footprint of Generative AI | EcoLogits Initiative | *Open Source*, 2024 | [ecologits.ai](https://ecologits.ai/) |
 
 ---
 
-## Auteur et Licence
+## Auteurs et Licence
 
-- **Auteur** : Louis Poutrain (Stage L3 Informatique - Recherche en Software Engineering & NLP)
+- **Auteurs** : Louis Poutrain, Raphael Maladin (Stage L3 Informatique - Recherche en Software Engineering & NLP)
 - **Supervision Academique** : Universite de Tours (Laboratoire d'Informatique Fondamentale et Appliquee)
 - **Licence** : Ce projet est sous licence libre [MIT](LICENSE).
