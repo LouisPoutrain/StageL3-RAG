@@ -9,14 +9,6 @@
 
 ---
 
-## Demonstration Visuelle de l'Execution
-
-L'image suivante presente une execution nominale de bout en bout du pipeline StageL3-RAG sur un article du corpus scientifique (`012017-jfwm-007.json`). Le systeme indexe les chunks structurés, genere les embeddings de requete hypothetiques via HyDE, recupere les passages pertinents par similarite cosinus, extrait le protocole biologique, confronte la methode a la definition canonique de Taberlet (1999) et audite l'empreinte environnementale via EcoLogits :
-
-![Demonstration de l'execution du pipeline](docs/assets/pipeline_execution.png)
-
----
-
 ## Motivation Scientifique et Resume Executif
 
 Dans la litterature en genetique de la faune sauvage et ecologie moleculaire, l'echantillonnage d'ADN dit "non-invasif" est un sujet ethique et methodologique majeur. La definition canonique formulee par Taberlet et al. (1999) est stricte : est non-invasif tout echantillonnage qui n'implique ni capture, ni blessure, ni derangement significatif de l'animal dans son milieu naturel. 
@@ -136,8 +128,9 @@ Plutot que de recourir a des extrapolations forfaitaires, le systeme instrumente
 
 ```text
 StageL3-RAG/
-|-- LICENSE                               # Licence MIT (Louis Poutrain, 2026)
+|-- LICENSE                               # Licence MIT (Louis Poutrain et Raphael Maladin, 2026)
 |-- README.md                             # Documentation technique de reference (zero emoji)
+|-- Stage L3 RAG.xml                      # Export Zotero TEI de la bibliographie scientifique de reference (33 publications)
 |-- index.html                            # Redirection GitHub Pages
 |-- pyproject.toml                        # Specification de packaging PEP 517/621
 |-- requirements.txt                      # Dependances strictes du projet
@@ -148,30 +141,30 @@ StageL3-RAG/
 |
 |-- data/                                 # Donnees experimentales et benchmarks
 |   |-- benchmarks/                       # Annotations de reference et verite terrain
-|   |   |-- FinalRawData.xlsx             # 264 lignes de protocoles annotees par des biologistes
-|   |   |-- MergedRawData.xlsx            # Dataset consolide avec metadonnees
-|   |   |-- Protocoles.xlsx               # Protocoles de comparaison
-|   |   `-- articles_grobid.xlsx          # Index des articles traites par GROBID
+|   |   |-- FinalRawData.xlsx             # Annotations d'experts biologistes (420 entrees exhaustives)
+|   |   |-- MergedRawData.xlsx            # Dataset consolide avec metadonnees (379 entrees)
+|   |   |-- Protocoles.xlsx               # 264 protocoles annotes de reference pour l'evaluation
+|   |   `-- articles_grobid.xlsx          # Index des articles traites par GROBID (146 entrees)
 |   |-- chunks/                           # Segments textuels structures
-|   |   |-- divided/                      # Chunks unitaires divises
+|   |   |-- divided/                      # Chunks unitaires divises (58 fichiers)
 |   |   |-- intro/                        # Chunks de contexte (titres et abstracts)
-|   |   |-- invasive_detection/           # Chunks orientes detection d'invasivite
+|   |   |-- invasive_detection/           # Chunks orientes detection d'invasivite (99 fichiers)
 |   |   `-- standard/                     # Chunks de methodologie biologique
-|   |-- input/                            # Fichiers JSON pret pour l'indexation RAG (69 articles)
+|   |-- input/                            # Fichiers JSON prets pour l'indexation RAG (163 articles)
 |   |-- output/                           # Resultats d'inference
-|   |   |-- Protocoles.csv                # Sortie tabulaire principale du RAG
+|   |   |-- Protocoles.csv                # Sortie tabulaire principale du RAG (264 lignes evaluees)
 |   |   |-- Protocoles_intermediaire.csv  # Sauvegarde d'ecriture en streaming
-|   |   |-- main_results/                 # Logs detailles d'extraction par article
-|   |   `-- secondary_results/            # Sorties secondaires
+|   |   |-- main_results/                 # Logs detailles d'extraction par article (84 fichiers)
+|   |   `-- secondary_results/            # Sorties secondaires GROBID TEI (276 fichiers)
 |   `-- papers/                           # Corpus PDF
-|       |-- README.md                     # Catalogue bibliographique detaille (auteurs, DOI)
+|       |-- README.md                     # Catalogue bibliographique detaille (auteurs, DOI, Zotero)
 |       `-- Molecular Ecology - 2013...pdf # Article d'etude de cas Calvignac-Spencer et al.
 |
 |-- docs/                                 # Documentation complete du projet
 |   |-- architecture/                     # Specifications d'architecture
 |   |   `-- pipeline_architecture.md      # Schema flux TEI -> HyDE -> Refine -> Judge
 |   |-- assets/                           # Ressources graphiques et badges
-|   |   `-- pipeline_execution.png        # Capture haute definition d'une execution nominale
+|   |   `-- pipeline_execution.png        # Trace visuelle d'execution de reference
 |   |-- reports/                          # Rapports scientifiques et diagnostics
 |   |   |-- ANALYSE_PIPELINE_INVASIVITE.md # Analyse d'impact des parametres
 |   |   |-- ARTICLES_TESTS_RECOMMANDES.md # Etude de cas sur articles cibles
@@ -184,12 +177,13 @@ StageL3-RAG/
 |-- experiments/                          # Banc d'evaluation et scripts d'ablation
 |   |-- __init__.py
 |   |-- analyze_articles.py               # Analyse exploratoire du corpus d'articles
-|   |-- run_tests_on_articles.py          # Runner de tests sur les 5 articles cibles
+|   |-- run_tests_on_articles.py          # Runner de tests sur les articles cibles
 |   |-- test_invasivity_factors.py        # Etude de sensibilite (definition, prompt, temp)
 |   `-- test_parameter_influence.py       # Banc de test des hyperparametres RAG
 |
 |-- scripts/                              # Utilitaires d'orchestration
 |   |-- pdf_to_tei_grobid.sh              # Conteneurisation Docker GROBID pour conversion PDF
+|   |-- run_grobid_docker.py              # Script Python d'automatisation client GROBID
 |   `-- run_pipeline.sh                   # Orchestrateur complet de bout en bout
 |
 `-- src/                                  # Code source applicatif
@@ -201,7 +195,7 @@ StageL3-RAG/
     |   |-- __init__.py
     |   |-- judge.py                      # Evaluateur unifie avec alignement RapidFuzz
     |   `-- metrics.py                    # Calculateur de TP, FN, Precision, Rappel et F1-Score
-    |-- ingestion/                        # Prétraitement et parsing documentaire
+    |-- ingestion/                        # Pretraitement et parsing documentaire
     |   |-- __init__.py
     |   |-- chunk_divider.py              # Decoupeur de sections de chunks
     |   |-- data_preparer.py              # Generateur de dictionnaires JSON indexables
@@ -274,10 +268,11 @@ python src/rag/mainRag.py \
 ```bash
 python -c "
 import pandas as pd
-from src.evaluation.metrics import analyser_verdicts, generer_rapport_texte
 
-df = pd.read_excel('data/benchmarks/FinalRawData.xlsx')
-print('Verite terrain chargee avec succes :', len(df), 'lignes')
+df_raw = pd.read_excel('data/benchmarks/FinalRawData.xlsx')
+df_proto = pd.read_excel('data/benchmarks/Protocoles.xlsx')
+print(f'Annotations d\'experts : {len(df_raw)} entrees')
+print(f'Protocoles du benchmark : {len(df_proto)} lignes')
 "
 ```
 
