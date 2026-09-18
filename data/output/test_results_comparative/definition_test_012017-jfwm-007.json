@@ -1,0 +1,62 @@
+[
+  {
+    "test_id": "taberlet_original_temp0.7_k8",
+    "success": false,
+    "error": "min() arg is an empty sequence",
+    "parameters": {
+      "temperature": 0.7,
+      "top_k": 8,
+      "n_generations": 3
+    },
+    "definition_key": "taberlet_original",
+    "definition_text": "Selon Taberlet et al. (1999), l'échantillonnage d'ADN non invasif désigne toute méthode permettant d'obtenir du matériel génétique sans avoir à capturer, blesser, ni perturber significativement l'anim"
+  },
+  {
+    "test_id": "taberlet_strict_temp0.7_k8",
+    "success": false,
+    "error": "min() arg is an empty sequence",
+    "parameters": {
+      "temperature": 0.7,
+      "top_k": 8,
+      "n_generations": 3
+    },
+    "definition_key": "taberlet_strict",
+    "definition_text": "L'échantillonnage d'ADN non invasif désigne exclusivement toute méthode n'impliquant AUCUN contact avec l'animal vivant, AUCUNE capture, AUCUNE manipulation, et AUCUNE perturbation observable de son c"
+  },
+  {
+    "test_id": "taberlet_permissive_temp0.7_k8",
+    "success": false,
+    "error": "min() arg is an empty sequence",
+    "parameters": {
+      "temperature": 0.7,
+      "top_k": 8,
+      "n_generations": 3
+    },
+    "definition_key": "taberlet_permissive",
+    "definition_text": "L'échantillonnage d'ADN non invasif désigne toute méthode ne causant pas de blessures permanentes ou de dommages irréversibles à l'animal. La capture temporaire et la manipulation brève sont acceptabl"
+  },
+  {
+    "test_id": "medical_definition_temp0.7_k8",
+    "success": false,
+    "error": "min() arg is an empty sequence",
+    "parameters": {
+      "temperature": 0.7,
+      "top_k": 8,
+      "n_generations": 3
+    },
+    "definition_key": "medical_definition",
+    "definition_text": "L'échantillonnage d'ADN non invasif désigne toute procédure qui ne pénètre pas la barrière cutanée de l'animal. La capture, la manipulation et le confinement temporaire sont considérés comme non invas"
+  },
+  {
+    "test_id": "minimal_definition_temp0.7_k8",
+    "success": false,
+    "error": "min() arg is an empty sequence",
+    "parameters": {
+      "temperature": 0.7,
+      "top_k": 8,
+      "n_generations": 3
+    },
+    "definition_key": "minimal_definition",
+    "definition_text": "L'échantillonnage d'ADN non invasif désigne tout prélèvement d'ADN qui ne nécessite pas de procédure chirurgicale."
+  }
+]

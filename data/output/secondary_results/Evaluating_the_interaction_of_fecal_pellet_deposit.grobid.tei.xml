@@ -1,0 +1,2025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Evaluating the interaction of faecal pellet deposition rates and DNA degradation rates to optimize sampling design for DNA-based mark-recapture analysis of Sonoran pronghorn</title>
+				<funder>
+					<orgName type="full">Department of Defence ESTCP programme</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Susannah</forename><forename type="middle">P</forename><surname>Woodruff</surname></persName>
+							<email>susannahwoodruff@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Fish and Wildlife Sciences</orgName>
+								<orgName type="institution">University of Idaho</orgName>
+								<address>
+									<postCode>83844-1136</postCode>
+									<settlement>Moscow</settlement>
+									<region>ID</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>W A I T S</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Fish and Wildlife Sciences</orgName>
+								<orgName type="institution">University of Idaho</orgName>
+								<address>
+									<postCode>83844-1136</postCode>
+									<settlement>Moscow</settlement>
+									<region>ID</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">P W</forename><surname>O O D R U F F</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>J O H N S O N</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">†Department of Statistical Science</orgName>
+								<orgName type="institution">University of Idaho</orgName>
+								<address>
+									<postCode>83844-1104</postCode>
+									<settlement>Moscow</settlement>
+									<region>ID</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Evaluating the interaction of faecal pellet deposition rates and DNA degradation rates to optimize sampling design for DNA-based mark-recapture analysis of Sonoran pronghorn</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E31F858219081507F764FA602D2630C3</idno>
+					<idno type="DOI">10.1111/1755-0998.12362</idno>
+					<note type="submission">Received 20 May 2014; revision received 9 December 2014; accepted 12 December 2014</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Antilocapra americana sonoriensis</term>
+					<term>DNA degradation</term>
+					<term>noninvasive genetic sampling</term>
+					<term>scat deposition rate</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Knowledge of population demographics is important for species management but can be challenging in low-density, wide-ranging species. Population monitoring of the endangered Sonoran pronghorn (Antilocapra americana sonoriensis) is critical for assessing the success of recovery efforts, and noninvasive DNA sampling (NDS) could be more cost-effective and less intrusive than traditional methods. We evaluated faecal pellet deposition rates and faecal DNA degradation rates to maximize sampling efficiency for DNA-based mark-recapture analyses. Deposition data were collected at five watering holes using sampling intervals of 1-7 days and averaged one pellet pile per pronghorn per day. To evaluate nuclear DNA (nDNA) degradation, 20 faecal samples were exposed to local environmental conditions and sampled at eight time points from one to 124 days. Average amplification success rates for six nDNA microsatellite loci were 81% for samples on day one, 63% by day seven, 2% by day 14 and 0% by day 60. We evaluated the efficiency of different sampling intervals (1-10 days) by estimating the number of successful samples, success rate of individual identification and laboratory costs per successful sample. Cost per successful sample increased and success and efficiency declined as the sampling interval increased. Results indicate NDS of faecal pellets is a feasible method for individual identification, population estimation and demographic monitoring of Sonoran pronghorn. We recommend collecting samples &gt;7 days old and estimate that a sampling interval of 4-7 days in summer conditions (i.e. extreme heat and exposure to UV light) will achieve desired sample sizes for mark-recapture analysis while also maximizing efficiency.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Population estimation is important for management, especially with endangered species, but can be challenging in low-density, wide-ranging species. Accurate estimates of population abundance rely on maximizing detectability and minimizing individual heterogeneity in detection probability, especially when employing noninvasive genetic sampling (NDS) methods <ref type="bibr" target="#b2">(Borchers et al. 2002;</ref><ref type="bibr" target="#b30">Lukacs &amp; Burnham 2005)</ref>. To be successful, sampling must be conducted at a time and location that maximizes the probability of detection. NDS approaches can provide accurate population estimates, eliminate capture and postcapture related stress on animals and improve cost efficiency over traditional methods (e.g. <ref type="bibr" target="#b33">Marucco et al. 2009;</ref><ref type="bibr" target="#b9">Brøseth et al. 2010;</ref><ref type="bibr" target="#b14">DeBarba et al. 2010;</ref><ref type="bibr" target="#b66">Stenglein et al. 2010;</ref><ref type="bibr" target="#b65">Stansbury et al. 2014)</ref>. Faecal DNA approaches are well developed in monitoring carnivores <ref type="bibr" target="#b52">(Prugh et al. 2005;</ref><ref type="bibr" target="#b36">Meijer et al. 2008;</ref><ref type="bibr" target="#b33">Marucco et al. 2009;</ref><ref type="bibr" target="#b66">Stenglein et al. 2010)</ref>; however, these methods are less common in population estimation of ungulates <ref type="bibr" target="#b21">(Harris et al. 2010;</ref><ref type="bibr" target="#b6">Brinkman et al. 2011;</ref><ref type="bibr" target="#b50">Poole et al. 2011;</ref><ref type="bibr">Ebert et al. 2012a,b)</ref>.</p><p>Faecal DNA analysis has become a viable method for estimating population size, sex ratio, parentage, relatedness and genetic structure through individual identification of species that are rare and/or difficult to capture <ref type="bibr" target="#b38">(Mills et al. 2000;</ref><ref type="bibr" target="#b13">Creel et al. 2003;</ref><ref type="bibr" target="#b73">Waits &amp; Paetkau 2005;</ref><ref type="bibr" target="#b61">Schwartz et al. 2007;</ref><ref type="bibr" target="#b14">DeBarba et al. 2010)</ref>. Many studies have been successful in conducting individual identification of wildlife by amplifying nuclear DNA (nDNA) obtained from epithelial cells shed in faeces (e.g. <ref type="bibr" target="#b33">Marucco et al. 2009;</ref><ref type="bibr" target="#b14">DeBarba et al. 2010;</ref><ref type="bibr" target="#b65">Stansbury et al. 2014;</ref><ref type="bibr" target="#b77">Wultsch et al. 2014)</ref>. Environmental conditions <ref type="bibr" target="#b29">(Lucchini et al. 2002;</ref><ref type="bibr" target="#b47">Piggott 2004;</ref><ref type="bibr" target="#b40">Murphy et al. 2007;</ref><ref type="bibr" target="#b58">Santini et al. 2007)</ref>, age of the sample <ref type="bibr" target="#b47">(Piggott 2004;</ref><ref type="bibr" target="#b40">Murphy et al. 2007;</ref><ref type="bibr" target="#b58">Santini et al. 2007;</ref><ref type="bibr" target="#b1">Beja-Pereira et al. 2009)</ref>, diet <ref type="bibr" target="#b39">(Murphy et al. 2003;</ref><ref type="bibr" target="#b45">Panasci et al. 2011</ref>) and storage and preservation method <ref type="bibr" target="#b48">(Piggott &amp; Taylor 2003;</ref><ref type="bibr" target="#b45">Panasci et al. 2011</ref>) can all contribute to the rate of DNA degradation. DNA degradation rates influence faecal DNA amplification success rates and microsatellite genotyping error rates <ref type="bibr" target="#b7">(Broquet &amp; Petit 2004;</ref><ref type="bibr" target="#b49">Pompanon et al. 2005)</ref>, which together impact the success rates for individual identification. Genotyping errors can lead to inflated population estimates <ref type="bibr" target="#b72">(Waits &amp; Leberg 2000;</ref><ref type="bibr" target="#b13">Creel et al. 2003;</ref><ref type="bibr" target="#b31">Lukacs et al. 2009)</ref>, and biased population estimates can have major effects on the management of rare or endangered species <ref type="bibr" target="#b68">(Taberlet et al. 1999</ref>).</p><p>An important factor in faecal DNA sampling design is deposition rate, which can be affected by moisture content in forage, season, diet, sex and age of target species <ref type="bibr" target="#b62">(Smith 1964;</ref><ref type="bibr" target="#b41">Neff 1968;</ref><ref type="bibr" target="#b24">Irby 1981;</ref><ref type="bibr" target="#b55">Rogers 1987;</ref><ref type="bibr" target="#b60">Sawyer et al. 1990</ref>). Research on multiple species of wild ungulates indicates average daily deposition rates range from eight to 52 pellet piles per individual per day <ref type="bibr" target="#b41">(Neff 1968;</ref><ref type="bibr" target="#b55">Rogers 1987;</ref><ref type="bibr" target="#b60">Sawyer et al. 1990;</ref><ref type="bibr" target="#b37">Miller &amp; Drake 2004)</ref>. Scat persistence, or removal rate, also affects the number of samples available. Removal rates are higher in wet than dry conditions due to increased microbial activity <ref type="bibr" target="#b26">(Kie et al. 2003;</ref><ref type="bibr" target="#b35">McConkey 2005;</ref><ref type="bibr" target="#b71">Van Vliet et al. 2008;</ref><ref type="bibr" target="#b42">Norris &amp; Michalski 2010)</ref>, and rain events that wash away samples <ref type="bibr" target="#b20">(Harestad &amp; Bunnell 1987)</ref> or increase degradation rates <ref type="bibr" target="#b5">(Brinkman et al. 2010</ref><ref type="bibr" target="#b6">(Brinkman et al. , 2011))</ref>. Additionally, the number and density of individuals can influence removal rates with samples often being trampled or rendered unusable in areas of high animal activity or density, for example artificial feeders or drinkers <ref type="bibr" target="#b20">(Harestad &amp; Bunnell 1987)</ref>.</p><p>DNA degradation rates determine how long after deposition an individual can be detected from a faecal sample with molecular methods (i.e. successful genotyping). Research indicates that cold, dry conditions <ref type="bibr" target="#b19">(Farrell et al. 2000;</ref><ref type="bibr" target="#b29">Lucchini et al. 2002;</ref><ref type="bibr" target="#b0">Adams et al. 2011</ref>) and collection of the most recently deposited samples <ref type="bibr" target="#b19">(Farrell et al. 2000;</ref><ref type="bibr" target="#b47">Piggott 2004</ref>) maintain the highest DNA quality and quantity. As success rates differ between species, study area and season, it is essential to implement pilot studies to determine DNA degradation rates, genotyping errors and number of replicates needed for reliable genotypes prior to conducting research <ref type="bibr" target="#b68">(Taberlet et al. 1999;</ref><ref type="bibr" target="#b47">Piggott 2004</ref>). Additionally, collecting fresh samples can be difficult in rare or wide-ranging species, and thus knowledge of the time postdeposition that DNA remains detectable is critical for appropriate study design.</p><p>We use the Sonoran pronghorn (Antilocapra americana sonoriensis) as a model system for optimizing sampling design for NDS-CR mark-recapture methods for population monitoring by assessing deposition and DNA degradation rates for faecal pellets. The Sonoran pronghorn is found exclusively in the Sonoran Desert of Arizona and Mexico and was listed under the US Endangered Species Act of 1973 (USFWS 1998). In the mid 1800s, the U.S. population is believed to have been in the thousands (O <ref type="bibr">'Gara &amp; Yoakum 2004</ref>), but by 1991, Arizona's population was estimated at 250 animals. However, after several years of below-average rainfall, changing climatic conditions, and a severe drought, the 2003 U.S. population estimate was just 21 individuals <ref type="bibr" target="#b3">(Bright &amp; Hervert 2003)</ref>. A captive breeding pen for Sonoran pronghorn was initiated on the Cabeza Prieta National Wildlife Refuge (CPNWR) to facilitate recovery efforts <ref type="bibr" target="#b44">(Otte 2006)</ref>. By 2012, the U.S. population had recovered to an estimated 159 individuals (95% CI: 112-432). The current range of Sonoran pronghorn in the U.S.A covers approximately 11 000 km 2 (USFWS 2010), and most of the U.S. population resides in southwest Arizona.</p><p>While there are no federal delisting criteria for Sonoran pronghorn, criteria for downlisting to threatened requires either (i) a stable population of approximately 300 adult Sonoran pronghorn in one U.S. population and a second separate U.S. population or (ii) population numbers that are determined to be adequate to maintain a long-term, viable population (USFWS 1998). Current surveys and monitoring of wild pronghorn consist of locating radio-collared individuals opportunistically from the ground, bimonthly monitoring flights, and a biennial aerial population count <ref type="bibr" target="#b22">(Hervert et al. 1997;</ref><ref type="bibr">US-FWS 2010)</ref>. While this provides population estimates, it is costly and does not provide information on survival, reproduction or genetic diversity, which are attained with NDS methods.</p><p>Often the primary motive behind sampling design in wildlife management is minimizing cost, which does not necessarily correlate with ideal sampling for optimal NDS-CR design. Our methods aim to optimize both cost and recovery of target DNA from faecal samples. Our goal was to determine the optimal sampling design for monitoring Sonoran pronghorn using faecal DNA and mark-recapture techniques by estimating faecal pellet deposition rates and DNA degradation rates. During the hot, dry months (April-June), Sonoran pronghorn congregate at artificial drinkers <ref type="bibr" target="#b22">(Hervert et al. 1997;</ref><ref type="bibr" target="#b70">USFWS 2010)</ref>, presenting the opportunity for targeted sampling, which should reduce sampling effort and increase the number of samples collected. We anticipated collection of multiple pellet piles per individual per day at drinkers due to the length of time spent at the feed stations, and we expected rapid DNA degradation due to exposure to intense ultraviolet light and high temperatures. Therefore, we predicted a 1-3 week interval would be the optimal gap between sampling sessions to obtain adequate samples sizes for mark-recapture analysis and maximize efficiency for both field and laboratory <ref type="bibr" target="#b5">(Brinkman et al. 2010;</ref><ref type="bibr" target="#b15">DeMay et al. 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study area</head><p>The study area includes the captive Sonoran pronghorn pen and two drinkers on the CPNWR, and three drinkers on the Barry M. Goldwater Range (BMGR). State and federal personnel provide supplemental feed for pronghorn at these sites weekly during the dry months (Fig. <ref type="figure" target="#fig_0">1</ref>). Feeding and watering begins in April or May and ends in October or November depending on the amount of rainfall (J. Atkinson, personal communication).</p><p>The study area has average high temperatures of over 38°C in summer and is one of the hottest and driest regions of North America (Integrated Natural Resources Management Plan (INRMP) 2003). From June to October, temperatures on CPNWR can exceed 32°C for more than 100 consecutive days (USFWS 2002). The dry season extends from April to June as most precipitation falls in winter and late summer. Average annual precipitation on the CPNWR ranges from 20 cm in the east to 7.5 cm in the west (USFWS 2002).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Estimating deposition rates</head><p>In July 2012, we collected deposition data for pronghorn at two drinkers on CPNWR and three drinkers on BMGR. First, we cleared all faecal pellets at a radius of 25-40 m around drinkers and feeding areas. Circle diameters varied between sites as the layout of feed and water sites differed. Faecal pellet piles were counted at an interval of 1-7 days. Three sites were sampled once on day 1 (n = 1) and day 7 (n = 2), while two sites were sampled multiple times on day 1, 2 and 6, and day 3 and 7, respectively (Table <ref type="table" target="#tab_0">1</ref>). Sampling location and interval were limited by requirements to minimize pronghorn disturbance and travel to drinkers with agency personnel. We counted all discrete pellet piles in the cleared circle. To minimize the potential for wasted effort in the laboratory, we excluded piles that appeared to be from &gt;1 individual based on pellet shape and size, as these were likely mixed samples.</p><p>To estimate the expected number of pellet piles available for sampling each day, we averaged number of pellet piles per pronghorn per day across sites (Table <ref type="table" target="#tab_0">1</ref>). The number of pronghorn using each drinker is estimated by agency personnel from remote camera data and is based on the maximum number seen on camera at one time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA degradation</head><p>To ensure collection of samples &lt;24 h old, the area around feed stations in the captive pen on CPNWR was cleared of pellets on 3 July 2012. On 4 July 2012, we returned and collected 20 pellet piles from ten presumed adult (five males, five females) and 10 presumed fawn (five males, four females, one unknown sex). Fawn and adult samples were classified based on visual inspection of size and morphology (thus, 'presumed'). While there are currently no published studies documenting size differences in faecal pellets of fawn and adult pronghorn, differences have been documented for other ungulates <ref type="bibr" target="#b18">(Ezcurra &amp; Gallina 1981;</ref><ref type="bibr" target="#b10">Bubenik 1982;</ref><ref type="bibr" target="#b32">MacCracken &amp; Van Ballenberge 1987;</ref><ref type="bibr" target="#b57">Sanchez-Rojas et al. 2004)</ref>. Pellet piles were exposed to local environmental conditions near the captive pen for 124 days from 4 July 2012 through 5 November 2012. Three pellets were collected from each sample at days 1, 3, 5, 7, 14, 21, 60 and 124, placed in paper coin envelopes, and stored at room temperature in a plastic Ziploc bag with one cup of silica desiccant (Fisher catalogue no. S161-212) to reduce DNA degradation prior to analysis. We tracked rainfall and temperature during the sampling period using local weather stations (<ref type="url" target="http://www.earthonly.com/ajo/">http://www.earthonly.com/ajo/</ref> weather/) (Table <ref type="table" target="#tab_0">S1</ref>, Supporting Information). Average high temperatures were approximately 39 °C from day 1 to 60 and 33 °C from days 60 to 124, and total rainfall from day 1 to 124 was 16.4 cm (Table <ref type="table" target="#tab_0">S1</ref>, Supporting Information).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extraction and PCR amplification</head><p>DNA was extracted using three pellets from each sample, and samples were extracted in a random order across time points to minimize bias introduced during sample processing. Preserved samples were extracted seven to 25 days postcollection to minimize DNA degradation during storage. Previous studies of DNA preservation on silica for ungulate faecal samples showed higher nDNA concentration, fewer genotyping errors and greater success achieving a consensus genotype compared to other storage methods <ref type="bibr" target="#b64">(Soto-Calderon et al. 2009)</ref>, and no consistent support for an effect of storage time on DNA amplification success on faecal pellets <ref type="bibr" target="#b64">(Soto-Calderon et al. 2009;</ref><ref type="bibr" target="#b15">DeMay et al. 2013)</ref>. All extractions were performed using a Qiagen QIAamp DNA stool mini kit (Qiagen Inc., Valencia, CA, USA) in a laboratory dedicated to processing low quantity DNA samples. Extraction protocols followed those described in <ref type="bibr" target="#b0">Adams et al. (2011)</ref> with the modification of adding a larger volume (3200 lL) of ASL buffer in step one to ensure pellets were completely immersed in buffer. Each set of extractions contained a negative control to monitor for contamination.</p><p>Six nDNA microsatellite loci previously used for pronghorn ranging in size from 113 to 270 base pairs (bp) were amplified in a single multiplex PCR (Table <ref type="table" target="#tab_2">S2</ref>, Supporting Information). Sex identification was determined by a separate PCR using KY1/KY2 primers <ref type="bibr" target="#b4">(Brinkman &amp; Hundertmark 2009)</ref> as described in <ref type="bibr" target="#b76">Woodruff et al. (2014)</ref>. A negative and positive control were included in each PCR. PCR products were analysed using an ABI 3130xl capillary machine (Applied Biosystems, Foster City, CA, USA) and visualized in Genemapper 3.7 (Applied Biosystems, Foster City, CA, USA). All samples that failed to amplify in the first PCR were reamplified <ref type="bibr" target="#b40">(Murphy et al. 2007)</ref>. We performed a minimum of two replicates per sample from each time point, and consensus genotypes were determined using replicates from multiple time points. A PCR replicate for a locus was deemed successful if DNA amplified in the expected size range with an intensity of ≥100 fluorescent units, even if it did not match the consensus genotype. PCR success rates were estimated as number of successful PCRs across all loci per time point divided by total number of PCRs conducted across all loci. In an earlier study, we assessed mitochondrial DNA (mtDNA) amplification success rates for the same samples by amplifying a 129 bp mtDNA locus <ref type="bibr" target="#b76">Woodruff et al. 2014</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genotyping error rates</head><p>Two replicates were performed per time point; however, three to eight repetitions were performed per sample to obtain a consensus genotype for each of the six microsatellite loci using replicates from multiple time points. Genotyping errors were calculated following <ref type="bibr" target="#b7">Broquet &amp; Petit (2004)</ref>. We classified errors as false alleles (FA) when alleles not found in the consensus genotype were present <ref type="bibr" target="#b68">(Taberlet et al. 1999;</ref><ref type="bibr" target="#b8">Broquet et al. 2007</ref>) and as allelic dropout (ADO) if, in a heterozygous individual, there was failure to amplify one of two alleles <ref type="bibr" target="#b67">(Taberlet et al. 1996)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>PCR success was modelled using a mixed-effects binary logistic regression model. Evaluating sampling interval efficiency for mark-recapture analyses. A successful sample (successful individual ID genotyping) was defined as a sample that amplified at a minimum of four loci. Probability of identity siblings (P ID sibs) <ref type="bibr" target="#b74">(Waits et al. 2001</ref>) was conducted using GENALEX 6.5 software <ref type="bibr" target="#b46">(Peakall &amp; Smouse 2012</ref>) and was 0.023 for these six loci. We acknowledge that 4-6 loci will not be sufficient for distinguishing some first-degree relatives; however, when applying this method in the field, we require consensus genotypes at seven of 10 loci (70%) for individual ID. Here, we use the four of six threshold to indicate the proportion of loci that need to amplify to obtain an individual ID.</p><p>To evaluate optimal sampling intervals for markrecapture analysis, we assumed 15 pronghorn per site (range: 6-25 per site), an estimated deposition rate of one pellet pile per pronghorn per day, and an average sample removal rate of 10% per day. We acknowledge that removal rates vary by drinker; however, we used this average value of removal rates at East Release (Table <ref type="table" target="#tab_0">1</ref>) for modelling purposes. Thus, the number of samples available for collection is a product of the number of pronghorn using the site and the number of days in the interval, minus 10% per day. For example, with 15 pronghorn and a sampling interval of 4 days, 15 samples are 1 day old, 14 are 2 days old, 13 are 3 days old, 12 are 4 days old and so on. We then used our model-based predicted PCR success rates to estimate the number and per cent of samples that could be successfully genotyped at each sampling interval from 1 to 10 days. At every sampling interval, each sample was assigned a specific predicted PCR success dependent on sample age. For simplicity, and because there were negligible differences between different sex and age classes, only adult female PCR success rates are shown in the figure . 
+Additionally, we measured efficiency in terms of cost per successful sample, assuming a cost of $60 per collected sample to cover laboratory supplies and labour. Cost per successful sample was calculated as total cost of analysing all collected samples divided by number of predicted successful samples. We did not estimate field costs because future sampling will be conducted as part of the regular duties of field personnel when they visit drinkers to provide feed. To estimate an optimal sampling interval for our study system, we set the following criteria: (i) total number of collected samples for each sampling event should be three times the number of pronghorn estimated to use the site (i.e. ≥45 samples if there are 15 pronghorn present), and (ii) individual ID success rates (successful genotyping) should be &gt;80%. The target number of samples was chosen to ensure sufficient recaptures and maximize performance of markrecapture estimators <ref type="bibr" target="#b63">(Solberg et al. 2006)</ref>; individual ID success rate of 80% was chosen to maximize efficiency and minimize cost per sample.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Deposition</head><p>The average number of faecal pellet piles deposited per day ranged from four to 43, and deposition rates varied depending on temperature and rainfall, number of days between observations and number of pronghorn estimated to use the site (Table <ref type="table" target="#tab_0">1</ref>). The average number of pellet piles per pronghorn per day decreased as number of days between observations increased, and the number of pellet piles counted at drinkers decreased after major rain events (Table <ref type="table" target="#tab_0">1</ref>). The average number of pellet piles per pronghorn per day was 1.11 (range: 0.77-1.72), excluding sites with major rain events (Table <ref type="table" target="#tab_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Degradation and PCR success</head><p>PCR success rates for nDNA microsatellites were 81% and 80% at days 1 and 3, respectively, and dropped to 69%, 63%, 2% and 0.01%, at days 5, 7, 14 and 21, respectively (Table <ref type="table" target="#tab_2">2</ref>). None of the microsatellite loci amplified at the 60 or 124 day time points (Table <ref type="table" target="#tab_4">S3</ref>, Supporting Information). Based on the mixed-effects logistic regression model for PCR success, we found a significant effect for age of sample (Z = À13.35, P &lt; 0.0001), with the odds (odds = probability/1-probability) of PCR success decreasing by approximately 88% every time sample age is doubled. Longer loci had significantly lower PCR success probabilities (Z = À2.34, P = 0.0193), with the odds of success decreasing by a factor of approximately 0.5% per unit (base pair) increase in length. No statistically significant differences were detected in PCR success probabilities between samples from animals of different sex or age; however, the trend in estimates suggests a higher success rate for samples from fawns and females (Table <ref type="table" target="#tab_2">2</ref> and Fig. <ref type="figure">2</ref>). DNA contamination was not detected in any negative controls.</p><p>Genotyping error rates. Average ADO rates were high (21%) at day 1, and per locus ADO rates ranged from 4% to 33%. Average rate of ADO increased to 23% at day 3, 53% by day 7, 88% by day 14 and 100% by day 21. Average FA rates were lower at 1% (locus range: 0-5%) in samples &lt;1 day old, 4% (locus range: 0-9%) for day 7 and 100% by day 14 (Table <ref type="table" target="#tab_4">3</ref> and<ref type="table" target="#tab_5">Table S4</ref>, Supporting Information). We did not detect a significant impact of locus length on genotyping error rates.</p><p>Sampling interval efficiency for mark-recapture. For a simulated population of 15 pronghorn, the estimated number of successful samples was 15 on day 1 increasing to 62 successful samples by day 10 (Fig. <ref type="figure" target="#fig_1">3</ref>). Predicted individual ID success was 100% through day 3, dropping to 94% by day 5 and 75% by day 10 (Fig. <ref type="figure" target="#fig_1">3</ref>). Target sample size (&gt;39 number of individuals using the drinker) was reached on day 4, and a sampling interval of ≤7 days assured the proportion of successfully genotyped samples was &gt;80%. Cost per successful sample increased from $60 per successful sample on day 1 (100% efficiency) to $61 per sample by day 4 (98% efficiency) to &gt;$71/sample by day 7 (84% efficiency) (Table <ref type="table" target="#tab_5">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Appropriate sampling methods are of primary importance, and knowledge of the species' biology and behaviour helps dictate sampling design <ref type="bibr" target="#b30">(Lukacs &amp; Burnham 2005;</ref><ref type="bibr" target="#b53">Puechmaille &amp; Petit 2007)</ref>. NDS approaches typically use standardized transect sampling <ref type="bibr" target="#b27">(Kohn et al. 1999;</ref><ref type="bibr" target="#b52">Prugh et al. 2005;</ref><ref type="bibr" target="#b25">Kendall et al. 2009;</ref><ref type="bibr" target="#b14">DeBarba et al. 2010)</ref> or targeted sampling methods <ref type="bibr" target="#b51">(Prigioni et al. 2006;</ref><ref type="bibr" target="#b53">Puechmaille &amp; Petit 2007;</ref><ref type="bibr" target="#b56">Rudnick et al. 2008;</ref><ref type="bibr" target="#b54">Robinson et al. 2009;</ref><ref type="bibr" target="#b66">Stenglein et al. 2010)</ref>. Abundance estimates using standardized transect sampling methods are the most commonly used approach and perform well in randomly distributed populations <ref type="bibr" target="#b11">(Buckland et al. 2001;</ref><ref type="bibr" target="#b75">Williams et al. 2002)</ref>; however, less focus has been placed on targeted sampling designs. Sonoran pronghorn provide a good model system for evaluating a targeted sampling design because they congregate at drinkers during drought periods. In this study, our goal was to develop an efficient temporal sampling design for mark-recapture that accounted for sample deposition rates and DNA degradation rates while also minimizing disturbance to pronghorn. Much research has been carried out on faecal DNA degradation rates; however, this is one of the first studies (see <ref type="bibr" target="#b28">Lonsinger et al. 2014)</ref> to consider the combination of faecal deposition, DNA degradation rates and cost in mark-recapture sampling design, and we expect this approach to be valuable for optimizing markrecapture sampling design in other systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Factors influencing deposition at drinkers</head><p>Estimates of faecal deposition rates are a function of the number of deposition events that occur in the focal area and the sample removal rate. Our study evaluated deposition at drinkers and feeding sites, which are likely to have high and concentrated levels of deposition  <ref type="bibr" target="#b24">(Irby 1981)</ref>. Factors that likely influenced removal in our study system were insect activity, rain, mixing of pellet piles and stomping of pellet piles by pronghorn or humans. Estimates of deposition rates varied depending on the number of days between observations, maximum number of animals observed on camera at each site, removal rate and local weather conditions. Our data indicated an average deposition rate of one pellet pile per pronghorn per day and a removal rate of approximately 10% per day. Average number of pellet piles per pronghorn per day decreased as number of days between observations increased, presumably due to increased removal rates. Deposition data from two sites (Point of Pintas and Devil Hills) showed considerably fewer pellet piles than expected (Table <ref type="table" target="#tab_0">1</ref>), during a time when significant rain (29.46 mm) fell at these sites. At Point of Pintas, with an interval of 7 days and seven pronghorn present, we expected 44 pellet piles and counted 31, and at Devil Hills, with an interval of 7 days and 11 pronghorn using the site, we expected 69 pellet piles and counted only 30. We postulate this decrease in pellet piles could be attributed to removal by rain (wash-ing the pellets away) and less time spent at the drinkers as a result of increased availability of native forage and water due to rain. Additionally, deposition rates at Charlie Bell were lower than expected. Remote camera data indicate high levels of human activity at drinkers decreases pronghorn activity in the area (USFWS 2010) and could result in lower deposition at the drinker, Charlie Bell, which experiences high levels of human activity compared to other drinkers.</p><p>Factors influencing DNA degradation. Similar to other studies, we found the age of pellets dramatically affected PCR success rates <ref type="bibr" target="#b47">(Piggott 2004;</ref><ref type="bibr" target="#b40">Murphy et al. 2007;</ref><ref type="bibr" target="#b5">Brinkman et al. 2010;</ref><ref type="bibr" target="#b15">DeMay et al. 2013</ref>) likely due to rapid DNA degradation caused by exposure to intense ultraviolet light and high temperatures. As expected, nDNA success rates were lower than mtDNA success rates reported previously for the same samples which were 100% up to day 14, dropping to 95% by day 21, 45% on day 60 and 10% by day 124 <ref type="bibr" target="#b76">(Woodruff et al. (2014)</ref>). There are few studies of nDNA degradation rates for pellet-type faecal samples with comparable environmental conditions; however, our success rates were slightly lower at day 1 than other pellet studies with similar amplicon sizes <ref type="bibr" target="#b34">(Maudet et al. 2004;</ref><ref type="bibr" target="#b15">DeMay et al. 2013</ref>) and lower than one pellet study with longer amplicon lengths <ref type="bibr" target="#b5">(Brinkman et al. 2010)</ref>. From day 5 to 7, our success rates were higher (64% vs. 43%) than those of pygmy rabbit (Brachylagus idahoensis) pellets under similar dry, hot conditions, yet our 21 day old samples failed nearly completely, while pygmy rabbit samples maintained 29% success <ref type="bibr" target="#b15">(DeMay et al. 2013)</ref>. Studies in southeast Alaska of Sitka black-tailed deer (Odocoileus hemionus sitkensis) pellets protected from rainfall had &gt;90% PCR success rates for 1-28 days, while those  exposed to rain showed a significant decrease over time to approximately 70% by day 28 <ref type="bibr" target="#b5">(Brinkman et al. 2010)</ref>. The higher PCR success rate for the deer suggests that other factors, such as diet, environment and/or laboratory protocols, have greater influence on amplification success than locus length.</p><p>Our samples showed the greatest decline from day 7 to 14 with PCR success falling to 2% by day 14 and indicating analyses using nDNA, such as individual identification and parentage, should be conducted only on samples ≤7 days old. The first rain of the sampling period fell during the 7-14 day interval (total 1.5 cm) potentially indicating an effect of precipitation on degradation rates. However, in this study, the effect of age represents a combination of sample age, as well as the collective effects of rainfall, temperature and other environmental effects that were common to all samples. We acknowl-edge this was a limitation of our study and additional research using a design that evaluates samples exposed to varying environmental conditions over time would avoid confounding age with environmental factors. While our results were inconclusive as to whether rainfall impacted success rates, impacts of wet conditions on PCR success rates shown in other studies <ref type="bibr" target="#b19">(Farrell et al. 2000;</ref><ref type="bibr" target="#b47">Piggott 2004;</ref><ref type="bibr" target="#b40">Murphy et al. 2007;</ref><ref type="bibr" target="#b5">Brinkman et al. 2010</ref><ref type="bibr" target="#b6">Brinkman et al. , 2011) )</ref> highlights the importance of sampling during the dry season. Similar to other studies <ref type="bibr" target="#b8">(Broquet et al. 2007;</ref><ref type="bibr" target="#b15">DeMay et al. 2013</ref>) longer locus length significantly decreased PCR success rates.</p><p>While age class was not statistically significant in our analyses, we found slightly higher success rates in fawn and adult female samples than adult male samples. However, due to our low sample sizes, we speculate that we lacked the power to detect the effect of age class. We  had hypothesized that adults would have greater success because of greater surface area of the pellets. The trend of higher success in females and fawns is potentially due to differences in diet, hormones and metabolic rates. No other studies have evaluated the effects of age class in faecal DNA PCR success rates, and this may be a useful direction for future analyses. Time since deposition also affected genotyping error rates, and there was an increase in average ADO and FA rates over time. ADO rates were high compared to other studies <ref type="bibr" target="#b5">(Brinkman et al. 2010;</ref><ref type="bibr" target="#b15">DeMay et al. 2013)</ref>. While average ADO rates changed only moderately from day 1 to day 3, some per locus error rates changed considerably, with ADO rates of one locus (ADCYC) increasing from 4% to 50%.</p><p>Maximizing sampling design for mark-recapture analyses. Our primary goal was to determine an optimal sampling interval between mark-recapture sessions. Specifically, we wanted a long enough interval to ensure samples could be collected at a rate of three times the number of individuals estimated to use the site and short enough to ensure successful genotyping of individuals of at least 80%, while balancing pronghorn disturbance and financial cost. During the hot dry months when pronghorn are stressed due to heat and lack of forage and freestanding water, minimizing pronghorn disturbance is a critical concern. To minimize pronghorn disturbance and collect more samples in each sampling session a longer time interval between sessions is desirable. However, with longer sampling intervals, number of samples removed increases, and PCR success rates decrease, thus increasing cost. For our study system, we estimate we can obtain the desired number of samples with a sampling interval of ≥4 days and maintain individual identification success rates above 80% from days 1 to 7 (Fig. <ref type="figure" target="#fig_1">3</ref>).</p><p>Another metric of efficiency is cost per successful sample. Cost per successful sample using predicted number of successful samples (Table <ref type="table" target="#tab_5">4</ref>) ranged from $60 (1 day interval) to $79.49 (10 day interval), an increase of 32%. Our data indicate the optimal sampling interval would be 4-7 days to achieve the target sample size and individual ID success rates while minimizing cost per successful sample and disturbance to pronghorn.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Implications for monitoring</head><p>The small population size and large range of Sonoran pronghorn present major challenges for faecal DNA sampling. Our proposed method of sampling at drinkers should allow collection of a large number of samples from most of the individuals visiting the drinkers and provide a more accurate population estimate than is feasible with methods such as remote cameras. One poten-tial weakness of our targeted sampling approach is that some individuals may not use drinkers, and AZGFD personnel posit this is around 30% of the total population (J. Hervert, personal communication).</p><p>Our research was conducted in summer, which is likely the most ideal season for estimating abundance for Sonoran pronghorn using NDS methods. During cooler, wetter times of year pronghorn are spread out over a large spatial area (11 000 km 2 ), and thus, sampling should be completed prior to the onset of monsoon season in July. Our results indicate rapid nDNA degradation occurs in the intense ultraviolet light and high temperatures experienced in summer conditions, thus, collection of fresh samples will maximize success. However, mtDNA species identification could be for useful for presence/absence information and occupancy analyses, and mtDNA success rates remain over 40% for up to 3 months <ref type="bibr" target="#b76">(Woodruff et al. (2014)</ref>).</p><p>We initially predicted an intermediate interval of approximately 1-3 weeks would be the optimal gap between sampling sessions to maximize efficiency in the field and laboratory. Based on individual ID success, a sampling interval of 1-7 days would be sufficient to optimize amplification success rates; however, an interval of 1-3 days would likely give too small a sample size, and local managers attempt to limit disturbance of pronghorn at drinkers to once per week. Sampling every 4-5 days is the ideal balance between efficiency of cost, DNA degradation and deposition. However, to minimize disturbance, we propose using a 7 day sampling interval and synchronizing weekly agency personnel visits for stocking feed and water with faecal DNA sample collection. We expect that sampling at drinkers during the driest times of year, which coincides with supplemental feeding and increased drinker use, will present the best opportunity for optimum sampling efficiency.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>While no sampling design will fit every study, our results highlight the need to consider multiple factors in sampling design including faecal deposition rates, removal rates, DNA degradation rates, species' biology and behaviour, and the possible disturbance caused by sampling. As noted by other authors <ref type="bibr" target="#b68">(Taberlet et al. 1999;</ref><ref type="bibr" target="#b47">Piggott 2004</ref>), conducting a pilot study prior to initiation of sampling is critical to informing researchers of siteand species-specific differences and will facilitate optimal sample collection approaches and to maximize sample collection and DNA amplification success rates. While faecal DNA mark-recapture methods have rarely been used for population estimation of ungulates, we believe that with effective sampling design and implementation, it is a promising approach. Based on faecal degradation rates, an NDS study of this species, or others that are uncommon and broadly distributed, might not be feasible. Therefore, the opportunity to collect fresh faecal samples where the target species is congregated (naturally or due to human intervention) allows an NDS study to be conducted. These methods could be applicable to other ungulate species and study systems where animals congregate at centralized locations, such as in African savannah ecosystems, where, for example, zebra (Equus quagga), sable antelope (Hippotragus niger), waterbuck (Kobus ellipsiprymnus) and other species gather at natural and artificial watering sites in the dry season <ref type="bibr" target="#b12">(Cain et al. 2012)</ref> presenting an opportunity for targeted sampling of a typically broadly distributed species.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Map of the study area showing Cabeza Prieta National Wildlife Refuge and Barry M. Goldwater Range, Arizona, USA. Sampling locations are indicated by black dots.</figDesc><graphic coords="4,54.43,456.37,309.24,251.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3</head><label>3</label><figDesc>Fig.3Expected number of failed and successful Sonoran pronghorn faecal pellets samples by sampling interval (days). The percentages are the relative efficiency (i.e. per cent of expected successful samples).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Deposition rates for Sonoran Pronghorn faecal pellets collected in Cabeza Prieta National Wildlife Refuge and Barry M. Goldwater Range, Arizona, USA during July 2012</figDesc><table><row><cell></cell><cell>Sampling</cell><cell># Pellet</cell><cell>Average</cell><cell>Est. # pronghorn</cell><cell>Average # piles/</cell></row><row><cell>Drinker</cell><cell>interval (days)</cell><cell>piles</cell><cell>pellet piles/day</cell><cell>present</cell><cell>pronghorn/day</cell></row><row><cell>East Release</cell><cell>1</cell><cell>9</cell><cell>9</cell><cell>7</cell><cell>1.29</cell></row><row><cell>Charlie Bell</cell><cell>1</cell><cell>7</cell><cell>7</cell><cell>9</cell><cell>0.78</cell></row><row><cell>East Release</cell><cell>2</cell><cell>19</cell><cell>10</cell><cell>8</cell><cell>1.19</cell></row><row><cell>TACNA 1B</cell><cell>3</cell><cell>129</cell><cell>43</cell><cell>25</cell><cell>1.72</cell></row><row><cell>East Release</cell><cell>6</cell><cell>37</cell><cell>6</cell><cell>8</cell><cell>0.77</cell></row><row><cell>TACNA 1B</cell><cell>7</cell><cell>135</cell><cell>19</cell><cell>25</cell><cell>0.77</cell></row><row><cell>Point of the Pintas</cell><cell>7</cell><cell>31</cell><cell>4</cell><cell>7</cell><cell>0.63*</cell></row><row><cell>Devil Hills</cell><cell>7</cell><cell>30</cell><cell>4</cell><cell>11</cell><cell>0.39*</cell></row><row><cell cols="2">*Outliers are due to rain events.</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Fixed effects were specified for sample age in days transformed to log 2 (days), age (adult or fawn), sex, locus length (represented by the midpoint in base pair size range for all observed alleles) and marker type (mtDNA or nDNA). PCR success rates for mtDNA and nDNA were analysed simultaneously to improve statistical precision of estimating sample-specific random effects; however, only nDNA are reported here as mtDNA results are reported inWoodruff et al.   </figDesc><table /><note><p><p>(2014)</p>. To account for multiple observations per sample (i.e. markers within samples), a random effect was specified for sample. Maximum-likelihood was used to obtain point estimates for model parameters using adaptive Gauss-Hermite quadrature to approximate the integral in the log-likelihood function. Reported tests and confidence intervals were also based on standard asymptotic results for the sampling distributions of the maximumlikelihood estimators. SAS/STAT PROC GLIMMIX (SAS Institute Inc. 2011) was used for all calculations.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>A comparison of male/female and adult/fawn PCR success rate (%) for nDNA microsatellite amplification in Sonoran Pronghorn faecal pellets of varying ages (1-21 days exposure)</figDesc><table><row><cell></cell><cell>All samples PCR</cell><cell>Male* PCR</cell><cell>Female* PCR</cell><cell>Fawn PCR</cell><cell>Adult PCR</cell></row><row><cell>Day</cell><cell>success (N = 180)</cell><cell>success (N = 42)</cell><cell>success (N = 60)</cell><cell>success (N = 54)</cell><cell>success (N = 68)</cell></row><row><cell>1</cell><cell>8 1</cell><cell>9 8</cell><cell>9 5</cell><cell>9 8</cell><cell>9 6</cell></row><row><cell>3</cell><cell>80</cell><cell>90</cell><cell>92</cell><cell>100</cell><cell>79</cell></row><row><cell>5</cell><cell>6 9</cell><cell>6 7</cell><cell>7 6</cell><cell>7 7</cell><cell>6 5</cell></row><row><cell>7</cell><cell>6 3</cell><cell>6 2</cell><cell>6 9</cell><cell>7 3</cell><cell>5 7</cell></row><row><cell>14</cell><cell>2</cell><cell>8</cell><cell>2</cell><cell>8</cell><cell>3.7</cell></row><row><cell>21</cell><cell>0.01</cell><cell>8</cell><cell>2</cell><cell>8</cell><cell>3.7</cell></row></table><note><p>*Includes both adults and fawns.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 3</head><label>3</label><figDesc></figDesc><table><row><cell cols="7">Observed rates of allelic dropout (ADO) and false</cell></row><row><cell cols="7">alleles (FA) in nDNA extracted from Sonoran pronghorn pellets</cell></row><row><cell cols="3">1-21 days post deposition</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="3">Sample Age (days)</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>1</cell><cell>3</cell><cell>5</cell><cell>7</cell><cell>1 4</cell><cell>2 1</cell></row><row><cell>ADO (%)</cell><cell>21</cell><cell>23</cell><cell>35</cell><cell>53</cell><cell>88</cell><cell>100</cell></row><row><cell>FA (%)</cell><cell>1</cell><cell>3</cell><cell>13</cell><cell>4</cell><cell>33</cell><cell>100</cell></row><row><cell cols="7">PCR success was zero for samples aged 60 and 124 days so error</cell></row><row><cell cols="3">rates were not calculated.</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 4</head><label>4</label><figDesc>Cost per successful sample for sampling intervals of 1-10 day estimated assuming 15 pronghorn using a drinker, a deposition rate of 1 sample/pronghorn/day and a removal rate of 10%/day</figDesc><table><row><cell></cell><cell></cell><cell>% Successful</cell><cell># Successful</cell><cell>Cost ($) per</cell><cell>% Increase</cell></row><row><cell>Day</cell><cell># Samples*</cell><cell>samples</cell><cell>samples*</cell><cell>successful sample</cell><cell>in cost</cell></row><row><cell>1</cell><cell>15</cell><cell>100</cell><cell>15</cell><cell>60.00</cell><cell>0</cell></row><row><cell>2</cell><cell>29</cell><cell>100</cell><cell>29</cell><cell>60.01</cell><cell>0</cell></row><row><cell>3</cell><cell>41</cell><cell>100</cell><cell>41</cell><cell>60.19</cell><cell>1.0</cell></row><row><cell>4</cell><cell>51</cell><cell>98</cell><cell>50</cell><cell>61.18</cell><cell>3.1</cell></row><row><cell>5</cell><cell>60</cell><cell>94</cell><cell>57</cell><cell>63.65</cell><cell>8.7</cell></row><row><cell>6</cell><cell>68</cell><cell>89</cell><cell>65</cell><cell>67.43</cell><cell>16.3</cell></row><row><cell>7</cell><cell>74</cell><cell>84</cell><cell>68</cell><cell>71.64</cell><cell>23.5</cell></row><row><cell>8</cell><cell>78</cell><cell>80</cell><cell>71</cell><cell>75.38</cell><cell>29.9</cell></row><row><cell>9</cell><cell>81</cell><cell>77</cell><cell>73</cell><cell>79.09</cell><cell>35.1</cell></row><row><cell>10</cell><cell>83</cell><cell>75</cell><cell>62</cell><cell>79.49</cell><cell>37.0</cell></row><row><cell cols="2">*Rounded values.</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2014 John Wiley &amp; Sons Ltd 2 S . P . W O O D R U F F , T . R . J O H N S O N a n d L . P . W A I T S</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>© 2014 John Wiley &amp; Sons Ltd P R O N G H O R N D N A D E P O S I T I O N A N D D E G R A D A T I O N 3</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>© 2014 John Wiley &amp; Sons Ltd</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>© 2014 John Wiley &amp; Sons Ltd P R O N G H O R N D N A D E P O S I T I O N A N D D E G R A D A T I O N 11</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="institution">AZ Game</rs> and <rs type="institution">Fish Department and CPNWR personnel</rs> for assistance with sample collection. Special thanks to <rs type="person">J. Hervert</rs> for his time and expertise and to <rs type="person">J. Atkinson</rs> for monitoring and collecting samples. Thanks to <rs type="person">Jennifer Adams</rs> for laboratory method assistance and the <rs type="institution">Waits laboratory group</rs> for comments on improving the manuscript. This research was supported by a grant from the <rs type="funder">Department of Defence ESTCP programme</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Accessibility</head><p>Raw data in Excel format and SAS code for PCR success, ADO and FA models available on Dryad.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>Additional Supporting Information may be found in the online version of this article:</p><p>Table <ref type="table">S1</ref> Temperature and total rainfall from Day 1 to Day 124 during a degradation study for Sonoran pronghorn faecal pellets collected July-November 2012 in a captive pen, Cabeza Prieta National Wildlife Refuge, Ajo, Arizona, USA.</p><p>Table <ref type="table">S2</ref> Primer set and allele size ranges for microsatellite loci.</p><p>Table <ref type="table">S3</ref> Per locus PCR success rates by locus length in nDNA extracted from Sonoran pronghorn pellets ranging in age from 1 to 21 days post deposition. PCR success was zero for samples aged 60 and 124 days so error rates were not calculated.</p><p>Table <ref type="table">S4</ref> Per locus rates of allelic dropout (ADO) and false alleles (FA) in nDNA extracted from Sonoran pronghorn pellets ranging in age from 1 to 21 days post deposition.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Rapid species identification of pygmy rabbits (Brachylagus idahoensis) from faecal pellet DNA</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Goldberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Bosworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rachlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="808" to="812" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Advancing ecological understandings through technological transformations in noninvasive genetics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beja-Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1279" to="1301" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Borchers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Buckland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zucchini</surname></persName>
+		</author>
+		<title level="m">Estimating Animal Abundance: Closed Populations</title>
+		<meeting><address><addrLine>New York, New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Sonoran pronghorn 2002 aerial survey summary</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Hervert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Arizona Game and Fish Department Nongame and Endangered Wildlife Program Technical Report</title>
+		<imprint>
+			<biblScope unit="volume">236</biblScope>
+			<date type="published" when="2003">2003</date>
+			<pubPlace>Phoenix, Arizona, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Sex identification of northern ungulates using low quality and quantity DNA</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Brinkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Hundertmark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1189" to="1193" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Effects of time and rainfall on PCR success using DNA extracted from deer fecal pellets</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Brinkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Person</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Hundertmark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1547" to="1552" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Estimating abundance of Sitka black-tailed deer using DNA from faecal pellets</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Brinkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Person</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Chapin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Hundertmark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="232" to="242" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Quantifying genotyping errors in noninvasive population genetics</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Broquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Petit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3601" to="3608" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Noninvasive population genetics: a review of sample source, diet, fragment length and microsatellite motif effects on amplification success and genotyping error rates</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Broquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Petit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="249" to="260" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Largescale noninvasive genetic monitoring of wolverines using scats reveals density dependent adult survival</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Brøseth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ø</forename><surname>Flagstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>W€ Ardig C, Johansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ellegren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="113" to="120" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Physiology</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Bubenik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Elk of North America: Ecology and Management</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Thomas</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Toweill</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1982">1982</date>
+			<biblScope unit="page" from="125" to="179" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Buckland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Laake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Borchers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thomas</surname></persName>
+		</author>
+		<title level="m">Introduction to Distance Sampling: Estimating Abundance of Biological Populations</title>
+		<meeting><address><addrLine>New York, New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The costs of drinking: comparative water dependency of sable antelope and zebra</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Cain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Owen-Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Macandza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="58" to="67" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Population size estimation in Yellowstone wolves with error-prone noninvasive microsatellite genotypes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Creel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Spong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sands</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2003" to="2009" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Comparing opportunistic and systematic collection methods for noninvasive genetic monitoring of a small translocated brown bear population</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Debarba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Genovesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randi</forename><forename type="middle">E</forename><surname>Chirichella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Ecology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="172" to="181" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Evaluating DNA degradation rates in faecal pellets of the endangered pygmy rabbit</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Demay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Eldson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rachlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="654" to="662" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Estimating wild boar Sus scrofa population size using faecal DNA and capture-recapture modeling</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Knauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Spielberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Thiele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Hohmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Biology</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="142" to="152" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>a</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic approaches for estimation of ungulate population size: a study on roe deer (Capreolus capreolus) based on faeces</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sandrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Spielberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Thiele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Hohmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Biodiversuty and Conservation</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="267" to="275" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Biology and population dynamics of whitetailed deer in northwestern Mexico</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ezcurra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gallina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Deer Biology, Habitat Requirements, and Management in Western North America</title>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Pfolliott</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Gallina</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Xalapa</addrLine></address></meeting>
+		<imprint>
+			<publisher>Instituto de Ecologia</publisher>
+			<date type="published" when="1981">1981</date>
+			<biblScope unit="page" from="78" to="108" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Dietary separation of sympatric carnivores identified by molecular analysis of scats</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Farrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Roman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Sunquist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1583" to="1590" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Persistence of black-tailed deer faecal pellets in coastal habitats</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Harestad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Bunnell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="33" to="37" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Argali abundance in the Afghan Pamir using capture-recapture modeling from faecal DNA</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Winnie</forename><forename type="middle">J</forename><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Amish</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="668" to="677" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Preliminary investigations of Sonoran pronghorn use of free-standing water</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Hervert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of a symposium on Environmental, Economic and Legal Issues Related to Rangeland Water Development. The Center for the Study of Law</title>
+		<meeting>a symposium on Environmental, Economic and Legal Issues Related to Rangeland Water Development. The Center for the Study of Law<address><addrLine>Tempe, AZ</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+		<respStmt>
+			<orgName>Science and Technology, Arizona State University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m">Final environmental impact statement for Barry M. Goldwater Range</title>
+		<imprint>
+			<publisher>.S. Department of the Interior, and Arizona Game and Fish Department</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+		<respStmt>
+			<orgName>U.S. Department of the Air Force, U.S. Department of the Navy, U</orgName>
+		</respStmt>
+	</monogr>
+	<note>Integrated Natural Resources Management Plan (INRMP)</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Variation in defecation rates of pronghorn relative to habitat and activity level</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Irby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Range Management</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="278" to="279" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Demography and genetic structure of a recovering grizzly bear population</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Boulanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Macleod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="3" to="17" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Ungulates in western forests: habitat requirements, population dynamics, and ecosystem processes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Kie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Bowyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Stewart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mammal Community Dynamics: Management and Conservation in the Coniferous Forests of Western North America</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Zabel</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Anthony</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="296" to="340" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Estimating population size by genotyping faeces</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>York</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Kamradt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Haught</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Sauvajot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the Royal Society of London B: Biological Sciences</title>
+		<imprint>
+			<biblScope unit="volume">266</biblScope>
+			<biblScope unit="page" from="657" to="663" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Balancing sample accumulation and DNA degradation rates to optimize noninvasive genetic sampling of sympatric carnivores</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Lonsinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1755-0998.12356</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Noninvasive molecular tracking of colonizing wolf (Canis lupus) packs in the western Italian Alps</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lucchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fabbri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marucco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ricci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randi</forename><forename type="middle">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="857" to="868" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Review of capture-recapture methods applicable to noninvasive genetic sampling</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Lukacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="3909" to="3919" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Extending the robust design for DNA-based capture-recapture data incorporating genotyping error and laboratory data</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Lukacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Dreher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Scribner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Winterstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Modeling Demographic Processes in Marked Populations</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Thompson</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Cooch</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Conroy</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Science and Business Media</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="711" to="725" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Age-and sex-related differences in fecal pellet dimensions of moose</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Maccracken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Van Ballenberge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="360" to="364" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Wolf survival and population trend using noninvasive capture-recapture techniques in the Western Alps</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marucco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Pletscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lebreton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Ecology</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1003" to="1010" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Low genotyping error rates in wild ungulate faeces sampled in winter</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Maudet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dubray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Von</forename><surname>Hardenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="772" to="775" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Influence of faeces on seed removal from gibbon droppings in a dipterocarp forest in Central Borneo</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Mcconkey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Tropical Ecology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="117" to="120" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Estimating population parameters in a threatened arctic fox population using molecular tracking and traditional field methods</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Meijer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Noren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hellstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dalen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Angerbjorn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Conservation</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="330" to="338" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Drake</surname></persName>
+		</author>
+		<title level="m">Nutritional concerns of Pronghorn Antelope on Anderson Mesa and Garland Prairie, Arizona</title>
+		<meeting><address><addrLine>Phoenix</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>Final report submitted to Arizona Game and Fish Department</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Estimating animal abundance using noninvasive DNA sampling: promise and pitfalls</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Citta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Lair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Tallmon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="283" to="294" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The influence of diet on feacal DNA amplification and sex identification in brown bears (Ursus arctos)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2261" to="2265" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The impact of time and field conditions on brown bear faecal DNA amplification</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Perugini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1219" to="1224" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The pellet-group count technique for big game trend, census, and distribution: a review</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Neff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="597" to="614" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Implications of faecal removal by dung beetles for scat surveys in a fragmented landscape of the Brazilian Amazon</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Norris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Michalski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oryx</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="455" to="458" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Gara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Yoakum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename></persName>
+		</author>
+		<title level="m">Pronghorn Ecology and Management</title>
+		<meeting><address><addrLine>Boulder</addrLine></address></meeting>
+		<imprint>
+			<publisher>University Press of Colorado</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Partners save the Sonoran pronghorn</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Otte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Endangered Species Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="22" to="23" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Evaluation of faecal DNA preservation techniques and effects of sample age and diet on genotyping success</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Panasci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Breck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1616" to="1624" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">GenAlEx 6.5: genetic analysis in Excel. Population genetic software for teaching and research-an update</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peakall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2537" to="2539" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Effect of sample age and season of collection on the reliability of microsatellite genotyping of faecal DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="485" to="493" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Remote collection of animal DNA and its applications in conservation management and understanding the population biology of rare and cryptic species</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Genotyping errors: causes, consequences and solutions</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bonin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Genetics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="847" to="859" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Estimating mountain goat abundance using DNA from faecal pellets</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Poole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1527" to="1534" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Estimation of European otter (Lutra lutra) population size by faecal DNA typing in southern Italy</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Prigioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Remonti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balestrieri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="855" to="858" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Monitoring coyote population dynamics by genotyping faeces</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Prugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Ritland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Arthur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Krebs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1585" to="1596" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Empirical evaluation of noninvasive capture-mark-recapture estimation of population size based on a single sampling session</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Puechmaille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Petit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Ecology</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="843" to="852" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Estimating abundance of American black bears using DNA-based capture-mark-recapture models</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Seasonal changes in defecation rates of free-ranging white-tailed deer</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Rogers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="193" to="199" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">A noninvasive genetic evaluation of population size, natal philopatry, and roosting behavior of non-breeding eastern imperial eagles (Aquila heliaca) in central Asia</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rudnick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Katzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Bragin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Dewoody</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="667" to="676" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Pellet morphometry as a tool to distinguish age and sex in the mule deer</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sanchez-Rojas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gallina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Equihua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zoo Biology</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="139" to="146" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Ageing and environmental factors affect PCR success in wolf (Canis lupus) excremental DNA samples</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Santini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lucchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fabbri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randi</forename><forename type="middle">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="955" to="961" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m">SAS/STAT â 9.3 User&apos;s Guide</title>
+		<meeting><address><addrLine>Cary, North California</addrLine></address></meeting>
+		<imprint>
+			<publisher>SAS Institute Inc</publisher>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Defecation rates of female white-tailed deer in Georgia</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Sawyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Marchinton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Lentz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="16" to="18" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Genetic monitoring as a promising tool for conservation and management</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="25" to="33" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Defecation rates of mule deer</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="435" to="444" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">An evaluation of field and non-invasive genetic methods to estimate brown bear (Ursus arctos) population size</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Solberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O-M</forename><surname>Drageset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Swenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="158" to="168" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Effects of storage type and time on DNA amplification success in tropical ungulate faeces</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Soto-Calderon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ntie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mickala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Maisels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Wockings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Anthony</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="471" to="479" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">A long-term population monitoring approach for a wide-ranging carnivore: Noninvasive genetic sampling of gray wolf rendezvous sites in Idaho, USA</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Stansbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Ausband</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zager</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1040" to="1049" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Efficient, noninvasive genetic sampling for monitoring reintroduced wolves</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stenglein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Ausband</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Mack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="1050" to="1058" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Reliable genotyping of samples with very low DNA quantities using PCR</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="3189" to="3194" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling: look before you leap</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="323" to="327" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<ptr target="http://www.fws.gov/southwest/refuges/arizona/cabeza.html" />
+		<title level="m">Final revised Sonoran Pronghorn recovery plan. Albuquerque</title>
+		<imprint>
+			<publisher>USFWS</publisher>
+			<date type="published" when="1998">1998. 2002. 14 July 2012</date>
+		</imprint>
+	</monogr>
+	<note>Cabeza prieta national wildlife refuge</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<monogr>
+		<author>
+			<persName><surname>Usfws</surname></persName>
+		</author>
+		<title level="m">Final Environmental Assessment for Reestablishment of Sonoran Pronghorn</title>
+		<meeting><address><addrLine>Albuquerque</addrLine></address></meeting>
+		<imprint>
+			<publisher>U.S. Department of the Interior Fish and Wildlife Service</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Factors influencing duiker dung decay in north-east Gabon: are dung beetles hiding duikers?</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Van Vliet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lumaret</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">African Journal of Ecology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="40" to="47" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Biases associated with population estimation using molecular tagging</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Leberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Conservation</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="191" to="199" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">New noninvasive genetic sampling tools for wildlife biologists: a review of applications and recommendations for accurate data collection</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Estimating the probability of identity among genotypes in natural populations: cautions and guidelines</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="249" to="256" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Conroy</surname></persName>
+		</author>
+		<title level="m">Analysis and Management of Animal Populations. Modeling, Estimation, and Decision Making</title>
+		<meeting><address><addrLine>San Diego</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Rapid species identification of Sonoran pronghorn (Antilocapra americana sonoriensis) from faecal pellet DNA</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Woodruff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="842" to="848" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Noninvasive individual and species identification of jaguars (Panthera onca), pumas (Puma concolor) and ocelots (Leopardus pardalis) in Belize, Central America using crossspecies microsatellites and faecal DNA</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wultsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1171" to="1182" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<title level="m" type="main">was responsible for laboratory and data analyses, data interpretation and writing of the manuscript</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P W</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>J. performed statistical analyses, produced figures and assisted with preparation of the manuscript. L.P.W. assisted with study design and application in both the field and the laboratory, interpretation of data and preparation of the manuscript</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

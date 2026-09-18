@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Protocols for metagenomic DNA extraction and Illumina amplicon library preparation for faecal and swab samples</title>
+				<funder ref="#_VV6avQa">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+				<funder ref="#_DW5zcjK">
+					<orgName type="full">American Vineyard Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Museum of Vertebrate Zoology and Department of Integrative Biology at the University of California-Berkeley</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">A.-T</forename><forename type="middle">E</forename><surname>Vo</surname></persName>
+							<email>vo@berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Museum of Vertebrate Zoology</orgName>
+								<orgName type="department" key="dep2">Department of Integrative Biology</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>94720-3140</postCode>
+									<settlement>Berkeley</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Jedlicka</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">†Department of Environmental Science, Policy, and Management</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>3101</addrLine>
+									<postCode>94720-3114</postCode>
+									<settlement>Berkeley</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Valley Life Sciences Building</orgName>
+								<address>
+									<postCode>94720-3140.</postCode>
+									<settlement>Berkeley</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Protocols for metagenomic DNA extraction and Illumina amplicon library preparation for faecal and swab samples</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8FE6A255DF440FF5B1320D72839FE678</idno>
+					<idno type="DOI">10.1111/1755-0998.12269</idno>
+					<note type="submission">Received 26 September 2013; revision received 20 April 2014; accepted 24 April 2014</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:55+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>cloacal</term>
+					<term>faeces/feces</term>
+					<term>microbial ecology</term>
+					<term>oral</term>
+					<term>solid phase reversible immobilization beads</term>
+					<term>trophic ecology</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Next-generation sequencing (NGS) technology has extraordinarily enhanced the scope of research in the life sciences. To broaden the application of NGS to systems that were previously difficult to study, we present protocols for processing faecal and swab samples into amplicon libraries amenable to Illumina sequencing. We developed and tested a novel metagenomic DNA extraction approach using solid phase reversible immobilization (SPRI) beads on Western Bluebird (Sialia mexicana) samples stored in RNAlater. Compared with the MO BIO PowerSoil Kit, the current standard for the Human and Earth Microbiome Projects, the SPRI-based method produced comparable 16S rRNA gene PCR amplification from faecal extractions but significantly greater DNA quality, quantity and PCR success for both cloacal and oral swab samples. We furthermore modified published protocols for preparing highly multiplexed Illumina libraries with minimal sample loss and without post-adapter ligation amplification. Our library preparation protocol was successfully validated on three sets of heterogeneous amplicons (16S rRNA gene amplicons from SPRI and PowerSoil extractions as well as control arthropod COI gene amplicons) that were sequenced across three independent, 250-bp, paired-end runs on Illumina's MiSeq platform. Sequence analyses revealed largely equivalent results from the SPRI and PowerSoil extractions. Our comprehensive strategies focus on maximizing efficiency and minimizing costs. In addition to increasing the feasibility of using minimally invasive sampling and NGS capabilities in avian research, our methods are notably not avian-specific and thus applicable to many research programmes that involve DNA extraction and amplicon sequencing.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The power of minimally invasive genetic sampling for molecular ecology and conservation genetics has become increasingly realized and applied within the past decade. Genetic analyses of samples such as faeces, urine, saliva, feathers, eggshells, hair and skin have supported research across numerous fields including movement ecology <ref type="bibr" target="#b55">(Ulizio et al. 2006)</ref>, population genetics <ref type="bibr" target="#b5">(Bellemain et al. 2005)</ref>, behavioural ecology <ref type="bibr" target="#b45">(Rudnick et al. 2007)</ref>, disease ecology <ref type="bibr" target="#b20">(Harris et al. 2009</ref>) and wildlife forensics <ref type="bibr" target="#b57">(Wasser et al. 2007</ref>). However, although faecal and swab samples are less invasive and more readily attained than blood or tissue samples, they comprise surprisingly underexploited resources in ecological and evolutionary studies within nonmammalian systems <ref type="bibr" target="#b4">(Beja-Pereira et al. 2009)</ref>. Whereas minimally invasive approaches in mammalian studies have utilized a wide range of sample types and availability, comparable approaches in avian studies, for example, have predominantly focused on feather sampling for species identification, gender determination and population genetics <ref type="bibr" target="#b48">(Segelbacher 2002;</ref><ref type="bibr" target="#b23">Horv ath et al. 2005)</ref>.</p><p>Molecular analyses of faecal and swab samples afford exciting and underused opportunities to address both long-standing and new research questions in fields such as trophic ecology and microbial ecology. Amplification of prey DNA in faecal metagenomic DNA extracts has enabled characterization of diet and foraging ecology in previously difficult to study taxa such as penguins <ref type="bibr" target="#b15">(Deagle et al. 2010)</ref> and lizards <ref type="bibr" target="#b9">(Brown et al. 2012)</ref>. Likewise, amplification of microbial DNA in skin swabs from several species of cohabiting frogs provided insight into processes underlying biogeographic patterns of freeliving vs. host-associated microbiota <ref type="bibr" target="#b35">(McKenzie et al. 2012)</ref>. Analysis of microbial DNA in faecal extracts has also supported investigation into the relative role of host genetics in determining gut bacterial diversity within an important model species for avian sexual selection and behavioural ecology studies, captive zebra finches <ref type="bibr" target="#b6">(Benskin et al. 2010)</ref>.</p><p>Despite the utility and promise of faecal and swab sampling, it remains a challenge to extract high quality and quantities of metagenomic DNA from these sample sources. In the field, limited amenities can interfere with sample preservation and storage conditions, whereby samples containing high concentrations of microbial enzymes can quickly degrade DNA <ref type="bibr" target="#b46">(Ruiz et al. 2000)</ref>. During DNA extraction, nongenetic material such as glycoproteins and phenolics in the samples can also co-extract with the DNA <ref type="bibr" target="#b39">(Monteiro et al. 1997)</ref>. Samples may additionally contain inherently low concentrations of genetic material such that existent extraction methods are too inefficient to yield DNA suitable for PCR amplification. Reviews in the current literature on faecal DNA extraction predominantly focus on samples of mammalian origin <ref type="bibr" target="#b36">(McOrist et al. 2002;</ref><ref type="bibr" target="#b53">Tang et al. 2008)</ref>. Although mammals excrete digesta and nitrogenous waste (urea) separately, faeces from amphibians, reptiles and birds are comprised of both nitrogenous waste (uric acid) and gastrointestinal excrement combined <ref type="bibr" target="#b17">(Evans &amp; Heiser 2004)</ref>. These physiological and sample composition differences pose unique impediments for determining the best DNA extraction method for nonmammalian excreta. The application of standard extraction methods as well as those used successfully on mammalian faeces can often be ineffective for samples from other taxa <ref type="bibr" target="#b24">(Idaghdour et al. 2003;</ref><ref type="bibr" target="#b25">Jedlicka et al. 2013)</ref>.</p><p>The challenges associated with deriving both high quality and high yields of metagenomic DNA from faecal and swab samples also affect the performance of subsequent enzymatic processes using the extracts. For routine analyses involving amplicon sequencing, compensatory strategies are necessary to achieve PCR amplification from poor quality extracts. To address low extraction yields, minimal sample loss must occur during sample handling from PCR through sequencing. The advent of next-generation sequencing (NGS) has extraordinarily enhanced capabilities to deeply sequence mixed amplicon pools, wherein declining costs continue to render it increasingly feasible to incorporate NGS into ongoing research programmes <ref type="bibr" target="#b41">(Neiman et al. 2011)</ref>. Now is the opportune time to capitalize on both the ease of faecal and swab sampling as well as the cost-effectiveness of advanced sequencing technology to pursue studies with amplicon NGS. Unfortunately, although a multitude of criteria must carefully be considered in designing and implementing an amplicon-based NGS study, few resources in the literature are available to inform best practices for the complete workflow from DNA extraction of minimally invasive samples through Illumina sequencing of amplicon libraries.</p><p>Therefore, the goals of this study were to (i) identify effective metagenomic DNA extraction methods for faecal and swab samples; (ii) apply cost-efficient library preparation protocols to the metagenomic DNA extracts for amplicon sequencing, using microbial and prey amplicons as case studies; and (iii) validate extraction and library preparation approaches for amplicon libraries using Illumina sequencing. In doing so, we design and demonstrate successful performance of a novel metagenomic DNA extraction approach based on the repurposing of a reagent commonly used in DNA cleanup, solid phase reversible immobilization (SPRI) beads <ref type="bibr" target="#b43">(Rohland &amp; Reich 2012)</ref>. We then extract fieldcollected avian faecal and swab samples using the SPRI-based method and compare results with a standard commercial kit. Subsequently, we synthesize and apply a cost-effective amplicon library preparation protocol to the field-collected sample extracts. Finally, we sequence the libraries on the Illumina platform to report the efficacy of the library preparation protocol and extraction methods for characterizations of prey in faecal matter as well as microbiota in oral swab, cloacal swab and faecal samples. With informed approaches for sample collection through extraction and library preparation, PCR-quality DNA can be isolated consistently from minimally invasive samples of nonmammalian systems, and the application of NGS to amplicons comprises an invaluable analytical tool with widespread relevance to diverse questions in ecology and evolution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Collection of avian faecal and swab samples</head><p>We studied the Western Bluebird (Sialia mexicana), a common nest box occupant in Central California. We monitored songbird nest boxes from two study sites, a vineyard system with 300 nest boxes erected across 50 vineyard blocks in Napa County, California and a rangeland site with 107 nest boxes erected at the San Joaquin Experimental Range in Madera County, California. Nestlings were sampled between five and 15 days posthatching. We obtained faecal samples through sudden lifting of the nestling from the nest, placement of the nestling on a sterilized surface and encouragement of nestling movement (e.g. flapping and crawling) to elicit voidance. Sterile nylon flocked mini-tip swabs (Puritan Medical PurFlock 25-3316 1PN) were used to sample cloacal and oral cavities. For cloacal sampling, the cloacal exterior was precleansed with 70% isopropanol before the swab tip was inserted 5-8 mm into the cloaca and gently rotated against the inside circumference of the cloaca two to three times for 5-10 s. For oral sampling, a swab was rotated against the tracheal opening, under both sides of the tongue, and along the choanal slit. Samples were initially stored under a variety of buffered and freezer temperature settings for a pilot study to determine the most effective sample preservation conditions before standardization for the rest of the study (described below under Comparison of SPRI-based versus commercial metagenomic DNA extraction). All collection tools (faecal collection surface, microspatula and scissors) were sterilized with hydrogen peroxide between samples. Samples were collected from May through July in 2011 and 2012. All protocols were approved by the UC Berkeley Animal Care and Use Committee (MAUPs R217-0512B and R317-0913), California Department of Fish and Game (Permits SC-12125 and SC-11869), and U.S. Geological Survey (Permits 23772 and 21859).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pilot study for sample preservation and metagenomic DNA extraction</head><p>We performed a literature review to derive candidate sample preservation and extraction methods to be compared (Table <ref type="table" target="#tab_0">S1</ref>, Appendix S1). We then conducted the pilot study on avian faecal and swab samples during which we attempted a wide suite of approaches to gain preliminary insight into their relative performance. For sample preservation, we included samples stored dry versus in RNAlater (Life Technologies AM7021). Samples were frozen either at À20 °C, temporarily at À20 °C before transfer to À80 °C, or at À80 °C. For metagenomic DNA extraction, we tested eight different commercial kits from Invitrogen, Zymo, Qiagen and MO BIO (Table <ref type="table">S2</ref>, Appendix S1) before developing our novel SPRI-based method (following section).</p><p>The quality and quantity of the DNA from the various extraction methods were assessed using three endpoints. We used the NanoDrop spectrophotometer to evaluate DNA purity (A 260/280 , A 260/230 ), the Qubit fluorometer with the dsDNA HS (high sensitivity) Assay Kit (Invitrogen Q32854) to evaluate DNA yield (ng), and PCR using degenerate primers targeting the bacterial 16S rRNA gene (515F and 806R yields a ~292 bp amplicon; Caporaso et al. 2012) and the arthropod mitochondrial cytochrome oxidase c subunit I (COI) gene (ZBJ-ArtF1c and ZBJ-ArtR2c produces a ~200 bp amplicon; <ref type="bibr" target="#b59">Zeale et al. 2011)</ref>. We chose these loci because faecal and swab samples provide unique opportunities to explore hostmicrobial and dietary relationships, which currently comprise growing fields of study (see Molecular Ecology Special Issue: Nature's Microbiome 2014). For each extract, PCRs were performed in duplicate for both the 16S rRNA and COI primer sets. PCR template quantity was optimized per extract as constrained by the total DNA yield available for all PCR replicates (0.05-0.18 ng faecal or 0.18-5 ng swab metagenomic DNA per PCR). All 16S rRNA gene PCRs were performed in 25-lL reactions containing 1X HotMasterMix (5 PRIME 2200400), 0.2 lM of each primer, 0.5 lg/lL BSA (NEB B9000S) and 5% DMSO (ACS grade). Thermocycling conditions followed an initial denaturation of 94 °C for 2 min and 35 cycles of 94 °C for 8 s, 50 °C for 20 s and 72 °C for 30 s. All COI PCRs were performed in 20 lL reactions containing 1X Phusion GC Buffer, 200 lM of each dNTP, 0.5 lM of each primer, 5% DMSO and 1 U Phusion high fidelity polymerase (NEB M0530S). Thermocycling conditions followed an initial denaturation of 98 °C for 2 min; 35 cycles of 98 °C for 8 s, 50 °C for 20 s and 72 °C for 30 s; and a final extension of 72 °C for 7 min. The use of DMSO and BSA as PCR additives prevent the formation of secondary structures in the template and bind PCR inhibitors, respectively <ref type="bibr" target="#b18">(Farell &amp; Alexandre 2012)</ref>. All PCRs were performed with appropriate positive and no-template negative controls. PCR set-up was performed in a clean hood, and thermocycling occurred in a separate, isolated room to minimize risk of crosscontamination. PCRs were electrophoresed on 1.5% (w/v) agarose gels stained with SYBR-Gold (Invtrogen S-11494) to detect amplification success.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SPRI-based metagenomic DNA extraction from avian faecal and swab samples</head><p>Upon obtaining consistently low yields and quality of DNA from faecal and cloacal swab samples across the majority of the tested extraction methods in our pilot study (Table <ref type="table">S2</ref>), we noted that nearly all of the methods used silica filter spin columns to bind and wash captured DNA. We aimed to improve upon the DNA binding step during extraction by employing solid phase reversible immobilization (SPRI) beads <ref type="bibr" target="#b21">(Hawkins et al. 1994;</ref><ref type="bibr" target="#b16">DeAngelis et al. 1995)</ref>. SPRI beads, such as Ampure XP beads (Beckman), are commonly used for DNA cleanup of reactions between steps of NGS library preparation <ref type="bibr" target="#b33">(Lundin et al. 2010)</ref>. Briefly, carboxyl-coated magnetic beads reversibly bind DNA based on the concentration of salts and polyethylene glycol in solution with the DNA <ref type="bibr" target="#b30">(Lis &amp; Schleif 1975;</ref><ref type="bibr" target="#b21">Hawkins et al. 1994)</ref>. Due to the specific interaction between the carboxyl groups and DNA, impurities are washed away while the DNA is bound, and the large surface area of the SPRI beads supports greater binding capacity relative to silica purification matrices <ref type="bibr" target="#b52">(Tan &amp; Yiap 2009)</ref>. Therefore, we substituted SPRI beads for silica spin columns in a unique extraction protocol to try to enhance the resultant DNA yield and quality.</p><p>For the SPRI-based method, we preserved approximately 220 mg of faecal matter frozen in 1.5 mL of RNAlater and each swab head frozen in 1 mL of RNAlater. Samples were processed in lysis buffer (166 mM trisodium phosphate, 111 mM guanidine thiocyanate, 11 mM sodium chloride, 0.3% sodium dodecyl sulphate, 37 mM Tris-HCl pH 8.0 and 1% beta-mercaptoethanol) with zirconia-silica beads on a Precellys 24 tissue homogenizer (two rounds of 6800 rpm for 30 s with a 30 s pause between rounds). We incubated faecal and cloacal lysates with Solution C2 (MO BIO 12888-100-2) to precipitate proteins and Solution C3 (MO BIO 12888-100-3) to flocculate PCR inhibitors <ref type="bibr" target="#b8">(Brolaski et al. 2008)</ref>. DNA was purified from the resultant supernatant using SPRI beads, prepared with Sera-Mag (ThermoScientific 6515-2105-050250) beads following <ref type="bibr" target="#b43">Rohland &amp; Reich (2012)</ref> and added at 1.5 times the supernatant volume (see Appendix S1 for detailed SPRI-based extraction method protocols).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison of SPRI-based versus commercial metagenomic DNA extraction</head><p>Our pilot study revealed promising results for faecal and swab samples preserved in RNAlater at either À20 °C or À80 °C and extracted using a high-powered homogenizer with either our SPRI-based method or the PowerSoil Kit (MO BIO 12855; Appendix S1). The PowerSoil Kit is employed in the standard operating protocols of both the Human Microbiome Project and the Earth Microbiome Project, although for samples stored in a different preservation buffer (MO BIO specimen collection fluid). Therefore, we pursued more rigorous testing of each extraction method on a larger sample size of RNAlater-preserved samples: 13 faecal, five cloacal swab with faecal debris, 18 cloacal swab and 18 oral swab samples for the SPRI-based method as well as 18 faecal, 18 cloacal swab and 18 oral samples for the PowerSoil Kit. All were independent samples collected from the rangeland site during the 2012 breeding season, controlled for sample age, stored in RNAlater on ice immediately after collection, transferred to À20 °C storage by the end of the collection day, and maintained at À20 °C for a month maximally at the field site before transfer to long-term storage at À80 °C in the laboratory. We followed the extraction protocols and DNA assessments as in the pilot study except that we used the same zirconia-silica beads from the SPRI-based method in the PowerSoil method as recommended for microbial lysis <ref type="bibr" target="#b58">(Yu &amp; Morrison 2004;</ref><ref type="bibr" target="#b47">Salonen et al. 2010)</ref>. We conducted only bacterial 16S rRNA gene PCRs, and we performed the PCRs in triplicate per sample to maximize recovery of the targeted diversity in the original samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Amplicon library preparation and sequencing</head><p>From the literature, we combined and modified several strategies to synthesize a cost-effective approach for high-throughput amplicon library preparation. We applied our approach to three sets of amplicons to investigate its efficacy. The microbial 16S rRNA gene amplicons generated from the aforementioned 54 SPRI-and 54 PowerSoil-based extracts comprised the first two sets of amplicons to enable further comparison of the two extraction methods. Our third set of amplicons included arthropod COI PCR products, generated as in our pilot study except in triplicate per sample, for 49 faecal samples stored dry at À80 °C and extracted using a highpowered homogenizer with the Xpedition Soil/Fecal DNA MiniPrep Kit (Zymo D6202). The third set served as a procedural control as this particular combination of sample storage and extraction methods has previously yielded cloning and Sanger sequencing success <ref type="bibr" target="#b25">(Jedlicka et al. 2013)</ref>.</p><p>To enable unique identification of each sample after multiplex sequencing <ref type="bibr" target="#b51">(Stiller et al. 2009)</ref>, we implemented a combinatorial tagging and sample pooling approach following <ref type="bibr" target="#b41">Neiman et al. (2011)</ref> using two different tags (Fig. <ref type="figure" target="#fig_1">1</ref>). Briefly, the first tag was a 6-nucleotide barcode appended on the 5 0 end of both the forward and reverse primers and thereby incorporated at both ends of the resultant amplicons during PCR (Appendix I). The barcodes were designed to be error-correcting based on the Hamming code so that the true barcode would be recoverable if a single nucleotide sequencing error were to occur therein <ref type="bibr" target="#b10">(Bystrykh 2012</ref>). The second tag was a 6-nucleotide index embedded in the Illumina adapter, which was ligated onto pools of uniquely barcoded amplicons during library preparation. To begin amplicon library preparation, 20 lL of each triplicate PCR reaction was pooled per sample and SPRI-cleaned following <ref type="bibr" target="#b43">Rohland &amp; Reich (2012)</ref>, except that a 1.2 volume ratio of SPRI bead solution to sample volume was used to discard fragments smaller than 200 bp (e.g. primer dimers; Fig. <ref type="figure" target="#fig_1">1</ref>). The cleaned samples were quantified using the Qubit dsDNA HS (high sensitivity) Assay Kit and pooled equimolarly into libraries. Each library was then SPRI-cleaned with a 3.0 volume ratio of SPRI bead solution to sample in order to standardize the volumes of all libraries yet maximize sample retention.</p><p>The libraries were prepared using the 'with-bead' method, as the presence of SPRI beads in the reactions does not interfere with reaction performance <ref type="bibr" target="#b19">(Fisher et al. 2011)</ref>. For each library, all reactions and SPRI cleanup steps were performed in the same tube to minimize sample loss from adherence to plastic tubes and pipette tips during sample transfers. The NEBNext End Repair Module (NEB E6050S), NEBNext dA-Tailing Module (NEB E6053S) and <ref type="bibr" target="#b38">Meyer &amp; Kircher (2010)</ref> adapter ligation protocols were used with TruSeq Illumina indexed adapters to prepare the libraries. For each SPRI cleanup between library reactions, the same SPRI bead solution from the SPRI-based extraction method was used following Fisher et al.'s (2011) SPRI cleanup protocol with the following modifications to maximize DNA recovery. Tubes were always centrifuged for a few seconds before any incubation period to prevent beads from drying onto the tube walls. During the initial DNA binding step, we vortexed the libraries at 2000 rpm for 10 min and incubated at room temperature for another 10 min. We used fresh 80% ethanol for all washes and air-dried the samples for 10 min before elution. During elution, we vortexed the samples at 2000 rpm for 2 min and incubated at room temperature for another 2 min. For the final cleanup after adapter ligation, we used a 0.9 volume ratio of bead suspension buffer to sample, to exclude all adapter dimers (see Appendix S1 for more detailed Illumina amplicon library preparation protocol). Of note, this library preparation workflow is PCR-free <ref type="bibr" target="#b29">(Kozarewa et al. 2009)</ref>, without a post-ligation PCR enrichment step, to avoid barcode swapping from chimera formation between amplicons of the pooled samples in each library.</p><p>The libraries were quantified via qPCR using the KAPA Library Quantification Kit (KK4824), pooled equimolarly into one of three main libraries (PowerSoilbased microbial 16S rRNA, SPRI-based microbial 16S rRNA, or Xpedition-based arthropod COI) and analysed on the Bioanalyzer (Agilent Technologies G2940CA). The resultant three libraries were submitted to the University of California Davis Genome Center, and each library was sequenced in a separate 250-bp, paired-end run on the ILLUMINA MISEQ platform.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>For extraction method comparisons, all Qubit concentration measurements were used to compare total DNA yield in each extract. For faecal extractions, all calculated total DNA yields were normalized by the processed faecal sample size (g wet mass). In a blind assessment, we classified PCR results into one of five ordinal codings for each sample replicate: (0) no amplification, (1) weak  amplification, (2) moderate amplification, (3) strong amplification and (4) very strong amplification. The mean value across triplicate PCRs was calculated for each sample as an index of PCR success. We applied Wilcoxon rank sum tests to detect significant differences in DNA quality, quantity and PCR success between sample types and extraction methods.</p><p>The Illumina data were trimmed of adapters and demultiplexed into the original input libraries using CASAVA 1.8. Reads that did not pass filter were removed. Trimmomatic was used to trim the trailing edge of each sequence to a minimum quality score of Q20 <ref type="bibr" target="#b7">(Bolger et al. 2014)</ref>. Barcodes were error-corrected, and unresolved reads were discarded. PANDAseq was used to merge paired-end reads, using a quality threshold of 0.6 <ref type="bibr" target="#b34">(Masella et al. 2012)</ref>. Merged reads lacking matching barcodes at both ends or correct primer sequences were also discarded. Using QIIME 1.8.0, each library was demultiplexed by barcode, and all barcode and primer sequences were trimmed from the reads <ref type="bibr" target="#b11">(Caporaso et al. 2010)</ref>. Alpha diversity rarefaction analyses were performed to determine minimum sequencing depth to include all samples in beta diversity analyses. Summaries of taxonomic composition of each sample were generated using the GREENGENES database (v. 13_8) and Barcode of Life Database (BOLD) as references for taxonomic assignment of bacterial 16S rRNA and arthropod COI gene amplicons, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison of SPRI-based versus commercial metagenomic DNA extraction</head><p>For faecal samples, the PowerSoil kit produced significantly greater metagenomic DNA yields (n = 13 for SPRI and n = 18 for Powersoil, S = 122, P = 0.001), more ideal A 260/280 ratios (S = 129.5, P = 0.002), and greater total amplicon yield across triplicate 16S PCRs (S = 129, P = 0.002; Table <ref type="table">S3</ref> and Fig. <ref type="figure" target="#fig_2">2</ref>). However, the SPRI-based method performed equally well in amplification success across triplicate PCRs. For cloacal swab samples, the SPRI-based method yielded significantly more metagenomic DNA (n = 23 for SPRI and n = 18 for PowerSoil, S = 201, P &lt; 0.001) and greater performance across triplicate PCRs (S = 188.5, P = &lt;0.0001; Figs 2 and S1). Finally, for oral swab samples, the SPRI-based method produced significantly higher DNA yields (n = 18 per method, S = 495, P = &lt;0.0001), greater DNA purity at both A 260/ 280 (S = 423, P = 0.004) and A 260/230 (S = 495, P &lt; 0.0001), as well as greater amplification success across triplicate PCRs (S = 479, P &lt; 0.0001; Figs <ref type="figure" target="#fig_2">2</ref> and<ref type="figure" target="#fig_1">S1</ref>).</p><p>In comparing extraction performance within method, faecal samples generated greater yields, higher quality and more amplicons than swab samples using the PowerSoil Kit (Table <ref type="table">S3</ref>). Oral swab samples performed the worst of the three sample types with this kit. In contrast, higher quality extracts were derived from the swab samples than the faecal samples with the SPRI-based method. Cloacal swab samples produced the highest yields, whereas the oral swab samples provided the purest samples (closest to ideal A 260/280 and A 260/230 values). However, despite the observed differences in DNA quality among sample types, all but two faecal extracts amplified across all triplicate 16S rRNA gene PCRs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Library preparation</head><p>With our combinatorial tagging and PCR-free library preparation approach, we were able to generate libraries with 30-466 ng of amplicon starting material (Table <ref type="table" target="#tab_0">1</ref>). Between 2.5% and 72.7% of starting amplicons were successfully adapter-ligated after library preparation. Across all three MiSeq runs, we obtained a mean of 14.4 (AE 2.6 SD) million raw reads per run (Table <ref type="table">S4</ref>). CASAVA 1.8 was used for each run to demultiplex sequences into libraries by adapter index. Across all libraries, 88.2% of the raw reads passed filter, whereas 50.1% passed both filter and quality thresholds for paired-end merging.</p><p>Of the merged reads, 6.1% did not have a barcode or contained erroneous barcodes that could not be corrected. These sequences did not produce significant nucleotide BLAST matches. Approximately 6.9% of the merged reads contained barcodes at each end of the read, but the barcodes did not match. These sequences may have resulted from either barcode synthesis errors, barcode sequencing errors or chimera formation. The 16S rRNA and COI merged reads lacking matching barcodes yielded bacterial and no significant BLAST results, respectively. Additionally, 12.4% of the merged reads possessed correct, matching barcodes but did not contain the primer sequences used in the study. These sequences were typically too short and either matched bacterial sequences or yielded no significant BLAST matches. Such sequences likely resulted from fragmentation of amplicons, primer synthesis errors or random incorporation of environmental DNA that happened to contain sequences that matched the barcodes used in the study.</p><p>Thus, overall, 37.4% of the paired-end raw reads or 74.6% of the merged reads contained correct barcodes and primers for retention in downstream analyses. QIIME's 'split libraries' function was applied to each library to separate sequences into samples by primer barcode. Quantification via qPCR for equimolar pooling of libraries into a sequencing run generally resulted in an even number of sequences per sample across libraries, although the SPRI libraries exhibited higher variation in number of sequences per library (Table <ref type="table" target="#tab_0">1</ref>). Likewise, Qubit quantification for equimolar pooling of amplicons per library produced mainly even sequencing depth across samples, although the SPRI libraries yielded higher variation in the number of sequences per barcode per library. We analysed taxonomic diversity among PowerSoiland SPRI-derived microbial amplicons as well as among Xpedition-derived control arthropod amplicons (Fig. <ref type="figure" target="#fig_2">S2</ref>).</p><p>In comparing amplicon sequence diversity from Power-Soil and SPRI-based extracts, samples did not segregate by extraction method for any sample type (Fig. <ref type="figure" target="#fig_3">3</ref>). More detailed analyses of alpha and beta diversity among sequenced samples are forthcoming <ref type="bibr">(Vo and Jedlicka, in prep)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>To increase application of NGS technology to broader study systems, there is pressing need for effective protocols on collecting and processing diverse samples compatible with routine molecular analyses such as amplicon sequencing. Although minimally invasive sampling comprises a valuable sampling strategy, there is a striking paucity of nonmammalian genetic studies that capitalize on faecal and swab sampling. Alternative gut content and genetic sampling methods are substantially more invasive, including the use of emetics <ref type="bibr" target="#b13">(Carlisle &amp; Holberton 2006)</ref>, neck ligatures <ref type="bibr" target="#b37">(Mellott &amp; Woods 1993)</ref>, gastric lavage <ref type="bibr" target="#b40">(Moody 1970</ref>), blood collection <ref type="bibr" target="#b56">(Voss et al. 2010)</ref> and sacrifice of study organisms <ref type="bibr" target="#b3">(Beal 1915)</ref>. Of the studies that have involved avian faecal or swab samples, some have pursued genetic sequencing (e.g. <ref type="bibr" target="#b6">Benskin et al. 2010;</ref><ref type="bibr" target="#b25">Jedlicka et al. 2013</ref>), but remarkably, only two have integrated NGS analyses, relying on pyrosequencing <ref type="bibr" target="#b15">(Deagle et al. 2010;</ref><ref type="bibr" target="#b49">Singh et al. 2012)</ref>. Therefore, in this research, we address the dearth of study design guidelines for embracing minimally invasive sampling and Illumina amplicon sequencing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metagenomic DNA extraction from avian faecal and swab samples</head><p>We observed that storage of avian faecal and swab samples frozen in RNAlater supported metagenomic DNA preservation. In seeking extraction of high quality and quantity metagenomic DNA from these samples, we developed an effective extraction approach that coupled chemical and mechanical steps for cellular lysis as well as solid phase reversible immobilization (SPRI) beads for the isolation of nucleic acids. Although studies have shown superior DNA extraction from human faecal samples using a combination of mechanical and chemical lysis relative to chemical lysis alone <ref type="bibr" target="#b2">(Ariefdjohan et al. 2010;</ref><ref type="bibr" target="#b47">Salonen et al. 2010;</ref><ref type="bibr" target="#b50">Smith et al. 2011)</ref>, a validated workflow integrating chemical, mechanical, and SPRIbased approaches for faecal and swab DNA extraction has not been published in the primary scientific literature to the best of our knowledge. Our SPRI-based method excelled in several measures relative to the PowerSoil Kit for avian oral and cloacal swab samples stored in RNAlater. Although the SPRI and PowerSoil methods performed comparably in bacterial 16S rRNA gene amplification success for faecal samples, the SPRI method generated significantly higher DNA quality (A 260/280 , A 260/230 ), quantity, and PCR amplification for swab samples in comparison to the PowerSoil Kit.</p><p>Given that the composition of the extraction buffers in the SPRI-based and PowerSoil methods were comparable <ref type="bibr" target="#b8">(Brolaski et al. 2008)</ref>, the success of the SPRI method specifically with swab samples suggests a higher binding and elution efficiency of the SPRI beads over silica matrices when applied to relatively cleaner lysates. Correspondingly, when we used SPRI beads in extreme excess (three times the sample volume) on clean amplicon samples with our bead cleanup protocol, we observed very high (87.3 AE 7.2%) recovery of starting material across all samples (Table <ref type="table">S5</ref>). In contrast, studies have documented higher losses of input DNA when using silica filters to clean and/or concentrate DNA samples (e.g., <ref type="bibr" target="#b44">Roossinck et al. 2010)</ref>. For faecal samples, the lower total DNA yields from the SPRI-based approach were expected because only half of the sample lysate volumes were used per extraction to accommodate downstream reagent volumes. However, the poorer faecal DNA quality from SPRI-based extraction versus the lower performance of silica-based extraction for swab samples comprise interesting pat- terns that inform sample processing strategies and warrant further investigation. Concerning sample types, sample complexity plays a pivotal role in determining the difficulty encountered in extracting DNA. Like <ref type="bibr" target="#b24">Idaghdour et al. (2003)</ref>, we observed arthropod exoskeletal remnants among avian faecal matter. Extra measures to remove heavy protein loads and non-nucleic organic compounds were necessary to avoid high levels of co-extracted contaminants in faecal extracts, as seen in <ref type="bibr" target="#b25">Jedlicka et al. (2013)</ref>. It followed that cloacal swab samples performed better when less faecal debris was present and that oral swabs dependably provided high yields as well as relatively pure DNA without the need for special inhibitor removal treatments when extracted using the SPRI-based method. Further, in considering the high recovery efficiency of SPRI beads for nucleic acids, it is likely that host DNA was also co-extracted using our SPRI-based method, but additional application of host-specific primers was beyond the scope of our study. Altogether, the straightforward reagents and supplies needed for the SPRIbased extraction protocol totalled substantially less than the PowerSoil protocol ($0.71/oral swab, $1.29/cloacal swab and $2.32/faecal sample for SPRI-based versus $4.94/sample for PowerSoil; Table <ref type="table">S6</ref>), thereby ranking the SPRI-based method as a reliable and more cost-effective approach for processing avian faecal and swab samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Illumina library preparation for amplicon sequencing</head><p>Our modified library preparation protocol resulted in impressively high amplicon template retention rates relative to those reported in other studies. Our approach to library preparation synthesized several published, successful, cost-saving strategies from the literature. We used a combinatorial sample tagging protocol <ref type="bibr" target="#b41">(Neiman et al. 2011)</ref>, which permitted the same set of barcoded primer pairs to be used for each indexed library whereby different combinations of barcodes and indices formed unique tags for each sample (Fig. <ref type="figure" target="#fig_1">1</ref>). The protocol substantially reduced the complexity of sample handling as well as overall costs by eliminating the need for a unique PCR primer pair (~$60 per pair purified by high performance liquid chromatography) or a unique Illumina adapter (~$30 per adapter) per sample. We additionally employed the with-bead method <ref type="bibr" target="#b19">(Fisher et al. 2011</ref>) and a PCR-free library preparation <ref type="bibr" target="#b29">(Kozarewa et al. 2009)</ref> workflow. Our modifications to the with-bead SPRI cleanup protocol, including extended DNA binding and elution times as well as vortexing and centrifugation, ensured maximal recovery of template amplicons between library preparation reactions. While Fisher et al.'s (2011) with-bead method observed 47% recovery of input library material, our modified library protocol retained 75 (AE 4)% of the starting template (Table <ref type="table">S5</ref>). This difference is significant when accommodation of low availability of starting material as well as the exclusion of post-ligation PCR enrichment of the libraries are absolutely necessary.</p><p>We observed a steady decline in adapter ligation efficiency among sequentially prepared sets of libraries (SPRI to Xpedition to PowerSoil; Table <ref type="table" target="#tab_0">1</ref>). Given that each library across all three sets of libraries contained amplicons from successful PCRs and that all amplicons were processed with the same SPRI bead cleanup before library preparation, systematic differences in the generation or retention of enzymatic inhibitors between sets of libraries appear unlikely to underlie the pattern in ligation efficiencies. However, increased freeze-thaw cycles of the adapter tubes and resultant adapter degradation may have impacted adapter ligation success in subsequently prepared libraries. Making several aliquots of the adapters in one-time use tubes comprises good general practice for prolonging the use of the purchased adapter stock. Nevertheless, even among libraries that exhibited low adapter ligation efficiency (2.5% of the starting template), sequence analyses suggested that the adapter-ligated products were representative and comprehensive of the diversity of the starting pool of amplicons. No substantial differences in either number of sequences (Table <ref type="table" target="#tab_0">1</ref>) or microbial diversity (Fig. <ref type="figure" target="#fig_3">3</ref>) were observed between samples in libraries with higher versus lower adapter ligation efficiencies. Additionally, there was a decrease in the variability of the number of sequences per library and the number of sequences per barcode per library recovered for subsequent libraries versus initial libraries (again, SPRI to Xpedition to PowerSoil; Table <ref type="table" target="#tab_0">1</ref>). Although a possible effect of extraction method cannot be excluded, these differences were likely due to pipet malfunction during equimolar sample pooling in the initial SPRI libraries. Yet, the variation in sequencing depth yielded no detectable differences in microbial diversity between samples (Fig. <ref type="figure" target="#fig_3">3</ref>).</p><p>Sequence analyses of the Xpedition control libraries validated our library preparation approach and demonstrated the strength of NGS application. Using cloning and Sanger sequencing, <ref type="bibr" target="#b25">Jedlicka et al. (2013)</ref> analysed the diets of 12 nestlings and discovered a range of one to five and a mean of 2.0 (AE 1.1 SD) taxa per nestling in their characterization of Western Bluebird diet from faecal samples. Costs associated with this approach totalled over $37 per sample as well as an additional $3.13 per sequenced clone per sample. In contrast, our Illumina approach supported a substantially more extensive characterization of the arthropod prey base for 49 nestlings.</p><p>We observed a range of one to 56 and a mean of 7.4 (AE 8.6 SD) taxa per nestling (Fig. <ref type="figure" target="#fig_2">S2a</ref>). Additionally, Illumina costs totalled $27 per sample and an additional flat rate of $1170 for sequencing. Given that a MiSeq run yielded a mean of approximately 14 million paired-end reads, the Illumina approach generated 28 000 times more sequences, and its per sequence cost was four orders of magnitude lower than the combined cloning and Sanger sequencing approach. Thus, the cloning approach was more costly in both relative and absolute terms even though it ultimately acquired less data for fewer samples.</p><p>Sequencing analyses of the SPRI-versus PowerSoilbased amplicons revealed little segregation by method. That is, neither extraction method appeared to exhibit inherent bias for sampling a different subset of the total microbial diversity within the samples (Fig. <ref type="figure" target="#fig_3">3</ref>). This result was interesting for the swab samples as SPRIbased swab extracts were significantly higher quality and amplified more robustly than the PowerSoil swab extracts. Thus, the major advantage with the SPRI-based approach lies in its relative affordability, whereas the PowerSoil kit offers convenience and standardized manufacturing across kits. However, regarding swab performance, the SPRI-based method's greater total yield is also highly useful, especially when necessary troubleshooting steps can rapidly deplete extraction stocks and consequently reduce availability of the stocks to support multiple projects. Additionally, the higher quality SPRI-based swab extracts are optimal for preventing PCR inhibition in amplicon-based biodiversity assessments. Overall, our SPRI-based metagenomic DNA extraction and library preparation approach performed exceedingly well in the multiplexing of numerous samples into each library and several libraries into a single Illumina run to support cost-effective, in-depth interrogation of mixed amplicon pools from the avian faecal and swab samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Applications</head><p>In light of the ever increasing accessibility of NGS technology, investigations of several lines of enquiry in ecology and evolution can benefit tremendously from NGSmediated genetic analyses of minimally invasive samples. With dietary analyses, morphological examination of prey items from stomach contents, regurgitated pellets or faecal matter results in over-representation of prey with hard parts that resist digestion <ref type="bibr" target="#b54">(Tollit et al. 2003)</ref>. Methods employing stable isotopes of animal tissues require the additional analysis of all possible prey items to match isotopic signatures and identify potential prey, resulting in low taxonomic resolution for the prey base <ref type="bibr" target="#b22">(Hobson et al. 1997)</ref>. It is possible to use degenerate primers to amplify prey DNA in faecal samples, clone libraries to separate mixed PCR products, and use Sanger sequencing to identify cloned amplicons, but the entire process is tedious, inefficient and costly for large sample sizes.</p><p>Similarly, for the characterization of microbiota or detection of pathogens, microscopy approaches are low-throughput and prone to sensitivity shortcomings as well as interobserver bias <ref type="bibr" target="#b42">(Pizarro et al. 2007</ref>). Culturedependent methods provide equally low sensitivity as less than one per cent of bacteria are culturable <ref type="bibr" target="#b0">(Amann et al. 1995)</ref>. G+C profiling <ref type="bibr" target="#b1">(Apajalahti et al. 2001)</ref>, gel electrophoresis and band analysis of rRNA gene amplicons <ref type="bibr" target="#b28">(Knarreborg et al. 2002;</ref><ref type="bibr" target="#b32">Lucas &amp; Heeb 2005;</ref><ref type="bibr" target="#b27">Klomp et al. 2008)</ref>, and sequencing of 16S rRNA gene clone libraries <ref type="bibr" target="#b31">(Lu et al. 2003;</ref><ref type="bibr" target="#b26">Jeter et al. 2009</ref>) comprise vast improvements as culture-independent methods of microbial community characterization, but they still afford limited taxonomic resolution and/or intensive input effort. Microarray analyses can include thousands of probes to provide impressive taxonomic resolution for microbiota, but the probe-dependence restricts the capacity of the method to discover new species <ref type="bibr" target="#b14">(Claesson et al. 2009)</ref>.</p><p>Next-generation sequencing can be applied to drastically enhance these research scopes and analyses with greater cost-effectiveness than older, established methods. For microbial and dietary studies, NGS can simultaneously sequence target loci in metagenomic extracts from hundreds to thousands of individuals. Furthermore, NGS analysis of DNA from faecal and swab samples in particular can address a multitude of parallel questions and projects as they contain host, prey and microbial genetic material.</p><p>It is important to note that although our novel SPRIbased extraction approach worked remarkably well with avian faecal and swab samples, the protocol is applicable to many sample types and circumstances in which DNA recovery is the goal. That is, it is relevant for DNA isolation from recalcitrant or degraded samples, such as feathers or museum samples, as well as from typically less problematic samples, such as blood or tissue. Additionally, extracts produced from other methods that exhibit difficulty in PCRs can be cleaned using the SPRI-based cleanup from our library preparation protocol to improve amplification success. The strengths of the SPRI-based extraction lie in the yield and quality of sample DNA derived, which enhance the availability of genetic material for the rest of the workflow from PCR amplification through amplicon library preparation. From the discovery of millions of single nucleotide polymorphisms for phylogenetic studies to the detection of the rare biosphere in biodiversity assessments, NGS has and will continue to empower research in the life sciences, and we hope that the strategies and workflows proposed herein will help buttress research with minimally invasive samples to new NGS-mediated heights.</p><p>A.-T.E.V. designed the experiment, performed the experiment, analysed the data and wrote the paper. J.A.J. designed the experiment, performed the experiment and wrote the paper. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Combinatorial tagging and pooling strategy employed in this study for Illumina amplicon library preparation and sequencing, demonstrated for 16 samples. Dark grey bars indicate barcodes on the 5 0 end of primers that are incorporated into amplicons during PCR. Light grey bars indicate indexes on the adapter that are attached to amplicons during adapter ligation. B# and I-# denote unique barcode and index sequences, respectively, whereas tube # indicates unique sample ID. The same set of distinct barcodes is repeated with each index to cost-effectively yield unique combinations for each sample ID.</figDesc><graphic coords="5,271.42,76.83,261.39,254.62" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2</head><label>2</label><figDesc>Fig.2Performance of MO BIO PowerSoil (PS) Kit vs. SPRI-based method (developed in this study) for metagenomic DNA extraction from avian faecal (left column), cloacal swab (middle column), and oral swab (right column) samples assessed via total DNA yield (top row), DNA quality (second and third rows), index of PCR success (fourth row) as well as total yield (fifth row) across triplicate PCRs targeting the bacterial 16S rRNA gene. For PS, 18 of each sample type were processed, whereas for SPRI, 13 faecal, 23 cloacal swabs and 18 oral swabs were analysed. Asterisks indicate significant differences between methods.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 Principal coordinates analysis of bacterial diversity based on 16S rRNA gene sequences in metagenomic DNA extracts from avian faecal (a), cloacal swab (b) and oral swab (c) samples using the SPRI-based extraction method (squares) and the MO BIO PowerSoil Kit (circles).</figDesc><graphic coords="9,77.38,68.28,181.72,574.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Performance of combinatorial tagging approach for Illumina amplicon library preparation protocol used in this study. Means and standard deviations shown</figDesc><table><row><cell>Preparatory step</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>2014 John Wiley &amp; Sons Ltd 1196 A . -T . E . V O a n d J . A . J E D L I C K A</figDesc><table><row><cell>Appendix I (Continued)</cell><cell></cell><cell></cell></row><row><cell>Oligo sequence (5 0 to 3 0 )</cell><cell>Barcode (first 6 bases at 5 0 end of primer)</cell><cell>Oligo name</cell></row><row><cell>GCATGTGTGCCAGCMGCCGCGGTAA</cell><cell>GCATGT</cell><cell>515F13</cell></row><row><cell>GCATGTGGACTACHVGGGTWTCTAAT</cell><cell>GCATGT</cell><cell>806R13</cell></row><row><cell>TGCTACGTGCCAGCMGCCGCGGTAA</cell><cell>TGCTAC</cell><cell>515F14</cell></row><row><cell>TGCTACGGACTACHVGGGTWTCTAAT</cell><cell>TGCTAC</cell><cell>806R14</cell></row><row><cell>GTGCATGTGCCAGCMGCCGCGGTAA</cell><cell>GTGCAT</cell><cell>515F15</cell></row><row><cell>GTGCATGGACTACHVGGGTWTCTAAT</cell><cell>GTGCAT</cell><cell>806R15</cell></row><row><cell>CTGACTGTGCCAGCMGCCGCGGTAA</cell><cell>CTGACT</cell><cell>515F16</cell></row><row><cell>CTGACTGGACTACHVGGGTWTCTAAT</cell><cell>CTGACT</cell><cell>806R16</cell></row><row><cell>CGATTGGTGCCAGCMGCCGCGGTAA</cell><cell>CGATTG</cell><cell>515F17</cell></row><row><cell>CGATTGGGACTACHVGGGTWTCTAAT</cell><cell>CGATTG</cell><cell>806R17</cell></row><row><cell>CCAGTTGTGCCAGCMGCCGCGGTAA</cell><cell>CCAGTT</cell><cell>515F18</cell></row><row><cell>CCAGTTGGACTACHVGGGTWTCTAAT</cell><cell>CCAGTT</cell><cell>806R18</cell></row><row><cell>CTTGAGGTGCCAGCMGCCGCGGTAA</cell><cell>CTTGAG</cell><cell>515F19</cell></row><row><cell>CTTGAGGGACTACHVGGGTWTCTAAT</cell><cell>CTTGAG</cell><cell>806R19</cell></row><row><cell>AATGCCGTGCCAGCMGCCGCGGTAA</cell><cell>AATGCC</cell><cell>515F20</cell></row><row><cell>AATGCCGGACTACHVGGGTWTCTAAT</cell><cell>AATGCC</cell><cell>806R20</cell></row><row><cell>GGTGTTGTGCCAGCMGCCGCGGTAA</cell><cell>GGTGTT</cell><cell>515F21</cell></row><row><cell>GGTGTTGGACTACHVGGGTWTCTAAT</cell><cell>GGTGTT</cell><cell>806R21</cell></row><row><cell>TruSeq adapter from DNA prep kit</cell><cell>Index sequence</cell><cell></cell></row><row><cell>AD01</cell><cell>ATCACG</cell><cell></cell></row><row><cell>AD02</cell><cell>CGATGT</cell><cell></cell></row><row><cell>AD03</cell><cell>TTAGGC</cell><cell></cell></row><row><cell>AD04</cell><cell>TGACCA</cell><cell></cell></row><row><cell>AD05</cell><cell>ACAGTG</cell><cell></cell></row><row><cell>AD06</cell><cell>GCCAAT</cell><cell></cell></row><row><cell>AD07</cell><cell>CAGATC</cell><cell></cell></row><row><cell>AD08</cell><cell>ACTTGA</cell><cell></cell></row><row><cell>AD09</cell><cell>GATCAG</cell><cell></cell></row><row><cell>AD10</cell><cell>TAGCTT</cell><cell></cell></row><row><cell>AD11</cell><cell>GGCTAC</cell><cell></cell></row><row><cell>AD12</cell><cell>CTTGTA</cell><cell></cell></row><row><cell>AD13</cell><cell>AGTCAA</cell><cell></cell></row><row><cell>AD14</cell><cell>AGTTCC</cell><cell></cell></row><row><cell>AD15</cell><cell>ATGTCA</cell><cell></cell></row><row><cell>AD16</cell><cell>CCGTCC</cell><cell></cell></row><row><cell>AD18</cell><cell>GTCCGC</cell><cell></cell></row><row><cell>AD19</cell><cell>GTGAAA</cell><cell></cell></row><row><cell>AD20</cell><cell>GTGGCC</cell><cell></cell></row><row><cell>AD21</cell><cell>GTTTCG</cell><cell></cell></row><row><cell>AD22</cell><cell>CGTACG</cell><cell></cell></row><row><cell>AD23</cell><cell>GAGTGG</cell><cell></cell></row><row><cell>AD25</cell><cell>ACTGAT</cell><cell></cell></row><row><cell>AD27</cell><cell>ATTCCT</cell><cell></cell></row><row><cell></cell><cell>©</cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2014 John Wiley &amp; Sons Ltd</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>© 2014 John Wiley &amp; Sons Ltd 1188 A . -T . E . V O a n d J . A . J E D L I C K A 17550998, 2014, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12269 by Portail BibCNRS INEE, Wiley Online Library on [04/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>17550998, 2014, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12269 by Portail BibCNRS INEE, Wiley Online Library on [04/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p><rs type="funder">National Science Foundation</rs> (<rs type="grantNumber">DBI-1103583</rs>), <rs type="funder">American Vineyard Foundation</rs> (<rs type="grantNumber">2012-1343</rs>), as well as the <rs type="funder">Museum of Vertebrate Zoology and Department of Integrative Biology at the University of California-Berkeley</rs> provided funding for this project. We thank <rs type="person">Ron Rosenbrand</rs>, <rs type="person">Kathryn Purcell</rs>, <rs type="person">Spring Mountain Vineyards</rs> and the <rs type="institution">San Joaquin Experimental Range</rs> for access to bluebird nest boxes. We are also grateful to anonymous reviewers for thoughtful comments on earlier versions of this manuscript.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_VV6avQa">
+					<idno type="grant-number">DBI-1103583</idno>
+				</org>
+				<org type="funding" xml:id="_DW5zcjK">
+					<idno type="grant-number">2012-1343</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data accessibility</head><p>The raw data from this paper are included in Tables <ref type="table">S1-S5</ref>. Detailed protocols for all methods employed in this study are included in the Supporting Information. All barcoded primers employed in this study are listed in Appendix I.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix I</head><p>Oligo sequence (5 0 to 3 0 ) Barcode (first 6 bases at 5 0 end of primer) </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>Additional Supporting Information may be found in the online version of this article:</p><p>Appendix S1 Materials and methods. Results from pilot study.</p><p>Table <ref type="table">S1</ref> Literature review of avian studies that have extracted DNA from either faecal or swab samples.</p><p>Table <ref type="table">S2</ref> Avian faecal and swab sample storage and DNA extraction parameters evaluated along with their corresponding performance indices of DNA quality, yield, and PCR success at two genetic loci, microbial 16S rRNA and arthropod COI (where 4 indicates the most robust amplification score) for the comparative pilot study.</p><p>Table <ref type="table">S3</ref> Avian faecal and swab sample DNA extraction parameters evaluated along with their corresponding performance indices of DNA quality, yield, and bacterial 16S rRNA gene PCR success (where 0 indicates no band and 4 indicates the most robust amplification score) for the PowerSoil Kit (MO BIO) and the SPRI-based method.</p><p>Table <ref type="table">S4</ref> Summary of sequencing performance across all three paired-end 250 bp MiSeq runs.</p><p>Table <ref type="table">S5</ref> Recovery of starting material after application of SPRI beads used at three times the sample volume to concentrate amplicons with minimum sample loss as well as after using the concentrated amplicons in the modified with-bead, PCR-free library preparation protocol developed in this study (adjusted for adapter ligation).</p><p>Table <ref type="table">S6</ref> Cost of all supplies and reagents needed to perform the SPRI-based extraction method on avian faecal, cloacal swab, and oral swab samples.  </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Phylogenetic identification and in situ detection of individual microbial cells without cultivation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Amann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Schleifer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiological Reviews</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="143" to="169" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Percent G+C profiling accurately reveals diet-related differences in the gastrointestinal microbial community of broiler chickens</title>
+		<author>
+			<persName><forename type="first">Jha</forename><surname>Apajalahti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kettunen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Bedford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Holben</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied and Environmental Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="5656" to="5667" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Comparison of DNA extraction kits for PCR-DGGE analysis of human intestinal microbial communities from fecal specimens</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Ariefdjohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Savaiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Nakatsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrition Journal</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="23" to="30" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Food of the robins and bluebirds of the United States</title>
+		<author>
+			<persName><forename type="first">Fel</forename><surname>Beal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bulletin of the U.S. Department of Agriculture</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="page" from="1" to="31" />
+			<date type="published" when="1915">1915</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Advancing ecological understandings through technological transformations in noninvasive genetics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beja-Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1279" to="1301" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Estimating population size of elusive animals with DNA from huntercollected feces: four methods for brown bears</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Swenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tallmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brunberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="150" to="161" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Diversity and temporal stability of bacterial communities in a model passerine bird, the zebra finch</title>
+		<author>
+			<persName><forename type="first">Cmh</forename><surname>Benskin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rhodes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Pickup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Hartley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="5531" to="5544" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Trimmomatic: a flexible trimmer for Illumina Sequence Data</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Bolger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lohse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Usadel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="2114" to="2120" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Kits and processes for removing contaminants from nucleic acids in environmental and biological samples</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Brolaski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Venugopal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stolow</surname></persName>
+		</author>
+		<idno>US Patent 2008/US2686649</idno>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Pyrosequencing of prey DNA in reptile faeces: analysis of earthworm consumption by slow worms</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Woc</forename><surname>Symondson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="259" to="266" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Generalized DNA barcode design based on hamming codes</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Bystrykh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">36852</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">QIIME allows analysis of high-throughput community sequencing data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Caporaso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kuczynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stombaugh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Methods</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="335" to="336" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Ultra-high-throughput microbial community analysis on the Illumina HiSeq and MiSeq platforms</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Caporaso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Lauber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Walters</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The ISME Journal</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1621" to="1624" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Relative efficiency of fecal versus regurgitated samples for assessing diet and the deleterious effects of a tartar emetic on migratory birds</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Carlisle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Holberton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Field Ornithology</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="126" to="135" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Comparative analysis of pyrosequencing and a phylogenetic microarray for exploring microbial community structures in the human distal intestine</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Claesson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>'sullivan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wang</forename><forename type="middle">Q</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="6669" to="e6684" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Pyrosequencing faecal DNA to determine diet of little penguins: is what goes in what comes out</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chiaradia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcinnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="2039" to="2048" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Solid-phase reversible immobilization for the isolation of PCR products</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Deangelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Hawkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="4742" to="4743" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">What&apos;s inside: anatomy and physiology</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Heiser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Cornell Lab of Ornithology Handbook of Bird Biology</title>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Podulka</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Rohrbaugh</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Bonney</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Ithaca, New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="page">162</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Bovine serum albumin further enhances the effects of organic solvents on increased yield of polymerase chain reaction of GC-rich templates</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Farell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Alexandre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Research Notes</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="257" to="265" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A scalable, fully automated process for construction of sequence-ready human exome targeted capture libraries</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Abreu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1" to="R15" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Skin microbes on frogs prevent morbidity and mortality caused by a lethal skin fungus</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Brucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Walke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The ISME Journal</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="818" to="824" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">DNA purification and isolation using a solid-phase</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Hawkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Connor-Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Santillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="4543" to="4544" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Investigating trophic relationships of pinnipeds in Alaska and Washington using stable isotope ratios of nitrogen and carbon</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Hobson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sease</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Merrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Piatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Mammal Science</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="114" to="132" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">An overlooked DNA source for non-invasive genetic analysis in birds</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Horv Ath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mart</forename><surname>Inez-Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Negro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Kalm Ar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Godoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Avian Biology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="84" to="88" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Faeces as a source of DNA for molecular studies in a threatened population of great bustards</title>
+		<author>
+			<persName><forename type="first">Idaghdour</forename><surname>Broderick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Korrida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="789" to="792" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Molecular tools reveal diets of insectivorous birds from predator fecal matter</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Jedlicka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rpp</forename><surname>Almeida</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics Resources</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="879" to="885" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Bacteroidales diversity in Ring-Billed Gulls (Laurus delawarensis) residing at Lake Michigan beaches</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jeter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Mcdermott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Bower</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied and Environmental Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1525" to="1533" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Cloacal microbial communities of female spotted towhees Pipilo maculatus: microgeographic variation and individual sources of variability</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Klomp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Avian Biology</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="530" to="538" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Effects of dietary fat source and subtherapeutic levels of antibiotic on the bacterial community in the ileum of broiler chickens at various ages</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Knarreborg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Engberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Tannock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied and Environmental Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="5918" to="5924" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Amplification-free Illumina sequencing-library preparation facilitates improved mapping and assembly of (G+C)-biased genomes</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kozarewa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Quail</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Methods</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="291" to="295" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Size fractionation of double-stranded DNA by precipitation with polyethylene glycol</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Lis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schleif</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="383" to="390" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Diversity and succession of the intestinal bacterial community of the maturing broiler chicken</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Idris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Harmon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied and Environmental Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="6816" to="6824" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Environmental factors shape cloacal bacterial assemblages in great tit Parus major and blue tit P. caeruleus nestlings</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Heeb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Avian Biology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="510" to="516" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Increased throughput by parallelization of library preparation for massive sequencing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lundin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Stranneheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pettersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Klevebring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lundeberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="10029" to="e10036" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">PANDAseq: paired-end assembler for illumina sequences</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Masella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Bartram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Truszkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Neufeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">31</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Co-habiting amphibian species harbor unique skin bacterial communities in wild populations</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Mckenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Bowers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fierer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Lauber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The ISME Journal</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="588" to="596" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A comparison of five methods for extraction of bacterial DNA from human faecal samples</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Mcorist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Bird</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Microbiological Methods</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="131" to="139" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">An improved ligature technique for dietary sampling in nestling birds (Una t ecnica mejorada para obtener muestras de la dieta ofrecida a pichones)</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Mellott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Woods</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Field Ornithology</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="205" to="210" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Illumina sequencing library preparation for highly multiplexed target capture and sequencing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kircher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harbor Protocols</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2010">2010. 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Complex polysaccharides as PCR inhibitors in feces: Helicobacter pylori model</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Monteiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bonnemaison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vekris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Clinical Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="995" to="998" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A method for obtaining food samples from insectivorous birds</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Moody</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Auk</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page">579</biblScope>
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Decoding a substantial set of samples in parallel by massive sequencing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Neiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lundin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Savolainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ahmadian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="17785" to="e17792" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">PCR reveals significantly higher rates of Trypanosoma cruzi infection than microscopy in the Chagas vector, Triatoma infestans: high rates found in Chuquisaca, Bolivia</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Pizarro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Lucero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stevens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Infectious Diseases</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="66" to="74" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Cost-effective, high-throughput DNA sequencing libraries for multiplexed target capture</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rohland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Reich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Research</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="939" to="946" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Ecogenomics: using massively parallel pyrosequencing to understand virus ecology</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Roossinck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Saha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wiley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="81" to="88" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">A non-invasive genetic evaluation of population size, natal philopatry, and roosting behavior of non-breeding eastern imperial eagles (Aquila heliaca) in central Asia</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rudnick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Katzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Bragin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Dewoody</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="667" to="676" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Identification and characterization of nuclease activities in anaerobic environmental samples</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="736" to="740" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Comparative analysis of fecal DNA extraction methods with phylogenetic microarray: effective recovery of bacterial and archaeal DNA using mechanical cell lysis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Salonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nikkil€ A</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jalanka-Tuovinen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Microbiological Methods</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="127" to="134" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic analysis in birds: testing reliability of feather samples</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Segelbacher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="367" to="369" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">High through put 16S rRNA gene-based pyrosequencing analysis of the fecal microbiota of high FCR and low FCR broiler growers</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Deshpande</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Biology Reports</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="10595" to="10602" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Optimising bacterial DNA extraction from faecal samples: comparison of three methods</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Slotved</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Krogfelt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Open Microbiology Journal</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="14" to="17" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Direct multiplex sequencing (DMPS)-a novel method for targeted high-throughput sequencing of ancient and highly degraded DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Knapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Stenzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hofreiter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Research</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1843" to="1848" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">DNA, RNA, and protein extraction: the past and the present</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Yiap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioMed Research International</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2009">2009. 2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">An effective method for isolation of DNA from pig faeces and comparison of five different methods</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Microbiological Methods</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="432" to="436" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Quantifying errors associated with using prey skeletal structures from fecal samples to determine the diet of Steller&apos;s sea lion (Eumetopias jubatus)</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tollit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Winship</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Das</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Trites</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Mammal Science</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="724" to="744" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The efficacy of obtaining genetic-based identifications from putative wolverine snow tracks (Whittaker, Ed,)</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Ulizio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Squires</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Pletscher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1326" to="1332" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">A hard look at blood sampling of birds</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Voss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shutler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Werner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Auk</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="704" to="708" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Using DNA to track the origin of the largest ivory seizure since the 1989 trade ban</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Wasser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mailand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Booth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="4228" to="4233" />
+			<date type="published" when="2007">2007</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Improved extraction of PCR-quality community DNA from digesta and fecal samples</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Morrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioTechniques</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="808" to="812" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Taxon-specific PCR for DNA barcoding arthropod prey in bat faeces</title>
+		<author>
+			<persName><forename type="first">Mrk</forename><surname>Zeale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Butlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gla</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Lees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="236" to="244" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

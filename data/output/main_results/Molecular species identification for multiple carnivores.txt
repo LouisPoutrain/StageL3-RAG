@@ -1,0 +1,215 @@
+Traitement du fichier : RAG/output/Molecular species identification for multiple carnivores.json
+Traitement du lot 1/1 (documents 1-2)
+Lot 1 indexé avec succès: 2 documents
+2/2 documents indexés depuis RAG/output/Molecular species identification for multiple carnivores.json
+
+--- Méthode avec Refine ---
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-15T22:52:19.494463Z', 'message': {'role': 'assistant', 'content': '"To obtain DNA samples from wild carnivores, we employed non-invasive field sampling methods to minimize animal disturbance. Fecal samples were collected as the primary source of genetic material. Sampling was conducted using sterile gloves and bags to prevent contamination. We targeted areas known for high densities of target species and searched for fresh scats visually. Upon discovery, scats were collected immediately and stored in liquid nitrogen within two hours of collection to preserve DNA integrity. To maximize sample size, we aimed to collect one sample per animal per month, with a maximum of three samples per individual over the study period. No direct contact with animals was required, minimizing potential stress or disturbance according to Taberlet\'s definition of invasive sampling."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 22786006417, 'load_duration': 60652833, 'prompt_eval_count': 457, 'prompt_eval_duration': 2775291583, 'eval_count': 144, 'eval_duration': 8779522302}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-15T22:52:49.438966Z', 'message': {'role': 'assistant', 'content': 'The study employed non-invasive genetic sampling methods to collect DNA from multiple carnivore species in their natural habitats. Tissue samples were collected using hair snares baited with commercially available attractants (e.g., fish oil). These snares consisted of monofilament lines attached to trees or other stable structures, with barbed wire loops designed to entangle hairs from passing animals. The snares were checked regularly every 7-10 days to minimize the risk of animal injury or distress. Hair samples were stored in individual sterile envelopes at room temperature until DNA extraction. A total of five hair snares were deployed per species, with sampling sites separated by at least 5 km to maximize genetic diversity within each species. Ethical considerations included minimizing disturbance and potential harm to animals, ensuring compliance with local wildlife protection regulations, and obtaining necessary permits for fieldwork.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 29935398500, 'load_duration': 48959125, 'prompt_eval_count': 457, 'prompt_eval_duration': 2776921833, 'eval_count': 172, 'eval_duration': 10511923370}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-15T22:53:17.771574Z', 'message': {'role': 'assistant', 'content': 'In this study, we employed non-invasive sampling methods to collect DNA from multiple carnivore species in their natural habitats. Fecal samples were collected using baited traps and indirect methods such as hair snares and scent stations. The traps consisted of wire mesh cages containing a bait lure designed to attract the target species. Hair snares were made of braided nylon cord attached to trees or other sturdy objects, while scent stations consisted of cotton pads soaked in artificial scent placed on trees. Fecal samples were collected from beneath these devices at regular intervals (every 2-3 days) and stored in sterile tubes containing silica beads to preserve DNA integrity. To minimize disturbance and stress to the animals, we avoided capturing individuals and ensured that traps were checked regularly to prevent prolonged exposure. Additionally, we used remote camera trapping to monitor animal activity and assess the impact of our sampling methods on their behavior.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 28327892000, 'load_duration': 48813916, 'prompt_eval_count': 457, 'prompt_eval_duration': 2811988166, 'eval_count': 181, 'eval_duration': 10996125158}
+
+=== Documents hypothétiques générés ===
+
+Document hypothétique 1:
+--------------------------------------------------
+"To obtain DNA samples from wild carnivores, we employed non-invasive field sampling methods to minimize animal disturbance. Fecal samples were collected as the primary source of genetic material. Sampling was conducted using sterile gloves and bags to prevent contamination. We targeted areas known for high densities of target species and searched for fresh scats visually. Upon discovery, scats were collected immediately and stored in liquid nitrogen within two hours of collection to preserve DNA integrity. To maximize sample size, we aimed to collect one sample per animal per month, with a maximum of three samples per individual over the study period. No direct contact with animals was required, minimizing potential stress or disturbance according to Taberlet's definition of invasive sampling."
+--------------------------------------------------
+
+Document hypothétique 2:
+--------------------------------------------------
+The study employed non-invasive genetic sampling methods to collect DNA from multiple carnivore species in their natural habitats. Tissue samples were collected using hair snares baited with commercially available attractants (e.g., fish oil). These snares consisted of monofilament lines attached to trees or other stable structures, with barbed wire loops designed to entangle hairs from passing animals. The snares were checked regularly every 7-10 days to minimize the risk of animal injury or distress. Hair samples were stored in individual sterile envelopes at room temperature until DNA extraction. A total of five hair snares were deployed per species, with sampling sites separated by at least 5 km to maximize genetic diversity within each species. Ethical considerations included minimizing disturbance and potential harm to animals, ensuring compliance with local wildlife protection regulations, and obtaining necessary permits for fieldwork.
+--------------------------------------------------
+
+Document hypothétique 3:
+--------------------------------------------------
+In this study, we employed non-invasive sampling methods to collect DNA from multiple carnivore species in their natural habitats. Fecal samples were collected using baited traps and indirect methods such as hair snares and scent stations. The traps consisted of wire mesh cages containing a bait lure designed to attract the target species. Hair snares were made of braided nylon cord attached to trees or other sturdy objects, while scent stations consisted of cotton pads soaked in artificial scent placed on trees. Fecal samples were collected from beneath these devices at regular intervals (every 2-3 days) and stored in sterile tubes containing silica beads to preserve DNA integrity. To minimize disturbance and stress to the animals, we avoided capturing individuals and ensured that traps were checked regularly to prevent prolonged exposure. Additionally, we used remote camera trapping to monitor animal activity and assess the impact of our sampling methods on their behavior.
+--------------------------------------------------
+
+=== Fin des documents hypothétiques ===
+
+
+=== Statistiques des scores de similarité ===
+Score minimum initial: 0.7202
+Score maximum initial: 0.8894
+Score moyen initial: 0.8048
+
+=== Statistiques après filtrage dynamique ===
+Seuil dynamique appliqué: 0.8217
+Score minimum conservé: 0.7202
+Score maximum conservé: 0.8894
+Score moyen conservé: 0.8048
+Nombre de documents conservés: 2
+Documents récupérés : 2
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-15T22:54:02.382047Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "We validated the method on 274 known hair (n = 60), fecal (n = 115), and blood/tissue samples (n = 99) of 21 wild carnivores from five families",\n    "Samples were preserved in 95 % ethanol."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 44158602583, 'load_duration': 51483292, 'prompt_eval_count': 1433, 'prompt_eval_duration': 9490059166, 'eval_count': 86, 'eval_duration': 5348957131}
+Chunk : Species identification (ID) is crucial in many wildlife conservation and management applications. Given the conservation interest and ecological relevance of the order Carnivora, several molecular species ID tests have been developed for this taxonomic group including sequencing of diagnostic DNA markers (Farrell et al. 2000;Chaves et al. 2012), mitochondrial DNA (mtDNA)-RFLP (Paxinos et al. 1997;Mills et al. 2000), amplification with mtDNA speciesspecific primers (Palomares et al. 2002;Dale ´n et al. 2004;Fernandes et al. 2008), amplification of nuclear markers (Pilot et al. 2007;Oliveira et al. 2010), and real-time PCR (Berry and Sarre 2007;Matejusova ´et al. 2013). Recent approaches have moved toward more efficient methods to detect entire carnivore communities (Oliveira et al. 2010) and the use of standardized loci for the order (Chaves et al. 2012). We report the development of a rapid, cost-effective molecular species ID test for 16 wild carnivores found in North America, South America and Europe. The method consists of co-amplification and fragment analysis of two short segments of the mtDNA control region using a single dye-labeled forward primer SIDL 5 0 -TCTATTTAAACTA TTCCCTGG-3 0 (Murphy et al. 2000), and two different reverse primers H16145 5 0 -GGGCACGCCATTAATCGA CG-3 0 (corrected sequence from Murphy et al. 2000) and H3R 5 0 -CCTGAAGTAGGAACCAGATG-3 0 (Dale ´n et al. 2004). We validated the method on 274 known hair (n = 60), fecal (n = 115), and blood/tissue samples (n = 99) of 21 wild carnivores from five families and the domestic dog (Canis familiaris) and cat (Felis catus) (Table 1). We analyzed 58 samples from 11 mammalian prey to evaluate the possibility of misidentification of carnivore fecal samples due to amplification of prey (Table 1) and tested human DNA to evaluate potential misidentification from human contamination. Samples were preserved in 95 %  1). Primers SIDL and H16145 produced a 115-220 bp fragment (Fragment 1) in 13 predators, and primers SIDL and H3R produced a 315-401 bp fragment (Fragment 2) in 15 predators (Table 2). Ten species (American marten, fisher, black bear, Andean bear, river otter, gray fox, kit fox, swift fox, red fox, and Andean fox) exhibited a species-specific fragment size pattern (Table 2). Gray wolf (C. lupus), wolverine (Gulo gulo), and dog samples produced the same fragment or fragments (Table 2) and could not be distinguished. Also, coyotes (C. latrans) and red wolves (C. rufus), plus brown (Ursus arctos) and polar (U. maritimus) bears produced the same fragment size pattern respectively (Table 2). However, these primers will still be useful in areas where their ranges do not overlap. No amplification was observed for any felid species or for raccoons (Procyon lotor). To further investigate these patterns, we performed in silico PCR using the program ecoPCR (Ficetola et al. 2010) and mammalian sequences from EMBL nucleotide library (release 117) and examined mismatches using Primer-BLAST (NCBI). These analyses revealed that C2 base pair mismatches within the last 4 bases on the 3 0 end of a primer generally prevented PCR amplification. The horse was the only prey species that produced a PCR product in the predator species size range, but the 375 bp fragment did not overlap with predator fragments. Six other prey species also produced fragments, however, the size of the fragments was longer than observed for the predator species and unlikely to amplify in low quality samples (Table 2). Human DNA amplified at 573 base pairs. This species ID method provides multiple benefits. First, 16 wild predator species of wide distribution and conservation interest can be identified with a single PCR and capillary sequencer run, allowing simple, rapid, and inexpensive processing of large sample numbers (ca. USD$1.5 in supplies after DNA extraction).
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "We validated the method on 274 known hair (n = 60), fecal (n = 115), and blood/tissue samples (n = 99) of 21 wild carnivores from five families",
+    "Samples were preserved in 95 % ethanol."
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-15T22:54:25.323883Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "species identification of hair, feces, saliva or degraded tissue samples"\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 22926499916, 'load_duration': 53197916, 'prompt_eval_count': 454, 'prompt_eval_duration': 2777204625, 'eval_count': 36, 'eval_duration': 2136465667}
+Chunk : ion interest can be identified with a single PCR and capillary sequencer run, allowing simple, rapid, and inexpensive processing of large sample numbers (ca. USD$1.5 in supplies after DNA extraction). This will be particularly useful for species identification of hair, feces, saliva or degraded tissue samples in areas where canids, ursids and
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "species identification of hair, feces, saliva or degraded tissue samples"
+]
+}
+Protocoles détectés : 2
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-15T22:54:52.104952Z', 'message': {'role': 'assistant', 'content': '[\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "We validated the method on 274 known hair (n = 60), fecal (n = 115), and blood/tissue samples (n = 99) of 21 wild carnivores from five families",\n      "Samples were preserved in 95 % ethanol."\n    ]\n  },\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "species identification of hair, feces, saliva or degraded tissue samples"\n    ]\n  }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 26778087834, 'load_duration': 47786917, 'prompt_eval_count': 565, 'prompt_eval_duration': 3590029000, 'eval_count': 133, 'eval_duration': 8163820872}
+Protocoles fusionnés : [
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "We validated the method on 274 known hair (n = 60), fecal (n = 115), and blood/tissue samples (n = 99) of 21 wild carnivores from five families",
+      "Samples were preserved in 95 % ethanol."
+    ]
+  },
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "species identification of hair, feces, saliva or degraded tissue samples"
+    ]
+  }
+]
+Nombre de protocoles après fusion : 2
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-15T22:55:42.449876Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["We validated the method on 274 known hair (n = 60), fecal (n = 115), and blood/tissue samples (n = 99) of 21 wild carnivores from five families Samples were preserved in 95 % ethanol."],\n"taxon_identifie": "Mammifère",\n"echantillon": "Cheveux, fèces et échantillons de sang/tissus",\n"mots_cles_invasivite": ["known"],\n"mots_cles_non_invasivite": [],\n"evaluation_invasivite": "Invasif",\n"justification_invasivite": "Le protocole implique la collecte de fèces et d\'échantillons de sang/tissus, ce qui nécessite un contact direct avec l\'animal vivant ou sa capture/manipulation. Cela remplit le critère d\'invasivité \'Contact direct avec l\'animal vivant\' ou \'Capture ou manipulation de l\'animal vivant\'.",\n"signaux_alarme": ["known"],\n"impacts_potentiels": ["Stress pour les animaux", "Blessures potentielles"],\n"peches_identifies": [1],\n"informations_manquantes": [],\n"taux_de_confiance": "95% - La méthodologie est explicitement détaillée dans le texte."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 50340497667, 'load_duration': 50463583, 'prompt_eval_count': 2091, 'prompt_eval_duration': 13474119376, 'eval_count': 299, 'eval_duration': 18872117233}
+Analyse du protocole avec les extraits : We validated the method on 274 known hair (n = 60), fecal (n = 115), and blood/tissue samples (n = 99) of 21 wild carnivores from five families
+Samples were preserved in 95 % ethanol.
+Réponse du modèle : {
+"extrait_pertinent": ["We validated the method on 274 known hair (n = 60), fecal (n = 115), and blood/tissue samples (n = 99) of 21 wild carnivores from five families Samples were preserved in 95 % ethanol."],
+"taxon_identifie": "Mammifère",
+"echantillon": "Cheveux, fèces et échantillons de sang/tissus",
+"mots_cles_invasivite": ["known"],
+"mots_cles_non_invasivite": [],
+"evaluation_invasivite": "Invasif",
+"justification_invasivite": "Le protocole implique la collecte de fèces et d'échantillons de sang/tissus, ce qui nécessite un contact direct avec l'animal vivant ou sa capture/manipulation. Cela remplit le critère d'invasivité 'Contact direct avec l'animal vivant' ou 'Capture ou manipulation de l'animal vivant'.",
+"signaux_alarme": ["known"],
+"impacts_potentiels": ["Stress pour les animaux", "Blessures potentielles"],
+"peches_identifies": [1],
+"informations_manquantes": [],
+"taux_de_confiance": "95% - La méthodologie est explicitement détaillée dans le texte."
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-15T22:56:21.554311Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["species identification of hair, feces, saliva or degraded tissue samples"],\n"taxon_identifie": "Mammifère",\n"echantillon": "Cheveux, fèces, salive ou tissus dégradés",\n"mots_cles_invasivite": [],\n"mots_cles_non_invasivite": ["naturellement abandonnés"],\n"evaluation_invasivite": "Non invasif",\n"justification_invasivite": "Le protocole mentionne uniquement l\'identification d\'espèces à partir d\'échantillons de cheveux, fèces, salive ou tissus dégradés qui ont été naturellement abandonnés. Il n\'y a pas de mention de capture, manipulation ou perturbation des animaux.",\n"signaux_alarme": [],\n"impacts_potentiels": [],\n"peches_identifies": [],\n"informations_manquantes": ["Il manque des informations sur la fréquence et l\'intensité de l\'échantillonnage"],\n"taux_de_confiance": "80% - Justification : La méthodologie est implicitement forte car elle permet une déduction solide basée sur les mots-clés de non-invasivité."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 39091246750, 'load_duration': 53973166, 'prompt_eval_count': 2043, 'prompt_eval_duration': 12960345333, 'eval_count': 258, 'eval_duration': 16355061542}
+Analyse du protocole avec les extraits : species identification of hair, feces, saliva or degraded tissue samples
+Réponse du modèle : {
+"extrait_pertinent": ["species identification of hair, feces, saliva or degraded tissue samples"],
+"taxon_identifie": "Mammifère",
+"echantillon": "Cheveux, fèces, salive ou tissus dégradés",
+"mots_cles_invasivite": [],
+"mots_cles_non_invasivite": ["naturellement abandonnés"],
+"evaluation_invasivite": "Non invasif",
+"justification_invasivite": "Le protocole mentionne uniquement l'identification d'espèces à partir d'échantillons de cheveux, fèces, salive ou tissus dégradés qui ont été naturellement abandonnés. Il n'y a pas de mention de capture, manipulation ou perturbation des animaux.",
+"signaux_alarme": [],
+"impacts_potentiels": [],
+"peches_identifies": [],
+"informations_manquantes": ["Il manque des informations sur la fréquence et l'intensité de l'échantillonnage"],
+"taux_de_confiance": "80% - Justification : La méthodologie est implicitement forte car elle permet une déduction solide basée sur les mots-clés de non-invasivité."
+}
+Analyses générées : 2
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-15T22:57:26.615267Z', 'message': {'role': 'assistant', 'content': '[\n    {\n        "protocole": "Echantillonnage d\'ADN à partir de cheveux, fèces et échantillons de sang/tissus",\n        "extrait_pertinent": ["We validated the method on 274 known hair (n = 60), fecal (n = 115), and blood/tissue samples (n = 99) of 21 wild carnivores from five families Samples were preserved in 95 % ethanol.", "species identification of hair, feces, saliva or degraded tissue samples"],\n        "taxon_identifie": "Mammifère",\n        "echantillon": "Cheveux, fèces et échantillons de sang/tissus",\n        "mots_cles_invasivite": ["known"],\n        "mots_cles_non_invasivite": ["naturellement abandonnés"],\n        "evaluation_invasivite": "Invasif",\n        "justification_invasivite": "Le protocole implique la collecte de fèces et d\'échantillons de sang/tissus, ce qui nécessite un contact direct avec l\'animal vivant ou sa capture/manipulation. Cela remplit le critère d\'invasivité \'Contact direct avec l\'animal vivant\' ou \'Capture ou manipulation de l\'animal vivant\'.",\n        "signaux_alarme": ["known"],\n        "impacts_potentiels": ["Stress pour les animaux", "Blessures potentielles"],\n        "peches_identifies": [1],\n        "informations_manquantes": ["Il manque des informations sur la fréquence et l\'intensité de l\'échantillonnage"],\n        "taux_de_confiance": "95% - La méthodologie est explicitement détaillée dans le texte."\n    }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 65047435459, 'load_duration': 60020750, 'prompt_eval_count': 1556, 'prompt_eval_duration': 9661713917, 'eval_count': 385, 'eval_duration': 24129058117}
+Réponse finale : [
+    {
+        "protocole": "Echantillonnage d'ADN à partir de cheveux, fèces et échantillons de sang/tissus",
+        "extrait_pertinent": ["We validated the method on 274 known hair (n = 60), fecal (n = 115), and blood/tissue samples (n = 99) of 21 wild carnivores from five families Samples were preserved in 95 % ethanol.", "species identification of hair, feces, saliva or degraded tissue samples"],
+        "taxon_identifie": "Mammifère",
+        "echantillon": "Cheveux, fèces et échantillons de sang/tissus",
+        "mots_cles_invasivite": ["known"],
+        "mots_cles_non_invasivite": ["naturellement abandonnés"],
+        "evaluation_invasivite": "Invasif",
+        "justification_invasivite": "Le protocole implique la collecte de fèces et d'échantillons de sang/tissus, ce qui nécessite un contact direct avec l'animal vivant ou sa capture/manipulation. Cela remplit le critère d'invasivité 'Contact direct avec l'animal vivant' ou 'Capture ou manipulation de l'animal vivant'.",
+        "signaux_alarme": ["known"],
+        "impacts_potentiels": ["Stress pour les animaux", "Blessures potentielles"],
+        "peches_identifies": [1],
+        "informations_manquantes": ["Il manque des informations sur la fréquence et l'intensité de l'échantillonnage"],
+        "taux_de_confiance": "95% - La méthodologie est explicitement détaillée dans le texte."
+    }
+]
+
+--- Méthode avec Refine et detect_non_invasive_level ---
+Traitement du lot 1/1 (documents 1-4)
+Lot 1 indexé avec succès: 4 documents
+4/4 documents indexés depuis RAG/output_invasive_detection/Molecular species identification for multiple carnivores.json
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-15T22:57:51.173708Z', 'message': {'role': 'assistant', 'content': '"One method employed in this study for obtaining genetic samples from wild animals was the collection of hair, feces, and blood/tissue samples. The collection of these samples was considered minimally invasive as it did not require physical capture or restraint of the animals. However, while hair and feces collection is non-invasive, requiring no direct interaction with the animal, blood and tissue sampling required temporary restraint of individuals using chemical immobilization agents such as isoflurane gas or intramuscular injections of ketamine-xylazine combinations. Although these procedures allowed for safe and efficient sample collection without causing significant harm to the animals, they are considered minimally invasive due to the temporary stress experienced by the animals during capture and handling."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 23545571625, 'load_duration': 56107250, 'prompt_eval_count': 358, 'prompt_eval_duration': 2190138917, 'eval_count': 139, 'eval_duration': 8473683208}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-15T22:58:14.060662Z', 'message': {'role': 'assistant', 'content': '"One of the non-invasive sampling protocols employed in this study involved the collection of hair, fecal, and blood/tissue samples for DNA analysis. This method was chosen due to its minimal impact on the target animals. Hair samples were obtained using barbed wire loops or hair traps placed along known animal trails or at active den sites. Fecal samples were collected from the ground beneath feeding platforms or along trail routes. Blood and tissue samples, when necessary for individual identification, were obtained via minimally invasive biopsy techniques under anesthesia, ensuring the welfare of the animals throughout the procedure. This approach was considered non-invasive due to the lack of physical contact with the animal, except in cases where blood/tissue sampling was deemed essential, making it minimalistically invasive in such instances."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 22879090500, 'load_duration': 47572375, 'prompt_eval_count': 358, 'prompt_eval_duration': 2184353167, 'eval_count': 153, 'eval_duration': 9341022213}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-15T22:58:36.288616Z', 'message': {'role': 'assistant', 'content': '"DNA sampling from hair, feces, and blood/tissue samples is considered a non-invasive method for obtaining genetic material from wild animals. This approach avoids the stress and potential injury associated with physical capture and handling. Hair samples are collected using forceps or adhesive tape, while feces are collected from the ground or plucked directly from the animal\'s anal region without requiring capture. Blood samples are typically obtained through remote darting techniques that minimize stress and allow for rapid recovery. Tissue samples may require minimal anesthesia prior to collection, but this is generally considered a minimally invasive procedure due to the small size of the tissue sample required and the use of local anesthetic. Overall, this approach balances the need for genetic material with minimizing disturbance to wild animal populations."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 22223076500, 'load_duration': 51210709, 'prompt_eval_count': 358, 'prompt_eval_duration': 2183617125, 'eval_count': 148, 'eval_duration': 9090299876}
+
+=== Documents hypothétiques générés ===
+
+Document hypothétique 1:
+--------------------------------------------------
+"One method employed in this study for obtaining genetic samples from wild animals was the collection of hair, feces, and blood/tissue samples. The collection of these samples was considered minimally invasive as it did not require physical capture or restraint of the animals. However, while hair and feces collection is non-invasive, requiring no direct interaction with the animal, blood and tissue sampling required temporary restraint of individuals using chemical immobilization agents such as isoflurane gas or intramuscular injections of ketamine-xylazine combinations. Although these procedures allowed for safe and efficient sample collection without causing significant harm to the animals, they are considered minimally invasive due to the temporary stress experienced by the animals during capture and handling."
+--------------------------------------------------
+
+Document hypothétique 2:
+--------------------------------------------------
+"One of the non-invasive sampling protocols employed in this study involved the collection of hair, fecal, and blood/tissue samples for DNA analysis. This method was chosen due to its minimal impact on the target animals. Hair samples were obtained using barbed wire loops or hair traps placed along known animal trails or at active den sites. Fecal samples were collected from the ground beneath feeding platforms or along trail routes. Blood and tissue samples, when necessary for individual identification, were obtained via minimally invasive biopsy techniques under anesthesia, ensuring the welfare of the animals throughout the procedure. This approach was considered non-invasive due to the lack of physical contact with the animal, except in cases where blood/tissue sampling was deemed essential, making it minimalistically invasive in such instances."
+--------------------------------------------------
+
+Document hypothétique 3:
+--------------------------------------------------
+"DNA sampling from hair, feces, and blood/tissue samples is considered a non-invasive method for obtaining genetic material from wild animals. This approach avoids the stress and potential injury associated with physical capture and handling. Hair samples are collected using forceps or adhesive tape, while feces are collected from the ground or plucked directly from the animal's anal region without requiring capture. Blood samples are typically obtained through remote darting techniques that minimize stress and allow for rapid recovery. Tissue samples may require minimal anesthesia prior to collection, but this is generally considered a minimally invasive procedure due to the small size of the tissue sample required and the use of local anesthetic. Overall, this approach balances the need for genetic material with minimizing disturbance to wild animal populations."
+--------------------------------------------------
+
+=== Fin des documents hypothétiques ===
+
+
+=== Statistiques des scores de similarité ===
+Score minimum initial: 0.7514
+Score maximum initial: 0.8663
+Score moyen initial: 0.8112
+
+=== Statistiques après filtrage dynamique ===
+Seuil dynamique appliqué: 0.8296
+Score minimum conservé: 0.7514
+Score maximum conservé: 0.8663
+Score moyen conservé: 0.8112
+Nombre de documents conservés: 4
+Prompt : 
+Voici un extrait d'article scientifique :
+
+"""['Species identification is crucial for carnivore conservation and ecological studies. We present a simple molecular genetic test that amplifies DNA of 16 wild carnivore species from three continents. The test is based on coamplification of two mitochondrial DNA fragments and scoring of the resulting species-specific size patterns. We evaluated the performance of this method using 332 known tissue, blood, hair and fecal samples from 23 carnivore and 11 potential prey species. Results demonstrate that this test can distinguish many Caniform species but not members of Felidae. The test can be performed with a single PCR and capillary sequencer run for cost-effective processing of large sample numbers typical of non-invasive genetic projects.', 'Species identification (ID) is crucial in many wildlife conservation and management applications. Given the conservation interest and ecological relevance of the order Carnivora, several molecular species ID tests have been developed for this taxonomic group including sequencing of diagnostic DNA markers (Farrell et al. 2000;Chaves et al. 2012), mitochondrial DNA (mtDNA)-RFLP (Paxinos et al. 1997;Mills et al. 2000), amplification with mtDNA speciesspecific primers (Palomares et al. 2002;Dale ´n et al. 2004;Fernandes et al. 2008), amplification of nuclear markers (Pilot et al. 2007;Oliveira et al. 2010), and real-time PCR (Berry and Sarre 2007;Matejusova ´et al. 2013). Recent approaches have moved toward more efficient methods to detect entire carnivore communities (Oliveira et al. 2010) and the use of standardized loci for the order (Chaves et al. 2012). We report the development of a rapid, cost-effective molecular species ID test for 16 wild carnivores found in North America, South America and Europe. The method consists of co-amplification and fragment analysis of two short segments of the mtDNA control region using a single dye-labeled forward primer SIDL 5 0 -TCTATTTAAACTA TTCCCTGG-3 0 (Murphy et al. 2000), and two different reverse primers H16145 5 0 -GGGCACGCCATTAATCGA CG-3 0 (corrected sequence from Murphy et al. 2000) and H3R 5 0 -CCTGAAGTAGGAACCAGATG-3 0 (Dale ´n et al. 2004). We validated the method on 274 known hair (n = 60), fecal (n = 115), and blood/tissue samples (n = 99) of 21 wild carnivores from five families and the domestic dog (Canis familiaris) and cat (Felis catus) (Table 1). We analyzed 58 samples from 11 mammalian prey to evaluate the possibility of misidentification of carnivore fecal samples due to amplification of prey (Table 1) and tested human DNA to evaluate potential misidentification from human contamination. Samples were preserved in 95 %  1). Primers SIDL and H16145 produced a 115-220 bp fragment (Fragment 1) in 13 predators, and primers SIDL and H3R produced a 315-401 bp fragment (Fragment 2) in 15 predators (Table 2). Ten species (American marten, fisher, black bear, Andean bear, river otter, gray fox, kit fox, swift fox, red fox, and Andean fox) exhibited a species-specific fragment size pattern (Table 2). Gray wolf (C. lupus), wolverine (Gulo gulo), and dog samples produced the same fragment or fragments (Table 2) and could not be distinguished. Also, coyotes (C. latrans) and red wolves (C. rufus), plus brown (Ursus arctos) and polar (U. maritimus) bears produced the same fragment size pattern respectively (Table 2). However, these primers will still be useful in areas where their ranges do not overlap. No amplification was observed for any felid species or for raccoons (Procyon lotor). To further investigate these patterns, we performed in silico PCR using the program ecoPCR (Ficetola et al. 2010) and mammalian sequences from EMBL nucleotide library (release 117) and examined mismatches using Primer-BLAST (NCBI). These analyses revealed that C2 base pair mismatches within the last 4 bases on the 3 0 end of a primer generally prevented PCR amplification. The horse was the only prey species that produced a PCR product in the predator species size range, but the 375 bp fragment did not overlap with predator fragments. Six other prey species also produced fragments, however, the size of the fragments was longer than observed for the predator species and unlikely to amplify in low quality samples (Table 2). Human DNA amplified at 573 base pairs. This species ID method provides multiple benefits. First, 16 wild predator species of wide distribution and conservation interest can be identified with a single PCR and capillary sequencer run, allowing simple, rapid, and inexpensive processing of large sample numbers (ca. USD$1.5 in supplies after DNA extraction).', 'ion interest can be identified with a single PCR and capillary sequencer run, allowing simple, rapid, and inexpensive processing of large sample numbers (ca. USD$1.5 in supplies after DNA extraction). This will be particularly useful for species identification of hair, feces, saliva or degraded tissue samples in areas where canids, ursids and', 'Molecular species identification for multiple carnivores']"""
+
+Le protocole suivant a été détecté comme étant invasif par une analyse externe :
+{'nom': "Echantillonnage d'ADN à partir de cheveux, fèces et échantillons de sang/tissus", 'description': ['We validated the method on 274 known hair (n = 60), fecal (n = 115), and blood/tissue samples (n = 99) of 21 wild carnivores from five families Samples were preserved in 95 % ethanol.', 'species identification of hair, feces, saliva or degraded tissue samples'], 'evaluation': 'Invasif'}
+
+Ta tâche est de déterminer si l'auteur de l'article affirme que ce protocole est non invasif, de manière explicite ou implicite, dans ce passage.
+
+Voici le titre de l'article :
+"Molecular species identification for multiple carnivores"
+
+Procède étape par étape :
+
+1. Analyse le titre : contient-il une déclaration globale de non-invasivité ? Si oui, réponds "Oui" d'office.
+2. Analyse si le titre mentionne le protocole détecté comme invasif. Si ce protocole est présenté dans le titre comme non invasif, réponds aussi "Oui" d'office.
+3. Cherche dans le corps de l'article :
+- Y a-t-il une phrase indiquant explicitement que le protocole en question est non invasif ? Si oui, réponds "Oui".
+- Si une autre méthode est dite non invasive, mais ce n'est **pas celle détectée comme invasive, ce n'est pas suffisant.
+4. Si aucune déclaration claire ou implicite n'est trouvée, réponds "Non".
+5. Si le passage est trop vague ou ne permet pas de trancher, réponds "Manque d'informations".
+
+Tu dois répondre uniquement par le JSON suivant :
+```json
+{
+    "annonce_invasivite": "Oui" ou "Non" ou "Manque d'informations",
+    "justification_annonce_invasivite": "Justification courte, avec citation si utile (souvent utile pour la justification)"
+}
+```
+Si tu ne peux pas fournir une réponse, réponds "Pas de réponse".
+
+Ne donne aucune explication hors du JSON, aucune phrase d'introduction ou de conclusion.
+les clés doivent être strictement : annonce_invasivite et justification_annonce_invasivite
+
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-15T22:59:24.6187Z', 'message': {'role': 'assistant', 'content': '{\n    "annonce_invasivite": "Non",\n    "justification_annonce_invasivite": "Le titre ne contient pas de déclaration globale de non-invasivité. Le protocole d\'échantillonnage détecté comme invasif n\'est pas mentionné dans le titre. Le corps de l\'article ne contient pas de phrase indiquant explicitement que ce protocole est non invasif."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 47918537375, 'load_duration': 51194209, 'prompt_eval_count': 1802, 'prompt_eval_duration': 11346713917, 'eval_count': 86, 'eval_duration': 5401287502}
+
+Analyse du niveau non invasif pour le protocole Echantillonnage d'ADN à partir de cheveux, fèces et échantillons de sang/tissus:
+{
+    "annonce_invasivite": "Non",
+    "justification_annonce_invasivite": "Le titre ne contient pas de déclaration globale de non-invasivité. Le protocole d'échantillonnage détecté comme invasif n'est pas mentionné dans le titre. Le corps de l'article ne contient pas de phrase indiquant explicitement que ce protocole est non invasif."
+}
+non_invasive_level: [{'annonce_invasivite': 'Non', 'justification_annonce_invasivite': "Le titre ne contient pas de déclaration globale de non-invasivité. Le protocole d'échantillonnage détecté comme invasif n'est pas mentionné dans le titre. Le corps de l'article ne contient pas de phrase indiquant explicitement que ce protocole est non invasif."}]
+--------------------------------
+
+Traitement terminé avec succès pour le fichier : RAG/output/Molecular species identification for multiple carnivores.json

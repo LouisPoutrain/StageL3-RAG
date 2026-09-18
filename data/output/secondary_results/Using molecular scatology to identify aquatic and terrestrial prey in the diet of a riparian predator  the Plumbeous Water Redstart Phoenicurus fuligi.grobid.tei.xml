@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Using molecular scatology to identify aquatic and terrestrial prey in the diet of a riparian predator, the Plumbeous Water Redstart Phoenicurus fuliginosa</title>
+				<funder>
+					<orgName type="full">Shei-Pa National Park, Taiwan</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Choon</forename><surname>Kiang Wong</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Entomology</orgName>
+								<orgName type="institution">National Chung Hsing University</orgName>
+								<address>
+									<settlement>Taichung</settlement>
+									<country>Taiwan;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ming-Chih</forename><surname>Chiu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Life Sciences</orgName>
+								<orgName type="institution">National Chung Hsing University</orgName>
+								<address>
+									<settlement>Taichung</settlement>
+									<country>Taiwan;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yuan-Hsun</forename><surname>Sun</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Wildlife Conservation</orgName>
+								<orgName type="institution">National Pingtung University of Science &amp; Technology</orgName>
+								<address>
+									<settlement>Pingtung</settlement>
+									<country>Taiwan;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shiao-Yu</forename><surname>Hong</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Graduate Institute of Bioresources</orgName>
+								<orgName type="institution">National Pingtung University of Science &amp; Technology</orgName>
+								<address>
+									<settlement>Pingtung</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Mei-Hwa</forename><surname>Kuo</surname></persName>
+							<email>mhkuo@dragon.nchu.edu.tw</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Entomology</orgName>
+								<orgName type="institution">National Chung Hsing University</orgName>
+								<address>
+									<settlement>Taichung</settlement>
+									<country>Taiwan;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Using molecular scatology to identify aquatic and terrestrial prey in the diet of a riparian predator, the Plumbeous Water Redstart Phoenicurus fuliginosa</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CCAF5EAFB8A21797C41910C60F2A1C67</idno>
+					<idno type="DOI">10.1080/00063657.2015.1032888</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Capsule Molecular scatology can characterize predator diets by the identification of mixed and degraded prey fragments in predator faeces. Aims We evaluated whether a non-invasive, molecular technique was useful for identifying prey in the faecal samples of the Plumbeous Water Redstart Phoenicurus fuliginosa, which feeds in the riparian ecotone and, therefore, depends on prey from both terrestrial and aquatic sources. Methods Samples of intact faeces were collected in the riparian zone during 2010 to 2012 in Taiwan. A Bayesian model was used to delimit distinct species based on the phylogenetic species concept. Prey identities were determined using the Barcode of Life Data system. Results We examined 283 faecal samples and detected DNA in 190 using DNA barcodes. We identified 505 prey DNA sequences belonging to 108 distinct species. Beetles were detected in more samples (64 of 190) than any other taxon, and aquatic insects were found in 100 of 190 samples. Conclusion This molecular approach for identifying prey taxa in the faeces of a generalist predator provides information that improves our understanding of cross-ecosystem energy flow. To increase the percentage of sequences that can be identified, comprehensive, local reference sequences need to be added to the database.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The bottom-up and top-down effects resulting from the trophic relationships between predators and prey are manifestations of energy flows through freshwater riparian ecosystems <ref type="bibr" target="#b6">(Chiu et al. 2008</ref><ref type="bibr" target="#b19">, Greenwood &amp; McIntosh 2008</ref><ref type="bibr">, 2011)</ref>. There is increasing recognition of the importance of these energy flows across ecosystems <ref type="bibr" target="#b32">(Polis et al. 1997</ref><ref type="bibr" target="#b27">, Nakano &amp; Murakami 2001</ref><ref type="bibr" target="#b2">, Baxter et al. 2005)</ref>. For example, along rivers, benthic insects emerge from streams and enter forest and riparian ecosystems where they can supplement the diets of riparian birds and invertebrates <ref type="bibr" target="#b31">(Paetzold et al. 2005</ref><ref type="bibr" target="#b13">, Epanchin et al. 2010)</ref>. The regulation of energy flow between stream and riparian ecosystems is important to bio-conservation and management <ref type="bibr" target="#b25">(Liao et al. 2012)</ref>, because this energy flow could stabilize the food web dynamics of recipient habitats <ref type="bibr" target="#b38">(Takimoto et al. 2002</ref><ref type="bibr" target="#b23">, Kawaguchi et al. 2003)</ref>.</p><p>Identification of energy flows relies on understanding trophic interactions and these rely on knowledge of animal diet. Traditionally, the composition of wild animal diets has been determined by examining the gut contents by dissection <ref type="bibr" target="#b3">(Blankenship &amp; Yayanos 2005)</ref> or forced regurgitation. These methods kill or have the potential to harm the study animals. For ethical reasons, a number of non-invasive methods are now preferred, including direct observation and examination of stools. In addition, these methods allow for long-term observations without disturbing the study system. However, it is difficult to identify prey to lower taxonomic levels by direct observation because many prey and their traits are small or difficult to see at a distance <ref type="bibr" target="#b7">(Chiu et al. 2009</ref>). In addition, chewing or grinding, and chemical digestion make it difficult to identify prey fragments recovered from faeces to family, genus or species <ref type="bibr" target="#b8">(Clare et al. 2009</ref>). However, when morphologically identifiable prey parts are present, prey spectrum, size range and energetics can be determined in detail <ref type="bibr" target="#b29">(Ormerod 1985</ref><ref type="bibr" target="#b30">, Ormerod &amp; Tyler 1991)</ref>.</p><p>Molecular scatology provides a non-invasive method for obtaining information crucial to animal diets. Some prey DNA survives transit through the digestive system of predators, and molecular approaches can provide an opportunity to study their diet and identify, in detail, prey animals. The mitochondrial gene, cytochrome c oxidase I (COI), has a short, standardized region and can serve as the core sequence in bioidentification systems <ref type="bibr" target="#b33">(Ratnasingham &amp; Hebert 2007)</ref>, which provide rapid, accurate and automatable species identifications. Moreover, the COI universal primers are very robust and can be used to amplify COI in a wide range of animals. This study used the polymerase chain reaction (PCR) and the universal primers to recover prey COI DNA sequences from the faeces of the Plumbeous Water Redstart Phoenicurus fuliginosa <ref type="bibr">(Ogilvie-Grant, 1906)</ref>. The two subspecies of Plumbeous Water Redstart in South-East Asia are riparian predators that inhabit fast-flowing rivers <ref type="bibr" target="#b34">(Robson 2000)</ref>. Phoenicurus fuliginosa affinis, a subspecies endemic to Taiwan, stands on rocks in streams to catch insects flying over the water. These insects could come from either aquatic or riparian habitats <ref type="bibr" target="#b4">(Buckton &amp; Ormerod 2008)</ref>. Prey sequences were compared with reference sequences from known taxa and assigned to the taxon with the highest similarity. When reconstructing prey composition, we evaluated whether the molecular technique was useful for identifying prey in the faecal samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample collection</head><p>Plumbeous Water Redstart faeces were collected from the riparian zone of a mountain stream <ref type="bibr">(Cijiawan Stream;</ref><ref type="bibr">1700</ref><ref type="bibr">-2000 m elevation;</ref><ref type="bibr">121.31°E, 24.37°N)</ref> in Shei-Pa National Park, Taiwan. Cijiawan Stream is a tributary of the Dajia River. Plumbeous Water Redstart faeces can be identified by their size (about 1 cm, Fig. <ref type="figure" target="#fig_0">1</ref>) and location on the periphery of rocks in, or next to, streams. In the same area, other bird species of similar size (i.e. Grey Wagtail Motacilla cinerea and Little Forktail Enicurus scouleri) do not drop their faeces in the same locations as Plumbeous Water Redstart. In addition, based on a 10-year survey, the average annual abundance of these other two species in the study area was less than 10 individuals of each species during this study period, while there were more than 80 Plumbeous Water Redstart (Yuan-Hsun Sun unpubl. data). Therefore, we are confident that the 283 samples of intact faeces collected from rocks in the riparian zone on 11 separate occasions during April to July and October to December of 2010, 2011 and 2012 (Table <ref type="table" target="#tab_0">1</ref>) came from Plumbeous Water Redstarts. Each faecal sample was soaked in 95% ethanol and then stored in ethanol in a 1.5-ml tube at -20°C. One Plumbeous Water Redstart was mist-netted and a small amount of blood (12.5 ul) was extracted by puncturing the brachial vein. The bird was released and the blood sample was stored in 95% ethanol and later amplified to provide COI DNA reference sequences.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA isolation, amplification and sequencing</head><p>Samples were removed from cold storage and prey fragments (legs, heads, wings, antennae and any exoskeleton fragments) were collected using a dissecting microscope (Fig. <ref type="figure" target="#fig_0">1</ref>). To avoid DNA contamination of the collected prey fragments, all tools, such as tweezers and petri dishes, were placed under UV light for least 30 min prior to use. All prey fragments from each sample were placed in 95% ethanol in a 1.5-ml tube. Each tube was placed in an incubator set to 56°C. Tubes were removed when all the ethanol had evaporated. A drop of Plumbeous Water Redstart blood was placed in a 1.5-ml tube and the DNA was extracted using a DNeasy Kit (QIAGEN, protocol modification for insects and blood). In total, DNA was extracted from 190 faecal samples (Table <ref type="table" target="#tab_0">1</ref>).</p><p>A 658-bp target region of the COI gene was amplified first by the forward primer (LCO1490: 5'-GGTCAA CAAATCATAAAGATATTGG-3') and the reverse primer (HCO2190: 5'-TAAACTTCAGGGTGAC CAAAAAATCA-3') <ref type="bibr" target="#b15">(Folmer et al. 1994)</ref>. If the target region of the COI gene could not be successfully amplified with these primers, we used the forward primer LepF (5'-ATTCAACCAATCATAAAGATA TTGG-3') and the reverse primer LepR (5'-TAAA CTTCTGGATGTCCAAAAAATCA-3') <ref type="bibr" target="#b22">(Hebert et al. 2004</ref>). For the PCR, 2 μl extracted DNA, 1x Taq buffer, 0.2 mM dNTP, 0.5 uM of each of primer and 0.5 U HotStart EX Taq DNA polymerase (TaKaRa) were combined in a total volume of 20 μl. The PCR cycling conditions were 3 min at 95°C, 45 cycles of 45 s at 94°C, 90 s at 45°C, 90 s at 72°C and final elongation for 10 min at 72°C. Negative controls (PCRs without DNA) were used to confirm there was no DNA contamination. PCR products were visualized on 2% agarose gel. Purified target DNA was extracted with a micro elute DNA clean/extraction kit (Gene Mark). To clone target PCR products, each PCR product from each faecal sample was cloned with vector (pGEM ® -T Easy Vector System I, Promega) and transformed into Escherichia coli (DH5α). Bluewhite selection was used to recognize positively transformed bacteria on the plate. Ten clones from each sample were cultured in LB broth liquid. Plasmid DNA was extracted using a Plasmid miniprep purification kit (Gene Mark). To determine diet diversity, at least three clones from each sample were sequenced with ABI PRISM 3100 or ABI PRISM 3730 DNA sequencer machines.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sequence identification and analyses</head><p>There were 505 clone sequences belonging to 352 distinct sequences. This does not include DNA sequences without reasonable information (failed sequencing and non-target and the host sequences). To assign these sequences to distinct species, we performed two analyses. First, a phylogenetic tree was constructed for the 352 distinct sequences using MrBayes v3.2.1 <ref type="bibr" target="#b35">(Ronquist et al. 2011)</ref> with model GTR + I + G (generalized time reversible with an assumed invariant gamma distribution of DNA substitution rates). For the analysis, we ran two MCMC (Markov chain Monte Carlo) searches, each with four chains (one cold, three hot -Metropoliscoupling). Each MCMC search was made for 51 million generations, sampling every 5000 generations, with a burn-in of 25%. The potential scale reduction factors of all variables estimated were less than 1.2,  2013). In the PTP model, the MCMC search was made for 1 million generations, sampling every 1000 generations, with a burn-in of 10%.</p><p>In addition, these 352 distinct sequences were compared against reference sequences in the Barcode of Life Data (BOLD) system <ref type="bibr" target="#b33">(Ratnasingham &amp; Hebert 2007)</ref>. Currently, there are about 149 000 formally described animal species in BOLD System v3. The rules and interpretations for matching sample and reference database sequences are as follows: (1) A sample sequence that matches a reference sequence by at least 99%, and is not a close match to any other reference sequence, was attributed to the species from the database <ref type="bibr" target="#b36">(Ross et al. 2008</ref><ref type="bibr" target="#b8">, Clare et al. 2009)</ref> ; (2) When a sample sequence was similar to sequences from members of a known genus or higher taxa, but could not be unequivocally matched to a single species, probably due to the incomplete reference coverage, the sample sequence was identified to order when similarity exceeded 77.5%, to family when similarity exceeded 80%, and to genus when similarity exceeded 86.4%. These percentages represent the mean divergences at the order, family and genus levels for insects <ref type="bibr" target="#b40">(Zeale et al. 2011)</ref>. For each species identified by the PTP model, its taxonomic level was determined by its sample sequence with the highest similarity.</p><p>To assess whether these cloned sequences can present all possible prey species in the diet of the Plumbeous Water Redstart, we used these data to create an expected species accumulation curve, which plots the increase in prey species with the increase in unique DNA sequences. The curve was generated using rarefaction, performed by PRIMER 6 <ref type="bibr" target="#b9">(Clarke &amp; Warwick 2001)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Target DNA was extracted from 190 of the 283 (67.1%, Table <ref type="table" target="#tab_0">1</ref>) Plumbeous Water Redstart faecal samples. The amplicons were then cloned. Using the PTP model, the 505 clone sequences (352 distinct sequences) were identified to 108 distinct invertebrate species. These clone sequences were compared with reference sequences in the BOLD system in an attempt to identify each sample to species. Of the 505 clone sequences, there were 62 sequences that only could be identified to order level and 4 sequences could only be identified to the class Arachnida or Collembola (Table <ref type="table" target="#tab_1">2</ref>).</p><p>The 108 distinct species belonged to 3 classes, 10 orders and 42 families, and 4 distinct species were identified to species (Table <ref type="table" target="#tab_1">2</ref>). There were 34 distinct species of aquatic insects. The similarity of sample sequences to reference sequences ranged from 77.7% to 100.0%. Aquatic insects that emerged from the lotic ecosystem were found in 100 of 190 faecal samples. Beetles (Coleoptera: 64 samples), mayflies (Ephemeroptera: 59 samples) and flies (Diptera: 50 samples) were detected most frequently (Table <ref type="table" target="#tab_3">3</ref>). The taxon accumulation curve did not reach an asymptote, indicating that the 108 distinct species are only part of the total diet of the Plumbeous Water Redstart (Fig. <ref type="figure" target="#fig_1">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Traditional diet analysis relies on the presence of morphologically identifiable prey parts, such as the legs, antennae, wing or head (Fig. <ref type="figure" target="#fig_0">1b</ref>). The Plumbeous Water Redstart grinds and digests insect prey  thoroughly, and only very small, difficult to identify prey fragments occur in its faeces. As a result, prey can seldom be identified beyond the level of Order (Fig. <ref type="figure" target="#fig_0">1a</ref>), but DNA from insect prey may remain intact during digestion and can be recovered from faeces. In this study, we used a PCR-based molecular method to characterize the diet of the Plumbeous Water Redstart.</p><p>In the Himalayas, the Plumbeous Water Redstart feeds mainly on insects, especially Coleoptera and Diptera <ref type="bibr" target="#b4">(Buckton &amp; Ormerod 2008)</ref>, and prey of aquatic origin, mostly Trichoptera and Plecoptera, account for just over 20% of the prey items (Steve J. Ormerod unpubl. data, prey were identified by body parts). In this study, Coleoptera was detected in 64 of 190 faecal samples, Ephemeroptera in 59 samples and Diptera in 50 samples (Table <ref type="table" target="#tab_3">3</ref>). In addition, aquatic insects that emerged from the lotic ecosystem were found in 100 samples. Much softer bodied prey, including flies, mayflies, stoneflies and caddisflies, were well represented and were found in 141 of 190 faecal samples. However, it is possible that beetles are overrepresented because of their hard body parts. To improve the detection of all taxa, future studies should amplify a shorter mtDNA fragment <ref type="bibr" target="#b5">(Chaves et al. 2012)</ref>.</p><p>Identifying prey DNA in faeces provides information about what species a predator is eating, but does not allow us to estimate the amount of each prey type in the diet. It is unclear how accurately the molecular results represent the actual proportions of these different prey groups in the diet of the Plumbeous Water Redstart. However, clone libraries provide semiquantitative data on the amount of each prey species that is eaten if we assume the proportion of prey DNA clones is roughly proportional to the mass of prey items consumed <ref type="bibr" target="#b11">(Deagle et al. 2005)</ref>. This molecular method has been used successfully with other generalist predators, including vertebrates and invertebrates <ref type="bibr" target="#b37">(Symondson 2002</ref><ref type="bibr" target="#b3">, Blankenship &amp; Yayanos 2005</ref><ref type="bibr" target="#b8">, Clare et al. 2009)</ref>.</p><p>Identifying prey species using this molecular method is based on a number of factors: (1) fragments of arthropod exoskeleton provide some protection to DNA during digestion, and they can be seen and extracted from predator faeces <ref type="bibr" target="#b8">(Clare et al. 2009</ref>); (2) there are many copies of some short, mitochondrial regions <ref type="bibr" target="#b39">(Zaidi et al. 1999)</ref>, such as the COI gene, which increases the chances they can be amplified using PCR; (3) the universal primers are very robust, and can be used to amplify COI from many types of arthropods <ref type="bibr" target="#b21">(Hebert et al. 2003)</ref>; (4) faecal samples were collected on relatively clean, riparian rocks, not on soil where microbes could accelerate the breakdown of prey DNA <ref type="bibr" target="#b28">(Oehm et al. 2011)</ref>.</p><p>DNA extracted from faeces has been used to identify and track individual mammals of particular species <ref type="bibr" target="#b14">(Ernest et al. 2000</ref><ref type="bibr" target="#b18">, Garnier et al. 2001)</ref>, to study the genetics of mammal populations <ref type="bibr" target="#b0">(Adams et al. 2003)</ref> and to study mammal diets <ref type="bibr" target="#b1">(Alberdi et al. 2012</ref><ref type="bibr" target="#b12">, Dodd et al. 2012</ref><ref type="bibr" target="#b17">, Galloway et al. 2012)</ref>, but seldom avian diets (but see <ref type="bibr" target="#b28">Oehm et al. 2011)</ref>. This approach could also enable us to study trophic relationships extending across ecosystems: our detection of a wide variety of prey taxa demonstrates that this approach could be a powerful tool for exploring food web structure and complex species interactions <ref type="bibr" target="#b24">(King et al. 2008</ref><ref type="bibr" target="#b8">, Clare et al. 2009)</ref>.</p><p>The reference sequence database system (BOLD) used in this study is not a local database. Because it does not contain sequences for many species in Taiwan, some sequences could not be identified, a problem encountered in other studies <ref type="bibr" target="#b8">(Clare et al. 2009</ref><ref type="bibr" target="#b28">, Oehm et al. 2011)</ref>. For this reason, only 60 sequences could be identified to species, 62 sequences to order and 4 sequences to class (Arachnida or Collembola). In our clone library, there were 77 sequences belonging to the Plumbeous Water Redstart (from our database), non-target animals (such as Chromalveolata, Nematoda and Crustacea via BOLD database) or non-animals (such as bacteria and fungi from the GenBank database). However, selecting prey fragments (e.g. legs, heads, wing, antennae and any exoskeleton fragments) under a dissecting microscope should minimize the number of sequences from nontarget organisms. To increase the effectiveness and utility of the molecular approach, comprehensive, local reference sequences need to be added to the database.</p><p>We used a molecular method, which is harmless to the predator, to identify prey fragments in the faeces of the Plumbeous Water Redstart, thus aquatic insects emerging from stream ecosystems that can be an important source of food for riparian predators <ref type="bibr" target="#b26">(Marczak et al. 2007)</ref> were identified. The flux of aquatic insects is one factor that affects the distribution of insectivorous animals in riparian zones <ref type="bibr" target="#b16">(Fukui et al. 2006)</ref> and so this molecular approach, in combination with other methods that use faecal samples or observations, can enhance our understanding of the trophic relationships between ecosystems. To maximize the effectiveness of this method, sample sequences should, however, be compared to a complete, local reference database.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Plumbeous Water Redstart faeces (a) next to a millimetre ruler; arthropod parts that survived digestion: (b) a part of a leg, (c) a prey head capsule.</figDesc><graphic coords="3,321.73,160.33,228.12,514.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Accumulation curve of identifiable, distinct prey species with the increased number of cloned DNA sequences.</figDesc><graphic coords="7,321.73,252.85,232.42,172.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>The number of faecal samples collected on each of 11 collection dates, and the number of samples from which DNA was extracted.</figDesc><table><row><cell></cell><cell>No. of faecal</cell><cell>No. of faecal</cell></row><row><cell>Time</cell><cell>samples</cell><cell>samples with DNA</cell></row><row><cell>April 2010</cell><cell>20</cell><cell>11</cell></row><row><cell>May 2010</cell><cell>32</cell><cell>20</cell></row><row><cell>November 2010</cell><cell>2</cell><cell>1</cell></row><row><cell>December 2010</cell><cell>37</cell><cell>29</cell></row><row><cell>July 2011</cell><cell>49</cell><cell>30</cell></row><row><cell>December 2011</cell><cell>50</cell><cell>33</cell></row><row><cell>April 2012</cell><cell>10</cell><cell>6</cell></row><row><cell>May 2012</cell><cell>30</cell><cell>25</cell></row><row><cell>October 2012</cell><cell>14</cell><cell>11</cell></row><row><cell>November 2012</cell><cell>22</cell><cell>12</cell></row><row><cell>December 2012</cell><cell>17</cell><cell>12</cell></row><row><cell>Total</cell><cell>283</cell><cell>190</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Similarity of 505 COI sequences obtained from Phoenicurus fuliginosa affinis faeces to BOLD system reference sequences. Aquatic prey taxa are shaded grey.</figDesc><table><row><cell>Class</cell><cell>Order</cell><cell>Family</cell><cell>Species</cell><cell>Proportion of all sequences (%)</cell><cell>Similarity (%)</cell></row><row><cell>Arachnida</cell><cell>Mesostigmata</cell><cell>Phytoseiidae</cell><cell>Phytoseiidae sp.</cell><cell>0.2</cell><cell>89.2</cell></row><row><cell></cell><cell>Trombidiformes</cell><cell>Momoniidae</cell><cell>Momoniidae sp.</cell><cell>0.2</cell><cell>84.2</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Arachnida sp.</cell><cell>0.6</cell><cell>85.2</cell></row><row><cell>Collembola</cell><cell></cell><cell></cell><cell>Collembola sp.</cell><cell>0.2</cell><cell>91.4</cell></row><row><cell>Insecta</cell><cell>Coleoptera</cell><cell></cell><cell>Coleoptera sp. 1</cell><cell>0.2</cell><cell>78.5</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Coleoptera sp. 2</cell><cell>0.6</cell><cell>86.7-86.9</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Coleoptera sp. 3</cell><cell>0.6</cell><cell>87.7-87.9</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Coleoptera sp. 4</cell><cell>0.8</cell><cell>80.0-80.2</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Coleoptera sp. 5</cell><cell>1.0</cell><cell>90.5-90.7</cell></row><row><cell></cell><cell></cell><cell>Carabidae</cell><cell>Bembidion sp.</cell><cell>0.6</cell><cell>94.3-94.5</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Harpalus sp.</cell><cell>0.4</cell><cell>97.0-97.2</cell></row><row><cell></cell><cell></cell><cell>Chrysomelidae</cell><cell>Chrysomelidae sp.</cell><cell>0.4</cell><cell>86.2</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Chrysomelidae sp.</cell><cell>0.6</cell><cell>88.6-88.7</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Chrysomelidae sp.</cell><cell>0.6</cell><cell>93.0-93.1</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Linaeidea sp.</cell><cell>0.8</cell><cell>91.1-92.4</cell></row><row><cell></cell><cell></cell><cell>Curculionidae</cell><cell>Curculionidae sp.</cell><cell>0.6</cell><cell>86.2-86.5</cell></row><row><cell></cell><cell></cell><cell>Elateridae</cell><cell>Fleutiauxellus sp. 1</cell><cell>0.2</cell><cell>88.1</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Fleutiauxellus sp. 2</cell><cell>18.4</cell><cell>89.1-92.2</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Megapenthes sp.</cell><cell>0.4</cell><cell>87.0</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Paracardiophorus sp.</cell><cell>0.2</cell><cell>88.3</cell></row><row><cell></cell><cell></cell><cell>Nitidulidae</cell><cell>Epuraea sp.</cell><cell>0.2</cell><cell>89.5</cell></row><row><cell></cell><cell></cell><cell>Psephenidae</cell><cell>Eubrianax sp.</cell><cell>0.2</cell><cell>87.6</cell></row><row><cell></cell><cell></cell><cell>Scarabaeidae</cell><cell>Phyllopertha sp.</cell><cell>0.6</cell><cell>89.5</cell></row><row><cell></cell><cell></cell><cell>Staphylinidae</cell><cell>Staphylinidae sp.</cell><cell>0.2</cell><cell>85.2</cell></row><row><cell></cell><cell>Diptera</cell><cell></cell><cell>Diptera sp. 1</cell><cell>0.2</cell><cell>77.7</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Diptera sp. 2</cell><cell>0.4</cell><cell>91.9</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Diptera sp. 3</cell><cell>0.4</cell><cell>92.1</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Diptera sp. 4</cell><cell>0.2</cell><cell>92.3</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Diptera sp. 5</cell><cell>0.6</cell><cell>86.2</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Diptera sp. 6</cell><cell>0.2</cell><cell>91.7</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Diptera sp. 7</cell><cell>0.2</cell><cell>97.0</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Diptera sp. 8</cell><cell>0.6</cell><cell>89.6-89.8</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Diptera sp. 9</cell><cell>0.2</cell><cell>92.1</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Diptera sp. 10</cell><cell>1.0</cell><cell>84.1-90.1</cell></row><row><cell></cell><cell></cell><cell>Calliphoridae</cell><cell>Lucilia sp.</cell><cell>10.5</cell><cell>92.2-92.9</cell></row><row><cell></cell><cell></cell><cell>Chironomidae</cell><cell>Diamesa sp.</cell><cell>0.6</cell><cell>91.1-91.4</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Orthocladius sp.</cell><cell>0.6</cell><cell>91.5-92.1</cell></row><row><cell></cell><cell></cell><cell>Culicidae</cell><cell>Anopheles sp.</cell><cell>0.2</cell><cell>89.0</cell></row><row><cell></cell><cell></cell><cell>Empididae</cell><cell>Rhamphomyia sp.</cell><cell>0.2</cell><cell>87.3</cell></row><row><cell></cell><cell></cell><cell>Hybotidae</cell><cell>Hybos sp.</cell><cell>0.6</cell><cell>90.2-90.7</cell></row><row><cell></cell><cell></cell><cell>Limoniidae</cell><cell>Geranomyia sp.</cell><cell>0.6</cell><cell>98.2-99.2</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Hexatoma sp.</cell><cell>1.0</cell><cell>93.1-93.3</cell></row><row><cell></cell><cell></cell><cell>Simuliidae</cell><cell>Simulium sp.</cell><cell>0.4</cell><cell>94.0</cell></row><row><cell></cell><cell></cell><cell>Syrphidae</cell><cell>Neoascia sp.</cell><cell>0.4</cell><cell>91.1-91.4</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Platycheirus sp.</cell><cell>0.4</cell><cell>95.8-95.9</cell></row><row><cell></cell><cell></cell><cell>Tipulidae</cell><cell>Nephrotoma sp.</cell><cell>0.2</cell><cell>99.7</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Tipula sp.</cell><cell>0.2</cell><cell>99.9</cell></row><row><cell></cell><cell>Ephemeroptera</cell><cell></cell><cell>Ephemeroptera sp.</cell><cell>0.4</cell><cell>79.8-80.1</cell></row><row><cell></cell><cell></cell><cell>Baetidae</cell><cell>Acentrella lata</cell><cell>8.5</cell><cell>98.7-100.0</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Baetidae sp. 1</cell><cell>0.2</cell><cell>80.1</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Baetidae sp. 2</cell><cell>1.8</cell><cell>83.8-83.9</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Baetidae sp. 3</cell><cell>2.6</cell><cell>84.3-84.9</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Baetidae sp. 4</cell><cell>1.8</cell><cell>90.4-90.8</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Baetiella sp. 5</cell><cell>1.0</cell><cell>87.5-88.0</cell></row><row><cell></cell><cell></cell><cell>Ephemeridae</cell><cell>Ephemera sp.</cell><cell>0.8</cell><cell>92.5-92.9</cell></row><row><cell></cell><cell></cell><cell>Heptageniidae</cell><cell>Epeorus sp.</cell><cell>0.6</cell><cell>98.9-99.0</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(Continued)</cell></row></table><note><p><p>which indicates that the model is convergent. Peripatopsis capenses (GenBank accession numbers: EU855355 and EU855356) COI sequences were used as outgroups. Second, a Bayesian implementation of the Poisson tree processes (PTP) model was used to infer putative species boundaries on our Bayesian phylogenetic tree, and delimited distinct species based on the phylogenetic species concept</p>(Zhang et al.    </p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>Continued</figDesc><table><row><cell>Class</cell><cell>Order</cell><cell>Family</cell><cell>Species</cell><cell>Proportion of all sequences (%)</cell><cell>Similarity (%)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Rhithrogena parva</cell><cell>1.6</cell><cell>98.9-99.4</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Rhithrogena sp.</cell><cell>1.4</cell><cell>89.9-90.1</cell></row><row><cell></cell><cell>Hemiptera</cell><cell></cell><cell>Hemiptera sp. 1</cell><cell>0.2</cell><cell>90.0</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Hemiptera sp. 2</cell><cell>0.4</cell><cell>90.2-90.5</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Hemiptera sp. 3</cell><cell>0.2</cell><cell>90.1</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Hemiptera sp. 4</cell><cell>1.2</cell><cell>88.4</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Hemiptera sp. 5</cell><cell>0.2</cell><cell>89.9</cell></row><row><cell></cell><cell></cell><cell>Cercopidae</cell><cell>Aphrophora sp. 1</cell><cell>0.4</cell><cell>92.0-92.2</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Aphrophora sp. 2</cell><cell>0.4</cell><cell>92.5-93.3</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Aphrophora sp. 3</cell><cell>0.2</cell><cell>91.8</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Aphrophora sp. 4</cell><cell>0.2</cell><cell>92.8</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Aphrophora sp. 5</cell><cell>0.2</cell><cell>89.5</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Aphrophora sp. 6</cell><cell>0.2</cell><cell>93.0</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Aphrophora sp. 7</cell><cell>0.6</cell><cell>93.7-93.7</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Aphrophora sp. 8</cell><cell>0.6</cell><cell>92.2-92.6</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Aphrophora sp. 9</cell><cell>1.2</cell><cell>92.3-92.7</cell></row><row><cell></cell><cell></cell><cell>Lygaeidae</cell><cell>Nysius sp.</cell><cell>0.2</cell><cell>98.6</cell></row><row><cell></cell><cell></cell><cell>Miridae</cell><cell>Deraeocoris sp.</cell><cell>1.2</cell><cell>88.1-88.4</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Lygus sp.</cell><cell>2.4</cell><cell>90.8-91.0</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Phytocoris sp.</cell><cell>0.2</cell><cell>94.2</cell></row><row><cell></cell><cell></cell><cell>Pyrrhocoridae</cell><cell>Pyrrhocoridae sp. 1</cell><cell>0.2</cell><cell>85.8</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Pyrrhocoridae sp. 2</cell><cell>0.2</cell><cell>82.1</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Pyrrhocoridae sp. 3</cell><cell>0.2</cell><cell>85.6</cell></row><row><cell></cell><cell>Hymenoptera</cell><cell></cell><cell>Hymenoptera sp. 1</cell><cell>2.0</cell><cell>80.6-81.2</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Hymenoptera sp. 2</cell><cell>0.2</cell><cell>99.8</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Hymenoptera sp. 3</cell><cell>0.2</cell><cell>95.2</cell></row><row><cell></cell><cell></cell><cell>Crabronidae</cell><cell>Mellinus sp.</cell><cell>0.2</cell><cell>87.7</cell></row><row><cell></cell><cell></cell><cell>Diapriidae</cell><cell>Diapriidae sp.</cell><cell>0.2</cell><cell>95.2</cell></row><row><cell></cell><cell></cell><cell>Formicidae</cell><cell>Aphaenogaster sp.</cell><cell>1.0</cell><cell>88.6</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Formica cunicularia</cell><cell>1.6</cell><cell>99.4-99.7</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Formicidae sp. 1</cell><cell>0.2</cell><cell>86.4</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Formicidae sp. 2</cell><cell>0.4</cell><cell>81.2</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Pachycondyla chinensis</cell><cell>0.2</cell><cell>99.6</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Prenolepis sp.</cell><cell>0.6</cell><cell>96.9-98.0</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Tetramorium sp.</cell><cell>0.2</cell><cell>88.5</cell></row><row><cell></cell><cell></cell><cell>Ichneumonidae</cell><cell>Agrothereutes sp.</cell><cell>0.6</cell><cell>94.3-94.6</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Helictes sp.</cell><cell>0.4</cell><cell>90.4</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Orgichneumon sp.</cell><cell>0.4</cell><cell>88.9-89.1</cell></row><row><cell></cell><cell>Lepidoptera</cell><cell>Erebidae</cell><cell>Pangrapta sp.</cell><cell>0.2</cell><cell>95.4</cell></row><row><cell></cell><cell></cell><cell>Geometridae</cell><cell>Geometridae sp.</cell><cell>0.8</cell><cell>99.8-100.0</cell></row><row><cell></cell><cell></cell><cell>Noctuidae</cell><cell>Macdunnoughia sp.</cell><cell>0.4</cell><cell>95.1</cell></row><row><cell></cell><cell>Plecoptera</cell><cell>Gripopterygidae</cell><cell>Gripopterygidae sp.</cell><cell>1.4</cell><cell>82.7-84.0</cell></row><row><cell></cell><cell></cell><cell>Nemouridae</cell><cell>Nemouridae sp.</cell><cell>0.2</cell><cell>85.8</cell></row><row><cell></cell><cell></cell><cell>Taeniopterygidae</cell><cell>Taeniopterygidae sp.</cell><cell>0.6</cell><cell>83.6-86.9</cell></row><row><cell></cell><cell>Trichoptera</cell><cell>Apataniidae</cell><cell>Apatania sp.</cell><cell>1.2</cell><cell>90.8-91.2</cell></row><row><cell></cell><cell></cell><cell>Glossosomatidae</cell><cell>Glossosoma sp. 1</cell><cell>0.6</cell><cell>94.9-95.1</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Glossosoma sp. 2</cell><cell>1.2</cell><cell>96.0-96.6</cell></row><row><cell></cell><cell></cell><cell>Hydropsychidae</cell><cell>Arctopsyche sp.</cell><cell>0.6</cell><cell>93.4-93.5</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Hydropsyche sp.</cell><cell>1.2</cell><cell>88.8-88.9</cell></row><row><cell></cell><cell></cell><cell>Rhyacophilidae</cell><cell>Rhyacophila sp.</cell><cell>1.2</cell><cell>88.2-88.5</cell></row><row><cell></cell><cell></cell><cell>Stenopsychidae</cell><cell>Stenopsyche sp.</cell><cell>2.2</cell><cell>90.2-90.5</cell></row><row><cell></cell><cell></cell><cell>Uenoidae</cell><cell>Uenoa sp.</cell><cell>0.2</cell><cell>91.6</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>The frequency of occurrence of prey, by order, in 190 faecal samples obtained from Phoenicurus fuliginosa affinis.</figDesc><table><row><cell>Class</cell><cell>Order</cell><cell>Frequency of occurrence</cell></row><row><cell>Arachnida</cell><cell>Mesostigmata</cell><cell>1</cell></row><row><cell></cell><cell>Trombidiformes</cell><cell>1</cell></row><row><cell>Insecta</cell><cell>Coleoptera</cell><cell>64</cell></row><row><cell></cell><cell>Diptera</cell><cell>50</cell></row><row><cell></cell><cell>Ephemeroptera</cell><cell>59</cell></row><row><cell></cell><cell>Hemiptera</cell><cell>32</cell></row><row><cell></cell><cell>Hymenoptera</cell><cell>23</cell></row><row><cell></cell><cell>Lepidoptera</cell><cell>5</cell></row><row><cell></cell><cell>Plecoptera</cell><cell>5</cell></row><row><cell></cell><cell>Trichoptera</cell><cell>22</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2015 British Trust for Ornithology, Bird Study, 62, 368-376 Prey identification</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>© 2015 British Trust for Ornithology, Bird Study, 62, 368-376</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>We thank <rs type="person">Prof. Will Cresswell</rs>, <rs type="person">Dr. Julie Jedlicka</rs>, and one anonymous referee who commented on the manuscript.</p></div>
+<div><head>FUNDING</head><p>Our research was supported by grants from <rs type="funder">Shei-Pa National Park, Taiwan</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Using faecal DNA sampling and GIS to monitor hybridization between red wolves (Canis rufus) and coyotes (Canis latrans)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2175" to="2186" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The foraging ecology of the mountain long-eared bat plecotus macrobullaris revealed with DNA mini-barcodes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alberdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Garin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Aizpurua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aihartza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PlosOne</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">35692</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Tangled webs: reciprocal flows of invertebrate prey link streams and riparian zones</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Baxter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Fausch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Carl Saunders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Freshwater Biol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="201" to="220" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Universal primers and PCR of gut contents to study marine invertebrate diets</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Blankenship</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Yayanos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="891" to="899" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Niche segregation of Himalayan river birds</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Buckton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Ormerod</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Field Ornithol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="176" to="185" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">DNA barcoding meets molecular scatology: short mtDNA sequences for standardized species assignment of carnivore noninvasive samples</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Chaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Graeff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Lion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eizirik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="18" to="35" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Effects of flooding on avian top-predators and their invertebrate prey in a monsoonal Taiwan stream</title>
+		<author>
+			<persName><forename type="first">M.-C</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-C</forename><surname>Kuo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Freshwater Biol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1335" to="1344" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Prey selection by breeding Brown Dippers, Cinclus pallasii, in a Taiwan mountain stream</title>
+		<author>
+			<persName><forename type="first">M.-C</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-S</forename><surname>Tzeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zool. Stud</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="761" to="768" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Species on the menu of a generalist predator, the eastern red bat (Lasiurus borealis): using a molecular approach to detect arthropod prey</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Clare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Braid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Fenton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Hebert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="2532" to="2542" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Changes in MARINE communities: An Approach to Statistical Analysis and Interpretation</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Warwick</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>2nd edn</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Plymouth</forename><surname>Primer-E</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Molecular scatology as a tool to study diet: analysis of prey DNA in scats from captive Steller sea lions</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tollit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hindell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Trites</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Gales</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1831" to="1842" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Identification of prey of Myotis septentrionalis using DNA-based techniques</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Dodd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Harwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Lacki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Rieske</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mammal</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="1119" to="1128" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Nonnative trout impact an alpine-nesting bird by altering aquatic-insect subsidies</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Epanchin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Knapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Lawler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="2406" to="2415" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Molecular tracking of mountain lions in the Yosemite Valley region in California: genetic analysis using microsatellites and faecal DNA</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Ernest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C T</forename><surname>Penedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Syvanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Boyce</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="433" to="441" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">DNA primers for amplification of mitochondrial cytochrome c oxidase subunit I from diverse metazoan invertebrates</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Folmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hoeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vrijenhoek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Mar. Biol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="294" to="299" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Effect of emergent aquatic insects on bat foraging in a riparian forest</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fukui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nakano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Aoi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Anim. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1252" to="1258" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Diet and habitat of mountain woodland caribou inferred from dung preserved in 5000-year old Alpine ice in the Selwyn Mountains, northwest territories, Canada</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Galloway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Adamczewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Schock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mackay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Bowyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Meulendyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Moorman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Kutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arctic</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="59" to="79" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Mating system and reproductive skew in the black rhinoceros</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Garnier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="2031" to="2041" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Flooding impacts on responses of a riparian consumer to cross-ecosystem subsidies</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Greenwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Mcintosh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="1489" to="1496" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Cross-ecosystem disturbance influences on the life history and population size structure of a riparian predator</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Greenwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Mcintosh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Austral Ecol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="593" to="604" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Biological identifications through DNA barcodes</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D N</forename><surname>Hebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cywinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Dewaard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B-Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page" from="313" to="321" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Ten species in one: DNA barcoding reveals cryptic species in the neotropical skipper butterfly Astraptes fulgerator</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D N</forename><surname>Hebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Penton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Janzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hallwachs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="14812" to="14817" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Terrestrial invertebrate inputs determine the local abundance of stream fishes in a forested stream</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Taniguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nakano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="701" to="708" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Molecular analysis of predation: a review of best practice for DNAbased approaches</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Read</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Traugott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">O C</forename><surname>Symondson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="947" to="963" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Sizedependent foraging on aquatic and terrestrial prey by the endangered Taiwan Salmon Oncorhynchus masou formosanus</title>
+		<author>
+			<persName><forename type="first">L.-Y</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-C</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Kuo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zool. Stud</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="671" to="678" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Metaanalysis: trophic level, habitat, and productivity shape the food web effects of resource subsidies</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Marczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Richardson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="140" to="148" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Reciprocal subsidies: dynamic interdependence between terrestrial and aquatic food webs</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nakano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Murakami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="166" to="170" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Molecular scatology: how to improve prey DNA detection success in avian faeces?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Oehm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Juen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nagiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Neuhauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Traugott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="620" to="628" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The diet of breeding dippers (Cinclus cinclus) and their nestlings in the catchment of the River Wye, mid-Wales: a preliminary study by faecal analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Ormerod</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ibis</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="316" to="331" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Exploitation of prey by a river bird, the dipper Cinclus cinclus (L.) along acidic and circumneutral streams in upland Wales</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Ormerod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Tyler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Freshwater Biol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="105" to="116" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Aquatic terrestrial linkages along a braided-river: riparian arthropods feeding on aquatic insects</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paetzold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tockner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecosystems</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="748" to="759" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Toward an integration of landscape and food web ecology: the dynamics of spatially subsidized food webs</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Polis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Holt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Rev. Ecol. Syst</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="289" to="316" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">BOLD: the Barcode of Life Data System (www.barcodinglife.org)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ratnasingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D N</forename><surname>Hebert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Notes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="355" to="364" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Robson</surname></persName>
+		</author>
+		<title level="m">A Field Guide to the Birds of South-East Asia</title>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>New Holland Publishers Ltd</publisher>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">MrBayes Version 3.2 Manual: Tutorials and Model Summaries</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ronquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huelsenbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Teslenko</surname></persName>
+		</author>
+		<ptr target="http://mrbayes.sourceforge.net/mb3.2_manual.pdf" />
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Testing the reliability of genetic methods of species identification via simulation</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Murugan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L S</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst. Biol</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="216" to="230" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Molecular identification of prey in predator diets</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">O C</forename><surname>Symondson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="627" to="641" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Seasonal subsidy stabilizes food web dynamics: balance in a heterogeneous landscape</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Takimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Iwata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Murakami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Res</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="433" to="439" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Can multiple-copy sequences of prey DNA be detected amongst the gut contents of invertebrate predators?</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Zaidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jaal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Hawkes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hemingway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">O C</forename><surname>Symondson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2081" to="2087" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Taxon-specific PCR for DNA barcoding arthropod prey in bat faeces</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R K</forename><surname>Zeale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Butlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L A</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Lees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="236" to="244" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">A general species delimitation method with applications to phylogenetic placements</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kapli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pavlidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stamatakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="2869" to="2876" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

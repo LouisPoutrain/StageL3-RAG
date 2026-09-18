@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Skin swabbing of amphibian larvae yields sufficient DNA for efficient sequencing and reliable microsatellite genotyping</title>
+				<funder>
+					<orgName type="full">Upper Austria</orgName>
+				</funder>
+				<funder ref="#_cdMcXZF">
+					<orgName type="full">department of the Provincial Government of Salzburg</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Florian</forename><surname>Pichlmüller</surname></persName>
+							<email>florian.pichlmueller@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Molecular Biology</orgName>
+								<orgName type="institution">University of Salzburg</orgName>
+								<address>
+									<addrLine>Billrothstraße 11</addrLine>
+									<postCode>5020</postCode>
+									<settlement>Salzburg</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christina</forename><surname>Straub</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Molecular Biology</orgName>
+								<orgName type="institution">University of Salzburg</orgName>
+								<address>
+									<addrLine>Billrothstraße 11</addrLine>
+									<postCode>5020</postCode>
+									<settlement>Salzburg</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Véronique</forename><surname>Helfer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Molecular Biology</orgName>
+								<orgName type="institution">University of Salzburg</orgName>
+								<address>
+									<addrLine>Billrothstraße 11</addrLine>
+									<postCode>5020</postCode>
+									<settlement>Salzburg</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Organismic Biology</orgName>
+								<orgName type="institution">University of Salzburg</orgName>
+								<address>
+									<addrLine>Hellbrunnerstrasse 34</addrLine>
+									<postCode>5020</postCode>
+									<settlement>Salzburg</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Skin swabbing of amphibian larvae yields sufficient DNA for efficient sequencing and reliable microsatellite genotyping</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">58CB66EA9DA130D43A07F231D15AEC0D</idno>
+					<idno type="DOI">10.1163/15685381-00002909</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-27T13:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>allelic dropouts</term>
+					<term>false alleles</term>
+					<term>fire salamanders</term>
+					<term>minimally invasive sampling</term>
+					<term>Salamandra salamandra</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Skin swabbing, a minimally invasive DNA sampling method recently developed on adult amphibians, was tested on larvae of fire salamanders (Salamandra salamandra). The quality and quantity of the sampled DNA was evaluated by (i) measuring DNA concentration in DNA extracts, (ii) sequencing part of the mtDNA cytochrome b gene (692 bp) and (iii) genotyping eight polymorphic nuclear microsatellite loci. The multiple-tubes approach was used for calculating allelic dropout (ADO) and false allele (FA) rates to evaluate the reliability of the genotypes. DNA extracts from tissue samples of road-killed individuals were included in the study as positive controls. Our results showed that skin swabs of fire salamander larvae can provide DNA in sufficient quantity and quality, as sequencing was successful and no allelic dropouts or false alleles were detected. This method, tested for the first time on amphibian larvae, has proven to be an efficient and reliable alternative to the controversial tail fin clipping procedure.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Originally developed in the forensic sciences, genotyping of low quantity and quality DNA has been demonstrated to be of increasing use for molecular ecology <ref type="bibr" target="#b2">(Broquet and Petit, 2004)</ref>. Non-destructive and minimally invasive methods for collecting DNA from animals have become a major focus of interest over the last decades for molecular ecology and conservation genetics studies <ref type="bibr">(Taberlet and Luikart, 1999;</ref><ref type="bibr" target="#b1">Beja-Pereira et al., 2009)</ref>. The development of such methods is particularly relevant for amphibians, as they have dramatically declined worldwide over the last two decades and stand among the most threatened class of vertebrates (e.g. <ref type="bibr" target="#b16">Stuart et al., 2004;</ref><ref type="bibr" target="#b0">Beebee and Griffiths, 2005)</ref>. While non-invasive sampling approaches such as collecting hair, faeces or feathers found in the field without catching the animal (see <ref type="bibr">Taberlet et al., 1999)</ref>, as used mainly for mammals and birds, would be ideal in that context, they cannot be used for amphibians. The probability of finding faeces or shed skins of amphibians in the field is far too low <ref type="bibr" target="#b12">(Pidancier et al., 2003)</ref>.</p><p>Until now, the main DNA sampling methods for amphibians have been tissue sampling obtained by toe clipping of adults and tail clipping of larvae or tadpoles <ref type="bibr" target="#b13">(Prunier et al., 2012)</ref>. Recently, several alternatives have been proposed for adults, such as transferring epithelial cells from the dorsal side of salamanders to FTA cards <ref type="bibr" target="#b5">(Davis et al., 2002</ref>; but this method requires a cloning step), blood puncture <ref type="bibr" target="#b10">(Mendoza et al., 2012)</ref>, buccal swabs <ref type="bibr">(Broquet et al., 2007a;</ref><ref type="bibr" target="#b7">Gallardo et al., 2012;</ref><ref type="bibr" target="#b12">Pidancier et al., 2003)</ref> or skin swabs <ref type="bibr" target="#b13">(Prunier et al., 2012)</ref>. The last one, established only for adults, is particularly advantageous, as it allows minimizing the handling time, stress and potential injuries induced on the animal compared to buccal swabbing (Pichlmüller, unpublished data), especially for small individuals. But no alternative to tail clipping for larvae or tadpoles has been proposed to date.</p><p>We remediate this by testing the minimally invasive skin swabbing method recently developed for adult amphibians by <ref type="bibr" target="#b13">Prunier et al. (2012)</ref> on fire salamander larvae (Salamandra salamandra ssp. salamandra, Linnaeus, 1758). DNA yield in terms of quality and quantity was evaluated by (i) measuring DNA concentration, (ii) amplifying part of cytochrome b from the mitochondrial genome and (iii) genotyping each individual for eight polymorphic microsatellite loci. For the evaluation of genotyping accuracy, we measured two sources of errors associated with low DNA quantity and/or quality template <ref type="bibr" target="#b2">(Broquet and Petit, 2004)</ref>, i.e. rates of allelic dropout (ADO; non-amplification of one allele from an heterozygous individual during a positive polymerase chain reaction <ref type="bibr">[PCR]</ref>) and false alleles (FA; false allele generated during PCR as a result of allele slippage during the first cycles of the reaction).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Material and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sampling</head><p>Thirty-nine fire salamander larvae were sampled from June to August 2011 from four different locations in the region of Salzburg (Austria). Individuals were caught in little streams with a small net and handled with gloves at ambient temperature. The total length (snout-to-tail's tip length) of the larvae, measured to the nearest mm with a standard ruler, ranged from 25 to 55 mm. DNA samples were collected by firmly swabbing three times the ventral and three times the dorsal side of the animal, held in the hollow of the observer's hand, using a single sterile individually wrapped "pediatric flocked swab" with Nylon tip (Model 516CS01, by Copan, Italy). After sampling, animals were released at the location of capture. Each sample was stored in 1.5 ml Eppendorf tubes and frozen at -20°C for 3 to 23 days until DNA extraction. As positive controls, we used two tissue samples from road-killed adult animals (stored at -20°C for approx.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">months).</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extraction and quantification</head><p>DNA extractions were performed using the DNEasy Blood &amp; Tissue Kit (QIAGEN GmbH, Hilden, Germany) with an adapted protocol following <ref type="bibr" target="#b6">Emaresi et al. (2011)</ref>. Samples were eluted in a final volume of 200 μl (250 μl for a few samples; see supplementary material table <ref type="table" target="#tab_0">S1</ref>). After measuring the DNA concentration of each sample twice with a NanoDrop 2000c Spectrophotometer (Thermo Fisher Scientific Inc.), the DNA extracts were stored at -20°C.</p><p>Four sources of variation might have influenced the amount of DNA recovered from the larval swab samples ("yield" computed as elution volume * DNA [], in ng): (i) two different persons took the swab samples ("observer" effect as factor), (ii) their handling ability might have improved with time ("handling experience" effect: number of individuals handled so far, for each observer independently), (iii) the samples were stored for different time periods ("storage time", in days), (iv) the sampled larvae differed in size. We thus evaluated the effect of observer and handling experience and their interaction, together with the effect of storage time and of the size of the larvae on the square-root transformed mean yield (of the two nanodrop measurements; yield sqrt hereafter) with a linear model. The best model was searched for by iteratively removing terms from the full model and comparing the successive models with an ANOVA. All analyses were performed in R version 2.14.0 (R Development Core Team, 2011).</p><p>For downstream analyses, we selected seven larval samples showing different DNA concentrations (high, medium and low; table 1) from the initial dataset and evaluated if there was a lower limit of DNA quantity necessary to ensure reliable sequencing and genotyping. The two tissue samples from the road-killed adult individuals were also analysed further.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA sequences</head><p>For evaluating the efficiency of this method for sequencing we amplified a part (686 bp) of the mitochondrial cytochrome b gene using L-14841 primer (5 -TCAA ACATCTCATCATGATGAAA-3), modified from <ref type="bibr" target="#b9">Kocher et al. (1989)</ref>, and H-14981-Cyt-LA (5 -GGATAGATCGGAG GATTGC-3) from <ref type="bibr" target="#b8">Helfer (2010)</ref>.</p><p>PCRs were conducted in 25 μl volumes with 8.85-199.5 ng template DNA (3 μl DNA extracts), 1× PCR buffer (QIAGEN GmbH, Hilden, Germany), 1 μM of each primer (Eurofins MWG Operon, Ebersberg, Germany), 0.2 mM dNTPs (PEQLAB Biotechnologie GmbH, Erlangen, Germany), 0.5 U Taq Polymerase (QIAGEN GmbH, Hilden, Germany) and 2.5 mM MgCl 2 (QIAGEN GmbH, Hilden, Germany). Thermo-cycling scheme was performed on Mastercycler ep gradient thermal cyclers (Eppendorf AG, Hamburg, Germany), without initial denaturation, as follows: 40 cycles of denaturation at 95°C for 30 s, annealing at 52°C for 30 s and elongation at 72°C for 120 s, followed by a final elongation at 72°C for 3 min.</p><p>PCR products were purified using the Wizard ® SV Gel and PCR Clean-Up System (PROMEGA GmbH, Mannheim, Germany) according to the manufacturer's protocol. Purified PCR products at a final DNA concentration of 10 ng/μl (adjusted after measurement with a NanoDrop 2000c spectrophotometer) were sent to Eurofins MWG Operon (Ebersberg, Germany) for sequencing (onedirectional sequencing using primer H-14981-Cyt-LA). Sequences were aligned using Geneious Pro 5.4.6 (Biomatters; available from <ref type="url" target="http://www.geneious.com/">http://www.geneious.com/</ref>). As reference the cytochrome b sequence (accession number: AY035819) of a Salamandra salamandra salamandra specimen was used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microsatellite markers</head><p>Samples were genotyped for eight tetranucleotide microsatellite markers (SALE2, SALE6, SALE7, SALE8, PCR buffer (QIAGEN GmbH, Hilden, Germany), 0.5 μM of each primer (unlabeled primers: Eurofins MWG Operon, Ebersberg, Germany), 0.2 mM (0.5 mM for SAL29) dNTP's (PEQLAB Biotechnologie GmbH, Erlangen, Germany), 0.5 U (1 U for SALE2/SALE7/SAL3/SAL29) Taq Polymerase (QIAGEN GmbH, Hilden, Germany), and 1.5 mM MgCl 2 (2 mM for SALE2/SAL29; QIAGEN GmbH, Hilden, Germany). Forward primers were 5 -labelled with fluorochromes (HEX, FAM or ATTO 550; Microsynth AG, Balgach, Switzerland). The following thermal profiles were performed on the same thermal cyclers mentioned above: initial denaturation at 95°C for 5 min, followed by 45 cycles (40 cycles for SAL3/SALE7/SALE6, 35 cycles for SALE8/SALE12) of denaturation at 94°C for 30 s, annealing at locus-specific temperature (53°C for SAL3/SALE2/SALE7, 59°C for SALE6, 58°C for SALE8/SALE12/SAL29 and 50°C for SALE11) for 1 min, elongation at 72°C for 1 min followed by a final elongation at 72°C for 10 min. PCR products were analysed on a MegaBACE™ 750 (Amersham Biosciences) Genotyping System and allele scoring was performed using MegaBACE™ Fragment Profiler Version 1.2. The detection of allelic dropouts and false alleles was performed using the multiple-tubes approach developed by <ref type="bibr" target="#b11">Navidi et al. (1992)</ref>. This is a repetition experiment which consists of amplifying each individual several times for each locus <ref type="bibr" target="#b11">(Navidi et al., 1992;</ref><ref type="bibr" target="#b18">Taberlet et al., 1996)</ref>. In our case, each sample was genotyped four times and amplification success, ADO and FA rates were computed for each locus according to the definitions by <ref type="bibr" target="#b2">Broquet and Petit (2004)</ref>.</p><p>ADO rate, the frequency of allelic dropout at locus j (p j ), is calculated as follows:</p><formula xml:id="formula_0">p j = D j A het j</formula><p>where D j is the number of amplifications with the loss of one allele and A het j the number of positive amplifications of individuals determined as heterozygous according to their consensus genotype, obtained by repeating the amplification four times, at locus j .</p><p>FA rate, the probability of false allele at locus j (f j ) is defined as:</p><formula xml:id="formula_1">f j = F j A j</formula><p>with F j , the number of amplifications leading to one or more false alleles at locus j and A j , the number of amplifications of all (heterozygous or homozygous) individuals at locus j .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extraction and quantification</head><p>Among the 39 larval skin swabs, DNA concentration ranged from 2.95 to 66.  <ref type="table" target="#tab_0">S1</ref>). Tissue samples (eluted in 200 μl), expectedly yielded high DNA concentrations of approx. 60 ng/μl (see table <ref type="table" target="#tab_0">1</ref>). The concentration of DNA obtained from larval skin swabs is comparable to those obtained by <ref type="bibr" target="#b13">Prunier et al. (2012)</ref> from dorsal skin swabs of adult alpine newts (18.13 ± 11.88 ng/μl, n = 23), and higher than the amount obtained from ventral skin swabs of adult alpine newts (6.48 ± 5.45 ng/μl, n = 8) or from dorsal skin swabs of adult tree frogs (mean = 10.95 ng/μl, n = 4). Compared to the DNA amount obtained from buccal swabs, the quantity of DNA we achieved was higher than in <ref type="bibr">Broquet et al. (2007a)</ref>, who obtained DNA concentrations of 8 ± 4.2 ng/μl for adult alpine newts and 14 ± 8.4 ng/μl for tree frogs, but lower than in <ref type="bibr" target="#b13">Prunier et al. (2012)</ref> who obtained 152.96 ± 66.32 ng/μl (n = 23) and 43.69 ng/μl (mean value; n = 4) for buccal swabs of alpine newts and tree frogs respectively. Both <ref type="bibr">Broquet et al. (2007a)</ref> and <ref type="bibr" target="#b13">Prunier et al. (2012)</ref> used a final elution volume of only 100 μl, while we used a volume of 200 or 250 μl. After transforming their results into DNA yield (under the simplifying assumption that DNA yield is linearly related to the elution volume), the amount we obtained is impressively high. For example, the quantity of DNA obtained from the dorsal skin swabs of adult alpine newts amounts to 1800 ng on average, which is approximately only half of the DNA yield obtained from our larval skin swabs. Unfortunately, no sound comparison is possible with the DNA quantity obtained by <ref type="bibr" target="#b7">Gallardo et al. (2012)</ref> from buccal swabs and tissue samples obtained from other amphibian species, as they do not specify the final elution volume of their extractions (mean DNA concentration: 95.90 to 296.51 ng/μl for swab samples and 55.07 to 259.43 ng/μl for membrane/toe-clipped samples).</p><p>Our results show that the DNA quantity obtained from larval skin swabs is comparable if not higher than the amount obtained by other minimally invasive methods, like buccal or skin swabs from adult amphibians. Moreover, good larval skin swabs yielded a DNA quantity comparable to that obtained from tissue samples. The high DNA quality and quantity we obtained in our study might also be due to the type of swabs used (flocked swabs), which differed from the ones used in other studies (synthetic cotton swabs in <ref type="bibr">Broquet et al., 2007a</ref>; ordinary cotton bud in <ref type="bibr" target="#b13">Prunier et al., 2012)</ref>.</p><p>Regarding the potential sources of variation influencing the amount of DNA recovered from the larval skin swab samples, the linear model that best fitted the data was yield sqrt ∼ observer * handling experience. The interaction effect of the observer and the handling experience was highly significant (P &lt; 0.001; handling experience: P = 0.0379; observer: P = 0.4261), meaning that the DNA yield depended on who took the sample and on how much handling experience the observer had. Storage time and size of the larvae had no significant effect on the amount of DNA recovered (P = 0.5069 and 0.1212 respectively, in the full model yield sqrt ∼ observer * handling experience + storage time + size). Figure <ref type="figure" target="#fig_0">1</ref> shows that observer 1 improved his handling technique more than observer 2 and could get a higher DNA yield. These results suggest that some preliminary assays are advisable before starting a large-scale sampling. This should ensure that all observers are trained enough to take the skin swab samples appropriately, with sufficient pressure while swabbing the ventral and dorsal sides of the animal to obtain enough DNA. There is no need to extract DNA from a swab immediately, as storing swabs until 23 days did not result in low quality DNA-extracts. Nonetheless, our study investigated only shortterm storage effect and one has to remain cautious about the potential effect of long-term storage. In addition, we also suggest testing several kinds of swabs, as this might also explain the variation in DNA yield observed among published studies. The DNA concentration and yield of the samples selected for downstream sequencing and genotyping analyses are given in table <ref type="table" target="#tab_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nucleotide sequences</head><p>We were able to sequence 692 bp of cytochrome b from the nine selected samples. Among them two haplotypes were found, which differed from the reference sequence in three nucleotides. The two new haplotypes have been deposited in GenBank (accession numbers: KC477264, KC477265). No difference in electropherogram quality could be detected between the sequences generated from larval skin swabs or tissue samples. Table <ref type="table">2</ref>. Amplification success, allelic dropout (ADO), and false allele (FA) rates of eight microsatellite loci, calculated according to <ref type="bibr" target="#b2">Broquet and Petit (2004)</ref>  <ref type="formula">2012</ref>) on adult alpine newts, we detected neither allelic dropout nor false allele genotyping errors for our larval samples or controls. This demonstrates that skin swabbing of larvae is an efficient DNA sampling method ensuring reliable genotyping for the microsatellite loci investigated. The fact that <ref type="bibr" target="#b13">Prunier et al. (2012)</ref> observed genotyping errors might be linked to a different susceptibility of the microsatellite loci to such errors (as exemplified in <ref type="bibr">Broquet et al., 2007a)</ref>, or to different DNA working concentration for PCRs (20 ng/μl in <ref type="bibr" target="#b13">Prunier et al., 2012;</ref><ref type="bibr"></ref> see table 1 for this study).</p><p>Our study showed that DNA in sufficient quantity and quality can be obtained from skin swabs taken from fire salamander larvae. With this method it is possible to obtain reliable sequences or genotypes for genetic analyses. Skin swabbing is a quick and easy procedure, which shortens handling time of the animal in the field and consequently decreases stress. We thus recommend testing this method on other amphibian larvae as an alternative to tissue sampling. Nonetheless, a pilot study should be performed before each large-scale study, as the efficiency of the method could depend on the species <ref type="bibr" target="#b12">(Pidancier et al., 2003)</ref>, the markers used <ref type="bibr">(Broquet et al., 2007b)</ref>, and the person obtaining the swabs (present study).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Effects of the observer and the handling experience (number of individuals handled so far, for each observer independently) on the square-root transformed DNA yield (in ng) obtained from larval skin swabs (full dataset including samples eluted in 200 or 250 μl). Black and white circles represent samples collected by observer 1 and 2 respectively. Lines represent the linear model: yield sqrt ∼ observer * handling experience, fitted in R version 2.14.0 (R Development Core Team, 2011).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Samples used in downstream analysis: locality, sample ID, age (A = adult, L = larvae), DNA source, extraction elution volume (in μl), DNA [] (DNA concentration in ng/μl, mean over two measurements) measured with a NanoDrop 2000 spectrophotometer and categorised in three classes of DNA quantity, and total DNA yield in ng (elution volume * DNA []).</figDesc><table><row><cell>Locality</cell><cell>Sample ID</cell><cell>Age</cell><cell>DNA source</cell><cell>Elution volume</cell><cell></cell><cell>DNA []</cell><cell>DNA yield</cell></row><row><cell>Maria Plain</cell><cell>MPL1</cell><cell>L</cell><cell>skin swab</cell><cell>250</cell><cell>2.95</cell><cell>low</cell><cell>738</cell></row><row><cell>Linz</cell><cell>OL1</cell><cell>L</cell><cell>skin swab</cell><cell>250</cell><cell>5.80</cell><cell>low</cell><cell>1450</cell></row><row><cell>Maria Plain</cell><cell>MPL7</cell><cell>L</cell><cell>skin swab</cell><cell>200</cell><cell>9.65</cell><cell>medium</cell><cell>1930</cell></row><row><cell>Untersberg</cell><cell>UL13</cell><cell>L</cell><cell>skin swab</cell><cell>200</cell><cell>11.50</cell><cell>medium</cell><cell>2300</cell></row><row><cell>Untersberg</cell><cell>UL14</cell><cell>L</cell><cell>skin swab</cell><cell>200</cell><cell>15.20</cell><cell>medium</cell><cell>3040</cell></row><row><cell>St. Wolfgang</cell><cell>WL13</cell><cell>L</cell><cell>skin swab</cell><cell>200</cell><cell>56.25</cell><cell>high</cell><cell>11 250</cell></row><row><cell>St. Wolfgang</cell><cell>WL14</cell><cell>L</cell><cell>skin swab</cell><cell>200</cell><cell>66.50</cell><cell>high</cell><cell>13 300</cell></row><row><cell>Gersberg</cell><cell>GD1</cell><cell>A</cell><cell>tissue</cell><cell>200</cell><cell>60.50</cell><cell>high</cell><cell>12 100</cell></row><row><cell>Kapuzinerberg</cell><cell>KD1</cell><cell>A</cell><cell>tissue</cell><cell>200</cell><cell>60.80</cell><cell>high</cell><cell>12 160</cell></row><row><cell cols="4">SALE11, SALE12, SAL3, SAL29) developed by Stein-</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">fartz et al. (2004). PCRs were performed in 20 μl vol-</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">umes with 11.8-266 ng DNA (4 μl extraction product), 1×</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>. Comparison of skin swabs from larvae (upper part) and tissue samples (positive controls; lower part) of Salamandra salamandra. may not be influenced as much by the DNA sample source but rather by handling (pipetting errors for example).Contrary to the results ofPrunier et al. (</figDesc><table><row><cell></cell><cell>SALE2</cell><cell>SALE6</cell><cell>SALE7</cell><cell>SALE8</cell><cell>SALE11</cell><cell>SALE12</cell><cell>SAL3</cell><cell>SAL29</cell></row><row><cell>LARVAE SAMPLES</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>N</cell><cell>28</cell><cell>28</cell><cell>28</cell><cell>28</cell><cell>28</cell><cell>28</cell><cell>28</cell><cell>28</cell></row><row><cell>Amplif. success</cell><cell>100%</cell><cell>86%</cell><cell>100%</cell><cell>100%</cell><cell>93%</cell><cell>96%</cell><cell>100%</cell><cell>79%</cell></row><row><cell>A D O</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell></row><row><cell>F A</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell></row><row><cell>TISSUE SAMPLES</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>N</cell><cell>8</cell><cell>8</cell><cell>8</cell><cell>8</cell><cell>8</cell><cell>8</cell><cell>8</cell><cell>8</cell></row><row><cell>Amplif. success</cell><cell>100%</cell><cell>88%</cell><cell>100%</cell><cell>100%</cell><cell>75%</cell><cell>100%</cell><cell>100%</cell><cell>88%</cell></row><row><cell>A D O</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell></row><row><cell>F A</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell></row></table><note><p><p>Microsatellite markers</p>Amplification success, the proportion of PCRs leading to a readable genotype, ranged between 86% and 100% (see table 2) for larval samples and 75% to 100% for tissue samples (positive controls), with an average over all loci of 94.2% and 94% respectively. Thus amplification suc-cess</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements. This study was supported by the project alpensalamander.eu (BM.W_F) granted to R. Schwarzenbacher. The conservation <rs type="funder">department of the Provincial Government of Salzburg</rs> (<rs type="grantNumber">21301-RI/548/71-2010</rs>) and <rs type="funder">Upper Austria</rs> permitted the handling of fire salamanders. We thank <rs type="person">Robert Schwarzenbacher</rs> for all his support and for providing the opportunity to conduct this study and <rs type="person">Ana Gimeno</rs> for her kind help in the lab. Thanks to <rs type="person">Roman Fuchs</rs> for his advice on statistical analyses. Many thanks go to <rs type="person">Andreas Tribsch</rs> and <rs type="person">Matthias Affenzeller</rs> for helping and providing us with the <rs type="institution" subtype="infrastructure">genotyping lab facilities (Core Facility "Molecular Biosystematics and Evolution of Plants")</rs>. Finally we thank <rs type="person">Lucie Büchi</rs>, <rs type="person">Andreas Tribsch</rs> and six anonymous reviewers for their useful comments on previous versions of this manuscript.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_cdMcXZF">
+					<idno type="grant-number">21301-RI/548/71-2010</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">genotyping lab facilities (Core Facility &quot;Molecular Biosystematics and Evolution of Plants&quot;)</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data accessibility</head><p>-Microsatellite data: DRYAD entry doi: 10.5061/dryad.fv487 -DNA sequences: GenBank accession numbers KC477264 and KC477265</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The amphibian decline crisis: A watershed for conservation biology?</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J C</forename><surname>Beebee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Griffiths</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="271" to="285" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Advancing ecological understandings through technological transformations in noninvasive genetics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beja-Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1279" to="1301" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Quantifying genotyping errors in noninvasive population genetics</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Broquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Petit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3601" to="3608" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Buccal swabs allow efficient and reliable microsatellite genotyping in amphibians</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Broquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Berset-Braendli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Emaresi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fumagalli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="509" to="511" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Noninvasive population genetics: a review of sample source, diet, fragment length and microsatellite motif effects on amplification success and genotyping error rates</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Broquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ménard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Petit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="249" to="260" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A novel method for the extraction and amplification of DNA from amphibians</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Slusher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Beneski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Herpetol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="24" to="25" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Landscape genetics of the Alpine newt (Mesotriton alpestris) inferred from a strip-based approach</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Emaresi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pellet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dubey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Hirzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fumagalli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="41" to="50" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Validation of a cheap and simple nondestructive method for obtaining AFLPs and DNA sequences (mitochondrial and nuclear) in amphibians</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Gallardo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Correa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Morales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Saez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pastenes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mendez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1090" to="1096" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Conservation genetics and population monitoring of the Alpine salamander (Salamandra atra)</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Helfer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page">196</biblScope>
+			<pubPlace>Switzerland</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Ecology and Evolution, Faculty of Biology and Medicine, University of Lausanne</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.D. Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Dynamics of mitochondrial DNA evolution in animals: amplification and sequencing with conserved primers</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Kocher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">X</forename><surname>Villablanca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Nat. Acad. Sc. U.S</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="6196" to="6200" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Blood puncture as a nondestructive sampling tool to obtain DNA in frogs: comparison of protocols and survival analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Mendoza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Garcia-Ramirez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cardenas-Henao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="470" to="475" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A multiple-tubes approach for accurate genotyping of very small DNA samples by using PCR: statistical considerations</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Navidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Arnheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Waterman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Hum. Genet</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="347" to="359" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Buccal swabs as a nondestructive tissue sampling method for DNA analysis in amphibians</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pidancier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miquel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miaud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Herpetol. J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="175" to="178" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Skin swabbing as a new efficient DNA sampling technique in amphibians, and 14 new microsatellite markers in the alpine newt (Ichthyosaura alpestris)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Prunier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kaufmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Grolet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Picard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Joly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="524" to="531" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">R: A Language and Environment for Statistical Computing</title>
+		<author>
+			<orgName type="collaboration">R Development Core Team</orgName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">R Foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Isolation and characterization of polymorphic tetranucleotide microsatellite loci in the Fire salamander Salamandra salamandra (Amphibia: Caudata)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Steinfartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kusters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tautz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Notes</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="626" to="628" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Status and trends of amphibian declines and extinctions worldwide</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Stuart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Chanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Fischman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Waller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">306</biblScope>
+			<biblScope unit="page" from="1783" to="1786" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Non-invasive genetic sampling and individual identification</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. J. Linn. Soc</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="41" to="55" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Reliable genotyping of samples with very low DNA quantities using PCR</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Questiau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Manceau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Escaravage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bouvet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="3189" to="3194" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling: look before you leap</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="323" to="327" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

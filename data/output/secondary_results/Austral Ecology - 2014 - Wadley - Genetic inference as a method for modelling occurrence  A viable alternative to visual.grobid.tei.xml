@@ -1,0 +1,1971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Genetic inference as a method for modelling occurrence: A viable alternative to visual surveys</title>
+				<funder ref="#_3TxpTaY">
+					<orgName type="full">Australian Research Council</orgName>
+					<orgName type="abbreviated">ARC</orgName>
+				</funder>
+				<funder ref="#_tGh247D #_y72qnpf">
+					<orgName type="full">ARC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Jessica</forename><forename type="middle">J</forename><surname>Wadley</surname></persName>
+							<email>jessica.wadley@adelaide.edu.au</email>
+							<affiliation key="aff0">
+								<orgName type="department">Australian Centre for Ancient DNA</orgName>
+								<orgName type="institution">University of Adelaide</orgName>
+								<address>
+									<addrLine>North Terrace</addrLine>
+									<postCode>5005</postCode>
+									<settlement>Adelaide</settlement>
+									<region>SA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Environment Institute and School of Earth and Environmental Sciences</orgName>
+								<orgName type="institution">University of Adelaide</orgName>
+								<address>
+									<settlement>Adelaide</settlement>
+									<region>South Australia</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jeremy</forename><forename type="middle">J</forename><surname>Austin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Australian Centre for Ancient DNA</orgName>
+								<orgName type="institution">University of Adelaide</orgName>
+								<address>
+									<addrLine>North Terrace</addrLine>
+									<postCode>5005</postCode>
+									<settlement>Adelaide</settlement>
+									<region>SA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Environment Institute and School of Earth and Environmental Sciences</orgName>
+								<orgName type="institution">University of Adelaide</orgName>
+								<address>
+									<settlement>Adelaide</settlement>
+									<region>South Australia</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Sciences Department</orgName>
+								<orgName type="institution">Museum Victoria</orgName>
+								<address>
+									<settlement>Melbourne</settlement>
+									<region>Victoria</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Damien</forename><forename type="middle">A</forename><surname>Fordham</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Environment Institute and School of Earth and Environmental Sciences</orgName>
+								<orgName type="institution">University of Adelaide</orgName>
+								<address>
+									<settlement>Adelaide</settlement>
+									<region>South Australia</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Genetic inference as a method for modelling occurrence: A viable alternative to visual surveys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0E3810B3EBEBF02FC56D9F7CC3324FDC</idno>
+					<idno type="DOI">10.1111/aec.12160</idno>
+					<note type="submission">Accepted for publication May 2014.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:51+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>indirect genetic survey</term>
+					<term>kangaroo range dynamics</term>
+					<term>non-invasive genetic sampling</term>
+					<term>scat</term>
+					<term>species distribution model</term>
+					<term>species occurrence</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Management and conservation require a comprehensive understanding of species distributions and habitat requirements. Reliable species occurrence data are critical in the face of climate change and other anthropogenic activity, but are often difficult to obtain, particularly for wide ranging species. This directly affects ecological models of occurrence and habitat suitability and, in turn, conservation and management decisions. We used generalized linear mixed-effects models to identify ecological determinants of occurrence for four macropod species (across a region of tropical northern Australia) using a non-invasive genetic scat approach with and without additional observation records from visual surveys.We show that genetically derived occurrence data, alone, can be used to develop informative ecological models that describe the inter-specific habitat requirements of macropods. Furthermore, we show that genetic scat surveys of macropods are cheaper and less time consuming to conduct, and tend to provide more occurrence records (and less false absences) than visual surveys. We conclude that indirect surveys using molecular approaches have an important role to play in modelling species' occurrence, and developing future management practices and guidelines to aid species conservation.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Why are some species present in some locations but not others? This is a fundamental ecological question <ref type="bibr" target="#b33">(Krebs 1972</ref>), yet surprisingly, our answers on this point remain far from complete <ref type="bibr" target="#b58">(Sagarin &amp; Gaines 2002;</ref><ref type="bibr" target="#b43">Parmesan et al. 2005)</ref>. Detailed information on factors affecting species distributions, particularly for wide ranging species, is often absent <ref type="bibr" target="#b59">(Sagarin et al. 2006)</ref>. One reason for the paucity of information on species-habitat relationships is that occurrence data can be costly and time consuming to collect and subject to biases. These data collection issues are potentially amplified when capturing species occurrence responses to regional and temporal variation in environmental conditions <ref type="bibr">(Ritchie et al. 2008)</ref>.</p><p>Direct visual survey methods are the most common technique used to explore environmental correlates of species occurrence. Aerial visual surveys can cover large areas, but are often only effective in certain habitat types where visibility is high and for conspicuous species <ref type="bibr" target="#b14">(Caughley &amp; Grigg 1981;</ref><ref type="bibr" target="#b35">Lundie-Jenkins et al. 1999;</ref><ref type="bibr" target="#b64">Southwell &amp; Sheppard 2000;</ref><ref type="bibr" target="#b11">Cairns et al. 2008)</ref>. Therefore, many habitats and species are not amenable to aerial surveys <ref type="bibr" target="#b63">(Southwell et al. 1997)</ref>. Ground surveys, such as walked line transects can overcome the terrain and habitat issues of aerial surveys, but are time consuming <ref type="bibr" target="#b18">(Coulson &amp; Raines 1985;</ref><ref type="bibr" target="#b65">Southwell et al. 1995;</ref><ref type="bibr" target="#b34">le Mar et al. 2001)</ref>. Driven line transects increase the number of transects able to be monitored and therefore survey coverage <ref type="bibr" target="#b18">(Coulson &amp; Raines 1985;</ref><ref type="bibr">Ritchie et al. 2008)</ref>.</p><p>The collection of visual occurrence data from transects relies on two underlying assumptions: (i) objects directly on the transect line are never missed, and (ii) objects are fixed at their initial sighting position <ref type="bibr" target="#b63">(Southwell et al. 1997)</ref>. However, detectability is influenced by many factors such as sighting conditions and the surveyor's experience <ref type="bibr" target="#b52">(Ringvall et al. 2000)</ref>, potential mismatches between survey time and species diurnal movement, weather patterns, species crypsis and seasonal behaviour <ref type="bibr" target="#b7">(Bonesi &amp; Macdonald 2004)</ref>. To overcome these issues, statistical adjustments have been developed to account for biases in detection probability when analysing transect surveys <ref type="bibr" target="#b16">(Conroy &amp; Carroll 2009)</ref>, and inferring patterns and dynamics of species occurrence more generally <ref type="bibr" target="#b37">(MacKenzie et al. 2006)</ref>. Despite these advances, occurrence data from visual transect surveys continue to be used to map species distributions and to identify key environmental and climatic correlates of occurrence without considering biases in detection probability <ref type="bibr">(Ritchie et al. 2008;</ref><ref type="bibr" target="#b27">Gregory et al. 2012)</ref>.The problem partly reflects increased access to user-friendly ecological niche modelling software <ref type="bibr" target="#b70">(Thuiller et al. 2009;</ref><ref type="bibr" target="#b21">Elith et al. 2011)</ref>, whereby probability of occurrence can be modelled with little thought to underlying uncertainties <ref type="bibr">(Fordham et al. 2013a)</ref>.</p><p>Direct survey techniques, such as live and cameratrapping, scent stations and visual surveys <ref type="bibr" target="#b62">(Southwell 1989;</ref><ref type="bibr" target="#b2">Barea-Azcon et al. 2007)</ref> tend to be time consuming and costly. This is especially true for highly vagile species with large distributions <ref type="bibr" target="#b2">(Barea-Azcon et al. 2007)</ref>. Direct surveys can also cause negative physiological effects by disturbing behavioural and movement patterns of animals <ref type="bibr" target="#b6">(Bleich et al. 1994;</ref><ref type="bibr" target="#b38">Mathies et al. 2001;</ref><ref type="bibr" target="#b60">Schauster et al. 2002)</ref>. To counter these problems indirect survey techniques are increasingly being used to obtain occurrence data. Indirect monitoring includes the surveying of signs of presence, such as nest or den sites, dig sites, track counts, scat counts or hair counts, to infer presence <ref type="bibr" target="#b0">(Alacs et al. 2003;</ref><ref type="bibr" target="#b26">Garcia &amp; Mateos 2009;</ref><ref type="bibr" target="#b32">Kouakou et al. 2009)</ref>. In contrast to visual surveys, indirect techniques are far less labour intensive and can overcome some of the potential sources of bias, such as surveyor's experience and species crypsis, associated with traditional direct methods of data collection <ref type="bibr" target="#b68">(Telfer et al. 2006)</ref>. Indirect survey methods for large, terrestrial vertebrates have predominately focused on the presence of scats <ref type="bibr" target="#b18">(Coulson &amp; Raines 1985;</ref><ref type="bibr" target="#b29">Johnson &amp; Jarman 1987;</ref><ref type="bibr" target="#b68">Telfer et al. 2006</ref><ref type="bibr" target="#b69">Telfer et al. , 2008;;</ref><ref type="bibr" target="#b66">Styger et al. 2011;</ref><ref type="bibr" target="#b73">Wiggins &amp; Bowman 2011)</ref>.</p><p>Scats are one of the best indirect methods for surveying populations, as they are readily available and easily collected <ref type="bibr" target="#b22">(Foran et al. 1997)</ref>. There are several critical assumptions that underpin the use of scats in surveys, the most important being that scats of the target species must be identifiable from other sympatric species <ref type="bibr" target="#b9">(Bulinski &amp; McArthur 2000;</ref><ref type="bibr" target="#b68">Telfer et al. 2006)</ref>. For morphologically similar scats, DNA methods that target intestinal cells incorporated into the faeces of animals can rapidly provide unambiguous species identification <ref type="bibr" target="#b17">(Cossios &amp; Angers 2006)</ref>. Several genetic species identification techniques have been developed for non-invasive sampling <ref type="bibr" target="#b47">(Piggott &amp; Taylor 2003;</ref><ref type="bibr" target="#b5">Bidlack et al. 2007</ref>). These methods have included the amplification and direct sequencing of mitochondrial DNA (mtDNA) <ref type="bibr" target="#b0">(Alacs et al. 2003)</ref>, the use of species-specific mtDNA primers <ref type="bibr" target="#b71">(Tobe &amp; Linacre 2008)</ref>, species-specific lengths of nuclear fragments <ref type="bibr" target="#b42">(Oliveira et al. 2010)</ref>, species-specific allele lengths of a given microsatellite <ref type="bibr" target="#b49">(Poetsch et al. 2001)</ref>, or polymerase chain reaction (PCR)-restriction fragment length polymorphism (RFLP) methods <ref type="bibr" target="#b44">(Paxinos et al. 1997)</ref>.</p><p>Many studies have compared the cost of a variety of direct and indirect survey methods. For example (i) <ref type="bibr" target="#b2">Barea-Azcon et al. (2007)</ref> compared live trapping, camera-trapping, scent stations and scat detection; (ii) <ref type="bibr" target="#b7">Bonesi and Macdonald (2004)</ref> compared direct trapping and indirect survey of signs (scat and tracks) to determine relative abundance; (iii) <ref type="bibr" target="#b60">Schauster et al. (2002)</ref> looked at the cost of trapping compared with spotlighting, scat deposition and scent stations; (iv) <ref type="bibr" target="#b61">Solberg et al. (2006)</ref> compared a visual survey technique using a helicopter and a non-invasive genetic method using field collected scats; and (v) <ref type="bibr" target="#b12">Carr et al. (2012)</ref> compared the cost of an infrared survey method using a fixed wing aircraft with walking transects and molecular faecal surveys. However, to our knowledge, no study has evaluated the ability of genetic methods to provide reliable presence data as well as information on the factors affecting species occurrence patterns from a cost benefit perspective.</p><p>As part of a broader macroecological study, we used two different methods to survey four large, vagile, sympatric macropods, Macropus antilopinus (antilopine wallaroo), M. agilis (agile wallaby), M. robustus (common wallaroo) and M. giganteus (eastern grey kangaroo) across northern Queensland, Australia. We examined the suitability of using occurrence data from an indirect survey (non-invasive genetic identification of scats) to determine species occurrence-habitat relationships with and without additional occurrence data from a direct field visualization survey (driving transects). Our specific objectives were: (1) to conduct both visual and indirect genetic occurrence surveys of large macropods across north-eastern Australia; (2) to explore whether indirect genetic occurrence data can be used to fit ecological models of species' occurrence for macropods; (3) to use these models to establish primary environmental and climatic correlates of occurrence for each macropod species in our study region; and (4) to compare the cost of visual versus indirect genetic surveys.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>We undertook 51 transect surveys of macropods in Queensland, Australia (Fig. <ref type="figure" target="#fig_0">1</ref>). Surveys were conducted during the dry season from June through to September 2011 to avoid unfavourable weather conditions and ensure vehicle access was available for remote sites. Transects were spread across four Köppen climate zones; equatorial (number of transects (n) = 19), tropical (n = 17), subtropical (n = 9) and grassland (n = 6). The macropod species of interest were Macropus agilis, M. antilopinus, M. giganteus and M. robustus. Survey site locations were chosen primarily to establish range correlates of M. antilopinus, however they provide a good representation of environmental and climatic conditions affecting macropods more generally across north-eastern Australia <ref type="bibr" target="#b40">(Menkhorst &amp; Knight 2010)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Visual survey</head><p>The visual macropod survey techniques were based on <ref type="bibr">Ritchie et al. (2008)</ref>. Each transect consisted of 5 km of road, infrequently used by other vehicles. Two transects were surveyed at each site, dependent on space and the availability of suitable roads. Based on detectability protocols established in previous macropod occurrence surveys <ref type="bibr">(Ritchie et al. 2008)</ref>, each transect was surveyed four times over two consecutive days, once in the morning and once in the evening of each day. Morning surveys spanned 0630-0930 and evening surveys spanned 1600-1830 to coincide with the time when macropods are most active <ref type="bibr">(Ritchie et al. 2008)</ref>. To avoid observing the same animal in separate transects (macropods often move in response to driven transects) we set a minimum distance of 5 km between transects.Transects were driven at &lt;10 km h -1 and macropods were recorded on either side of the transect line by two observers in the tray of an open vehicle. All talking and noise was kept to a minimum to avoid disturbing the animals and potentially biasing visual counts. To avoid observer bias, the same trained observers were used for all surveys. When a macropod was sighted, the observer would signal the vehicle to stop and the species and GPS location were recorded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Indirect genetic survey</head><p>Four spatially separated scats were collected at every 1 km point along each transect. Fresh scats were preferentially collected. All scats collected were georeferenced using handheld GPS (WGS 84). Scat samples were placed in individual paper bags in the field and stored in plastic boxes with a silica desiccant before being transported to the University of Adelaide and then frozen at -20°C. A total of 245 scats from the 51 transects were selected for DNA extraction and species identification, one from each available 1 km point. Note that scats could not be located at all 1 km intervals. Species identification of scats was conducted following <ref type="bibr" target="#b72">Wadley et al. (2013)</ref>, whereby a small amount (2 cm 2 ) of the outer surface of each scat was scraped and removed using a sterile scalpel and 'Bioline fecal ISOLATE' kits (Bioline, London, UK) were used for extracting DNA. Extractions were performed in a DNA extraction laboratory physically separate from PCR-setup and post-PCR laboratories to prevent cross contamination with previously amplified DNA and all extractions included a negative control. All DNA extracts and negative controls were amplified for a 275-bp mtDNA ND2 fragment using macropod specific PCR primers (M496 5′-GCTTGAATAACAAACCAAT GAACCC-3′/M497 5′-CCTCCTCAGCCTCCGAGYAT-3′), digested with three restriction endonucleases (AluI, HphI and BstNI) and examined by gel electrophoresis to determine species <ref type="bibr" target="#b72">(Wadley et al. 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Vegetation surveys</head><p>Vegetation surveys were conducted on all transects at 1 km intervals using four 1 × 1 m wire quadrats <ref type="bibr">(Ritchie et al. 2008)</ref>. Two quadrats were placed on either side of each transect at a distance of 25 m and 50 m from the road. The four quadrats were then surveyed for percentage grass cover, grass height and biomass. Percentage grass cover was a comparison of vegetated area versus bare ground within the quadrat. Grass height consisted of two measurements; one conducted in the field to produce quadrat grass height and one from the cut sample used in the biomass calculations.</p><p>To determine biomass, 1 8 of the vegetation in the 1 × 1 m quadrat was cut to ground level, collected and dried for 24 h in an oven at 60°C. Weight was measured to 5 g accuracy using a 1 kg Super Samson, Salter Scale. For each quadrat, biomass was then calculated as</p><formula xml:id="formula_0">Quadrant biomass qgh wsgh sb gcp = ⎛ ⎝ ⎜ ⎞ ⎠ ⎟ * * ( ) ⎛ ⎝ ⎜ ⎞ ⎠ ⎟ * ⎛ ⎝ ⎜ ⎞ ⎠ ⎟ 8 100</formula><p>Where 'qgh' is quadrat grass height. 'wsgh' is weighed sample grass height. 'sb' is sample biomass. 'gcp' is grass cover percentage. The average of the quadrat biomasses for each transect (n = 24) was then calculate to give transect biomass.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Environmental predictors</head><p>A candidate set of environmental predictors of macropod presence/absence was selected using published literature <ref type="bibr" target="#b53">(Ritchie &amp; Bolitho 2008;</ref><ref type="bibr">Ritchie et al. 2008</ref><ref type="bibr" target="#b54">Ritchie et al. , 2009) )</ref> and expert advice. To avoid co-linearity among predictors, variables with a Spearman's rank ≥ 0.7 were excluded from the analysis.Where possible, we favoured retaining variables with the strongest ecological support (see Appendix S1). We considered predictors as two classes of variables (i) habitat variables, consisting of slope (in degrees from horizon), distance to closest permanent water (water, in hundred km), relative biomass (biomass), and elevation (elev, metres above sea </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>We used generalized linear mixed-effects models (GLMM) with a binomial distribution to identify ecological correlates of species occurrence using (i) molecular presence/absence records (molecular identification) and (ii) a combination of molecular and visual presence/absence records (combined identification), separately. The combined identification records included any additional presence points from the visual survey that were not detected from the indirect genetic survey. We did not model occurrence using visual-only records because models did not meet linear assumptions (see below) for some species. Likelihood ratio tests for mixedeffects models <ref type="bibr" target="#b19">(Crainiceanu &amp; Ruppert 2004)</ref> confirmed that Köppen climate zone should be treated as a random effect, not a fixed effect.Thus, models were not simplified to generalized linear models <ref type="bibr" target="#b48">(Pinheiro &amp; Bates 2000)</ref>. To avoid overparameterizing models, due to the relatively small sample size of occurrence records for each species (n = 51), we initially modelled the likely effect of non-climate habitat variables and anthropogenic human variables separately. After establishing the most parsimonious habitat and anthropogenic human models we then explored, more generally, the relative importance of these types of conditions on occurrence. A similar approach was used elsewhere <ref type="bibr" target="#b39">(Mellin et al. 2012)</ref>. We compared and ranked models using Akaike's information criterion corrected for small sample size (AICc) <ref type="bibr" target="#b10">(Burnham &amp; Anderson 2002)</ref>. We assessed each model's probability relative to the entire model set using AICc weights (wAICc), and its structural goodness-of-fit with per cent deviance explained (DEV). All residual distributions met linear model assumptions (assessed using normalized scores of standardized residual deviance using Q-Q plots). All models were implemented using lme4 package <ref type="bibr" target="#b3">(Bates et al. 2012)</ref> in the statistical software package R (R Development Core Team 2013).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cost analysis</head><p>To compare the economic feasibility of using indirect genetic and visual identification methods we examined the retrospective cost of the two methods. We considered observed expenses for field and laboratory work, salaries and car hire. We acknowledge that costs will be somewhat case study specific. For simplicity we excluded variables such as flights to and from field sites and the purchase of field-work equipment as they were common to both techniques. Although the site surveys were the same for both techniques, we estimated that the duration of time needed for indirect genetic surveys would be substantially less than for the visual surveys. This is because the visual surveys require participants to be located at each site, surveying up to two transects at a time, for at least two days. Visual surveys can only take place in the morning and evening when macropods are most active. Depending on the travel distance between sites an extra day at each site is often required to find and set up each transect and camp. For the indirect genetic survey, sites only need to be visited for a minimal amount of time to ensure transects are located and set up. Scats can be collected and habitat surveyed at each interval point regardless of the time of day. This can result in several transects and sites being completed each day (depending on distance between sites) resulting in a significantly shorter field trip duration compared with the visual survey. The cost involved in hiring a four-wheel drive vehicle for the surveys (visual or indirect genetic) is influenced by the duration of the fieldwork, costed at a daily rate of $195 (AUD), including fuel and safety equipment. Research assistants are needed for fieldwork, costed at $61 880 pa (AUD). For the visual survey, three people are required to maximize detection success, one to drive and two observers in the tray of the vehicle <ref type="bibr">(Ritchie et al. 2008)</ref>. However, the indirect genetic method only requires two people for the duration of field work.</p><p>The indirect genetic method requires samples to undergo laboratory analysis for identification of species. For this study, samples were processed in-house at the University of Adelaide <ref type="bibr" target="#b72">(Wadley et al. 2013)</ref>. However, for the cost benefit analysis we have used commercial costs from an external source (the Australian Genome Research Facility -AGRF) so as to provide a comparison of surveying cost for those without access to the required laboratory equipment. The laboratory work costing associated with identifying each sample for the in-house analysis is described in detail in Appendix S2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Species occurrence</head><p>Both visual and indirect genetic survey methods identified independently four macropod species occurring across the surveyed region in north-eastern Australia (Fig. <ref type="figure" target="#fig_1">2</ref>). Both methods identified all four species occurring outside their established ranges, with the most extreme being a M. giganteus scat sample approximately 420 km from its established range. For all species the indirect genetic method provided more presence locations compared with the visual method (i.e. along transects where species were not detected by visual surveys, indirect genetic evidence showed that they do occur in the area). Macropus antilopinus was recorded at 21 sites based on the indirect genetic method, while the visual survey method only identified the species at 15 sites. Indirect genetic methods identifying M. agilis at 27 sites, M. giganteus at 10 sites and M. robustus at 21 sites compared with visual sightings at 16, 7 and 18 sites respectively. The visual survey technique only identified two additional presence points (one for M. giganteus and one for M. robustus) compared with the indirect genetic survey (Fig. <ref type="figure" target="#fig_1">2c,</ref><ref type="figure">d</ref>), with the M. giganteus point possibly being the result of misidentification. The identification of M. giganteus in far northern Queensland is questionable as it is well outside the species established range (&gt;100 km).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Occurrence models</head><p>Our models show that the molecular identification records can be used to explore how environmental conditions influence the occurrence of macropods (Table <ref type="table" target="#tab_0">1</ref>). The most parsimonious occurrence models explained between 17-43% of model structural deviance, depending on the species.</p><p>Anthropogenic human processes are likely to have a larger influence on the occurrence of M. antilopinus than habitat variables in our study area. Land use had the most pronounced influence on M. antilopinus occurrence (land use + [1|zone]: DEV = 17%). There was also good support for including fire in a multi-term model (land use + fire + [1|zone]: dAICc = 1; DEV = 18.88%).</p><p>The most parsimonious model for M. agilis occurrence included habitat variables (elevation) as well as anthropogenic human processes (land use) (elev + land use + [1|zone]: DEV = 29.90%). There was also good support for including biomass in the multi-term model (elev + biomass + land use + [1|zone]; dAICc = 0.56; DEV = 32%) and for modelling occurrence as a single-term model using elevation (elev + [1|zone]; dAICc = 1.34; DEV = 24%), alone.</p><p>Anthropogenic human processes did not strongly influence the occurrence of M. robustus in our study area. Elevation had the largest influence on M. robustus occurrence (elev + [1|zone]; DEV = 43%). There was also good support for using slope as a predictor of M. robustus occurrence (slope + [1|zone]; dAICc = 1.71; DEV = 41%). Habitat variables also had the strongest influence on the occurrence of M. giganteus. A multi-term model that included biomass, distance to water, slope and elevation explained the greatest variation in occurrence (biomass + water + slope + elev + [1|zone]: DEV = 43%). There was less support for the next ranked model (slope + (1|zone): dAICc = 2.53; DEV = 22%). The GLMM results tables for all candidate models are shown in Appendixes S3-S6.</p><p>Combining indirect genetic and visual survey observations (i.e. using the combined identification records) for M. robustus and M. giganteus (the two species where visual surveys provided additional presences) resulted in similar conclusions to the molecular identification results (Appendix S7).The most parsimonious model for M. robustus was elev + (1|zone) (DEV = 45%); and for M. giganteus, it was biomass + water + slope + elev + (1|zone) (DEV = 32%). Interestingly, combining visual and indirect genetic survey data resulted in a poorer model structural fit for M. giganteus compared with the molecular identification model. This may be due to the questionable visual identification record for M. giganteus in far northern Australia (Fig. <ref type="figure" target="#fig_1">2c</ref>) affecting the fit of the model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cost comparison</head><p>The cost involved in collecting and identifying the non-invasively collected scat samples for the molecular identification survey was substantially less than the cost involved in conducting a direct visual survey of macropod occurrence (Table <ref type="table" target="#tab_1">2</ref>). The time required to complete the visual survey of the sites was 120 days, while we expect that the field work for the indirect genetic survey would only take 30 days. Even with the added component of out-sourcing laboratory analysis from a commercial company, the indirect genetic surveys would take less time to complete and cost considerably less than the visual surveys (Table <ref type="table" target="#tab_1">2</ref>), while also providing important additional presence Akaike's information criterion corrected for small sample size (AICc), number of parameters (k), difference in AICc compared to the best ranked model (ΔAICc), AICc weights (wi) and percentage of deviance explained (DEV) for the statistical relationship between occurrence and up to three separate sets of variables: habitat, human and habitat + human (Model type). Habitat variables (habitat) were: slope in degrees from horizon (slope); distance (km) to closest permanent water (water); relative biomass (biomass); and elevation in metres above sea level (elev). Human variables (human) were: grazing land or non-grazing land (land use); and number of years the land burnt from 1997-2010, in the late dry season (fire). Köppen climate zone was modelled as a random effect (zone). The best ranked model for each analysis is shaded in grey. The most parsimonious model across Model type is highlighted in bold. See Methods for further details. data (see above). Therefore, the indirect genetic method could survey over three times as many sites as the visual survey for the same cost and time. For researchers with access to in-house genetic facilities the molecular work is substantially cheaper than outsourcing and would provide additional cost savings (see Appendix S2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Understanding the biological and environmental factors that limit the distribution of organisms requires occurrence or abundance data <ref type="bibr" target="#b25">(Franklin 2009)</ref>, unless the fundamental niche of a species can be mechanistically linked to key organismal traits using biophysical models <ref type="bibr" target="#b30">(Kearney et al. 2008)</ref>. Indirect genetic surveys are a cost-effective method for collecting species occurrence data, which can be directly used in ecological models to evaluate potential drivers of species distributions. The results from these models can then be used potentially to better manage species today and in the future <ref type="bibr" target="#b1">(Araujo &amp; Peterson 2012)</ref>.</p><p>Previous macropod studies have used scat count data to develop ecological models of habitat use <ref type="bibr" target="#b68">(Telfer et al. 2006;</ref><ref type="bibr" target="#b73">Wiggins &amp; Bowman 2011)</ref>; however, they did not utilize molecular methods of identification. Consequently, their results are likely to include model biases and uncertainties brought about by potential problems of misidentifying species with similar scat morphology <ref type="bibr" target="#b68">(Telfer et al. 2006)</ref>. In contrast, these problems are largely avoided by using genetically inferred occurrence data to build ecological models. The genetic species identification test allows a scat to be identified without bias due to the observer <ref type="bibr" target="#b52">(Ringvall et al. 2000)</ref>. However, if a suspicious identification is determined, the indirect genetic survey has the added benefit of being able to independently double check the sample via further genetic analysis, increasing the reliability attached to that sample. For example, the out-of-range M. giganteus scat sample (Fig. <ref type="figure" target="#fig_1">2c</ref>) was reanalysed using sequencing and identified as M. giganteus again, confirming the accuracy of the species identification: something that could not be done with the out-of-range visual observation. The out-ofrange M. giganteus visual observation could not be reassessed. Therefore, although this observation cannot be ignored it should be interpreted with caution. The confirmed out-of-range scat sample for M. giganteus (approx. 420 km) suggested that the range boundary for this species is poorly defined or is changing.</p><p>The overall cost of the indirect genetic survey was considerably less than the visual survey, even with the added cost of out-sourcing molecular analysis. Both surveys identified all four species of interest. However, the indirect genetic method revealed important additional presence points for all four species. Thus indirect genetic occurrence data are cheaper to collect, are more reliable because the identity of samples can be easily cross-checked and can potentially provide more occurrence points when compared with the visual transect method used in this study. However, the way in which visual surveys are planned and conducted varies with the research question being addressed. Therefore, the costs outlined in Table <ref type="table" target="#tab_1">2</ref> are specific for the region and species investigated in this study and will change greatly depending on how the visual surveys are designed and conducted. The decision to maximize detectability in the visual surveys, using three observers <ref type="bibr">(Ritchie et al. 2008)</ref>, vastly increased salary costs when compared with the indirect genetic survey. However, even if the number of fieldresearchers was reduced to two people, salary expenses associated with visual surveys would remain much higher (approx. 3 times higher than for indirect genetic surveys).</p><p>In wildlife surveys, whether they are based on scat counts or observations of animals, invariably there is a chance of recording 'false absences' by not detecting the presence of a species in an area that it in fact inhabits <ref type="bibr" target="#b36">(MacKenzie et al. 2002)</ref>. Although statistical techniques have been developed to account for many inherent biases in occupancy data <ref type="bibr" target="#b37">(MacKenzie et al. 2006)</ref>, ecological niche models (also referred to as species distribution models and bioclimatic envelope models) <ref type="bibr" target="#b45">(Peterson et al. 2011)</ref> continue to be developed with little consideration of uncertainties in presence-only or presence/absence data.</p><p>By utilizing genetic methods to collect data on species occurrence, the chance of missing species at a site or misidentifying a species is decreased. The former is particularly important for more widespread, vagile species that can often be missed on transect surveys. Indirect genetic surveys utilizing scats have previously been used to determine reliable species identification <ref type="bibr" target="#b0">(Alacs et al. 2003;</ref><ref type="bibr" target="#b4">Berry et al. 2007</ref>), calculate species abundance <ref type="bibr" target="#b41">(Mills et al. 2000;</ref><ref type="bibr" target="#b8">Brinkman et al. 2011;</ref><ref type="bibr" target="#b50">Poole et al. 2011)</ref>, determine species distributions <ref type="bibr" target="#b57">(Ruiz-Gonzalez et al. 2008</ref>) and estimate population size <ref type="bibr" target="#b31">(Kohn &amp; Wayne 1997;</ref><ref type="bibr" target="#b46">Piggott et al. 2006;</ref><ref type="bibr" target="#b61">Solberg et al. 2006)</ref>.This study has taken the indirect genetic method further by using statistical models to investigate the environmental correlates of genetically inferred occurrence data, showing that molecular scat identification provides a promising source of presence/absence data for constructing ecological niche models.</p><p>All four macropod species have distributions across tropical Queensland. However, both M. giganteus and M. robustus are also found in non-tropical climates. Macropus giganteus is found in the temperate regions of eastern Australia, and M. robustus has a distribution covering the majority of Australia including the central arid deserts. Our results indicate that for these two species, habitat variables are better predictors of occurrence than human variables, at least in northeastern Australia. Both elevation and slope influence M. robustus occurrence while the added effects of permanent water and relative grass biomass were important for the more temperate species, M. giganteus. The effects of permanent water and grass biomass on M. giganteus occurrence may be more pronounced in this study due to the surveys being conducted in the dry season. However, our results do support previously hypothesized drivers of range dynamics for M. giganteus. For example, <ref type="bibr" target="#b20">Dawson et al. (2004)</ref> concluded that the creation of artificial watering points aid the expansion of M. giganteus into more arid habitats; and <ref type="bibr" target="#b13">Caughley et al. (1988)</ref> suggested that food (relative grass biomass) could determine the inland boundary of M. giganteus.</p><p>Elevation and land use influence the occurrence of M. agilis whose distribution is limited to tropical northern Australia. The human variables of land use and fire regimes were the best predictors of occurrence for M. antilopinus, which is also confined to the tropical regions of northern Australia. <ref type="bibr">Ritchie et al. (2008)</ref> also found fire to be a good predictor of M. antilopinus presence across northern Australia. By showing the important effect of human variables on the occurrence of two endemic tropical macropods (M. agilis and M. antilopinus), we provide additional evidence of the potential impact of land conversion and altered fire regimes on mammals in northern Australia <ref type="bibr" target="#b75">(Woinarski et al. 2011)</ref>. More specifically, our results reiterate the potential vulnerability of these species to anthropogenic change <ref type="bibr" target="#b74">(Williams et al. 2005)</ref>. However, to determine the range-wide influence of land use and fire regimes on M. agilis and M. antilopinus occurrence and vulnerability, data from across the species ranges would be required.</p><p>The set of environmental predictors used in the study was chosen to test the effectiveness of using indirect genetic data compared with visual data for identifying abiotic correlates of occurrence. To fully understand the drivers of species distributions, biotic factors such as species interactions would need to be considered and potentially incorporated into ecological models of occurrence <ref type="bibr">(Fordham et al. 2013b)</ref>. <ref type="bibr" target="#b54">Ritchie et al. (2009)</ref> found statistical support for competition between M. antilopinus and M. giganteus, which affects occurrence and abundance.</p><p>Surveying the occurrence and abundance of species is critical to the design and monitoring of management and conservation programmes <ref type="bibr" target="#b15">(Clarke et al. 2001)</ref>. Therefore, methods that produce more reliable occurrence data (i.e. occurrence data that do not require pre-analyses to account for inherent biases) using cost-effective techniques, such as indirect genetic surveys, can directly benefit both management and conservation. For example, ecological niche models are the primary tools used to determine species habitat requirements and availability, and how these may be altered by climate change <ref type="bibr" target="#b25">(Franklin 2009;</ref><ref type="bibr" target="#b1">Araujo &amp; Peterson 2012;</ref><ref type="bibr" target="#b56">Rodríguez-Castañeda et al. 2012)</ref>. Given that the predictive capacity of ecological niche models is influenced by uncertainties in occurrence data <ref type="bibr" target="#b67">(Syfert et al. 2013)</ref>, and that these models are often built without considering these biases, we anticipate that genetically inferred occurrence data will strengthen ecological niche model predictions, including previous efforts to model climate change impacts on macropods <ref type="bibr" target="#b53">(Ritchie &amp; Bolitho 2008)</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Map of north-eastern Australia. Black diamonds represent the 51 transect locations. Climatic layers based on the Köppen classification are also shown; brown = equatorial, dark green = tropical, light green = subtropical and orange = grassland. Insert shows the location within Australia.</figDesc><graphic coords="3,82.19,72.24,178.59,183.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Map showing the location of species presence points based on indirect genetic and visual surveys. (a) Macropus agilis; (b) M. antilopinus; (c) M. giganteus; (d) M. robustus. Black dots represent presence points identified by both survey techniques. Red dots represent presence points identified by indirect genetic methods only. Blue dots shown via arrows represent presence points identified by visual methods only. Köppen classifications (coloured background area) are the same as Figure 1. Each species current distribution based on the IUCN Redlist is shown in black diagonal lines (IUCN 2012).</figDesc><graphic coords="5,139.08,72.59,311.82,344.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>GLMM model results for each species using occurrence data from molecular identification records</figDesc><table><row><cell>Species</cell><cell>Model type</cell><cell>Model</cell><cell>AICc</cell><cell>K</cell><cell>ΔAICc</cell><cell>wi</cell><cell>DEV</cell></row><row><cell>M. antilopinus</cell><cell>human</cell><cell>land use + (1|zone)</cell><cell>66.39</cell><cell>4</cell><cell>0.00</cell><cell>0.60</cell><cell>16.77</cell></row><row><cell></cell><cell></cell><cell>land use + fire + (1|zone)</cell><cell>67.39</cell><cell>5</cell><cell>1.00</cell><cell>0.36</cell><cell>18.88</cell></row><row><cell></cell><cell>habitat</cell><cell>(1|zone)</cell><cell>73.49</cell><cell>3</cell><cell>0.00</cell><cell>0.30</cell><cell>3.08</cell></row><row><cell></cell><cell></cell><cell>biomass + (1|zone)</cell><cell>74.64</cell><cell>4</cell><cell>1.15</cell><cell>0.17</cell><cell>4.86</cell></row><row><cell></cell><cell></cell><cell>slope + (1|zone)</cell><cell>75.23</cell><cell>4</cell><cell>1.74</cell><cell>0.13</cell><cell>3.97</cell></row><row><cell>M. agilis</cell><cell>human</cell><cell>land use + (1|zone)</cell><cell>63.60</cell><cell>4</cell><cell>0.00</cell><cell>0.56</cell><cell>22.40</cell></row><row><cell></cell><cell></cell><cell>(1|zone)</cell><cell>65.59</cell><cell>3</cell><cell>1.99</cell><cell>0.21</cell><cell>16.24</cell></row><row><cell></cell><cell></cell><cell>land use + fire + (1|zone)</cell><cell>66.06</cell><cell>5</cell><cell>2.46</cell><cell>0.16</cell><cell>22.40</cell></row><row><cell></cell><cell>habitat</cell><cell>elev + (1|zone)</cell><cell>62.53</cell><cell>4</cell><cell>0.00</cell><cell>0.46</cell><cell>23.91</cell></row><row><cell></cell><cell></cell><cell>elev + biomass + (1|zone)</cell><cell>64.14</cell><cell>5</cell><cell>1.61</cell><cell>0.21</cell><cell>25.16</cell></row><row><cell></cell><cell>human + habitat</cell><cell>elev + land use + (1|zone)</cell><cell>61.19</cell><cell>5</cell><cell>0.00</cell><cell>0.34</cell><cell>29.30</cell></row><row><cell></cell><cell></cell><cell>elev + biomass + land use + (1|zone)</cell><cell>61.75</cell><cell>6</cell><cell>0.56</cell><cell>0.26</cell><cell>32.23</cell></row><row><cell></cell><cell></cell><cell>elev + (1|zone)</cell><cell>62.53</cell><cell>4</cell><cell>1.34</cell><cell>0.18</cell><cell>23.91</cell></row><row><cell>M. robustus</cell><cell>human</cell><cell>(1|zone)</cell><cell>52.96</cell><cell>3</cell><cell>0.00</cell><cell>0.52</cell><cell>32.78</cell></row><row><cell></cell><cell></cell><cell>land use + (1|zone)</cell><cell>54.72</cell><cell>4</cell><cell>1.76</cell><cell>0.21</cell><cell>33.65</cell></row><row><cell></cell><cell></cell><cell>fire + (1|zone)</cell><cell>54.95</cell><cell>4</cell><cell>1.99</cell><cell>0.19</cell><cell>33.31</cell></row><row><cell></cell><cell>habitat</cell><cell>elev + (1|zone)</cell><cell>48.26</cell><cell>4</cell><cell>0.00</cell><cell>0.47</cell><cell>43.00</cell></row><row><cell></cell><cell></cell><cell>slope + (1|zone)</cell><cell>49.96</cell><cell>4</cell><cell>1.71</cell><cell>0.20</cell><cell>40.54</cell></row><row><cell></cell><cell></cell><cell>elev + biomass + (1|zone)</cell><cell>50.43</cell><cell>5</cell><cell>2.17</cell><cell>0.16</cell><cell>43.47</cell></row><row><cell>M. giganteus</cell><cell>human</cell><cell>(1|zone)</cell><cell>49.99</cell><cell>3</cell><cell>0.00</cell><cell>0.53</cell><cell>13.87</cell></row><row><cell></cell><cell></cell><cell>land use + (1|zone)</cell><cell>51.69</cell><cell>4</cell><cell>1.69</cell><cell>0.23</cell><cell>15.18</cell></row><row><cell></cell><cell></cell><cell>fire + (1|zone)</cell><cell>52.35</cell><cell>4</cell><cell>2.36</cell><cell>0.16</cell><cell>13.87</cell></row><row><cell></cell><cell>habitat</cell><cell>biomass + water + slope + elev + (1|zone)</cell><cell>45.58</cell><cell>7</cell><cell>0.00</cell><cell>0.55</cell><cell>42.72</cell></row><row><cell></cell><cell></cell><cell>slope + (1|zone)</cell><cell>48.11</cell><cell>4</cell><cell>2.53</cell><cell>0.16</cell><cell>22.27</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Cost comparison of indirect genetic and visual survey techniques for 51 sites across north-eastern Australia</figDesc><table><row><cell></cell><cell>Visual survey</cell><cell></cell><cell>Indirect genetic survey</cell><cell></cell></row><row><cell>Category of cost involved</cell><cell>Description</cell><cell>Total</cell><cell>Description</cell><cell>Total</cell></row><row><cell>Field work Salary</cell><cell>×3 people for 120 days</cell><cell>$61 032</cell><cell>×2 people for 30 days</cell><cell>$10 172</cell></row><row><cell></cell><cell>$61 880 per annum</cell><cell></cell><cell>$61 880 per annum</cell><cell></cell></row><row><cell></cell><cell>$20 344 ×3</cell><cell></cell><cell>$5 086 ×2</cell><cell></cell></row><row><cell>Four-wheel drive vehicle hire</cell><cell>Field work 120 days</cell><cell>$23 400</cell><cell>Field work 30 days</cell><cell>$5 850</cell></row><row><cell></cell><cell>$195 per day</cell><cell></cell><cell>$195 per day</cell><cell></cell></row><row><cell>Laboratory analysis</cell><cell></cell><cell>N/A</cell><cell>Commercial service provided by</cell><cell>$9 800</cell></row><row><cell></cell><cell></cell><cell></cell><cell>AGRF. Complete analysis</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>(extraction through to</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>identification) with laboratory</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>salaries and time incorporated into</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>the value</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>$40 per sample ×245 samples</cell><cell></cell></row><row><cell>Total</cell><cell></cell><cell>$84 432</cell><cell></cell><cell>$25 822</cell></row><row><cell cols="2">All prices are in Australian dollars.</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2014 The Authors</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>J. J. WADLEY ET AL. © 2014 The Authors doi:10.1111/aec.12160 Austral Ecology © 2014 Ecological Society of Australia 14429993, 2014, 8, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/aec.12160 by Portail BibCNRS INEE, Wiley Online Library on [04/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>14429993, 2014, 8, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/aec.12160 by Portail BibCNRS INEE, Wiley Online Library on [04/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>© 2014 The Authors doi:10.1111/aec.12160</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>© 2014 The Authors doi:10.1111/aec.12160 Austral Ecology © 2014 Ecological Society of Australia 14429993, 2014, 8, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/aec.12160 by Portail BibCNRS INEE, Wiley Online Library on [04/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>This work was funded by <rs type="funder">Australian Research Council (ARC)</rs> <rs type="grantName">Discovery</rs> Project grant <rs type="grantNumber">DP1096427</rs>. The contribution of JJA was supported by an <rs type="funder">ARC</rs> <rs type="grantName">Future Fellowship</rs>. DAF was supported by an <rs type="funder">ARC</rs> <rs type="grantName">Super Science Fellowship</rs>. <rs type="person">Donna Harris</rs> directed the visual surveys and scat collection. <rs type="person">Euan Ritchie</rs> provided advice on survey design. <rs type="person">Stephen Gregory</rs> provided statistical guidance. We thank the north Queensland landholders for permitting access to their properties.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_3TxpTaY">
+					<idno type="grant-number">DP1096427</idno>
+					<orgName type="grant-name">Discovery</orgName>
+				</org>
+				<org type="funding" xml:id="_tGh247D">
+					<orgName type="grant-name">Future Fellowship</orgName>
+				</org>
+				<org type="funding" xml:id="_y72qnpf">
+					<orgName type="grant-name">Super Science Fellowship</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional Supporting Information may be found in the online version of this article at the publisher's web-site: Appendix S1. Data sources for the predictors used to model occurrence. Appendix S2. Cost of lab work for identifying scat samples. Appendix S3. GLMM results for all M. antilopinus candidate models using molecularly determined occurrence records. Appendix S4. GLMM results for all M. agilis candidate models using molecularly determined occurrence records. Appendix S5. GLMM results for all M. robustus candidate models using molecularly determined occurrence records. Appendix S6. GLMM results for all M. giganteus candidate models using molecularly determined occurrence records. Appendix S7. GLMM results for all M. robustus and M. giganteus candidate models using occurrence data from combined identification records.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Identifying the presence of quokkas (Setonix brachyurus) and other macropods using cytochrome b analyses from faeces</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Alpers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>De Tores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B S</forename><surname>Spencer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="41" to="47" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Uses and misuses of bioclimatic envelope modeling</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Araujo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Peterson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="1527" to="1539" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Surveying carnivores at large spatial scales: a comparison of four broad-applied methods</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Barea-Azcon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Virgos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ballesteros-Duperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moleon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chirosa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biodivers. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1213" to="1230" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">lme4: Linear mixedeffects models using S4 classes. R package</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maechler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bolker</surname></persName>
+		</author>
+		<ptr target="http://cran.r-project.org/web/packages/lme4/index.html" />
+		<imprint>
+			<date type="published" when="2012-11-30">2012. 30 Nov 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Faecal DNA detection of invasive species: the case of feral foxes in Tasmania</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Sarre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Farrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aitken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Characterization of a western North American carnivore community using PCR-RFLP of cytochrome b obtained from fecal samples</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Bidlack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Palsboll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Getz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1511" to="1513" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Mountain sheep Ovis canadensis and helicopter surveys: ramifications for the conservation of large mammals</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Bleich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Bowyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Pauli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Anthes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Evaluation of sign surveys as a way to estimate the relative abundance of American mink (Mustela vison)</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bonesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Macdonald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Zool</title>
+		<imprint>
+			<biblScope unit="volume">262</biblScope>
+			<biblScope unit="page" from="65" to="72" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Estimating abundance of Sitka black-tailed deer using DNA from fecal pellets</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Brinkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Person</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Chapin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Hundertmark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manag</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="232" to="242" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Observer error in counts of macropod scats</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bulinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mcarthur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="277" to="282" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Model Selection and Multimodel Inference: A Practical Information-Theoretic Approach</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Springer</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Design of aerial surveys for population estimation and the management of macropods in the Northern Tablelands of New South Wales, Australia</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Cairns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Lollback</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Payne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="331" to="339" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Comparative woodland caribou population surveys in Slate Islands Provincial Park, Ontario</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Rodgers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Kingston</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rangifer</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="205" to="217" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The edge of the range</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Caughley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Anim. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="771" to="785" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Surveys of the distribution and density of kangaroos in the pastoral zone of South-Australia, and their bearing on the feasibility of aerial survey in large and remote areas</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Caughley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Grigg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aust.Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Fecal DNA methods for differentiating grizzly bears from American black bears</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Fangman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Wasser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="237" to="240" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Conroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Carroll</surname></persName>
+		</author>
+		<title level="m">Quantitative Conservation of Vertebrates</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley-Blackwell Publishing</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Identification of Andean felid feces using PCR-RFLP</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cossios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Angers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mastozool. Neotrop</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="239" to="244" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Methods for small-scale surveys of grey kangaroo populations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Coulson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Raines</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aust. Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="119" to="125" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Likelihood ratio tests in linear mixed models with one variance component</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Crainiceanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ruppert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. R. Stat. Soc. Ser. B Stat. Methodol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="165" to="185" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Diets and foraging behaviour of red and eastern grey kangaroos in arid shrub land: is feeding behaviour involved in the range expansion of the eastern grey kangaroo into the arid zone?</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Mctavish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Ellis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aust. Mammal</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="169" to="178" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A statistical explanation of MaxEnt for ecologists</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Elith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hastie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dudik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">E</forename><surname>Chee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Yates</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Divers. Distrib</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="43" to="57" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Species identification from scat: an unambiguous genetic method</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Foran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Crooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Minta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Soc. Bull</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="835" to="839" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Tools for integrating range change, extinction risk and climate change information into conservation management</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Fordham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Akcakaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Araujo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Keith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Brook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecography</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="956" to="964" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Adapted conservation measures are required to save the Iberian lynx in a changing climate</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Fordham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akcakaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Brook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Clim. Chang</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="899" to="903" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Franklin</surname></persName>
+		</author>
+		<title level="m">Mapping Species Distributions: Spatial Inference and Prediction</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Evaluation of three indirect methods for surveying the distribution of the least weasel Mustela nivalis in a Mediterranean area</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mateos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Carnivore Conserv</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="22" to="26" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Long-term field data and climate-habitat models show that orangutan persistence depends on effective forest management and greenhouse gas mitigation</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Gregory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Brook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">43846</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">IUCN Red list of threatened species</title>
+		<ptr target="http://www.iucnredlist.org" />
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>IUCN</publisher>
+		</imprint>
+	</monogr>
+	<note>Cited 5 Mar 2012</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Macropod studies at Wallaby Creek. 6. A validation of the use of dung-pellet counts for measuring absolute densities of populations of macropodids</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Jarman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aust.Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="139" to="145" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Modelling species distributions without using species distributions: the cane toad in Australia under current and future climates</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kearney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Tracy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Christian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Betts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Porter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecography</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="423" to="434" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Facts from feces revisited</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="223" to="227" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Estimating chimpanzee population size with nest counts: validating methods in Tai National Park</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Kouakou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kuehl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Primatol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="447" to="457" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Krebs</surname></persName>
+		</author>
+		<title level="m">Ecology:The Experimental Analysis of Distribution and Abundance</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Harper and Row Publishers</publisher>
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Evaluation of line-transect sampling to estimate nocturnal densities of macropods in open and closed habitats</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Le Mar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Southwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mcarthur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="9" to="16" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">An overview of the Queensland macropod monitoring programme</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lundie-Jenkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Hoolihan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Maag</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aust. Zool</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="301" to="305" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Estimating site occupancy rates when detection probabilities are less than one</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Lachman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Droege</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Langtimm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="2248" to="2255" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Occupancy Estimation and Modeling: Inferring Patterns and Dynamics of Species Occurrence</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hines</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>Elsevier Academic Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Effects of trapping and subsequent short-term confinement stress on plasma corticosterone in the brown treesnake (Boiga irregularis) on Guam</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mathies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Felix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Lance</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gen. Comp. Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="106" to="114" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Geographic range determinants of two commercially important marine molluscs</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mellin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Connell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Brook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Fordham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Divers. Distrib</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="133" to="146" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Menkhorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Knight</surname></persName>
+		</author>
+		<title level="m">A Field Guide to the Mammals of Australia</title>
+		<meeting><address><addrLine>Melbourne</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Estimating animal abundance using noninvasive DNA sampling: promise and pitfalls</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Citta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Lair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Tallmon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Appl</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="283" to="294" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Species identification using a small nuclear gene fragment: application to sympatric wild carnivores from south-western Europe</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Godinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Genet</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1023" to="1032" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Empirical perspectives on species borders: from traditional biogeography to global change</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Parmesan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gaines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gonzalez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="58" to="75" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A noninvasive method for distinguishing among canid species: amplification and enzyme restriction of DNA from dung</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Paxinos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mcintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ralls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fleischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="483" to="486" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Soberon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Pearson</surname></persName>
+		</author>
+		<title level="m">Ecological Niches and Geographical Distributions</title>
+		<meeting><address><addrLine>Princeton</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Estimating population size of endangered brushtailed rock-wallaby (Petrogale penicillata) colonies using faecal DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Banks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Banffy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="81" to="91" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Extensive evaluation of faecal preservation and DNA extraction methods in Australian native and introduced species</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aust. J. Zool</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="341" to="355" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Mixed-effects models in S and S-PLUS</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pinheiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bates</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Statistics and Computing</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Chambers</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">W</forename><surname>Eddy</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">W</forename><surname>Hardle</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Sheather</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">L</forename><surname>Tierney</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="page" from="3" to="414" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Analysis of microsatellite polymorphism in red deer, roe deer, and fallow deer: possible employment in forensic applications</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poetsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Seefeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maschke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lignitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Forensic Sci. Int</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Estimating mountain goat abundance using DNA from fecal pellets</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Poole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J.Wildl. Manag</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1527" to="1534" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">R: A Language and Environment for Statistical Computing</title>
+		<author>
+			<orgName type="collaboration">R Development Core Team</orgName>
+		</author>
+		<ptr target="http://www.R-project.org/" />
+	</analytic>
+	<monogr>
+		<title level="m">R foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013-01-07">2013. 7 Jan 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">A field test of surveyors&apos; influence on estimates in line transect sampling</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ringvall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Patil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Taillie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">For. Ecol. Manag</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="103" to="111" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Australia&apos;s savanna herbivores: bioclimatic distributions and an assessment of the potential impact of regional climate change</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Bolitho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Biochem. Zool</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="880" to="890" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Separating the influences of environment and species interactions on patterns of distribution and abundance: competition between large herbivores</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Fox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Anim. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="724" to="731" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Large-herbivore distribution and abundance: intra-and interspecific niche variation in the tropics</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Krockenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Garnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Monogr</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="105" to="122" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Predicting the fate of biodiversity using species&apos; distribution models: enhancing model comparability and repeatability</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rodríguez-Castañeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Hof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">44402</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">A non-invasive genetic method to identify the sympatric mustelids pine marten (Martes martes) and stone marten (Martes foina): preliminary distribution survey on the northern Iberian Peninsula</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruiz-Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rubines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Berdion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Gomez-Moliner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J.Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="253" to="261" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">The &apos;abundant centre&apos; distribution: to what extent is it a biogeographical rule?</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Sagarin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Gaines</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="137" to="147" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Moving beyond assumptions to understand abundance distributions across the ranges of species</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Sagarin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Gaines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gaylord</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="524" to="530" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">An evaluation of survey methods for monitoring swift fox abundance</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Schauster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Kitchen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Soc. Bull</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="464" to="477" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">An evaluation of field and noninvasive genetic methods to estimate brown bear (Ursus arctos) population size</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Solberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Drageset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Swenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="158" to="168" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">Techniques for monitoring the abundance of kangaroo and wallaby populations</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Southwell</surname></persName>
+		</author>
+		<editor>G. Grigg, P. Jarman &amp; I. Hume</editor>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<publisher>Surrey Beatty and Sons</publisher>
+			<biblScope unit="page" from="659" to="693" />
+			<pubPlace>Chipping Norton</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Abundance of large macropods in the eastern highlands of Australia</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Southwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Cairns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Delaney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Broers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Soc. Bull</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="125" to="132" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Assessing harvested populations of the euro (Macropus robustus erubescens) in the Barrier Ranges of western NSW</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Southwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sheppard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aust. Mammal</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="165" to="171" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Abundance of macropods in north-eastern New South Wales, and the logistics of broad-scale ground surveys</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Southwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Cairns</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="757" to="766" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Fire incidence, but not fire size, affects macropod densities</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Styger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Kirkpatrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O N</forename><surname>Marsden-Smedley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W J</forename><surname>Leonard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Austral. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="679" to="686" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">The effects of sampling bias and model complexity on the predictive performance of MaxEnt species distribution models</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Syfert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Coomes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">55158</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Scats can reveal the presence and habitat use of cryptic rock-dwelling macropods</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Telfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bowman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aust. J. Zool</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="325" to="334" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">The habitat requirements of four sympatric rock-dwelling macropods of the Australian monsoon tropics</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Telfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bowman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Austral. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1033" to="1044" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">BIOMOD -a platform for ensemble forecasting of species distributions</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Thuiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lafourcade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Engler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Araujo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecography</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="369" to="373" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">A multiplex assay to identify 18 European mammal species from mixtures using the mitochondrial cytochrome b gene</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Tobe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M T</forename><surname>Linacre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electrophoresis</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="340" to="347" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Rapid species identification of eight sympatric northern Australian macropods from faecal-pellet DNA</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Wadley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Austin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Fordham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="241" to="249" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Macropod habitat use and response to management interventions in an agriculturalforest mosaic in north-eastern Tasmania as inferred by scat surveys</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Wiggins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bowman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="103" to="113" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Carbon accounting, land management, science and policy uncertainty in Australian savanna landscapes: introduction and overview</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Duff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C Z</forename><surname>Woinarski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Farrer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aust. J. Bot</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="583" to="588" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">The disappearing mammal fauna of northern Australia: context, cause, and response</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C Z</forename><surname>Woinarski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Legge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Fitzsimons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Lett</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="192" to="201" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

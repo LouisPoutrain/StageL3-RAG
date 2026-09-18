@@ -1,0 +1,171 @@
+Traitement du fichier : /Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/RAG/StageL3-RAG/data/input/CONICET_Digital_Nro.14085.json
+Traitement du lot 1/3 (documents 1-10)
+Lot 1 indexé avec succès: 10 documents
+Traitement du lot 2/3 (documents 11-20)
+Lot 2 indexé avec succès: 10 documents
+Traitement du lot 3/3 (documents 21-21)
+Lot 3 indexé avec succès: 1 documents
+21/21 documents indexés depuis /Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/RAG/StageL3-RAG/data/input/CONICET_Digital_Nro.14085.json
+
+--- Méthode avec Refine ---
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-03-24T12:15:29.664506Z', 'message': {'role': 'assistant', 'content': "Dans cet article, nous avons utilisé des pièges photographiques pour collecter passivement des échantillons de poils d'ours noirs (Ursus americanus) dans le nord-est des États-Unis. Les pièges étaient équipés de caméras infrarouges qui déclenchaient automatiquement lorsqu'un animal passait devant, permettant ainsi de capturer des images haute résolution de chaque ours. Les poils étaient ensuite collectés sur les surfaces où les ours avaient été photographiés en utilisant des brosses en plastique stériles. Ce protocole est considéré comme non invasif selon la définition de Taberlet car il ne nécessite pas le contact direct avec l'animal et minimise ainsi le stress et les blessures potentielles."}, 'done': True, 'done_reason': 'stop', 'total_duration': 26925326334, 'load_duration': 3471323459, 'prompt_eval_count': 462, 'prompt_eval_duration': 607597208, 'eval_count': 153, 'eval_duration': 9208975334}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-03-24T12:15:51.085824Z', 'message': {'role': 'assistant', 'content': "Pour l'analyse génétique d'animaux sauvages, nous avons utilisé des protocoles d'échantillonnage non invasifs basés sur la collecte de fèces. Les échantillons ont été prélevés en utilisant des pièges à empreintes fabriqués à partir de plaques de plexiglas, placées dans les zones de fréquentations animales. Les pièges ont été vérifiés tous les jours et les échantillons prélevés étaient conservés dans des tubes de stockage à température ambiante jusqu'à leur Analyse génétique. Ce protocole a permis de minimiser le stress et la perturbation des animaux, tout en permettant une analyse génétique précise et non invasive selon la définition de Taberlet"}, 'done': True, 'done_reason': 'stop', 'total_duration': 21410587209, 'load_duration': 46637375, 'prompt_eval_count': 462, 'prompt_eval_duration': 601481875, 'eval_count': 143, 'eval_duration': 8322431465}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-03-24T12:16:15.065708Z', 'message': {'role': 'assistant', 'content': '"DNA sampling was conducted using non-invasive methods to minimize disturbance to the wild animal population. Fecal samples were collected from the ground in areas frequented by target species. This passive collection method allowed us to avoid direct contact with animals and reduce potential stress or injury. Sampling sites were checked daily for new fecal deposits, which were then collected using sterile gloves and placed in individual whirl-pack bags containing a silica desiccant to preserve DNA integrity. To ensure representativeness of the population, samples were collected from each site at least once every three days over a period of two months. Prior to sampling, ethical considerations were taken into account to minimize disturbance to animal behavior patterns and habitat."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 23968254333, 'load_duration': 52970417, 'prompt_eval_count': 462, 'prompt_eval_duration': 632392042, 'eval_count': 140, 'eval_duration': 8240672625}
+
+=== Documents hypothétiques générés ===
+
+Document hypothétique 1:
+--------------------------------------------------
+Dans cet article, nous avons utilisé des pièges photographiques pour collecter passivement des échantillons de poils d'ours noirs (Ursus americanus) dans le nord-est des États-Unis. Les pièges étaient équipés de caméras infrarouges qui déclenchaient automatiquement lorsqu'un animal passait devant, permettant ainsi de capturer des images haute résolution de chaque ours. Les poils étaient ensuite collectés sur les surfaces où les ours avaient été photographiés en utilisant des brosses en plastique stériles. Ce protocole est considéré comme non invasif selon la définition de Taberlet car il ne nécessite pas le contact direct avec l'animal et minimise ainsi le stress et les blessures potentielles.
+--------------------------------------------------
+
+Document hypothétique 2:
+--------------------------------------------------
+Pour l'analyse génétique d'animaux sauvages, nous avons utilisé des protocoles d'échantillonnage non invasifs basés sur la collecte de fèces. Les échantillons ont été prélevés en utilisant des pièges à empreintes fabriqués à partir de plaques de plexiglas, placées dans les zones de fréquentations animales. Les pièges ont été vérifiés tous les jours et les échantillons prélevés étaient conservés dans des tubes de stockage à température ambiante jusqu'à leur Analyse génétique. Ce protocole a permis de minimiser le stress et la perturbation des animaux, tout en permettant une analyse génétique précise et non invasive selon la définition de Taberlet
+--------------------------------------------------
+
+Document hypothétique 3:
+--------------------------------------------------
+"DNA sampling was conducted using non-invasive methods to minimize disturbance to the wild animal population. Fecal samples were collected from the ground in areas frequented by target species. This passive collection method allowed us to avoid direct contact with animals and reduce potential stress or injury. Sampling sites were checked daily for new fecal deposits, which were then collected using sterile gloves and placed in individual whirl-pack bags containing a silica desiccant to preserve DNA integrity. To ensure representativeness of the population, samples were collected from each site at least once every three days over a period of two months. Prior to sampling, ethical considerations were taken into account to minimize disturbance to animal behavior patterns and habitat."
+--------------------------------------------------
+
+=== Fin des documents hypothétiques ===
+
+
+=== Statistiques des scores de similarité ===
+Score minimum initial: 0.7627
+Score maximum initial: 0.8108
+Score moyen initial: 0.7820
+
+=== Statistiques après filtrage dynamique ===
+Seuil dynamique appliqué: 0.7859
+Score minimum conservé: 0.7845
+Score maximum conservé: 0.8108
+Score moyen conservé: 0.7935
+Nombre de documents conservés: 5
+Documents récupérés : 5
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-03-24T12:16:35.328355Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "We collected all scats that the dog indicated on",\n    "We swabbed the surface of the scat with a cotton-tipped applicator soaked in phosphate buffered saline solution"\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 19524106500, 'load_duration': 74705084, 'prompt_eval_count': 773, 'prompt_eval_duration': 2653437209, 'eval_count': 60, 'eval_duration': 3469363296}
+Chunk : We collected all scats that the dog indicated on as long as mould was not evident, which meant scat condition ranged from fresh with moist mucus layer to hard and dry. We georeferenced each scat location using a Global Positioning System unit (Garmin eTrex 1 ; Garmin, Schaffhausen, Switzerland) and recorded condition and approximate age (Prugh et al. 2005, Smith et al. 2006, Michalski et al. 2011), macroscopic evaluation of dietary components, and location relative to trail or road. Environmental factors such as rain, sun, and insects, can cause an inaccurate assessment of scat condition. Despite these factors, we made a best guess when classifying each scat as fresh ( 24 hr), moderately old (between 24 hr and 3 days), or old (>3 days). We swabbed the surface of the scat with a cotton-tipped applicator soaked in phosphate buffered saline solution in order to collect cells sloughed from the digestive tract of the animal (Ball et al. 2007, Rutledge et al. 2009). Each scat was swabbed in triplicate (2 for DNA extraction in United States and 1 for storage in Argentina). In order to maximize the quantity of DNA collected with each swab, when possible, we swabbed different locations on the scat with each replicate. We stored each swab dry in a 1.7 mL polypropylene tube, labeled, and secured it with parafilm. We collected each scat and stored it in a labeled, 18-oz Whirlpak 1 bag (Nasco, Fort Atkinson, WI) as a backup for DNA extraction and for future diet analyses. At the end of each field day, we preserved samples at À208C.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "We collected all scats that the dog indicated on",
+    "We swabbed the surface of the scat with a cotton-tipped applicator soaked in phosphate buffered saline solution"
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-03-24T12:16:45.547686Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": false\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 10205943625, 'load_duration': 49983500, 'prompt_eval_count': 565, 'prompt_eval_duration': 1192850666, 'eval_count': 12, 'eval_duration': 642370914}
+Chunk : The ability to revise and develop conservation strategies at both the species level and ecosystem level requires knowledge of a species' basic ecological requirements. The failure to detect the presence of a species with standard field techniques may result in the incorrect conclusion that a species does not occur there, when in reality the species may be actively avoiding the altered habitat, artificial structures, or animal trails typically associated with these methods. This study demonstrated that switching the focus from attracting the target species to a specific location to using detection dogs to locate evidence associated with the species' natural behavior and movement patterns is very effective with bush dogs. The ability to extend the use of detection dogs to locate noninvasive samples from other species, especially in human-occupied areas, allows for comparative studies on how niche overlap or separation differ in intact versus altered habitat so that comprehensive conservation strategies can be developed not only for apex predators but across the broader ecological community.
+Réponse du modèle : {
+"contient_protocole": false
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-03-24T12:16:56.37222Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "From May to August 2011, a detection-dog-handler team located 34 scats from bush dogs in the northern (n = 26) and central (n = 8) zones of Misiones, Argentina."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 10819384667, 'load_duration': 45530125, 'prompt_eval_count': 714, 'prompt_eval_duration': 2175201584, 'eval_count': 74, 'eval_duration': 4400155035}
+Chunk : The bush dog (Speothos venaticus), a small and rarely seen canid from Central and South America, has proven extremely challenging to locate and study in the wild, making the development of species-specific and comprehensive carnivore conservation strategies difficult. From May to August 2011, a detection-dog-handler team located 34 scats from bush dogs in the northern (n ¼ 26) and central (n ¼ 8) zones of Misiones, Argentina. We identified 22 unique genotypes (14 northern and 8 central) and assigned sex to 100% of the genotyped scats. Only half of the scats were located inside 7 protected areas (4 northern and 3 central); the remaining half were located in 4 sites outside of protected areas (3 northern and 1 central).Results suggest low but significant differentiation between zones for bush dogs (F ST ¼ 0.049, P ¼ 0.010). Bush dogs demonstrated high habitat-use flexibility and a close association with altered habitat; however, altered habitat may not be optimal for the species because of the potential for lower prey densities and risk of exposure to life threatening diseases by domestic dogs. The effectiveness of noninvasive techniques (detection dogs, genetic analyses of scat, Geographic Information System technology) in studying the ecology of bush dogs not only opens the door for additional studies of a species that has proven difficult to study with standard survey techniques, but also provides an alternative approach that conservationists can use independent of habitat type and presence of humans.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "From May to August 2011, a detection-dog-handler team located 34 scats from bush dogs in the northern (n = 26) and central (n = 8) zones of Misiones, Argentina."
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-03-24T12:17:10.470635Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "by using 2 noninvasive techniques-a detection dog and genetic analyses of scats"\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 14090593958, 'load_duration': 47184041, 'prompt_eval_count': 658, 'prompt_eval_duration': 1773979958, 'eval_count': 40, 'eval_duration': 2262556752}
+Chunk : By using 2 noninvasive techniques-a detection dog and genetic analyses of scats-we confirmed the presence of bush dogs of both sexes in the northern and central zones of Misiones, Argentina. This is the first time such a large-scale survey for the bush dog has been carried out using the combination of these 2 techniques. This small canid is notoriously difficult to study with standard survey techniques such as camera-traps having poor results and population estimates being based on tracks or opportunistic sightings (DeMatteo 2008, DeMatteo and Loiselle 2008, DeMatteo et al. 2011). Physically trapping the species has also proven Table 4. Summary of the 4 individual bush dogs identified twice with sex and location where the scats were found during 2011 field surveys in northern and central zones of Misiones, Argentina. For each individual, the mean distance between scat (km), calculated using ArcGIS 10.1, is noted (the SD is not reported because no individual was recorded > 2 times). If scat were found adjacent to each other the distance is equal to zero. Zuercher et al. 2003); however, these were limited to species identification in a single protected area in Paraguay.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "by using 2 noninvasive techniques-a detection dog and genetic analyses of scats"
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-03-24T12:17:24.629636Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "Detection dogs were used to locate scats",\n    "DNA extracted from the scats was used to confirm species and identify individuals"\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 14154617375, 'load_duration': 47992583, 'prompt_eval_count': 626, 'prompt_eval_duration': 1579826834, 'eval_count': 49, 'eval_duration': 2802220460}
+Chunk : d whether protection, habitat fragmentation, and land-use patterns affect these relationships (Di Bitetti et al. 2010). To date, information on the bush dog's ecological requirements has been missing. The objective of this study was to use noninvasive techniques to detect the presence of bush dogs so we could begin to gain insight into the vulnerability of this small, carnivorous, social canid and its role in intact, and fragmented Neotropical ecosystems. Detection dogs, which have proven to be effective at surveying wildlife species in a diverse array of habitat types (Smith et al. 2003;Wasser et al. 2004;Cablk and Heaton 2006;Long et al. 2007a, b;Vynne et al. 2011b), including the rough terrain and vegetation in Misiones (DeMatteo et al. 2009b), were used to locate scats. DNA extracted from the scats was used to confirm species and identify individuals. Genetic data were paired with Geographic Information System analyses to examine habitat preferences and estimate connectivity between protected areas.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "Detection dogs were used to locate scats",
+    "DNA extracted from the scats was used to confirm species and identify individuals"
+]
+}
+Protocoles détectés : 5
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-03-24T12:17:58.434198Z', 'message': {'role': 'assistant', 'content': '[\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "We collected all scats that the dog indicated on",\n      "We swabbed the surface of the scat with a cotton-tipped applicator soaked in phosphate buffered saline solution"\n    ]\n  },\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "Detection dogs were used to locate scats",\n      "DNA extracted from the scats was used to confirm species and identify individuals"\n    ]\n  }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 33800906958, 'load_duration': 47335875, 'prompt_eval_count': 693, 'prompt_eval_duration': 1773675667, 'eval_count': 120, 'eval_duration': 6913260532}
+Protocoles fusionnés : [
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "We collected all scats that the dog indicated on",
+      "We swabbed the surface of the scat with a cotton-tipped applicator soaked in phosphate buffered saline solution"
+    ]
+  },
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "Detection dogs were used to locate scats",
+      "DNA extracted from the scats was used to confirm species and identify individuals"
+    ]
+  }
+]
+Nombre de protocoles après fusion : 2
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-03-24T12:18:43.853571Z', 'message': {'role': 'assistant', 'content': '```json\n{\n"extrait_pertinent": ["We collected all scats that the dog indicated on", "We swabbed the surface of the scat with a cotton-tipped applicator soaked in phosphate buffered saline solution"],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces",\n"mots_cles_invasivite": ["all", "collected"],\n"mots_cles_non_invasivite": [],\n"evaluation_invasivite": "Invasif",\n"justification_invasivite": "La collecte de toutes les fèces indique une perturbation du comportement naturel et une modification de l\'habitat, ce qui remplit le critère d\'invasivité.",\n"signaux_alarme": ["all", "collected"],\n"impacts_potentiels": ["Stress pour l\'animal", "Modification du comportement naturel"],\n"peches_identifies": [1],\n"informations_manquantes": [],\n"taux_de_confiance": "95% - Les termes utilisés dans le protocole sont explicites et indiquent clairement une collecte invasive."\n}\n```'}, 'done': True, 'done_reason': 'stop', 'total_duration': 45408456583, 'load_duration': 47551875, 'prompt_eval_count': 2065, 'prompt_eval_duration': 2451137458, 'eval_count': 244, 'eval_duration': 14777906790}
+Analyse du protocole avec les extraits : We collected all scats that the dog indicated on
+We swabbed the surface of the scat with a cotton-tipped applicator soaked in phosphate buffered saline solution
+Réponse du modèle : ```json
+{
+"extrait_pertinent": ["We collected all scats that the dog indicated on", "We swabbed the surface of the scat with a cotton-tipped applicator soaked in phosphate buffered saline solution"],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces",
+"mots_cles_invasivite": ["all", "collected"],
+"mots_cles_non_invasivite": [],
+"evaluation_invasivite": "Invasif",
+"justification_invasivite": "La collecte de toutes les fèces indique une perturbation du comportement naturel et une modification de l'habitat, ce qui remplit le critère d'invasivité.",
+"signaux_alarme": ["all", "collected"],
+"impacts_potentiels": ["Stress pour l'animal", "Modification du comportement naturel"],
+"peches_identifies": [1],
+"informations_manquantes": [],
+"taux_de_confiance": "95% - Les termes utilisés dans le protocole sont explicites et indiquent clairement une collecte invasive."
+}
+```
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-03-24T12:19:23.370896Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["Detection dogs were used to locate scats"],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces",\n"mots_cles_invasivite": [],\n"mots_cles_non_invasivite": [],\n"evaluation_invasivite": "Invasif",\n"justification_invasivite": "L\'utilisation de chiens détecteurs pour localiser les fèces implique une manipulation indirecte de l\'environnement naturel des animaux, ce qui peut perturber leur comportement et leur habitat. Cela remplit le critère d\'invasivité \'Perturbation significative de l\'habitat\'.",\n"signaux_alarme": ["dogs"],\n"impacts_potentiels": ["Déplacement ou perturbation des animaux", "Altération du marquage territorial"],\n"peches_identifies": [],\n"informations_manquantes": ["Il n\'y a pas d\'informations sur la fréquence et l\'intensité de l\'échantillonnage"],\n"taux_de_confiance": "80% - L\'utilisation de chiens détecteurs est explicitement mentionnée, mais il manque des informations sur la fréquence et l\'intensité de l\'échantillonnage."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 39504924792, 'load_duration': 47286958, 'prompt_eval_count': 2054, 'prompt_eval_duration': 2266564667, 'eval_count': 263, 'eval_duration': 15864245210}
+Analyse du protocole avec les extraits : Detection dogs were used to locate scats
+DNA extracted from the scats was used to confirm species and identify individuals
+Réponse du modèle : {
+"extrait_pertinent": ["Detection dogs were used to locate scats"],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces",
+"mots_cles_invasivite": [],
+"mots_cles_non_invasivite": [],
+"evaluation_invasivite": "Invasif",
+"justification_invasivite": "L'utilisation de chiens détecteurs pour localiser les fèces implique une manipulation indirecte de l'environnement naturel des animaux, ce qui peut perturber leur comportement et leur habitat. Cela remplit le critère d'invasivité 'Perturbation significative de l'habitat'.",
+"signaux_alarme": ["dogs"],
+"impacts_potentiels": ["Déplacement ou perturbation des animaux", "Altération du marquage territorial"],
+"peches_identifies": [],
+"informations_manquantes": ["Il n'y a pas d'informations sur la fréquence et l'intensité de l'échantillonnage"],
+"taux_de_confiance": "80% - L'utilisation de chiens détecteurs est explicitement mentionnée, mais il manque des informations sur la fréquence et l'intensité de l'échantillonnage."
+}
+Analyses générées : 2
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-03-24T12:20:11.151407Z', 'message': {'role': 'assistant', 'content': '[\n    {\n        "protocole": "Collecte de fèces avec chiens détecteurs",\n        "extrait_pertinent": ["We collected all scats that the dog indicated on", "Detection dogs were used to locate scats"],\n        "taxon_identifie": "Mammifère",\n        "echantillon": "Fèces",\n        "mots_cles_invasivite": ["all", "collected", "dogs"],\n        "mots_cles_non_invasivite": [],\n        "evaluation_invasivite": "Invasif",\n        "justification_invasivite": "La collecte de toutes les fèces et l\'utilisation de chiens détecteurs pour localiser les fèces indique une perturbation du comportement naturel et une modification de l\'habitat, ce qui remplit le critère d\'invasivité.",\n        "signaux_alarme": ["all", "collected", "dogs"],\n        "impacts_potentiels": ["Stress pour l\'animal", "Modification du comportement naturel", "Déplacement ou perturbation des animaux", "Altération du marquage territorial"],\n        "peches_identifies": [1],\n        "informations_manquantes": ["Il n\'y a pas d\'informations sur la fréquence et l\'intensité de l\'échantillonnage"],\n        "taux_de_confiance": "90% - Les termes utilisés dans le protocole sont explicites et indiquent clairement une collecte invasive, mais il manque des informations sur la fréquence et l\'intensité de l\'échantillonnage."\n    }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 47765239250, 'load_duration': 46734000, 'prompt_eval_count': 1515, 'prompt_eval_duration': 9273349167, 'eval_count': 336, 'eval_duration': 19835559916}
+Réponse finale : [
+    {
+        "protocole": "Collecte de fèces avec chiens détecteurs",
+        "extrait_pertinent": ["We collected all scats that the dog indicated on", "Detection dogs were used to locate scats"],
+        "taxon_identifie": "Mammifère",
+        "echantillon": "Fèces",
+        "mots_cles_invasivite": ["all", "collected", "dogs"],
+        "mots_cles_non_invasivite": [],
+        "evaluation_invasivite": "Invasif",
+        "justification_invasivite": "La collecte de toutes les fèces et l'utilisation de chiens détecteurs pour localiser les fèces indique une perturbation du comportement naturel et une modification de l'habitat, ce qui remplit le critère d'invasivité.",
+        "signaux_alarme": ["all", "collected", "dogs"],
+        "impacts_potentiels": ["Stress pour l'animal", "Modification du comportement naturel", "Déplacement ou perturbation des animaux", "Altération du marquage territorial"],
+        "peches_identifies": [1],
+        "informations_manquantes": ["Il n'y a pas d'informations sur la fréquence et l'intensité de l'échantillonnage"],
+        "taux_de_confiance": "90% - Les termes utilisés dans le protocole sont explicites et indiquent clairement une collecte invasive, mais il manque des informations sur la fréquence et l'intensité de l'échantillonnage."
+    }
+]
+
+--- Méthode avec Refine et detect_non_invasive_level ---
+Erreur lors de l'indexation du fichier /Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/RAG/StageL3-RAG/data/output_invasive_detection/CONICET_Digital_Nro.14085.json:
+Traceback (most recent call last):
+  File "/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/RAG/StageL3-RAG/src/rag/../rag/rag_system.py", line 243, in index_from_json
+    with open(json_path, "r", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/RAG/StageL3-RAG/data/output_invasive_detection/CONICET_Digital_Nro.14085.json'
+
+Erreur lors de l'analyse du niveau non invasif pour le protocole Collecte de fèces avec chiens détecteurs: [Errno 2] No such file or directory: '/Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/RAG/StageL3-RAG/data/output_invasive_detection/CONICET_Digital_Nro.14085.json'
+--------------------------------
+
+Traitement terminé avec succès pour le fichier : /Users/poutrainlouis/Library/CloudStorage/GoogleDrive-louispoutrain337@gmail.com/Mon Drive/Code/RAG/StageL3-RAG/data/input/CONICET_Digital_Nro.14085.json

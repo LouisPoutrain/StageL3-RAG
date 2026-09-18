@@ -1,0 +1,1849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Polar bear use of a persistent food subsidy: Insights from non-invasive genetic sampling in Alaska</title>
+				<funder>
+					<orgName type="full">Changing Arctic Ecosystems initiative of the USGS, Ecosystems Mission Area</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NSBDWM</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">North Slope Borough Department of Wildlife Management</orgName>
+					<orgName type="abbreviated">NSBDWM</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Bureau of Ocean and Energy Management</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jason</forename><surname>Herreman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Wildlife Management</orgName>
+								<orgName type="institution">North Slope Borough</orgName>
+								<address>
+									<postBox>P.O. Box 69</postBox>
+									<postCode>99723</postCode>
+									<settlement>Barrow</settlement>
+									<region>AK</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elizabeth</forename><surname>Peacock</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">US Geological Survey</orgName>
+								<orgName type="institution" key="instit2">Alaska Science Center</orgName>
+								<address>
+									<addrLine>4210 University Drive</addrLine>
+									<postCode>99508</postCode>
+									<settlement>Anchorage</settlement>
+									<region>AK</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Polar bear use of a persistent food subsidy: Insights from non-invasive genetic sampling in Alaska</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">29BAA1B09DAE34A66BEB137A5EC7C042</idno>
+					<note type="submission">Received: 30 August 2012 Accepted: 15 August 2013</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-27T13:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Arctic</term>
+					<term>Balaena mysticetus</term>
+					<term>Beaufort Sea</term>
+					<term>bowhead whale</term>
+					<term>capture-recapture</term>
+					<term>genetic tagging</term>
+					<term>non-invasive</term>
+					<term>population estimation</term>
+					<term>subsidy</term>
+					<term>Ursus maritimus</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Remains of bowhead whales (Balaena mysticetus) harvested by In ˜upiat whalers are deposited in bone piles along the coast of Alaska and have become persistent and reliable food sources for polar bears (Ursus maritimus). The importance of bone piles to individuals and the population, the patterns of use, and the number, sex, and age of bears using these resources are poorly understood. We implemented barbed-wire hair snaring to obtain genetic identities from bears using the Point Barrow bone pile in winter 2010-11. Eighty-three percent of genotyped samples produced individual and sex identification. We identified 97 bears from 200 samples. Using genetic mark-recapture techniques, we estimated that 228 bears used the bone pile during November to February, which would represent approximately 15% of the Southern Beaufort Sea polar bear subpopulation, if all bears were from this subpopulation. We found that polar bears of all age and sex classes simultaneously used the bone pile. More males than females used the bone pile, and males predominated in February, likely because 1/3 of adult females would be denning during this period. On average, bears spent 10 days at the bone pile (median 5 5 days); the probability that an individual bear remained at the bone pile from week to week was 63% for females and 45% for males. Most bears in the sample were detected visiting the bone pile once or twice. We found some evidence of matrilineal fidelity to the bone pile, but the group of animals visiting the bone pile did not differ genetically from the Southern Beaufort Sea subpopulation, nor did patterns of relatedness. We demonstrate that bowhead whale bone piles may be an influential food subsidy for polar bears in the Barrow region in autumn and winter for all sex and age classes.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Polar bears (Ursus maritimus) in Alaska range in the Chukchi and southern Beaufort seas. The size and conservation status of the Chukchi Sea (CS) subpopulation, shared with the Russian Federation, is currently unknown <ref type="bibr" target="#b31">(Obbard et al. 2010)</ref>. The Southern Beaufort Sea (SB) subpopulation, shared with Canada, was estimated to be approximately 1,500 bears circa 2006 <ref type="bibr" target="#b41">(Regehr et al. 2006</ref>); estimated survival rates at that time were associated with decreasing autumn sea ice extent, and were consistent with a declining population size <ref type="bibr" target="#b24">(Hunter et al. 2010)</ref>. The SB and CS subpopulations overlap at Barrow, Alaska <ref type="bibr">(Amstrup et al. 2004</ref>) and are not genetically distinct (E. <ref type="bibr">Peacock et al. 2013, unpub-lished report)</ref>. The major prey species of polar bears from both subpopulations is the ringed seal (Pusa hispida) and bearded seal (Erignathus barbatus). In the CS, polar bears also forage on walrus (Odobenus rosmarus divergens) and beluga whale (Delphinapterus leucas; <ref type="bibr" target="#b8">Bentzen et al. 2007</ref><ref type="bibr">, Rode et al. 2013</ref>). Polar bears are not known to prey on bowhead whales (Balaena mysticetus), and therefore their presence in polar bear diets is likely a result of scavenging on beach-cast carcasses and at bone piles created from whales harvested in subsistence hunts <ref type="bibr" target="#b8">(Bentzen et al. 2007)</ref>.</p><p>In ˜upiat communities of coastal Alaska have hunted bowhead whales since before written records <ref type="bibr" target="#b47">(Stoker and</ref><ref type="bibr">Krupnik 1993, Ashjian et al. 2010)</ref>. Traditionally, most hunting occurred in spring, and remains from the whales were left on the ice to sink into the ocean. Since the 1990s, harvesting of bowhead whales has increased during autumn, when ice has retreated from shore, as whales have become more available at this time of year. In addition, deteriorating ice conditions have reduced spring whaling (H. Brower, T. Hepa, C. George, North Slope Borough Department of Wildlife Management [NSB], Barrow, Alaska, USA, personal communications, 2011; <ref type="bibr" target="#b6">Ashjian et al. 2010)</ref>. In total, more whales are now harvested because the quota was increased to meet the subsistence needs of In ˜upiat communities; this harvest increase was supported by an increase in estimated abundance of the bowhead whale population <ref type="bibr" target="#b20">(George et al. 2004</ref>). As a result, bowhead whale remains from autumn hunts are now left on-shore in greater numbers in localized bone piles, which attract polar bears and other wildlife. These bone piles now constitute reliable and persistent food resources for polar bears at 3 sites: Barrow, Cross Island, and the community of Kaktovik (Fig. <ref type="figure" target="#fig_0">1</ref>); on average, 18 whales are deposited each autumn among these sites <ref type="bibr">(Bacon et al. 2010, NSB, Barrow, Alaska, USA, unpublished data)</ref>. Bone piles may consist of trimmed blubber, remnant meat, bones, and other animal carcasses including birds, caribou (Rangifer tarandus), and fish.</p><p>At Barrow and Kaktovik, these food subsidies occur close to villages, creating the potential for human-bear conflict <ref type="bibr" target="#b30">(Miller et al. 2006</ref>). Moreover, polar bears have become more common on land in the autumn since the 1990s (H. Brower, C. <ref type="bibr">George, personal communications, 2011</ref>; US Geological Survey [USGS], Anchorage, Alaska, USA, unpublished data), which may be due to the extent, duration, and rapidity of retreating sea ice <ref type="bibr" target="#b45">(Schliebe et al. 2008)</ref>, later freeze-up, the presence of this food subsidy, or a combination of these factors. Concom- itantly, declines in body condition, population size, and survival of polar bears in the SB subpopulation between the 1980s and mid-2000s have been linked to a reduction in optimal sea ice habitat <ref type="bibr" target="#b15">(Durner et al. 2009</ref><ref type="bibr">, Hunter et al. 2010</ref><ref type="bibr">, Regehr et al. 2010</ref><ref type="bibr" target="#b43">, Rode et al. 2010</ref>). As such, the persistent, novel, and substantial <ref type="bibr" target="#b8">(Bentzen et al. 2007</ref>) food subsidy of bowhead whale carcasses has the potential to influence individual behavior, foraging ecology, and population dynamics.</p><p>Numerous polar bears gather at these bone piles, allowing for observational studies of general patterns of use <ref type="bibr" target="#b30">(Miller et al. 2006</ref>). Aerial surveys <ref type="bibr" target="#b45">(Schliebe et al. 2008)</ref> can produce an estimate of the number of bears at these sites, and satellite telemetry can provide perspective on how bone piles influence movements of some individuals <ref type="bibr" target="#b18">(Fischbach et al. 2007)</ref>. However, such methods cannot provide accurate and precise estimates of the number of polar bears using the bone piles.</p><p>Understanding how these bone piles may affect population dynamics requires studies involving individually-marked animals. Physical capture or biopsy darting of bears at bone piles can be difficult due to the high number of bears in the vicinity and the location of bone piles on small spits of land or islands. Further, the number of bears that researchers could sample and identify would be small relative to the number of animals using the bone piles, rendering capturerecapture estimates imprecise. Finally, aboriginal communities, which are key partners for polar bear conservation and management across the circumpolar Arctic, often do not support such methods for polar bear research <ref type="bibr" target="#b38">(Peacock et al. 2011)</ref>. Therefore, our underlying objective was to refine the less-invasive hair sampling technique <ref type="bibr" target="#b55">(Woods et al. 1999)</ref> for use in polar bear research at high-density sites.</p><p>We chose the bone pile at Barrow as a test case for non-invasive sampling to estimate the abundance of polar bears because of its accessibility. Previous attempts to collect samples from polar bears using hair snares have not produced enough recaptures to provide more than a minimum number of bears known alive, partly due to design of the snare and poor research access <ref type="bibr" target="#b51">(Van Coeverden De Groot et al. 2012)</ref>. Thus, we thought it appropriate to conduct our study in a location that researchers could easily access. Our primary objective in describing the bears accessing the bone piles was to use genetic capturerecapture to estimate the number of bears that used the bone pile over the 3 months following the autumn bowhead harvest (Nov-Feb). Our second objective was to characterize the demographics and temporal dynamics (frequency of visits and fidelity to the bone pile) of the bears using the resource. Finally, we examined how the group of polar bears using the bone pile compared demographically and genetically to the Southern Beaufort Sea subpopulation at large.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Field methods</head><p>Our study occurred at Point Barrow, a 7-km long gravel spit that marks the boundary between the Chukchi and Beaufort seas (Fig. <ref type="figure" target="#fig_0">1</ref>). It is located 16 km north of Barrow, Alaska, and is the northernmost tip of the United States. Polar bears from both the CS and SB use the area <ref type="bibr">(Amstrup et al. 2004</ref>). Our study was conducted from 6 November 2010 to 14 February 2011; ice reformed around the study area in early December 2010 (J.H., personal observation). Daily average temperatures during the study ranged from -27uC to -14uC with an average of -19uC (maximum, 0.5u C; minimum -43u C; <ref type="url" target="http://www.arh.noaa.gov/">http://www.arh.noaa.gov/</ref> clim/). Eight bowhead whale carcasses were deposited from 10-25 October 2010 <ref type="bibr" target="#b48">(Suydam et al. 2010)</ref>. The length of these harvested whales averaged 9.8 m, which is equivalent to approximately 3-4 tonnes of viscera and blubber per whale <ref type="bibr">(George 2009)</ref>.</p><p>We erected a barbed wire hair corral (Fig. <ref type="figure" target="#fig_1">2</ref>) consisting of a single continuous strand of 4-point, 12-gauge barbed wire around the bone pile. We spaced metal t-posts approximately 10 m apart and pounded them into the gravel to a minimum depth of 40 cm. We used either bailing wire or fence clips to initially attach barbed wire to posts at a height of 0.5 m, and then adjusted the height to 0.65 m after 2 days of observation to ensure bears contacted the barbed wire and left a hair sample. We alternately attached the wire to the inside and outside of the t-posts to provide greater strength. The corral required continual maintenance because of snow drift, melt, and damage caused by bears. Therefore, we added fence posts, shoveled drifts, and adjusted snare height as necessary.</p><p>We checked the fence daily for the first 4 days of sampling and monitored polar bear use by remote cameras (Reconyx Inc., Holmen, Wisconsin, USA). After the first 4 days, we checked the snare at least weekly to ensure integrity of the wire. We collected samples by plucking hairs from a single barb and placing them in a paper coin envelope (each envelope/barb represented one sample). In general, samples from a single barb ranged from a few hairs to a small clump. If a single barb had large quantities of hair, we did not collect it as a sample, since it could have been from more than one bear. A priori, we decided to collect only 1 sample within a 0.75 m section of fence, or approximately six barbs, to avoid collecting multiple samples from a single crossing event. All un-sampled hairs were cleaned from the fence at each visit via plucking or burning with a propane or MAPP TM gas torch. We air-dried samples and stored them at room temperature until DNA extraction.</p><p>We divided the sample collection period into eleven 1-week consecutive encounter occasions, with an exception of 4 weeks between the 8 th and 9 th encounter occasion when we were unable to collect samples due lack of personnel. Because of funding limitations, we sought to analyze approximately 20 samples for each occasion. Therefore, we randomly selected approximately 20 samples deemed to be high quality (at least 10 guard hairs with follicles). We excluded samples that did not include sufficient hairs to divide for subsequent stable-isotope and contaminants analysis, thus in some cases 20 samples per occasion was not attained. We submitted a total of 200 of the 407 samples collected for DNA analysis (Table <ref type="table" target="#tab_0">1</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Laboratory methods</head><p>Hair samples were genotyped at 20 microsatellite loci by Wildlife Genetics International (Nelson, British Columbia, Canada). DNA was extracted using a Qiagen DNeasy kit (QIAGEN Inc., Valencia, California, USA) from a minimum of 10 guard hair roots to ensure sufficient quantities of DNA to minimize genotyping errors associated with low quantities of DNA <ref type="bibr" target="#b22">(Goossens et al. 1998)</ref>. When the sample was underfur, the entire clump was used in the extraction to maximize DNA quantity and quality. Initially, DNA extracts were amplified at 11 hypervariable microsatellite markers to identify individuals: G1A, G10B, G10C, CX110, G1D, G10L, G10M, MU59, G10P <ref type="bibr" target="#b34">(Paetkau and Strobeck 1994</ref><ref type="bibr" target="#b49">, Taberlet et al. 1997</ref><ref type="bibr" target="#b39">, Proctor et al. 2002)</ref>; and G10H and G10J (GenBank accession numbers U22086.1 and U22087.1, respectively). Samples that were amplified at ,11 loci were considered unsuccessful. After individuals were identified, one sample representing each individual was amplified at 9 additional microsatellite loci to enable co-ancestry analyses: MSUT-2, C9H9, CXX20, MU50, MU51, G10X, CXX173 <ref type="bibr" target="#b32">(Ostrander et al. 1993</ref><ref type="bibr">, Paetkau et al. 1995</ref><ref type="bibr" target="#b49">, Taberlet et al. 1997</ref><ref type="bibr" target="#b26">, Kitahara et al. 2000</ref><ref type="bibr" target="#b39">, Proctor et al. 2002</ref><ref type="bibr">, An et al. 2010)</ref>; and 14RENP07 and G10U (Gen Bank accession numbers AJ411284, and U22092.1, respectively). As a form of quality control, the resulting dataset was analyzed for pairs of multi-locus genotypes that differed at 1 and 2 markers (i.e., 1-and 2-mismatch pairs) to examine potential problems associated with allelic drop out <ref type="bibr">(Paetkau 2003)</ref>. These pairs of genotypes were scrutinized for allele size coding errors; if no errors were detected, samples were re-amplified at the specific markers to ensure correct genotype assignment. One of each sample representing each individually-identified bear was amplified at the amelogenin locus <ref type="bibr" target="#b16">(Ennis and Gallagher 1994)</ref> to identify sex. Probability of identity for siblings (P ID (sibs)) was calculated using the program GIMLET (Valie ´re 2002).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Individual, sex, and family patterns of use</head><p>We tested whether the sex ratio of polar bears that visited the bone pile differed from 1:1 using a chi-square test at a 5 0.05. We sorted and matched the genotypes collected from the bone pile with genotypes of polar bears captured in the spring in the CS between 2008-2011 (n 5 185; US Fish and Wildlife Service [USFWS], Anchorage, Alaska, USA, unpublished data) and in US portion of the SB between 1981-2011 (n 51,151; USGS, unpublished data) or biopsied on the North Slope of Alaska during autumn 2010-2011 (n 5 160; <ref type="bibr" target="#b37">Pagano et al. 2013)</ref> to acquire ancillary data on individuallyidentified bears including: (1) age, (2) identities of known offspring, (3) identity of mother, (4) identity of grandmother, and (5) identities of animals the bear had been associated with in the breeding season. We specifically sought to identify matrilines to address the lay assumption that the polar bears 'learn' to feed at the bone pile from their mothers and subsequently return as adults. Secondly, we examined the 2010 capture (from both subpopulations) and biopsy (from SB) data to predict whether an identified bear was likely to be visiting the bone pile with a family member (mother, offspring, or sibling). This latter examination was intended to identify family groups from the bone pile genetic data (related bears that are currently in family groups). Finally, we used a sample of polar bears (n 5 75) from the SB subpopulation that were captured on the spring sea ice in 2010 to compare sex and age class structure of the SB subpopulation at large to the group of bears identified at the bone pile. Polar bears in SB primarily occupy a small area of nearshore continental shelf sea ice during the spring, and all sex and age groups are targeted in the capture effort. Therefore, we assume the SB capture sample represents the subpopulation at large <ref type="bibr" target="#b0">(Amstrup et al. 1986</ref><ref type="bibr">, Regehr et al. 2010)</ref> and is representative of  <ref type="table" target="#tab_3">24(2):148-163 (2013)</ref> a true demographic population of polar bears. In contrast, the capture sample in the CS subpopulation likely does not reflect the CS subpopulation at large because most bears in the subpopulation are not available for capture in the study area, and not all demographic groups are well represented (USFWS, unpublished data). Thus, we could only compare the demography of our sample of bone pile bears to the demographic groups of the SB subpopulation.</p><p>To further characterize the extent of family use of the bone pile, we examined the multi-locus genotypes from all pairs of individually-identified polar bears for relatedness using the program Coancestry (Version 1.0; Wang 2011). We used the Queller-Goodnight relatedness estimator (r, <ref type="bibr" target="#b40">Queller and Goodnight 1989)</ref> to note presence of sibling-sibling or parent-offspring pairs in the dataset (r . 0.46).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genetic characterization</head><p>To further evaluate whether polar bears at the bone pile constitute a group of more related individuals (due to cultural learning) than individuals in a demographically representative subpopulation at large (the SB 2010 capture sample), we compared patterns of relatedness within these groups of bears (we did not compare to relatedness of CS sample because the CS sample does not represent a demographic subpopulation). We tested for a difference of Queller-Goodnight r metrics of all pairwise dyads between the bone pile and springtime capture groups using the bootstrapping method described in <ref type="bibr" target="#b53">Wang (2011)</ref>. We also assessed genetic differentiation between the bone pile group and the SB subpopulation using F ST with Arlequin version 3.11 <ref type="bibr" target="#b17">(Excoffier et al. 2005)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Capture-recapture analysis</head><p>We created individual capture histories for each polar bear identified in the sample set. We used the open-population model POPAN <ref type="bibr" target="#b46">(Schwarz and Arnason 1996)</ref> to estimate the total number of bears using the bone pile. Because bears that use the bone pile do not constitute a closed demographic population, the POPAN model assumes these bears represent a portion of a larger superpopulation <ref type="bibr" target="#b25">(Kendall 1999)</ref>. Using the POPAN model, we estimated apparent survival (Q), capture probability ( p), and the probability of entry ( p ent : probability that an animal from the superpopulation comes to the study area during the sampling interval). The apparent survival parameter (Q) can be interpreted as the fidelity of a polar bear to the bone pile from one sampling occasion to the next (one minus the probability of permanently leaving the bone pile). The probability of permanently leaving the bone pile would be much higher than the likelihood that a polar bear would actually die from week to week over the course of 3 months. We allowed p, p ent , Q, and N to vary over sampling occasion (time), because the freshness and amount of whale meat and blubber and sea-ice conditions changed during the study. We also ran models with sex as a co-variate. Because we could not differentiate age class for all bears from the hair samples, we pooled all bears with respect to age. Finally, we ran models time constant [signified by (.)]. Because there was a 4-week break of sampling between the 8 th and 9 th sampling occasions, we used unequal time interval in all models. All parameter combinations resulted in 54 a priori models. We implemented the POPAN model in Program MARK <ref type="bibr" target="#b54">(White and Burnham 1999</ref>) using the RMark interface <ref type="bibr" target="#b28">(Laake and Rexstad 2007)</ref>. We used U-CARE Version 2.2 <ref type="bibr" target="#b12">(Choquet et al. 2005)</ref> to examine fit of the models to the data due to potential overdispersion as a result of unequal and inter-dependent capture probabilities.</p><p>We assessed differences in model fit to the data using Akaike's Information Criterion for small sample sizes (AICc; <ref type="bibr" target="#b11">Burnham and Anderson 2002;</ref><ref type="bibr" target="#b4">Arnold 2010</ref>). We model-averaged parameters from the models that constituted 95% of the weight of the model set.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Individual, sex, and family patterns</head><p>Of the 200 hair samples submitted for analysis, 165 samples were successfully genotyped at a number of loci (11) sufficient to provide individual identity, representing a genotyping success rate of 82.5% (Table <ref type="table" target="#tab_0">1</ref>). From the 165 samples, we identified 97 individuals in the quality-controlled data set. Overall probability of identity for siblings (P ID (sibs)) was 3.74 x 10 28 (see Table <ref type="table" target="#tab_1">2</ref> for per locus P ID (sibs)), thus we are confident in our ability to distinguish individuals. Through comparison with all other datasets (i.e., all existing SB and CS genotypes from capture and biopsy efforts), 37 of these individuals (38%) had been previously caught in SB and therefore had age information (USGS, unpub-NON-INVASIVE GENETIC SAMPLING OF POLAR BEARS N Herreman and Peacock 153</p><p>Ursus 24(2):148-163 (2013) lished data). We identified no individuals that were previously captured by research efforts in the CS (USFWS, unpublished data). The distribution of these 37 known bears among age classes was 34 adults, 1 subadult (age 4), one cub-of-the-year, and one yearling. The average age of known independent bears (subadults and adults) sampled at the bone pile was 13.6 years (SD 5 4.4); the average age of independent bears in the SB subpopulation was 10.4 (SD 5 4.2). The ratio of females (39) to males (58) of the 97 identified animals at the bone pile was 0.67:1 (x 2 1 5 3.72, P 5 0.054). Individual female polar bears visited the bone pile less during the latter part (Jan and Feb) of the study (Fig. <ref type="figure" target="#fig_2">3</ref>). In our sample of known animals (n 5 37), adult females without dependent young (n 5 3) were only caught once at the bone pile, whereas known mothers (n 5 5) were caught over an average span of 19.4 days (SE 5 15).</p><p>Of the 97 individually-identified bears, most were detected at the bone pile once (n 5 54, 55%; detections include multiple detections per day) or on one day (n 5 72, 74%). Twenty-seven (28%) and 23 (24%) bears were detected twice or on 2 separate days, respectively (Fig. <ref type="figure" target="#fig_2">3,</ref><ref type="figure" target="#fig_3">4</ref>), 15 bears were detected 3-5 times, and 1 bear was detected 8 times. Of the bears visiting the bone pile more than once, the average duration that a bear used the bone pile was 9.6 days (SD 5 15.8). The duration that individual polar bears were detected at the bone pile is from first to last detection, but does not imply continuous use of the bone pile.</p><p>Combining inferences from co-ancestry results and previously-known bears (Appendix), 21 members of 12 family groups, including 6 likely family groups with dependent young, were encountered at the bone pile. This represents 22% of the individually-identified polar bears at the bone pile. As an additional source of corroboration that family groups used the bone pile during our study, we obtained photos of mothers with 2 yearlings on 7 separate days, and one family group with 2 cubs (Fig. <ref type="figure" target="#fig_1">2d</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Population modeling</head><p>Of the 54 a priori models, we used the top 16 models in which all parameters were estimated, and which constituted 95% of the model weight, for model averaging (Table <ref type="table">3</ref>). The top model Q(sex)p(sex)p ent (sex)N(.) comprised 32% of the weight and demonstrated that there were differences in capture probability ( p), weekly fidelity (the probability that a bear remains at the bone pile from week to week; Q), and probability of arrival ( p ent ) to the bone pile between males and females. However, this model also suggested that similar numbers of females and males visited the bone pile. In contrast, the next-best performing model [Q(sex)p(.)p ent (sex)N(sex)] (DAICc 5 1.93, weight 5 12%), suggested capture probability was the same for males and females, but the number of males and females visiting the bone pile differed (Fig. <ref type="figure" target="#fig_4">5</ref>). Both models have equal number of parameters, and thus the difference in AICc is fully a result of a better fit to the data of the top model (solely the result of a change in likelihood; Arnold 2010). Although we did not detect variation over time for any parameter, the temporal sex-specific abundance estimates produced by the second model represent the approximate numbers of bears using the bone pile during any given week.</p><p>The model-averaged sex-specific weekly estimates of fidelity to the bone pile (probability of being sampled at the bone pile from week to week) was 0.63 (SE 5 0.12) for females and 0.45 (SE 5 0.15) for males (Table <ref type="table" target="#tab_3">4</ref>). The signal-to-noise ratio (b/SE) of the sex-effect was 2.26, suggesting that sex is an important variable describing fidelity to the bone pile. The probability of a new female or male bear arriving at the bone pile in a given week was 0.07 (SE 5 0.01) and 0.09 (SE 5 0.004), respectively. Table <ref type="table">3</ref>. Model selection results for models constituting 95% of the model weight of all examined POPAN modelsfor capture-recapture data for polar bears visiting the bowhead whale bone pile at Point Barrow, Alaska, USA, between 6 November 2010 and 14 February 2011. In model names, (sex) is the grouping factor for males and females and (.) is a model where the parameter does not vary by sex. Parameter estimates: apparent survival (Q), which is interpreted as weekly fidelity to the bone pile; recapture (p) probability, the probability of entry (p ent ) or weekly arrival at the bone pile; and N, the superpopulation abundance. Estimates of parameters presented in this paper are model-averaged over all models in this table. Recapture rates (p) were 0.23 (SE 5 0.10) for females and 0.34 (SE 5 0.13) for males. The model-averaged superpopulation estimate for the study period was 228 (SE 5 44; Table <ref type="table">3</ref>). We found good fit of the data to the models using 2 groups for males and females (x 2 5 1.64, 1 df, P 5 0.99), and no evidence of trap-dependence (P 5 0.71) or transience (P 5 0.5). This suggests that over-dispersion caused by inter-dependent capture probabilities of members of family groups was minimal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genetic relatedness and diversity</head><p>The group of identified polar bears visiting the hair snare (n 5 97) did not differ genetically from the 2010 sample of animals captured in the SB (n 5 75; pair-wise F ST 5 0.001, P 5 0.149). Genetic diversity statistics were similar for both groups (Table <ref type="table" target="#tab_0">1</ref>). The distributions of Queller-Goodnight relatedness metric (r) between pairs for the groups showed little variation. The proportion of individuals related at r . 0.25 was similar; 3.0% and 3.4% percent of dyads from hair snare and capture sample respectively (x 2 , 0.001, 1 df, P 5 0.976).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Through incorporation of detection probability, we estimated that 228 polar bears used a bowhead whale bone pile on the north coast of Alaska during the 3 month study in winter 2010-11. If all bears were from SB (see discussion below regarding CS), this represents approximately 15% of this subpopulation, which was estimated at 1,526 animals in 2006 <ref type="bibr" target="#b41">(Regehr et al. 2006)</ref>. Data suggest that this subpopulation is declining <ref type="bibr" target="#b24">(Hunter et al. 2010</ref>; USGS, unpublished data), and thus the percent of bears using the bone pile from the SB subpopulation may be higher. Given that additional bone piles are present at Cross Island and Kaktovik, which have relatively higher concentrations of bears <ref type="bibr" target="#b45">(Schliebe et al. 2008)</ref>, and that polar bears use the bone piles throughout the year (even when ice returns; NSB and USGS, unpublished data), it is likely that a large proportion of the SB subpopulation uses these bone piles. Most bears visited only one or two times, but some made many visits, suggesting variation in the importance of the bone pile as a food source for polar bears.</p><p>The abundance estimates may be biased low, as our design violated the capture-recapture assumption that all individuals have equal capture probability because recapture probabilities of members of a family group (a mother with dependent young) are interdependent. Although we were able to determine the age of some bears encountered by matching their genotypes with those of bears captured previously by other efforts, we were unable to eliminate dependent cubs from the modeling or otherwise differentially model recapture probability among age classes. Nonetheless, it is likely that unequal capture probabilities yielded abundance estimates that were biased low <ref type="bibr" target="#b9">(Boulanger et al. 2004</ref>). However, this bias may be minimal because we sampled cubs without sampling mothers and mothers without sampling cubs. This conclusion is supported by a lack of evidence for over-dispersion in the dataset. Some evidence in other hair-snare studies of ursids suggests that the point estimates may not be substantially biased due to inter-dependence of capture probabilities, but precision of parameters may be overestimated <ref type="bibr" target="#b9">(Boulanger et al. 2004)</ref>.</p><p>The majority of the bears sampled at the bone pile in Barrow likely came from the SB subpopulation, although some bears may come from the CS subpopulation. Although 38% of the individuals we identified were previously known from other studies in SB, this proportion is lower than the marked proportion (54%) within a random sample of the subpopulation (USGS, unpublished data), suggesting that unmarked polar bears from CS (which has a much lower rate of marking) may also have been sampled. Though no bears from the 4-year capture sample from CS were identified at the bone pile, the capture sample was small. Further, the capture effort for CS bears also ocurrs far to the south (about 530 km), north of the Bering Strait region, and it is likely that these bears move north and west toward Russia in the autumn (K. Rode, USGS, Anchorage, Alaska, USA, personal communication, 2011). Thus, if bears from the CS visit the bone pile in autumn they may have a movement pattern that excludes the limited area of recent spring capture effort and so would not have been captured previously. Eightyfive percent of bears sampled in the CS capture effort had bowhead whale in their diet <ref type="bibr">(Rode et al. 2013)</ref>, thus these bears may be visiting bone piles near Point Hope on the Chukchi Sea coast, visiting the Barrow bone pile at a different time of year, or exploiting beached whale carcasses elsewhere.</p><p>The group of polar bears that used the bone pile was dynamic, with an average stay at the bone pile of 10 days (median 5 5 days). However, overall the fidelity parameter suggested an approximate turnover of 50% of the bears from week to week. Females showed greater weekly fidelity to the bone pile than males, perhaps reflective of shorter movements when adult females are accompanied by cubs. Our data suggested that mothers, relative to unencumbered females, may drive the higher fidelity (estimated in the models) of females to the bone pile. Nevertheless, the median number of days that mothers visited the bone pile was one. Pregnant female polar bears enter dens between October and December and do not emerge until March or April <ref type="bibr" target="#b29">(Lentfer 1975)</ref>, which may have resulted in the observation that fewer females used the bone pile later in the study. Overall, our results suggest more males than females used the bone pile.</p><p>We determined that at least 6 family groups with dependent young used the bone pile, further corroborating that these food resources are used by all sex and age classes of polar bears <ref type="bibr" target="#b30">(Miller et al. 2006)</ref>. <ref type="bibr" target="#b33">Ovsyanikov et al. (1994)</ref> also found that polar bear family groups with dependent young will use aggregations of walrus carcasses, despite the presence of other bears including potentially infanticidal <ref type="bibr" target="#b41">(Amstrup et al. 2006</ref>) adult males. Though all ursids tend to be solitary, mixed sex and age groups are common at carcasses, salmon (Oncorhynchus spp.)spawning streams, or garbage where food is abundant <ref type="bibr" target="#b13">(Craighead et al. 1995)</ref>. However, it is also known that mixed sex and age aggregations of ursids are not without risk of injury <ref type="bibr" target="#b23">(Hessing and Aumiller 1994)</ref>, and sexual segregation in ursids occurs <ref type="bibr" target="#b14">(Derocher and Stirling 1990)</ref>. In 2012, USGS researchers found the carcass of a yearling polar bear with puncture wounds in the skull at the bone pile at Cross Island (USGS, unpublished data), and brown bears (U. arctos) are known to displace polar bears at the bone pile at Kaktovik <ref type="bibr" target="#b30">(Miller et al. 2006)</ref>. Further, there seems to be a general tendency for family groups to use the bone piles at a different time of day than adult males <ref type="bibr" target="#b30">(Miller et al. 2006)</ref>. As with other ursids, polar bears will likely behave such that they optimally balance risk with reward <ref type="bibr" target="#b19">(Gende and Quinn 2004)</ref>.</p><p>Through our co-ancestry analysis and information from previously-known bears, we identified 11 adult-aged sibling-sibling and parent-offspring relationships among the bears visiting the Barrow bone pile. However, the comparisons of genetic diversity and distribution of the relatedness metric suggest the genetic diversity within the group of animals using the bone pile is not lower than within the SB subpopulation as a whole. Thus, though we detected some matriline fidelity, the assemblage of bears at the bone pile did not constitute a group of highly-related individuals.</p><p>The inferences from our study benefited from the accompanying information from long-term capture and genetic databases. Without these accompanying data, data derived from hair snares preclude knowledge of age. Hair snaring, however, can provide accurate characterization of differential sex use, and detection-probabilities enabling estimation of un-observable individuals. Further, hair snare samples provide data during day and night and during periods of the year when capture operations are impossible (e.g., the sun was below the horizon at Point Barrow from 20 Nov to 23 Jan). Given that long-term marking and genetic data exist in various regions of the Arctic (e.g., in the eastern Arctic of Canada), hair snaring can be used as supplementary data. The methods we used can be employed at bowhead whale bone piles across the North Slope of Alaska to further characterize the influence of these food subsidies on the status of the SB subpopulation. Similarly, the method could be used across the Arctic to provide samples to study polar bear abundance and behavior at localized remains of marine mammals on shore, whether they are bone piles from traditional harvest or beach cast remains. For example, walrus carcasses resulting from trampling events at large terrestrial haulouts on Wrangel Island are frequently used by polar bears <ref type="bibr" target="#b33">(Ovsyanikov et al. 1994</ref><ref type="bibr" target="#b27">, Kochnev 2002</ref>). Samples collected at such sites could be used to understand behavior and local abundance of polar bears, and could supplement larger-scale multi-source genetic capture-recapture studies <ref type="bibr">(Boulanger et al. 2008</ref>). However, we do not envision the use of noninvasive hair snaring as the sole method for estimating abundance of an entire subpopulation as has been used for terrestrial ursids because polar bears are far-ranging and many subpopulations occur in remote, inaccessible areas. In addition, the sea ice habitat used by most polar bears is mobile. Nevertheless, non-invasive hair sampling can be conducted by local people <ref type="bibr" target="#b51">(Van Coeverden De Groot et al. 2012)</ref>, and the method has the potential to increase public participation in polar bear research and management in a communitybased-monitoring framework <ref type="bibr" target="#b38">(Peacock et al. 2011</ref><ref type="bibr" target="#b52">, Vongraven et al. 2012)</ref>.</p><p>Our work suggests important refinements of the hair-snaring technique for polar bears in the Arctic. We suggest that our sampling success was improved by frequent (daily to multiple times a week) snare maintenance. During periods of high bear use (.2 samples/day), wire was often stretched, snapped, or dislodged, and occasionally poles were bent. Wire became more brittle as temperatures declined; particularly when temperatures fell below -40u C. The need for regular maintenance suggests hair snaring may have limited application in regions where snares cannot be checked frequently. Also, the MAPP TM gas torch was more useful as propane became unusable at approximately -10u C despite attempts to keep the cylinders warm.</p><p>Our data suggest the bowhead whale bone pile at Point Barrow, and by extension, bone piles on the North Slope of Alaska, are used by a large proportion of polar bears from the surrounding region. Although most detected bears used the bone pile once or twice, some individuals spent much more time at the bone pile, suggesting variation in how individual bears use the bone pile. <ref type="bibr" target="#b8">Bentzen et al. (2007)</ref> also showed variation in polar bear use of the bone pile: winter diets varied from 0-26% bowhead whale. Although these bone piles may benefit some polar bears, they may also have a negative influence. For example, bone piles affect the distribution of polar bears while on land <ref type="bibr" target="#b45">(Schliebe et al. 2008</ref>) and likely attract bears to land as they constitute a reliable food source. Thus, increased use of these areas by bears near communities may increase the likelihood of being killed for subsistence harvest or in defense of life and property by Native hunters, residents, tourists, or industry workers. Changes in bowhead whale migration or in autumn whaling conditions as a result of climate change in the future <ref type="bibr" target="#b6">(Ashjian et al. 2010)</ref> have the potential to exacerbate such conflicts in the case of reduced whale harvest. It will be important for wildlife managers and the communities that rely on bowhead whales and polar bears for subsistence to consider both the positive and negative aspects of the bone piles to polar bear ecology and management.</p><p>to at least 5 and possibly 6 family groups with dependent young were identified (Fig. <ref type="figure" target="#fig_2">3</ref>).</p><p>N In one case (a known mother with a known yearling), both the yearling and mother were sampled at the bone pile (each once on two different days).</p><p>N In the second case, only a known cub-ofthe-year was sampled (on one day), but his known mother and male sibling were not sampled.</p><p>N In the third case, a 21-year old known mother was sampled, and likely also one of her two yearlings (i.e., an unknown female that was related to the mother at r 5 0.5 was also sampled): yearlings were observed in October 2010 when the mother was biopsied, but the yearlings were not biopsied and so were not 'known' genetically. N In the three other instances, the known mothers were encountered, but two cubs-of-the-year, two yearlings, or one yearling (all known genetically), respectively, which presumably were accompanying their mothers (i.e., recently observed together), were not sampled.</p><p>To further characterize the relatedness of bears that used the bone pile, we looked at all individuals identified by coancestry as related (r . 0.46) which we used as evidence of sibling-sibling or parent offspring relationships (13 dyads from 97 individulas, a-m).</p><p>N Four dyads (a-d) contained previously unknown animals, and thus no additional insight on family relationships can be drawn.</p><p>N Two dyads (e, f ) involved pairs of previously-known individuals; both were pairs of different-aged adult males, which were only captured as adults, and therefore their relationships are unknown. These two pairs may be pairs of brothers; however, the age difference between one of the pairs (8 years) is large enough that the pair might be father-offspring.</p><p>The 7 remaining dyads (g-m) consisted of one previously-known polar bear and one previouslyunknown polar bear.</p><p>N One dyad (g) could represent a father-offspring or brother-brother relationship. Another adult male polar bear is in two other pairings (h, i), each with a female polar bear (these relationships could be offspring-mother or sibling-sibling).</p><p>N One dyad (j) of an adult female which, based on typical polar bear reproduction cycles, could have had a cub-of-the-year in the autumn of 2010 and was paired with a female; this relationship is not necessarily mother-offspring, but could also be a sibling-sibling relationship.</p><p>N One dyad (k), also mentioned above is likely a mother-cub relationship; one 21-year old female was seen two months prior to the bone pile study with two yearlings, thus her pair in this dataset likely represents the capture of one of her yearlings (a female). A 14-year-old mother (member of dyad j) was paired with a previously unknown male in our data set; however, this unknown male is not her cub that was captured (and genetically identified) with her in 2009. Thus this dyad (l) may represent an adult family member (i.e., the unknown bear is an older cub or her father) or a sibling-sibling relationship.</p><p>N A final dyad (m) relates a 19-year old male with this same unknown male bear (in dyad l) The only relationship possible for this pair (m) is of a father-offspring relationship (not sibling), as the 19-year old adult male was too old to be an offspring of the cub's mother (14 years old; from dyad l). </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Map of the study area, showing the approximate location of the bowhead whale bone pile at Point Barrow on the northern coast of Alaska, USA.</figDesc><graphic coords="2,53.80,66.73,466.36,322.47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Polar bears feeding on bowhead whale carcasses inside the barbed-wire corral (a) at Point Barrow, Alaska. Polar bears were sampled while going over (b) or under (c) the barbed-wire fence. A cub negotiating the fence (d).</figDesc><graphic coords="4,53.80,66.73,466.24,372.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Encounters of 97 individually-identified polar bears (y-axis) at the bowhead whale bone pile at Point Barrow, Alaska, USA, between 6 November 2010 and 14 February 2011 (x-axis). Squares are adult males and circles are adult females. Filled-in circles represent known mothers (for one known mother we include the detection of her cub (X) to indicate her presumed presence), and hatched circles represent known solitary females. X's represent encounters with dependent cubs. No samples were collected 28 December 2010 to 27 January 2011.</figDesc><graphic coords="8,148.48,66.49,277.20,400.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Number of detected visits and number of days visited by polar bears that were individually recognized by DNA analysis to the bowhead whale bone pile at Point Barrow, Alaska, USA, from 6 November 2010 to 14 February 2011. Detected visits include visits on the same day.</figDesc><graphic coords="9,102.50,66.89,335.52,239.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig.5. Estimated number of male and female polar bears and 95% confidence interval (CI) visiting the bowhead whale bone pile at Point Barrow, Alaska, USA, for each sampling occasion between 6 November 2010 and 14 February 2011. Periods were one week in duration, except between periods 8, 9, which were separated by 4 weeks. The sex, occasion-specific estimates are derived from the model Q(sex)p(.)p ent (sex)N(sex) (DAICc = 1.93). The lower limit of the 95% CI for males in encounter occasion 1 is negative.</figDesc><graphic coords="10,67.97,66.49,437.76,282.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>NON-INVASIVE GENETIC SAMPLING OF POLAR BEARS N Herreman and Peacock 159 Ursus 24(2):148-163 (2013)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>NON-INVASIVE GENETIC SAMPLING OF POLAR BEARS N Herreman and Peacock 163 Ursus 24(2):148-163 (2013)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Hair samples of polar bears collected at the bowhead whale bone pile at Point Barrow, Alaska, submitted for genetic analysis and successfully amplified at a minimum of 7 microsatellite loci and the sex-identification locus (amelogenin locus) during 11 sampling events between 6 November 2010 and 14 February 2011.</figDesc><table><row><cell cols="3">152 NON-INVASIVE GENETIC SAMPLING</cell><cell></cell></row><row><cell>Sampling</cell><cell></cell><cell>Submitted for</cell><cell>Successfully</cell></row><row><cell>event</cell><cell>Collected</cell><cell>analysis</cell><cell>amplified</cell></row><row><cell>1</cell><cell>5 2</cell><cell>2 2</cell><cell>1 7</cell></row><row><cell>2</cell><cell>3 7</cell><cell>1 5</cell><cell>9</cell></row><row><cell>3</cell><cell>3 3</cell><cell>1 9</cell><cell>1 3</cell></row><row><cell>4</cell><cell>4 7</cell><cell>2 0</cell><cell>1 7</cell></row><row><cell>5</cell><cell>2 4</cell><cell>1 9</cell><cell>1 4</cell></row><row><cell>6</cell><cell>4 8</cell><cell>2 0</cell><cell>1 8</cell></row><row><cell>7</cell><cell>2 3</cell><cell>1 7</cell><cell>1 2</cell></row><row><cell>8</cell><cell>3 2</cell><cell>1 2</cell><cell>1 2</cell></row><row><cell>9</cell><cell>4 7</cell><cell>2 0</cell><cell>1 9</cell></row><row><cell>10</cell><cell>32</cell><cell>20</cell><cell>18</cell></row><row><cell>11</cell><cell>32</cell><cell>16</cell><cell>16</cell></row><row><cell>Total</cell><cell>407</cell><cell>200</cell><cell>165</cell></row></table><note><p>OF POLAR BEARS N Herreman and Peacock Ursus</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Variability of genetic markers used to identify polar bears (n = 97) at the bowhead whale bone pile, Point Barrow, Alaska, USA, between 6 November 2010 and 14 February 2011 and of a capture sample of bears in the Southern Beaufort Sea subpopulation (n = 75; 2010). A is the number of alleles observed; H E , H O are expected and observed heterozygosity, respectively. P ID (sibs) and P ID (unbiased) are the probability of identity metrics for two siblings and random individuals, respectively, in the sample groups.</figDesc><table><row><cell cols="5">154 NON-INVASIVE GENETIC SAMPLING</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="3">Bone pile at Point Barrow</cell><cell></cell><cell></cell><cell></cell><cell cols="2">Southern Beaufort Sea</cell><cell></cell></row><row><cell>Locus</cell><cell>A</cell><cell>H E</cell><cell>H O</cell><cell cols="2">P ID (sibs) P ID (unbiased)</cell><cell>A</cell><cell>H E</cell><cell>H O</cell><cell cols="2">P ID (sibs) P ID (unbiased)</cell></row><row><cell>G1A</cell><cell>7</cell><cell>0.73</cell><cell>0.70</cell><cell>0.42</cell><cell>0.10</cell><cell>6</cell><cell>0.72</cell><cell>0.73</cell><cell>0.42</cell><cell>0.11</cell></row><row><cell>G10B</cell><cell>6</cell><cell>0.76</cell><cell>0.80</cell><cell>0.40</cell><cell>0.09</cell><cell>7</cell><cell>0.79</cell><cell>0.88</cell><cell>0.38</cell><cell>0.07</cell></row><row><cell>G10C</cell><cell>8</cell><cell>0.51</cell><cell>0.51</cell><cell>0.56</cell><cell>0.26</cell><cell>9</cell><cell>0.50</cell><cell>0.51</cell><cell>0.57</cell><cell>0.27</cell></row><row><cell>CXX110</cell><cell>10</cell><cell>0.87</cell><cell>0.86</cell><cell>0.33</cell><cell>0.03</cell><cell>9</cell><cell>0.87</cell><cell>0.88</cell><cell>0.33</cell><cell>0.03</cell></row><row><cell>G1D</cell><cell>7</cell><cell>0.67</cell><cell>0.62</cell><cell>0.45</cell><cell>0.14</cell><cell>6</cell><cell>0.63</cell><cell>0.67</cell><cell>0.48</cell><cell>0.17</cell></row><row><cell>G10H</cell><cell>11</cell><cell>0.82</cell><cell>0.82</cell><cell>0.36</cell><cell>0.05</cell><cell>10</cell><cell>0.84</cell><cell>0.84</cell><cell>0.34</cell><cell>0.04</cell></row><row><cell>G10J</cell><cell>4</cell><cell>0.55</cell><cell>0.56</cell><cell>0.55</cell><cell>0.28</cell><cell>4</cell><cell>0.50</cell><cell>0.48</cell><cell>0.59</cell><cell>0.34</cell></row><row><cell>G10L</cell><cell>4</cell><cell>0.48</cell><cell>0.47</cell><cell>0.59</cell><cell>0.30</cell><cell>4</cell><cell>0.55</cell><cell>0.67</cell><cell>0.54</cell><cell>0.25</cell></row><row><cell>G10M</cell><cell>8</cell><cell>0.77</cell><cell>0.80</cell><cell>0.39</cell><cell>0.08</cell><cell>8</cell><cell>0.79</cell><cell>0.79</cell><cell>0.38</cell><cell>0.07</cell></row><row><cell>MSUT2</cell><cell>8</cell><cell>0.52</cell><cell>0.46</cell><cell>0.55</cell><cell>0.25</cell><cell>8</cell><cell>0.53</cell><cell>0.55</cell><cell>0.55</cell><cell>0.25</cell></row><row><cell>MU59</cell><cell>11</cell><cell>0.85</cell><cell>0.86</cell><cell>0.34</cell><cell>0.04</cell><cell>12</cell><cell>0.85</cell><cell>0.88</cell><cell>0.34</cell><cell>0.04</cell></row><row><cell>G10P</cell><cell>9</cell><cell>0.70</cell><cell>0.75</cell><cell>0.44</cell><cell>0.13</cell><cell>7</cell><cell>0.71</cell><cell>0.68</cell><cell>0.43</cell><cell>0.12</cell></row><row><cell>145P07</cell><cell>7</cell><cell>0.78</cell><cell>0.77</cell><cell>0.38</cell><cell>0.07</cell><cell>6</cell><cell>0.77</cell><cell>0.79</cell><cell>0.39</cell><cell>0.08</cell></row><row><cell>CPH9</cell><cell>7</cell><cell>0.67</cell><cell>0.64</cell><cell>0.45</cell><cell>0.13</cell><cell>6</cell><cell>0.75</cell><cell>0.72</cell><cell>0.40</cell><cell>0.09</cell></row><row><cell>CXX20</cell><cell>8</cell><cell>0.78</cell><cell>0.78</cell><cell>0.38</cell><cell>0.08</cell><cell>8</cell><cell>0.80</cell><cell>0.76</cell><cell>0.37</cell><cell>0.07</cell></row><row><cell>MU50</cell><cell>9</cell><cell>0.81</cell><cell>0.77</cell><cell>0.36</cell><cell>0.06</cell><cell>8</cell><cell>0.83</cell><cell>0.91</cell><cell>0.35</cell><cell>0.04</cell></row><row><cell>MU51</cell><cell>7</cell><cell>0.79</cell><cell>0.80</cell><cell>0.37</cell><cell>0.07</cell><cell>7</cell><cell>0.82</cell><cell>0.85</cell><cell>0.36</cell><cell>0.06</cell></row><row><cell>G10X</cell><cell>7</cell><cell>0.80</cell><cell>0.75</cell><cell>0.37</cell><cell>0.06</cell><cell>7</cell><cell>0.78</cell><cell>0.76</cell><cell>0.38</cell><cell>0.07</cell></row><row><cell>CXX173</cell><cell>6</cell><cell>0.73</cell><cell>0.70</cell><cell>0.41</cell><cell>0.10</cell><cell>7</cell><cell>0.76</cell><cell>0.77</cell><cell>0.40</cell><cell>0.09</cell></row><row><cell>G10U</cell><cell>6</cell><cell>0.54</cell><cell>0.57</cell><cell>0.54</cell><cell>0.24</cell><cell>5</cell><cell>0.57</cell><cell>0.57</cell><cell>0.53</cell><cell>0.22</cell></row><row><cell>Overall</cell><cell></cell><cell>0.71</cell><cell>0.70</cell><cell>3.74 E-08</cell><cell>2.34 E-20</cell><cell></cell><cell>0.72</cell><cell>0.73</cell><cell>2.78 E-08</cell><cell>4.11 E-21</cell></row></table><note><p>OF POLAR BEARS N Herreman and Peacock Ursus 24(2):148-163 (2013)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Model-averaged (95% of model weight) apparent survival estimates (Q), interpreted as weekly fidelity, the probability of entry (p ent ) or weekly arrival, recapture probability (p), superpopulation abundance (N), and standard errors, for polar bears using the bowhead whale bone pile at Point Barrow, Alaska, USA, between 6 November 2010 and 14 February 2011. Parameters were estimated using the POPAN mark-recapture model. Absolute value of the signal-to-noise ratio (b/SE) were all .2, indicating importance of the sex effect on all variables.For Q, p ent , and p, b/SE is from the top model [Q(sex)p(sex)p ent (sex)N(.)]. For N, the ratio is from the model [Q(sex)p(.)p ent (sex)N(sex)]with DAICc 5 1.93.</figDesc><table><row><cell>Parameter</cell><cell>Group</cell><cell>Estimate</cell><cell>SE</cell><cell>b/SE a</cell></row><row><cell>Q</cell><cell>females</cell><cell>0.63</cell><cell>0.12</cell><cell></cell></row><row><cell></cell><cell>males</cell><cell>0.45</cell><cell>0.15</cell><cell>22.26</cell></row><row><cell>p ent</cell><cell>females</cell><cell>0.07</cell><cell>0.01</cell><cell></cell></row><row><cell></cell><cell>males</cell><cell>0.09</cell><cell>0.00</cell><cell>2.49</cell></row><row><cell>p</cell><cell>females</cell><cell>0.23</cell><cell>0.10</cell><cell></cell></row><row><cell></cell><cell>males</cell><cell>0.34</cell><cell>0.13</cell><cell>2.47</cell></row><row><cell>N</cell><cell>females</cell><cell>97.82</cell><cell>24.99</cell><cell></cell></row><row><cell></cell><cell>males</cell><cell>130.25</cell><cell>35.68</cell><cell>2.24</cell></row><row><cell></cell><cell>total</cell><cell>228</cell><cell>44</cell><cell></cell></row><row><cell>a</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_0"><p>Jason.herreman@alaska.gov; Present address: Alaska Department of Fish and Game, Homer, Alaska, USA</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Ursus 24(2):148-163 (2013)</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We thank <rs type="person">B. Adams</rs>, <rs type="person">H. Brower</rs>, <rs type="person">C. George</rs>, <rs type="person">L. Itta</rs>, <rs type="person">B. Person</rs>, <rs type="person">B. Saren</rs>, <rs type="person">T. Sformo</rs>, and <rs type="person">H. Toovak</rs> for assistance in the field, and <rs type="person">A. Pagano</rs>, <rs type="person">K. Simac</rs>, and <rs type="person">Z. Byrd</rs> for assistance with data organization. We thank <rs type="person">J. Laake</rs> for advice with analyses. We thank <rs type="person">T. Atwood</rs>, <rs type="person">M. Ben-David</rs>, <rs type="person">M. Cody</rs>, <rs type="person">C. George</rs>, <rs type="person">T. Sformo</rs>, two anonymous reviewers, and Associate Editor <rs type="person">M. Obbard</rs> for constructive reviews of earlier drafts of this manu-script. This study was funded by the <rs type="funder">North Slope Borough Department of Wildlife Management (NSBDWM)</rs>, the <rs type="funder">Bureau of Ocean and Energy Management</rs>, and the <rs type="funder">Changing Arctic Ecosystems initiative of the USGS, Ecosystems Mission Area</rs>. Logistical support was provided by the <rs type="funder">NSBDWM</rs>. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the <rs type="institution">US Government</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix</head><p>Within the dataset of 37 previously-known individuals sampled at the bone pile, members belonging</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Past and present status of polar bears in Alaska</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Amstrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Stirling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lentfer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="241" to="254" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Using satellite radiotelemetry data to delineate and manage wildlife populations</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Durner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="661" to="679" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Recent observations of intraspecific predation and cannibalism among polar bears in the southern Beaufort Sea</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Stirling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Perham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Thiemann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polar Biology</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="997" to="1002" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bechet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Berggren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">G</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cassel-Lundhagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cezilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Feldheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Friesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gaillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Galaraza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Ganeshaiah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Geraci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Gibbons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Grauvogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gustafsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Guyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Heath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hemmila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Hogan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jakse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Javornik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kanuch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Klich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Kreiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Kwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lasater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lascoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">L</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Marchelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Moccia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Mohana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Morris-Pocock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pfunder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Radosavljevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ravikanth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Roderick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rokas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Sacks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Saski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Satovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Schoville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sebastiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">X</forename><surname>Sha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Soliani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sreejayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">X</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Templin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">U</forename><surname>Shaanker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vasudeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Vendramin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Wattier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Widmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Woltmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Uninformative parameters, model selection using Akaike&apos;s Information Criterion</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page">160</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">NON-INVASIVE GENETIC SAMPLING OF POLAR BEARS N Herreman and Peacock Ursus</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="148" to="163" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Climate variability, oceanography, bowhead whale distribution, In ˜upiat subsistence whaling near Barrow, Alaska</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Ashjian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Braund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kruse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Maslowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Nicolson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Okkonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Sherr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Sherr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Spitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arctic</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="179" to="194" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Bacon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Hepa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Brower</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pederson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Olemaun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Corrigan</surname></persName>
+		</author>
+		<title level="m">Estimates of subsistence harvest for villages on the North Slope of Alaska, 1994-2003</title>
+		<meeting><address><addrLine>Barrow, Alaska, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>North Slope Borough Deptarment of Wildlife Management Report</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Variation in winter diet of southern Beaufort Sea polar bears inferred from stable isotope analysis</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Bentzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Follmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Amstrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>York</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Wooller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>O'hara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="596" to="608" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Sampling design, bias in DNA-based capture-mark-recapture population, density estimates of grizzly bears</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boulanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="457" to="469" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Multiple data sources improve DNA-based mark-recapture population estimates of grizzly bears</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Roon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="577" to="589" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Model selection, multimodel inference: A practical information-theoretic approach</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Springer</publisher>
+			<pubPlace>New York, New York, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Second edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Choquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Reboulet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Lebreton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gimenez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pradel</surname></persName>
+		</author>
+		<title level="m">U-CARE 2.2 User&apos;s Manual</title>
+		<meeting><address><addrLine>Montpellier, France</addrLine></address></meeting>
+		<imprint>
+			<publisher>Centre d&apos;Ecologie Fonctionnelle &amp; Evolutive</publisher>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Craighead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Sumner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mitchell</surname></persName>
+		</author>
+		<title level="m">The grizzly bears of Yellowstone: Their ecology in the Yellowstone ecosystem, 1959-1992</title>
+		<meeting><address><addrLine>Covelo, California, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Island Press</publisher>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Distribution of polar bears during the ice-free period in western Hudson Bay</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Derocher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Stirling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="1395" to="1403" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Predicting 21st-century polar bear habitat distribution from global climate models</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Durner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Douglas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Nielson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Amstrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Stirling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mauritzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Born</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Wiig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Deweaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Serreze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Belikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Holland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maslanik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Derocher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Monographs</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="25" to="58" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A PCR-based sexdetermination assay in cattle based on the bovine amelogenin locus</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ennis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Gallagher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Genetics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="425" to="427" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Arlequin version 3.0: An integrated software package for population genetics data analysis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Excoffier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Laval</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">S</forename><surname>Schneider</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evolutionary Bioinformatics Online</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="47" to="50" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Landward and eastward shift of Alaskan polar bear denning associated with recent sea ice changes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Fischbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Amstrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Douglas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polar Biology</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1395" to="1405" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The relative importance of prey density and social dominance in determining energy intake by bears feeding on Pacific salmon</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Gende</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Quinn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="75" to="85" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Abundance and population trend (1978-2001) of western arctic bowhead whales surveyed near Barrow, Alaska</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Suydam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Mammal Science</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="755" to="773" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m">Growth, morphology and energetics of bowhead whales (Balaena mysticetus)</title>
+		<meeting><address><addrLine>Fairbanks, Alaska, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Alaska</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Plucked hair samples as a source of DNA: Reliability of dinucleotide microsatellite genotyping</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1237" to="1241" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Observations of conspecific predation by brown bears, Ursus arctos, in Alaska</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hessing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Aumiller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Field-Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="332" to="336" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Climate change threatens polar bear populations: A stochastic demographic analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Caswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Runge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Regehr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Amstrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">I</forename><surname>Stirling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="2883" to="2897" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Robustness of closed capturerecapture methods to violations of the closure assumption</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Kendall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="2517" to="2525" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Polymorphic microsatellite DNA markers in the Asiatic black bear Ursus thibetanus</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kitahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Isagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ishibashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Saitoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1661" to="1662" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Autumn aggregations of polar bears on the Wrangel Island and their importance for the population</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Kochnev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Abstracts of the Second International Conference</title>
+		<meeting><address><addrLine>Moscow, Russia</addrLine></address></meeting>
+		<imprint>
+			<publisher>KMK</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="137" to="138" />
+		</imprint>
+	</monogr>
+	<note>Marine Mammals of the Holarctic</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">RMark-An alternative approach to building linear models</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Laake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rexstad</surname></persName>
+		</author>
+		<ptr target="http://www.phidot.org/software/mark/docs/book/" />
+	</analytic>
+	<monogr>
+		<title level="m">Program MARK: A gentle introduction</title>
+		<editor>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Cooch</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2007-04-01">2007. 1 April 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Polar bear denning on drifting sea ice</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lentfer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mammalogy</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="716" to="718" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schliebe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Proffitt</surname></persName>
+		</author>
+		<title level="m">Demographics and behavior of polar bears feeding on bowhead whale carcasses at Barter and Cross Islands, Alaska, 2002-2004</title>
+		<meeting><address><addrLine>Anchorage, Alaska, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>US Fish, Wildlife Service Report</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Polar bears: Proceedings of the 15th Working Meeting of the IUCN/SSC Polar Bear NON-INVASIVE GENETIC SAMPLING OF POLAR</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Obbard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Thiemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Peacock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Debruyn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BEARS N Herreman and Peacock</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="148" to="163" />
+			<date type="published" when="2010">2010. 2013</date>
+		</imprint>
+	</monogr>
+	<note>Ursus</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Identification and characterization of dinucleotide repeat (CA)n markers for genetic-mapping in dog</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Ostrander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Sprague</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">J</forename><surname>Rine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genomics</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="207" to="213" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Causes of mass mortality of walruses on coastal haulouts</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Ovsyanikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Bove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Kochnev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zoological Journal</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="80" to="87" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note>In Russian</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Microsatellite analysis of genetic-variation in black bear populations</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="489" to="495" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Microsatellite analysis of population structure in Canadian polar bears</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Calvert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Stirling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="347" to="354" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">An empirical exploration of data quality in DNA-based population inventories</title>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1375" to="1387" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Remote biopsy darting of polar bears: Implications for monitoring abundance, diet, and condition</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pagano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Peacock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mckinney</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mms.112029</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Mammal Science</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Conservation and management of Canada&apos;s polar bears in a changing Arctic</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Peacock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Derocher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Theimann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">I</forename><surname>Stirling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="371" to="385" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Population fragmentation of grizzly bears in southeastern British Columbia, Canada</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="153" to="160" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Estimating relatedness using molecular markers</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Queller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Goodnight</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evolution</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="258" to="275" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Polar bear population status in the southern Beaufort Sea</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Regehr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Amstrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">I</forename><surname>Stirling</surname></persName>
+		</author>
+		<idno>2006-1337</idno>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>US Geological Survey</publisher>
+			<pubPlace>Anchorage, Alaska, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Open File Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Survival, breeding of polar bears in the southern Beaufort Sea in relation to sea ice</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Caswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Amstrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">I</forename><surname>Stirling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Animal Ecology</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="117" to="127" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Reduced body size, cub recruitment in polar bears associated with sea ice decline</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Rode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Amstrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Regehr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Applications</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="768" to="782" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Variation in the response of an Arctic top predator experiencing habitat loss: Feeding and reproductive ecology of two polar bear populations</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Regehr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Douglas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Durner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Derocher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Thiemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Budge</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/gcb.12339</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Global Change Biology</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Effects of sea ice extent and food availability on spatial, temporal distribution of polar bears during the fall open-water period in the Southern Beaufort Sea</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schliebe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Rode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Gleason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wilder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Proffitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">S</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polar Biology</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="999" to="1010" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A general methodology for the analysis of capture-recapture experiments in open populations</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Schwarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Arnason</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="860" to="873" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Subsistence whaling</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Stoker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">I</forename><surname>Krupnik</surname></persName>
+		</author>
+		<editor>J.J. Burns, J.J Montague, and C.J. Cowles</editor>
+		<imprint>
+			<date type="published" when="1993">1993</date>
+			<publisher>Allen Press</publisher>
+			<biblScope unit="page" from="579" to="629" />
+			<pubPlace>Lawrence, Kansas, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Subsistence harvest of bowhead whales (Balaena mysticetus) by Alaskan Eskimos during 2010</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Suydam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Person</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hanns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sheffield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">A report to the IWC Scientific Committee</title>
+		<meeting><address><addrLine>Barrow, Alaska, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>North Slope Borough, Department of Wildlife Mangement</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">SC-63-BRG2</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic tracking of the endangered Pyrenean brown bear population</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Camarra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Uhres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hanotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dubois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paganon</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">J</forename><surname>Bouvet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="869" to="876" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">GIMLET: A computer program for analysing genetic individual identification data</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valiere</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Notes</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="377" to="379" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Toward a non-invasive Inuit Polar bear survey: Genetic data from polar bear hair snags</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Van Coeverden De Groot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B Y</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Dyck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kamookak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pages</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Michaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Boag</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="394" to="401" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">A circumpolar monitoring framework for polar bears</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vongraven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Amstrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Atkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Belikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Born</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Debruyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Derocher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Lunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Obbard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Omelak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Ovsyanikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Peacock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sahanatien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Stirling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">Ø</forename><surname>Wiig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">sp2</biblScope>
+			<biblScope unit="page" from="1" to="66" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Coancestry: A program for simulating, estimating and analysing relatedness, inbreeding coefficients</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="141" to="151" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Program MARK: Survival estimation from populations of marked animals</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bird Study</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="120" to="138" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Genetic tagging of free-ranging black and brown bears</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strobeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="616" to="627" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

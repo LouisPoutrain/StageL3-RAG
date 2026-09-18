@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Scat detection dogs, DNA and species distribution modelling reveal a diminutive geographical range for the Vulnerable small red brocket deer Mazama bororo</title>
+				<funder>
+					<orgName type="full">Projeto de Conservação e Utilização Sustentável da Diversidade Biológica Brasileira</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Programa de Desarrollo de las Ciencias Básicas</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Fundação de Amparo a Pesquisa do Estado de São Paulo</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Conselho Nacional de Desenvolvimento Científico e Tecnológico (Brazil)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Comisión Sectorial de Investigación Científica (Uruguay)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Agencia Nacional de Investigación y Inovación</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">José</forename><surname>Maurício</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Barbanti</forename><surname>Duarte</surname></persName>
+							<email>barbanti@fcav.unesp.br</email>
+						</author>
+						<author>
+							<persName><forename type="first">Cristina</forename><surname>Ângela</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Márcio</forename><forename type="middle">Leite</forename><surname>Talarico</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Oliveira</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alexandre</forename><surname>Vogliotti</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">José</forename><forename type="middle">Eduardo</forename><surname>Garcia</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jesús</forename><forename type="middle">E</forename><surname>Maldonado</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Susana</forename><surname>González</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Zootecnia</orgName>
+								<orgName type="laboratory">Núcleo de Pesquisa e Conservação de Cervídeos</orgName>
+								<orgName type="institution">Universidade Estadual Paulista</orgName>
+								<address>
+									<addrLine>Via de Acesso Paulo Donato Castellane s/n CEP</addrLine>
+									<postCode>14884-900</postCode>
+									<settlement>Jaboticabal São Paulo</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Universidade Federal da Integração Latino-Americana</orgName>
+								<address>
+									<addrLine>Foz do</addrLine>
+									<settlement>Iguaçu</settlement>
+									<region>Paraná</region>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Universidade Federal de Pernambuco</orgName>
+								<address>
+									<addrLine>Centro Acadêmico de Vitória</addrLine>
+									<settlement>Vitoria de Santo Antão Pernambuco</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Center for Conservation Genomics</orgName>
+								<orgName type="institution" key="instit1">Smithsonian Conservation Biology Institute</orgName>
+								<orgName type="institution" key="instit2">National Zoological Park</orgName>
+								<address>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Genética de la Conservación</orgName>
+								<orgName type="department" key="dep2">Departamento de Biodiversidad y Genética</orgName>
+								<orgName type="institution" key="instit1">Instituto de Investigaciones Biológicas Clemente Estable</orgName>
+								<orgName type="institution" key="instit2">Ministerio de Educación y Cultura</orgName>
+								<address>
+									<settlement>Montevideo</settlement>
+									<country key="UY">Uruguay</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Vertebrate Zoology</orgName>
+								<orgName type="institution" key="instit1">National Museum of Natural History</orgName>
+								<orgName type="institution" key="instit2">Smithsonian Institution</orgName>
+								<address>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department" key="dep1">Sección Genética Evolutiva</orgName>
+								<orgName type="department" key="dep2">Facultad de Ciencias</orgName>
+								<orgName type="institution">Universidad de la República Oriental del Uruguay</orgName>
+								<address>
+									<settlement>Montevideo</settlement>
+									<country key="UY">Uruguay</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Scat detection dogs, DNA and species distribution modelling reveal a diminutive geographical range for the Vulnerable small red brocket deer Mazama bororo</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">45185480FF98E201F6F5D02C7FFD6719</idno>
+					<idno type="DOI">10.1017/S0030605316000405</idno>
+					<note type="submission">Received  September . Revision requested  November . Accepted  April . First published online  October .</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Atlantic Forest</term>
+					<term>Brazil</term>
+					<term>Cervidae</term>
+					<term>Cytochrome b</term>
+					<term>geographical range</term>
+					<term>Mazama bororo</term>
+					<term>non-invasive sampling</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The small red brocket deer Mazama bororo is endemic to the Brazilian Atlantic Forest, a biome that has been greatly fragmented and altered by human activities. This elusive species is morphologically similar to the red brocket deer Mazama americana and the Brazilian dwarf brocket deer Mazama nana, and genetic typing is necessary for reliable identification. To determine the geographical range of M. bororo more accurately, we conducted non-invasive genetic sampling using scat detection dogs trained to locate deer faeces. We surveyed  protected areas located within the species' potential distribution and collected a total of  scat samples in  of the protected areas. Using a polymerase chain reaction-restriction fragment length polymorphism approach, we genotyped  scat samples (%) and detected M. bororo in seven localities in three Brazilian states. The results support a range extension of the small red brocket deer to latitudes  and °S and longitudes  and °W. We show that the species' distribution is associated with , km  of the Ombrophilous Dense Forest in the Brazilian Atlantic Forest, and this conclusion is supported by species distribution modelling. The small red brocket deer is the largest endemic species in Brazil and may have the smallest geographical distribution of any Neotropical deer species. This species occupies fragmented landscapes and is threatened by human encroachment, poaching, and predation by dogs, and based on our findings we recommend policy intervention for conservation planning of the Ombrophilous Dense Forest.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>T he small red brocket deer Mazama bororo is one of the most threatened, elusive and poorly known Neotropical deer. It is categorized as Vulnerable on the IUCN Red List <ref type="bibr">(Duarte, )</ref>. The species inhabits remnants of the Atlantic Forest (Duarte &amp; Jorge, ; Weber &amp; González, ; Duarte, ; <ref type="bibr">Duarte et al., )</ref>, the second largest rainforest of the American continent, which once stretched almost continuously along the Brazilian coast, extending inland in the south and into eastern Paraguay and north-eastern Argentina <ref type="bibr">(Tabarelli et al., )</ref>. This biome may hold up to % of all species of flora and fauna <ref type="bibr">(Silva &amp; Casteleti, )</ref>, and has a history of intensive habitat loss and fragmentation caused by human activity. More than % of the original forest cover has already been cleared, and the land converted to non-forest use <ref type="bibr">(Ribeiro et al., )</ref>.</p><p>The small red brocket deer is difficult to observe because it inhabits dense forests. In addition, morphological similarities with sympatric brocket deer species preclude the use of traditional methodologies for detection and species identification <ref type="bibr">(Duarte &amp; Jorge, ; Vogliotti &amp; Duarte, , )</ref>. Skins and skulls from Brazilian scientific collections revealed size, coloration and pelage differences between specimens taken from within the extent of occurrence of M. bororo and specimens of red brocket deer M. americana from other regions of Brazil <ref type="bibr">(Rossi, )</ref>. Although some morphological characteristics (weight, height, length of body, circumference of thorax, and length of metacarpus and metatarsus) may be potential discriminators of the species in living individuals or when entire carcasses are available <ref type="bibr">(Duarte &amp; Jorge, )</ref>, these characteristics are difficult to evaluate in the field using camera traps or even visual encounter data.</p><p>Because of these morphological similarities, it was only through karyotype characterization and subsequent molecular confirmation <ref type="bibr">(Duarte et al., )</ref> that the small red brocket deer was identified and described as a distinct species from the red brocket deer (n =  and n = , respectively; <ref type="bibr">Duarte &amp; Jorge, )</ref>. Karyotyping has been proposed as the most reliable tool to distinguish M. bororo from other sympatric species of brocket deer (Duarte, ; Duarte &amp; Merino, ; Duarte &amp; Jorge, ; Vogliotti &amp; Duarte, ). However, to obtain karyotypes using cytogenetic protocols it is necessary to capture live individuals and collect fresh samples (blood and skin), which is difficult for this elusive species <ref type="bibr">(Duarte et al., )</ref>. Efforts to locate and capture the deer are expensive, time consuming and infeasible. We conducted intensive field work surveys for  years and were able to locate and capture only five freeliving M. bororo <ref type="bibr">(Vogliotti &amp; Duarte, )</ref>. This difficulty prompted us to develop faster, more efficient methods to detect this rare and elusive species and determine its geographical range, using non-invasive sampling of faecal material in combination with molecular markers (polymerase chain reaction-restriction fragment length polymorphism, PCR-RFLP; <ref type="bibr">González et al., )</ref>.</p><p>Visually locating deer faeces in dense forest is challenging <ref type="bibr">(Rivero et al., )</ref>. To maximize the number of faecal samples detected during surveys we used scat detection dogs, which have been proven to significantly improve the detection of faeces from rare and elusive species <ref type="bibr">(Smith et al., ; Oliveira et al., )</ref>, and have been used effectively to locate faecal samples from a diversity of carnivores <ref type="bibr">(Smith et al</ref>  <ref type="bibr">(Rolland et al., )</ref>.</p><p>It is challenging to predict the ranges of rare and elusive species precisely but this information is critical for conservation planning. One approach that has become increasingly important is species distribution modelling <ref type="bibr">(Guisan et al., )</ref>, which is used to derive spatially explicit predictions of environmental and ecological suitability for a particular species. This is achieved by the identification of statistical relationships between observations of species occurrence and environmental or ecological descriptors that characterize the species' ecological niche. Species distribution modelling has the potential to play a critical role in supporting spatial conservation decision making <ref type="bibr">(Addison et al., )</ref>. It has proven to be particularly useful when occurrence data are limited, and the results can be used to inform planning for new surveys <ref type="bibr">(Pearson, )</ref>.</p><p>To determine the geographical range of M. bororo more accurately we conducted intensive non-invasive surveys using scat detection dogs in all potential areas of occurrence, and used the occurrence data in species distribution modelling. Our results confirmed that the small red brocket deer has the smallest geographical distribution of any deer species described to date, and its distribution appears to have decreased significantly over the past  centuries. We therefore suggest there is an urgent need to develop conservation and restoration actions for all remnants of the Atlantic Forest, and recommend that conservation efforts should target the reduction of the edge effects of forest fragments, palm heart exploitation and poaching.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study area</head><p>The sampling sites were selected based on the proposed distribution of M. bororo in the Serra do Mar coastal forests ecoregion <ref type="bibr">(Duarte, )</ref>. We focused on sampling in the Ombrophilous Dense Forest, and we also included other associated formations, such as the Mixed Ombrophilous Forest (Araucaria moist forest), Semideciduous Seasonal Forest (Paraná-Paraíba interior forests) and some ecotones. The chosen areas were mainly government protected areas and private reserves . , ha. Additionally, we surveyed buffer areas surrounding protected areas where the scat detection dogs were forbidden from entering. These buffer areas were adjacent to the protected areas and had similar ecological characteristics. In total, we surveyed  sites in the states of São Paulo, Paraná, Santa Catarina, Bahia, Espírito Santo and Minas Gerais (Fig. <ref type="figure"></ref>; Table <ref type="table"></ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample collection and storage</head><p>Searches for faecal samples were conducted during June -October  by one or more observers and a handler with two scat detection dogs. The dogs were trained by the military police of São Paulo State narcotics detection programme and worked freely off-lead. The searches were conducted along natural trails and the borders of rivers and forests. Although the Atlantic Forest is continually affected by deforestation and exploitation (Galindo-Leal &amp; Câmara, ), we had to assume that no changes in habitat or deer distribution occurred over the time period of the sampling. As we aimed only to record presence data, the sampling effort was not recorded in detail (e.g. time in hours, or meters surveyed) and the duration of surveys varied from  day in some areas to up to  week in others. This sampling scheme precluded gathering true absence data.</p><p>The collected faecal samples were stored in absolute ethanol in  ml sterile polypropylene conical tubes. The samples were identified by location name, collection number, geographical coordinates and date. When multiple faecal pellets were found accumulated in the same location they were considered to belong to a latrine. In these cases, to avoid resampling the same individuals, we collected only representative samples from clusters of pellets found at separate locations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extraction and PCR-RFLP</head><p>Faecal DNA extractions were performed using a Qiamp DNA Stool Mini Kit (QIAGEN, Hilden, Germany) according to the manufacturer's protocol. Extractions were carried out in a dedicated room free of PCR products to prevent contamination.</p><p>PCR amplifications of a  bp fragment of Cytochrome b were performed in a final volume of  μl and contained  × Invitrogen buffer, . mM MgCl  , . mM of each dNTP (deoxynucleotide triphosphate),  pmol μl - of each primer (IDMAZL and IDMAZH; González et al., ), . U Taq DNA Polymerase (Invitrogen), and - ng μl - of faecal DNA. For the thermal profile we followed <ref type="bibr">González et al. ()</ref>. We included a negative control in each set of PCRs performed, to detect any possible contamination.</p><p>The amplified  bp fragment of Cytochrome b contains three informative restriction sites that can discriminate between M. bororo and its sympatric brocket deer species M. americana, M. nana and M. gouazoubira <ref type="bibr">(González et al., )</ref>. The presence of the restriction site for ECORII or BSTNI in position  was used to confirm species identification because it has been demonstrated to be unique to M. bororo <ref type="bibr">(González et al., )</ref>. PCR products that failed to digest were subjected to cycle sequencing to verify species identification. PCR products were purified using a Zymoclean ™ DNA Recovery Kit (Zymo Research, Irvine, USA), and sequenced using an ABI Prism xl DNA Analyzer (Applied Biosystems, Foster City, USA) with the IDMAZL and IDMAZH (forward and reverse) primers described in <ref type="bibr">González et al. ()</ref>. Sequences were analysed using MEGA . <ref type="bibr">(Tamura et al., )</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Species distribution modelling procedures</head><p>We developed species distribution models using MaxEnt v. ..k <ref type="bibr">(Phillips et al., )</ref>, the most adequate and frequently used software for species distribution modelling (Baldwin, ). In comparison to other approaches MaxEnt performs well with small sample sizes <ref type="bibr">(Hernandez et al., )</ref>.</p><p>Occurrence data were based on only  sample locations, following the exclusion of multiple records in the same pixel (c.  km  ). We used % of the points to train the model and % to test the model. They were sampled by bootstrapping  random partitions with replacement <ref type="bibr">(Pearson, )</ref>.   The environmental layers were composed of bioclimatic variables, including mean annual temperature (bio), temperature seasonality (the standard deviation, multiplied by , of the monthly temperature; bio), annual precipitation (bio), precipitation seasonality (bio), and precipitation of the driest month (bio), from the WorldClim database <ref type="bibr">(Hijmans et al., )</ref>, percentage tree cover in - <ref type="bibr">(Hansen et al., )</ref>, altitude (Valeriano, ), and slope obtained from the AMBDATA database. We also produced raster maps with Euclidean distance from maps of the protected areas (Ministério do Meio Ambiente, ), forest remnants <ref type="bibr">(Ribeiro et al., )</ref> and the Ombrophilous Dense Forest <ref type="bibr">(Veloso et al., )</ref>. The environmental layers were selected based on variables that had a high likelihood of being associated with M. bororo habitat in the humid coastal Atlantic Forest distributed throughout mountain chains.</p><p>All layers were trimmed to match the limits of the Atlantic Forest (modelling scope) and rescaled to a resolution of  km  . All spatial analyses were conducted using ArcMap v. .. (ESRI, Redlands, USA). We evaluated the degree of correlation between environmental variables using PAST . <ref type="bibr">(Hammer et al., )</ref>. Two bioclimatic variables (mean annual temperature and precipitation of the driest month) were removed because of their high correlation (r . |.|) with altitude and precipitation seasonality, respectively. We performed a principal components analysis to select the most explicative variables. The variables identified and subsequently used in the MaxEnt analysis were bio, bio, bio, distance from Ombrophilous Dense Forest, altitude, and percentage tree cover. The resulting model was evaluated using the area under the receiver </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Species identification from scat samples</head><p>We collected  deer scat samples from  of the  surveyed areas. PCR reactions amplified  (%) of the samples successfully. The RFLP reaction failed for PCR products from  samples (.%). For these samples we then proceeded to sequence the PCR products directly, but only  of the PCR products yielded sequences of sufficient quality to determine species. The PCR-RFLP reaction and sequencing indicated that  (%) samples were from M. bororo. The remaining samples were from M. gouazoubira (; %), M. americana (; %) and M. nana (; %). The small red brocket deer was positively identified in only seven localities within the states of São Paulo, Paraná and Santa Catarina (Fig. <ref type="figure"></ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Geographical range</head><p>The size of the area obtained by linking external points of positive occurrence (extent of occurrence) was , km  , encompassing the Serra do Mar and Serra de Paranapiacaba from the states of São Paulo, Paraná and Santa Catarina. This region encompasses the Ombrophilous Dense Forest, an Atlantic Forest formation that is close to the Brazilian coastline, at -°S. We did not detect M. bororo samples in the states of Espírito Santo or Bahia. To define the proposed geographical range we added a buffer zone of  km to the extent of occurrence, except for the areas that extended to the ocean (Fig. <ref type="figure"></ref>). This yielded a geographical range of , km  , which is the best estimate of the actual distribution of the species to date.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Species distribution modelling</head><p>The model developed in MaxEnt (Fig. <ref type="figure"></ref>) was evaluated satisfactorily by the mean area under the curve (. ± SD .) external test with  random partitions and was significantly different from random (P , .) in a two proportion binomial test. The omission error was .. The model predicted the occurrence of M. bororo with the highest values of environmental suitability at Serra de Paranapiacaba, Guaraqueçaba Environmental Protection Area and Serra do Tabuleiro State Park (Fig. <ref type="figure"></ref>). The variables that most contributed to the species distribution model were percentage tree cover (.%), distance from Ombrophilous Dense Forest (.%) and temperature seasonality (.%).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Species of the genus Mazama display a high degree of morphological similarity <ref type="bibr">(Duarte et al., )</ref>, making it difficult to distinguish them by direct field observations or camera traps <ref type="bibr">(Vogliotti &amp; Duarte, )</ref>. Our findings confirmed the sympatry of M. bororo, M. americana, M. nana and M. gouazoubira by the identification of more than one of the species in nine of  localities sampled. Furthermore, we found one or more sympatric Mazama species in three of seven localities (.%) where M. bororo was also detected. We detected M. nana in sympatry with M. bororo in two separate localities, and with M. gouazoubira in another locality (Fig. <ref type="figure"></ref>). These two species (M. nana and M. gouazoubira) are more common than M. bororo in human-altered and less pristine environments <ref type="bibr">(Vogliotti, )</ref>. This suggests that the more suitable habitats used by M. bororo are being altered even in the protected areas where our sampling took place. This change in M. bororo habitat may be the result of edge effects <ref type="bibr">(Ribeiro et al., )</ref>, palm heart exploitation, poaching <ref type="bibr">(Vogliotti &amp; Duarte, )</ref> or global climatic changes <ref type="bibr">(Allen et al., )</ref>. We hypothesize that M. nana may be invading areas that were formerly occupied only by M. bororo and that this invasion may be facilitated by the degradation of the Ombrophilous Mixed Forest. In addition, M. gouazoubira, which is known to be one of the brocket species with greater ecological plasticity <ref type="bibr">(Pinder &amp; Leeuwenberg, ; Black-Décima et al., )</ref> and resistance to anthropogenic habitat alteration <ref type="bibr">(Rodrigues et al., )</ref>, has been extending its range to include deforested areas that were previously covered with Atlantic Forest. The role of competition in the distribution and survival of sympatric brocket species in this area needs careful evaluation to define and mitigate better the effect of habitat changes in conservation plans for the small red brocket.</p><p>Morphometric and morphological studies of skulls and skins from various Brazilian collections (Rossi, ) failed to clearly differentiate M. bororo from M. americana, although the data supported the presence of a partially differentiated population of M. americana distributed throughout the south coast of Brazil. These results were considered to be the most reasonable evidence of the historical distribution of M. bororo in the Atlantic Forest. It is important to note that the ranges of distribution established here and by Rossi () were based on different methods, and there are many uncertainties involved in the reconstruction of the historical distribution. However, we suspect that the extent of the decline in distribution has been dramatic, as the species would have occupied the mountain ranges of the Serra de Paranapiacaba and the Serra do Mar, from the eastern part of the state of Santa Catarina to the state of São Paulo in the south and south-east regions of Brazil. We estimate that the historical geographical range was , km  (Fig. <ref type="figure"></ref>).</p><p>The original proposed extent of the geographical distribution of M. bororo was based on the localities of provenance of the captive individuals used in the karyotypic characterization that resulted in the species description. These individuals originated in the cities of Capão Bonito, Barra do Turvo, São José dos Pinhais and Paranaguá and these localities were used to set the distribution limits to the south of São Paulo and east of Paraná states (Duarte, , ; Duarte &amp; Jorge, ; Vogliotti &amp; Duarte, ).</p><p>Our survey results support an extension of the geographical range of the small red brocket deer to the latitudes -°S and to the longitudes -°W (Fig. <ref type="figure"></ref>), encompassing , km  . This range is considered to be the extent of occurrence, similar to the current area of occupancy because it represents an ecological continuum constituted by protected areas. A comparison of the historical distribution of , km  (Rossi, ) with our results suggests that there has been an % decline in the distribution over the last  centuries. Given its recent description and hypothesized geographical range, there is little historical evidence to facilitate evaluation of the effects of anthropogenic development on the original distribution of the small red brocket deer. Currently, the habitat in the species' area of occupancy is well-preserved, with few barriers to gene flow. If protected, habitat connectivity will help to maintain adequate levels of genetic diversity in the future.</p><p>The small red brocket is the largest endemic animal of Brazil, with perhaps the smallest geographical distribution of any Neotropical deer species. It is categorized as Vulnerable on the IUCN Red List because of its small population size and ongoing decline inferred from poaching and habitat loss, and because all of the remaining individuals are from a single subpopulation <ref type="bibr">(Duarte, )</ref>. It is threatened by human encroachment (% of the Brazilian population lives within the original limits of the Atlantic Forest), poaching, and predation by dogs <ref type="bibr">(Duarte, )</ref>.</p><p>Species distribution modelling indicates that the current geographical distribution reported by IUCN should be revised to encompass northern areas with high environmental suitability, as well as the southern part of the Serra do Tabuleiro State Park and Serra do Itajaí National Park, where we collected occurrence data. In addition, areas of high suitability where no sampling was carried out or no deer species were detected during sampling should be revisited to confirm presence or absence. We also suggest that future species distribution models incorporate variables based on patch size and connectivity. Species distribution modelling provides more detailed information than traditional distribution estimates as it gives a suitability index for each  km  pixel instead of a continuous distribution of values. It increases our understanding of species' needs and gives support to conservation policies such as those for the design and establishment of protected and conservation priority areas.</p><p>We have demonstrated the importance of incorporating traditional field techniques with non-invasive sampling and sophisticated molecular tools to elucidate geographical range, extent of occurrence, and areas with the highest suitability for occupancy by the elusive small red brocket deer. Such information is essential in designing strategies for species conservation, particularly in the Neotropics, where new species with limited distributions are being discovered. Conservation efforts should aim more specifically to maintain the last remnants of the Atlantic Forest and to target the reduction of the edge effects of forest fragments, poaching and palm heart exploitation. M. bororo should be considered a flagship species and used as an indicator of the quality and restoration of the habitat. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG. 1</head><label>1</label><figDesc>FIG. 1 Sampling sites (Table ) for deer scat across the Brazilian Atlantic Forest. Forest type is categorized according to Veloso et al. (), and percentage tree cover is based on Hansen et al. ().</figDesc><graphic coords="3,56.69,62.02,361.43,392.83" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Fig. ), total number of faecal samples collected, and number of samples identified, by Mazama species. Locality (State*) No. of samples identified Total M. bororo M. americana M. nana M. gouazoubira Unknown 1. Serra da Bocaina National Park (SP</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>operating curve, omission error and a two-proportion binomial test (Fielding &amp; Bell, ; Elith et al., ; Pearson, ; Phillips &amp; Dudík, ). To predict the species' distribution we assumed only the probabilistic values over the minimum training presence logistic threshold.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 1</head><label>1</label><figDesc>Sampling localities (see numbered locations in</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>VYNNE, C., SKALSKI, J.R., MACHADO, R.B., GROOM, M.J., JÁCOMO, A.T.A.,MARINHO-FILHO, J. et al. ()  Effectiveness of scat-detection dogs in determining species presence in a tropical savanna landscape. Conservation Biology, , -. WEBER, M. &amp; GONZÁLEZ, S. () Latin American deer diversity and conservation: a review of status and distribution. Ecoscience, , -. S É MAURÍCIO BARBANTI DUARTE has worked on various aspects of the genetics, evolution, ecology and conservation of Neotropical deer species, particularly of the genus Mazama. ÂNGEL A CRISTINA TALARICO is a biologist, and her MSc research focused on the distribution of the small red brocket deer. ALE X A N D R E VOGLIOTTI has worked on small red brocket deer research and conservation, and is currently focused on deer ecology and conservation planning in the Atlantic Forest. JOSÉ EDUARDO GARCI A is interested in the conservation genetics of Brazilian wildlife. MÁRCI O LEI T E OLI V E I R A ' s research is focused on distribution modelling and molecular ecology of brocket deer. JESÚS E. MAL D O N A D O applies non-invasive genetic techniques to study conservation genetics, behavioural ecology and evolutionary genetics of a diversity of rare mammals. SUSAN A GONZÁL E Z has conducted research in conservation biology for over  years and is co-chair of the IUCN SSC Deer Specialist Group.</figDesc><table><row><cell>Biographical sketches</cell></row></table><note><p>JO</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Oryx, 2017, 51(4), 656-664 © 2016 Fauna &amp; Flora International doi:10.1017/S0030605316000405 https://doi.org/10.1017/S0030605316000405 Published online by Cambridge University Press</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>https://doi.org/10.1017/S0030605316000405 Published online by Cambridge University Press</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This project was funded by the <rs type="funder">Projeto de Conservação e Utilização Sustentável da Diversidade Biológica Brasileira</rs>, <rs type="funder">Fundação de Amparo a Pesquisa do Estado de São Paulo</rs>, <rs type="funder">Conselho Nacional de Desenvolvimento Científico e Tecnológico (Brazil)</rs>, <rs type="funder">Agencia Nacional de Investigación y Inovación</rs>, <rs type="funder">Programa de Desarrollo de las Ciencias Básicas</rs>, and <rs type="funder">Comisión Sectorial de Investigación Científica (Uruguay)</rs>. We thank <rs type="person">Renato Cheffer</rs> and <rs type="person">Hermógenes Aparecido Torres</rs> for help with sample collection, and <rs type="institution">Instituto Brasileiro de Meio Ambiente</rs>, <rs type="institution">Instituto Chico Mendes de Conservação da Biodiversidade</rs>, <rs type="institution">Secretaria do Meio Ambiente do Estado do Paraná</rs>, <rs type="institution">Secretaria do Meio Ambiente do Estado de Santa Catarina</rs> and <rs type="institution">EUCATEX S.A. Indústria e Comércio</rs>, who authorized the collection of samples in the Conservation Units under their authority. <rs type="person">Lillian Parker</rs> provided comments that greatly improved this article.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>JMBD was the project coordinator and contributed to writing the article. ACT and JEG conducted laboratory analysis. AV contributed to non-invasive sampling and data management. MLO contributed to non-invasive sampling, laboratory analysis, distribution modelling, and writing the article. JEM provided scientific support and contributed to writing the article. SG provided scientific support, conducted laboratory analysis and contributed to writing the article.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Practical solutions for making models indispensable in conservation decision-making</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F E</forename><surname>Addison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rumpff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Bau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Carey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">E</forename><surname>Chee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Jarrad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Diversity and Distributions</title>
+		<imprint/>
+	</monogr>
+	<note>. -</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A global overview of drought and heat-induced tree mortality reveals emerging climate change risks for forests</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Macalady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chenchouni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bachelet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mc Dowell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vennetier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Forest Ecology and Management</title>
+		<imprint>
+			<publisher>-</publisher>
+		</imprint>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Use of maximum entropy modeling in wildlife research</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Baldwin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<publisher>-</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">) Brown brocket deer Mazama gouazoubira (Fischer, )</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Black-Décima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Rossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vogliotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Cartes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Maffei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Neotropical Cervidology</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>González</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Gland, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>FUNEP, Jaboticabal, Brazil, and IUCN</publisher>
+		</imprint>
+	</monogr>
+	<note>-</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Aspectos taxonômicos e citogenéticos de algumas espécies de cervídeos brasileiros</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Jaboticabal, Brazil</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Universidade Estadual Paulista &apos;Júlio de Mesquita Filho</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">MSc thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</author>
+		<title level="m">Guia de identificação de cervídeos brasileiros</title>
+		<meeting><address><addrLine>Jaboticabal, Brazil</addrLine></address></meeting>
+		<imprint>
+			<publisher>FUNEP</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</author>
+		<author>
+			<persName><surname></surname></persName>
+		</author>
+		<ptr target="Http://www.iucnredlist.org" />
+		<title level="m">The IUCN Red List of Threatened Species v</title>
+		<imprint/>
+	</monogr>
+	<note>Mazama bororo. accessed  March </note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The surprising evolutionary history of South American deer</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Maldonado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Phylogenetics and Evolution</title>
+		<imprint/>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Morphologic and cytogenetic description of the small red brocket (Mazama bororo Duarte, ) in Brazil. Mammalia, , -</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jorge</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Taxonomia e Evolução</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Merino</surname></persName>
+		</author>
+		<author>
+			<persName><surname></surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Biologia e conservação de cervídeos Sul-americanos: Blastoceros</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Jaboticabal, Brazil</addrLine></address></meeting>
+		<imprint>
+			<publisher>FUNEP</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A leukocyte cryopreservation technique for cytogenetic studies</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F D</forename><surname>Ramalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">F H</forename><surname>Lima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jorge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics and Molecular Biology</title>
+		<imprint>
+			<publisher>-</publisher>
+		</imprint>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Novel methods improve prediction of species&apos; distributions from occurrence data</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Elith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dudik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ferrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guisan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecography</title>
+		<imprint>
+			<publisher>-</publisher>
+		</imprint>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A review of methods for the assessment of prediction errors in conservation presence/absence models</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Fielding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Bell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Environmental Conservation</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Galindo-Leal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Câmara</surname></persName>
+		</author>
+		<title level="m">Mata Atlântica: Biodiversidade, ameaças e perspectivas</title>
+		<meeting><address><addrLine>Belo Horizonte, Brazil</addrLine></address></meeting>
+		<imprint>
+			<publisher>Fundação SOS Mata Atlântica</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Identification of the endangered small red brocket deer (Mazama bororo) using non invasive genetic techniques (Mammalia; Cervidae)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Maldonado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Talarico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bidegaray-Batista</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<publisher>-</publisher>
+		</imprint>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Predicting species distributions for conservation decisions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guisan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tingley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Baumgartner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Naujokaitis-Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Sutcliffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I T</forename><surname>Tulloch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology Letters</title>
+		<imprint>
+			<publisher>-</publisher>
+		</imprint>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">PAST: paleontological statistics software package for education and data analysis</title>
+		<author>
+			<persName><forename type="first">Ø</forename><surname>Hammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A T</forename><surname>Harper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Ryan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Palaeontologia Electronica</title>
+		<imprint/>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Global percent tree cover at a spatial resolution of  meters: first results of the MODIS vegetation continuous fields algorithm</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>De Fries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R G</forename><surname>Townshend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Carroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dimiceli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sohlberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Earth Interactions</title>
+		<imprint/>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A comparison of survey methods for detecting bobcats</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint/>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The effect of sample size and species characteristics on performance of different species distribution modeling methods</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Master</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Albert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecography</title>
+		<imprint>
+			<publisher>-</publisher>
+		</imprint>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Very high resolution interpolated climate surfaces for global land areas</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hijmans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Cameron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Parra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jarvis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Climatology</title>
+		<imprint>
+			<publisher>-</publisher>
+		</imprint>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Effectiveness of scat detection dogs for detecting forest carnivores</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Donavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mackay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Buzas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<publisher>-</publisher>
+		</imprint>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Ministério</forename><surname>Do</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Meio</forename><surname>Ambiente</surname></persName>
+		</author>
+		<ptr target="Http://www.mma.gov.br/areas-protegidas/cadastro-nacional-de-ucs/dados-georreferenciados" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Dogs can detect scat samples more efficiently than humans: an experiment in a continuous Atlantic Forest remnant</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Norris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F M</forename><surname>Ramírez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H F</forename><surname>Peres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Galetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zoologia</title>
+		<imprint/>
+	</monogr>
+	<note>. -</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Species&apos; distribution modeling for conservation educators and practitioners</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Pearson</surname></persName>
+		</author>
+		<ptr target="Http://ncep.amnh.org" />
+	</analytic>
+	<monogr>
+		<title level="s">Synthesis. American Museum of Natural History</title>
+		<imprint/>
+	</monogr>
+	<note>. accessed  June </note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Maximum entropy modeling of species geographic distributions</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Schapire</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ecological Modelling</title>
+		<imprint>
+			<publisher>-</publisher>
+		</imprint>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Modeling of species distributions with Maxent: new extensions and a comprehensive evaluation</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dudík</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecography</title>
+		<imprint/>
+	</monogr>
+	<note>. -</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">) Veado-catingueiro (Mazama gouazoubira</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pinder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Leeuwenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first"></forename><surname>Fischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Biologia e conservação de cervídeos Sul-americanos: Blastocerus, Ozotoceros e Mazama</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Jaboticabal, Brazil</addrLine></address></meeting>
+		<imprint>
+			<publisher>FUNEP</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Detection distance and environmental factors in conservation detection dog surveys</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Bidlack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hurt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Getz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint/>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The Brazilian Atlantic Forest: how much is left, and how is the remaining forest distributed? Implications for conservation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Metzger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Martensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Ponzoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Hirota</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Biological Conservation</title>
+		<imprint>
+			<publisher>-</publisher>
+		</imprint>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Estimating brocket deer (Mazama gouazoubira and M. americana) abundance by dung pellet counts and other indices in seasonal Chiquitano forest habitats of Santa Cruz, Bolivia</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rivero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Rumiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Taber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Wildlife Research</title>
+		<imprint/>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Uso de áreas agrícolas por Mazama gouazoubira (Mammalia, Cervidae) no Estado de São Paulo</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Cerveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Iheringia Serie Zoologia</title>
+		<imprint/>
+	</monogr>
+	<note>. -</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Faecal sampling using detection dogs to study reproduction and health in North Atlantic right whales (Eubalaena glacialis)</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Rolland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Davenport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Gillett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Wasser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cetacean Research and Management</title>
+		<imprint/>
+	</monogr>
+	<note>. -</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Rossi</surname></persName>
+		</author>
+		<author>
+			<persName><surname></surname></persName>
+		</author>
+		<title level="m">Taxonomia de Mazama Rafinesque,  do Brasil (Artiodactyla, Cervidae)</title>
+		<meeting><address><addrLine>São Paulo, Brazil</addrLine></address></meeting>
+		<imprint/>
+		<respStmt>
+			<orgName>Universidade de São Paulo</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">MS thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Status of the biodiversity of the Atlantic Forest of Brazil</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M C</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H M</forename><surname>Casteleti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Atlantic Forest of South America: Biodiversity Status, Threats, and Outlook</title>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Galindo-Leal</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Câmara</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Washington, DC, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>CABS &amp; Island Press</publisher>
+		</imprint>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Assessment of scat-detection dog surveys to determine kit fox distribution</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ralls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Cypher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Maldonado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Society Bulletin</title>
+		<imprint/>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Canine assistants for conservationists</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+			<affiliation>
+				<orgName type="collaboration"></orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ralls</surname></persName>
+			<affiliation>
+				<orgName type="collaboration"></orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Davenport</surname></persName>
+			<affiliation>
+				<orgName type="collaboration"></orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Adams</surname></persName>
+			<affiliation>
+				<orgName type="collaboration"></orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Maldonado</surname></persName>
+			<affiliation>
+				<orgName type="collaboration"></orgName>
+			</affiliation>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Detection and accuracy rates of dogs trained to find scats of San Joaquin kit foxes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ralls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hurt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Davenport</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Conservation</title>
+		<imprint>
+			<publisher>-</publisher>
+		</imprint>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Challenges and opportunities for biodiversity conservation in the Brazilian Atlantic Forest</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tabarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Pinto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M C</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hirota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bedê</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<publisher>-</publisher>
+		</imprint>
+	</monogr>
+	<note></note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">MEGA: molecular evolutionary genetics analysis using maximum likelihood, evolutionary distance, and maximum parsimony methods</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stecher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">(</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><surname></surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Biology and Evolution</title>
+		<imprint>
+			<publisher>-</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">TOPODATA: Guia Para Utilização de Dados Geomorfométricos Locais</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Valeriano</surname></persName>
+		</author>
+		<author>
+			<persName><surname></surname></persName>
+		</author>
+		<ptr target="Http://mtc-mc.sid.inpe.br/col/sid.inpe.br/mtc-m@//.../doc/publicacao.pdf" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Classificação da vegetação brasileira, adaptada a um sistema universal</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Veloso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L R</forename><surname>Rangel-Filho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C A</forename><surname>Lima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m"></title>
+		<meeting><address><addrLine>Rio de Janeiro, Brazil</addrLine></address></meeting>
+		<imprint>
+			<publisher>IBGE</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vogliotti</surname></persName>
+		</author>
+		<title level="m">) Partição de habitats entre os Cervídeos do Parque Nacional do Iguaçu</title>
+		<meeting><address><addrLine>Piracicaba, Brazil</addrLine></address></meeting>
+		<imprint/>
+		<respStmt>
+			<orgName>Universidade de São Paulo</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Discovery of the first wild population of the small red brocket deer Mazama bororo (Artiodactyla: Cervidae). Mastozoologia Neotropical, , -</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vogliotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Small red brocket deer-Mazama bororo</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vogliotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Neotropical Cervidology</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>González</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Gland, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>FUNEP, Jaboticabal, Brazil, and IUCN</publisher>
+		</imprint>
+	</monogr>
+	<note>-</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">) Veado-mateiro-pequeno (Mazama bororo)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vogliotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Plano de Ação Nacional para a Conservação dos Cervídeos Ameaçados de Extinção</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">M B</forename><surname>Duarte</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Reis</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Brasília, Brazil</addrLine></address></meeting>
+		<imprint>
+			<publisher>ICMBio</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

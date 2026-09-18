@@ -1,0 +1,275 @@
+Traitement du fichier : RAG/output/s12686-016-0574-3.json
+Traitement du lot 1/1 (documents 1-9)
+Lot 1 indexé avec succès: 9 documents
+9/9 documents indexés depuis RAG/output/s12686-016-0574-3.json
+
+--- Méthode avec Refine ---
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:03:28.24936Z', 'message': {'role': 'assistant', 'content': '"DNA sampling methods were employed to obtain genetic data from wild animal populations. Blood samples were collected from captured animals using lithium heparin tubes (BD Vacutainer) via venipuncture of the vena jugularis. Animals were anesthetized with isoflurane for ethical considerations and to minimize stress. Capture was performed using padded leg-hold traps (Tomahawk Live Trap Co.) baited with appropriate food items specific to each species. Samples were collected within a 5-minute window post-capture, with a maximum of 1ml blood drawn per animal to prevent excessive blood loss. Sampling frequency varied depending on the target population\'s density and behavior, ranging from monthly to annually. All procedures complied with approved institutional animal care protocols."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 39194724250, 'load_duration': 53668166, 'prompt_eval_count': 466, 'prompt_eval_duration': 2919104750, 'eval_count': 148, 'eval_duration': 8730168871}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:04:04.497101Z', 'message': {'role': 'assistant', 'content': '"For our study on wildlife genetic analysis, we employed non-invasive sampling methods to minimize disturbance to the animal subjects. We targeted fecal samples due to their accessibility and high DNA yield. Feces were collected using sterile gloves from marked locations along known animal trails. Sampling was conducted weekly for a duration of three months to ensure sufficient genetic material while minimizing individual stress. To maintain sample integrity, we used Whirl-Pak bags and immediately froze them in liquid nitrogen before transferring to -80°C storage. Ethical considerations included maintaining a safe distance from animals during sampling to avoid disturbance, and obtaining necessary permits prior to conducting fieldwork."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 36242663083, 'load_duration': 49981583, 'prompt_eval_count': 466, 'prompt_eval_duration': 3058904209, 'eval_count': 126, 'eval_duration': 7451076500}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:04:24.713172Z', 'message': {'role': 'assistant', 'content': 'For non-invasive genetic sampling (NGS) of wild animals, we focused on collecting fecal samples. Fresh scats were located along animal trails and at known feeding sites using visual observation and tracking techniques. Upon discovery, each sample was collected using sterile gloves and placed into individual Whirl-Pak bags. For DNA extraction, approximately 250 mg of feces were used from each sample. To minimize disturbance to animals and reduce stress, we ensured that no direct contact with the animals occurred during sampling. Additionally, all sampling procedures complied with ethical guidelines for animal welfare, including obtaining necessary permits and following approved protocols.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 20204103375, 'load_duration': 47400542, 'prompt_eval_count': 466, 'prompt_eval_duration': 605049625, 'eval_count': 124, 'eval_duration': 7232993545}
+
+=== Documents hypothétiques générés ===
+
+Document hypothétique 1:
+--------------------------------------------------
+"DNA sampling methods were employed to obtain genetic data from wild animal populations. Blood samples were collected from captured animals using lithium heparin tubes (BD Vacutainer) via venipuncture of the vena jugularis. Animals were anesthetized with isoflurane for ethical considerations and to minimize stress. Capture was performed using padded leg-hold traps (Tomahawk Live Trap Co.) baited with appropriate food items specific to each species. Samples were collected within a 5-minute window post-capture, with a maximum of 1ml blood drawn per animal to prevent excessive blood loss. Sampling frequency varied depending on the target population's density and behavior, ranging from monthly to annually. All procedures complied with approved institutional animal care protocols."
+--------------------------------------------------
+
+Document hypothétique 2:
+--------------------------------------------------
+"For our study on wildlife genetic analysis, we employed non-invasive sampling methods to minimize disturbance to the animal subjects. We targeted fecal samples due to their accessibility and high DNA yield. Feces were collected using sterile gloves from marked locations along known animal trails. Sampling was conducted weekly for a duration of three months to ensure sufficient genetic material while minimizing individual stress. To maintain sample integrity, we used Whirl-Pak bags and immediately froze them in liquid nitrogen before transferring to -80°C storage. Ethical considerations included maintaining a safe distance from animals during sampling to avoid disturbance, and obtaining necessary permits prior to conducting fieldwork."
+--------------------------------------------------
+
+Document hypothétique 3:
+--------------------------------------------------
+For non-invasive genetic sampling (NGS) of wild animals, we focused on collecting fecal samples. Fresh scats were located along animal trails and at known feeding sites using visual observation and tracking techniques. Upon discovery, each sample was collected using sterile gloves and placed into individual Whirl-Pak bags. For DNA extraction, approximately 250 mg of feces were used from each sample. To minimize disturbance to animals and reduce stress, we ensured that no direct contact with the animals occurred during sampling. Additionally, all sampling procedures complied with ethical guidelines for animal welfare, including obtaining necessary permits and following approved protocols.
+--------------------------------------------------
+
+=== Fin des documents hypothétiques ===
+
+
+=== Statistiques des scores de similarité ===
+Score minimum initial: 0.6860
+Score maximum initial: 0.8628
+Score moyen initial: 0.7723
+
+=== Statistiques après filtrage dynamique ===
+Seuil dynamique appliqué: 0.7837
+Score minimum conservé: 0.7594
+Score maximum conservé: 0.8628
+Score moyen conservé: 0.8061
+Nombre de documents conservés: 5
+Documents récupérés : 5
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:04:46.252569Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "Koala scat samples were collected...",\n    "Scats were collected and DNA isolated according to the methods outlined in Wedrowicz et al. (2013).",\n    "DNA was also isolated from ear tissue samples... Approximately 3 mm square was excised from ear samples and cut into small pieces.",\n    "DNA was then isolated using the DNeasy Ò Blood & Tissue Kit (Qiagen) following the manufacturer\'s protocol."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 21107122875, 'load_duration': 49242166, 'prompt_eval_count': 616, 'prompt_eval_duration': 3755570125, 'eval_count': 114, 'eval_duration': 6623058705}
+Chunk : Koala scat samples were collected from wild individuals in the Strzelecki Ranges, South Gippsland (n = 17), Raymond Island (n = 2) and from koalas at the Koala Conservation Centre (n = 6) on Phillip Island, all in Victoria (total VIC samples; n = 25) (Fig. 1). Koala scats were also obtained from the Port Macquarie Koala Hospital in New South Wales (NSW, n = 15). Scats were collected and DNA isolated according to the methods outlined in Wedrowicz et al. (2013). To compare the results from scat samples with those from a commonly utilised invasive DNA source, DNA was also isolated from ear tissue samples (n = 50) from deceased individuals, collected by staff at the Southern Ash Wildlife Shelter (SAWS), Rawson, Victoria. Approximately 3 mm square was excised from ear samples and cut into small pieces. DNA was then isolated using the DNeasy Ò Blood & Tissue Kit (Qiagen) following the manufacturer's protocol.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "Koala scat samples were collected...",
+    "Scats were collected and DNA isolated according to the methods outlined in Wedrowicz et al. (2013).",
+    "DNA was also isolated from ear tissue samples... Approximately 3 mm square was excised from ear samples and cut into small pieces.",
+    "DNA was then isolated using the DNeasy Ò Blood & Tissue Kit (Qiagen) following the manufacturer's protocol."
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:05:05.295734Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": false\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 19038616458, 'load_duration': 45301208, 'prompt_eval_count': 746, 'prompt_eval_duration': 4724267376, 'eval_count': 12, 'eval_duration': 646981292}
+Chunk : Quantitative PCR revealed significant differences in copy number between scat samples from NSW and Victoria. On average, more than four KoRV-A copies per genomic unit were detected in scats sampled in NSW, whereas less than one copy per genomic unit was detected in Victorian scat samples (Fig. 3; p = 0.01). This is concordant with results reported by Simmons et al. (2012) further supporting the hypothesis that most infections in Victoria are exogenous, as endogenous proviral DNA would be expected to be present in every cell if acquired vertically via the germline. Simmons et al. (2012) showed that KoRV is endogenous in northern koala populations, and is inserted into the genome multiple times, with an average of 165 KoRV copies per cell reported for Queensland individuals; the mean of four KoRV copies per genomic unit value reported for NSW koalas in this study is substantially lower. KoRV-A copy number also differed significantly between scat and ear tissue samples collected in South Gippsland, with scats having on average, 30 times as many KoRV-A copies per ) while the KoRV-A PCR had a regression fit of C T = 31.6-2.9 log 10 DNA (R 2 = 26 %, p = 1.9 9 10 -4 ) genomic unit than tissue samples (Fig. 4; p \ 0.0005). KoRV-A in DNA isolated from ear tissue averaged 0.003 ± 0.002 copies per genomic unit while DNA isolated from scats had a mean of 0.09 ± 0.01 KoRV-A copies per genomic unit.
+Réponse du modèle : {
+"contient_protocole": false
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:05:22.67366Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "Scat samples were collected from six koalas...",\n    "To assess detection reproducibility...DNA was isolated from three different scats collected beneath each koala..."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 17373248875, 'load_duration': 46205292, 'prompt_eval_count': 890, 'prompt_eval_duration': 3160446250, 'eval_count': 55, 'eval_duration': 3179199584}
+Chunk : Scat samples were collected from six koalas in the Strzelecki Ranges, Victoria during March 2015. The six individual koalas from which scats were collected were also captured as part of an independent study carried out by the NSW Office of Environment and Heritage (Allen 2015). The purpose of the study carried out by Allen (2015) was to determine the prevalence of chlamydial infections in the Strzelecki Ranges koala population by capturing and collecting ocular and urogenital swabs from koalas. Results obtained from DNA isolated from urogenital swabs (six koalas: K01-K06) collected for the Allen (2015) study allowed direct comparison of C. pecorum presence detected by both methods. Scats located on the ground beneath each koala captured by Allen (2015) were collected for the isolation of DNA according to the methods described by Wedrowicz et al. (2013). To assess detection reproducibility in DNA isolated from scats from the same individual, DNA was isolated from three different scats collected beneath each koala, resulting in three DNA isolates per individual. The concentration of total DNA isolated from scats was determined using the Qubit Ò 2.0 Fluorometer following the manufacturer's instructions. Presence/absence assay for C. pecorum Real time assays for C. pecorum targeting a 76 bp region of the ompA gene were carried out as per Pantchev et al. (2010). Reactions also incorporated TaqMan Ò Exogenous Internal Positive Control (IPC) Reagents in order to differentiate failed reactions, due to PCR inhibition, from true negative results. Amplification was carried out using the Applied Biosystems Step One Plus instrument using a presence absence protocol. PCR product using primers amplifying 1140 bp of the ompA gene (details below: ompA gene sequencing) was used to prepare 1:10 serial dilutions for standards ranging from 8 9 10 0 -8 9 10 6 copies per reaction. Standards were used to assess reaction sensitivity including an IPC, as well as to estimate the number of chlamydial DNA copies in different samples. A standard PCR to determine the gender of the sampled individual was also carried out using DNA isolated from scats as outlined in Wedrowicz et al. (2013).
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "Scat samples were collected from six koalas...",
+    "To assess detection reproducibility...DNA was isolated from three different scats collected beneath each koala..."
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:05:42.391384Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "KoRV-A copy number DNA from tissues (n = 50) and additional scat samples (n = 117) collected in the South Gippsland region were also screened for KoRV (data not shown)."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 19713276750, 'load_duration': 46654792, 'prompt_eval_count': 1198, 'prompt_eval_duration': 5147413791, 'eval_count': 71, 'eval_duration': 4208053878}
+Chunk : Standard PCRs utilised KoRV-A specific primers published in Xu et al. (2013) alongside koala b-actin primers (Markey et al. 2007) to confirm the presence of koala DNA. Standard PCRs for KoRV-A were made up of 5 lL GoTaq Ò Green Master Mix (Promega), 1.0 lM of each KoRV-A primer, 0.1 lg bovine serum albumin (BSA), 1 lL of DNA template and water to give a final volume of 10 lL. PCR cycling parameters were 95 °C for 2 min followed by 35 cycles of 95 °C for 30 s, 64 °C for 30 s and 72 °C for 30 s followed by a final extension of 72 °C for 5 min. Standard PCR for koala b-actin consisted of 5 lL GoTaq Ò Green Master Mix, 1.0 lM of each KoRV-A primer, 0.1 lg BSA, 1 lL of DNA template and water to bring the final volume to 10 lL. PCR cycling parameters were 95 °C for 2 min followed by 35 cycles of 95 °C for 30 s, 60 °C for 30 s and 72 C for 30 s and finished with a final extension of 72 °C for 5 min. To ensure the lower sensitivity of standard PCR assays was not resulting in an increased number of false negatives, real time PCR assays, using the same primers specific for KoRV-A (Xu et al. 2013), were carried out by the KHH on the same set of samples (VIC and NSW, n = 40) tested by standard PCR to independently validate results. Real time PCRs were carried out on both undiluted and 1:10 dilutions of DNA isolates. KoRV-A copy number DNA from tissues (n = 50) and additional scat samples (n = 117) collected in the South Gippsland region were also screened for KoRV (data not shown). Using a subset of randomly selected positive samples, KoRV copy number was compared between Victorian scat samples (VIC, n = 13) and ear tissue samples (TISS, n = 13) along with scat samples collected from New South Wales (NSW, n = 8). This was carried out using real time PCR with KoRV-A primers (Xu et al. 2013) and b-actin primers (Markey et al. 2007) to standardise copy number. Standards were produced for the KoRV-A and b-actin assays by amplifying the two targets using standard PCR. KoRV-A and b-actin PCR product was then purified using the Wizard Ò SV Gel and PCR Clean-Up System (Promega). Serial 1:10 dilutions ranging approximately from 10 0 to 10 6 copies of KoRV-A or b-actin PCR product were then used as standards for the estimation of copy number. Both PCRs were carried out using 10 lL of SYBR Ò Green Master Mix (Applied Biosystems), 0.25 lM of each primer and 2 lL of DNA template made up to a total of 20 lL with water and cycling parameters consisting of 50 °C for 2 min (UDG activation), 95 °C for 2 min (polymerase activation) followed by 50 cycles of 95 °C for 3 s and 60 °C for 30 s. A melt curve was produced to check for non-specific products. All standards, controls and samples were tested in duplicate.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "KoRV-A copy number DNA from tissues (n = 50) and additional scat samples (n = 117) collected in the South Gippsland region were also screened for KoRV (data not shown)."
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:05:56.283068Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": false\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 13886498791, 'load_duration': 48545208, 'prompt_eval_count': 515, 'prompt_eval_duration': 999159875, 'eval_count': 12, 'eval_duration': 643661167}
+Chunk : A 1115 bp segment of the KoRV env gene was sequenced for a subset of positive samples to confirm the detection of KoRV DNA. Sequences of samples from NSW koalas (n = 2) were 100 % identical to KoRV-A sequence (AF151794.2; Hanger et al. 2000). All samples from Victorian koalas that were sequenced (n = 4) had six identical nucleotide base changes in the env segment. The six polymorphisms in the Victorian samples were all synonymous, not having an effect on the amino acid sequence of the env gene.
+Réponse du modèle : {
+"contient_protocole": false
+}
+Protocoles détectés : 5
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:06:16.621853Z', 'message': {'role': 'assistant', 'content': '[\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "Koala scat samples were collected...",\n      "Scats were collected and DNA isolated according to the methods outlined in Wedrowicz et al. (2013).",\n      "DNA was also isolated from ear tissue samples... Approximately 3 mm square was excised from ear samples and cut into small pieces.",\n      "DNA was then isolated using the DNeasy Ò Blood & Tissue Kit (Qiagen) following the manufacturer\\\'s protocol."\n    ]\n  },\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "Scat samples were collected from six koalas...",\n      "To assess detection reproducibility...DNA was isolated from three different scats collected beneath each koala..."\n    ]\n  }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 20334301500, 'load_duration': 47330209, 'prompt_eval_count': 723, 'prompt_eval_duration': 4497621417, 'eval_count': 181, 'eval_duration': 10571217794}
+Protocoles fusionnés : [
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "Koala scat samples were collected...",
+      "Scats were collected and DNA isolated according to the methods outlined in Wedrowicz et al. (2013).",
+      "DNA was also isolated from ear tissue samples... Approximately 3 mm square was excised from ear samples and cut into small pieces.",
+      "DNA was then isolated using the DNeasy Ò Blood & Tissue Kit (Qiagen) following the manufacturer\'s protocol."
+    ]
+  },
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "Scat samples were collected from six koalas...",
+      "To assess detection reproducibility...DNA was isolated from three different scats collected beneath each koala..."
+    ]
+  }
+]
+Nombre de protocoles après fusion : 3
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:07:00.606826Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["Koala scat samples were collected...", "DNA was also isolated from ear tissue samples... Approximately 3 mm square was excised from ear samples and cut into small pieces."],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces et tissu d\'oreille",\n"mots_cles_invasivite": ["excised", "cut"],\n"mots_cles_non_invasivite": [],\n"evaluation_invasivite": "Invasif",\n"justification_invasivite": "Le protocole implique la manipulation de l\'animal vivant (excision et découpe du tissu d\'oreille) pour obtenir des échantillons, ce qui cause potentiellement du stress et des blessures.",\n"signaux_alarme": ["excised", "cut"],\n"impacts_potentiels": ["Stress animalier", "Blessures potentielles"],\n"peches_identifies": [3],\n"informations_manquantes": [],\n"taux_de_confiance": "100% - La méthodologie est explicitement détaillée."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 43979339792, 'load_duration': 45109875, 'prompt_eval_count': 2113, 'prompt_eval_duration': 13183267041, 'eval_count': 245, 'eval_duration': 14850290882}
+Analyse du protocole avec les extraits : Koala scat samples were collected...
+Scats were collected and DNA isolated according to the methods outlined in Wedrowicz et al. (2013).
+DNA was also isolated from ear tissue samples... Approximately 3 mm square was excised from ear samples and cut into small pieces.
+DNA was then isolated using the DNeasy Ò Blood & Tissue Kit (Qiagen) following the manufacturer's protocol.
+Réponse du modèle : {
+"extrait_pertinent": ["Koala scat samples were collected...", "DNA was also isolated from ear tissue samples... Approximately 3 mm square was excised from ear samples and cut into small pieces."],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces et tissu d'oreille",
+"mots_cles_invasivite": ["excised", "cut"],
+"mots_cles_non_invasivite": [],
+"evaluation_invasivite": "Invasif",
+"justification_invasivite": "Le protocole implique la manipulation de l'animal vivant (excision et découpe du tissu d'oreille) pour obtenir des échantillons, ce qui cause potentiellement du stress et des blessures.",
+"signaux_alarme": ["excised", "cut"],
+"impacts_potentiels": ["Stress animalier", "Blessures potentielles"],
+"peches_identifies": [3],
+"informations_manquantes": [],
+"taux_de_confiance": "100% - La méthodologie est explicitement détaillée."
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:07:35.885237Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["Scat samples were collected from six koalas...", "To assess detection reproducibility...DNA was isolated from three different scats collected beneath each koala..."],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces",\n"mots_cles_invasivite": ["collected"],\n"mots_cles_non_invasivite": [],\n"evaluation_invasivite": "Invasif",\n"justification_invasivite": "Le protocole mentionne la collecte de fèces chez les koalas, ce qui est considéré comme invasif selon les règles spécifiques aux mammifères. La collecte de fèces peut affecter le comportement naturel des animaux et perturber leur habitat.",\n"signaux_alarme": ["collected"],\n"impacts_potentiels": ["Stress pour l\'animal", "Perturbation du marquage territorial"],\n"peches_identifies": [1],\n"informations_manquantes": [],\n"taux_de_confiance": "95% - Les informations sont claires et permettent une évaluation explicite de l\'invasivité."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 35269224125, 'load_duration': 47803625, 'prompt_eval_count': 2059, 'prompt_eval_duration': 2486474833, 'eval_count': 251, 'eval_duration': 15157126387}
+Analyse du protocole avec les extraits : Scat samples were collected from six koalas...
+To assess detection reproducibility...DNA was isolated from three different scats collected beneath each koala...
+Réponse du modèle : {
+"extrait_pertinent": ["Scat samples were collected from six koalas...", "To assess detection reproducibility...DNA was isolated from three different scats collected beneath each koala..."],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces",
+"mots_cles_invasivite": ["collected"],
+"mots_cles_non_invasivite": [],
+"evaluation_invasivite": "Invasif",
+"justification_invasivite": "Le protocole mentionne la collecte de fèces chez les koalas, ce qui est considéré comme invasif selon les règles spécifiques aux mammifères. La collecte de fèces peut affecter le comportement naturel des animaux et perturber leur habitat.",
+"signaux_alarme": ["collected"],
+"impacts_potentiels": ["Stress pour l'animal", "Perturbation du marquage territorial"],
+"peches_identifies": [1],
+"informations_manquantes": [],
+"taux_de_confiance": "95% - Les informations sont claires et permettent une évaluation explicite de l'invasivité."
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:08:17.674958Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["KoRV-A copy number DNA from tissues (n = 50) and additional scat samples (n = 117) collected in the South Gippsland region were also screened for KoRV (data not shown)."],\n"taxon_identifie": "Mammifère",\n"echantillon": "Tissus et échantillons de fèces",\n"mots_cles_invasivite": [],\n"mots_cles_non_invasivite": ["collected"],\n"evaluation_invasivite": "Non invasif",\n"justification_invasivite": "Le protocole mentionne uniquement la collecte d\'échantillons de tissus et de fèces, sans aucune indication de capture ou de manipulation des animaux. La collecte de fèces est considérée comme non invasive selon les règles spécifiques aux mammifères.",\n"signaux_alarme": [],\n"impacts_potentiels": [],\n"peches_identifies": [],\n"informations_manquantes": ["Il n\'y a pas d\'informations sur la fréquence ou l\'exhaustivité de la collecte des fèces."],\n"taux_de_confiance": "80% - La justification est basée sur les règles spécifiques aux mammifères, mais il manque des informations sur la fréquence et l\'exhaustivité de la collecte des fèces."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 41784754708, 'load_duration': 47729583, 'prompt_eval_count': 2077, 'prompt_eval_duration': 2493706375, 'eval_count': 291, 'eval_duration': 17580894246}
+Analyse du protocole avec les extraits : KoRV-A copy number DNA from tissues (n = 50) and additional scat samples (n = 117) collected in the South Gippsland region were also screened for KoRV (data not shown).
+Réponse du modèle : {
+"extrait_pertinent": ["KoRV-A copy number DNA from tissues (n = 50) and additional scat samples (n = 117) collected in the South Gippsland region were also screened for KoRV (data not shown)."],
+"taxon_identifie": "Mammifère",
+"echantillon": "Tissus et échantillons de fèces",
+"mots_cles_invasivite": [],
+"mots_cles_non_invasivite": ["collected"],
+"evaluation_invasivite": "Non invasif",
+"justification_invasivite": "Le protocole mentionne uniquement la collecte d'échantillons de tissus et de fèces, sans aucune indication de capture ou de manipulation des animaux. La collecte de fèces est considérée comme non invasive selon les règles spécifiques aux mammifères.",
+"signaux_alarme": [],
+"impacts_potentiels": [],
+"peches_identifies": [],
+"informations_manquantes": ["Il n'y a pas d'informations sur la fréquence ou l'exhaustivité de la collecte des fèces."],
+"taux_de_confiance": "80% - La justification est basée sur les règles spécifiques aux mammifères, mais il manque des informations sur la fréquence et l'exhaustivité de la collecte des fèces."
+}
+Analyses générées : 3
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:09:56.237386Z', 'message': {'role': 'assistant', 'content': '[\n    {\n        "protocole": "Koala scat samples were collected",\n        "extrait_pertinent": ["Koala scat samples were collected...", "DNA was also isolated from ear tissue samples... Approximately 3 mm square was excised from ear samples and cut into small pieces.", "Scat samples were collected from six koalas...", "To assess detection reproducibility...DNA was isolated from three different scats collected beneath each koala..."],\n        "taxon_identifie": "Mammifère",\n        "echantillon": "Fèces et tissu d\'oreille",\n        "mots_cles_invasivite": ["excised", "cut", "collected"],\n        "mots_cles_non_invasivite": [],\n        "evaluation_invasivite": "Invasif",\n        "justification_invasivite": "Le protocole implique la manipulation de l\'animal vivant (excision et découpe du tissu d\'oreille) pour obtenir des échantillons, ce qui cause potentiellement du stress et des blessures. La collecte de fèces peut affecter le comportement naturel des animaux et perturber leur habitat.",\n        "signaux_alarme": ["excised", "cut", "collected"],\n        "impacts_potentiels": ["Stress animalier", "Blessures potentielles", "Stress pour l\'animal", "Perturbation du marquage territorial"],\n        "peches_identifies": [3, 1],\n        "informations_manquantes": [],\n        "taux_de_confiance": "95% - Les informations sont claires et permettent une évaluation explicite de l\'invasivité."\n    },\n    {\n        "protocole": "KoRV-A copy number DNA from tissues and scat samples were screened",\n        "extrait_pertinent": ["KoRV-A copy number DNA from tissues (n = 50) and additional scat samples (n = 117) collected in the South Gippsland region were also screened for KoRV (data not shown)."],\n        "taxon_identifie": "Mammifère",\n        "echantillon": "Tissus et échantillons de fèces",\n        "mots_cles_invasivite": [],\n        "mots_cles_non_invasivite": ["collected"],\n        "evaluation_invasivite": "Non invasif",\n        "justification_invasivite": "Le protocole mentionne uniquement la collecte d\'échantillons de tissus et de fèces, sans aucune indication de capture ou de manipulation des animaux. La collecte de fèces est considérée comme non invasive selon les règles spécifiques aux mammifères.",\n        "signaux_alarme": [],\n        "impacts_potentiels": [],\n        "peches_identifies": [],\n        "informations_manquantes": ["Il n\'y a pas d\'informations sur la fréquence ou l\'exhaustivité de la collecte des fèces."],\n        "taux_de_confiance": "80% - La justification est basée sur les règles spécifiques aux mammifères, mais il manque des informations sur la fréquence et l\'exhaustivité de la collecte des fèces."\n    }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 98556747000, 'load_duration': 46865250, 'prompt_eval_count': 1806, 'prompt_eval_duration': 7939617459, 'eval_count': 691, 'eval_duration': 42608999782}
+Réponse finale : [
+    {
+        "protocole": "Koala scat samples were collected",
+        "extrait_pertinent": ["Koala scat samples were collected...", "DNA was also isolated from ear tissue samples... Approximately 3 mm square was excised from ear samples and cut into small pieces.", "Scat samples were collected from six koalas...", "To assess detection reproducibility...DNA was isolated from three different scats collected beneath each koala..."],
+        "taxon_identifie": "Mammifère",
+        "echantillon": "Fèces et tissu d'oreille",
+        "mots_cles_invasivite": ["excised", "cut", "collected"],
+        "mots_cles_non_invasivite": [],
+        "evaluation_invasivite": "Invasif",
+        "justification_invasivite": "Le protocole implique la manipulation de l'animal vivant (excision et découpe du tissu d'oreille) pour obtenir des échantillons, ce qui cause potentiellement du stress et des blessures. La collecte de fèces peut affecter le comportement naturel des animaux et perturber leur habitat.",
+        "signaux_alarme": ["excised", "cut", "collected"],
+        "impacts_potentiels": ["Stress animalier", "Blessures potentielles", "Stress pour l'animal", "Perturbation du marquage territorial"],
+        "peches_identifies": [3, 1],
+        "informations_manquantes": [],
+        "taux_de_confiance": "95% - Les informations sont claires et permettent une évaluation explicite de l'invasivité."
+    },
+    {
+        "protocole": "KoRV-A copy number DNA from tissues and scat samples were screened",
+        "extrait_pertinent": ["KoRV-A copy number DNA from tissues (n = 50) and additional scat samples (n = 117) collected in the South Gippsland region were also screened for KoRV (data not shown)."],
+        "taxon_identifie": "Mammifère",
+        "echantillon": "Tissus et échantillons de fèces",
+        "mots_cles_invasivite": [],
+        "mots_cles_non_invasivite": ["collected"],
+        "evaluation_invasivite": "Non invasif",
+        "justification_invasivite": "Le protocole mentionne uniquement la collecte d'échantillons de tissus et de fèces, sans aucune indication de capture ou de manipulation des animaux. La collecte de fèces est considérée comme non invasive selon les règles spécifiques aux mammifères.",
+        "signaux_alarme": [],
+        "impacts_potentiels": [],
+        "peches_identifies": [],
+        "informations_manquantes": ["Il n'y a pas d'informations sur la fréquence ou l'exhaustivité de la collecte des fèces."],
+        "taux_de_confiance": "80% - La justification est basée sur les règles spécifiques aux mammifères, mais il manque des informations sur la fréquence et l'exhaustivité de la collecte des fèces."
+    }
+]
+
+--- Méthode avec Refine et detect_non_invasive_level ---
+Traitement du lot 1/2 (documents 1-10)
+Lot 1 indexé avec succès: 10 documents
+Traitement du lot 2/2 (documents 11-19)
+Lot 2 indexé avec succès: 9 documents
+19/19 documents indexés depuis RAG/output_invasive_detection/s12686-016-0574-3.json
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:10:30.538263Z', 'message': {'role': 'assistant', 'content': 'The collection of koala scat samples constitutes a non-invasive method for obtaining genetic material from wild animals. This protocol does not require the capture or handling of the koalas, minimizing any potential stress and disturbance to the animals. The scats are collected from the ground using sterile gloves and placed in individual plastic bags, which are then stored at -20°C until further processing. Since the samples are collected after they have been naturally deposited by the koalas, there is no need for anesthesia or other invasive procedures. This approach allows for the collection of large amounts of genetic material from non-invasively shed cells, making it an ideal method for monitoring koala populations and assessing pathogen prevalence without causing harm to the animals.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 31243997291, 'load_duration': 53850791, 'prompt_eval_count': 382, 'prompt_eval_duration': 1185395500, 'eval_count': 145, 'eval_duration': 8444125088}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:11:07.082342Z', 'message': {'role': 'assistant', 'content': '"Koala scat samples were collected as a non-invasive method for genetic analysis. The protocol involved the identification and collection of fresh koala droppings from the ground beneath trees marked with koala scent or scratches. No direct contact with the animals was required, thus eliminating any stress or harm to them. This approach ensures that no koalas were captured or handled during the sampling process, making it a truly non-invasive method. Additionally, no anesthesia was administered, as it is not necessary for scat collection. The primary objective of this protocol was to obtain genetic material from koala feces without disturbing the animals\' natural behavior or causing any distress, thereby minimizing the risk of disease transmission and maintaining the ethical standards of wildlife research."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 36539652083, 'load_duration': 45188875, 'prompt_eval_count': 382, 'prompt_eval_duration': 1182913000, 'eval_count': 148, 'eval_duration': 8672504920}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:11:31.530503Z', 'message': {'role': 'assistant', 'content': "The collection of koala scat samples constitutes a non-invasive method for obtaining genetic material from these animals. This approach avoids direct contact with the koalas and eliminates the need for capture or handling of the individuals. Koalas defecate on trees as part of their natural behavior, making it possible to collect fecal samples from the ground without disturbing the animals' habitat or causing them stress. Additionally, the use of scat samples reduces the risk of disease transmission between researchers and koalas, as well as among koala populations. The genetic material extracted from these samples can then be used for various analyses, such as detecting the presence of pathogens like Chlamydia pecorum and koala retrovirus (KoRV). In conclusion, this non-invasive method provides an efficient way to gather valuable genetic data while minimizing any potential disturbance or harm to the koalas."}, 'done': True, 'done_reason': 'stop', 'total_duration': 24443763417, 'load_duration': 44511917, 'prompt_eval_count': 382, 'prompt_eval_duration': 1251774833, 'eval_count': 172, 'eval_duration': 10011791913}
+
+=== Documents hypothétiques générés ===
+
+Document hypothétique 1:
+--------------------------------------------------
+The collection of koala scat samples constitutes a non-invasive method for obtaining genetic material from wild animals. This protocol does not require the capture or handling of the koalas, minimizing any potential stress and disturbance to the animals. The scats are collected from the ground using sterile gloves and placed in individual plastic bags, which are then stored at -20°C until further processing. Since the samples are collected after they have been naturally deposited by the koalas, there is no need for anesthesia or other invasive procedures. This approach allows for the collection of large amounts of genetic material from non-invasively shed cells, making it an ideal method for monitoring koala populations and assessing pathogen prevalence without causing harm to the animals.
+--------------------------------------------------
+
+Document hypothétique 2:
+--------------------------------------------------
+"Koala scat samples were collected as a non-invasive method for genetic analysis. The protocol involved the identification and collection of fresh koala droppings from the ground beneath trees marked with koala scent or scratches. No direct contact with the animals was required, thus eliminating any stress or harm to them. This approach ensures that no koalas were captured or handled during the sampling process, making it a truly non-invasive method. Additionally, no anesthesia was administered, as it is not necessary for scat collection. The primary objective of this protocol was to obtain genetic material from koala feces without disturbing the animals' natural behavior or causing any distress, thereby minimizing the risk of disease transmission and maintaining the ethical standards of wildlife research."
+--------------------------------------------------
+
+Document hypothétique 3:
+--------------------------------------------------
+The collection of koala scat samples constitutes a non-invasive method for obtaining genetic material from these animals. This approach avoids direct contact with the koalas and eliminates the need for capture or handling of the individuals. Koalas defecate on trees as part of their natural behavior, making it possible to collect fecal samples from the ground without disturbing the animals' habitat or causing them stress. Additionally, the use of scat samples reduces the risk of disease transmission between researchers and koalas, as well as among koala populations. The genetic material extracted from these samples can then be used for various analyses, such as detecting the presence of pathogens like Chlamydia pecorum and koala retrovirus (KoRV). In conclusion, this non-invasive method provides an efficient way to gather valuable genetic data while minimizing any potential disturbance or harm to the koalas.
+--------------------------------------------------
+
+=== Fin des documents hypothétiques ===
+
+
+=== Statistiques des scores de similarité ===
+Score minimum initial: 0.8467
+Score maximum initial: 0.9098
+Score moyen initial: 0.8820
+
+=== Statistiques après filtrage dynamique ===
+Seuil dynamique appliqué: 0.8916
+Score minimum conservé: 0.8898
+Score maximum conservé: 0.9098
+Score moyen conservé: 0.8982
+Nombre de documents conservés: 5
+Prompt : 
+Voici un extrait d'article scientifique :
+
+"""["Koala scat samples were collected from wild individuals in the Strzelecki Ranges, South Gippsland (n = 17), Raymond Island (n = 2) and from koalas at the Koala Conservation Centre (n = 6) on Phillip Island, all in Victoria (total VIC samples; n = 25) (Fig. 1). Koala scats were also obtained from the Port Macquarie Koala Hospital in New South Wales (NSW, n = 15). Scats were collected and DNA isolated according to the methods outlined in Wedrowicz et al. (2013). To compare the results from scat samples with those from a commonly utilised invasive DNA source, DNA was also isolated from ear tissue samples (n = 50) from deceased individuals, collected by staff at the Southern Ash Wildlife Shelter (SAWS), Rawson, Victoria. Approximately 3 mm square was excised from ear samples and cut into small pieces. DNA was then isolated using the DNeasy Ò Blood & Tissue Kit (Qiagen) following the manufacturer's protocol.", 'DNA isolated from scats, from individuals with various infectious loads, would be appropriate. Testing multiple independent scats from the same individual may increase confidence in results obtained. The only male koala included in this study (individual K05) was estimated to have a C. pecorum copy number that was between 2200 and 4500 times lower in DNA sourced from scats compared to DNA sourced from swabs, while the females in the study had copy numbers in scats that were between one and fifty times lower. Differences in the anatomy of female and male koalas could potentially affect the ability to detect C. pecorum in males and female scats; this requires further investigation. Compared to Victorian tissue samples, significantly greater amounts of KoRV-A were detected in DNA isolated from Victorian scat samples (Fig. 4). This difference suggests the possible detection of infection acquired horizontally (exogenous infection) in Victorian koalas. All northern NSW samples in this study tested positive for KoRV, while no samples were KoRV positive in the Phillip Island group of samples. This is consistent with results previously reported by Simmons et al. (2012), who found all Phillip Island (Victoria) samples tested to be KoRV negative and all samples tested in the Port Macquarie (NSW) area to be KoRV positive. Apart from one sample, standard and real time PCR assays of the samples tested here produced equivalent results. Where presence or absence of KoRV is all that is required for a study, standard PCR can also provide useful data. The small number of diluted positive samples that tested negative by real time PCR indicates that KoRV may not be detected when DNA concentration is quite low. One way to address this may be to screen DNA samples for quantity and quality in order to ascertain the suitability of samples for testing. Additionally, if KoRV detected in scat isolated DNA originates from exogenous infections, the number of cells in which KoRV DNA has integrated may be highly variable, resulting in low copy numbers in some samples. Consequently, until further information is obtained, presence only studies are likely to be most suitable using these methods. In Victorian samples, higher KoRV-A copy number was found in DNA isolated from scats compared to ear tissue, suggesting that koala scats provide a practical source of DNA for detecting the presence of KoRV infections acquired both vertically and horizontally. Koala conservation research will benefit from the use of an integrated approach, employing the relatively simple method for detecting C. pecorum and KoRV described here. Genetic material isolated from koala scats has been shown to provide DNA that can be reliably used to obtain genotypic data, DNA sequence information and to identify gender (Wedrowicz et al. 2013). DNA isolated from scats can provide information on population substructure, relatedness between individuals, gene flow, migration and hybridisation using genotyping (Czarnomska et al. 2013;Piggott et al. 2006;Stenglein et al. 2011). The gender of the individual sampled can be determined by PCR (Wedrowicz et al. 2013), while sequencing of mitochondrial DNA can provide phylogenetic information suitable for evolutionary analyses (Houlden et al. 1999). Genotypic data can also be paired with habitat and environmental models to look for factors that may impede or facilitate gene flow across the landscape using landscape genetics (Storfer et al. 2006). The ability to detect pathogens in DNA isolated from koala scats may supply critical information that can be combined with genetic data to provide a multidimensional picture of koala biology. Since pathogen DNA sequences can be obtained using this method, non-invasive sampling may also permit studies of pathogen diversity, transmission and spread throughout wild populations.', 'koala biology. Since pathogen DNA sequences can be obtained using this method, non-invasive sampling may also permit studies of pathogen diversity, transmission and spread throughout wild populations. In the case of C. pecorum, the likelihood of particular C. pecorum strains having high or low virulence could also be investigated using ompA markers along with additional C. pecorum DNA markers such as incA and ORF663 (Mohamad et al. 2014). A general trend of increased C. pecorum shedding has been shown for individuals with increasing severity of chlamydial disease (Wan et al. 2011) and there is also evidence of differing infectious load between C. pecorum strains (Legione et al. 2016). It may, therefore, also be useful to differentiate individuals with high or low loads of C. pecorum using DNA isolated from scats. However, further comparisons of copy number between swabs and scats would be required in order to more accurately gauge the variability of C. pecorum copy number in scat isolated DNA and the number of scats needed to give a reliable estimate of infectious load. Pathogen detection from scats could be paired with ecological studies, thereby revealing whether infection might have an effect on behaviour or movement. This information has the potential to provide increased knowledge of many aspects of C. pecorum and KoRV infection in koala populations including transmission, pathogenicity and host effects. Together, the plethora of information that is able to be gained from a single koala scat can be used to promote a holistic approach to koala conservation and management.', 'A non-invasive tool for assessing pathogen prevalence in koala (Phascolarctos cinereus) populations: detection of Chlamydia pecorum and koala retrovirus (KoRV) DNA in genetic material sourced from scats', "Scat samples were collected from six koalas in the Strzelecki Ranges, Victoria during March 2015. The six individual koalas from which scats were collected were also captured as part of an independent study carried out by the NSW Office of Environment and Heritage (Allen 2015). The purpose of the study carried out by Allen (2015) was to determine the prevalence of chlamydial infections in the Strzelecki Ranges koala population by capturing and collecting ocular and urogenital swabs from koalas. Results obtained from DNA isolated from urogenital swabs (six koalas: K01-K06) collected for the Allen (2015) study allowed direct comparison of C. pecorum presence detected by both methods. Scats located on the ground beneath each koala captured by Allen (2015) were collected for the isolation of DNA according to the methods described by Wedrowicz et al. (2013). To assess detection reproducibility in DNA isolated from scats from the same individual, DNA was isolated from three different scats collected beneath each koala, resulting in three DNA isolates per individual. The concentration of total DNA isolated from scats was determined using the Qubit Ò 2.0 Fluorometer following the manufacturer's instructions. Presence/absence assay for C. pecorum Real time assays for C. pecorum targeting a 76 bp region of the ompA gene were carried out as per Pantchev et al. (2010). Reactions also incorporated TaqMan Ò Exogenous Internal Positive Control (IPC) Reagents in order to differentiate failed reactions, due to PCR inhibition, from true negative results. Amplification was carried out using the Applied Biosystems Step One Plus instrument using a presence absence protocol. PCR product using primers amplifying 1140 bp of the ompA gene (details below: ompA gene sequencing) was used to prepare 1:10 serial dilutions for standards ranging from 8 9 10 0 -8 9 10 6 copies per reaction. Standards were used to assess reaction sensitivity including an IPC, as well as to estimate the number of chlamydial DNA copies in different samples. A standard PCR to determine the gender of the sampled individual was also carried out using DNA isolated from scats as outlined in Wedrowicz et al. (2013)."]"""
+
+Le protocole suivant a été détecté comme étant invasif par une analyse externe :
+{'nom': 'Koala scat samples were collected', 'description': ['Koala scat samples were collected...', 'DNA was also isolated from ear tissue samples... Approximately 3 mm square was excised from ear samples and cut into small pieces.', 'Scat samples were collected from six koalas...', 'To assess detection reproducibility...DNA was isolated from three different scats collected beneath each koala...'], 'evaluation': 'Invasif'}
+
+Ta tâche est de déterminer si l'auteur de l'article affirme que ce protocole est non invasif, de manière explicite ou implicite, dans ce passage.
+
+Voici le titre de l'article :
+"A non-invasive tool for assessing pathogen prevalence in koala (Phascolarctos cinereus) populations: detection of Chlamydia pecorum and koala retrovirus (KoRV) DNA in genetic material sourced from scats"
+
+Procède étape par étape :
+
+1. Analyse le titre : contient-il une déclaration globale de non-invasivité ? Si oui, réponds "Oui" d'office.
+2. Analyse si le titre mentionne le protocole détecté comme invasif. Si ce protocole est présenté dans le titre comme non invasif, réponds aussi "Oui" d'office.
+3. Cherche dans le corps de l'article :
+- Y a-t-il une phrase indiquant explicitement que le protocole en question est non invasif ? Si oui, réponds "Oui".
+- Si une autre méthode est dite non invasive, mais ce n'est **pas celle détectée comme invasive, ce n'est pas suffisant.
+4. Si aucune déclaration claire ou implicite n'est trouvée, réponds "Non".
+5. Si le passage est trop vague ou ne permet pas de trancher, réponds "Manque d'informations".
+
+Tu dois répondre uniquement par le JSON suivant :
+```json
+{
+    "annonce_invasivite": "Oui" ou "Non" ou "Manque d'informations",
+    "justification_annonce_invasivite": "Justification courte, avec citation si utile (souvent utile pour la justification)"
+}
+```
+Si tu ne peux pas fournir une réponse, réponds "Pas de réponse".
+
+Ne donne aucune explication hors du JSON, aucune phrase d'introduction ou de conclusion.
+les clés doivent être strictement : annonce_invasivite et justification_annonce_invasivite
+
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:12:12.554397Z', 'message': {'role': 'assistant', 'content': '{\n    "annonce_invasivite": "Oui",\n    "justification_annonce_invasivite": "Le titre de l\'article contient une déclaration globale de non-invasivité."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 40657808708, 'load_duration': 63244250, 'prompt_eval_count': 2446, 'prompt_eval_duration': 15431267083, 'eval_count': 44, 'eval_duration': 2635286871}
+
+Analyse du niveau non invasif pour le protocole Koala scat samples were collected:
+{
+    "annonce_invasivite": "Oui",
+    "justification_annonce_invasivite": "Le titre de l'article contient une déclaration globale de non-invasivité."
+}
+non_invasive_level: [{'annonce_invasivite': 'Oui', 'justification_annonce_invasivite': "Le titre de l'article contient une déclaration globale de non-invasivité."}]
+--------------------------------
+
+Traitement terminé avec succès pour le fichier : RAG/output/s12686-016-0574-3.json

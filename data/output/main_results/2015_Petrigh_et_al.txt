@@ -1,0 +1,104 @@
+Traitement du fichier : RAG/output/2015_Petrigh_et_al.json
+Traitement du lot 1/1 (documents 1-1)
+Lot 1 indexé avec succès: 1 documents
+1/1 documents indexés depuis RAG/output/2015_Petrigh_et_al.json
+
+--- Méthode avec Refine ---
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T03:59:15.329037Z', 'message': {'role': 'assistant', 'content': 'The DNA sampling methods used in our study were designed to minimize disturbance and potential harm to the wild animal population. Blood samples were collected from free-ranging wolves via remote darting using tranquilizer darts containing a sedative cocktail (Telazol). The darts were fired from a CO2-powered pistol, ensuring minimal contact with the animals. Upon immobilization, a veterinarian administered an intramuscular injection of lidocaine to numb the skin at the collection site before collecting approximately 5-10 mL of blood using a sterile needle and syringe. The entire procedure lasted around 5 minutes, after which the animal was revived using an intramuscular injection of reversal agents (atipamezole and naltrexone). To minimize stress and perturbation, the capture team maintained a low noise level and moved slowly and deliberately during handling procedures. All captures were conducted in compliance with ethical guidelines for animal welfare and research protocols approved by relevant authorities.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 46592367792, 'load_duration': 55763542, 'prompt_eval_count': 461, 'prompt_eval_duration': 3635134959, 'eval_count': 190, 'eval_duration': 11937923917}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T03:59:51.524908Z', 'message': {'role': 'assistant', 'content': "Dans cet article, nous avons utilisé deux méthodes d'échantillonnage pour collecter des échantillons génétiques chez le cerf élaphe (Cervus elaphus). La première méthode consistait à prélever des poils dans des pièges à appâts non létaux. Les pièges étaient équipés de cheveux synthétiques imprégnés d'une odeur attrayante pour les cerfs, et étaient placés dans des sites fréquentés par ces animaux. Les poils étaient collectés toutes les deux semaines environ, en fonction de la disponibilité des pièges, avec une quantité minimale de 50 mg prélevée à chaque fois. Cette méthode est considérée comme non-invasive selon la définition de Taberlet et al., car elle ne nécessite pas le contact direct avec l'animal ni sa capture ou manipulation.\n\nLa deuxième méthode consistait à prélever du sang chez des cerfs adultes captifs dans un parc animalier. Les échantillons de sang ont été collectés par ponction veineuse à l'aide d'une aiguille de 16 gauge, en utilisant une technique sans stress pour minimiser la perturbation et le stress des animaux. Une quantité minimale de 2 mL de sang a été prélevée lors de chaque collecte, qui était effectuée tous les six mois environ. Cette méthode est considérée comme invasive selon la définition de Taberlet et al., car elle implique la capture et la manipulation des animaux pour prélever l'échantillon génétique. Cependant, cette méthode est justifiée dans ce cas particulier en raison de la nécessité d'obtenir des échantillons génétiques de haute qualité chez des cerfs adultes qui ne peuvent pas être échantillonnés par des méthodes non-invasives."}, 'done': True, 'done_reason': 'stop', 'total_duration': 36183408500, 'load_duration': 53644250, 'prompt_eval_count': 461, 'prompt_eval_duration': 419479208, 'eval_count': 355, 'eval_duration': 21724713987}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T04:00:14.970751Z', 'message': {'role': 'assistant', 'content': '"Blood samples were collected from free-ranging mountain lions (Puma concolor) using a non-invasive genetic sampling approach. Hair snares baited with valerian root and topped with a collection tube containing a sterile cotton swab were used to capture loose hairs from the animals\' coats as they investigated the lure. The hair snares were checked every 24 hours, and samples were stored at -20°C until DNA extraction. To minimize disturbance, hair snares were placed in areas with low human activity and checked during periods of low animal movement. Ethical considerations included avoiding placements near known dens or kill sites to prevent stress or disruption to the animals."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 23437065625, 'load_duration': 48201292, 'prompt_eval_count': 461, 'prompt_eval_duration': 419430583, 'eval_count': 135, 'eval_duration': 8172855588}
+
+=== Documents hypothétiques générés ===
+
+Document hypothétique 1:
+--------------------------------------------------
+The DNA sampling methods used in our study were designed to minimize disturbance and potential harm to the wild animal population. Blood samples were collected from free-ranging wolves via remote darting using tranquilizer darts containing a sedative cocktail (Telazol). The darts were fired from a CO2-powered pistol, ensuring minimal contact with the animals. Upon immobilization, a veterinarian administered an intramuscular injection of lidocaine to numb the skin at the collection site before collecting approximately 5-10 mL of blood using a sterile needle and syringe. The entire procedure lasted around 5 minutes, after which the animal was revived using an intramuscular injection of reversal agents (atipamezole and naltrexone). To minimize stress and perturbation, the capture team maintained a low noise level and moved slowly and deliberately during handling procedures. All captures were conducted in compliance with ethical guidelines for animal welfare and research protocols approved by relevant authorities.
+--------------------------------------------------
+
+Document hypothétique 2:
+--------------------------------------------------
+Dans cet article, nous avons utilisé deux méthodes d'échantillonnage pour collecter des échantillons génétiques chez le cerf élaphe (Cervus elaphus). La première méthode consistait à prélever des poils dans des pièges à appâts non létaux. Les pièges étaient équipés de cheveux synthétiques imprégnés d'une odeur attrayante pour les cerfs, et étaient placés dans des sites fréquentés par ces animaux. Les poils étaient collectés toutes les deux semaines environ, en fonction de la disponibilité des pièges, avec une quantité minimale de 50 mg prélevée à chaque fois. Cette méthode est considérée comme non-invasive selon la définition de Taberlet et al., car elle ne nécessite pas le contact direct avec l'animal ni sa capture ou manipulation.
+
+La deuxième méthode consistait à prélever du sang chez des cerfs adultes captifs dans un parc animalier. Les échantillons de sang ont été collectés par ponction veineuse à l'aide d'une aiguille de 16 gauge, en utilisant une technique sans stress pour minimiser la perturbation et le stress des animaux. Une quantité minimale de 2 mL de sang a été prélevée lors de chaque collecte, qui était effectuée tous les six mois environ. Cette méthode est considérée comme invasive selon la définition de Taberlet et al., car elle implique la capture et la manipulation des animaux pour prélever l'échantillon génétique. Cependant, cette méthode est justifiée dans ce cas particulier en raison de la nécessité d'obtenir des échantillons génétiques de haute qualité chez des cerfs adultes qui ne peuvent pas être échantillonnés par des méthodes non-invasives.
+--------------------------------------------------
+
+Document hypothétique 3:
+--------------------------------------------------
+"Blood samples were collected from free-ranging mountain lions (Puma concolor) using a non-invasive genetic sampling approach. Hair snares baited with valerian root and topped with a collection tube containing a sterile cotton swab were used to capture loose hairs from the animals' coats as they investigated the lure. The hair snares were checked every 24 hours, and samples were stored at -20°C until DNA extraction. To minimize disturbance, hair snares were placed in areas with low human activity and checked during periods of low animal movement. Ethical considerations included avoiding placements near known dens or kill sites to prevent stress or disruption to the animals."
+--------------------------------------------------
+
+=== Fin des documents hypothétiques ===
+
+
+=== Statistiques des scores de similarité ===
+Score minimum initial: 0.7412
+Score maximum initial: 0.7412
+Score moyen initial: 0.7412
+
+=== Statistiques après filtrage dynamique ===
+Seuil dynamique appliqué: 0.7412
+Score minimum conservé: 0.7412
+Score maximum conservé: 0.7412
+Score moyen conservé: 0.7412
+Nombre de documents conservés: 1
+Documents récupérés : 1
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T04:00:40.522936Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "Spirometra sp. eggs were found in the feces of all foxes through Ritchie\'s sedimentation (Young et al., 1979) and Sheather\'s fl otation (Benbrook & Sloss, 1965).",\n    "Eggs were isolated and disrupted manually under a light microscope using a capillary tube.",\n    "DNA was extracted according to Gasser et al. (1993) with modifi cations."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 24934697917, 'load_duration': 46919459, 'prompt_eval_count': 1343, 'prompt_eval_duration': 8484338041, 'eval_count': 117, 'eval_duration': 7137672955}
+Chunk : Adults of S. erinaceieuropaei were isolated from small intestines of 12 Pampas foxes and identifi ed by morphological studies (see Scioscia et al., 2014). Spirometra sp. eggs were found in the feces of all foxes through Ritchie's sedimentation (Young et al., 1979) and Sheather's fl otation (Benbrook & Sloss, 1965). Only one of the Spirometra sp. positive samples with high concentration of eggs was selected for the analysis. Eggs were isolated and disrupted manually under a light microscope using a capillary tube. Broken eggs were preserved in 2 μl of sterile PBS 1X at -20 °C until their use. Three different pools of 3 or 4 eggs were processed for molecular analysis. DNA was extracted according to Gasser et al. (1993) with modifi cations. Briefl y, eggs were immersed in 50 μl of compatible lysis-PCR buffer (50 mM KCl, 10 mM Tris-HCl pH 8.8, 0.4 % v/v Nonidet P-40, 0.8 % v/v Tween 20, 2.5 mM MgCl 2 ). The samples were digested with 260 μg/ml of Proteinase K (Biobasic) for 2 h at 56 °C and then at 37 °C overnight and then boiled for 15 min for Proteinase k inactivation and subsequently centrifuged at 2,000 Xg for 5 min. The supernatants were kept at -20 °C until use. A negative control of DNA extraction was included. A 450-bp region of the mitochondrial cytochrome C oxidase subunit 1 (cox1) gene was amplifi ed using already available primers: JB3 5' TTTTTTGGGCATCCTGAGGTTTAT 3' and JB4, 5' TAAA-GAAAGAACATAATGAAAATG 3' (Bowles et al., 1992). PCR was performed in 25 μl containing 2 μl of DNA sample, 200 μM of each dNTP (Finnzymes), 0.4 μM of each primer and 0.65 units of Dream Taq DNA Polymerase (ThermoScientifi c) in 1X Dream Taq Buffer containing 2 mM of MgCl 2 . The PCR conditions were as follows: an initial denaturation step (94 °C for 3 min), 40 cycles at 94 °C for 45 s (denaturation), 49 °C for 45 s (annealing), and 72 °C for 45s (extension), and 72 °C for 10 min (fi nal extension). The negative control was included in all PCR experiments. Triplicates of the specifi c fragment were sequenced and chromatograms were analyzed using BioEdit v7.2.0 (copyright © 1997 -2013, Tomm Hall, Ibis Biosciences). The consensus sequences obtained were compared with the GenBank sequences by using the BLASTN algorithm (http://blast.ncbi.nlm.nih.gov/Blast.cgi) of the National Center for Biotechnology Information (NCBI, USA). Molecular phylogenetic analysis was conducted in MEGA6.0.6 (Tamura et al., 2013). Sequence alignment was performed with cox1 sequences from GenBank of Spirometra sp. (AB015753.1, AB480297.1, GQ999951.1, JQ267473.1) and Diphyllobothrium sp. (AB544064.1, AB605762.1, AY972071.1) and the sequence of Spirometra obtained in this work (Spirometra Pampas fox_ KC812049.1). The evolutionary history was inferred by using the Neighbor-Joining (NJ) method. The evolutionary distances were computed using the Maximum Composite Likelihood method. The bootstrap consensus tree was inferred from 1,000 replicates. The cox1 sequence of Echinococcus multilocularis (JF906152.1) was used as an outgroup.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "Spirometra sp. eggs were found in the feces of all foxes through Ritchie's sedimentation (Young et al., 1979) and Sheather's fl otation (Benbrook & Sloss, 1965).",
+    "Eggs were isolated and disrupted manually under a light microscope using a capillary tube.",
+    "DNA was extracted according to Gasser et al. (1993) with modifi cations."
+]
+}
+Protocoles détectés : 1
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T04:00:53.093699Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "Spirometra sp. eggs were found in the feces of all foxes through Ritchie\\\'s sedimentation (Young et al., 1979) and Sheather\\\'s flotation (Benbrook & Sloss, 1965).",\n    "DNA was extracted according to Gasser et al. (1993) with modifications."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 12561482708, 'load_duration': 48635417, 'prompt_eval_count': 558, 'prompt_eval_duration': 3395322375, 'eval_count': 97, 'eval_duration': 5796337710}
+Protocoles fusionnés : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "Spirometra sp. eggs were found in the feces of all foxes through Ritchie\'s sedimentation (Young et al., 1979) and Sheather\'s flotation (Benbrook & Sloss, 1965).",
+    "DNA was extracted according to Gasser et al. (1993) with modifications."
+]
+}
+Nombre de protocoles après fusion : 1
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T04:01:33.689054Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["Spirometra sp. eggs were found in the feces of all foxes through Ritchie\'s sedimentation (Young et al., 1979) and Sheather\'s flotation (Benbrook & Sloss, 1965)."],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces",\n"mots_cles_invasivite": ["found", "through"],\n"mots_cles_non_invasivite": [],\n"evaluation_invasivite": "Invasif",\n"justification_invasivite": "Le protocole implique la collecte de fèces chez des mammifères, ce qui est considéré comme invasif selon les règles spécifiques aux fèces de mammifères. La collecte est systématique et exhaustive (\'through Ritchie\'s sedimentation and Sheather\'s flotation\'), indiquant une perturbation significative de l\'habitat.",\n"signaux_alarme": ["found", "through"],\n"impacts_potentiels": ["Stress potentiellement causé aux renards lors de la collecte des fèces"],\n"peches_identifies": [1],\n"informations_manquantes": [],\n"taux_de_confiance": "95% - Les termes utilisés (\'found\', \'through\') et la méthode de collecte (sedimentation, flotation) indiquent clairement une invasivité selon les critères définis."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 40591347625, 'load_duration': 45851291, 'prompt_eval_count': 2119, 'prompt_eval_duration': 13413004125, 'eval_count': 301, 'eval_duration': 18771413988}
+Analyse du protocole avec les extraits : Spirometra sp. eggs were found in the feces of all foxes through Ritchie's sedimentation (Young et al., 1979) and Sheather's fl otation (Benbrook & Sloss, 1965).
+Eggs were isolated and disrupted manually under a light microscope using a capillary tube.
+DNA was extracted according to Gasser et al. (1993) with modifi cations.
+Réponse du modèle : {
+"extrait_pertinent": ["Spirometra sp. eggs were found in the feces of all foxes through Ritchie's sedimentation (Young et al., 1979) and Sheather's flotation (Benbrook & Sloss, 1965)."],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces",
+"mots_cles_invasivite": ["found", "through"],
+"mots_cles_non_invasivite": [],
+"evaluation_invasivite": "Invasif",
+"justification_invasivite": "Le protocole implique la collecte de fèces chez des mammifères, ce qui est considéré comme invasif selon les règles spécifiques aux fèces de mammifères. La collecte est systématique et exhaustive ('through Ritchie's sedimentation and Sheather's flotation'), indiquant une perturbation significative de l'habitat.",
+"signaux_alarme": ["found", "through"],
+"impacts_potentiels": ["Stress potentiellement causé aux renards lors de la collecte des fèces"],
+"peches_identifies": [1],
+"informations_manquantes": [],
+"taux_de_confiance": "95% - Les termes utilisés ('found', 'through') et la méthode de collecte (sedimentation, flotation) indiquent clairement une invasivité selon les critères définis."
+}
+Analyses générées : 1
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T04:02:16.86031Z', 'message': {'role': 'assistant', 'content': '[\n    {\n        "protocole": "Spirometra sp. eggs detection in fox feces",\n        "extrait_pertinent": ["Spirometra sp. eggs were found in the feces of all foxes through Ritchie\\\'s sedimentation (Young et al., 1979) and Sheather\\\'s flotation (Benbrook & Sloss, 1965)."],\n        "taxon_identifie": "Mammifère",\n        "echantillon": "Fèces",\n        "mots_cles_invasivite": ["found", "through"],\n        "mots_cles_non_invasivite": [],\n        "evaluation_invasivite": "Invasif",\n        "justification_invasivite": "The protocol involves collecting feces from mammals, which is considered invasive according to the specific rules for mammal feces. The collection is systematic and exhaustive (\\\'through Ritchie\\\'s sedimentation and Sheather\\\'s flotation\\\'), indicating significant habitat perturbation.",\n        "signaux_alarme": ["found", "through"],\n        "impacts_potentiels": ["Potential stress caused to foxes during feces collection"],\n        "peches_identifies": [1],\n        "informations_manquantes": [],\n        "taux_de_confiance": "95% - The terms used (\\\'found\\\', \\\'through\\\') and the collection method (sedimentation, flotation) clearly indicate invasiveness according to the defined criteria."\n    }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 43163794458, 'load_duration': 48779666, 'prompt_eval_count': 1275, 'prompt_eval_duration': 7827063042, 'eval_count': 319, 'eval_duration': 19599190908}
+Réponse finale : [
+    {
+        "protocole": "Spirometra sp. eggs detection in fox feces",
+        "extrait_pertinent": ["Spirometra sp. eggs were found in the feces of all foxes through Ritchie\'s sedimentation (Young et al., 1979) and Sheather\'s flotation (Benbrook & Sloss, 1965)."],
+        "taxon_identifie": "Mammifère",
+        "echantillon": "Fèces",
+        "mots_cles_invasivite": ["found", "through"],
+        "mots_cles_non_invasivite": [],
+        "evaluation_invasivite": "Invasif",
+        "justification_invasivite": "The protocol involves collecting feces from mammals, which is considered invasive according to the specific rules for mammal feces. The collection is systematic and exhaustive (\'through Ritchie\'s sedimentation and Sheather\'s flotation\'), indicating significant habitat perturbation.",
+        "signaux_alarme": ["found", "through"],
+        "impacts_potentiels": ["Potential stress caused to foxes during feces collection"],
+        "peches_identifies": [1],
+        "informations_manquantes": [],
+        "taux_de_confiance": "95% - The terms used (\'found\', \'through\') and the collection method (sedimentation, flotation) clearly indicate invasiveness according to the defined criteria."
+    }
+]
+Erreur de décodage JSON : Invalid \escape: line 4 column 104 (char 178)
+
+Aucun résultat généré pour le fichier : RAG/output/2015_Petrigh_et_al.json

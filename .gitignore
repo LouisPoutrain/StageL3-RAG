@@ -1,4 +1,4 @@
-# Python
+# Python caches and bytecode
 __pycache__/
 *.py[cod]
 *$py.class
@@ -20,33 +20,49 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
+# Virtual environments
+.venv/
 venv/
 env/
 ENV/
+env.bak/
+venv.bak/
 
-# IDE
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# IDEs and Editors
 .idea/
 .vscode/
 *.swp
 *.swo
+*~
+.project
+.pydevproject
+.settings/
 
-# Logs
-*.log
-
-# Local development settings
-.env
-.env.local
-
-# Database
-*.db
-*.sqlite3
-
-# Chroma DB
-chroma_db/
-chroma_db_xml/
-chroma_db_pdf/
-
-# Other
+# Operating System artifacts
 .DS_Store
-Thumbs.db 
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and runtime artifacts
+*.log
+*.sqlite3
+*.db
+tmp/
+scratch/
+
+# Vector Stores and Cache
+chroma_db/
+chroma_db_*/
+faiss_index/
+.cache/

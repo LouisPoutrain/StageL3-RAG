@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Integrating resource selection into spatial capture-recapture models for large carnivores</title>
+				<funder>
+					<orgName type="full">Ravalli County Fish and Wildlife Association</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Rocky Mountain Elk Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Safari Club International Foundation</orgName>
+				</funder>
+				<funder ref="#_Kqe6jRt">
+					<orgName type="full">Cooperative State Research, Education and Extension Service</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">University of Montana, U</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Montana Fish, Wildlife and Parks Federal Aid in Wildlife</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Montana Outdoor Legacy Foundation, Western Montana Chapter</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Safari Club International</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2015-11-20">20 November 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Proffitt</surname></persName>
+							<email>kproffitt@mt.gov</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Montana Fish</orgName>
+								<orgName type="department" key="dep2">Wildlife and Parks</orgName>
+								<address>
+									<addrLine>1400 South 19th Street</addrLine>
+									<postCode>59718</postCode>
+									<settlement>Bozeman</settlement>
+									<region>Montana</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Goldberg</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Wildlife Biology Program</orgName>
+								<orgName type="department" key="dep2">Department of Ecosystem and Conservation Sciences</orgName>
+								<orgName type="department" key="dep3">College of Forestry and Conservation</orgName>
+								<orgName type="institution">University of Montana</orgName>
+								<address>
+									<postCode>59812</postCode>
+									<settlement>Missoula</settlement>
+									<region>Montana</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Hebblewhite</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Wildlife Biology Program</orgName>
+								<orgName type="department" key="dep2">Department of Ecosystem and Conservation Sciences</orgName>
+								<orgName type="department" key="dep3">College of Forestry and Conservation</orgName>
+								<orgName type="institution">University of Montana</orgName>
+								<address>
+									<postCode>59812</postCode>
+									<settlement>Missoula</settlement>
+									<region>Montana</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><surname>Russell</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">US Geological Survey</orgName>
+								<orgName type="institution" key="instit2">National Wildlife Health Center</orgName>
+								<address>
+									<postCode>53711</postCode>
+									<settlement>Madison</settlement>
+									<region>Wisconsin</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Jimenez</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Montana Fish, Wildlife and Parks</orgName>
+								<address>
+									<addrLine>3201 Spurgin Road</addrLine>
+									<postCode>59804</postCode>
+									<settlement>Missoula</settlement>
+									<region>Montana</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Robinson</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Panthera</orgName>
+								<address>
+									<addrLine>8 West 40th Street 18th Floor</addrLine>
+									<postCode>10018</postCode>
+									<region>New York</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">K</forename><surname>Pilgrim</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution" key="instit1">USDA Forest Service</orgName>
+								<orgName type="institution" key="instit2">Rocky Mountain Research Station</orgName>
+								<address>
+									<postCode>59801</postCode>
+									<settlement>Missoula</settlement>
+									<region>Montana</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution" key="instit1">USDA Forest Service</orgName>
+								<orgName type="institution" key="instit2">Rocky Mountain Research Station</orgName>
+								<address>
+									<postCode>59801</postCode>
+									<settlement>Missoula</settlement>
+									<region>Montana</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Integrating resource selection into spatial capture-recapture models for large carnivores</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2015-11-20">20 November 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">407DACBD4D4A04F3984725F06F8AC0FF</idno>
+					<idno type="DOI">10.1890/ES15-00001.1</idno>
+					<note type="submission">Received 2 January 2015; revised 16 June 2015; accepted 15 July 2015;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:49+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Bayesian</term>
+					<term>carnivore</term>
+					<term>mountain lion</term>
+					<term>non-invasive</term>
+					<term>population estimation</term>
+					<term>Puma concolor</term>
+					<term>SCR</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Wildlife managers need reliable methods to estimate large carnivore densities and population trends; yet large carnivores are elusive, difficult to detect, and occur at low densities making traditional approaches intractable. Recent advances in spatial capture-recapture (SCR) models have provided new approaches for monitoring trends in wildlife abundance and these methods are particularly applicable to large carnivores. We applied SCR models in a Bayesian framework to estimate mountain lion densities in the Bitterroot Mountains of west central Montana. We incorporate an existing resource selection function (RSF) as a density covariate to account for heterogeneity in habitat use across the study area and include data collected from harvested lions. We identify individuals through DNA samples collected by (1) biopsy darting mountain lions detected in systematic surveys of the study area, (2) opportunistically collecting hair and scat samples, and (3) sampling all harvested mountain lions. We included 80 DNA samples collected from 62 individuals in the analysis. Including information on predicted habitat use as a covariate on the distribution of activity centers reduced the median estimated density by 44%, the standard deviation by 7%, and the width of 95% credible intervals by 10% as compared to standard SCR models. Within the two management units of interest, we estimated a median mountain lion density of 4.5 mountain lions/100 km 2 (95% CI ¼ 2.9, 7.7) and 5.2 mountain lions/100 km 2 (95% CI ¼ 3.4, 9.1). Including harvested individuals (dead recovery) did not create a significant bias in the detection process by introducing individuals that could not be detected after removal. However, the dead recovery component of the model did have a substantial effect on results by increasing sample size. The ability to account for heterogeneity in habitat use provides a useful extension to SCR models, and will enhance the ability of wildlife managers to reliably and economically estimate density of wildlife populations, particularly large carnivores.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Understanding patterns and drivers of abundance and density is a central tenant of ecology and wildlife management <ref type="bibr" target="#b1">(Andrewartha and Birch 1954)</ref>, and the estimation of these parameters has long challenged ecologists <ref type="bibr" target="#b29">(Seber 1973</ref><ref type="bibr" target="#b16">, Jolly 1982)</ref>. The ability to estimate the abundance and density of wildlife is particularly important in applied settings, where conservation or management actions are often assessed by measuring trends in these parameters. Capture-recapture (CR) methods for closed populations are the standard methodology for the estimation of animal abundance from fixed arrays of traps or other sampling devices <ref type="bibr" target="#b3">(Borchers and Buckland 2002)</ref>. However, some species such as large carnivores introduce additional complexities for the estimation of density because these species are wide ranging, occur at low densities, and are difficult to detect. These species commonly violate assumptions about geographic closure in the CR framework and make estimation of the effective sampling area difficult <ref type="bibr">(Royle et al. 2013a)</ref>. Additionally, individual heterogeneity in recapture probability (detection probability) over fixed arrays due to behavioral differences or differences in space use challenges conventional CR methods. Recent methodological advances in spatial capture-recapture (SCR) methods address these shortcomings of conventional CR methods by incorporating the spatial organization of individuals through the estimation of trapspecific capture probabilities <ref type="bibr" target="#b7">(Efford 2004</ref><ref type="bibr" target="#b9">, Efford et al. 2009</ref><ref type="bibr" target="#b10">, Gardner et al. 2010</ref><ref type="bibr">, Royle et al. 2013a)</ref>.</p><p>SCR methods have recently been extended to accommodate unstructured spatial sampling <ref type="bibr" target="#b34">(Thompson et al. 2012)</ref> where effort is variable across the study area and applied to the estimation of mountain lion density <ref type="bibr" target="#b28">(Russell et al. 2012)</ref>. Mountain lions (Puma concolor) in North America have slowly increased in number and expanded their range over the last several decades <ref type="bibr" target="#b13">(Hornocker and Negri 2009)</ref>. Wildlife managers need reliable methods to monitor mountain lion population trends to manage harvest, minimize conflicts with humans and balance mountain lion densities with ungulate management objectives. Traditional approaches to estimate mountain lion abundance have focused on marking and counting individual lions, a method that is labor-intensive and expensive, and often minimum counts of individuals are treated as a true census for management purposes <ref type="bibr" target="#b23">(Robinson et al. 2015)</ref>. The resources required by these traditional methods have limited the spatial scope and utility of the resulting estimates for population management <ref type="bibr">(Stoner et al. 2006, Quigley and</ref><ref type="bibr" target="#b21">Hornocker 2010)</ref>, and minimum counts of known individuals underestimate true population sizes. Therefore, the SCR approach provides managers with an effective and economical alternative method to estimate mountain lion density. <ref type="bibr">Royle et al. (2013b)</ref> provided an approach to incorporating covariates on density including information about habitat selection into SCR in the Bayesian framework. Mountain lions have been shown to have strong selective preferences for areas that offer cover, forest edges, and moderate slopes <ref type="bibr" target="#b19">(Newby 2011)</ref>. The assumption that all habitat within the study area will be used equally is unlikely to be true for mountain lions and most large carnivores. Therefore, we extend the <ref type="bibr" target="#b28">Russell et al. (2012)</ref> model for estimating mountain lion density to include the integration of a previously existing resource selection model as a covariate to account for this differential habitat selection. For many studies, pre-existing information about habitat use could inform the distribution of activity centers without requiring ancillary data (e.g., GPS or telemetry data), or use of the methodologically intensive joint estimation framework. Here, we evaluate the effects of introducing an existing RSF into Bayesian SCR models by comparing models results with and without the RSF. Additionally, we incorporate the ability to include information about harvested animals (dead recoveries) into Bayesian SCR models, increasing the utility of the modelling approach for species subject to harvest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study area</head><p>The 2,625 km 2 study area was located in the southern Bitterroot watershed in western Montana, USA, primarily within Ravalli County and spanning portions of two mountain lion management units (LMU 250 and LMU 270; Fig. <ref type="figure" target="#fig_0">1</ref>). Elevations range from 1200 m to 2600 m, with moderate to steep terrain. Precipitation ranges annually from 40 cm in the valley bottoms to 88 cm in the mountains, and primarily falls as snow during winter (PRISM Climate Group 2013). Ungulate species in the study area include elk (Cervus elaphus), white-tailed deer (Odocoileus virginianus), mule deer (O. hemionus), bighorn sheep (Ovis candensis), mountain goat (Oreamnos americanus) and moose (Alces alces). Large carnivore species, in addition to mountain lions, include wolves (Canis lupus) and black bears (Ursus americanus). The mountain lion management units have had variable season structures, mountain lion harvest quotas, and presumably population size, during the past 20 years. From 1992 to 2000, harvest across both management units averaged 28.2 mountain lions per year (SD ¼ 12.9). From 2000 to 2008, harvest across both management units declined to an average of 6.4 mountain lions per year (SD ¼ 2.3). From 2009 to 2012, harvest across both management units averaged 16.5 mountain lions per year (SD ¼ 7.6). During 2009-2012, harvest included an average of 6.5 females and 10.0 males, and 89.6% of the harvest was classified as adult animals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data collection</head><p>We overlaid a 5 3 5 km grid across the study area and assigned each cell a grid identification number. We randomly generated a list of grid cells and started search effort each day in the randomly assigned grid cell. We stratified sampling in this manner to ensure sampling was allocated across both the high and low quality habitat. Mountain lion hair, scat, and muscle samples were collected by trackers and houndsmen for genetic analysis to identify individuals. When a fresh mountain lion track was located, the houndsmen would release trained hounds to locate and tree the mountain lion. Tracks were backtracked and inspected to determine if the mountain lion was independent or associated with a family group, and group size was recorded. Sex was determined based on track v www.esajournals.org size and physical features of treed mountain lions. Sex was assigned by genetic analysis when sex could not be determined in the field or field staff was uncertain of sex. Muscle samples were collected from treed animals using biopsy darts fired from a CO 2 -powered rifle (Palmer Cap-Chur brand model 1200c). When older mountain lion tracks were located, a tracker or houndsmen would backtrack the tracks and collect any hair or scat samples along the tracks. All field crews used a Global Positioning System to record the length (in km) and location of their search effort. Harvest and management removals occurred during the sampling period and we used samples collected from harvested animals within the study area. In Montana, the hide and skull of all mountain lions publically harvested must be presented to Montana Department of Fish, Wildlife and Parks. During the mandatory check, officers collected a muscle sample from each harvested animal. We also collected harvest samples from all adjacent hunting districts to determine if animals marked within the study area may have moved out of the study area. Adjacent districts had similar harvest management regulations as the study area.</p><p>To estimate the density of independent mountain lions in the study area, we censored the dataset to include only samples from independent animals or the adult female of a family group. This eliminated multiple samples from within family groups, and eliminated all groups where only a subadult animal within the group was sampled. The average age that dependent offspring disperse and become independent of their mother is approximately 15 months of age <ref type="bibr">(Sweanor et al. 2000, Robinson and</ref><ref type="bibr" target="#b22">DeSimone 2011)</ref>, therefore our density estimates include all animals .15 months of age. We estimated the number of independent mountain lions rather than density of all mountain lions because harvest management quotas are based on the number of independent, subadult or adult-aged animals.</p><p>We performed genetic analysis of hair, scat, and muscle samples to identify the sex and individual identity of sampled mountain lions following methods described in <ref type="bibr" target="#b28">Russell et al. (2012)</ref>. We genotyped tissue samples using 20 variable microsatellite loci used previously in mountain lions (see Appendix A for details).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Spatial capture-recapture modelling</head><p>We followed the hierarchical model formulation described by <ref type="bibr" target="#b26">Royle et al. (2009)</ref> applied to genetic capture-recapture data from unstructured spatial sampling. For our purposes we decomposed the DNA observations of individuals at particular sites during a sampling period into two components: a spatial point process that describes the distribution of animals in space and an encounter process that describes the capture of individuals in grid cells given their activity center. The spatial point process model allows for the spatial information from the locations of individual captures to be incorporated into the estimate of density or abundance. Within the SCR framework we assume that a population consists of n individuals, and that each individual, i ¼ 1, 2, . . . , n, in the population has a fixed activity center representing the center of the area occupied by the individual during the study period. Each individual moves about these activity centers, which are allowed to overlap, according to some distribution defined in the observation model. In addition, we assume that the farther an observer is from the animal's activity center the less likely the animal is to be detected.</p><p>For the encounter model, we constructed individual, cell-specific encounter histories for each time period of the study, y i,j,k for individual i; cells j ¼ 1, 2, . . . , J; and sample periods k ¼ 1, 2, . . . , K. In this study individual encounters did not arise from discrete trap locations (e.g., camera traps), but instead encounters could occur at any spatial location searched by trackers and houndsmen. To accommodate this unstructured spatial sampling, we used the center of sampling grid cells as conceptual traps following <ref type="bibr" target="#b28">Russell et al. (2012)</ref>. Previous simulations demonstrated little effect of grid cell size on lion density estimates using this design <ref type="bibr" target="#b28">(Russell et al. 2012)</ref>, and, more generally in SCR models <ref type="bibr" target="#b30">(Sollmann et al. 2012)</ref>. Because animals were also harvested and removed from the population during the sampling period, we defined 4 sampling periods so that harvested individuals' detection probabilities could be adjusted in later sampling periods (see below for dead recoveries). We selected 4 sampling periods (December, January, February and March-April) that roughly corresponded to monthly sampling intervals in efforts to adjust detection probabilities of harvested animals and still allow for adequate sampling effort and detections per sampling interval. We assumed that individuals could have been encountered in all traps for each sampling period through search effort or harvest. We developed an encounter history for each animal during each sampling period where y i,j k ; Binomial (K, p i,j ) (Eq. 5.2.1, <ref type="bibr">Royle et al. 2013a</ref>) and the value of y i,j,k ¼ 0 if the animal i was not encountered in the grid cell j on sampling occasion k and y i,j,k ¼ 1 if the animal i was encountered 1 or more times in the grid cell j on sampling occasion k. If an animal i was harvested during a previous sampling period, we set the encounter history to y i,j,k ¼ 0 for all grid cells for all subsequent sampling periods, and removed the individual from likelihoods within the Markov chain Monte Carlo estimation of parameters (i.e., the detection probability for that individual after known harvest did not influence the estimate of detection probability for the remaining live individuals).</p><p>Following <ref type="bibr" target="#b10">Gardner et al. (2010)</ref> and <ref type="bibr" target="#b28">Russell et al. (2012)</ref>, we assume that cell-specific encounter probabilities for each i individual and j cell ( p ij ) are related to the Euclidean distance between an individual's activity center (s i ) and cell j, r is a scale parameter depending on the measurement units, and h is a shape parameter of the activity distribution <ref type="bibr" target="#b10">(Gardner et al. 2010</ref>)</p><formula xml:id="formula_0">p ij ¼ p 0 exp À 1 2r 2 jjx j À s i jj 2</formula><p>(Eq. 5.2.3, <ref type="bibr">Royle et al. 2013a)</ref>. When h ¼ 1, this model describes a bivariate-normal distribution of animal activity, and a value of h ¼ 0.5 corresponds to an exponential activity distribution. We used a prior distribution for h ; U(0.5, 1). This model of detection probability</p><formula xml:id="formula_1">logitðp 0;ij Þ ¼ } 0 þ b 3 X ij</formula><p>assumes a baseline encounter rate a 0 which is the probability of encounter at the animal's center of activity <ref type="bibr">(Royle et al. 2013a</ref>). We considered the following covariates as potentially modifying detection probability: (1) sex, and (2) log-transformed search effort within a given sampling period <ref type="bibr" target="#b34">(Thompson et al. 2012</ref>). We did not record hunter search effort, so we assumed that hunter search effort was equal to the mean of our search effort during each sample period because both hunters and researchers utilized the same road network to search for tracks. This allowed us to estimate the effects of search effort, given a small number of samples were collected via harvest in grid cells with no recorded search effort. We further considered the interactive effects of distance and sex on detection probability, wherein capture probabilities differ by sex because females are expected to have smaller activity distributions than males <ref type="bibr" target="#b13">(Hornocker and Negri 2009)</ref>.</p><p>In practice, the statespace is chosen to encompass the movements of all animals within the study area but the statespace does not determine the extent of animal movements as part of the density estimate, as one-half mean maximum distance moved (MMDM; <ref type="bibr">Royle et al. 2013a)</ref> or similar measures do in traditional studies. The statespace is chosen to be larger than the trapping grid such that the model accounts for individuals with activity centers outside of the trapping grid, but whose activity range extends into the trapping grid. The exact size of the trapping grid buffer used to construct the statespace does not strongly influence density estimates under the assumption of a uniform distribution of activity centers <ref type="bibr" target="#b28">(Russell et al. 2012)</ref>. When spatial covariates are included, however, the size of the buffer may influence density, as different values of spatial covariates may be included within the buffer. We choose a buffer size of 10 km around our study grid and identified potential activity centers within this area every 2 km. Because our study grid was not a square, we applied the 10 km from the most extreme edges of our grid in each cardinal direction, such that the buffer exceeded 10 km in some areas. In one area the buffer zone was reduced to ,10 km to exclude areas that did not include wintering lion habitat. This resulted in a 5912 km 2 statespace.</p><p>Currently, methods exist in ''secr'' <ref type="bibr" target="#b8">(Efford 2014)</ref> to incorporate dead recoveries into spatial capture-recapture models in the likelihood framework. We developed a method to incorporate information about harvested lions in a Bayesian framework by including a matrix, indicating whether the animal was potentially alive in each sampling period and therefore available to be captured or if the animal had v www.esajournals.org been harvested during a previous session. This matrix was then used to censor when animals were not available to be captured from the likelihood, thus preventing a bias in detection probabilities from harvested individuals not available for detection post-harvest.</p><p>We included information about winter mountain lion habitat quality by incorporating predictions from an existing resource selection function (RSF) as a density covariate. We incorporated values of the RSF into our estimate of density using the following equation:  <ref type="bibr">B)</ref>. We used the logit of continuous predictions rescaled from 0 to 1 from this RSF as a covariate in the SCR model. We evaluated the effects of including harvested animals in the analyses in two ways. First, to evaluate potential effects of bias in the detection process by introducing individuals that could not be detected after removal, we compared density and precision of estimates from a model that masked harvested animals from sampling periods post-harvest and a model that treated harvested animals as live throughout the sampling period. Second, to evaluate the effects of the harvest samples on the density estimates, we compared density estimates from a model that included only the live animal samples with a model that included both the live animal and harvest samples. In both these evaluations, we used the best model identified through our model selection process for comparisons.</p><formula xml:id="formula_2">log lðs; bÞ ¼ b 0 þ b v C v<label>ðsÞ</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bayesian analysis by MCMC</head><p>We used Bayesian MCMC methods in the SCRbayes package for the R programming language to estimate the posterior distribution of the model parameters (<ref type="url" target="https://sites.google.com/site/">https://sites.google.com/site/</ref> spatialcapturerecapture/scrbayes-r-package; see Supplement). This approach uses data augmentation to add a sufficiently large number of all-zero (unencountered) capture histories to create a dataset of M individuals. We determined the data augmentation to be large enough when final posterior estimates of population size were not limited by the number of augmented unencountered individuals (see <ref type="bibr">Royle et al. 2013a)</ref>. In essence, we assume a uniform prior distribution on N, population size, from 0 to M, where M includes the unencountered animals. Here, we augmented with 1000 all-zero encounter histories. Following <ref type="bibr" target="#b28">Russell et al. (2012)</ref>, models were run for 30,000 iterations with the first 10,000 iterations discarded as burn-in, leaving 20,000 samples from the posterior distribution. Starting values for parameters were: r ¼ 1, h ¼ 0.75, ln(a 0 ) ¼ 0, b ¼ 0, w ¼ 0, and w sex ¼ proportion of individuals sampled that were male (0.40 for our sample). We used improper priors (À', ') for a 0 and all b parameters, (0, ') for r, (0.5, 1) for h, and (0, 1) for w and w sex . We assessed model convergence by examining posterior parameter-wise trace plots and histograms.</p><p>To estimate lion abundance (N) within the statespace and within the two management units of interest, we counted the number of activity centers within the statespace and within the management units. Since this estimate of abundance is linked explicitly to an area (either the statespace or a management unit), we calculate density (D) by finding the quotient of the N activity centers and the area of the statespace or v www.esajournals.org management unit.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bayesian model selection and model goodness of fit</head><p>We evaluated 16 potential models (Appendix C) that we fit to the data in a Bayesian framework. We conducted a form of model selection by examining the posterior significance of the parameters in each model weighted by our prior knowledge of mountain lion biology. For the sex and effort effects on the detection probability, as well as RSF covariate on activity center distribution, 95% credible intervals that excluded zero would provide evidence of significance. Similarly, for the sex effects on the scale parameter of the activity distribution, we examined whether male and female values had significantly different 95% credible intervals. We did not, however, immediately exclude models that included apparently non-significant parameters, as many of these parameters derive support from previous ecological studies (i.e., differences in male and female activity range sizes). We evaluated the effects of introducing the RSF covariate by comparing models with without the RSF as a covariate on the distributions of activity centers. We compared the density and precision of estimates of the best model with and without the RSF covariate.</p><p>We evaluated model goodness of fit for the top models following methods described by <ref type="bibr" target="#b28">Russell et al. (2012)</ref> including a standard Bayesian Pvalue approach <ref type="bibr" target="#b11">(Gelman and</ref><ref type="bibr">Shalizi 2011, Royle et al. 2013a</ref>). We tested the GOF of the encounter process separately from the GOF of the underlying spatial point process. For the encounter process, we calculated a discrepancy measure for the cell-specific individual encounter frequencies to compare posterior samples and new realizations of the data generated from the posterior distribution. We used the Freeman-Tukey statistic to construct a Bayesian P-value</p><formula xml:id="formula_3">D ¼ X N i¼1 ð ffiffiffiffi n i p À ffiffiffi ffi e i p Þ 2</formula><p>where n i is the (observed or simulated) encounter frequency conditional on s i (activity center) and e i is the expected value under the model. The Pvalue is the proportion of time D(obs) .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D(posterior).</head><p>For the point-process, we examined model GOF by testing whether estimated activity centers were independently and uniformly distributed over the statespace. We calculated a Bayesian P-value based on the statistic, I ¼ (G -1) 3 s 2 / n, where G is the total number of grid cells, and n and s 2 are the mean and variance of the number of activity centers per grid cell. We compare I from the estimated posterior distribution of the point-process to simulations under complete spatial randomness. We did not apply the point-process GOF test to models with the RSF covariate on the distribution of activity centers, because we would not expect activity centers to be independently and uniformly distributed across space for these models.</p><p>As a final metric of model goodness of fit, we compared the observed and expected number of individuals captured for each model to holistically examine both the point-process and detection process. We calculated the expected number of individuals captured with</p><formula xml:id="formula_4">Eðn cap Þ ¼ X S E s i 3 n s i</formula><p>where E s i represents the exposure probability of an individual with an activity center at s i and n s i is the number of activity centers estimated at s i . By computing these values for each MCMC iteration, we constructed a 95% confidence interval for the number of individuals captured given the complete process described by the model. An observed number of captures that fell outside this range would indicate poor model fit.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>We searched for mountain lion sign over a total of 8382 km during 98 person-days from December 7, 2012 to April 2, 2013. Search effort was distributed across 85 of 105 grid cells, and 80% of the effort occurred before February 15, 2014 (Appendix D). Hunter effort was unquantified, but there were only 8 grid cells in which a harvest but no live recapture occurred. Animals were sampled in 35 grid cells, and individual grid cells contained 0-6 samples (Fig. <ref type="figure" target="#fig_0">1</ref>). A total of 80 samples from independent animals were included in the analysis, and 62 unique individuals were identified. Three individuals were identified from hair samples, 4 individuals were identified from scat samples, 43 individuals were identified from biopsy muscle samples, and 30 individuals were identified from harvest samples. There were 25 male mountain lions identified and 37 female mountain lions identified. Fifteen individuals were recaptured 2-4 times during the sampling period (13 animals captured 2 times, 1 animal captured 3 times, and 1 animal captured 4 times). Thirty of the 62 individuals were harvested (17 female, 13 male), and of these, 10 (6 female, 4 male) were previously sampled and identified. The detection of new genotypes scaled linearly with search effort throughout the entire sampling period (Appendix D). No animals detected within the study area were later detected in the harvest sampling conducted outside the study area, suggesting limited movement occurred during the sampling period.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model selection and goodness of fit</head><p>We evaluated 16 candidate models. Across all models, the parameter estimates for effort and RSF were consistently positive with 95% credible intervals that did not include zero (Appendix C). The 95% credible interval for the effect of sex on detectability and the sex-specific scale parameters overlapped zero in all models, but the effect of sex and sex-specific scale parameters were in the expected direction (Appendix C). The Bayesian P-value for the encounter process GOF produced reasonable results for all models and did not aid discrimination between models. Our ad hoc GOF measure of the predicted number of captures showed all models plausibly described the combination of the underlying point process and capture of individuals because the number of individuals captured (n ¼ 62) falls within the expected range. Therefore, we present results of all 4 models that included effort and RSF, and we selected the full model that included detection covariates for search effort and sex, RSF-driven densities and sex-specific activity distributions for further evaluation (Table <ref type="table" target="#tab_1">1</ref>).</p><p>Estimates from the full model indicated monthly detection probabilities were higher in grid cells with more search effort and mountain lion activity center densities were higher in areas with larger RSF values (Table <ref type="table" target="#tab_2">2</ref>). Females had higher baseline detection probability. Males were more likely to be detected farther from their activity center than females (e.g., males had larger observed movements; Appendix E). Using this best model, we estimated a median of 226 mountain lions over the entire statespace of 5,912 km 2 (Fig. <ref type="figure" target="#fig_1">2</ref>), corresponding to a median realized density (D) of 3.8 (6 1.02 SD) mountain lions/100 km 2 . We estimated the proportion of males in the population was 0.41 (95% CI ¼ 0.26-0.61). Extracting estimates from the two management units of interest, in HD 250 we estimate a median of 82 (95% CI ¼ 54, 141) mountain lions, corresponding to a median density of 4.5 mountain lions/100 km 2 and a median of 79 (95% CI ¼ 51, 137) mountain lions in HD 270, corresponding to a median density of 5.2 mountain lions/100 km 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of including habitat quality on density estimates</head><p>Including the RSF as a covariate on the distribution of activity centers reduced estimated v www.esajournals.org mountain lion densities across all models (Fig. <ref type="figure" target="#fig_2">3</ref>, Table <ref type="table" target="#tab_3">3</ref>), and had mixed effects on extrapolated densities in the two management units of interest. Comparing the best model with and without the RSF covariate, we found estimated abundance and density was reduced and the effective sampling area was similar (Fig. <ref type="figure" target="#fig_3">4</ref>).</p><p>Median density was 44% less in models with the RSF covariate (3.6 lions/100 km 2 ; 95% CI ¼ 2.4, 7.4) compared to the average of models   v www.esajournals.org without the RSF covariate (5.2 lions/100 km 2 ; 95% CI ¼ 3.4, 8.8). The inclusion of the RSF improved precision by decreasing the standard deviation by 7% and decreasing the width of 95% credible intervals by 10%. Within the two management units of interest, median density was 17% less in the best model with the RSF covariate (4.5; 95% CI ¼ 2.9, 7.7) as compared to the same model without the RSF covariate (5.4; 95% CI ¼ 3.4, 9.2) in lion management unit 250 and 4% greater in the best model with the RSF covariate (5.2; 95% CI ¼ 3.4, 9.1) as compared to the same model without the RSF covariate (5.0; 95% CI ¼ 3.1, 9.0) in lion management unit 270.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of including harvest on density estimates</head><p>Treating harvested individuals as live captures did not create a significant bias in the detection process by introducing individuals that could not be detected after removal. When samples from harvested individuals were treated as live captures, we estimated a median density of 3.9 (95% CI ¼ 2.6, 6.7) mountain lions/100 km 2 , which did not represent a significant difference from the model that masked these individuals from sampling periods after they had been harvested (3.8, 95% CI ¼ 2.6, 6.5). Similarly, we observed no significant differences in any of the parameter estimates from models fit with these two permutations of the data.</p><p>The dead recovery component of the model did have a substantial effect on results by increasing sample size. When captures from harvested individuals were excluded from the sample, the data set had 50 total captures of which 5 were recaptures. With this reduced data set, we estimated a median density of 6.8 (95% CI ¼ 2.7, 16.6) mountain lions/100 km 2 . This median density represented a 78% increase over the model fit with the complete data set (3.8, 95% CI ¼ 2.6, 6.5). Moreover, with a reduction in sample size, the precision of the estimate decreased substantially. The standard deviation increased by 277% and the 95% credibility interval width increased by 251%. The effects on our estimate of density manifested through poor estimates of the sex-specific parameters on both detection probability and the scale of the activity distribution. Removing samples from harvested individuals eliminated all recaptures of male individuals such that the sex-specific parameters could not be estimated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Our results indicate that incorporating prior knowledge of animal habitat selection into spatial capture-recapture models may improve model fit and the precision of the abundance estimates. In this case, the model where the probability of an activity center being located in a grid cell was a positive function of an existing RSF reduced the overall estimate of abundance by 44%, the SD by 7% and the CI width by 10%, an important improvement in both biological realism (i.e., high quality habitats had higher density than lower quality habitats) as well as precision of estimates. This approach to SCR modelling that increases the precision of estimates may increase the applicability of SCR modelling as an applied tool for monitoring trends in population abundance and effects of v www.esajournals.org various management actions on these trends. The overall strength of the SCR approach is the ability to explicitly estimate density over a defined area and account for animals whose activity ranges overlap the periphery of the area surveyed. This is particularly important for large carnivore species that tend to be wide-ranging and violate traditional capture-recapture geographic closure assumptions. For example, we estimated the location of activity centers across the statespace and calculated a statespace density, then estimate the density across two defined areas of interest (the hunting districts) as a function of the number of activity centers within the area of the hunting districts. In this manner, animals whose activity ranges overlap the periphery of the hunting districts are accounted for. These strengths add ecological realism, and address the challenge of comparing estimates across studies. The differences in estimated density between the statespace and management units of interest highlight the fact that density estimates are sensitive to the area over which the density estimates are generated. Thus, the ability to generate spatially explicit spatial abundances as a function of underlying habitat quality through the SCR approach may improve applicability of extrapolated density estimates beyond a given study area, making the approach more relevant to wildlife managers making decisions for larger landscapes rather than distinct study areas. Further improvements and refinements to SCR methods, including pooling data across study areas <ref type="bibr" target="#b14">(Howe et al. 2013)</ref> or data sources <ref type="bibr" target="#b12">(Gopalaswamy et al. 2012)</ref> will continue to improve rigor and reliability of SCR methods for monitoring trends in wildlife population abundance.</p><p>Our methods provide a method of integrating harvest into Bayesian SCR models. Similar methods exist within the likelihood framework <ref type="bibr">(Borchers and</ref><ref type="bibr">Efford 2008, Efford 2014)</ref>, however harvest has not been previously included within the Bayesian framework. SCR models have been applied to other species, for example, wolverines (Gulo gulo) and Lynx (Lynx lynx; <ref type="bibr" target="#b27">Royle et al. 2011</ref><ref type="bibr" target="#b2">, Blanc et al. 2013)</ref> with potentially open harvest seasons without explicitly considering effects of ongoing harvest. Given that most large carnivore species are harvested or subject to management removals, our dead-recovery approach is likely to Our median estimates of 4.5 and 5.2 independent mountain lions/100 km 2 in the management units of interest represent the estimated density of a hunted population living sympatrically with wolves, and are higher than previously published estimates of mountain lion densities <ref type="bibr" target="#b13">(Hornocker and Negri 2009)</ref>. There could be important methodological as well as ecological reasons for our high estimates. Most published mountain lion density estimates are based on intensive, multi-year marking, radiocollaring and population monitoring methodologies that generate a mean minimum population density estimate. These studies assume that all individuals within the study population are detected, an individual's presence in the population may be backdated based on age to account for their presence prior to detection, and the study area includes the annual ranges of radiocollared mountain lions <ref type="bibr" target="#b13">(Hornocker and Negri 2009)</ref>. However, even within these types of intensive radiocollaring studies differences in sampling and estimation methodologies make comparisons of mountain lion density across study areas challenging. Specifically, the inclusion of different sex-age classes and, crucially, differences in area over which density is calculated (i.e., winter range vs. annual range) differs between studies and obviously challenges comparisons. Using SCR methods, we do not assume perfect detection and we include transient individuals in the estimate.</p><p>Additionally, two important ecological factors may be contributing to a high mountain lion density in the study area. First, mountain lion harvest in the study area has been conservative during the past decade and the population has likely increased throughout this period of conservative harvest management. Second, the abundance and diversity of prey in this area, resulting partially from ungulate management practices, likely sustains a higher than average mountain lion population (Carbone and Gittleman 2002, <ref type="bibr" target="#b18">Karanth et al. 2004</ref>). The potential for individuals to move into the study area to occupy territories vacated by harvested individuals could result in overestimating mountain lion density, as our estimate is designed as an estimate of density pre-harvest (i.e., on the first day of the sampling period). However, the study area was located within a watershed under uniform mountain lion harvest management, and source-sink dynamics are unlikely in this scenario. Further, we designed our sampling plan to minimize the potential for movement into the study area by minimizing the duration of sampling and by concentrating our search effort during the period prior to the hunting season opening to the general public (see Appendix D). Although subtle shifts in territory use may have occurred as nearby animals were harvested, this effect would positively bias our estimates of activity range and negatively bias our estimates of population density. Therefore, shifting territories during the sampling period is not likely to explain our high density estimates. Finally, while SCR models do not necessarily allow flexibility in violating the closure assumption (but there are open SCR models that can do so), the explicit integration of space combined with choice of effective study area boundaries can minimize potential problems with closure compared to non-spatial capture-recapture models <ref type="bibr">(Royle et al. 2013a)</ref>.</p><p>The DNA sampling methodology used in this study reduces the time and effort involved in capturing and handling animals, but does not provide information about the age, body condition or other individual characteristics of an animal. Additionally, the ability to distinguish between transient and resident individuals is limited. For some areas and species transients may constitute a major portion of the population, and methodological development may be required to adjust density estimates for these areas. For many other large carnivores, transient or dispersing individuals comprise a significant portion of the harvestable population (e.g., wolves in Alaska where 50% of the harvest were such animals; <ref type="bibr" target="#b0">Adams et al. 2008)</ref>. We suggest that for mountain lions including transient animals in the population estimate is appropriate because these animals are present, likely affect the dynamics of local ungulate populations, and are legally harvestable during the hunting season. We also expect over the long-term the number of transients moving into and out of the study area are roughly equal, resulting in a consistent effect on both mountain lion density and ungulate populations.</p><p>In our study, like many other studies of large carnivores, detection probability was relatively low, 0.09/month for males and 0.21/month for females with average effort at the center of the home range of the lion. Despite being low, our detection rates were similar to other large carnivore studies; for example, detection probability in non-spatial capture-recapture ranged from 0.12 to 0.26 for grizzly bears in British Columbia <ref type="bibr" target="#b5">(Boulanger et al. 2002)</ref>, from 0.11 to 0.26 for Bengal tigers in non-spatial models in India <ref type="bibr" target="#b17">(Karanth and Nichols 1998)</ref>, from 0.01 to 0.04/night for tiger density estimated in a spatial capture-recapture model <ref type="bibr" target="#b26">(Royle et al. 2009)</ref>, and from 0.05 to 0.09/period for jaguars in Brazil <ref type="bibr" target="#b31">(Sollmann et al. 2013</ref>). In our case, with mountain lions, our detection probabilities resulted in reduced precision of our parameter estimates, increased estimates of population abundance well beyond the raw number of individuals identified, and emphasizes the cryptic nature of mountain lions. Future studies of large carnivores could probably improve precision of SCR estimates by incorporating existing information regarding habitat quality (or if unavailable, radiocollaring and estimating a RSF or some other index of habitat suitability) or developing sampling plans that target recaptures of sampled individuals to improve the estimation of the detection function (i.e., deliberately resampling areas that have previously been sampled).</p><p>We recommend that the decision to approach future large carnivore studies using the SCR or traditional radiocollaring approach be made based on the questions and applications of interest. For monitoring long-terms trends in animal abundance, non-invasive sampling techniques for capture-recapture studies provide a fast and economical method to estimate the number of individuals and monitor trends in segments of a population across time. The SCR method for the analysis of capture-recapture data provides estimates of density using a repeatable methodology which makes comparisons across time and space possible. Studies seeking to estimate vital rates, assess space use, distinguish between residents and transients or understand cause-specific mortality may be best approached using traditional tracking methodologies or capture-recapture approaches.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. The mountain lion study area in the Bitterroot Watershed of western Montana during winter 2012-2013 (A) showing the 5 3 5 km sampling grid and the underlying resource selection function (RSF) for mountain lions during winter (B), the spatial distribution of effort (C; measured in km), and the spatial locations of recaptures (D). The 5 3 5 km grid cells define the spatial capture-recapture model grid where the center point of grid serves as a trap. The black lines denote mountain lion hunting district (HD) boundaries, with HD 250 and HD 270 denoted.</figDesc><graphic coords="3,102.67,83.68,406.72,250.13" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. The spatial densities of mountain lions/4 km 2 across the statespace in the Bitterroot Watershed of western Montana estimated from the best model assuming uniform distribution of activity centers (Effort þ Sex þ r sex ; A) and best model that estimated the distribution of activity centers as a function of the resource selection function (RSF, Effort þ Sex þ r sex þ RSF; B) for sampling conducted during winter 2012-2013.</figDesc><graphic coords="9,311.98,328.54,215.32,228.53" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Effects of including a pre-existing mountain lion resource selection function (RSF) as a covariate on the distribution of activity centers on estimated median mountain lion population density (mountain lions/100 km 2 ) the Bitterroot Watershed of western Montana during winter 2012-2013 from 16 candidate spatial capture-recapture models. The uniform model estimates are based on a prior assumption of uniform distribution of activity centers and did not include RSF as a covariate on the distribution of activity centers. Error bars represent 95% credible intervals.</figDesc><graphic coords="9,84.81,315.95,215.32,265.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Comparison of SCR model parameters estimating mountain lion density in the Bitterroot Watershed of western Montana during winter 2012-2013 that include RSF as a covariate on activity center distributions (black line) and with uniform distribution of activity centers (grey line). Panel (A) shows the effects of the RSF covariate on posterior probability densities of abundance over the entire statespace. Panel (B) shows the effects on estimated population density (mountain lions/400 km 2 ) over the entire statespace.</figDesc><graphic coords="11,96.78,83.68,191.34,471.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Spatial capture-recapture model estimates for the total number (N ) and density of mountain lions/100 km 2 in the 5912 km 2 statespace in western Montana during winter 2012-2013. Sex and search effort (Effort) are included as covariates on baseline detection probability and the parameter r sex allows for the scale of activity ranges to vary by sex. An existing resource selection function (RSF) was included as a covariate on the density of activity centers across the statespace. The 95% CI represent the Bayesian credible intervals. The goodness of fit (GOF) p-value represents the GOF p-value for the encounter model with values between 0.05 and 0.95 indicate an adequate fit. Eðn cap Þ represents the 95% credible interval of the expected number of captured individuals given the estimated point process and encounter process, and values including n cap ¼ 62, indicate adequate fit.</figDesc><table><row><cell>Model</cell><cell>N</cell><cell>Median density</cell><cell>95% CI</cell><cell>GOF p-value</cell><cell>E(n cap )</cell></row><row><cell>Effort þ RSF</cell><cell>201</cell><cell>3.4</cell><cell>2.4-5.7</cell><cell>0.64</cell><cell>56-84</cell></row><row><cell>Effort þ RSF þ Sex</cell><cell>229</cell><cell>3.9</cell><cell>2.6-7.7</cell><cell>0.73</cell><cell>55-85</cell></row><row><cell>Effort þ RSF þ r sex Effort þ RSF þ Sex þ r sex</cell><cell>214 226</cell><cell>3.6 3.8</cell><cell>2.5-5.8 2.6-6.5</cell><cell>0.66 0.73</cell><cell>56-84 50-81</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>Median parameter estimates and 95% Bayesian credible intervals from spatial capture-recapture models of mountain lion abundance in western Montana during winter 2012-2013. Sex and search effort (Effort) are included as covariates on baseline detection probability and the parameter r sex allows for the scale of activity ranges to vary by sex. Female r and Male r represent estimated values for female and male mountain lions. An existing resource selection function (RSF) was included as a covariate on the density of activity centers across the statespace.</figDesc><table><row><cell>Model</cell><cell>Female r</cell><cell>Male r</cell><cell>b effort</cell><cell>b sex</cell><cell>b RSF</cell></row><row><cell>Effort þ RSF</cell><cell>0.71 (0.50, 1.00)</cell><cell>0.71 (0.50, 1.00)</cell><cell>0.91 (0.67, 1.15)</cell><cell>. . .</cell><cell>0.84 (0.62, 1.00)</cell></row><row><cell>Effort þ RSF þ Sex</cell><cell>0.68 (0.51, 1.00)</cell><cell>0.68 (0.51, 1.00)</cell><cell>0.89 (0.66, 1.13)</cell><cell>À0.20 (À1.33, 0.48)</cell><cell>0.66 (0.51, 0.82)</cell></row><row><cell>Effort þ RSF þ r sex Effort þ RSF þ Sex þ r sex</cell><cell>0.66 (0.50, 0.98) 0.62 (0.45, 0.93)</cell><cell>0.67 (0.49, 1.02) 0.85 (0.53, 1.94)</cell><cell>0.89 (0.65, 1.17) 0.90 (0.66, 1.19)</cell><cell>. . . À0.97 (À2.40, 0.18)</cell><cell>0.68 (0.43, 0.87) 0.63 (0.45, 0.94)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>Spatial capture-recapture model estimates of median mountain lion density/100 km 2 in western Montana during winter 2012-2013 for 8 models with a uniform prior distribution on activity centers and 8 models with a resource selection function (RSF) included as a covariate on the density of activity centers across the statespace. Sex and search effort (Effort) are included as covariates on baseline detection probability and the parameter r sex allows for the scale of activity ranges to vary by sex. The 95% CI represent the Bayesian credible intervals.</figDesc><table><row><cell>Model</cell><cell>Median density</cell><cell>95% CI</cell><cell>Median density</cell><cell>95% CI</cell></row><row><cell>Distance</cell><cell>4.8</cell><cell>3.2-7.5</cell><cell>3.2</cell><cell>2.2-5.1</cell></row><row><cell>Sex</cell><cell>5.1</cell><cell>3.3-8.6</cell><cell>3.8</cell><cell>2.4-16.4</cell></row><row><cell>r sex Sex þ r sex</cell><cell>5.1 5.3</cell><cell>3.3-8.8 3.5-9.7</cell><cell>3.6 3.5</cell><cell>2.4-5.9 2.4-5.7</cell></row><row><cell>Effort</cell><cell>5.1</cell><cell>3.3-7.9</cell><cell>3.4</cell><cell>2.4-5.7</cell></row><row><cell>Effort þ Sex</cell><cell>5.6</cell><cell>3.7-10.4</cell><cell>3.9</cell><cell>2.6-7.7</cell></row><row><cell>Effort þ r sex Effort þ Sex þ r sex</cell><cell>5.2 5.3</cell><cell>3.4-8.5 3.5-9.3</cell><cell>3.6 3.8</cell><cell>2.5-5.8 2.6-6.5</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>v www.esajournals.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>November 2015 v Volume 6(11) v Article 239 PROFFITT ET AL.21508925, 2015, 11, Downloaded from https://esajournals.onlinelibrary.wiley.com/doi/10.1890/ES15-00001.1 by Universite De Tours Scd, Wiley Online Library on [05/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>November 2015 v Volume 6(11) v Article 239</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>21508925, 2015, 11, Downloaded from https://esajournals.onlinelibrary.wiley.com/doi/10.1890/ES15-00001.1 by Universite De Tours Scd, Wiley Online Library on [05/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>ACKNOWLEDGMENTS Project funding and support was provided by <rs type="funder">Ravalli County Fish and Wildlife Association</rs>, the <rs type="funder">Montana Outdoor Legacy Foundation, Western Montana Chapter</rs> of the <rs type="funder">Safari Club International</rs>, <rs type="funder">Safari Club International Foundation</rs>, <rs type="funder">Rocky Mountain Elk Foundation</rs>, the <rs type="funder">University of Montana, U</rs>.S.D.A. <rs type="funder">Cooperative State Research, Education and Extension Service</rs> Grant No. <rs type="grantNumber">MONZ-1106</rs>, and by the sale of hunting and fishing licenses in Montana and <rs type="funder">Montana Fish, Wildlife and Parks Federal Aid in Wildlife</rs></p><p>Restoration grants. We thank <rs type="person">R. Beausoleil</rs> for advice regarding field methodology, and <rs type="person">J. A. Royle</rs> for expert advice on SCR modelling. We thank the project houndsmen and field staff for their dedicated efforts and expertise. Any use of trade, product, or firm names are for descriptive purposes only and do not imply endorsement by the <rs type="institution">U.S. Government</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Kqe6jRt">
+					<idno type="grant-number">MONZ-1106</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTAL MATERIAL ECOLOGICAL ARCHIVES</head><p>Appendices A-E and the Supplement are available online: <ref type="url" target="http://dx.doi.org/10.1890/ES15-00001.1.sm">http://dx.doi.org/10.1890/ES15-00001.1.sm</ref> v www.esajournals.org</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Population dynamics and harvest characteristics of wolves in the Central Brooks Range, Alaska</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Stephenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Dale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Ahgook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Demma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Monographs</title>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="page" from="1" to="25" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Andrewartha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Birch</surname></persName>
+		</author>
+		<title level="m">The distribution and abundance of animals</title>
+		<meeting><address><addrLine>Chicago, Illinois, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="1954">1954</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Abundance of rare and elusive species: empirical investigation of closed versus spatially explicit capture-recapture models with lynx as a case study</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Blanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Marboutin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gimenez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="372" to="378" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Borchers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Buckland</surname></persName>
+		</author>
+		<title level="m">Estimating animal abundance: closed populations</title>
+		<meeting><address><addrLine>Berlin, Germany</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Spatially explicit maximum likelihood methods for capturerecapture studies</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Borchers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="377" to="385" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A metaanalysis of grizzly bear DNA mark-recapture projects in British Columbia</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boulanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Himmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canada. Ursus</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="137" to="152" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A common rule for the scaling of carnivore density</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carbone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Gittleman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">295</biblScope>
+			<biblScope unit="page" from="2273" to="2276" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Density estimation in live-trapping studies</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Efford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="598" to="610" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">secr: spatially explicit capturerecapture models</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+		<ptr target="https://cran.r-project.org/web/packages/secr/secr.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">R package version 2</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Population density estimated from locations of individuals on a passive detector array</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Efford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Borchers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="2676" to="2682" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Spatially explicit inference for open populations: estimating demographic parameters from camera-trap studies</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Reppucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lucherini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="3376" to="3383" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Philosophy and the practice of Bayesian statistics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Shalizi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of the philosophy of the social sciences</title>
+		<editor>
+			<persName><forename type="first">H</forename><surname>Kincaid</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Oxford, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">ProgramSPACECAP: software for estimating animal density using spatially explicit capture-recapture models</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Gopalaswamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jathanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">U</forename><surname>Karanth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Freckleton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1067" to="1072" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hornocker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Negri</surname></persName>
+		</author>
+		<title level="m">Cougar: ecology and conservation</title>
+		<meeting><address><addrLine>Illinois, Chicago, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Combining data from 43 standardized surveys to estimate densities of female American black bears by spatially explicit capture-recapture</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Howe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Obbard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Kyle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Population Ecology</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="595" to="607" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The comparison of usage and availability measures for evaluating resource preference</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="65" to="71" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Mark-recapture models with parameters constant in time</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jolly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="301" to="321" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Estimation of tiger densities in India using photographic captures and recaptures</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">U</forename><surname>Karanth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="2852" to="2862" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Tigers and their prey: predicting carnivore densities from prey abundance</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">U</forename><surname>Karanth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Link</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hines</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences USA</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="4854" to="4858" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Newby</surname></persName>
+		</author>
+		<title level="m">Puma dispersal ecology in the central Rocky Mountains</title>
+		<meeting><address><addrLine>Missoula, Montana, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Montana</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<ptr target="http://prism.oregonstate.edu" />
+		<title level="m">Climate data</title>
+		<meeting><address><addrLine>Corvallis, Oregon, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+		<respStmt>
+			<orgName>PRISM Climate Group ; Oregon State University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Cougar population dynamics</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Quigley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hornocker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Cougar: ecology and conservation</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Hornocker</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Negri</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Illinois, Chicago, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="59" to="75" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Desimone</surname></persName>
+		</author>
+		<title level="m">The Garnet Range mountain lion study: characteristics of a hunted population in west-central Montana</title>
+		<meeting><address><addrLine>Helena, Montana, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Montana Department of Fish, Wildlife and Parks</publisher>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Final report</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Linking resource selection and mortality modeling for population estimation of mountain lions in Montana</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Modelling</title>
+		<imprint>
+			<biblScope unit="volume">312</biblScope>
+			<biblScope unit="page" from="11" to="25" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Chandler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<title level="m">Fully spatial capture-recapture models</title>
+		<meeting><address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Integrating resource selection information with spatial capture-recapture</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Chandler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Fuller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="520" to="530" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Bayesian inference in camera trapping studies for a class of spatial capturerecapture models</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">U</forename><surname>Karanth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Gopalaswamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="3233" to="3244" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Density estimation in a wolverine population using spatial capture-recapture models</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Magoun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Valkenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Lowell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="604" to="611" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Estimating abundance of mountain lions from unstructured spatial sampling</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Desimone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1551" to="1561" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Seber</surname></persName>
+		</author>
+		<title level="m">The estimation of animal abundance and related parameters</title>
+		<meeting><address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Hafner Press</publisher>
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">How does spatial study design influence density estimates from spatial capture-recapture models?</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Belant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">34575</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Combining camera-trapping and noninvasive genetic data in a spatial capturerecapture framework improves density estimates for the jaguar</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sollmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Tôrres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Furtado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>De Almeida Ja ´como</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Palomares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Silveira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page" from="242" to="247" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Cougar exploitation levels in Utah: implciations for demographic structure, population recovery and metapopulation dynamics</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Stoner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Wolfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Choate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1588" to="1600" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Cougar dispersal patterns, metapopulation dynamics, and conservation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Sweanor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Logan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Hornocker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Biology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="798" to="808" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">A framework for inference about carnivore density from unstructured spatial sampling of scat using detector dogs</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Royle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Garner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="863" to="871" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Non-invasive bat species identification from mixed-species samples using a microarray</title>
+				<funder ref="#_MvPxTPz #_fRRJJBx">
+					<orgName type="full">U.S. Army Corps of Engineers-Engineer Research and Development Center</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-09-19">19 September 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Lorelei</forename><forename type="middle">E</forename><surname>Patrick</surname></persName>
+							<email>loreleipatrick@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="institution">Louisiana State University</orgName>
+								<address>
+									<postCode>70803</postCode>
+									<settlement>Baton Rouge</settlement>
+									<region>LA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jan</forename><forename type="middle">M</forename><surname>Just</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Science and Engineering Division</orgName>
+								<orgName type="institution">Portland Community College</orgName>
+								<address>
+									<postCode>97280</postCode>
+									<settlement>Portland</settlement>
+									<region>OR</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">•</forename><surname>Maarten</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Vonhof</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Biological Sciences and Institute of the Environment and Sustainability</orgName>
+								<orgName type="institution">Western Michigan University</orgName>
+								<address>
+									<postCode>49008</postCode>
+									<settlement>Kalamazoo</settlement>
+									<region>MI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Non-invasive bat species identification from mixed-species samples using a microarray</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-09-19">19 September 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3D1150B7408C97D8BFC93BC3C81EA3B1</idno>
+					<idno type="DOI">10.1007/s12686-016-0613-0</idno>
+					<note type="submission">Received: 3 March 2016 / Accepted: 8 September 2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:30+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Microarray</term>
+					<term>Bat</term>
+					<term>Guano</term>
+					<term>Species identification</term>
+					<term>Non-invasive sampling</term>
+					<term>Mixed species samples</term>
+					<term>Degraded DNA</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>A prerequisite for organismal and biodiversity studies is the ability to accurately identify species of interest and distinguish target species from all other possible alternatives. For most groups of animals and plants, species identification has traditionally relied on the use of morphological characters to distinguish members of different species. The use of genetic markers provides an alternate source of diagnostic characters to aid in species discrimination and is particularly useful in cases where morphology may be misleading or when species are elusive. Such cases include when there is cryptic morphological variation within a taxon or when using non-invasively collected samples such as hair or feces that cannot be directly attributed to a particular individual and may contain DNA from multiple individuals <ref type="bibr" target="#b32">(Waits and Paetkau 2005)</ref>.</p><p>Molecular species identification of vertebrates has typically focused on the direct sequencing of mitochondrial DNA (mtDNA) markers, due to their high mutation rate, lack of recombination, and high copy number within cells <ref type="bibr" target="#b32">(Waits and Paetkau 2005;</ref><ref type="bibr" target="#b16">Sarri et al. 2014;</ref><ref type="bibr" target="#b23">Grattarola et al. 2015)</ref>. Direct sequencing of partial or entire mtDNA gene fragments (typically &gt;600 bp) can provide a sufficient number of informative sites to overcome intraspecific variation even when delineating closely-related species and provide data that can be used in downstream population genetic or phylogenetic analyses <ref type="bibr" target="#b24">(Hajibabaei et al. 2006;</ref><ref type="bibr" target="#b29">Kekkonen and Hebert 2014)</ref>. However, both Sanger and next-generation sequencing may be expensive when large numbers of Abstract Identifying species from non-invasively collected, mixed species samples for biodiversity monitoring can be difficult and expensive using typical molecular methods because samples are often degraded. This is the case when identifying the species of bats present in roosts where guano may be the only means of assessment without disturbing the bats themselves. To aid in such studies, we developed species-specific DNA probes and a microarray capable of identifying most bat species in the United States and Canada using our existing database of 16S mitochondrial DNA sequences. The microarray was sensitive enough to detect DNA diluted 1:500 for several species combinations and was able to detect the presence of more species in mixed guano samples collected from roosts than did direct sequencing from individual fecal pellets. We suggest that these DNA probes and the microarray could be a valuable tool with which to non-invasively monitor bat populations and roost use.</p><p>a species can be included on the array. Microarrays are increasingly being applied to biodiversity studies of animals or plants. <ref type="bibr">Recently, Lung et al. (2013)</ref> also used the COI gene to develop a microarray capable of identifying Canadian bat species. However, the markers used in these studies (≥650 bp) are much longer than the short DNA fragments typically retrieved from non-invasive samples such as feces, hair, or museum specimens (&lt;200-300 bp; <ref type="bibr" target="#b40">Taberlet et al. 1999;</ref><ref type="bibr" target="#b32">Waits and Paetkau 2005)</ref>, limiting their broad applicability. Although smaller regions of these genes theoretically may provide sufficient variation for species delimitation <ref type="bibr" target="#b24">(Hajibabaei et al. 2006)</ref>, variation in coding DNA tends to be relatively evenly distributed across the gene and saturated in third codon positions <ref type="bibr" target="#b10">(Pesole et al. 1999)</ref>. This renders the development of species-specific probes and conserved primers for amplifying the short regions necessary for degraded samples highly problematic in practice. By contrast, the ideal markers used to develop microarray probes for species identification should be short to accommodate samples of varying quality, flanked by highly conserved sequence to facilitate the development of universal primers, and contain fixed variation for distinguishing species. Such characteristics are typical of ribosomal genes, which often have conserved sequences flanking highly variable regions of secondary structure containing numerous point mutations and indels <ref type="bibr" target="#b26">(Hillis and Dixon 1991)</ref> across which probes can be designed with high specificity <ref type="bibr" target="#b15">(Salathia et al. 2007;</ref><ref type="bibr" target="#b2">Kochzius et al. 2010</ref>).</p><p>Here we report on the development of species-specific DNA probes and a microarray capable of identifying nearly all of the 47 bat species found in the USA and Canada using non-invasively collected fecal samples. Bats are an ideal target group for microarray-based molecular species identification because they are elusive and difficult to survey effectively using capture methods and field surveys, and cryptic morphological variation among closely-related species is common <ref type="bibr" target="#b5">(Mayer and Helversen 2001;</ref><ref type="bibr" target="#b14">Ruedi and Mayer 2001;</ref><ref type="bibr" target="#b38">Stadelmann et al. 2007</ref>). Furthermore, noninvasive sampling of bat feces at roost sites is an efficient, cost-effective means of detecting bat presence, but requires an alternate means of species identification. Our microarray is based on two short (190 bp) sections of the mitochondrial 16S ribosomal subunit gene containing clusters of interspecific variability <ref type="bibr" target="#b36">(Zinck et al. 2004)</ref>. We outline the steps in probe design and production of the microarray and demonstrate 100 % classification success in test hybridizations of both single and mixed species samples. Molecular analyses that utilize non-invasive sampling methods allow us to detect species where previously it was not possible to do so, and make it feasible to assess species composition over time in a way that provides a different ecological perspective than is provided using traditional capture and release survey methods.</p><p>individual samples are targeted and may not be necessary when the goals of the study require only knowledge of species presence or absence as is the case in many biodiversity monitoring programs.</p><p>A feasible alternative to direct sequencing for biotic inventories is the use of microarrays (e.g., <ref type="bibr" target="#b11">Pfunder et al. 2004;</ref><ref type="bibr" target="#b25">Hajibabaei et al. 2007;</ref><ref type="bibr" target="#b1">Kochzius et al. 2008;</ref><ref type="bibr" target="#b41">Teletchea et al. 2008;</ref><ref type="bibr" target="#b3">Lin et al. 2014;</ref><ref type="bibr" target="#b6">Noyer et al. 2015)</ref>. A microarray is a series of nucleic acid probes immobilized on a solid substrate which are complementary to gene fragments of a particular target. Fluorescently-labeled DNA or RNA from a test sample is applied to the array and binds to matching probes, providing a signal of presence/absence and relative concentrations of particular targets (genes or species) within a sample. Microarrays have traditionally been used in gene expression studies but have also been applied to species identification in a wide range of contexts, including pathogen surveillance <ref type="bibr" target="#b21">(Cleven et al. 2006;</ref><ref type="bibr" target="#b27">Huang et al. 2006</ref><ref type="bibr" target="#b28">Huang et al. , 2013;;</ref><ref type="bibr" target="#b8">Paulin et al. 2014)</ref>, microbial ecology <ref type="bibr" target="#b42">(Volokhov et al. 2003;</ref><ref type="bibr" target="#b9">Peplies et al. 2006;</ref><ref type="bibr" target="#b17">Bonhomme et al. 2007;</ref><ref type="bibr" target="#b0">Kellogg et al. 2012)</ref>, and dietary supplement product verification <ref type="bibr" target="#b19">(Carles et al. 2005;</ref><ref type="bibr" target="#b7">Patro et al. 2015)</ref>. The major advantages of microarrays for molecular species identification are their low production costs and the fact that they can be used to simultaneously identify hundreds or thousands of targets within a sample. Thus, researchers interested in detecting the presence of a particular taxonomic group can prepare a microarray with multiple and redundant species-specific probes to identify all contributors to a mixed-species sample in a single reaction. In addition, the sensitivity of microarrays allows for the detection of small quantities of DNA and subtle differences among samples that are much harder to detect with other molecular methods <ref type="bibr" target="#b18">(Bryant et al. 2004;</ref><ref type="bibr" target="#b22">Forêt et al. 2007)</ref>, making them ideally suited for use with non-invasively collected samples with low DNA content. In turn, this could mean significant savings of time and resources when simultaneously screening a high volume of samples for accurate identification of multiple species.</p><p>Microarray probes may be designed for any marker or set of markers and the choice of which gene(s) to use will determine the functionality of the array. <ref type="bibr" target="#b11">Pfunder et al. (2004)</ref> provided a 'proof-of-concept' for the use of microarrays based on partial COI sequences for mammalian species identification and advocated the development of a 'biodiversity chip' for diversity monitoring. <ref type="bibr" target="#b25">Hajibabaei et al. (2007)</ref> compared direct sequencing of large fragments of mitochondrial genes (COI and Cytochrome b) and a microarray based on probes from these same genes for mammals. They concluded that both direct sequencing and microarrays provide accurate species identification, but suggested that microarrays have the drawback of requiring advance knowledge of the target sequences so that probes matching all variants within spotted three times onto each slide with positive controls in each block to assist in positioning of the array layout for analysis. Slides were printed using a BioRobotics Microgrid (Genomic Solutions), held for 30 min, then transferred into a hydration chamber (saturated NH 4 Cl + saturated KNO 3 ) for 12-17 h. Slides were then stored in a desiccator. For spotting quality control, microarrays were scanned with a Perkin Elmer ScanArray 4000 scanner.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extraction and amplification</head><p>Guano samples were desiccated after collection through airor oven-drying or exposure to a desiccant (Drierite or silica beads) prior to storage. DNA extraction and amplification for individual guano pellets followed the protocol in <ref type="bibr" target="#b36">Zinck et al. (2004)</ref>. Typically, DNA extraction and amplification from guano yielded 21 ng/µl of DNA. Mixed guano samples were homogenized prior to DNA extraction by manually crushing and mixing guano pellets using sterile instruments. DNA was then extracted from two to three 0.3 g samples for every 10 g of homogenized mixed-species sample using a modified Qiaquick PCR Purification (Qiagen) protocol. This kit has been shown to successfully extract amplifiable DNA from very degraded samples without the need for fume hoods (necessary for phenol/chloroform extractions) or specialized equipment <ref type="bibr" target="#b34">(Yang et al. 1998)</ref>. We added 0.3 g of homogenized guano, 1.35 ml ATL, and 50 µl proteinase K to a 1.5 ml microcentrifuge tube and incubated the tube at 55 °C overnight. Tubes were then centrifuged for 10 min. The supernatant was added to a new 1.5 ml tube and centrifuged for 5 min. The supernatant was divided between 3 new 1.5 ml tubes (approx. 200 µl each) and 1 ml of buffer PB was added to each tube. We added 750 µl of the supernatant/ PB solution to a Qiaquick PCR Clean-up column (Qiagen) and centrifuged for 1 min. The flow-through was discarded and this step was repeated until all 3.6 ml of the supernatant/PB solution passed through the column. We then added 750 µl of buffer PE and centrifuged for 1 min, discarded the flow-through, and centrifuged for an additional minute. DNA was eluted in 50 µl of buffer EB.</p><p>PCR amplification followed the protocol in <ref type="bibr" target="#b36">Zinck et al. (2004)</ref>. Amplified DNA was cleaned using the Qiaquick PCR Clean-up protocol (Qiagen) and was then amplified a second time using labeled primers (Mysp1 and Mysp3 were labeled with a 5′Biotin modification, and primers Mysp2 and Mysp4 were labeled with a 5′Cy3 modification). To eliminate the possibility of preferential annealing of complimentary strands of the PCR amplicons (resulting in fewer amplicons hybridizing to the microarray probes) we removed one strand of the amplified PCR product using Dynabeads ® M-270 Streptavidin magnetic beads. Post-PCR, the protocol for the Dynabeads ® M-270 Streptavidin magnetic beads was followed to bind the strand with the</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Probe design</head><p>We used our database of sequences from two fragments of the 16S ribosomal subunit gene <ref type="bibr" target="#b36">(Zinck et al. 2004</ref>) from the majority of bat species in the United States and Canada (792 individuals, 39 species) to design and evaluate probes for the microarray. We treated three subspecies of Myotis lucifugus (subspecies alascensis, carissima, and lucifugus) separately with respect to probe design as they are easily distinguishable based on mtDNA sequences <ref type="bibr" target="#b30">(Vonhof et al. 2015)</ref> and identification of subspecific identity was important to monitoring goals in parts of western North America, resulting in 41 named taxa being included. That said, although the two 16S fragments are sufficient to differentiate among most of the bat species in the US and Canada, there are unresolved species complexes within which we are unable to distinguish between putative species (Table <ref type="table" target="#tab_0">1</ref> and<ref type="table"></ref>  <ref type="bibr" target="#b36">Zinck et al. 2004</ref>) and have proven difficult for others to identify using a variety of molecular markers (e.g., <ref type="bibr" target="#b12">Rodriguez and Ammerman 2004;</ref><ref type="bibr" target="#b20">Carstens and Dewey 2010)</ref>. Combining these species into operational units resulted in a total of 30 taxonomic units included on the array (Table <ref type="table" target="#tab_0">1</ref>). The sequences in our database were obtained following protocols outlined in <ref type="bibr" target="#b36">Zinck et al. (2004)</ref> with additional sequences acquired from GenBank (Table <ref type="table" target="#tab_0">1</ref>). Probe design for six species relied on GenBank sequences alone (Table <ref type="table" target="#tab_0">1</ref>). We were unable to design probes for Eumops glaucinus, E. perotis, E. underwoodi, Lep tonycteris nivalis, Macrotus californicus, and Myotis occultus due to lack of genetic material or sequences on GenBank.</p><p>To ensure that probes were responsive to the range of genetic variability within a species, DNA from an individual bat representing each known haplotype per species was included in an alignment from which oligonucleotide probes of between 16 and 74 base pairs were manually designed. Haplotypes were identified using intraspecific p-distances <ref type="bibr" target="#b36">(Zinck et al. 2004</ref>). Although we feel that we have a reasonable sample of the genetic diversity of bats across the US and Canada, we recognize that there may be geographic gaps in our samples. Because our target fragment was &lt;200 base pairs, probes were not eliminated on the basis of GC content or melting temperature. Probes were initially ordered with a 5′-C6-aminoterminater and were normalized to 100 µM in TE (Tris-EDTA) pH 8.0.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microarray design</head><p>Corning ® Epoxide ™ Coated Slides were used for all trials detailed below. A 384 well plate was prepared with 1.5 µl of 100 µM probe, 6 µl ddH 2 O, and 7.5 µl 6X Print Buffer [300 mM Sodium Phosphate (pH 8.   "Sequences from GenBank" gives accession numbers for species we did not already have in our database or were poorly represented from which we designed probes. For each portion of the 16S gene we used ("Mysp1/2" and "Mysp3/4"), we provide the number of haplotypes and GenBank accession number for the sequences in our database from which we designed the probes. "Number of samples" indicates how many samples we had at our disposal to test the probes we designed. Species with a zero in this column are those for which we had no DNA to test on the array Table 1 <ref type="bibr">(continued)</ref> the microarray. Any probe fluorescing at 30 times or greater above background fluorescence was considered a positive result. After all species data were acquired, any probes with false negative results (probes that failed to hybridize with DNA from the target species) were removed (Table <ref type="table" target="#tab_0">S1</ref>). In some cases where a given species had multiple probes in a true positive profile a single probe exhibiting infrequent false positives was retained (see Table <ref type="table" target="#tab_1">S2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limit testing</head><p>We tested the efficacy of the microarray to detect the presence (1) of multiple species at the same time and (2) of a single rare species in a mixed-species sample. To address the first question, we combined equal volumes of DNA for two combinations of three species: (a) Antrozous pallidus:Tadarida brasiliensis:Parastrellus hesp erus and (b) Corynorhinus townsendii:Myotis sodalis:M. sep tentrionalis. Two PCR reactions were performed for each species combination for each labeled primer set (Mysp1/2 and Mysp3/4). These PCR products were combined during the strand separation step; the DNA was processed and two slides (one for each species combination) were hybridized as described above. Second, we tested the ability of our array to detect rare species in a mixed-species sample. To do this, we tested the array with DNA from PCR reactions containing a 1:500 ratio of DNA from two species (A. pallidus:C. townsendii, and Lasiurus blossevillii:Myotis grisescens). Additionally, we tested 1:500 ratios (0.001 g:0.5 g) of guano from known individuals mixed together; these species combinations were Ep tesicus fuscus:A. p allidus and E. fuscus:Lasiurus cinereus. All guano came from individual bats captured in the field or from captive animals (in the case of A. pallidus and L. cinereus) so species identity of the guano pellets was certain. The entire 0.5001 g sample for each species combination was used for DNA extraction, amplification, and hybridization using the protocol outlined above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mixed-species field-collected guano testing</head><p>An individual guano pellet weighs ~0.01 g. Approximately 2-10 g of guano (roughly 200-1000 fecal pellets) collected from putatively mixed-species roosts in two geographically separate localities were also tested against the microarray. We extracted DNA from two to three ~0.3 g subsamples as described above. In addition, ten individual pellets from each roost were sequenced to validate the results of the microarray analysis using previously outlined methods <ref type="bibr" target="#b36">(Zinck et al. 2004</ref>). The roosts in Location 1 were in Indiana and were a part of a larger study monitoring the endangered Indiana bat, Myotis sodalis (M. Holman, unpublished data) and were suspected to house M. sodalis and M. lucifugus. Artificial roost boxes were mounted on poles and placed in biotinilated primers, allowing for the isolation of the 5′Cy3 modified strand. Finally, single-stranded DNA was cleaned using the Qiaquick PCR Clean-up protocol.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pre-hybridization</head><p>Microarray slides were primed for 20 min at 55 °C in 50 mL 2 M SSC/0.2 % SDS. Slides were washed for 5 min in room temperature 0.2 M SSC, and then for 3 min in room temperature ddH 2 O. Slides were centrifuged at 2000 rpm for 3 min and incubated at 50 °C for 10 min. A pre-hybridization solution [10 µl of 55 °C Vial 7 (Genoshpere), 1 µl Human Cot-1 DNA ® (1 mg/ml, Invitrogen; heated to 96 °C, then on ice), and 9 µl nuclease free water for each slide to be hybridized] was incubated at 80 °C for 10 min and was then maintained at 50 °C. Slides were pre-hybridized at 50 °C for 2 h with 18 µl of the pre-hybridization solution. Slides were then washed three times (15 min in 65 °C 2 M SSC, 0.2 % SDS; 10 min in room temperature 2 M SSC; 10 min in room temperature 0.2 M SSC). Slides were centrifuged at 2000 rpm for 3 min and then remained in a 42 °C oven until needed for hybridization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hybridization</head><p>Eleven µl of hybridization buffer [10 µl of 55 °C Vial 7 (Genosphere), 1 µl of Human Cot-1 DNA ® (1 mg/ml, Invitrogen; heated to 96 °C, then on ice) for each microarray to be hybridized] was added to a microcentrifuge tube with 8 µl of the prepared sample and 1 µl of the positive control (primers Mysp 1 and 3 with a 5′Cy3 modification diluted 1:1000). The sample was then incubated at 80 °C for 10 min, and was then held at 42 °C. The sample was hybridized at high stringency 42 °C for at least 18 h. Post-hybridization washes (15 min in 65 °C 2 M SSC, 0.2 %SDS, 10 min in room temperature 2 M SSC, 10 min in room temperature 0.2 M SSC) were done under foil tents to protect the slides from light exposure. A GenePix 4000B, running GenePix-Pro 4.1 software, was used to scan and visualize the posthybridization slides. The photomultiplier tube (PMT) was set at 600 for the 532 nm (Cy3) channel.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microarray validation</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Single species</head><p>To determine the species specificity of each probe, we hybridized DNA from each of the 30 species/species complexes for which we had DNA samples available to individual microarray slides containing all 201 probes, resulting in a total of 30 test slides (one for each species/complex). For each species, a combination of PCR product from one individual bat per haplotype per species was hybridized to 109 probes, contains between 1 and 8 probes per species or species complex (Table <ref type="table" target="#tab_1">S2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limit testing</head><p>We detected all species present in the samples containing mixed DNA from three species; all species specific probes fluoresced above background. When using DNA and our mixed-species guano extraction protocol, our array has a limit of detection of at least 1:500. In our test dilutions both species' probes fluoresced at &gt;30 times above background.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mixed-species field-collected guano testing</head><p>In both tests using field-collected guano our array was able to detect multiple species present within a guano sample. When the species identifications from individual pellets were compared to the microarray species composition, the two methods detected both species for roosts in Location 1 (M. lucifugus lucifugus, and M. sodalis). For roosts in Location 2, more species were identified when using the microarray than from sequencing individual pellets. Sequences for Location 2 were of poor quality, possibly due to DNA degradation as a result of direct exposure of the samples to sunlight at the collection site, and only A. pallidus was identified through individual guano pellet sequencing <ref type="bibr" target="#b33">(Wilhelm 2012)</ref>. The microarray analysis for this site, on the other hand, had clear signals well above the 30 times threshold, and identified A. p allidus, E.fuscus, L. cinereus, and T. brasiliensis.</p><p>a field or forest edge. Guano was allowed to accumulate on tarps placed under the roost boxes and collected at irregular intervals. The roosts in Location 2 were in Arizona and were monitored as a part of a larger study to determine roosting preferences of southwestern bats <ref type="bibr" target="#b33">(Wilhelm 2012)</ref>. Tarps were spread under bat boxes installed under bridges to collect guano over a 24-h period. Screens installed under "bat barks" placed on Ponderosa pine trees collected guano and were checked every 30 days <ref type="bibr" target="#b33">(Wilhelm 2012)</ref>. None of the investigators had prior knowledge of the species utilizing the roosts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Validation of species-specific probes and controls</head><p>We designed and tested 201 probes and 2 positive controls (Table <ref type="table" target="#tab_0">S1</ref>). The individual species tests resulted in 74 true positives (hybridized to target species only), 83 false negatives (did not hybridize to target species), and 24 false positives (hybridized to target species and non-target; Tables <ref type="table" target="#tab_0">S1</ref> and<ref type="table" target="#tab_1">S2</ref>). Twenty probes were designed for species for which we had no DNA for testing, but these probes did not fluoresce for non-target species (Tables <ref type="table" target="#tab_0">S1</ref> and<ref type="table" target="#tab_1">S2</ref>). There was no discernible differentiation between the GC content and melting temperature (T m ) of probes that successfully hybridized to the target species and those which failed to hybridize (Fig. <ref type="figure" target="#fig_2">1</ref>). Probes that were rejected due to excessive cross-hybridization had melting temperatures above 54 °C and GC contents above 33 %. Our current array, with Our microarray is a valuable tool for describing species presence with the caveat that data on specific individuals is sacrificed in the process and sequence data is not produced that could be used in downstream phylogeographic, phylogenetic, or population genetic analyses. The cost and labor savings of a microarray approach, both in the field and in the laboratory, lie in the rapid census of species presence from mixed-species samples, such as the collection of fecal matter at communal roosts when the actual organisms are absent or the pooling of fecal or tissue samples collected through other means. Direct sequencing of individual pellets or samples has significantly greater cost (Table <ref type="table" target="#tab_1">2</ref>) and may require considerable additional time to process samples and curate sequences. Although <ref type="bibr" target="#b13">Rubenstein (2003)</ref> proposed that in order to be cost effective a microarray should be broadly applicable, <ref type="bibr" target="#b39">Summerbell et al. (2005)</ref> suggested that microarray technology was not practical for groups of &gt;200 species because all probes must be proof tested for sensitivity, specificity, and cross-reactions. Because of the relatively low numbers of potential species at a given location, microarray technology is ideal for use with vertebrate taxa in many regions. This is especially true in those cases where multiple species communally roost at or otherwise utilize the same site, such as bats and birds, and for other mixed-species non-invasive samples such as those from owl pellets, latrine sites, rodent middens, and hair traps.</p><p>The most expensive step of microarray development is the testing of probes for cross-hybridization with nontarget species <ref type="bibr" target="#b39">(Summerbell et al. 2005)</ref>. Our results show the necessity of laboratory testing under applied conditions using real samples as opposed to in silico testing based on model theory. In fact, the majority of our successful (and unsuccessful) probes fell well outside the suggested ranges of GC content and melting temperatures for microarray probes <ref type="bibr" target="#b11">(Pfunder et al. 2004</ref> and used by other authors, such as; <ref type="bibr" target="#b25">Hajibabaei et al. 2007)</ref> indicating that these parameters</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>We designed species-specific DNA probes and a microarray capable of identifying 39 of the 47 named bat species in the US and Canada, including all 14 species on the microarray designed by <ref type="bibr" target="#b4">Lung et al. (2013)</ref>, using degraded, mixed-species DNA sources. The resulting microarray is very sensitive, capable of detecting even tiny amounts of DNA from the species we used to test the probes. While we have only tested the utility of these probes for the microarray, we suggest that they might also prove useful for identifying species using quantitative PCR. We hope that these molecular tools will prove useful in non-invasive biodiversity studies, particularly in light of the increasing concern about the continued spread of white-nose syndrome (WNS).When stored in a dark, dry place, guano can yield amplifiable DNA at least 10 years after collection <ref type="bibr" target="#b35">(Zielinski et al. 2007)</ref>. This means our microarray could be used to identify species presence or diversity in roosts from guano collected pre-WNS infection to that collected post-WNS infection to better document changes in site occupancy and bat diversity over time in affected areas. However, there have been no studies of DNA persistence in guano under various natural conditions; such studies should be carried out to determine how quickly DNA degrades when conditions are not ideal.</p><p>While a microarray to identify Canadian bats has been recently described <ref type="bibr" target="#b4">(Lung et al. 2013)</ref>, we feel that our microarray provides a complementary tool that may prove more useful for non-invasive biodiversity monitoring. We designed our probes based on two small, highly variable segments of 16S mtDNA while <ref type="bibr" target="#b4">Lung et al. (2013)</ref> used a much larger portion of the COI gene. Small fragments are much more likely to be amplified from degraded samples, such as guano collected from roosts, and the concentration of variation in short segments of rRNA genes rather than being spread across third codon positions in protein-coding genes such as COI allows for more efficient probe design and higher success rates (see also <ref type="bibr" target="#b2">Kochzius et al. 2010)</ref>. Further, we have designed and tested probes for a larger range of North American bat taxa, increasing the utility of our microarray for species identification and biodiversity monitoring across a wider geographic area. Our array includes probes to identify almost all federally-listed threatened or endangered bat species in the continental United States and Canada (with the exception of Lep tonycteris nivalis), including Corynorhinus townsendii (endangered subspecies ingens and virginianus), L. yerbabuenae, Myotis grisescens, M. septentrionalis, and M. sodalis, as well as numerous species listed as endangered, threatened, or of special concern in individual states or provinces. Thus, our array provides biologists with a valuable tool with which to non-invasively monitor species occupancy and diversity in roosts to inform management and conservation activities. It is important to note that although several subsamples may be pulled from the homogenized mixed-species sample, the resulting PCR products from several sub-samples may be combined for hybridization on one microarray. In the strictest cases where all species present must be detected, the average rate of successful PCR amplification per pellet of guano (approximately 70 %) must also be considered <ref type="bibr" target="#b36">(Zinck et al. 2004)</ref> in the calculation of how many subsamples to extract and microarrays to run.</p><p>Our tests suggest that the microarray is more sensitive and is more likely to detect a greater number of species than direct sequencing of fecal pellets. Although this could be partially due to a greater quantity of DNA being hybridized to the slide than was used for sequencing, we feel this difference is also because sequencing requires template DNA of sufficiently good condition from a single individual (which can be difficult to obtain from a mixed individual guano sample) to produce readable chromatograms and alignments. Conversely, the microarray only requires template DNA to be successfully amplified via PCR, and hybridization to a probe is less stringent than sequencing with respect to DNA quantity and quality as the probes are much shorter than the length of DNA typically sequenced <ref type="bibr" target="#b18">(Bryant et al. 2004;</ref><ref type="bibr" target="#b22">Forêt et al. 2007</ref>). This greatly increases the efficacy of the microarray over sequencing for samples that are degraded by time, ultraviolet light, or moisture. The mixed guano samples used to test the microarray were exposed to all of these degradation factors so obtaining good sequences was difficult, resulting in the detection of fewer species than the microarray. Direct sequencing of a few individuals will likely remain necessary for geographical regions that are underrepresented by our current sequence library to ensure that that rare species or haplotypes are indeed detectible by the probes printed on the microarray. However, as the samples from Location 2 demonstrate, the microarray performs exceptionally well even for geographical areas from which we previously had few samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>We have demonstrated the utility and sensitivity of a DNA microarray for use with fecal DNA for bat species monitoring. DNA microarrays such as the one we have developed here provide an efficient method for detecting species presence using non-invasive and potentially mixed-species samples. This technology is particularly useful for detecting the presence of rare, nocturnal, elusive, protected, or otherwise difficult to study organisms, and where the handling the organism itself is undesirable or not feasible, as is the case with most of the bat species included in our array while they are in their summer and winter roosts. More broadly, should be adjusted when designing probes (Fig. <ref type="figure" target="#fig_2">1</ref>). Microarray probes simply fail to always function as predicted (see also <ref type="bibr" target="#b2">Kochzius et al. 2010;</ref><ref type="bibr" target="#b6">Noyer et al. 2015)</ref> so there is a certain amount of actual trial and error that must be incorporated in the successful development of a microarray (Fig. <ref type="figure" target="#fig_2">1</ref>, Table <ref type="table" target="#tab_0">S1</ref>). This is particularly important because, as the number of species to be detected increases, the cost of testing probes developed for each new species against the entire pool of potential targets to validate their specificity increases exponentially. At some point, the cost of additional testing may begin to outweigh the savings associated with the use of the microarray to bulk test samples. In some cases the creation of taxa-or region-specific probes (as a means to limit the pool of target species) may be a more cost effective strategy for array design.</p><p>The savings and benefits of developing and applying a field-tested species-specific microarray to detect species presence at roost sites can not only outweigh those of other molecular techniques such as direct sequencing (Table <ref type="table" target="#tab_1">2</ref>), but also those associated with traditional field survey methods such as visual searches or captures <ref type="bibr" target="#b31">(Wadley et al. 2014)</ref>. For example, it can take several surveys to visually detect Corynorhinus townsendii roosting in a cave or mine because they often move between roosts so that there is no reliable way to predict their presence to coincide with surveys <ref type="bibr" target="#b37">(Sherwin et al. 2000)</ref>. The expense of returning to a site multiple times to conduct surveys can be high and if capture is required, the additional cost of having handling skills and rabies prophylactics must be considered. As an alternative, collection of guano can be achieved in a single visit and no special skills or prophylactics are required other than following appropriate decontamination protocols. This is particularly useful to monitor dwindling bat populations hard hit by WNS without disturbing the bats themselves.</p><p>Understanding the limits of detection for a microarray is a key factor in determining its utility in survey and management plans. We tested a relatively extreme scenario of a 1:500 ratio of two bat species in a mixed sample (roughly corresponding to one fecal pellet among 500 others), and found that both species were detected in all cases. While we did not test additional dilutions, and it is possible that our method can be used to detect even lower relative concentrations of DNA; these results suggest that our microarray is a powerful tool for detecting species presence when individual species are rare (in terms of population size or frequency of use) at a site. Given that large amounts of guano may accumulate at a site, several factors help to determine the number of microarrays necessary per sampling unit. The first consideration is whether the research question or survey and management obligations require that all species, no matter how rare in the sample, be detected or whether identifying dominant species is sufficient. Guano samples can be sub-sampled numerous times with the number of this technology is a powerful tool that can be widely used in conjunction with field studies to elucidate spatial and temporal patterns of species presence and composition at sites of interest, and provide a more cost-effective and sensitive method for biodiversity monitoring than many traditional approaches.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>7</head><label></label><figDesc>Abbreviation</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 1</head><label>1</label><figDesc>Fig.1Percent GC content and melting temperature (T m ) of the probes designed in this study, showing the false positive, false negative, and true positive probes. The box indicates the ideal GC content and T m for probe function<ref type="bibr" target="#b11">(Pfunder et al. 2004</ref>) but the spread of the data points on the graph indicates that these factors were not important to the specificity of these probes. FN false negative, FP false positive, TP true positive, TP and FP a probe that fluoresced for the target species and one or more additional species</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Bat species investigated in this study and their abbreviations</figDesc><table><row><cell>39</cell><cell></cell><cell></cell><cell></cell><cell>130</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>KX755785-8,</cell><cell>KX755799-800</cell><cell></cell><cell></cell><cell>KX755789-92,</cell><cell>KX755797-8,</cell><cell>KX755801-3,</cell><cell>KX755839-42</cell><cell></cell><cell></cell></row><row><cell>6</cell><cell></cell><cell></cell><cell></cell><cell>13</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>KX755676-7,</cell><cell>KX755692-3</cell><cell></cell><cell></cell><cell>KX755678-86,</cell><cell>KX755691,</cell><cell>KX755697,</cell><cell>KX755706</cell><cell></cell><cell></cell></row><row><cell>6</cell><cell></cell><cell></cell><cell></cell><cell>10</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>AY395903</cell><cell>AY395888</cell><cell>AY395904</cell><cell>AY395889</cell><cell>AY426189</cell><cell>AY426190</cell><cell>AY395901</cell><cell>AY395886</cell><cell>AY395890</cell><cell>AY395876</cell></row><row><cell>Myca/ci/le</cell><cell></cell><cell></cell><cell></cell><cell>Myev/th/ke/lu.ca</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>/melanorhinus</cell><cell></cell><cell></cell><cell></cell><cell>Myotis evotis/thysanodes/keenii/auriculus/lucifugus.carissima</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Approximate costs (in US dollars) associated with identifying</figDesc><table><row><cell cols="3">samples using traditional Sanger sequencing (recognizing that costs</cell></row><row><cell cols="3">vary tremendously among approaches, laboratories, suppliers, etc.)</cell></row><row><cell>versus using a microarray</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Direct sequencing</cell><cell>Microarray</cell></row><row><cell>Consumables (tubes,</cell><cell>$0.25-1.00</cell><cell>$5.00</cell></row><row><cell>gloves, reagents, etc.)</cell><cell></cell><cell></cell></row><row><cell>Extraction</cell><cell>1.50-3.00</cell><cell>3.00</cell></row><row><cell>PCR</cell><cell>1.00-3.00</cell><cell>8.00</cell></row><row><cell cols="2">Bi-directional sequencing 5.00-12.00</cell><cell>n/a</cell></row><row><cell>Slides</cell><cell>n/a</cell><cell>250.00</cell></row><row><cell>Single sample cost</cell><cell>$7.75-19.00</cell><cell>$266.00</cell></row><row><cell>Cost to identify 500 pellets</cell><cell>$3875-9500</cell><cell>5 slides = $1330</cell></row><row><cell cols="2">These estimates do not include labor costs</cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Conservation Genet Resour (2017) 9:139-149</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments Funding for this study was provided by the <rs type="funder">U.S. Army Corps of Engineers-Engineer Research and Development Center</rs> (Grants <rs type="grantNumber">W9132T-05-C-0011</rs> and <rs type="grantNumber">W9132T-06-C-0010</rs> through <rs type="institution">Portland State University)</rs>. Laboratory work was conducted at <rs type="institution">Portland State University</rs>, and we wish to thank <rs type="person">Dr. Deborah Duffield</rs> for lab space during this project. <rs type="person">Matt Holman</rs> served as point of contact for the <rs type="institution">U.S. Army Corps of Engineers</rs> and we thank him for his logistical support and sample collection. <rs type="person">Ammon Wilhelm</rs> also provided mixed species guano samples used in validation tests. <rs type="person">Patricia Ormsbee</rs> and <rs type="person">Aimee Hart</rs> provided samples and read previous versions of this manuscript. <rs type="person">Caprice Rosato</rs> at <rs type="affiliation">Oregon State University</rs> offered invaluable advice and expertise developing and troubleshooting the array design.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_MvPxTPz">
+					<idno type="grant-number">W9132T-05-C-0011</idno>
+				</org>
+				<org type="funding" xml:id="_fRRJJBx">
+					<idno type="grant-number">W9132T-06-C-0010</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">PhyloChip ™ microarray comparison of sampling methods used for coral microbial ecology</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Kellogg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Piceno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Tom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Z</forename><surname>Desantis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Zawada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Andersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Microbiol Methods</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="103" to="109" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">DNA microarrays for identifying fishes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kochzius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nolte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Silkenbeumer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hjorleifsdottir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">O</forename><surname>Hreggvidsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Marteinsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kappel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Planes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tinti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Magoulas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Garcia</forename><surname>Vazquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Turan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hervet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Campo</forename><surname>Falgueras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Antoniou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Landi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blohm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="207" to="217" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Identifying fishes through DNA barcodes and microarrays</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kochzius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Seidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Antoniou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Botla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Campo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cariani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Vazquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hauschild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hervet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hjörleifsdottir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hreggvidsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kappel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Landi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Magoulas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Marteinsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nölte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Planes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tinti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Turan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Venugopal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Blohm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">12620</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A rapid low-cost high-density DNA-based multi-detection test for routine inspection of meat species</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Fung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Chow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Cheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Meat Sci</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="922" to="929" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Microarray for identification of the chiropteran host species of rabies virus in Canada</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Lung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nadin-Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Erickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Knowles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Furukawa-Stoffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ambagala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microarrays</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">153</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Cryptic diversity in European bats</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helversen</forename><surname>Ov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc R Soc Lond B</title>
+		<imprint>
+			<biblScope unit="volume">268</biblScope>
+			<biblScope unit="page" from="1825" to="1832" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Phytochip: Development of a DNA-microarray for rapid and accurate identification of pseudo-Nitzschia spp and other harmful algal species</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Noyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Trouilh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Leberre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dreanno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Microbiol Methods</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="55" to="66" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Development and utility of the FDA &apos;GutProbe&apos; DNA microarray for identification, genotyping and metagenomic analysis of commercially available probiotics</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Patro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ramachandran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Mammel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Barnaba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Pfeiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Elkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="1478" to="1488" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">PhyloFlu, a DNA microarray for determining the phylogenetic origin of influenza A virus gene segments and the genomic fingerprint of viral strains</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Paulin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Soto-Del Río Mdld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Gutiérrez-Ríos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>López-Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Wong-Chew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Parissi-Crivelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Isa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Arias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="803" to="813" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A DNA microarray platform based on direct detection of rRNA for characterization of freshwater sediment-related prokaryotic communities</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peplies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lachmund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">O</forename><surname>Glöckner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Manz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="4829" to="4838" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Nucleotide substitution rate of mammalian mitochondrial genomes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pesole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gissi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Chirico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saccone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Evol</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="427" to="434" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Development of microarraybased diagnostics of voles and shrews for use in biodiversity monitoring studies, and evaluation of mitochondrial cytochrome oxidase 1 vs. cytochrome b as genetic markers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pfunder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Holzgang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Frey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1277" to="1286" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Mitochondrial DNA divergence does not reflect morphological difference between Myotis californicus and Myotis ciliolabrum</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Ammerman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mammal</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="842" to="851" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Commercial aspects of microarray technology</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rubenstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechniques</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="52" to="54" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Molecular systematics of bats of the genus Myotis (Vespertilionidae) suggests deterministic ecomorphological convergences</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mayer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Phylogenet Evol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="436" to="448" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Technical Advance: Indel arrays: an affordable alternative for genotyping</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Salathia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Sangster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Morneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Landry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schellenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Behere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Gunderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cavalieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Queitsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="727" to="737" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">A new set of 16S References</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sarri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stamatis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sarafidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Galara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Godosopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kolovos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liakou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tastsoglou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mamuris</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Microarray for serotyping of Bartonella species</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Bonhomme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nappez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raoult</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">59</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Chips with everything: DNA microarrays in infectious diseases</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Bryant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Venter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Robins-Browne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Curtis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="100" to="111" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A DNA microarray for the authentication of toxic traditional Chinese medicinal plants</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Carles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moganti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Tsim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Ip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Sucher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Planta Med</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="580" to="584" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Species delimitation using a combined coalescent and information-theoretic approach: an example from north American Myotis bats</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Carstens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Dewey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst Biol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="400" to="414" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Identification and characterization of bacterial pathogens causing bloodstream infections by DNA microarray</title>
+		<author>
+			<persName><forename type="first">Bee</forename><surname>Cleven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Palka-Santini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gielen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Meembor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kronke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Krut</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="2389" to="2397" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Genomic and microarray approaches to coral reef conservation biology</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Forêt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Kassahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Grasso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Hayward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Iguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Coral Reefs</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="475" to="486" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A novel primer set for mammal species identification from feces samples</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Grattarola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cosse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet Resour</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="57" to="59" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A minimalist barcoade can identify a specimen whouse DNA is degraded</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hajibabaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Janzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Whitfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pdn</forename><surname>Herbert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="959" to="964" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Design and applicability of DNA arrays and DNA barcodes in biodiversity monitoring</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hajibabaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gac</forename><surname>Singer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clare</forename><forename type="middle">El</forename><surname>Herbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pdn</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Ribosomal DNA: molecular evolution and phylogenetic inference</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hillis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Dixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Q Rev Biol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="411" to="453" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">High-throughput identification of clinical pathogenic fungi by hybridization to an oligonucleotide microarray</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z-Q</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X-W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="3299" to="3305" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">An easy operating pathogen microarray (EOPM) platform for rapid screening of vertebrate pathogens</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">437</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">DNA barcode-based delineation of putative species: efficient start for taxonomic workflows</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kekkonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pdn</forename><surname>Hebert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="706" to="715" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Range-wide genetic analysis of little brown bat (Myotis lucifugus) populations: estimating the risk of spread of white-nose syndrome</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Vonhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Miller-Butterworth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">128713</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Genetic inference as a method for modelling occurrence: a viable alternative to visual surveys</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Wadley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J J</forename><surname>Austin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Fordham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Austral Ecol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="952" to="962" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling tools for wildlife biologists: a review of applications and recommendations for accurate data collection</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wildl Manag</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Use of artificial roosts by bats in central Arizona</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilhelm</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+		<respStmt>
+			<orgName>Northern Arizona University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Technical note: improved DNA extraction from ancient bones using silicabased spin columns</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Eng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Waye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Dudar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Saunders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Phys Anthropol</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="539" to="543" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Identifying the species of bats roosting in redwood basal hollows using genetic methods</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mazurek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zinck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Northwest Sci</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="155" to="162" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Primers for identification and polymorphism assesment of vespertilionid bats in the Pacific Northwest</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Zinck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Duffield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Ormsbee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="35" to="41" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>Food Control</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Roosting affinities of Townsend&apos;s big-eared bat (Corynorhinus townsendii) in northern Utah</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Sherwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stricklan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Rogers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mammal</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="939" to="947" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Molecular phylogeny of New World Myotis (Chiroptera, Vespertilionidae) inferred from mitochondrial and nuclear DNA genes</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stadelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruedi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Phylogenet Evol</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="32" to="48" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Microcoding: the second step in DNA barcoding</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Summerbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Lévesque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Seifert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bovers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Fell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Boekhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>De Hoog</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stalpers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Crous</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos Trans R Soc B</title>
+		<imprint>
+			<biblScope unit="volume">360</biblScope>
+			<biblScope unit="page" from="1897" to="1903" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling: look before you leap</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="323" to="327" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Molecular identification of vertebrate species by oligonucleotide microarray in food and forensic samples</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Teletchea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bernillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Duffraisse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Laudet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hänni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Ecol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="967" to="975" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Microarray-based identification of thermophilic Campylobacter jejuni, C. coli, C. lari, and C. upsaliensis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Volokhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chizhikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chumakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rasooly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="4071" to="4080" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

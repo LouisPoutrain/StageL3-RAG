@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Comparing the effectiveness of metagenomics and metabarcoding for diet analysis of a leaf-feeding monkey (Pygathrix nemaeus)</title>
+				<funder>
+					<orgName type="full">Joint NUS-Imperial College PhD Programme</orgName>
+				</funder>
+				<funder ref="#_HB4uQq8">
+					<orgName type="full">National University of Singapore, Faculty of Science</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Amrita</forename><surname>Srivathsan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="institution">National University of Singapore</orgName>
+								<address>
+									<addrLine>14 Science Drive 4</addrLine>
+									<postCode>117543</postCode>
+									<settlement>Singapore City</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">†</forename><surname>John</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Sha</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alfried</forename><forename type="middle">P</forename><surname>Vogler</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><surname>U D O L F M E I E R</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="institution">National University of Singapore</orgName>
+								<address>
+									<addrLine>14 Science Drive 4</addrLine>
+									<postCode>117543</postCode>
+									<settlement>Singapore City</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Rudolf</forename><surname>Meier</surname></persName>
+							<email>me-ier@nus.edu.sg</email>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">†Department of Life Sciences</orgName>
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<addrLine>Silwood Park Campus</addrLine>
+									<postCode>SL5 7PY</postCode>
+									<settlement>Ascot</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">‡Conservation and Research Department</orgName>
+								<orgName type="institution">Wildlife Reserves Singapore</orgName>
+								<address>
+									<addrLine>80 Mandai Lake Road</addrLine>
+									<postCode>729826</postCode>
+									<settlement>Singapore City</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">§Department of Life Sciences</orgName>
+								<orgName type="institution">Natural History Museum</orgName>
+								<address>
+									<addrLine>Cromwell Road</addrLine>
+									<postCode>SW7 5BD</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">¶University Scholars Programme</orgName>
+								<orgName type="institution">National University of Singapore</orgName>
+								<address>
+									<addrLine>14 Science Drive 4</addrLine>
+									<postCode>117543</postCode>
+									<settlement>Singapore City</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Comparing the effectiveness of metagenomics and metabarcoding for diet analysis of a leaf-feeding monkey (Pygathrix nemaeus)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">88ECC13AA597E2FA818C23D2AFFFF96F</idno>
+					<idno type="DOI">10.1111/1755-0998.12302</idno>
+					<note type="submission">Received 9 October 2013; revision received 29 June 2014; accepted 3 July 2014</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:48+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>colobines</term>
+					<term>environmental DNA</term>
+					<term>faeces</term>
+					<term>shotgun sequencing</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Faecal samples are of great value as a non-invasive means to gather information on the genetics, distribution, demography, diet and parasite infestation of endangered species. Direct shotgun sequencing of faecal DNA could give information on these simultaneously, but this approach is largely untested. Here, we used two faecal samples to characterize the diet of two red-shanked doucs langurs (Pygathrix nemaeus) that were fed known foliage, fruits, vegetables and cereals. Illumina HiSeq produced ~74 and 67 million paired reads for these samples, of which ~10 000 (0.014%) and ~44 000 (0.066%), respectively, were of chloroplast origin. Sequences were matched against a database of available chloroplast 'barcodes' for angiosperms. The results were compared with 'metabarcoding' using PCR amplification of the P6 loop of trnL. Metagenomics identified seven and nine of the likely 16 diet plants while six and five were identified by metabarcoding. Metabarcoding produced thousands of reads consistent with the known diet, but the barcodes were too short to identify several plant species to genus. Metagenomics utilized multiple, longer barcodes that combined had greater power of identification. However, rare diet items were not recovered. Read numbers for diet species in metagenomic and metabarcoding data were correlated, indicating that both are useful for determining relative sequence abundance. Metagenomic reads were uniformly distributed across the chloroplast genomes; thus, if chloroplast genomes were used as reference, the precision of identifications and species recovery would improve further. Metagenomics also recovered the host mitochondrial genome and numerous intestinal parasite sequences in addition to generating data useful for characterizing the microbiome.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Rare, endangered and elusive animals are difficult to study in the field <ref type="bibr" target="#b3">(Ang et al. 2010)</ref>. Not only is it timeconsuming to locate individuals but they may also stop behaving naturally once they discover the observer. In this situation, faecal samples become important because they can provide ecological information <ref type="bibr" target="#b21">(Kohn &amp; Wayne 1997)</ref> even without direct observation. Such samples can be collected opportunistically or using detection dogs <ref type="bibr" target="#b37">(Reed et al. 2011)</ref> and hold a wealth of biological information <ref type="bibr" target="#b13">(Ferreira da Silva et al. 2012)</ref>. DNA-based methods have become important for characterizing these samples and allow for obtaining information on the genetics, diet, distribution, demography, gut parasites and intestinal flora of a species <ref type="bibr" target="#b25">(Lamendella et al. 2011;</ref><ref type="bibr" target="#b4">Ang et al. 2012;</ref><ref type="bibr" target="#b13">Ferreira da Silva et al. 2012;</ref><ref type="bibr" target="#b38">Shehzad et al. 2012)</ref>. In terms of diet, most DNA-based studies currently adopt a metabarcoding approach, that is, PCRamplified short DNA 'barcodes' for diet items are sequenced using next generation sequencing (NGS) <ref type="bibr" target="#b43">(Valentini et al. 2009;</ref><ref type="bibr" target="#b38">Shehzad et al. 2012)</ref>. With the decreasing cost of NGS, the obvious alternative is PCR-free shotgun sequencing of total DNA <ref type="bibr" target="#b42">(Taberlet et al. 2012)</ref>. This yields large numbers of random sequence reads from which the relevant information can be extracted in silico (i.e. a metagenomic approach). Here, we compare the power of metagenomic and DNA metabarcoding approaches to identify the food plants from faeces of captive colobine red-shanked douc langurs (Pygathrix nemaeus) that were fed a known diet. In addition, we use the faecal samples to recover sequences of the host, as well as other eukaryotic sequences that might indicate the presence of intestinal parasites.</p><p>Diet studies on faecal samples were traditionally carried out using visual analyses of physical remains. Newer methods included chemical analyses of plant cuticular wax <ref type="bibr" target="#b12">(Dove &amp; Mayes 1996)</ref>, immunoassays <ref type="bibr" target="#b33">(Pierce et al. 1990;</ref><ref type="bibr" target="#b40">Symondson 2002)</ref> or residual DNA of food items <ref type="bibr" target="#b30">(Murray et al. 2011)</ref>. The latter can be implemented by matching sequences from faecal samples against sequence databases of potential food sources. Initially, these sequences could be obtained via PCR amplification using lineage-specific <ref type="bibr" target="#b19">(Jarman et al. 2004;</ref><ref type="bibr" target="#b10">Deagle et al. 2007)</ref> or generic primers <ref type="bibr" target="#b6">(Bradley et al. 2007)</ref>, followed by cloning and sequencing. Recently, such amplicons are being sequenced using NGS. This approach has been applied to carnivorous (e.g. <ref type="bibr" target="#b38">Shehzad et al. 2012)</ref>, herbivorous (e.g. <ref type="bibr" target="#b43">Valentini et al. 2009</ref>) and omnivorous animals (De <ref type="bibr" target="#b9">Barba et al. 2014)</ref>. One advantage of metabarcoding is that amplicons for multiple samples can be multiplexed. On the other hand, all PCRbased approaches have potential limitations due to amplification biases towards certain taxa <ref type="bibr" target="#b34">(Pompanon et al. 2012)</ref>, difficulty to obtain amplicons <ref type="bibr" target="#b45">(Zarzoso-Lacoste et al. 2013)</ref>, and the generation of PCR errors <ref type="bibr" target="#b8">(Coissac et al. 2012)</ref> and chimerical sequences due to jumping PCR <ref type="bibr" target="#b32">(Paabo et al. 1990</ref>).</p><p>Certain experimental procedures can mitigate these limitations (Zarzoso-Lacoste et al. 2013; De <ref type="bibr" target="#b9">Barba et al. 2014)</ref>, but the PCR step can be avoided altogether by metagenomics. In addition, a metagenomic approach would allow for characterization of reads bioinformatically to address not only the diet, but also the population genetics of the focal species <ref type="bibr" target="#b4">(Ang et al. 2012)</ref>, its intestinal parasites <ref type="bibr" target="#b39">(Stensvold et al. 2011)</ref> and the microbiome of the gastrointestinal tract <ref type="bibr" target="#b25">(Lamendella et al. 2011)</ref>. While metabarcoding with multiple PCR primers could also be used for such multi-dimensional characterization of samples, it remains constrained by predetermined choices of barcoding genes, which could preclude, for example, the detection of carnivory in species that are assumed to be phytophagous. In addition, the cost advantage of metabarcoding erodes as more genes are amplified.</p><p>The use of shotgun sequencing for diet characterization was first championed by <ref type="bibr" target="#b5">Bon et al. (2012)</ref> for coprolites. Here, we apply metagenomics to fresh faecal samples of a phytophagous monkey and develop methods for identifying plant species from such data. Using captive animals, we were able to test the methods against a known set of food plants with the greatest challenge being the low diagnostic power of plant barcodes <ref type="bibr" target="#b17">(Hollingsworth et al. 2011</ref>) and the long digestion times of douc langurs <ref type="bibr" target="#b24">(Lambert 1998</ref>) that are likely to increase the proportion of microbial DNA in extracted DNA <ref type="bibr" target="#b25">(Lamendella et al. 2011)</ref>. We address these issues by developing bioinformatics strategies for extracting plant sequences and comparing the results to metabarcoding data for the same samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Diet composition</head><p>Two individuals of Pygathrix nemaeus (PN1: male, 6 years old; PN2: male, 5 years old) were fed leaves of seven species: Acalypha siamensis (acalypha), Cinnamomum iners (wild cinnamon), Hibiscus rosa-sinensis (hibiscus), Hemigraphis sp., Leucaena leucocephala (miracle plant), Morus alba (mulberry) and Terminalia catappa (ketapang). At the beginning of the third day of the trial, cinnamon was replaced by Baphia nitida (baphia). These plants were provided as a mixed bunch of leaves, and eight nonfoliage species were added to the diet, including Malus domestica (apple), Daucus carota (carrot), Ipomoea batatas (sweet potato), Vigna unguiculata (long bean), Pyrus sp. (pear), Zea mays (corn), Cucumis sativus (cucumber) and Oryza sativa (rice, provided as cooked rice balls). To optimize the time of sample collection, we used feeding trials to determine the transit time (TT) and mean retention time (MRT) of the diet in the gut of the primate using bead markers (Data S1, Supporting Information).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample preparation and next generation sequencing</head><p>Faecal samples were collected 72 h after the beginning of the feeding trial (see Results) and stored in À80 °C prior to DNA extraction. Ten DNA extractions were conducted for each sample by randomly sampling the surface and interior of a single faecal pellet (QIAGEN DNeasy Blood and Tissue Kit with an additional wash step using Buffer AW2). The faecal samples were extracted on different days in a laboratory where no experimental work on plants was being conducted. DNA from the different extractions was quantified using Nanodrop, and only those with A260/280 between 1.8 and 2.0 were combined in equal amounts, after which the samples were split in separate sets to be used for metagenomics and metabarcoding, respectively. For metagenomics, one library was constructed for each faecal sample (clone insert size 280-300 bp). These were multiplexed in one lane of Illumina HiSeq 2000 and paired 76 bp reads were obtained using TruSeq PE Cluster Kit v3 and TruSeq SBS Kit v3.</p><p>For metabarcoding, P6 loop of the chloroplast trnL intron from faecal DNA was amplified using primers trnL-g and trnL-h <ref type="bibr" target="#b41">(Taberlet et al. 2007)</ref>. Each sample was tagged using eight variable nucleotides at the 5 0 end of each primer that were designed using oligoTag <ref type="bibr" target="#b7">(Coissac 2012</ref>; &gt;=5 variable sites; &lt;3 bp homopolymers; additional dinucleotide CC was added to 5 0 end). PCR amplifications were carried out for 45 cycles as in Qu em er e et al. (2013) using BioReady rTaq DNA polymerase (Bulldog Bio, Inc., Portsmouth, NH) with a reaction mixture of 2.5 lL Buffer, 1 lL dNTPs, 0.36 lM forward and reverse primers, and 0.25 lL of rTaq polymerase. Three independent PCR replicates were obtained for each sample; PCR products were purified using MinElute PCR Purification Kit (QIAGEN). Products were quantified with a Fragment Analyzer TM Automated CE System (Advanced Analytical) and combined in equimolar ratios before sequencing with lllumina MiSeq (Illumina Inc) using the TruSeq Nano DNA sample preparation kit (150 PE).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Diet database</head><p>A barcode database for known diet species comprising rbcL, matK and trnL-F, (the latter containing the metabarcoding fragment) was prepared for the 16 plant species that were fed during the trial as well as 35 other 'potential' diet plants (list of fodder plant species that are regularly fed by the Singapore Zoological Gardens; Table <ref type="table" target="#tab_0">S1</ref>, Supporting Information). Seven of the 16 known diet species were sequenced with the Sanger method (Data S1). The trnL fragments were used to create the diet database for metabarcoding. We used ecoPCR <ref type="bibr" target="#b14">(Ficetola et al. 2010)</ref> to only retain the fragments of trnL that correspond to amplification productions generated with the g-h primer pair. All sequences &lt;10 bp and &gt;200 bp were excluded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plant database</head><p>To assess the ability of the two approaches to identify plants even if the diet was not known a priori, we generated a database comprising all barcode sequences available for angiosperms in GenBank for rbcL, matK, trnL-F and trnH-psbA using the BLAST-based pipeline of <ref type="bibr" target="#b18">Hunt et al. (2007)</ref>. This data set was complemented with our rbcL, matK and trnL-F sequences for the seven foliage species used in the feeding trial to yield databases of the following sizes: matK: 55 996 sequences for 7165 genera in 401 families; rbcL: 48 831 sequences for 7058 genera in 421 families; trnL-F: 37 241 sequences for 5052 genera in 281 families; and trnH-psbA: 25 497 sequences for 2638 genera in 251 families. For metabarcoding, we obtained trnL fragments for 4602 angiosperm genera corresponding to the region amplified by the g-h primer pair.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>Metagenomic approach. An initial assessment of quality scores across the Illumina data was performed using FASTQC (<ref type="url" target="http://www.bioinformatics.bbsrc.ac.uk/projects">http://www.bioinformatics.bbsrc.ac.uk/projects</ref> /fastqc/), and sequences were analysed either with or without assembly. For the assembly-free analyses, FASTQ sequences were converted to FASTA, and raw SE reads ('single-end analyses') or PE reads ('paired-end analyses') were matched against the diet and plant barcode databases. For single-end analyses, each read was matched to the database using BLASTN <ref type="bibr" target="#b2">(Altschul et al. 1990)</ref> as implemented in the BLAST 2.2.27+ suite under the default MEGABLAST settings (word size 28). To check for false positives, all reads showing matches to the diet database were also tested for BLAST hits against the generic NT database of GenBank to establish if these reads represent nonplant sequences. This analysis revealed that plant sequences were only reliably distinguished from bacterial sequences if the hit length exceeded 50 bp; removing shorter matches eliminated all matches to nonplant sequences. We then recorded identification success rates at 100% and 98% (=1 bp mismatch) identity. Lower identity thresholds were rejected because they yielded identifications to plants that were not known to be fed in the Singapore Zoo.</p><p>For single-end analyses, we used every read that gave a hit to single or multiple species (comprising of taxon set S1 for a read that matched from end 1 and S2 for a read that matched from end 2). Species-/genus-level identifications were made only when the number of species/genera in S1 (or S2) were not &gt;1, that is, they were unequivocal with respect to other sequences in the database. Identifications were categorized as 'ambiguous' when matches to multiple species/genera were obtained. For the paired-end analysis, up to 152 bp of sequence information could be used for identification, that is, the set of genera identified was S = S1 ∩ S2 (conflicting identifications from both ends were excluded). Both single-and paired-end analyses were repeated for each gene in the plant database, and we recorded whether identifications were based on matches to one, two, or three barcode genes.</p><p>In addition, we attempted a diet analysis based on assembled reads. Sequences were assembled using SOAP- DENOVO2 <ref type="bibr" target="#b28">(Luo et al. 2012;</ref><ref type="bibr" target="#b46">Zhou et al. 2013</ref>) using three k-mer settings (31, 41 and 51) before choosing the k-mer length that maximized species identification success (k = 31, Tables <ref type="table" target="#tab_2">S3-4</ref>). Assembled contigs were matched against the plant database using MEGABLAST with an overlap of &gt;100 bp and a 98% identity threshold for identifications.</p><p>Metabarcoding approach. For metabarcoding, we followed the methods in Qu em er e et al. (2013) and De <ref type="bibr" target="#b9">Barba et al. (2014)</ref>. PE reads were first aligned and merged using illuminapairedend (<ref type="url" target="http://www.grenoble.prabi.fr/trac/">http://www.grenoble.prabi.fr/trac/</ref> OBITools). Reads were assigned to the samples using ngsfilter under criteria of perfect match of tag sequence and a maximum of 2-bp mismatch with the primer sequence, after which obisplit was used to divide the files. Identical sequences were clustered retaining information on sequence counts using obiuniq. Sequences having length of &lt;10 bp were removed. We used two stringent filtering criteria after more relaxed criteria led to several erroneous identifications: (1) FC1: removing sequences with counts &lt;0.1% of the most common sequence [~100 reads, similar to <ref type="bibr" target="#b16">Hilbert et al. (2013)</ref>] and (2) FC2: removing sequences with counts &lt;1% of the most common sequence [~1000 reads, similar to Qu em er e et al. <ref type="bibr">(2013)</ref>]. Sequence variants were identified using obiclean, and sequences were tagged as 'head,' 'internal' and 'singleton' (see <ref type="bibr" target="#b38">Shehzad et al. 2012)</ref>. Identifications were made using ecotag, and only 'head' and 'singleton' sequences were used for genus-level identifications if identity was &gt;98% (Qu em er e et al. 2013) or &gt;95% (De <ref type="bibr" target="#b9">Barba et al. 2014)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison of metagenomics and metabarcoding</head><p>We used three criteria to compare the performance of metagenomics and metabarcoding. First, we tested whether diet sequences were recovered by matching reads to the diet database; this database is species poor, and most reads are sufficiently diagnostic for all diet species. Second, we determined whether read abundances were correlated for the same diet species using diet database [Spearman's rho, R Development Core <ref type="bibr">Team (2011)</ref>]. Third, we tested whether the diet reads could be identified to species/genus using the plant database containing all angiosperm barcodes in GenBank.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Proportion of chloroplast reads in metagenomic data</head><p>We used BLAT searches <ref type="bibr" target="#b20">(Kent 2002)</ref> with word size 11 against all 366 full chloroplast genomes in NCBI genomes (as of 6 Aug 2013) to extract all potential chloroplast reads. These reads were then filtered through BLASTN searches (word size 11) against all non-human genomes in NCBI (other_genomic database) to retain only those with matches exclusive to angiosperm chloroplast genomes. Distribution of these reads was studied by BLASTN (word size 11) searches against a reference cp genome using a 50-bp overlap threshold. For each read, the position in the chloroplast genome was recorded to generate a map of hits. All best score (S) matches were mapped, that is, some reads were mapped multiply if they had tied S values for multiple sites.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characterization of host mtDNA</head><p>To test whether host information can be retrieved, mitochondrial genomes were characterized using MEGABLAST to match assembled contigs (see above) against a mitochondrial genome of Pygathrix nemaeus (JF293096.1). The matches were validated as non-human primate sequences, and coding regions were translated and mapped using BRIG 0.95 <ref type="bibr" target="#b1">(Alikhan et al. 2011)</ref>. For quality checking, raw reads of each individual were also mapped using BWA <ref type="bibr" target="#b26">(Li &amp; Durbin 2009)</ref> and mismatches between contigs and reads were recorded as ambiguous bases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characterization of other eukaryotic DNA</head><p>For identifying other eukaryote reads, FASTQ files were submitted to MG-RAST <ref type="bibr" target="#b15">(Glass et al. 2010</ref>) using the default pipeline with quality filtering, RNA and protein prediction, clustering and taxon assignment. In addition, the reads were matched against a sample database of 698 981 COI sequences downloaded from GenBank. SE and PE reads with matches to rDNA or COI were then identified against NT requiring a 70-bp overlap. rDNA identifications were made at 98% identity, while COI identifications were summarized at both 98% and 95% identity. If multiple taxa had the same top similarity level, ambiguity was noted. The taxonomic classification of identified species was plotted at several hierarchical levels.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Illumina sequencing</head><p>The TT of P. nemaeus was determined to be 27.8 h, and the MRT was 48.8 h. After 72 h, 80% of the bead markers had passed. Faecal samples were therefore collected at 72 h after the beginning of the feeding trial. DNA extracted from these samples was sequenced to obtain 74 325 939 (11.3 Gb) and 67 127 731 (10.2 Gb) reads of 76 bp from PN1 and PN2, respectively (Table <ref type="table" target="#tab_0">1</ref>). The mean sequence quality was high (Phred score ~38), but decreased beyond 60 bp and showed very low scores beyond 70 bp. Across both samples, the mean, upper and lower quartiles of Phred scores were &gt;20 for the first 60 bp. For metabarcoding, 268 779 (PN1) and 289 834 (PN2) reads were available for variant calling and filtering (Table <ref type="table" target="#tab_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison of metagenomics and metabarcoding</head><p>Best estimate of diet based on metagenomic and metabarcoding data. While the diet that was offered to the douc langurs is known, it remains unclear whether all species were consumed over the 72 h of the trial. Our best estimate of diet thus has to be based on molecular evidence, and we used all reads (metabarcoding and metagenomic combined) and our best identification criteria (see under 'identification') for this purpose. For this, we matched the reads against the diet database. This showed that the metagenomic data included reads for ten (PN1) and fifteen (PN2) plants (Table <ref type="table" target="#tab_1">2</ref>, green/yellow; PE analysis). The corresponding numbers for metabarcoding (using FC1) were sixteen for PN1 and fourteen for PN2. Given the overlap between the data, our best estimate of the diet is 16 diet plant genera for each of the two samples.</p><p>Abundance. Next, we correlated read numbers in the metagenomic data with read numbers of the corresponding metabarcoding data. Spearman's rank-correlation coefficient at &gt;0.7 was highly significant when comparing metagenomic (paired end) and metabarcoding (FC1) reads (Table <ref type="table" target="#tab_2">3</ref>). Across all analyses, most hits were for Cinnamomum followed by Leucaena and Terminalia (Table <ref type="table" target="#tab_1">2</ref>). The only major deviations were Calophyllum and Mangifera in PN1 that were only found in large numbers using metabarcoding.</p><p>Identification. Our best estimate of the diet was based on the diet database consisting of fairly distantly related species. However, to compare the performance of metagenomics and metabarcoding in a more realistic setting, it is more important to assess whether diet elements can be identified against a database of all (available) angiosperm barcodes. With regard to metagenomics, preliminary analyses based on SE and PE reads revealed that only identifications based on at least two different barcode loci were reliable, because matches based on single-barcode genes yielded too many plant genera that are not part of the known diet (Table <ref type="table">S5</ref>). Once the 2 gene criterion for genus-level identification was applied, the PE analysis identified 7/16 (PN1) and 9/16 (PN2) genera, whereas the SE analyses identified 8/16 (PN1) and 7/16 (PN2) of the diet genera (Table <ref type="table" target="#tab_1">2</ref>, Fig. <ref type="figure" target="#fig_0">1</ref>, green). On the other hand, assembly-based analyses yielded fewer identifications (Fig. <ref type="figure" target="#fig_0">1</ref>). For metabarcoding, we found that the FC1 criterion performed best, but the number of identifications was much lower than for metagenomics (PN1: 6/16 and PN2: 5/16) (Fig. <ref type="figure" target="#fig_0">1</ref>). In contrast, using FC2, we found fewer diet genera, but this criterion also avoided some misidentifications (Fig. <ref type="figure" target="#fig_0">1</ref>). The latter criteria for metabarcoding and assembly-based analyses for metagenomics trade-off identification certainty against number of identifications, that is, the more stringent criteria yielded only known diet genera, but there were very few of them while the less stringent criteria identified a larger number of diet genera albeit at the expense of the occasional misidentification. For example, PE analyses (metagenomics) and FC1 (metabarcoding) yielded only one misidentification, while SE analyses yielded one misidentification per sample. Thus, overall, the results of SE and PE analyses are very compatible, but the PE matches are arguably more reliable. Hence, we consider the PE analysis and FC1 as best identification criteria for metagenomics and metabarcoding. Note that these conclusions were not sensitive to choosing 95% or 98% identity threshold for metabarcoding. At species level, PE analyses identified three (PN1) and five (PN2) species, while SE analyses identified four (PN1) and five (PN2) species (Table <ref type="table" target="#tab_1">2</ref>). Metabarcoding (FC1) yielded three (PN1) and five (PN2) species-level identifications; however, one species was misidentified (Baphia nitida as Baphia puguensis) in both samples and Glycine max is likely to be a misidentification for PN2. Overall, both metagenomics and metabarcoding yielded fewer identifications at species level due to the poor species-level resolution of cp DNA barcodes. Next, we assessed the genus-level overlap between the identifications made by the two methods. There was overlap for Leucaena, Terminalia, Acalypha and Baphia (Fig. <ref type="figure" target="#fig_0">1</ref>, Table <ref type="table" target="#tab_1">2</ref>), while Vigna, Ipomoea, Daucus, Ficus, Averrhoa and Morus were identified only using metagenomics, and Hibiscus, Calophyllum and Ligustrum were identified only using metabarcoding. Note that Ligustrum was not recovered in the diet database, as data for this diet species were not available in GenBank.</p><p>The main problems with identifications based on the two methods differed. For metagenomics, the low read counts caused some species to remain undetected because they only had matches to one barcode gene and thus failed to meet the multi-gene criterion. For example, two (PN1) and four (PN2) additional 'known' and 'potential' diet plants with low read counts satisfied only a single gene criterion (Table <ref type="table">S5</ref>). The main challenge for metabarcoding was the poor diagnostic value of the amplified barcode region. Even dominant diet elements such as Cinnamomum, Ipomoea, Ficus, Vigna and Averrhoa could not be identified to genus because the barcode for these species is not genus specific, that is, the PCR step had generated enough reads for these genera to be above  the detection threshold, but they could not be identified reliably against a broad taxonomic database. Overall, species detection based on metabarcoding is thus limited by the diagnostic power of the barcodes and several diet species could only be identified to family.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Number of chloroplast sequences</head><p>To test whether the metagenomic reads cover the chloroplast genome uniformly, we obtained 218 652 sequences for PN1 and 236 600 for PN2 with BLAT (see Methods).</p><p>Most were identified as bacterial sequences in BLAT searches against the genomic reference database, but 10 561 (0.014% of PN1) and 44 167 (0.066% of PN2) reads were likely genuine cpDNA. To test the efficiency of BLAT, we compared the recovered read numbers with those found via BLAST searches against the three barcode regions in the diet database. BLAT proved effective because it recovered ~85% (PN1) and 92% (PN2) of these reads. Overall, the chloroplast genome of Magnolia denudata (NC_018357.1) had the highest number of read hits and it was used to study the topological distribution of the sequences via BLASTN matches (yielding results for ~88-90% of reads). The sequences were overall uniformly distributed except that there were larger numbers of reads in the inverted repeat regions (Fig. <ref type="figure" target="#fig_1">2</ref>). This shows that expansion of reference database from four barcode regions to full genomes would provide additional sequences that can be used to assess the diet.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characterization of host mtDNA and eukaryotic DNA</head><p>Assembly of PN1 and PN2 libraries from the maternally related monkeys produced 25 and 9 mitochondrial contigs of &gt;100-bp length which provided two identical and nearly complete mitochondrial genomes with an average similarity of 99.1% to Pygathrix nemaeus (JF293096.1; Fig. <ref type="figure" target="#fig_0">S1</ref>, Supporting Information). Based on rDNA and COI sequences (Fig. <ref type="figure" target="#fig_2">3</ref>, details in Tables <ref type="table">S6-9</ref>), numerous sequences from nematodes, protozoa, fungi and plants were obtained. Many corresponded to nematodes (4-12% of rDNA identified), specifically to Strongyloides fuellerboni (based on LSU, SSU rDNA and COI). Among Protozoa, several hits were for the heterokont Blastocystis sp. (&gt;3000 reads for PN2 based on SSU rDNA) and amoebozoan Entamoeba sp. (&gt;2000 reads for PN1 and PN2 based on SSU rDNA). More precise species-level identification would require comparison to databases of homologous regions, but there is evidence for the presence of 'E. sp. RL3' which is known to be colobine specific <ref type="bibr" target="#b39">(Stensvold et al. 2011)</ref>. Lastly, both rDNA (at 98% identity) and COI analyses (at 95% identity) revealed arthropod sequences, but they could not be identified beyond the order level based on COI. However, SE data  suggested presence of Ceratitis sp. and Drosophila sp. in PN1, based on three sequences. COI analyses showed also the presence of Gallus sp. sequences suggesting that chicken had been ingested. Upon inquiry, the Singapore Zoo confirmed that the rice balls included cooked chicken. The LSU and SSU rDNA to plant sequences were largely congruent with the results of the barcodebased analyses particularly at higher taxonomic levels.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Our study documents how a metagenomic approach can be used to identify food plants from faecal DNA of a mammal with long food retention times. We optimized bioinformatics procedures for plant identifications to genus-level based on paired-end data and found chloroplast reads for many of the diet species. We also demonstrated that shotgun sequencing allows for a broad characterization of faecal samples. The same data that were used for diet analysis also documented intestinal parasites and yielded information on the genetics of the studied individuals. In addition, we revealed the unexpected presence of chicken in the monkey's diet, which could only be explained after the Singapore Zoo confirmed that rice balls that were fed contained chicken. This documented that unexpected diet items can be identified with metagenomics. Additional uses of the metagenomic data would include analyses of the gut microbiomes.</p><p>In our study, we used samples from captive animals for which all potential diet items were known. Therefore, we could test which bioinformatics strategy yielded reliable results. We were also able to reject those strategies that either identified too few diet genera or mistakenly identified many plant genera that were not part of the known diet. For our samples, we found that the following criteria yielded the best results for the metagenomic data: (1) read identity with reference barcode ≥98%; (2) read overlap 50 bp and (3) use of two different reference DNA barcodes. Using these criteria, single-end (SE) and paired-end (PE) analyses yielded largely compatible results with seven to nine of the diet taxa identified based on a genus-level identification against a broad database containing tens of thousands of plant barcodes (Fig. <ref type="figure" target="#fig_0">1</ref>). Between SE and PE analyses, we found that the latter marginally improved reliability. We also carried out an assembly-based analysis. It again yielded compatible results but only up to five diet genera were detected, that is, much deeper sequencing coverage would be needed for a complete characterization of the diet via assembled data. Thus, overall, we identified seven and nine genera for the two samples using PE analyses. However, there was evidence that this list of diet genera is incomplete. Some reads were ambiguous when identified based on all data in GenBank, but they can be assigned to diet species when matched against the species-poor 'diet database'. Moreover, a union of the set of plants recovered by metagenomics and metabarcoding revealed at least sixteen diet genera for each sample (Table <ref type="table" target="#tab_1">2</ref>). This dramatic increase and failure to detect low-abundance diet items indicated that the coverage of our shotgun sequencing was insufficient for a complete characterization of the diet. Such a characterization would either require target enrichment, higher throughput or identifying species based on more chloroplast genes. Once these additional data are available, our recommended bioinformatic techniques should be able to identify most diet plants.</p><p>Given the coverage problems with our metagenomic data, one may conclude that metabarcoding is a better and potentially cheaper technique because many samples can be multiplexed. However, the metabarcoding analyses using trnL are plagued by ambiguity problems which resulted in the identification of even fewer plant taxa to both genus and species (Table <ref type="table" target="#tab_1">2</ref>; Fig. <ref type="figure" target="#fig_0">1</ref>). Particularly problematic were eight diet taxa that had fairly high read counts (in PN1 and/or PN2), but could not be identified to genus because the reads had ambiguous matches. This included the dominant diet item, Cinnamomum. The only reason why we could identify these reads in our study was because the potential diet species were known and distantly related. Alternatively, one could abandon taxonomic identifications and only determine the number of operational taxonomic units (OTUs) as a measure of taxonomic diet diversity. As long as the species were distantly related, the number of OTUs could be determined and they could be identified to family. However, depending on the number of species in the habitat, this level of information may not be useful for conservation purposes. There are several ways for obtaining better results with metabarcoding. First, one could follow De <ref type="bibr" target="#b9">Barba et al. (2014)</ref> who initially identified diet items to family before using more taxon-specific primers for variable genes such as nrITS for a second round of PCR and sequencing. However, this strategy erodes the potential cost advantage of metabarcoding. Alternatively, one could increase the number of amplified barcoding genes in the initial step itself. Such PCR-based amplification of multiple genes may also avoid misidentifications based on a single gene, as was observed in our study for Baphia nitida. In particular, barcoding variable markers such as ITS2 could be used for improving taxonomic resolution <ref type="bibr" target="#b17">(Hollingsworth et al. 2011)</ref>. However, the choice of barcodes will be influenced by the degradation level of the samples and amplification efficiency of each primer. In our study, metabarcoding was based on an average of 51 and 53 bp fragments of trnL for the PN1 and PN2, respectively <ref type="bibr" target="#b17">(Hollingsworth et al. 2011)</ref>, while metagenomics SE analyses use only 76 bp reads. Such short reads can be used to characterize intact as well as highly degraded samples as insert sizes for library preparation of metagenomic samples can be adjusted to the nature of the sample.</p><p>One of the concerns with metabarcoding is amplification biases during the PCR stage. However, using trnL, we find very little evidence for such a bias. Most of the diet species in both samples were represented in the metabarcoding data. Indeed, there was overall a strong correlation between read numbers for the same genera in the metagenomic and metabarcoding data sets with only two major discrepancies (Table <ref type="table" target="#tab_2">3</ref>). The correlation of read counts is welcome news because one of the ultimate goals of NGS diet analysis is arguably to quantify biomass intake from counts of DNA reads. Metagenomics allows for direct counts, but it currently comes at a higher cost than metabarcoding, that is, it would be useful if metabarcoding reads could be used to estimate read quantity in DNA extractions. Of course, further research would be needed before read counts can reliably be correlated with feeding preferences and biomass intake. With regard to douc langurs in the Singapore Zoo, a recent study indicates that the species prefers Leucaena, Terminalia and Morus over Acalypha, Hibiscus and Hemigraphis (Xue &amp; Sha 2010) and our results were consistent with two of the top choices (while Cinnamomum was not used in the preference test). This suggests a broad correlation between dietary preferences determined by direct observation and read recovery although the number of sequence reads is likely determined by many factors including differential rates of digestion <ref type="bibr" target="#b11">(Deagle et al. 2010</ref>) and structural differences, for example, between leaves and fruits. For example, Baphia was provided only on the third day of the feeding trial, but the corresponding reads were already present in the faeces at the end of the same day, despite the mean transit time of food being ~28 h. Surely, there will be complex interrelationships between biomass, read numbers, feeding preference, time of food intake and retention time.</p><p>Given the advantages and disadvantages of metagenomics and metabarcoding, recommendations for future diet studies depend on the biological problem. The advantage of metagenomics is that dominant diet taxa are identified with greater resolution, while the metabarcoding data have better coverage for rare diet taxa. Looking into the future, it is likely that NGS cost will decline and DNA barcode coverage will increase. Currently, trnL is only available for ~5000 angiosperm genera, while rbcL is available for &gt;7000 genera. This means that some trnL diet reads that currently have definite matches at the genus level will become ambiguous, while those that are already ambiguous will remain so because denser taxon sampling does not resolve ambiguity. Metagenomics, however, will benefit from lower cost and be less affected by ambiguity because it uses the signal of multiple barcodes <ref type="bibr" target="#b27">(Li et al. 2014)</ref>. As more barcode regions are used for species identification, more metagenomic reads will become informative. For example, we could have used ~10 000 and ~44 000 sequences if whole chloroplast genomes had been available for identification. Given that our metagenomic reads were largely uniformly distributed across the cp genome (Fig. <ref type="figure" target="#fig_1">2</ref>), going from &lt;3000 bp of barcode sequence used here to full cp genomes would result in an ~509 increase of the data available for identification. Fortunately, more authors argue for longer and more barcodes as reference <ref type="bibr" target="#b29">(Meier et al. 2006;</ref><ref type="bibr" target="#b31">Nock et al. 2011;</ref><ref type="bibr" target="#b22">Kwong et al. 2012)</ref>, so that this development is already underway.</p><p>Overall, metabarcoding remains particularly attractive when a diet item has to be picked from a small number of distantly related, potential choices with discrete trnL barcodes, while metagenomics is currently particularly valuable for the following cases: first, for species with little prior information on biology because selecting the correct primers for PCR amplification is difficult. Second, for endangered species where few samples are available that should be studied exhaustively. Metagenomics provides simultaneously data on the host, its intestinal parasites and associated microbes. For example, we here characterized the eukaryotic reads and additional work could have been carried out on the gut microbiome <ref type="bibr" target="#b25">(Lamendella et al. 2011)</ref>. Particularly, interesting was the recovery of the mitochondrial genome of the host and a gut nematode belonging to Strongyloides (probably S. fuellerboni) (Fig. <ref type="figure" target="#fig_2">3</ref>). This nematode has been found in Asian and African non-human primates <ref type="bibr" target="#b23">(Labes et al. 2011)</ref>. We also recorded the presence of Entamoeba sp., and in particular, Entamoeba sp. RL3, a lineage, found only in Colobinae <ref type="bibr" target="#b39">(Stensvold et al. 2011)</ref>. In addition, we found sequences similar to the common faecal parasite Blastocystis sp. <ref type="bibr" target="#b0">(Alfellani et al. 2013)</ref>. Lastly, a very small number of sequences matched insects revealing the presence of fruit (Tephritidae) and vinegar flies (Drosophilidae), which are likely to be plant-associated ingestions.</p><p>Overall, this suggests that metagenomic data generated from wild samples allow for studies where a wider and more holistic picture of the ecology is desired. It can potentially give novel insights into multiple aspects of the biology of endangered species and help with understanding pathogens that may be of conservation relevance. Generated from captive samples, it provides important veterinary information. In all, moving towards a metagenomic analysis of faecal DNA promises to provide numerous new insights into species interactions that will go well beyond diet characterization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table S1 List of accession numbers of sequences used in the diet database</head><p>Table <ref type="table" target="#tab_1">S2</ref> Analyses of metagenomic sequences against diet database: summary of number of reads by barcode (paired end analyses)</p><p>Table <ref type="table" target="#tab_2">S3</ref> Assembly of PN1 and PN2 metagenomic dataset using SOAPDENOVO2 at various k-mers. Identifications for diet species were made using diet database under criteria of 98% identity and 100 bp overlap Table <ref type="table">S4</ref> Number of contigs matching to the diet database. Assembly was done using K = 31, K = 41 and K = 51. K = 51 revealed poorer results than other two (Table <ref type="table" target="#tab_2">S3</ref>) and hence was not shown here. Values shown are: Number of contigs/Average coverage/length of longest contig Table <ref type="table">S5</ref> Genera identified from metagenomic datasets of PN1 and PN2 when tested against plant database (Paired end). Known and Potential diet taxa are highlighted in bold Table <ref type="table">S6</ref> Eukaryote identification based on rRNA sequences (MEGABLAST, 98% identity, 70 bp overlap); summary derived from top 500 hits of NT. Values in bracket represent (number of Paired end reads from PN1 / number of End 1 reads from PN1) and (number of Paired end reads from PN2/number of End 1 reads from PN2) Table <ref type="table">S7</ref> Eukaryote identification based on COI sequences (MEGABLAST, 98% identity, 70 bp overlap) summary derived from top 500 hits of NT Table <ref type="table">S8</ref> Eukaryote identification based on COI sequences (MEGABLAST, 95% identity, 70 bp overlap) summary derived from top 500 hits of NT Table <ref type="table">S9</ref> Arthropod identifications based on single end analyses using COI sequences (MEGABLAST, 95% identity, 70 bp overlap), summary derived from top 500 hits of NT. Sequences in bold represent those that had paired end match to same insect order</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig.1An overview of the genus-level identification success for five approaches tested. Te: erminalia, Le: Leucaena, Ba: Baphia, Ci: Cinnamomum, Ac: Acalypha, Vi: Vigna, Ip: Ipomoea, Da: Daucus, Hi: Hibiscus, Mo: Morus, Py: Pyrus, Or: Oryza, Ma: Malus, Cu: Cucumis, He: Hemi-graphis, Ze: Zea, Fi: Ficus, Av: Averrhoa, Ca: Callophyllum and Li: Ligustrum. Dark green: known diet; light green: potential diet; red: others. SE: single end, PE: paired end, FC1: filtering criterion 1, FC2: filtering criterion 2.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>PN2Fig. 2</head><label>2</label><figDesc>Fig. 2 Mapping of single-end reads of PN1 (a) and PN2 (b) onto the Magnolia denudata chloroplast genome: Locations of inverted repeats are marked by arrows as estimated using the genome map from CpBase (http://rocaplab.ocean.wash ington.edu/tools/cpbase). Reads have approximately equal representation outside of the repeat region (see text).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc>Fig.3Eukaryote identifications based on COI and rDNA (paired end, 98% identity, 70-bp overlap): Green taxa present in both samples; red = expected species (e.g. diet species, host). Species-level identities are shown only for Strongyloides, Blastocystis and Entamoeba. SE refers to single-end reads.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Sequences used in metagenomic and metabarcoding analyses of samples. For metagenomics, data are summarized using the plant database</figDesc><table><row><cell></cell><cell>PN1</cell><cell>PN2</cell></row><row><cell>Total number of metagenomic reads</cell><cell cols="2">74 325 939 67 127 731</cell></row><row><cell>Single-end reads matching</cell><cell>494</cell><cell>2001</cell></row><row><cell>to barcode sequences</cell><cell></cell><cell></cell></row><row><cell>Reads used for single-end</cell><cell>281</cell><cell>1107</cell></row><row><cell>analyses (100% identity)</cell><cell></cell><cell></cell></row><row><cell>DNA fragments</cell><cell>359</cell><cell>1257</cell></row><row><cell>overlapping barcode</cell><cell></cell><cell></cell></row><row><cell>sequences</cell><cell></cell><cell></cell></row><row><cell>DNA fragments with both</cell><cell>135</cell><cell>744</cell></row><row><cell>ends overlapping</cell><cell></cell><cell></cell></row><row><cell>barcode sequences</cell><cell></cell><cell></cell></row><row><cell>DNA fragments used for</cell><cell>105</cell><cell>545</cell></row><row><cell>paired-end analyses</cell><cell></cell><cell></cell></row><row><cell>(98% identity)</cell><cell></cell><cell></cell></row><row><cell>Total number of metabarcoding reads</cell><cell>268 779</cell><cell>289 834</cell></row><row><cell>Unique sequences</cell><cell>10 740</cell><cell>8592</cell></row><row><cell>Unique sequences passing FC1</cell><cell>110</cell><cell>98</cell></row><row><cell>Unique sequences passing FC2</cell><cell>13</cell><cell>14</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Genus-level identifications using the various approaches tested in this study. Recovery of a genus and read quantifications were determined using the diet database comprising of 'known' (highlighted in bold) and 'potential' diet genera. PE: paired end; SE: single end; green: recovered and unambiguously identified; yellow: recovered but ambiguous identification; red: absent. Ligustrum was not included due to lack of data for potential diet species in GenBank</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">Metabarcoding</cell></row><row><cell></cell><cell>PE</cell><cell></cell><cell>SE</cell><cell></cell><cell cols="2">(FC1)</cell><cell></cell></row><row><cell></cell><cell cols="5">PN1 PN2 PN1 PN2 PN1</cell><cell></cell><cell cols="2">PN2</cell></row><row><cell cols="3">Consistent identifications</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Leucaena</cell><cell>10 *</cell><cell cols="2">102 * 19 *</cell><cell>164 *</cell><cell>34</cell><cell>105 *</cell><cell>59</cell><cell>734 *</cell></row><row><cell>Terminalia</cell><cell>11 *</cell><cell>9 *</cell><cell>19 *</cell><cell>21 *</cell><cell cols="2">11 017</cell><cell>18</cell><cell>049</cell></row><row><cell cols="2">Inconsistently identified</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Acalypha</cell><cell>2</cell><cell>1</cell><cell>4</cell><cell>4</cell><cell cols="2">2483 *</cell><cell cols="2">2060 *</cell></row><row><cell>Baphia</cell><cell></cell><cell>6</cell><cell></cell><cell>6</cell><cell cols="2">766 *</cell><cell cols="2">1993 *</cell></row><row><cell cols="5">Unambiguously identified by metagenomics</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Vigna</cell><cell>3 *</cell><cell>19 *</cell><cell>11 *</cell><cell>29 *</cell><cell cols="2">4177</cell><cell cols="2">4316</cell></row><row><cell>Cinnamomum</cell><cell>30</cell><cell>156</cell><cell>79</cell><cell>303</cell><cell cols="4">1 05 975 1 07 878</cell></row><row><cell>Ficus</cell><cell>4</cell><cell>1</cell><cell>7</cell><cell>3</cell><cell cols="2">9747</cell><cell cols="2">1630</cell></row><row><cell>Averrhoa</cell><cell>4</cell><cell>19 *</cell><cell>8 *</cell><cell>35 *</cell><cell cols="2">5171</cell><cell cols="2">21 191</cell></row><row><cell>Ipomoea</cell><cell>2</cell><cell>2</cell><cell>5</cell><cell>3</cell><cell cols="2">5223</cell><cell cols="2">1541</cell></row><row><cell>Daucus</cell><cell>1</cell><cell>7 *</cell><cell></cell><cell>15 *</cell><cell cols="2">12 775</cell><cell cols="2">8945</cell></row><row><cell>Morus</cell><cell></cell><cell>1</cell><cell></cell><cell>3</cell><cell cols="2">3 8 3</cell><cell cols="2">2 2 3 4</cell></row><row><cell cols="5">Unambiguously identified by metabarcoding</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Hibiscus</cell><cell></cell><cell>2</cell><cell></cell><cell>1</cell><cell></cell><cell></cell><cell cols="2">148 *</cell></row><row><cell>Calophyllum</cell><cell></cell><cell></cell><cell>1</cell><cell></cell><cell cols="2">5 6 9 8</cell><cell></cell></row><row><cell cols="3">Present, but not identified</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Zea</cell><cell>1</cell><cell>4</cell><cell></cell><cell>3</cell><cell cols="2">577</cell><cell cols="2">1614</cell></row><row><cell>Pterocarpus</cell><cell></cell><cell></cell><cell></cell><cell>1</cell><cell cols="2">1 5 6</cell><cell cols="2">1 1 2</cell></row><row><cell>Malus</cell><cell></cell><cell>2</cell><cell></cell><cell>8</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Pyrus</cell><cell></cell><cell>1</cell><cell></cell><cell>1</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Mangifera</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">958</cell><cell></cell></row><row><cell>Cucumis</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">190</cell><cell></cell></row></table><note><p>Baphia and Daucus identified using metabarcoding only at 95%. *Identified to species as Vigna unguiculata, Leucaena leucocephala, Averrhoa carambola, Daucus carota, Terminalia catappa, Acalypha siamensis, Hibiscus rosa-sinensis and Baphia puguensis. Glycine max (likely misidentification) was also identified to species for PN2 in metabarcoding.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Correlation between the abundance of each genus using metabarcoding (FC1) and metagenomic (paired end) approaches. Only identifications made under same identity threshold (98%) for the two approaches were considered.</figDesc><table><row><cell>Genera compared</cell><cell cols="3">Sample Spearman's q n</cell><cell>P-value</cell></row><row><cell cols="2">All genera recovered* PN1</cell><cell>0.822</cell><cell cols="2">14 0.0003</cell></row><row><cell></cell><cell>PN2</cell><cell>0.717</cell><cell cols="2">14 0.004</cell></row><row><cell>Recovered using</cell><cell>PN1</cell><cell>0.899</cell><cell cols="2">9 0.00097</cell></row><row><cell>both approaches</cell><cell>PN2</cell><cell>0.723</cell><cell cols="2">11 0.012</cell></row><row><cell cols="5">*If a genus was not recovered by one approach, then it was rep-</cell></row><row><cell>resented by zero reads.</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Number of reads per bp Position across Magnolia denudata chloroplast genome</head><label></label><figDesc></figDesc><table><row><cell></cell><cell>35 40</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="8">Barcodes All</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>PN1</cell></row><row><cell></cell><cell>30</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>25</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>20</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>15</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>10</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>5</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="4">matK</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="4">trnL-F</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">rbcL</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>0</cell><cell cols="2">1</cell><cell cols="2">4447</cell><cell cols="2">8893</cell><cell cols="2">13 339</cell><cell cols="2">17 785</cell><cell cols="2">22 231</cell><cell cols="2">26 677</cell><cell cols="2">31 123</cell><cell cols="2">35 569</cell><cell cols="2">40 015</cell><cell cols="2">44 461</cell><cell cols="2">48 907</cell><cell cols="2">53 353</cell><cell cols="2">57 799</cell><cell cols="2">62 245</cell><cell cols="2">66 691</cell><cell cols="2">71 137</cell><cell cols="2">75 583</cell><cell>80 029</cell><cell>84 475</cell><cell>88 921</cell><cell>93 367</cell><cell>97 813</cell><cell>102 259</cell><cell>106 705</cell><cell>111 151</cell><cell>115 597</cell><cell>120 043</cell><cell>124 489</cell><cell>128 935</cell><cell>133 381</cell><cell>137 827</cell><cell>142 273</cell><cell>146 719</cell><cell>151 165</cell><cell>155 611</cell></row><row><cell></cell><cell cols="2">100</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">90</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">80</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">70</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">60</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">50</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Number</cell><cell cols="2">10 20 30 40</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">0</cell><cell cols="2">1</cell><cell cols="2">4447</cell><cell cols="2">8893</cell><cell cols="2">13 339</cell><cell cols="2">17 785</cell><cell cols="2">22 231</cell><cell cols="2">26 677</cell><cell cols="2">31 123</cell><cell cols="2">35 569</cell><cell cols="2">40 015</cell><cell cols="2">44 461</cell><cell cols="2">48 907</cell><cell cols="2">53 353</cell><cell cols="2">57 799</cell><cell cols="2">62 245</cell><cell cols="2">66 691</cell><cell cols="2">71 137</cell><cell>75 583</cell><cell>80 029</cell><cell>84 475</cell><cell>88 921</cell><cell>93 367</cell><cell>97 813</cell><cell>102 259</cell><cell>106 705</cell><cell>111 151</cell><cell>115 597</cell><cell>120 043</cell><cell>124 489</cell><cell>128 935</cell><cell>133 381</cell><cell>137 827</cell><cell>142 273</cell><cell>146 719</cell><cell>151 165</cell><cell>155 611</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>of reads per bp Position across Magnolia denudata chloroplast genome</head><label></label><figDesc></figDesc><table><row><cell>All</cell><cell></cell><cell></cell></row><row><cell>Barcodes</cell><cell></cell><cell></cell></row><row><cell>matK</cell><cell>trnL-F</cell><cell>rbcL</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2014 John Wiley &amp; Sons Ltd</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>17550998, 2015, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12302 by Universite De Tours Scd, Wiley Online Library on [05/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>© 2014 John Wiley &amp; Sons Ltd 254 A . S R I V A T H S A N E T A L .17550998, 2015, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12302 by Universite De Tours Scd, Wiley Online Library on [05/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>© 2014 John Wiley &amp; Sons Ltd 258 A . S R I V A T H S A N E T A L .17550998, 2015, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12302 by Universite De Tours Scd, Wiley Online Library on [05/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We would like to thank the staff at <rs type="institution">Singapore Zoo</rs> for their permission to conduct this study. We would also like to acknowledge <rs type="institution">AITbiotech</rs> for their support with Illumina sequencing and <rs type="person">Peter Foster</rs> (<rs type="affiliation">Natural History Museum</rs>) for server support. This research was supported by Grant <rs type="grantNumber">R-154-000-539-112</rs> and funding from <rs type="funder">National University of Singapore, Faculty of Science</rs> for the <rs type="funder">Joint NUS-Imperial College PhD Programme</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_HB4uQq8">
+					<idno type="grant-number">R-154-000-539-112</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Accessibility</head><p>The barcode sequence data generated for the study is available at GenBank (accessions: KM029996-KM030014). The metagenomes have been deposited in MG-RAST in project 'Douc Illumina' <ref type="url" target="http://metagenomics.anl.gov/">http://metagenomics.anl.gov/</ref> linkin.cgi?project=2562, under IDs: 4506440.3 and 4506 441.3 (PN1) and 4514928.3 and 4514929.3 (PN2). Scripts used in this study are deposited at <ref type="url" target="https://github.com/">https://github.com/</ref> asrivathsan/readsidentifier-1.0. The metabarcoding data and key output files are available at Dryad doi:10.5061/ dryad.99dj8.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>Additional Supporting Information may be found in the online version of this article: </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Diversity and distribution of Blastocystis sp. subtypes in non-human primates</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Alfellani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Jacob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">O</forename><surname>Perea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Parasitology</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="966" to="971" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">BLAST Ring Image Generator (BRIG): simple prokaryote genome comparisons</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>Alikhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Petty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ben</forename><surname>Zakour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Beatson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">402</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Basic local alignment search tool</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Altschul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lipman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page" from="403" to="410" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Reproduction and infant pelage colouration of the banded leaf monkey (Mammalia: Primates: Cercopithecidae) in Singapore</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mrb</forename><surname>Ismail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Meier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Raffles Bulletin of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="411" to="415" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Low genetic variability in the recovering urban banded leaf monkey population of Singapore</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Srivasthan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Md-Zain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mrb</forename><surname>Ismail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Meier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Raffles Bulletin of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="589" to="594" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Coprolites as a source of information on the genome and diet of the cave hyena</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Berthonaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Maksud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings. Biological Sciences/The Royal Society</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="2825" to="2830" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Plant DNA sequences from feces: potential means for assessing diets of wild primates</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Doran-Sheehy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Primatology</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="699" to="705" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">OligoTag: a program for designing sets of tags for Next-Generation Sequencing of multiplexed samples</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coissac</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Data Production and Analyses in Population Genomics</title>
+		<editor>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Bonin</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Humana Press</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="13" to="31" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Bioinformatic challenges for DNA metabarcoding of plants and animals (2012)</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coissac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Puillandre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1834" to="1847" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">DNA metabarcoding multiplexing and validation of data accuracy for diet assessment: application to omnivorous diet</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Barba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Miquel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="306" to="323" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Studying seabird diet through genetic analysis of faeces: a case study on macaroni penguins (Eudyptes chrysolophus)</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Gales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Evans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">831</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Pyrosequencing faecal DNA to determine diet of little penguins: is what goes in what comes out</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chiaradia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcinnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="2039" to="2048" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Plant wax components: a new approach to estimating intake and diet composition in herbivores</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Mayes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="13" to="26" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Using genetics as a tool in primate conservation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Ferreira Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Minhos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Sa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Education Knowledge</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">89</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">An in silico approach for the evaluation of DNA barcodes</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Ficetola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coissac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zundel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">434</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Using the metagenomics RAST server (MG-RAST) for analyzing shotgun metagenomes</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Glass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wilkening</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Antonopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/pdb.prot5368</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harbor Protocols</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Unveiling the diet of elusive rainforest herbivores in Next Generation Sequencing era? The Tapir as a case study</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scotti-Saintagne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sabatier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Richard-Hansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">60799</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Choosing and using a plant DNA barcode</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Hollingsworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Little</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">19254</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A comprehensive phylogeny of beetles reveals the evolutionary origins of a superradiation</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bergsten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Levkanicova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="page" from="1913" to="1916" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Group-specific polymerase chain reaction for DNA-based analysis of species diversity and identity in dietary samples</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Gales</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1313" to="1322" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">BLAT-the BLAST-like alignment tool</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Kent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Research</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="656" to="664" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Facts from feces revisited</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="223" to="227" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">An update on DNA barcoding: low species coverage and numerous unidentified sequences</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kwong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Srivathsan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Meier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cladistics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="639" to="644" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Genetic characterization of Strongyloides spp. from captive, semi-captive and wild Bornean orangutans (Pongo pygmaeus) in Central and East Kalimantan, Borneo, Indonesia</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Labes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Nurcahyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Deplazes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mathis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Parasitology</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="1417" to="1422" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Primate digestion: interactions among anatomy, physiology, and feeding ecology</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Lambert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evolutionary Anthropology</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="8" to="20" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Comparative fecal metagenomics unveils unique functional capacity of the swine gut</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lamendella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Domingo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Oerther</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">103</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Fast and accurate short read alignment with Burrows-Wheeler Transform</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Durbin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1754" to="1760" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Plant DNA barcoding: from gene to genome</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rossetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Want</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/brv.12104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Reviews</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">SOAPdenovo2: an empirically improved memory-efficient short-read de novo assembler</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gigascience</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">DNA barcoding and taxonomy in Diptera: a tale of high intraspecific variability and low identification success</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Meier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shiyang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vaidya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pkl</forename><surname>Ng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Systematic Biology</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="715" to="728" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">DNA-Based faecal dietary analysis: a comparison of qPCR and High Throughput Sequencing approaches</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bunce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Cannell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">25776</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Chloroplast genome sequences from total DNA for plant identification</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Nock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Waters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Edwards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Biotechnology Journal</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="328" to="333" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">DNA damage promotes jumping between templates during enzymatic amplification</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Irwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">265</biblScope>
+			<biblScope unit="page" from="4718" to="4721" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Sandeels in the diets of sealsapplication of novel and conventional methods of analysis to feces from seals in the Moray Firth area of Scotland</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Pierce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Boyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jsw</forename><surname>Diack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Marine Biological Association of the United Kingdom</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="829" to="840" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Who is eating what: diet assessment using next generation sequencing</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Woc</forename><surname>Symondson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1931" to="1950" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A DNA Metabarcoding study of a primate dietary diversity and plasticity across its entire fragmented range</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Qu Em Er E</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hilbert</forename><forename type="middle">F</forename><surname>Miquel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">58971</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">R: A Language and Environment for Statistical Computing</title>
+		<author>
+			<orgName type="collaboration">R Development Core Team</orgName>
+		</author>
+		<ptr target="http://www.R-project.org/" />
+	</analytic>
+	<monogr>
+		<title level="m">R Foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Detection distance and environmental factors in conservation detection dog surveys</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Bidlack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hurt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Getz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="243" to="251" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Carnivore diet analysis based on next-generation sequencing: application to the leopard cat (Prionailurus bengalensis) in Pakistan</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shehzad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Nawaz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1951" to="1965" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Increased sampling reveals novel lineages of Entamoeba: consequences of genetic diversity and host specificity for taxonomy and molecular detection</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Stensvold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lebbad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Victory</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protist</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="525" to="541" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Molecular identification of prey in predator diets</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">O</forename><surname>Symondson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="627" to="641" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Power and limitations of the chloroplast trnL (UAA) intron for plant DNA barcoding</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coissac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Towards next-generation biodiversity assessment using DNA metabarcoding</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coissac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brochmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Willerslev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="2045" to="2050" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">New perspectives in diet analysis based on DNA barcoding and parallel pyrosequencing: the trnL approach</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valentini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miquel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Nawaz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="51" to="60" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Sha</surname></persName>
+		</author>
+		<title level="m">Dietary and digestive differences in primates at the Singapore Zoo: Folivory and frugivory in relation to feed preference, intake, digest retention and nutrition</title>
+		<meeting><address><addrLine>Singapore</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>Nanyang Technological University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Final Year Project</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Improving PCR detection of prey in molecular diet studies: importance of group-specific primer set selection and extraction protocol performances</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zarzoso-Lacoste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Corse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Vidal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="117" to="127" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Ultra-deep sequencing enables high-fidelity recovery of biodiversity for bulk arthropod samples without PCR amplification</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gigascience</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">P V</forename></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>wrote the manuscript</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

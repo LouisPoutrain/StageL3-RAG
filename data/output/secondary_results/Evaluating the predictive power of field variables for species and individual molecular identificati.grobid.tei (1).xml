@@ -1,0 +1,2122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Evaluating the predictive power of field variables for species and individual molecular identification on wolf noninvasive samples</title>
+				<funder ref="#_xtj6FyT">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">ACHLI (Associação de Conservação do Habitat do Lobo Ibérico</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Strategic Reference Framework</orgName>
+					<orgName type="abbreviated">NSRF</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Iberian Wolf Research Team</orgName>
+					<orgName type="abbreviated">IWRT</orgName>
+				</funder>
+				<funder ref="#_kXjhWes">
+					<orgName type="full">Fundação para a Ciência e a Tecnologia</orgName>
+				</funder>
+				<funder ref="#_WmsPaQ3">
+					<orgName type="full">Norte</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">European Regional Development Fund</orgName>
+					<orgName type="abbreviated">ERDF</orgName>
+				</funder>
+				<funder ref="#_tGpsbzm">
+					<orgName type="full">VentoMinho Energias Renováveis S</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2017-05-24">24 May 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mónia</forename><surname>Nakamura</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CIBIO/InBIO</orgName>
+								<orgName type="department" key="dep2">Centro de Investigação em Biodiversidade e Recursos Genéticos</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<addrLine>Campus Agrário de Vairão</addrLine>
+									<postCode>4485-661</postCode>
+									<settlement>Vairão</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Raquel</forename><surname>Godinho</surname></persName>
+							<email>rgodinho@cibio.up.pt</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CIBIO/InBIO</orgName>
+								<orgName type="department" key="dep2">Centro de Investigação em Biodiversidade e Recursos Genéticos</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<addrLine>Campus Agrário de Vairão</addrLine>
+									<postCode>4485-661</postCode>
+									<settlement>Vairão</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Departamento de Biologia</orgName>
+								<orgName type="department" key="dep2">Faculdade de Ciências</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<addrLine>Rua do Campo Alegre s⁄n</addrLine>
+									<postCode>4169-007</postCode>
+									<settlement>Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">&amp;</forename><forename type="middle">H</forename><surname>Rio-Maior</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CIBIO/InBIO</orgName>
+								<orgName type="department" key="dep2">Centro de Investigação em Biodiversidade e Recursos Genéticos</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<addrLine>Campus Agrário de Vairão</addrLine>
+									<postCode>4485-661</postCode>
+									<settlement>Vairão</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">&amp;</forename><forename type="middle">S</forename><surname>Roque</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Grupo Lobo</orgName>
+								<orgName type="department" key="dep2">Faculdade de Ciências</orgName>
+								<orgName type="institution">Universidade de Lisboa</orgName>
+								<address>
+									<settlement>Lisbon</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Centre for Ecology, Evolution and Environmental Change</orgName>
+								<orgName type="department" key="dep2">Faculdade de Ciências</orgName>
+								<orgName type="laboratory">CE3C</orgName>
+								<orgName type="institution">Universidade de Lisboa</orgName>
+								<address>
+									<postCode>1749-016</postCode>
+									<settlement>Lisbon</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">&amp;</forename><forename type="middle">A</forename><surname>Kaliontzopoulou</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CIBIO/InBIO</orgName>
+								<orgName type="department" key="dep2">Centro de Investigação em Biodiversidade e Recursos Genéticos</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<addrLine>Campus Agrário de Vairão</addrLine>
+									<postCode>4485-661</postCode>
+									<settlement>Vairão</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">&amp;</forename><forename type="middle">J</forename><surname>Bernardo</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Grupo Lobo</orgName>
+								<orgName type="department" key="dep2">Faculdade de Ciências</orgName>
+								<orgName type="institution">Universidade de Lisboa</orgName>
+								<address>
+									<settlement>Lisbon</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><surname>Castro</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CIBIO/InBIO</orgName>
+								<orgName type="department" key="dep2">Centro de Investigação em Biodiversidade e Recursos Genéticos</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<addrLine>Campus Agrário de Vairão</addrLine>
+									<postCode>4485-661</postCode>
+									<settlement>Vairão</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">&amp;</forename><forename type="middle">S</forename><surname>Lopes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CIBIO/InBIO</orgName>
+								<orgName type="department" key="dep2">Centro de Investigação em Biodiversidade e Recursos Genéticos</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<addrLine>Campus Agrário de Vairão</addrLine>
+									<postCode>4485-661</postCode>
+									<settlement>Vairão</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">F</forename><surname>Petrucci-Fonseca</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Grupo Lobo</orgName>
+								<orgName type="department" key="dep2">Faculdade de Ciências</orgName>
+								<orgName type="institution">Universidade de Lisboa</orgName>
+								<address>
+									<settlement>Lisbon</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Centre for Ecology, Evolution and Environmental Change</orgName>
+								<orgName type="department" key="dep2">Faculdade de Ciências</orgName>
+								<orgName type="laboratory">CE3C</orgName>
+								<orgName type="institution">Universidade de Lisboa</orgName>
+								<address>
+									<postCode>1749-016</postCode>
+									<settlement>Lisbon</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">&amp;</forename><forename type="middle">F</forename><surname>Álvares</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">CIBIO/InBIO</orgName>
+								<orgName type="department" key="dep2">Centro de Investigação em Biodiversidade e Recursos Genéticos</orgName>
+								<orgName type="institution">Universidade do Porto</orgName>
+								<address>
+									<addrLine>Campus Agrário de Vairão</addrLine>
+									<postCode>4485-661</postCode>
+									<settlement>Vairão</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Evaluating the predictive power of field variables for species and individual molecular identification on wolf noninvasive samples</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2017-05-24">24 May 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B8FF13568410D4F5A176A623E6FE0397</idno>
+					<idno type="DOI">10.1007/s10344-017-1112-7</idno>
+					<note type="submission">Received: 22 December 2016 / Revised: 21 March 2017 / Accepted: 8 May 2017 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Sample variable</term>
+					<term>Noninvasive genetic sampling</term>
+					<term>Saliva</term>
+					<term>Faeces</term>
+					<term>Urine</term>
+					<term>Canis lupus</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Live-trapping elusive animals is often challenging, hampering the achievement of reasonable sample sizes for molecular studies. In such cases, the use of noninvasive samples (NIS) is critical in many research fields, mostly related to ecology, management and conservation of wild species. We analysed the influence of several variables potentially associated with the quality of wolf NIS-season, weather conditions, and in situ collected site and sample characteristicson the success rates of species and individual identification performed using mtDNA and 13 microsatellites, respectively. NIS included scats, urine and saliva collected from two areas in Portugal. Scat samples exhibited the highest success rate for both species (81%) and individual identification (59%), compared with urine (63 and 30%, respectively) or saliva samples (48 and 36%, respectively). The success rate of species identification of scats was better explained by season of collection, the presence of mucous, moisture and odour. For samples with successful species identification analysis, individual identification success was best predicted by the presence of odour. Performing a preliminary selection of scat samples with the best characteristics can increase up to 13% the success rates of molecular analysis. Urine collected on snow had a higher success rate of species identification than that collected on vegetation. To our knowledge, this was the first time that wolf urine on vegetation near ground-scratching marks is used as DNA source. Saliva samples collected with different substrate types can also be used for species identification. These results contribute to optimising noninvasive sampling procedures, maximising the success of molecular ecology studies, and ultimately minimising sampling efforts and costs.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The use of noninvasive genetic sampling in wildlife research and monitoring is currently of prime importance for management and conservation actions <ref type="bibr" target="#b71">(Waits and Paetkau 2005;</ref><ref type="bibr" target="#b6">Beja-Pereira et al. 2009)</ref>. Indeed, the use of noninvasive samples (NIS) has drastically improved, starting with species identification by amplifying and sequencing a small mitochondrial DNA (mtDNA) fragment <ref type="bibr" target="#b48">(Palomares et al. 2002;</ref><ref type="bibr" target="#b47">Onorato et al. 2004;</ref><ref type="bibr" target="#b46">O'Reilly et al. 2008)</ref> up to the evaluation of population and ecological parameters using different molecular and statistical approaches (e.g. <ref type="bibr" target="#b40">Lucchini et al. 2002;</ref><ref type="bibr" target="#b41">Marucco et al. 2009;</ref><ref type="bibr" target="#b30">Harris et al. 2010;</ref><ref type="bibr" target="#b21">De Barba et al. 2010;</ref><ref type="bibr"></ref> Electronic supplementary material The online version of this article (doi:10.1007/s10344-017-1112-7) contains supplementary material, which is available to authorized users. <ref type="bibr" target="#b58">Stenglein et al. 2011;</ref><ref type="bibr" target="#b27">Godinho et al. 2012;</ref><ref type="bibr" target="#b18">Czarnomska et al. 2013)</ref>. Noninvasive genetic sampling provides a large amount of data without the need to capture, handle or observe animals, allowing a recurrent and cumulative use in the study of elusive carnivore species <ref type="bibr" target="#b71">(Waits and Paetkau 2005;</ref><ref type="bibr" target="#b36">Kelly et al. 2012)</ref>.</p><p>However, NIS are prone to misidentification among sympatric species, and their use frequently requires genetic confirmation (e.g. <ref type="bibr" target="#b20">Davison et al. 2002;</ref><ref type="bibr" target="#b43">Monterroso et al. 2012)</ref>. Furthermore, DNA in NIS is generally in low quantity and often contaminated and degraded due to environmental or intrinsic factors <ref type="bibr" target="#b6">(Beja-Pereira et al. 2009;</ref><ref type="bibr" target="#b70">Vynne et al. 2012;</ref><ref type="bibr" target="#b55">Schrader et al. 2012)</ref>, requiring the amplification of multiple replicas per sample to maximise success and minimise genotyping errors <ref type="bibr" target="#b61">(Taberlet et al. 1999;</ref><ref type="bibr" target="#b66">Valière et al. 2002;</ref><ref type="bibr" target="#b56">Schwartz et al. 2006)</ref>. The assessment of NIS conditions in the field could prompt an increase in the overall efficiency of the analysis. Previous studies have shown that several variables may influence the success of DNA extraction and amplification from NIS. However, these studies usually analysed few such parameters, including e.g. season, environmental factors and sample age <ref type="bibr" target="#b51">(Piggott 2004;</ref><ref type="bibr" target="#b73">Wasser et al. 2004;</ref><ref type="bibr" target="#b45">Murphy et al. 2007;</ref><ref type="bibr" target="#b70">Vynne et al. 2012;</ref><ref type="bibr" target="#b29">Harms et al. 2015</ref>). In addition, some studies evaluated the effect of variables under controlled settings that may not accurately reflect field conditions (e.g. <ref type="bibr">Santini et al. 2007)</ref>. Furthermore, the results obtained regarding the influence of season on faecal DNA amplification are contradictory across studies <ref type="bibr" target="#b40">(Lucchini et al. 2002;</ref><ref type="bibr" target="#b54">Scandura et al. 2006;</ref><ref type="bibr" target="#b39">Lonsinger et al. 2014)</ref>, possibly suggesting geographic variance due to different environmental conditions. Finally, there is scarce knowledge on the influence of in situ variables such as site and sample characteristics on the success of molecular analysis for NIS.</p><p>Scats are among the most commonly used NIS for wolves because they are easy to find and provide additional biological information beyond DNA (e.g. health, physiology and diet; <ref type="bibr" target="#b4">Barja et al. 2008;</ref><ref type="bibr" target="#b17">Creel et al. 2002;</ref><ref type="bibr" target="#b19">Darimont et al. 2008;</ref><ref type="bibr" target="#b42">Mech et al. 2012;</ref><ref type="bibr" target="#b57">Sidorovich et al. 2003;</ref><ref type="bibr" target="#b59">Stephenson et al. 2013)</ref>. Urine deposited on snow can also be detected and collected, and is known to be a valuable source of DNA <ref type="bibr" target="#b65">(Valière and Taberlet 2000;</ref><ref type="bibr" target="#b31">Hausknecht et al. 2006;</ref><ref type="bibr" target="#b36">Kelly et al. 2012</ref>), but its usefulness when deposited on other substrates has not been assessed. Saliva samples collected on wounds of prey have been increasingly used to investigate depredation, allowing the identification of predator species and sex <ref type="bibr" target="#b76">(Williams et al. 2003;</ref><ref type="bibr" target="#b9">Blejwas et al. 2006;</ref><ref type="bibr" target="#b60">Sundqvist et al. 2008;</ref><ref type="bibr" target="#b25">Frosch et al. 2011;</ref><ref type="bibr" target="#b14">Caniglia et al. 2013;</ref><ref type="bibr" target="#b44">Mumma et al. 2014;</ref><ref type="bibr" target="#b75">Wengert et al. 2014;</ref><ref type="bibr" target="#b29">Harms et al. 2015)</ref>.</p><p>In this study, we aimed to analyse the influence of a wide range of variables related to season, weather conditions and in situ collected site and sample characteristics on the success of species and individual molecular identification from wolf (Canis lupus) scat, urine and saliva samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample collection</head><p>We collected 713 putative wolf NIS (scats, urine and saliva) between August 2006 and March 2012 in two study areas in Portugal: <ref type="bibr" target="#b59">(1)</ref> north-western, encompassing the territory of five packs; and (2) central-northern, where six packs occur at south of the Douro river, representing 17% of the total number of packs in the country <ref type="bibr" target="#b52">(Pimenta et al. 2005)</ref>, and occupying a total area of 2358 km 2 . Both areas have similar environmental traits, including human-dominated landscapes (69 inhabitants/ km 2 ; INE 2011), altitudes between 180 and 1370 m, and a temperate Atlantic-Mediterranean climate. Climate is characterised by a marked seasonality, with hot summers and rainy winters (1200 mm of annual average precipitation; INE 2013) with little snow (less than 30 days/year of snow cover) and average annual temperature of 14 °C <ref type="bibr">(IPMA 2012)</ref>.</p><p>Scats were collected during fixed monthly and seasonal transects conducted on foot or by car (&lt;10 km/h) along unpaved roads across the study areas. Particular attention was given to usual wolf scent marking places such as paths and junctions <ref type="bibr" target="#b3">(Barja et al. 2005;</ref><ref type="bibr" target="#b68">Vilà et al. 1994)</ref>. Urine was collected on snow when associated with a wolf track and on vegetation when associated with scent marks (ground scratching) of a single wolf. Saliva samples were obtained from bite marks or consumption wounds from 12 predation events apparently caused by wolves in the 3 days preceding sampling or, for one sample, in the preceding week. A small quantity of substrate (i.e. snow, vegetation, hair, muscle, bone) was collected together with urine and saliva (Table <ref type="table" target="#tab_0">1</ref>).</p><p>Four types of variables were recorded in situ during the collection of each scat sample: (1) season, (2) weather conditions, (3) site characteristics and (4) sample characteristics (Table <ref type="table" target="#tab_0">1</ref>). Three categories were considered for the variable 'cover', which regards the quantity of vegetation cover directly above the scat: covered, when the sample was shielded from direct sunlight; partially covered, when only a part of the sample was exposed; and uncovered, when entirely exposed. Sample 'freshness' was evaluated by the combination of general appearance, presence or absence of moisture, presence or absence of mucous, and the period between consecutive samplings. Samples were considered as (1) fresh when intact, warm, completely moist, with fluid external mucous or detected in a place that had been sampled the previous day; (2) middle fresh when nearly intact, with moist only inside, with dry external mucous or less than 14 days between samplings; and (3) old when smashed, spread on the ground, dry, with no external mucous or at least 14 days between samplings. Scat odour was classified as present or absent to the human observer. To reduce the risk of pathogen transfer to collectors, samples were manipulated cautiously with gloves and with no direct contact with the skin when smelling. The rainfall associated to each scat was quantified by considering the total rainfall on the day of collection for fresh samples, the mean rainfall per day over the 8 days preceding sampling for middle fresh samples and the mean rainfall per day over the 30 days preceding sampling for old samples (Table <ref type="table" target="#tab_0">1</ref>).</p><p>Urine and saliva samples were collected with the substrate, and the same variables were recorded (when applicable), but among site characteristics only the type of substrate was taken into account (Table <ref type="table" target="#tab_0">1</ref>). All samples were collected with gloves and stored in DNA-free tubes. Scat and urine samples collected on snow were preserved in 96% ethanol, while urine samples collected on vegetation (n = 5) and saliva samples (n = 20) were preserved in silica gel.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Molecular procedures</head><p>DNA from scats was extracted following <ref type="bibr" target="#b24">Frantz et al. (2003)</ref> after the GuSCN⁄silica method <ref type="bibr" target="#b11">(Boom et al. 1990)</ref>. DNA from samples preserved in silica gel was extracted following this same methodology, but with an additional prewash in PBS solution to release the cells into the solution. DNA was extracted from urine and saliva samples preserved in 96% ethanol by using the commercial QIAamp DNA Micro Kit (QIAGEN) after an overnight prewash in lyses solution and following the manufacturer's instructions. To monitor for potential DNA contaminations, negative controls were included throughout the entire process. All pre-PCR procedures were performed in dedicated laboratories used exclusively for low-quality DNA samples.</p><p>We assessed species identification through the amplification of an approximately 425 bp sized fragment of the mtDNA control region I using primers ThrL-15926 and DLH-16340 <ref type="bibr" target="#b69">(Vilà et al. 1999)</ref>. Successful amplifications were sequenced for both strands following the BigDye chemistry (Applied Biosystems) and sequencing products were separated in an ABI3130xl DNA analyser. Sequences were aligned and compared using SeqScape 2.0 (Applied Biosystems). Samples with wolf mtDNA were genotyped for a set of 13 microsatellites selected among the most variable in Iberian wolves <ref type="bibr" target="#b26">(Godinho et al. 2011</ref><ref type="bibr" target="#b28">(Godinho et al. , 2015))</ref>. Fluorescence labelling was achieved following <ref type="bibr" target="#b7">Blacket et al. (2012;</ref><ref type="bibr"></ref> see Online Resource 1 for further details on markers and genotyping). Microsatellites were amplified in four multiplex reactions using the QIAGEN Multiplex PCR Kit and following the manufacturer's instructions. PCR products were separated by size on an ABI3130xl DNA analyser. Alleles were determined using GENEMAPPER 4.1 (Applied Biosystems) and checked manually.</p><p>The quality of noninvasive DNA was assessed by performing four PCR replicas for an initial set of four markers. Samples exhibiting successful amplification in this step were analysed further. After PCR amplification of all markers in a subset of 50 samples, we carried out a maximum likelihood evaluation of allelic dropout (ADO) and false alleles (FA) using PEDANT 1.0 <ref type="bibr" target="#b35">(Johnson and Haydon 2007)</ref>, and used simulations on <ref type="bibr">GEMINI 1.3 (Valière 2002)</ref> to evaluate the number of genotyping replicas needed to minimise errors. This number was set to four. The consensus genotype over the four replicas for all samples was achieved following rules defined in <ref type="bibr" target="#b28">Godinho et al. (2015)</ref>. Finally, we used <ref type="bibr">GIMLET 1.3.3 (Valière 2002)</ref> to compute the final error rates (ADO and FA) for each marker and across samples, to identify multiple samples from the same individual and to quantify the probability of individuals having identical genotypes (probability of identity, PID and PIDsibs). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>Species and individual identification success rates for each sample type and variable category (Table <ref type="table" target="#tab_0">1</ref>) were assessed as the proportion of samples successfully identified over the total number of samples analysed for each molecular procedure. The 95% confidence intervals (CI 95 ) for each success rate were obtained according to <ref type="bibr" target="#b77">Wilson (1927)</ref>. For species identification, this rate was based on the total number of samples submitted to DNA extraction, while for individual identification it was based on the number of samples successfully screened for mtDNA. Fisher's exact tests <ref type="bibr" target="#b23">(Fisher 1954)</ref> were performed to test whether success rate varied among the three sample types.</p><p>Samples with missing values in many (&gt;6) variables were excluded from analysis, and the remnant missing values were replaced using K-nearest neighbours imputation method <ref type="bibr" target="#b63">(Troyanskaya et al. 2001)</ref>, performed with the VIM package <ref type="bibr" target="#b62">(Templ et al. 2011)</ref> for R, which searches all the datasets to find the most similar samples. Due to a high quantity of missing values, 22 and 18 scat samples were excluded from GLM analysis of species and individual identification, respectively.</p><p>Success rates were transformed into logit variables and a logistic regression <ref type="bibr" target="#b16">(Crawley 2002)</ref> with backward stepwise elimination was used to model the contribution of each predictor variable on the success of species and individual identification of scat samples. The obtained models including an intercept-only model were ranked based on Akaike's information criterion corrected for small samples (AICc) and model weights (w i ) <ref type="bibr" target="#b12">(Burnham and Anderson 2002)</ref>. The McFadden pseudo-R 2 was obtained to measure the goodness of fit of each model, and the variables included in the top 95% confidence model sets (i.e. those adding up to a cumulative weight ≤ 0.95) were considered as predictors that have a higher influence in the success of molecular analysis.</p><p>GLM analysis was performed with the MuMIn package of the R software <ref type="bibr" target="#b5">(Bartoń 2009)</ref>. We confirmed the absence of correlation between predictor variables using a chi-square test and used Cramer's V index to quantify the strength of such correlation (V &lt; 0.7, p &lt; 0.05; <ref type="bibr" target="#b15">Cramer 1946;</ref><ref type="bibr" target="#b22">Dormann et al. 2013)</ref>. Correlations among predictor variables were all lower than 0.7. Further details of correlation results are listed in Online Resource 2.</p><p>The influence of the sample preservation method on the success of species identification in urine and saliva was tested through Fisher's exact test <ref type="bibr" target="#b23">(Fisher 1954)</ref>. Success rates for species and individual identification in different substrate types on urine and saliva samples were obtained. Statistical analyses were conducted in The R Language for Statistical Programming (R Core Team 2014) and RStudio software (RStudio Team 2015), and tests were considered to be statistically significant at p &lt;0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>We collected 713 putative wolf NIS-namely scats (N = 670), urine (N = 16) and saliva (N = 27). For species identification of scats, urine and saliva, we obtained success rates of 81.2% (CI 95 78.1-84.0%), 62.5% (CI 95 38.6-81.5%) and 48.1% (CI 95 30.7-66.0%), respectively. As expected, the success rate of species identification of scat samples was significantly higher than that observed for saliva samples (Fisher's exact test, p &lt; 0.001) (Fig. <ref type="figure">1</ref>). Scat samples were assigned to wolf (83.3%), dog (12.9%) and fox (3.9%). All urine samples and 85% of saliva samples were from wolf. For individual identification of scats, urine and saliva, we obtained success rates of 58.7% (CI 95 54.1-63.2%), 30.0% (CI 95 10.8-60.3%) and 36.4% (CI 95 15.2-64.6%), respectively, allowing the identification of 119 different wolves (Fig. <ref type="figure">1</ref>). Mean values achieved for ADO and FA across loci (11.2 and 0.7%, respectively) and across samples (10.8 and 0.7%) were lower or within the values reported for canid NIS <ref type="bibr" target="#b60">(Sundqvist et al. 2008;</ref><ref type="bibr" target="#b10">Bohling and Waits 2011;</ref><ref type="bibr" target="#b13">Caniglia et al. 2012</ref><ref type="bibr" target="#b14">Caniglia et al. , 2013;;</ref><ref type="bibr" target="#b28">Godinho et al. 2015)</ref>, supporting the efficiency of the selected loci. The achieved probability of identity and probability of identity between siblings (PID = 1.27 × 10 -11 and PIDsib = 3.22 × 10 -05 ) ensured that it was very unlikely to have different individuals with identical genotypes within the dataset <ref type="bibr" target="#b72">(Waits et al. 2001)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Influence of field variables on molecular analysis: scat samples</head><p>The best GLM model for species identification of scats (n = 648) included the predictors of season, mucous, moisture and odour, and it exhibited a pseudo-R 2 of 0.03 (Table <ref type="table" target="#tab_1">2</ref>). The percentage of variation explained by these predictors was 1.5, 0.3, 0.3 and 0.6%, respectively, although only season and mucous had a significant contribution to the model (Table <ref type="table" target="#tab_2">3</ref>). The top 95% confidence model sets also included the predictors of freshness, consistence and cover (Table <ref type="table" target="#tab_1">2</ref>).</p><p>The best model for individual identification of scats (n = 435) showed a significant contribution of the predictor Fig. <ref type="figure">1</ref> Success rate (%) for species and individual identification obtained by sample type (N, total number of analysed samples). Bars refer to confidence intervals of 95% (*differences with p &lt; 0.05) of odour with an estimate of 0.464 for samples with odour (p = 0.03) and it exhibited a pseudo-R 2 of 0.008 (Table <ref type="table" target="#tab_1">2</ref> and Table <ref type="table" target="#tab_2">3</ref>). The top 95% confidence model sets also included the predictors of season, mucous and consistency (Table <ref type="table" target="#tab_1">2</ref>).</p><p>Samples with the following characteristics had higher success rate for species identification than other categories of each variable: mucous present (83.1%, CI 95 78.5-86.9%), dry scats (83.2%, CI 95 78.9-86.8%), with odour (82.5%, CI 95 78.7-85.9%) and collected during summer (88.8%, CI 95 82.6-93.0%) (Fig. <ref type="figure">2</ref>). Further details of the success rates of variables that had lesser influence on the GLM analysis are listed in Online Resource 3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Influence of field variables on molecular analysis: urine and saliva samples</head><p>Preservation method did not influence the success of species identification analysis on urine and saliva samples (p &gt; 0.05). We obtained a higher success rate for species identification on urine samples collected on snow than for those collected on vegetation (Fig. <ref type="figure">3a</ref>). The opposite pattern was observed for individual identification, with a higher success rate for samples collected on vegetation than on snow (Fig. <ref type="figure">3a</ref>).</p><p>Saliva samples collected on hair had a higher species identification success rate than on other substrates (Fig. <ref type="figure">3b</ref>). The success rate of individual identification was 33.3% on hair while none of the samples on muscle and on bone were suitable to be analysed (Fig. <ref type="figure">3b</ref>). Additionally, 3 out of 14 saliva samples collected on hair exhibited contaminations from several wolf individuals (i.e. three or more alleles at a locus for several loci).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The growing importance of NIS in wildlife research triggers the need to understand environmental and intrinsic sample features that influence the success of their use for genetic analysis. In this work, we show that selecting samples based on specific criteria related to the state of the samples during field work, as well as variables possibly related to environmental conditions, enhances species and individual molecular identifications for the NIS most commonly used in wildlife monitoring. The results of our study can serve as a basis for providing useful guidelines for both the organisation of monitoring campaigns to collect NIS, as well as for the posterior selection of the samples to be genetically analysed, thus optimising time budgets and minimising expenses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Success determinants for scat samples</head><p>Scat samples exhibited a general success rate for species and individual identification within the values reported for other canid systems using NIS <ref type="bibr" target="#b40">(Lucchini et al. 2002;</ref><ref type="bibr" target="#b67">Valière et al. 2003;</ref><ref type="bibr" target="#b10">Bohling and Waits 2011)</ref>.</p><p>The GLM analysis indicates that few sample characteristics considered in this study had some influence on the success of species identification. The presence of mucous had a significant influence, and moisture and odour had a lower influence. Instead, we did not detect any influence of the variables related to weather conditions and site characteristics on molecular analyses. The significant positive GLM coefficient estimate obtained for samples with mucous in the success of species identification analysis was expected since it is likely that mucous has a high quantity of epithelial cells increasing the availability of DNA on the outer layer of the scat. Although non-significant, the negative GLM coefficient estimate obtained for moist samples in the success of species identification analysis (Table <ref type="table" target="#tab_1">2</ref>) may be indicative of a higher DNA quality on dry samples <ref type="bibr" target="#b40">(Lucchini et al. 2002)</ref>, and that the presence of moisture may slow or stop the process of deactivation of nucleases via the dehydration obtained through ethanol sample preservation <ref type="bibr" target="#b6">(Beja-Pereira et al. 2009)</ref>.</p><p>Interestingly, we observed that samples collected during summer performed better for species identification than those collected in winter, which contrasts with the results obtained by <ref type="bibr" target="#b40">Lucchini et al. (2002)</ref> and <ref type="bibr" target="#b39">Lonsinger et al. (2014)</ref>. These seemingly opposite results could probably be explained by differences in winter climatic conditions between study areas. In fact, while cold and dry winters such as those reported in previous papers favour DNA preservation <ref type="bibr" target="#b40">(Lucchini et al. 2002;</ref><ref type="bibr" target="#b39">Lonsinger et al. 2014)</ref>, rainy and mild winters, characteristic of our study areas in Portugal, do not. Yet, a lack of association between season and DNA quality was previously observed for snowy winters in Italy <ref type="bibr" target="#b54">(Scandura et al. 2006)</ref>, supporting the need of further evaluations of this variable in regions with different climatic conditions.</p><p>In addition to season, mucous, moisture and odour, the estimates obtained for the predictors included in the top 95% confidence model sets indicate that fresher, non-diarrheic and covered samples may influence the performance on species identification analyses, though the results obtained here are inconclusive to that respect. Although sample freshness would be expected to influence species identification success rate according to previous studies on NIS of wolf <ref type="bibr" target="#b40">(Lucchini et al. 2002;</ref><ref type="bibr">Santini et al. 2007</ref>) and other carnivores <ref type="bibr" target="#b51">(Piggott 2004;</ref><ref type="bibr" target="#b45">Murphy et al. 2007;</ref><ref type="bibr" target="#b49">Panasci et al. 2011)</ref>, we were unable to detect a significant influence of this variable. Diarrheic samples have a higher quantity of water compared with non-diarrheic ones, and less covered samples could be more exposed to environmental conditions (e.g. direct sunlight), which can accelerate the process of DNA degradation until sample collection and preservation, though no significant influence was detected in our study. We suggest that future studies should further assess the influence of these variables.</p><p>Odour was the only variable significantly influencing the success rate of individual identification. This result might be, however, biased by the quality of samples reaching this step in the analysis, which included only those which had been successfully processed for specific identification. Thus, variables significantly affecting species identification should also be considered when selecting samples for individual identification. This is the first report of odour presence positively influencing genotyping success rate in wolves, although this factor was known to be relevant for NIS quality in other carnivores like bears and foxes <ref type="bibr" target="#b51">(Piggott 2004;</ref><ref type="bibr" target="#b73">Wasser et al. 2004</ref>). The estimates obtained for the predictors included in the top 95% confidence model sets (results not presented) suggest a higher success rate on individual identification analyses of non-diarrheic samples, of samples with mucous and collected during summer. However, we could not identify a statistically significant influence of these variables, and their effect on molecular analysis should be further explored.</p><p>The low percentages of total variation explained by the best GLM models (3.0 and 0.8%) suggest that among the variables investigated here, those selected have a weak effect and that other important factors affecting the success of species and individual identification of scats were not considered. Furthermore, the low variability explained can also be related to other variables extrinsic to the sample, as uncontrolled changes in laboratory procedures, low quantity of alcohol for scat preservation or even the time between sample collection in the field and their molecular analysis in the laboratory. Thus, we suggest that future studies should consider other weather conditions, site and sample characteristics, such as scat composition, diet, time between sample collection and molecular analysis, or sample conservation method.</p><p>We suggest that in study areas with rainy and mild winters, species identification analysis should rather use scat samples collected during summer, with mucous, and preferably, with odour and being dry; when the aim is species and further individual identification, scat samples should have odour. The selection of samples that fulfil these criteria can increase the success of species and individual identification up to 13%. Indeed, when scat samples with the best variables-with mucous and odour, dry and collected during summer-are selected to be submitted to species identification analysis, the success rate increased from 81.2% (success rate without a preliminary selection, i.e. when all samples are analysed) to 94.4%. When only samples with odour are selected among those with successful species identification, the success rate of individual identification increased from 58.7 to 67.1%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Success determinants for urine and saliva samples</head><p>Urine samples had a lower amplification success rate than scat samples, as it has been described before (e.g. <ref type="bibr" target="#b32">Hedmark et al. 2004</ref>). To the best of our knowledge, we present for the first time and evaluate an alternative source of urine samples from wolves, consisting of urine collected on vegetation near ground-scratching marks. This innovative and valuable source of DNA is especially relevant in areas with limited snow cover, such as in the southern areas of wolf range <ref type="bibr" target="#b8">(Blanco and Cortés 2012;</ref><ref type="bibr" target="#b37">Llaneza et al. 2014)</ref>, or eventually in northern regions where snowfall is progressively becoming scarcer due to climate change effects <ref type="bibr">(IPCC 2007;</ref><ref type="bibr">EEA 2008)</ref>. Although scratching marks are not frequently observed in our study area, the frequency of urination is known to be higher than that of defecation <ref type="bibr" target="#b78">(Zub et al. 2003;</ref><ref type="bibr" target="#b31">Hausknecht et al. 2006)</ref>. Experienced observers or use of detection dogs to find urine on vegetation should provide an opportunity to increase the sample size independently of snow occurrence. Our results suggest that snow seems to be preferable for species identification compared to vegetation, though the low number of samples analysed precludes us from extracting definitive conclusions. Some reasons for this result may include (1) a faster degradation of urine on vegetation, (2) lower amount of sample collected on vegetation because leaves are only sprayed with urine and (3) possible presence of PCR inhibitors in plant material, such as polyphenols <ref type="bibr" target="#b55">(Schrader et al. 2012)</ref>.</p><p>Saliva is described as a source of high-quality DNA <ref type="bibr" target="#b0">(Abraham et al. 2012;</ref><ref type="bibr" target="#b38">Lobo et al. 2015)</ref>, but when used in forensic scenarios, such as in our study, it raises the same concerns, or even additional ones, as scats and urine. In forensic cases, saliva is generally present in very low quantities, mixed up with different prey tissues and degraded due to environmental exposure. Indeed, saliva samples exhibited the lowest success rate for species identification, lower than those reported in most studies (55%, <ref type="bibr" target="#b14">Caniglia et al. 2013;</ref><ref type="bibr">54%, Mumma et al. 2014;</ref><ref type="bibr">39%, Wengert et al. 2013</ref>). However, our results show that it is possible to perform successful species identification of saliva collected on several types of substrates, including muscle, bone, skin or hairs of prey. Further studies should be performed to evaluate the success of species and individual identification on urine and saliva samples on different substrates.</p><p>An issue associated with wildlife urine and saliva sampling is cross-contamination by several individuals, as observed in our work. This is difficult to avoid in a social species like the wolf, in which several pack members can mark with urine in the same place <ref type="bibr" target="#b50">(Peters and Mech 1975;</ref><ref type="bibr">Asa et al. 1985;</ref><ref type="bibr" target="#b2">Asa et al. 1990</ref>) and participate in the attack and consumption of a single prey. Collecting several separated samples from various leaves, when sampling urine on vegetation, and from different bite marks and consumption wounds, when sampling saliva, may increase the probability of obtaining non-contaminated DNA from several individuals. Furthermore, collecting saliva samples directly near evident bite wounds could reduce the possibility of cross-contamination. However, further studies with larger sample sizes should be conducted to better evaluate the usefulness and reliability of these procedures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Improving study design by selecting the best samples</head><p>Our results provide guidelines and suggestions for studies using scat, urine and saliva samples as noninvasive wolf DNA sources. Future molecular studies across the wide wolf range with climatic conditions similar to our study areas will benefit from taking into consideration the set of variables identified as significant determinants of genotyping success. Selecting samples with the mentioned characteristics will avail to achieve higher success rates in species and individual identification. Although shedding light on new procedures for collecting NIS, the information obtained from the analysis of urine and saliva samples needs to be supported by additional data.</p><p>Our results contribute to the optimisation of different kinds of noninvasive sampling and prompt their use in wildlife monitoring and molecular ecology studies, especially in environmental conditions similar to Southern Europe. We argue that it is possible to optimise costs by reducing the sampling effortdecreasing the number of collected samples, effort, fuel and labour costs spent in prospecting-as well as the laboratorial analysis-decreasing the number of unsuccessful and repeated analysis and consequently the time, material and labour costs.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2 Fig. 3</head><label>23</label><figDesc>Fig. 2 Success rate for species (dark grey) and individual (light grey) identification obtained by scat samples showing the variables with higher contribution: a moisture, b mucous, c season and d odour. Bars refer to confidence intervals of 95%</figDesc><graphic coords="6,178.02,54.88,366.41,207.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Variable types and categories recorded for noninvasive samples (scats, urine and saliva)</figDesc><table><row><cell>Sample type</cell><cell cols="2">Variable type Variables</cell><cell>Categories</cell></row><row><cell>Scat (N = 670)</cell><cell>S</cell><cell>Season</cell><cell>Spring/summer/autumn/winter</cell></row><row><cell></cell><cell>W</cell><cell cols="2">Mean rainfall per day (mm) a 0/0.01-1.00/1.01-3.00/3.00-10.00/&gt;10.00</cell></row><row><cell></cell><cell>SI</cell><cell>Cover</cell><cell>Covered/partially covered/uncovered</cell></row><row><cell></cell><cell></cell><cell>Substrate</cell><cell>Snow/paved/soil/rock/vegetation</cell></row><row><cell></cell><cell>SA</cell><cell>Freshness</cell><cell>Fresh/middle fresh/old</cell></row><row><cell></cell><cell></cell><cell>Consistency</cell><cell>Solid/diarrheic</cell></row><row><cell></cell><cell></cell><cell>Mucous</cell><cell>Present/absent</cell></row><row><cell></cell><cell></cell><cell>Moisture</cell><cell>Moist/dry</cell></row><row><cell></cell><cell></cell><cell>Odour</cell><cell>Present/absent</cell></row><row><cell>Urine (N = 16)</cell><cell>SI</cell><cell>Substrate</cell><cell>Vegetation/snow</cell></row><row><cell cols="2">Saliva (N = 27) SI</cell><cell>Substrate</cell><cell>Skin and hair/hair/muscle/bone</cell></row><row><cell cols="4">Variable types are referred to as S (season), W (weather conditions), SI (site characteristics) and SA (sample</cell></row><row><cell>characteristics)</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">a Mean rainfall per day information obtained from APA-Agência Portuguesa do Ambiente 2015.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Models of scat variables for species and individual identification ranked by ΔAICc LogLik log likelihood, AICc Akaike's information criterion corrected for small samples, ΔAICc variation in AICc in relation to the highest ranked model, w i model weight, Cum.w cumulative weight. Model variables: Ssn season, Subst substratum, Fresh freshness, Cons consistency, Muc mucous, Cov cover, Moist moisture, Od odour, Rain mean rainfall per day</figDesc><table><row><cell>Models for Species Identification</cell><cell>k</cell><cell>LogLik</cell><cell>AICc</cell><cell>ΔAICc</cell><cell cols="2">wi Cum.w</cell><cell>Rank</cell></row><row><cell>Ssn, Moist, Od, Muc</cell><cell>5</cell><cell cols="2">-308,61 631,40</cell><cell>0,00</cell><cell>0,55</cell><cell>0.37</cell><cell>1</cell></row><row><cell>Ssn, Moist, Fresh, Od, Muc</cell><cell>6</cell><cell cols="2">-307,25 632,80</cell><cell>1,39</cell><cell>0,27</cell><cell>0.70</cell><cell>2</cell></row><row><cell>Ssn, Moist, Fresh, Od, Cons, Muc</cell><cell>7</cell><cell cols="2">-307,12 634,60</cell><cell>3,18</cell><cell>0,11</cell><cell>0.88</cell><cell>3</cell></row><row><cell>Ssn, Moist, Fresh, Od, Cons, Muc, Cov</cell><cell>8</cell><cell cols="2">-306,20 636,90</cell><cell>5,48</cell><cell>0,04</cell><cell>0.96</cell><cell>4</cell></row><row><cell>Intercept-only</cell><cell>1</cell><cell cols="2">-317,78 637,60</cell><cell>6,17</cell><cell>0,03</cell><cell>1.00</cell><cell>6</cell></row><row><cell>Ssn, Moist, Fresh, Subst, Od, Cons, Muc, Cov</cell><cell>9</cell><cell cols="2">-303,55 640,00</cell><cell>8,55</cell><cell>0,01</cell><cell>1.00</cell><cell>7</cell></row><row><cell>Full model</cell><cell>10</cell><cell cols="2">-302,69 646,70</cell><cell>15,32</cell><cell>0,00</cell><cell>1.00</cell><cell>8</cell></row><row><cell>Models for Individual Identification</cell><cell>k</cell><cell>LogLik</cell><cell>AICc</cell><cell>ΔAICc</cell><cell>wi</cell><cell></cell><cell>Rank</cell></row><row><cell>Od</cell><cell>2</cell><cell cols="2">-292,71 589,45</cell><cell>0,00</cell><cell>0,38</cell><cell>0,38</cell><cell>1</cell></row><row><cell>Od, Cons</cell><cell>3</cell><cell cols="2">-291,86 589,77</cell><cell>0,32</cell><cell>0,32</cell><cell>0,69</cell><cell>2</cell></row><row><cell>Od, Cons, Muc</cell><cell>4</cell><cell cols="2">-291,78 591,66</cell><cell>2,21</cell><cell>0,12</cell><cell>0,82</cell><cell>3</cell></row><row><cell>Intercept-only</cell><cell>1</cell><cell cols="2">-295,02 592,05</cell><cell>2,60</cell><cell>0,10</cell><cell>0,92</cell><cell>4</cell></row><row><cell>Ssn, Od, Cons, Muc</cell><cell>5</cell><cell cols="2">-289,52 593,31</cell><cell>3,86</cell><cell>0,05</cell><cell>0,97</cell><cell>5</cell></row><row><cell>Ssn, Moist, Od, Cons, Muc</cell><cell>6</cell><cell cols="2">-289,50 595,33</cell><cell>5,88</cell><cell>0,02</cell><cell>0,99</cell><cell>6</cell></row><row><cell>Ssn, Moist, Fresh, Od, Cons, Muc</cell><cell>7</cell><cell cols="2">-288,85 598,22</cell><cell>8,77</cell><cell>0,01</cell><cell>1,00</cell><cell>7</cell></row><row><cell>Ssn, Moist, Fresh, Od, Cons, Muc, Cov</cell><cell>8</cell><cell cols="2">-288,34 601,42</cell><cell>11,97</cell><cell>0,00</cell><cell>1,00</cell><cell>8</cell></row><row><cell>Ssn, Moist, Fresh, Subst, Od, Cons, Muc, Cov</cell><cell>9</cell><cell cols="2">-286,64 606,57</cell><cell>17,12</cell><cell>0,00</cell><cell>1,00</cell><cell>9</cell></row><row><cell>Full model</cell><cell>10</cell><cell cols="2">-285,68 613,39</cell><cell>23,94</cell><cell>0,00</cell><cell>1,00</cell><cell>10</cell></row><row><cell>Dashed line is the limit of models included in the top 95% confidence</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>k number of model parameters,</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Parameter estimates obtained by the best statistical model (lowest AICc), showing variables contributing to species and individual identification success on scat samples</figDesc><table><row><cell>Variable</cell><cell>df</cell><cell>SS</cell><cell>F</cell><cell>pvalue</cell><cell>η 2</cell><cell>Term</cell><cell>Estimate</cell><cell>SE</cell><cell>z value</cell><cell>p value</cell></row><row><cell cols="6">Species identification N = 648-model parameters (lowest AICc)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(Intercept)</cell><cell>1.240</cell><cell>0.263</cell><cell>4.718</cell><cell>2.38 × 10 -6 *</cell></row><row><cell>Season</cell><cell>3</cell><cell>1.52</cell><cell>3.315</cell><cell>0.020*</cell><cell>0.0151</cell><cell>Summer</cell><cell>0.534</cell><cell>0.356</cell><cell>1.497</cell><cell>0.134</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Autumn</cell><cell>-0.040</cell><cell>0.295</cell><cell>-0.135</cell><cell>0.893</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Winter</cell><cell>-0.357</cell><cell>0.269</cell><cell>-1.330</cell><cell>0.183</cell></row><row><cell>Odour</cell><cell>1</cell><cell>0.31</cell><cell>1.999</cell><cell>0.158</cell><cell>0.0031</cell><cell>Odour</cell><cell>0.364</cell><cell>0.218</cell><cell>1.669</cell><cell>0.952</cell></row><row><cell>Moisture</cell><cell>1</cell><cell>0.28</cell><cell>1.859</cell><cell>0.173</cell><cell>0.0028</cell><cell>Moist</cell><cell>-0.380</cell><cell>0.222</cell><cell>-1.717</cell><cell>0.086</cell></row><row><cell>Mucous</cell><cell>1</cell><cell>0.59</cell><cell>3.865</cell><cell>0.050</cell><cell>0.0058</cell><cell>Mucous present</cell><cell>0.438</cell><cell>0.215</cell><cell>2.036</cell><cell>0.042*</cell></row><row><cell cols="6">Individual identification N = 435-model parameters (lowest AICc)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(Intercept)</cell><cell>0.017</cell><cell>0.182</cell><cell>0.091</cell><cell>0.928</cell></row><row><cell>Odour</cell><cell>1</cell><cell>1.13</cell><cell>4.684</cell><cell>0.031*</cell><cell>0.0107</cell><cell>Odour</cell><cell>0.464</cell><cell>0.216</cell><cell>2.150</cell><cell>0.032*</cell></row></table><note><p>df degrees of freedom, SS sum of squares, F F value, η 2 eta-square, Term variable category, SE standard error *p &lt; 0.05</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Eur J Wildl Res (2017) 63: 53   </p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements We thank all field assistants, particularly <rs type="person">AS Pedro</rs>, <rs type="person">D Cadete</rs>, <rs type="person">J Pereira</rs>, <rs type="person">J Santos</rs>, <rs type="person">S Pinto</rs> and <rs type="person">V Ramiro</rs>. We thank <rs type="institution">CONGEN</rs> members (<rs type="affiliation">CIBIO/InBIO</rs>), <rs type="person">JV López-Bao</rs>, <rs type="person">S Czarnomska</rs>, <rs type="person">N Santos</rs> and <rs type="person">B Rodrigues</rs> for revising earlier versions of the manuscript. We also thank all anonymous reviewers for constructive comments on previous versions of the manuscript. This is contribution no. 16 from the <rs type="funder">Iberian Wolf Research Team (IWRT)</rs>.</p></div>
+<div><head>Compliance with ethical standards</head><p>Funding R.G. and S.R. worked respectively under a Research contract (<rs type="grantNumber">IF/564/2012</rs>) and a <rs type="grantName">PhD grant</rs> (<rs type="grantNumber">SFRH/BD/12291/2003</rs>) from <rs type="funder">Fundação para a Ciência e a Tecnologia</rs>. This work was supported by <rs type="funder">ACHLI (Associação de Conservação do Habitat do Lobo Ibérico</rs>), <rs type="funder">VentoMinho Energias Renováveis S</rs>.A and Project '<rs type="projectName">Genomics applied to genetic resources</rs>' cofinanced by <rs type="programName">North Portugal Regional Operational Programme 2007</rs><rs type="grantNumber">/2013</rs> (<rs type="grantNumber">ON.2-O Novo</rs> <rs type="funder">Norte</rs>), under the <rs type="funder">National Strategic Reference Framework (NSRF)</rs>, through the <rs type="funder">European Regional Development Fund (ERDF)</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_xtj6FyT">
+					<idno type="grant-number">IF/564/2012</idno>
+					<orgName type="grant-name">PhD grant</orgName>
+				</org>
+				<org type="funding" xml:id="_kXjhWes">
+					<idno type="grant-number">SFRH/BD/12291/2003</idno>
+				</org>
+				<org type="funded-project" xml:id="_tGpsbzm">
+					<idno type="grant-number">/2013</idno>
+					<orgName type="project" subtype="full">Genomics applied to genetic resources</orgName>
+					<orgName type="program" subtype="full">North Portugal Regional Operational Programme 2007</orgName>
+				</org>
+				<org type="funding" xml:id="_WmsPaQ3">
+					<idno type="grant-number">ON.2-O Novo</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>The authors declare that they have no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Saliva samples are a viable alternative to blood samples as a source of DNA for high throughput genotyping</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Abraham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Maranian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Spiteri</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1755-8794-5-19</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Genet</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Sistema Nacional de Informação de Recursos Hídricos Asa CS, Mech LD, Seal US (1985) The use of urine, faeces, and analgland secretions in scent-marking by a captive wolf (Canis lupus) pack</title>
+	</analytic>
+	<monogr>
+		<title level="j">Anim Behav</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1034" to="1036" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>APA-Agência Portuguesa do Ambiente</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The influence of social and endocrine factors on urine-marking by captive wolves (Canis lupus)</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Asa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Mech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename><surname>Seal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Plotka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Horm Behav</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="497" to="509" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Faecal marking behaviour of Iberian wolf in different zones of their territory</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Barja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>De Miguel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Barcena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Folia Zool</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="21" to="29" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Relationships between sex and stress hormone levels in feces and marking behavior in a wild population of Iberian wolves (Canis lupus signatus)</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Barja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Silván</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Illera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Chem Ecol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="697" to="701" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">MuMIn: multi-model inference</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bartoń</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">R package version</title>
+		<imprint>
+			<biblScope unit="volume">0</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2" to="18" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Advancing ecological understandings through technological transformations in noninvasive genetics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beja-Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1755-0998.2009.02699.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1279" to="1301" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Universal primers for fluorescent labelling of PCR fragments-an efficient and cost-effective approach to genotyping by fluorescence</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Blacket</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Robin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Good</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1755-0998.2011.03104.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="456" to="463" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Surveying wolves without snow: a critical review of the methods used in Spain</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cortés</surname></persName>
+		</author>
+		<idno type="DOI">10.4404/hystrix-23.1-4670</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hystrix</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="35" to="48" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Salivary DNA evidence convicts breeding male coyotes of killing sheep</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Blejwas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Shin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Wildl Manag</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1087" to="1093" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Assessing the prevalence of hybridization between sympatric Canis species surrounding the red wolf (Canis rufus) recovery area in North Carolina</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Bohling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2011.05084.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="2142" to="2156" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Rapid and simple method for purification of nucleic acids</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Boom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Sol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Salimans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="495" to="503" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Model selection and multimodel inference: a practical information-theoretical approach</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Springer</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd edn</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">An improved procedure to estimate wolf abundance using non-invasive genetic sampling and capture-recapture mixture models</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Caniglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fabbri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cubaynes</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-011-0266-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="53" to="64" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Who is who? Identification of livestock predators using forensic genetic approaches</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Caniglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fabbri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mastrogiuseppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randi</forename><forename type="middle">E</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.fsigen.2012.11.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Forensic Sci Int Genet</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="397" to="404" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cramer</surname></persName>
+		</author>
+		<title level="m">Mathematical methods of statistics</title>
+		<meeting><address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1946">1946</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Statistical computing-an introduction to data analysis using S-plus</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Crawley</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Wiley</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Snowmobile activity and glucocorticoid stress responses in wolves and elk</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Creel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hardy</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1523-1739.2002.00554.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Biol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="809" to="814" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Concordant mitochondrial and microsatellite DNA structuring between polish lowland and Carpathian Mountain wolves</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Czarnomska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jędrzejewska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Borowik</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-013-0446-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Faecalcentric approaches to wildlife ecology and conservation; methods, data and ethics</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Darimont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Reimchen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Bryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Paquet</surname></persName>
+		</author>
+		<idno type="DOI">10.2461/wbp.2008.4.7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Biol Pract</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="73" to="87" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">On the origin of faeces: morphological versus molecular methods for surveying rare carnivores from their scats</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Davison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jds</forename><surname>Birks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Brookes</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0952836902000730</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Zool</title>
+		<imprint>
+			<biblScope unit="volume">257</biblScope>
+			<biblScope unit="page" from="141" to="143" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The power of genetic monitoring for studying demography, ecology and genetics of a reintroduced brown bear population</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Barba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Garton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">O</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2010.04791.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="3938" to="3951" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Collinearity: a review of methods to deal with it and a simulation study evaluating their performance</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Dormann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Elith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bacher</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1600-0587.2012.07348.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecography (Cop)</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="27" to="46" />
+			<date type="published" when="2008">2013. 2008</date>
+			<pubPlace>Copenhagen, Denmark</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Impacts of Europe&apos;s changing Climate-2008 indicatorbased assessment Report No 4/2008</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Statistical methods for research workers</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Fisher</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1954">1954</date>
+			<publisher>Oliver and Boyd</publisher>
+			<pubPlace>Edinburgh</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Reliable microsatellite genotyping of the Eurasian badger (Meles meles) using faecal DNA</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Frantz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Carpenter</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-294X.2003.01848.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1649" to="1661" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Case report of a fatal bear attack documented by forensic wildlife genetics</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Frosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dutsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Georgiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nowak</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.fsigen.2011.01.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Forensic Sci Int Genet</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="342" to="344" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Genetic evidence for multiple events of hybridization between wolves and domestic dogs in the Iberian peninsula</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Godinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Llaneza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Blanco</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-294X.2011.05345.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="5154" to="5166" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Conservation genetics of the endangered Dorcas gazelle (Gazella dorcas spp.) in northwestern Africa</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Godinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Abáigar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lopes</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-012-0348-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1003" to="1015" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Real-time assessment of hybridization between wolves and dogs: combining noninvasive samples with ancestry informative markers</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Godinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>López-Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Castro</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1755-0998.12313</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="317" to="328" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Experimental evaluation of genetic predator identification from saliva traces on wildlife kills</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Harms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nowak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Carl</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jmammal/gyu014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Mammal</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="138" to="143" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Argali abundance in the Afghan Pamir using capture-recapture modeling from fecal DNA</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Winnie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Amish</surname></persName>
+		</author>
+		<idno type="DOI">10.2193/2009-292</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wildl Manag</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="668" to="677" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Urine-a source for noninvasive genetic monitoring in wildlife</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hausknecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pirga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kuehn</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1471-8286.2006.01622.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="208" to="212" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">DNA-based individual and sex identification from wolverine (Gulo gulo) faeces and urine</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hedmark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ø</forename><surname>Flagstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Segerstro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="405" to="410" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m">Climate change 2007: the physical science basis. Contribution of Working Group I to the fourth assessment report of the Intergovernmental Panel on Climate Change</title>
+		<imprint>
+			<publisher>Cambridge IPMA</publisher>
+			<date type="published" when="2007">2007. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<ptr target="http://www.ipma.pt/pt/oclima/normais.clima/" />
+	</analytic>
+	<monogr>
+		<title level="m">Normais climatológicas 1981-2010</title>
+		<title level="s">Instituto Português do Mar e da Atmosfera</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Maximum-likelihood estimation of allelic dropout and false allele error rates from microsatellite genotypes in the absence of reference data</title>
+		<author>
+			<persName><forename type="first">Pcd</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Haydon</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.106.064618</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="827" to="842" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Noninvasive sampling for carnivores</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Betsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wultsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Carniv. Ecol. Conserv. A Handb</title>
+		<editor>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Powell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Tech. Oxford University Press</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="47" to="69" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Intensity of territorial marking predicts wolf reproduction: implications for wolf monitoring</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Llaneza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">López-Bao</forename><surname>Jv</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0093015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">93015</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A new method for noninvasive genetic sampling of saliva in ecological research</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lobo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Godinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Álvares</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0139765</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">139765</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Balancing sample accumulation and DNA degradation rates to optimize noninvasive genetic sampling of sympatric carnivores</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Lonsinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Dempsey</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1755-0998.12356</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="831" to="842" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Noninvasive molecular tracking of colonizing wolf (Canis lupus) packs in the western Italian alps</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lucchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fabbri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marucco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="857" to="868" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Wolf survival and population trend using non-invasive capture-recapture techniques in the western alps</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marucco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Pletscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boitani</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2664.2009.01696.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Ecol</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1003" to="1010" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Use of real-time PCR to detect canine parvovirus in feces of free-ranging wolves</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Mech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Almberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.7589/0090-3558-48.2.473</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wildl Dis</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="473" to="476" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Factors affecting the (in)accuracy of mammalian mesocarnivore scat identification in South-western Europe</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Monterroso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Silva</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jzo.12000</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Zool</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page" from="243" to="250" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Enhanced understanding of predator-prey relationships using molecular methods to identify predator species, individual and sex</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mumma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Soulliere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Mahoney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1755-0998.12153</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Resour</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="100" to="108" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The impact of time and field conditions on brown bear (Ursus arctos) faecal DNA amplification</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-006-9264-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1219" to="1224" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Efficient species identification of pine marten (Martes martes) and red fox (Vulpes vulpes) scats using a 5′ nuclease real-time PCR assay</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Statham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mullins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="735" to="738" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Detection of predator presence at elk mortality sites using mtDNA analysis of hair and scat samples</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Onorato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Soc Bull</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="815" to="820" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Faecal genetic analysis to determine the presence and distribution of elusive carnivores: design and feasibility for the Iberian lynx</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Palomares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Godoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Piriz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="2171" to="2182" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Evaluation of fecal DNA preservation techniques and effects of sample age and diet on genotyping success</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Panasci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Breck</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jwmg.221</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wildl Manag</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1616" to="1624" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Scent-marking in wolves</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Mech</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Sci</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="628" to="637" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Effect of sample age and season of collection on the reliability of microsatellite genotyping of faecal DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggott</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/WR03096</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="485" to="493" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Situação do lobo em Portugal: resultados do censo nacional 2002/2003</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pimenta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Barroso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Álvares</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">R: A language and environment for statistical computing</title>
+		<meeting><address><addrLine>Lisboa R Core Team</addrLine></address></meeting>
+		<imprint>
+			<publisher>Instituto da Conservação da Natureza/Grupo Lobo</publisher>
+			<date type="published" when="2005">2005. 2014</date>
+			<biblScope unit="page" from="1" to="3479" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Ageing and environmental factors affect PCR success in wolf (Canis lupus) excremental DNA samples</title>
+		<author>
+			<persName><forename type="first">Rstudio</forename><surname>Team</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><surname>Lucchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fabbri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randi</forename><forename type="middle">E</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1471-8286.2007.01829.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="955" to="961" />
+			<date type="published" when="2007">2015. 2007</date>
+		</imprint>
+	</monogr>
+	<note>RStudio: integrated development for R Santini A</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">An empirical approach for reliable microsatellite genotyping of wolf DNA from multiple noninvasive sources</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scandura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Capitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Iacolina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marco</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-005-9106-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="813" to="823" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">PCR inhibitorsoccurrence, properties and removal</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schrader</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schielke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ellerbroek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Johne</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2672.2012.05384.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="1014" to="1026" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Detecting genotyping errors and describing American black bear movement in northern Idaho</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Cushman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Mckelvey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="138" to="148" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Wolf Canis lupus numbers, diet and damage to livestock in relation to hunting and ungulate abundance in northeastern Belarus during 1990-2000</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Sidorovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Tikhomirova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jędrzejewska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="103" to="111" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Estimating gray wolf pack size and family relationships using noninvasive genetic sampling at rendezvous sites</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Stenglein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Ausband</surname></persName>
+		</author>
+		<idno type="DOI">10.1644/10-MAMM-A-200.1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Mammal</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="784" to="795" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Development and validation of a fecal PCR assay for Notoedres cati and application to notoedric mange cases in bobcats (Lynx rufus) in northern California, USA</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stephenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Clifford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Worth</surname></persName>
+		</author>
+		<idno type="DOI">10.7589/2012-05-136</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wildl Dis</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="303" to="311" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Wolf or dog? Genetic identification of predators from saliva collected around bite wounds on prey</title>
+		<author>
+			<persName><forename type="first">A-K</forename><surname>Sundqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ellegren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vilà</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10592-007-9454-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv Genet</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1275" to="1279" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Nonnvasive genetic sampling look before you leap</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="323" to="327" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">VIM: visualization and imputation of missing values; R package version 2</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Templ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alfons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kowarik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Prantner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Missing value estimation methods for DNA microarrays</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Troyanskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sherlock</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/17.6.520</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="520" to="525" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">GIMLET: a computer program for analysing genetic individual identification data</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valière</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1471-8278</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="377" to="379" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Urine collected in the field as a source of DNA for species and individual identification</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2149" to="2154" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">GEMINI: software for testing the effects of genotyping errors and multitubes approach for individual identification</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Berthier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mouchiroud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pontier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol Notes</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="83" to="86" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Long-distance wolf recolonization of France and Switzerland inferred from non-invasive genetic sampling over a period of 10 years</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fumagalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gielly</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S1367943003003111</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anim Conserv</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="83" to="92" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Use of faeces for scent marking in Iberian wolves (Canis lupus)</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vilà</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Urios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Castroviejo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Zool</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="374" to="377" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Mitochondrial DNA phylogeography and population history of the grey wolf Canis lupus</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vilà</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Amorim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Leonard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2089" to="2103" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Factors influencing degradation of DNA and hormones in maned wolf scat</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vynne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">K</forename><surname>Breuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Wasser</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1469-1795.2011.00503.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anim Conserv</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="184" to="194" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling tools for wildlife biologists: a review of application and recommendations for accurate data collection</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+		<idno type="DOI">10.2193/0022-541X(2005)69</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wildl Manag</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005. 2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Estimating the probability of identity among genotypes in natural populations: cautions and guidelines</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Ecol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="249" to="256" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Scat detection dogs in wildlife research and management: application to grizzly and black bears in the Yellowhead ecosystem, Alberta, Canada</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Wasser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Davenport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Ramage</surname></persName>
+		</author>
+		<idno type="DOI">10.1139/Z04-020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Zool</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="475" to="492" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Molecular techniques for identifying intraguild predators of fishers and other North American small carnivores</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Wengert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Gabriel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Foley</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/wsb.287</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl Soc Bull</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="659" to="663" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Using DNA to describe and quantify interspecific killing of fishers in California</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Wengert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Gabriel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Matthews</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jwmg.698</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Wildl Manag</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="603" to="611" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">A coyote in sheep&apos;s clothing: predator identification from saliva</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Blejwas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Jaeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Carniv Res Manag</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="926" to="932" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Probable inference, the law of succession, and statistical inference</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/2276774</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Stat Assoc</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="209" to="212" />
+			<date type="published" when="1927">1927</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Wolf pack territory marking in the Bialowieza primeval Forest (Poland)</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Theuerkauf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jędrzejewski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behaviour</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="635" to="648" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

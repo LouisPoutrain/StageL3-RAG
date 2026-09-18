@@ -1,0 +1,315 @@
+Traitement du fichier : RAG/output/American J Primatol - 2013 - Barelli - Extra‐pair paternity confirmed in wild white‐handed gibbons.json
+Traitement du lot 1/2 (documents 1-10)
+Lot 1 indexé avec succès: 10 documents
+Traitement du lot 2/2 (documents 11-14)
+Lot 2 indexé avec succès: 4 documents
+14/14 documents indexés depuis RAG/output/American J Primatol - 2013 - Barelli - Extra‐pair paternity confirmed in wild white‐handed gibbons.json
+
+--- Méthode avec Refine ---
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T02:54:23.531154Z', 'message': {'role': 'assistant', 'content': "For non-invasive genetic sampling, we collected faecal samples from white-handed gibbons (Hylobates lar) in Khao Yai National Park, Thailand. We searched for fresh faeces along trails and near sleeping trees during monthly visits over a period of one year. A total of 145 samples were collected using sterile gloves and plastic bags. To minimize disturbance, we approached sites cautiously, wearing neutral clothing to blend in with the environment. Samples were stored at -20°C within four hours of collection until DNA extraction. This method allowed us to obtain genetic material without direct contact or stressing the animals, aligning with Taberlet's definition of non-invasive sampling."}, 'done': True, 'done_reason': 'stop', 'total_duration': 24286960208, 'load_duration': 79177250, 'prompt_eval_count': 478, 'prompt_eval_duration': 2995950000, 'eval_count': 138, 'eval_duration': 8438517708}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T02:54:47.690403Z', 'message': {'role': 'assistant', 'content': "Extraction of genetic material from wild animals requires careful consideration of sampling methods to minimize disturbance and potential harm. In our study on white-handed gibbons (Hylobates lar), we employed non-invasive fecal sampling as it is considered a low-impact method according to Taberlet's definition of invasiveness. Fresh fecal samples were collected manually using sterile gloves under the permission of local authorities, ensuring that no contact with the animal was made during the process. The samples were then stored in RNAlater™ solution to preserve genomic DNA integrity. Fecal sampling occurred once a month at each study site for six months, allowing us to collect sufficient genetic material while minimizing disturbance to the animals and their habitats. Ethical considerations included obtaining necessary permits, maintaining a safe distance from the gibbons during observations, and ensuring that no harm was caused to the animals or their environment."}, 'done': True, 'done_reason': 'stop', 'total_duration': 24146837333, 'load_duration': 48510208, 'prompt_eval_count': 478, 'prompt_eval_duration': 2969648209, 'eval_count': 174, 'eval_duration': 10597254710}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T02:55:04.005699Z', 'message': {'role': 'assistant', 'content': 'In this study, non-invasive fecal sampling was employed to collect DNA from wild white-handed gibbons (Hylobates lar). Fecal samples were collected along established trails and sleeping sites using sterile gloves and plastic bags. Samples were collected every other day over a period of five consecutive days to minimize the risk of collecting multiple samples from the same individual while ensuring sufficient genetic material for analysis. To minimize disturbance, sampling was conducted during the early morning hours when gibbons were less active. All necessary permits were obtained, and the study protocol was approved by relevant authorities to ensure adherence to ethical guidelines and minimize potential harm to the animals.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 16310235958, 'load_duration': 50977541, 'prompt_eval_count': 478, 'prompt_eval_duration': 2969112333, 'eval_count': 127, 'eval_duration': 7671809540}
+
+=== Documents hypothétiques générés ===
+
+Document hypothétique 1:
+--------------------------------------------------
+For non-invasive genetic sampling, we collected faecal samples from white-handed gibbons (Hylobates lar) in Khao Yai National Park, Thailand. We searched for fresh faeces along trails and near sleeping trees during monthly visits over a period of one year. A total of 145 samples were collected using sterile gloves and plastic bags. To minimize disturbance, we approached sites cautiously, wearing neutral clothing to blend in with the environment. Samples were stored at -20°C within four hours of collection until DNA extraction. This method allowed us to obtain genetic material without direct contact or stressing the animals, aligning with Taberlet's definition of non-invasive sampling.
+--------------------------------------------------
+
+Document hypothétique 2:
+--------------------------------------------------
+Extraction of genetic material from wild animals requires careful consideration of sampling methods to minimize disturbance and potential harm. In our study on white-handed gibbons (Hylobates lar), we employed non-invasive fecal sampling as it is considered a low-impact method according to Taberlet's definition of invasiveness. Fresh fecal samples were collected manually using sterile gloves under the permission of local authorities, ensuring that no contact with the animal was made during the process. The samples were then stored in RNAlater™ solution to preserve genomic DNA integrity. Fecal sampling occurred once a month at each study site for six months, allowing us to collect sufficient genetic material while minimizing disturbance to the animals and their habitats. Ethical considerations included obtaining necessary permits, maintaining a safe distance from the gibbons during observations, and ensuring that no harm was caused to the animals or their environment.
+--------------------------------------------------
+
+Document hypothétique 3:
+--------------------------------------------------
+In this study, non-invasive fecal sampling was employed to collect DNA from wild white-handed gibbons (Hylobates lar). Fecal samples were collected along established trails and sleeping sites using sterile gloves and plastic bags. Samples were collected every other day over a period of five consecutive days to minimize the risk of collecting multiple samples from the same individual while ensuring sufficient genetic material for analysis. To minimize disturbance, sampling was conducted during the early morning hours when gibbons were less active. All necessary permits were obtained, and the study protocol was approved by relevant authorities to ensure adherence to ethical guidelines and minimize potential harm to the animals.
+--------------------------------------------------
+
+=== Fin des documents hypothétiques ===
+
+
+=== Statistiques des scores de similarité ===
+Score minimum initial: 0.7139
+Score maximum initial: 0.8805
+Score moyen initial: 0.7802
+
+=== Statistiques après filtrage dynamique ===
+Seuil dynamique appliqué: 0.7805
+Score minimum conservé: 0.7697
+Score maximum conservé: 0.8805
+Score moyen conservé: 0.8213
+Nombre de documents conservés: 5
+Documents récupérés : 5
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T02:55:36.335912Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "We collected about 10 g of feces from target animals using disposable gloves directly after an individual had defecated.",\n    "Between 1996 and 2005, UR, CB and colleagues collected 656 feces preserved in 70% ethanol [Kohn et al., 1995] or RNAlater (Ambion) [Nsubuga et al., 2004], or dried in silica gel beads [Wasser et al., 1997].",\n    "In addition, between 2010 and 2011, K.M. collected 320 feces using the two-step storage method [Matsudaira et al., 2013;Nsubuga et al., 2004]."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 31910901750, 'load_duration': 58776417, 'prompt_eval_count': 811, 'prompt_eval_duration': 4981087750, 'eval_count': 191, 'eval_duration': 11805187749}
+Chunk : A total of 89 gibbons, for which social histories were available [Reichard & Barelli, 2008;Reichard et al., 2012], were examined in this study, which at one point in time belonged to either of 14 habituated groups (A, B, C, D, E, H, J, M, N, R, S, T, W, and NOS) or to one of three neighboring groups (G, ER, and  (1996-2005 and 2010-2011), Khao Yai National Park, Thailand
+( ), three surrounding groups which were not habituated to human presence; [ ], individuals for which mtDNA analysis was available but no STR was possible. a
+Male not belonging to any other group. NER), and one adult male was considered solitary (Table I). We collected about 10 g of feces from target animals using disposable gloves directly after an individual had defecated. Between 1996 and 2005, UR, CB and colleagues collected 656 feces preserved in 70% ethanol [Kohn et al., 1995] or RNAlater (Ambion) [Nsubuga et al., 2004], or dried in silica gel beads [Wasser et al., 1997]. These feces were kept frozen at the Max-Planck Institute for Evolutionary Anthropology, Germany, until they were generously provided to us to complement this study sample. Feces stored in ethanol were desiccated by silica gel beads prior to DNA extraction. In addition, between 2010 and 2011, K.M. collected 320 feces using the two-step storage method [Matsudaira et al., 2013;Nsubuga et al., 2004]. All fecal samples were stored at ambient temperature on site and at 4°C in the laboratories.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "We collected about 10 g of feces from target animals using disposable gloves directly after an individual had defecated.",
+    "Between 1996 and 2005, UR, CB and colleagues collected 656 feces preserved in 70% ethanol [Kohn et al., 1995] or RNAlater (Ambion) [Nsubuga et al., 2004], or dried in silica gel beads [Wasser et al., 1997].",
+    "In addition, between 2010 and 2011, K.M. collected 320 feces using the two-step storage method [Matsudaira et al., 2013;Nsubuga et al., 2004]."
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T02:56:17.442741Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "For 69.5% of samples (N = 57), STR genotypes were confirmed from two or more independent feces.",\n    "However, we included them into the analyses because the genotypes clearly showed the presence of both individuals in the respective groups."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 41098821292, 'load_duration': 49113000, 'prompt_eval_count': 794, 'prompt_eval_duration': 4978706542, 'eval_count': 75, 'eval_duration': 4656121212}
+Chunk : We determined STR genotypes for 82 individuals out of 89 sampled individuals. For 69.5% of samples (N ¼ 57), STR genotypes were confirmed from two or more independent feces. In addition, among the 89 individuals genotyped through mtDNA, we found 11 haplotypes [Matsudaira et al., 2013]. Since two of the 82 individuals (from which STR genotypes were determined) were collected during an early stage of group habituation, their identities were ambiguous. However, we included them into the analyses because the genotypes clearly showed the presence of both individuals in the respective groups. The number of alleles per locus varied between 5 and 14. Observed heterozygosities ranged from 0.585 to 0.878 and expected heterozygosities ranged from 0.584 to 0.893. Two loci showed significant deviation from HWE after Bonferroni correction (D3S1768: P ¼ 0.003 and D11S2002G: P ¼ 0.004, Table III). However, since we did not detect any allelic mismatches between 41 mother-offspring relationships for all 12 loci, including the two which deviated from HWE, and estimated null allele frequencies of the two loci were low (0.044 and 0.040, respectively, Table III), we considered such deficiencies deriving from sampling of a kin structured population. The expected probability of identity estimated over 12 loci was 6.8 Â 10 À13 suggesting that the chance that two randomly taken individuals from this population have the same genotype at multiple loci is unlikely. Although the presence of close relatives among subjects might potentially lead to underestimating the probability of identifying individuals, we did not detect a single pair of individuals with the exact same genotype.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "For 69.5% of samples (N = 57), STR genotypes were confirmed from two or more independent feces.",
+    "However, we included them into the analyses because the genotypes clearly showed the presence of both individuals in the respective groups."
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T02:56:49.484158Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": false\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 32032563625, 'load_duration': 49171041, 'prompt_eval_count': 463, 'prompt_eval_duration': 2779218042, 'eval_count': 12, 'eval_duration': 661148290}
+Chunk : We conducted the study without direct contact or interaction with the gibbons and under permission of the National Research Council of Thailand (NRCT) and the Department of National Parks, Wildlife and Plant Conservation (DNP) of Thailand. Our data collection procedure adhered to the American Society of Primatologists principles for the ethical treatment of primates, and complied with the laws governing wildlife research in Thailand.
+Réponse du modèle : {
+"contient_protocole": false
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T02:57:41.79392Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": false\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 52303606084, 'load_duration': 47800709, 'prompt_eval_count': 635, 'prompt_eval_duration': 4771777583, 'eval_count': 12, 'eval_duration': 885938832}
+Chunk : The study was carried out on the wild Mo Singto-Klong E-Tau white-handed gibbon population (H. lar) close to the headquarter of Khao Yai National Park (2,168 km 2 ; 14°26'N, 101°22'E; $150 km NE of Bangkok). The park consists of a sandstone plateau and is covered by seasonal evergreen rain forest ranging in elevation between 600 and 1,000 m above sea level [Lynam et al., 2006]. The study site covers approximately 8.5 km 2 of hilly terrain with continuous forest cover. All individuals included in this study are subjects of ongoing socioecology and behavioral studies since the early 1990s [e.g., Barelli et al., 2007Barelli et al., , 2008Barelli et al., , 2011;;Reichard, 2003;Reichard et al., 2012]. Accurate birth and demographic records of the population are available, which allowed us to run paternity tests.
+Réponse du modèle : {
+"contient_protocole": false
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T02:58:15.041062Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "DNA was extracted using a QIAamp® DNA Stool Mini Kit (Qiagen, Germany).",\n    "For desiccated feces, a specimen (approximately 100-150 mg) was scraped from the surface of feces and suspended in 1.6 ml Buffer ASL (Qiagen).",\n    "For feces collected in RNAlater, 2 ml of the mixture was centrifuged for 15 min at 3,000g and the supernatant was removed.",\n    "The specimen was centrifuged a second time for 15 min at 500g and the supernatant was also removed.",\n    "The feces were resuspended in 1.6 ml Buffer ASL.",\n    "The specimens in Buffer ASL were vortexed and incubated overnight at room temperature prior to DNA extraction steps.",\n    "In addition, at the final step of extraction, DNA was incubated with 200 ml Buffer AE (Qiagen) for 20 min before centrifugation."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 33235592333, 'load_duration': 58361833, 'prompt_eval_count': 604, 'prompt_eval_duration': 3807997416, 'eval_count': 227, 'eval_duration': 13713336379}
+Chunk : DNA was extracted using a QIAamp® DNA Stool Mini Kit (Qiagen, Germany). In order to maximize the amount of DNA extracted, we followed the modified protocols proposed by Nsubuga et al. [2004]. For desiccated feces, a specimen (approximately 100-150 mg) was scraped from the surface of feces and suspended in 1.6 ml Buffer ASL (Qiagen). For feces collected in RNAlater, 2 ml of the mixture was centrifuged for 15 min at 3,000g and the supernatant was removed. The specimen was centrifuged a second time for 15 min at 500g and the supernatant was also removed. The feces were resuspended in 1.6 ml Buffer ASL. The specimens in Buffer ASL were vortexed and incubated overnight at room temperature prior to DNA extraction steps. In addition, at the final step of extraction, DNA was incubated with 200 ml Buffer AE (Qiagen) for 20 min before centrifugation.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "DNA was extracted using a QIAamp® DNA Stool Mini Kit (Qiagen, Germany).",
+    "For desiccated feces, a specimen (approximately 100-150 mg) was scraped from the surface of feces and suspended in 1.6 ml Buffer ASL (Qiagen).",
+    "For feces collected in RNAlater, 2 ml of the mixture was centrifuged for 15 min at 3,000g and the supernatant was removed.",
+    "The specimen was centrifuged a second time for 15 min at 500g and the supernatant was also removed.",
+    "The feces were resuspended in 1.6 ml Buffer ASL.",
+    "The specimens in Buffer ASL were vortexed and incubated overnight at room temperature prior to DNA extraction steps.",
+    "In addition, at the final step of extraction, DNA was incubated with 200 ml Buffer AE (Qiagen) for 20 min before centrifugation."
+]
+}
+Protocoles détectés : 5
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T02:59:12.057113Z', 'message': {'role': 'assistant', 'content': '[\n    {\n        "contient_protocole": true,\n        "extrait_pertinent": [\n            "We collected about 10 g of feces from target animals using disposable gloves directly after an individual had defecated.",\n            "Between 1996 and 2005, UR, CB and colleagues collected 656 feces preserved in 70% ethanol [Kohn et al., 1995] or RNAlater (Ambion) [Nsubuga et al., 2004], or dried in silica gel beads [Wasser et al., 1997].",\n            "In addition, between 2010 and 2011, K.M. collected 320 feces using the two-step storage method [Matsudaira et al., 2013;Nsubuga et al., 2004]."\n        ]\n    },\n    {\n        "contient_protocole": true,\n        "extrait_pertinent": [\n            "For 69.5% of samples (N = 57), STR genotypes were confirmed from two or more independent feces.",\n            "However, we included them into the analyses because the genotypes clearly showed the presence of both individuals in the respective groups."\n        ]\n    },\n    {\n        "contient_protocole": true,\n        "extrait_pertinent": [\n            "DNA was extracted using a QIAamp® DNA Stool Mini Kit (Qiagen, Germany).",\n            "For desiccated feces, a specimen (approximately 100-150 mg) was scraped from the surface of feces and suspended in 1.6 ml Buffer ASL (Qiagen).",\n            "For feces collected in RNAlater, 2 ml of the mixture was centrifuged for 15 min at 3,000g and the supernatant was removed.",\n            "The specimen was centrifuged a second time for 15 min at 500g and the supernatant was also removed.",\n            "The feces were resuspended in 1.6 ml Buffer ASL.",\n            "The specimens in Buffer ASL were vortexed and incubated overnight at room temperature prior to DNA extraction steps.",\n            "In addition, at the final step of extraction, DNA was incubated with 200 ml Buffer AE (Qiagen) for 20 min before centrifugation."\n        ]\n    }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 57005955459, 'load_duration': 46360375, 'prompt_eval_count': 986, 'prompt_eval_duration': 6184119459, 'eval_count': 508, 'eval_duration': 31021430125}
+Protocoles fusionnés : [
+    {
+        "contient_protocole": true,
+        "extrait_pertinent": [
+            "We collected about 10 g of feces from target animals using disposable gloves directly after an individual had defecated.",
+            "Between 1996 and 2005, UR, CB and colleagues collected 656 feces preserved in 70% ethanol [Kohn et al., 1995] or RNAlater (Ambion) [Nsubuga et al., 2004], or dried in silica gel beads [Wasser et al., 1997].",
+            "In addition, between 2010 and 2011, K.M. collected 320 feces using the two-step storage method [Matsudaira et al., 2013;Nsubuga et al., 2004]."
+        ]
+    },
+    {
+        "contient_protocole": true,
+        "extrait_pertinent": [
+            "For 69.5% of samples (N = 57), STR genotypes were confirmed from two or more independent feces.",
+            "However, we included them into the analyses because the genotypes clearly showed the presence of both individuals in the respective groups."
+        ]
+    },
+    {
+        "contient_protocole": true,
+        "extrait_pertinent": [
+            "DNA was extracted using a QIAamp® DNA Stool Mini Kit (Qiagen, Germany).",
+            "For desiccated feces, a specimen (approximately 100-150 mg) was scraped from the surface of feces and suspended in 1.6 ml Buffer ASL (Qiagen).",
+            "For feces collected in RNAlater, 2 ml of the mixture was centrifuged for 15 min at 3,000g and the supernatant was removed.",
+            "The specimen was centrifuged a second time for 15 min at 500g and the supernatant was also removed.",
+            "The feces were resuspended in 1.6 ml Buffer ASL.",
+            "The specimens in Buffer ASL were vortexed and incubated overnight at room temperature prior to DNA extraction steps.",
+            "In addition, at the final step of extraction, DNA was incubated with 200 ml Buffer AE (Qiagen) for 20 min before centrifugation."
+        ]
+    }
+]
+Nombre de protocoles après fusion : 3
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T03:00:07.39704Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["We collected about 10 g of feces from target animals using disposable gloves directly after an individual had defecated.", "Between 1996 and 2005, UR, CB and colleagues collected 656 feces preserved in 70% ethanol [Kohn et al., 1995] or RNAlater (Ambion) [Nsubuga et al., 2004], or dried in silica gel beads [Wasser et al., 1997].", "In addition, between 2010 and 2011, K.M. collected 320 feces using the two-step storage method [Matsudaira et al., 2013;Nsubuga et al., 2004]."],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces",\n"mots_cles_invasivite": ["collected", "directly"],\n"mots_cles_non_invasivite": [],\n"evaluation_invasivite": "Invasif",\n"justification_invasivite": "Le protocole implique la collecte de fèces directement après que l\'animal ait déféqué, ce qui nécessite un contact direct avec l\'animal vivant et une manipulation de ses fèces. Cela remplit donc le critère d\'invasivité.",\n"signaux_alarme": ["collected", "directly"],\n"impacts_potentiels": ["Stress potentiellement causé à l\'animal"],\n"peches_identifies": [],\n"informations_manquantes": ["Il n\'y a pas d\'information sur la fréquence ou l\'exhaustivité de l\'échantillonnage."],\n"taux_de_confiance": "100% - La méthodologie est explicitement détaillée et les termes utilisés sont clairs."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 55331747000, 'load_duration': 45472708, 'prompt_eval_count': 2192, 'prompt_eval_duration': 14073316793, 'eval_count': 408, 'eval_duration': 25485617364}
+Analyse du protocole avec les extraits : We collected about 10 g of feces from target animals using disposable gloves directly after an individual had defecated.
+Between 1996 and 2005, UR, CB and colleagues collected 656 feces preserved in 70% ethanol [Kohn et al., 1995] or RNAlater (Ambion) [Nsubuga et al., 2004], or dried in silica gel beads [Wasser et al., 1997].
+In addition, between 2010 and 2011, K.M. collected 320 feces using the two-step storage method [Matsudaira et al., 2013;Nsubuga et al., 2004].
+Réponse du modèle : {
+"extrait_pertinent": ["We collected about 10 g of feces from target animals using disposable gloves directly after an individual had defecated.", "Between 1996 and 2005, UR, CB and colleagues collected 656 feces preserved in 70% ethanol [Kohn et al., 1995] or RNAlater (Ambion) [Nsubuga et al., 2004], or dried in silica gel beads [Wasser et al., 1997].", "In addition, between 2010 and 2011, K.M. collected 320 feces using the two-step storage method [Matsudaira et al., 2013;Nsubuga et al., 2004]."],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces",
+"mots_cles_invasivite": ["collected", "directly"],
+"mots_cles_non_invasivite": [],
+"evaluation_invasivite": "Invasif",
+"justification_invasivite": "Le protocole implique la collecte de fèces directement après que l'animal ait déféqué, ce qui nécessite un contact direct avec l'animal vivant et une manipulation de ses fèces. Cela remplit donc le critère d'invasivité.",
+"signaux_alarme": ["collected", "directly"],
+"impacts_potentiels": ["Stress potentiellement causé à l'animal"],
+"peches_identifies": [],
+"informations_manquantes": ["Il n'y a pas d'information sur la fréquence ou l'exhaustivité de l'échantillonnage."],
+"taux_de_confiance": "100% - La méthodologie est explicitement détaillée et les termes utilisés sont clairs."
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T03:00:51.142524Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["For 69.5% of samples (N = 57), STR genotypes were confirmed from two or more independent feces."],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces",\n"mots_cles_invasivite": [],\n"mots_cles_non_invasivite": ["independent"],\n"evaluation_invasivite": "Non invasif",\n"justification_invasivite": "Le protocole mentionne l\'utilisation de fèces indépendantes, ce qui indique que les échantillons ont été prélevés naturellement et sans manipulation ou capture des animaux. Il n\'y a pas de signes d\'une collecte systématique ou exhaustive.",\n"signaux_alarme": [],\n"impacts_potentiels": [],\n"peches_identifies": ["2"],\n"informations_manquantes": [],\n"taux_de_confiance": "100% - L\'extrait est explicite et ne laisse pas de place à l\'interprétation."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 43736444917, 'load_duration': 48530667, 'prompt_eval_count': 2080, 'prompt_eval_duration': 13195469709, 'eval_count': 226, 'eval_duration': 14093523960}
+Analyse du protocole avec les extraits : For 69.5% of samples (N = 57), STR genotypes were confirmed from two or more independent feces.
+However, we included them into the analyses because the genotypes clearly showed the presence of both individuals in the respective groups.
+Réponse du modèle : {
+"extrait_pertinent": ["For 69.5% of samples (N = 57), STR genotypes were confirmed from two or more independent feces."],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces",
+"mots_cles_invasivite": [],
+"mots_cles_non_invasivite": ["independent"],
+"evaluation_invasivite": "Non invasif",
+"justification_invasivite": "Le protocole mentionne l'utilisation de fèces indépendantes, ce qui indique que les échantillons ont été prélevés naturellement et sans manipulation ou capture des animaux. Il n'y a pas de signes d'une collecte systématique ou exhaustive.",
+"signaux_alarme": [],
+"impacts_potentiels": [],
+"peches_identifies": ["2"],
+"informations_manquantes": [],
+"taux_de_confiance": "100% - L'extrait est explicite et ne laisse pas de place à l'interprétation."
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T03:01:34.105857Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["DNA was extracted using a QIAamp® DNA Stool Mini Kit (Qiagen, Germany)."],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces",\n"mots_cles_invasivite": [],\n"mots_cles_non_invasivite": ["desiccated", "opportuniste"],\n"evaluation_invasivite": "Non invasif",\n"justification_invasivite": "Le protocole décrit l\'utilisation de fèces desséchées prélevées à la surface, ce qui est considéré comme non invasif selon les règles spécifiques aux mammifères. Il n\'y a pas de mention de capture ou de manipulation des animaux.",\n"signaux_alarme": [],\n"impacts_potentiels": [],\n"peches_identifies": ["1"],\n"informations_manquantes": [],\n"taux_de_confiance": "95% - La méthodologie est explicitement détaillée et ne présente pas d\'informations manquantes critiques."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 42956048167, 'load_duration': 48129208, 'prompt_eval_count': 2220, 'prompt_eval_duration': 14037685666, 'eval_count': 226, 'eval_duration': 14147039755}
+Analyse du protocole avec les extraits : DNA was extracted using a QIAamp® DNA Stool Mini Kit (Qiagen, Germany).
+For desiccated feces, a specimen (approximately 100-150 mg) was scraped from the surface of feces and suspended in 1.6 ml Buffer ASL (Qiagen).
+For feces collected in RNAlater, 2 ml of the mixture was centrifuged for 15 min at 3,000g and the supernatant was removed.
+The specimen was centrifuged a second time for 15 min at 500g and the supernatant was also removed.
+The feces were resuspended in 1.6 ml Buffer ASL.
+The specimens in Buffer ASL were vortexed and incubated overnight at room temperature prior to DNA extraction steps.
+In addition, at the final step of extraction, DNA was incubated with 200 ml Buffer AE (Qiagen) for 20 min before centrifugation.
+Réponse du modèle : {
+"extrait_pertinent": ["DNA was extracted using a QIAamp® DNA Stool Mini Kit (Qiagen, Germany)."],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces",
+"mots_cles_invasivite": [],
+"mots_cles_non_invasivite": ["desiccated", "opportuniste"],
+"evaluation_invasivite": "Non invasif",
+"justification_invasivite": "Le protocole décrit l'utilisation de fèces desséchées prélevées à la surface, ce qui est considéré comme non invasif selon les règles spécifiques aux mammifères. Il n'y a pas de mention de capture ou de manipulation des animaux.",
+"signaux_alarme": [],
+"impacts_potentiels": [],
+"peches_identifies": ["1"],
+"informations_manquantes": [],
+"taux_de_confiance": "95% - La méthodologie est explicitement détaillée et ne présente pas d'informations manquantes critiques."
+}
+Analyses générées : 3
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T03:03:06.905418Z', 'message': {'role': 'assistant', 'content': '[\n    {\n        "protocole": "Collecte et extraction d\'ADN à partir de fèces",\n        "extrait_pertinent": ["We collected about 10 g of feces from target animals using disposable gloves directly after an individual had defecated.", "Between 1996 and 2005, UR, CB and colleagues collected 656 feces preserved in 70% ethanol [Kohn et al., 1995] or RNAlater (Ambion) [Nsubuga et al., 2004], or dried in silica gel beads [Wasser et al., 1997].", "In addition, between 2010 and 2011, K.M. collected 320 feces using the two-step storage method [Matsudaira et al., 2013;Nsubuga et al., 2004]."],\n        "taxon_identifie": "Mammifère",\n        "echantillon": "Fèces",\n        "mots_cles_invasivite": ["collected", "directly"],\n        "mots_cles_non_invasivite": [],\n        "evaluation_invasivite": "Invasif",\n        "justification_invasivite": "Le protocole implique la collecte de fèces directement après que l\'animal ait déféqué, ce qui nécessite un contact direct avec l\'animal vivant et une manipulation de ses fèces. Cela remplit donc le critère d\'invasivité.",\n        "signaux_alarme": ["collected", "directly"],\n        "impacts_potentiels": ["Stress potentiellement causé à l\'animal"],\n        "peches_identifies": [],\n        "informations_manquantes": ["Il n\'y a pas d\'information sur la fréquence ou l\'exhaustivité de l\'échantillonnage."],\n        "taux_de_confiance": "100% - La méthodologie est explicitement détaillée et les termes utilisés sont clairs."\n    },\n    {\n        "protocole": "Confirmation de génotypes STR à partir de fèces",\n        "extrait_pertinent": ["For 69.5% of samples (N = 57), STR genotypes were confirmed from two or more independent feces."],\n        "taxon_identifie": "Mammifère",\n        "echantillon": "Fèces",\n        "mots_cles_invasivite": [],\n        "mots_cles_non_invasivite": ["independent"],\n        "evaluation_invasivite": "Non invasif",\n        "justification_invasivite": "Le protocole mentionne l\'utilisation de fèces indépendantes, ce qui indique que les échantillons ont été prélevés naturellement et sans manipulation ou capture des animaux. Il n\'y a pas de signes d\'une collecte systématique ou exhaustive.",\n        "signaux_alarme": [],\n        "impacts_potentiels": [],\n        "peches_identifies": ["2"],\n        "informations_manquantes": [],\n        "taux_de_confiance": "100% - L\'extrait est explicite et ne laisse pas de place à l\'interprétation."\n    },\n    {\n        "protocole": "Extraction d\'ADN à partir de fèces desséchées",\n        "extrait_pertinent": ["DNA was extracted using a QIAamp® DNA Stool Mini Kit (Qiagen, Germany)."],\n        "taxon_identifie": "Mammifère",\n        "echantillon": "Fèces",\n        "mots_cles_invasivite": [],\n        "mots_cles_non_invasivite": ["desiccated", "opportuniste"],\n        "evaluation_invasivite": "Non invasif",\n        "justification_invasivite": "Le protocole décrit l\'utilisation de fèces desséchées prélevées à la surface, ce qui est considéré comme non invasif selon les règles spécifiques aux mammifères. Il n\'y a pas de mention de capture ou de manipulation des animaux.",\n        "signaux_alarme": [],\n        "impacts_potentiels": [],\n        "peches_identifies": ["1"],\n        "informations_manquantes": [],\n        "taux_de_confiance": "95% - La méthodologie est explicitement détaillée et ne présente pas d\'informations manquantes critiques."\n    }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 92795211208, 'load_duration': 48074666, 'prompt_eval_count': 1888, 'prompt_eval_duration': 11922636124, 'eval_count': 963, 'eval_duration': 60225371330}
+Réponse finale : [
+    {
+        "protocole": "Collecte et extraction d'ADN à partir de fèces",
+        "extrait_pertinent": ["We collected about 10 g of feces from target animals using disposable gloves directly after an individual had defecated.", "Between 1996 and 2005, UR, CB and colleagues collected 656 feces preserved in 70% ethanol [Kohn et al., 1995] or RNAlater (Ambion) [Nsubuga et al., 2004], or dried in silica gel beads [Wasser et al., 1997].", "In addition, between 2010 and 2011, K.M. collected 320 feces using the two-step storage method [Matsudaira et al., 2013;Nsubuga et al., 2004]."],
+        "taxon_identifie": "Mammifère",
+        "echantillon": "Fèces",
+        "mots_cles_invasivite": ["collected", "directly"],
+        "mots_cles_non_invasivite": [],
+        "evaluation_invasivite": "Invasif",
+        "justification_invasivite": "Le protocole implique la collecte de fèces directement après que l'animal ait déféqué, ce qui nécessite un contact direct avec l'animal vivant et une manipulation de ses fèces. Cela remplit donc le critère d'invasivité.",
+        "signaux_alarme": ["collected", "directly"],
+        "impacts_potentiels": ["Stress potentiellement causé à l'animal"],
+        "peches_identifies": [],
+        "informations_manquantes": ["Il n'y a pas d'information sur la fréquence ou l'exhaustivité de l'échantillonnage."],
+        "taux_de_confiance": "100% - La méthodologie est explicitement détaillée et les termes utilisés sont clairs."
+    },
+    {
+        "protocole": "Confirmation de génotypes STR à partir de fèces",
+        "extrait_pertinent": ["For 69.5% of samples (N = 57), STR genotypes were confirmed from two or more independent feces."],
+        "taxon_identifie": "Mammifère",
+        "echantillon": "Fèces",
+        "mots_cles_invasivite": [],
+        "mots_cles_non_invasivite": ["independent"],
+        "evaluation_invasivite": "Non invasif",
+        "justification_invasivite": "Le protocole mentionne l'utilisation de fèces indépendantes, ce qui indique que les échantillons ont été prélevés naturellement et sans manipulation ou capture des animaux. Il n'y a pas de signes d'une collecte systématique ou exhaustive.",
+        "signaux_alarme": [],
+        "impacts_potentiels": [],
+        "peches_identifies": ["2"],
+        "informations_manquantes": [],
+        "taux_de_confiance": "100% - L'extrait est explicite et ne laisse pas de place à l'interprétation."
+    },
+    {
+        "protocole": "Extraction d'ADN à partir de fèces desséchées",
+        "extrait_pertinent": ["DNA was extracted using a QIAamp® DNA Stool Mini Kit (Qiagen, Germany)."],
+        "taxon_identifie": "Mammifère",
+        "echantillon": "Fèces",
+        "mots_cles_invasivite": [],
+        "mots_cles_non_invasivite": ["desiccated", "opportuniste"],
+        "evaluation_invasivite": "Non invasif",
+        "justification_invasivite": "Le protocole décrit l'utilisation de fèces desséchées prélevées à la surface, ce qui est considéré comme non invasif selon les règles spécifiques aux mammifères. Il n'y a pas de mention de capture ou de manipulation des animaux.",
+        "signaux_alarme": [],
+        "impacts_potentiels": [],
+        "peches_identifies": ["1"],
+        "informations_manquantes": [],
+        "taux_de_confiance": "95% - La méthodologie est explicitement détaillée et ne présente pas d'informations manquantes critiques."
+    }
+]
+
+--- Méthode avec Refine et detect_non_invasive_level ---
+Traitement du lot 1/2 (documents 1-10)
+Lot 1 indexé avec succès: 10 documents
+Traitement du lot 2/2 (documents 11-19)
+Lot 2 indexé avec succès: 9 documents
+19/19 documents indexés depuis RAG/output_invasive_detection/American J Primatol - 2013 - Barelli - Extra‐pair paternity confirmed in wild white‐handed gibbons.json
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T03:03:47.544773Z', 'message': {'role': 'assistant', 'content': 'The collection of genetic material through non-invasive fecal sampling is a widely accepted method for studying wild animal populations. This protocol involves the collection of fecal samples from the environment, which are then processed to extract DNA. This method is considered non-invasive as it does not require the capture or handling of the animals, thus minimizing stress and potential harm. Additionally, no anesthesia is required, further reducing the invasive nature of this approach. However, while this method is generally considered non-invasive, it is important to note that certain conditions such as high temperatures and humidity can degrade DNA in feces, potentially leading to unsuccessful extractions. Therefore, careful consideration of environmental factors and timely collection are crucial for ensuring the success of this minimally invasive sampling technique.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 37578664541, 'load_duration': 51890958, 'prompt_eval_count': 354, 'prompt_eval_duration': 2186056417, 'eval_count': 145, 'eval_duration': 8857831916}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T03:04:04.352747Z', 'message': {'role': 'assistant', 'content': "The collection and extraction of DNA from fecal samples was employed as a non-invasive method for obtaining genetic material from the wild white-handed gibbons (Hylobates lar) under study. This approach involved systematically searching and collecting fresh fecal samples from the animals' habitats, ensuring that no direct contact with or capture of the individuals was required. The use of fecal sampling is considered non-invasive as it does not cause any physical harm or stress to the animals, nor does it require anesthesia or other invasive procedures. Furthermore, this method allows for repeated sampling over time without negatively impacting the animals' health or behavior, making it an ideal approach for long-term genetic monitoring and conservation studies involving wild primates."}, 'done': True, 'done_reason': 'stop', 'total_duration': 16796633292, 'load_duration': 48149583, 'prompt_eval_count': 354, 'prompt_eval_duration': 2181751083, 'eval_count': 138, 'eval_duration': 8291769658}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T03:05:01.6809Z', 'message': {'role': 'assistant', 'content': '"Fecal sample collection was employed as a non-invasive method for obtaining genetic samples from wild white-handed gibbons. This approach involves locating and retrieving fecal matter in the animals\' habitats without any direct contact with or capture of the individuals. The absence of animal handling or anesthesia ensures that this protocol is truly non-invasive, causing minimal stress to the animals while providing valuable genetic material for analysis. Previous studies have demonstrated the effectiveness of fecal sampling for genetic profiling, making it an ideal choice for extra-pair paternity studies in wild populations."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 57321708709, 'load_duration': 46457000, 'prompt_eval_count': 354, 'prompt_eval_duration': 2187688416, 'eval_count': 108, 'eval_duration': 6469653294}
+
+=== Documents hypothétiques générés ===
+
+Document hypothétique 1:
+--------------------------------------------------
+The collection of genetic material through non-invasive fecal sampling is a widely accepted method for studying wild animal populations. This protocol involves the collection of fecal samples from the environment, which are then processed to extract DNA. This method is considered non-invasive as it does not require the capture or handling of the animals, thus minimizing stress and potential harm. Additionally, no anesthesia is required, further reducing the invasive nature of this approach. However, while this method is generally considered non-invasive, it is important to note that certain conditions such as high temperatures and humidity can degrade DNA in feces, potentially leading to unsuccessful extractions. Therefore, careful consideration of environmental factors and timely collection are crucial for ensuring the success of this minimally invasive sampling technique.
+--------------------------------------------------
+
+Document hypothétique 2:
+--------------------------------------------------
+The collection and extraction of DNA from fecal samples was employed as a non-invasive method for obtaining genetic material from the wild white-handed gibbons (Hylobates lar) under study. This approach involved systematically searching and collecting fresh fecal samples from the animals' habitats, ensuring that no direct contact with or capture of the individuals was required. The use of fecal sampling is considered non-invasive as it does not cause any physical harm or stress to the animals, nor does it require anesthesia or other invasive procedures. Furthermore, this method allows for repeated sampling over time without negatively impacting the animals' health or behavior, making it an ideal approach for long-term genetic monitoring and conservation studies involving wild primates.
+--------------------------------------------------
+
+Document hypothétique 3:
+--------------------------------------------------
+"Fecal sample collection was employed as a non-invasive method for obtaining genetic samples from wild white-handed gibbons. This approach involves locating and retrieving fecal matter in the animals' habitats without any direct contact with or capture of the individuals. The absence of animal handling or anesthesia ensures that this protocol is truly non-invasive, causing minimal stress to the animals while providing valuable genetic material for analysis. Previous studies have demonstrated the effectiveness of fecal sampling for genetic profiling, making it an ideal choice for extra-pair paternity studies in wild populations."
+--------------------------------------------------
+
+=== Fin des documents hypothétiques ===
+
+
+=== Statistiques des scores de similarité ===
+Score minimum initial: 0.7648
+Score maximum initial: 0.8759
+Score moyen initial: 0.8002
+
+=== Statistiques après filtrage dynamique ===
+Seuil dynamique appliqué: 0.7884
+Score minimum conservé: 0.7852
+Score maximum conservé: 0.8759
+Score moyen conservé: 0.8239
+Nombre de documents conservés: 5
+Prompt : 
+Voici un extrait d'article scientifique :
+
+"""['We determined STR genotypes for 82 individuals out of 89 sampled individuals. For 69.5% of samples (N ¼ 57), STR genotypes were confirmed from two or more independent feces. In addition, among the 89 individuals genotyped through mtDNA, we found 11 haplotypes [Matsudaira et al., 2013]. Since two of the 82 individuals (from which STR genotypes were determined) were collected during an early stage of group habituation, their identities were ambiguous. However, we included them into the analyses because the genotypes clearly showed the presence of both individuals in the respective groups. The number of alleles per locus varied between 5 and 14. Observed heterozygosities ranged from 0.585 to 0.878 and expected heterozygosities ranged from 0.584 to 0.893. Two loci showed significant deviation from HWE after Bonferroni correction (D3S1768: P ¼ 0.003 and D11S2002G: P ¼ 0.004, Table III). However, since we did not detect any allelic mismatches between 41 mother-offspring relationships for all 12 loci, including the two which deviated from HWE, and estimated null allele frequencies of the two loci were low (0.044 and 0.040, respectively, Table III), we considered such deficiencies deriving from sampling of a kin structured population. The expected probability of identity estimated over 12 loci was 6.8 Â 10 À13 suggesting that the chance that two randomly taken individuals from this population have the same genotype at multiple loci is unlikely. Although the presence of close relatives among subjects might potentially lead to underestimating the probability of identifying individuals, we did not detect a single pair of individuals with the exact same genotype.', 'A total of 89 gibbons, for which social histories were available [Reichard & Barelli, 2008;Reichard et al., 2012], were examined in this study, which at one point in time belonged to either of 14 habituated groups (A, B, C, D, E, H, J, M, N, R, S, T, W, and NOS) or to one of three neighboring groups (G, ER, and  (1996-2005 and 2010-2011), Khao Yai National Park, Thailand\n( ), three surrounding groups which were not habituated to human presence; [ ], individuals for which mtDNA analysis was available but no STR was possible. a\nMale not belonging to any other group. NER), and one adult male was considered solitary (Table I). We collected about 10 g of feces from target animals using disposable gloves directly after an individual had defecated. Between 1996 and 2005, UR, CB and colleagues collected 656 feces preserved in 70% ethanol [Kohn et al., 1995] or RNAlater (Ambion) [Nsubuga et al., 2004], or dried in silica gel beads [Wasser et al., 1997]. These feces were kept frozen at the Max-Planck Institute for Evolutionary Anthropology, Germany, until they were generously provided to us to complement this study sample. Feces stored in ethanol were desiccated by silica gel beads prior to DNA extraction. In addition, between 2010 and 2011, K.M. collected 320 feces using the two-step storage method [Matsudaira et al., 2013;Nsubuga et al., 2004]. All fecal samples were stored at ambient temperature on site and at 4°C in the laboratories.', "Knowledge of the genetic mating system of animal species is essential for our understanding of the evolution of social systems and individual reproductive strategies. In recent years, genetic methods have uncovered an unexpected diversity of paternal genetic contributions across diverse animal social mating systems, but particularly in pair-living species. In most pair-living birds, for example, genetic and behavioral observations have confirmed a previously unknown significance of extra-pair copulations (EPCs) and extra-pair paternity. Among mammals, white-handed gibbons (Hylobates lar) are also known to live in pairs and are traditionally believed to be single-male single-female breeders. However, at Khao Yai National Park, Thailand, behavioral observations have confirmed the occurrence of both EPCs and functional multi-male grouping, but knowledge about the genetic mating system is still unavailable. In this study, we genotyped 89 white-handed gibbons of the Khao Yai population based on fecal samplings and were able to determine paternity for 41 offspring through short tandem repeat analysis. We found that females' stable social partners sired the majority (90.5%) of offspring (N ¼ 38), while only a few (7.1%) offspring (n ¼ 2 confirmed cases; n ¼ 1 inferred case) were conceived with extrapair partners. The paternity of one offspring remained inconclusive (2.4%), because the offspring's genotype did not mismatch with the genotypes of two potential sires. Like other predominantly pairliving species, gibbons appear to follow a mixed-reproductive strategy. The genetic mating system of wild white-handed gibbons is best described as flexible, primarily monogamous and opportunistically promiscuous. Am.", 'DNA was extracted using a QIAamp® DNA Stool Mini Kit (Qiagen, Germany). In order to maximize the amount of DNA extracted, we followed the modified protocols proposed by Nsubuga et al. [2004]. For desiccated feces, a specimen (approximately 100-150 mg) was scraped from the surface of feces and suspended in 1.6 ml Buffer ASL (Qiagen). For feces collected in RNAlater, 2 ml of the mixture was centrifuged for 15 min at 3,000g and the supernatant was removed. The specimen was centrifuged a second time for 15 min at 500g and the supernatant was also removed. The feces were resuspended in 1.6 ml Buffer ASL. The specimens in Buffer ASL were vortexed and incubated overnight at room temperature prior to DNA extraction steps. In addition, at the final step of extraction, DNA was incubated with 200 ml Buffer AE (Qiagen) for 20 min before centrifugation.', 'We conducted the study without direct contact or interaction with the gibbons and under permission of the National Research Council of Thailand (NRCT) and the Department of National Parks, Wildlife and Plant Conservation (DNP) of Thailand. Our data collection procedure adhered to the American Society of Primatologists principles for the ethical treatment of primates, and complied with the laws governing wildlife research in Thailand.']"""
+
+Le protocole suivant a été détecté comme étant invasif par une analyse externe :
+{'nom': "Collecte et extraction d'ADN à partir de fèces", 'description': ['We collected about 10 g of feces from target animals using disposable gloves directly after an individual had defecated.', 'Between 1996 and 2005, UR, CB and colleagues collected 656 feces preserved in 70% ethanol [Kohn et al., 1995] or RNAlater (Ambion) [Nsubuga et al., 2004], or dried in silica gel beads [Wasser et al., 1997].', 'In addition, between 2010 and 2011, K.M. collected 320 feces using the two-step storage method [Matsudaira et al., 2013;Nsubuga et al., 2004].'], 'evaluation': 'Invasif'}
+
+Ta tâche est de déterminer si l'auteur de l'article affirme que ce protocole est non invasif, de manière explicite ou implicite, dans ce passage.
+
+Voici le titre de l'article :
+"Extra-Pair Paternity Confirmed in Wild White-Handed Gibbons"
+
+Procède étape par étape :
+
+1. Analyse le titre : contient-il une déclaration globale de non-invasivité ? Si oui, réponds "Oui" d'office.
+2. Analyse si le titre mentionne le protocole détecté comme invasif. Si ce protocole est présenté dans le titre comme non invasif, réponds aussi "Oui" d'office.
+3. Cherche dans le corps de l'article :
+- Y a-t-il une phrase indiquant explicitement que le protocole en question est non invasif ? Si oui, réponds "Oui".
+- Si une autre méthode est dite non invasive, mais ce n'est **pas celle détectée comme invasive, ce n'est pas suffisant.
+4. Si aucune déclaration claire ou implicite n'est trouvée, réponds "Non".
+5. Si le passage est trop vague ou ne permet pas de trancher, réponds "Manque d'informations".
+
+Tu dois répondre uniquement par le JSON suivant :
+```json
+{
+    "annonce_invasivite": "Oui" ou "Non" ou "Manque d'informations",
+    "justification_annonce_invasivite": "Justification courte, avec citation si utile (souvent utile pour la justification)"
+}
+```
+Si tu ne peux pas fournir une réponse, réponds "Pas de réponse".
+
+Ne donne aucune explication hors du JSON, aucune phrase d'introduction ou de conclusion.
+les clés doivent être strictement : annonce_invasivite et justification_annonce_invasivite
+
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T03:05:54.571777Z', 'message': {'role': 'assistant', 'content': '{\n    "annonce_invasivite": "Non",\n    "justification_annonce_invasivite": "Le titre ne contient pas de déclaration globale de non-invasivité. Le protocole détecté comme invasif n\'est pas mentionné dans le titre. Il n\'y a pas de phrase indiquant explicitement que ce protocole est non invasif dans le corps de l\'article."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 52458150667, 'load_duration': 74269958, 'prompt_eval_count': 2107, 'prompt_eval_duration': 13415072999, 'eval_count': 84, 'eval_duration': 5214888628}
+
+Analyse du niveau non invasif pour le protocole Collecte et extraction d'ADN à partir de fèces:
+{
+    "annonce_invasivite": "Non",
+    "justification_annonce_invasivite": "Le titre ne contient pas de déclaration globale de non-invasivité. Le protocole détecté comme invasif n'est pas mentionné dans le titre. Il n'y a pas de phrase indiquant explicitement que ce protocole est non invasif dans le corps de l'article."
+}
+non_invasive_level: [{'annonce_invasivite': 'Non', 'justification_annonce_invasivite': "Le titre ne contient pas de déclaration globale de non-invasivité. Le protocole détecté comme invasif n'est pas mentionné dans le titre. Il n'y a pas de phrase indiquant explicitement que ce protocole est non invasif dans le corps de l'article."}]
+--------------------------------
+
+Traitement terminé avec succès pour le fichier : RAG/output/American J Primatol - 2013 - Barelli - Extra‐pair paternity confirmed in wild white‐handed gibbons.json

@@ -1,0 +1,269 @@
+Traitement du fichier : RAG/output/eyt045.json
+Traitement du lot 1/2 (documents 1-10)
+Lot 1 indexé avec succès: 10 documents
+Traitement du lot 2/2 (documents 11-15)
+Lot 2 indexé avec succès: 5 documents
+15/15 documents indexés depuis RAG/output/eyt045.json
+
+--- Méthode avec Refine ---
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:00:47.498175Z', 'message': {'role': 'assistant', 'content': '"DNA sampling methods for wild animal genetic analysis were assessed using non-invasive protocols. Fecal samples were collected from captive and free-ranging individuals to minimize stress and disturbance, as per Taberlet\'s definition of invasive sampling. For captive animals, fresh feces were collected daily from enclosures using sterile gloves and deposited into zip-top bags. For free-ranging animals, scat was collected opportunistically during behavioral observations using sterile forceps placed in individual tubes containing silica gel desiccant. Sampling occurred at intervals of two weeks to avoid over-sampling individuals and causing disturbance. Ethical considerations included minimizing animal contact and ensuring adequate food provision to compensate for removed feces."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 40491156458, 'load_duration': 56690167, 'prompt_eval_count': 454, 'prompt_eval_duration': 2785882834, 'eval_count': 133, 'eval_duration': 8124688373}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:01:32.7955Z', 'message': {'role': 'assistant', 'content': '"DNA sampling methods for wild animal genetic analysis were employed using non-invasive techniques to minimize stress and disturbance. Fecal samples were collected passively from the study site using sterile cotton swabs placed in plastic tubes with screw caps. Sampling was conducted monthly over a period of one year to ensure sufficient temporal coverage, with each sample collection lasting approximately 30 minutes. To avoid cross-contamination, gloves were worn and changed between each sampling event. Additionally, ethical considerations included maintaining a safe distance from animals to minimize disturbance and ensuring that no wildlife was harmed during the sampling process."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 45284153333, 'load_duration': 47870500, 'prompt_eval_count': 454, 'prompt_eval_duration': 2773047958, 'eval_count': 117, 'eval_duration': 7075431124}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:02:16.05074Z', 'message': {'role': 'assistant', 'content': "In this study, we employed non-invasive DNA sampling methods to minimize disturbance to the wild animal populations. We focused on collecting feces samples using barbed wire mesh platforms baited with local fruits and meat products. The platforms were placed along animal trails or in known feeding areas. Each platform was equipped with a 5-liter bucket lined with Hefty® trash bags to collect the fecal samples. The buckets were checked daily, and when present, fresh samples were collected using sterile forcipes and placed in individual Whirl-Pak® bags containing silica beads for DNA stabilization. Samples were then stored at -20°C until further processing. This approach allowed us to obtain high-quality genetic material while limiting animal contact and potential stress. Furthermore, this method was considered non-invasive according to Taberlet's definition, as it does not require direct handling or observation of the animals."}, 'done': True, 'done_reason': 'stop', 'total_duration': 43250164042, 'load_duration': 48852167, 'prompt_eval_count': 454, 'prompt_eval_duration': 2776383750, 'eval_count': 174, 'eval_duration': 10614123664}
+
+=== Documents hypothétiques générés ===
+
+Document hypothétique 1:
+--------------------------------------------------
+"DNA sampling methods for wild animal genetic analysis were assessed using non-invasive protocols. Fecal samples were collected from captive and free-ranging individuals to minimize stress and disturbance, as per Taberlet's definition of invasive sampling. For captive animals, fresh feces were collected daily from enclosures using sterile gloves and deposited into zip-top bags. For free-ranging animals, scat was collected opportunistically during behavioral observations using sterile forceps placed in individual tubes containing silica gel desiccant. Sampling occurred at intervals of two weeks to avoid over-sampling individuals and causing disturbance. Ethical considerations included minimizing animal contact and ensuring adequate food provision to compensate for removed feces."
+--------------------------------------------------
+
+Document hypothétique 2:
+--------------------------------------------------
+"DNA sampling methods for wild animal genetic analysis were employed using non-invasive techniques to minimize stress and disturbance. Fecal samples were collected passively from the study site using sterile cotton swabs placed in plastic tubes with screw caps. Sampling was conducted monthly over a period of one year to ensure sufficient temporal coverage, with each sample collection lasting approximately 30 minutes. To avoid cross-contamination, gloves were worn and changed between each sampling event. Additionally, ethical considerations included maintaining a safe distance from animals to minimize disturbance and ensuring that no wildlife was harmed during the sampling process."
+--------------------------------------------------
+
+Document hypothétique 3:
+--------------------------------------------------
+In this study, we employed non-invasive DNA sampling methods to minimize disturbance to the wild animal populations. We focused on collecting feces samples using barbed wire mesh platforms baited with local fruits and meat products. The platforms were placed along animal trails or in known feeding areas. Each platform was equipped with a 5-liter bucket lined with Hefty® trash bags to collect the fecal samples. The buckets were checked daily, and when present, fresh samples were collected using sterile forcipes and placed in individual Whirl-Pak® bags containing silica beads for DNA stabilization. Samples were then stored at -20°C until further processing. This approach allowed us to obtain high-quality genetic material while limiting animal contact and potential stress. Furthermore, this method was considered non-invasive according to Taberlet's definition, as it does not require direct handling or observation of the animals.
+--------------------------------------------------
+
+=== Fin des documents hypothétiques ===
+
+
+=== Statistiques des scores de similarité ===
+Score minimum initial: 0.7621
+Score maximum initial: 0.8810
+Score moyen initial: 0.8162
+
+=== Statistiques après filtrage dynamique ===
+Seuil dynamique appliqué: 0.8198
+Score minimum conservé: 0.8160
+Score maximum conservé: 0.8810
+Score moyen conservé: 0.8508
+Nombre de documents conservés: 5
+Documents récupérés : 5
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:02:57.834819Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "DNA extraction of faecal samples was conducted according to GuSCN⁄silica protocols (Boom et al. 1990;Höss and Svante 1993;Frantz et al. 2003).",\n    "Each batch of extractions (n = 12-15) included one PCR negative extraction control to monitor contamination by exogenous DNA.",\n    "DNA extractions of faecal samples were performed in a UV-sterilized laminar flow hood in an isolated laboratory specially designated for the manipulation of non-invasively sourced biological material."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 41315687666, 'load_duration': 54225708, 'prompt_eval_count': 954, 'prompt_eval_duration': 5985120207, 'eval_count': 146, 'eval_duration': 9125759365}
+Chunk : DNA extraction of faecal samples was conducted according to GuSCN⁄silica protocols (Boom et al. 1990;Höss and Svante 1993;Frantz et al. 2003). Each batch of extractions (n = 12-15) included one PCR negative extraction control to monitor contamination by exogenous DNA. DNA extractions of faecal samples were performed in a UV-sterilized laminar flow hood in an isolated laboratory specially designated for the manipulation of non-invasively sourced biological material. Faecal samples were screened for species identity using speciesspecific primers (Roques et al. 2011). DNA extraction, species identification and marker amplifications are described in the Supplementary Material 1. Individual genotyping for jaguars was conducted using an optimized set of 11 microsatellite markers (Palomares et al. 2012;Roques et al. 2014). For individual identifications of puma, we first tested 18 microsatellite loci: 8 microsatellite loci were originally developed for Felis catus (Fca043, Fca045, Fca077, Fca82b, Fca090, Fca126, Fca547b and Fca566b;Menotti-Raymond et al. 1999) and the other 10 markers were originally described for Puma concolor  (PcoA208w, PcoA216w, PcoC217w, PcoB316w, PcoA339w, PcoB003w, PcoB010w, PcoB210w, PcoC108w and PcoC112w;Kurushima et al. 2006). From these 18 initial markers, we selected the 12 that worked best on faecal samples based on their genetic variability indices (polymorphism, probability of identity, allelic diversity, observed and expected heterozygosity), PCR amplification success and error rates (allelic dropout and false alleles; Table S1). For full details of puma microsatellite marker selection, see Supplementary Material 1. After establishing the microsatellite markers for both species, samples were genotyped four times and a consensus genotype was constructed for each sample. To consider a locus as being homozygous, the same allele had to be observed in at least three replicates, without observing a different allele in the fourth. Heterozygous loci were those with two different alleles in at least two replicates.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "DNA extraction of faecal samples was conducted according to GuSCN⁄silica protocols (Boom et al. 1990;Höss and Svante 1993;Frantz et al. 2003).",
+    "Each batch of extractions (n = 12-15) included one PCR negative extraction control to monitor contamination by exogenous DNA.",
+    "DNA extractions of faecal samples were performed in a UV-sterilized laminar flow hood in an isolated laboratory specially designated for the manipulation of non-invasively sourced biological material."
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:03:48.514481Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "Faecal samples were collected from nine locations within the study area (Fig. 1). Distances among sampling locations varied from 60 to 1900 km.",\n    "Samples were sought between 2005 and 2012 by actively searching along dirt roads and trails by experienced people."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 50672232375, 'load_duration': 52660875, 'prompt_eval_count': 475, 'prompt_eval_duration': 3348452416, 'eval_count': 89, 'eval_duration': 5411593993}
+Chunk : Faecal samples were collected from nine locations within the study area (Fig. 1). Distances among sampling locations varied from 60 to 1900 km. Samples were sought between 2005 and 2012 by actively searching along dirt roads and trails by experienced people. Samples were stored in 100 ml plastic containers with silica gel and the locations were georeferenced using a GPS.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "Faecal samples were collected from nine locations within the study area (Fig. 1). Distances among sampling locations varied from 60 to 1900 km.",
+    "Samples were sought between 2005 and 2012 by actively searching along dirt roads and trails by experienced people."
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:04:10.659859Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "We collected a total of 205 faecal samples from jaguars and 205 from pumas",\n    "We genotyped a total of 185 and 151 faecal samples for pumas and jaguars, respectively"\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 22140325500, 'load_duration': 47920334, 'prompt_eval_count': 653, 'prompt_eval_duration': 4185690958, 'eval_count': 79, 'eval_duration': 4721153129}
+Chunk : We collected a total of 205 faecal samples from jaguars and 205 from pumas, ranging between 0-66 and 1-57 samples per study site for each species, respectively (Table 1). Twelve microsatellite markers were selected to genotype pumas from faecal samples (Supplementary Material 1, Table S1). This set of microsatellite markers could be efficiently used to genotype pumas because the probability of two full siblings differing by at least two loci was high (P mismatch = 0.007; see Fig. S1 for complete mismatch probability distribution). We genotyped a total of 185 and 151 faecal samples for pumas and jaguars, respectively. Both amplification and extraction were efficient, as indicated by the Quality Index and number of complete loci (Table 1). The number of alleles per locus ranged between 4 and 12 for pumas and 2 and 16 for jaguars (Table 1). The differences between observed and expected heterozygosity did not suggest deviation from Hardy-Weinberg equilibrium (Table S2 andS3). We identified 67 unique genotypes (individuals) for pumas and 34 for jaguar (Table 1).
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "We collected a total of 205 faecal samples from jaguars and 205 from pumas",
+    "We genotyped a total of 185 and 151 faecal samples for pumas and jaguars, respectively"
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:04:36.556437Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "Genomic DNA was extracted from a tissue sample collected from a Maasai giraffe carcass in the Ruaha ecosystem, Tanzania, using a DNEasy blood and tissue kit (Qiagen).",\n    "We characterized these loci with fecal DNA samples from 40 individuals from the Katavi National Park/Rukwa Game Reserve ecosystem, Tanzania. We extracted DNA from fecal samples using an AquaGenomic extraction kit (Multitarget Pharmaceuticals)."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 25891408792, 'load_duration': 47274917, 'prompt_eval_count': 1372, 'prompt_eval_duration': 8625630501, 'eval_count': 115, 'eval_duration': 7009556372}
+Chunk : The IUCN classifies giraffe as a species of least concern due to their wide geographic range and estimate of 80-100,000 individuals worldwide (IUCN 2011). However, multiple subspecies have been characterized based on pelage characteristics and genetic analyses (Dagg and Foster 1976;Kingdon 1997;Brown et al. 2007), and the IUCN does not assess all of these subspecies individually. Although some subspecies appear to be stable, others are declining due to habitat loss or poaching (Fennessy and Brown 2010). The Maasai subspecies (Giraffa camelopardalis tippelskirchi) is found throughout Tanzania and southern Kenya, and while assumed to be widely distributed within protected areas, no recent population estimates have been gathered. Conservation of this subspecies would be aided by knowledge of the genetic diversity and structure within populations. We used Illumina sequencing to design 8 novel microsatellite loci for Maasai giraffe and characterized them using noninvasive samples. Previous studies have presented microsatellite primers for Maasai giraffe (Huebinger et al. 2002;Brown et al. 2007), but several of those loci did not amplify in Maasai giraffe from southern Tanzania, while others were monomorphic. Carter et al. (2012) developed markers for Angolan giraffe (G. c. angolensis) and screened them using DNA extracted from tissue. This study presents the first suite of giraffe primers verified to amplify from relatively degraded DNA. Genomic DNA was extracted from a tissue sample collected from a Maasai giraffe carcass in the Ruaha ecosystem, Tanzania, using a DNEasy blood and tissue kit (Qiagen). For Illumina library preparation, genomic DNA was sheared to a median size of 300-400 bp with a Bio-Ruptor sonicator (Diagenode Inc.). Sheared DNA was converted to Illumina libraries as previously described (Cronn et al. 2008). Library construction followed the recommended Illumina protocols, with the exception that index sequencing (''barcoded''; Cronn et al. 2008;Craig et al. 2008) adapters were substituted for standard pairedend adapters. Indexed libraries were pooled in approximately equimolar concentrations and submitted for pairedend 80 bp sequencing. Cluster generation and sequencing used Illumina version 3.0 reagents, and image acquisition and base calling used the Illumina pipeline version 1.5. We designed primers for 36 loci with Primer 3 (Rozen and Skaletsky 2000) and used fluorescein-labelled 12-dCTP (Perkin Elmer) in a PCR to test for polymorphism across 8 samples. Amplification was performed in 15uL reactions consisting of 19 Magnesium-free buffer, 2.25 mM MgCl2, 160 lM of each dNTP, 7.5 lg bovine serum albumin, 0.1 lM of each primer, 0.7U Apex Hot Start Taq polymerase, 0.5 nmol d-CTP, and approximately 50 ng of genomic DNA. Thermal cycling conditions included: initial denaturation of 15 min at 95 °C, followed by 40 cycles of 95 °C for 30 s, 45 s at a locus-specific temperature (Table 1), and extension at 72 °C for 30 s, with final elongation of 5 min at 72 °C. We analyzed samples on an ABI3730 DNA analyser with LIZ500 sizing standard and verified fragment sizes using Genemapper 4.1 (Applied Biosystems). Eight of the 36 primers were polymorphic, scoreable, and amplified a single product. We characterized these loci with fecal DNA samples from 40 individuals from the Katavi National Park/Rukwa Game Reserve ecosystem, Tanzania. We extracted DNA from fecal samples using an AquaGenomic extraction kit (Multitarget Pharmaceuticals). For each locus, one primer was fluorescently tagged with NED, PET, VIC (Applied Biosystems) or 6-FAM (Sigma-Aldrich). We used BLAST to compare sequences from our loci with those published on GenBank and in supplementary material of Carter et al. (2012) to verify that our loci were unique. We used Genepop v.4 (Raymond and Rousset 1995) to test for evidence of linkage disequilibrium between all pairs of loci and for departures from Hardy-Weinberg Equilibrium.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "Genomic DNA was extracted from a tissue sample collected from a Maasai giraffe carcass in the Ruaha ecosystem, Tanzania, using a DNEasy blood and tissue kit (Qiagen).",
+    "We characterized these loci with fecal DNA samples from 40 individuals from the Katavi National Park/Rukwa Game Reserve ecosystem, Tanzania. We extracted DNA from fecal samples using an AquaGenomic extraction kit (Multitarget Pharmaceuticals)."
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:05:04.007231Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "Body swabs of Geomalacus maculosus (n = 12) and Arion spp. (n = 12) were collected in Vila Real (Northern Portugal) in their natural habitats. This procedure was accomplished by carefully scraping a sterile cotton swab against each individuals\' body 10 times (Fig. 1).",\n    "Samples from three different and independent specimens of G. maculosus and Arion spp. were processed following the DNA extraction methods described below."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 27441812750, 'load_duration': 47825083, 'prompt_eval_count': 1371, 'prompt_eval_duration': 8650554875, 'eval_count': 125, 'eval_duration': 7631934167}
+Chunk : Studies on molluscan conservation genetics, phylogenetics and evolution provide important data to access the diversity, populations' structure and dispersal patterns of these organisms (Barker, 2001). Current environmental changes associated to anthropogenic pressures may have several negative ecological impacts on molluscs (e.g. van der Meij, Moolenbeek & Hoeksema, 2009;Cameron, Pokryszko & Martins, 2012), involving the reduction in their habitat suitability, which is particularly damaging for terrestrial slugs requirements of persistence (e.g. Severns, 2005;Kappes, 2006). The literature on slugs is greatly biased towards those that are agricultural pests (Barker, 2002), while there is little information about benign native species such as Geomalacus maculosus (Platts & Speight, 1988). Therefore, it is mandatory to develop multidisciplinary studies that integrate genetic data, biological and behaviour features to understand the adaptive, evolutionary and population dynamics of these species. The improvement of non-invasive DNA-based methodologies is essential to minimize the potential harmful effects of these approaches, particularly in studies of rare or endangered molluscs. Although most of methods to collect biological materials for DNA isolation in molluscs are intrusive (e.g. Winnepenninckx, Backeljau & De Wachter, 1993;Sokolov, 2000;Pereira et al., 2011), some protocols have been proposed based on non-invasive sources of DNA in terrestrial and marine snails and slugs (Kawai et al., 2004;Armbruster, Koller & Baur, 2005;Palmer, Styan & Shearman, 2008;Re´gnier et al., 2011). All these successful strategies were developed considering the DNA isolation from foot mucus and specific procedures for sample collection. Nevertheless, the sampling protocols are time-consuming and require the handling of the individuals. The development of simple and efficient protocols to improve these characteristics can significantly enhance its field applicability. Thus, the main goal of this study is to demonstrate and report a non-invasive, rapid, efficient and cost-effective method based on DNA isolation from body swabs of terrestrial slugs. In this perspective, the hypothesis under study is that slugs' body surface epithelial cells provide an alternative good DNA source for genetic analysis. Body swabs of Geomalacus maculosus (n ¼ 12) and Arion spp. (n ¼ 12) were collected in Vila Real (Northern Portugal) in their natural habitats. This procedure was accomplished by carefully scraping a sterile cotton swab against each individuals' body 10 times (Fig. 1). Swabs were directly placed in sterile 1.5 ml eppendorf tubes and stored at 2208C until DNA extraction. Samples from three different and independent specimens of G. maculosus and Arion spp. were processed following the DNA extraction methods described below. To demonstrate the flexibility of the proposed protocol four methods of DNA isolation were tested and optimized: salting out extraction, Quick gDNA MiniPrep Kit (Zymo Research), QIAamp DNA Micro Kit (Qiagen) and DNA IQ Reference Sample Kit for Maxwell 16 (Promega). In the conventional salting out protocol, samples were incubated at 558C for 2 h on a thermal-shaker with 300 ml of lysis buffer [10 mM Tris ( pH 7.5), 400 mM NaCl, 2 mM EDTA ( pH 8.0)] ( pH 7.3-7.5), 15 ml of 20% sodium dodecyl sulphate (SDS) and 20 ml of 20 mg/ml proteinase K. The swabs were then removed with sterile tweezers and 50 ml of 6 M NaCl (saturated solution) was added to the extraction mixture, samples were mixed thoroughly by vortexing for 10 s, followed by centrifugation at 8000 g for 10 min to precipitate the residual cellular debris. The supernatant was transferred to a clean eppendorf tube and 500 ml of 100% ethanol was added to each sample, mixed thoroughly by vortexing for 10 s, and centrifuged at 8000 g for 5 min to pellet the DNA. The DNA pellets were washed with 250 ml of 70% ethanol, followed by centrifugation at 8000 g for 5 min.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "Body swabs of Geomalacus maculosus (n = 12) and Arion spp. (n = 12) were collected in Vila Real (Northern Portugal) in their natural habitats. This procedure was accomplished by carefully scraping a sterile cotton swab against each individuals' body 10 times (Fig. 1).",
+    "Samples from three different and independent specimens of G. maculosus and Arion spp. were processed following the DNA extraction methods described below."
+]
+}
+Protocoles détectés : 5
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:06:12.284202Z', 'message': {'role': 'assistant', 'content': '[\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "DNA extraction of faecal samples was conducted according to GuSCN/silica protocols (Boom et al. 1990;Höss and Svante 1993;Frantz et al. 2003).",\n      "Each batch of extractions (n = 12-15) included one PCR negative extraction control to monitor contamination by exogenous DNA.",\n      "DNA extractions of faecal samples were performed in a UV-sterilized laminar flow hood in an isolated laboratory specially designated for the manipulation of non-invasively sourced biological material."\n    ]\n  },\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "Faecal samples were collected from nine locations within the study area (Fig. 1). Distances among sampling locations varied from 60 to 1900 km.",\n      "Samples were sought between 2005 and 2012 by actively searching along dirt roads and trails by experienced people."\n    ]\n  },\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "We collected a total of 205 faecal samples from jaguars and 205 from pumas",\n      "We genotyped a total of 185 and 151 faecal samples for pumas and jaguars, respectively"\n    ]\n  },\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "Genomic DNA was extracted from a tissue sample collected from a Maasai giraffe carcass in the Ruaha ecosystem, Tanzania, using a DNEasy blood and tissue kit (Qiagen).",\n      "We characterized these loci with fecal DNA samples from 40 individuals from the Katavi National Park/Rukwa Game Reserve ecosystem, Tanzania. We extracted DNA from fecal samples using an AquaGenomic extraction kit (Multitarget Pharmaceuticals)."\n    ]\n  },\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "Body swabs of Geomalacus maculosus (n = 12) and Arion spp. (n = 12) were collected in Vila Real (Northern Portugal) in their natural habitats. This procedure was accomplished by carefully scraping a sterile cotton swab against each individuals\\\' body 10 times (Fig. 1).",\n      "Samples from three different and independent specimens of G. maculosus and Arion spp. were processed following the DNA extraction methods described below."\n    ]\n  }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 68269369084, 'load_duration': 49831250, 'prompt_eval_count': 1027, 'prompt_eval_duration': 6846094959, 'eval_count': 577, 'eval_duration': 35866668733}
+Protocoles fusionnés : [
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "DNA extraction of faecal samples was conducted according to GuSCN/silica protocols (Boom et al. 1990;Höss and Svante 1993;Frantz et al. 2003).",
+      "Each batch of extractions (n = 12-15) included one PCR negative extraction control to monitor contamination by exogenous DNA.",
+      "DNA extractions of faecal samples were performed in a UV-sterilized laminar flow hood in an isolated laboratory specially designated for the manipulation of non-invasively sourced biological material."
+    ]
+  },
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "Faecal samples were collected from nine locations within the study area (Fig. 1). Distances among sampling locations varied from 60 to 1900 km.",
+      "Samples were sought between 2005 and 2012 by actively searching along dirt roads and trails by experienced people."
+    ]
+  },
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "We collected a total of 205 faecal samples from jaguars and 205 from pumas",
+      "We genotyped a total of 185 and 151 faecal samples for pumas and jaguars, respectively"
+    ]
+  },
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "Genomic DNA was extracted from a tissue sample collected from a Maasai giraffe carcass in the Ruaha ecosystem, Tanzania, using a DNEasy blood and tissue kit (Qiagen).",
+      "We characterized these loci with fecal DNA samples from 40 individuals from the Katavi National Park/Rukwa Game Reserve ecosystem, Tanzania. We extracted DNA from fecal samples using an AquaGenomic extraction kit (Multitarget Pharmaceuticals)."
+    ]
+  },
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "Body swabs of Geomalacus maculosus (n = 12) and Arion spp. (n = 12) were collected in Vila Real (Northern Portugal) in their natural habitats. This procedure was accomplished by carefully scraping a sterile cotton swab against each individuals\' body 10 times (Fig. 1).",
+      "Samples from three different and independent specimens of G. maculosus and Arion spp. were processed following the DNA extraction methods described below."
+    ]
+  }
+]
+Nombre de protocoles après fusion : 5
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:07:08.491186Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["DNA extraction of faecal samples was conducted according to GuSCN/silica protocols (Boom et al. 1990;Höss and Svante 1993;Frantz et al. 2003)."],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces",\n"mots_cles_invasivite": [],\n"mots_cles_non_invasivite": ["non-invasively sourced"],\n"evaluation_invasivite": "Non invasif",\n"justification_invasivite": "Le protocole mentionne spécifiquement que les échantillons de fèces ont été manipulés dans un laboratoire spécialement conçu pour la manipulation de matériel biologique prélevé de manière non invasive. Il n\'y a pas de mention de capture ou de manipulation des animaux.",\n"signaux_alarme": [],\n"impacts_potentiels": [],\n"peches_identifies": [],\n"informations_manquantes": ["Il manque des informations sur la méthode exacte de collecte des fèces."],\n"taux_de_confiance": "85% - La méthodologie est explicitement mentionnée comme non invasive, mais il manque des détails sur la collecte des échantillons."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 56180862792, 'load_duration': 59314417, 'prompt_eval_count': 2148, 'prompt_eval_duration': 13624765958, 'eval_count': 281, 'eval_duration': 17587954550}
+Analyse du protocole avec les extraits : DNA extraction of faecal samples was conducted according to GuSCN⁄silica protocols (Boom et al. 1990;Höss and Svante 1993;Frantz et al. 2003).
+Each batch of extractions (n = 12-15) included one PCR negative extraction control to monitor contamination by exogenous DNA.
+DNA extractions of faecal samples were performed in a UV-sterilized laminar flow hood in an isolated laboratory specially designated for the manipulation of non-invasively sourced biological material.
+Réponse du modèle : {
+"extrait_pertinent": ["DNA extraction of faecal samples was conducted according to GuSCN/silica protocols (Boom et al. 1990;Höss and Svante 1993;Frantz et al. 2003)."],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces",
+"mots_cles_invasivite": [],
+"mots_cles_non_invasivite": ["non-invasively sourced"],
+"evaluation_invasivite": "Non invasif",
+"justification_invasivite": "Le protocole mentionne spécifiquement que les échantillons de fèces ont été manipulés dans un laboratoire spécialement conçu pour la manipulation de matériel biologique prélevé de manière non invasive. Il n'y a pas de mention de capture ou de manipulation des animaux.",
+"signaux_alarme": [],
+"impacts_potentiels": [],
+"peches_identifies": [],
+"informations_manquantes": ["Il manque des informations sur la méthode exacte de collecte des fèces."],
+"taux_de_confiance": "85% - La méthodologie est explicitement mentionnée comme non invasive, mais il manque des détails sur la collecte des échantillons."
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:07:51.653189Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["Faecal samples were collected from nine locations within the study area (Fig. 1). Distances among sampling locations varied from 60 to 1900 km.", "Samples were sought between 2005 and 2012 by actively searching along dirt roads and trails by experienced people."],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces",\n"mots_cles_invasivite": ["actively searching"],\n"mots_cles_non_invasivite": [],\n"evaluation_invasivite": "Invasif",\n"justification_invasivite": "Le protocole mentionne la recherche active de fèces le long des routes et sentiers par des personnes expérimentées, ce qui indique une manipulation intentionnelle de l\'environnement pour obtenir les échantillons. Cela remplit le critère d\'invasivité \'Modification du comportement naturel\'.",\n"signaux_alarme": ["actively searching"],\n"impacts_potentiels": ["Perturbation potentielle de l\'habitat"],\n"peches_identifies": [1],\n"informations_manquantes": [],\n"taux_de_confiance": "95% - Les termes utilisés dans le protocole sont clairs et permettent une déduction solide."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 43156016333, 'load_duration': 46607417, 'prompt_eval_count': 2094, 'prompt_eval_duration': 13377861833, 'eval_count': 288, 'eval_duration': 17930831664}
+Analyse du protocole avec les extraits : Faecal samples were collected from nine locations within the study area (Fig. 1). Distances among sampling locations varied from 60 to 1900 km.
+Samples were sought between 2005 and 2012 by actively searching along dirt roads and trails by experienced people.
+Réponse du modèle : {
+"extrait_pertinent": ["Faecal samples were collected from nine locations within the study area (Fig. 1). Distances among sampling locations varied from 60 to 1900 km.", "Samples were sought between 2005 and 2012 by actively searching along dirt roads and trails by experienced people."],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces",
+"mots_cles_invasivite": ["actively searching"],
+"mots_cles_non_invasivite": [],
+"evaluation_invasivite": "Invasif",
+"justification_invasivite": "Le protocole mentionne la recherche active de fèces le long des routes et sentiers par des personnes expérimentées, ce qui indique une manipulation intentionnelle de l'environnement pour obtenir les échantillons. Cela remplit le critère d'invasivité 'Modification du comportement naturel'.",
+"signaux_alarme": ["actively searching"],
+"impacts_potentiels": ["Perturbation potentielle de l'habitat"],
+"peches_identifies": [1],
+"informations_manquantes": [],
+"taux_de_confiance": "95% - Les termes utilisés dans le protocole sont clairs et permettent une déduction solide."
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:08:36.423821Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["We collected a total of 205 faecal samples from jaguars and 205 from pumas", "We genotyped a total of 185 and 151 faecal samples for pumas and jaguars, respectively"],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces",\n"mots_cles_invasivite": ["faecal", "collected", "total"],\n"mots_cles_non_invasivite": [],\n"evaluation_invasivite": "Invasif",\n"justification_invasivite": "La collecte de fèces est mentionnée comme étant totale pour les jaguars et les pumas, ce qui indique une collecte systématique et exhaustive. Cela remplit le critère d\'invasivité lié à la perturbation du comportement naturel ou territorial.",\n"signaux_alarme": ["total"],\n"impacts_potentiels": ["Perturbation du marquage territorial", "Stress potentiellement causé par la collecte régulière de fèces"],\n"peches_identifies": [],\n"informations_manquantes": ["Il n\'y a pas d\'informations sur la méthode utilisée pour collecter les échantillons de fèces"],\n"taux_de_confiance": "85% - Les termes utilisés (\'total\') indiquent une collecte exhaustive, mais il manque des informations sur la méthode utilisée."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 44762421625, 'load_duration': 46972875, 'prompt_eval_count': 2084, 'prompt_eval_duration': 13243821876, 'eval_count': 313, 'eval_duration': 19498025872}
+Analyse du protocole avec les extraits : We collected a total of 205 faecal samples from jaguars and 205 from pumas
+We genotyped a total of 185 and 151 faecal samples for pumas and jaguars, respectively
+Réponse du modèle : {
+"extrait_pertinent": ["We collected a total of 205 faecal samples from jaguars and 205 from pumas", "We genotyped a total of 185 and 151 faecal samples for pumas and jaguars, respectively"],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces",
+"mots_cles_invasivite": ["faecal", "collected", "total"],
+"mots_cles_non_invasivite": [],
+"evaluation_invasivite": "Invasif",
+"justification_invasivite": "La collecte de fèces est mentionnée comme étant totale pour les jaguars et les pumas, ce qui indique une collecte systématique et exhaustive. Cela remplit le critère d'invasivité lié à la perturbation du comportement naturel ou territorial.",
+"signaux_alarme": ["total"],
+"impacts_potentiels": ["Perturbation du marquage territorial", "Stress potentiellement causé par la collecte régulière de fèces"],
+"peches_identifies": [],
+"informations_manquantes": ["Il n'y a pas d'informations sur la méthode utilisée pour collecter les échantillons de fèces"],
+"taux_de_confiance": "85% - Les termes utilisés ('total') indiquent une collecte exhaustive, mais il manque des informations sur la méthode utilisée."
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:09:13.15293Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["Genomic DNA was extracted from a tissue sample collected from a Maasai giraffe carcass in the Ruaha ecosystem, Tanzania"],\n"taxon_identifie": "Mammifère",\n"echantillon": "Échantillon de tissu",\n"mots_cles_invasivite": [],\n"mots_cles_non_invasivite": ["naturally"],\n"evaluation_invasivite": "Non invasif",\n"justification_invasivite": "L\'échantillon a été prélevé sur un carcasse de girafe masaï dans l\'écosystème de Ruaha, au Tanzania. La collecte d\'un échantillon de tissu à partir d\'un animal mort est considéré comme non invasif selon les critères spécifiques aux mammifères.",\n"signaux_alarme": [],\n"impacts_potentiels": [],\n"peches_identifies": [],\n"informations_manquantes": ["Il n\'y a pas d\'informations sur la méthode utilisée pour localiser et prélever l\'échantillon de tissu"],\n"taux_de_confiance": "100% car il y a une information explicite sur la collecte d\'un échantillon de tissu à partir d\'un animal mort."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 36721346125, 'load_duration': 48279625, 'prompt_eval_count': 2118, 'prompt_eval_duration': 13396909041, 'eval_count': 267, 'eval_duration': 16654532340}
+Analyse du protocole avec les extraits : Genomic DNA was extracted from a tissue sample collected from a Maasai giraffe carcass in the Ruaha ecosystem, Tanzania, using a DNEasy blood and tissue kit (Qiagen).
+We characterized these loci with fecal DNA samples from 40 individuals from the Katavi National Park/Rukwa Game Reserve ecosystem, Tanzania. We extracted DNA from fecal samples using an AquaGenomic extraction kit (Multitarget Pharmaceuticals).
+Réponse du modèle : {
+"extrait_pertinent": ["Genomic DNA was extracted from a tissue sample collected from a Maasai giraffe carcass in the Ruaha ecosystem, Tanzania"],
+"taxon_identifie": "Mammifère",
+"echantillon": "Échantillon de tissu",
+"mots_cles_invasivite": [],
+"mots_cles_non_invasivite": ["naturally"],
+"evaluation_invasivite": "Non invasif",
+"justification_invasivite": "L'échantillon a été prélevé sur un carcasse de girafe masaï dans l'écosystème de Ruaha, au Tanzania. La collecte d'un échantillon de tissu à partir d'un animal mort est considéré comme non invasif selon les critères spécifiques aux mammifères.",
+"signaux_alarme": [],
+"impacts_potentiels": [],
+"peches_identifies": [],
+"informations_manquantes": ["Il n'y a pas d'informations sur la méthode utilisée pour localiser et prélever l'échantillon de tissu"],
+"taux_de_confiance": "100% car il y a une information explicite sur la collecte d'un échantillon de tissu à partir d'un animal mort."
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:09:45.0986Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["Body swabs of Geomalacus maculosus (n = 12) and Arion spp. (n = 12) were collected in Vila Real (Northern Portugal) in their natural habitats."],\n"taxon_identifie": "Invertébré",\n"echantillon": "Échantillons de frottis corporels",\n"mots_cles_invasivite": ["collected"],\n"mots_cles_non_invasivite": [],\n"evaluation_invasivite": "Invasif",\n"justification_invasivite": "Le protocole implique un contact direct avec les animaux vivants (body swabs) et une manipulation de ces derniers.",\n"signaux_alarme": ["collected"],\n"impacts_potentiels": ["Stress potentiellement causé aux animaux"],\n"peches_identifies": ["3"],\n"informations_manquantes": [],\n"taux_de_confiance": "100%"\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 31938931666, 'load_duration': 51123416, 'prompt_eval_count': 2129, 'prompt_eval_duration': 13591341707, 'eval_count': 217, 'eval_duration': 13512897337}
+Analyse du protocole avec les extraits : Body swabs of Geomalacus maculosus (n = 12) and Arion spp. (n = 12) were collected in Vila Real (Northern Portugal) in their natural habitats. This procedure was accomplished by carefully scraping a sterile cotton swab against each individuals' body 10 times (Fig. 1).
+Samples from three different and independent specimens of G. maculosus and Arion spp. were processed following the DNA extraction methods described below.
+Réponse du modèle : {
+"extrait_pertinent": ["Body swabs of Geomalacus maculosus (n = 12) and Arion spp. (n = 12) were collected in Vila Real (Northern Portugal) in their natural habitats."],
+"taxon_identifie": "Invertébré",
+"echantillon": "Échantillons de frottis corporels",
+"mots_cles_invasivite": ["collected"],
+"mots_cles_non_invasivite": [],
+"evaluation_invasivite": "Invasif",
+"justification_invasivite": "Le protocole implique un contact direct avec les animaux vivants (body swabs) et une manipulation de ces derniers.",
+"signaux_alarme": ["collected"],
+"impacts_potentiels": ["Stress potentiellement causé aux animaux"],
+"peches_identifies": ["3"],
+"informations_manquantes": [],
+"taux_de_confiance": "100%"
+}
+Analyses générées : 5
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T05:11:21.962258Z', 'message': {'role': 'assistant', 'content': '[\n    {\n        "protocole": "Extraction d\'ADN à partir d\'échantillons de fèces selon les protocoles GuSCN/silica",\n        "extrait_pertinent": ["DNA extraction of faecal samples was conducted according to GuSCN/silica protocols (Boom et al. 1990;Höss and Svante 1993;Frantz et al. 2003).", "Faecal samples were collected from nine locations within the study area (Fig. 1). Distances among sampling locations varied from 60 to 1900 km.", "We collected a total of 205 faecal samples from jaguars and 205 from pumas"],\n        "taxon_identifie": "Mammifère",\n        "echantillon": "Fèces",\n        "mots_cles_invasivite": ["actively searching", "total"],\n        "mots_cles_non_invasivite": ["non-invasively sourced"],\n        "evaluation_invasivite": "Invasif",\n        "justification_invasivite": "Le protocole mentionne la recherche active de fèces le long des routes et sentiers par des personnes expérimentées, ce qui indique une manipulation intentionnelle de l\'environnement pour obtenir les échantillons. Cela remplit le critère d\'invasivité \'Modification du comportement naturel\'. La collecte de fèces est mentionnée comme étant totale pour les jaguars et les pumas, ce qui indique une collecte systématique et exhaustive.",\n        "signaux_alarme": ["actively searching", "total"],\n        "impacts_potentiels": ["Perturbation potentielle de l\'habitat", "Perturbation du marquage territorial", "Stress potentiellement causé par la collecte régulière de fèces"],\n        "peches_identifies": [1],\n        "informations_manquantes": ["Il manque des informations sur la méthode exacte de collecte des fèces.", "Il n\'y a pas d\'informations sur la méthode utilisée pour collecter les échantillons de fèces"],\n        "taux_de_confiance": "85% - La méthodologie est explicitement mentionnée comme non invasive, mais il manque des détails sur la collecte des échantillons. Les termes utilisés (\\\'total\\\') indiquent une collecte exhaustive, mais il manque des informations sur la méthode utilisée."\n    },\n    {\n        "protocole": "Extraction d\'ADN à partir d\'un échantillon de tissu prélevé sur un animal mort",\n        "extrait_pertinent": ["Genomic DNA was extracted from a tissue sample collected from a Maasai giraffe carcass in the Ruaha ecosystem, Tanzania"],\n        "taxon_identifie": "Mammifère",\n        "echantillon": "Échantillon de tissu",\n        "mots_cles_invasivite": [],\n        "mots_cles_non_invasivite": ["naturally"],\n        "evaluation_invasivite": "Non invasif",\n        "justification_invasivite": "L\'échantillon a été prélevé sur un carcasse de girafe masaï dans l\'écosystème de Ruaha, au Tanzania. La collecte d\'un échantillon de tissu à partir d\'un animal mort est considéré comme non invasif selon les critères spécifiques aux mammifères.",\n        "signaux_alarme": [],\n        "impacts_potentiels": [],\n        "peches_identifies": [],\n        "informations_manquantes": ["Il n\'y a pas d\'informations sur la méthode utilisée pour localiser et prélever l\'échantillon de tissu"],\n        "taux_de_confiance": "100% car il y a une information explicite sur la collecte d\'un échantillon de tissu à partir d\'un animal mort."\n    },\n    {\n        "protocole": "Collecte d\'échantillons de frottis corporels chez des invertébrés vivants",\n        "extrait_pertinent": ["Body swabs of Geomalacus maculosus (n = 12) and Arion spp. (n = 12) were collected in Vila Real (Northern Portugal) in their natural habitats."],\n        "taxon_identifie": "Invertébré",\n        "echantillon": "Échantillons de frottis corporels",\n        "mots_cles_invasivite": ["collected"],\n        "mots_cles_non_invasivite": [],\n        "evaluation_invasivite": "Invasif",\n        "justification_invasivite": "Le protocole implique un contact direct avec les animaux vivants (body swabs) et une manipulation de ces derniers.",\n        "signaux_alarme": ["collected"],\n        "impacts_potentiels": ["Stress potentiellement causé aux animaux"],\n        "peches_identifies": ["3"],\n        "informations_manquantes": [],\n        "taux_de_confiance": "100%"\n    }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 96859366834, 'load_duration': 47755209, 'prompt_eval_count': 2450, 'prompt_eval_duration': 15507007874, 'eval_count': 1092, 'eval_duration': 69166000017}
+Réponse finale : [
+    {
+        "protocole": "Extraction d'ADN à partir d'échantillons de fèces selon les protocoles GuSCN/silica",
+        "extrait_pertinent": ["DNA extraction of faecal samples was conducted according to GuSCN/silica protocols (Boom et al. 1990;Höss and Svante 1993;Frantz et al. 2003).", "Faecal samples were collected from nine locations within the study area (Fig. 1). Distances among sampling locations varied from 60 to 1900 km.", "We collected a total of 205 faecal samples from jaguars and 205 from pumas"],
+        "taxon_identifie": "Mammifère",
+        "echantillon": "Fèces",
+        "mots_cles_invasivite": ["actively searching", "total"],
+        "mots_cles_non_invasivite": ["non-invasively sourced"],
+        "evaluation_invasivite": "Invasif",
+        "justification_invasivite": "Le protocole mentionne la recherche active de fèces le long des routes et sentiers par des personnes expérimentées, ce qui indique une manipulation intentionnelle de l'environnement pour obtenir les échantillons. Cela remplit le critère d'invasivité 'Modification du comportement naturel'. La collecte de fèces est mentionnée comme étant totale pour les jaguars et les pumas, ce qui indique une collecte systématique et exhaustive.",
+        "signaux_alarme": ["actively searching", "total"],
+        "impacts_potentiels": ["Perturbation potentielle de l'habitat", "Perturbation du marquage territorial", "Stress potentiellement causé par la collecte régulière de fèces"],
+        "peches_identifies": [1],
+        "informations_manquantes": ["Il manque des informations sur la méthode exacte de collecte des fèces.", "Il n'y a pas d'informations sur la méthode utilisée pour collecter les échantillons de fèces"],
+        "taux_de_confiance": "85% - La méthodologie est explicitement mentionnée comme non invasive, mais il manque des détails sur la collecte des échantillons. Les termes utilisés (\'total\') indiquent une collecte exhaustive, mais il manque des informations sur la méthode utilisée."
+    },
+    {
+        "protocole": "Extraction d'ADN à partir d'un échantillon de tissu prélevé sur un animal mort",
+        "extrait_pertinent": ["Genomic DNA was extracted from a tissue sample collected from a Maasai giraffe carcass in the Ruaha ecosystem, Tanzania"],
+        "taxon_identifie": "Mammifère",
+        "echantillon": "Échantillon de tissu",
+        "mots_cles_invasivite": [],
+        "mots_cles_non_invasivite": ["naturally"],
+        "evaluation_invasivite": "Non invasif",
+        "justification_invasivite": "L'échantillon a été prélevé sur un carcasse de girafe masaï dans l'écosystème de Ruaha, au Tanzania. La collecte d'un échantillon de tissu à partir d'un animal mort est considéré comme non invasif selon les critères spécifiques aux mammifères.",
+        "signaux_alarme": [],
+        "impacts_potentiels": [],
+        "peches_identifies": [],
+        "informations_manquantes": ["Il n'y a pas d'informations sur la méthode utilisée pour localiser et prélever l'échantillon de tissu"],
+        "taux_de_confiance": "100% car il y a une information explicite sur la collecte d'un échantillon de tissu à partir d'un animal mort."
+    },
+    {
+        "protocole": "Collecte d'échantillons de frottis corporels chez des invertébrés vivants",
+        "extrait_pertinent": ["Body swabs of Geomalacus maculosus (n = 12) and Arion spp. (n = 12) were collected in Vila Real (Northern Portugal) in their natural habitats."],
+        "taxon_identifie": "Invertébré",
+        "echantillon": "Échantillons de frottis corporels",
+        "mots_cles_invasivite": ["collected"],
+        "mots_cles_non_invasivite": [],
+        "evaluation_invasivite": "Invasif",
+        "justification_invasivite": "Le protocole implique un contact direct avec les animaux vivants (body swabs) et une manipulation de ces derniers.",
+        "signaux_alarme": ["collected"],
+        "impacts_potentiels": ["Stress potentiellement causé aux animaux"],
+        "peches_identifies": ["3"],
+        "informations_manquantes": [],
+        "taux_de_confiance": "100%"
+    }
+]
+Erreur de décodage JSON : Invalid \escape: line 15 column 184 (char 1898)
+
+Aucun résultat généré pour le fichier : RAG/output/eyt045.json

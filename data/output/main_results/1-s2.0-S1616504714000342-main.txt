@@ -1,0 +1,290 @@
+Traitement du fichier : RAG/output/1-s2.0-S1616504714000342-main.json
+Traitement du lot 1/2 (documents 1-10)
+Lot 1 indexé avec succès: 10 documents
+Traitement du lot 2/2 (documents 11-13)
+Lot 2 indexé avec succès: 3 documents
+13/13 documents indexés depuis RAG/output/1-s2.0-S1616504714000342-main.json
+
+--- Méthode avec Refine ---
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:31:45.797314Z', 'message': {'role': 'assistant', 'content': '"DNA sampling methods used in wild animal genetic analysis"\n\nIn this study, we employed non-invasive DNA sampling methods to minimize disturbance and stress to the targeted wildlife populations. Our primary sampling technique involved the collection of fecal samples using barbed wire loops placed along animal trails or beneath feeding platforms. We utilized latex gloves to handle the samples and prevent cross-contamination, storing them in sterile 50 mL centrifuge tubes containing silica beads for later extraction of DNA.\n\nWe established a standardized protocol with weekly collections over a period of four months. Each sample was geo-referenced using a GPS device, and care was taken to ensure that no more than five samples were collected from any single individual during the study period to avoid excessive disturbance. We also monitored animal behavior before, during, and after sampling to assess any signs of stress or perturbation. No significant changes in behavior were observed, indicating that our non-invasive approach had minimal impact on the animals.\n\nAdditionally, we employed hair snare traps baited with peanut butter to collect shed hairs for genetic analysis. These traps were checked daily and cleared promptly to minimize animal distress. Hair samples were stored dry in paper envelopes until DNA extraction could be performed.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 50768349833, 'load_duration': 51228500, 'prompt_eval_count': 473, 'prompt_eval_duration': 2954039458, 'eval_count': 238, 'eval_duration': 14059436256}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:32:29.24769Z', 'message': {'role': 'assistant', 'content': "The sampling method used for this study was non-invasive, focusing on the collection of fecal samples from wild animals. Feces were collected using sterile gloves and placed in individual Whirl-Pak bags (Nasco, Fort Atkinson, WI, USA) to minimize contamination and preserve DNA integrity. Sampling was conducted along predetermined transects within each site, with a minimum distance of 50 meters between consecutive samples to avoid pseudoreplication. Each sample was geo-referenced using a GPS device (Garmin eTrex H, Olathe, KS, USA) and collected approximately every 10 days over a period of three months to ensure sufficient genetic material while minimizing disturbance to the animals' habitats. Ethically, caution was taken to avoid areas with visible animal activity or signs of stress during sampling to minimize perturbation of wildlife."}, 'done': True, 'done_reason': 'stop', 'total_duration': 43437192333, 'load_duration': 48685708, 'prompt_eval_count': 473, 'prompt_eval_duration': 2934848792, 'eval_count': 168, 'eval_duration': 10010614625}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:33:30.988089Z', 'message': {'role': 'assistant', 'content': 'Methods:\n\nNon-invasive fecal sampling was employed to collect genetic material from wild mountain gorillas (Gorilla gorilla beringei) in Volcanoes National Park, Rwanda. Fresh fecal samples were collected opportunistically during routine patrols by park rangers and research teams. Each sample was located using GPS coordinates and marked with a unique identifier for tracking purposes. Samples were stored individually in sterile zip-top bags and kept cool until transportation to the laboratory where they were stored at -20°C pending DNA extraction.\n\nTo minimize disturbance to the gorillas, care was taken not to approach their nests or trails too closely during sample collection. Additionally, samples were collected only from areas where there was no evidence of recent gorilla activity to further reduce the risk of disturbing the animals.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 61732285833, 'load_duration': 49615916, 'prompt_eval_count': 473, 'prompt_eval_duration': 3697608334, 'eval_count': 154, 'eval_duration': 9107247590}
+
+=== Documents hypothétiques générés ===
+
+Document hypothétique 1:
+--------------------------------------------------
+"DNA sampling methods used in wild animal genetic analysis"
+
+In this study, we employed non-invasive DNA sampling methods to minimize disturbance and stress to the targeted wildlife populations. Our primary sampling technique involved the collection of fecal samples using barbed wire loops placed along animal trails or beneath feeding platforms. We utilized latex gloves to handle the samples and prevent cross-contamination, storing them in sterile 50 mL centrifuge tubes containing silica beads for later extraction of DNA.
+
+We established a standardized protocol with weekly collections over a period of four months. Each sample was geo-referenced using a GPS device, and care was taken to ensure that no more than five samples were collected from any single individual during the study period to avoid excessive disturbance. We also monitored animal behavior before, during, and after sampling to assess any signs of stress or perturbation. No significant changes in behavior were observed, indicating that our non-invasive approach had minimal impact on the animals.
+
+Additionally, we employed hair snare traps baited with peanut butter to collect shed hairs for genetic analysis. These traps were checked daily and cleared promptly to minimize animal distress. Hair samples were stored dry in paper envelopes until DNA extraction could be performed.
+--------------------------------------------------
+
+Document hypothétique 2:
+--------------------------------------------------
+The sampling method used for this study was non-invasive, focusing on the collection of fecal samples from wild animals. Feces were collected using sterile gloves and placed in individual Whirl-Pak bags (Nasco, Fort Atkinson, WI, USA) to minimize contamination and preserve DNA integrity. Sampling was conducted along predetermined transects within each site, with a minimum distance of 50 meters between consecutive samples to avoid pseudoreplication. Each sample was geo-referenced using a GPS device (Garmin eTrex H, Olathe, KS, USA) and collected approximately every 10 days over a period of three months to ensure sufficient genetic material while minimizing disturbance to the animals' habitats. Ethically, caution was taken to avoid areas with visible animal activity or signs of stress during sampling to minimize perturbation of wildlife.
+--------------------------------------------------
+
+Document hypothétique 3:
+--------------------------------------------------
+Methods:
+
+Non-invasive fecal sampling was employed to collect genetic material from wild mountain gorillas (Gorilla gorilla beringei) in Volcanoes National Park, Rwanda. Fresh fecal samples were collected opportunistically during routine patrols by park rangers and research teams. Each sample was located using GPS coordinates and marked with a unique identifier for tracking purposes. Samples were stored individually in sterile zip-top bags and kept cool until transportation to the laboratory where they were stored at -20°C pending DNA extraction.
+
+To minimize disturbance to the gorillas, care was taken not to approach their nests or trails too closely during sample collection. Additionally, samples were collected only from areas where there was no evidence of recent gorilla activity to further reduce the risk of disturbing the animals.
+--------------------------------------------------
+
+=== Fin des documents hypothétiques ===
+
+
+=== Statistiques des scores de similarité ===
+Score minimum initial: 0.7719
+Score maximum initial: 0.8999
+Score moyen initial: 0.8196
+
+=== Statistiques après filtrage dynamique ===
+Seuil dynamique appliqué: 0.8221
+Score minimum conservé: 0.8138
+Score maximum conservé: 0.8999
+Score moyen conservé: 0.8495
+Nombre de documents conservés: 5
+Documents récupérés : 5
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:34:03.2602Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "A total of 355 samples were collected between 2009 and 2012, and 13 samples were collected between 2004 and 2008 (Fig. 1). We analysed 16 tissue samples obtained from dead animals, legally killed following the derogation rules of EU directive 92/43 and animals trapped for GPS collaring, 189 non-invasively collected hair samples from barbed wire traps, scratch trees and fences, and 163 scat samples.",\n    "Tissue and scat samples were stored in 96% ethanol. Hair samples were stored dark in filter paper with silica gel packs at room temperature.",\n    "For DNA extraction from tissue we used the Qiagen Blood and Tissue Kit following the manufacturer\'s instructions, measured DNA concentration using a spectrometer (NanoDrop1000; Thermo Scientific) and diluted DNA to 6.5 ng/l for further analyses. For DNA extraction from hair samples we cut the roots from 5 to 15 hairs and processed these with the Qiagen Investigator Kit as per manufacturer\'s instructions. The QIAamp DNA Stool Kit was used to extract DNA from faecal samples."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 31781273792, 'load_duration': 57207500, 'prompt_eval_count': 762, 'prompt_eval_duration': 4697644584, 'eval_count': 279, 'eval_duration': 16357768749}
+Chunk : A total of 355 samples were collected between 2009 and 2012, and 13 samples were collected between 2004 and 2008 (Fig. 1). We analysed 16 tissue samples obtained from dead animals, legally killed following the derogation rules of EU directive 92/43 and animals trapped for GPS collaring, 189 non-invasively collected hair samples from barbed wire traps, scratch trees and fences, and 163 scat samples. While usually bear scats and hair samples are quite well distinguishable from other species, there might be misidentifications, e.g., if only few hairs from the underfur were sampled from a hair trap. In order to proof the potential occurrence of bears in corridor regions sample material of unclear source was occasionally collected as well. Tissue and scat samples were stored in 96% ethanol. Hair samples were stored dark in filter paper with silica gel packs at room temperature. For DNA extraction from tissue we used the Qiagen Blood and Tissue Kit following the manufacturer's instructions, measured DNA concentration using a spectrometer (NanoDrop1000; Thermo Scientific) and diluted DNA to 6.5 ng/l for further analyses. For DNA extraction from hair samples we cut the roots from 5 to 15 hairs and processed these with the Qiagen Investigator Kit as per manufacturer's instructions. The QIAamp DNA Stool Kit was used to extract DNA from faecal samples. We included negative controls in extraction process to check for cross-contamination during this step. The analyses of hair and scat samples were performed in a laboratory dedicated to the handling of noninvasive and forensic DNA samples following standard routines for avoidance of contamination (Taberlet et al. 1999).
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "A total of 355 samples were collected between 2009 and 2012, and 13 samples were collected between 2004 and 2008 (Fig. 1). We analysed 16 tissue samples obtained from dead animals, legally killed following the derogation rules of EU directive 92/43 and animals trapped for GPS collaring, 189 non-invasively collected hair samples from barbed wire traps, scratch trees and fences, and 163 scat samples.",
+    "Tissue and scat samples were stored in 96% ethanol. Hair samples were stored dark in filter paper with silica gel packs at room temperature.",
+    "For DNA extraction from tissue we used the Qiagen Blood and Tissue Kit following the manufacturer's instructions, measured DNA concentration using a spectrometer (NanoDrop1000; Thermo Scientific) and diluted DNA to 6.5 ng/l for further analyses. For DNA extraction from hair samples we cut the roots from 5 to 15 hairs and processed these with the Qiagen Investigator Kit as per manufacturer's instructions. The QIAamp DNA Stool Kit was used to extract DNA from faecal samples."
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:34:21.690371Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "We used hair and scat samples",\n    "PCR conditions were similar as described in Frosch et al. (2011)",\n    "Microsatellite analyses were conducted on a 3730 DNA Analyzer (Applied Biosystems) with subsequent determination of fragment lengths using Genemarker 1.6 software (SoftGenetics)"\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 18425191667, 'load_duration': 45286333, 'prompt_eval_count': 739, 'prompt_eval_duration': 4502982917, 'eval_count': 95, 'eval_duration': 5525002870}
+Chunk : For genetic profiling we used 13 microsatellite loci (Msut2, Kitahara et al. 2000;G10C, G10P, G10D, G10L, Paetkau et al. 1995;G10H, G10J, G10U, Paetkau and Strobeck 1994;UarMU26, G1A Taberlet et al. 1997;Mu10, Mu23, Mu51, Bellemain and Taberlet 2004) in three multiplexes and four PCR replicates for hair and scat samples. We also tested the microsatellites Mu51, Mu59, Mu23 (Bellemain and Taberlet 2004); CXX110 (Ostrander et al. 1995) and G10M (Paetkau et al. 1995) but did not use them in the final analyses because of general unreliable amplification or poor amplification in PCR multiplex reactions. PCR conditions were similar as described in Frosch et al. (2011). Microsatellite analyses were conducted on a 3730 DNA Analyzer (Applied Biosystems) with subsequent determination of fragment lengths using Genemarker 1.6 software (SoftGenetics). After replicated genotyping the consensus genotype was constructed by hand if at least two of the four replicates matched. Error rates were estimated using Gimlet 1.3.3 (Valière 2002) including the consensus genotypes in the input file.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "We used hair and scat samples",
+    "PCR conditions were similar as described in Frosch et al. (2011)",
+    "Microsatellite analyses were conducted on a 3730 DNA Analyzer (Applied Biosystems) with subsequent determination of fragment lengths using Genemarker 1.6 software (SoftGenetics)"
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:34:46.249803Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "All 16 tissue samples yielded reliable results for mitochondrial DNA (mtDNA) analysis and microsatellites.",\n    "In 80.4% of the analysed noninvasive samples we found bear DNA (based on mitochondrial haplotyping).",\n    "We were able to obtain bear DNA from 76.2% of all hair samples whereas from 7.4% of all hair samples we did not gain evaluable sequence data (due to low DNA quality or contamination).",\n    "For scat samples, 84.7% were brown bear and 7.4% failed, showed ambiguous bases or signs of contamination.",\n    "Microsatellite analyses were performed with all 299 samples showing bear DNA in the mitochondrial sequence analyses."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 24557062875, 'load_duration': 46394791, 'prompt_eval_count': 733, 'prompt_eval_duration': 4525317584, 'eval_count': 179, 'eval_duration': 10458960708}
+Chunk : All 16 tissue samples yielded reliable results for mitochondrial DNA (mtDNA) analysis and microsatellites. In 80.4% of the analysed noninvasive samples we found bear DNA (based on mitochondrial haplotyping). We were able to obtain bear DNA from 76.2% of all hair samples whereas from 7.4% of all hair samples we did not gain evaluable sequence data (due to low DNA quality or contamination). For 15.9% of the samples, mtDNA analyses clearly revealed that hairs did not originate from brown bears but from a variety of wild or domestic mammals (Table 1). For scat samples, 84.7% were brown bear and 7.4% failed, showed ambiguous bases or signs of contamination. In 7.4% DNA from scat samples resulted in the detection of other species (Table 1). Microsatellite analyses were performed with all 299 samples showing bear DNA in the mitochondrial sequence analyses. We accepted genetic fingerprints when at least eight out of thirteen microsatellites could be scored in the consensus genotype. The majority of all samples provided microsatellite genotypes for all 13 loci and 94% of all samples resulted in ten or more successfully amplified microsatellites (13 = 62%; 12 = 19.6%; 11 = 8.8%; 10 = 4%; 9 = 2.4%; 8 = 3.2%). We detected an overall PCR success of 87.7%, with 11% allelic dropout errors and 1.1% of false alleles.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "All 16 tissue samples yielded reliable results for mitochondrial DNA (mtDNA) analysis and microsatellites.",
+    "In 80.4% of the analysed noninvasive samples we found bear DNA (based on mitochondrial haplotyping).",
+    "We were able to obtain bear DNA from 76.2% of all hair samples whereas from 7.4% of all hair samples we did not gain evaluable sequence data (due to low DNA quality or contamination).",
+    "For scat samples, 84.7% were brown bear and 7.4% failed, showed ambiguous bases or signs of contamination.",
+    "Microsatellite analyses were performed with all 299 samples showing bear DNA in the mitochondrial sequence analyses."
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:35:16.877842Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": false\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 30621668209, 'load_duration': 48082959, 'prompt_eval_count': 500, 'prompt_eval_duration': 3585961125, 'eval_count': 12, 'eval_duration': 682169499}
+Chunk : We used Capwire (Miller et al. 2005) for estimation of total population size (N c ) based on the identified genotypes. The estimation is based on the number of resampling the genetically distinct individuals at multiple sampling occasions. Due to unequal capture probability of different individuals determined by the test in our sample (˛ = 7.8), the TIRM Model was selected. Calculation of N c was done only for samples collected in 2009 and 2010 to ensure that they represent the current population size.
+Réponse du modèle : {
+"contient_protocole": false
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:35:34.431105Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": false\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 17540577125, 'load_duration': 48121750, 'prompt_eval_count': 819, 'prompt_eval_duration': 5120531834, 'eval_count': 12, 'eval_duration': 649438501}
+Chunk : The individualisation of brown bears from the complete data set was performed using the program Coancestry 1.0.1.1 (Wang 2011). To determine which relatedness estimator is the best for our type of data, we used the observed allele frequencies of our microsatellite data and simulated 500 dyads of brown bears of varying relatedness coefficients (unrelated r = 0, monozygotic twins r = 1, parent-offspring r = 0.5, fullsibs r = 0.5, halfsibs r = 0.25 and first cousins r = 0.125). Based on this simulation we found the triadic likelihood estimator (TioML) described in Wang (2007) and the dyadic likelihood estimator (DyadML; Milligan 2003) to perform best. These produced a strong correlation with expected values of r (R 2 = 0.91 and 0.9). All pairwise relatedness values of the analysed bear samples were obtained from Coancestry with standard settings to construct a genetic relatedness matrix. We checked all sample combinations with r > 0.6 manually and involved sex and mitochondrial haplotype information for individualisation. The unbiased (PID unb ) and the expected (PID sibs ) probability-of-identity among full sib dyads (Mills et al. 2000) was calculated using the software GenAlex 6.41 (Peakall and Smouse 2006; http://www.anu.edu.au/BoZo/GenAlEx). To analyse kinship we calculated the pairwise relatedness between individual bears using the software ML-Relate (Kalinowski et al. 2006a, http://www.montana.edu/kalinowski/ Software/MLRelate.htm) with 50,000 randomisations. Expected and observed mismatch (MM) values were computed using MMdist (Kalinowski et al. 2006b).
+Réponse du modèle : {
+"contient_protocole": false
+}
+Protocoles détectés : 5
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:36:32.000777Z', 'message': {'role': 'assistant', 'content': '[\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "A total of 355 samples were collected between 2009 and 2012, and 13 samples were collected between 2004 and 2008 (Fig. 1). We analysed 16 tissue samples obtained from dead animals, legally killed following the derogation rules of EU directive 92/43 and animals trapped for GPS collaring, 189 non-invasively collected hair samples from barbed wire traps, scratch trees and fences, and 163 scat samples.",\n      "Tissue and scat samples were stored in 96% ethanol. Hair samples were stored dark in filter paper with silica gel packs at room temperature.",\n      "For DNA extraction from tissue we used the Qiagen Blood and Tissue Kit following the manufacturer\\\'s instructions, measured DNA concentration using a spectrometer (NanoDrop1000; Thermo Scientific) and diluted DNA to 6.5 ng/l for further analyses. For DNA extraction from hair samples we cut the roots from 5 to 15 hairs and processed these with the Qiagen Investigator Kit as per manufacturer\\\'s instructions. The QIAamp DNA Stool Kit was used to extract DNA from faecal samples."\n    ]\n  },\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "We used hair and scat samples",\n      "PCR conditions were similar as described in Frosch et al. (2011)",\n      "Microsatellite analyses were conducted on a 3730 DNA Analyzer (Applied Biosystems) with subsequent determination of fragment lengths using Genemarker 1.6 software (SoftGenetics)"\n    ]\n  },\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "All 16 tissue samples yielded reliable results for mitochondrial DNA (mtDNA) analysis and microsatellites.",\n      "In 80.4% of the analysed noninvasive samples we found bear DNA (based on mitochondrial haplotyping).",\n      "We were able to obtain bear DNA from 76.2% of all hair samples whereas from 7.4% of all hair samples we did not gain evaluable sequence data (due to low DNA quality or contamination).",\n      "For scat samples, 84.7% were brown bear and 7.4% failed, showed ambiguous bases or signs of contamination.",\n      "Microsatellite analyses were performed with all 299 samples showing bear DNA in the mitochondrial sequence analyses."\n    ]\n  }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 57556590042, 'load_duration': 44973542, 'prompt_eval_count': 1046, 'prompt_eval_duration': 6485679791, 'eval_count': 570, 'eval_duration': 34022937714}
+Protocoles fusionnés : [
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "A total of 355 samples were collected between 2009 and 2012, and 13 samples were collected between 2004 and 2008 (Fig. 1). We analysed 16 tissue samples obtained from dead animals, legally killed following the derogation rules of EU directive 92/43 and animals trapped for GPS collaring, 189 non-invasively collected hair samples from barbed wire traps, scratch trees and fences, and 163 scat samples.",
+      "Tissue and scat samples were stored in 96% ethanol. Hair samples were stored dark in filter paper with silica gel packs at room temperature.",
+      "For DNA extraction from tissue we used the Qiagen Blood and Tissue Kit following the manufacturer\'s instructions, measured DNA concentration using a spectrometer (NanoDrop1000; Thermo Scientific) and diluted DNA to 6.5 ng/l for further analyses. For DNA extraction from hair samples we cut the roots from 5 to 15 hairs and processed these with the Qiagen Investigator Kit as per manufacturer\'s instructions. The QIAamp DNA Stool Kit was used to extract DNA from faecal samples."
+    ]
+  },
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "We used hair and scat samples",
+      "PCR conditions were similar as described in Frosch et al. (2011)",
+      "Microsatellite analyses were conducted on a 3730 DNA Analyzer (Applied Biosystems) with subsequent determination of fragment lengths using Genemarker 1.6 software (SoftGenetics)"
+    ]
+  },
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "All 16 tissue samples yielded reliable results for mitochondrial DNA (mtDNA) analysis and microsatellites.",
+      "In 80.4% of the analysed noninvasive samples we found bear DNA (based on mitochondrial haplotyping).",
+      "We were able to obtain bear DNA from 76.2% of all hair samples whereas from 7.4% of all hair samples we did not gain evaluable sequence data (due to low DNA quality or contamination).",
+      "For scat samples, 84.7% were brown bear and 7.4% failed, showed ambiguous bases or signs of contamination.",
+      "Microsatellite analyses were performed with all 299 samples showing bear DNA in the mitochondrial sequence analyses."
+    ]
+  }
+]
+Nombre de protocoles après fusion : 3
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:37:20.602621Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["A total of 355 samples were collected between 2009 and 2012, and 13 samples were collected between 2004 and 2008 (Fig. 1). We analysed 16 tissue samples obtained from dead animals, legally killed following the derogation rules of EU directive 92/43 and animals trapped for GPS collaring, 189 non-invasively collected hair samples from barbed wire traps, scratch trees and fences, and 163 scat samples."],\n"taxon_identifie": "Mammifère",\n"echantillon": "Tissus et fèces",\n"mots_cles_invasivite": ["legally killed", "trapped"],\n"mots_cles_non_invasivite": ["non-invasively collected"],\n"evaluation_invasivite": "Invasif",\n"justification_invasivite": "Le protocole implique la capture et le piégeage d\'animaux, ce qui cause du stress et potentiellement des blessures.",\n"signaux_alarme": ["legally killed", "trapped"],\n"impacts_potentiels": ["Stress", "Blessures"],\n"peches_identifies": ["3"],\n"informations_manquantes": [],\n"taux_de_confiance": "100%"\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 48588002958, 'load_duration': 50843125, 'prompt_eval_count': 2282, 'prompt_eval_duration': 14419719668, 'eval_count': 305, 'eval_duration': 18628165577}
+Analyse du protocole avec les extraits : A total of 355 samples were collected between 2009 and 2012, and 13 samples were collected between 2004 and 2008 (Fig. 1). We analysed 16 tissue samples obtained from dead animals, legally killed following the derogation rules of EU directive 92/43 and animals trapped for GPS collaring, 189 non-invasively collected hair samples from barbed wire traps, scratch trees and fences, and 163 scat samples.
+Tissue and scat samples were stored in 96% ethanol. Hair samples were stored dark in filter paper with silica gel packs at room temperature.
+For DNA extraction from tissue we used the Qiagen Blood and Tissue Kit following the manufacturer's instructions, measured DNA concentration using a spectrometer (NanoDrop1000; Thermo Scientific) and diluted DNA to 6.5 ng/l for further analyses. For DNA extraction from hair samples we cut the roots from 5 to 15 hairs and processed these with the Qiagen Investigator Kit as per manufacturer's instructions. The QIAamp DNA Stool Kit was used to extract DNA from faecal samples.
+Réponse du modèle : {
+"extrait_pertinent": ["A total of 355 samples were collected between 2009 and 2012, and 13 samples were collected between 2004 and 2008 (Fig. 1). We analysed 16 tissue samples obtained from dead animals, legally killed following the derogation rules of EU directive 92/43 and animals trapped for GPS collaring, 189 non-invasively collected hair samples from barbed wire traps, scratch trees and fences, and 163 scat samples."],
+"taxon_identifie": "Mammifère",
+"echantillon": "Tissus et fèces",
+"mots_cles_invasivite": ["legally killed", "trapped"],
+"mots_cles_non_invasivite": ["non-invasively collected"],
+"evaluation_invasivite": "Invasif",
+"justification_invasivite": "Le protocole implique la capture et le piégeage d'animaux, ce qui cause du stress et potentiellement des blessures.",
+"signaux_alarme": ["legally killed", "trapped"],
+"impacts_potentiels": ["Stress", "Blessures"],
+"peches_identifies": ["3"],
+"informations_manquantes": [],
+"taux_de_confiance": "100%"
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:37:59.753857Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["We used hair and scat samples"],\n"taxon_identifie": "Mammifère",\n"echantillon": "Cheveux et fèces",\n"mots_cles_invasivite": [],\n"mots_cles_non_invasivite": ["naturally"],\n"evaluation_invasivite": "Non invasif",\n"justification_invasivite": "La collecte de cheveux et de fèces est considérée comme non invasive selon la définition de Taberlet et al. (1999), car elle n\'implique pas de contact direct avec l\'animal vivant ni de perturbation significative de son habitat.",\n"signaux_alarme": [],\n"impacts_potentiels": [],\n"peches_identifies": [],\n"informations_manquantes": ["Il n\'y a pas d\'informations sur la fréquence ou l\'intensité de l\'échantillonnage"],\n"taux_de_confiance": "80% - Justification : La présence du mot-clé \'naturally\' indique une collecte non invasive, mais il manque des informations sur la fréquence et l\'intensité de l\'échantillonnage."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 39137268667, 'load_duration': 52043250, 'prompt_eval_count': 2098, 'prompt_eval_duration': 13138131000, 'eval_count': 252, 'eval_duration': 15274266341}
+Analyse du protocole avec les extraits : We used hair and scat samples
+PCR conditions were similar as described in Frosch et al. (2011)
+Microsatellite analyses were conducted on a 3730 DNA Analyzer (Applied Biosystems) with subsequent determination of fragment lengths using Genemarker 1.6 software (SoftGenetics)
+Réponse du modèle : {
+"extrait_pertinent": ["We used hair and scat samples"],
+"taxon_identifie": "Mammifère",
+"echantillon": "Cheveux et fèces",
+"mots_cles_invasivite": [],
+"mots_cles_non_invasivite": ["naturally"],
+"evaluation_invasivite": "Non invasif",
+"justification_invasivite": "La collecte de cheveux et de fèces est considérée comme non invasive selon la définition de Taberlet et al. (1999), car elle n'implique pas de contact direct avec l'animal vivant ni de perturbation significative de son habitat.",
+"signaux_alarme": [],
+"impacts_potentiels": [],
+"peches_identifies": [],
+"informations_manquantes": ["Il n'y a pas d'informations sur la fréquence ou l'intensité de l'échantillonnage"],
+"taux_de_confiance": "80% - Justification : La présence du mot-clé 'naturally' indique une collecte non invasive, mais il manque des informations sur la fréquence et l'intensité de l'échantillonnage."
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:38:37.499888Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["All 16 tissue samples yielded reliable results for mitochondrial DNA (mtDNA) analysis and microsatellites.", "In 80.4% of the analysed noninvasive samples we found bear DNA (based on mitochondrial haplotyping)."],\n"taxon_identifie": "Mammifère",\n"echantillon": "Échantillons de tissu",\n"mots_cles_invasivite": [],\n"mots_cles_non_invasivite": ["noninvasive"],\n"evaluation_invasivite": "Non invasif",\n"justification_invasivite": "Les échantillons de tissu ont été analysés pour l\'ADN mitochondrial et les microsatellites, ce qui indique une méthode non invasive.",\n"signaux_alarme": [],\n"impacts_potentiels": [],\n"peches_identifies": [],\n"informations_manquantes": ["Il n\'y a pas d\'informations sur la manière dont les échantillons de tissu ont été obtenus."],\n"taux_de_confiance": "70-89% (Implicite fort) car il y a des éléments permettant une déduction solide, mais il manque des informations sur la méthode exacte utilisée pour obtenir les échantillons."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 37738149500, 'load_duration': 46466167, 'prompt_eval_count': 2176, 'prompt_eval_duration': 13555151502, 'eval_count': 274, 'eval_duration': 16620209836}
+Analyse du protocole avec les extraits : All 16 tissue samples yielded reliable results for mitochondrial DNA (mtDNA) analysis and microsatellites.
+In 80.4% of the analysed noninvasive samples we found bear DNA (based on mitochondrial haplotyping).
+We were able to obtain bear DNA from 76.2% of all hair samples whereas from 7.4% of all hair samples we did not gain evaluable sequence data (due to low DNA quality or contamination).
+For scat samples, 84.7% were brown bear and 7.4% failed, showed ambiguous bases or signs of contamination.
+Microsatellite analyses were performed with all 299 samples showing bear DNA in the mitochondrial sequence analyses.
+Réponse du modèle : {
+"extrait_pertinent": ["All 16 tissue samples yielded reliable results for mitochondrial DNA (mtDNA) analysis and microsatellites.", "In 80.4% of the analysed noninvasive samples we found bear DNA (based on mitochondrial haplotyping)."],
+"taxon_identifie": "Mammifère",
+"echantillon": "Échantillons de tissu",
+"mots_cles_invasivite": [],
+"mots_cles_non_invasivite": ["noninvasive"],
+"evaluation_invasivite": "Non invasif",
+"justification_invasivite": "Les échantillons de tissu ont été analysés pour l'ADN mitochondrial et les microsatellites, ce qui indique une méthode non invasive.",
+"signaux_alarme": [],
+"impacts_potentiels": [],
+"peches_identifies": [],
+"informations_manquantes": ["Il n'y a pas d'informations sur la manière dont les échantillons de tissu ont été obtenus."],
+"taux_de_confiance": "70-89% (Implicite fort) car il y a des éléments permettant une déduction solide, mais il manque des informations sur la méthode exacte utilisée pour obtenir les échantillons."
+}
+Analyses générées : 3
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:39:24.311176Z', 'message': {'role': 'assistant', 'content': '[\n    {\n        "protocole": "Collecte d\'échantillons de mammifères",\n        "extrait_pertinent": ["A total of 355 samples were collected between 2009 and 2012, and 13 samples were collected between 2004 and 2008 (Fig. 1). We analysed 16 tissue samples obtained from dead animals, legally killed following the derogation rules of EU directive 92/43 and animals trapped for GPS collaring, 189 non-invasively collected hair samples from barbed wire traps, scratch trees and fences, and 163 scat samples.", "We used hair and scat samples"],\n        "taxon_identifie": "Mammifère",\n        "echantillon": "Tissus et fèces",\n        "mots_cles_invasivite": ["legally killed", "trapped"],\n        "mots_cles_non_invasivite": ["non-invasively collected", "naturally"],\n        "evaluation_invasivite": "Invasif",\n        "justification_invasivite": "Le protocole implique la capture et le piégeage d\'animaux, ce qui cause du stress et potentiellement des blessures.",\n        "signaux_alarme": ["legally killed", "trapped"],\n        "impacts_potentiels": ["Stress", "Blessures"],\n        "peches_identifies": ["3"],\n        "informations_manquantes": ["Il n\'y a pas d\'informations sur la fréquence ou l\'intensité de l\'échantillonnage"],\n        "taux_de_confiance": "80% - Justification : La présence du mot-clé \'naturally\' indique une collecte non invasive, mais il manque des informations sur la fréquence et l\'intensité de l\'échantillonnage."\n    }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 46803439375, 'load_duration': 48817250, 'prompt_eval_count': 1855, 'prompt_eval_duration': 11524794208, 'eval_count': 413, 'eval_duration': 24955150407}
+Réponse finale : [
+    {
+        "protocole": "Collecte d'échantillons de mammifères",
+        "extrait_pertinent": ["A total of 355 samples were collected between 2009 and 2012, and 13 samples were collected between 2004 and 2008 (Fig. 1). We analysed 16 tissue samples obtained from dead animals, legally killed following the derogation rules of EU directive 92/43 and animals trapped for GPS collaring, 189 non-invasively collected hair samples from barbed wire traps, scratch trees and fences, and 163 scat samples.", "We used hair and scat samples"],
+        "taxon_identifie": "Mammifère",
+        "echantillon": "Tissus et fèces",
+        "mots_cles_invasivite": ["legally killed", "trapped"],
+        "mots_cles_non_invasivite": ["non-invasively collected", "naturally"],
+        "evaluation_invasivite": "Invasif",
+        "justification_invasivite": "Le protocole implique la capture et le piégeage d'animaux, ce qui cause du stress et potentiellement des blessures.",
+        "signaux_alarme": ["legally killed", "trapped"],
+        "impacts_potentiels": ["Stress", "Blessures"],
+        "peches_identifies": ["3"],
+        "informations_manquantes": ["Il n'y a pas d'informations sur la fréquence ou l'intensité de l'échantillonnage"],
+        "taux_de_confiance": "80% - Justification : La présence du mot-clé 'naturally' indique une collecte non invasive, mais il manque des informations sur la fréquence et l'intensité de l'échantillonnage."
+    }
+]
+
+--- Méthode avec Refine et detect_non_invasive_level ---
+Traitement du lot 1/2 (documents 1-10)
+Lot 1 indexé avec succès: 10 documents
+Traitement du lot 2/2 (documents 11-20)
+Lot 2 indexé avec succès: 10 documents
+20/20 documents indexés depuis RAG/output_invasive_detection/1-s2.0-S1616504714000342-main.json
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:39:39.330815Z', 'message': {'role': 'assistant', 'content': "The genetic sampling protocol employed for the brown bears in Bulgarian mountain regions was designed to minimize invasion. This noninvasive method involved the collection of shed hair samples from various locations within the bears' habitats during the autumnal moutning season. This approach eliminates the need for direct animal contact, reducing stress and potential disturbance to the animals. Furthermore, no capture or anesthetization was required, ensuring that the procedure had minimal impact on the bears' health and behavior. The use of hair samples also provides sufficient genetic material for analysis while being relatively easy to collect, making this method a practical choice for studying wild animal populations with limited resources available for more invasive techniques."}, 'done': True, 'done_reason': 'stop', 'total_duration': 11993550042, 'load_duration': 50533875, 'prompt_eval_count': 351, 'prompt_eval_duration': 2146543417, 'eval_count': 131, 'eval_duration': 7650177245}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:39:54.610903Z', 'message': {'role': 'assistant', 'content': '"To obtain non-invasive genetic samples from mammals, we employed hair snares and barbed wire fences as trapping methods. These techniques allow for the collection of shed hairs without direct contact with or capture of the animals. The use of these non-trapping methods minimizes disturbance to the animals and reduces stress compared to conventional live-capture techniques. Furthermore, no anesthesia was required for this procedure, making it completely non-invasive according to the definitions by Waits and Paetkau (2005). The collected hair samples were subsequently analyzed using non-destructive DNA extraction protocols, ensuring that the genetic material obtained did not compromise the integrity of the samples."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 15275400542, 'load_duration': 46864125, 'prompt_eval_count': 351, 'prompt_eval_duration': 2136996833, 'eval_count': 133, 'eval_duration': 7741953244}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:40:15.237313Z', 'message': {'role': 'assistant', 'content': '"Sample collection from mammals was deemed a noninvasive method for obtaining genetic samples in the studied animals. This approach involved the use of hair snares and barbed wire loops attached to trees or other structures in known animal habitats. These devices capture loose hairs shed by animals as they pass by, eliminating the need for direct contact with or capture of the animals. Consequently, there was no requirement for anesthesia or handling of the animals, ensuring minimal disturbance and stress to the wildlife population. This noninvasive approach allowed for the collection of sufficient genetic material for analysis while maintaining the welfare and integrity of the studied species."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 20621317041, 'load_duration': 46632375, 'prompt_eval_count': 351, 'prompt_eval_duration': 2138333291, 'eval_count': 121, 'eval_duration': 7074956621}
+
+=== Documents hypothétiques générés ===
+
+Document hypothétique 1:
+--------------------------------------------------
+The genetic sampling protocol employed for the brown bears in Bulgarian mountain regions was designed to minimize invasion. This noninvasive method involved the collection of shed hair samples from various locations within the bears' habitats during the autumnal moutning season. This approach eliminates the need for direct animal contact, reducing stress and potential disturbance to the animals. Furthermore, no capture or anesthetization was required, ensuring that the procedure had minimal impact on the bears' health and behavior. The use of hair samples also provides sufficient genetic material for analysis while being relatively easy to collect, making this method a practical choice for studying wild animal populations with limited resources available for more invasive techniques.
+--------------------------------------------------
+
+Document hypothétique 2:
+--------------------------------------------------
+"To obtain non-invasive genetic samples from mammals, we employed hair snares and barbed wire fences as trapping methods. These techniques allow for the collection of shed hairs without direct contact with or capture of the animals. The use of these non-trapping methods minimizes disturbance to the animals and reduces stress compared to conventional live-capture techniques. Furthermore, no anesthesia was required for this procedure, making it completely non-invasive according to the definitions by Waits and Paetkau (2005). The collected hair samples were subsequently analyzed using non-destructive DNA extraction protocols, ensuring that the genetic material obtained did not compromise the integrity of the samples."
+--------------------------------------------------
+
+Document hypothétique 3:
+--------------------------------------------------
+"Sample collection from mammals was deemed a noninvasive method for obtaining genetic samples in the studied animals. This approach involved the use of hair snares and barbed wire loops attached to trees or other structures in known animal habitats. These devices capture loose hairs shed by animals as they pass by, eliminating the need for direct contact with or capture of the animals. Consequently, there was no requirement for anesthesia or handling of the animals, ensuring minimal disturbance and stress to the wildlife population. This noninvasive approach allowed for the collection of sufficient genetic material for analysis while maintaining the welfare and integrity of the studied species."
+--------------------------------------------------
+
+=== Fin des documents hypothétiques ===
+
+
+=== Statistiques des scores de similarité ===
+Score minimum initial: 0.8079
+Score maximum initial: 0.8892
+Score moyen initial: 0.8486
+
+=== Statistiques après filtrage dynamique ===
+Seuil dynamique appliqué: 0.8598
+Score minimum conservé: 0.8583
+Score maximum conservé: 0.8892
+Score moyen conservé: 0.8731
+Nombre de documents conservés: 5
+Prompt : 
+Voici un extrait d'article scientifique :
+
+"""["A total of 355 samples were collected between 2009 and 2012, and 13 samples were collected between 2004 and 2008 (Fig. 1). We analysed 16 tissue samples obtained from dead animals, legally killed following the derogation rules of EU directive 92/43 and animals trapped for GPS collaring, 189 non-invasively collected hair samples from barbed wire traps, scratch trees and fences, and 163 scat samples. While usually bear scats and hair samples are quite well distinguishable from other species, there might be misidentifications, e.g., if only few hairs from the underfur were sampled from a hair trap. In order to proof the potential occurrence of bears in corridor regions sample material of unclear source was occasionally collected as well. Tissue and scat samples were stored in 96% ethanol. Hair samples were stored dark in filter paper with silica gel packs at room temperature. For DNA extraction from tissue we used the Qiagen Blood and Tissue Kit following the manufacturer's instructions, measured DNA concentration using a spectrometer (NanoDrop1000; Thermo Scientific) and diluted DNA to 6.5 ng/l for further analyses. For DNA extraction from hair samples we cut the roots from 5 to 15 hairs and processed these with the Qiagen Investigator Kit as per manufacturer's instructions. The QIAamp DNA Stool Kit was used to extract DNA from faecal samples. We included negative controls in extraction process to check for cross-contamination during this step. The analyses of hair and scat samples were performed in a laboratory dedicated to the handling of noninvasive and forensic DNA samples following standard routines for avoidance of contamination (Taberlet et al. 1999).", 'All 16 tissue samples yielded reliable results for mitochondrial DNA (mtDNA) analysis and microsatellites. In 80.4% of the analysed noninvasive samples we found bear DNA (based on mitochondrial haplotyping). We were able to obtain bear DNA from 76.2% of all hair samples whereas from 7.4% of all hair samples we did not gain evaluable sequence data (due to low DNA quality or contamination). For 15.9% of the samples, mtDNA analyses clearly revealed that hairs did not originate from brown bears but from a variety of wild or domestic mammals (Table 1). For scat samples, 84.7% were brown bear and 7.4% failed, showed ambiguous bases or signs of contamination. In 7.4% DNA from scat samples resulted in the detection of other species (Table 1). Microsatellite analyses were performed with all 299 samples showing bear DNA in the mitochondrial sequence analyses. We accepted genetic fingerprints when at least eight out of thirteen microsatellites could be scored in the consensus genotype. The majority of all samples provided microsatellite genotypes for all 13 loci and 94% of all samples resulted in ten or more successfully amplified microsatellites (13 = 62%; 12 = 19.6%; 11 = 8.8%; 10 = 4%; 9 = 2.4%; 8 = 3.2%). We detected an overall PCR success of 87.7%, with 11% allelic dropout errors and 1.1% of false alleles.', 'The Balkans are one of the last large refugia for brown bear (Ursus arctos) populations in Europe, and Bulgaria, in particular, contains relatively large areas of suitable brown bear habitat and a potential population of more than 600 individuals. Despite this, the majority of brown bear research remains focused on bear populations in Central and Western Europe. We provide the first assessment of genetic population structure of brown bears in Bulgaria by analysing tissue samples (n = 16) as well as samples collected with noninvasive genetic methods, including hair and faecal samples (n = 189 and n = 163, respectively). Sequence analysis of a 248 base pair fragment of the mitochondrial control region showed that two highly divergent mitochondrial European brown bear lineages form a contact zone in central Bulgaria. Furthermore, the analysis of 13 polymorphic microsatellite markers identified 136 individuals and found substantial genetic variability (H e = 0.74; N A = 8.9). The combination of both genetic markers revealed the presence of weak genetic substructure in the study area with considerable degrees of genetic admixture and the likely presence of migration corridors between the two subpopulation in the Rhodope Mountains and Stara Planina as evidenced from the genetic detection of two male long-distance dispersers. A detailed assessment from densely collected samples in the Rhodope Mountains resulted in a population size estimate of 315 (95% CI = 206-334) individuals, indicating that not all available habitat is presently occupied by bears in this region. Efficient management plans should focus on preserving connectivity of suitable habitats in order to maintain gene flow between the two Bulgarian brown bear subpopulations.', 'For genetic profiling we used 13 microsatellite loci (Msut2, Kitahara et al. 2000;G10C, G10P, G10D, G10L, Paetkau et al. 1995;G10H, G10J, G10U, Paetkau and Strobeck 1994;UarMU26, G1A Taberlet et al. 1997;Mu10, Mu23, Mu51, Bellemain and Taberlet 2004) in three multiplexes and four PCR replicates for hair and scat samples. We also tested the microsatellites Mu51, Mu59, Mu23 (Bellemain and Taberlet 2004); CXX110 (Ostrander et al. 1995) and G10M (Paetkau et al. 1995) but did not use them in the final analyses because of general unreliable amplification or poor amplification in PCR multiplex reactions. PCR conditions were similar as described in Frosch et al. (2011). Microsatellite analyses were conducted on a 3730 DNA Analyzer (Applied Biosystems) with subsequent determination of fragment lengths using Genemarker 1.6 software (SoftGenetics). After replicated genotyping the consensus genotype was constructed by hand if at least two of the four replicates matched. Error rates were estimated using Gimlet 1.3.3 (Valière 2002) including the consensus genotypes in the input file.', '2). In contrast, low values of H e ranging from 0.25 to 0.45 were found in southwestern Europe (Spain, Italy, France; Pérez et al. 2009Pérez et al. , 2010;;Lorenzini et al. 2004;Taberlet et al. 1997). In comparison, H e in this study is comparable to other large populations from the Balkan peninsula. Approximately one-fourth of Bulgaria is known to be suitable brown bear territory (28,268 km 2 ) whereas less than half that (11,000 km 2 ) is currently occupied by brown bears (Action Plan for the Brown Bear in Bulgaria, 2008). However, the reported population size estimation for Bulgaria of 600-800 individuals is only a rough estimation and our finding of 315 (95% CI = 206-334) individuals based on noninvasively collected sample material in the Bulgarian part of the Rhodope Mountains is not a reliable basis for management decisions. According to the Bulgarian habitat suitability model, the carrying capacity of Rhodope Mountains alone is between 430 and 530 individuals (Zlatanova 2010). Sampling in this study was mainly opportunistic and geographically biased. In addition, non-resident individuals like migrants from Greece or long-distance dispersers from other mountain ranges, as well as cubs, were included in the calculations. In future, area-wide sampling of genetic material as well as sampling across state borders and a standardised capture-recapture design may help to improve the data set and provide a more precise population size estimation. In general Bulgaria offers large areas of suitable bear habitat with the potential for increasing bear population sizes. However, the ongoing expansion of humans and the increase of anthropogenic factors like road systems (Kaphegyi et al. 2013) influences the coexistence of humans and bears. Noninvasively collected sample material of two male brown bear individuals was found in both large regions, namely the Stara Planina and Rilo-Rhodopean massif. This provided, for the first time, direct evidence that narrow corridors exist (Zlatanova et al. 2009), are currently used by bears, and connect the two main population segments in Bulgaria. These potential migration corridors between Central Balkan and the Rilo-Rhodopean massif are rather narrow and most likely result in a low exchange rate. Moreover, the existing Trakia motorway is poorly equipped with animal crossing infrastructures and forms a significant barrier which additionally prevents the exchange between the two population segments (Kaphegyi et al. 2013). Thus, there is a need of multiple animal crossing structures over the motorway to preserve the existing genetic exchange between the two areas. The proper management of this stepping-stone area should play a significant role in further land use management. Transnational network and a combination of all recent genetic studies of the Balkan region is crucial to optimise the management and therefore ensure long term survival of species such as the brown bear.']"""
+
+Le protocole suivant a été détecté comme étant invasif par une analyse externe :
+{'nom': "Collecte d'échantillons de mammifères", 'description': ['A total of 355 samples were collected between 2009 and 2012, and 13 samples were collected between 2004 and 2008 (Fig. 1). We analysed 16 tissue samples obtained from dead animals, legally killed following the derogation rules of EU directive 92/43 and animals trapped for GPS collaring, 189 non-invasively collected hair samples from barbed wire traps, scratch trees and fences, and 163 scat samples.', 'We used hair and scat samples'], 'evaluation': 'Invasif'}
+
+Ta tâche est de déterminer si l'auteur de l'article affirme que ce protocole est non invasif, de manière explicite ou implicite, dans ce passage.
+
+Voici le titre de l'article :
+"Noninvasive genetic assessment of brown bear population structure in Bulgarian mountain regions"
+
+Procède étape par étape :
+
+1. Analyse le titre : contient-il une déclaration globale de non-invasivité ? Si oui, réponds "Oui" d'office.
+2. Analyse si le titre mentionne le protocole détecté comme invasif. Si ce protocole est présenté dans le titre comme non invasif, réponds aussi "Oui" d'office.
+3. Cherche dans le corps de l'article :
+- Y a-t-il une phrase indiquant explicitement que le protocole en question est non invasif ? Si oui, réponds "Oui".
+- Si une autre méthode est dite non invasive, mais ce n'est **pas celle détectée comme invasive, ce n'est pas suffisant.
+4. Si aucune déclaration claire ou implicite n'est trouvée, réponds "Non".
+5. Si le passage est trop vague ou ne permet pas de trancher, réponds "Manque d'informations".
+
+Tu dois répondre uniquement par le JSON suivant :
+```json
+{
+    "annonce_invasivite": "Oui" ou "Non" ou "Manque d'informations",
+    "justification_annonce_invasivite": "Justification courte, avec citation si utile (souvent utile pour la justification)"
+}
+```
+Si tu ne peux pas fournir une réponse, réponds "Pas de réponse".
+
+Ne donne aucune explication hors du JSON, aucune phrase d'introduction ou de conclusion.
+les clés doivent être strictement : annonce_invasivite et justification_annonce_invasivite
+
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T08:41:08.03498Z', 'message': {'role': 'assistant', 'content': '{\n    "annonce_invasivite": "Non",\n    "justification_annonce_invasivite": "Le titre de l\'article mentionne explicitement \'noninvasive genetic assessment\', mais le protocole détecté comme invasif (\'Collecte d\'échantillons de mammifères\') n\'est pas présenté dans le titre comme non invasif. De plus, il n\'y a aucune phrase dans le corps de l\'article qui indique explicitement que ce protocole est non invasif."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 52437986084, 'load_duration': 57716375, 'prompt_eval_count': 2663, 'prompt_eval_duration': 16717413251, 'eval_count': 105, 'eval_duration': 6423384627}
+
+Analyse du niveau non invasif pour le protocole Collecte d'échantillons de mammifères:
+{
+    "annonce_invasivite": "Non",
+    "justification_annonce_invasivite": "Le titre de l'article mentionne explicitement 'noninvasive genetic assessment', mais le protocole détecté comme invasif ('Collecte d'échantillons de mammifères') n'est pas présenté dans le titre comme non invasif. De plus, il n'y a aucune phrase dans le corps de l'article qui indique explicitement que ce protocole est non invasif."
+}
+non_invasive_level: [{'annonce_invasivite': 'Non', 'justification_annonce_invasivite': "Le titre de l'article mentionne explicitement 'noninvasive genetic assessment', mais le protocole détecté comme invasif ('Collecte d'échantillons de mammifères') n'est pas présenté dans le titre comme non invasif. De plus, il n'y a aucune phrase dans le corps de l'article qui indique explicitement que ce protocole est non invasif."}]
+--------------------------------
+
+Traitement terminé avec succès pour le fichier : RAG/output/1-s2.0-S1616504714000342-main.json

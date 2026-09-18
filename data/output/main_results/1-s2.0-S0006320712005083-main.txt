@@ -1,0 +1,325 @@
+Traitement du fichier : RAG/output/1-s2.0-S0006320712005083-main.json
+Traitement du lot 1/2 (documents 1-10)
+Lot 1 indexé avec succès: 10 documents
+Traitement du lot 2/2 (documents 11-17)
+Lot 2 indexé avec succès: 7 documents
+17/17 documents indexés depuis RAG/output/1-s2.0-S0006320712005083-main.json
+
+--- Méthode avec Refine ---
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:02:11.544191Z', 'message': {'role': 'assistant', 'content': 'During genetic analysis of wild animals, non-invasive sampling methods are often preferred to minimize disturbance and stress on the animals. In this study, we used passive sampling techniques to collect DNA from animal scat (feces). We placed barbed wire loops baited with a mixture of peanut butter, oats, and vanilla extract at known animal activity sites. These loops captured hair samples from animals as they passed by, allowing for non-contact collection. The loops were checked daily, and any hair samples obtained were stored in individual zip-top bags containing silica desiccant packets to preserve DNA integrity until laboratory analysis. This method ensures minimal impact on the animals while still providing sufficient genetic material for analysis.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 18702595750, 'load_duration': 66313708, 'prompt_eval_count': 473, 'prompt_eval_duration': 619382834, 'eval_count': 139, 'eval_duration': 8615027754}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:02:37.052558Z', 'message': {'role': 'assistant', 'content': 'Methods:\n\nDNA sampling was conducted on wild animal populations using non-invasive methods to minimize disturbance and stress. Fecal samples were collected as the primary source of genetic material. This approach allowed us to obtain sufficient DNA for analysis without requiring direct contact with the animals.\n\nSampling sites were selected based on previous observations of animal activity and signs of presence, such as tracks or dung piles. At each site, a systematic search was conducted within a defined area using visual inspection and the aid of tracking dogs in some cases. Fecal samples were collected using sterile gloves and placed into individual Whirl-Pak bags (Nasco, Fort Atkinson, WI, USA) containing a silica gel desiccant packet to preserve DNA integrity.\n\nThe sampling protocol consisted of collecting approximately 10 grams of feces per sample, with a maximum of three samples collected from the same individual to minimize disturbance. Samples were collected once every two weeks over a period of six months to capture temporal variability in genetic composition within each population. To ensure ethical considerations and animal welfare, all sampling activities were conducted under permits issued by relevant authorities and followed guidelines for non-invasive field research.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 25502352125, 'load_duration': 56432458, 'prompt_eval_count': 473, 'prompt_eval_duration': 618474000, 'eval_count': 228, 'eval_duration': 14172584908}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:02:55.161271Z', 'message': {'role': 'assistant', 'content': '"Sampling of wild animal DNA was conducted using non-invasive methods to minimize disturbance and stress on the animals. Fecal samples were collected from the ground in areas frequented by the target species. Disposable gloves and sterile collection bags were used to prevent contamination between samples. Sampling was performed once a week for three months, with a maximum of five samples collected per site each time. Care was taken not to disturb the animals\' habitats or routines during sampling activities."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 18105212583, 'load_duration': 56246500, 'prompt_eval_count': 473, 'prompt_eval_duration': 646431625, 'eval_count': 94, 'eval_duration': 5816142580}
+
+=== Documents hypothétiques générés ===
+
+Document hypothétique 1:
+--------------------------------------------------
+During genetic analysis of wild animals, non-invasive sampling methods are often preferred to minimize disturbance and stress on the animals. In this study, we used passive sampling techniques to collect DNA from animal scat (feces). We placed barbed wire loops baited with a mixture of peanut butter, oats, and vanilla extract at known animal activity sites. These loops captured hair samples from animals as they passed by, allowing for non-contact collection. The loops were checked daily, and any hair samples obtained were stored in individual zip-top bags containing silica desiccant packets to preserve DNA integrity until laboratory analysis. This method ensures minimal impact on the animals while still providing sufficient genetic material for analysis.
+--------------------------------------------------
+
+Document hypothétique 2:
+--------------------------------------------------
+Methods:
+
+DNA sampling was conducted on wild animal populations using non-invasive methods to minimize disturbance and stress. Fecal samples were collected as the primary source of genetic material. This approach allowed us to obtain sufficient DNA for analysis without requiring direct contact with the animals.
+
+Sampling sites were selected based on previous observations of animal activity and signs of presence, such as tracks or dung piles. At each site, a systematic search was conducted within a defined area using visual inspection and the aid of tracking dogs in some cases. Fecal samples were collected using sterile gloves and placed into individual Whirl-Pak bags (Nasco, Fort Atkinson, WI, USA) containing a silica gel desiccant packet to preserve DNA integrity.
+
+The sampling protocol consisted of collecting approximately 10 grams of feces per sample, with a maximum of three samples collected from the same individual to minimize disturbance. Samples were collected once every two weeks over a period of six months to capture temporal variability in genetic composition within each population. To ensure ethical considerations and animal welfare, all sampling activities were conducted under permits issued by relevant authorities and followed guidelines for non-invasive field research.
+--------------------------------------------------
+
+Document hypothétique 3:
+--------------------------------------------------
+"Sampling of wild animal DNA was conducted using non-invasive methods to minimize disturbance and stress on the animals. Fecal samples were collected from the ground in areas frequented by the target species. Disposable gloves and sterile collection bags were used to prevent contamination between samples. Sampling was performed once a week for three months, with a maximum of five samples collected per site each time. Care was taken not to disturb the animals' habitats or routines during sampling activities."
+--------------------------------------------------
+
+=== Fin des documents hypothétiques ===
+
+
+=== Statistiques des scores de similarité ===
+Score minimum initial: 0.8614
+Score maximum initial: 0.9320
+Score moyen initial: 0.8861
+
+=== Statistiques après filtrage dynamique ===
+Seuil dynamique appliqué: 0.8892
+Score minimum conservé: 0.8845
+Score maximum conservé: 0.9320
+Score moyen conservé: 0.9034
+Nombre de documents conservés: 5
+Documents récupérés : 5
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:03:17.524768Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "In addition, Creel et al. (2003) used a wolf (Canis lupus) population of known size (41) to assess the impact of genotyping error on population size estimates from a census based on genetic analysis of feces and were able to tally 39 individuals"\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 21896938125, 'load_duration': 64877542, 'prompt_eval_count': 745, 'prompt_eval_duration': 2414605250, 'eval_count': 83, 'eval_duration': 5251064503}
+Chunk : There have been very few direct comparisons of the results of fecal DNA based CMR surveys and other independent surveys of the same population. For a review see Waits (2004); for specific examples involving coyotes (Canis latrans) see Kohn et al., (1999), for badgers (Meles meles) see Frantz et al., (2003), and for tigers see Mondol et al., (2009). In addition, Creel et al. (2003) used a wolf (Canis lupus) population of known size (41) to assess the impact of genotyping error on population size estimates from a census based on genetic analysis of feces and were able to tally 39 individuals (i.e. within 5% of the true population size). However, while this is obviously encouraging the study was not designed to assess the relative merits of non-invasive genetic and other survey methods, and did not use the CMR based methods which are likely to be preferred for most non-invasive population monitoring applications. Eggert et al. (2003) compared two genetic methods (rarefaction analysis and CMR) with a dung density based method to estimate the size of a population of African elephants, and while the results were encouragingly similar the dung count was not conducted simultaneously with the genetic sampling and the genetic sampling design was acknowledged to be suboptimal. Nevertheless, despite the cautionary remarks about the last two examples, it is clear that there are a growing number of fecal DNA-based CMR studies -including this one -which demonstrate that the combination of appropriate study design, rigorous sample collection and handling techniques, and the application of error-detection protocols produce accurate and precise population estimates.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "In addition, Creel et al. (2003) used a wolf (Canis lupus) population of known size (41) to assess the impact of genotyping error on population size estimates from a census based on genetic analysis of feces and were able to tally 39 individuals"
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:03:36.998621Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "In a first phase, estimating occupancy from surveys to detect elephant sign (dung piles) in all selected sites in the landscape",\n    "Alternatively, following Conroy et al. (2008), in landscapes where the elephant population is likely to be highly overdispersed, CMR sampling would be conducted in a randomly selected set of sites"\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 19466417083, 'load_duration': 58129750, 'prompt_eval_count': 926, 'prompt_eval_duration': 3453018167, 'eval_count': 94, 'eval_duration': 5912335881}
+Chunk : Despite the strengths of fecal DNA-based methods, there are practical limitations which currently preclude their use for population surveys over very large areas such as those occupied by elephants in Central Africa or Southern India. For example, Lukacs and Burnham (2005, p. 3914) suggest that fecal DNA-based methods are only likely to be appropriate when elephant population size is smaller than 'a few thousand individuals', because otherwise a very large number of samples would have to be collected and analyzed making the cost prohibitive. So, how can we estimate and monitor elephant population size reliably in large forested landscapes containing large populations? Recent advances in occupancy survey methods (Hines et al., 2010;Mackenzie et al., 2009;Nichols et al., 2008) and especially the integration of population estimation at two geographic scales -occupancy across large landscapes and abundance in selected areas within those landscapes (e.g. Conroy et al., 2008) -present what is probably the most reliable currently-available method for estimating the abundance of elephants (and other species) in large landscapes. Adapting the approach of Conroy et al. (2008) for use in estimating the abundance of elephants across a large landscape would involve, in a first phase, estimating occupancy from surveys to detect elephant sign (dung piles) in all selected sites in the landscape (where selection would be of all sites available (if possible), or a random sample of sites (if not)). In a second phase, if a detection threshold had been achieved in the first phase, fecal DNAbased CMR sampling would be conducted to estimate elephant abundance. Alternatively, following Conroy et al. (2008), in landscapes where the elephant population is likely to be highly overdispersed, CMR sampling would be conducted in a randomly selected set of sites (from which detection samples are also taken). In addition, population-size constraints might need to be applied to the definition of sites to keep population size per site below a few thousand elephants. Detection and CMR data would then be used in a joint likelihood approach to model probability of detection in the occupancy sample via an abundance-detection model. Capture-recapture modeling would then be used to estimate abundance for the abundance-detection relationship, which could be used to predict abundance at the remaining sites, where only detection data were collected. Practical evaluations of this approach are needed but it appears to be a promising way of extending the power of the DNA-based CMR methods demonstrated in this study to those very large areas for which there are currently no appropriate methods for estimating elephant abundance.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "In a first phase, estimating occupancy from surveys to detect elephant sign (dung piles) in all selected sites in the landscape",
+    "Alternatively, following Conroy et al. (2008), in landscapes where the elephant population is likely to be highly overdispersed, CMR sampling would be conducted in a randomly selected set of sites"
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:03:49.073174Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": false\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 12068336834, 'load_duration': 55700875, 'prompt_eval_count': 1099, 'prompt_eval_duration': 4660796875, 'eval_count': 12, 'eval_duration': 695459706}
+Chunk : The methods evaluated here -dung counts using line transects and fecal DNA-based CMR surveys -are those typically recommended for estimating population size for elephants in forested areas (Hedges and Lawson, 2006) and are also appropriate for other species, such as ungulates and macropods. Dung density surveys are primarily suitable for relatively small areas because, before each survey can be conducted, a survey-specific dung decay rate needs to be estimated by monitoring a spatially representative sample of fresh dung piles across the survey area for long-enough that >90% of the first cohort of dung piles will have decayed by the time of the transect survey. This estimation is logistically challenging and time-consuming (e.g. P6 months in this study) but is vital because dung decay rates vary substantially in space and time, and using unrepresentative estimates would introduce biases of unknown magnitude (Hedges, 2012a;Hedges and Lawson, 2006;Kuehl et al., 2007;Laing et al., 2003). Elephant survey work in Asia has shown that such methods are feasible for survey areas of up to c. 5000 km 2 (Hedges, 2012b). For larger areas, the logistic challenges and cost become prohibitive; indeed, they are daunting even for considerably smaller areas. By contrast, fecal DNA-based CMR methods like those used in this study are much easier to implement because sample collection can focus on areas in which elephants (or other species) are likely to be found. Thus, DNA CMR methods can be used when estimating animal population size from dung density is not feasible. Moreover, the DNA CMR methods are quicker to implement than dung density-based methods. Indeed, CMR surveys should be completed as quickly as possible (typically over a 63-month period) to minimize the impacts of births, deaths, immigration, and emigration on the population estimate. Our finding that the DNA CMR method provided a more precise estimate than the dung density methods is unsurprising, because the latter integrates estimates of dung density, dung decay rate, and detection rate, and the last two parameters are often highly variable (Hedges, 2012a;Kuehl et al., 2007;Plumptre, 2000). In addition, the DNA CMR method is expected to be, in general, more accurate because it avoids the problems of estimating a representative survey-specific dung decay rate: i.e. the difficulty of finding spatially representative samples of fresh dung piles across even relatively small survey areas (<5000 km 2 ) raises the possibility of using unrepresentative dung piles and thus inaccurate decay rates (Hedges, 2012a;Kuehl et al., 2007;Laing et al., 2003;Walsh and White, 2005). Finally, the combination of genetic methods and CMR statistics provides researchers and wildlife managers with a much more informative means of monitoring populations than that provided by dung density-based methods since, in addition to population size, it becomes possible to assess population sex-structure, fecundity, genetic diversity, gene flow, and other parameters without needing to see an animal. Moreover, if the DNA CMR surveys are repeated it also becomes possible to study population dynamics, including survival and recruitment rates.
+Réponse du modèle : {
+"contient_protocole": false
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:04:01.132914Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "From 16 September 2004 to 3 March 2005, we conducted a pilot survey...",\n    "For each sample, approximately 10 g of dung was placed in a 40 ml polypropylene tube, boiled for 15 min, and preserved in Queen\'s College Buffer..."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 12056662541, 'load_duration': 53872583, 'prompt_eval_count': 929, 'prompt_eval_duration': 3659460917, 'eval_count': 89, 'eval_duration': 5600988836}
+Chunk : From 16 September 2004 to 3 March 2005, we conducted a pilot survey to (1) assess whether fresh dung-piles could be found in adequate numbers; (2) determine whether sample preservation techniques were appropriate; (3) select loci likely to be informative for this population; and (4) help us design the CMR survey. The  (Hedges and Lawson, 2006), we aimed to maximize capture rates by focusing on areas in which elephants are likely to be found ('hotspots' such as salt licks and waterholes) while also spacing sample collection so that every elephant's home range would contain at least 2-3 collection locations. Hedges and Lawson (2006) note that the distance between sample collection locations must be small if home ranges are expected to be small; if home ranges are large, the distance between sample collection locations can also be relatively large. For CMR sampling of tiger (Panthera tigris) populations using camera traps, Karanth and Nichols (2002) suggest deploying camera traps (which can be thought of as sample collection sites) 5-10 km apart for tigers with home ranges of 200-500 km 2 ; these broad guidelines are also appropriate for forest elephants -indeed, they are likely to be conservative as many elephant's home ranges will be larger (Hedges and Lawson, 2006). We identified 16 sample-collection blocks, each 2-8 km 2 (Fig. 2) and containing one or more 'hotspots' none of which were more than 10 km apart, with no part of the study area >10 km from a 'hotspot'. Thus, the study design provided full spatial coverage of the survey area in each sampling occasion, ensuring exposure of all elephants present to potential 'captures' and (2) equivalent areas of the Nakai Plateau were covered by both the fecal DNAand dung-count-based survey methods. Blocks were sampled at approximately 4-week intervals. All dung-piles sampled were destroyed afterwards to prevent accidental re-sampling. For each sample, approximately 10 g of dung was placed in a 40 ml polypropylene tube, boiled for 15 min, and preserved in Queen's College Buffer [20% DMSO, 100 mM Tris pH 7.5, 0.25 M EDTA, saturated with NaCl]. Samples were stored in the dark at room temperature before shipment to the laboratory under USDA permit number 48529.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "From 16 September 2004 to 3 March 2005, we conducted a pilot survey...",
+    "For each sample, approximately 10 g of dung was placed in a 40 ml polypropylene tube, boiled for 15 min, and preserved in Queen's College Buffer..."
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:04:16.530818Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "We analyzed 267 dung samples, of which 215 (81%) yielded sufficient genotypic information for analysis.",\n    "Within these two sampling sessions, 94 unique genotypes were detected; a further eight unique genotypes were detected during the extra study sessions."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 15392322292, 'load_duration': 57950042, 'prompt_eval_count': 850, 'prompt_eval_duration': 3028086750, 'eval_count': 79, 'eval_duration': 4952685627}
+Chunk : Because of the short survey duration (70 days), we could reasonably assume demographic closure (Karanth and Nichols, 1998). As already noted, our data (especially from the recce-and line-transects) plus others' data (Boonratana, 2000;Johnson and Johnston, 2007;Khounboline, 2002) all indicate that our high-density stratum survey area encompassed the entire dry season range of the Nakai elephant population, so we could also assume geographic closure. We analyzed 267 dung samples, of which 215 (81%) yielded sufficient genotypic information for analysis. However, only 19 samples were found in the third sampling session, so for the CMR analyses we treated these as extra-study samples and restricted the primary sampling period to the first two sessions, further strengthening the assumption of population closure. Within these two sampling sessions, 94 unique genotypes were detected; a further eight unique genotypes were detected during the extra study sessions. Of the recaptures, 27 were duplicate captures during the first session, 60 more were duplicate recaptures of the same individuals in the second session, and five were recaptures during the extra-study sessions. Thus, the CMR analysis was performed using 94 genotypes (40 in session one plus 54 in session two), with 20 of the individuals detected in the first session having been recaptured in the second session. Population size estimation using model M(h) in CAPTURE suggests that there were 132 (se = 7.55; 95% CI = [120,149]) elephants in the Nakai Plateau population. There were an additional eight individuals detected in the extra-survey samples; these are included in the analysis of sex ratio and age structure (Tables 1 and2). The 94 individuals identified comprised 27 males and 67 females, 17 (18%) juveniles, 29 (31%) sub-adults, 37 (39%) adults, and 11 (12%) undetermined (Tables 1 and2).
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "We analyzed 267 dung samples, of which 215 (81%) yielded sufficient genotypic information for analysis.",
+    "Within these two sampling sessions, 94 unique genotypes were detected; a further eight unique genotypes were detected during the extra study sessions."
+]
+}
+Protocoles détectés : 5
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:04:53.056608Z', 'message': {'role': 'assistant', 'content': '[\n{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "In addition, Creel et al. (2003) used a wolf (Canis lupus) population of known size (41) to assess the impact of genotyping error on population size estimates from a census based on genetic analysis of feces and were able to tally 39 individuals"\n]\n},\n{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "From 16 September 2004 to 3 March 2005, we conducted a pilot survey...",\n    "For each sample, approximately 10 g of dung was placed in a 40 ml polypropylene tube, boiled for 15 min, and preserved in Queen\\\'s College Buffer..."\n]\n},\n{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "We analyzed 267 dung samples, of which 215 (81%) yielded sufficient genotypic information for analysis.",\n    "Within these two sampling sessions, 94 unique genotypes were detected; a further eight unique genotypes were detected during the extra study sessions."\n]\n}\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 36518803666, 'load_duration': 55180125, 'prompt_eval_count': 819, 'prompt_eval_duration': 2617621042, 'eval_count': 252, 'eval_duration': 15747965423}
+Protocoles fusionnés : [
+{
+"contient_protocole": true,
+"extrait_pertinent": [
+    "In addition, Creel et al. (2003) used a wolf (Canis lupus) population of known size (41) to assess the impact of genotyping error on population size estimates from a census based on genetic analysis of feces and were able to tally 39 individuals"
+]
+},
+{
+"contient_protocole": true,
+"extrait_pertinent": [
+    "From 16 September 2004 to 3 March 2005, we conducted a pilot survey...",
+    "For each sample, approximately 10 g of dung was placed in a 40 ml polypropylene tube, boiled for 15 min, and preserved in Queen\'s College Buffer..."
+]
+},
+{
+"contient_protocole": true,
+"extrait_pertinent": [
+    "We analyzed 267 dung samples, of which 215 (81%) yielded sufficient genotypic information for analysis.",
+    "Within these two sampling sessions, 94 unique genotypes were detected; a further eight unique genotypes were detected during the extra study sessions."
+]
+}
+]
+Nombre de protocoles après fusion : 4
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:05:50.444488Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["In addition, Creel et al. (2003) used a wolf (Canis lupus) population of known size (41) to assess the impact of genotyping error on population size estimates from a census based on genetic analysis of feces and were able to tally 39 individuals"],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces",\n"mots_cles_invasivite": ["genetic analysis of feces"],\n"mots_cles_non_invasivite": [],\n"evaluation_invasivite": "Invasif",\n"justification_invasivite": "Le protocole implique l\'analyse génétique de fèces, ce qui est considéré comme invasif selon les critères spécifiques aux mammifères. La collecte de fèces peut être considérée comme non invasive si elle est ponctuelle et opportuniste, mais cela n\'est pas précisé dans le texte.",\n"signaux_alarme": ["genetic analysis of feces"],\n"impacts_potentiels": ["Perturbation du comportement naturel des loups", "Modification de l\'habitat"],\n"peches_identifies": [2],\n"informations_manquantes": ["Il manque des informations sur la fréquence et l\'intensité de l\'échantillonnage"],\n"taux_de_confiance": "70% - Implicite fort"\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 57378520084, 'load_duration': 51352500, 'prompt_eval_count': 2090, 'prompt_eval_duration': 2724277208, 'eval_count': 300, 'eval_duration': 19379270877}
+Analyse du protocole avec les extraits : In addition, Creel et al. (2003) used a wolf (Canis lupus) population of known size (41) to assess the impact of genotyping error on population size estimates from a census based on genetic analysis of feces and were able to tally 39 individuals
+Réponse du modèle : {
+"extrait_pertinent": ["In addition, Creel et al. (2003) used a wolf (Canis lupus) population of known size (41) to assess the impact of genotyping error on population size estimates from a census based on genetic analysis of feces and were able to tally 39 individuals"],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces",
+"mots_cles_invasivite": ["genetic analysis of feces"],
+"mots_cles_non_invasivite": [],
+"evaluation_invasivite": "Invasif",
+"justification_invasivite": "Le protocole implique l'analyse génétique de fèces, ce qui est considéré comme invasif selon les critères spécifiques aux mammifères. La collecte de fèces peut être considérée comme non invasive si elle est ponctuelle et opportuniste, mais cela n'est pas précisé dans le texte.",
+"signaux_alarme": ["genetic analysis of feces"],
+"impacts_potentiels": ["Perturbation du comportement naturel des loups", "Modification de l'habitat"],
+"peches_identifies": [2],
+"informations_manquantes": ["Il manque des informations sur la fréquence et l'intensité de l'échantillonnage"],
+"taux_de_confiance": "70% - Implicite fort"
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:06:28.195775Z', 'message': {'role': 'assistant', 'content': '```json\n{\n"extrait_pertinent": ["In a first phase, estimating occupancy from surveys to detect elephant sign (dung piles) in all selected sites in the landscape"],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces",\n"mots_cles_invasivite": [],\n"mots_cles_non_invasivite": ["opportuniste", "ponctuel"],\n"evaluation_invasivite": "Non invasif",\n"justification_invasivite": "La collecte est ponctuelle et opportuniste, ce qui ne cause pas de perturbation significative pour les animaux. Il n\'y a pas de capture ou manipulation des animaux.",\n"signaux_alarme": [],\n"impacts_potentiels": [],\n"peches_identifies": ["2"],\n"informations_manquantes": [],\n"taux_de_confiance": "100%"\n}\n```'}, 'done': True, 'done_reason': 'stop', 'total_duration': 37747673833, 'load_duration': 58743791, 'prompt_eval_count': 2099, 'prompt_eval_duration': 2726140792, 'eval_count': 199, 'eval_duration': 12814500047}
+Analyse du protocole avec les extraits : In a first phase, estimating occupancy from surveys to detect elephant sign (dung piles) in all selected sites in the landscape
+Alternatively, following Conroy et al. (2008), in landscapes where the elephant population is likely to be highly overdispersed, CMR sampling would be conducted in a randomly selected set of sites
+Réponse du modèle : ```json
+{
+"extrait_pertinent": ["In a first phase, estimating occupancy from surveys to detect elephant sign (dung piles) in all selected sites in the landscape"],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces",
+"mots_cles_invasivite": [],
+"mots_cles_non_invasivite": ["opportuniste", "ponctuel"],
+"evaluation_invasivite": "Non invasif",
+"justification_invasivite": "La collecte est ponctuelle et opportuniste, ce qui ne cause pas de perturbation significative pour les animaux. Il n'y a pas de capture ou manipulation des animaux.",
+"signaux_alarme": [],
+"impacts_potentiels": [],
+"peches_identifies": ["2"],
+"informations_manquantes": [],
+"taux_de_confiance": "100%"
+}
+```
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:07:32.416277Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["From 16 September 2004 to 3 March 2005, we conducted a pilot survey..."],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces",\n"mots_cles_invasivite": [],\n"mots_cles_non_invasivite": ["opportuniste"],\n"evaluation_invasivite": "Non invasif",\n"justification_invasivite": "Le protocole mentionne une collecte opportuniste de fèces, ce qui est considéré comme non invasif selon les règles spécifiques aux mammifères. Il n\'y a pas de mention de capture ou de manipulation des animaux.",\n"signaux_alarme": [],\n"impacts_potentiels": [],\n"peches_identifies": [],\n"informations_manquantes": ["Il manque des informations sur la fréquence et l\'intensité de l\'échantillonnage"],\n"taux_de_confiance": "70% - Implicite fort"\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 64212401958, 'load_duration': 52995042, 'prompt_eval_count': 2093, 'prompt_eval_duration': 13685438667, 'eval_count': 224, 'eval_duration': 14394692462}
+Analyse du protocole avec les extraits : From 16 September 2004 to 3 March 2005, we conducted a pilot survey...
+For each sample, approximately 10 g of dung was placed in a 40 ml polypropylene tube, boiled for 15 min, and preserved in Queen's College Buffer...
+Réponse du modèle : {
+"extrait_pertinent": ["From 16 September 2004 to 3 March 2005, we conducted a pilot survey..."],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces",
+"mots_cles_invasivite": [],
+"mots_cles_non_invasivite": ["opportuniste"],
+"evaluation_invasivite": "Non invasif",
+"justification_invasivite": "Le protocole mentionne une collecte opportuniste de fèces, ce qui est considéré comme non invasif selon les règles spécifiques aux mammifères. Il n'y a pas de mention de capture ou de manipulation des animaux.",
+"signaux_alarme": [],
+"impacts_potentiels": [],
+"peches_identifies": [],
+"informations_manquantes": ["Il manque des informations sur la fréquence et l'intensité de l'échantillonnage"],
+"taux_de_confiance": "70% - Implicite fort"
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:08:15.949187Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["We analyzed 267 dung samples, of which 215 (81%) yielded sufficient genotypic information for analysis."],\n"taxon_identifie": "Mammifère",\n"echantillon": "Fèces",\n"mots_cles_invasivite": [],\n"mots_cles_non_invasivite": ["dung samples"],\n"evaluation_invasivite": "Non invasif",\n"justification_invasivite": "La collecte de fèces est considérée comme non invasive selon la définition de Taberlet et al. (1999), car elle n\'implique pas de contact direct avec l\'animal vivant ni de perturbation significative de son habitat.",\n"signaux_alarme": [],\n"impacts_potentiels": [],\n"peches_identifies": [],\n"informations_manquantes": ["Il n\'y a pas d\'informations sur la fréquence ou l\'intensité de l\'échantillonnage."],\n"taux_de_confiance": "80% - Justification : La collecte de fèces est explicitement mentionnée, mais il manque des informations sur la fréquence et l\'intensité de l\'échantillonnage."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 43525840542, 'load_duration': 48075375, 'prompt_eval_count': 2084, 'prompt_eval_duration': 13208586084, 'eval_count': 261, 'eval_duration': 16818053172}
+Analyse du protocole avec les extraits : We analyzed 267 dung samples, of which 215 (81%) yielded sufficient genotypic information for analysis.
+Within these two sampling sessions, 94 unique genotypes were detected; a further eight unique genotypes were detected during the extra study sessions.
+Réponse du modèle : {
+"extrait_pertinent": ["We analyzed 267 dung samples, of which 215 (81%) yielded sufficient genotypic information for analysis."],
+"taxon_identifie": "Mammifère",
+"echantillon": "Fèces",
+"mots_cles_invasivite": [],
+"mots_cles_non_invasivite": ["dung samples"],
+"evaluation_invasivite": "Non invasif",
+"justification_invasivite": "La collecte de fèces est considérée comme non invasive selon la définition de Taberlet et al. (1999), car elle n'implique pas de contact direct avec l'animal vivant ni de perturbation significative de son habitat.",
+"signaux_alarme": [],
+"impacts_potentiels": [],
+"peches_identifies": [],
+"informations_manquantes": ["Il n'y a pas d'informations sur la fréquence ou l'intensité de l'échantillonnage."],
+"taux_de_confiance": "80% - Justification : La collecte de fèces est explicitement mentionnée, mais il manque des informations sur la fréquence et l'intensité de l'échantillonnage."
+}
+Analyses générées : 4
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:09:43.703756Z', 'message': {'role': 'assistant', 'content': '```json\n[\n    {\n        "protocole": "Analyse génétique de fèces chez les loups",\n        "extrait_pertinent": ["In addition, Creel et al. (2003) used a wolf (Canis lupus) population of known size (41) to assess the impact of genotyping error on population size estimates from a census based on genetic analysis of feces and were able to tally 39 individuals"],\n        "taxon_identifie": "Mammifère",\n        "echantillon": "Fèces",\n        "mots_cles_invasivite": ["genetic analysis of feces"],\n        "mots_cles_non_invasivite": [],\n        "evaluation_invasivite": "Invasif",\n        "justification_invasivite": "Le protocole implique l\'analyse génétique de fèces, ce qui est considéré comme invasif selon les critères spécifiques aux mammifères. La collecte de fèces peut être considérée comme non invasive si elle est ponctuelle et opportuniste, mais cela n\'est pas précisé dans le texte.",\n        "signaux_alarme": ["genetic analysis of feces"],\n        "impacts_potentiels": ["Perturbation du comportement naturel des loups", "Modification de l\'habitat"],\n        "peches_identifies": [2],\n        "informations_manquantes": ["Il manque des informations sur la fréquence et l\'intensité de l\'échantillonnage"],\n        "taux_de_confiance": "70% - Implicite fort"\n    },\n    {\n        "protocole": "Estimation de l\'occupation à partir de surveys pour détecter les signes d\'éléphants (piles de fèces) dans tous les sites sélectionnés dans le paysage",\n        "extrait_pertinent": ["In a first phase, estimating occupancy from surveys to detect elephant sign (dung piles) in all selected sites in the landscape"],\n        "taxon_identifie": "Mammifère",\n        "echantillon": "Fèces",\n        "mots_cles_invasivite": [],\n        "mots_cles_non_invasivite": ["opportuniste", "ponctuel"],\n        "evaluation_invasivite": "Non invasif",\n        "justification_invasivite": "La collecte est ponctuelle et opportuniste, ce qui ne cause pas de perturbation significative pour les animaux. Il n\'y a pas de capture ou manipulation des animaux.",\n        "signaux_alarme": [],\n        "impacts_potentiels": [],\n        "peches_identifies": ["2"],\n        "informations_manquantes": [],\n        "taux_de_confiance": "100%"\n    },\n    {\n        "protocole": "Collecte opportuniste de fèces",\n        "extrait_pertinent": ["From 16 September 2004 to 3 March 2005, we conducted a pilot survey...", "We analyzed 267 dung samples, of which 215 (81%) yielded sufficient genotypic information for analysis."],\n        "taxon_identifie": "Mammifère",\n        "echantillon": "Fèces",\n        "mots_cles_invasivite": [],\n        "mots_cles_non_invasivite": ["opportuniste", "dung samples"],\n        "evaluation_invasivite": "Non invasif",\n        "justification_invasivite": "La collecte de fèces est considérée comme non invasive selon la définition de Taberlet et al. (1999), car elle n\'implique pas de contact direct avec l\'animal vivant ni de perturbation significative de son habitat.",\n        "signaux_alarme": [],\n        "impacts_potentiels": [],\n        "peches_identifies": [],\n        "informations_manquantes": ["Il manque des informations sur la fréquence et l\'intensité de l\'échantillonnage"],\n        "taux_de_confiance": "80% - Justification : La collecte de fèces est explicitement mentionnée, mais il manque des informations sur la fréquence et l\'intensité de l\'échantillonnage."\n    }\n]\n```'}, 'done': True, 'done_reason': 'stop', 'total_duration': 87739901042, 'load_duration': 52770375, 'prompt_eval_count': 2038, 'prompt_eval_duration': 12979320792, 'eval_count': 906, 'eval_duration': 58485971919}
+Réponse finale : ```json
+[
+    {
+        "protocole": "Analyse génétique de fèces chez les loups",
+        "extrait_pertinent": ["In addition, Creel et al. (2003) used a wolf (Canis lupus) population of known size (41) to assess the impact of genotyping error on population size estimates from a census based on genetic analysis of feces and were able to tally 39 individuals"],
+        "taxon_identifie": "Mammifère",
+        "echantillon": "Fèces",
+        "mots_cles_invasivite": ["genetic analysis of feces"],
+        "mots_cles_non_invasivite": [],
+        "evaluation_invasivite": "Invasif",
+        "justification_invasivite": "Le protocole implique l'analyse génétique de fèces, ce qui est considéré comme invasif selon les critères spécifiques aux mammifères. La collecte de fèces peut être considérée comme non invasive si elle est ponctuelle et opportuniste, mais cela n'est pas précisé dans le texte.",
+        "signaux_alarme": ["genetic analysis of feces"],
+        "impacts_potentiels": ["Perturbation du comportement naturel des loups", "Modification de l'habitat"],
+        "peches_identifies": [2],
+        "informations_manquantes": ["Il manque des informations sur la fréquence et l'intensité de l'échantillonnage"],
+        "taux_de_confiance": "70% - Implicite fort"
+    },
+    {
+        "protocole": "Estimation de l'occupation à partir de surveys pour détecter les signes d'éléphants (piles de fèces) dans tous les sites sélectionnés dans le paysage",
+        "extrait_pertinent": ["In a first phase, estimating occupancy from surveys to detect elephant sign (dung piles) in all selected sites in the landscape"],
+        "taxon_identifie": "Mammifère",
+        "echantillon": "Fèces",
+        "mots_cles_invasivite": [],
+        "mots_cles_non_invasivite": ["opportuniste", "ponctuel"],
+        "evaluation_invasivite": "Non invasif",
+        "justification_invasivite": "La collecte est ponctuelle et opportuniste, ce qui ne cause pas de perturbation significative pour les animaux. Il n'y a pas de capture ou manipulation des animaux.",
+        "signaux_alarme": [],
+        "impacts_potentiels": [],
+        "peches_identifies": ["2"],
+        "informations_manquantes": [],
+        "taux_de_confiance": "100%"
+    },
+    {
+        "protocole": "Collecte opportuniste de fèces",
+        "extrait_pertinent": ["From 16 September 2004 to 3 March 2005, we conducted a pilot survey...", "We analyzed 267 dung samples, of which 215 (81%) yielded sufficient genotypic information for analysis."],
+        "taxon_identifie": "Mammifère",
+        "echantillon": "Fèces",
+        "mots_cles_invasivite": [],
+        "mots_cles_non_invasivite": ["opportuniste", "dung samples"],
+        "evaluation_invasivite": "Non invasif",
+        "justification_invasivite": "La collecte de fèces est considérée comme non invasive selon la définition de Taberlet et al. (1999), car elle n'implique pas de contact direct avec l'animal vivant ni de perturbation significative de son habitat.",
+        "signaux_alarme": [],
+        "impacts_potentiels": [],
+        "peches_identifies": [],
+        "informations_manquantes": ["Il manque des informations sur la fréquence et l'intensité de l'échantillonnage"],
+        "taux_de_confiance": "80% - Justification : La collecte de fèces est explicitement mentionnée, mais il manque des informations sur la fréquence et l'intensité de l'échantillonnage."
+    }
+]
+```
+
+--- Méthode avec Refine et detect_non_invasive_level ---
+Traitement du lot 1/3 (documents 1-10)
+Lot 1 indexé avec succès: 10 documents
+Traitement du lot 2/3 (documents 11-20)
+Lot 2 indexé avec succès: 10 documents
+Traitement du lot 3/3 (documents 21-21)
+Lot 3 indexé avec succès: 1 documents
+21/21 documents indexés depuis RAG/output_invasive_detection/1-s2.0-S0006320712005083-main.json
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:10:16.588149Z', 'message': {'role': 'assistant', 'content': 'The collection of fecal samples from wolves for genetic analysis is considered a non-invasive method. This approach does not require direct contact with the animals and minimizes disturbance to their natural behaviors and habitats. Feces are collected from areas where wolf activity has been observed, such as trails or dens, ensuring that the samples obtained are fresh and representative of the local population. The use of non-invasive sampling methods like this one is crucial for the conservation and management of wild animal populations, as it reduces stress on individuals and avoids potential harm associated with capture-based techniques. Additionally, this method allows for repeated sampling over time from the same individuals without causing significant harm or altering their behavior. However, the accuracy and precision of genetic analysis based on fecal samples may vary depending on factors such as sample degradation, contamination, and DNA extraction efficiency, which can affect the reliability of the obtained genetic data. Therefore, while this method is considered non-invasive, its effectiveness should be validated through appropriate statistical analyses and quality control procedures to ensure accurate estimation of population size and structure.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 29414847458, 'load_duration': 66316833, 'prompt_eval_count': 369, 'prompt_eval_duration': 1059172834, 'eval_count': 207, 'eval_duration': 12888169957}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:10:59.714606Z', 'message': {'role': 'assistant', 'content': 'One commonly employed protocol for obtaining genetic samples from wild animals is the collection of fecal material. In the case of wolves (Canis lupus), this non-invasive method involves locating and collecting scats in their natural environment. This approach eliminates the need for direct contact with the animals, reducing stress and minimizing disturbance to their habitats. The primary challenge lies in ensuring that collected samples are sufficiently fresh to yield viable DNA. To overcome this, researchers often employ field marking techniques or use DNA preservation methods such as freezing or adding preservatives directly at the collection site. This method is considered non-invasive as it does not require capturing or handling the animals, and thus causes minimal disturbance to their wellbeing. Furthermore, the use of fecal samples for genetic analysis reduces ethical concerns related to animal welfare, making it an attractive option for conservation genetics studies involving wolves.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 43118715625, 'load_duration': 51170500, 'prompt_eval_count': 369, 'prompt_eval_duration': 2733712041, 'eval_count': 166, 'eval_duration': 10396532383}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:11:20.968012Z', 'message': {'role': 'assistant', 'content': '"The genetic analysis of fecal samples from wolves was carried out as a non-invasive method to obtain genetic material from the studied animals. This approach avoided direct contact with the wolves and did not require their capture or handling. Fecal samples were collected from randomly selected locations within the wolves\' territories, minimizing disturbance to the animals and their habitats. No anesthesia was used during this process, further reducing potential stress to the animals. The non-invasive nature of this protocol was crucial for maintaining the health and well-being of the wolf populations while allowing for accurate genetic analysis."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 21240681834, 'load_duration': 54848375, 'prompt_eval_count': 369, 'prompt_eval_duration': 2193430875, 'eval_count': 111, 'eval_duration': 6851679749}
+
+=== Documents hypothétiques générés ===
+
+Document hypothétique 1:
+--------------------------------------------------
+The collection of fecal samples from wolves for genetic analysis is considered a non-invasive method. This approach does not require direct contact with the animals and minimizes disturbance to their natural behaviors and habitats. Feces are collected from areas where wolf activity has been observed, such as trails or dens, ensuring that the samples obtained are fresh and representative of the local population. The use of non-invasive sampling methods like this one is crucial for the conservation and management of wild animal populations, as it reduces stress on individuals and avoids potential harm associated with capture-based techniques. Additionally, this method allows for repeated sampling over time from the same individuals without causing significant harm or altering their behavior. However, the accuracy and precision of genetic analysis based on fecal samples may vary depending on factors such as sample degradation, contamination, and DNA extraction efficiency, which can affect the reliability of the obtained genetic data. Therefore, while this method is considered non-invasive, its effectiveness should be validated through appropriate statistical analyses and quality control procedures to ensure accurate estimation of population size and structure.
+--------------------------------------------------
+
+Document hypothétique 2:
+--------------------------------------------------
+One commonly employed protocol for obtaining genetic samples from wild animals is the collection of fecal material. In the case of wolves (Canis lupus), this non-invasive method involves locating and collecting scats in their natural environment. This approach eliminates the need for direct contact with the animals, reducing stress and minimizing disturbance to their habitats. The primary challenge lies in ensuring that collected samples are sufficiently fresh to yield viable DNA. To overcome this, researchers often employ field marking techniques or use DNA preservation methods such as freezing or adding preservatives directly at the collection site. This method is considered non-invasive as it does not require capturing or handling the animals, and thus causes minimal disturbance to their wellbeing. Furthermore, the use of fecal samples for genetic analysis reduces ethical concerns related to animal welfare, making it an attractive option for conservation genetics studies involving wolves.
+--------------------------------------------------
+
+Document hypothétique 3:
+--------------------------------------------------
+"The genetic analysis of fecal samples from wolves was carried out as a non-invasive method to obtain genetic material from the studied animals. This approach avoided direct contact with the wolves and did not require their capture or handling. Fecal samples were collected from randomly selected locations within the wolves' territories, minimizing disturbance to the animals and their habitats. No anesthesia was used during this process, further reducing potential stress to the animals. The non-invasive nature of this protocol was crucial for maintaining the health and well-being of the wolf populations while allowing for accurate genetic analysis."
+--------------------------------------------------
+
+=== Fin des documents hypothétiques ===
+
+
+=== Statistiques des scores de similarité ===
+Score minimum initial: 0.8419
+Score maximum initial: 0.9353
+Score moyen initial: 0.8736
+
+=== Statistiques après filtrage dynamique ===
+Seuil dynamique appliqué: 0.8700
+Score minimum conservé: 0.8676
+Score maximum conservé: 0.9353
+Score moyen conservé: 0.8950
+Nombre de documents conservés: 5
+Prompt : 
+Voici un extrait d'article scientifique :
+
+"""['There have been very few direct comparisons of the results of fecal DNA based CMR surveys and other independent surveys of the same population. For a review see Waits (2004); for specific examples involving coyotes (Canis latrans) see Kohn et al., (1999), for badgers (Meles meles) see Frantz et al., (2003), and for tigers see Mondol et al., (2009). In addition, Creel et al. (2003) used a wolf (Canis lupus) population of known size (41) to assess the impact of genotyping error on population size estimates from a census based on genetic analysis of feces and were able to tally 39 individuals (i.e. within 5% of the true population size). However, while this is obviously encouraging the study was not designed to assess the relative merits of non-invasive genetic and other survey methods, and did not use the CMR based methods which are likely to be preferred for most non-invasive population monitoring applications. Eggert et al. (2003) compared two genetic methods (rarefaction analysis and CMR) with a dung density based method to estimate the size of a population of African elephants, and while the results were encouragingly similar the dung count was not conducted simultaneously with the genetic sampling and the genetic sampling design was acknowledged to be suboptimal. Nevertheless, despite the cautionary remarks about the last two examples, it is clear that there are a growing number of fecal DNA-based CMR studies -including this one -which demonstrate that the combination of appropriate study design, rigorous sample collection and handling techniques, and the application of error-detection protocols produce accurate and precise population estimates.', 'Non-invasive DNA-based capture-mark-recapture (CMR) methods have been developed to estimate population size and other parameters and have the advantage that samples can be collected without the need to see or disturb the animals. There are, however, few comparisons of DNA-based CMR estimates of animal population size with estimates from non-genetic methods. We compared the results of a dung-density based survey of an Asian elephant (Elephas maximus) population with a simultaneous fecal DNAbased CMR survey of the same population. We found 545 dung-piles along 116 line transects, converted dung-pile density to elephant density using rates of defecation and dung disappearance, and derived a population estimate of 141 (95% CI = [95, 208]) elephants. We collected 267 fecal samples during three CMR sampling sessions: 215 (81%) yielded sufficient genotypic information for analysis and gave an estimated population size of 132 (95% CI = [120,149]) elephants, closely matching the estimate produced by the dung-density method but with greater precision. The DNA-based method also provided information on population structure. We conclude that DNA-based CMR methods provide more precise abundance estimates, and more data about population structure and dynamics, than dung density-based methods. Fecal DNA-based CMR methods also require less time in the field and can be used when dung density methods are impracticable. Finally, fecal DNA based CMR methods are now cheaper than dung density based methods when line transect survey costs are approximately equal to CMR survey costs and dung decay rate monitoring costs are greater than laboratory costs (which will usually be the case).', 'Monitoring animal population size, structure, and trend is an essential part of wildlife biology. However, such monitoring poses serious challenges when the animals of interest are difficult to detect because they are rare or elusive, live in concealing environments, or are sensitive to disturbance. Fortunately, non-invasive DNA-based methods have been developed to estimate population size and other parameters and have the advantage that genetic samples (e.g. hairs or feces) can be collected relatively easily without the need to see or disturb the animals (Mills et al., 2000;Schwartz et al., 2007;Waits, 2004). Since every individual (except identical twins) possesses a unique multilocus genotype, it is possible to determine the number of individuals sampled and, through the use of statistical models, to estimate population size. The approach most commonly used to analyze non-invasive DNA-based data is capture-mark-recapture (CMR). Nevertheless, use of non-invasive DNA-based methods can be problematic because of the low quantity and quality of DNA contained in such samples. Two main types of scoring error, allelic dropout and false alleles, can lead to incorrect genotypes and consequently to biased estimates (Smith et al., 2000;Taberlet et al., 1999). Fortunately, several methods have been proposed to counter these problems (Creel et al., 2003;Lukacs, 2005;Lukacs and Burnham, 2005;Mills et al., 2000;Paetkau, 2003). For example, Lukacs (2005) and Lukacs and Burnham (2005) developed a method which allows abundance to be properly estimated in the presence of genotyping error, estimating this error using the disproportionate number of genotypes only observed once relative to genotypes recorded more than once. This method represents a significant advance because it avoids the need to debate whether genotyping error is problematic in DNA-based estimates of abundance (McKelvey and Schwartz, 2004;Paetkau, 2004). CMR methods provide estimates of animal abundance, not density. To estimate animal density from the estimates of abundance, one has to establish the area that was effectively sampled during the survey: previously this posed a significant challenge, but the development of spatially-explicit CMR models appears to have resolved these difficulties (Efford, 2004;Royle et al., 2009). Despite the advances described above, very few studies have compared population size estimates derived from non-invasive genetic methods with those from other independent methods to assess reliability, accuracy, and cost-effectiveness. The use of dungcount survey methods to assess elephant population size is well established (Barnes, 1996;Hedges and Lawson, 2006). We therefore compared the outcomes and costs of a dung-count survey of an Asian elephant (Elephas maximus) population with a simultaneous fecal DNA-based CMR survey of the same population.', 'Accuracy, precision, and cost-effectiveness of conventional dung density and fecal DNA based survey methods to estimate Asian elephant (Elephas maximus) population size and structure', "Despite the strengths of fecal DNA-based methods, there are practical limitations which currently preclude their use for population surveys over very large areas such as those occupied by elephants in Central Africa or Southern India. For example, Lukacs and Burnham (2005, p. 3914) suggest that fecal DNA-based methods are only likely to be appropriate when elephant population size is smaller than 'a few thousand individuals', because otherwise a very large number of samples would have to be collected and analyzed making the cost prohibitive. So, how can we estimate and monitor elephant population size reliably in large forested landscapes containing large populations? Recent advances in occupancy survey methods (Hines et al., 2010;Mackenzie et al., 2009;Nichols et al., 2008) and especially the integration of population estimation at two geographic scales -occupancy across large landscapes and abundance in selected areas within those landscapes (e.g. Conroy et al., 2008) -present what is probably the most reliable currently-available method for estimating the abundance of elephants (and other species) in large landscapes. Adapting the approach of Conroy et al. (2008) for use in estimating the abundance of elephants across a large landscape would involve, in a first phase, estimating occupancy from surveys to detect elephant sign (dung piles) in all selected sites in the landscape (where selection would be of all sites available (if possible), or a random sample of sites (if not)). In a second phase, if a detection threshold had been achieved in the first phase, fecal DNAbased CMR sampling would be conducted to estimate elephant abundance. Alternatively, following Conroy et al. (2008), in landscapes where the elephant population is likely to be highly overdispersed, CMR sampling would be conducted in a randomly selected set of sites (from which detection samples are also taken). In addition, population-size constraints might need to be applied to the definition of sites to keep population size per site below a few thousand elephants. Detection and CMR data would then be used in a joint likelihood approach to model probability of detection in the occupancy sample via an abundance-detection model. Capture-recapture modeling would then be used to estimate abundance for the abundance-detection relationship, which could be used to predict abundance at the remaining sites, where only detection data were collected. Practical evaluations of this approach are needed but it appears to be a promising way of extending the power of the DNA-based CMR methods demonstrated in this study to those very large areas for which there are currently no appropriate methods for estimating elephant abundance."]"""
+
+Le protocole suivant a été détecté comme étant invasif par une analyse externe :
+{'nom': 'Analyse génétique de fèces chez les loups', 'description': ['In addition, Creel et al. (2003) used a wolf (Canis lupus) population of known size (41) to assess the impact of genotyping error on population size estimates from a census based on genetic analysis of feces and were able to tally 39 individuals'], 'evaluation': 'Invasif'}
+
+Ta tâche est de déterminer si l'auteur de l'article affirme que ce protocole est non invasif, de manière explicite ou implicite, dans ce passage.
+
+Voici le titre de l'article :
+"Accuracy, precision, and cost-effectiveness of conventional dung density and fecal DNA based survey methods to estimate Asian elephant (Elephas maximus) population size and structure"
+
+Procède étape par étape :
+
+1. Analyse le titre : contient-il une déclaration globale de non-invasivité ? Si oui, réponds "Oui" d'office.
+2. Analyse si le titre mentionne le protocole détecté comme invasif. Si ce protocole est présenté dans le titre comme non invasif, réponds aussi "Oui" d'office.
+3. Cherche dans le corps de l'article :
+- Y a-t-il une phrase indiquant explicitement que le protocole en question est non invasif ? Si oui, réponds "Oui".
+- Si une autre méthode est dite non invasive, mais ce n'est **pas celle détectée comme invasive, ce n'est pas suffisant.
+4. Si aucune déclaration claire ou implicite n'est trouvée, réponds "Non".
+5. Si le passage est trop vague ou ne permet pas de trancher, réponds "Manque d'informations".
+
+Tu dois répondre uniquement par le JSON suivant :
+```json
+{
+    "annonce_invasivite": "Oui" ou "Non" ou "Manque d'informations",
+    "justification_annonce_invasivite": "Justification courte, avec citation si utile (souvent utile pour la justification)"
+}
+```
+Si tu ne peux pas fournir une réponse, réponds "Pas de réponse".
+
+Ne donne aucune explication hors du JSON, aucune phrase d'introduction ou de conclusion.
+les clés doivent être strictement : annonce_invasivite et justification_annonce_invasivite
+
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T00:11:55.768145Z', 'message': {'role': 'assistant', 'content': '{\n    "annonce_invasivite": "Manque d\'informations",\n    "justification_annonce_invasivite": "Le titre ne contient pas de déclaration globale de non-invasivité, ni une mention explicite du protocole détecté comme invasif. Le corps de l\'article ne contient pas de phrase indiquant explicitement que le protocole en question est non invasif."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 31676416542, 'load_duration': 84978542, 'prompt_eval_count': 2454, 'prompt_eval_duration': 15731632498, 'eval_count': 85, 'eval_duration': 5557233167}
+
+Analyse du niveau non invasif pour le protocole Analyse génétique de fèces chez les loups:
+{
+    "annonce_invasivite": "Manque d'informations",
+    "justification_annonce_invasivite": "Le titre ne contient pas de déclaration globale de non-invasivité, ni une mention explicite du protocole détecté comme invasif. Le corps de l'article ne contient pas de phrase indiquant explicitement que le protocole en question est non invasif."
+}
+non_invasive_level: [{'annonce_invasivite': "Manque d'informations", 'justification_annonce_invasivite': "Le titre ne contient pas de déclaration globale de non-invasivité, ni une mention explicite du protocole détecté comme invasif. Le corps de l'article ne contient pas de phrase indiquant explicitement que le protocole en question est non invasif."}]
+--------------------------------
+
+Traitement terminé avec succès pour le fichier : RAG/output/1-s2.0-S0006320712005083-main.json

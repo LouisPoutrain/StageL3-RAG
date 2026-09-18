@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Piles of scats for piles of DNA: Deriving DNA of lizards from their faeces</title>
+				<funder>
+					<orgName type="full">Royal Society of South Australia</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Biology Society of South Australia</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Nature Conservation Society of South Australia</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>A,B , Tobe</roleName><forename type="first">S</forename><forename type="middle">K</forename><surname>Pearson</surname></persName>
+							<email>sarah.pearson@flinders.edu.au</email>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">S A</forename><surname>Fusco</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">A A</forename><surname>Bull</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Evolutionary Biology Unit</orgName>
+								<orgName type="institution">South Australian Museum</orgName>
+								<address>
+									<addrLine>North Terrace</addrLine>
+									<postCode>5000</postCode>
+									<settlement>Adelaide</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><forename type="middle">M A</forename><surname>Gardner</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Evolutionary Biology Unit</orgName>
+								<orgName type="institution">South Australian Museum</orgName>
+								<address>
+									<addrLine>North Terrace</addrLine>
+									<postCode>5000</postCode>
+									<settlement>Adelaide</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">School of Biological Sciences</orgName>
+								<orgName type="institution">Flinders University of South Australia</orgName>
+								<address>
+									<postCode>5042</postCode>
+									<settlement>Bedford Park</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Piles of scats for piles of DNA: Deriving DNA of lizards from their faeces</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A848BA9D141D9980B230BC0987903539</idno>
+					<idno type="DOI">10.1071/ZO14059</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-05-23T07:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Non-invasive genetic sampling using scats has a well established role in conservation biology; yet is rarely applied to lizard scats. We evaluated various storage and DNA extraction methods and identified a reliable method of deriving genotypes and sequences from gidgee skink scats. Results highlight the opportunity for using scat derived DNA in lizard studies, particularly for species that deposit scats in piles.</p><p>Running header A method for deriving lizard DNA from their faeces Abstract Species identification and distribution; individual identity and relatedness; population history, structure, and diversity and more can be derived from faecal (scat) DNA. Although there are problems, such as contamination from prey DNA, in deriving donor DNA in this way, noninvasive genetic sampling using scats has a well established role in conservation biology.</p><p>Using scats from captive and wild Egernia stokesii (Squamata, Scincidae) we evaluated two storage and four DNA extraction methods and assessed the reliability of assessing subsequent genotypes and sequences. Reliable genotypes and sequences were obtained from frozen and dried captive lizard scat DNA extracted using a QIAamp ® DNA Stool Mini Kit and a modified Gentra ®Puregene ® method; yet success rates deteriorated for wild lizard scats.</p><p>Wild E. stokesii eat more plants than their captive counterparts; DNA extraction may be impeded by plant inhibitors present in scats of wild lizards . Notably, reliable genotypes and sequences were obtained from wild E. stokesii scat DNA extracted using a Qiagen DNeasy ® Plant Mini Kit, a method designed to remove plant inhibitors. Results highlight the opportunity for using scat derived DNA in lizard studies, particularly for species that deposit scats in piles.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Faecal pellets (scats) are a widely used source of non-invasive genetic sampling of animals <ref type="bibr" target="#b5">(Beja-Pereira, Oliveira et al. 2009;</ref><ref type="bibr">Taberlet, Waits et al. 1999)</ref> providing information on species identification and distribution <ref type="bibr" target="#b25">(Harris, Winnie et al. 2010)</ref>, individual identity <ref type="bibr" target="#b6">(Brinkman, Person et al. 2010)</ref>, and relatedness between individuals within a population (Stenglein, <ref type="bibr">Waits et al. 2011)</ref>. At the population level, genetic data derived from scats have shed light on population history, structure, and genetic diversity <ref type="bibr" target="#b17">(Frantz, Pope et al. 2003;</ref><ref type="bibr" target="#b27">Iyengar, Babu et al. 2005)</ref>. Scat collection is less intrusive than most traditional methods used to extract DNA from collected tissue. It causes less stress and less disruption of normal behaviour to the study individuals (Taberlet and Luikart 1999), and may be less demanding in terms of field time, collection effort, equipment and costs <ref type="bibr" target="#b47">(Solberg, Bellemain et al. 2006;</ref><ref type="bibr" target="#b49">Vynne, Baker et al. 2012)</ref>. For secretive species that are hard to locate or catch, non-invasive genetic sampling using scats may be the only viable option (e.g. <ref type="bibr" target="#b0">Alacs, Alpers et al. 2003)</ref>.</p><p>For threatened species, the use of scats can provide a means to overcome collecting permit restrictions.</p><p>However, there are specific problems in deriving donor DNA from scats. Scats usually contain some cells shed from the intestinal lining that will include DNA of the scatting individual. Scats also contain many other components including exotic DNA from food remains and gut parasites <ref type="bibr" target="#b7">(Broquet, Menard et al. 2007;</ref><ref type="bibr" target="#b32">Marrero, Fregel et al. 2009;</ref><ref type="bibr" target="#b35">Morin, Chambers et al. 2001)</ref>. Extraction and amplification of the DNA of the scatting individual may be inhibited by this accompanying material <ref type="bibr" target="#b32">(Marrero, Fregel et al. 2009;</ref><ref type="bibr" target="#b40">Panasci, Ballard et al. 2011)</ref>. Additionally, sample age and environmental conditions since the time of scat deposit can result in DNA degradation <ref type="bibr" target="#b36">(Murphy, Kendall et al. 2007;</ref><ref type="bibr" target="#b40">Panasci, Ballard et al. 2011;</ref><ref type="bibr" target="#b42">Piggot 2004)</ref>. Despite the challenges posed by the low quantity and quality of DNA, the use of scats for genetic data now has a well established place in ecological studies.</p><p>In studies of lizards, scats are widely used to derive non-genetic data on diet <ref type="bibr" target="#b4">(Barrows 2006;</ref><ref type="bibr" target="#b24">Germano, Smith et al. 2007;</ref><ref type="bibr" target="#b41">Pavey, Burwell et al. 2010)</ref>, species distribution and abundance <ref type="bibr">(Turner and Medica 1982)</ref>, recognition and communication <ref type="bibr" target="#b9">(Bull, Griffith et al. 1999;</ref><ref type="bibr" target="#b53">Wilgers and Horne 2009)</ref>, parasite infections <ref type="bibr" target="#b16">(Fenner and Bull 2008;</ref><ref type="bibr" target="#b46">Smith, Fenner et al. 2009)</ref>, and territoriality <ref type="bibr" target="#b53">(Wilgers and Horne 2009)</ref>. However, despite its wide application in studies of mammals, the use of scat as a DNA source in reptiles is limited to only a single published study in snakes <ref type="bibr" target="#b28">(Jones, Cable et al. 2008)</ref> with none in lizards. One explanation may be that lizard scats may contain fewer cells from the scatting individual and lower DNA yields than mammal scats. In mammal scats, donor DNA is found in a mucous layer of colorectal epithelial cells that have collected on the surface of the scat as it moves through the digestive tract <ref type="bibr" target="#b3">(Ball, Pither et al. 2007;</ref><ref type="bibr" target="#b26">Herbert, Darden et al. 2011;</ref><ref type="bibr" target="#b50">Waits and Paetkau 2005)</ref>.</p><p>Amplification of target DNA is more successful using the outer coating of scats than material from inside the scats <ref type="bibr" target="#b52">(Wehausen, Ramey II et al. 2004)</ref>, and the scat coating is regularly targeted for DNA extraction in mammal studies <ref type="bibr" target="#b3">(Ball, Pither et al. 2007;</ref><ref type="bibr" target="#b26">Herbert, Darden et al. 2011;</ref><ref type="bibr" target="#b43">Piggot and Taylor 2003)</ref>. Lizard scats appear to have a reduced mucosal coating.</p><p>Despite the potential challenges, the scarcity of studies using DNA derived from lizard scats highlights an opportunity to develop this non-invasive genetic sampling method for this animal group. An important component of this process is to determine the best method for storing scat samples, and for extraction to maximise the yield of usable DNA from them.</p><p>Published studies in which DNA has been extracted from scats reveal a range of methods for scat storage. These include freezing <ref type="bibr" target="#b37">(Nagy 2010)</ref>, drying <ref type="bibr" target="#b39">(Nsubuga, Robbins et al. 2004)</ref>, and storage in a buffer <ref type="bibr" target="#b17">(Frantz, Pope et al. 2003)</ref>. Methods to extract DNA from scats also vary.</p><p>For example there are off-the-shelf scat DNA extraction kits <ref type="bibr">(Steinglein, Waits et al. 2011;</ref><ref type="bibr" target="#b51">Watts, Scribner et al. 2011)</ref>, or scats can be treated using blood or tissue DNA extraction kits <ref type="bibr" target="#b6">(Brinkman, Person et al. 2010;</ref><ref type="bibr" target="#b25">Harris, Winnie et al. 2010</ref>). It appears that no one method of both storage and extraction suits all species, and <ref type="bibr" target="#b48">Valiere, Bonenfant et al. (2007)</ref> and <ref type="bibr" target="#b44">Renan, Speyer et al. (2012)</ref> recommended a pilot study be undertaken to identify optimal methods for a given study species. We investigated alternative methods for storing scats and deriving DNA from them for an Australian scincid lizard, Egernia stokesii. Our objectives were to: 1) identify optimal E. stokesii scat storage and DNA extraction methods; and 2) assess the reliability of DNA genotypes and sequences derived from E. stokesii scats using these methods. Once developed, these methods could complement traditional invasive sampling methods in this and other lizard species with the potential to increase sample size with little extra effort for several lizard species.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study species</head><p>Egernia stokesii (gidgee skink, J.E. Gray, 1845) is a large (180mm snout-vent length, <ref type="bibr" target="#b11">Cogger (1983)</ref>), long-living, viviparous skink <ref type="bibr" target="#b15">(Duffield and Bull 2002)</ref> widely distributed across eastern and central areas of semi-arid Australia. Egernia stokesii individuals live in stable family groups <ref type="bibr" target="#b15">(Duffield and Bull 2002;</ref><ref type="bibr">Gardner, Bull et al. 2001a)</ref>; have high levels of genetic monogamy <ref type="bibr" target="#b20">(Gardner, Bull et al. 2002)</ref> and limited dispersal <ref type="bibr">(Gardner, Bull et al. 2001b)</ref>. They produce scats upon rock platforms immediately outside of the rocky crevices in which they reside, resulting in distinctive scat piles or deposits <ref type="bibr" target="#b14">(Duffield and Bull 1998)</ref>.</p><p>Using olfaction, individuals can discriminate between scats from familiar group and nongroup members, suggesting scat piles play an important role in social group cohesion in this species <ref type="bibr" target="#b9">(Bull, Griffith et al. 1999)</ref>. The use of scat derived DNA in this and similarly scat piling lizard species could provide quick access to the DNA of most group members, without the time and effort required to capture the lizards for tissue samples. Additionally, collecting scat may provide a more complete genetic sampling of social groups as some individuals may not be caught.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scat sampling</head><p>Scats were sampled from two sources. First we used captive E. stokesii housed at the Flinders University of South Australia. These included individuals originally captured near Hawker (31°54′S; 138°25′E) in the southern Flinders Ranges, South Australia, during the summers of 1993-1998 and their progeny <ref type="bibr" target="#b2">(Arida and Bull 2008;</ref><ref type="bibr" target="#b30">Lanham and Bull 2004;</ref><ref type="bibr" target="#b31">Main and Bull 1996)</ref>. We randomly selected nine E. stokesii individuals and kept them in nine separate cages so scats could be confidently assigned to an individual. Each individual was housed in a cage (40cm high x 40cm wide x 50cm deep) in a room with a temperature of 25ºC (± 2ºC), with ceiling lights on for 12 hours a day, and heat lamps on for 6 hours a day. Scats were collected twice weekly for four weeks (total 128 scats, average 14.22 scats per lizard, SE ± 2.13). Second, scats were collected within an estimated four hours of defecation during field surveys of three E. stokesii populations near Hawker conducted between September 2012 and March 2013 (409 scats). Scat freshness was assessed based on colour, moisture, compaction, by the presence of a uric acid spot, and by comparison with scats of known age from the captive colony. In addition, some lizards captured during surveys defecated during handling, ensuring complete freshness of the scat samples.</p><p>In each case, scats were collected using forceps that had been cleaned in 90% ethanol between each collection, and were stored using alternative methods as described below. The diet of captive and wild E. stokesii differed. Captives of all ages were fed a mix of boiled eggs, fruits and vegetables, and reptile supplement, while adult wild E. stokesii feed largely on plant material <ref type="bibr" target="#b14">(Duffield and Bull 1998)</ref>. Based on their size, we deduced that the wild scats used in this study were from adult E. stokesii <ref type="bibr" target="#b14">(Duffield and Bull 1998)</ref>; this was confirmed by visual inspection which showed a largely plant derived content of wild scats.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Positive controls</head><p>To confirm that DNA derived from scats accurately represented the DNA of the scatting individual we collected blood samples from some individuals as an alternative source for DNA characterisation. Blood (up to 0.5 mL) was taken from the caudal vein of the nine isolated captive individuals and from 29 wild individuals that produced a scat while captured.</p><p>Blood was stored on Whatman FTA ® Elute for later DNA extraction. We used established methods for deriving mitochondrial DNA (mtDNA) sequences and microsatellite DNA genotypes from FTA stored E. stokesii blood <ref type="bibr" target="#b18">(Gardner, Bull et al. 2007)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scat storage</head><p>We compared two methods of storage for the captive lizard scats. Scats were either frozen at -20°C <ref type="bibr" target="#b17">(Frantz, Pope et al. 2003)</ref> (27 scats; all from the lab colony), or dried (72 scats; 54 lab colony, 18 field). Scats to be dried were sprayed with 90% ethanol and then stored on silica beads (hereafter termed dried; modified from <ref type="bibr" target="#b45">Roeder, Archer et al. 2004</ref>) and kept at room temperature until DNA extraction. Samples from the field were all stored dried as this method was considered more practical for sampling in extreme conditions and away from amenities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extraction captive lizards</head><p>We trialled six DNA extraction methods using 81 scats (27 frozen, 54 dried) from captive lizards (Table <ref type="table" target="#tab_0">1</ref>): 1) QIAamp ® DNA Stool Mini Kit (QIAGEN ®, Catalogue 51504); 2) ISOLATE Fecal DNA Kit (Bioline ®, Catalogue BIO-52037); 3) a standard Chelex ® 100 extraction; 4) Chelex ® 100 without boiling (adopted from <ref type="bibr" target="#b10">Casquet, Thebaud et al. 2011)</ref>; 5) a modified Gentra ®Puregene ® (Gentra Systems) method; and 6) a direct PCR method. The first two methods were off the shelf kits specifically derived for scat samples. The next three were standard kit methods used for tissue or blood samples. The last method involved amplification without first extracting or purifying the DNA and allows for maximum recovery of sample, but can suffer from inhibitors that are normally removed during extraction. The two kits (QIAamp and ISOLATE) were used according to manufacturer guidelines. The modified Gentra ® Puregene ® method involved immersion of the whole scat in SLP buffer (500mM Tris-HCl pH 8.0, 50mM EDTA, 10mM NaCl, (modified from <ref type="bibr" target="#b13">Deuter, Pietsch et al. 1995)</ref> followed by agitation on a rotor wheel for one hour, protein precipitation with Proteinase K, DNA precipitation with ammonium acetate and isopropanol, ethanol wash, and DNA hydration in TLE buffer.</p><p>For the kit extractions, scats were selected based on recommended weight ranges where possible; E. stokesii scats ranged in weight from about 10 -900mg (average 199.60mg, SE ± 16.63), therefore total weight may have been outside the recommended range (180 -220mg QIAamp ® DNA Stool Mini Kit, up to 150mg ISOLATE Fecal DNA Kit). Where a scat was large enough, a surface scrape of the scat was used in kit extractions as this is where most of the donor individual's DNA is expected to be found. Alternatively a segment of the scat, or the entire scat was used, depending upon the protocol. In all methods, filtered pipette tips were used to minimise contamination and negative extraction controls (scat material was not added to the extraction) were used to assess contamination. Separate laboratories were used for extraction, amplification preparation and reaction. Replicate scat extractions are sometimes recommended (Taberlet, <ref type="bibr">Waits et al. 1999)</ref> but this was not possible as a single extraction often required the whole scat to be used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA amplification captive lizards</head><p>Initially, mtDNA was targeted in DNA amplification trials because cells contain more mtDNA than nuclear DNA (nuDNA), suggesting that if mtDNA could not be amplified then targeting nuDNA was likely to be futile (Taberlet, <ref type="bibr">Waits et al. 1999)</ref>. However, amplification success may be increased for smaller DNA markers <ref type="bibr" target="#b7">(Broquet, Menard et al. 2007)</ref>. Because only larger mtDNA genetic markers (~800bp) were currently available for E. stokesii, and because scat DNA may be of low quantity and quality <ref type="bibr" target="#b38">(Navidi, Arnheim et al. 1992;</ref><ref type="bibr">Taberlet, Griffin et al. 1996)</ref>, we developed genetic markers to amplify ~200 bp of the mtDNA ND4 gene. Three primer pairs were designed in Geneious 5.6 (Biomatters Ltd 2012) based on a consensus sequence derived from 159 existing E. stokesii mtDNA sequences. These primer pairs were trialled in DNA derived from E. stokesii blood; forward primer M1544 (5'-TATGAACGCACCCATAGCCG-3') and reverse primer M1545 (5'-GCTGCTGTTAGAAGAGTGCC-3') were selected for this study.</p><p>For mtDNA only 1:5 and 1:50 dilutions were trialled. A dilution of 1:5 has previously been successful for DNA from blood in this species, but we considered that overcoming inhibitors in scat DNA may require increased dilution <ref type="bibr" target="#b1">(Arandjelovic, Guschanski et al. 2009;</ref><ref type="bibr" target="#b3">Ball, Pither et al. 2007;</ref><ref type="bibr" target="#b34">Monteiro, Bonnemaison et al. 1997)</ref>. DNA amplifications via polymerase chain reaction (PCR) were conducted at a total volume of 25 µl consisting of 1 x PCR Gold Buffer (Applied Biosystems), 0.20 μM of each primer, 0.80 mM dNTPs, 2 mM MgCl2, 0.5 U AmpliTaq ® Gold DNA polymerase (Applied Biosystems), 2µl of extracted DNA, and PCR grade water. The cycling conditions were nine minutes at 95 ºC, 34 cycles of 45 seconds at 94 ºC, 45 seconds at 60 ºC, one minute at 72 ºC, and a final elongation step of ten minutes at 72 ºC followed by 30 seconds at 25 ºC. To ensure that non-amplification was due to the test procedure rather than a failure of the PCR, and that positive results were not the result of contamination, one PCR positive (DNA extracted from blood and known to amplify) and two PCR negative (TLE buffer and the negative DNA extraction) controls were used in each PCR. Neat DNA from which mtDNA PCR reactions were successful was quantified using Qubit ® 2.0 Fluorometer (Life Technologies Corporation, CA); although we acknowledge that the DNA measured may have included both target and non-target DNA.</p><p>Where mtDNA amplification was successful, as determined by the presence of a band on an agarose gel, amplification trials continued using a previously developed species specific microsatellite genetic marker (Est 1, <ref type="bibr" target="#b22">Gardner, Cooper et al. 1999)</ref>. For nuDNA, a QIAGEN ® Multiplex PCR Kit (QIAGEN ®, Catalogue 206143) was used. Each 10μl uniplex reaction mix contained 0.10 x QIAGEN Multiplex PCR Master Mix, 0.25 μM of each primer, 0.50 x Q-solution, 2μl of extracted DNA, and RNAse Free Water. The cycling conditions were 15 minutes at 95 ºC, 35 cycles of 30 seconds at 94 ºC, 90 seconds at 57 ºC, one minute at 72 ºC, and a final elongation step of 30 minutes at 60 ºC followed by 30 seconds at 25 ºC. Amplification success of the Est 1 locus was determined by the presence of a band on an agarose gel. A dilution of 1:50 has previously been successful for nuDNA from blood in this species. Because increased dilutions may be required to reduce the effect of inhibitors, if amplification was not successful for 1:50 dilutions, a range of DNA dilutions (neat, 1:5, 1:10, 1:100, 1:500, 1:1000) were then trialled. If Est 1 failed to amplify for any dilution, the extraction method was deemed unsuccessful for nuDNA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extraction and amplification in scats from wild lizards</head><p>Although both the QIAamp ® DNA Stool Mini Kit and modified Gentra ®Puregene ® method were successful in preliminary trials using captive lizard scats (see results), the modified Gentra ®Puregene ® method had a lower per sample cost, therefore we chose that method for validation using six wild scats; positive and negative controls were used as described for captive scats above. None of the six wild scat DNA extractions amplified for mtDNA (results not shown). We considered diet differences between captive and wild E. stokesii may explain differences in amplification success rates. Earlier studies have suggested that diet derived inhibitors in scats may reduce both DNA extraction yields and amplification success <ref type="bibr" target="#b26">(Herbert, Darden et al. 2011;</ref><ref type="bibr" target="#b29">Kohn and Wayne 1997;</ref><ref type="bibr" target="#b33">Monroe, Grier et al. 2013;</ref><ref type="bibr" target="#b40">Panasci, Ballard et al. 2011</ref>). This could be particularly relevant for omnivorous or herbivorous lizards due to the presence of polysaccharides and polyphenols found in plants <ref type="bibr" target="#b32">(Marrero, Fregel et al. 2009;</ref><ref type="bibr" target="#b40">Panasci, Ballard et al. 2011)</ref>.</p><p>To investigate the possible presence of PCR inhibitors, DNA was extracted (using the modified Gentra ®Puregene ® method) from a further six wild scats. To test for PCR inhibition, one of the wild scat extractions was replicated in the PCR, once with only DNA extracted from the scat, and once with the scat DNA plus 2μl of a positive control. We could infer inhibitors were preventing amplification if the positive control on its own amplified but not in the reaction with scat DNA. In an effort to reduce the impact of potential inhibitors, a subset of extracted DNA from each of the six wild scats was purified using Microcon Ultracel YM-100 filters. Purified extractions were then assessed for mtDNA amplification success using the reaction mix and conditions outlined above; one sample was replicated in this PCR, one of which was spiked with the positive control to directly assess the effect of the inhibitor clean-up process (i.e. the same sample was used as in the earlier PCR).</p><p>Given the low success rates of the modified Gentra ®Puregene ® method on wild originated scat (see results), and the additional cost and effort associated with clean-up, a Qiagen DNeasy ® Plant Mini Kit was trialled for removing inhibitors. DNA was extracted from a further six wild scats according to the manufacturer instructions except initial scat sample disruption and homogenisation was avoided. Instead, the scat was left intact and, where required due to the size of the scat, additional Buffer AP1 and RNAase A stock solution (100 mg/ml) were used to ensure scats were fully immersed prior to incubation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Validation via genotyping and sequencing</head><p>For captive samples, where an extraction method was successful, both scat and blood samples from a subset of two lizards were sequenced for the mtDNA and genotyped for seven previously described microsatellite loci (Est 1, Est 4, Est 8, Est 13, <ref type="bibr" target="#b22">(Gardner, Cooper et al. 1999);</ref><ref type="bibr">TrL 28, TrL 29, TrL 35, (Gardner, Sanchez et al. 2008)</ref>) in PCR reactions according to the reaction mix and conditions described above except that reactions were performed in two multiplex reactions rather than uniplex (multiplex 1: Est 1, Est 4, Est 8, Est 13; multiplex 2: TrL 28, TrL 29, TrL 35). For wild samples, scat DNA of six lizards that scatted during handling was extracted using the Qiagen DNeasy ® Plant Mini Kit, and blood DNA from the same lizards, extracted using the Whatman FTA ® Elute, were similarly genotyped and sequenced. Prior to sequencing, mtDNA PCR products were purified using multiscreen PCR filter plates (Millipore Billerica, MA) to remove unincorporated primers and dNTPs.</p><p>Sequence reactions were prepared using a BigDYE Terminator Cycle Sequencing Kit v3.1 (Applied Biosystems) following manufacturer recommendations, using the same primers as those used in PCR amplification. The cycling conditions were three minutes at 96 ºC, 30 cycles of 30 seconds at 96 ºC, 15 seconds at 50 ºC, four minutes at 60 ºC, and a final elongation step of three minutes at 25 ºC followed by 30 seconds at 25 ºC. Sequence products were purified using multiscreen PCR filter plates (Millipore Billerica, MA) prior to submission of DNA to the Australian Genome Research Facility (AGRF) for capillary separation on an ABI Prism 3730xl 96-capillary sequencer. The resulting sequences were compared against data on GenBank, to confirm species identification, using the Basic Local Alignment Search Tool (BLAST) available at <ref type="url" target="http://blast.ncbi.nlm.nih.gov/Blast.cgi">http://blast.ncbi.nlm.nih.gov/Blast.cgi</ref>. For nuDNA, we compared genotypes derived from both blood and scat samples from the same individuals. PCR products were sent to the AGRF (Adelaide node) for capillary separation on an AB3730 DNA analyser; the resulting fragments were scored using GeneMapper ® (Applied Biosystems). Although recommended (Taberlet, <ref type="bibr">Waits et al. 1999;</ref><ref type="bibr" target="#b48">Valiere, Bonenfant et al. 2007)</ref>, we did not perform replicate PCRs for mtDNA or nuDNA in initial trials; instead we used blood DNA samples from the same individuals as a positive control.</p><p>At this stage we were interested in determining if a sequence and genotype could be derived from scat DNA and, if they matched those derived from blood derived DNA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Assessment of genotyping reliability</head><p>Once we identified a method for deriving genotypes from wild E. stokesii scats (see results), we assessed genotyping reliability using three independent PCRs (adopted from <ref type="bibr" target="#b40">Panasci, Ballard et al. 2011;</ref><ref type="bibr">Stenglein, Waits et al. 2011)</ref>. DNA amplification and genotyping were undertaken as uniplexes (see "validation via genotyping and sequencing" above).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>We used 81captive E. stokesii scats in preliminary trials (27 frozen, 54 dried, Table <ref type="table" target="#tab_0">1</ref>). Both frozen and dried samples amplified for both mtDNA and nuDNA (Table <ref type="table" target="#tab_0">1</ref>). Of the six extraction methods trialled using captive lizard scats, the QIAamp ® DNA Stool Mini Kit, ISOLATE Fecal DNA Kit, and modified Gentra ®Puregene ® methods were successful for mtDNA (Table <ref type="table" target="#tab_0">1</ref>). The Chelex ® 100 and direct PCR methods failed to amplify mtDNA and therefore were not trialled for nuDNA. Both the 1:5 and 1:50 DNA dilutions were successful for mtDNA, while for nuDNA, neat DNA was the most successful (results not shown). The QIAamp ® DNA Stool Mini Kit and modified Gentra ®Puregene ® methods were further tested for reliability of sequencing and genotyping using captive E. stokesii scats. Of twenty captive lizard scat DNA sequences derived using the QIAamp ® DNA Stool Mini Kit (n= 17) and modified Gentra ®Puregene ® method (n = 3) assessed in BLAST, 80% (n= 16) were identified as E. stokesii, 15% (n=3) as Egernia sp, and one sequence was too short to BLAST. For nuDNA, all seven microsatellite loci were successfully derived from captive lizard scat DNA extracted using both the QIAamp ® DNA Stool Mini Kit and the modified Gentra ®Puregene ® method, and all scat derived genotypes matched those derived from blood.</p><p>Based on trials using captive scats, the modified Gentra ®Puregene ® method was initially chosen for use with six wild scat samples; mtDNA amplification was unsuccessful. In subsequent trials, using a further six wild scat samples, the PCR positive control on its own was successful yet the wild scat DNA sample spiked with the positive control failed to amplify, suggesting the presence of inhibitors. Following application of a purification method, an additional three wild scat DNA samples amplified for mtDNA. Notably, the elute DNA of six of the 12 wild scat extractions using the modified Gentra ®Puregene ® method ranged from a light tea colour to muddy brown; whereas the elute DNA of all captive scat extractions was clear.</p><p>Six wild scat samples extracted using the Qiagen DNeasy ® Plant Mini Kit were successfully sequenced and genotyped. All six samples were identified as E. stokesii using BLAST. All seven microsatellite DNA loci could be scored and the resulting genotypes matched those derived from blood. The elute DNA was clear for all wild scats extracted using the Qiagen DNeasy ® Plant Mini Kit. Successful mtDNA PCR reaction quantifications are available as Supplementary Material on the Journal website. The reliability of genotypes derived from DNA extracted using the Qiagen DNeasy ® Plant Mini Kit was further assessed for seven loci in five wild E. stokesii scat samples. All loci amplified in all replicates for all samples, except the locus for TrL 35 which failed in all replicates for one sample. Matching heterozygotes were observed in all replicates for most samples, with three exceptions. Firstly, all replicates for Est 1 and TrL 28 in one sample showed identical homozygotes. Secondly, allelic dropout was evident for Est1 in one sample which showed two matching heterozygotes and one homozygote. Lastly, for TrL 28 in one sample, two replicates showed matching homozygotes, one a heterozygote, suggesting either allelic dropout in two replicates or a false allele in one replicate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>We have identified a reliable method for deriving DNA sequences and genotypes from wild E. stokesii scat samples. Genotypes and sequences were successfully derived from DNA extracted from field collected scats using a Qiagen DNeasy ® Plant Mini Kit. The reliability of genotypes derived using this method was supported by identical results from replicate PCRs. Adoption of this method would complement traditional capture-mark-recapture methods for estimating local abundance of E. stokesii and other lizard species, and for estimating genetic structure and diversity, particularly for those species that create easily sampled scat piles. Co-located scats provide greater confidence of matching of scat to lizard location, making this a potentially useful tool for assessing social structures and relatedness among social group members. In addition, this method provides an alternative, non-invasive technique for threatened or secretive lizards.</p><p>Two DNA extraction methods (QIAamp ® DNA Stool Mini Kit and modified Gentra ®Puregene ® method) were successful for captive scats although success rates decreased when applied to wild scats. On the other hand, the Qiagen DNeasy ® Plant Mini Kit successfully extracted DNA from wild scats; suggesting plant inhibitors present in scats of herbivorous lizards may often prevent amplification of DNA unless they are filtered out.</p><p>Although both mtDNA and nuDNA were successfully amplified from frozen and dried captive lizard scat samples, the drying method will be more suitable when sampling in semiarid to arid locations away from electricity supplies.</p><p>As false alleles and allelic dropout may arise in scat samples with low quality and quantity of DNA <ref type="bibr" target="#b8">(Broquet and Petit 2004;</ref><ref type="bibr">Taberlet, Waits et al. 1999;</ref><ref type="bibr" target="#b48">Valiere, Bonenfant et al. 2007)</ref> error checking protocols should normally be adopted. DNA amplification replicates and assessment using a consensus approach have previously been suggested <ref type="bibr" target="#b8">(Broquet and Petit 2004;</ref><ref type="bibr" target="#b38">Navidi, Arnheim et al. 1992;</ref><ref type="bibr">Taberlet, Waits et al. 1999</ref>) and an assessment of power such as probability of identity is recommended <ref type="bibr">(Valiere 2002)</ref>. The use of replicate PCRs to assess the reliability of genotypes derived from DNA extracted, as we have doneusing the Qiagen DNeasy ® Plant Mini Kit is recommended. For this method to be adopted for this or other reptile species, a comprehensive pilot study should be undertaken that incorporates genotyping error rates into study design. In addition, as methods are not necessarily transferable between species (Taberlet, <ref type="bibr">Waits et al. 1999)</ref> preliminary trials are recommended prior to use with other lizard species.</p><p>There are other potential problems when deriving lizard DNA from their scats. We found reptile scales on the surface of some captive and wild scats (Pearson, pers. obs.). Captive lizards were isolated so it could be assumed that in those cases the scales belonged to the lizard from which scats were collected. The same assumption cannot be made for field collected scats as lizards may eat the sloughed skin of other individuals, or even conspecific neonates <ref type="bibr" target="#b30">(Lanham and Bull 2004)</ref>, potentially contaminating the sample with other conspecific DNA. Further, the co-location of scats may result in cross contamination between scats that are in contact but from different individuals. Also DNA extraction and amplification success is likely to decline with scat age as the DNA deteriorates <ref type="bibr" target="#b12">(Demay, Becker et al. 2013)</ref>. Wild samples used in this study were fresh; however we recommend future studies that adopt the method identified in this work consider temporal sampling thresholds.</p><p>A further potential complication is the identification of the scats of the target species. In this study, few other lizard species were sighted during the sampling of wild E. stokesii and the size and location of E. stokesii scats in piles immediately outside occupied crevice entrances facilitated identification. However, geckos were present and gecko scats may be confused with sub-adult E. stokesii scats, although species identification may be verified via sequencing. In addition, the field sites used in this study consisted of rocky outcrops with sparse vegetation where scats were easily found. Scats may be harder to locate and identify in an area with denser vegetation or higher lizard diversity. Knowledge of the behaviour of the target species and an awareness of other resident and transient species would be essential in such cases. However, this study indicates that more confidence may be applied to the identification of scat from scat piling species, making non-invasive genetic sampling particularly applicable for such species. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figures and tables:</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Results of captive E. stokesii scat trials Showing the number of scats used in trial for each storage and DNA extraction method, and numbers (%) successfully amplified for mt-and nuDNA for each storage and DNA extraction method.</figDesc><table><row><cell>Extraction method</cell><cell cols="2">Storage method</cell><cell cols="2">mtDNA amplified</cell><cell cols="2">nuDNA amplified</cell></row><row><cell></cell><cell>Frozen*</cell><cell>Dried*</cell><cell>Frozen</cell><cell>Dried</cell><cell>Frozen</cell><cell>Dried</cell></row><row><cell>QIAamp ® DNA Stool Mini Kit</cell><cell>11</cell><cell>20</cell><cell cols="2">10 (91) 20 (100)</cell><cell>9 (82)</cell><cell>17 (85)</cell></row><row><cell>ISOLATE Fecal DNA Kit</cell><cell>4</cell><cell>16</cell><cell>3 (75)</cell><cell>11 (69)</cell><cell>1 (25)</cell><cell>4 (25)</cell></row><row><cell>Direct</cell><cell>3</cell><cell>3</cell><cell>0</cell><cell>0</cell><cell>n/a</cell><cell>n/a</cell></row><row><cell>Chelex with boiling</cell><cell>3</cell><cell>3</cell><cell>0</cell><cell>0</cell><cell>n/a</cell><cell>n/a</cell></row><row><cell>Chelex without boiling</cell><cell>3</cell><cell>3</cell><cell>0</cell><cell>0</cell><cell>n/a</cell><cell>n/a</cell></row><row><cell>Modified Gentra ® Puregene ®</cell><cell>3</cell><cell>9</cell><cell>3 (100)</cell><cell>9 (100)</cell><cell>3 (100)</cell><cell>9 (100)</cell></row><row><cell>method</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Total</cell><cell>27</cell><cell>54</cell><cell>16</cell><cell>40</cell><cell>13</cell><cell>30</cell></row><row><cell cols="6">* Frozen: -20°C, Dried: sprayed with 90% ethanol then stored on silica beads at room</cell><cell></cell></row><row><cell>temperature</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="person">Leslie Morrison</rs> and staff of the <rs type="institution">Flinders University of South Australia animal</rs> house for assistance with captive lizards. This work was part funded by the <rs type="funder">Royal Society of South Australia</rs>, the <rs type="funder">Biology Society of South Australia</rs>, and the <rs type="funder">Nature Conservation Society of South Australia</rs>. Captive and wild lizards were managed in accordance with standards and procedures in compliance with the <rs type="institution">Australian Code of Practice</rs> for the use of animals for scientific purposes.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Steinglein, J.L., <ref type="bibr">Waits, L.P., Ausband, D.E., Zager, P., and Mack, C.M. (2011)</ref> Estimating gray wolf pack size and family relationships using noninvasive genetic sampling at rendevous sites. Journal of Mammalogy 92(4), 784-795. Stenglein, J.L., <ref type="bibr">Waits, L.P., Ausband, D.E., Zager, P., and Mack, C.M. (2011)</ref> Estimating gray wolf pack size and family relationships using noninvasive genetic sampling at rendevous sites. Journal of Mammalogy 92(4), 784-795.</p><p>Taberlet, P., Griffin, S., Goossens, B., Questiau, S., Manceau, V., Escaravage, N., <ref type="bibr">Waits, L.P., and Bouvet, J. (1996)</ref> Reliable genotyping of samples with very low DNA quantities using PCR. Nucleic Acids Research 24(16), 3189-3194. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Identifying the presence of quokkas (Setonix brachyurus) and other macropods using cytochrome b analyses from faeces</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Alpers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>De Tores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B S</forename><surname>Spencer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="41" to="47" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Two-step multiplex polymerase chain reaction improves the speed and accuracy of genotyping using DNA from noninvasive and museum samples</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arandjelovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Guschanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Thalmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Siedel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="28" to="36" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Optimising the design of artificial refuges for the Australian skink, Egernia stokesii</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Arida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bull</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Herpetology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="161" to="172" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Characterisation of target nuclear DNA from faeces reduces technical issues associated with the assumptions of low-quality and quantity template</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pither</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Manseau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kingston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Morrill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="577" to="586" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Population dynamics of a threatened sand dune lizard</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Barrows</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Southwestern Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="514" to="523" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Advancing ecological understanding through technological transformations in noninvasive genetics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beja-Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1279" to="1301" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Individual identification of Sitka black-tailed deer (Odocoileus hemionus sitkensis) using DNA from fecal pellets</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Brinkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Person</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Colson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Hundertmark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics Resources</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="115" to="118" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Noninvasive population genetics: a review of sample source, diet, fragment length and microsatellite motif effects on amplification success and genotyping error rates</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Broquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Menard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Petit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="249" to="260" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Quantifying genotyping errors in noninvasive population genetics</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Broquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Petit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3601" to="3608" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Some properties of a pheromone allowing individual recognition, from the scats of an Australian lizard, Egernia striolata</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Griffith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Perkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Ethologica</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="35" to="42" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Chelex without boiling, a rapid and easy technique to obtain stable amplifiable DNA from small amounts of ethanol-stored spiders</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Casquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thebaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Gillespie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="136" to="141" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Reptiles and amphibians of Australia</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Cogger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983">1983</date>
+			<publisher>AH &amp; AW Reed Pty Ltd</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Evaluating DNA degradation rates in faecal pellets of the endangered pygmy rabbit</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Demay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Eidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rachlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="654" to="662" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A method of preparation of fecal DNA suitable for PCR</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Deuter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pietsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Muller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="3800" to="3801" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Seasonal and ontogenetic changes in the diet of the Australian skink Egernia stokesii</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Duffield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bull</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Herpetologica</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="414" to="419" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Stable aggregations in an Australian lizard, Egernia stokesii</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Duffield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bull</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Naturwissenschaften</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="424" to="427" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The impact of nematode parasites on the behaviour of an Australian lizard, the gidgee skink Egernia stokesii</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Fenner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bull</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Research</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="897" to="903" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Reliable microsatellite genotyping of the Eurasian badger (Meles meles) using faecal DNA</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Frantz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Roper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Delahay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Burke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1649" to="1661" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Consistent social structure within aggregations of the Australian lizard, Egernia stokesii across seven disconnected rocky outcrops</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Donnellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Ethology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="263" to="270" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Genetic evidence for a family structure in stable social aggregations of the Australian lizard Egernia stokesii</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Duffied</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="175" to="183" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">High levels of genetic monogamy in the group-living Australian lizard Egernia stokesii</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J B</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1787" to="1794" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Genetic evidence for a family structure in stable social aggregations of the Australian lizard Egernia stokesii</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J B</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Duffield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="175" to="183" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Isolation of microsatellite loci from a social lizard, Egernia stokesii, using a modified enrichment procedure</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J B</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Grant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The journal of Heredity</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="301" to="304" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Tiliqua rugosa microsatellites: isolation via enrichment and characterisation of loci for multiplex PCR in T. rugosa and the endangered T. adelaidensis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>Dudaniec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rheinberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Saint</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="233" to="237" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Food habits of the blunt-nosed leopard lizard (Gambelia sila)</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Germano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Tabor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Southwestern Naturalist</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="318" to="323" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Argali abundance in the Afghan Pamir using capture-recapture modeling from fecal DNA</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Winnie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Amish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Beja-Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Godinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="668" to="677" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Increased DNA amplification success of non-invasive genetic samples by successful removal of inhibitors from faecal samples collected in the field</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Herbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Darden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">V</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dabelsteen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics Resources</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="41" to="43" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Phylogeography, genetic structure, and diversity in the dhole (Cuon alpinus)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Iyengar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Babu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hedges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Venkataraman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Maclean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="2281" to="2297" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">An evaluation of non-invasive sampling for genetic analysis in northern European reptiles</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cable</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bruford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Herpetological Journal</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="32" to="39" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Facts from feces revisited</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">TRENDS in Ecology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="223" to="227" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Enhanced vigilance in groups in Egernia stokesii, a lizard with stable social aggregations</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Lanham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bull</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">263</biblScope>
+			<biblScope unit="page" from="95" to="99" />
+			<date type="published" when="2004">2004</date>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Mother-offspring recognition in two Australian lizards, Tiliqua rugosa and Egernia stokesii</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Main</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bull</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Behavior</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="193" to="200" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Extraction of high-quality host DNA from feces and regurgitated seeds: a useful tool for vertebrate ecological studies</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Marrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fregel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Cabrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nogales</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Research</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="147" to="151" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Evaluating the efficiency of various thermostable polymerases against co-extracted PCR inhibitors in ancient DNA samples</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Monroe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Grier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Kemp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Forensic Science International</title>
+		<imprint>
+			<biblScope unit="volume">228</biblScope>
+			<biblScope unit="page" from="142" to="153" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Monteiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bonnemaison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vekris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Petry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bonnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cabrita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mégraud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Clinical Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="995" to="998" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Quantitative polymerase chain reaction analysis of DNA from noninvasive samples for accurate microsatellite genotyping of wild chimpanzees (Pan troglodytes verus)</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Chambers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1835" to="1844" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The impact of time and field conditions on brown bear (Ursus arctos) faecal DNA amplification</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1219" to="1224" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A hands-on overview of tissue preservation methods for molecular genetic analyses</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">T</forename><surname>Nagy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Organisms Diversity &amp; Evolution</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="91" to="105" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A multiple-tubes approach for accurate genotyping of very small DNA samples by using PCR: statistical considerations</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Navidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Arnheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Waterman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Human Genetics</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="347" to="359" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Factors affecting the amount of genomic DNA extracted from ape faeces and the identification of an improved sample storage method</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Nsubuga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Robbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Roeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vigilant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="2089" to="2094" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Evaluation of fecal DNA preservation techniques and effects of sample age and diet on genotyping success</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Panasci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Breck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iii</forename><surname>Densmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Wester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1616" to="1624" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Foraging ecology and habitat use of Slater&apos;s skink (Egernia slateri): an endangered Australian desert lizard</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Pavey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Burwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E M</forename><surname>Nano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Herpetology</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="563" to="571" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Effect of sample age and season of collection on the reliability of microsatellite genotyping of faecal DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="485" to="493" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Extensive evaluation of faecal preservation and DNA extraction methods in Australian native and introduced species</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Piggot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Australian Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="341" to="355" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A factorial design experiment as a pilot study for noninvasive genetic sampling</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Renan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Speyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shahar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gueta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Templeton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bar-David</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1040" to="1047" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">A novel method for collection and preservation of faeces for genetic studies</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Roeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">I</forename><surname>Archer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Poinar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="761" to="764" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Genotypes and nematode infestations in an endangered lizard, Tiliqua adelaidensis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Fenner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Gardner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Herpetology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="300" to="305" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">An evaluation of field and non-invasive genetic methods to estimate brown bear (Ursus arctos) population size</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Solberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O.-M</forename><surname>Drageset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Swenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Conservation</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="158" to="168" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Importance of a pilot study for non-invasive genetic sampling: genotyping errors and population size estimation in red deer</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valiere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bonenfant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Toigo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-M</forename><surname>Gaillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Klein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conservation Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="69" to="78" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Factors influencing degradation of DNA and hormones in maned wolf scat</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vynne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">K</forename><surname>Breuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Wasser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Animal Conservation</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="184" to="194" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling tools for wildlife biologists: a review of applications and recommendations for accurate data collection</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Wildlife Management</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Genetic diversity and structure in two spotted hyena populations reflects social organization and male dispersal</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Watts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Scribner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Holekamp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Zoology</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page" from="281" to="291" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Experiments in DNA extraction and PCR amplification from bighorn sheep feces: the importance of DNA extraction method</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Wehausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">I</forename><surname>Ramey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Epps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Heredity</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="503" to="509" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Discrimination of chemical stimuli in conspecific fecal pellets by a visually adept iguanid lizard, Crotaphytus collaris</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Wilgers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Horne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Ethology</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="157" to="163" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

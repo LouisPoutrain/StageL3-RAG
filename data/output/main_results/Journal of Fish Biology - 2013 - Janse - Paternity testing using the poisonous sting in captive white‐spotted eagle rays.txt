@@ -1,0 +1,112 @@
+Traitement du fichier : RAG/output/Journal of Fish Biology - 2013 - Janse - Paternity testing using the poisonous sting in captive white‐spotted eagle rays.json
+Traitement du lot 1/1 (documents 1-2)
+Lot 1 indexé avec succès: 2 documents
+2/2 documents indexés depuis RAG/output/Journal of Fish Biology - 2013 - Janse - Paternity testing using the poisonous sting in captive white‐spotted eagle rays.json
+
+--- Méthode avec Refine ---
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T06:59:48.604345Z', 'message': {'role': 'assistant', 'content': 'In this study, non-invasive DNA sampling was employed to minimize disturbance to wild white-spotted eagle rays. Shed skin samples were collected passively using cotton swabs attached to monofilament fishing lines and secured in baited traps. Traps were set overnight at known aggregation sites and checked the following morning. Once a ray entered the trap, it would shed skin cells on the cotton swab as it moved around. After several hours of trapping, the swab was removed and stored in a 95% ethanol solution. This method allows for minimal contact with the animal, reducing stress and potential injury.'}, 'done': True, 'done_reason': 'stop', 'total_duration': 25721452209, 'load_duration': 53612584, 'prompt_eval_count': 479, 'prompt_eval_duration': 2973626959, 'eval_count': 123, 'eval_duration': 7400385953}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:00:04.630633Z', 'message': {'role': 'assistant', 'content': '"For non-invasive genetic sampling of wild animals, we collected feathers from perches used by birds at their nest sites. These samples were collected using forceps without direct contact with the animals to minimize disturbance and stress. The feathers were stored in individual paper envelopes until DNA extraction. This method is considered non-invas'}, 'done': True, 'done_reason': 'stop', 'total_duration': 16018667959, 'load_duration': 47804375, 'prompt_eval_count': 479, 'prompt_eval_duration': 2971353875, 'eval_count': 64, 'eval_duration': 3788022503}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:00:25.044456Z', 'message': {'role': 'assistant', 'content': '"For non-invasive sampling of wild animals, we employed a passive collection method using hair snares. These devices consist of barbed wire loops attached to trees or other sturdy structures along animal trails. The loops were baited with scent-laden cotton swabs, which were replaced every two weeks to ensure fresh attractant. Hair samples were collected by rubbing the cotton swabs against the barbs, capturing any hair shed by passing animals. To minimize disturbance and stress to the animals, we positioned the snares at least 5 meters apart and checked them weekly to collect accumulated samples. This approach allowed us to obtain sufficient genetic material while preserving animal welfare."'}, 'done': True, 'done_reason': 'stop', 'total_duration': 20408639667, 'load_duration': 47971375, 'prompt_eval_count': 479, 'prompt_eval_duration': 2968462250, 'eval_count': 132, 'eval_duration': 8698985339}
+
+=== Documents hypothétiques générés ===
+
+Document hypothétique 1:
+--------------------------------------------------
+In this study, non-invasive DNA sampling was employed to minimize disturbance to wild white-spotted eagle rays. Shed skin samples were collected passively using cotton swabs attached to monofilament fishing lines and secured in baited traps. Traps were set overnight at known aggregation sites and checked the following morning. Once a ray entered the trap, it would shed skin cells on the cotton swab as it moved around. After several hours of trapping, the swab was removed and stored in a 95% ethanol solution. This method allows for minimal contact with the animal, reducing stress and potential injury.
+--------------------------------------------------
+
+Document hypothétique 2:
+--------------------------------------------------
+"For non-invasive genetic sampling of wild animals, we collected feathers from perches used by birds at their nest sites. These samples were collected using forceps without direct contact with the animals to minimize disturbance and stress. The feathers were stored in individual paper envelopes until DNA extraction. This method is considered non-invas
+--------------------------------------------------
+
+Document hypothétique 3:
+--------------------------------------------------
+"For non-invasive sampling of wild animals, we employed a passive collection method using hair snares. These devices consist of barbed wire loops attached to trees or other sturdy structures along animal trails. The loops were baited with scent-laden cotton swabs, which were replaced every two weeks to ensure fresh attractant. Hair samples were collected by rubbing the cotton swabs against the barbs, capturing any hair shed by passing animals. To minimize disturbance and stress to the animals, we positioned the snares at least 5 meters apart and checked them weekly to collect accumulated samples. This approach allowed us to obtain sufficient genetic material while preserving animal welfare."
+--------------------------------------------------
+
+=== Fin des documents hypothétiques ===
+
+
+=== Statistiques des scores de similarité ===
+Score minimum initial: 0.7582
+Score maximum initial: 0.8282
+Score moyen initial: 0.7932
+
+=== Statistiques après filtrage dynamique ===
+Seuil dynamique appliqué: 0.8002
+Score minimum conservé: 0.7582
+Score maximum conservé: 0.8282
+Score moyen conservé: 0.7932
+Nombre de documents conservés: 2
+Documents récupérés : 2
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:01:02.46151Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "To obtain their DNA, poisonous sting samples were used. The sting of Myliobatiformes has an epidermal tissue from which DNA can be extracted.",\n    "The sting from each fish was incubated for 1 h at 56 • C in 200 μl lysis buffer containing ... proteinase K."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 36960901292, 'load_duration': 67600792, 'prompt_eval_count': 1506, 'prompt_eval_duration': 9430711959, 'eval_count': 87, 'eval_duration': 5215926624}
+Chunk : has been used to identify species (Shivji et al ., 2003), to understand parthenogenesis (Chapman et al ., 2007) and to trace the origin of captive specimens (Heist & Feldheim, 2004). Recently, an extensive review on the application of molecular techniques in elasmobranches has been done by Dudgeon et al . (2012). This study describes paternity research within a captive breeding programme of A. narinari . A group of six young A. narinari (two males and four females) from the waters around the Maldives arrived 10 years ago at Burgers' Zoo, Arnhem, The Netherlands. The group has since produced 20 offspring (10 males and 10 females). To obtain their DNA, poisonous sting samples were used. The sting of Myliobatiformes has an epidermal tissue from which DNA can be extracted. Because lost stings easily grow back, the use of stings for genetic research is an ideal non-invasive and animal-friendly sampling method. The sting from each fish was incubated for 1 h at 56 • C in 200 μl lysis buffer containing 10 mM Tris-HCl, pH 8•0, 10 mM EDTA, pH 8•0, 100 mM NaCl, 40 mM dithiothreitol (DTT) and 1 mg ml -1 proteinase K. Genomic DNA was isolated from the extract using a QIAamp DNA Mini Kit (QIAGEN; www.qiagen.com). The amount of genomic DNA isolated from one sting varied from 9 up to 70 μg depending on the size of the sample, with an average mass of 33 μg. Eight microsatellite markers, originally isolated from A. narinari (Ser61, Ser27, Ser453 and Ser92) (Sellas et al ., 2011) and longheaded eagle ray Aetobatus flagellum (Bloch & Schneider 1801) (Aefl01, Aefl05, Aefl06 and Aefl07) (Yagishita & Yamaguchi, 2009), were amplified in the genomic DNA of the 20 A. narinari . For each locus, the PCR was carried out in a thermal controller (Eppendorf; www.eppendorf.co.uk) using the following PCR profile: an initial denaturing step of 95 C for 5 min, followed by 10 cycles of 30 s at 95 • C, 30 s at 50 • C and 1 min at 72 • C, followed by 30 cycles of 30 s at 94 • C, 30 s at 52 • C and 1 min at 72 • C and finally 10 min at 72 • C. Each 10 μl reaction contained 0•25 U of Taq polymerase (5 PRIME; www.5prime.com), 1× manufacturer-supplied buffer, 200 μM of each deoxynucleotide triphosphate (dNTP), 5 pmol of each primer and 20 ng of genomic DNA. Forward primers were 5 -end labelled with 6-carboxyfluorescein (FAM) or VIC (Applied Biosystems; www.appliedbiosystems.com) fluorescent dyes. Amplified fragments were sized on an ABI Prism 3130 Genetic Analyzer using GeneScan 500 LIZ size standard and scored using GeneMapper 4.0 (Applied Biosystems). Observed and expected heterozygosities were calculated using Arlequin (Schneider et al ., 2000). In all the 20 A. narinari individuals, the entire eight loci were polymorphic with the number of alleles ranging from three to eight in the five adults. Observed heterozygosities ranged from 0•711 to 1•000 (Table I). None of the loci was found to be out of Hardy-Weinberg equilibrium and no significant linkage disequilibrium was detected. The microsatellites used in this study show high levels of heterozygosity and are therefore valuable tools for investigating parentage and for monitoring genetic variation in breeding programmes of A. narinari . Of interest was the successful use of microsatellite loci from A. flagellum on A. narinari . This may suggest close relation between the two species. This is in agreement with the current scientific discussion on the genus Aetobatus, where A. narinari might not be one species but a species complex of three closely related species, including A. flagellum (Richards et al ., 2009;White & Last, 2012). Phylogenetic analyses on A. narinari identified three well-supported, reciprocally monophyletic lineages each restricted to the western and central Pacific Ocean,    eastern Pacific Ocean and central Atlantic Ocean regions, respectively (Richards et al ., 2009). The microsatellite loci used from the study of Sellas et al .
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "To obtain their DNA, poisonous sting samples were used. The sting of Myliobatiformes has an epidermal tissue from which DNA can be extracted.",
+    "The sting from each fish was incubated for 1 h at 56 • C in 200 μl lysis buffer containing ... proteinase K."
+]
+}
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:01:39.829486Z', 'message': {'role': 'assistant', 'content': '{\n"contient_protocole": true,\n"extrait_pertinent": [\n    "Results of this study show that using stings works efficiently for DNA sampling in A. narinari."\n]\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 37355782875, 'load_duration': 48292042, 'prompt_eval_count': 721, 'prompt_eval_duration': 4493031583, 'eval_count': 44, 'eval_duration': 2538588753}
+Chunk : the western and central Pacific Ocean,    eastern Pacific Ocean and central Atlantic Ocean regions, respectively (Richards et al ., 2009). The microsatellite loci used from the study of Sellas et al . (2011) are from A. narinari originating from the eastern Gulf of Mexico and therefore from a different region than the adults in this study. Because A. narinari is an ovoviviparous species, the mother and offspring relationships are known. Therefore, the father could be identified easily from the microsatellite data. The microsatellite genotypes unambiguously identified male number 1 as the father of five young, and male number 6 as the father of the other 15 young A. narinari , showing that both adult males are reproductively active. One male was more successful than the other possibly because of dominance difference. Litter size averaged 1•7 (n = 20), with a maximum of two young per litter. In one twin, multiple paternity was found, being the first case of multipaternity within this species. Multipaternity has up to now only been described in one other ray species, R. clavata (Chevolot et al ., 2007). Results of this study show that using stings works efficiently for DNA sampling in A. narinari . This technique could easily be applied for all ray species belonging to the families Urolophidae, Hexatrygonidae, Gymnuridae, Dasyatidae, Rhinopteridae, Mobulidae, Myliobatidae and Potamotrygonidae.
+Réponse du modèle : {
+"contient_protocole": true,
+"extrait_pertinent": [
+    "Results of this study show that using stings works efficiently for DNA sampling in A. narinari."
+]
+}
+Protocoles détectés : 2
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:02:16.791012Z', 'message': {'role': 'assistant', 'content': '[\n  {\n    "contient_protocole": true,\n    "extrait_pertinent": [\n      "To obtain their DNA, poisonous sting samples were used. The sting of Myliobatiformes has an epidermal tissue from which DNA can be extracted.",\n      "The sting from each fish was incubated for 1 h at 56 • C in 200 μl lysis buffer containing ... proteinase K."\n    ]\n  }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 36956266291, 'load_duration': 48094875, 'prompt_eval_count': 575, 'prompt_eval_duration': 3517556708, 'eval_count': 94, 'eval_duration': 5449047081}
+Protocoles fusionnés : [
+  {
+    "contient_protocole": true,
+    "extrait_pertinent": [
+      "To obtain their DNA, poisonous sting samples were used. The sting of Myliobatiformes has an epidermal tissue from which DNA can be extracted.",
+      "The sting from each fish was incubated for 1 h at 56 • C in 200 μl lysis buffer containing ... proteinase K."
+    ]
+  }
+]
+Nombre de protocoles après fusion : 1
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:03:15.941411Z', 'message': {'role': 'assistant', 'content': '{\n"extrait_pertinent": ["The sting of Myliobatiformes has an epidermal tissue from which DNA can be extracted."],\n"taxon_identifie": "Poisson",\n"echantillon": "Stingers",\n"mots_cles_invasivite": [],\n"mots_cles_non_invasivite": ["naturally"],\n"evaluation_invasivite": "Non invasif",\n"justification_invasivite": "Le protocole mentionne que l\'ADN est extrait de la peau des piquants, qui sont naturellement perdus par les poissons. Il n\'y a pas de capture ou manipulation directe des animaux.",\n"signaux_alarme": [],\n"impacts_potentiels": [],\n"peches_identifies": [],\n"informations_manquantes": ["Il n\'y a pas d\'informations sur la fréquence ou l\'intensité de l\'échantillonnage."],\n"taux_de_confiance": "80% - L\'interprétation est basée sur des éléments partiels, mais il y a une déduction solide que le prélèvement est non invasif."\n}'}, 'done': True, 'done_reason': 'stop', 'total_duration': 59144099958, 'load_duration': 48141708, 'prompt_eval_count': 2092, 'prompt_eval_duration': 13264594044, 'eval_count': 242, 'eval_duration': 14668603499}
+Analyse du protocole avec les extraits : To obtain their DNA, poisonous sting samples were used. The sting of Myliobatiformes has an epidermal tissue from which DNA can be extracted.
+The sting from each fish was incubated for 1 h at 56 • C in 200 μl lysis buffer containing ... proteinase K.
+Réponse du modèle : {
+"extrait_pertinent": ["The sting of Myliobatiformes has an epidermal tissue from which DNA can be extracted."],
+"taxon_identifie": "Poisson",
+"echantillon": "Stingers",
+"mots_cles_invasivite": [],
+"mots_cles_non_invasivite": ["naturally"],
+"evaluation_invasivite": "Non invasif",
+"justification_invasivite": "Le protocole mentionne que l'ADN est extrait de la peau des piquants, qui sont naturellement perdus par les poissons. Il n'y a pas de capture ou manipulation directe des animaux.",
+"signaux_alarme": [],
+"impacts_potentiels": [],
+"peches_identifies": [],
+"informations_manquantes": ["Il n'y a pas d'informations sur la fréquence ou l'intensité de l'échantillonnage."],
+"taux_de_confiance": "80% - L'interprétation est basée sur des éléments partiels, mais il y a une déduction solide que le prélèvement est non invasif."
+}
+Analyses générées : 1
+resultats sortie llm: {'model': 'mistral-nemo:latest', 'created_at': '2026-01-16T07:03:53.427177Z', 'message': {'role': 'assistant', 'content': '[\n    {\n        "protocole": "Extraction d\'ADN à partir des piquants",\n        "extrait_pertinent": ["The sting of Myliobatiformes has an epidermal tissue from which DNA can be extracted."],\n        "taxon_identifie": "Poisson",\n        "echantillon": "Stingers",\n        "mots_cles_invasivite": [],\n        "mots_cles_non_invasivite": ["naturally"],\n        "evaluation_invasivite": "Non invasif",\n        "justification_invasivite": "Le protocole mentionne que l\'ADN est extrait de la peau des piquants, qui sont naturellement perdus par les poissons. Il n\'y a pas de capture ou manipulation directe des animaux.",\n        "signaux_alarme": [],\n        "impacts_potentiels": [],\n        "peches_identifies": [],\n        "informations_manquantes": ["Il n\'y a pas d\'informations sur la fréquence ou l\'intensité de l\'échantillonnage."],\n        "taux_de_confiance": "80% - L\'interprétation est basée sur des éléments partiels, mais il y a une déduction solide que le prélèvement est non invasif."\n    }\n]'}, 'done': True, 'done_reason': 'stop', 'total_duration': 37472794625, 'load_duration': 46854417, 'prompt_eval_count': 1211, 'prompt_eval_duration': 7498159709, 'eval_count': 278, 'eval_duration': 16484533218}
+Réponse finale : [
+    {
+        "protocole": "Extraction d'ADN à partir des piquants",
+        "extrait_pertinent": ["The sting of Myliobatiformes has an epidermal tissue from which DNA can be extracted."],
+        "taxon_identifie": "Poisson",
+        "echantillon": "Stingers",
+        "mots_cles_invasivite": [],
+        "mots_cles_non_invasivite": ["naturally"],
+        "evaluation_invasivite": "Non invasif",
+        "justification_invasivite": "Le protocole mentionne que l'ADN est extrait de la peau des piquants, qui sont naturellement perdus par les poissons. Il n'y a pas de capture ou manipulation directe des animaux.",
+        "signaux_alarme": [],
+        "impacts_potentiels": [],
+        "peches_identifies": [],
+        "informations_manquantes": ["Il n'y a pas d'informations sur la fréquence ou l'intensité de l'échantillonnage."],
+        "taux_de_confiance": "80% - L'interprétation est basée sur des éléments partiels, mais il y a une déduction solide que le prélèvement est non invasif."
+    }
+]
+
+--- Méthode avec Refine et detect_non_invasive_level ---
+--------------------------------
+
+Traitement terminé avec succès pour le fichier : RAG/output/Journal of Fish Biology - 2013 - Janse - Paternity testing using the poisonous sting in captive white‐spotted eagle rays.json

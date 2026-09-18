@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">DNA metabarcoding for diet analysis and biodiversity: A case study using the endangered Australian sea lion (Neophoca cinerea)</title>
+				<funder ref="#_FNSdrp4">
+					<orgName type="full">Victoria University</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Australian Research Council Linkage</orgName>
+				</funder>
+				<funder ref="#_ZeHSVTR">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_aWBT5Fu">
+					<orgName type="full">ARC Linkage</orgName>
+				</funder>
+				<funder ref="#_4tSrQhk">
+					<orgName type="full">Australian Government and the Government of Western Australia</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Tina</forename><forename type="middle">E</forename><surname>Berry</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Environment and Agriculture</orgName>
+								<orgName type="laboratory">Trace and Environmental DNA (TrEnD) Laboratory</orgName>
+								<orgName type="institution">Curtin University</orgName>
+								<address>
+									<settlement>Bentley</settlement>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sylvia</forename><forename type="middle">K</forename><surname>Osterrieder</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Centre for Marine Science and Technology</orgName>
+								<orgName type="institution">Curtin University</orgName>
+								<address>
+									<settlement>Bentley</settlement>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Dáithí</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Murray</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Environment and Agriculture</orgName>
+								<orgName type="laboratory">Trace and Environmental DNA (TrEnD) Laboratory</orgName>
+								<orgName type="institution">Curtin University</orgName>
+								<address>
+									<settlement>Bentley</settlement>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Megan</forename><forename type="middle">L</forename><surname>Coghlan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Environment and Agriculture</orgName>
+								<orgName type="laboratory">Trace and Environmental DNA (TrEnD) Laboratory</orgName>
+								<orgName type="institution">Curtin University</orgName>
+								<address>
+									<settlement>Bentley</settlement>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anthony</forename><forename type="middle">J</forename><surname>Richardson</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">CSIRO Oceans and Atmosphere</orgName>
+								<address>
+									<addrLine>EcoSciences Precinct Dutton Park</addrLine>
+									<region>Qld</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alicia</forename><forename type="middle">K</forename><surname>Grealy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Environment and Agriculture</orgName>
+								<orgName type="laboratory">Trace and Environmental DNA (TrEnD) Laboratory</orgName>
+								<orgName type="institution">Curtin University</orgName>
+								<address>
+									<settlement>Bentley</settlement>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><forename type="middle">Michael</forename><surname>Stat</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Environment and Agriculture</orgName>
+								<orgName type="laboratory">Trace and Environmental DNA (TrEnD) Laboratory</orgName>
+								<orgName type="institution">Curtin University</orgName>
+								<address>
+									<settlement>Bentley</settlement>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lars</forename><surname>Bejder</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Cetacean Research Unit</orgName>
+								<orgName type="institution">Murdoch University</orgName>
+								<address>
+									<settlement>Murdoch</settlement>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Michael</forename><surname>Bunce</surname></persName>
+							<email>michael.bunce@curtin.edu.au</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Environment and Agriculture</orgName>
+								<orgName type="laboratory">Trace and Environmental DNA (TrEnD) Laboratory</orgName>
+								<orgName type="institution">Curtin University</orgName>
+								<address>
+									<settlement>Bentley</settlement>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Environment and Agriculture</orgName>
+								<orgName type="laboratory">Trace and Environmental DNA (TrEnD) Laboratory</orgName>
+								<orgName type="institution">Curtin University</orgName>
+								<address>
+									<settlement>Bentley</settlement>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">DNA metabarcoding for diet analysis and biodiversity: A case study using the endangered Australian sea lion (Neophoca cinerea)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B5370D227BFACF8FBCCD70BE96128397</idno>
+					<idno type="DOI">10.1002/ece3.3123</idno>
+					<note type="submission">Received: 20 December 2016 | Revised: 12 April 2017 | Accepted: 8 May 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>apex predator</term>
+					<term>dietary scat analysis</term>
+					<term>DNA metabarcoding</term>
+					<term>Neophoca cinerea</term>
+					<term>next generation sequencing</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The analysis of apex predator diet has the ability to deliver valuable insights into ecosystem health, and the potential impacts a predator might have on commercially relevant species. The Australian sea lion (Neophoca cinerea) is an endemic apex predator and one of the world's most endangered pinnipeds. Given that prey availability is vital to the survival of top predators, this study set out to understand what dietary information DNA metabarcoding could yield from 36 sea lion scats collected across 1,500 km of its distribution in southwest Western Australia. A combination of PCR assays were designed to target a variety of potential sea lion prey, including mammals, fish, crustaceans, cephalopods, and birds. Over 1.2 million metabarcodes identified six classes from three phyla, together representing over 80 taxa. The results confirm that the Australian sea lion is a wide-ranging opportunistic predator that consumes an array of mainly demersal fauna. Further, the important commercial species Sepioteuthis australis (southern calamari squid) and Panulirus cygnus (western rock lobster) were detected, but were present in &lt;25% of samples. Some of the taxa identified, such as fish, sharks and rays, clarify previous knowledge of sea lion prey, and some, such as eel taxa and two gastropod species, represent new dietary insights. Even with modest sample sizes, a spatial analysis of taxa and operational taxonomic units found within the scat shows significant differences in diet between many of the sample locations and identifies the primary taxa that are driving this variance. This study provides new insights into the diet of this endangered predator and confirms the efficacy of DNA metabarcoding of scat as a noninvasive tool to more broadly define regional biodiversity.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>The majority of marine mammals are generalist predators that consume prey from many trophic levels <ref type="bibr" target="#b7">(Casper, Jarman, Gales, &amp; Hindell, 2007)</ref> and therefore potentially influence the community structure of marine environments. As such, the analysis of their diet can provide the opportunity for a comprehensive assessment of the biodiversity present in marine ecosystems <ref type="bibr" target="#b4">(Boyer, Cruickshank, &amp; Wratten, 2015;</ref><ref type="bibr" target="#b7">Casper et al., 2007)</ref>.</p><p>The Australian sea lion (Figure <ref type="figure">1</ref>) is one of the rarest sea lion species in the world <ref type="bibr" target="#b22">(Hesp et al., 2012</ref>) and Australia's only endemic pinniped species <ref type="bibr" target="#b26">(Kirkwood &amp; Goldsworthy, 2013;</ref><ref type="bibr" target="#b27">Ling, 1992)</ref>. In 2015, there were an estimated 12,290-13,090 individuals remaining in the wild and of these only 16% are found in Western Australia <ref type="bibr" target="#b19">(Goldsworthy, 2015)</ref>. Australian sea lions are distributed between the Abrolhos Islands in Western Australia and The Pages in South Australia <ref type="bibr" target="#b27">(Ling, 1992)</ref>, with mostly small and widely scattered colonies, at both remote <ref type="bibr" target="#b19">(Goldsworthy, 2015;</ref><ref type="bibr" target="#b20">Goldsworthy et al., 2009)</ref> and near metropolitan areas <ref type="bibr" target="#b33">(Osterrieder, Salgado Kent, &amp; Robinson, 2015</ref><ref type="bibr" target="#b42">, 2016)</ref>.</p><p>Despite several dietary studies <ref type="bibr" target="#b7">(Casper et al., 2007;</ref><ref type="bibr" target="#b18">Gales &amp; Cheal, 1992;</ref><ref type="bibr" target="#b26">Kirkwood &amp; Goldsworthy, 2013;</ref><ref type="bibr" target="#b27">Ling, 1992;</ref><ref type="bibr" target="#b36">Peters et al., 2014)</ref>, much of what this apex predator targets remains poorly defined due to the well-recognized limits of morphological identification of scat material and/or behavioral studies <ref type="bibr" target="#b26">(Kirkwood &amp; Goldsworthy, 2013)</ref>.</p><p>Such reports suggest that the Australian sea lion is a largely nocturnal forager <ref type="bibr" target="#b26">(Kirkwood &amp; Goldsworthy, 2013)</ref>, although studies of females and pups from Kangaroo Island, South Australia, suggest that their foraging does not follow a diurnal pattern <ref type="bibr" target="#b9">(Costa &amp; Gales, 2003)</ref>. These previous studies have also shown that sea lions prey mainly on benthic species of fish, sharks, rays, cephalopods, and crustaceans <ref type="bibr" target="#b26">(Kirkwood &amp; Goldsworthy, 2013)</ref>; however, other evidence also suggests that they prey on rock lobster, swimming crabs, shark eggs, and penguins <ref type="bibr" target="#b28">(McIntosh, Page, &amp; Goldsworthy, 2006)</ref>. A more recent molecular approach used bacterial cloning and Sanger sequencing of DNA to identify 23 fish and five cephalopod taxa from the scats of 12 female sea lions from two colonies in South Australia <ref type="bibr" target="#b36">(Peters et al., 2014)</ref>, finding several new taxa upon which sea lions prey.</p><p>Observational studies on diet in marine systems can be logistically difficult to conduct and expensive. This is especially true where the animal in question is fast, feeds underwater, and has a large foraging range, as is the case with sea lions <ref type="bibr" target="#b26">(Kirkwood &amp; Goldsworthy, 2013)</ref>. These problems can be compounded when the study animal is reclusive and/or hunts nocturnally (such as sea lions). In contrast, the collection of sea lion scat is relatively easy as it can be collected by hand from the beaches of known sea lion haul out points. However, morphological analysis of scat has several complications. Firstly, dietary identification relies heavily on the presence of prey remnants, and prey that is relatively undigested may be over represented while highly digested prey may be missed <ref type="bibr" target="#b4">(Boyer et al., 2015;</ref><ref type="bibr">Brown, Jarman, &amp; Symondson, 2012;</ref><ref type="bibr" target="#b43">Shehzad, McCarthy, et al., 2012)</ref>. Therefore, fleshy or gelatinous targets are unlikely to be detected. In the case of the sea lion, smaller cephalopod beaks and fish otoliths digest completely, or are unrecognizable, once they have passed through the digestive tract <ref type="bibr" target="#b18">(Gales &amp; Cheal, 1992;</ref><ref type="bibr" target="#b37">Peters, Ophelkeller, Bott, &amp; Goldsworthy, 2015)</ref>. This issue is partially attributed to the grinding action of large gastroliths found in the sea lions' stomach <ref type="bibr" target="#b28">(McIntosh et al., 2006)</ref>.</p><p>Gastroliths are large stones that can measure up to approximately 7 cm in diameter and are swallowed by sea lions as ballast <ref type="bibr" target="#b26">(Kirkwood &amp; Goldsworthy, 2013)</ref>. Secondly, some potential prey species, such as crustaceans, are morphologically similar to one another <ref type="bibr" target="#b41">(Radulovici, Sainte-Marie, &amp; Dufresne, 2009)</ref>, making identification of their remains taxonomically challenging. Further, due to the increased rate of survival of cephalopod beaks in comparisons to fish otoliths, reliance on morphological analysis of sea lion scat for dietary analysis can lead to an underestimation of fish but an overestimation of cephalopods consumed <ref type="bibr" target="#b18">(Gales &amp; Cheal, 1992;</ref><ref type="bibr" target="#b37">Peters et al., 2015)</ref>.</p><p>Recent advances in DNA sequencing (and analyzing) environmental samples have enhanced the capacity to identify constituents of fecal material <ref type="bibr" target="#b38">(Pompanon et al., 2012)</ref>. The use of standard DNA barcodes, PCR, and reference sequence databases facilitates the analysis of prey taxa (or their DNA) that survive in fecal material. DNA metabarcoding approaches (employing next generation sequencing, NGS), where complex mixtures of DNA are extracted and sequenced in parallel, have been successfully applied to several fecal dietary studies with promising results <ref type="bibr" target="#b3">(Berry et al., 2015;</ref><ref type="bibr" target="#b23">Hibert et al., 2013;</ref><ref type="bibr" target="#b30">Murray et al., 2011;</ref><ref type="bibr" target="#b39">Quemere et al., 2013;</ref><ref type="bibr">Shehzad, Riaz, et al., 2012)</ref>. One of the first studies to exploit DNA metabarcoding, investigated the diet of the Australian fur seal (Arctocephalus pusillus; <ref type="bibr" target="#b12">(Deagle, Kirkwood, &amp; Jarman, 2009)</ref> and, in a more recent study, the diets of both the Australian (A. pusillus doriferus) and long-nosed fur seals (A. forsterii) were compared <ref type="bibr">(Hardy et al., In press)</ref>. To date, no metabarcoding studies exist to explore the Australian sea lion diet but recently a gut microbiome study was conducted on both wild and captive populations <ref type="bibr" target="#b14">(Delport, Power, Harcourt, Webster, &amp; Tetu, 2016)</ref> for the dietary analysis of the Australian sea lion and the marine biodiversity that supports them, (2) to assess the predation of commercially valued fishes, and (3) to establish whether this type of study could be used to detect spatial changes in sea lion prey across the southwest of Australia. Importantly, as the Australian sea lion is an endangered species (IUCN Red List; <ref type="bibr" target="#b19">Goldsworthy, 2015)</ref>, it is of value to develop a holistic picture of what dietary options these apex predators exploit and how these differ spatially and temporally.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Sample collection</head><p>In total, 36 fecal samples were collected in sterile containers from islands across five collection sites that stretch 1,500 km of the southwest coast of Western Australia (Figure <ref type="figure">2</ref>; for greater detail about dates and sites see Table <ref type="table">A1</ref>). Scat samples were preserved and stored at -20°C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Metabarcoding assay design</head><p>Several PCR assays were designed and/or optimized for use in DNA metabarcoding workflows including the Fish 16S, Ceph 16S, and the Crust 16S assays (Table <ref type="table">1</ref>). All primer sets flank hypervariable regions of the 16S rRNA gene and were designed and tested in silico using reference sequences obtained from GenBank. For the Ceph 16S assay, 27 16S sequences from different Western Australian cephalopods were analyzed in silico to identify short conserved areas of the target gene, which will amplify degraded DNA. Similarly, the Crust 16S assay was designed using 13 16S crustacean sequences including crayfish, crab, and prawn species. All newly designed primers were tested against sea lion sequences to ensure no significant amplification of host DNA. To determine the efficacy of the assays, amplifications were optimized on single-source reference tissue including some crustaceans, a cephalopod, and several species of fish (Table <ref type="table">A2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| DNA extraction and quantification</head><p>Scats were subsampled (100-290 mg) and the DNA was extracted using the QIAmp Stool Mini Kit (Qiagen, CA, USA), following the manufacturer's instructions but using an overnight digestion at 55°C, 0.5× InhibitEX tablet, and eluting in 50 μl of AE Buffer. Extracts were diluted (1/5 and 1/20) in order to assess assay response, and amplification efficiency and inhibition using quantitative PCR (qPCR).</p><p>All qPCR reactions were carried out in 25 μl consisting of final concentrations of: 1× Taq Gold buffer (Applied Biosystems [ABI], USA), 2 mmol/L MgCl 2 (ABI, USA), 0.4 mg/ml BSA (Fisher Biotec, Australia), 0.25 mmol/L dNTPs (Astral Scientific, Australia), 0.4 μmol/L each of forward and reverse primers (Integrated DNA Technologies, Australia), 0.6 μl of 1/10,000 SYBR Green dye (Life Technologies, USA), 1 U of Taq polymerase Gold (ABI, USA), 2 μl of DNA, and made to volume with ultrapure water.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Each qPCR was run on a</head><p>Step-ONE qPCR thermocycler (ABI, USA) under the following conditions: 95°C for 5 min, followed by 50 cycles of 95°C for 30 s, 54-58°C for 30 s (the annealing temperature of each primer set is represented in Table <ref type="table">1</ref>) and 72°C for 45 s and a final extension of 10 min at 72°C. Where qPCR of an extract produced results in response to an assay, the DNA dilution with the highest relative proportion of starting template that showed uninhibited F I G U R E 2 Sampling sites for metabarcoding study; Map of Australia, with inset showing southern Western Australian sampling sites (number of scats in brackets). The shaded areas denote the range of the Australian sea lion across Australia and within Western Australia amplification (determined by qPCR C T values) was selected for subsequent metabarcoding using assay-specific fusion tagged primers (The number of PCR-positive samples from each site and assay are shown in Table <ref type="table">A3</ref>). The optimization of input DNA in amplicon sequencing workflows has been shown previously to benefit the sensitivity, reproducibility, and quality of metabarcoding data <ref type="bibr">(Murray, Coghlan, &amp; Bunce, 2015)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Library build and sequencing</head><p>Fusion tagged primers are gene-specific primers which also incorporate MID (Multiplex IDentifier) tags of six to eight base pairs in length, and the appropriate Illumina/454 adaptor sequences. Unique combinations of these MID tags were assigned to each individual DNA extract to allow for the assignment of sequences to a sample postsequencing of pooled samples. To minimize cross-contamination (in highly sensitive NGS workflows), no primer-MID combination had been previously used, nor were combinations reused. Fusion PCR reactions were performed on DNA extracts (appropriate dilution determined by qPCR) in duplicate, and thermocycling conditions were used as described above. Tagged amplicons were purified using the Agencourt™ AMPure™ (Beckman Coulter Genomics, MA, USA) XP Bead PCR Purification kit as per the manufacturer's instructions, with the addition of a five-minute incubation prior to elution at room temperature. The size and concentration of amplicons were estimated by electrophoresis on a 2% agarose gel stained with GelRed (Fisher Biotec, Australia), followed by visualization under UV light using a Bio-Rad transilluminator. Amplicons were combined in approximately equimolar concentrations to produce a single DNA library of all extracts for sequencing.</p><p>The resultant library was purified as described above and quantified alongside a set of standard synthetic oligonucleotides of known molarity <ref type="bibr" target="#b6">(Bunce, Oskam, &amp; Allentoft, 2012)</ref> via qPCR, prior to sequencing (95°C for 5 min followed by 40 cycles of 95°C for 30 s and 60°C for 45 s). For the Mam 16S and Bird 12S assays, all sequencing was performed on Roche's 454 GS Junior (Lib A chemistry). For the remainder of the assays, sequencing was achieved using Illumina's MiSeq ® (300 cycle, version 2 reagent kit and Nano flow cell), following manufacturers protocols.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Data filtering and bioinformatics</head><p>Sequences were assigned to samples based on their MID tag using Geneious v.R8 <ref type="bibr" target="#b25">(Kearse et al., 2012)</ref>. As a method for quality control, only amplicons that contained a 100% nucleotide match to the MID, gene-specific primer, and sequencing adapter regions were kept for further analysis (the number of reads passing this filter for each assay and per site is shown in Table <ref type="table">A4</ref>). Adaptor/primer regions were removed, and the remaining amplicons were filtered using USEARCH's fastq filter with a maximum error of 0.5 <ref type="bibr" target="#b16">(Edgar, 2010)</ref>.</p><p>The sequences were then separated into groups of unique sequences (these data are available for download on Data Dryad, <ref type="url" target="https://doi.org/10.5061/dryad.rd748">https://doi. org/10.5061/dryad.rd748</ref>). Groups with sequence numbers of &lt;1% of the total number of unique sequences detected in the sample were discarded in order to remove low-abundant and potentially erroneous sequences (i.e., sequencing error and chimeras). Amplicons "F" refers to the forward primer; "R" refers to the reverse primer.</p><p>| 5439</p><formula xml:id="formula_0">BERRY Et al.</formula><p>passing quality filtering were searched against the National Center for Biotechnology Information's (NCBI) GenBank nucleotide database (April 29 2015; <ref type="bibr" target="#b2">Benson et al., 2015)</ref> using BLASTn <ref type="bibr">(Basic Local Alignment Search Tool;</ref><ref type="bibr" target="#b1">Altschul, Gish, Miller, Myers, &amp; Lipman, 1990)</ref> with the default parameters and a reward of 1. BLAST output files were imported into MEGAN (METaGenome ANalyzer; <ref type="bibr" target="#b24">Huson, Mitra, Ruscheweyh, Weber, &amp; Schuster, 2011)</ref> and visualized against the NCBI taxonomic framework using the LCA parameters: reporting of all reads, min bitscore 65.0, and reports limited to top 5% matches.</p><p>Assignment of sequences to taxa was only considered where a match was made across the entire length of the query. Where further information was required regarding the habitat and commercialization of a species, the Atlas of Living Australia (2016) and FishBase <ref type="bibr" target="#b17">(Froese &amp; Pauly, 2016)</ref> were consulted (the number of reads assigned for each site and assay is shown in Table <ref type="table">A4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6">| Operational taxonomic unit analysis</head><p>The operational taxonomic unit (OTU) analysis was performed using USEARCH <ref type="bibr" target="#b16">(Edgar, 2010)</ref>. Sequences were grouped into clusters (OTUs) using a 97% similarity threshold. The process also removed any chimeras, as well as clusters with a sequence abundance below 0.75% of the total number of unique sequences detected within the sample. Empirically these thresholds retained the sensitivity of the metabarcoding assays but removed low abundance OTUs that may be sequencing/PCR artifacts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7">| Statistical analysis</head><p>Despite the modest number of samples and sites, and the issues involving sampling times of the year, a statistical analysis was explored. Accordingly, a Jaccard dissimilarity index of the presence/ absence data was performed in R (R Core Team, 2015) using the Vegan <ref type="bibr" target="#b32">(Oksanen et al., 2016)</ref>  Accordingly, analyses were restricted to the presence/absence data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| RESULTS AND DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Overview of the results</head><p>The Mam 16S assay was used first to test whether the scat collected originated from an Australian sea lion. The remainder of the metabarcoding assays were used to determine the prey diversity found within the sea lion scats from each site. The taxa found belonged to six classes (Figure <ref type="figure">3</ref>) from three phyla, representing over 20 orders and almost 40 families of prey.</p><p>The Mam 16S assay confirmed that 34 of the 36 beach-collected samples originated from Australian sea lions (100% matches to ref-</p><p>erence Neophoca cinerea DNA sequences), many of these were later confirmed by the Plank COI assay. Of the two negative samples, one contained large amounts of human DNA while the other contained DNA that was amplified by the bird-specific primers, potentially identifying the originator of the scat as Pellicanus conspicillatus (Australian pelican). These two samples were excluded from further analysis.</p><p>F I G U R E 3 Sea lion diet: Classes of Taxa detected across the five WA study sites.</p><p>The frequency a class of prey taxa was identified at each site using metabarcoding</p><p>The nonmammalian metabarcoding assays were designed to characterize fish, crustacean, and cephalopod prey in these environmental samples. It is suggested that these assays will be useful for future metabarcoding studies on marine substrates such as scat, water, sediment, plankton tows, and gut contents.</p><p>Overall the multigene metabarcoding generated in excess of 1.2 million NGS reads, which were converted to the presence/absence data. These assays revealed (Figure <ref type="figure">3</ref>) that while the majority of the sea lion samples (~68%) contained both ray-finned fishes (Actinopterygii) and cephalopods (Cephalopoda), many sharks and rays (Chondrichthyes; ~22%) were also detected. This is especially true for those samples from Shoalwater Bay where Chondrichthyes made up the largest proportion of prey (~46%). The least common taxa were Aves and Gastropoda with only three detections each across the five sites. Table <ref type="table">A3</ref> shows the number of samples from each site that responded to each assay.</p><p>These findings are broadly consistent with the literature, although <ref type="bibr" target="#b26">Kirkwood and Goldsworthy (2013)</ref> identify cephalopods as the top four sea lion prey items, followed by sharks and rays, lobsters and finally four species of ray-finned fishes. However, their study concentrates on sea lions from South Australian waters where species composition will differ to those in the WA sites studied here. The Indian Ocean sites also contained 11 incidences of malacostracans (a class of crustaceans that includes crayfish and shrimp) and three of gastropods (a class of molluscs which contains bivalves), whereas these taxa were absent from the Southern Ocean sites.</p><p>The majority of the identified prey are benthic and are usually found at depths ≤150 m and most are found at &lt;80 m. This finding concurs with studies that suggest the maximum foraging diving depth for an adult male sea lion is 150 m <ref type="bibr" target="#b26">(Kirkwood &amp; Goldsworthy, 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| Sea lion diet-Fish detections</head><p>Fish sequences were detected using both the Fish 16S and the Plank COI assays. Together, the two metabarcoding assays identified 47</p><p>Actinopterygii-36 of which were assigned to a genus or species level-and 17 Chondrichthyes-13 of which were ascribed to a genus or species level (Tables <ref type="table">A5</ref> and<ref type="table">A6</ref>).</p><p>While there was some redundancy in the two assays that target fish, typically they detected different taxa; only five of the taxa were detected by both assays (Table <ref type="table">A5</ref>). The Fish 16S assay detected 72% of the ray-finned fishes compared with the Plank COI assay, which detected 38% of the ray-finned fishes identified. For the cartilaginous fish, this trend was reversed, with the Fish 16S assay detecting 41% of the taxa identified and the Plank COI assay yielding 71%; only one genus (Mustelus) was detected by both assays (Table <ref type="table">A6</ref>). These results demonstrate that, even with broad-spectrum ("universal") PCR assays, important species are still missed, and that when metabarcoding assays are used in combination, they yield far more information about the biodiversity of environmental samples. This is because the biotic "background" will vary between sites/samples and "generic" primers will exhibit sample dependent bias, where, due to primer binding variation, one group of taxa will preferentially amplify over another where they are both present in the sample <ref type="bibr" target="#b38">(Pompanon et al., 2012)</ref>. These biases are manifest further when samples are in low copy number and/ or inhibited <ref type="bibr" target="#b31">(Murray et al., 2015)</ref>.</p><p>Comparing sites, Perciformes were detected in all five samples from Houtman Abrolhos and the Beagle Islands, but were only detected in four of the six samples from Fitzgerald River, and were detected even less frequently in samples from Shoalwater Bay and Recherche Archipelago (Figure <ref type="figure">4a</ref>). The order Perciformes contains a large variety of perch-like fish including wrasse, parrotfish, goatfish, and damselfish. Fifteen taxa from this order were detected overall, with the vast majority of these identified from the Beagle Islands samples. The likely reason for this is that while Perciformes are found in all areas of southern Western Australia, the majority of those species detected in the sea lion scat are mainly found in the Indian Ocean. An example of this is Pomacanthus semicirculatus, which has only been recorded in northern waters of Australia (ALA, 2016). There is also a climatic shift from the Indian (warmer) and Southern Oceans (cooler) that may result in differences in prey species for sea lions. Tetraodontiformes, which includes the family Monacanthidae (leatherjackets), also seems to be favored across three sites (Beagle Island, Shoalwater Bay, and Fitzgerald River; Figure <ref type="figure">4a</ref>). All these findings are in line with those of <ref type="bibr" target="#b36">Peters et al. (2014)</ref>, who also identified wrasse, goatfish, and leatherjackets as important prey for sea lions.</p><p>Of note is the detection of eels (Anguilliformes) as prey, by both the Fish and Plank COI assays. The species detected include the highfin moray (Gymnothorax pseudothyrsoideus), conger eels (Conger and Gnathophis), and unknown species of knot eels (in the Muraenidae family). The consumption of eels by the sea lions has not previously been reported, and yet the frequency of occurrence (eight samples across all five sites) suggests this is a regular component of sea lion diet.</p><p>In contrast to the other sites, a large proportion of sharks and rays are consumed by sea lions at Shoalwater Bay (Figure <ref type="figure">4b</ref>). Each of the ten samples from Shoalwater contained prey from all five orders of Chondrochthyes detected, including stingarees (Urolophidae) and wobbegongs (Orectolobidae). Even in the Houtman Abrolhos Islands, four of the five samples produced sequences matching wobbegongs (Orectolobidae).</p><p>While the Australian sea lion is known to eat sharks and rays <ref type="bibr" target="#b26">(Kirkwood &amp; Goldsworthy, 2013;</ref><ref type="bibr" target="#b27">Ling, 1992)</ref>, it is suggested that many of the taxa identified here are previously unrecognized as sea lion prey.</p><p>The vast majority of the fishes detected in this study are classified as demersal or benthic and are found associated with reefs, seagrass, and the rocky and sandy bottoms of the continental shelf. This finding is consistent with current knowledge that describes the Australian sea lion as diving for its prey and being a principally benthic feeder <ref type="bibr" target="#b18">(Gales &amp; Cheal, 1992;</ref><ref type="bibr" target="#b22">Hesp et al., 2012;</ref><ref type="bibr" target="#b26">Kirkwood &amp; Goldsworthy, 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">| Sea Lion diet-Fish OTUs</head><p>There is a growing trend to move to taxonomic-independent methods such as OTUs when describing genetic diversity in marine environments using metabarcoding data. This type of analysis allows for examination of all the available genetic diversity in metabarcoding data without the constraints of a frequently imprecise (and constantly evolving) taxonomic framework, coupled with an often-incomplete collection of reference DNA barcodes.</p><p>Given the large number of fish taxa detected (Tables <ref type="table">A5</ref> and<ref type="table">A6</ref>) using the Fish 16S metabarcoding assay, we analyzed the estimated genetic diversity of fish between sites using OTUs. After filtering, a total of 38 OTUs (Table <ref type="table">A9</ref>; at 97% clustering) were identified from the 34 samples across the five study sites. Clear differences in regionality of fish diversity among sites were observed, with only seven of the 38 (~18%) OTUs shared across two or more sites (Figure <ref type="figure">4c</ref>). When these sites were grouped by ocean (i.e., Southern or Indian Ocean), the division in genetic diversity was even more obvious, with only three of 38 (~8%) OTUs shared across the two oceans (Figure <ref type="figure">4c</ref>).</p><p>From autumn to early spring (April to October), the Leeuwin Current (LC) brings warmer waters than would usually be found at these latitudes to the west coast of southern Western Australia (as well as tropical fish and invertebrates; <ref type="bibr" target="#b35">Pearce &amp; Feng, 2013)</ref>, with the result that water temperatures are maintained at a warmer level during winter. While this current continues around to the southern coastline, it is supplemented by currents from subantarctic waters <ref type="bibr" target="#b10">(Cresswell &amp; Domingues, 2009)</ref>, resulting in cooler environments in the Southern Ocean. Thus, the clear genetic distinction in the Fish OTUs between the oceans is likely attributable to these differences in the habitats;</p><p>although we cannot rule out that temporal differences have also contributed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">| Sea lion diet-Cephalopods and gastropods</head><p>Invertebrates, especially octopus, squid, and cuttlefish, are thought to make up a large proportion of the diet of the sea lions <ref type="bibr" target="#b22">(Hesp et al., 2012;</ref><ref type="bibr" target="#b26">Kirkwood &amp; Goldsworthy, 2013;</ref><ref type="bibr" target="#b28">McIntosh et al., 2006;</ref><ref type="bibr" target="#b36">Peters et al., 2014)</ref>, but the actual invertebrate prey species remain largely unknown. The Plank COI, S_Ceph 16S, and Ceph 16S metabarcoding assays identified 14 invertebrate taxa, with 11 identified to a genus or species level (Table <ref type="table">A7</ref>). However, many of the octopus species nominally identified have not previously been described in the collection area (those not known in Australia were assigned to higher taxa). This may be because the S_Ceph primer set target is a small amplicon (~70 bp), and therefore, one erroneous base, coupled with possible low interspecific variation at this locus, could result in erroneous assignments. The other possible reason is the relatively poor representation of the class on Genbank (of the taxa searched for in this study less than 75% had a 16S mtDNA sequence deposited in the</p><formula xml:id="formula_1">F I G U R E 4</formula><p>Metabarcoding of sea lion diet analyzed using ordinal and operational taxonomic unit (OTU) assignments. The number of times an order within (a) Actinopterygii and (b) Chondrichthyes was detected at each site as a proportion of the number of scat samples taken from each sample location. The OTU analysis of the Fish16S assay (c) demonstrates clear divisions between the genetic diversity of fish in the sample sites and between those samples sourced in the Indian Ocean compared with those from the Southern Ocean. The data used for (c) can be found in Table <ref type="table">A9</ref> (a) (c) (b)</p><p>database). However, as reference databases improve at widely utilized metabarcoding targets, so will our ability to make more robust taxonomic identifications.</p><p>Interestingly, the Plank COI assay also detected some cephalopods that provided additional support for taxa detected by both the Ceph and S_Ceph primers, in particular Octopus and Sepia apama. These two taxa were detected in 21 and 25 samples, respectively, and across all sites (Figure <ref type="figure">5</ref>).</p><p>Of particular interest is the detection of the southern calamari squid (S. australis, order Teuthida), an important commercial species in Australia. While this species was detected in samples across four of the five sites (Figure <ref type="figure">5</ref>), it was detected in less than a quarter of all samples (~18%), and in these samples, this was not the only prey revealed. This may indicate that the sea lions prefer octopus and giant cuttlefish to calamari, or it may suggest that the southern calamari squid is less abundant in the areas sampled. This latter possibility is perhaps more likely, as the occurrence records from the Atlas of Living</p><p>Australia ( <ref type="formula">2016</ref>) shows a decrease in the incidence of squid sightings west of the border with South Australia. Furthermore, in a South</p><p>Australian sea lion study, <ref type="bibr" target="#b36">Peters et al. (2014)</ref> also documented that S. australis is common prey.</p><p>The number of gastropod species detected was limited (Table <ref type="table">A7</ref>) and these taxa have, to our knowledge, not been identified previously as potential sea lion prey. Haliotis diversicolor (many-colored abalone) is found in the area where it was detected (ALA, 2016) and while Stomatella impertusa (False ear shell) was represented by only a few sequences in one sample, it does reside in Australian waters and the Genbank record had a 100% match with the queried sequence.</p><p>Despite observing these taxa in more than one scat, it is difficult to exclude the possibility that the observations may be a consequence of secondary predation (the carryover of DNA from the gut of ingested prey species).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">| Sea lion diet-Crustaceans and birds</head><p>Crustaceans, including rock lobsters and swimming crabs, are noted as common prey of the Australian sea lion in South Australia <ref type="bibr" target="#b26">(Kirkwood &amp; Goldsworthy, 2013;</ref><ref type="bibr" target="#b28">McIntosh et al., 2006)</ref>. The newly developed Crust16S assay detected five taxa, three to species level (Table <ref type="table">A8</ref>).</p><p>The results confirm that the Australian sea lion does prey on the commercially important western rock lobster (Panulirus cygnus), which was detected in six samples across all three sites in the Indian Ocean. This assay also detected a species of swimming crab (Thalamita danae) in a sample from the Houtman Abrolhos Islands; the only site where it is likely to be found <ref type="bibr">(ALA, 2016)</ref>.</p><p>The site at Shoalwater Bay is close to Penguin Island, which is home to a colony of little penguins (Eudyptula minor), a bird that is reported to be preyed upon by sea lions <ref type="bibr" target="#b28">(McIntosh et al., 2006)</ref>; as such, all samples were screened using the Bird 12S assay (which has been confirmed to detect E. minor in silico and in vivo), but no penguins were detected. However, we did detect the presence of one bird, a pied cormorant (Phalocrocorax varius), in three samples from Beagle Islands, which was also confirmed using the Plank COI assay. One of these samples also contained DNA from a bridled tern (Onychoprion anaethetus). While environmental contamination (e.g., sand on the beach, which was excluded as far as practicable) cannot be ruled out to explain the presence of both of these birds, neither can predation.</p><p>Neither species of these birds has previously been documented as potential prey for Australian sea lions, but both are known to sit on the surface of the water (the pied cormorant also dives below the surface)</p><p>and are thus susceptible to ambush predation from below.</p><p>Neither birds nor crustaceans were detected in the scats taken from the Southern Ocean sites. This may be because many of the crustaceans detected in the Indian Ocean are not known in the Southern Ocean, and while there are decapods in the Southern Ocean, they are not as prevalent as in other areas of Australia (ALA, 2016). However, as neither birds nor crustaceans appeared to make up a large proportion of the diet of the Indian Ocean sea lions, their absence in the diet of the Southern Ocean sea lions may be attributed merely to limited sample numbers, or prey preference at the time of sampling.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6">| Spatial differences in sea lion diet</head><p>The nested PERMANOVA (adonis) analysis showed that taxa preyed upon by sea lions were significantly different among Sites (p &lt; .01) and between the Indian and Southern Ocean (p &lt; .0001). A metaMDS plot (stress = 0.1595043) was used to visualize the differences in taxonomic assemblages among the five sampling sites and between the F I G U R E 5 Sea lion diet: Orders of Cephalopod detected. The number of times an order within Cephalopoda was detected at each site as a proportion of the scat samples taken from each area. Data were obtained using the Ceph 16S, S_Ceph 16S, and Plank COI assays</p><formula xml:id="formula_2">| 5443 BERRY Et al.</formula><p>Indian and Southern Oceans (Figure <ref type="figure">6</ref>). There was obvious clustering for the oceanic data; however, the distinctions between the individual sites were not as clear.</p><p>To investigate this, and despite the modest sample size, further PERMANOVA (adonis) analyses were conducted to explore potential differences within each ocean. These identified an overall significant difference between the three Indian Ocean sites (p &lt; .007) but no significant variance among the two Southern Ocean sites. Subsequently, a pairwise adonis was used investigate which Indian Ocean sites were different; this revealed that the only significant difference was between Houtman Abrolhos and Beagle Islands (p &lt; .05).</p><p>To determine which taxa contributed to the significant differences in the PERMANOVA, indicator values analysis (indval) was performed. An indval analysis enables the taxa responsible for the regionality in the data to be discerned. While the 34 scats analyzed here are somewhat underpowered, the analysis is valuable due to the identification of taxa that drive the spatial patterns in the data. The indval analysis executed on the total metabarcoding dataset identified nine primary taxa that drive the variation in sea lion diet among sites (p = .005-.04), and three primary taxa that drive the differences in taxonomic assemblage observed between the Indian and Southern Ocean (p = .002-.04; Figure <ref type="figure">7</ref>).</p><p>Given that birds and crustacea were only detected in the Indian Ocean, it may have been expected that these taxa would drive differences between the two oceans. However, this is not the case; in the Indian Ocean, it is Octopus tetricus that is flagged as a key indicator species and in the Southern Ocean it is fish, Aulopidae (threadsails)</p><p>and in particular Aulopus purpurissatus (sergeant baker).</p><p>In the site indval analysis, Beagle Islands had four of the nine key indicator species (a bird (P. varius), some Actinopterygii (Monacanthidae and Siganus), and a species of Octopus. This is in keeping with the adonis analyses above, which showed Beagle Islands were significantly different from each of the other sites. Indicator taxa characterizing Shoalwater are predominantly carpet sharks, Orectolobidae, and Aulohalaelurus labiosus. Carpet sharks (Orectolobidae and Orectolobus)</p><p>are also the key indicator species for the Houtman Abrolhos Islands.</p><p>Actinopterygii are the key indicator species in the Southern Ocean sites. Aulopidae are notable taxa at both Recherche and Fitzgerald, which is unsurprising as it was flagged as key indicator for differences found between the two oceans (Figure <ref type="figure">7</ref>). In Recherche Archipelago, Centroberyx gerrardi (red snapper), a commercial species, was also identified as an indicator species; although it was only found in two of the five samples taken from the area.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| CONCLUSION</head><p>This was the first attempt to investigate and describe the diet of the Australian sea lion by DNA metabarcoding of scats. Despite the relatively small number of scats analyzed here (n = 34), the results demonstrate the sensitivity of the approach to identify previously unrecorded species such as eels, gastropods, and the frequency of sharks and rays in the diet. Importantly, metabarcoding offers a different method allowing identification taxa that are either difficult to detect through morphological analysis of feces or through direct observational studies. This study, like previous dietary studies using metabarcoding, have been somewhat hampered by lack of reference barcodes, but despite this limitation, the dietary audit presented here presents significant insight into the prey of this apex predator. Significantly, the comprehensiveness of these datasets will improve with time, and environmental data, such as generated here, can be re-analyzed. Finally, the data gathered from the scat of this endangered apex predator demonstrate that DNA metabarcoding is a relatively simple and noninvasive way to both monitor the sea lions' diet and to provide valuable insights into the regional biodiversity of our oceans. It is foreseen that the expansion of this type of project both temporally and spatially can only add to the information gathered presented here.</p><formula xml:id="formula_3">F I G U R E</formula><p>Less than half of the marine species detected in this dietary study are classified as commercial species (ALA, 2016; Fishbase <ref type="bibr" target="#b17">(Froese &amp; Pauly, 2016)</ref>). While it is clear the sea lions are preying on some commercial species (such as the commercially important western rock lobster, P. cygnus, and southern calamari squid, S. australis), sea lions are taking a large variety of prey and no particular commercial species seems to dominate their diet. The diversity of taxa exploited by the Australian sea lion between oceans, sites, and even between samples supports the notion that Australian sea lions are opportunistic feeders. This bodes well for the survival of this protected species, "Filtered and assigned" refers to the number of sequences that have passed through the Usearch filtering process and were assigned to taxa. "Mean unique" refers to the mean number of unique sequences produced given the number of positive samples for the assay.  </p><formula xml:id="formula_4">F I G U R</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Assay</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>. It is suggested that this type of study could, in future, be combined with a dietary analysis to determine what impact diet has on gut flora. Using DNA metabarcoding on 36 scat samples, this study seeks to develop and apply multi-gene metabarcoding assays for the analysis of the diet of the Australian sea lion. The purpose of the results is threefold: (1) to determine the effectiveness of DNA metabarcoding F I G U R E 1 The Australian sea lion (Neophoca cinerea) at Seal Island, Shoalwater Bay, Western Australia | 5437 BERRY Et al.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>6</head><label></label><figDesc>Multivariate analysis of all metabarcoding data assigned a taxonomic rank. (a) metaMDS plot comparing A taxa from the different sites of collection, and (b) the dietary differences between the sea lions of the Southern and Indian Oceans, centroids are marked with a triangles</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Number of samples producing results for each assay; the total number of samples from each site is in brackets T A B L E A 5 Actinopterygii (ray-finned fishes) identified with Plank COI and Fish 16S assays</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>T A B L E 1 Metabarcoding PCR assays and the primer sets used for dietary analysis of Neophoca cinerea scat</figDesc><table><row><cell>PCR</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Amplicon</cell><cell></cell><cell>Assay</cell></row><row><cell>assay</cell><cell>Primer set used</cell><cell>Target Taxa</cell><cell>Gene</cell><cell>Primer sequence</cell><cell cols="2">length (bp) Reference</cell><cell>T m (°C)</cell></row><row><cell>Bird 12S</cell><cell>12Sa (F) 12Sh (R)</cell><cell>Birds</cell><cell cols="2">12S rRNA 5′ CTGGGATTAGATACCCCACTAT 3′ 5′ CCTTGACCTGTCTTGTTAGC 3′</cell><cell>~230</cell><cell>Cooper (1994)</cell><cell>57</cell></row><row><cell>Fish 16S</cell><cell>Fish16sF/D</cell><cell></cell><cell cols="2">16S rRNA 5′ GACCCTATGGAGCTTTAGAC 3′</cell><cell>~200</cell><cell>F-This study</cell><cell>54</cell></row><row><cell></cell><cell>16s2R (degenerate)</cell><cell>Fish</cell><cell></cell><cell>5′ CGCTGTTATCCCTADRGTAACT 3′</cell><cell></cell><cell>R-Deagle et al.</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(2007)</cell></row><row><cell>Plank</cell><cell>(Plank)</cell><cell></cell><cell>COI</cell><cell cols="2">5′ TCCACTAATCACAAAGAYATYGGYAC 3′ ~127</cell><cell>Berry et al.</cell><cell>52</cell></row><row><cell>COI</cell><cell>Minibar-Mod-F (Plank)</cell><cell>Plankton</cell><cell></cell><cell>5′ AGAAAATCATAATRAANGCRTGNGC 3′</cell><cell></cell><cell>(2015)</cell></row><row><cell></cell><cell>Minibar-Mod-R</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Ceph</cell><cell>Ceph16S1_F(deg)</cell><cell></cell><cell cols="2">16S rRNA 5′ GACGAGAAGACCCTADTGAGC 3′</cell><cell>~200</cell><cell>F-Peters et al.</cell><cell>55</cell></row><row><cell>16S</cell><cell></cell><cell>Cephalopods</cell><cell></cell><cell></cell><cell></cell><cell>(2014)</cell></row><row><cell></cell><cell>Ceph16SR_Short</cell><cell></cell><cell></cell><cell>5′ CCAACATCGAGGTCGCAATC 3′</cell><cell></cell><cell>R-This study</cell></row><row><cell>Crust 16S</cell><cell>Crust16S_F(short) Crust16S_R(short)</cell><cell>Crustaceans</cell><cell cols="2">16S rRNA 5′ GGGACGATAAGACCCTATA 3′ 5′ ATTACGCTGTTATCCCTAAAG 3′</cell><cell>~170</cell><cell>This study</cell><cell>51</cell></row><row><cell cols="2">Mam 16S 16Smam1 (F) 16Smam2 (R)</cell><cell>Mammals</cell><cell cols="2">16S rRNA 5′ CGGTTGGGGTGACCTCGGA 3′ 5′ GCTGTTATCCCTAGGGTAACT 3′</cell><cell>~90</cell><cell>Taylor (1996)</cell><cell>57</cell></row><row><cell>S_Ceph 16S</cell><cell>S_Cephalopoda_F S_Cephalopoda_R</cell><cell>Cephalopods</cell><cell cols="2">16S rRNA 5′ GCTRGAATGAATGGTTTGAC 3′ 5′ TCAWTAGGGTCTTCTCGTCC 3′</cell><cell>~70</cell><cell>Peters et al. (2014)</cell><cell>50</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>20457758, 2017, 14, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/ece3.3123 by Universite De Tours Scd, Wiley Online Library on [05/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</figDesc><table><row><cell>BERRY Et al.</cell><cell>| 5441</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>E 7 Indicator species analysis. Indval results from the total metabarcoding dataset showing the taxa characterizing each area and thus driving variations in sea lion diet between (a) sites, (b) oceans (all p values &lt;.05) Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/ece3.3123 by Universite De Tours Scd, Wiley Online Library on [05/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License Single source analysis of metabarcoding assays; details of assays tested against DNA extracted from single source samples (barcode size in brackets) Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/ece3.3123 by Universite De Tours Scd, Wiley Online Library on [05/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License T A B L E A 4 Numbers of sequences per assay, per site; "Unfiltered" refers to sequences that have been 100% matched to the sequence specific primers, the MID tags, and the adaptor sequence</figDesc><table><row><cell cols="9">(a) BERRY Et al. as (providing its core habitats are preserved), its mode of feeding makes it more likely to adapt its diet to changes in the surrounding biodiversity. 20457758, 2017, 14, Site 20457758, 2017, 14, | 5445 Sequence type Ceph 16S S_Ceph 16S Fish 16S Plank COI Crust 16S</cell></row><row><cell>Houtman Abrolhos</cell><cell></cell><cell>Unfiltered</cell><cell></cell><cell>36225</cell><cell></cell><cell>114540</cell><cell>56420</cell><cell>30530</cell><cell>34167</cell></row><row><cell></cell><cell></cell><cell>Mean unique</cell><cell></cell><cell cols="2">395 ± 431</cell><cell cols="3">How to cite this article: Berry TE, Osterrieder SK, Murray DC, 694 ± 453 1487 ± 367 324 ± 138 622 ± 504</cell></row><row><cell></cell><cell></cell><cell>Filtered and</cell><cell></cell><cell>33164</cell><cell></cell><cell cols="3">et al. DNA metabarcoding for diet analysis and biodiversity: A 108929 42584 28499 30999</cell></row><row><cell></cell><cell></cell><cell>assigned</cell><cell></cell><cell></cell><cell></cell><cell cols="3">case study using the endangered Australian sea lion (Neophoca</cell></row><row><cell></cell><cell></cell><cell>Mean unique</cell><cell></cell><cell>55 ± 16</cell><cell></cell><cell cols="3">cinerea). Ecol Evol. 2017;7:5435-5453. https://doi.org/ 95 ± 13 34 ± 25 65 ± 25 34 ± 12</cell></row><row><cell>Beagle Islands</cell><cell></cell><cell>Unfiltered</cell><cell></cell><cell>23183</cell><cell></cell><cell cols="2">10.1002/ece3.3123 147703 73954</cell><cell>42126</cell><cell>30913</cell></row><row><cell></cell><cell></cell><cell>Mean unique</cell><cell></cell><cell cols="2">327 ± 403</cell><cell>555 ± 208</cell><cell>1685 ± 479</cell><cell>309 ± 126</cell><cell>898 ± 518</cell></row><row><cell></cell><cell></cell><cell>Filtered and</cell><cell></cell><cell>19909</cell><cell></cell><cell>140073</cell><cell>53570</cell><cell>38603</cell><cell>25559</cell></row><row><cell>APPENDIX</cell><cell></cell><cell>assigned</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Reserve Shoalwater Bay (b) Houtman Abrolhos Nature</cell><cell>Ocean Mean unique Unfiltered Indian Mean unique</cell><cell cols="3">No. samples 35 ± 14 34613 5 331 ± 250</cell><cell>88 ± 23 Date collected 146541 10 April 2013 479 ± 331</cell><cell cols="2">25 ± 4 92175 1385 ± 745 T A B L E A 1 Sample collection data; 77 ± 32 47 ± 21 52095 81945 details of collection dates and sites and number of scats collected 259 ± 148 862 ± 266</cell></row><row><cell>Reserve</cell><cell></cell><cell>Filtered and</cell><cell></cell><cell>29110</cell><cell></cell><cell>125647</cell><cell>50835</cell><cell>41130</cell><cell>41899</cell></row><row><cell cols="2">Beagle Islands Nature Reserve</cell><cell>Indian assigned</cell><cell>8</cell><cell></cell><cell></cell><cell>17 May 2013</cell><cell></cell></row><row><cell cols="2">Shoalwater Islands Nature</cell><cell>Indian Mean unique</cell><cell>1</cell><cell>46 ± 19</cell><cell></cell><cell>October 2012 81 ± 22</cell><cell>26 ± 18</cell><cell>43 ± 18</cell><cell>51 ± 8</cell></row><row><cell>Reserve Fitzgerald River</cell><cell></cell><cell>Unfiltered</cell><cell>5</cell><cell>7754</cell><cell></cell><cell>20/21 January 2013 50363</cell><cell>94898</cell><cell>15122</cell><cell>0</cell></row><row><cell></cell><cell></cell><cell>Mean unique</cell><cell>4</cell><cell cols="2">168 ± 125</cell><cell>22 May 2013 368 ± 143</cell><cell>2301 ± 742</cell><cell>198 ± 113</cell><cell>0</cell></row><row><cell cols="2">Fitzgerald River Nature Reserve</cell><cell>Southern Filtered and</cell><cell>6</cell><cell>3624</cell><cell></cell><cell>October 2012 45758</cell><cell>57549</cell><cell>14045</cell><cell>0</cell></row><row><cell cols="2">Recherche Archipelago Nature</cell><cell>Southern assigned</cell><cell>4</cell><cell></cell><cell></cell><cell>26 January 2013</cell><cell></cell></row><row><cell>Reserve</cell><cell></cell><cell>Mean unique</cell><cell>1</cell><cell>59 ± 47</cell><cell></cell><cell>27 January 2013 74 ± 11</cell><cell>37 ± 25</cell><cell>60 ± 40</cell><cell>0</cell></row><row><cell>Recherche Archipelago</cell><cell></cell><cell>Unfiltered</cell><cell></cell><cell>332</cell><cell></cell><cell>55926</cell><cell>36321</cell><cell>20501</cell><cell>0</cell></row><row><cell>T A B L E A 2 Class</cell><cell cols="2">Mean unique Filtered and assigned Assignment Mean unique</cell><cell></cell><cell>50 325 48</cell><cell cols="4">Metabarcoding assay and % match of query to reference 534 ± 124 1239 ± 165 218 ± 160 46432 27500 19472 Crust (170 bp) Fish (200 bp) S_Ceph (70 bp) 62 ± 31 29 ± 13 62 ± 42</cell><cell>0 0 Ceph (200 bp) 0</cell></row><row><cell>Actinopterygii</cell><cell cols="2">Encrasicholina punctifer</cell><cell></cell><cell></cell><cell></cell><cell>99-100</cell><cell></cell></row><row><cell></cell><cell cols="2">Hyporhamphus melanochir</cell><cell></cell><cell></cell><cell></cell><cell>99-100</cell><cell></cell></row><row><cell></cell><cell cols="3">Sardinops (sagax/neopilchardus)</cell><cell></cell><cell></cell><cell>99-100</cell><cell></cell></row><row><cell></cell><cell cols="2">Spratelloide srobustus</cell><cell></cell><cell></cell><cell></cell><cell>99-100</cell><cell></cell></row><row><cell>Malacostraca</cell><cell cols="2">Fenneropenaeus merguiensis</cell><cell></cell><cell></cell><cell>99-100</cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">Portunus pelagicus</cell><cell></cell><cell></cell><cell>99-100</cell><cell></cell><cell></cell></row><row><cell>Cephalopoda</cell><cell cols="2">Nototodarus sloanii</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>98-100</cell></row><row><cell></cell><cell cols="4">Ommastrephidae (Martialia hyadesi/</cell><cell></cell><cell></cell><cell></cell><cell>97-100</cell></row><row><cell></cell><cell cols="4">Nototodarus sloanii/Todarodes filippovae)</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>20457758, 2017, 14, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/ece3.3123 by Universite De Tours Scd, Wiley Online Library on [05/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License T A B L E A 9 Fish 16S OTU sequence abundance per site and per ocean</figDesc><table><row><cell>OTU ID</cell><cell>Abrolhos</cell><cell>Beagle</cell><cell>Shoalwater</cell><cell>Fitzgerald</cell><cell>Recherche</cell><cell>Indian Ocean</cell><cell>Southern Ocean</cell></row><row><cell>OTU_1</cell><cell>13,242</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>13,242</cell><cell>0</cell></row><row><cell>OTU_7</cell><cell>7,980</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>7,980</cell><cell>0</cell></row><row><cell>OTU_16</cell><cell>8,964</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>8,964</cell><cell>0</cell></row><row><cell>OTU_29</cell><cell>1,532</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>1,532</cell><cell>0</cell></row><row><cell>OTU_30</cell><cell>1,441</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>1,441</cell><cell>0</cell></row><row><cell>OTU_34</cell><cell>1,536</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>1,536</cell><cell>0</cell></row><row><cell>OTU_38</cell><cell>267</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>267</cell><cell>0</cell></row><row><cell>OTU_6</cell><cell>0</cell><cell>8,456</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>8,456</cell><cell>0</cell></row><row><cell>OTU_12</cell><cell>0</cell><cell>7,816</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>7,816</cell><cell>0</cell></row><row><cell>OTU_19</cell><cell>0</cell><cell>4,092</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>4,092</cell><cell>0</cell></row><row><cell>OTU_21</cell><cell>0</cell><cell>3,106</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>3,106</cell><cell>0</cell></row><row><cell>OTU_27</cell><cell>0</cell><cell>2,165</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>2,165</cell><cell>0</cell></row><row><cell>OTU_28</cell><cell>0</cell><cell>1,685</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>1,685</cell><cell>0</cell></row><row><cell>OTU_31</cell><cell>0</cell><cell>1,160</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>1,160</cell><cell>0</cell></row><row><cell>OTU_35</cell><cell>0</cell><cell>851</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>851</cell><cell>0</cell></row><row><cell>OTU_8</cell><cell>0</cell><cell>11,384</cell><cell>3,620</cell><cell>0</cell><cell>0</cell><cell>15,004</cell><cell>0</cell></row><row><cell>OTU_10</cell><cell>0</cell><cell>8,972</cell><cell>10,141</cell><cell>0</cell><cell>0</cell><cell>19,113</cell><cell>0</cell></row><row><cell>OTU_14</cell><cell>0</cell><cell>0</cell><cell>5,014</cell><cell>0</cell><cell>0</cell><cell>5,014</cell><cell>0</cell></row><row><cell>OTU_15</cell><cell>0</cell><cell>0</cell><cell>7,118</cell><cell>0</cell><cell>0</cell><cell>7,118</cell><cell>0</cell></row><row><cell>OTU_17</cell><cell>0</cell><cell>0</cell><cell>4,395</cell><cell>0</cell><cell>0</cell><cell>4,395</cell><cell>0</cell></row><row><cell>OTU_20</cell><cell>0</cell><cell>0</cell><cell>3,137</cell><cell>0</cell><cell>0</cell><cell>3,137</cell><cell>0</cell></row><row><cell>OTU_22</cell><cell>0</cell><cell>0</cell><cell>2,719</cell><cell>0</cell><cell>0</cell><cell>2,719</cell><cell>0</cell></row><row><cell>OTU_23</cell><cell>0</cell><cell>0</cell><cell>5,008</cell><cell>4</cell><cell>0</cell><cell>5,008</cell><cell>4</cell></row><row><cell>OTU_25</cell><cell>0</cell><cell>0</cell><cell>2,386</cell><cell>0</cell><cell>0</cell><cell>2,386</cell><cell>0</cell></row><row><cell>OTU_11</cell><cell>4,329</cell><cell>0</cell><cell>6,858</cell><cell>96</cell><cell>0</cell><cell>11,187</cell><cell>96</cell></row><row><cell>OTU_5</cell><cell>0</cell><cell>46</cell><cell>10,736</cell><cell>10,787</cell><cell>0</cell><cell>10,782</cell><cell>10,787</cell></row><row><cell>OTU_36</cell><cell>0</cell><cell>117</cell><cell>0</cell><cell>1,659</cell><cell>0</cell><cell>117</cell><cell>1,659</cell></row><row><cell>OTU_37</cell><cell>0</cell><cell>17</cell><cell>0</cell><cell>315</cell><cell>0</cell><cell>17</cell><cell>315</cell></row><row><cell>OTU_3</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>11,830</cell><cell>0</cell><cell>0</cell><cell>11,830</cell></row><row><cell>OTU_4</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>11,695</cell><cell>0</cell><cell>0</cell><cell>11,695</cell></row><row><cell>OTU_13</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>7,989</cell><cell>0</cell><cell>0</cell><cell>7,989</cell></row><row><cell>OTU_24</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>2,414</cell><cell>0</cell><cell>0</cell><cell>2,414</cell></row><row><cell>OTU_32</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>1,913</cell><cell>0</cell><cell>0</cell><cell>1,913</cell></row><row><cell>OTU_2</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>16,951</cell><cell>10,632</cell><cell>0</cell><cell>27,583</cell></row><row><cell>OTU_9</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>7,835</cell><cell>0</cell><cell>7,835</cell></row><row><cell>OTU_18</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>4,375</cell><cell>0</cell><cell>4,375</cell></row><row><cell>OTU_26</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>2,016</cell><cell>0</cell><cell>2,016</cell></row><row><cell>OTU_33</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>1,011</cell><cell>0</cell><cell>1,011</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>20457758, 2017, 14, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/ece3.3123 by Universite De Tours Scd, Wiley Online Library on [05/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>Fecal samples were collected under a <rs type="institution">Department of Parks and Wildlife (DPaW)</rs> permit (number <rs type="grantNumber">SF009371</rs>) as well as in accordance with <rs type="funder">Victoria University</rs>'s, Melbourne ethics committee's approval: <rs type="grantNumber">AEETH24/11</rs> and <rs type="grantNumber">AEC_2013_32</rs> granted by <rs type="institution">Curtin University, Perth</rs>. Significant in field support was provided by several volunteers and DPaw staff. This work was supported by resources provided by the <rs type="institution">Pawsey Supercomputing Centre</rs>, which is funded by the <rs type="funder">Australian Government and the Government of Western Australia</rs>. MB and MS acknowledge the support of <rs type="funder">ARC Linkage</rs> project (<rs type="grantNumber">LP160100839</rs>) to explore marine metabarcoding applications.</p></div>
+			</div>
+			<div type="funding">
+<div><p><rs type="funder">Australian Research Council Linkage</rs>, Grant/</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_FNSdrp4">
+					<idno type="grant-number">SF009371</idno>
+				</org>
+				<org type="funding" xml:id="_ZeHSVTR">
+					<idno type="grant-number">AEETH24/11</idno>
+				</org>
+				<org type="funding" xml:id="_4tSrQhk">
+					<idno type="grant-number">AEC_2013_32</idno>
+				</org>
+				<org type="funding" xml:id="_aWBT5Fu">
+					<idno type="grant-number">LP160100839</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST</head><p>None declared. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Order</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Chaetodermis penicilligera</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tasselled Leatherjacket</head><p>Fish (1), Plank (1) Fish (2), Plank</p><p>(1)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Eubalichthys mosaicus</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mosaic Leatherjacket</head><p>Fish (1)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Monacanthus chinensis</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fanbelly Leatherjacket</head><p>Fish (1)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nelusetta ayraudi</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ocean Jacket</head><p>Plank (1)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scobinichthys granulatus</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rough Leatherjacket</head><p>Fish (1), Plank (2)</p><p>Tetraodontidae Omegophora Toadfish Fish (1)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Omegophora armilla</head><p>Ringed Toadfish Plank (2)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Zeiformes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Zeidae</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Zeus faber</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>John Dory</head><p>Fish (1)</p><p>The number of samples in which the taxa were detected is indicated in the brackets.</p><p>T A B L E A 5 (Continued) </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rhinobatiformes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rhinobatidae</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Guitar fishes</head><p>Fish ( <ref type="formula">1</ref>)</p><p>Aptychotrema vincentiana</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Western Shovelnose Ray</head><p>Plank ( <ref type="formula">1</ref>)</p><p>Trygonorrhina guanerius</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Southern Fiddler Ray</head><p>Fish (1)</p><p>The number of samples in which the taxa was detected is indicated in the brackets. </p><p>S_Ceph (8), Plank (5), Ceph ( <ref type="formula">7</ref>) The number of samples in which the taxa were detected is indicated in the brackets. Those species found in Australia, but not in the area of collection, are indicated by an asterisk (*). </p><p>The number of samples in which the taxa were detected is indicated in the brackets. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<ptr target="http://www.ala.org.au" />
+		<title level="m">Atlas of Living Australia</title>
+		<imprint>
+			<publisher>ALA</publisher>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Basic local alignment search tool</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Altschul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lipman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page" from="403" to="410" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">GenBank</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Benson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Karsch-Mizrachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lipman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ostell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Sayers</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gku1216</idno>
+		<ptr target="http://doi.org/10.1093/nar/gku1216" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="30" to="D35" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>Database issue</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Comparison of morphological and DNA metabarcoding analyses of diets in exploited marine fishes</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bulman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bunce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coghlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Ward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Ecology Progress Series</title>
+		<imprint>
+			<biblScope unit="volume">540</biblScope>
+			<biblScope unit="page" from="167" to="181" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Faeces of generalist predators as &apos;biodiversity capsules&apos;: A new tool for biodiversity assessment in remote and inaccessible habitats</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Cruickshank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Wratten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Webs</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Pyrosequencing of prey DNA in reptile faeces: Analysis of earthworm consumption by slow worms</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">O C</forename><surname>Symondson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="259" to="266" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Quantitative real-time PCR in aDNA research</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bunce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Oskam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Allentoft</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ancient DNA: Methods and protocols, methods in molecular biology</title>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Shapiro</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Hofreiter</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York City, New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Science+Business Media</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="121" to="132" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Combining DNA and morphological analyses of faecal samples improves insight into trophic interactions: A case study using a generalist predator</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Casper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Gales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hindell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Biology</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="815" to="825" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cooper</surname></persName>
+		</author>
+		<title level="m">DNA from museum specimens</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Energetics of a benthic diver: Seasonal foraging ecology of the Australian sea lion, Neophoca Cinerea</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Gales</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Monographs</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="27" to="43" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Leeuwin current A2</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cresswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Domingues</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Encyclopedia of ocean sciences</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Steele</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="page" from="444" to="454" />
+			<date type="published" when="2009">2009</date>
+			<publisher>Academic Press</publisher>
+			<pubPlace>Oxford, UK</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Studying seabird diet through genetic analysis of faeces: A case study on macaroni penguins (Eudyptes chrysolophus)</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Gales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Trebilco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hindell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">831</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Analysis of Australian fur seal diet by pyrosequencing prey DNA in faeces</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kirkwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="2022" to="2038" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Molecular scatology as a tool to study diet: Analysis of prey DNA in scats from captive Steller sea lions</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tollit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hindell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Trites</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Gales</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1831" to="1842" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Colony location and captivity influence the gut microbial community composition of the Australian sea lion (Neophoca cinerea)</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Delport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Power</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Harcourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Tetu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied and Environmental Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="3440" to="3449" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Species assemblages and indicator species: the need for a flexible asymmetrical approach</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dufrêne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Legendre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Monographs</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="345" to="366" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Search and clustering orders of magnitude faster than BLAST</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Edgar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="2460" to="2461" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Froese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pauly</surname></persName>
+		</author>
+		<ptr target="http://www.fishbase.org" />
+		<title level="m">Fishbase. World Wide Web electronic publication</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Estimating diet composition of the Australian sea-lion (Neophoca-Cinerea) from scat analysis -An unreliable technique</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Gales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Cheal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="447" to="456" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Neophoca cinerea, Australian Sea Lion, The IUCN Red List of Threatened Species</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Goldsworthy</surname></persName>
+		</author>
+		<idno type="DOI">10.2305/iucn.uk.2015-2.rlts.t14549a45228341.en</idno>
+		<ptr target="https://doi.org/10.2305/iucn.uk.2015-2.rlts.t14549a45228341" />
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goldsworthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mckenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shaughnessy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mcintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Campbell</surname></persName>
+		</author>
+		<title level="m">An update of the report: Understanding the impediments to the growth of Australian sea lion populations</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">SARDI research report series</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Assessing the trophic ecology of top predators across a recolonisation frontier using DNA metabarcoding of diets</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Kelaher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Goldsworthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bunce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Coleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Figueira</surname></persName>
+		</author>
+		<idno type="DOI">10.3354/meps12165</idno>
+		<ptr target="https://doi.org/10.3354/meps12165" />
+	</analytic>
+	<monogr>
+		<title level="j">Marine Ecology Progress Series</title>
+		<imprint/>
+	</monogr>
+	<note>In press</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Informing tisk assessment through estimating interaction rates between Australian sea lions and Western Australia&apos;s temperate demersal gillnet fisheries</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Hesp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Tweedley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mcauley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Chuwen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Hall</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+		<respStmt>
+			<orgName>Murdoch ; Centre for Fish and Fisheries Research, Murdoch University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Fisheries Research and Development Corporation Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Unveiling the diet of elusive rainforest herbivores in next generation sequencing era? The tapir as a case study</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hibert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scotti-Saintagne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sabatier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Richard-Hansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">60799</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Integrative analysis of environmental sequences using MEGAN 4</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Huson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mitra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Ruscheweyh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Schuster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Research</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1552" to="1560" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Geneious Basic: An integrated and extendable desktop software platform for the organization and analysis of sequence data</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kearse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stones-Havas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sturrock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Drummond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1647" to="1649" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kirkwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goldsworthy</surname></persName>
+		</author>
+		<title level="m">Fur Seals and Sea Lions</title>
+		<meeting><address><addrLine>Collingwood, Vic</addrLine></address></meeting>
+		<imprint>
+			<publisher>CSIRO Publishing</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Neophoca cinerea</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Ling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mammalian Species</title>
+		<imprint>
+			<biblScope unit="volume">392</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Dietary analysis of regurgitates and stomach samples from free-living Australian sea lions</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Mcintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Goldsworthy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildlife Research</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="661" to="669" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Bonferroni, Holm, and Hochberg corrections: Fun names, serious changes to p values</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mclaughlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Sainani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PM R</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="544" to="546" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">DNA-based faecal dietary analysis: A comparison of qPCR and high throughput sequencing approaches</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bunce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Cannell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Houston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Haile</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">25776</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">From benchtop to desktop: Important considerations when designing amplicon sequencing workflows</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Coghlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bunce</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">124671</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Oksanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guillaume</forename><surname>Blanchet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Friendly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kindt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Legendre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcglinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+		<ptr target="http://CRAN.R-project.org/package=vegan" />
+		<title level="m">vegan: Community Ecology Package. R package version 2.3-0</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Oksanen</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Variability in haul-out behaviour by male Australian sea lions Neophoca cinerea in the Perth metropolitan area, Western Australia</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Osterrieder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Salgado Kent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Endangered Species Research</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="259" to="274" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Responses of Australian sea lions, Neophoca cinerea, to anthropogenic activities in the Perth metropolitan area, Western Australia</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Osterrieder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Salgado Kent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aquatic Conservation: Marine and Freshwater Ecosystems</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="414" to="435" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The rise and fall of the &quot;marine heat wave&quot; off Western Australia during the summer of 2010/2011</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Pearce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marine Systems</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">112</biblScope>
+			<biblScope unit="page" from="139" to="156" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Fine-scale diet of the Australian sea lion (Neophoca cinerea) using DNA-based analysis of faeces</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ophelkeller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Bott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Goldsworthy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Ecology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="347" to="367" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">PCRbased techniques to determine diet of the Australian sea lion (Neophoca cinerea): A comparison with morphological analysis</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ophelkeller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Bott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Goldsworthy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marine Ecology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1428" to="1439" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Who is eating what: Diet assessment using next generation sequencing</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">O C</forename><surname>Symondson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1931" to="1950" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">A DNA metabarcoding study of a primate dietary diversity and plasticity across its entire fragmented range</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Quemere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hibert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miquel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lhuillier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rasolondraibe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Champeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chikhi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">58971</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">R: A language and environment for statistical computing</title>
+		<author>
+			<persName><forename type="first">Team</forename><surname>Core</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<publisher>R Foundation for Statistical Computing</publisher>
+			<pubPlace>Vienna, Austria</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">DNA barcoding of marine crustaceans from the Estuary and Gulf of St Lawrence: A regional-scale approach</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Radulovici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sainte-Marie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dufresne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology Resources</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="181" to="187" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">labdsv: Ordination and Multivariate Analysis for Ecology</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Roberts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">R package version</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="8" to="8" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Prey preference of snow leopard (Panthera uncia) in South Gobi, Mongolia</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shehzad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mccarthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pompanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Purevjav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coissac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">32104</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Carnivore diet analysis based on next-generation sequencing: Application to the leopard cat (Prionailurus bengalensis) in Pakistan</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shehzad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Nawaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miquel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Poillot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1951" to="1965" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Reproducibility of ancient DNA sequences from extinct Pleistocene fauna</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Biology and Evolution</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="283" to="285" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Improving accuracy of DNA diet estimates using food tissue control materials and an evaluation of proxies for digestion bias</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Jarman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Haman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Trites</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Deagle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Ecology</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="3706" to="3718" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

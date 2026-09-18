@@ -1,0 +1,1956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Estimating population size using single-nucleotide polymorphism-based pedigree data</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Robert</forename><surname>Spitzer</surname></persName>
+							<email>robert.spitzer@slu.se</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Wildlife, Fish and Environmental Studies</orgName>
+								<orgName type="laboratory">Wildlife Ecology Group</orgName>
+								<orgName type="institution">Swedish University of Agricultural Sciences</orgName>
+								<address>
+									<postCode>SE-901 83</postCode>
+									<settlement>Ume a</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anita</forename><forename type="middle">J</forename><surname>Norman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Wildlife, Fish and Environmental Studies</orgName>
+								<orgName type="laboratory">Molecular Ecology Group</orgName>
+								<orgName type="institution">Swedish University of Agricultural Sciences</orgName>
+								<address>
+									<postCode>SE-901 83</postCode>
+									<settlement>Ume a</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Schneider</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">V€ asterbotten County Administration</orgName>
+								<address>
+									<postCode>SE-901 86</postCode>
+									<settlement>Ume a</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">&amp;</forename><surname>G€ Oran Spong</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Wildlife, Fish and Environmental Studies</orgName>
+								<orgName type="laboratory">Molecular Ecology Group</orgName>
+								<orgName type="institution">Swedish University of Agricultural Sciences</orgName>
+								<address>
+									<postCode>SE-901 83</postCode>
+									<settlement>Ume a</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Forestry and Environmental Resources</orgName>
+								<orgName type="department" key="dep2">College of Natural Resources</orgName>
+								<orgName type="laboratory">Wildlife Ecology Group</orgName>
+								<orgName type="institution">North Carolina State University</orgName>
+								<address>
+									<postCode>27695</postCode>
+									<settlement>Raleigh</settlement>
+									<country>North Carolina</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Wildlife, Fish and Environmental Studies</orgName>
+								<orgName type="institution">Swedish University of Agricultural Sciences</orgName>
+								<address>
+									<postCode>SE-901 83</postCode>
+									<settlement>Ume a</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Estimating population size using single-nucleotide polymorphism-based pedigree data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8A41B786BA6B6DC881B48B130154E00D</idno>
+					<idno type="DOI">10.1002/ece3.2076</idno>
+					<note type="submission">Received: 2 December 2015; Revised: 21 February 2016; Accepted: 22 February 2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-06-05T10:47+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Brown bear</term>
+					<term>noninvasive sampling</term>
+					<term>pedigree reconstruction</term>
+					<term>population estimate</term>
+					<term>rarefaction</term>
+					<term>single-nucleotide polymorphism</term>
+					<term>SNP</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Reliable population estimates are an important aspect of sustainable wildlife management and conservation but can be difficult to obtain for rare and elusive species. Here, we test a new census method based on pedigree reconstruction recently developed by <ref type="bibr" target="#b8">Creel and Rosenblatt (2013)</ref>. Using a panel of 96 singlenucleotide polymorphisms (SNPs), we genotyped fecal samples from two Swedish brown bear populations for pedigree reconstruction. Based on 433 genotypes from central Sweden (CS) and 265 from northern Sweden (NS), the population estimates (N = 630 for CS, N = 408 for NS) fell within the 95% CI of the official estimates. The precision and accuracy improved with increasing sampling intensity. Like genetic capture-mark-recapture methods, this method can be applied to data from a single sampling session. Pedigree reconstruction combined with noninvasive genetic sampling may thus augment population estimates, particularly for rare and elusive species for which sampling may be challenging.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Estimates of the population size and its fluctuations are often fundamental for understanding ecological, behavioral, or genetic processes <ref type="bibr" target="#b42">(Ojaveer et al. 2004;</ref><ref type="bibr" target="#b11">Dochtermann and Peacock 2013;</ref><ref type="bibr" target="#b69">Valderrama et al. 2013</ref>) and practically indispensable for management and conservation <ref type="bibr" target="#b17">(Katzner et al. 2011)</ref>. This includes estimates of both effective and true population size, where the former is usually based on genetic data and models, while the latter typically use some form of census data, sometimes genetic. For example, such population size and trend estimates help identify particular factors that drive population dynamics and are hence critical for modeling the future of a population under different management scenarios <ref type="bibr" target="#b30">(Lewellen and Vessey 1998)</ref>. Moreover, estimates of true population size and trend are the basis for adaptive harvest quotas <ref type="bibr" target="#b75">(Wilson and Delahay 2001)</ref> as well as identifying populations under threat of becoming endangered or extinct <ref type="bibr" target="#b71">(Vie ́et al. 2009</ref>). However, reliable estimates are difficult to obtain. This is especially true for rare and elusive species, which are frequently of high conservation concern <ref type="bibr" target="#b48">(Rolland et al. 2011)</ref>. Large carnivores are no exception to this <ref type="bibr" target="#b20">(Kindberg et al. 2009;</ref><ref type="bibr" target="#b8">Creel and Rosenblatt 2013)</ref> as they are generally solitary and cryptic, in addition to occurring at low densities and across large home ranges. For several ecological, economic, and societal reasons, large carnivores in particular receive a disproportional amount of attention from research, conservation, and management. For example, carnivores may strongly affect the ecosystems they occupy, by changing the behavior of other carnivores and by direct and indirect effects on prey, which can lead to downstream effects on primary production <ref type="bibr" target="#b9">(Creel et al. 2007</ref>). In some areas, carnivores pose a threat to humans or come into direct conflict with human husbandry practices causing economic losses. For these, and more reasons, a range of remote or noninvasive methods have therefore been employed to study carnivores <ref type="bibr" target="#b16">(Jackson et al. 2006;</ref><ref type="bibr" target="#b25">Kojola et al. 2014</ref>). An increasingly popular and cost-efficient approach is to use noninvasive genetic sampling for the assessment of the number of individuals in a population (e.g., <ref type="bibr" target="#b37">Mowry et al. 2011;</ref><ref type="bibr" target="#b60">Sugimoto et al. 2012;</ref><ref type="bibr" target="#b56">Stansbury et al. 2014)</ref> often by collecting fecal samples during other management activities or by citizen volunteers (e.g., <ref type="bibr" target="#b21">Kindberg et al. 2011)</ref>.</p><p>Genetic data may also be used to assess a population's effective population size, an important parameter especially for small populations at risk of inbreeding or genetic drift. The framework of population genetics provides several way of inferring the effective population size, but the estimators suffer from being slow to respond to recent events, instead showing historic averages <ref type="bibr" target="#b43">(Palsboll et al. 2013)</ref>. To obtain more contemporary estimates, genetic data can be also used to derive demographic data used for calculating the current effective population size (e.g., <ref type="bibr" target="#b7">Creel 2002)</ref>. For many studies in ecology, however, the actual population size is a more important parameter to know than the underlying effective population size. Also in conservation, much focus has been placed on the effective population size. Yet, as pointed out by <ref type="bibr" target="#b29">Lande (1988)</ref>, the drivers of extinction are primarily habitat loss and overharvest, not lack of genetic variation. So while it is informative to know the effective population size, once its relationship to the actual population size has been determined, its continuous monitoring may be less important than knowing the actual population size. This is equally true for critically endangered populations at the verge of extinction as for larger populations not acutely threatened. Here, the actual population size is typically what management operates on when setting targets for quotas, dispersal events, or the population size and distribution.</p><p>Most statistical methods for estimating population size rely on multiple sampling events, known as capturemark-recapture (CMR) techniques which are comprehensively discussed by <ref type="bibr" target="#b28">Krebs (1999)</ref> and <ref type="bibr" target="#b62">Sutherland (2006)</ref>. A distinct disadvantage of classical CMR methods lies in the circumstance that the physical capture, particularly of large predators, is often impractical, costly, and potentially harmful to both sides <ref type="bibr" target="#b36">(Mowat et al. 1994;</ref><ref type="bibr" target="#b31">Logan et al. 1999;</ref><ref type="bibr" target="#b38">Muñoz-Igualada et al. 2008</ref>). In addition, differences in catchability resulting from trap-shy or trap-happy individuals could introduce systematic trapping bias. Such differences in personality traits <ref type="bibr" target="#b55">(Sih and Bell 2008)</ref> have been documented for many species, including badgers <ref type="bibr" target="#b68">(Tuyttens et al. 1999)</ref>, stoats <ref type="bibr" target="#b22">(King et al. 2003)</ref>, or rabbits <ref type="bibr" target="#b61">(Sunnucks 1998)</ref>.</p><p>Newer methods, such as camera trapping, have largely made classical CMR approaches obsolete in studies of large animals. But many cameras are needed to reach reasonable detection probabilities (and cameras are sometimes removed or destroyed by humans or other animals). Even more problematic is that relatively few species are reliably individually identifiable from photographs. In contrast, an individual's genotype is a unique and permanent mark. Noninvasively collected DNA samples (e.g., from feces or hair) in combination with molecular techniques offer another noninvasive alternative <ref type="bibr" target="#b23">(Kohn and Wayne 1997;</ref><ref type="bibr" target="#b67">Taberlet et al. 1999;</ref><ref type="bibr" target="#b72">Waits and Paetkau 2005;</ref><ref type="bibr" target="#b64">Swenson et al. 2011)</ref>. In direct genetic census methods, the genotype simply becomes a "molecular tag" <ref type="bibr" target="#b54">(Schwartz et al. 2007</ref>) which replaces traditional means of identification like earmarks or leg bands. Genotypes can thus be used as molecular tags in a CMR framework. But genetic data contain more information than just individual genotypes, such as information on pedigree structures in the population. From such information, unsampled individuals could potentially be inferred by their genetic fingerprint and included into the population estimates.</p><p>In 2013, Creel and Rosenblatt suggested a new, pedigree-based estimator for total population size. They evaluated the performance of their method through simulations parameterized with demographic data of African lions (Panthera leo) from Zambia. The method, henceforth referred to as the Creel-Rosenblatt estimator (CRE), incorporates the sum of sampled individuals (N s ), number of breeders (B s ), number of individuals inferred from pedigree reconstruction (N in ), and the estimated number of individuals that did not breed nor were sampled (rendering them invisible to pedigree reconstruction) into the population estimate. As such, it purports to increase the precision of genetically based population estimates.</p><p>As other genetically based CMR methods, the CRE requires only one sampling event (although multiple sampling events are also possible). This makes it a useful extension to the suite of tools available to estimate population sizes under circumstances where repeated sampling is difficult. In addition to being a novel approach for estimating population size, pedigree reconstruction can be used to investigate population structure <ref type="bibr" target="#b5">(Calboli et al. 2008;</ref><ref type="bibr" target="#b44">Pemberton 2008)</ref>, mating behavior <ref type="bibr" target="#b45">(Pemberton et al. 1992)</ref>, or dispersal <ref type="bibr" target="#b40">(Norman and Spong 2015)</ref>. The ideal genetic marker for pedigree reconstruction should provide high genomic resolution and be geared toward providing reliable relatedness estimates <ref type="bibr" target="#b8">(Creel and Rosenblatt 2013)</ref>. Single-nucleotide polymorphisms (SNPs) have proven to be a powerful tool for studying genetic variation in populations <ref type="bibr" target="#b4">(Brumfield et al. 2003;</ref><ref type="bibr" target="#b34">Morin et al. 2004</ref>). Compared with microsatellites, another type of frequently used genetic marker, SNP, offers lower error rates from mistyping and allelic dropout <ref type="bibr" target="#b33">(Morin and McCarthy 2007;</ref><ref type="bibr" target="#b41">Norman et al. 2013)</ref>. They are also reproducible across laboratories and are cheaper, allowing for higher genomic resolution within a given economic frame <ref type="bibr" target="#b0">(Anderson and Garza 2006)</ref>. Because only short intact sequences, typically 50-70 bp, of DNA are required for successful amplification, SNPs are especially suitable when working with degraded DNA, as is usually the case with noninvasively obtained samples <ref type="bibr" target="#b34">(Morin et al. 2004)</ref>.</p><p>Here, we use a panel of 96 SNPs recently developed for studying relatedness in the Scandinavian brown bear (Ursus arctos, Fig. <ref type="figure" target="#fig_1">1</ref>) population <ref type="bibr" target="#b41">(Norman et al. 2013)</ref>. We reconstructed pedigrees based on hunter-collected feces and apply the CRE method to estimate the size of the brown bear populations in the Swedish counties of Dalarna, G€ avleborg, and V€ asterbotten. Already existing population estimates for the brown bear in these areas <ref type="bibr">(Kindberg and</ref><ref type="bibr">Swenson 2013, 2015)</ref> provide us with a benchmark that can be used to empirically assess the performance of the CRE outside of a simulation environment making this study system appropriate. For further comparison, we also performed rarefaction analyses to estimate population size. This constitutes the first time that the estimator is applied to empirical data, as we were unable to find any reference describing the application of this method in the Web of Science TM publication database, with the last search completed on 17 November 2015.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study area and sample collection</head><p>The two study areas in central and northern Sweden encompassed the Swedish counties of Dalarna and G€ avleborg (ca. 46,300 km²) and V€ asterbotten (ca. 55,200 km²), respectively. To the west, these areas are delimited by the Scandinavian mountain range and to the east by the Baltic Sea (Fig. <ref type="figure" target="#fig_2">2</ref>). The southern border of Dalarna-G€ avleborg also demarcates the approximate southern limit of the brown bear distribution in Sweden. Dalarna-G€ avleborg is home to an estimated number of 793 bears, 95% CI <ref type="bibr">[621,</ref><ref type="bibr">1179]</ref>  <ref type="bibr" target="#b18">(Kindberg and Swenson 2013)</ref>. In 2014, the V€ asterbotten population was estimated to be 362 bears, 95% CI <ref type="bibr">[310,</ref><ref type="bibr">459]</ref>  <ref type="bibr" target="#b19">(Kindberg and Swenson 2015)</ref>. Studies of maternally inherited mitochondrial DNA (mtDNA) have shown that brown bears in Sweden belong to two genetically distinct lineages with approximately 7% differentiation between them <ref type="bibr" target="#b65">(Taberlet and Bouvet 1994)</ref>. The western lineage, found in south-central Sweden, originated from the Iberian refugium during the last ice age  (today's France and Spain), whereas the eastern lineage, found throughout northern Sweden, can be traced to Karelia in Russia <ref type="bibr" target="#b65">(Taberlet and Bouvet 1994)</ref>. At present, the two lineages remain largely separated around a welldocumented contact zone at the height of € Ostersund in central Sweden <ref type="bibr" target="#b66">(Taberlet et al. 1995)</ref>. Population monitoring could be especially important in case of the western mtDNA haplotype (southern population) which is only found in Europe, whereas the eastern haplotype is also prevalent in Asia and North America <ref type="bibr" target="#b73">(Waits et al. 2000;</ref><ref type="bibr">Saarma et al. 2007;</ref><ref type="bibr" target="#b27">Korsten et al. 2009;</ref><ref type="bibr" target="#b15">Hirata et al. 2013)</ref>.</p><p>Fecal samples were collected by volunteers, predominantly moose (Alces alces)-hunters, following the protocol of <ref type="bibr" target="#b1">Bellemain et al. (2005)</ref> and <ref type="bibr" target="#b21">Kindberg et al. (2011)</ref> during the periods of August-October 2012 in Dalarna-G€ avleborg and August-December 2014 in V€ asterbotten.</p><p>Volunteers recorded collection date and coordinates of the sample location and mailed this information together with their samples to the county administrations (in the case of the Dalarna-G€ avleborg collection) or in V€ asterbotten directly to the Molecular Ecology Group at the Swedish University of Agricultural Sciences (SLU) in Ume a. Upon arrival samples were stored in 70% ethanol solution at À20°C as recommended by <ref type="bibr" target="#b13">Frantzen et al. (1998)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Molecular analysis</head><p>DNA extraction from the Dalarna-G€ avleborg samples was carried out by Bioforsk, Norway <ref type="bibr" target="#b14">(Hagen and Aarnes 2013)</ref>, following procedures described by <ref type="bibr" target="#b53">Schregel et al. (2012)</ref>. In V€ asterbotten, DNA extraction was performed at SLU using a QIAsymphony SP (Qiagen, Hilden, Germany) robot according to the manufacturer's instructions.</p><p>SNPs were genotyped on a Fluidigm Biomark TM (Fluidigm Corporation, San Francisco, USA) using the 96 SNP panel developed by <ref type="bibr" target="#b41">Norman et al. (2013)</ref>. Since its first publication, the panel has undergone slight modifications (e.g., two linked SNPs were substituted with Y-chromosome SNPs) and now consists of 85 autosomal SNPs, four mtDNA SNPs as well as four Y-chromosome and three X-chromosome markers for sex determination <ref type="bibr" target="#b40">(Norman and Spong 2015)</ref>. Each run included negative controls with water in place of DNA. The genotype clusters assigned by the Biomark software were manually screened, and loci of questionable cluster affiliation were invalidated and removed from subsequent analyses. Species and sex were assigned according to the following criteria:</p><formula xml:id="formula_0">• bear = mtDNA SNP calls ≥3 • male = Y-chromosome SNP calls ≥3</formula><p>• female = Y-chromosome SNP calls = 0 and X-chromosome SNP calls ≥2</p><p>The above criteria were designed to avoid possible misidentification of poorly amplified male samples as females. In males, Y and X markers occur in equal proportion. The requirement that at least two of three X markers had to amplify for samples to be called female makes it extremely unlikely that such a sample was a male that had not amplified for the Y markers. As we only included samples that had amplified for more than 70 loci, the risk of having none of four Y markers but two of the X amplify for a male is 1 9 10 À4 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pedigree reconstruction</head><p>To reconstruct pedigrees, we used FRANz software version 2.0.0 <ref type="bibr" target="#b47">(Riester et al. 2009</ref>) which uses Markov Chain Monte Carlo (MCMC) simulation for estimating the statistical confidence of parentage inference. The software requires specifying an approximate maximum number of females and males (Nfmax and Nmmax) to avoid an empty pedigree due to convergence of the Markov Chain to a very high number of individuals <ref type="bibr" target="#b47">(Riester et al. 2009</ref>). We used the estimates from rarefaction analysis and the sex ratio present in the genotyped samples to set Nfmax/ Nmmax to 538/419 (Dalarna-G€ avleborg) and 249/239 (V€ asterbotten), respectively. Typing errors were empirically determined to 1.538 9 10 À4 for Dalarna-G€ avleborg and 0.01 for V€ asterbotten. The error rates from the two areas differ. This is because samples from Dalarna-G€ avleborg held the best available quality extract from each individual successfully genotyped with microsatellites at Bioforsk, whereas the error rate for the V€ asterbotten samples includes all samples that passed the amplification threshold for SNP genotyping. As microsatellite genotyping requires much higher quality DNA, the error rate of such samples becomes much lower. The maximum likelihood pedigrees produced by FRANz identify the putative sire and dam of sampled individuals. We further verified the FRANz reconstructed pedigrees by calculating the Lynch-Ritland relatedness coefficient (r) <ref type="bibr" target="#b32">(Lynch and Ritland 1999</ref>) for all identified parent-offspring (PO) and full-sibling (FS) pairs using COANCESTRY version 1.0.1.2. <ref type="bibr" target="#b74">(Wang 2011)</ref>. We chose the Lynch-Ritland relatedness coefficient because it has been found to have the lowest rate of misclassification and lower overall variance compared to other pairwise relatedness estimators <ref type="bibr" target="#b59">(Stone and Bj€ orklund 2001;</ref><ref type="bibr" target="#b10">Csillery et al. 2006)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Population estimates</head><p>Rarefaction, also referred to as accumulation-curve method, has traditionally been used to estimate species diversity in an area by plotting the cumulative number of newly recorded species against the total number sampled <ref type="bibr" target="#b6">(Colwell and Coddington 1994)</ref>. The same underlying logic can be applied for estimating population size by substituting the species count with the number of unique individuals/genotypes. As suggested by <ref type="bibr" target="#b24">Kohn et al. (1999)</ref>, a curve defined by the equation y = ax/(b+x) was fitted to our data. In this model, y equals the number of unique genotypes, x corresponds to the number of samples (genotyped feces), b is the rate of decline in the slope, and the asymptote a represents the estimated population size <ref type="bibr" target="#b1">(Bellemain et al. 2005)</ref>. We calculated the parameters a and b through nonlinear iterative regression using the statistical software package JMP Pro version 11.0.0 (SAS Institute). To account for the variance caused by the order in which samples are drawn, we repeated this process 100 times with random iterations of the genotype sampling order and used the mean of the resulting asymptotes as the rarefaction population estimate.</p><p>For the pedigree-based population estimates, we followed the recommendations by <ref type="bibr" target="#b8">Creel and Rosenblatt (2013)</ref> and specified the number of individuals sampled (N s ) as the number of individual genotypes, known breeders (B s ) as those individuals who had progeny in the pedigree and inferred individuals (N in ) as the missing parent in known parent-offspring dyads. However, assuming that each missing parent in the dyads constitutes a new individual would most likely cause an overestimation because brown bear males are known to mate with several females and vice versa <ref type="bibr" target="#b57">(Steyaert et al. 2012)</ref>. For example, an inferred sire may be the missing father in more than one of the mother-offspring dyads. Therefore, we used the improbable scenario in which the number of inferred individuals (N in ) equals the number of dyads in the pedigree only for approximating an upper bound of the population estimate. For a more realistic estimate that accounts for multiple parentages, we first screened all parent-offspring dyads in the pedigree for individuals with several offspring. If pairwise comparisons of the Lynch-Ritland relatedness suggested full-siblings (r ~0.5) among those offspring, we inferred only one new individual (the missing parent) from these dyads. For the remaining cases, we used a different approach where we assumed that the likelihood of sampling each sex was equal: We determined the ratio of all the known individual dams to the known individual sires in the pedigree and then used this ratio to infer the missing counterparts from the individual dams and sires in the pedigree dyads. In this way, the ratio of dams to sires with the inferred individuals included remains the same as it was in the original pedigree.</p><p>Another problem pointed out by <ref type="bibr" target="#b8">Creel and Rosenblatt (2013)</ref> is the circumstance that there is no way to ascer-tain how many of the inferred individuals are actually still alive at the time of the estimate. To account for mortality among inferred individuals, we assumed them to be at the typical breeding age of ~5 years <ref type="bibr" target="#b63">(Swenson et al. 2001</ref>) and applied the age-specific annual mortality rates as reported in Nilsson (2013) of 7.2% to inferred dams and 11.6% to sires, respectively.</p><p>Finally, we assessed the accuracy of the CRE results by comparing them to the official population estimates <ref type="bibr">(Kindberg and</ref><ref type="bibr">Swenson 2013, 2015)</ref> and to the results of rarefaction analysis. Because there is currently no method to assign confidence limits to the CRE population estimates, we estimated an upper and a lower bound. For the lower bound, we simply used the count of sampled genotypes. For the upper bound, we treated N in as equal to the number of dyads in the pedigree and assumed zero mortality among the inferred individuals.</p><p>To test the performance of the CRE at different sampling intensities, we used the data from V€ asterbotten due to the higher sampling coverage (approximately 73% of the population included in the sample) compared to only 55% in Dalarna-G€ avleborg. Varying the sampling intensity from 10% to 60% of the official population estimate, we applied the CRE to ten replicates of samples randomly drawn in correspondence with each sampling intensity level.</p><p>Not having 100% of the population included in the sample is a common limitation in studies based on field data, but validation of simulation results using empirical data may still reveal strengths and weaknesses.</p><p>We assumed that the pedigree would become less complete (contain fewer parent-offspring pairs) the further away the sampling occurred from the core sampling frame. This is because breeding individuals in peripheral areas might have moved beyond the borders of the sampling area and therefore may have been missed during the sample collection. In both areas, Dalarna-G€ avleborg and V€ asterbotten, the only true population border is the Baltic Sea to the east. To the north and the south, bears occur beyond the borders of the sampling areas. Most interesting is the border to the west, formed by the Scandinavian mountain range. Because mountain terrain can be difficult to access and because moose hunting is of lower intensity at higher altitudes, the sampling effort by volunteers was lower there than in other areas. If the pedigrees were to show similar levels of incompleteness along the western border compared with the "open" borders to the north and the south, it could indicate that bears in the mountains were missed in the sampling. If this were the case, it would lead to an underestimation of the population size. If, on the other hand, the mountains form a true border like the Baltic Sea, then the pedigree should be equally complete in both these locations.</p><p>From the coordinate data that were provided along with the fecal samples, the median centers of all known locations for an individual were calculated using R (R Development Core <ref type="bibr">Team, 2008)</ref>. We considered the median to be less biased than the mean because of its lower sensitivity to outliers. Inferring home ranges from the locations of fecal samples is prone to errors but <ref type="bibr" target="#b1">Bellemain et al. (2005)</ref> reported that the majority of fecal sites fall inside the home range or within 10 km of it. We determined the center point of the sampling area as the median center of all individual locations using the GIS package ArcMap version 10.2.2 (ESRI, 2014). We then sampled the individuals closest to the center point and the four borders (north, south, east, and west), respectively, at sample sizes of n = 100 for Dalarna-G€ avleborg and n = 70 in V€ asterbotten. The number of samples for V€ asterbotten had to be lower to avoid overlap because fewer individuals in total were available to sample from. In a second step, we also sampled males and females separately (Dalarna-G€ avleborg, n = 50; V€ asterbotten, n = 30) to investigate whether there are detectable differences between mother-daughter and father-son dyads.</p><p>To test for differences in the completeness of the pedigree, we used Pearson's chi-square test for homogeneity of proportions with the proportions corresponding to the number of parent-offspring pairs in the pedigree per number of sampled individuals. To further test whether there is a spatial effect on parent-offspring pairs in sexseparated pedigrees, we also sampled males and females randomly across the whole sampling area (Dalarna-G€ avleborg, n = 50; V€ asterbotten, n = 30).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>We successfully genotyped 433 individuals (243 females, 190 males) for Dalarna-G€ avleborg and 265 individuals (136 females, 129 males) for V€ asterbotten. Rarefaction analysis was based on 873 samples from Dalarna-G€ avleborg and 677 from V€ asterbotten. The maximum frequency at which an individual occurred in the sample was 19 for Dalarna-G€ avleborg and 16 for V€ asterbotten, respectively. The amplitudes of the curves fitted to the rarefaction data suggested population sizes of N = 895 (Dalarna-G€ avleborg) and N = 484 (V€ asterbotten).</p><p>Table <ref type="table">1</ref> summarizes the results of the FRANz reconstructed pedigrees. The proportions of breeders in both samples (0.37 Dalarna-G€ avleborg, 0.42 V€ asterbotten) are not significantly different (z = À1.42, P = 0.16), and the ratios of dams to sires are also very similar. As shown in Figure <ref type="figure" target="#fig_4">3</ref>, the mean pairwise Lynch-Ritland relatedness coefficient (r) for PO dyads and FS pairs did not significantly differ from the expected value of r = 0.5 for firstorder relatives (PO: t(292) = 0.33, P = 0.74; FS: t(39) = 1.60, P = 0.12) which corroborates the reconstructed pedigrees.</p><p>In Dalarna-G€ avleborg, we inferred six sires and four dams directly from full-sibling relationships among the known parent-offspring dyads. An additional 52 sires and 65 dams were inferred using the dam to sire ratio approach. After correcting for mortality, the total number of inferred individuals (N in ) (i.e., those missing from the pedigree) was 115. For V€ asterbotten, screening the parent-offspring dyads for full-siblings yielded four sires and three dams, whereas the ratio method suggested a further 41 sires and 45 dams resulting in N in = 85 after mortality correction. Therefore, applying CRE to these numbers (N s and B s from Table <ref type="table">1</ref> and N in ) resulted in estimated population sizes of N = 630 for Dalarna-G€ avleborg and Table <ref type="table">1</ref>. Key characteristics of the reconstructed pedigrees showing the number of individuals with both parents identified (triads), one parent identified (dyads) or no identified parent. N s denotes the number of directly sampled individuals (number of genotypes), and B s corresponds to known breeders (individuals with at least one offspring in the pedigree). N = 408 for V€ asterbotten. Comparison with official bear population estimates shows that both CRE results fall within the 95% CI of official estimates (Fig. <ref type="figure" target="#fig_5">4</ref>). Using the genotype count as a measure for minimum population size and number of dyads for the estimate of N in under the assumption of no mortality, the lower and upper bounds for the CRE correspond to 433 and 728 in Dalarna-G€ avleborg and to 265 and 476 in V€ asterbotten.</p><p>Testing for effects of sampling intensity with our empirical data, we found a similar pattern as <ref type="bibr" target="#b8">Creel and Rosenblatt (2013)</ref> did in their simulations (Fig. <ref type="figure" target="#fig_6">5</ref>). At a sampling intensity of 10%, the coefficient of variation (CV) for the different CRE estimates was 7% and the percentage difference to the official population size estimate 157%; at a sampling intensity of 60%, both CV and percentage difference decreased to 3%. This suggests that CRE population estimates increase in both precision and accuracy with increasing sampling intensity.</p><p>Our tests for edge effects of sampling boundaries revealed no significant differences in completeness of the pedigree between the core area and four peripheral border areas in Dalarna-G€ avleborg, v²(4) = 7.05, P = 0.134, or V€ asterbotten, v²(4) = 1.97, P = 0.74.</p><p>When males and females were sampled separately, significantly more mother-daughter than father-son dyads were found in Dalarna-G€ avleborg, v²(9) = 62.79, P &lt; 0.0001 (Fig. <ref type="figure" target="#fig_7">6</ref>). When the same number of males and females (n = 50) were sampled randomly across the whole area, there was no significant difference between the proportions of mother-daughter and father-son dyads per sampled individuals, z = À0.521, P = 0.602. In V€ asterbotten, the difference in proportions between male and female dyads was not significant, v²(9) = 15.28, P = 0.083. The two-sample z-test for proportions when females and males (n = 30) were sampled randomly across the whole area was also not significant, z = À0.645, P = 0.52.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In this study, we applied the recently developed Creel-Rosenblatt estimator (CRE), a pedigree reconstructionbased method, to estimate the size of two fractions of the Swedish brown bear population. SNP genotypes obtained from noninvasively collected fecal samples were used to reconstruct pedigrees from which we were able to infer the presence of additional individuals which otherwise would have remained undetected. Compared to a simple count of detected genotypes, the CRE increased the population estimates by 45% for Dalarna-G€ avleborg and 54% for V€ asterbotten. The circumstance that reliable population estimates were available prior to this study provided an excellent opportunity for testing this new census  method because it allowed for the verification of the results. Our pedigree reconstruction-based population estimates of the CRE fell within the confidence limits of the most recent official estimates. This is an indication that the method provides a potential alternative to traditional CMR approaches with the added benefit that it can be employed using data from a single sampling event.</p><p>While their percentage relative precision (PRP), a measure which relates a population estimate to its 95% confidence limits <ref type="bibr" target="#b62">(Sutherland 2006)</ref>, is actually quite good for the study of natural populations (21% in V€ asterbotten and 35% in Dalarna-G€ avleborg), their confidence limits are nevertheless wide. It is therefore difficult to ascertain how close our estimates really are to the true population size. However, the CRE results appear to be further corroborated by the rarefaction results. Simulations by Vali ere ( <ref type="formula">2002</ref>) have shown the model we used to extrapolate the rarefaction curves has a tendency to overestimate population size if the sampling effort is high. As shown in Figure <ref type="figure" target="#fig_5">4</ref>, the rarefaction results indeed exceed both the CMR and CRE estimates and more so in V€ asterbotten where the sampling intensity was higher. This suggests that the CRE results are actually close to the true figure.</p><p>As previously demonstrated by <ref type="bibr" target="#b8">Creel and Rosenblatt (2013)</ref>, we found that the method works best if the sampling intensity exceeds ~40%. At lower sampling intensities, the estimator tends to severely underestimate the population size. This can be explained by the fact that small sample sizes usually do not contain many parentoffspring pairs which severely restricts the pedigree reconstruction. At much higher sampling intensities (e.g., &gt;80%), hardly any information is gained over a simple count (see <ref type="bibr" target="#b8">Creel and Rosenblatt 2013)</ref>. Moreover, the risk of overestimation also increases. If, in the extreme case, 100% of individuals were sampled and no reliable information of mortality was available, the CRE would severely overestimate the size of the population because individuals (albeit dead) would still be inferred from the pedigree <ref type="bibr" target="#b8">(Creel and Rosenblatt 2013)</ref>. The CRE is therefore best suited for noncyclical species with generational overlap and either low or well-documented mortality rates. The published mortality rates for Swedish brown bears are likely to be accurate because natural mortality of adults is rare in comparison with hunting or traffic accidents which are closely monitored <ref type="bibr">(M€ orner et al. 2005)</ref>. Gross overestimation due to unknown mortality rates can also be avoided by comparing the CRE estimates to those obtained from rarefaction analysis on the same data because the slope and amplitude of the rarefaction curve provide good approximations of population size and the proportion sampled. Contrary to our expectation, we found no significant differences in the completeness of the pedigree when sampling individuals from the peripheries of the study area compared to the center regions. This suggests that many individuals roamed widely with frequent crossings in and out of the study area. Nor did we see a more incomplete pedigree in the west where mountains and low human population density result in a lower sampling effort, suggesting that a similar proportion of individuals are sampled in this area too. Indeed, all peripheral areas were similar, including the hard border to the east, the Baltic Sea. The circumstance that more mother-daughter than father-son dyads were found when separately sampling the same number of individuals from both sexes within a specific area is expected as brown bears show female philopatry <ref type="bibr" target="#b2">(Blanchard and Knight 1991;</ref><ref type="bibr" target="#b58">Støen et al. 2005;</ref><ref type="bibr">Saarma and Kojola 2007)</ref>.</p><p>For well-studied populations that are regularly sampled, the CRE offers no immediate advantage over established CMR methods in terms of estimating population size. However, if sampling occurs over a number of years, the required sampling effort to maintain a desired sampling coverage should be considerably reduced as genotyped individuals accumulate. In simulations by <ref type="bibr" target="#b8">Creel and Rosenblatt (2013)</ref>, the proportion of the population that had to be sampled typically dropped to ≤20% within 3 years. The CRE could therefore prove to be useful in situations where budgetary or logistic constraints make repeated, large-scale sampling events unrealistic, for example, in remote regions or developing countries. In their simulations, <ref type="bibr" target="#b8">Creel and Rosenblatt (2013)</ref> tracked all individuals throughout the simulated period of 15 years which means they consistently had accurate information about parent-offspring relationships and mortalities. Based on these data, they were able to infer individuals (as the missing parent in parent-offspring dyads) without error. In pedigrees reconstructed from empirical genetic field data, this inference is less straightforward especially for species with nonmonogamous mating behavior. Inferring the correct number of missing sires or dams continues to be a major challenge of the CRE method. The additional information provided by the Lynch-Ritland relatedness coefficient (r) helped to improve the resolution of the pedigree by enabling us to detect full-siblings among the parent-offspring dyads which then allowed for correct inference of the missing sire or dam. Based on the values of r, we suspect that there are several half-siblings which share the invisible parent. Unfortunately, it is not sufficient to infer the missing parent as one individual in these cases because the coefficient only captures the degree of relatedness and not the specific relationship. Half-siblings share on average approximately 25% of alleles but the same is true for grandparent-grandoffspring and avuncular relationships <ref type="bibr" target="#b3">(Blouin 2003)</ref>. Thus, the true relationship between two individuals can usually not be inferred from their degree of relatedness alone.</p><p>To further improve the inferences from the pedigree, information about the age of the sampled individuals is needed. If genetic relatedness can be combined with age in the analysis, the most probable relationships are easily determined. We recommend keeping track of each genotyped individual from the date it was first recorded. Even if the true age remains unknown, a minimum age can be assigned, and over the course of several sampling periods, individuals can at least be compared on the basis of age relative to one another. This would considerably improve the accuracy of the pedigrees, particularly with regard to the directionality in putative parent-offspring dyads <ref type="bibr" target="#b26">(Kopps et al. 2015)</ref>, thereby helping to refine the CRE population estimates. Using the ratio of known dams and sires for inference of individuals may not fully reflect reality, but given the restrictions of the data, we have shown that it results in a credible estimate.</p><p>Concurrent with the simulation results of <ref type="bibr" target="#b8">Creel and Rosenblatt (2013)</ref>, and using empirical data, we show that accurate estimates of total population size are possible from reconstructed pedigrees. The estimator is limited by the resolution of the pedigree and potentially unknown mortality rates. It therefore works best in long-lived species with lots of generational overlap and is further helped if "first seen" records are kept to give rough estimates of age. This makes the method particularly appealing for recurring sampling in the same population.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>ª</head><label></label><figDesc>2016 The Authors. Ecology and Evolution published by John Wiley &amp; Sons Ltd.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. A female Scandinavian brown bear with cubs. Source: Nyhetsbyr an.</figDesc><graphic coords="3,67.24,71.15,224.10,149.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Map showing the location of the study areas (blue) within Sweden (red).</figDesc><graphic coords="3,312.56,71.15,224.10,320.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>ª</head><label></label><figDesc>2016 The Authors. Ecology and Evolution published by John Wiley &amp; Sons Ltd.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>DalarnaFigure 3 .</head><label>3</label><figDesc>Figure 3. First-order relatives in the reconstructed pedigrees correspond well with the expected value (r = 0.5) for the Lynch-Ritland relatedness coefficient.</figDesc><graphic coords="6,304.61,247.79,223.06,219.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. The pedigree reconstruction-based population estimates of the Creel-Rosenblatt estimator (CRE) fall within the 95% confidence limits of the official estimates based on multiple capture-markrecapture (CMR) techniques. Rarefaction analysis (R) using the extrapolation model suggested by Kohn et al. (1999) resulted in higher estimates.</figDesc><graphic coords="7,67.24,71.15,223.99,225.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. The precision and accuracy of the CRE improved with increasing sampling intensity. The y-axis is on a log scale to show the changes in variance of the population estimates at different sampling intensities (precision) and their distance from the true value (accuracy) in correct proportions. The dashed line denotes the official population estimate for V€ asterbotten ( N = 362) which was assumed to be the true population size (100%). The filled square represents the full set of genotypes (n = 265) for V€ asterbotten which corresponds to a sampling intensity of 73%.</figDesc><graphic coords="7,312.58,71.15,224.08,186.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Mother-daughter (light gray) and father-son dyads (dark gray) in the pedigree per sampled individuals (n = 50 in Dalarna-G€ avleborg, n = 30 in V€ asterbotten) in the core and along the peripheral boundaries of the counties. Except for the core of Dalarna-G€ avleborg, there are generally more mother-daughter than fatherson dyads in each area, indicating female philopatry.</figDesc><graphic coords="8,58.80,71.15,224.07,209.85" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>20457758, 2016, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/ece3.2076 by Portail BibCNRS INEE, Wiley Online Library on [05/06/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3178" xml:id="foot_1"><p>ª 2016 The Authors. Ecology and Evolution published by John Wiley &amp; Sons Ltd.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>ª 2016 The Authors. Ecology and Evolution published by John Wiley &amp; Sons Ltd.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We thank the numerous volunteers who participated in the sample collection and our laboratory technician, <rs type="person">Helena K€</rs> onigsson, for carrying out the genotyping. <rs type="person">Jonas Kindberg</rs> from the <rs type="institution">Scandinavian Brown Bear Research Project</rs> provided valuable insights into the official population estimates. We also thank the reviewers for helpful comments that improved the manuscript.</p></div>
+			</div>
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>No funding information provided.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of Interest</head><p>None declared.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The power of singlenucleotide polymorphisms for large-scale parentage inference</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Garza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page" from="2567" to="2582" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Estimating population size of elusive animals with DNA from hunter-collected feces: four methods for brown bears</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Swenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tallmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brunberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="150" to="161" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Movements of Yellowstone grizzly bears</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Blanchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Knight</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="41" to="67" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">DNA-based methods for pedigree reconstruction and kinship analysis in natural populations</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Blouin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="503" to="511" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The utility of single nucleotide polymorphisms in inferences of population history</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Brumfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Beerli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Edwards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="249" to="256" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Population structure and inbreeding from pedigree analysis of purebred dogs</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C F</forename><surname>Calboli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sampson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fretwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Balding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">179</biblScope>
+			<biblScope unit="page">593</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Estimating terrestrial biodiversity through extrapolation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Colwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Coddington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Trans. R. Soc. Lond. B Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page" from="101" to="118" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Social Organization and Effective Population Size in Carnivores</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Creel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Behavioral ecology and conservation biology</title>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Caro</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Chicago, IL</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="246" to="269" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Using pedigree reconstruction to estimate population size: genotypes are more than individually unique marks</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Creel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rosenblatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1294" to="1304" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Predation Risk Affects Reproductive Physiology and Demography of Elk</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Creel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Christianson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Winnie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">315</biblScope>
+			<biblScope unit="page">960</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Performance of markerbased relatedness estimators in natural populations of outbred vertebrates</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Csillery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Beraldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Clutton-Brock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Coltman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hansson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page" from="2091" to="2101" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Inter-and intraspecific patterns of density dependence and population size variability in Salmoniformes</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dochtermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Peacock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oecologia</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="page" from="153" to="162" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m">ArcGIS desktop: release 10</title>
+		<meeting><address><addrLine>Redlands, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ESRI</publisher>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+		<respStmt>
+			<orgName>Environmental Systems Research Institute</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Empirical evaluation of preservation methods for faecal DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A J</forename><surname>Frantzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Silk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W H</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kohn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1423" to="1428" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Hagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Aarnes</surname></persName>
+		</author>
+		<title level="m">Analyserapport. DNAanalyse av ekskremet-prøver fra brunbjørn insamlet i Dalarna, G€ avleborg och V€ armlands l€ an i</title>
+		<meeting><address><addrLine>Svanvik, Norway</addrLine></address></meeting>
+		<imprint>
+			<publisher>Bioforsk</publisher>
+			<date type="published" when="2012">2013. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Molecular phylogeography of the brown bear (Ursus arctos) in Northeastern Asia based on analyses of complete mitochondrial DNA sequences</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hirata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Abramov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Baryshnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Kosintsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Vorobiev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1644" to="1652" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Estimating snow leopard population abundance using photography and capture-recapture techniques</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Roe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wangchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">O</forename><surname>Hunter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Soc. Bull</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="772" to="781" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Conservation implications of inaccurate estimation of cryptic population size</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Katzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A R</forename><surname>Ivy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Bragin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Milner-Gulland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Dewoody</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anim. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="328" to="332" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kindberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Swenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Ber€ akning av bj€ ornstammens storlek i V€ armland, Dalarnas och G€ avleborgs l€ an</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>www.bearproject.info</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Bj€ ornstammens storlek i V€ asterbotten</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kindberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Swenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Scandinavian Brown Bear Research Project</title>
+		<imprint>
+			<date type="published" when="2014">2015. 2014</date>
+		</imprint>
+	</monogr>
+	<note>www.bearproject.info</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Monitoring rare or elusive large mammals using effort-corrected voluntary observers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kindberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ericsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Swenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Conserv</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="159" to="165" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Estimating population size and trends of the Swedish brown bear Ursus arctos population</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kindberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Swenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ericsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miquel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="114" to="123" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Capture probability and heterogeneity of trap response in stoats (Mustela erminea)</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Purdey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lawrence</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="611" to="619" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Facts from feces revisited</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="223" to="227" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Estimating population size by genotyping faeces</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>York</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Kamradt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Haught</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Sauvajot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. Lond. -B. Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">266</biblScope>
+			<biblScope unit="page" from="657" to="663" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Tracks in snow and population size estimation: the wolf Canis lupus in Finland</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kojola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Helle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Heikkinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lind En</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paasivaara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wikman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="279" to="284" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">How well do molecular and pedigree relatedness correspond, in populations with diverse mating systems, and various types and quantities of molecular and demographic data?</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Kopps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Sherwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Palsb€ Oll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">G</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1815" to="1826" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Sudden expansion of a single brown bear maternal lineage across northern continental Eurasia after the last ice age: a general demographic model for mammals?</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Korsten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Davison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>P€ Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Vulla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1963" to="1979" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Krebs</surname></persName>
+		</author>
+		<title level="m">Ecological methodology</title>
+		<meeting><address><addrLine>Menlo Park, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Benjamin/ Cummings</publisher>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Genetics and demography in biological conservation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lande</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">241</biblScope>
+			<biblScope unit="page" from="1455" to="1460" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Modeling biotic and abiotic influences on population size in small mammals</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Lewellen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Vessey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oecologia</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="210" to="218" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Capturing pumas with foot-hold snares</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Logan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Sweanor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Hornocker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Soc. Bull</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="201" to="208" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Estimation of pairwise relatedness with molecular markers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ritland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page">1753</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Highly accurate SNP genotyping from historical and low-quality samples</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mccarthy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Notes</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="937" to="946" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">SNPs in ecology, evolution and conservation</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Morin</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">SNP Workshop Group</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">SNP Workshop Group</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">SNP Workshop Group</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>The</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">SNP Workshop Group</orgName>
+			</affiliation>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="208" to="216" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Diseases and mortality in free-ranging brown bear (Ursus arctos), gray wolf (Canis lupus), and Wolverine (Gulo gulo) in Sweden</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>M€ Orner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Br€ Ojer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Uhlhorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Agren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Dis</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="298" to="303" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A comparison of three live capturing devices for lynx: capture efficiency and injuries</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mowat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Slough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rivard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Soc. Bull</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="644" to="650" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">River otter population size estimation using noninvasive latrine surveys</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Mowry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Gompper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beringer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Eggert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1625" to="1636" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Evaluation of cage-traps and cable restraint devices to capture red foxes in Spain</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Muñoz-Igualada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Shivik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Dom Inguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Gonz Alez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="830" to="836" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nilsson</surname></persName>
+		</author>
+		<title level="m">Population viability analyses of the Scandinavian populations of bear (Ursus arctos) lynx (Lynx lynx) and wolverine (Gulo gulo)</title>
+		<meeting><address><addrLine>Bromma</addrLine></address></meeting>
+		<imprint>
+			<publisher>Swedish Environmental Protection Agency</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Report 6549</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Single nucleotide polymorphism-based dispersal estimates using noninvasive sampling</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Norman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Spong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="3056" to="3065" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">De novo SNP discovery in the Scandinavian brown bear (Ursus arctos)</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Norman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Street</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Spong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">e81012</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Population dynamics and ecological impact of the non-indigenous Cercopagis pengoi in the Gulf of Riga (Baltic Sea)</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ojaveer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Simm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lankov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Aquat. Sci</title>
+		<imprint>
+			<biblScope unit="volume">522</biblScope>
+			<biblScope unit="page" from="261" to="269" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Inferring recent historic abundance from current genetic diversity</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Palsboll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Z</forename><surname>Peery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Olsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Beissinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Berube</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="22" to="40" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Wild pedigrees: the way forward</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pemberton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B-Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="613" to="621" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Behavioral estimates of male mating success tested by DNA fingerprinting in a polygynous mammal</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pemberton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Albon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Guinness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Clutton-Brock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dover</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behav. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="66" to="75" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">R: a language and environment for statistical computing</title>
+		<author>
+			<orgName type="collaboration">R Development Core Team</orgName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">R Foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">FRANz: reconstruction of wild multi-generation pedigrees</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Riester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Stadler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Klemm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="2134" to="2139" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Comparing profile methods and site-occupancy modelling for the study of occurrence of an elusive species</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rolland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Basille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Marboutin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Gaillard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1115" to="1118" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Matrilineal genetic structure of the brown bear population in Finland</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Saarma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kojola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="30" to="37" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Mitogenetic structure of brown bears (Ursus arctos L.) in northeastern Europe and a new time frame for the formation of European brown bear lineages</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Saarma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y W</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">G</forename><surname>Pybus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kaljuste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">L</forename><surname>Tumanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kojola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="401" to="413" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">I. JMP Pro version</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">0</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>SAS Institute</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Cary</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989">1989-2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Limited gene flow among brown bear populations in far Northern Europe? Genetic analysis of the east-west border population in the Pasvik Valley</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schregel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kopatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Hagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Broseth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wikan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="3474" to="3488" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Genetic monitoring as a promising tool for conservation and management</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Waples</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="25" to="33" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Insights for behavioral ecology from behavioral syndromes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Study Behav</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="227" to="281" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">A long-term population monitoring approach for a wide-ranging carnivore: noninvasive genetic sampling of gray wolf rendezvous sites in Idaho, USA</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Stansbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Ausband</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Mack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Pennell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1040" to="1049" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">The mating system of the brown bear Ursus arctos</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M J G</forename><surname>Steyaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Endrestøl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hackl€ Ander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Swenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zedrosser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm. Rev</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="12" to="34" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Kin-related spatial structure in brown bears Ursus arctos</title>
+		<author>
+			<persName><forename type="first">O.-G</forename><surname>Støen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saebø</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Swenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behav. Ecol. Sociobiol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="191" to="197" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">delrious: a computer program designed to analyse molecular marker data and calculate delta and relatedness estimates with confidence</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bj€</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Notes</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="209" to="212" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Population size estimation of Amur tigers in Russian Far East using noninvasive genetic samples</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nagata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Aramilev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Mccullough</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mammal</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="93" to="101" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Avoidance of novel objects by rabbits (Oryctolagus cuniculus L.)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sunnucks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="273" to="283" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sutherland</surname></persName>
+		</author>
+		<title level="m">Ecological census techniques: a handbook</title>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Factors associated with loss of brown bear cubs in Sweden</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Swenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sandegren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brunberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Segerstrom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ursus</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="69" to="80" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Genetics and conservation of European brown bears Ursus arctos</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Swenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bellemain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm. Rev</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="87" to="98" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Mitochondrial DNA polymorphism, phylogeography, and conservation genetics of the brown bear Ursus arctos in Europe</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bouvet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. Lond. -B. Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">255</biblScope>
+			<biblScope unit="page" from="195" to="200" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Localization of a contact zone between two highly divergent mitochondrial DNA lineages of the brown bear Ursus arctos in Scandinavia</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Swenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sandegren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bjarvall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1255" to="1261" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling: look before you leap</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luikart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="323" to="327" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Differences in trappability of European badgers Meles meles in three populations in England</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A M</forename><surname>Tuyttens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Delahay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Mallinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1051" to="1062" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Effects of population size on singing behavior of a rare duetting songbird</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Valderrama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Molles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Waas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Conserv. Biol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="210" to="218" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">gimlet: a computer program for analysing genetic individual identification data</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vali Ere</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Notes</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="377" to="379" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<author>
+			<persName><forename type="first">J.-C</forename><surname>Vie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hilton-Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Stuart</surname></persName>
+		</author>
+		<title level="m">Wildlife in a changing world; IUCN red list of threatened species. 2008: an analysis of the 2008 IUCN red list of threatened species. Analysis of the 2008 IUCN red list of threatened species</title>
+		<meeting><address><addrLine>Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>Gland</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Noninvasive genetic sampling tools for wildlife biologists: a review of applications and recommendations for accurate data collection</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paetkau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Wildl. Manage</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1419" to="1433" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Nuclear DNA microsatellite analysis of genetic diversity and gene flow in the Scandinavian brown bear (Ursus arctos)</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Waits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taberlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Swenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sandegren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Franzen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="421" to="431" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">COANCESTRY: a program for simulating, estimating and analysing relatedness and inbreeding coefficients</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol. Resour</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="141" to="145" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">A review of methods to estimate the abundance of terrestrial carnivores using field signs and observation</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Delahay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wildl. Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="151" to="164" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
