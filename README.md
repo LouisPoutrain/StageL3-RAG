@@ -128,7 +128,7 @@ Plutot que de recourir a des extrapolations forfaitaires, le systeme instrumente
 
 ```text
 StageL3-RAG/
-|-- LICENSE                               # Licence MIT (Louis Poutrain et Raphael Maladin, 2026)
+|-- LICENSE                               # Licence MIT (Louis Poutrain et Raphael Maladin - RaphaelM, 2026)
 |-- README.md                             # Documentation technique de reference (zero emoji)
 |-- Stage L3 RAG.xml                      # Export Zotero TEI de la bibliographie scientifique de reference (33 publications)
 |-- index.html                            # Redirection GitHub Pages
@@ -337,6 +337,6 @@ Les references ci-dessous constituent le socle theorique, methodologique et algo
 
 ## Auteurs et Licence
 
-- **Auteurs** : Louis Poutrain, Raphael Maladin (Stage L3 Informatique - Recherche en Software Engineering & NLP)
+- **Auteurs** : Louis Poutrain, Raphael Maladin (RaphaelM) (Stage L3 Informatique - Recherche en Software Engineering & NLP)
 - **Supervision Academique** : Universite de Tours (Laboratoire d'Informatique Fondamentale et Appliquee)
 - **Licence** : Ce projet est sous licence libre [MIT](LICENSE).
